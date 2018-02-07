@@ -1,14 +1,14 @@
 #!/bin/bash
-TXT_PATH=`pwd`
-echo "$(TXT_PATH)"
+TXT_PATH=$(pwd)
 CC=gcc
 TXT=
-echo "$(TXT_PATH)"
-cd $(TXT_PATH)/../
-CC = `ls`
-for var in `ls`
+LS_FILE=
+echo "${TXT_PATH}"
+cd ${TXT_PATH}/../
+echo "$(pwd)"
+
+for var in LS_FILE=`ls`
 do
-	echo "$(CC)"
+	echo "${var}"
 done
-echo "cd $(TXT_PATH)"
 cd -
