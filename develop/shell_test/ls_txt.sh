@@ -17,4 +17,5 @@ do
 	fi
 done
 Calc_md5sum
-
+CONEXT=$(sed -n '1,4p' ls.sh)
+echo "${CONEXT}"
