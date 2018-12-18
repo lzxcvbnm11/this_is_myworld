@@ -1,0 +1,599 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\scs.dbo -source=scs.c -o .\obj\gh_00008c81.o -list=.\obj\scs.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+Source File: scs.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\SCS\scs.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+                         112 --		-o .\obj\scs.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\SCS\scs.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:31 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : scs.c
+                         128 --5: * Description : SCS API application
+                         129 --6: * Author: Hejianjun
+                         130 --7: * Date: 2016-11-30
+                         131 --8: ******************************************************************************/
+                         132 --12: /* Files for including */
+                         133 --13: #include "scs_info.inc"
+                         134 --15: static BOOL scs_OnoffCmd = FALSE;                        /*控制软开关的命令*/
+                         135 --16: static BOOL scs_NetStabCtrlDsblSwAReq = FALSE;           /* 存储发送的网络信号*/
+                         136 --17: static BOOL scs_InitSts = FALSE;                         /* SCS 模块的初始化状态*/
+                         137 --18: static BOOL insSCSOffSwitchEnPrm;                        /*配置字是否具有动态稳定控制系统*/
+                         138 --19: static U8  insSCSOffRemPrm;                              /*配置字scsoff switch */
+                         139 --20: static U8 scs_GCounter = 0;                              /* 用于内部函数的周期计数*/
+                         140 --21: static U8 scs_Max_Cnt = 0;
+                         141 --22: static U8 scs_Time1SArrive = 0;                          /* 到达1S 需要的次数*/
+                         142 --25: /***************************************************
+                         143 --26: * Function: SCS_Init
+                         144 --27: * Description: SCS module initialized
+                         145 --28: * Parameters: none
+                         146 --29: * Returns: none
+                         147 --30: * $Create & Verlog:$
+                         148 --31: * Author:Hejianjun  Date:2016-11-30   Version:V1.0
+                         149 --32: ****************************************************/
+                         150 --33: void SCS_Init(void)
+                         151 	.text
+                         152 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036C..0::
+                         153 	.align	2
+                         154 	.global	_SCS_Init
+                         155 _SCS_Init:
+00000000 8007e100        156 	prepare	{r28,r29,r31},0
+00000004 3d0600000000*   157 	mov	.L40,r29
+0000000a 3c0600000000*   158 	mov	_insSCSOffRemPrm,r28
+                         159 --	    .bf
+                         160 .LDW01:
+                         161 --34: {
+                         162 --35:     scs_OnoffCmd = FALSE;
+00000010 5d070000        163 	st.b	zero,0[r29]
+                         164 --36:     scs_NetStabCtrlDsblSwAReq = FALSE;
+00000014 5d070100        165 	st.b	zero,1[r29]
+                         166 --37:     scs_InitSts = TRUE;
+00000018 010a            167 	mov	1,r1
+0000001a 5d0f0200        168 	st.b	r1,2[r29]
+                         169 --38:     scs_GCounter = 0u;
+0000001e 5d070300        170 	st.b	zero,3[r29]
+                         171 --39:     
+                         172 --40:     insSCSOffSwitchEnPrm = DIAG_GetSCSOffSwitchEn();
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+                         173 	jarl	_DIAG_GetSCSOffSwitchEn,lp
+                         173 <EXPANSION BEGIN>
+                         173 jarl22 _DIAG_GetSCSOffSwitchEn , lp 
+00000022 80ff0000*       173 <EXPANSION END>
+00000026 2b0600000000*   174 	mov	_insSCSOffSwitchEnPrm,r11
+0000002c 4b570000        175 	st.b	r10,0[r11]
+                         176 --41:     insSCSOffRemPrm = DIAG_GetSCSOffRem();
+                         177 --line41
+                         178 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.1::
+                         179 .LDWlin1:
+                         180 	jarl	_DIAG_GetSCSOffRem,lp
+                         180 <EXPANSION BEGIN>
+                         180 jarl22 _DIAG_GetSCSOffRem , lp 
+00000030 80ff0000*       180 <EXPANSION END>
+00000034 f157400c        181 	trncf.suw	r10,r1
+00000038 8100            182 	zxb	r1
+0000003a 5c0f0000        183 	st.b	r1,0[r28]
+                         184 --43:     scs_Max_Cnt = S_TO_MS(insSCSOffRemPrm)/SCS_PROCESS_PERIOD;
+                         185 --line43
+                         186 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.2::
+                         187 .LDWlin2:
+0000003e 9c0f0100        188 	ld.bu	0[r28],r1
+00000042 20763200        189 	movea	50,zero,r14
+00000046 e10ee803        190 	mulhi	1000,r1,r1
+0000004a ee0ffc02        191 	divq	r14,r1,zero
+0000004e 5d0f0400        192 	st.b	r1,4[r29]
+                         193 --44:     scs_Time1SArrive = (U8)(S_TO_MS(insSCSOffRemPrm) /SCS_PROCESS_PERIOD);    
+00000052 9c0f0100        194 	ld.bu	0[r28],r1
+00000056 20763200        195 	movea	50,zero,r14
+0000005a e10ee803        196 	mulhi	1000,r1,r1
+0000005e ee0ffc02        197 	divq	r14,r1,zero
+00000062 5d0f0500        198 	st.b	r1,5[r29]
+                         199 --46: }
+00000066 0000            200 	nop
+                         201 --	    .ef
+                         202 .LDW11:
+00000068 4006ff00        203 	dispose	0,{r28,r29,r31},[lp]
+                         204 	.type	_SCS_Init,@function
+                         205 	.size	_SCS_Init,.-_SCS_Init
+                         206 	.align	2
+                         207 .LDW21:
+                         208 
+                         209 	.data
+                         210 .L40:
+                         211 	.type	.L40,@object
+                         212 	.size	.L40,0
+                         213 	.global	_scs_OnoffCmd..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.
+                         214 _scs_OnoffCmd..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.:
+                         215 	.type	_scs_OnoffCmd..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,@object
+                         216 	.size	_scs_OnoffCmd..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,1
+00000000 00              217 _scs_OnoffCmd:	.byte	0
+                         218 	.type	_scs_OnoffCmd,@object
+                         219 	.size	_scs_OnoffCmd,1
+                         220 	.global	_scs_NetStabCtrlDsblSwAReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.
+                         221 _scs_NetStabCtrlDsblSwAReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.:
+                         222 	.type	_scs_NetStabCtrlDsblSwAReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,@object
+                         223 	.size	_scs_NetStabCtrlDsblSwAReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,1
+00000001 00              224 _scs_NetStabCtrlDsblSwAReq:	.byte	0
+                         225 	.type	_scs_NetStabCtrlDsblSwAReq,@object
+                         226 	.size	_scs_NetStabCtrlDsblSwAReq,1
+                         227 	.global	_scs_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+                         228 _scs_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.:
+                         229 	.type	_scs_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,@object
+                         230 	.size	_scs_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,1
+00000002 00              231 _scs_InitSts:	.byte	0
+                         232 	.type	_scs_InitSts,@object
+                         233 	.size	_scs_InitSts,1
+                         234 	.section ".bss","awb"
+                         235 	.global	_insSCSOffSwitchEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.
+                         236 _insSCSOffSwitchEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.:
+                         237 	.type	_insSCSOffSwitchEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,@object
+                         238 	.size	_insSCSOffSwitchEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,1
+00000000 00              239 _insSCSOffSwitchEnPrm:	.space	1
+                         240 	.type	_insSCSOffSwitchEnPrm,@object
+                         241 	.size	_insSCSOffSwitchEnPrm,1
+                         242 	.global	_insSCSOffRemPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.
+                         243 _insSCSOffRemPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.:
+                         244 	.type	_insSCSOffRemPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,@object
+                         245 	.size	_insSCSOffRemPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,1
+00000001 00              246 _insSCSOffRemPrm:	.space	1
+                         247 	.type	_insSCSOffRemPrm,@object
+                         248 	.size	_insSCSOffRemPrm,1
+                         249 	.data
+                         250 	.global	_scs_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.
+                         251 _scs_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.:
+                         252 	.type	_scs_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,@object
+                         253 	.size	_scs_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,1
+00000003 00              254 _scs_GCounter:	.byte	0
+                         255 	.type	_scs_GCounter,@object
+                         256 	.size	_scs_GCounter,1
+                         257 	.global	_scs_Max_Cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.
+                         258 _scs_Max_Cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.:
+                         259 	.type	_scs_Max_Cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,@object
+                         260 	.size	_scs_Max_Cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,1
+00000004 00              261 _scs_Max_Cnt:	.byte	0
+                         262 	.type	_scs_Max_Cnt,@object
+                         263 	.size	_scs_Max_Cnt,1
+                         264 	.global	_scs_Time1SArrive..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.
+                         265 _scs_Time1SArrive..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.:
+                         266 	.type	_scs_Time1SArrive..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,@object
+                         267 	.size	_scs_Time1SArrive..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,1
+00000005 00              268 _scs_Time1SArrive:	.byte	0
+                         269 	.type	_scs_Time1SArrive,@object
+                         270 	.size	_scs_Time1SArrive,1
+                         271 	.text
+                         272 
+                         273 
+                         274 --48: /***************************************************
+                         275 --49: * Function: SCS_Process_50ms
+                         276 --50: * Description: the process of the SCS module
+                         277 --51: * Parameters: none
+                         278 --52: * Returns: none
+                         279 --53: * $Create & Verlog:$
+                         280 --54: * Author:Hejianjun    Date:2016-11-30         Version:V1.0
+                         281 --55: * Author:huangyifan  Date:2017-06-23         Version:V2.0
+                         282 --56: * log: ADD scs_SCSOutPutProcess function
+                         283 --57: ****************************************************/
+                         284 --58: void SCS_Process_50ms(void)
+                         285 	.align	2
+                         286 	.align	2
+                         287 	.global	_SCS_Process_50ms
+                         288 _SCS_Process_50ms:
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+0000006c 80072100        289 	prepare	{r31},0
+                         290 --	    .bf
+                         291 .LDW31:
+                         292 --59: {
+                         293 --61:     if (TRUE == scs_InitSts)
+00000070 210600000000*   294 	mov	_scs_InitSts,r1
+00000076 810f0100        295 	ld.bu	0[r1],r1
+0000007a 610a            296 	cmp	1,r1
+0000007c aa0d*           297 	bne	.L83
+                         298 --62:     {
+                         299 --63:         if(TRUE == insSCSOffSwitchEnPrm)
+                         300 --line63
+                         301 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.3::
+                         302 .LDWlin3:
+0000007e 210600000000*   303 	mov	_insSCSOffSwitchEnPrm,r1
+00000084 810f0100        304 	ld.bu	0[r1],r1
+00000088 610a            305 	cmp	1,r1
+0000008a ba05*           306 	bne	.L83
+                         307 --64:         {
+                         308 --65:             scs_SCSOutPutProcess();
+                         309 --line65
+                         310 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.4::
+                         311 .LDWlin4:
+                         312 	jarl	_scs_SCSOutPutProcess,lp
+                         312 <EXPANSION BEGIN>
+                         312 jarl22 _scs_SCSOutPutProcess , lp 
+0000008c 80ff0a00*       312 <EXPANSION END>
+                         313 .L83:
+                         314 --66:         }
+                         315 --67:         else
+                         316 --68:         {
+                         317 --69:             /*do nothing*/
+                         318 --70:         }
+                         319 --71:     }
+                         320 --72:     else
+                         321 --73:     {
+                         322 --74:         /*do nothing*/
+                         323 --75:     }
+                         324 --76: }
+                         325 --line76
+                         326 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.5::
+                         327 .LDWlin5:
+00000090 0000            328 	nop
+                         329 --	    .ef
+                         330 .LDW41:
+00000092 40063f00        331 	dispose	0,{r31},[lp]
+                         332 	.type	_SCS_Process_50ms,@function
+                         333 	.size	_SCS_Process_50ms,.-_SCS_Process_50ms
+                         334 	.align	2
+                         335 .LDW51:
+                         336 
+                         337 	.data
+                         338 	.text
+                         339 
+                         340 
+                         341 --79: /***************************************************
+                         342 --80: * Function: scs_SCSOutPutProcess
+                         343 --81: * Description: SCS OUTPUT SIGNAL PROCESS
+                         344 --82: * Parameters:  input: none
+                         345 --83: * Returns: none
+                         346 --84: * $Create & Verlog:$
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+                         347 --85: * Author:huangyifan  Date:2017-06-23 version:V2.0
+                         348 --86: ****************************************************/
+                         349 --87: static void scs_SCSOutPutProcess(void )
+                         350 	.align	2
+                         351 	.align	2
+                         352 	.global	_scs_SCSOutPutProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.
+                         353 _scs_SCSOutPutProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.:
+                         354 _scs_SCSOutPutProcess:
+00000096 8207e130        355 	prepare	{r26,r27,r28,r29,r31},1
+0000009a 3d0600000000*   356 	mov	_scs_OnoffCmd,r29
+000000a0 1de0            357 	mov	r29,r28
+000000a2 3dde0300        358 	movea	3,r29,r27
+000000a6 3dd60100        359 	movea	1,r29,r26
+                         360 --	    .bf
+                         361 .LDW61:
+                         362 --88: {
+                         363 --89:         U8 scsSts = FALSE;
+000000aa 43070300        364 	st.b	zero,3[sp]
+                         365 --90:             
+                         366 --91:         if (TRUE == scs_OnoffCmd)
+000000ae 9d0f0100        367 	ld.bu	0[r29],r1
+000000b2 610a            368 	cmp	1,r1
+000000b4 aa1d*           369 	bne	.L132
+                         370 --92:         {
+                         371 --93:             scs_GCounter++;                    
+                         372 --line93
+                         373 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.6::
+                         374 .LDWlin6:
+000000b6 bd0f0300        375 	ld.bu	3[r29],r1
+000000ba 410a            376 	add	1,r1
+000000bc 5d0f0300        377 	st.b	r1,3[r29]
+                         378 --94:             if (scs_Max_Cnt <= scs_GCounter)
+000000c0 bd0f0300        379 	ld.bu	3[r29],r1
+000000c4 9d770500        380 	ld.bu	4[r29],r14
+000000c8 e171            381 	cmp	r1,r14
+000000ca bb0d*           382 	bh	.L134
+                         383 --95:             {
+                         384 --96:                 scs_GCounter = 0;
+                         385 --line96
+                         386 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.7::
+                         387 .LDWlin7:
+000000cc 5d070300        388 	st.b	zero,3[r29]
+                         389 --97:                 scs_NetStabCtrlDsblSwAReq = FALSE;
+000000d0 5d070100        390 	st.b	zero,1[r29]
+                         391 --98:                 scs_OnoffCmd = FALSE;                
+000000d4 5d070000        392 	st.b	zero,0[r29]
+                         393 --99: 				DM_SetScsSwEn(FALSE);
+000000d8 0032            394 	mov	0,r6
+                         395 	jarl	_DM_SetScsSwEn,lp
+                         395 <EXPANSION BEGIN>
+                         395 jarl22 _DM_SetScsSwEn , lp 
+000000da 80ff0000*       395 <EXPANSION END>
+000000de 8515*           396 	br	.L137
+                         397 .L134:
+                         398 --100:             }
+                         399 --101:             else
+                         400 --102:             {
+                         401 --103:                 scs_NetStabCtrlDsblSwAReq = TRUE;
+                         402 --line103
+                         403 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.8::
+                         404 .LDWlin8:
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+000000e0 010a            405 	mov	1,r1
+000000e2 5d0f0100        406 	st.b	r1,1[r29]
+000000e6 c50d*           407 	br	.L137
+                         408 .L132:
+                         409 --104:             } 
+                         410 --105:         }
+                         411 --106:         else
+                         412 --107:         {
+                         413 --108:               /*do nothing*/
+                         414 --109: 			DM_GetScsSwEn(&scsSts);            
+                         415 --line109
+                         416 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.9::
+                         417 .LDWlin9:
+000000e8 23360300        418 	movea	3,sp,r6
+                         419 	jarl	_DM_GetScsSwEn,lp
+                         419 <EXPANSION BEGIN>
+                         419 jarl22 _DM_GetScsSwEn , lp 
+000000ec 80ff0000*       419 <EXPANSION END>
+                         420 --110: 			if(TRUE == scsSts)
+                         421 --line110
+                         422 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.10::
+                         423 .LDWlin10:
+000000f0 a30f0300        424 	ld.bu	3[sp],r1
+000000f4 610a            425 	cmp	1,r1
+000000f6 ca05*           426 	bne	.L137
+                         427 --111: 			{                
+                         428 --112: 				scs_OnoffCmd = TRUE;
+                         429 --line112
+                         430 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.11::
+                         431 .LDWlin11:
+000000f8 010a            432 	mov	1,r1
+000000fa 5d0f0000        433 	st.b	r1,0[r29]
+                         434 .L137:
+                         435 --113: 			}
+                         436 --114: 			else
+                         437 --115: 			{
+                         438 --116: 			/*do nothing*/
+                         439 --117: 			}
+                         440 --118:         }
+                         441 --119: }
+000000fe 0000            442 	nop
+                         443 --	    .ef
+                         444 .LDW71:
+00000100 4206ff30        445 	dispose	1,{r26,r27,r28,r29,r31},[lp]
+                         446 	.type	_scs_SCSOutPutProcess,@function
+                         447 	.size	_scs_SCSOutPutProcess,.-_scs_SCSOutPutProcess
+                         448 	.type	_scs_SCSOutPutProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,@function
+                         449 	.size	_scs_SCSOutPutProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.,.-_scs_SCSOutPutProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.
+                         450 	.align	2
+                         451 .LDW81:
+                         452 --_scsSts	3[sp]	local
+                         453 
+                         454 	.data
+                         455 	.text
+                         456 
+                         457 
+                         458 --121: BOOL SCS_Get_StabCtrlDsblSwAReq(void)
+                         459 	.align	2
+                         460 	.align	2
+                         461 	.global	_SCS_Get_StabCtrlDsblSwAReq
+                         462 _SCS_Get_StabCtrlDsblSwAReq:
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+00000104 210600000000*   463 	mov	_scs_NetStabCtrlDsblSwAReq-1,r1
+                         464 --	    .bf
+                         465 .LDW91:
+                         466 --122: {
+                         467 --123:     return scs_NetStabCtrlDsblSwAReq;
+0000010a 2a0600000000*   468 	mov	_scs_NetStabCtrlDsblSwAReq,r10
+00000110 8a570100        469 	ld.bu	0[r10],r10
+                         470 --	    .ef
+                         471 .LDW02:
+00000114 7f00            472 	jmp	[lp]
+                         473 	.type	_SCS_Get_StabCtrlDsblSwAReq,@function
+                         474 	.size	_SCS_Get_StabCtrlDsblSwAReq,.-_SCS_Get_StabCtrlDsblSwAReq
+                         475 	.align	2
+                         476 .LDW12:
+                         477 
+                         478 	.data
+                         479 	.text
+                         480 
+                         481 --124: }
+                         482 
+                         483 --126: /***************************************************
+                         484 --127: * Function: SCS_SendNetSignal_100ms
+                         485 --128: * Description: update the signal to indicate whether the SCS/TC form OFF to ON
+                         486 --129: * Parameters:  input: none
+                         487 --130: * Returns: none
+                         488 --131: * $Create & Verlog:$
+                         489 --132: * Author:Hejianjun  Date:2016-11-29   Version:V1.0
+                         490 --133: ****************************************************/
+                         491 --134: void SCS_SendNetSignal_100ms(void)
+                         492 	.align	2
+                         493 	.align	2
+                         494 	.global	_SCS_SendNetSignal_100ms
+                         495 _SCS_SendNetSignal_100ms:
+00000116 80072100        496 	prepare	{r31},0
+0000011a 210600000000*   497 	mov	_scs_NetStabCtrlDsblSwAReq-1,r1
+                         498 --	    .bf
+                         499 .LDW22:
+                         500 --135: {
+                         501 --136:     v_wr_bool(StabCtrlDsblSwA_handle, scs_NetStabCtrlDsblSwAReq);             /*need update signal handle*/
+00000120 270600000000*   502 	mov	_scs_NetStabCtrlDsblSwAReq,r7
+00000126 873f0100        503 	ld.bu	0[r7],r7
+0000012a 2606ac363f00    504 	mov	4142764,r6
+                         505 	jarl	_v_wr_bool,lp
+                         505 <EXPANSION BEGIN>
+                         505 jarl22 _v_wr_bool , lp 
+00000130 80ff0000*       505 <EXPANSION END>
+                         506 --137: }
+                         507 --line137
+                         508 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs.12::
+                         509 .LDWlin12:
+00000134 0000            510 	nop
+                         511 --	    .ef
+                         512 .LDW32:
+00000136 40063f00        513 	dispose	0,{r31},[lp]
+                         514 	.type	_SCS_SendNetSignal_100ms,@function
+                         515 	.size	_SCS_SendNetSignal_100ms,.-_SCS_SendNetSignal_100ms
+                         516 	.align	2
+                         517 .LDW42:
+                         518 
+                         519 	.data
+                         520 	.text
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c81.si
+                         521 
+                         522 	.align	2
+                         523 --_scs_OnoffCmd	_scs_OnoffCmd	static
+                         524 --_scs_NetStabCtrlDsblSwAReq	_scs_NetStabCtrlDsblSwAReq	static
+                         525 --_scs_InitSts	_scs_InitSts	static
+                         526 --_insSCSOffSwitchEnPrm	_insSCSOffSwitchEnPrm	static
+                         527 --_insSCSOffRemPrm	_insSCSOffRemPrm	static
+                         528 --_scs_GCounter	_scs_GCounter	static
+                         529 --_scs_Max_Cnt	_scs_Max_Cnt	static
+                         530 --_scs_Time1SArrive	_scs_Time1SArrive	static
+                         531 
+                         532 	.data
+                         533 	.ghsnote version,14
+                         534 	.ghsnote tools,3
+                         535 	.ghsnote options,144
+                         536 	.text
+                         537 	.align	2
+                         538 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cscs...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036C..0::
+                         539 .rh850_flags FLOAT,REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

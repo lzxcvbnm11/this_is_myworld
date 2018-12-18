@@ -1,0 +1,1022 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\adm.dbo -source=adm.c -o .\obj\gh_00008p01.o -list=.\obj\adm.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+Source File: adm.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\middleware\ADM\adm.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+                         112 --		-o .\obj\adm.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\middleware\ADM\adm.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:42:42 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : adm.c
+                         128 --5: * Description : ADM module middleware
+                         129 --6: * Author: Xueping.Chen
+                         130 --7: * Date: 2016-11-25
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "adm_info.inc"
+                         134 --13: static BOOL adm_InitStatus = FALSE;                     /* ADM初始化状态，默认值为FALSE */
+                         135 --14: static U8  adm_ADCEConversionRes = RET_FAIL;            /* ADCE转化结果 默认值为RET_FAIL*/
+                         136 --15: static AdmGatherData_ST adm_Value[ADM_CHANNEL_MAX];     /* ADM值*/
+                         137 --17: /***************************************************
+                         138 --18: * Function: ADM_Init
+                         139 --19: * Description: ADM module initialized
+                         140 --20: * Parameters: none
+                         141 --21: * Returns: none
+                         142 --22: * $Create & Verlog:$
+                         143 --23: * Author:Xueping.Chen  Date:2016-11-25   Version:V1.0
+                         144 --24: ****************************************************/
+                         145 --25: void ADM_Init(void)
+                         146 	.text
+                         147 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740862..0::
+                         148 	.align	2
+                         149 	.global	_ADM_Init
+                         150 _ADM_Init:
+00000000 8007e110        151 	prepare	{r27,r28,r29,r31},0
+00000004 3d0600000000*   152 	mov	.L58,r29
+0000000a 3b0600000000*   153 	mov	_adm_Value,r27
+                         154 --	    .bf
+                         155 .LDW01:
+                         156 --26: {
+                         157 --27:     U8 i = 0;
+00000010 00e2            158 	mov	0,r28
+                         159 --29:     for (i = 0; i < ADM_CHANNEL_MAX; i++)
+00000012 00e2            160 	mov	0,r28
+00000014 0000            161 	nop
+                         162 .L6:
+                         163 --30:     {
+                         164 --31:     	adm_Value[i].cnt = 0;
+00000016 fcf60c00        165 	mulhi	12,r28,ep
+0000001a dbf1            166 	add	r27,ep
+0000001c 8103            167 	sst.b	zero,1[ep]
+                         168 --32:     	adm_Value[i].sum = 0;
+0000001e fcf60c00        169 	mulhi	12,r28,ep
+00000022 dbf1            170 	add	r27,ep
+00000024 0305            171 	sst.w	zero,4[ep]
+                         172 --33:     	adm_Value[i].value = 0;
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+00000026 fcf60c00        173 	mulhi	12,r28,ep
+0000002a dbf1            174 	add	r27,ep
+0000002c 8104            175 	sst.h	zero,2[ep]
+                         176 --34:     	adm_Value[i].debounceValue = 0;
+0000002e fcf60c00        177 	mulhi	12,r28,ep
+00000032 dbf1            178 	add	r27,ep
+00000034 8404            179 	sst.h	zero,8[ep]
+                         180 --36:     	adm_Value[i].res = RET_FAIL;
+00000036 fcf60c00        181 	mulhi	12,r28,ep
+0000003a dbf1            182 	add	r27,ep
+0000003c 8003            183 	sst.b	zero,0[ep]
+0000003e 41e2            184 	add	1,r28
+00000040 9c00            185 	zxb	r28
+00000042 1c06f0ff        186 	addi	-16,r28,zero
+00000046 89ed*           187 	bnl	.L6
+                         188 --37:     }
+                         189 --38: 	
+                         190 --39:     adm_ADCEConversionRes = ADCE_StartConversion();
+                         191 --line39
+                         192 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.1::
+                         193 .LDWlin1:
+                         194 	jarl	_ADCE_StartConversion,lp
+                         194 <EXPANSION BEGIN>
+                         194 jarl22 _ADCE_StartConversion , lp 
+00000048 80ff0000*       194 <EXPANSION END>
+0000004c 5d570100        195 	st.b	r10,1[r29]
+                         196 --40:     adm_InitStatus = ADCE_GetInitStatus();
+                         197 --line40
+                         198 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.2::
+                         199 .LDWlin2:
+                         200 	jarl	_ADCE_GetInitStatus,lp
+                         200 <EXPANSION BEGIN>
+                         200 jarl22 _ADCE_GetInitStatus , lp 
+00000050 80ff0000*       200 <EXPANSION END>
+00000054 5d570000        201 	st.b	r10,0[r29]
+                         202 --42: 	#if 1
+                         203 --43: 	for( i = 0 ; i < DEBOUNCE_FUEL_COUNT; i ++)
+                         204 --line43
+                         205 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.3::
+                         206 .LDWlin3:
+00000058 00e2            207 	mov	0,r28
+0000005a 0000            208 	nop
+                         209 .L9:
+                         210 --44: 	{
+                         211 --45: 		ADM_Process_5ms();
+                         212 	jarl	_ADM_Process_5ms,lp
+                         212 <EXPANSION BEGIN>
+                         212 jarl22 _ADM_Process_5ms , lp 
+0000005c 80ff1200*       212 <EXPANSION END>
+                         213 --line43
+                         214 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.4::
+                         215 .LDWlin4:
+00000060 41e2            216 	add	1,r28
+00000062 9c00            217 	zxb	r28
+00000064 65e2            218 	cmp	5,r28
+00000066 b1fd*           219 	bl	.L9
+                         220 --46: 	}
+                         221 --47: 	#endif
+                         222 --48: }
+                         223 --line48
+                         224 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.5::
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+                         225 .LDWlin5:
+00000068 0000            226 	nop
+                         227 --	    .ef
+                         228 .LDW11:
+0000006a 4006ff10        229 	dispose	0,{r27,r28,r29,r31},[lp]
+                         230 	.type	_ADM_Init,@function
+                         231 	.size	_ADM_Init,.-_ADM_Init
+                         232 	.align	2
+                         233 .LDW21:
+                         234 --_i	r28	local
+                         235 
+                         236 	.data
+                         237 .L58:
+                         238 	.type	.L58,@object
+                         239 	.size	.L58,0
+                         240 	.global	_adm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.
+                         241 _adm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.:
+                         242 	.type	_adm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.,@object
+                         243 	.size	_adm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.,1
+00000000 00              244 _adm_InitStatus:	.byte	0
+                         245 	.type	_adm_InitStatus,@object
+                         246 	.size	_adm_InitStatus,1
+                         247 	.global	_adm_ADCEConversionRes..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.
+                         248 _adm_ADCEConversionRes..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.:
+                         249 	.type	_adm_ADCEConversionRes..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.,@object
+                         250 	.size	_adm_ADCEConversionRes..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.,1
+00000001 00              251 _adm_ADCEConversionRes:	.byte	0
+                         252 	.type	_adm_ADCEConversionRes,@object
+                         253 	.size	_adm_ADCEConversionRes,1
+                         254 	.section ".bss","awb"
+                         255 	.align	4
+                         256 	.global	_adm_Value..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.
+                         257 _adm_Value..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.:
+                         258 	.type	_adm_Value..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.,@object
+                         259 	.size	_adm_Value..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.,192
+00000000 000000000000    260 _adm_Value:	.space	192
+00000006 000000000000 
+0000000c 000000000000 
+00000012 000000000000 
+00000018 000000000000 
+0000001e 000000000000 
+00000024 000000000000 
+0000002a 000000000000 
+00000030 000000000000 
+00000036 000000000000 
+0000003c 000000000000 
+00000042 000000000000 
+00000048 000000000000 
+0000004e 000000000000 
+00000054 000000000000 
+0000005a 000000000000 
+00000060 000000000000 
+00000066 000000000000 
+0000006c 000000000000 
+00000072 000000000000 
+00000078 000000000000 
+0000007e 000000000000 
+00000084 000000000000 
+0000008a 000000000000 
+00000090 000000000000 
+00000096 000000000000 
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+0000009c 000000000000 
+000000a2 000000000000 
+000000a8 000000000000 
+000000ae 000000000000 
+000000b4 000000000000 
+000000ba 000000000000 
+                         261 	.type	_adm_Value,@object
+                         262 	.size	_adm_Value,192
+                         263 	.data
+                         264 	.text
+                         265 
+                         266 
+                         267 --50: /***************************************************
+                         268 --51: * Function: ADM_Process_5ms 
+                         269 --52: * Description: the process of the ADM module
+                         270 --53: * Parameters: none
+                         271 --54: * Returns: none
+                         272 --55: * $Create & Verlog:$
+                         273 --56: * Author:Xueping.Chen  Date:2016-11-25   Version:V1.0
+                         274 --57: ****************************************************/
+                         275 --58: void ADM_Process_5ms (void)
+                         276 	.align	2
+                         277 	.align	2
+                         278 	.global	_ADM_Process_5ms
+                         279 _ADM_Process_5ms:
+0000006e 80076100        280 	prepare	{r29,r31},0
+00000072 210600000000*   281 	mov	_adm_InitStatus,r1
+                         282 --	    .bf
+                         283 .LDW31:
+                         284 --59: {
+                         285 --60:     AdmChannel_ENUM index = INDEX_ADM_SRS;
+00000078 00ea            286 	mov	0,r29
+                         287 --62:     if (FALSE == adm_InitStatus)
+0000007a 2e0600000000*   288 	mov	_adm_InitStatus,r14
+00000080 8e770100        289 	ld.bu	0[r14],r14
+00000084 e071            290 	cmp	zero,r14
+00000086 8215*           291 	be	.L125
+                         292 --63:     {
+                         293 --64:         ;
+                         294 --65:     }
+                         295 --66:     else if (RET_OK == adm_ADCEConversionRes)
+                         296 --line66
+                         297 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.6::
+                         298 .LDWlin6:
+00000088 a10f0100        299 	ld.bu	1[r1],r1
+0000008c 610a            300 	cmp	1,r1
+0000008e ca0d*           301 	bne	.L125
+                         302 --67:     {
+                         303 --68:          for (index = INDEX_ADM_SRS; index < INDEX_ADM_ALL; index++)
+                         304 --line68
+                         305 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.7::
+                         306 .LDWlin7:
+00000090 00ea            307 	mov	0,r29
+00000092 0000            308 	nop
+                         309 .L130:
+                         310 --69:         {
+                         311 --70:             adm_ChannelDebounce(index);
+00000094 1d30            312 	mov	r29,r6
+                         313 	jarl	_adm_ChannelDebounce,lp
+                         313 <EXPANSION BEGIN>
+                         313 jarl22 _adm_ChannelDebounce , lp 
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+00000096 80ff1600*       313 <EXPANSION END>
+                         314 --line68
+                         315 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.8::
+                         316 .LDWlin8:
+0000009a 41ea            317 	add	1,r29
+0000009c 1d06f0ff        318 	addi	-16,r29,zero
+000000a0 a6fd*           319 	blt	.L130
+                         320 --71:         }
+                         321 --72: 		ADCE_StartConversion();
+                         322 --line72
+                         323 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.9::
+                         324 .LDWlin9:
+                         325 	jarl	_ADCE_StartConversion,lp
+                         325 <EXPANSION BEGIN>
+                         325 jarl22 _ADCE_StartConversion , lp 
+000000a2 80ff0000*       325 <EXPANSION END>
+                         326 .L125:
+                         327 --73:     }
+                         328 --74:     else 
+                         329 --75:     {       
+                         330 --76:        
+                         331 --77:     }
+                         332 --79: 	return;
+                         333 --line79
+                         334 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.10::
+                         335 .LDWlin10:
+000000a6 0000            336 	nop
+                         337 --	    .ef
+                         338 .LDW41:
+000000a8 40067f00        339 	dispose	0,{r29,r31},[lp]
+                         340 	.type	_ADM_Process_5ms,@function
+                         341 	.size	_ADM_Process_5ms,.-_ADM_Process_5ms
+                         342 	.align	2
+                         343 .LDW51:
+                         344 --_index	r29	local
+                         345 
+                         346 	.data
+                         347 	.text
+                         348 
+                         349 --80: }
+                         350 
+                         351 --82: /***************************************************
+                         352 --83: * Function: adm_ChannelDebounce
+                         353 --84: * Description: the debounce of ADC
+                         354 --85: * Parameters: input :  the channal of ADCE
+                         355 --86: * Returns: return value reference AdmRes_ENUM
+                         356 --87: * $Create & Verlog:$
+                         357 --88: * Author:Xueping.Chen  Date:2016-11-25   Version:V1.0
+                         358 --89: ****************************************************/
+                         359 --90: static U8 adm_ChannelDebounce(AdmChannel_ENUM index)
+                         360 	.align	2
+                         361 	.align	2
+                         362 	.global	_adm_ChannelDebounce..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.
+                         363 _adm_ChannelDebounce..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.:
+                         364 _adm_ChannelDebounce:
+000000ac 8207e170        365 	prepare	{r25,r26,r27,r28,r29,r31},1
+000000b0 3d0600000000*   366 	mov	_adm_Value,r29
+000000b6 06e0            367 	mov	r6,r28
+000000b8 1dd0            368 	mov	r29,r26
+000000ba 3b0600000000*   369 	mov	_Adm_Matrix,r27
+                         370 --	    .bf
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+                         371 .LDW61:
+                         372 --91: {
+                         373 --92:     U16 value = 0;
+000000c0 63070000        374 	st.h	zero,0[sp]
+                         375 --93:     U16 range = 0;
+000000c4 63070200        376 	st.h	zero,2[sp]
+000000c8 005a            377 	mov	0,r11
+                         378 --95:     U8 res = RET_OK;
+000000ca 01ca            379 	mov	1,r25
+                         380 --97:     if ((INDEX_ADM_ALL <= index) || (Adm_Matrix[index].ch > ADM_CHANNEL_MAX))
+000000cc 1c06f0ff        381 	addi	-16,r28,zero
+000000d0 ae0d*           382 	bge	.L211
+000000d2 1cf0            383 	mov	r28,ep
+000000d4 fe00            384 	sxh	ep
+000000d6 fef60c00        385 	mulhi	12,ep,ep
+000000da dbf1            386 	add	r27,ep
+000000dc 020d            387 	sld.w	4[ep],r1
+000000de 0106f0ff        388 	addi	-16,r1,zero
+000000e2 c705*           389 	ble	.L210
+                         390 .L211:
+                         391 --98:     {
+                         392 --99:         res = RET_INVALID;
+                         393 --line99
+                         394 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.11::
+                         395 .LDWlin11:
+000000e4 02ca            396 	mov	2,r25
+000000e6 8007bc01*       397 	br	.L213
+                         398 .L210:
+                         399 --100:     }
+                         400 --101:     else
+                         401 --102: 	{ 
+                         402 --103: 		if (RET_OK == ADCE_GetSingleValue(Adm_Matrix[index].ch, &value))
+                         403 --line103
+                         404 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.12::
+                         405 .LDWlin12:
+000000ea 1cf0            406 	mov	r28,ep
+000000ec fe00            407 	sxh	ep
+000000ee fef60c00        408 	mulhi	12,ep,ep
+000000f2 233e0000        409 	movea	0,sp,r7
+000000f6 dbf1            410 	add	r27,ep
+000000f8 0235            411 	sld.w	4[ep],r6
+                         412 	jarl	_ADCE_GetSingleValue,lp
+                         412 <EXPANSION BEGIN>
+                         412 jarl22 _ADCE_GetSingleValue , lp 
+000000fa 80ff0000*       412 <EXPANSION END>
+000000fe 6152            413 	cmp	1,r10
+00000100 ea07a101*       414 	bne	.L214
+                         415 --104: 	    {
+                         416 --105: 	        range = ABS_SUB(value, adm_Value[Adm_Matrix[index].ch].value);
+                         417 --line105
+                         418 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.13::
+                         419 .LDWlin13:
+00000104 1cf0            420 	mov	r28,ep
+00000106 fe00            421 	sxh	ep
+00000108 fef60c00        422 	mulhi	12,ep,ep
+0000010c e3770100        423 	ld.hu	0[sp],r14
+00000110 dbf1            424 	add	r27,ep
+00000112 020c            425 	sld.h	4[ep],r1
+00000114 e1f60c00        426 	mulhi	12,r1,ep
+00000118 daf1            427 	add	r26,ep
+0000011a 7108            428 	sld.hu	2[ep],r1
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+0000011c e171            429 	cmp	r1,r14
+0000011e f30d*           430 	bnh	.L216
+00000120 1cf0            431 	mov	r28,ep
+00000122 fe00            432 	sxh	ep
+00000124 fef60c00        433 	mulhi	12,ep,ep
+00000128 dbf1            434 	add	r27,ep
+0000012a 020c            435 	sld.h	4[ep],r1
+0000012c e1f60c00        436 	mulhi	12,r1,ep
+00000130 e30f0100        437 	ld.hu	0[sp],r1
+00000134 daf1            438 	add	r26,ep
+00000136 7170            439 	sld.hu	2[ep],r14
+00000138 ae09            440 	sub	r14,r1
+0000013a e50d*           441 	br	.L218
+                         442 .L216:
+0000013c 1cf0            443 	mov	r28,ep
+0000013e fe00            444 	sxh	ep
+00000140 fef60c00        445 	mulhi	12,ep,ep
+00000144 e3770100        446 	ld.hu	0[sp],r14
+00000148 dbf1            447 	add	r27,ep
+0000014a 020c            448 	sld.h	4[ep],r1
+0000014c e1f60c00        449 	mulhi	12,r1,ep
+00000150 daf1            450 	add	r26,ep
+00000152 7108            451 	sld.hu	2[ep],r1
+00000154 ae09            452 	sub	r14,r1
+                         453 .L218:
+00000156 c15effff        454 	andi	65535,r1,r11
+0000015a 635f0200        455 	st.h	r11,2[sp]
+                         456 --106: 	        if (range < Adm_Matrix[index].range)
+                         457 --line106
+                         458 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.14::
+                         459 .LDWlin14:
+0000015e 1cf0            460 	mov	r28,ep
+00000160 fe00            461 	sxh	ep
+00000162 fef60c00        462 	mulhi	12,ep,ep
+00000166 e35f0300        463 	ld.hu	2[sp],r11
+0000016a dbf1            464 	add	r27,ep
+0000016c 7408            465 	sld.hu	8[ep],r1
+0000016e e159            466 	cmp	r1,r11
+00000170 d96d*           467 	bnl	.L219
+                         468 --107: 	        {
+                         469 --108: 	            if (adm_Value[Adm_Matrix[index].ch].cnt >= Adm_Matrix[index].debCnt)
+                         470 --line108
+                         471 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.15::
+                         472 .LDWlin15:
+00000172 1cf0            473 	mov	r28,ep
+00000174 fe00            474 	sxh	ep
+00000176 fef60c00        475 	mulhi	12,ep,ep
+0000017a dbf1            476 	add	r27,ep
+0000017c 020c            477 	sld.h	4[ep],r1
+0000017e e1f60c00        478 	mulhi	12,r1,ep
+00000182 1c08            479 	mov	r28,r1
+00000184 e100            480 	sxh	r1
+00000186 e10e0c00        481 	mulhi	12,r1,r1
+0000018a daf1            482 	add	r26,ep
+0000018c 6170            483 	sld.bu	1[ep],r14
+0000018e db09            484 	add	r27,r1
+00000190 810f0b00        485 	ld.bu	10[r1],r1
+00000194 e171            486 	cmp	r1,r14
+00000196 f13d*           487 	bl	.L221
+                         488 --109: 	            {
+                         489 --110: 	            	adm_Value[Adm_Matrix[index].ch].debounceValue = (adm_Value[Adm_Matrix[index].ch].sum / Adm_Matrix[index].debCnt);
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+                         490 --line110
+                         491 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.16::
+                         492 .LDWlin16:
+00000198 1cf0            493 	mov	r28,ep
+0000019a fe00            494 	sxh	ep
+0000019c fef60c00        495 	mulhi	12,ep,ep
+000001a0 dbf1            496 	add	r27,ep
+000001a2 020c            497 	sld.h	4[ep],r1
+000001a4 1cf0            498 	mov	r28,ep
+000001a6 fe00            499 	sxh	ep
+000001a8 fef60c00        500 	mulhi	12,ep,ep
+000001ac dbf1            501 	add	r27,ep
+000001ae 0274            502 	sld.h	4[ep],r14
+000001b0 eef60c00        503 	mulhi	12,r14,ep
+000001b4 1c70            504 	mov	r28,r14
+000001b6 ee00            505 	sxh	r14
+000001b8 ee760c00        506 	mulhi	12,r14,r14
+000001bc daf1            507 	add	r26,ep
+000001be 026d            508 	sld.w	4[ep],r13
+000001c0 db71            509 	add	r27,r14
+000001c2 8e770b00        510 	ld.bu	10[r14],r14
+000001c6 e10e0c00        511 	mulhi	12,r1,r1
+000001ca ee6ffe02        512 	divqu	r14,r13,zero
+000001ce da09            513 	add	r26,r1
+000001d0 616f0800        514 	st.h	r13,8[r1]
+                         515 --111: 	            	adm_Value[Adm_Matrix[index].ch].sum = 0;
+000001d4 1cf0            516 	mov	r28,ep
+000001d6 fe00            517 	sxh	ep
+000001d8 fef60c00        518 	mulhi	12,ep,ep
+000001dc dbf1            519 	add	r27,ep
+000001de 020c            520 	sld.h	4[ep],r1
+000001e0 e1f60c00        521 	mulhi	12,r1,ep
+000001e4 daf1            522 	add	r26,ep
+000001e6 0305            523 	sst.w	zero,4[ep]
+                         524 --112: 	            	adm_Value[Adm_Matrix[index].ch].cnt = 0;
+000001e8 1cf0            525 	mov	r28,ep
+000001ea fe00            526 	sxh	ep
+000001ec fef60c00        527 	mulhi	12,ep,ep
+000001f0 dbf1            528 	add	r27,ep
+000001f2 020c            529 	sld.h	4[ep],r1
+000001f4 e1f60c00        530 	mulhi	12,r1,ep
+000001f8 daf1            531 	add	r26,ep
+000001fa 8103            532 	sst.b	zero,1[ep]
+                         533 --113: 	            	adm_Value[Adm_Matrix[index].ch].res = RET_OK;
+000001fc 1cf0            534 	mov	r28,ep
+000001fe fe00            535 	sxh	ep
+00000200 fef60c00        536 	mulhi	12,ep,ep
+00000204 dbf1            537 	add	r27,ep
+00000206 020c            538 	sld.h	4[ep],r1
+00000208 e1f60c00        539 	mulhi	12,r1,ep
+0000020c 010a            540 	mov	1,r1
+0000020e daf1            541 	add	r26,ep
+00000210 800b            542 	sst.b	r1,0[ep]
+00000212 a53d*           543 	br	.L224
+                         544 .L221:
+                         545 --114: 	            }
+                         546 --115: 	            else
+                         547 --116: 	            {
+                         548 --117: 		            adm_Value[Adm_Matrix[index].ch].sum += value;
+                         549 --line117
+                         550 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.17::
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+                         551 .LDWlin17:
+00000214 1cf0            552 	mov	r28,ep
+00000216 fe00            553 	sxh	ep
+00000218 fef60c00        554 	mulhi	12,ep,ep
+0000021c e3770100        555 	ld.hu	0[sp],r14
+00000220 dbf1            556 	add	r27,ep
+00000222 020c            557 	sld.h	4[ep],r1
+00000224 e1f60c00        558 	mulhi	12,r1,ep
+00000228 daf1            559 	add	r26,ep
+0000022a 020d            560 	sld.w	4[ep],r1
+0000022c ce09            561 	add	r14,r1
+0000022e 030d            562 	sst.w	r1,4[ep]
+                         563 --118: 		            adm_Value[Adm_Matrix[index].ch].cnt++;
+00000230 1cf0            564 	mov	r28,ep
+00000232 fe00            565 	sxh	ep
+00000234 fef60c00        566 	mulhi	12,ep,ep
+00000238 dbf1            567 	add	r27,ep
+0000023a 020c            568 	sld.h	4[ep],r1
+0000023c e1f60c00        569 	mulhi	12,r1,ep
+00000240 daf1            570 	add	r26,ep
+00000242 6108            571 	sld.bu	1[ep],r1
+00000244 410a            572 	add	1,r1
+00000246 810b            573 	sst.b	r1,1[ep]
+00000248 f51d*           574 	br	.L224
+                         575 .L219:
+                         576 --119: 	            }
+                         577 --120: 	        }
+                         578 --121: 	        else
+                         579 --122: 	        {
+                         580 --123: 	            adm_Value[Adm_Matrix[index].ch].cnt = 0;
+                         581 --line123
+                         582 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.18::
+                         583 .LDWlin18:
+0000024a 1cf0            584 	mov	r28,ep
+0000024c fe00            585 	sxh	ep
+0000024e fef60c00        586 	mulhi	12,ep,ep
+00000252 dbf1            587 	add	r27,ep
+00000254 020c            588 	sld.h	4[ep],r1
+00000256 e1f60c00        589 	mulhi	12,r1,ep
+0000025a daf1            590 	add	r26,ep
+0000025c 8103            591 	sst.b	zero,1[ep]
+                         592 --124: 	            adm_Value[Adm_Matrix[index].ch].sum = 0;
+0000025e 1cf0            593 	mov	r28,ep
+00000260 fe00            594 	sxh	ep
+00000262 fef60c00        595 	mulhi	12,ep,ep
+00000266 dbf1            596 	add	r27,ep
+00000268 020c            597 	sld.h	4[ep],r1
+0000026a e1f60c00        598 	mulhi	12,r1,ep
+0000026e daf1            599 	add	r26,ep
+00000270 0305            600 	sst.w	zero,4[ep]
+                         601 --125: 	            adm_Value[Adm_Matrix[index].ch].res = RET_FAIL;
+00000272 1cf0            602 	mov	r28,ep
+00000274 fe00            603 	sxh	ep
+00000276 fef60c00        604 	mulhi	12,ep,ep
+0000027a dbf1            605 	add	r27,ep
+0000027c 020c            606 	sld.h	4[ep],r1
+0000027e e1f60c00        607 	mulhi	12,r1,ep
+00000282 daf1            608 	add	r26,ep
+00000284 8003            609 	sst.b	zero,0[ep]
+                         610 .L224:
+                         611 --126: 	        }
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+                         612 --127: 			
+                         613 --128:             adm_Value[Adm_Matrix[index].ch].value = value;
+00000286 1cf0            614 	mov	r28,ep
+00000288 fe00            615 	sxh	ep
+0000028a fef60c00        616 	mulhi	12,ep,ep
+0000028e dbf1            617 	add	r27,ep
+00000290 020c            618 	sld.h	4[ep],r1
+00000292 e1f60c00        619 	mulhi	12,r1,ep
+00000296 e30f0100        620 	ld.hu	0[sp],r1
+0000029a daf1            621 	add	r26,ep
+0000029c 810c            622 	sst.h	r1,2[ep]
+0000029e a505*           623 	br	.L213
+                         624 .L214:
+                         625 --129: 	    }/*end of ADCE_GetSingleValue(Adm_Matrix[index].ch, &value) */
+                         626 --130: 	    else
+                         627 --131: 	    {
+                         628 --132: 	    	res = RET_FAIL;
+                         629 --line132
+                         630 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.19::
+                         631 .LDWlin19:
+000002a0 00ca            632 	mov	0,r25
+                         633 .L213:
+                         634 --133: 	    }
+                         635 --134:    	}
+                         636 --135: 	
+                         637 --136:     return res;
+000002a2 1950            638 	mov	r25,r10
+                         639 --	    .ef
+                         640 .LDW71:
+000002a4 4206ff70        641 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                         642 	.type	_adm_ChannelDebounce,@function
+                         643 	.size	_adm_ChannelDebounce,.-_adm_ChannelDebounce
+                         644 	.type	_adm_ChannelDebounce..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.,@function
+                         645 	.size	_adm_ChannelDebounce..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.,.-_adm_ChannelDebounce..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.
+                         646 	.align	2
+                         647 .LDW81:
+                         648 --_value	0[sp]	local
+                         649 --_range	2[sp]	local
+                         650 --_res	r25	local
+                         651 
+                         652 --_index	r28	param
+                         653 
+                         654 	.data
+                         655 	.text
+                         656 
+                         657 --137: }
+                         658 
+                         659 --139: /***************************************************
+                         660 --140: * Function: ADM_GetInitStatus
+                         661 --141: * Description: get the ADM module initialized status
+                         662 --142: * Parameters: none
+                         663 --143: * Returns: TRUE or FALSE
+                         664 --144: * $Create & Verlog:$
+                         665 --145: * Author:Xueping.Chen  Date:2016-11-25   Version:V1.0
+                         666 --146: ****************************************************/
+                         667 --147: BOOL ADM_GetInitStatus(void)
+                         668 	.align	2
+                         669 	.align	2
+                         670 	.global	_ADM_GetInitStatus
+                         671 _ADM_GetInitStatus:
+000002a8 210600000000*   672 	mov	_adm_InitStatus,r1
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+                         673 --	    .bf
+                         674 .LDW91:
+                         675 --148: {
+                         676 --149:     return adm_InitStatus;
+000002ae 2a0600000000*   677 	mov	_adm_InitStatus,r10
+000002b4 8a570100        678 	ld.bu	0[r10],r10
+                         679 --	    .ef
+                         680 .LDW02:
+000002b8 7f00            681 	jmp	[lp]
+                         682 	.type	_ADM_GetInitStatus,@function
+                         683 	.size	_ADM_GetInitStatus,.-_ADM_GetInitStatus
+                         684 	.align	2
+                         685 .LDW12:
+                         686 
+                         687 	.data
+                         688 	.text
+                         689 
+                         690 --150: }
+                         691 
+                         692 --152: /***************************************************
+                         693 --153: * Function: ADM_GetDebounceValue
+                         694 --154: * Description: Get the value of AD after debounce
+                         695 --155: * Parameters: input: Index  the channel of ADC
+                         696 --156: 			  output: pRes  the value of AD
+                         697 --157: * Returns: return value reference AdmRes_ENUM
+                         698 --158: * $Create & Verlog:$
+                         699 --159: * Author:Xueping.Chen  Date:2016-11-25   Version:V1.0
+                         700 --160: ****************************************************/
+                         701 --161: U8 ADM_GetDebounceValue(AdmChannel_ENUM index, PU16 pRes)
+                         702 	.align	2
+                         703 	.align	2
+                         704 	.global	_ADM_GetDebounceValue
+                         705 _ADM_GetDebounceValue:
+000002ba 210600000000*   706 	mov	_adm_Value,r1
+000002c0 0668            707 	mov	r6,r13
+000002c2 0758            708 	mov	r7,r11
+000002c4 2c0600000000*   709 	mov	_Adm_Matrix,r12
+000002ca 0150            710 	mov	r1,r10
+                         711 --	    .bf
+                         712 .LDW22:
+                         713 --162: {
+                         714 --163:     U8 res = RET_OK;
+000002cc 0172            715 	mov	1,r14
+                         716 --165:     if (FALSE == adm_InitStatus)
+000002ce 290600000000*   717 	mov	_adm_InitStatus,r9
+000002d4 894f0100        718 	ld.bu	0[r9],r9
+000002d8 e049            719 	cmp	zero,r9
+000002da ba05*           720 	bne	.L405
+                         721 --166:     {
+                         722 --167:         res = RET_FAIL;
+                         723 --line167
+                         724 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.20::
+                         725 .LDWlin20:
+000002dc 0072            726 	mov	0,r14
+000002de f525*           727 	br	.L407
+                         728 .L405:
+                         729 --168:     }
+                         730 --169:     else if ((NULL_PTR == pRes) ||(INDEX_ADM_ALL <= index) ||  (Adm_Matrix[index].ch > ADM_CHANNEL_MAX))
+                         731 --line169
+                         732 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.21::
+                         733 .LDWlin21:
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+000002e0 e059            734 	cmp	zero,r11
+000002e2 d20d*           735 	be	.L409
+000002e4 0d06f0ff        736 	addi	-16,r13,zero
+000002e8 ae0d*           737 	bge	.L409
+000002ea 0df0            738 	mov	r13,ep
+000002ec fe00            739 	sxh	ep
+000002ee fef60c00        740 	mulhi	12,ep,ep
+000002f2 ccf1            741 	add	r12,ep
+000002f4 024d            742 	sld.w	4[ep],r9
+000002f6 0906f0ff        743 	addi	-16,r9,zero
+000002fa b705*           744 	ble	.L408
+                         745 .L409:
+                         746 --170:     {
+                         747 --171:         res = RET_INVALID;
+                         748 --line171
+                         749 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.22::
+                         750 .LDWlin22:
+000002fc 0272            751 	mov	2,r14
+000002fe f515*           752 	br	.L407
+                         753 .L408:
+                         754 --172:     }
+                         755 --173:     else
+                         756 --174:     {
+                         757 --175:         *pRes = adm_Value[Adm_Matrix[index].ch].debounceValue;
+                         758 --line175
+                         759 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm.23::
+                         760 .LDWlin23:
+00000300 0df0            761 	mov	r13,ep
+00000302 fe00            762 	sxh	ep
+00000304 fef60c00        763 	mulhi	12,ep,ep
+00000308 ccf1            764 	add	r12,ep
+0000030a 024c            765 	sld.h	4[ep],r9
+0000030c e9f60c00        766 	mulhi	12,r9,ep
+00000310 caf1            767 	add	r10,ep
+00000312 7448            768 	sld.hu	8[ep],r9
+00000314 6b4f0000        769 	st.h	r9,0[r11]
+                         770 --176:     	res = adm_Value[Adm_Matrix[index].ch].res;
+00000318 0df0            771 	mov	r13,ep
+0000031a fe00            772 	sxh	ep
+0000031c fef60c00        773 	mulhi	12,ep,ep
+00000320 ccf1            774 	add	r12,ep
+00000322 024c            775 	sld.h	4[ep],r9
+00000324 e9f60c00        776 	mulhi	12,r9,ep
+00000328 caf1            777 	add	r10,ep
+0000032a 6070            778 	sld.bu	0[ep],r14
+                         779 .L407:
+                         780 --177:     }
+                         781 --178:     return res;
+0000032c 0000            782 	nop
+                         783 --	    .ef
+                         784 .LDW32:
+0000032e 0e50            785 	mov	r14,r10
+00000330 7f00            786 	jmp	[lp]
+                         787 	.type	_ADM_GetDebounceValue,@function
+                         788 	.size	_ADM_GetDebounceValue,.-_ADM_GetDebounceValue
+                         789 	.align	2
+                         790 .LDW42:
+                         791 --_res	r14	local
+                         792 
+                         793 --_index	r13	param
+                         794 --_pRes	r11	param
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+                         795 
+                         796 	.data
+                         797 	.text
+                         798 
+                         799 --179: }
+                         800 	.align	2
+                         801 --_adm_InitStatus	_adm_InitStatus	static
+                         802 --_adm_ADCEConversionRes	_adm_ADCEConversionRes	static
+                         803 --_adm_Value	_adm_Value	static
+                         804 
+                         805 	.section ".rodata","a"
+                         806 	.align	4
+                         807 	.global	_Adm_Matrix
+00000000 01              808 _Adm_Matrix:	.byte	1
+00000001 000000          809 	.space	3
+00000004 00000000        810 	.space	4
+00000008 6600            811 	.byte	102,0
+0000000a 03              812 	.byte	3
+0000000b 00              813 	.space	1
+0000000c 01              814 	.byte	1
+0000000d 000000          815 	.space	3
+00000010 01000000        816 	.byte	1,0,0,0
+00000014 ff0f            817 	.byte	255,15
+00000016 05              818 	.byte	5
+00000017 00              819 	.space	1
+00000018 01              820 	.byte	1
+00000019 000000          821 	.space	3
+0000001c 02000000        822 	.byte	2,0,0,0
+00000020 5200            823 	.byte	82,0
+00000022 03              824 	.byte	3
+00000023 00              825 	.space	1
+00000024 01              826 	.byte	1
+00000025 000000          827 	.space	3
+00000028 03000000        828 	.byte	3,0,0,0
+0000002c 5200            829 	.byte	82,0
+0000002e 03              830 	.byte	3
+0000002f 00              831 	.space	1
+00000030 00              832 	.space	1
+00000031 000000          833 	.space	3
+00000034 04000000        834 	.byte	4,0,0,0
+00000038 5200            835 	.byte	82,0
+0000003a 03              836 	.byte	3
+0000003b 00              837 	.space	1
+0000003c 01              838 	.byte	1
+0000003d 000000          839 	.space	3
+00000040 05000000        840 	.byte	5,0,0,0
+00000044 5200            841 	.byte	82,0
+00000046 03              842 	.byte	3
+00000047 00              843 	.space	1
+00000048 01              844 	.byte	1
+00000049 000000          845 	.space	3
+0000004c 06000000        846 	.byte	6,0,0,0
+00000050 6600            847 	.byte	102,0
+00000052 03              848 	.byte	3
+00000053 00              849 	.space	1
+00000054 00              850 	.space	1
+00000055 000000          851 	.space	3
+00000058 07000000        852 	.byte	7,0,0,0
+0000005c 5200            853 	.byte	82,0
+0000005e 03              854 	.byte	3
+0000005f 00              855 	.space	1
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008p01.si
+00000060 01              856 	.byte	1
+00000061 000000          857 	.space	3
+00000064 08000000        858 	.byte	8,0,0,0
+00000068 5200            859 	.byte	82,0
+0000006a 03              860 	.byte	3
+0000006b 00              861 	.space	1
+0000006c 01              862 	.byte	1
+0000006d 000000          863 	.space	3
+00000070 09000000        864 	.byte	9,0,0,0
+00000074 5200            865 	.byte	82,0
+00000076 03              866 	.byte	3
+00000077 00              867 	.space	1
+00000078 01              868 	.byte	1
+00000079 000000          869 	.space	3
+0000007c 0a000000        870 	.byte	10,0,0,0
+00000080 5200            871 	.byte	82,0
+00000082 03              872 	.byte	3
+00000083 00              873 	.space	1
+00000084 01              874 	.byte	1
+00000085 000000          875 	.space	3
+00000088 0b000000        876 	.byte	11,0,0,0
+0000008c 5200            877 	.byte	82,0
+0000008e 03              878 	.byte	3
+0000008f 00              879 	.space	1
+00000090 01              880 	.byte	1
+00000091 000000          881 	.space	3
+00000094 0c000000        882 	.byte	12,0,0,0
+00000098 5200            883 	.byte	82,0
+0000009a 03              884 	.byte	3
+0000009b 00              885 	.space	1
+0000009c 00              886 	.space	1
+0000009d 000000          887 	.space	3
+000000a0 0d000000        888 	.byte	13,0,0,0
+000000a4 5200            889 	.byte	82,0
+000000a6 03              890 	.byte	3
+000000a7 00              891 	.space	1
+000000a8 00              892 	.space	1
+000000a9 000000          893 	.space	3
+000000ac 0e000000        894 	.byte	14,0,0,0
+000000b0 5200            895 	.byte	82,0
+000000b2 03              896 	.byte	3
+000000b3 00              897 	.space	1
+000000b4 00              898 	.space	1
+000000b5 000000          899 	.space	3
+000000b8 0f000000        900 	.byte	15,0,0,0
+000000bc 5200            901 	.byte	82,0
+000000be 03              902 	.byte	3
+000000bf 00              903 	.space	1
+                         904 	.type	_Adm_Matrix,@object
+                         905 	.size	_Adm_Matrix,192
+                         906 	.data
+                         907 	.ghsnote version,14
+                         908 	.ghsnote tools,3
+                         909 	.ghsnote options,144
+                         910 	.text
+                         911 	.align	2
+                         912 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadm...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740862..0::
+                         913 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

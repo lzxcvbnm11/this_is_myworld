@@ -1,0 +1,1465 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\nwd.dbo -source=nwd.c -o .\obj\gh_00008v01.o -list=.\obj\nwd.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+Source File: nwd.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\NWD\nwd.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         112 --		-o .\obj\nwd.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\NWD\nwd.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:42 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --2: /**************************************************************************
+                         125 --3: |                                Copyright
+                         126 --4: |------------------------------------------------------------------------
+                         127 --5: |Copyright(c) by YEEDON MultiMedia Co.LTD. All rights reserved.
+                         128 --6: |
+                         129 --7: |    this software if furnished under a license and may be used and copied
+                         130 --8: |    only in accordance with the terms of such license and with the inclusion
+                         131 --9: |    of he above copyright notic.This software or any other copies thereof
+                         132 --10: |    may not be provided of otherwise made available to any other persion.
+                         133 --11: |    No title to and ownership of the software is hereby transferred.
+                         134 --12: |
+                         135 --13: |    the information in this software is subject to change without notice
+                         136 --14: |   and should not be construed as a commitment by
+                         137 --15: |   YEEDON MultiMedia Co.LTD.
+                         138 --16: |
+                         139 --17: |     YEEDON MultiMedia Co.LTD. assumes no responsibility for the use or reliability
+                         140 --18: |     of its Software on equipment which is not supported by YEEDON MultiMedia Co.LTD.
+                         141 --19: |--------------------------------------------------------------
+                         142 --20: **************************************************************************/
+                         143 --24: /*-----------------------------------------------------------------------*/
+                         144 --25: /*----Description of file-----------------------------------------------------*/
+                         145 --26: /*-----------------------------------------------------------------------*/
+                         146 --30: /*************************************************************************
+                         147 --31: LED source file used for LED ON,OFF,FLASH control when warn or other event trigged
+                         148 --32: *************************************************************************/
+                         149 --35: /*------------------------------------------------------------------------*/
+                         150 --36: /*-----Head of file----------------------------------------------------------*/
+                         151 --37: /*------------------------------------------------------------------------*/
+                         152 --38: #include "nwd_info.inc"
+                         153 --40: extern v_nwm_instance nwm_slave_instance ;
+                         154 --41: static v_nwm_state nwd_nwm_state;
+                         155 --42: static U8 nwd_InitSts = 0;
+                         156 --43: static U8 BusOff_Process_Cnt = 0;
+                         157 --45: /******************************************************************************
+                         158 --47: **	Function:NWD_Init
+                         159 --49: **	Input:
+                         160 --51: **	Output:none
+                         161 --53: **	Returns:none
+                         162 --55: *******************************************************************************/
+                         163 --56: void NWD_Init(void)
+                         164 	.text
+                         165 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740377..0::
+                         166 	.align	2
+                         167 	.global	_NWD_Init
+                         168 _NWD_Init:
+00000000 8007e100        169 	prepare	{r28,r29,r31},0
+00000004 3d0600000000*   170 	mov	.L30,r29
+                         171 --	    .bf
+                         172 .LDW01:
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         173 --57: {
+                         174 --58:     U8 i =0;
+0000000a 00e2            175 	mov	0,r28
+                         176 --59:       
+                         177 --60:      nwd_InitSts = COM_GetInitSts();
+                         178 	jarl	_COM_GetInitSts,lp
+                         178 <EXPANSION BEGIN>
+                         178 jarl22 _COM_GetInitSts , lp 
+0000000c 80ff0000*       178 <EXPANSION END>
+00000010 5d570000        179 	st.b	r10,0[r29]
+                         180 --61:      BusOff_Process_Cnt = 0;
+                         181 --line61
+                         182 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.1::
+                         183 .LDWlin1:
+00000014 5d070100        184 	st.b	zero,1[r29]
+                         185 --62: }
+00000018 0000            186 	nop
+                         187 --	    .ef
+                         188 .LDW11:
+0000001a 4006ff00        189 	dispose	0,{r28,r29,r31},[lp]
+                         190 	.type	_NWD_Init,@function
+                         191 	.size	_NWD_Init,.-_NWD_Init
+                         192 	.align	2
+                         193 .LDW21:
+                         194 --_i	r28	local
+                         195 
+                         196 	.data
+                         197 .L30:
+                         198 	.type	.L30,@object
+                         199 	.size	.L30,0
+                         200 	.section ".bss","awb"
+                         201 	.align	4
+                         202 	.global	_nwd_nwm_state..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.
+                         203 _nwd_nwm_state..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.:
+                         204 	.type	_nwd_nwm_state..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,@object
+                         205 	.size	_nwd_nwm_state..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,4
+00000000 00000000        206 _nwd_nwm_state:	.space	4
+                         207 	.type	_nwd_nwm_state,@object
+                         208 	.size	_nwd_nwm_state,4
+                         209 	.data
+                         210 	.global	_nwd_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.
+                         211 _nwd_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.:
+                         212 	.type	_nwd_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,@object
+                         213 	.size	_nwd_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,1
+00000000 00              214 _nwd_InitSts:	.byte	0
+                         215 	.type	_nwd_InitSts,@object
+                         216 	.size	_nwd_InitSts,1
+                         217 	.global	_BusOff_Process_Cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.
+                         218 _BusOff_Process_Cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.:
+                         219 	.type	_BusOff_Process_Cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,@object
+                         220 	.size	_BusOff_Process_Cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,1
+00000001 00              221 _BusOff_Process_Cnt:	.byte	0
+                         222 	.type	_BusOff_Process_Cnt,@object
+                         223 	.size	_BusOff_Process_Cnt,1
+                         224 	.section ".bss","awb"
+                         225 	.global	_iCanBusOff..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.
+                         226 _iCanBusOff..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.:
+                         227 	.type	_iCanBusOff..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,@object
+                         228 	.size	_iCanBusOff..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,12
+00000004 000000000000    229 _iCanBusOff:	.space	12
+0000000a 000000000000 
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         230 	.type	_iCanBusOff,@object
+                         231 	.size	_iCanBusOff,12
+                         232 	.global	_iNodeTimeout..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.
+                         233 _iNodeTimeout..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.:
+                         234 	.type	_iNodeTimeout..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,@object
+                         235 	.size	_iNodeTimeout..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,288
+00000010 000000000000    236 _iNodeTimeout:	.space	288
+00000016 000000000000 
+0000001c 000000000000 
+00000022 000000000000 
+00000028 000000000000 
+0000002e 000000000000 
+00000034 000000000000 
+0000003a 000000000000 
+00000040 000000000000 
+00000046 000000000000 
+0000004c 000000000000 
+00000052 000000000000 
+00000058 000000000000 
+0000005e 000000000000 
+00000064 000000000000 
+0000006a 000000000000 
+00000070 000000000000 
+00000076 000000000000 
+0000007c 000000000000 
+00000082 000000000000 
+00000088 000000000000 
+0000008e 000000000000 
+00000094 000000000000 
+0000009a 000000000000 
+000000a0 000000000000 
+000000a6 000000000000 
+000000ac 000000000000 
+000000b2 000000000000 
+000000b8 000000000000 
+000000be 000000000000 
+000000c4 000000000000 
+000000ca 000000000000 
+000000d0 000000000000 
+000000d6 000000000000 
+000000dc 000000000000 
+000000e2 000000000000 
+000000e8 000000000000 
+000000ee 000000000000 
+000000f4 000000000000 
+000000fa 000000000000 
+00000100 000000000000 
+00000106 000000000000 
+0000010c 00000000 
+                         237 	.type	_iNodeTimeout,@object
+                         238 	.size	_iNodeTimeout,288
+                         239 	.data
+                         240 	.text
+                         241 
+                         242 
+                         243 --64: /******************************************************************************
+                         244 --66: **	Function:NWD_Process_10ms
+                         245 --68: **	Input:
+                         246 --70: **	Output:none
+                         247 --72: **	Returns:none
+                         248 --74: *******************************************************************************/
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         249 --75: void NWD_Process_5ms(void)
+                         250 	.align	2
+                         251 	.align	2
+                         252 	.global	_NWD_Process_5ms
+                         253 _NWD_Process_5ms:
+0000001e 8007e100        254 	prepare	{r28,r29,r31},0
+00000022 3d0600000000*   255 	mov	_nwd_InitSts,r29
+00000028 3de60100        256 	movea	1,r29,r28
+                         257 --	    .bf
+                         258 .LDW31:
+                         259 --76: {
+                         260 --77:     if(TRUE == nwd_InitSts)
+0000002c 210600000000*   261 	mov	_nwd_InitSts,r1
+00000032 810f0100        262 	ld.bu	0[r1],r1
+00000036 610a            263 	cmp	1,r1
+00000038 fa0d*           264 	bne	.L58
+                         265 --78:     {
+                         266 --79:         nwd_NodeMissingChk_5ms();
+                         267 --line79
+                         268 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.2::
+                         269 .LDWlin2:
+                         270 	jarl	_nwd_NodeMissingChk_5ms,lp
+                         270 <EXPANSION BEGIN>
+                         270 jarl22 _nwd_NodeMissingChk_5ms , lp 
+0000003a 80ff8200*       270 <EXPANSION END>
+                         271 --81:         BusOff_Process_Cnt = 1 - BusOff_Process_Cnt;
+                         272 --line81
+                         273 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.3::
+                         274 .LDWlin3:
+0000003e bd0f0100        275 	ld.bu	1[r29],r1
+00000042 0172            276 	mov	1,r14
+00000044 8e09            277 	subr	r14,r1
+00000046 5d0f0100        278 	st.b	r1,1[r29]
+                         279 --82:         if(0 == BusOff_Process_Cnt)
+0000004a bd0f0100        280 	ld.bu	1[r29],r1
+0000004e e009            281 	cmp	zero,r1
+00000050 ba05*           282 	bne	.L58
+                         283 --83:         {
+                         284 --84:           nwd_CANBusoffMonitor_10ms();
+                         285 --line84
+                         286 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.4::
+                         287 .LDWlin4:
+                         288 	jarl	_nwd_CANBusoffMonitor_10ms,lp
+                         288 <EXPANSION BEGIN>
+                         288 jarl22 _nwd_CANBusoffMonitor_10ms , lp 
+00000052 80ff6402*       288 <EXPANSION END>
+                         289 .L58:
+                         290 --85:         }
+                         291 --86: 		else
+                         292 --87:  	    {
+                         293 --88:  	    }
+                         294 --89:     }
+                         295 --90:     else
+                         296 --91:     {
+                         297 --92:         /*do nothing*/
+                         298 --93:     }
+                         299 --94: }
+                         300 --line94
+                         301 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.5::
+                         302 .LDWlin5:
+00000056 0000            303 	nop
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         304 --	    .ef
+                         305 .LDW41:
+00000058 4006ff00        306 	dispose	0,{r28,r29,r31},[lp]
+                         307 	.type	_NWD_Process_5ms,@function
+                         308 	.size	_NWD_Process_5ms,.-_NWD_Process_5ms
+                         309 	.align	2
+                         310 .LDW51:
+                         311 
+                         312 	.data
+                         313 	.text
+                         314 
+                         315 
+                         316 --96: /******************************************************************************
+                         317 --98: **	Function:NWD_GetNodeMissing
+                         318 --100: **	Input:none
+                         319 --102: **	Output:state
+                         320 --104: **	Returns:RET_OK,RET_FAIL,RET_INVALID
+                         321 --106: *******************************************************************************/
+                         322 --107: U8 NWD_GetNodeMissing(NwdNodeIndex_ENUM NodeIndex,PU8 sts)
+                         323 	.align	2
+                         324 	.align	2
+                         325 	.global	_NWD_GetNodeMissing
+                         326 _NWD_GetNodeMissing:
+0000005c 0670            327 	mov	r6,r14
+0000005e 07f0            328 	mov	r7,ep
+                         329 --	    .bf
+                         330 .LDW61:
+                         331 --109: {
+                         332 --110:     U8 res = RET_FAIL;
+00000060 000a            333 	mov	0,r1
+                         334 --112:     if (FALSE == nwd_InitSts)
+00000062 2d0600000000*   335 	mov	_nwd_InitSts,r13
+00000068 8d6f0100        336 	ld.bu	0[r13],r13
+0000006c e069            337 	cmp	zero,r13
+0000006e ba05*           338 	bne	.L110
+                         339 --113:     {
+                         340 --114:         res = RET_FAIL;
+                         341 --line114
+                         342 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.6::
+                         343 .LDWlin6:
+00000070 000a            344 	mov	0,r1
+00000072 c515*           345 	br	.L112
+                         346 .L110:
+                         347 --115:     }
+                         348 --116:     else if(NULL_PTR == sts)
+                         349 --line116
+                         350 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.7::
+                         351 .LDWlin7:
+00000074 e0f1            352 	cmp	zero,ep
+00000076 ba05*           353 	bne	.L113
+                         354 --117:     {
+                         355 --118:         res = RET_INVALID;
+                         356 --line118
+                         357 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.8::
+                         358 .LDWlin8:
+00000078 020a            359 	mov	2,r1
+0000007a 8515*           360 	br	.L112
+                         361 .L113:
+                         362 --119:     }
+                         363 --120:     else
+                         364 --121:     {
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         365 --122:         if( NO_FAULT_STATE == iNodeTimeout[NodeIndex].FaultState)
+                         366 --line122
+                         367 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.9::
+                         368 .LDWlin9:
+0000007c 0e68            369 	mov	r14,r13
+0000007e c46a            370 	shl	4,r13
+00000080 2c0600000000*   371 	mov	_iNodeTimeout,r12
+00000086 cc69            372 	add	r12,r13
+00000088 2d6f0900        373 	ld.w	8[r13],r13
+0000008c e069            374 	cmp	zero,r13
+0000008e ba05*           375 	bne	.L116
+                         376 --123:             {
+                         377 --124:                 *sts = FALSE;
+                         378 --line124
+                         379 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.10::
+                         380 .LDWlin10:
+00000090 8003            381 	sst.b	zero,0[ep]
+00000092 b505*           382 	br	.L118
+                         383 .L116:
+                         384 --125:             }
+                         385 --126:         else
+                         386 --127:             {
+                         387 --128:                  *sts = TRUE;
+                         388 --line128
+                         389 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.11::
+                         390 .LDWlin11:
+00000094 016a            391 	mov	1,r13
+00000096 806b            392 	sst.b	r13,0[ep]
+                         393 .L118:
+                         394 --129:             }        
+                         395 --130:         res = RET_OK;
+00000098 010a            396 	mov	1,r1
+                         397 .L112:
+                         398 --131:     }
+                         399 --132:     return res;
+0000009a 0150            400 	mov	r1,r10
+                         401 --	    .ef
+                         402 .LDW71:
+0000009c 7f00            403 	jmp	[lp]
+                         404 	.type	_NWD_GetNodeMissing,@function
+                         405 	.size	_NWD_GetNodeMissing,.-_NWD_GetNodeMissing
+                         406 	.align	2
+                         407 .LDW81:
+                         408 --_res	r1	local
+                         409 
+                         410 --_NodeIndex	r14	param
+                         411 --_sts	ep	param
+                         412 
+                         413 	.data
+                         414 	.text
+                         415 
+                         416 --133: }
+                         417 
+                         418 --134: /******************************************************************************
+                         419 --136: **	Function:NWD_GetBusOffFlt
+                         420 --138: **	Input:none
+                         421 --140: **	Output:none
+                         422 --142: **	Returns: TRUE:BUS OFF FAULT STATE
+                         423 --143:                      FALSE: NORMAL STATE
+                         424 --145: *******************************************************************************/
+                         425 --146: BOOL NWD_GetBusOffFlt(void)
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         426 	.align	2
+                         427 	.align	2
+                         428 	.global	_NWD_GetBusOffFlt
+                         429 _NWD_GetBusOffFlt:
+0000009e 210600000000*   430 	mov	.L222,r1
+000000a4 21f6dcfe        431 	movea	-292,r1,ep
+                         432 --	    .bf
+                         433 .LDW91:
+                         434 --147: {
+                         435 --148:     if((CURRENT_FAULT_STATE == iCanBusOff.FaultState) ||(HEAL_FAULT_STATE == iCanBusOff.FaultState) )
+000000a8 0075            436 	sld.w	0[ep],r14
+000000aa 6172            437 	cmp	1,r14
+000000ac c205*           438 	be	.L195
+000000ae 0075            439 	sld.w	0[ep],r14
+000000b0 6272            440 	cmp	2,r14
+000000b2 ba05*           441 	bne	.L194
+                         442 .L195:
+                         443 --149:     {
+                         444 --150:         return TRUE;
+                         445 --line150
+                         446 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.12::
+                         447 .LDWlin12:
+000000b4 0152            448 	mov	1,r10
+000000b6 a505*           449 	br	.L192
+                         450 .L194:
+                         451 --151:     }
+                         452 --152:     else
+                         453 --153:     {
+                         454 --154:         return FALSE;
+                         455 --line154
+                         456 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.13::
+                         457 .LDWlin13:
+000000b8 0052            458 	mov	0,r10
+                         459 .L192:
+                         460 --	    .ef
+                         461 .LDW02:
+000000ba 7f00            462 	jmp	[lp]
+                         463 	.type	_NWD_GetBusOffFlt,@function
+                         464 	.size	_NWD_GetBusOffFlt,.-_NWD_GetBusOffFlt
+                         465 	.align	2
+                         466 .LDW12:
+                         467 
+                         468 	.section ".bss","awb"
+                         469 .L222:
+                         470 	.type	.L222,@object
+                         471 	.size	.L222,0
+                         472 	.data
+                         473 	.text
+                         474 
+                         475 --155:     }
+                         476 --156: }
+                         477 
+                         478 --158: /******************************************************************************
+                         479 --160: **	Function:NodeMissingChk_5ms
+                         480 --162: **	Input:
+                         481 --164: **	Output:none
+                         482 --166: **	Returns:none
+                         483 --168: **	Calls:   v_test_flag
+                         484 --170: **	Note:check frame timeout
+                         485 --172:                1.must in normal state
+                         486 --174:                2.timeout time great than 2000ms or 20000ms
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         487 --176:                3.recovery time = 100*period
+                         488 --178: *******************************************************************************/
+                         489 --179: void nwd_NodeMissingChk_5ms(void)
+                         490 	.align	2
+                         491 	.align	2
+                         492 	.global	_nwd_NodeMissingChk_5ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.
+                         493 _nwd_NodeMissingChk_5ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.:
+                         494 _nwd_NodeMissingChk_5ms:
+000000bc 8207e170        495 	prepare	{r25,r26,r27,r28,r29,r31},1
+000000c0 3d0600000000*   496 	mov	_nwd_nwm_state,r29
+000000c6 3dde1000        497 	movea	16,r29,r27
+000000ca 3a0600000000*   498 	mov	_NODE_MONITOR_FLAGS,r26
+000000d0 390600000000*   499 	mov	_NODE_HEAL_COUNT,r25
+                         500 --	    .bf
+                         501 .LDW22:
+                         502 --180: {
+                         503 --182:    U8 i;
+                         504 --184:    /* Node Missing check */
+                         505 --185:      nwd_nwm_state = v_nwm_get_state( &nwm_slave_instance );
+000000d6 260600000000*   506 	mov	_nwm_slave_instance,r6
+                         507 	jarl	_v_nwm_get_state,lp
+                         507 <EXPANSION BEGIN>
+                         507 jarl22 _v_nwm_get_state , lp 
+000000dc 80ff0000*       507 <EXPANSION END>
+000000e0 7d570100        508 	st.w	r10,0[r29]
+                         509 --186:  for (i = (INDEX_ECM_NODE ); i < INDEX_NODE_ALL; i++)
+                         510 --line186
+                         511 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.14::
+                         512 .LDWlin14:
+000000e4 00e2            513 	mov	0,r28
+000000e6 0000            514 	nop
+                         515 .L247:
+                         516 --187:  
+                         517 --188:  // for (i = (INDEX_FICM_NODE ); i < INDEX_FICM_NODE+1; i++) 
+                         518 --189:   {
+                         519 --191:         if (V_NWM_OPERATION == nwd_nwm_state/*flt detect condition is meet*/)
+000000e8 3d0f0100        520 	ld.w	0[r29],r1
+000000ec 620a            521 	cmp	2,r1
+000000ee ea079f01*       522 	bne	.L248
+                         523 --192:         {
+                         524 --194:            /* received monitoring frames */
+                         525 --196:            if	(v_test_flag(NODE_MONITOR_FLAGS[i]))
+                         526 --line196
+                         527 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.15::
+                         528 .LDWlin15:
+000000f2 1cf0            529 	mov	r28,ep
+000000f4 c2f2            530 	shl	2,ep
+000000f6 daf1            531 	add	r26,ep
+000000f8 0035            532 	sld.w	0[ep],r6
+                         533 	jarl	_v_test_flag,lp
+                         533 <EXPANSION BEGIN>
+                         533 jarl22 _v_test_flag , lp 
+000000fa 80ff0000*       533 <EXPANSION END>
+000000fe e051            534 	cmp	zero,r10
+00000100 b24d*           535 	be	.L250
+                         536 --197:            {
+                         537 --198:            
+                         538 --199:                 switch (iNodeTimeout[i].FaultState)
+                         539 --line199
+                         540 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.16::
+                         541 .LDWlin16:
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+00000102 1cf0            542 	mov	r28,ep
+00000104 c4f2            543 	shl	4,ep
+00000106 dbf1            544 	add	r27,ep
+00000108 040d            545 	sld.w	8[ep],r1
+0000010a 610a            546 	cmp	1,r1
+0000010c d105*           547 	bl	.L254
+0000010e d20d*           548 	be	.L257
+00000110 620a            549 	cmp	2,r1
+00000112 ca3d*           550 	bne	.L264
+00000114 c515*           551 	br	.L259
+                         552 .L254:
+                         553 --200:                 {
+                         554 --202:                    case NO_FAULT_STATE:
+                         555 --203:                    {
+                         556 --204: 	                     iNodeTimeout[i].TimeOutCount = 0;
+                         557 --line204
+                         558 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.17::
+                         559 .LDWlin17:
+00000116 1cf0            560 	mov	r28,ep
+00000118 c4f2            561 	shl	4,ep
+0000011a dbf1            562 	add	r27,ep
+0000011c 0105            563 	sst.w	zero,0[ep]
+                         564 --206: 	                     iNodeTimeout[i].HealValidFramCount = 0;
+0000011e 1cf0            565 	mov	r28,ep
+00000120 c4f2            566 	shl	4,ep
+00000122 dbf1            567 	add	r27,ep
+00000124 0305            568 	sst.w	zero,4[ep]
+                         569 --208: 	                     break;
+00000126 b535*           570 	br	.L255
+                         571 .L257:
+                         572 --209:                    }
+                         573 --212:                     case CURRENT_FAULT_STATE:
+                         574 --214:                     {
+                         575 --216:                          iNodeTimeout[i].FaultState = HEAL_FAULT_STATE;
+                         576 --line216
+                         577 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.18::
+                         578 .LDWlin18:
+00000128 1cf0            579 	mov	r28,ep
+0000012a c4f2            580 	shl	4,ep
+0000012c dbf1            581 	add	r27,ep
+0000012e 020a            582 	mov	2,r1
+00000130 050d            583 	sst.w	r1,8[ep]
+                         584 --218:                          iNodeTimeout[i].HealValidFramCount = 0;
+00000132 1cf0            585 	mov	r28,ep
+00000134 c4f2            586 	shl	4,ep
+00000136 dbf1            587 	add	r27,ep
+00000138 0305            588 	sst.w	zero,4[ep]
+                         589 --220:                          break;
+0000013a 952d*           590 	br	.L255
+                         591 .L259:
+                         592 --222:                     }
+                         593 --224:                     case HEAL_FAULT_STATE:
+                         594 --226:                     {
+                         595 --228:                          if (iNodeTimeout[i].HealValidFramCount < NODE_HEAL_COUNT[i])
+                         596 --line228
+                         597 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.19::
+                         598 .LDWlin19:
+0000013c 1cf0            599 	mov	r28,ep
+0000013e 1c08            600 	mov	r28,r1
+00000140 c4f2            601 	shl	4,ep
+00000142 c20a            602 	shl	2,r1
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+00000144 dbf1            603 	add	r27,ep
+00000146 0275            604 	sld.w	4[ep],r14
+00000148 d909            605 	add	r25,r1
+0000014a 210f0100        606 	ld.w	0[r1],r1
+0000014e e171            607 	cmp	r1,r14
+00000150 8915*           608 	bnl	.L260
+                         609 --230:                           {
+                         610 --232:                                 iNodeTimeout[i].HealValidFramCount++;
+                         611 --line232
+                         612 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.20::
+                         613 .LDWlin20:
+00000152 1cf0            614 	mov	r28,ep
+00000154 c4f2            615 	shl	4,ep
+00000156 dbf1            616 	add	r27,ep
+00000158 020d            617 	sld.w	4[ep],r1
+0000015a 410a            618 	add	1,r1
+0000015c 030d            619 	sst.w	r1,4[ep]
+                         620 --233:                                 iNodeTimeout[i].LastValidCount=iNodeTimeout[i].HealValidFramCount;                                    
+0000015e 1cf0            621 	mov	r28,ep
+00000160 c4f2            622 	shl	4,ep
+00000162 1e08            623 	mov	ep,r1
+00000164 dbf1            624 	add	r27,ep
+00000166 db09            625 	add	r27,r1
+00000168 210f0500        626 	ld.w	4[r1],r1
+0000016c 070d            627 	sst.w	r1,12[ep]
+0000016e d50d*           628 	br	.L262
+                         629 .L260:
+                         630 --234:                           }
+                         631 --235:                          else 
+                         632 --236:                          {
+                         633 --237:                                  iNodeTimeout[i].FaultState = NO_FAULT_STATE;
+                         634 --line237
+                         635 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.21::
+                         636 .LDWlin21:
+00000170 1cf0            637 	mov	r28,ep
+00000172 c4f2            638 	shl	4,ep
+00000174 dbf1            639 	add	r27,ep
+00000176 0505            640 	sst.w	zero,8[ep]
+                         641 --238:                                  iNodeTimeout[i].TimeOutCount = 0;
+00000178 1cf0            642 	mov	r28,ep
+0000017a c4f2            643 	shl	4,ep
+0000017c dbf1            644 	add	r27,ep
+0000017e 0105            645 	sst.w	zero,0[ep]
+                         646 --239:                                  iNodeTimeout[i].HealValidFramCount = 0;                                                           
+00000180 1cf0            647 	mov	r28,ep
+00000182 c4f2            648 	shl	4,ep
+00000184 dbf1            649 	add	r27,ep
+00000186 0305            650 	sst.w	zero,4[ep]
+                         651 .L262:
+                         652 --240:                          }
+                         653 --241:                          break;
+00000188 a505*           654 	br	.L255
+                         655 .L264:
+                         656 --242:                    }
+                         657 --243:                    default:
+                         658 --244:                    {
+                         659 --245:                          break;
+                         660 --line245
+                         661 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.22::
+                         662 .LDWlin22:
+0000018a 0000            663 	nop
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         664 .L255:
+                         665 --246:                    }
+                         666 --247:                }
+                         667 --248:          iNodeTimeout[i].TimeOutCount = 0;    
+0000018c 1cf0            668 	mov	r28,ep
+0000018e c4f2            669 	shl	4,ep
+00000190 dbf1            670 	add	r27,ep
+00000192 0105            671 	sst.w	zero,0[ep]
+00000194 d575*           672 	br	.L266
+                         673 .L250:
+                         674 --249:          } /* end if (iNodeTimeout[i].FaultState == HEAL_FAULT_STATE) */
+                         675 --250:          
+                         676 --251:          else /*not received monitoring frames*/
+                         677 --252:          {
+                         678 --253:              /* take count of timeout */
+                         679 --254:              switch (iNodeTimeout[i].FaultState)
+                         680 --line254
+                         681 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.23::
+                         682 .LDWlin23:
+00000196 1cf0            683 	mov	r28,ep
+00000198 c4f2            684 	shl	4,ep
+0000019a dbf1            685 	add	r27,ep
+0000019c 040d            686 	sld.w	8[ep],r1
+0000019e 610a            687 	cmp	1,r1
+000001a0 d105*           688 	bl	.L269
+000001a2 c26d*           689 	be	.L280
+000001a4 620a            690 	cmp	2,r1
+000001a6 ba6d*           691 	bne	.L283
+000001a8 c525*           692 	br	.L273
+                         693 .L269:
+                         694 --255:              {
+                         695 --256:                  case NO_FAULT_STATE:
+                         696 --257:                     {
+                         697 --258:                         if (iNodeTimeout[i].TimeOutCount < (NODE_MISSSING_COUNT[i]))
+                         698 --line258
+                         699 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.24::
+                         700 .LDWlin24:
+000001aa 2e0600000000*   701 	mov	_NODE_MISSSING_COUNT,r14
+000001b0 1c08            702 	mov	r28,r1
+000001b2 c20a            703 	shl	2,r1
+000001b4 1cf0            704 	mov	r28,ep
+000001b6 c4f2            705 	shl	4,ep
+000001b8 ce09            706 	add	r14,r1
+000001ba dbf1            707 	add	r27,ep
+000001bc 0075            708 	sld.w	0[ep],r14
+000001be 210f0100        709 	ld.w	0[r1],r1
+000001c2 e171            710 	cmp	r1,r14
+000001c4 890d*           711 	bnl	.L270
+                         712 --259:                         {
+                         713 --260:                             iNodeTimeout[i].TimeOutCount++;
+                         714 --line260
+                         715 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.25::
+                         716 .LDWlin25:
+000001c6 1cf0            717 	mov	r28,ep
+000001c8 c4f2            718 	shl	4,ep
+000001ca dbf1            719 	add	r27,ep
+000001cc 000d            720 	sld.w	0[ep],r1
+000001ce 410a            721 	add	1,r1
+000001d0 010d            722 	sst.w	r1,0[ep]
+000001d2 e50d*           723 	br	.L272
+                         724 .L270:
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         725 --261:                         }
+                         726 --262:                         else  
+                         727 --263:                         {
+                         728 --264:                             iNodeTimeout[i].FaultState = CURRENT_FAULT_STATE;
+                         729 --line264
+                         730 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.26::
+                         731 .LDWlin26:
+000001d4 1cf0            732 	mov	r28,ep
+000001d6 c4f2            733 	shl	4,ep
+000001d8 dbf1            734 	add	r27,ep
+000001da 010a            735 	mov	1,r1
+000001dc 050d            736 	sst.w	r1,8[ep]
+                         737 --265:                             iNodeTimeout[i].HealValidFramCount = 0;
+000001de 1cf0            738 	mov	r28,ep
+000001e0 c4f2            739 	shl	4,ep
+000001e2 dbf1            740 	add	r27,ep
+000001e4 0305            741 	sst.w	zero,4[ep]
+                         742 --266:                             iNodeTimeout[i].LastValidCount = 0;
+000001e6 1cf0            743 	mov	r28,ep
+000001e8 c4f2            744 	shl	4,ep
+000001ea dbf1            745 	add	r27,ep
+000001ec 0705            746 	sst.w	zero,12[ep]
+                         747 .L272:
+000001ee 854d*           748 	br	.L266
+                         749 .L273:
+                         750 --267: 			
+                         751 --268:                         }/* frame timeout confirm,enter fault state */
+                         752 --269:                     }
+                         753 --270:                        break;
+                         754 --271:                   case HEAL_FAULT_STATE:
+                         755 --272:                     {
+                         756 --273:                         if ((MAX_FRAME_ARRIVAL_DEBOUNCE*NODE_ONE_FRAME_COUNT[i]) <
+                         757 --line273
+                         758 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.27::
+                         759 .LDWlin27:
+000001f0 1cf0            760 	mov	r28,ep
+000001f2 c2f2            761 	shl	2,ep
+000001f4 2e0600000000*   762 	mov	_NODE_ONE_FRAME_COUNT,r14
+000001fa cef1            763 	add	r14,ep
+000001fc 000d            764 	sld.w	0[ep],r1
+000001fe 1cf0            765 	mov	r28,ep
+00000200 c4f2            766 	shl	4,ep
+00000202 1e70            767 	mov	ep,r14
+00000204 db71            768 	add	r27,r14
+00000206 2e670d00        769 	ld.w	12[r14],r12
+0000020a dbf1            770 	add	r27,ep
+0000020c 026d            771 	sld.w	4[ep],r13
+0000020e e30f4202        772 	mulu	3,r1,zero
+00000212 ac69            773 	sub	r12,r13
+00000214 ed09            774 	cmp	r13,r1
+00000216 f90d*           775 	bnl	.L274
+                         776 --274:                         (iNodeTimeout[i].HealValidFramCount -iNodeTimeout[i].LastValidCount))
+                         777 --275:                         {
+                         778 --276:                             iNodeTimeout[i].FaultState = CURRENT_FAULT_STATE;
+                         779 --line276
+                         780 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.28::
+                         781 .LDWlin28:
+00000218 1cf0            782 	mov	r28,ep
+0000021a c4f2            783 	shl	4,ep
+0000021c dbf1            784 	add	r27,ep
+0000021e 010a            785 	mov	1,r1
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+00000220 050d            786 	sst.w	r1,8[ep]
+                         787 --277:                             iNodeTimeout[i].HealValidFramCount = 0;
+00000222 1cf0            788 	mov	r28,ep
+00000224 c4f2            789 	shl	4,ep
+00000226 dbf1            790 	add	r27,ep
+00000228 0305            791 	sst.w	zero,4[ep]
+                         792 --278:                             iNodeTimeout[i].LastValidCount = 0;				
+0000022a 1cf0            793 	mov	r28,ep
+0000022c c4f2            794 	shl	4,ep
+0000022e dbf1            795 	add	r27,ep
+00000230 0705            796 	sst.w	zero,12[ep]
+00000232 b525*           797 	br	.L276
+                         798 .L274:
+                         799 --279:                         }
+                         800 --280:                         else if (iNodeTimeout[i].HealValidFramCount < NODE_HEAL_COUNT[i])
+                         801 --line280
+                         802 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.29::
+                         803 .LDWlin29:
+00000234 1cf0            804 	mov	r28,ep
+00000236 1c08            805 	mov	r28,r1
+00000238 c4f2            806 	shl	4,ep
+0000023a c20a            807 	shl	2,r1
+0000023c dbf1            808 	add	r27,ep
+0000023e 0275            809 	sld.w	4[ep],r14
+00000240 d909            810 	add	r25,r1
+00000242 210f0100        811 	ld.w	0[r1],r1
+00000246 e171            812 	cmp	r1,r14
+00000248 890d*           813 	bnl	.L277
+                         814 --281:                         {
+                         815 --282:                             iNodeTimeout[i].HealValidFramCount++;
+                         816 --line282
+                         817 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.30::
+                         818 .LDWlin30:
+0000024a 1cf0            819 	mov	r28,ep
+0000024c c4f2            820 	shl	4,ep
+0000024e dbf1            821 	add	r27,ep
+00000250 020d            822 	sld.w	4[ep],r1
+00000252 410a            823 	add	1,r1
+00000254 030d            824 	sst.w	r1,4[ep]
+00000256 9515*           825 	br	.L276
+                         826 .L277:
+                         827 --283:                         }
+                         828 --284:                         else 
+                         829 --285:                         {
+                         830 --286:                             iNodeTimeout[i].FaultState = NO_FAULT_STATE;
+                         831 --line286
+                         832 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.31::
+                         833 .LDWlin31:
+00000258 1cf0            834 	mov	r28,ep
+0000025a c4f2            835 	shl	4,ep
+0000025c dbf1            836 	add	r27,ep
+0000025e 0505            837 	sst.w	zero,8[ep]
+                         838 --287:                             iNodeTimeout[i].TimeOutCount = 0;
+00000260 1cf0            839 	mov	r28,ep
+00000262 c4f2            840 	shl	4,ep
+00000264 dbf1            841 	add	r27,ep
+00000266 0105            842 	sst.w	zero,0[ep]
+                         843 --288:                             iNodeTimeout[i].HealValidFramCount = 0;
+00000268 1cf0            844 	mov	r28,ep
+0000026a c4f2            845 	shl	4,ep
+0000026c dbf1            846 	add	r27,ep
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+0000026e 0305            847 	sst.w	zero,4[ep]
+                         848 --289:                             iNodeTimeout[i].LastValidCount = 0;
+00000270 1cf0            849 	mov	r28,ep
+00000272 c4f2            850 	shl	4,ep
+00000274 dbf1            851 	add	r27,ep
+00000276 0705            852 	sst.w	zero,12[ep]
+                         853 .L276:
+00000278 b505*           854 	br	.L266
+                         855 .L280:
+                         856 --290: 			
+                         857 --291:                         }
+                         858 --292:                     }
+                         859 --293:                     break;
+                         860 --294:                  case CURRENT_FAULT_STATE:
+                         861 --295:                  {
+                         862 --296:                         break;
+                         863 --line296
+                         864 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.32::
+                         865 .LDWlin32:
+0000027a a505*           866 	br	.L266
+                         867 .L283:
+                         868 --297:                  }
+                         869 --298:                  default:
+                         870 --299:                  {
+                         871 --300:                          break;
+                         872 --line300
+                         873 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.33::
+                         874 .LDWlin33:
+0000027c 0000            875 	nop
+                         876 .L266:
+                         877 --301:                  }
+                         878 --302:              }
+                         879 --303:          } /* end else */   
+                         880 --304:                             
+                         881 --305:          v_clear_flag(NODE_MONITOR_FLAGS[i]);
+0000027e 1cf0            882 	mov	r28,ep
+00000280 c2f2            883 	shl	2,ep
+00000282 daf1            884 	add	r26,ep
+00000284 0035            885 	sld.w	0[ep],r6
+                         886 	jarl	_v_clear_flag,lp
+                         886 <EXPANSION BEGIN>
+                         886 jarl22 _v_clear_flag , lp 
+00000286 80ff0000*       886 <EXPANSION END>
+0000028a d50d*           887 	br	.L285
+                         888 .L248:
+                         889 --307:      }
+                         890 --308:       else
+                         891 --309:       {
+                         892 --310:                 iNodeTimeout[i].TimeOutCount = 0;
+                         893 --line310
+                         894 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.34::
+                         895 .LDWlin34:
+0000028c 1cf0            896 	mov	r28,ep
+0000028e c4f2            897 	shl	4,ep
+00000290 dbf1            898 	add	r27,ep
+00000292 0105            899 	sst.w	zero,0[ep]
+                         900 --311:                 iNodeTimeout[i].HealValidFramCount = 0;
+00000294 1cf0            901 	mov	r28,ep
+00000296 c4f2            902 	shl	4,ep
+00000298 dbf1            903 	add	r27,ep
+0000029a 0305            904 	sst.w	zero,4[ep]
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         905 --312:                 iNodeTimeout[i].LastValidCount = 0;
+0000029c 1cf0            906 	mov	r28,ep
+0000029e c4f2            907 	shl	4,ep
+000002a0 dbf1            908 	add	r27,ep
+000002a2 0705            909 	sst.w	zero,12[ep]
+                         910 .L285:
+000002a4 41e2            911 	add	1,r28
+000002a6 9c00            912 	zxb	r28
+000002a8 1c06eeff        913 	addi	-18,r28,zero
+000002ac f9073dfe*       914 	bnl	.L247
+                         915 --313:       }
+                         916 --314:   } /* end for(i=(NODE_AAA_INDEX+1);i<NODE_ZZZ_INDEX;i++)*/
+                         917 --315: }
+                         918 --line315
+                         919 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.35::
+                         920 .LDWlin35:
+000002b0 0000            921 	nop
+                         922 --	    .ef
+                         923 .LDW32:
+000002b2 4206ff70        924 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                         925 	.type	_nwd_NodeMissingChk_5ms,@function
+                         926 	.size	_nwd_NodeMissingChk_5ms,.-_nwd_NodeMissingChk_5ms
+                         927 	.type	_nwd_NodeMissingChk_5ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,@function
+                         928 	.size	_nwd_NodeMissingChk_5ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,.-_nwd_NodeMissingChk_5ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.
+                         929 	.align	2
+                         930 .LDW42:
+                         931 --_i	r28	local
+                         932 
+                         933 	.data
+                         934 	.text
+                         935 
+                         936 
+                         937 --316: /*******************************************************************************
+                         938 --317: ** Function:CANBusoffMonitor_10ms
+                         939 --318: ** Input:CANBusoff state from NWM module
+                         940 --319: ** Output:none
+                         941 --320: ** Returns:none
+                         942 --321: ** Calls:dfpm_set_error_flag
+                         943 --322: ******************************************************************************/
+                         944 --323: static void nwd_CANBusoffMonitor_10ms(void)
+                         945 	.align	2
+                         946 	.align	2
+                         947 	.global	_nwd_CANBusoffMonitor_10ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.
+                         948 _nwd_CANBusoffMonitor_10ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.:
+                         949 _nwd_CANBusoffMonitor_10ms:
+000002b6 210600000000*   950 	mov	_nwd_nwm_state,r1
+000002bc 216e0400        951 	movea	4,r1,r13
+000002c0 0160            952 	mov	r1,r12
+                         953 --	    .bf
+                         954 .LDW52:
+                         955 --324: {
+                         956 --326:             /* appear busoff */
+                         957 --327:            
+                         958 --328:         if ((V_NWM_BUSOFF == nwd_nwm_state) || (V_NWM_BUSOFF_WAIT==nwd_nwm_state))/*current network  status通过调用函数v_nwm_get_state获得*/
+000002c2 21770100        959 	ld.w	0[r1],r14
+000002c6 6372            960 	cmp	3,r14
+000002c8 d205*           961 	be	.L559
+000002ca 21770100        962 	ld.w	0[r1],r14
+000002ce 6472            963 	cmp	4,r14
+000002d0 ea1d*           964 	bne	.L558
+                         965 .L559:
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                         966 --329:         {
+                         967 --330:            switch (iCanBusOff.FaultState)
+                         968 --line330
+                         969 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.36::
+                         970 .LDWlin36:
+000002d2 21770d00        971 	ld.w	12[r1],r14
+000002d6 6172            972 	cmp	1,r14
+000002d8 d105*           973 	bl	.L563
+000002da f215*           974 	be	.L571
+000002dc 6272            975 	cmp	2,r14
+000002de ea15*           976 	bne	.L573
+000002e0 8515*           977 	br	.L569
+                         978 .L563:
+                         979 --331:             {
+                         980 --332:                 case NO_FAULT_STATE:
+                         981 --333:                  {
+                         982 --334:                     if (iCanBusOff.CurrentCount < BUSOFF_FAULT_COUNT)
+                         983 --line334
+                         984 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.37::
+                         985 .LDWlin37:
+000002e2 21770500        986 	ld.w	4[r1],r14
+000002e6 0e06ceff        987 	addi	-50,r14,zero
+000002ea f105*           988 	bl	.L564
+                         989 --335:                      {
+                         990 --336:                          iCanBusOff.CurrentCount++;
+                         991 --line336
+                         992 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.38::
+                         993 .LDWlin38:
+000002ec 21770500        994 	ld.w	4[r1],r14
+000002f0 4172            995 	add	1,r14
+000002f2 61770500        996 	st.w	r14,4[r1]
+000002f6 c505*           997 	br	.L566
+                         998 .L564:
+                         999 --337:                      }
+                        1000 --338:                     else 
+                        1001 --339:                      {
+                        1002 --340:                         iCanBusOff.FaultState = CURRENT_FAULT_STATE;
+                        1003 --line340
+                        1004 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.39::
+                        1005 .LDWlin39:
+000002f8 0172           1006 	mov	1,r14
+000002fa 61770d00       1007 	st.w	r14,12[r1]
+                        1008 .L566:
+                        1009 --341:                      }
+                        1010 --342:                       break;
+000002fe c52d*          1011 	br	.L575
+                        1012 .L569:
+                        1013 --343:                  }
+                        1014 --344:                  case HEAL_FAULT_STATE:
+                        1015 --345:                  {
+                        1016 --346:                     iCanBusOff.FaultState = CURRENT_FAULT_STATE;
+                        1017 --line346
+                        1018 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.40::
+                        1019 .LDWlin40:
+00000300 0172           1020 	mov	1,r14
+00000302 61770d00       1021 	st.w	r14,12[r1]
+                        1022 --347:                     break;
+00000306 852d*          1023 	br	.L575
+                        1024 .L571:
+                        1025 --348:                  }
+                        1026 --349:                  case CURRENT_FAULT_STATE:
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                        1027 --350:                  {
+                        1028 --351:                     break;
+                        1029 --line351
+                        1030 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.41::
+                        1031 .LDWlin41:
+00000308 f525*          1032 	br	.L575
+                        1033 .L573:
+                        1034 --352:                  }
+                        1035 --353:                  default:
+                        1036 --354:                  {
+                        1037 --355:                     break;
+                        1038 --line355
+                        1039 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.42::
+                        1040 .LDWlin42:
+0000030a e525*          1041 	br	.L575
+                        1042 .L558:
+                        1043 --356:                  }
+                        1044 --357:               }
+                        1045 --358:            } /* end*/ 
+                        1046 --359:            else if(V_NWM_OPERATION == nwd_nwm_state)/* disappear busoff */
+                        1047 --line359
+                        1048 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.43::
+                        1049 .LDWlin43:
+0000030c 21770100       1050 	ld.w	0[r1],r14
+00000310 6272           1051 	cmp	2,r14
+00000312 aa25*          1052 	bne	.L575
+                        1053 --360:            {
+                        1054 --361:                switch (iCanBusOff.FaultState)
+                        1055 --line361
+                        1056 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.44::
+                        1057 .LDWlin44:
+00000314 21770d00       1058 	ld.w	12[r1],r14
+00000318 6172           1059 	cmp	1,r14
+0000031a c11d*          1060 	bl	.L588
+0000031c c205*          1061 	be	.L580
+0000031e 6272           1062 	cmp	2,r14
+00000320 aa1d*          1063 	bne	.L590
+00000322 950d*          1064 	br	.L583
+                        1065 .L580:
+                        1066 --362:                {
+                        1067 --363:                     case CURRENT_FAULT_STATE:
+                        1068 --364:                     {
+                        1069 --365:                            iCanBusOff.FaultState = HEAL_FAULT_STATE;
+                        1070 --line365
+                        1071 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.45::
+                        1072 .LDWlin45:
+00000324 0272           1073 	mov	2,r14
+00000326 61770d00       1074 	st.w	r14,12[r1]
+                        1075 --366:                            iCanBusOff.HealCount = BUSOFF_HEAL_COUNT;
+0000032a 2076f401       1076 	movea	500,zero,r14
+0000032e 61770900       1077 	st.w	r14,8[r1]
+                        1078 --367:                            break;
+00000332 a515*          1079 	br	.L575
+                        1080 .L583:
+                        1081 --368:                     }
+                        1082 --369:                     case HEAL_FAULT_STATE:
+                        1083 --370:                     {
+                        1084 --371:                        if (iCanBusOff.HealCount > 0)
+                        1085 --line371
+                        1086 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.46::
+                        1087 .LDWlin46:
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+00000334 21770900       1088 	ld.w	8[r1],r14
+00000338 e071           1089 	cmp	zero,r14
+0000033a f305*          1090 	bnh	.L584
+                        1091 --372:                        {
+                        1092 --373:                             iCanBusOff.HealCount--;
+                        1093 --line373
+                        1094 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.47::
+                        1095 .LDWlin47:
+0000033c 21770900       1096 	ld.w	8[r1],r14
+00000340 5f72           1097 	add	-1,r14
+00000342 61770900       1098 	st.w	r14,8[r1]
+00000346 d505*          1099 	br	.L586
+                        1100 .L584:
+                        1101 --374:                        }
+                        1102 --375:                        else
+                        1103 --376:                        {
+                        1104 --377:                             iCanBusOff.FaultState = NO_FAULT_STATE;
+                        1105 --line377
+                        1106 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.48::
+                        1107 .LDWlin48:
+00000348 61070d00       1108 	st.w	zero,12[r1]
+                        1109 --378:                             iCanBusOff.CurrentCount = 0;
+0000034c 61070500       1110 	st.w	zero,4[r1]
+                        1111 .L586:
+                        1112 --379:                        }
+                        1113 --380:                         break;
+00000350 b505*          1114 	br	.L575
+                        1115 .L588:
+                        1116 --381:                     }
+                        1117 --382:                     case NO_FAULT_STATE:
+                        1118 --383:                         {
+                        1119 --384:                            break;
+                        1120 --line384
+                        1121 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.49::
+                        1122 .LDWlin49:
+00000352 a505*          1123 	br	.L575
+                        1124 .L590:
+                        1125 --385:                         }
+                        1126 --386:                     default:
+                        1127 --387:  
+                        1128 --388:                       {
+                        1129 --389:                           break;
+                        1130 --line389
+                        1131 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.50::
+                        1132 .LDWlin50:
+00000354 0000           1133 	nop
+                        1134 .L575:
+                        1135 --390:                       }
+                        1136 --391:               }
+                        1137 --392:            } /* end else */
+                        1138 --393:            else
+                        1139 --394:            {
+                        1140 --395:            }
+                        1141 --396:                     
+                        1142 --397:              
+                        1143 --398: }
+00000356 0000           1144 	nop
+                        1145 --	    .ef
+                        1146 .LDW62:
+00000358 7f00           1147 	jmp	[lp]
+                        1148 	.type	_nwd_CANBusoffMonitor_10ms,@function
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                        1149 	.size	_nwd_CANBusoffMonitor_10ms,.-_nwd_CANBusoffMonitor_10ms
+                        1150 	.type	_nwd_CANBusoffMonitor_10ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,@function
+                        1151 	.size	_nwd_CANBusoffMonitor_10ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.,.-_nwd_CANBusoffMonitor_10ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd.
+                        1152 	.align	2
+                        1153 .LDW72:
+                        1154 
+                        1155 	.data
+                        1156 	.text
+                        1157 
+                        1158 	.align	2
+                        1159 --_v_flags	_v_flags	import
+                        1160 --_iNodeTimeout	_iNodeTimeout	static
+                        1161 --_iCanBusOff	_iCanBusOff	static
+                        1162 --_nwm_slave_instance	_nwm_slave_instance	import
+                        1163 --_nwd_nwm_state	_nwd_nwm_state	static
+                        1164 --_nwd_InitSts	_nwd_InitSts	static
+                        1165 --_BusOff_Process_Cnt	_BusOff_Process_Cnt	static
+                        1166 
+                        1167 	.section ".rodata","a"
+                        1168 	.align	4
+                        1169 	.global	_FRAME_MONITOR_CNT
+00000000 c8000000       1170 _FRAME_MONITOR_CNT:	.byte	200,0,0,0
+00000004 04000000       1171 	.byte	4,0,0,0
+00000008 0a000000       1172 	.byte	10,0,0,0
+0000000c 14000000       1173 	.byte	20,0,0,0
+00000010 c8000000       1174 	.byte	200,0,0,0
+00000014 64000000       1175 	.byte	100,0,0,0
+00000018 c8000000       1176 	.byte	200,0,0,0
+0000001c 85000000       1177 	.byte	133,0,0,0
+00000020 c8000000       1178 	.byte	200,0,0,0
+00000024 05000000       1179 	.byte	5,0,0,0
+00000028 c8000000       1180 	.byte	200,0,0,0
+0000002c 64000000       1181 	.byte	100,0,0,0
+00000030 28000000       1182 	.byte	40,0,0,0
+00000034 06000000       1183 	.byte	6,0,0,0
+00000038 c8000000       1184 	.byte	200,0,0,0
+0000003c 05000000       1185 	.byte	5,0,0,0
+00000040 85000000       1186 	.byte	133,0,0,0
+00000044 28000000       1187 	.byte	40,0,0,0
+                        1188 	.type	_FRAME_MONITOR_CNT,@object
+                        1189 	.size	_FRAME_MONITOR_CNT,72
+                        1190 	.global	_NODE_MISSSING_COUNT
+00000048 90010000       1191 _NODE_MISSSING_COUNT:	.byte	144,1,0,0
+0000004c 50000000       1192 	.byte	80,0,0,0
+00000050 14000000       1193 	.byte	20,0,0,0
+00000054 28000000       1194 	.byte	40,0,0,0
+00000058 90010000       1195 	.byte	144,1,0,0
+0000005c 90010000       1196 	.byte	144,1,0,0
+00000060 90010000       1197 	.byte	144,1,0,0
+00000064 90010000       1198 	.byte	144,1,0,0
+00000068 90010000       1199 	.byte	144,1,0,0
+0000006c 64000000       1200 	.byte	100,0,0,0
+00000070 90010000       1201 	.byte	144,1,0,0
+00000074 90010000       1202 	.byte	144,1,0,0
+00000078 a00f0000       1203 	.byte	160,15,0,0
+0000007c 58020000       1204 	.byte	88,2,0,0
+00000080 90010000       1205 	.byte	144,1,0,0
+00000084 90010000       1206 	.byte	144,1,0,0
+00000088 90010000       1207 	.byte	144,1,0,0
+0000008c 90010000       1208 	.byte	144,1,0,0
+                        1209 	.type	_NODE_MISSSING_COUNT,@object
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+                        1210 	.size	_NODE_MISSSING_COUNT,72
+                        1211 	.global	_NODE_HEAL_COUNT
+00000090 c8000000       1212 _NODE_HEAL_COUNT:	.byte	200,0,0,0
+00000094 14000000       1213 	.byte	20,0,0,0
+00000098 05000000       1214 	.byte	5,0,0,0
+0000009c 0a000000       1215 	.byte	10,0,0,0
+000000a0 c8000000       1216 	.byte	200,0,0,0
+000000a4 90010000       1217 	.byte	144,1,0,0
+000000a8 c8000000       1218 	.byte	200,0,0,0
+000000ac 2c010000       1219 	.byte	44,1,0,0
+000000b0 c8000000       1220 	.byte	200,0,0,0
+000000b4 14000000       1221 	.byte	20,0,0,0
+000000b8 c8000000       1222 	.byte	200,0,0,0
+000000bc 90010000       1223 	.byte	144,1,0,0
+000000c0 10270000       1224 	.byte	16,39,0,0
+000000c4 64000000       1225 	.byte	100,0,0,0
+000000c8 c8000000       1226 	.byte	200,0,0,0
+000000cc 50000000       1227 	.byte	80,0,0,0
+000000d0 2c010000       1228 	.byte	44,1,0,0
+000000d4 e8030000       1229 	.byte	232,3,0,0
+                        1230 	.type	_NODE_HEAL_COUNT,@object
+                        1231 	.size	_NODE_HEAL_COUNT,72
+                        1232 	.global	_NODE_DEBOUNCE_CNT
+000000d8 03000000       1233 _NODE_DEBOUNCE_CNT:	.byte	3,0,0,0
+000000dc 01000000       1234 	.byte	1,0,0,0
+000000e0 03000000       1235 	.byte	3,0,0,0
+000000e4 03000000       1236 	.byte	3,0,0,0
+000000e8 03000000       1237 	.byte	3,0,0,0
+000000ec 05000000       1238 	.byte	5,0,0,0
+000000f0 03000000       1239 	.byte	3,0,0,0
+000000f4 07000000       1240 	.byte	7,0,0,0
+000000f8 03000000       1241 	.byte	3,0,0,0
+000000fc 01000000       1242 	.byte	1,0,0,0
+00000100 03000000       1243 	.byte	3,0,0,0
+00000104 05000000       1244 	.byte	5,0,0,0
+00000108 01000000       1245 	.byte	1,0,0,0
+0000010c 01000000       1246 	.byte	1,0,0,0
+00000110 03000000       1247 	.byte	3,0,0,0
+00000114 01000000       1248 	.byte	1,0,0,0
+00000118 07000000       1249 	.byte	7,0,0,0
+0000011c 03000000       1250 	.byte	3,0,0,0
+                        1251 	.type	_NODE_DEBOUNCE_CNT,@object
+                        1252 	.size	_NODE_DEBOUNCE_CNT,72
+                        1253 	.global	_NODE_ONE_FRAME_COUNT
+00000120 14000000       1254 _NODE_ONE_FRAME_COUNT:	.byte	20,0,0,0
+00000124 c8000000       1255 	.byte	200,0,0,0
+00000128 32000000       1256 	.byte	50,0,0,0
+0000012c 64000000       1257 	.byte	100,0,0,0
+00000130 14000000       1258 	.byte	20,0,0,0
+00000134 28000000       1259 	.byte	40,0,0,0
+00000138 14000000       1260 	.byte	20,0,0,0
+0000013c 1e000000       1261 	.byte	30,0,0,0
+00000140 14000000       1262 	.byte	20,0,0,0
+00000144 c8000000       1263 	.byte	200,0,0,0
+00000148 14000000       1264 	.byte	20,0,0,0
+0000014c 28000000       1265 	.byte	40,0,0,0
+00000150 e8030000       1266 	.byte	232,3,0,0
+00000154 e8030000       1267 	.byte	232,3,0,0
+00000158 14000000       1268 	.byte	20,0,0,0
+0000015c 20030000       1269 	.byte	32,3,0,0
+00000160 1e000000       1270 	.byte	30,0,0,0
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008v01.si
+00000164 64000000       1271 	.byte	100,0,0,0
+                        1272 	.type	_NODE_ONE_FRAME_COUNT,@object
+                        1273 	.size	_NODE_ONE_FRAME_COUNT,72
+                        1274 	.global	_NODE_MONITOR_FLAGS
+00000168 00000000*      1275 _NODE_MONITOR_FLAGS:	.word	_v_flags+24
+0000016c 00000000*      1276 	.word	_v_flags+384
+00000170 00000000*      1277 	.word	_v_flags+48
+00000174 00000000*      1278 	.word	_v_flags+72
+00000178 00000000*      1279 	.word	_v_flags+120
+0000017c 00000000*      1280 	.word	_v_flags+144
+00000180 00000000*      1281 	.word	_v_flags+168
+00000184 00000000*      1282 	.word	_v_flags+192
+00000188 00000000*      1283 	.word	_v_flags+216
+0000018c 00000000*      1284 	.word	_v_flags+240
+00000190 00000000*      1285 	.word	_v_flags+264
+00000194 00000000*      1286 	.word	_v_flags+288
+00000198 00000000*      1287 	.word	_v_flags+312
+0000019c 00000000*      1288 	.word	_v_flags+96
+000001a0 00000000*      1289 	.word	_v_flags+336
+000001a4 00000000*      1290 	.word	_v_flags+360
+000001a8 00000000*      1291 	.word	_v_flags+432
+000001ac 00000000*      1292 	.word	_v_flags+408
+                        1293 	.type	_NODE_MONITOR_FLAGS,@object
+                        1294 	.size	_NODE_MONITOR_FLAGS,72
+                        1295 	.global	_NODE_MISS_ERR_INDEX
+000001b0 00000000       1296 _NODE_MISS_ERR_INDEX:	.space	4
+000001b4 00000000       1297 	.space	4
+000001b8 00000000       1298 	.space	4
+000001bc 00000000       1299 	.space	4
+000001c0 00000000       1300 	.space	4
+000001c4 00000000       1301 	.space	4
+000001c8 00000000       1302 	.space	4
+000001cc 00000000       1303 	.space	4
+000001d0 00000000       1304 	.space	4
+000001d4 00000000       1305 	.space	4
+000001d8 00000000       1306 	.space	4
+000001dc 00000000       1307 	.space	4
+000001e0 00000000       1308 	.space	4
+000001e4 00000000       1309 	.space	4
+000001e8 00000000       1310 	.space	4
+000001ec 00000000       1311 	.space	4
+000001f0 00000000       1312 	.space	4
+000001f4 00000000       1313 	.space	4
+                        1314 	.type	_NODE_MISS_ERR_INDEX,@object
+                        1315 	.size	_NODE_MISS_ERR_INDEX,72
+                        1316 	.data
+                        1317 	.ghsnote version,14
+                        1318 	.ghsnote tools,3
+                        1319 	.ghsnote options,144
+                        1320 	.text
+                        1321 	.align	2
+                        1322 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cnwd...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740377..0::
+                        1323 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

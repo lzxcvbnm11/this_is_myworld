@@ -1,0 +1,922 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\sfma.dbo -source=sfma.c -o .\obj\gh_00008js1.o -list=.\obj\sfma.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+Source File: sfma.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c ..\..\..\..\gfx_apps\simple_draw_d1l2\src\sfma.c -o
+                         111 --		.\obj\sfma.o
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         112 --Source File:   ..\..\..\..\gfx_apps\simple_draw_d1l2\src\sfma.c
+                         113 --Directory:     
+                         114 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         115 --Compile Date:  Fri Feb 02 14:22:05 2018
+                         116 --Host OS:       Win32
+                         117 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         118 --Release:       Compiler v2013.5.5
+                         119 --Revision Date: Sat Oct 05 05:01:20 2013
+                         120 --Release Date:  Sat Oct 05 05:22:44 2013
+                         121 -- ecom  -g -w
+                         122 
+                         123 --1: /************************************************************************************************
+                         124 --2: PROJECT : simple_draw_d1l2 app
+                         125 --3: FILE    : $Id: sfma.c 1164 2013-07-31 08:29:57Z florian.zimmermann $
+                         126 --4: ============================================================================
+                         127 --5: DESCRIPTION,
+                         128 --6: serial flash of the simple_draw_d1l2
+                         129 --7: ============================================================================
+                         130 --8:                             C O P Y R I G H T
+                         131 --9: ============================================================================
+                         132 --10:                        Copyright (c) 2015
+                         133 --11:                                   by
+                         134 --12:                        Renesas Electronics (Europe) GmbH.
+                         135 --13:                            Arcadiastrasse 10
+                         136 --14:                           D-40472 Duesseldorf
+                         137 --15:                                Germany
+                         138 --16:                           All rights reserved.
+                         139 --17: ============================================================================
+                         140 --18: Purpose: only for testing, not for mass production
+                         141 --20: DISCLAIMER
+                         142 --22: LICENSEE has read, understood and accepted the terms and conditions defined in
+                         143 --23: the license agreement, especially the usage rights. In any case, it is
+                         144 --24: LICENSEE's responsibility to make sure that any user of the software complies
+                         145 --25: with the terms and conditions of the signed license agreement.
+                         146 --27: SAMPLE CODE is not part of the licensed software, as such it must not be used in
+                         147 --28: mass-production applications. It can only be used for evaluation and
+                         148 --29: demonstration purposes at customer's premises listed in the signed license
+                         149 --30: agreement.
+                         150 --31: ****************************************************************************
+                         151 --32: */
+                         152 --34: /*******************************************************************************
+                         153 --35:   Section: Includes
+                         154 --36: */
+                         155 --38: #include "r_typedefs.h"        /* Renesas basic types, e.g. uint32_t */
+                         156 --39: #include "r_bsp_stdio_api.h"         /* Board support package */
+                         157 --40: #include "r_bsp_api.h"         /* Board support package */
+                         158 --41: #include "yd_sfma_api.h"
+                         159 --42: #include "r_sfma_api.h"
+                         160 --43: #include <stdlib.h>
+                         161 --44: #include<stdio.h>
+                         162 --45: #include<time.h>
+                         163 --46: #include "r_sfcdb_macronix.h"
+                         164 --47: #include "r_sfcdb_spansion.h"
+                         165 --49: #include "config.h"
+                         166 --50: #include "main.h"
+                         167 --53: #define SPI_FLASH_TYPE_SPANSION    1
+                         168 --54: #define SPI_FLASH_TYPE_MACRONIX    0
+                         169 --57: /***********************************************************
+                         170 --58:   Section: Local Variables
+                         171 --59: */
+                         172 --60: //#define DEBUG_SFMA_R
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         173 --61: #if defined(DEBUG_SFMA_R)
+                         174 --62: static uint32_t loc_verifyData[4096];
+                         175 --63: #endif
+                         176 --65: //#define DEBUG_SFMA_RW
+                         177 --66: #if defined(DEBUG_SFMA_RW) 
+                         178 --67: static uint32_t loc_srcData   [4096];
+                         179 --68: static uint32_t loc_eraseData   [4096];
+                         180 --69: static uint32_t loc_verifyData[4096];
+                         181 --70: #endif
+                         182 --72: #define ADDR_SFMA_F1A1  0X010
+                         183 --73: #define SIZE_SFMA_F1A1   5
+                         184 --75: static uint32_t F1A1[SIZE_SFMA_F1A1];
+                         185 --78: /***********************************************************
+                         186 --79:   Section: Local Defines
+                         187 --80: */
+                         188 --81: #define LOC_SFMA_SECTOR_SIZE  (4096u)
+                         189 --83: /***************************************************************************
+                         190 --84:   Constant: SF_DEFAULT_CAL
+                         191 --86:   Default calibration for Serial flash memory (Macronix device only).
+                         192 --88:     SPBCLK clock phase shift        3 (range 0 - 7, written to the upper 16bits)
+                         193 --89:     Sampling point phase shift      1 (range 0 - 7, written to the Lower 16 bits)
+                         194 --90: */
+                         195 --91: #define SF_SPBCLK_CLOCK_PHASE_SHIFT    (3u)
+                         196 --92: #define SF_SAMPLING_POINT_PHASE_SHIFT  (1u)
+                         197 --93: #define LOC_SFMA_DEFAULT_CAL    ((SF_SPBCLK_CLOCK_PHASE_SHIFT << 16) | SF_SAMPLING_POINT_PHASE_SHIFT)
+                         198 --95: /***********************************************************
+                         199 --96:   Section: Local Functions
+                         200 --97: */
+                         201 --98: static void loc_SFMAConfig(yd_sfma_Config_t *Config, yd_sfma_Mode_t Mode, yd_sfma_DataTransferMode_t Transfer);
+                         202 --99: /*******************************************************************************
+                         203 --100:     Function: SetSFMAConfig
+                         204 --102:     Fills the flash device config and command structure according to the target
+                         205 --103:     device.
+                         206 --104:  */
+                         207 --105: static void loc_SFMAConfig(yd_sfma_Config_t *Config, yd_sfma_Mode_t Mode, yd_sfma_DataTransferMode_t Transfer)
+                         208 	.text
+                         209 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74038D..0::
+                         210 	.align	2
+                         211 	.global	_loc_SFMAConfig..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.
+                         212 _loc_SFMAConfig..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.:
+                         213 _loc_SFMAConfig:
+00000000 06f0            214 	mov	r6,ep
+00000002 0708            215 	mov	r7,r1
+00000004 0870            216 	mov	r8,r14
+                         217 --	    .bf
+                         218 .LDW01:
+                         219 --106: {
+                         220 --107:     if(Config != R_NULL)
+00000006 e0f1            221 	cmp	zero,ep
+00000008 e2071701*       222 	be	.L4
+                         223 --108:     {
+                         224 --109:         Config->Mode                        = Mode;
+                         225 --line109
+                         226 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.1::
+                         227 .LDWlin1:
+0000000c 010d            228 	sst.w	r1,0[ep]
+                         229 --110:         Config->MemoryNum                   = YD_SFMA_MEMORY_SINGLE;
+0000000e 0305            230 	sst.w	zero,4[ep]
+                         231 --111:         Config->DataTransferMode            = Transfer;
+00000010 0575            232 	sst.w	r14,8[ep]
+                         233 --112:         Config->AddressMode                 = YD_SFMA_ADDRESS_32BIT;
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+00000012 016a            234 	mov	1,r13
+00000014 076d            235 	sst.w	r13,12[ep]
+                         236 --113:         Config->SerialFlashMemoryPageSize   = 0x100uL; /* 256Byte */
+00000016 206e0001        237 	movea	256,zero,r13
+0000001a 096d            238 	sst.w	r13,16[ep]
+                         239 --114:         Config->SerialFlashMemoryMaxClock   = (80*1000*1000);
+0000001c 2d0600b4c404    240 	mov	80000000,r13
+00000022 0b6d            241 	sst.w	r13,20[ep]
+                         242 --115:         Config->CacheMode                   = YD_SFMA_CACHE_BL8;
+00000024 086a            243 	mov	8,r13
+00000026 176d            244 	sst.w	r13,44[ep]
+                         245 --116:         Config->PerformanceEnMode           = YD_SFMA_PER_EN_MODE_DISABLE;
+00000028 1b05            246 	sst.w	zero,52[ep]
+                         247 --117:         Config->Calibration                 = LOC_SFMA_DEFAULT_CAL;
+0000002a 2d0601000300    248 	mov	196609,r13
+00000030 196d            249 	sst.w	r13,48[ep]
+                         250 --120:         if(YD_SFMA_MEMORY_DUAL == Config->MemoryNum)
+00000032 026d            251 	sld.w	4[ep],r13
+00000034 616a            252 	cmp	1,r13
+00000036 ba0d*           253 	bne	.L6
+                         254 --121:         {
+                         255 --122:             Config->SerialFlashMemorySectorSize = LOC_SFMA_SECTOR_SIZE * 2;
+                         256 --line122
+                         257 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.2::
+                         258 .LDWlin2:
+00000038 206e0020        259 	movea	8192,zero,r13
+0000003c 0d6d            260 	sst.w	r13,24[ep]
+                         261 --124:             #if SPI_FLASH_TYPE_MACRONIX
+                         262 --125:             Config->SerialFlashMemorySize       = 32*1024*1024;
+                         263 --126:             #endif
+                         264 --128:             #if SPI_FLASH_TYPE_SPANSION
+                         265 --129:             Config->SerialFlashMemorySize       = 32*1024*1024;
+0000003e 40660002        266 	movhi	hi(33554432),zero,r12
+00000042 006a            267 	mov	0,r13
+00000044 be070f620000    268 	st.dw	r12,32[ep]
+0000004a a50d*           269 	br	.L8
+                         270 .L6:
+                         271 --130:             #endif
+                         272 --131:         }
+                         273 --132:         else
+                         274 --133:         {
+                         275 --134:             Config->SerialFlashMemorySectorSize = LOC_SFMA_SECTOR_SIZE;
+                         276 --line134
+                         277 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.3::
+                         278 .LDWlin3:
+0000004c 206e0010        279 	movea	4096,zero,r13
+00000050 0d6d            280 	sst.w	r13,24[ep]
+                         281 --135:             #if SPI_FLASH_TYPE_MACRONIX
+                         282 --136:             Config->SerialFlashMemorySize       = 128*1024*1024;
+                         283 --137:             #endif
+                         284 --139:             #if SPI_FLASH_TYPE_SPANSION
+                         285 --140:             Config->SerialFlashMemorySize       = 128*1024*1024;
+00000052 40660008        286 	movhi	hi(134217728),zero,r12
+00000056 006a            287 	mov	0,r13
+00000058 be070f620000    288 	st.dw	r12,32[ep]
+                         289 .L8:
+                         290 --141:             #endif
+                         291 --142:         }
+                         292 --144: #if SPI_FLASH_TYPE_MACRONIX
+                         293 --145:         if (YD_SFMA_ADDRESS_32BIT == Config->AddressMode)
+                         294 --146:         {
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         295 --147:             if ((40*1000*1000) < Config->SerialFlashMemoryMaxClock)
+                         296 --148:             {
+                         297 --149:                 if ((Config->DataTransferMode == YD_SFMA_SDR_QUAD_IO) ||
+                         298 --150:                     (Config->DataTransferMode == YD_SFMA_DDR_QUAD_IO))
+                         299 --151:                 {
+                         300 --152:                     /* at 80MHZ with external address space use performance enhance mode */
+                         301 --153:                     if(YD_SFMA_MODE_EX_SPACE == Mode)
+                         302 --154:                     {
+                         303 --155:                         Config->Command = &r_sfc_Macronix_32bitAddrCmdPerformanceEnhance_80MHz;
+                         304 --156:                         Config->PerformanceEnMode = YD_SFMA_PER_EN_MODE_ENABLE;
+                         305 --157:                     }
+                         306 --158:                     else
+                         307 --159:                     {
+                         308 --160:                         Config->Command = &r_sfc_Macronix_32bitAddrQuadCmd_80MHz;
+                         309 --161:                     }
+                         310 --162:                 }
+                         311 --163:                 else
+                         312 --164:                 {
+                         313 --165:                     Config->Command = &r_sfc_Macronix_32bitAddrCmd_80MHz;
+                         314 --166:                 }
+                         315 --167:             }
+                         316 --168:             else
+                         317 --169:             {
+                         318 --170:                 if ((Config->DataTransferMode == YD_SFMA_SDR_QUAD_IO) ||
+                         319 --171:                     (Config->DataTransferMode == YD_SFMA_DDR_QUAD_IO))
+                         320 --172:                 {
+                         321 --173:                     if(YD_SFMA_MODE_EX_SPACE == Mode)
+                         322 --174:                     {
+                         323 --175:                         Config->Command = &r_sfc_Macronix_32bitAddrCmdPerformanceEnhance_40MHz;
+                         324 --176:                         Config->PerformanceEnMode = YD_SFMA_PER_EN_MODE_ENABLE;
+                         325 --177:                     }
+                         326 --178:                     else
+                         327 --179:                     {
+                         328 --180:                         Config->Command = &r_sfc_Macronix_32bitAddrQuadCmd_40MHz;
+                         329 --181:                     }
+                         330 --182:                 }
+                         331 --183:                 else
+                         332 --184:                 {
+                         333 --185:                     Config->Command = &r_sfc_Macronix_32bitAddrCmd_40MHz;
+                         334 --186:                 }
+                         335 --187:             }
+                         336 --188:         }
+                         337 --189:         else
+                         338 --190:         {
+                         339 --191:             if ((40*1000*1000) < Config->SerialFlashMemoryMaxClock)
+                         340 --192:             {
+                         341 --193:                 if ((Config->DataTransferMode == YD_SFMA_SDR_QUAD_IO) ||
+                         342 --194:                     (Config->DataTransferMode == YD_SFMA_DDR_QUAD_IO))
+                         343 --195:                 {
+                         344 --196:                     Config->Command = &r_sfc_Macronix_24bitAddrQuadCmd_80MHz;
+                         345 --197:                 }
+                         346 --198:                 else
+                         347 --199:                 {
+                         348 --200:                     Config->Command = &r_sfc_Macronix_24bitAddrCmd_80MHz;
+                         349 --201:                 }
+                         350 --202:             }
+                         351 --203:             else
+                         352 --204:             {
+                         353 --205:                 if ((Config->DataTransferMode == YD_SFMA_SDR_QUAD_IO) ||
+                         354 --206:                     (Config->DataTransferMode == YD_SFMA_DDR_QUAD_IO))
+                         355 --207:                 {
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         356 --208:                     Config->Command = &r_sfc_Macronix_24bitAddrQuadCmd_40MHz;
+                         357 --209:                 }
+                         358 --210:                 else
+                         359 --211:                 {
+                         360 --212:                     Config->Command = &r_sfc_Macronix_24bitAddrCmd_40MHz;
+                         361 --213:                 }
+                         362 --214:             }
+                         363 --215:         }
+                         364 --216:  #endif
+                         365 --218:  #if SPI_FLASH_TYPE_SPANSION
+                         366 --219:          if (YD_SFMA_ADDRESS_32BIT == Config->AddressMode)
+0000005e 066d            367 	sld.w	12[ep],r13
+00000060 616a            368 	cmp	1,r13
+00000062 9a3d*           369 	bne	.L9
+                         370 --220:         {
+                         371 --221:             if ((40*1000*1000) < Config->SerialFlashMemoryMaxClock)
+                         372 --line221
+                         373 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.4::
+                         374 .LDWlin4:
+00000064 0a65            375 	sld.w	20[ep],r12
+00000066 2d06005a6202    376 	mov	40000000,r13
+0000006c ed61            377 	cmp	r13,r12
+0000006e a31d*           378 	bnh	.L11
+                         379 --222:             {
+                         380 --223:                 if ((Config->DataTransferMode == YD_SFMA_SDR_QUAD_IO) ||
+                         381 --line223
+                         382 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.5::
+                         383 .LDWlin5:
+00000070 046d            384 	sld.w	8[ep],r13
+00000072 626a            385 	cmp	2,r13
+00000074 c205*           386 	be	.L14
+00000076 046d            387 	sld.w	8[ep],r13
+00000078 656a            388 	cmp	5,r13
+0000007a fa0d*           389 	bne	.L13
+                         390 .L14:
+                         391 --224:                     (Config->DataTransferMode == YD_SFMA_DDR_QUAD_IO))
+                         392 --225:                 {
+                         393 --226:                     /* at 80MHZ with external address space use performance enhance mode */
+                         394 --227:                     #if 1
+                         395 --228:                     if(YD_SFMA_MODE_EX_SPACE == Mode)
+                         396 --line228
+                         397 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.6::
+                         398 .LDWlin6:
+0000007c e009            399 	cmp	zero,r1
+0000007e 8a0d*           400 	bne	.L16
+                         401 --229:                     {
+                         402 --230:                         Config->Command = &r_sfc_Spansion_32bitAddrCmdPerformanceEnhance_80MHz;
+                         403 --line230
+                         404 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.7::
+                         405 .LDWlin7:
+00000080 2d0600000000*   406 	mov	_r_sfc_Spansion_32bitAddrCmdPerformanceEnhance_80MHz,r13
+00000086 156d            407 	sst.w	r13,40[ep]
+                         408 --231:                         Config->PerformanceEnMode = YD_SFMA_PER_EN_MODE_ENABLE;
+00000088 016a            409 	mov	1,r13
+0000008a 1b6d            410 	sst.w	r13,52[ep]
+0000008c 954d*           411 	br	.L4
+                         412 .L16:
+                         413 --232:                     }
+                         414 --233:                     else
+                         415 --234:                      #endif
+                         416 --235:                     {
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         417 --236:                         Config->Command = &r_sfc_Spansion_32bitAddrQuadCmd_80MHz;
+                         418 --line236
+                         419 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.8::
+                         420 .LDWlin8:
+0000008e 2d0600000000*   421 	mov	_r_sfc_Spansion_32bitAddrQuadCmd_80MHz,r13
+00000094 156d            422 	sst.w	r13,40[ep]
+00000096 c545*           423 	br	.L4
+                         424 .L13:
+                         425 --237:                     }
+                         426 --238:                 }
+                         427 --239:                 else
+                         428 --240:                 {
+                         429 --241:                     Config->Command = &r_sfc_Spansion_32bitAddrCmd_80MHz;
+                         430 --line241
+                         431 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.9::
+                         432 .LDWlin9:
+00000098 2d0600000000*   433 	mov	_r_sfc_Spansion_32bitAddrCmd_80MHz,r13
+0000009e 156d            434 	sst.w	r13,40[ep]
+000000a0 f53d*           435 	br	.L4
+                         436 .L11:
+                         437 --242:                 }
+                         438 --243:             }
+                         439 --244:             else
+                         440 --245:             {
+                         441 --246:                 if ((Config->DataTransferMode == YD_SFMA_SDR_QUAD_IO) ||
+                         442 --line246
+                         443 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.10::
+                         444 .LDWlin10:
+000000a2 046d            445 	sld.w	8[ep],r13
+000000a4 626a            446 	cmp	2,r13
+000000a6 c205*           447 	be	.L22
+000000a8 046d            448 	sld.w	8[ep],r13
+000000aa 656a            449 	cmp	5,r13
+000000ac fa0d*           450 	bne	.L21
+                         451 .L22:
+                         452 --247:                     (Config->DataTransferMode == YD_SFMA_DDR_QUAD_IO))
+                         453 --248:                 {
+                         454 --249:                     #if 1
+                         455 --250:                     if(YD_SFMA_MODE_EX_SPACE == Mode)
+                         456 --line250
+                         457 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.11::
+                         458 .LDWlin11:
+000000ae e009            459 	cmp	zero,r1
+000000b0 8a0d*           460 	bne	.L24
+                         461 --251:                     {
+                         462 --252:                         Config->Command = &r_sfc_Spansion_32bitAddrCmdPerformanceEnhance_40MHz;
+                         463 --line252
+                         464 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.12::
+                         465 .LDWlin12:
+000000b2 2d0600000000*   466 	mov	_r_sfc_Spansion_32bitAddrCmdPerformanceEnhance_40MHz,r13
+000000b8 156d            467 	sst.w	r13,40[ep]
+                         468 --253:                         Config->PerformanceEnMode = YD_SFMA_PER_EN_MODE_ENABLE;
+000000ba 016a            469 	mov	1,r13
+000000bc 1b6d            470 	sst.w	r13,52[ep]
+000000be 8535*           471 	br	.L4
+                         472 .L24:
+                         473 --254:                     }
+                         474 --255: 		     else
+                         475 --256: 	             #endif
+                         476 --257: 		     {
+                         477 --258:                     	  Config->Command = &r_sfc_Spansion_32bitAddrQuadCmd_40MHz;
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         478 --line258
+                         479 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.13::
+                         480 .LDWlin13:
+000000c0 2d0600000000*   481 	mov	_r_sfc_Spansion_32bitAddrQuadCmd_40MHz,r13
+000000c6 156d            482 	sst.w	r13,40[ep]
+000000c8 b52d*           483 	br	.L4
+                         484 .L21:
+                         485 --259: 		     }
+                         486 --260:                 }
+                         487 --261:                 else
+                         488 --262:                 {
+                         489 --263:                     Config->Command = &r_sfc_Spansion_32bitAddrCmd_40MHz;
+                         490 --line263
+                         491 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.14::
+                         492 .LDWlin14:
+000000ca 2d0600000000*   493 	mov	_r_sfc_Spansion_32bitAddrCmd_40MHz,r13
+000000d0 156d            494 	sst.w	r13,40[ep]
+000000d2 e525*           495 	br	.L4
+                         496 .L9:
+                         497 --264:                 }
+                         498 --265:             }
+                         499 --266:         }
+                         500 --267:          else
+                         501 --268:         {
+                         502 --269:             if ((40*1000*1000) < Config->SerialFlashMemoryMaxClock)
+                         503 --line269
+                         504 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.15::
+                         505 .LDWlin15:
+000000d4 0a65            506 	sld.w	20[ep],r12
+000000d6 2d06005a6202    507 	mov	40000000,r13
+000000dc ed61            508 	cmp	r13,r12
+000000de 9315*           509 	bnh	.L29
+                         510 --270:             {
+                         511 --271:                 #if 1
+                         512 --272:                 if ((Config->DataTransferMode == YD_SFMA_SDR_QUAD_IO) ||
+                         513 --line272
+                         514 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.16::
+                         515 .LDWlin16:
+000000e0 046d            516 	sld.w	8[ep],r13
+000000e2 626a            517 	cmp	2,r13
+000000e4 c205*           518 	be	.L32
+000000e6 046d            519 	sld.w	8[ep],r13
+000000e8 656a            520 	cmp	5,r13
+000000ea ea05*           521 	bne	.L31
+                         522 .L32:
+                         523 --273:                     (Config->DataTransferMode == YD_SFMA_DDR_QUAD_IO))
+                         524 --274:                 {
+                         525 --275:                     Config->Command = &r_sfc_Spansion_24bitAddrQuadCmd_80MHz;
+                         526 --line275
+                         527 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.17::
+                         528 .LDWlin17:
+000000ec 2d0600000000*   529 	mov	_r_sfc_Spansion_24bitAddrQuadCmd_80MHz,r13
+000000f2 156d            530 	sst.w	r13,40[ep]
+000000f4 d515*           531 	br	.L4
+                         532 .L31:
+                         533 --276:                 }
+                         534 --278:                 else
+                         535 --279:                #endif
+                         536 --280:                 {
+                         537 --281:                     Config->Command = &r_sfc_Spansion_24bitAddrCmd_80MHz;
+                         538 --line281
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         539 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.18::
+                         540 .LDWlin18:
+000000f6 2d0600000000*   541 	mov	_r_sfc_Spansion_24bitAddrCmd_80MHz,r13
+000000fc 156d            542 	sst.w	r13,40[ep]
+000000fe 8515*           543 	br	.L4
+                         544 .L29:
+                         545 --282:                 }
+                         546 --283:             }
+                         547 --284:             else
+                         548 --285:             {
+                         549 --286:                 if ((Config->DataTransferMode == YD_SFMA_SDR_QUAD_IO) ||
+                         550 --line286
+                         551 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.19::
+                         552 .LDWlin19:
+00000100 046d            553 	sld.w	8[ep],r13
+00000102 626a            554 	cmp	2,r13
+00000104 c205*           555 	be	.L37
+00000106 046d            556 	sld.w	8[ep],r13
+00000108 656a            557 	cmp	5,r13
+0000010a ea05*           558 	bne	.L36
+                         559 .L37:
+                         560 --287:                     (Config->DataTransferMode == YD_SFMA_DDR_QUAD_IO))
+                         561 --288:                 {
+                         562 --289:                     Config->Command = &r_sfc_Spansion_24bitAddrQuadCmd_40MHz;
+                         563 --line289
+                         564 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.20::
+                         565 .LDWlin20:
+0000010c 2d0600000000*   566 	mov	_r_sfc_Spansion_24bitAddrQuadCmd_40MHz,r13
+00000112 156d            567 	sst.w	r13,40[ep]
+00000114 d505*           568 	br	.L4
+                         569 .L36:
+                         570 --290:                 }
+                         571 --291:                 else
+                         572 --292:                 {
+                         573 --293:                     Config->Command = &r_sfc_Spansion_24bitAddrCmd_40MHz;
+                         574 --line293
+                         575 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.21::
+                         576 .LDWlin21:
+00000116 2d0600000000*   577 	mov	_r_sfc_Spansion_24bitAddrCmd_40MHz,r13
+0000011c 156d            578 	sst.w	r13,40[ep]
+                         579 .L4:
+                         580 --294:                 }
+                         581 --295:             }
+                         582 --296:         }
+                         583 --297:         #endif
+                         584 --298:     }
+                         585 --299: }
+0000011e 0000            586 	nop
+                         587 --	    .ef
+                         588 .LDW11:
+00000120 7f00            589 	jmp	[lp]
+                         590 	.type	_loc_SFMAConfig,@function
+                         591 	.size	_loc_SFMAConfig,.-_loc_SFMAConfig
+                         592 	.type	_loc_SFMAConfig..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.,@function
+                         593 	.size	_loc_SFMAConfig..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.,.-_loc_SFMAConfig..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.
+                         594 	.align	2
+                         595 .LDW21:
+                         596 
+                         597 --_Config	ep	param
+                         598 --_Mode	r1	param
+                         599 --_Transfer	r14	param
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         600 
+                         601 	.section ".bss","awb"
+                         602 .L136:
+                         603 	.type	.L136,@object
+                         604 	.size	.L136,0
+                         605 	.data
+                         606 	.text
+                         607 
+                         608 
+                         609 --302: /*******************************************************************************
+                         610 --303:     Function: loc_StartSFMA
+                         611 --305:     Opens SFMA for writing and writes a pattern to it.
+                         612 --306:     Afterwards SFMA is closed but opened for reading again, so that
+                         613 --307:     the application can use it.
+                         614 --308:  */
+                         615 --309: void loc_StartSFMA(void)
+                         616 	.align	2
+                         617 	.align	2
+                         618 	.global	_loc_StartSFMA
+                         619 _loc_StartSFMA:
+00000122 9e07e100        620 	prepare	{r28,r29,r31},15
+                         621 --	    .bf
+                         622 .LDW31:
+                         623 --310: {
+                         624 --311:     yd_sfma_Error_t err = YD_SFMA_ERR_OK;
+00000126 00ea            625 	mov	0,r29
+                         626 --312:     yd_sfma_Config_t cfg;
+                         627 --314:     uint32_t sf_adr    = 0x00034000;
+00000128 3c0600400300    628 	mov	212992,r28
+                         629 --315:     uint32_t i;
+                         630 --317:     err |= YD_SFMA_Init(LOC_SFMA_UNIT);
+0000012e 0032            631 	mov	0,r6
+                         632 	jarl	_YD_SFMA_Init,lp
+                         632 <EXPANSION BEGIN>
+                         632 jarl22 _YD_SFMA_Init , lp 
+00000130 80ff0000*       632 <EXPANSION END>
+00000134 0ae9            633 	or	r10,r29
+                         634 --319:     /* open for writing */
+                         635 --320:     loc_SFMAConfig(&cfg, YD_SFMA_MODE_EX_SPACE, YD_SFMA_DDR_DUAL_IO);
+                         636 --line320
+                         637 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.22::
+                         638 .LDWlin22:
+00000136 23360400        639 	movea	4,sp,r6
+0000013a 003a            640 	mov	0,r7
+0000013c 0442            641 	mov	4,r8
+                         642 	jarl	_loc_SFMAConfig,lp
+                         642 <EXPANSION BEGIN>
+                         642 jarl22 _loc_SFMAConfig , lp 
+0000013e bfffc2fe*       642 <EXPANSION END>
+                         643 --321:     err |= YD_SFMA_Open(LOC_SFMA_UNIT, &cfg);
+                         644 --line321
+                         645 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.23::
+                         646 .LDWlin23:
+00000142 0032            647 	mov	0,r6
+00000144 233e0400        648 	movea	4,sp,r7
+                         649 	jarl	_YD_SFMA_Open,lp
+                         649 <EXPANSION BEGIN>
+                         649 jarl22 _YD_SFMA_Open , lp 
+00000148 80ff0000*       649 <EXPANSION END>
+0000014c 0ae9            650 	or	r10,r29
+                         651 --322:     err |= YD_SFMA_AccessAddressSet(LOC_SFMA_UNIT, 0, R_SFMA_ACCESS_RANGE_128MB);
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         652 --line322
+                         653 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.24::
+                         654 .LDWlin24:
+0000014e 020a            655 	mov	2,r1
+00000150 630f0100        656 	st.w	r1,0[sp]
+00000154 0032            657 	mov	0,r6
+00000156 0042            658 	mov	0,r8
+00000158 004a            659 	mov	0,r9
+                         660 	jarl	_YD_SFMA_AccessAddressSet,lp
+                         660 <EXPANSION BEGIN>
+                         660 jarl22 _YD_SFMA_AccessAddressSet , lp 
+0000015a 80ff0000*       660 <EXPANSION END>
+0000015e 0ae9            661 	or	r10,r29
+                         662 --323:     err |= YD_SFMA_CheckReg(LOC_SFMA_UNIT, &cfg);
+                         663 --line323
+                         664 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.25::
+                         665 .LDWlin25:
+00000160 0032            666 	mov	0,r6
+00000162 233e0400        667 	movea	4,sp,r7
+                         668 	jarl	_YD_SFMA_CheckReg,lp
+                         668 <EXPANSION BEGIN>
+                         668 jarl22 _YD_SFMA_CheckReg , lp 
+00000166 80ff0000*       668 <EXPANSION END>
+0000016a 0ae9            669 	or	r10,r29
+                         670 --324: 	
+                         671 --325: #ifdef DEBUG_SFMA_RW
+                         672 --326:     /* fill color: reddish */
+                         673 --327:     for(i = 0; i < 4096; i++)
+                         674 --328:     {
+                         675 --329:         loc_srcData[i] =i+0x10;
+                         676 --330:         loc_eraseData[i] = 0xa5a5a5a5;
+                         677 --331:         loc_verifyData[i] = 0x5a5a5a5a;
+                         678 --332:     }
+                         679 --333: 	
+                         680 --334:     //err |= YD_SFMA_Open(LOC_SFMA_UNIT, &cfg);
+                         681 --335:     err |= YD_SFMA_ProtectionModeSet(LOC_SFMA_UNIT, YD_SFMA_MODE_UNPROTECT);
+                         682 --336:     err |= YD_SFMA_DataErase(LOC_SFMA_UNIT, sf_adr, sizeof(loc_srcData));
+                         683 --337:     err |= YD_SFMA_DataRead(LOC_SFMA_UNIT, sf_adr, (uint8_t*)loc_eraseData, sizeof(loc_eraseData));
+                         684 --339:     err |= YD_SFMA_DataWrite(LOC_SFMA_UNIT, sf_adr, (uint8_t*)loc_srcData, sizeof(loc_srcData));
+                         685 --340:     err |= YD_SFMA_DataRead(LOC_SFMA_UNIT, sf_adr, (uint8_t*)loc_verifyData, sizeof(loc_verifyData));
+                         686 --341:     //err |= YD_SFMA_Close(LOC_SFMA_UNIT);
+                         687 --342: #endif
+                         688 --344: #ifdef DEBUG_SFMA_R
+                         689 --345:     /* fill color: reddish */
+                         690 --346:     for(i = 0; i < 4096; i++)
+                         691 --347:     {
+                         692 --348:         loc_verifyData[i] = 0x5a5a5a5a;
+                         693 --349:     }
+                         694 --350: 	
+                         695 --351:     //loc_SFMAConfig(&cfg, YD_SFMA_MODE_SPI_OPERATING, YD_SFMA_SDR_QUAD_IO);
+                         696 --352:     //err |= YD_SFMA_Open(LOC_SFMA_UNIT, &cfg);
+                         697 --353:     err |= YD_SFMA_DataRead(LOC_SFMA_UNIT, sf_adr, (uint8_t*)loc_verifyData, sizeof(loc_verifyData));
+                         698 --354:     //err |= YD_SFMA_Close(LOC_SFMA_UNIT);
+                         699 --355: #endif
+                         700 --357:     if(err != YD_SFMA_ERR_OK)
+                         701 --line357
+                         702 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.26::
+                         703 .LDWlin26:
+0000016c e0e9            704 	cmp	zero,r29
+0000016e 820d*           705 	be	.L270
+                         706 --358:     {
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         707 --359:         if (err) {
+                         708 --line359
+                         709 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.27::
+                         710 .LDWlin27:
+00000170 e0e9            711 	cmp	zero,r29
+00000172 e205*           712 	be	.L270
+                         713 --360:             R_BSP_STDIO_Printf("Note: There.....\n");
+                         714 --line360
+                         715 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.28::
+                         716 .LDWlin28:
+00000174 260600000000*   717 	mov	.L346,r6
+                         718 	jarl	_R_BSP_STDIO_Printf,lp
+                         718 <EXPANSION BEGIN>
+                         718 jarl22 _R_BSP_STDIO_Printf , lp 
+0000017a 80ff0000*       718 <EXPANSION END>
+                         719 .L270:
+                         720 --361:             //loc_Error((int32_t)err);
+                         721 --362:         }
+                         722 --363:     }
+                         723 --364: }
+                         724 --line364
+                         725 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.29::
+                         726 .LDWlin29:
+0000017e 0000            727 	nop
+                         728 --	    .ef
+                         729 .LDW41:
+00000180 5e06ff00        730 	dispose	15,{r28,r29,r31},[lp]
+                         731 	.type	_loc_StartSFMA,@function
+                         732 	.size	_loc_StartSFMA,.-_loc_StartSFMA
+                         733 	.align	2
+                         734 .LDW51:
+                         735 --_err	r29	local
+                         736 --_cfg	4[sp]	local
+                         737 --_sf_adr	r28	local
+                         738 --.L317	.L346	static
+                         739 
+                         740 	.section ".bss","awb"
+                         741 .L316:
+                         742 	.type	.L316,@object
+                         743 	.size	.L316,0
+                         744 	.section ".rodata","a"
+                         745 .L346:--	"Note: There.....\n"
+00000000 4e6f7465        746 	.byte	78,111,116,101
+00000004 3a205468        747 	.byte	58,32,84,104
+00000008 6572652e        748 	.byte	101,114,101,46
+0000000c 2e2e2e2e        749 	.byte	46,46,46,46
+00000010 0a00            750 	.byte	10,0
+                         751 	.type	.L346,@object
+                         752 	.size	.L346,18
+                         753 	.data
+                         754 	.text
+                         755 
+                         756 
+                         757 --366: /*******************************************************************************
+                         758 --367:     Function: loc_StopSFMA
+                         759 --369:     Closes and stops SFMA
+                         760 --370:  */
+                         761 --371: void loc_StopSFMA(void)
+                         762 	.align	2
+                         763 	.align	2
+                         764 	.global	_loc_StopSFMA
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         765 _loc_StopSFMA:
+00000184 80076100        766 	prepare	{r29,r31},0
+                         767 --	    .bf
+                         768 .LDW61:
+                         769 --372: {
+                         770 --373:     yd_sfma_Error_t err = YD_SFMA_ERR_OK;
+00000188 00ea            771 	mov	0,r29
+                         772 --375:     err |= YD_SFMA_Close(LOC_SFMA_UNIT);
+0000018a 0032            773 	mov	0,r6
+                         774 	jarl	_YD_SFMA_Close,lp
+                         774 <EXPANSION BEGIN>
+                         774 jarl22 _YD_SFMA_Close , lp 
+0000018c 80ff0000*       774 <EXPANSION END>
+00000190 0ae9            775 	or	r10,r29
+                         776 --376:     err |= YD_SFMA_DeInit(LOC_SFMA_UNIT);
+                         777 --line376
+                         778 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.30::
+                         779 .LDWlin30:
+00000192 0032            780 	mov	0,r6
+                         781 	jarl	_YD_SFMA_DeInit,lp
+                         781 <EXPANSION BEGIN>
+                         781 jarl22 _YD_SFMA_DeInit , lp 
+00000194 80ff0000*       781 <EXPANSION END>
+00000198 0ae9            782 	or	r10,r29
+                         783 --378:     if(err != YD_SFMA_ERR_OK)
+                         784 --line378
+                         785 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.31::
+                         786 .LDWlin31:
+0000019a e0e9            787 	cmp	zero,r29
+0000019c c205*           788 	be	.L362
+                         789 --379:     {
+                         790 --380:         loc_Error((int32_t)err);
+                         791 --line380
+                         792 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.32::
+                         793 .LDWlin32:
+0000019e 1d30            794 	mov	r29,r6
+                         795 	jarl	_loc_Error,lp
+                         795 <EXPANSION BEGIN>
+                         795 jarl22 _loc_Error , lp 
+000001a0 80ff0000*       795 <EXPANSION END>
+                         796 .L362:
+                         797 --381:     }
+                         798 --382: }
+                         799 --line382
+                         800 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma.33::
+                         801 .LDWlin33:
+000001a4 0000            802 	nop
+                         803 --	    .ef
+                         804 .LDW71:
+000001a6 40067f00        805 	dispose	0,{r29,r31},[lp]
+                         806 	.type	_loc_StopSFMA,@function
+                         807 	.size	_loc_StopSFMA,.-_loc_StopSFMA
+                         808 	.align	2
+                         809 .LDW81:
+                         810 --_err	r29	local
+                         811 
+                         812 	.section ".bss","awb"
+                         813 .L386:
+                         814 	.type	.L386,@object
+                         815 	.size	.L386,0
+                         816 	.data
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008js1.si
+                         817 	.text
+                         818 
+                         819 	.align	2
+                         820 --_r_sfc_Spansion_32bitAddrCmd_40MHz	_r_sfc_Spansion_32bitAddrCmd_40MHz	import
+                         821 --_r_sfc_Spansion_32bitAddrCmd_80MHz	_r_sfc_Spansion_32bitAddrCmd_80MHz	import
+                         822 --_r_sfc_Spansion_24bitAddrCmd_40MHz	_r_sfc_Spansion_24bitAddrCmd_40MHz	import
+                         823 --_r_sfc_Spansion_24bitAddrCmd_80MHz	_r_sfc_Spansion_24bitAddrCmd_80MHz	import
+                         824 --_r_sfc_Spansion_32bitAddrQuadCmd_40MHz	_r_sfc_Spansion_32bitAddrQuadCmd_40MHz	import
+                         825 --_r_sfc_Spansion_32bitAddrQuadCmd_80MHz	_r_sfc_Spansion_32bitAddrQuadCmd_80MHz	import
+                         826 --_r_sfc_Spansion_24bitAddrQuadCmd_40MHz	_r_sfc_Spansion_24bitAddrQuadCmd_40MHz	import
+                         827 --_r_sfc_Spansion_24bitAddrQuadCmd_80MHz	_r_sfc_Spansion_24bitAddrQuadCmd_80MHz	import
+                         828 --_r_sfc_Spansion_32bitAddrCmdPerformanceEnhance_40MHz	_r_sfc_Spansion_32bitAddrCmdPerformanceEnhance_40MHz	import
+                         829 --_r_sfc_Spansion_32bitAddrCmdPerformanceEnhance_80MHz	_r_sfc_Spansion_32bitAddrCmdPerformanceEnhance_80MHz	import
+                         830 
+                         831 	.data
+                         832 	.ghsnote version,14
+                         833 	.ghsnote tools,3
+                         834 	.ghsnote options,144
+                         835 	.text
+                         836 	.align	2
+                         837 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csfma...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74038D..0::
+                         838 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

@@ -1,0 +1,1376 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\bat.dbo -source=bat.c -o .\obj\gh_00008mc1.o -list=.\obj\bat.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+Source File: bat.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\BAT\bat.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                         112 --		-o .\obj\bat.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\BAT\bat.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:38 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : bat.c
+                         128 --5: * Description : BAT API application
+                         129 --6: * Author: ZXX
+                         130 --7: * Date: 2017-6-28
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "bat_info.inc"
+                         134 --15: /***************************************************
+                         135 --16: * Function: BAT_Init
+                         136 --17: * Description: BAT module initialized
+                         137 --18: * Parameters: none
+                         138 --19: * Returns: none
+                         139 --20: * $Create & Verlog:$
+                         140 --21: * Author:Hejianjun   Date:2016-12-05     Version:V1.0
+                         141 --22: * Author:liuyingying Date:2017-06-27     Version:V2.0
+                         142 --23: *$log: initial variables
+                         143 --24: ****************************************************/
+                         144 --25: void BAT_Init(void)
+                         145 	.text
+                         146 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740372..0::
+                         147 	.align	2
+                         148 	.global	_BAT_Init
+                         149 _BAT_Init:
+00000000 8007e170        150 	prepare	{r25,r26,r27,r28,r29,r31},0
+00000004 3d0600000000*   151 	mov	.L80,r29
+0000000a 3de62400        152 	movea	36,r29,r28
+0000000e 3dde1800        153 	movea	24,r29,r27
+00000012 3dd61000        154 	movea	16,r29,r26
+00000016 3dce0800        155 	movea	8,r29,r25
+                         156 --	    .bf
+                         157 .LDW01:
+                         158 --26: {
+                         159 --27: 	bat_ADCValue = 0u;
+0000001a 7d072000        160 	st.h	zero,32[r29]
+                         161 --28: 	bat_TD.status= 0;
+0000001e 5d070000        162 	st.b	zero,0[r29]
+                         163 --29: 	bat_TD.status_bak= 0;
+00000022 5d070100        164 	st.b	zero,1[r29]
+                         165 --30: 	bat_TD.fltSts= FLT_BAT_NO;
+00000026 5d070200        166 	st.b	zero,2[r29]
+                         167 --31: 	bat_TD.Remove_cnt= 0;
+0000002a 7d070600        168 	st.h	zero,6[r29]
+                         169 --32: 	bat_TD.Detect_cnt= 0;
+0000002e 7d070400        170 	st.h	zero,4[r29]
+                         171 --34:     bat_ClassA.status= 0;
+00000032 5d070800        172 	st.b	zero,8[r29]
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                         173 --35: 	bat_ClassA.status_bak= 0;
+00000036 5d070900        174 	st.b	zero,9[r29]
+                         175 --36: 	bat_ClassA.fltSts= FLT_BAT_NO;
+0000003a 5d070a00        176 	st.b	zero,10[r29]
+                         177 --37: 	bat_ClassA.Remove_cnt= 0;
+0000003e 7d070e00        178 	st.h	zero,14[r29]
+                         179 --38: 	bat_ClassA.Detect_cnt= 0;
+00000042 7d070c00        180 	st.h	zero,12[r29]
+                         181 --40:     bat_Lin.status= 0;
+00000046 5d071000        182 	st.b	zero,16[r29]
+                         183 --41: 	bat_Lin.status_bak= 0;
+0000004a 5d071100        184 	st.b	zero,17[r29]
+                         185 --42: 	bat_Lin.fltSts= FLT_BAT_NO;
+0000004e 5d071200        186 	st.b	zero,18[r29]
+                         187 --43: 	bat_Lin.Remove_cnt= 0;
+00000052 7d071600        188 	st.h	zero,22[r29]
+                         189 --44: 	bat_Lin.Detect_cnt= 0;
+00000056 7d071400        190 	st.h	zero,20[r29]
+                         191 --46:     bat_Can.status= 0;
+0000005a 5d071800        192 	st.b	zero,24[r29]
+                         193 --47: 	bat_Can.status_bak= 0;
+0000005e 5d071900        194 	st.b	zero,25[r29]
+                         195 --48: 	bat_Can.fltSts= FLT_BAT_NO;
+00000062 5d071a00        196 	st.b	zero,26[r29]
+                         197 --49: 	bat_Can.Remove_cnt= 0;
+00000066 7d071e00        198 	st.h	zero,30[r29]
+                         199 --50: 	bat_Can.Detect_cnt= 0;
+0000006a 7d071c00        200 	st.h	zero,28[r29]
+                         201 --51:     
+                         202 --52: 	bcmBatValue = 0;
+0000006e 2b0600000000*   203 	mov	_bcmBatValue,r11
+00000074 6b070000        204 	st.h	zero,0[r11]
+                         205 --54: 	bat_stBcmBat.cnt = 0;
+00000078 5d072500        206 	st.b	zero,37[r29]
+                         207 --55: 	bat_stBcmBat.debounceValue = 0;
+0000007c 7d072c00        208 	st.h	zero,44[r29]
+                         209 --56: 	bat_stBcmBat.res = RET_OK;
+00000080 010a            210 	mov	1,r1
+00000082 5d0f2400        211 	st.b	r1,36[r29]
+                         212 --57: 	bat_stBcmBat.sum = 0;
+00000086 7d072900        213 	st.w	zero,40[r29]
+                         214 --58: 	bat_stBcmBat.value = 0;
+0000008a 7d072600        215 	st.h	zero,38[r29]
+                         216 --59:        
+                         217 --60:   	bat_InitSts = ADM_GetInitStatus();
+                         218 	jarl	_ADM_GetInitStatus,lp
+                         218 <EXPANSION BEGIN>
+                         218 jarl22 _ADM_GetInitStatus , lp 
+0000008e 80ff0000*       218 <EXPANSION END>
+00000092 2b0600000000*   219 	mov	_bat_InitSts,r11
+00000098 4b570000        220 	st.b	r10,0[r11]
+                         221 --61: }
+                         222 --line61
+                         223 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.1::
+                         224 .LDWlin1:
+0000009c 0000            225 	nop
+                         226 --	    .ef
+                         227 .LDW11:
+0000009e 4006ff70        228 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         229 	.type	_BAT_Init,@function
+                         230 	.size	_BAT_Init,.-_BAT_Init
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                         231 	.align	2
+                         232 .LDW21:
+                         233 
+                         234 	.section ".bss","awb"
+                         235 	.align	4
+                         236 .L80:
+                         237 	.type	.L80,@object
+                         238 	.size	.L80,0
+                         239 	.global	_bat_TD..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         240 _bat_TD..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         241 	.type	_bat_TD..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@object
+                         242 	.size	_bat_TD..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,8
+00000000 000000000000    243 _bat_TD:	.space	8
+00000006 0000 
+                         244 	.type	_bat_TD,@object
+                         245 	.size	_bat_TD,8
+                         246 	.global	_bat_ClassA..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         247 _bat_ClassA..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         248 	.type	_bat_ClassA..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@object
+                         249 	.size	_bat_ClassA..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,8
+00000008 000000000000    250 _bat_ClassA:	.space	8
+0000000e 0000 
+                         251 	.type	_bat_ClassA,@object
+                         252 	.size	_bat_ClassA,8
+                         253 	.global	_bat_Lin..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         254 _bat_Lin..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         255 	.type	_bat_Lin..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@object
+                         256 	.size	_bat_Lin..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,8
+00000010 000000000000    257 _bat_Lin:	.space	8
+00000016 0000 
+                         258 	.type	_bat_Lin,@object
+                         259 	.size	_bat_Lin,8
+                         260 	.global	_bat_Can..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         261 _bat_Can..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         262 	.type	_bat_Can..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@object
+                         263 	.size	_bat_Can..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,8
+00000018 000000000000    264 _bat_Can:	.space	8
+0000001e 0000 
+                         265 	.type	_bat_Can,@object
+                         266 	.size	_bat_Can,8
+                         267 	.global	_bat_ADCValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         268 _bat_ADCValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         269 	.type	_bat_ADCValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@object
+                         270 	.size	_bat_ADCValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,2
+00000020 0000            271 _bat_ADCValue:	.space	2
+                         272 	.type	_bat_ADCValue,@object
+                         273 	.size	_bat_ADCValue,2
+                         274 	.data
+                         275 	.align	4
+                         276 	.global	_bcmBatValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         277 _bcmBatValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         278 	.type	_bcmBatValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@object
+                         279 	.size	_bcmBatValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,2
+00000000 0000            280 _bcmBatValue:	.byte	0,0
+                         281 	.type	_bcmBatValue,@object
+                         282 	.size	_bcmBatValue,2
+                         283 	.global	_bat_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         284 _bat_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         285 	.type	_bat_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@object
+                         286 	.size	_bat_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,1
+00000002 00              287 _bat_InitSts:	.byte	0
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                         288 	.type	_bat_InitSts,@object
+                         289 	.size	_bat_InitSts,1
+                         290 	.section ".rodata","a"
+                         291 	.align	2
+                         292 	.global	_batVolRangTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         293 _batVolRangTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         294 	.type	_batVolRangTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@object
+                         295 	.size	_batVolRangTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,40
+00000000 360bb80b        296 _batVolRangTab:	.byte	54,11,184,11
+00000004 86061806        297 	.byte	134,6,24,6
+00000008 c800            298 	.byte	200,0
+0000000a b80b080c        299 	.byte	184,11,8,12
+0000000e 1806be05        300 	.byte	24,6,190,5
+00000012 c800            301 	.byte	200,0
+00000014 410dd50c        302 	.byte	65,13,213,12
+00000018 be055005        303 	.byte	190,5,80,5
+0000001c c800            304 	.byte	200,0
+0000001e d50c800c        305 	.byte	213,12,128,12
+00000022 2904c800        306 	.byte	41,4,200,0
+00000026 0000            307 	.space	2
+                         308 	.type	_batVolRangTab,@object
+                         309 	.size	_batVolRangTab,40
+                         310 	.data
+00000003 00              311 	.space	1
+                         312 	.global	_batDectTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         313 _batDectTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         314 	.type	_batDectTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@object
+                         315 	.size	_batDectTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,16
+00000004 00000000*       316 _batDectTab:	.word	_bat_TD
+00000008 00000000*       317 	.word	_bat_ClassA
+0000000c 00000000*       318 	.word	_bat_Lin
+00000010 00000000*       319 	.word	_bat_Can
+                         320 	.type	_batDectTab,@object
+                         321 	.size	_batDectTab,16
+                         322 	.section ".bss","awb"
+00000022 0000            323 	.space	2
+                         324 	.global	_bat_stBcmBat..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         325 _bat_stBcmBat..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         326 	.type	_bat_stBcmBat..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@object
+                         327 	.size	_bat_stBcmBat..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,12
+00000024 000000000000    328 _bat_stBcmBat:	.space	12
+0000002a 000000000000 
+                         329 	.type	_bat_stBcmBat,@object
+                         330 	.size	_bat_stBcmBat,12
+                         331 	.data
+                         332 	.text
+                         333 
+                         334 
+                         335 --65: /***************************************************
+                         336 --66: * Function: BAT_Init
+                         337 --67: * Description: BAT module initialized
+                         338 --68: * Parameters: none
+                         339 --69: * Returns: none
+                         340 --70: * $Create & Verlog:$
+                         341 --71: * Author:Hejianjun   Date:2016-12-05     Version:V1.0
+                         342 --72: * Author:liuyingying Date:2017-06-27     Version:V2.0
+                         343 --73: *$log: initial variables
+                         344 --74: ****************************************************/
+                         345 --75: U8 BAT_GetInitSts(void)
+                         346 	.align	2
+                         347 	.align	2
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                         348 	.global	_BAT_GetInitSts
+                         349 _BAT_GetInitSts:
+000000a2 210600000000*   350 	mov	_bat_InitSts-2,r1
+                         351 --	    .bf
+                         352 .LDW31:
+                         353 --76: {
+                         354 --77:     return bat_InitSts;
+000000a8 2a0600000000*   355 	mov	_bat_InitSts,r10
+000000ae 8a570100        356 	ld.bu	0[r10],r10
+                         357 --	    .ef
+                         358 .LDW41:
+000000b2 7f00            359 	jmp	[lp]
+                         360 	.type	_BAT_GetInitSts,@function
+                         361 	.size	_BAT_GetInitSts,.-_BAT_GetInitSts
+                         362 	.align	2
+                         363 .LDW51:
+                         364 
+                         365 	.data
+                         366 	.text
+                         367 
+                         368 --78: }
+                         369 
+                         370 --82: /***************************************************
+                         371 --83: * Function: BAT_Process_5ms
+                         372 --84: * Description: the process of the BAT module 
+                         373 --85: * Parameters: none
+                         374 --86: * Returns: none
+                         375 --87: * $Create & Verlog:$
+                         376 --88: * Author:liuyingying Date:2017-06-27     Version:V2.0
+                         377 --89: *$log: add new functions
+                         378 --90: ****************************************************/
+                         379 --91: void BAT_Process_5ms(void)
+                         380 	.align	2
+                         381 	.align	2
+                         382 	.global	_BAT_Process_5ms
+                         383 _BAT_Process_5ms:
+000000b4 8007e130        384 	prepare	{r26,r27,r28,r29,r31},0
+000000b8 3d0600000000*   385 	mov	_bat_InitSts-2,r29
+000000be 3dd60400        386 	movea	4,r29,r26
+                         387 --	    .bf
+                         388 .LDW61:
+                         389 --92: {
+                         390 --93:     U8 res = RET_OK;
+000000c2 01da            391 	mov	1,r27
+                         392 --94:     U8 i = 0;
+000000c4 00e2            393 	mov	0,r28
+                         394 --95:     if (TRUE == bat_InitSts)
+000000c6 210600000000*   395 	mov	_bat_InitSts,r1
+000000cc 810f0100        396 	ld.bu	0[r1],r1
+000000d0 610a            397 	cmp	1,r1
+000000d2 ea1d*           398 	bne	.L221
+                         399 --96:     {
+                         400 --97: 	    res = ADM_GetDebounceValue(INDEX_ADM_BATT, &bat_ADCValue);
+                         401 --line97
+                         402 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.2::
+                         403 .LDWlin2:
+000000d4 0632            404 	mov	6,r6
+000000d6 270600000000*   405 	mov	_bat_ADCValue,r7
+                         406 	jarl	_ADM_GetDebounceValue,lp
+                         406 <EXPANSION BEGIN>
+                         406 jarl22 _ADM_GetDebounceValue , lp 
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+000000dc 80ff0000*       406 <EXPANSION END>
+000000e0 0ad8            407 	mov	r10,r27
+                         408 --98:         if(RET_OK == res)
+                         409 --line98
+                         410 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.3::
+                         411 .LDWlin3:
+000000e2 61da            412 	cmp	1,r27
+000000e4 da15*           413 	bne	.L221
+                         414 --99:         {
+                         415 --100:             for(i =0; i< TYPE_BATDET_ALL ; i ++)
+                         416 --line100
+                         417 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.4::
+                         418 .LDWlin4:
+000000e6 00e2            419 	mov	0,r28
+000000e8 0000            420 	nop
+                         421 .L219:
+                         422 --101:             {
+                         423 --102:      	        bat_voltageRange_Process(i,batDectTab[i]);            
+000000ea 1cf0            424 	mov	r28,ep
+000000ec c2f2            425 	shl	2,ep
+000000ee daf1            426 	add	r26,ep
+000000f0 1c30            427 	mov	r28,r6
+000000f2 003d            428 	sld.w	0[ep],r7
+                         429 	jarl	_bat_voltageRange_Process,lp
+                         429 <EXPANSION BEGIN>
+                         429 jarl22 _bat_voltageRange_Process , lp 
+000000f4 80ff2201*       429 <EXPANSION END>
+                         430 --103:                 bat_voltageRange_check(i,batDectTab[i]);
+                         431 --line103
+                         432 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.5::
+                         433 .LDWlin5:
+000000f8 1cf0            434 	mov	r28,ep
+000000fa c2f2            435 	shl	2,ep
+000000fc daf1            436 	add	r26,ep
+000000fe 1c30            437 	mov	r28,r6
+00000100 003d            438 	sld.w	0[ep],r7
+                         439 	jarl	_bat_voltageRange_check,lp
+                         439 <EXPANSION BEGIN>
+                         439 jarl22 _bat_voltageRange_check , lp 
+00000102 80ffdc01*       439 <EXPANSION END>
+                         440 --line100
+                         441 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.6::
+                         442 .LDWlin6:
+00000106 41e2            443 	add	1,r28
+00000108 9c00            444 	zxb	r28
+0000010a 64e2            445 	cmp	4,r28
+0000010c f1ed*           446 	bl	.L219
+                         447 .L221:
+                         448 --104:             }
+                         449 --105:         }
+                         450 --106: 		else
+                         451 --107: 		{
+                         452 --108: 		}
+                         453 --109:     }
+                         454 --110:     else
+                         455 --111:     {                                                   
+                         456 --112:     }
+                         457 --113: }
+                         458 --line113
+                         459 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.7::
+                         460 .LDWlin7:
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+0000010e 0000            461 	nop
+                         462 --	    .ef
+                         463 .LDW71:
+00000110 4006ff30        464 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                         465 	.type	_BAT_Process_5ms,@function
+                         466 	.size	_BAT_Process_5ms,.-_BAT_Process_5ms
+                         467 	.align	2
+                         468 .LDW81:
+                         469 --_res	r27	local
+                         470 --_i	r28	local
+                         471 
+                         472 	.data
+                         473 	.text
+                         474 
+                         475 
+                         476 --115: void BAT_BcmBat_Process_100ms(void)
+                         477 	.align	2
+                         478 	.align	2
+                         479 	.global	_BAT_BcmBat_Process_100ms
+                         480 _BAT_BcmBat_Process_100ms:
+00000114 8207e130        481 	prepare	{r26,r27,r28,r29,r31},1
+00000118 3d0600000000*   482 	mov	_bat_stBcmBat,r29
+0000011e 1dd0            483 	mov	r29,r26
+00000120 3b0600000000*   484 	mov	_bcmBatValue,r27
+                         485 --	    .bf
+                         486 .LDW91:
+                         487 --116: {
+                         488 --117: 	U8 bcmNodeMissing = FALSE;
+00000126 43070100        489 	st.b	zero,1[sp]
+                         490 --118: 	U16 bat_NetValue = 0;
+0000012a 63070200        491 	st.h	zero,2[sp]
+                         492 --119: 	U16 range = 0;
+0000012e 00e2            493 	mov	0,r28
+                         494 --120: 	COM_GetSignalValue_16(INDEX_COM_RS_BATVOL,&bat_NetValue);	
+00000130 2036e600        495 	movea	230,zero,r6
+00000134 233e0200        496 	movea	2,sp,r7
+                         497 	jarl	_COM_GetSignalValue_16,lp
+                         497 <EXPANSION BEGIN>
+                         497 jarl22 _COM_GetSignalValue_16 , lp 
+00000138 80ff0000*       497 <EXPANSION END>
+                         498 --121: 	NWD_GetNodeMissing(INDEX_BCM_NODE,&bcmNodeMissing);
+                         499 --line121
+                         500 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.8::
+                         501 .LDWlin8:
+0000013c 0432            502 	mov	4,r6
+0000013e 233e0100        503 	movea	1,sp,r7
+                         504 	jarl	_NWD_GetNodeMissing,lp
+                         504 <EXPANSION BEGIN>
+                         504 jarl22 _NWD_GetNodeMissing , lp 
+00000142 80ff0000*       504 <EXPANSION END>
+                         505 --122: 	if(TRUE == bcmNodeMissing)
+                         506 --line122
+                         507 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.9::
+                         508 .LDWlin9:
+00000146 a30f0100        509 	ld.bu	1[sp],r1
+0000014a 610a            510 	cmp	1,r1
+0000014c ca05*           511 	bne	.L312
+                         512 --123: 	{
+                         513 --124: 		bcmBatValue = 0;
+                         514 --line124
+                         515 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.10::
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                         516 .LDWlin10:
+0000014e 7b070000        517 	st.h	zero,0[r27]
+00000152 f55d*           518 	br	.L314
+                         519 .L312:
+                         520 --125: 	}
+                         521 --126: 	else
+                         522 --127: 	{
+                         523 --129: 		 range = ABS_SUB(bat_NetValue,bat_stBcmBat.value);
+                         524 --line129
+                         525 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.11::
+                         526 .LDWlin11:
+00000154 fd0f0300        527 	ld.hu	2[r29],r1
+00000158 e3770300        528 	ld.hu	2[sp],r14
+0000015c e171            529 	cmp	r1,r14
+0000015e f305*           530 	bnh	.L315
+00000160 e30f0300        531 	ld.hu	2[sp],r1
+00000164 fd770300        532 	ld.hu	2[r29],r14
+00000168 ae09            533 	sub	r14,r1
+0000016a e505*           534 	br	.L317
+                         535 .L315:
+0000016c fd0f0300        536 	ld.hu	2[r29],r1
+00000170 e3770300        537 	ld.hu	2[sp],r14
+00000174 ae09            538 	sub	r14,r1
+                         539 .L317:
+00000176 c1e6ffff        540 	andi	65535,r1,r28
+                         541 --130: 	        if (BCM_DEBOUNCE_OFFSET > range)
+                         542 --line130
+                         543 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.12::
+                         544 .LDWlin12:
+0000017a 1c0638ff        545 	addi	-200,r28,zero
+0000017e 9125*           546 	bl	.L318
+                         547 --131: 	        {
+                         548 --132: 	            if (BCMBAT_DEBOUNCECNT <= bat_stBcmBat.cnt)
+                         549 --line132
+                         550 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.13::
+                         551 .LDWlin13:
+00000180 bd0f0100        552 	ld.bu	1[r29],r1
+00000184 630a            553 	cmp	3,r1
+00000186 8115*           554 	bl	.L320
+                         555 --133: 	            {
+                         556 --134: 	            	bat_stBcmBat.debounceValue = (bat_stBcmBat.sum /BCMBAT_DEBOUNCECNT);
+                         557 --line134
+                         558 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.14::
+                         559 .LDWlin14:
+00000188 3d0f0500        560 	ld.w	4[r29],r1
+0000018c 0372            561 	mov	3,r14
+0000018e ee0ffe02        562 	divqu	r14,r1,zero
+00000192 7d0f0800        563 	st.h	r1,8[r29]
+                         564 --135: 	            	bat_stBcmBat.sum = 0;
+00000196 7d070500        565 	st.w	zero,4[r29]
+                         566 --136: 	            	bat_stBcmBat.cnt = 0;
+0000019a 5d070100        567 	st.b	zero,1[r29]
+                         568 --137: 	            	bat_stBcmBat.res = RET_OK;
+0000019e 010a            569 	mov	1,r1
+000001a0 5d0f0000        570 	st.b	r1,0[r29]
+000001a4 a515*           571 	br	.L323
+                         572 .L320:
+                         573 --138: 	            }
+                         574 --139: 	            else
+                         575 --140: 	            {
+                         576 --141: 		            bat_stBcmBat.sum += bat_NetValue;
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                         577 --line141
+                         578 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.15::
+                         579 .LDWlin15:
+000001a6 3d0f0500        580 	ld.w	4[r29],r1
+000001aa e3770300        581 	ld.hu	2[sp],r14
+000001ae ce09            582 	add	r14,r1
+000001b0 7d0f0500        583 	st.w	r1,4[r29]
+                         584 --142: 		            bat_stBcmBat.cnt ++;
+000001b4 bd0f0100        585 	ld.bu	1[r29],r1
+000001b8 410a            586 	add	1,r1
+000001ba 5d0f0100        587 	st.b	r1,1[r29]
+000001be d505*           588 	br	.L323
+                         589 .L318:
+                         590 --143: 	            }
+                         591 --144: 	        }
+                         592 --145: 	        else
+                         593 --146: 	        {
+                         594 --147: 	            bat_stBcmBat.cnt = 0;
+                         595 --line147
+                         596 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.16::
+                         597 .LDWlin16:
+000001c0 5d070100        598 	st.b	zero,1[r29]
+                         599 --148: 	            bat_stBcmBat.sum = 0;
+000001c4 7d070500        600 	st.w	zero,4[r29]
+                         601 .L323:
+                         602 --149: 	        }
+                         603 --150: 			
+                         604 --151:             bat_stBcmBat.value = bat_NetValue;
+000001c8 e30f0300        605 	ld.hu	2[sp],r1
+000001cc 7d0f0200        606 	st.h	r1,2[r29]
+                         607 --152: 			
+                         608 --153: 		if(BCM_BAT_NET_THRESHHOLD > bat_stBcmBat.debounceValue)
+000001d0 fd0f0900        609 	ld.hu	8[r29],r1
+000001d4 0106ffc3        610 	addi	-15361,r1,zero
+000001d8 811d*           611 	bl	.L324
+                         612 --154: 		{
+                         613 --155: 			bcmBatValue=((bat_stBcmBat.debounceValue*BCM_BAT_NET_FACTOR)+BCM_BAT_NET_OFFSET);
+                         614 --line155
+                         615 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.17::
+                         616 .LDWlin17:
+000001da fd0f0900        617 	ld.hu	8[r29],r1
+000001de 2b063200843f    618 	mov	1065615410,r11
+000001e4 2a0622e2e654    619 	mov	1424417314,r10
+000001ea f00f5264        620 	cvtf.uwd	r1,r12
+000001ee ea677464        621 	mulf.d	r10,r12,r12
+000001f2 405e3e40        622 	movhi	16446,zero,r11
+000001f6 0052            623 	mov	0,r10
+000001f8 ea677064        624 	addf.d	r10,r12,r12
+000001fc f167500c        625 	trncf.duw	r12,r1
+00000200 c100            626 	zxh	r1
+00000202 7b0f0000        627 	st.h	r1,0[r27]
+00000206 d505*           628 	br	.L314
+                         629 .L324:
+                         630 --156: 		}
+                         631 --157: 		else
+                         632 --158: 		{
+                         633 --159: 			bcmBatValue = bat_stBcmBat.debounceValue;
+                         634 --line159
+                         635 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.18::
+                         636 .LDWlin18:
+00000208 fd0f0900        637 	ld.hu	8[r29],r1
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+0000020c 7b0f0000        638 	st.h	r1,0[r27]
+                         639 .L314:
+                         640 --160: 		}
+                         641 --161: 	}
+                         642 --162: }
+00000210 0000            643 	nop
+                         644 --	    .ef
+                         645 .LDW02:
+00000212 4206ff30        646 	dispose	1,{r26,r27,r28,r29,r31},[lp]
+                         647 	.type	_BAT_BcmBat_Process_100ms,@function
+                         648 	.size	_BAT_BcmBat_Process_100ms,.-_BAT_BcmBat_Process_100ms
+                         649 	.align	2
+                         650 .LDW12:
+                         651 --_bcmNodeMissing	1[sp]	local
+                         652 --_bat_NetValue	2[sp]	local
+                         653 --_range	r28	local
+                         654 
+                         655 	.data
+                         656 	.text
+                         657 
+                         658 
+                         659 --163: /***************************************************
+                         660 --164: * Function: bat_voltageStatusProcess
+                         661 --165: * Description: procss bat status
+                         662 --166: * Parameters: none
+                         663 --167: * Returns: none
+                         664 --168: * $Create & Verlog:$
+                         665 --169: * Author:liuyingying Date:2017-06-27     Version:V2.0
+                         666 --170: *$log: check battery sts
+                         667 --171: ****************************************************/
+                         668 --172: static void bat_voltageRange_Process(U8 Type,stBatDect_ST *pData)
+                         669 	.align	2
+                         670 	.align	2
+                         671 	.global	_bat_voltageRange_Process..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         672 _bat_voltageRange_Process..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         673 _bat_voltageRange_Process:
+00000216 210600000000*   674 	mov	_bat_ADCValue,r1
+0000021c c66eff00        675 	andi	255,r6,r13
+00000220 07f0            676 	mov	r7,ep
+00000222 2e0600000000*   677 	mov	_batVolRangTab,r14
+00000228 0150            678 	mov	r1,r10
+                         679 --	    .bf
+                         680 .LDW22:
+                         681 --173: {
+                         682 --174: 	U8 res = 0;
+0000022a 005a            683 	mov	0,r11
+                         684 --176:     if(NULL_PTR == pData) 
+0000022c e0f1            685 	cmp	zero,ep
+0000022e aa05*           686 	bne	.L482
+                         687 --177:     {
+                         688 --178:         return;
+                         689 --line178
+                         690 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.19::
+                         691 .LDWlin19:
+00000230 e555*           692 	br	.L480
+                         693 .L482:
+                         694 --179:     }
+                         695 --181: 	switch (pData->fltSts) 
+                         696 --line181
+                         697 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.20::
+                         698 .LDWlin20:
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+00000232 6260            699 	sld.bu	2[ep],r12
+00000234 6162            700 	cmp	1,r12
+00000236 c205*           701 	be	.L487
+00000238 6262            702 	cmp	2,r12
+0000023a ea35*           703 	bne	.L501
+0000023c b51d*           704 	br	.L494
+                         705 .L487:
+                         706 --182: 	{
+                         707 --183: 		case LEVEL_BAT_HIGH:
+                         708 --184: 	        if(batVolRangTab[Type].highoff >= bat_ADCValue)
+                         709 --line184
+                         710 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.21::
+                         711 .LDWlin21:
+0000023e ed660a00        712 	mulhi	10,r13,r12
+00000242 e14f0100        713 	ld.hu	0[r1],r9
+00000246 ce61            714 	add	r14,r12
+00000248 ec670100        715 	ld.hu	0[r12],r12
+0000024c e961            716 	cmp	r9,r12
+0000024e f10d*           717 	bl	.L488
+                         718 --185: 	        {
+                         719 --186: 				if(batVolRangTab[Type].lowon >= bat_ADCValue)
+                         720 --line186
+                         721 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.22::
+                         722 .LDWlin22:
+00000250 ed660a00        723 	mulhi	10,r13,r12
+00000254 e14f0100        724 	ld.hu	0[r1],r9
+00000258 ce61            725 	add	r14,r12
+0000025a ec670700        726 	ld.hu	6[r12],r12
+0000025e e961            727 	cmp	r9,r12
+00000260 c105*           728 	bl	.L490
+                         729 --187: 				{
+                         730 --188: 				    pData->status= LEVEL_BAT_LOW;
+                         731 --line188
+                         732 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.23::
+                         733 .LDWlin23:
+00000262 0262            734 	mov	2,r12
+00000264 8063            735 	sst.b	r12,0[ep]
+00000266 d505*           736 	br	.L493
+                         737 .L490:
+                         738 --189: 				}
+                         739 --190: 				else
+                         740 --191: 				{
+                         741 --192: 					pData->status = FLT_BAT_NO;
+                         742 --line192
+                         743 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.24::
+                         744 .LDWlin24:
+00000268 8003            745 	sst.b	zero,0[ep]
+0000026a b505*           746 	br	.L493
+                         747 .L488:
+                         748 --193: 				}        
+                         749 --194: 	        }
+                         750 --195: 	        else
+                         751 --196: 	        {
+                         752 --197: 	            pData->status = LEVEL_BAT_HIGH; 
+                         753 --line197
+                         754 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.25::
+                         755 .LDWlin25:
+0000026c 0162            756 	mov	1,r12
+0000026e 8063            757 	sst.b	r12,0[ep]
+                         758 .L493:
+00000270 d535*           759 	br	.L485
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                         760 .L494:
+                         761 --198: 	        }
+                         762 --199: 			break;
+                         763 --201: 		case LEVEL_BAT_LOW:
+                         764 --202: 	        if(batVolRangTab[Type].lowoff <= bat_ADCValue)
+                         765 --line202
+                         766 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.26::
+                         767 .LDWlin26:
+00000272 ed660a00        768 	mulhi	10,r13,r12
+00000276 e14f0100        769 	ld.hu	0[r1],r9
+0000027a ce61            770 	add	r14,r12
+0000027c ec670500        771 	ld.hu	4[r12],r12
+00000280 e961            772 	cmp	r9,r12
+00000282 fb0d*           773 	bh	.L495
+                         774 --203: 	        {
+                         775 --204: 				if(batVolRangTab[Type].highon <= bat_ADCValue)
+                         776 --line204
+                         777 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.27::
+                         778 .LDWlin27:
+00000284 ed660a00        779 	mulhi	10,r13,r12
+00000288 e14f0100        780 	ld.hu	0[r1],r9
+0000028c ce61            781 	add	r14,r12
+0000028e ec670300        782 	ld.hu	2[r12],r12
+00000292 e961            783 	cmp	r9,r12
+00000294 cb05*           784 	bh	.L497
+                         785 --205: 				{
+                         786 --206: 				    pData->status = LEVEL_BAT_HIGH;
+                         787 --line206
+                         788 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.28::
+                         789 .LDWlin28:
+00000296 0162            790 	mov	1,r12
+00000298 8063            791 	sst.b	r12,0[ep]
+0000029a d505*           792 	br	.L500
+                         793 .L497:
+                         794 --207: 				}
+                         795 --208: 				else
+                         796 --209: 				{
+                         797 --210: 					pData->status = FLT_BAT_NO;
+                         798 --line210
+                         799 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.29::
+                         800 .LDWlin29:
+0000029c 8003            801 	sst.b	zero,0[ep]
+0000029e b505*           802 	br	.L500
+                         803 .L495:
+                         804 --211: 				}        
+                         805 --212: 	        }
+                         806 --213: 	        else
+                         807 --214: 	        {
+                         808 --215: 	            pData->status = LEVEL_BAT_LOW; 
+                         809 --line215
+                         810 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.30::
+                         811 .LDWlin30:
+000002a0 0262            812 	mov	2,r12
+000002a2 8063            813 	sst.b	r12,0[ep]
+                         814 .L500:
+000002a4 b51d*           815 	br	.L485
+                         816 .L501:
+                         817 --216: 	        }
+                         818 --217: 			break;
+                         819 --218: 			
+                         820 --219: 		case LEVEL_BAT_NORMAL:
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                         821 --220: 		default:
+                         822 --221: 			if(batVolRangTab[Type].highon <= bat_ADCValue)
+                         823 --line221
+                         824 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.31::
+                         825 .LDWlin31:
+000002a6 ed660a00        826 	mulhi	10,r13,r12
+000002aa e14f0100        827 	ld.hu	0[r1],r9
+000002ae ce61            828 	add	r14,r12
+000002b0 ec670300        829 	ld.hu	2[r12],r12
+000002b4 e961            830 	cmp	r9,r12
+000002b6 cb05*           831 	bh	.L502
+                         832 --222: 			{
+                         833 --223: 			    pData->status = LEVEL_BAT_HIGH;
+                         834 --line223
+                         835 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.32::
+                         836 .LDWlin32:
+000002b8 0162            837 	mov	1,r12
+000002ba 8063            838 	sst.b	r12,0[ep]
+000002bc e50d*           839 	br	.L504
+                         840 .L502:
+                         841 --224: 			}
+                         842 --225: 			else  if(batVolRangTab[Type].lowon >= bat_ADCValue)
+                         843 --line225
+                         844 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.33::
+                         845 .LDWlin33:
+000002be ed660a00        846 	mulhi	10,r13,r12
+000002c2 e14f0100        847 	ld.hu	0[r1],r9
+000002c6 ce61            848 	add	r14,r12
+000002c8 ec670700        849 	ld.hu	6[r12],r12
+000002cc e961            850 	cmp	r9,r12
+000002ce c105*           851 	bl	.L505
+                         852 --226: 			{
+                         853 --227: 			    pData->status = LEVEL_BAT_LOW;
+                         854 --line227
+                         855 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.34::
+                         856 .LDWlin34:
+000002d0 0262            857 	mov	2,r12
+000002d2 8063            858 	sst.b	r12,0[ep]
+000002d4 a505*           859 	br	.L504
+                         860 .L505:
+                         861 --228: 			}
+                         862 --229: 			else
+                         863 --230: 			{
+                         864 --231: 	            pData->status = LEVEL_BAT_NORMAL; 
+                         865 --line231
+                         866 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.35::
+                         867 .LDWlin35:
+000002d6 8003            868 	sst.b	zero,0[ep]
+                         869 .L504:
+000002d8 0000            870 	nop
+                         871 .L485:
+                         872 --232: 			}        
+                         873 --233: 			break;
+                         874 --234: 	}
+                         875 --235: }
+000002da 0000            876 	nop
+                         877 .L480:
+                         878 --	    .ef
+                         879 .LDW32:
+000002dc 7f00            880 	jmp	[lp]
+                         881 	.type	_bat_voltageRange_Process,@function
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                         882 	.size	_bat_voltageRange_Process,.-_bat_voltageRange_Process
+                         883 	.type	_bat_voltageRange_Process..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@function
+                         884 	.size	_bat_voltageRange_Process..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,.-_bat_voltageRange_Process..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         885 	.align	2
+                         886 .LDW42:
+                         887 --_res	r11	local
+                         888 
+                         889 --_Type	r13	param
+                         890 --_pData	ep	param
+                         891 
+                         892 	.data
+                         893 	.text
+                         894 
+                         895 
+                         896 --236: /***************************************************
+                         897 --237: * Function: bat_voltageFault_check
+                         898 --238: * Description: check the battery in fault status
+                         899 --239: * Parameters: none
+                         900 --240: * Returns:     none
+                         901 --241: * $Create & Verlog:$
+                         902 --242: * Author:liuyingying Date:2017-06-27     Version:V2.0
+                         903 --243: ****************************************************/
+                         904 --244: static void bat_voltageRange_check(U8 Type,stBatDect_ST *pData)
+                         905 	.align	2
+                         906 	.align	2
+                         907 	.global	_bat_voltageRange_check..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         908 _bat_voltageRange_check..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.:
+                         909 _bat_voltageRange_check:
+000002de c60eff00        910 	andi	255,r6,r1
+000002e2 07f0            911 	mov	r7,ep
+                         912 --	    .bf
+                         913 .LDW52:
+                         914 --245: {
+                         915 --246:     if(NULL_PTR == pData) 
+000002e4 e0f1            916 	cmp	zero,ep
+000002e6 aa05*           917 	bne	.L653
+                         918 --247:     {
+                         919 --248:         return;
+                         920 --line248
+                         921 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.36::
+                         922 .LDWlin36:
+000002e8 b51d*           923 	br	.L648
+                         924 .L653:
+                         925 --249:     }
+                         926 --250: 	else
+                         927 --251: 	{
+                         928 --252: 	}
+                         929 --253:       
+                         930 --254:     if( pData->status_bak != pData->status)
+                         931 --line254
+                         932 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.37::
+                         933 .LDWlin37:
+000002ea 6070            934 	sld.bu	0[ep],r14
+000002ec 6168            935 	sld.bu	1[ep],r13
+000002ee ee69            936 	cmp	r14,r13
+000002f0 b205*           937 	be	.L654
+                         938 --255:     { 
+                         939 --256:         pData->Detect_cnt = 0;
+                         940 --line256
+                         941 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.38::
+                         942 .LDWlin38:
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+000002f2 8204            943 	sst.h	zero,4[ep]
+000002f4 a515*           944 	br	.L656
+                         945 .L654:
+                         946 --257:     }				
+                         947 --258:     else
+                         948 --259:     {
+                         949 --260:         if(batVolRangTab[Type].fltMaxCnt <= pData->Detect_cnt)
+                         950 --line260
+                         951 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.39::
+                         952 .LDWlin39:
+000002f6 e1760a00        953 	mulhi	10,r1,r14
+000002fa 2d0600000000*   954 	mov	_batVolRangTab,r13
+00000300 cd71            955 	add	r13,r14
+00000302 7268            956 	sld.hu	4[ep],r13
+00000304 ee770900        957 	ld.hu	8[r14],r14
+00000308 ed71            958 	cmp	r13,r14
+0000030a cb05*           959 	bh	.L657
+                         960 --261:         {
+                         961 --262:         	pData->fltSts = pData->status;
+                         962 --line262
+                         963 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.40::
+                         964 .LDWlin40:
+0000030c 6070            965 	sld.bu	0[ep],r14
+0000030e 8273            966 	sst.b	r14,2[ep]
+00000310 c505*           967 	br	.L656
+                         968 .L657:
+                         969 --263:         }
+                         970 --264:         else
+                         971 --265:         {
+                         972 --266:             pData->Detect_cnt ++;
+                         973 --line266
+                         974 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.41::
+                         975 .LDWlin41:
+00000312 7270            976 	sld.hu	4[ep],r14
+00000314 4172            977 	add	1,r14
+00000316 8274            978 	sst.h	r14,4[ep]
+                         979 .L656:
+                         980 --267:         }
+                         981 --268:     }
+                         982 --269:     pData->status_bak = pData->status;
+00000318 6070            983 	sld.bu	0[ep],r14
+0000031a 8173            984 	sst.b	r14,1[ep]
+                         985 --270: }
+0000031c 0000            986 	nop
+                         987 .L648:
+                         988 --	    .ef
+                         989 .LDW62:
+0000031e 7f00            990 	jmp	[lp]
+                         991 	.type	_bat_voltageRange_check,@function
+                         992 	.size	_bat_voltageRange_check,.-_bat_voltageRange_check
+                         993 	.type	_bat_voltageRange_check..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,@function
+                         994 	.size	_bat_voltageRange_check..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.,.-_bat_voltageRange_check..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.
+                         995 	.align	2
+                         996 .LDW72:
+                         997 
+                         998 --_Type	r1	param
+                         999 --_pData	ep	param
+                        1000 
+                        1001 	.section ".bss","awb"
+                        1002 .L696:
+                        1003 	.type	.L696,@object
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                        1004 	.size	.L696,0
+                        1005 	.data
+                        1006 	.text
+                        1007 
+                        1008 
+                        1009 --273: /***************************************************
+                        1010 --274: * Function: BAT_GetBatLevel
+                        1011 --275: * Description: check the battery status
+                        1012 --276: * Parameters: output
+                        1013 --277: * Returns:   RET_FAIL
+                        1014 --278:                     RET_INVAILD
+                        1015 --279:                     RET_OK
+                        1016 --280: * $Create & Verlog:$
+                        1017 --281: * Author:liuyingying Date:2017-06-27     Version:V2.0
+                        1018 --282: ****************************************************/
+                        1019 --283: U8 BAT_GetBatValue(PU16 Value)
+                        1020 	.align	2
+                        1021 	.align	2
+                        1022 	.global	_BAT_GetBatValue
+                        1023 _BAT_GetBatValue:
+00000320 06f0           1024 	mov	r6,ep
+                        1025 --	    .bf
+                        1026 .LDW82:
+                        1027 --284: {
+                        1028 --285:     U8 res;
+                        1029 --287:     if (FALSE == bat_InitSts)
+00000322 210600000000*  1030 	mov	_bat_InitSts,r1
+00000328 810f0100       1031 	ld.bu	0[r1],r1
+0000032c e009           1032 	cmp	zero,r1
+0000032e ba05*          1033 	bne	.L734
+                        1034 --288:     {
+                        1035 --289:         res = RET_FAIL;
+                        1036 --line289
+                        1037 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.42::
+                        1038 .LDWlin42:
+00000330 000a           1039 	mov	0,r1
+00000332 c50d*          1040 	br	.L736
+                        1041 .L734:
+                        1042 --290:     }
+                        1043 --291:     else if (NULL_PTR == Value)
+                        1044 --line291
+                        1045 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.43::
+                        1046 .LDWlin43:
+00000334 e0f1           1047 	cmp	zero,ep
+00000336 ba05*          1048 	bne	.L737
+                        1049 --292:     {
+                        1050 --293:         res = RET_INVALID;
+                        1051 --line293
+                        1052 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.44::
+                        1053 .LDWlin44:
+00000338 020a           1054 	mov	2,r1
+0000033a 850d*          1055 	br	.L736
+                        1056 .L737:
+                        1057 --294:     }
+                        1058 --295:     else
+                        1059 --296:     {
+                        1060 --297:         *Value = bat_ADCValue;
+                        1061 --line297
+                        1062 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.45::
+                        1063 .LDWlin45:
+0000033c 210600000000*  1064 	mov	_bat_ADCValue,r1
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+00000342 e10f0100       1065 	ld.hu	0[r1],r1
+00000346 800c           1066 	sst.h	r1,0[ep]
+                        1067 --298:          res = RET_OK;       
+00000348 010a           1068 	mov	1,r1
+                        1069 .L736:
+                        1070 --299:     }
+                        1071 --300:     return  res;
+0000034a 0150           1072 	mov	r1,r10
+                        1073 --	    .ef
+                        1074 .LDW92:
+0000034c 7f00           1075 	jmp	[lp]
+                        1076 	.type	_BAT_GetBatValue,@function
+                        1077 	.size	_BAT_GetBatValue,.-_BAT_GetBatValue
+                        1078 	.align	2
+                        1079 .LDW03:
+                        1080 --_res	r1	local
+                        1081 
+                        1082 --_Value	ep	param
+                        1083 
+                        1084 	.data
+                        1085 	.text
+                        1086 
+                        1087 --301: }
+                        1088 
+                        1089 --303: /***************************************************
+                        1090 --304: * Function: BAT_GetBatLevel
+                        1091 --305: * Description: check the battery status
+                        1092 --306: * Parameters: output
+                        1093 --307: * Returns:   RET_FAIL
+                        1094 --308:                     RET_INVAILD
+                        1095 --309:                     RET_OK
+                        1096 --310: * $Create & Verlog:$
+                        1097 --311: * Author:liuyingying Date:2017-06-27     Version:V2.0
+                        1098 --312: ****************************************************/
+                        1099 --313: U8 BAT_GetBCMBatValue(PU16 pValue)
+                        1100 	.align	2
+                        1101 	.align	2
+                        1102 	.global	_BAT_GetBCMBatValue
+                        1103 _BAT_GetBCMBatValue:
+0000034e 06f0           1104 	mov	r6,ep
+00000350 210600000000*  1105 	mov	_bcmBatValue,r1
+                        1106 --	    .bf
+                        1107 .LDW13:
+                        1108 --314: {
+                        1109 --315:     U8 res;
+                        1110 --316: 	U16 value;
+                        1111 --318:     if (FALSE == bat_InitSts)
+00000356 81770300       1112 	ld.bu	2[r1],r14
+0000035a e071           1113 	cmp	zero,r14
+0000035c ba05*          1114 	bne	.L803
+                        1115 --319:     {
+                        1116 --320:         res = RET_FAIL;
+                        1117 --line320
+                        1118 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.46::
+                        1119 .LDWlin46:
+0000035e 000a           1120 	mov	0,r1
+00000360 c50d*          1121 	br	.L805
+                        1122 .L803:
+                        1123 --321:     }
+                        1124 --322:     else if (NULL_PTR == pValue)
+                        1125 --line322
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                        1126 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.47::
+                        1127 .LDWlin47:
+00000362 e0f1           1128 	cmp	zero,ep
+00000364 ba05*          1129 	bne	.L806
+                        1130 --323:     {
+                        1131 --324:         res = RET_INVALID;
+                        1132 --line324
+                        1133 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.48::
+                        1134 .LDWlin48:
+00000366 020a           1135 	mov	2,r1
+00000368 850d*          1136 	br	.L805
+                        1137 .L806:
+                        1138 --325:     }
+                        1139 --326:     else
+                        1140 --327:     {
+                        1141 --328: 	   
+                        1142 --329: 	   *pValue = bcmBatValue;
+                        1143 --line329
+                        1144 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.49::
+                        1145 .LDWlin49:
+0000036a 210600000000*  1146 	mov	_bcmBatValue,r1
+00000370 e10f0100       1147 	ld.hu	0[r1],r1
+00000374 800c           1148 	sst.h	r1,0[ep]
+                        1149 --330:        res = RET_OK;       
+00000376 010a           1150 	mov	1,r1
+                        1151 .L805:
+                        1152 --331:     }
+                        1153 --332:     return  res;
+00000378 0150           1154 	mov	r1,r10
+                        1155 --	    .ef
+                        1156 .LDW23:
+0000037a 7f00           1157 	jmp	[lp]
+                        1158 	.type	_BAT_GetBCMBatValue,@function
+                        1159 	.size	_BAT_GetBCMBatValue,.-_BAT_GetBCMBatValue
+                        1160 	.align	2
+                        1161 .LDW33:
+                        1162 --_res	r1	local
+                        1163 
+                        1164 --_pValue	ep	param
+                        1165 
+                        1166 	.data
+                        1167 	.text
+                        1168 
+                        1169 --333: }
+                        1170 
+                        1171 --335: /***************************************************
+                        1172 --336: * Function: BAT_GetBatFltSts
+                        1173 --337: * Description: check the battery status
+                        1174 --338: * Parameters: 
+                        1175 --339: * Returns:   RET_FAIL
+                        1176 --340:                     RET_INVAILD
+                        1177 --341:                     RET_OK
+                        1178 --342: * $Create & Verlog:$
+                        1179 --343: * Author:liuyingying Date:2017-06-27     Version:V2.0
+                        1180 --344: ****************************************************/
+                        1181 --345: U8 BAT_GetBatFltSts(BatDect_Type_ENUM Type,PU8 sts)
+                        1182 	.align	2
+                        1183 	.align	2
+                        1184 	.global	_BAT_GetBatFltSts
+                        1185 _BAT_GetBatFltSts:
+0000037c 0660           1186 	mov	r6,r12
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+0000037e 0768           1187 	mov	r7,r13
+00000380 210600000000*  1188 	mov	_bat_InitSts-2,r1
+                        1189 --	    .bf
+                        1190 .LDW43:
+                        1191 --346: {
+                        1192 --347:     U8 res =RET_OK;
+00000386 0172           1193 	mov	1,r14
+                        1194 --349:     if (FALSE == bat_InitSts)
+00000388 2b0600000000*  1195 	mov	_bat_InitSts,r11
+0000038e 8b5f0100       1196 	ld.bu	0[r11],r11
+00000392 e059           1197 	cmp	zero,r11
+00000394 ba05*          1198 	bne	.L867
+                        1199 --350:     {
+                        1200 --351:         res = RET_FAIL;
+                        1201 --line351
+                        1202 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.50::
+                        1203 .LDWlin50:
+00000396 0072           1204 	mov	0,r14
+00000398 d50d*          1205 	br	.L869
+                        1206 .L867:
+                        1207 --352:     }
+                        1208 --353:     else if (NULL_PTR == sts)
+                        1209 --line353
+                        1210 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.51::
+                        1211 .LDWlin51:
+0000039a e069           1212 	cmp	zero,r13
+0000039c ba05*          1213 	bne	.L870
+                        1214 --354:     {
+                        1215 --355:         res = RET_INVALID;
+                        1216 --line355
+                        1217 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.52::
+                        1218 .LDWlin52:
+0000039e 0272           1219 	mov	2,r14
+000003a0 950d*          1220 	br	.L869
+                        1221 .L870:
+                        1222 --356:     }
+                        1223 --357:     else
+                        1224 --358:     {
+                        1225 --359:        *sts = batDectTab[Type]->fltSts;
+                        1226 --line359
+                        1227 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat.53::
+                        1228 .LDWlin53:
+000003a2 0cf0           1229 	mov	r12,ep
+000003a4 c2f2           1230 	shl	2,ep
+000003a6 440a           1231 	add	4,r1
+000003a8 c1f1           1232 	add	r1,ep
+000003aa 00f5           1233 	sld.w	0[ep],ep
+000003ac 6208           1234 	sld.bu	2[ep],r1
+000003ae 4d0f0000       1235 	st.b	r1,0[r13]
+                        1236 .L869:
+                        1237 --360:     }
+                        1238 --361:     return  res;
+000003b2 0e50           1239 	mov	r14,r10
+                        1240 --	    .ef
+                        1241 .LDW53:
+000003b4 7f00           1242 	jmp	[lp]
+                        1243 	.type	_BAT_GetBatFltSts,@function
+                        1244 	.size	_BAT_GetBatFltSts,.-_BAT_GetBatFltSts
+                        1245 	.align	2
+                        1246 .LDW63:
+                        1247 --_res	r14	local
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008mc1.si
+                        1248 
+                        1249 --_Type	r12	param
+                        1250 --_sts	r13	param
+                        1251 
+                        1252 	.data
+                        1253 	.text
+                        1254 
+                        1255 --362: }
+                        1256 	.align	2
+                        1257 --_bat_InitSts	_bat_InitSts	static
+                        1258 --_bat_ADCValue	_bat_ADCValue	static
+                        1259 --_bcmBatValue	_bcmBatValue	static
+                        1260 --_bat_TD	_bat_TD	static
+                        1261 --_bat_ClassA	_bat_ClassA	static
+                        1262 --_bat_Lin	_bat_Lin	static
+                        1263 --_bat_Can	_bat_Can	static
+                        1264 --_bat_stBcmBat	_bat_stBcmBat	static
+                        1265 --_batVolRangTab	_batVolRangTab	static
+                        1266 --_batDectTab	_batDectTab	static
+                        1267 
+                        1268 	.data
+                        1269 	.ghsnote version,14
+                        1270 	.ghsnote tools,3
+                        1271 	.ghsnote options,144
+                        1272 	.text
+                        1273 	.align	2
+                        1274 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbat...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740372..0::
+                        1275 .rh850_flags DOUBLE,REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,DOUBLE64,G3M

@@ -1,0 +1,2213 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\rtc.dbo -source=rtc.c -o .\obj\gh_000080s1.o -list=.\obj\rtc.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+Source File: rtc.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\RTC\rtc.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         112 --		-o .\obj\rtc.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\RTC\rtc.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:31 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : rtc.c
+                         128 --5: * Description : RTC API application
+                         129 --6: * Author: Hejianjun
+                         130 --7: * Date: 2016-12-05
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "rtc_info.inc"
+                         134 --13: static BOOL rtc_InitSts = FALSE;                            /* RTC 模块初始化状态*/
+                         135 --14: static U8 rtc_GCounter;                                            /* 内部函数周期计数器*/
+                         136 --15: static RtcaTime_ST rtc_LocalTime;                              /* IPK 本地时间*/
+                         137 --16: static RtcaTime_ST rtc_NetTime;                                  /* 从网络上获取的时间*/
+                         138 --18: static BOOL rtc_isTrigger = FALSE;
+                         139 --19: static U32 rtc_DrivenTime1_offsset;                                    /* 开车时间1 */
+                         140 --20: static U32 rtc_DrivenTime2_offsset;                                    /* 开车时间2 */
+                         141 --21: static U32 rtc_DrivenTime1;                                    /* 开车时间1 */
+                         142 --22: static U32 rtc_DrivenTime2;                                    /* 开车时间2 */
+                         143 --23: static U32 rtc_DrivenTimeRes1;                                    /* 开车时间1 ms计算*/
+                         144 --24: static U32 rtc_DrivenTimeRes2;                                    /* 开车时间2 ms计算*/
+                         145 --25: static BOOL rtc_NetAdjTimeReq;                           /* 网络的时间校准请求*/
+                         146 --26: static BOOL rtc_NetAdjCalendarReq;                   /* 网络的日历校准请求*/
+                         147 --27: static BOOL insICETypePrm;                                   /* 车辆是否配置了ICE */
+                         148 --28: static U32 rtc_DrivTimeStart1;                                  /* 开始计时时间*/
+                         149 --29: static U32 rtc_DrivTimeEnd1;                                    /* 结束计时时间*/
+                         150 --30: static U32 rtc_DrivTimeStart2;                                  /* 开始计时时间*/
+                         151 --31: static U32 rtc_DrivTimeEnd2;                                    /* 结束计时时间*/
+                         152 --32: static RtcaTime_ST  rtc_SendNetSignalReq;             /* 发送的网络信号*/
+                         153 --35: /***************************************************
+                         154 --36: * Function: RTC_Init
+                         155 --37: * Description: RTC module initialized
+                         156 --38: * Parameters: none
+                         157 --39: * Returns: none
+                         158 --40: * $Create & Verlog:$
+                         159 --41: * Author:Hejianjun  Date:2016-12-05   Version:V1.0
+                         160 --42: * Author:zxx  Date:2017-06-28   Version:V2.0
+                         161 --43: *$LOG:delete insDigiClockEnPrm
+                         162 --44: ****************************************************/
+                         163 --45: void RTC_Init(void)
+                         164 	.text
+                         165 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036C..0::
+                         166 	.align	2
+                         167 	.global	_RTC_Init
+                         168 _RTC_Init:
+00000000 8207e170        169 	prepare	{r25,r26,r27,r28,r29,r31},1
+00000004 3d0600000000*   170 	mov	.L86,r29
+0000000a 3dce3600        171 	movea	54,r29,r25
+0000000e 3dde0400        172 	movea	4,r29,r27
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+00000012 3c0600000000*   173 	mov	_rtc_InitSts,r28
+00000018 1dd0            174 	mov	r29,r26
+                         175 --	    .bf
+                         176 .LDW01:
+                         177 --46: {
+                         178 --47:     rtc_GCounter = 0u;
+0000001a 5d072800        179 	st.b	zero,40[r29]
+                         180 --48:     rtc_LocalTime.year = RTC_DEFT_YEAR;
+0000001e 200e1100        181 	movea	17,zero,r1
+00000022 7d0f2c00        182 	st.h	r1,44[r29]
+                         183 --49:     rtc_LocalTime.month = RTC_DEFT_MONTH;
+00000026 010a            184 	mov	1,r1
+00000028 5d0f2e00        185 	st.b	r1,46[r29]
+                         186 --50:     rtc_LocalTime.day = RTC_DEFT_DAY;
+0000002c 010a            187 	mov	1,r1
+0000002e 5d0f3000        188 	st.b	r1,48[r29]
+                         189 --51:     rtc_LocalTime.hour = RTC_DEFT_HOUR;
+00000032 5d073100        190 	st.b	zero,49[r29]
+                         191 --52:     rtc_LocalTime.minute = RTC_DEFT_MINUTE;
+00000036 5d073200        192 	st.b	zero,50[r29]
+                         193 --53:     rtc_LocalTime.sec = RTC_DEFT_SECOND;
+0000003a 5d073300        194 	st.b	zero,51[r29]
+                         195 --54:     rtc_LocalTime.dispFmt = RTC_DISPLY24_MODE;
+0000003e 010a            196 	mov	1,r1
+00000040 5d0f3400        197 	st.b	r1,52[r29]
+                         198 --55:     rtc_NetTime.year = RTC_DEFT_YEAR;
+00000044 200e1100        199 	movea	17,zero,r1
+00000048 7d0f3600        200 	st.h	r1,54[r29]
+                         201 --56:     rtc_NetTime.month = RTC_DEFT_MONTH;
+0000004c 010a            202 	mov	1,r1
+0000004e 5d0f3800        203 	st.b	r1,56[r29]
+                         204 --57:     rtc_NetTime.day = RTC_DEFT_DAY;
+00000052 010a            205 	mov	1,r1
+00000054 5d0f3a00        206 	st.b	r1,58[r29]
+                         207 --58:     rtc_NetTime.hour = RTC_DEFT_HOUR;
+00000058 5d073b00        208 	st.b	zero,59[r29]
+                         209 --59:     rtc_NetTime.minute = RTC_DEFT_MINUTE;
+0000005c 5d073c00        210 	st.b	zero,60[r29]
+                         211 --60:     rtc_NetTime.sec = RTC_DEFT_SECOND;
+00000060 5d073d00        212 	st.b	zero,61[r29]
+                         213 --61:     rtc_NetTime.dispFmt = RTC_DISPLY24_MODE;
+00000064 010a            214 	mov	1,r1
+00000066 5d0f3e00        215 	st.b	r1,62[r29]
+                         216 --62:     rtc_DrivTimeStart1 = 0u;
+0000006a 7d071900        217 	st.w	zero,24[r29]
+                         218 --63:     rtc_DrivTimeEnd1   = 0u;
+0000006e 7d071d00        219 	st.w	zero,28[r29]
+                         220 --64:     rtc_DrivTimeStart2 = 0u;
+00000072 7d072100        221 	st.w	zero,32[r29]
+                         222 --65:     rtc_DrivTimeEnd2   = 0u;
+00000076 7d072500        223 	st.w	zero,36[r29]
+                         224 --66:     
+                         225 --67:     NZM_GetDataValue(INDEX_NZM_TIME1,&rtc_DrivenTime1_offsset,sizeof(rtc_DrivenTime1_offsset));
+0000007a 1a38            226 	mov	r26,r7
+0000007c 0232            227 	mov	2,r6
+0000007e 0442            228 	mov	4,r8
+                         229 	jarl	_NZM_GetDataValue,lp
+                         229 <EXPANSION BEGIN>
+                         229 jarl22 _NZM_GetDataValue , lp 
+00000080 80ff0000*       229 <EXPANSION END>
+                         230 --68:     NZM_GetDataValue(INDEX_NZM_TIME2,&rtc_DrivenTime2_offsset,sizeof(rtc_DrivenTime2_offsset));
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         231 --line68
+                         232 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.1::
+                         233 .LDWlin1:
+00000084 1b38            234 	mov	r27,r7
+00000086 0332            235 	mov	3,r6
+00000088 0442            236 	mov	4,r8
+                         237 	jarl	_NZM_GetDataValue,lp
+                         237 <EXPANSION BEGIN>
+                         237 jarl22 _NZM_GetDataValue , lp 
+0000008a 80ff0000*       237 <EXPANSION END>
+                         238 --70:     rtc_DrivenTime1 = rtc_DrivenTime1_offsset +0;
+                         239 --line70
+                         240 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.2::
+                         241 .LDWlin2:
+0000008e 3d0f0100        242 	ld.w	0[r29],r1
+00000092 7d0f0900        243 	st.w	r1,8[r29]
+                         244 --71:     rtc_DrivenTime2 = rtc_DrivenTime2_offsset +0;
+00000096 3d0f0500        245 	ld.w	4[r29],r1
+0000009a 7d0f0d00        246 	st.w	r1,12[r29]
+                         247 --72:     
+                         248 --73:     rtc_DrivenTimeRes1 = 0u;
+0000009e 7d071100        249 	st.w	zero,16[r29]
+                         250 --74:     rtc_DrivenTimeRes2 = 0u;
+000000a2 7d071500        251 	st.w	zero,20[r29]
+                         252 --75:     rtc_NetAdjTimeReq = FALSE;
+000000a6 5d072900        253 	st.b	zero,41[r29]
+                         254 --76:     rtc_NetAdjCalendarReq = FALSE;    
+000000aa 5d072a00        255 	st.b	zero,42[r29]
+                         256 --77:     rtc_InitSts = FALSE;
+000000ae 5c070000        257 	st.b	zero,0[r28]
+                         258 --78: 	rtc_isTrigger = FALSE;
+000000b2 2b0600000000*   259 	mov	_rtc_isTrigger,r11
+000000b8 4b070000        260 	st.b	zero,0[r11]
+                         261 --79:  
+                         262 --80:     insICETypePrm =  DIAG_GetICEType();
+                         263 	jarl	_DIAG_GetICEType,lp
+                         263 <EXPANSION BEGIN>
+                         263 jarl22 _DIAG_GetICEType , lp 
+000000bc 80ff0000*       263 <EXPANSION END>
+000000c0 5d572b00        264 	st.b	r10,43[r29]
+                         265 --81:     
+                         266 --82:     rtc_InitSts = RTCA_GetInitStatus();
+                         267 --line82
+                         268 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.3::
+                         269 .LDWlin3:
+                         270 	jarl	_RTCA_GetInitStatus,lp
+                         270 <EXPANSION BEGIN>
+                         270 jarl22 _RTCA_GetInitStatus , lp 
+000000c4 80ff0000*       270 <EXPANSION END>
+000000c8 5c570000        271 	st.b	r10,0[r28]
+                         272 --83: }
+                         273 --line83
+                         274 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.4::
+                         275 .LDWlin4:
+000000cc 0000            276 	nop
+                         277 --	    .ef
+                         278 .LDW11:
+000000ce 4206ff70        279 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                         280 	.type	_RTC_Init,@function
+                         281 	.size	_RTC_Init,.-_RTC_Init
+                         282 	.align	2
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         283 .LDW21:
+                         284 
+                         285 	.section ".bss","awb"
+                         286 	.align	4
+                         287 .L86:
+                         288 	.type	.L86,@object
+                         289 	.size	.L86,0
+                         290 	.global	_rtc_DrivenTime1_offsset..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         291 _rtc_DrivenTime1_offsset..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         292 	.type	_rtc_DrivenTime1_offsset..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         293 	.size	_rtc_DrivenTime1_offsset..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,4
+00000000 00000000        294 _rtc_DrivenTime1_offsset:	.space	4
+                         295 	.type	_rtc_DrivenTime1_offsset,@object
+                         296 	.size	_rtc_DrivenTime1_offsset,4
+                         297 	.global	_rtc_DrivenTime2_offsset..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         298 _rtc_DrivenTime2_offsset..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         299 	.type	_rtc_DrivenTime2_offsset..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         300 	.size	_rtc_DrivenTime2_offsset..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,4
+00000004 00000000        301 _rtc_DrivenTime2_offsset:	.space	4
+                         302 	.type	_rtc_DrivenTime2_offsset,@object
+                         303 	.size	_rtc_DrivenTime2_offsset,4
+                         304 	.global	_rtc_DrivenTime1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         305 _rtc_DrivenTime1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         306 	.type	_rtc_DrivenTime1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         307 	.size	_rtc_DrivenTime1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,4
+00000008 00000000        308 _rtc_DrivenTime1:	.space	4
+                         309 	.type	_rtc_DrivenTime1,@object
+                         310 	.size	_rtc_DrivenTime1,4
+                         311 	.global	_rtc_DrivenTime2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         312 _rtc_DrivenTime2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         313 	.type	_rtc_DrivenTime2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         314 	.size	_rtc_DrivenTime2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,4
+0000000c 00000000        315 _rtc_DrivenTime2:	.space	4
+                         316 	.type	_rtc_DrivenTime2,@object
+                         317 	.size	_rtc_DrivenTime2,4
+                         318 	.global	_rtc_DrivenTimeRes1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         319 _rtc_DrivenTimeRes1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         320 	.type	_rtc_DrivenTimeRes1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         321 	.size	_rtc_DrivenTimeRes1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,4
+00000010 00000000        322 _rtc_DrivenTimeRes1:	.space	4
+                         323 	.type	_rtc_DrivenTimeRes1,@object
+                         324 	.size	_rtc_DrivenTimeRes1,4
+                         325 	.global	_rtc_DrivenTimeRes2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         326 _rtc_DrivenTimeRes2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         327 	.type	_rtc_DrivenTimeRes2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         328 	.size	_rtc_DrivenTimeRes2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,4
+00000014 00000000        329 _rtc_DrivenTimeRes2:	.space	4
+                         330 	.type	_rtc_DrivenTimeRes2,@object
+                         331 	.size	_rtc_DrivenTimeRes2,4
+                         332 	.global	_rtc_DrivTimeStart1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         333 _rtc_DrivTimeStart1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         334 	.type	_rtc_DrivTimeStart1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         335 	.size	_rtc_DrivTimeStart1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,4
+00000018 00000000        336 _rtc_DrivTimeStart1:	.space	4
+                         337 	.type	_rtc_DrivTimeStart1,@object
+                         338 	.size	_rtc_DrivTimeStart1,4
+                         339 	.global	_rtc_DrivTimeEnd1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         340 _rtc_DrivTimeEnd1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         341 	.type	_rtc_DrivTimeEnd1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         342 	.size	_rtc_DrivTimeEnd1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,4
+0000001c 00000000        343 _rtc_DrivTimeEnd1:	.space	4
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         344 	.type	_rtc_DrivTimeEnd1,@object
+                         345 	.size	_rtc_DrivTimeEnd1,4
+                         346 	.global	_rtc_DrivTimeStart2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         347 _rtc_DrivTimeStart2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         348 	.type	_rtc_DrivTimeStart2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         349 	.size	_rtc_DrivTimeStart2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,4
+00000020 00000000        350 _rtc_DrivTimeStart2:	.space	4
+                         351 	.type	_rtc_DrivTimeStart2,@object
+                         352 	.size	_rtc_DrivTimeStart2,4
+                         353 	.global	_rtc_DrivTimeEnd2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         354 _rtc_DrivTimeEnd2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         355 	.type	_rtc_DrivTimeEnd2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         356 	.size	_rtc_DrivTimeEnd2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,4
+00000024 00000000        357 _rtc_DrivTimeEnd2:	.space	4
+                         358 	.type	_rtc_DrivTimeEnd2,@object
+                         359 	.size	_rtc_DrivTimeEnd2,4
+                         360 	.data
+                         361 	.global	_rtc_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         362 _rtc_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         363 	.type	_rtc_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         364 	.size	_rtc_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,1
+00000000 00              365 _rtc_InitSts:	.byte	0
+                         366 	.type	_rtc_InitSts,@object
+                         367 	.size	_rtc_InitSts,1
+                         368 	.section ".bss","awb"
+                         369 	.global	_rtc_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         370 _rtc_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         371 	.type	_rtc_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         372 	.size	_rtc_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,1
+00000028 00              373 _rtc_GCounter:	.space	1
+                         374 	.type	_rtc_GCounter,@object
+                         375 	.size	_rtc_GCounter,1
+                         376 	.data
+                         377 	.global	_rtc_isTrigger..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         378 _rtc_isTrigger..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         379 	.type	_rtc_isTrigger..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         380 	.size	_rtc_isTrigger..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,1
+00000001 00              381 _rtc_isTrigger:	.byte	0
+                         382 	.type	_rtc_isTrigger,@object
+                         383 	.size	_rtc_isTrigger,1
+                         384 	.section ".bss","awb"
+                         385 	.global	_rtc_NetAdjTimeReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         386 _rtc_NetAdjTimeReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         387 	.type	_rtc_NetAdjTimeReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         388 	.size	_rtc_NetAdjTimeReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,1
+00000029 00              389 _rtc_NetAdjTimeReq:	.space	1
+                         390 	.type	_rtc_NetAdjTimeReq,@object
+                         391 	.size	_rtc_NetAdjTimeReq,1
+                         392 	.global	_rtc_NetAdjCalendarReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         393 _rtc_NetAdjCalendarReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         394 	.type	_rtc_NetAdjCalendarReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         395 	.size	_rtc_NetAdjCalendarReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,1
+0000002a 00              396 _rtc_NetAdjCalendarReq:	.space	1
+                         397 	.type	_rtc_NetAdjCalendarReq,@object
+                         398 	.size	_rtc_NetAdjCalendarReq,1
+                         399 	.global	_insICETypePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         400 _insICETypePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         401 	.type	_insICETypePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         402 	.size	_insICETypePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,1
+0000002b 00              403 _insICETypePrm:	.space	1
+                         404 	.type	_insICETypePrm,@object
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         405 	.size	_insICETypePrm,1
+                         406 	.global	_rtc_LocalTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         407 _rtc_LocalTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         408 	.type	_rtc_LocalTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         409 	.size	_rtc_LocalTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,10
+0000002c 000000000000    410 _rtc_LocalTime:	.space	10
+00000032 00000000 
+                         411 	.type	_rtc_LocalTime,@object
+                         412 	.size	_rtc_LocalTime,10
+                         413 	.global	_rtc_NetTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         414 _rtc_NetTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         415 	.type	_rtc_NetTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         416 	.size	_rtc_NetTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,10
+00000036 000000000000    417 _rtc_NetTime:	.space	10
+0000003c 00000000 
+                         418 	.type	_rtc_NetTime,@object
+                         419 	.size	_rtc_NetTime,10
+                         420 	.global	_rtc_SendNetSignalReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         421 _rtc_SendNetSignalReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         422 	.type	_rtc_SendNetSignalReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@object
+                         423 	.size	_rtc_SendNetSignalReq..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,10
+00000040 000000000000    424 _rtc_SendNetSignalReq:	.space	10
+00000046 00000000 
+                         425 	.type	_rtc_SendNetSignalReq,@object
+                         426 	.size	_rtc_SendNetSignalReq,10
+                         427 	.data
+                         428 	.text
+                         429 
+                         430 
+                         431 --85: /***************************************************
+                         432 --86: * Function: RTC_Process_100ms
+                         433 --87: * Description: the process of the RTC module
+                         434 --88: * Parameters: none
+                         435 --89: * Returns: none
+                         436 --90: * $Create & Verlog:$
+                         437 --91: * Author:Hejianjun   Date:2016-12-05   Version:V1.0
+                         438 --92: ****************************************************/
+                         439 --93: void RTC_Process_100ms(void)
+                         440 	.align	2
+                         441 	.align	2
+                         442 	.global	_RTC_Process_100ms
+                         443 _RTC_Process_100ms:
+000000d2 8007e110        444 	prepare	{r27,r28,r29,r31},0
+000000d6 3d0600000000*   445 	mov	_rtc_GCounter,r29
+000000dc 3de61800        446 	movea	24,r29,r28
+000000e0 1dd8            447 	mov	r29,r27
+                         448 --	    .bf
+                         449 .LDW31:
+                         450 --94: {
+                         451 --95:     if (TRUE == rtc_InitSts)
+000000e2 210600000000*   452 	mov	_rtc_InitSts,r1
+000000e8 810f0100        453 	ld.bu	0[r1],r1
+000000ec 610a            454 	cmp	1,r1
+000000ee 9a1d*           455 	bne	.L193
+                         456 --96:     {
+                         457 --97:         rtc_GCounter++;
+                         458 --line97
+                         459 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.5::
+                         460 .LDWlin5:
+000000f0 9d0f0100        461 	ld.bu	0[r29],r1
+000000f4 410a            462 	add	1,r1
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+000000f6 5d0f0000        463 	st.b	r1,0[r29]
+                         464 --98: 		rtc_EnRunA_Active_Process_100ms();
+                         465 	jarl	_rtc_EnRunA_Active_Process_100ms,lp
+                         465 <EXPANSION BEGIN>
+                         465 jarl22 _rtc_EnRunA_Active_Process_100ms , lp 
+000000fa 80ff2a02*       465 <EXPANSION END>
+                         466 --99:         rtc_clean_driventime_100ms();
+                         467 --line99
+                         468 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.6::
+                         469 .LDWlin6:
+                         470 	jarl	_rtc_clean_driventime_100ms,lp
+                         470 <EXPANSION BEGIN>
+                         470 jarl22 _rtc_clean_driventime_100ms , lp 
+000000fe 80ffa202*       470 <EXPANSION END>
+                         471 --100: 		rtc_SysTimeProcess_100ms();
+                         472 --line100
+                         473 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.7::
+                         474 .LDWlin7:
+                         475 	jarl	_rtc_SysTimeProcess_100ms,lp
+                         475 <EXPANSION BEGIN>
+                         475 jarl22 _rtc_SysTimeProcess_100ms , lp 
+00000102 80ffb400*       475 <EXPANSION END>
+                         476 --101:         if (RTC_PROCESS_CNT <= rtc_GCounter)
+                         477 --line101
+                         478 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.8::
+                         479 .LDWlin8:
+00000106 9d0f0100        480 	ld.bu	0[r29],r1
+0000010a 6a0a            481 	cmp	10,r1
+0000010c 811d*           482 	bl	.L198
+                         483 --102:         {
+                         484 --103:             rtc_GCounter = 0;                                    /* IPK 系统时间校准*/
+                         485 --line103
+                         486 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.9::
+                         487 .LDWlin9:
+0000010e 5d070000        488 	st.b	zero,0[r29]
+                         489 --104: 			rtc_DrivenTimeProcess_1000ms(E_DRIVEN_TIME1);                                /* 开车时间1 和开车时间2 计算*/\
+00000112 0032            490 	mov	0,r6
+                         491 	jarl	_rtc_DrivenTimeProcess_1000ms,lp
+                         491 <EXPANSION BEGIN>
+                         491 jarl22 _rtc_DrivenTimeProcess_1000ms , lp 
+00000114 80ffd603*       491 <EXPANSION END>
+                         492 --105:             rtc_DrivenTimeProcess_1000ms(E_DRIVEN_TIME2);
+                         493 --line105
+                         494 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.10::
+                         495 .LDWlin10:
+00000118 0132            496 	mov	1,r6
+                         497 	jarl	_rtc_DrivenTimeProcess_1000ms,lp
+                         497 <EXPANSION BEGIN>
+                         497 jarl22 _rtc_DrivenTimeProcess_1000ms , lp 
+0000011a 80ffd003*       497 <EXPANSION END>
+0000011e f50d*           498 	br	.L198
+                         499 .L193:
+                         500 --106:         }
+                         501 --107:         else
+                         502 --108:         {
+                         503 --109:             /* do nothing */
+                         504 --110:         }
+                         505 --111:     }
+                         506 --112:     else
+                         507 --113:     {
+                         508 --114:         rtc_SendNetSignalReq.year    = 0u;
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         509 --line114
+                         510 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.11::
+                         511 .LDWlin11:
+00000120 7d071800        512 	st.h	zero,24[r29]
+                         513 --115:         rtc_SendNetSignalReq.month   = INDEX_RTC_UNKNOWN;
+00000124 5d071a00        514 	st.b	zero,26[r29]
+                         515 --116:         rtc_SendNetSignalReq.day     = 0u;
+00000128 5d071c00        516 	st.b	zero,28[r29]
+                         517 --117:         rtc_SendNetSignalReq.hour    = 0u;
+0000012c 5d071d00        518 	st.b	zero,29[r29]
+                         519 --118:         rtc_SendNetSignalReq.minute  = 0u;
+00000130 5d071e00        520 	st.b	zero,30[r29]
+                         521 --119:         rtc_SendNetSignalReq.sec     = 0u;
+00000134 5d071f00        522 	st.b	zero,31[r29]
+                         523 --120:         rtc_SendNetSignalReq.dispFmt = RTC_DISPLY12_MODE;
+00000138 5d072000        524 	st.b	zero,32[r29]
+                         525 .L198:
+                         526 --121:     }
+                         527 --122:    
+                         528 --123: }
+0000013c 0000            529 	nop
+                         530 --	    .ef
+                         531 .LDW41:
+0000013e 4006ff10        532 	dispose	0,{r27,r28,r29,r31},[lp]
+                         533 	.type	_RTC_Process_100ms,@function
+                         534 	.size	_RTC_Process_100ms,.-_RTC_Process_100ms
+                         535 	.align	2
+                         536 .LDW51:
+                         537 
+                         538 	.data
+                         539 	.text
+                         540 
+                         541 
+                         542 --124: /***************************************************
+                         543 --125: * Function: RTC_SendNetSignal_100ms
+                         544 --126: * Description: feedback time to FICM
+                         545 --127: * Parameters:  none
+                         546 --128: * Returns: none
+                         547 --129: * $Create & Verlog:$
+                         548 --130: * Author:Hejianjun  Date:2016-12-05   Version:V1.0
+                         549 --131: * Author:zxx           Date:2017-06-28   Version:V2.0
+                         550 --132: *$log:                     use RTC_YEAR_OFFSET
+                         551 --133: ****************************************************/
+                         552 --134: void RTC_SendNetSignal_100ms(void)
+                         553 	.align	2
+                         554 	.align	2
+                         555 	.global	_RTC_SendNetSignal_100ms
+                         556 _RTC_SendNetSignal_100ms:
+00000142 8007e100        557 	prepare	{r28,r29,r31},0
+00000146 3d0600000000*   558 	mov	_rtc_SendNetSignalReq,r29
+0000014c 1de0            559 	mov	r29,r28
+                         560 --	    .bf
+                         561 .LDW61:
+                         562 --135: {
+                         563 --136:     v_wr_8(CalendarYear_handle,  rtc_SendNetSignalReq.year);                                 /* need update signal handle*/
+0000014e 9d3f0100        564 	ld.bu	0[r29],r7
+00000152 2606cc253f00    565 	mov	4138444,r6
+                         566 	jarl	_v_wr_8,lp
+                         566 <EXPANSION BEGIN>
+                         566 jarl22 _v_wr_8 , lp 
+00000158 80ff0000*       566 <EXPANSION END>
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         567 --137:     v_wr_8(CalendarMonth_handle, rtc_SendNetSignalReq.month);
+                         568 --line137
+                         569 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.12::
+                         570 .LDWlin12:
+0000015c 9d3f0300        571 	ld.bu	2[r29],r7
+00000160 2606a8253f00    572 	mov	4138408,r6
+                         573 	jarl	_v_wr_8,lp
+                         573 <EXPANSION BEGIN>
+                         573 jarl22 _v_wr_8 , lp 
+00000166 80ff0000*       573 <EXPANSION END>
+                         574 --138:     v_wr_8(CalendarDay_handle, rtc_SendNetSignalReq.day);
+                         575 --line138
+                         576 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.13::
+                         577 .LDWlin13:
+0000016a 9d3f0500        578 	ld.bu	4[r29],r7
+0000016e 260684253f00    579 	mov	4138372,r6
+                         580 	jarl	_v_wr_8,lp
+                         580 <EXPANSION BEGIN>
+                         580 jarl22 _v_wr_8 , lp 
+00000174 80ff0000*       580 <EXPANSION END>
+                         581 --139:     v_wr_8(HourOfDay_handle, rtc_SendNetSignalReq.hour);
+                         582 --line139
+                         583 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.14::
+                         584 .LDWlin14:
+00000178 bd3f0500        585 	ld.bu	5[r29],r7
+0000017c 260698323f00    586 	mov	4141720,r6
+                         587 	jarl	_v_wr_8,lp
+                         587 <EXPANSION BEGIN>
+                         587 jarl22 _v_wr_8 , lp 
+00000182 80ff0000*       587 <EXPANSION END>
+                         588 --140:     v_wr_8(MinuteOfHour_handle, rtc_SendNetSignalReq.minute);
+                         589 --line140
+                         590 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.15::
+                         591 .LDWlin15:
+00000186 9d3f0700        592 	ld.bu	6[r29],r7
+0000018a 260600343f00    593 	mov	4142080,r6
+                         594 	jarl	_v_wr_8,lp
+                         594 <EXPANSION BEGIN>
+                         594 jarl22 _v_wr_8 , lp 
+00000190 80ff0000*       594 <EXPANSION END>
+                         595 --141:     v_wr_8(SecsOfMinute_handle, rtc_SendNetSignalReq.sec);
+                         596 --line141
+                         597 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.16::
+                         598 .LDWlin16:
+00000194 bd3f0700        599 	ld.bu	7[r29],r7
+00000198 2606f8353f00    600 	mov	4142584,r6
+                         601 	jarl	_v_wr_8,lp
+                         601 <EXPANSION BEGIN>
+                         601 jarl22 _v_wr_8 , lp 
+0000019e 80ff0000*       601 <EXPANSION END>
+                         602 --142:     v_wr_8(TimeDspFmt_handle, rtc_SendNetSignalReq.dispFmt);
+                         603 --line142
+                         604 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.17::
+                         605 .LDWlin17:
+000001a2 9d3f0900        606 	ld.bu	8[r29],r7
+000001a6 260618373f00    607 	mov	4142872,r6
+                         608 	jarl	_v_wr_8,lp
+                         608 <EXPANSION BEGIN>
+                         608 jarl22 _v_wr_8 , lp 
+000001ac 80ff0000*       608 <EXPANSION END>
+                         609 --143: }
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         610 --line143
+                         611 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.18::
+                         612 .LDWlin18:
+000001b0 0000            613 	nop
+                         614 --	    .ef
+                         615 .LDW71:
+000001b2 4006ff00        616 	dispose	0,{r28,r29,r31},[lp]
+                         617 	.type	_RTC_SendNetSignal_100ms,@function
+                         618 	.size	_RTC_SendNetSignal_100ms,.-_RTC_SendNetSignal_100ms
+                         619 	.align	2
+                         620 .LDW81:
+                         621 
+                         622 	.data
+                         623 	.text
+                         624 
+                         625 
+                         626 --146: /***************************************************
+                         627 --147: * Function: rtc_SysTimeProcess_100ms
+                         628 --148: * Description: adjust IPK Local time based on the net time from FICM
+                         629 --149: * Parameters:  input: none
+                         630 --150: * Returns: none
+                         631 --151: * $Create & Verlog:$
+                         632 --152: * Author:Hejianjun  Date:2016-12-05   Version:V1.0
+                         633 --153: * Author:zxx           Date:2017-06-28   Version:V2.0
+                         634 --154: *$log:                     use RTC_YEAR_OFFSET
+                         635 --155: ****************************************************/
+                         636 --156: static void  rtc_SysTimeProcess_100ms(void)
+                         637 	.align	2
+                         638 	.align	2
+                         639 	.global	_rtc_SysTimeProcess_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         640 _rtc_SysTimeProcess_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         641 _rtc_SysTimeProcess_100ms:
+000001b6 8a07e170        642 	prepare	{r25,r26,r27,r28,r29,r31},5
+000001ba 3d0600000000*   643 	mov	_rtc_NetAdjTimeReq-1,r29
+000001c0 3dd60400        644 	movea	4,r29,r26
+000001c4 3de60e00        645 	movea	14,r29,r28
+000001c8 3dce0200        646 	movea	2,r29,r25
+                         647 --	    .bf
+                         648 .LDW91:
+                         649 --157: {
+                         650 --158:     RtcaTime_ST val;
+                         651 --159:     BOOL timeupdateflg = FALSE;
+000001cc 00da            652 	mov	0,r27
+                         653 --160:     U16 year = 0;
+000001ce 63070800        654 	st.h	zero,8[sp]
+                         655 --161:     COM_GetSignalValue_BOOL(INDEX_COM_RS_CALENDARADJREQA, &rtc_NetAdjCalendarReq);
+000001d2 1938            656 	mov	r25,r7
+000001d4 20367200        657 	movea	114,zero,r6
+                         658 	jarl	_COM_GetSignalValue_BOOL,lp
+                         658 <EXPANSION BEGIN>
+                         658 jarl22 _COM_GetSignalValue_BOOL , lp 
+000001d8 80ff0000*       658 <EXPANSION END>
+                         659 --162:     COM_GetSignalValue_BOOL(INDEX_COM_RS_TIMEADJREQA, &rtc_NetAdjTimeReq);
+                         660 --line162
+                         661 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.19::
+                         662 .LDWlin19:
+000001dc 270600000000*   663 	mov	_rtc_NetAdjTimeReq,r7
+000001e2 20366d00        664 	movea	109,zero,r6
+                         665 	jarl	_COM_GetSignalValue_BOOL,lp
+                         665 <EXPANSION BEGIN>
+                         665 jarl22 _COM_GetSignalValue_BOOL , lp 
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+000001e6 80ff0000*       665 <EXPANSION END>
+                         666 --163:     COM_GetSignalValue_8(INDEX_COM_RS_TIMEDSPFMTADJ, &rtc_NetTime.dispFmt);
+                         667 --line163
+                         668 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.20::
+                         669 .LDWlin20:
+000001ea 1c3e0800        670 	addi	8,r28,r7
+000001ee 20366e00        671 	movea	110,zero,r6
+                         672 	jarl	_COM_GetSignalValue_8,lp
+                         672 <EXPANSION BEGIN>
+                         672 jarl22 _COM_GetSignalValue_8 , lp 
+000001f2 80ff0000*       672 <EXPANSION END>
+                         673 --164:     COM_GetSignalValue_8(INDEX_COM_RS_CALENDARYEARADJ, &year);
+                         674 --line164
+                         675 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.21::
+                         676 .LDWlin21:
+000001f6 233e0800        677 	movea	8,sp,r7
+000001fa 20367300        678 	movea	115,zero,r6
+                         679 	jarl	_COM_GetSignalValue_8,lp
+                         679 <EXPANSION BEGIN>
+                         679 jarl22 _COM_GetSignalValue_8 , lp 
+000001fe 80ff0000*       679 <EXPANSION END>
+                         680 --165:     COM_GetSignalValue_8(INDEX_COM_RS_CALENDARMONTHADJ, &rtc_NetTime.month);
+                         681 --line165
+                         682 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.22::
+                         683 .LDWlin22:
+00000202 1c3e0200        684 	addi	2,r28,r7
+00000206 20367400        685 	movea	116,zero,r6
+                         686 	jarl	_COM_GetSignalValue_8,lp
+                         686 <EXPANSION BEGIN>
+                         686 jarl22 _COM_GetSignalValue_8 , lp 
+0000020a 80ff0000*       686 <EXPANSION END>
+                         687 --166:     COM_GetSignalValue_8(INDEX_COM_RS_CALENDARDAYADJ, &rtc_NetTime.day);
+                         688 --line166
+                         689 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.23::
+                         690 .LDWlin23:
+0000020e 1c3e0400        691 	addi	4,r28,r7
+00000212 20367500        692 	movea	117,zero,r6
+                         693 	jarl	_COM_GetSignalValue_8,lp
+                         693 <EXPANSION BEGIN>
+                         693 jarl22 _COM_GetSignalValue_8 , lp 
+00000216 80ff0000*       693 <EXPANSION END>
+                         694 --167:     COM_GetSignalValue_8(INDEX_COM_RS_HOUROFDAYADJ, &rtc_NetTime.hour);
+                         695 --line167
+                         696 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.24::
+                         697 .LDWlin24:
+0000021a 1c3e0500        698 	addi	5,r28,r7
+0000021e 20366f00        699 	movea	111,zero,r6
+                         700 	jarl	_COM_GetSignalValue_8,lp
+                         700 <EXPANSION BEGIN>
+                         700 jarl22 _COM_GetSignalValue_8 , lp 
+00000222 80ff0000*       700 <EXPANSION END>
+                         701 --168:     COM_GetSignalValue_8(INDEX_COM_RS_MINUTEOFHOURADJ, &rtc_NetTime.minute);
+                         702 --line168
+                         703 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.25::
+                         704 .LDWlin25:
+00000226 1c3e0600        705 	addi	6,r28,r7
+0000022a 20367000        706 	movea	112,zero,r6
+                         707 	jarl	_COM_GetSignalValue_8,lp
+                         707 <EXPANSION BEGIN>
+                         707 jarl22 _COM_GetSignalValue_8 , lp 
+0000022e 80ff0000*       707 <EXPANSION END>
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         708 --169:     COM_GetSignalValue_8(INDEX_COM_RS_SECSOFMINUTEADJ, &rtc_NetTime.sec);
+                         709 --line169
+                         710 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.26::
+                         711 .LDWlin26:
+00000232 1c3e0700        712 	addi	7,r28,r7
+00000236 20367100        713 	movea	113,zero,r6
+                         714 	jarl	_COM_GetSignalValue_8,lp
+                         714 <EXPANSION BEGIN>
+                         714 jarl22 _COM_GetSignalValue_8 , lp 
+0000023a 80ff0000*       714 <EXPANSION END>
+                         715 --170:     rtc_NetTime.year = year;
+                         716 --line170
+                         717 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.27::
+                         718 .LDWlin27:
+0000023e e30f0900        719 	ld.hu	8[sp],r1
+00000242 7d0f0e00        720 	st.h	r1,14[r29]
+                         721 --171:     
+                         722 --172:     if (RET_OK== RTCA_GetTime(&val))                                            /* IPK 获取自己的系统时间*/
+00000246 23360a00        723 	movea	10,sp,r6
+                         724 	jarl	_RTCA_GetTime,lp
+                         724 <EXPANSION BEGIN>
+                         724 jarl22 _RTCA_GetTime , lp 
+0000024a 80ff0000*       724 <EXPANSION END>
+0000024e 6152            725 	cmp	1,r10
+00000250 ca15*           726 	bne	.L376
+                         727 --173:     {
+                         728 --174:         rtc_LocalTime = val;
+                         729 --line174
+                         730 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.28::
+                         731 .LDWlin28:
+00000252 23f60a00        732 	movea	10,sp,ep
+00000256 7008            733 	sld.hu	0[ep],r1
+00000258 7170            734 	sld.hu	2[ep],r14
+0000025a 7268            735 	sld.hu	4[ep],r13
+0000025c 7360            736 	sld.hu	6[ep],r12
+0000025e 7d0f0400        737 	st.h	r1,4[r29]
+00000262 7408            738 	sld.hu	8[ep],r1
+00000264 7d770600        739 	st.h	r14,6[r29]
+00000268 7d6f0800        740 	st.h	r13,8[r29]
+0000026c 7d670a00        741 	st.h	r12,10[r29]
+00000270 7d0f0c00        742 	st.h	r1,12[r29]
+                         743 --175:         timeupdateflg = TRUE;
+00000274 01da            744 	mov	1,r27
+00000276 a505*           745 	br	.L378
+                         746 .L376:
+                         747 --176:     }
+                         748 --177:     else
+                         749 --178:     {
+                         750 --179:         timeupdateflg = FALSE;
+                         751 --line179
+                         752 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.29::
+                         753 .LDWlin29:
+00000278 00da            754 	mov	0,r27
+                         755 .L378:
+                         756 --180:     }
+                         757 --182:     if (TRUE == insICETypePrm)                                                      /* with FICM Function + */
+0000027a bd0f0300        758 	ld.bu	3[r29],r1
+0000027e 610a            759 	cmp	1,r1
+00000280 ea2d*           760 	bne	.L379
+                         761 --183:     {
+                         762 --184:         if (FALSE != rtc_NetAdjTimeReq)                                              /* time adjust request*/
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         763 --line184
+                         764 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.30::
+                         765 .LDWlin30:
+00000282 bd0f0100        766 	ld.bu	1[r29],r1
+00000286 e009            767 	cmp	zero,r1
+00000288 d215*           768 	be	.L383
+                         769 --185:         {
+                         770 --186:             rtc_LocalTime.hour = rtc_NetTime.hour;                       /* update IPK Local Time based on ICE*/
+                         771 --line186
+                         772 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.31::
+                         773 .LDWlin31:
+0000028a bd0f1300        774 	ld.bu	19[r29],r1
+0000028e 5d0f0900        775 	st.b	r1,9[r29]
+                         776 --187:             rtc_LocalTime.minute = rtc_NetTime.minute;
+00000292 9d0f1500        777 	ld.bu	20[r29],r1
+00000296 5d0f0a00        778 	st.b	r1,10[r29]
+                         779 --188:             rtc_LocalTime.sec = rtc_NetTime.sec;
+0000029a bd0f1500        780 	ld.bu	21[r29],r1
+0000029e 5d0f0b00        781 	st.b	r1,11[r29]
+                         782 --189:             rtc_LocalTime.dispFmt  = rtc_NetTime.dispFmt;
+000002a2 9d0f1700        783 	ld.bu	22[r29],r1
+000002a6 5d0f0c00        784 	st.b	r1,12[r29]
+                         785 --190:             timeupdateflg = TRUE;
+000002aa 01da            786 	mov	1,r27
+                         787 --191:             RTCA_SetTime(&rtc_LocalTime);
+000002ac 1a30            788 	mov	r26,r6
+                         789 	jarl	_RTCA_SetTime,lp
+                         789 <EXPANSION BEGIN>
+                         789 jarl22 _RTCA_SetTime , lp 
+000002ae 80ff0000*       789 <EXPANSION END>
+                         790 .L383:
+                         791 --192:         }
+                         792 --193:         else
+                         793 --194:         {
+                         794 --195:             /* do nothing */
+                         795 --197:         }
+                         796 --198:         if (FALSE != rtc_NetAdjCalendarReq)                                    /* Calendar adjust request*/
+                         797 --line198
+                         798 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.32::
+                         799 .LDWlin32:
+000002b2 9d0f0300        800 	ld.bu	2[r29],r1
+000002b6 e009            801 	cmp	zero,r1
+000002b8 d215*           802 	be	.L387
+                         803 --199:         {
+                         804 --200:             rtc_LocalTime.year = rtc_NetTime.year;                    /* update IPK Calendar based on ICE*/
+                         805 --line200
+                         806 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.33::
+                         807 .LDWlin33:
+000002ba fd0f0f00        808 	ld.hu	14[r29],r1
+000002be 7d0f0400        809 	st.h	r1,4[r29]
+                         810 --201:             rtc_LocalTime.month = rtc_NetTime.month;
+000002c2 9d0f1100        811 	ld.bu	16[r29],r1
+000002c6 5d0f0600        812 	st.b	r1,6[r29]
+                         813 --202:             rtc_LocalTime.day = rtc_NetTime.day;
+000002ca 9d0f1300        814 	ld.bu	18[r29],r1
+000002ce 5d0f0800        815 	st.b	r1,8[r29]
+                         816 --203:             timeupdateflg = TRUE;
+000002d2 01da            817 	mov	1,r27
+                         818 --204:             RTCA_SetTime(&rtc_LocalTime);
+000002d4 1a30            819 	mov	r26,r6
+                         820 	jarl	_RTCA_SetTime,lp
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         820 <EXPANSION BEGIN>
+                         820 jarl22 _RTCA_SetTime , lp 
+000002d6 80ff0000*       820 <EXPANSION END>
+000002da c505*           821 	br	.L387
+                         822 .L379:
+                         823 --205:         }
+                         824 --206:         else
+                         825 --207:         {
+                         826 --208:             /* do nothing */
+                         827 --209:         }
+                         828 --210:     }
+                         829 --212:     else                                                                                                    /* without FICM*/
+                         830 --213:     {
+                         831 --214:         rtc_LocalTime.dispFmt = RTC_DISPLY24_MODE;                /* keep 24 hours mode*/
+                         832 --line214
+                         833 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.34::
+                         834 .LDWlin34:
+000002dc 010a            835 	mov	1,r1
+000002de 5d0f0c00        836 	st.b	r1,12[r29]
+                         837 .L387:
+                         838 --215:     }
+                         839 --217:     if (TRUE == timeupdateflg)
+000002e2 61da            840 	cmp	1,r27
+000002e4 da1d*           841 	bne	.L390
+                         842 --218:     {
+                         843 --220:             rtc_SendNetSignalReq.year = rtc_LocalTime.year;
+                         844 --line220
+                         845 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.35::
+                         846 .LDWlin35:
+000002e6 fd0f0500        847 	ld.hu	4[r29],r1
+000002ea 7d0f1800        848 	st.h	r1,24[r29]
+                         849 --221:             rtc_SendNetSignalReq.month = rtc_LocalTime.month;
+000002ee 9d0f0700        850 	ld.bu	6[r29],r1
+000002f2 5d0f1a00        851 	st.b	r1,26[r29]
+                         852 --222:             rtc_SendNetSignalReq.day = rtc_LocalTime.day;
+000002f6 9d0f0900        853 	ld.bu	8[r29],r1
+000002fa 5d0f1c00        854 	st.b	r1,28[r29]
+                         855 --223:             rtc_SendNetSignalReq.hour = rtc_LocalTime.hour;
+000002fe bd0f0900        856 	ld.bu	9[r29],r1
+00000302 5d0f1d00        857 	st.b	r1,29[r29]
+                         858 --224:             rtc_SendNetSignalReq.minute = rtc_LocalTime.minute;
+00000306 9d0f0b00        859 	ld.bu	10[r29],r1
+0000030a 5d0f1e00        860 	st.b	r1,30[r29]
+                         861 --225:             rtc_SendNetSignalReq.sec = rtc_LocalTime.sec;
+0000030e bd0f0b00        862 	ld.bu	11[r29],r1
+00000312 5d0f1f00        863 	st.b	r1,31[r29]
+                         864 --226:             rtc_SendNetSignalReq.dispFmt = rtc_LocalTime.dispFmt;
+00000316 9d0f0d00        865 	ld.bu	12[r29],r1
+0000031a 5d0f2000        866 	st.b	r1,32[r29]
+                         867 .L390:
+                         868 --228:     }
+                         869 --229: 	else
+                         870 --230: 	{
+                         871 --231: 	}
+                         872 --233: }
+0000031e 0000            873 	nop
+                         874 --	    .ef
+                         875 .LDW02:
+00000320 4a06ff70        876 	dispose	5,{r25,r26,r27,r28,r29,r31},[lp]
+                         877 	.type	_rtc_SysTimeProcess_100ms,@function
+                         878 	.size	_rtc_SysTimeProcess_100ms,.-_rtc_SysTimeProcess_100ms
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         879 	.type	_rtc_SysTimeProcess_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@function
+                         880 	.size	_rtc_SysTimeProcess_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,.-_rtc_SysTimeProcess_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         881 	.align	2
+                         882 .LDW12:
+                         883 --_val	10[sp]	local
+                         884 --_timeupdateflg	r27	local
+                         885 --_year	8[sp]	local
+                         886 
+                         887 	.data
+                         888 	.text
+                         889 
+                         890 
+                         891 --234: /***************************************************
+                         892 --235: * Function: rtc_DrivenTimeProcess_1000ms
+                         893 --236: * Description: add each time quantum to calculate total driving time
+                         894 --237: * Parameters:  input: none
+                         895 --238: * Returns: none
+                         896 --239: * $Create & Verlog:$
+                         897 --240: * Author:Hejianjun  Date:2016-12-05   Version:V1.0
+                         898 --241: ****************************************************/
+                         899 --242: static rtc_EnRunA_Active_Process_100ms(void)
+                         900 	.align	2
+                         901 	.align	2
+                         902 	.global	_rtc_EnRunA_Active_Process_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                         903 _rtc_EnRunA_Active_Process_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                         904 _rtc_EnRunA_Active_Process_100ms:
+00000324 8207e170        905 	prepare	{r25,r26,r27,r28,r29,r31},1
+00000328 390600000000*   906 	mov	_rtc_isTrigger,r25
+0000032e 19eeffff        907 	addi	-1,r25,r29
+00000332 39de0100        908 	movea	1,r25,r27
+00000336 39d60300        909 	movea	3,r25,r26
+                         910 --	    .bf
+                         911 .LDW22:
+                         912 --243: {	
+                         913 --244: 	static BOOL rtc_EnRunA = FALSE;
+                         914 --245: 	BOOL EnRunA;
+                         915 --246: 	static BOOL isTriger = FALSE;
+                         916 --247: 	static U8 timeCnt = 0;
+                         917 --248: 	U8 pwrSts;
+                         918 --249: 	
+                         919 --250: 	EnRunA = ST_GetEngineRuningFlag();
+                         920 	jarl	_ST_GetEngineRuningFlag,lp
+                         920 <EXPANSION BEGIN>
+                         920 jarl22 _ST_GetEngineRuningFlag , lp 
+0000033a 80ff0000*       920 <EXPANSION END>
+0000033e 0ae0            921 	mov	r10,r28
+                         922 --251: 		
+                         923 --252: 	if( EnRunA != rtc_EnRunA)
+                         924 --line252
+                         925 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.36::
+                         926 .LDWlin36:
+00000340 9d0f0300        927 	ld.bu	2[r29],r1
+00000344 e1e1            928 	cmp	r1,r28
+00000346 b20d*           929 	be	.L616
+                         930 --253: 	{
+                         931 --254: 	    if((TRUE == EnRunA) && (FALSE == rtc_EnRunA))
+                         932 --line254
+                         933 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.37::
+                         934 .LDWlin37:
+00000348 61e2            935 	cmp	1,r28
+0000034a fa0d*           936 	bne	.L622
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+0000034c 9d0f0300        937 	ld.bu	2[r29],r1
+00000350 e009            938 	cmp	zero,r1
+00000352 ba0d*           939 	bne	.L622
+                         940 --255:         {
+                         941 --256: 	        isTriger = TRUE;
+                         942 --line256
+                         943 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.38::
+                         944 .LDWlin38:
+00000354 010a            945 	mov	1,r1
+00000356 5d0f0300        946 	st.b	r1,3[r29]
+0000035a f505*           947 	br	.L622
+                         948 .L616:
+                         949 --257:         }
+                         950 --258: 		else
+                         951 --259: 		{
+                         952 --260: 		}
+                         953 --261: 		
+                         954 --262: 	}
+                         955 --263: 	else
+                         956 --264: 	{
+                         957 --265: 	    if(FALSE == EnRunA)
+                         958 --line265
+                         959 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.39::
+                         960 .LDWlin39:
+0000035c e0e1            961 	cmp	zero,r28
+0000035e da05*           962 	bne	.L622
+                         963 --266:         {
+                         964 --267:     		rtc_isTrigger = FALSE;
+                         965 --line267
+                         966 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.40::
+                         967 .LDWlin40:
+00000360 5d070100        968 	st.b	zero,1[r29]
+                         969 --268:     		isTriger = FALSE;
+00000364 5d070300        970 	st.b	zero,3[r29]
+                         971 .L622:
+                         972 --269:         }
+                         973 --270: 		else
+                         974 --271: 		{
+                         975 --272: 		}
+                         976 --273: 	}
+                         977 --274: 		
+                         978 --275: 	if(TRUE == isTriger && FALSE == rtc_isTrigger)
+00000368 bd0f0300        979 	ld.bu	3[r29],r1
+0000036c 610a            980 	cmp	1,r1
+0000036e ca15*           981 	bne	.L626
+00000370 bd0f0100        982 	ld.bu	1[r29],r1
+00000374 e009            983 	cmp	zero,r1
+00000376 8a15*           984 	bne	.L626
+                         985 --276: 	{
+                         986 --277: 		
+                         987 --278: 		if(ENRUNA_ACTIVE_CNT >= timeCnt)
+                         988 --line278
+                         989 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.41::
+                         990 .LDWlin41:
+00000378 9d0f0500        991 	ld.bu	4[r29],r1
+0000037c 6a0a            992 	cmp	10,r1
+0000037e fb05*           993 	bh	.L629
+                         994 --279: 		{
+                         995 --280: 			timeCnt ++;
+                         996 --line280
+                         997 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.42::
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                         998 .LDWlin42:
+00000380 9d0f0500        999 	ld.bu	4[r29],r1
+00000384 410a           1000 	add	1,r1
+00000386 5d0f0400       1001 	st.b	r1,4[r29]
+0000038a e505*          1002 	br	.L626
+                        1003 .L629:
+                        1004 --281: 		}
+                        1005 --282: 		else
+                        1006 --283: 		{
+                        1007 --284: 		
+                        1008 --285: 			timeCnt = 0;
+                        1009 --line285
+                        1010 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.43::
+                        1011 .LDWlin43:
+0000038c 5d070400       1012 	st.b	zero,4[r29]
+                        1013 --286: 			rtc_isTrigger = TRUE;
+00000390 010a           1014 	mov	1,r1
+00000392 5d0f0100       1015 	st.b	r1,1[r29]
+                        1016 .L626:
+                        1017 --287: 		}
+                        1018 --288: 	}
+                        1019 --289: 	
+                        1020 --290: 				
+                        1021 --291: 	rtc_EnRunA = EnRunA;
+00000396 5de70200       1022 	st.b	r28,2[r29]
+                        1023 --292: }
+0000039a 0000           1024 	nop
+                        1025 --	    .ef
+                        1026 .LDW32:
+0000039c 4206ff70       1027 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                        1028 	.type	_rtc_EnRunA_Active_Process_100ms,@function
+                        1029 	.size	_rtc_EnRunA_Active_Process_100ms,.-_rtc_EnRunA_Active_Process_100ms
+                        1030 	.type	_rtc_EnRunA_Active_Process_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@function
+                        1031 	.size	_rtc_EnRunA_Active_Process_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,.-_rtc_EnRunA_Active_Process_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                        1032 	.align	2
+                        1033 .LDW42:
+                        1034 --_rtc_EnRunA	.L716	static
+                        1035 --_isTriger	.L717	static
+                        1036 --_timeCnt	.L718	static
+                        1037 --_EnRunA	r28	local
+                        1038 
+                        1039 	.data
+                        1040 .L716:
+                        1041 	.global	_rtc_EnRunA.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..19
+                        1042 _rtc_EnRunA.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..19:
+                        1043 	.type	_rtc_EnRunA.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..19,@object
+                        1044 	.size	_rtc_EnRunA.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..19,1
+00000002 00             1045 	.byte	0
+                        1046 	.type	.L716,@object
+                        1047 	.size	.L716,1
+                        1048 .L717:
+                        1049 	.global	_isTriger.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..20
+                        1050 _isTriger.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..20:
+                        1051 	.type	_isTriger.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..20,@object
+                        1052 	.size	_isTriger.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..20,1
+00000003 00             1053 	.byte	0
+                        1054 	.type	.L717,@object
+                        1055 	.size	.L717,1
+                        1056 .L718:
+                        1057 	.global	_timeCnt.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..21
+                        1058 _timeCnt.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..21:
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1059 	.type	_timeCnt.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..21,@object
+                        1060 	.size	_timeCnt.rtc_EnRunA_Active_Process_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..21,1
+00000004 00             1061 	.byte	0
+                        1062 	.type	.L718,@object
+                        1063 	.size	.L718,1
+                        1064 	.text
+                        1065 
+                        1066 
+                        1067 --294: /***************************************************
+                        1068 --295: * Function: rtc_clean_driventime_100ms
+                        1069 --296: * Description: clean driven time
+                        1070 --297: * Parameters:  input: none
+                        1071 --298: * Returns: none
+                        1072 --299: * $Create & Verlog:$
+                        1073 --300: * Author:Hejianjun  Date:2016-12-05   Version:V1.0
+                        1074 --301: ****************************************************/
+                        1075 --302: void rtc_clean_driventime_100ms(void)
+                        1076 	.align	2
+                        1077 	.align	2
+                        1078 	.global	_rtc_clean_driventime_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                        1079 _rtc_clean_driventime_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                        1080 _rtc_clean_driventime_100ms:
+000003a0 84076100       1081 	prepare	{r29,r31},2
+000003a4 3d0600000000*  1082 	mov	_rtc_DrivenTime1_offsset,r29
+                        1083 --	    .bf
+                        1084 .LDW52:
+                        1085 --303: {
+                        1086 --304:     BOOL trip1flag;
+                        1087 --305:     BOOL trip2flag;
+                        1088 --306:     
+                        1089 --307:     RSTType_ENUM rstSource;
+                        1090 --308:     if (RET_OK == TRIP_GetTripRstSts(RSTTYPE_TRIP_TRIP1, &trip1flag))
+000003aa 0132           1091 	mov	1,r6
+000003ac 233e0200       1092 	movea	2,sp,r7
+                        1093 	jarl	_TRIP_GetTripRstSts,lp
+                        1093 <EXPANSION BEGIN>
+                        1093 jarl22 _TRIP_GetTripRstSts , lp 
+000003b0 80ff0000*      1093 <EXPANSION END>
+000003b4 6152           1094 	cmp	1,r10
+000003b6 ea0d*          1095 	bne	.L744
+                        1096 --309:     {
+                        1097 --310:         if (TRUE == trip1flag)
+                        1098 --line310
+                        1099 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.44::
+                        1100 .LDWlin44:
+000003b8 830f0300       1101 	ld.bu	2[sp],r1
+000003bc 610a           1102 	cmp	1,r1
+000003be aa0d*          1103 	bne	.L744
+                        1104 --311:         {
+                        1105 --312:             rtc_DrivenTime1= 0;        /* dtiving time1 清零*/
+                        1106 --line312
+                        1107 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.45::
+                        1108 .LDWlin45:
+000003c0 7d070900       1109 	st.w	zero,8[r29]
+                        1110 --313:             rtc_DrivenTimeRes1 = 0;
+000003c4 7d071100       1111 	st.w	zero,16[r29]
+                        1112 --314:             rtc_DrivenTime1_offsset = 0;
+000003c8 2b0600000000*  1113 	mov	_rtc_DrivenTime1_offsset,r11
+000003ce 6b070100       1114 	st.w	zero,0[r11]
+                        1115 .L744:
+                        1116 --315:         }
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1117 --316:         else
+                        1118 --317:         {
+                        1119 --318:         }
+                        1120 --319:     }
+                        1121 --320:     else
+                        1122 --321:     {
+                        1123 --322:         /* do nothing */
+                        1124 --323:     }
+                        1125 --325:      if ((RET_OK == TRIP_GetTripRstSts(RSTTYPE_TRIP_TRIP2, &trip2flag))
+000003d2 0232           1126 	mov	2,r6
+000003d4 233e0300       1127 	movea	3,sp,r7
+                        1128 	jarl	_TRIP_GetTripRstSts,lp
+                        1128 <EXPANSION BEGIN>
+                        1128 jarl22 _TRIP_GetTripRstSts , lp 
+000003d8 80ff0000*      1128 <EXPANSION END>
+000003dc 6152           1129 	cmp	1,r10
+000003de da15*          1130 	bne	.L752
+000003e0 23360400       1131 	movea	4,sp,r6
+                        1132 	jarl	_RST_GetRstSource,lp
+                        1132 <EXPANSION BEGIN>
+                        1132 jarl22 _RST_GetRstSource , lp 
+000003e4 80ff0000*      1132 <EXPANSION END>
+000003e8 6152           1133 	cmp	1,r10
+000003ea fa0d*          1134 	bne	.L752
+                        1135 --326:         && (RET_OK == RST_GetRstSource(&rstSource)))
+                        1136 --327:     {
+                        1137 --328:         if ((TRUE == trip2flag)
+                        1138 --line328
+                        1139 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.46::
+                        1140 .LDWlin46:
+000003ec a30f0300       1141 	ld.bu	3[sp],r1
+000003f0 610a           1142 	cmp	1,r1
+000003f2 d205*          1143 	be	.L749
+000003f4 230f0500       1144 	ld.w	4[sp],r1
+000003f8 610a           1145 	cmp	1,r1
+000003fa fa05*          1146 	bne	.L752
+                        1147 .L749:
+                        1148 --329:             || (TYPE_RST_POC0RES == rstSource))
+                        1149 --330:         {
+                        1150 --331:             rtc_DrivenTime2= 0;        /* dtiving time1 清零*/
+                        1151 --line331
+                        1152 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.47::
+                        1153 .LDWlin47:
+000003fc 7d070d00       1154 	st.w	zero,12[r29]
+                        1155 --332:             rtc_DrivenTimeRes2 = 0;            
+00000400 7d071500       1156 	st.w	zero,20[r29]
+                        1157 --333:             rtc_DrivenTime2_offsset = 0;
+00000404 7d070500       1158 	st.w	zero,4[r29]
+                        1159 .L752:
+                        1160 --334:         }
+                        1161 --335:         else
+                        1162 --336:         {
+                        1163 --337:         }
+                        1164 --338:     }
+                        1165 --339:     else
+                        1166 --340:     {
+                        1167 --341:         /* do nothing */
+                        1168 --342:     }
+                        1169 --345: }
+00000408 0000           1170 	nop
+                        1171 --	    .ef
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1172 .LDW62:
+0000040a 44067f00       1173 	dispose	2,{r29,r31},[lp]
+                        1174 	.type	_rtc_clean_driventime_100ms,@function
+                        1175 	.size	_rtc_clean_driventime_100ms,.-_rtc_clean_driventime_100ms
+                        1176 	.type	_rtc_clean_driventime_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@function
+                        1177 	.size	_rtc_clean_driventime_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,.-_rtc_clean_driventime_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                        1178 	.align	2
+                        1179 .LDW72:
+                        1180 --_trip1flag	2[sp]	local
+                        1181 --_trip2flag	3[sp]	local
+                        1182 --_rstSource	4[sp]	local
+                        1183 
+                        1184 	.data
+                        1185 	.text
+                        1186 
+                        1187 
+                        1188 --346: /***************************************************
+                        1189 --347: * Function: rtc_DriveTimeBeginProcess_1000ms
+                        1190 --348: * Description: add each time quantum to calculate begin driving time
+                        1191 --349: * Parameters:  input: none
+                        1192 --350: * Returns: none
+                        1193 --351: * $Create & Verlog:$
+                        1194 --352: * Author:Hejianjun  Date:2016-12-05   Version:V1.0
+                        1195 --353: ****************************************************/
+                        1196 --354: static BOOL rtc_DriveTimeBeginProcess_1000ms(U32 DriveTime,BOOL* pStartFlg)
+                        1197 	.align	2
+                        1198 	.align	2
+                        1199 	.global	_rtc_DriveTimeBeginProcess_1000ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                        1200 _rtc_DriveTimeBeginProcess_1000ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                        1201 _rtc_DriveTimeBeginProcess_1000ms:
+0000040e 8207e170       1202 	prepare	{r25,r26,r27,r28,r29,r31},1
+00000412 390600000000*  1203 	mov	_rtc_isTrigger,r25
+00000418 06d0           1204 	mov	r6,r26
+0000041a 07e0           1205 	mov	r7,r28
+0000041c 19eeffff       1206 	addi	-1,r25,r29
+                        1207 --	    .bf
+                        1208 .LDW82:
+                        1209 --355: {
+                        1210 --356:     U16 vehispd = 0;
+00000420 63070200       1211 	st.h	zero,2[sp]
+                        1212 --357:     U8 vehispdV = INVALID;
+00000424 010a           1213 	mov	1,r1
+00000426 430f0000       1214 	st.b	r1,0[sp]
+                        1215 --358:     U8 pwrSts;
+                        1216 --359:     U8 res = RET_FAIL;
+0000042a 00da           1217 	mov	0,r27
+                        1218 --360:     
+                        1219 --361:     COM_GetSignalValue_16(INDEX_COM_RS_VEHSPDAVGDRVN, &vehispd);
+0000042c 20361a00       1220 	movea	26,zero,r6
+00000430 233e0200       1221 	movea	2,sp,r7
+                        1222 	jarl	_COM_GetSignalValue_16,lp
+                        1222 <EXPANSION BEGIN>
+                        1222 jarl22 _COM_GetSignalValue_16 , lp 
+00000434 80ff0000*      1222 <EXPANSION END>
+                        1223 --362:     COM_GetSignalValue_8(INDEX_COM_RS_VEHSPDAVGDRVNV, &vehispdV);
+                        1224 --line362
+                        1225 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.48::
+                        1226 .LDWlin48:
+00000438 20361b00       1227 	movea	27,zero,r6
+0000043c 233e0000       1228 	movea	0,sp,r7
+                        1229 	jarl	_COM_GetSignalValue_8,lp
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1229 <EXPANSION BEGIN>
+                        1229 jarl22 _COM_GetSignalValue_8 , lp 
+00000440 80ff0000*      1229 <EXPANSION END>
+                        1230 --363:     res = PWR_GetPwrMode(&pwrSts);
+                        1231 --line363
+                        1232 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.49::
+                        1233 .LDWlin49:
+00000444 23360100       1234 	movea	1,sp,r6
+                        1235 	jarl	_PWR_GetPwrMode,lp
+                        1235 <EXPANSION BEGIN>
+                        1235 jarl22 _PWR_GetPwrMode , lp 
+00000448 80ff0000*      1235 <EXPANSION END>
+0000044c 0ad8           1236 	mov	r10,r27
+                        1237 --364: 	if((PWR_OFF== pwrSts)||(PWR_ACC== pwrSts))
+                        1238 --line364
+                        1239 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.50::
+                        1240 .LDWlin50:
+0000044e a30f0100       1241 	ld.bu	1[sp],r1
+00000452 e009           1242 	cmp	zero,r1
+00000454 d205*          1243 	be	.L834
+00000456 a30f0100       1244 	ld.bu	1[sp],r1
+0000045a 610a           1245 	cmp	1,r1
+0000045c ca05*          1246 	bne	.L833
+                        1247 .L834:
+                        1248 --365: 	{
+                        1249 --366: 		*pStartFlg = FALSE;
+                        1250 --line366
+                        1251 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.51::
+                        1252 .LDWlin51:
+0000045e 5c070000       1253 	st.b	zero,0[r28]
+00000462 9545*          1254 	br	.L836
+                        1255 .L833:
+                        1256 --367: 	}    
+                        1257 --368:     else if ((RET_OK == res) && ((PWR_RUN == pwrSts) || (PWR_CRANK ==pwrSts)))
+                        1258 --line368
+                        1259 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.52::
+                        1260 .LDWlin52:
+00000464 61da           1261 	cmp	1,r27
+00000466 fa3d*          1262 	bne	.L836
+00000468 a30f0100       1263 	ld.bu	1[sp],r1
+0000046c 620a           1264 	cmp	2,r1
+0000046e d205*          1265 	be	.L838
+00000470 a30f0100       1266 	ld.bu	1[sp],r1
+00000474 630a           1267 	cmp	3,r1
+00000476 fa35*          1268 	bne	.L836
+                        1269 .L838:
+                        1270 --369:     {
+                        1271 --370:     	if(0 == DriveTime)
+                        1272 --line370
+                        1273 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.53::
+                        1274 .LDWlin53:
+00000478 e0d1           1275 	cmp	zero,r26
+0000047a 8a15*          1276 	bne	.L841
+                        1277 --371: 		{
+                        1278 --372: 			if ((VALID == vehispdV) &&  (RTC_VEHSPDTHRESHOLD <= vehispd))
+                        1279 --line372
+                        1280 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.54::
+                        1281 .LDWlin54:
+0000047c 830f0100       1282 	ld.bu	0[sp],r1
+00000480 e009           1283 	cmp	zero,r1
+00000482 9a0d*          1284 	bne	.L843
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+00000484 e30f0300       1285 	ld.hu	2[sp],r1
+00000488 650a           1286 	cmp	5,r1
+0000048a d105*          1287 	bl	.L843
+                        1288 --373: 			{
+                        1289 --374: 				*pStartFlg = TRUE;
+                        1290 --line374
+                        1291 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.55::
+                        1292 .LDWlin55:
+0000048c 010a           1293 	mov	1,r1
+0000048e 5c0f0000       1294 	st.b	r1,0[r28]
+00000492 952d*          1295 	br	.L836
+                        1296 .L843:
+                        1297 --375: 			}
+                        1298 --376: 			else
+                        1299 --377: 			{
+                        1300 --378: 				*pStartFlg = FALSE;
+                        1301 --line378
+                        1302 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.56::
+                        1303 .LDWlin56:
+00000494 5c070000       1304 	st.b	zero,0[r28]
+00000498 e525*          1305 	br	.L836
+                        1306 .L841:
+                        1307 --379: 			}
+                        1308 --380: 		}
+                        1309 --381: 		else
+                        1310 --382: 		{
+                        1311 --383: 			if(FALSE == (*pStartFlg))
+                        1312 --line383
+                        1313 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.57::
+                        1314 .LDWlin57:
+0000049a 9c0f0100       1315 	ld.bu	0[r28],r1
+0000049e e009           1316 	cmp	zero,r1
+000004a0 ca0d*          1317 	bne	.L848
+                        1318 --384: 			{
+                        1319 --385: 			    if(TRUE == rtc_isTrigger)
+                        1320 --line385
+                        1321 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.58::
+                        1322 .LDWlin58:
+000004a2 bd0f0100       1323 	ld.bu	1[r29],r1
+000004a6 610a           1324 	cmp	1,r1
+000004a8 da05*          1325 	bne	.L850
+                        1326 --386: 				{
+                        1327 --387: 					*pStartFlg = TRUE;
+                        1328 --line387
+                        1329 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.59::
+                        1330 .LDWlin59:
+000004aa 010a           1331 	mov	1,r1
+000004ac 5c0f0000       1332 	st.b	r1,0[r28]
+000004b0 a51d*          1333 	br	.L836
+                        1334 .L850:
+                        1335 --388: 				}
+                        1336 --389: 				else
+                        1337 --390: 				{
+                        1338 --391: 					*pStartFlg = FALSE;
+                        1339 --line391
+                        1340 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.60::
+                        1341 .LDWlin60:
+000004b2 5c070000       1342 	st.b	zero,0[r28]
+000004b6 f515*          1343 	br	.L836
+                        1344 .L848:
+                        1345 --392: 				}
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1346 --393: 			}
+                        1347 --394: 			else
+                        1348 --395: 			{
+                        1349 --396: 			    if(FALSE == rtc_isTrigger)
+                        1350 --line396
+                        1351 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.61::
+                        1352 .LDWlin61:
+000004b8 bd0f0100       1353 	ld.bu	1[r29],r1
+000004bc e009           1354 	cmp	zero,r1
+000004be 8a15*          1355 	bne	.L854
+                        1356 --397: 		        {
+                        1357 --398: 					if ((VALID == vehispdV) &&  (RTC_VEHSPDTHRESHOLD <= vehispd))
+                        1358 --line398
+                        1359 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.62::
+                        1360 .LDWlin62:
+000004c0 830f0100       1361 	ld.bu	0[sp],r1
+000004c4 e009           1362 	cmp	zero,r1
+000004c6 9a0d*          1363 	bne	.L856
+000004c8 e30f0300       1364 	ld.hu	2[sp],r1
+000004cc 650a           1365 	cmp	5,r1
+000004ce d105*          1366 	bl	.L856
+                        1367 --399: 					{
+                        1368 --400: 						*pStartFlg = TRUE;
+                        1369 --line400
+                        1370 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.63::
+                        1371 .LDWlin63:
+000004d0 010a           1372 	mov	1,r1
+000004d2 5c0f0000       1373 	st.b	r1,0[r28]
+000004d6 f505*          1374 	br	.L836
+                        1375 .L856:
+                        1376 --401: 					}
+                        1377 --402: 					else
+                        1378 --403: 					{
+                        1379 --404: 						*pStartFlg = FALSE;
+                        1380 --line404
+                        1381 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.64::
+                        1382 .LDWlin64:
+000004d8 5c070000       1383 	st.b	zero,0[r28]
+000004dc c505*          1384 	br	.L836
+                        1385 .L854:
+                        1386 --405: 					}
+                        1387 --406: 		        }
+                        1388 --407: 		        else
+                        1389 --408: 		        {
+                        1390 --409: 		            *pStartFlg = TRUE;
+                        1391 --line409
+                        1392 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.65::
+                        1393 .LDWlin65:
+000004de 010a           1394 	mov	1,r1
+000004e0 5c0f0000       1395 	st.b	r1,0[r28]
+                        1396 .L836:
+                        1397 --410: 		        }
+                        1398 --411: 			}				
+                        1399 --412: 		}
+                        1400 --413: 	}
+                        1401 --414: 	else
+                        1402 --415: 	{
+                        1403 --416: 	  /*do nothing */
+                        1404 --417: 	}
+                        1405 --418:     return TRUE;
+000004e4 0152           1406 	mov	1,r10
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1407 --	    .ef
+                        1408 .LDW92:
+000004e6 4206ff70       1409 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                        1410 	.type	_rtc_DriveTimeBeginProcess_1000ms,@function
+                        1411 	.size	_rtc_DriveTimeBeginProcess_1000ms,.-_rtc_DriveTimeBeginProcess_1000ms
+                        1412 	.type	_rtc_DriveTimeBeginProcess_1000ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@function
+                        1413 	.size	_rtc_DriveTimeBeginProcess_1000ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,.-_rtc_DriveTimeBeginProcess_1000ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                        1414 	.align	2
+                        1415 .LDW03:
+                        1416 --_vehispd	2[sp]	local
+                        1417 --_vehispdV	0[sp]	local
+                        1418 --_pwrSts	1[sp]	local
+                        1419 --_res	r27	local
+                        1420 
+                        1421 --_DriveTime	r26	param
+                        1422 --_pStartFlg	r28	param
+                        1423 
+                        1424 	.data
+                        1425 	.text
+                        1426 
+                        1427 --419: }
+                        1428 
+                        1429 --422: /***************************************************
+                        1430 --423: * Function: rtc_DrivenTimeProcess_1000ms
+                        1431 --424: * Description: add each time quantum to calculate total driving time
+                        1432 --425: * Parameters:  input: none
+                        1433 --426: * Returns: none
+                        1434 --427: * $Create & Verlog:$
+                        1435 --428: * Author:Hejianjun  Date:2016-12-05   Version:V1.0
+                        1436 --429: ****************************************************/
+                        1437 --430: static void rtc_DrivenTimeProcess_1000ms(U8 index)
+                        1438 	.align	2
+                        1439 	.align	2
+                        1440 	.global	_rtc_DrivenTimeProcess_1000ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                        1441 _rtc_DrivenTimeProcess_1000ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.:
+                        1442 _rtc_DrivenTimeProcess_1000ms:
+000004ea 8e07e170       1443 	prepare	{r25,r26,r27,r28,r29,r31},7
+000004ee c6d6ff00       1444 	andi	255,r6,r26
+000004f2 3d0600000000*  1445 	mov	_rtc_DrivenTime1_offsset,r29
+                        1446 --	    .bf
+                        1447 .LDW13:
+                        1448 --431: {
+                        1449 --432:     U16 vehispd = 0;
+000004f8 00ca           1450 	mov	0,r25
+                        1451 --433:     U8 vehispdV = INVALID;
+000004fa 015a           1452 	mov	1,r11
+000004fc 435f0200       1453 	st.b	r11,2[sp]
+                        1454 --434:     U32 drivingtimeoffset1 = 0;
+00000500 00e2           1455 	mov	0,r28
+                        1456 --435:     U32 drivingtimeoffset2 = 0;
+00000502 00da           1457 	mov	0,r27
+                        1458 --436:     U32 valtemp;
+                        1459 --437:     static BOOL TimestartFlg1 = FALSE;
+                        1460 --438:     static BOOL TimestartFlg2 = FALSE;
+                        1461 --439:     TRIPKeySts_ST  ketsts;
+                        1462 --440:     BOOL trip1flag;
+                        1463 --441:     BOOL trip2flag;
+                        1464 --442:     RSTType_ENUM poweroff;
+                        1465 --443:     U8 pwrSts;
+                        1466 --444:     U8 res = RET_FAIL;
+00000504 43070300       1467 	st.b	zero,3[sp]
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+00000508 005a           1468 	mov	0,r11
+                        1469 --446: 	switch(index)
+0000050a 61d2           1470 	cmp	1,r26
+0000050c eb072101*      1471 	bh	.L1020
+00000510 994d*          1472 	bnl	.L1029
+                        1473 --447: 	{
+                        1474 --448: 		case E_DRIVEN_TIME1:			
+                        1475 --449: 		 rtc_DriveTimeBeginProcess_1000ms(rtc_DrivenTime1,&TimestartFlg1);
+                        1476 --line449
+                        1477 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.66::
+                        1478 .LDWlin66:
+00000512 3d370900       1479 	ld.w	8[r29],r6
+00000516 270600000000*  1480 	mov	.L1179,r7
+                        1481 	jarl	_rtc_DriveTimeBeginProcess_1000ms,lp
+                        1481 <EXPANSION BEGIN>
+                        1481 jarl22 _rtc_DriveTimeBeginProcess_1000ms , lp 
+0000051c bffff2fe*      1481 <EXPANSION END>
+                        1482 --450: 			if(TRUE == TimestartFlg1)
+                        1483 --line450
+                        1484 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.67::
+                        1485 .LDWlin67:
+00000520 210600000000*  1486 	mov	.L1179,r1
+00000526 810f0100       1487 	ld.bu	0[r1],r1
+0000052a 610a           1488 	cmp	1,r1
+0000052c 8a35*          1489 	bne	.L1023
+                        1490 --451: 			{
+                        1491 --452: 				rtc_DrivTimeEnd1 = R_TICK_GetTimeMS(0);
+                        1492 --line452
+                        1493 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.68::
+                        1494 .LDWlin68:
+0000052e 0032           1495 	mov	0,r6
+                        1496 	jarl	_R_TICK_GetTimeMS,lp
+                        1496 <EXPANSION BEGIN>
+                        1496 jarl22 _R_TICK_GetTimeMS , lp 
+00000530 80ff0000*      1496 <EXPANSION END>
+00000534 7d571d00       1497 	st.w	r10,28[r29]
+                        1498 --453: 				drivingtimeoffset1 = rtc_DrivTimeEnd1 - rtc_DrivTimeStart1;
+                        1499 --line453
+                        1500 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.69::
+                        1501 .LDWlin69:
+00000538 3d771900       1502 	ld.w	24[r29],r14
+0000053c 3d0f1d00       1503 	ld.w	28[r29],r1
+00000540 01e0           1504 	mov	r1,r28
+00000542 aee1           1505 	sub	r14,r28
+                        1506 --454: 				rtc_DrivTimeStart1 = rtc_DrivTimeEnd1;
+00000544 3d0f1d00       1507 	ld.w	28[r29],r1
+00000548 7d0f1900       1508 	st.w	r1,24[r29]
+                        1509 --455: 				rtc_DrivenTimeRes1 += drivingtimeoffset1;
+0000054c 3df61000       1510 	movea	16,r29,ep
+00000550 000d           1511 	sld.w	0[ep],r1
+00000552 dc09           1512 	add	r28,r1
+00000554 010d           1513 	sst.w	r1,0[ep]
+                        1514 --456: 				rtc_DrivenTime1 = rtc_DrivenTime1_offsset +MS_TO_S(rtc_DrivenTimeRes1);
+00000556 3d0f1100       1515 	ld.w	16[r29],r1
+0000055a 2076e803       1516 	movea	1000,zero,r14
+0000055e ee0ffe02       1517 	divqu	r14,r1,zero
+00000562 2e0600000000*  1518 	mov	_rtc_DrivenTime1_offsset,r14
+00000568 2e770100       1519 	ld.w	0[r14],r14
+0000056c ce09           1520 	add	r14,r1
+0000056e 7d0f0900       1521 	st.w	r1,8[r29]
+                        1522 --457: 				if (RTC_DRIVINGTIME_MAX_SEC <= rtc_DrivenTime1)
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+00000572 3d770900       1523 	ld.w	8[r29],r14
+00000576 2106047e0500   1524 	mov	359940,r1
+0000057c e171           1525 	cmp	r1,r14
+0000057e 9115*          1526 	bl	.L1028
+                        1527 --458: 				{
+                        1528 --459: 					rtc_DrivenTime1 = RTC_DRIVINGTIME_MAX_SEC;
+                        1529 --line459
+                        1530 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.70::
+                        1531 .LDWlin70:
+00000580 2106047e0500   1532 	mov	359940,r1
+00000586 7d0f0900       1533 	st.w	r1,8[r29]
+0000058a b50d*          1534 	br	.L1028
+                        1535 .L1023:
+                        1536 --460: 				}
+                        1537 --461: 				else
+                        1538 --462: 				{
+                        1539 --463: 				}
+                        1540 --464: 			}
+                        1541 --465: 			else
+                        1542 --466: 			{
+                        1543 --467: 				rtc_DrivTimeEnd1 = R_TICK_GetTimeMS(0);
+                        1544 --line467
+                        1545 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.71::
+                        1546 .LDWlin71:
+0000058c 0032           1547 	mov	0,r6
+                        1548 	jarl	_R_TICK_GetTimeMS,lp
+                        1548 <EXPANSION BEGIN>
+                        1548 jarl22 _R_TICK_GetTimeMS , lp 
+0000058e 80ff0000*      1548 <EXPANSION END>
+00000592 7d571d00       1549 	st.w	r10,28[r29]
+                        1550 --468: 				rtc_DrivTimeStart1 = R_TICK_GetTimeMS(0);
+                        1551 --line468
+                        1552 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.72::
+                        1553 .LDWlin72:
+00000596 0032           1554 	mov	0,r6
+                        1555 	jarl	_R_TICK_GetTimeMS,lp
+                        1555 <EXPANSION BEGIN>
+                        1555 jarl22 _R_TICK_GetTimeMS , lp 
+00000598 80ff0000*      1555 <EXPANSION END>
+0000059c 7d571900       1556 	st.w	r10,24[r29]
+                        1557 .L1028:
+                        1558 --line470
+                        1559 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.73::
+                        1560 .LDWlin73:
+000005a0 e545*          1561 	br	.L1020
+                        1562 .L1029:
+                        1563 --469: 			}
+                        1564 --470: 			break;
+                        1565 --471: 		case E_DRIVEN_TIME2:
+                        1566 --472: 		    rtc_DriveTimeBeginProcess_1000ms(rtc_DrivenTime2,&TimestartFlg2);
+                        1567 --line472
+                        1568 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.74::
+                        1569 .LDWlin74:
+000005a2 3d370d00       1570 	ld.w	12[r29],r6
+000005a6 270600000000*  1571 	mov	.L1180,r7
+                        1572 	jarl	_rtc_DriveTimeBeginProcess_1000ms,lp
+                        1572 <EXPANSION BEGIN>
+                        1572 jarl22 _rtc_DriveTimeBeginProcess_1000ms , lp 
+000005ac bfff62fe*      1572 <EXPANSION END>
+                        1573 --473: 			if(TRUE == TimestartFlg2)
+                        1574 --line473
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1575 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.75::
+                        1576 .LDWlin75:
+000005b0 210600000000*  1577 	mov	.L1180,r1
+000005b6 810f0100       1578 	ld.bu	0[r1],r1
+000005ba 610a           1579 	cmp	1,r1
+000005bc da2d*          1580 	bne	.L1030
+                        1581 --474: 			{
+                        1582 --475: 				rtc_DrivTimeEnd2 = R_TICK_GetTimeMS(0);
+                        1583 --line475
+                        1584 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.76::
+                        1585 .LDWlin76:
+000005be 0032           1586 	mov	0,r6
+                        1587 	jarl	_R_TICK_GetTimeMS,lp
+                        1587 <EXPANSION BEGIN>
+                        1587 jarl22 _R_TICK_GetTimeMS , lp 
+000005c0 80ff0000*      1587 <EXPANSION END>
+000005c4 7d572500       1588 	st.w	r10,36[r29]
+                        1589 --476: 				drivingtimeoffset2 = rtc_DrivTimeEnd2 - rtc_DrivTimeStart2;
+                        1590 --line476
+                        1591 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.77::
+                        1592 .LDWlin77:
+000005c8 3d772100       1593 	ld.w	32[r29],r14
+000005cc 3d0f2500       1594 	ld.w	36[r29],r1
+000005d0 01d8           1595 	mov	r1,r27
+000005d2 aed9           1596 	sub	r14,r27
+                        1597 --477: 				rtc_DrivTimeStart2 = rtc_DrivTimeEnd2;
+000005d4 3d0f2500       1598 	ld.w	36[r29],r1
+000005d8 7d0f2100       1599 	st.w	r1,32[r29]
+                        1600 --478: 				rtc_DrivenTimeRes2 += drivingtimeoffset2;
+000005dc 3df61400       1601 	movea	20,r29,ep
+000005e0 000d           1602 	sld.w	0[ep],r1
+000005e2 db09           1603 	add	r27,r1
+000005e4 010d           1604 	sst.w	r1,0[ep]
+                        1605 --479: 				rtc_DrivenTime2 = rtc_DrivenTime2_offsset + MS_TO_S(rtc_DrivenTimeRes2);
+000005e6 3d0f1500       1606 	ld.w	20[r29],r1
+000005ea 2076e803       1607 	movea	1000,zero,r14
+000005ee ee0ffe02       1608 	divqu	r14,r1,zero
+000005f2 3d770500       1609 	ld.w	4[r29],r14
+000005f6 ce09           1610 	add	r14,r1
+000005f8 7d0f0d00       1611 	st.w	r1,12[r29]
+                        1612 --480: 				if (RTC_DRIVINGTIME_MAX_SEC <= rtc_DrivenTime2)
+000005fc 3d770d00       1613 	ld.w	12[r29],r14
+00000600 2106047e0500   1614 	mov	359940,r1
+00000606 e171           1615 	cmp	r1,r14
+00000608 9115*          1616 	bl	.L1035
+                        1617 --481: 				{
+                        1618 --482: 					rtc_DrivenTime2 = RTC_DRIVINGTIME_MAX_SEC;
+                        1619 --line482
+                        1620 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.78::
+                        1621 .LDWlin78:
+0000060a 2106047e0500   1622 	mov	359940,r1
+00000610 7d0f0d00       1623 	st.w	r1,12[r29]
+00000614 b50d*          1624 	br	.L1035
+                        1625 .L1030:
+                        1626 --483: 				}
+                        1627 --484: 				else
+                        1628 --485: 				{
+                        1629 --486: 				}
+                        1630 --487: 			}
+                        1631 --488: 			else
+                        1632 --489: 			{
+
+                                                                      Page 30
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1633 --490: 				rtc_DrivTimeEnd2 = R_TICK_GetTimeMS(0);
+                        1634 --line490
+                        1635 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.79::
+                        1636 .LDWlin79:
+00000616 0032           1637 	mov	0,r6
+                        1638 	jarl	_R_TICK_GetTimeMS,lp
+                        1638 <EXPANSION BEGIN>
+                        1638 jarl22 _R_TICK_GetTimeMS , lp 
+00000618 80ff0000*      1638 <EXPANSION END>
+0000061c 7d572500       1639 	st.w	r10,36[r29]
+                        1640 --491: 				rtc_DrivTimeStart2 = R_TICK_GetTimeMS(0);
+                        1641 --line491
+                        1642 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.80::
+                        1643 .LDWlin80:
+00000620 0032           1644 	mov	0,r6
+                        1645 	jarl	_R_TICK_GetTimeMS,lp
+                        1645 <EXPANSION BEGIN>
+                        1645 jarl22 _R_TICK_GetTimeMS , lp 
+00000622 80ff0000*      1645 <EXPANSION END>
+00000626 7d572100       1646 	st.w	r10,32[r29]
+                        1647 .L1035:
+                        1648 --line494
+                        1649 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.81::
+                        1650 .LDWlin81:
+0000062a 0000           1651 	nop
+                        1652 .L1020:
+                        1653 --492: 			}
+                        1654 --493: 			
+                        1655 --494: 			break;
+                        1656 --495: 	}
+                        1657 --497: }
+0000062c 0000           1658 	nop
+                        1659 --	    .ef
+                        1660 .LDW23:
+0000062e 4e06ff70       1661 	dispose	7,{r25,r26,r27,r28,r29,r31},[lp]
+                        1662 	.type	_rtc_DrivenTimeProcess_1000ms,@function
+                        1663 	.size	_rtc_DrivenTimeProcess_1000ms,.-_rtc_DrivenTimeProcess_1000ms
+                        1664 	.type	_rtc_DrivenTimeProcess_1000ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,@function
+                        1665 	.size	_rtc_DrivenTimeProcess_1000ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.,.-_rtc_DrivenTimeProcess_1000ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.
+                        1666 	.align	2
+                        1667 .LDW33:
+                        1668 --_TimestartFlg1	.L1179	static
+                        1669 --_TimestartFlg2	.L1180	static
+                        1670 --_vehispd	r25	local
+                        1671 --_vehispdV	2[sp]	local
+                        1672 --_drivingtimeoffset1	r28	local
+                        1673 --_drivingtimeoffset2	r27	local
+                        1674 --_res	3[sp]	local
+                        1675 
+                        1676 --_index	r26	param
+                        1677 
+                        1678 	.data
+                        1679 .L1179:
+                        1680 	.global	_TimestartFlg1.rtc_DrivenTimeProcess_1000ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..22
+                        1681 _TimestartFlg1.rtc_DrivenTimeProcess_1000ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..22:
+                        1682 	.type	_TimestartFlg1.rtc_DrivenTimeProcess_1000ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..22,@object
+                        1683 	.size	_TimestartFlg1.rtc_DrivenTimeProcess_1000ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..22,1
+00000005 00             1684 	.byte	0
+                        1685 	.type	.L1179,@object
+                        1686 	.size	.L1179,1
+                        1687 .L1180:
+
+                                                                      Page 31
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1688 	.global	_TimestartFlg2.rtc_DrivenTimeProcess_1000ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..23
+                        1689 _TimestartFlg2.rtc_DrivenTimeProcess_1000ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..23:
+                        1690 	.type	_TimestartFlg2.rtc_DrivenTimeProcess_1000ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..23,@object
+                        1691 	.size	_TimestartFlg2.rtc_DrivenTimeProcess_1000ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc..23,1
+00000006 00             1692 	.byte	0
+                        1693 	.type	.L1180,@object
+                        1694 	.size	.L1180,1
+                        1695 	.text
+                        1696 
+                        1697 
+                        1698 --500: /***************************************************
+                        1699 --501: * Function:  RTC_GetInitStatus
+                        1700 --502: * Description: get the RTC module initialized status
+                        1701 --503: * Parameters: none
+                        1702 --504: * Returns: TRUE or FALSE
+                        1703 --505: * $Create & Verlog:$
+                        1704 --506: * Author:Hejianjun  Date:2016-12-05   Version:V1.0
+                        1705 --507: ****************************************************/
+                        1706 --508: BOOL RTC_GetInitStatus(void)
+                        1707 	.align	2
+                        1708 	.align	2
+                        1709 	.global	_RTC_GetInitStatus
+                        1710 _RTC_GetInitStatus:
+00000632 210600000000*  1711 	mov	_rtc_InitSts,r1
+                        1712 --	    .bf
+                        1713 .LDW43:
+                        1714 --509: {
+                        1715 --510:     return rtc_InitSts;
+00000638 2a0600000000*  1716 	mov	_rtc_InitSts,r10
+0000063e 8a570100       1717 	ld.bu	0[r10],r10
+                        1718 --	    .ef
+                        1719 .LDW53:
+00000642 7f00           1720 	jmp	[lp]
+                        1721 	.type	_RTC_GetInitStatus,@function
+                        1722 	.size	_RTC_GetInitStatus,.-_RTC_GetInitStatus
+                        1723 	.align	2
+                        1724 .LDW63:
+                        1725 
+                        1726 	.data
+                        1727 	.text
+                        1728 
+                        1729 --511: }
+                        1730 
+                        1731 --513: /***************************************************
+                        1732 --514: * Function:  RTC_GetCurTime
+                        1733 --515: * Description: get the current system time from IPK
+                        1734 --516: * Parameters: none
+                        1735 --517: * Returns: TRUE or FALSE
+                        1736 --518: * $Create & Verlog:$
+                        1737 --519: * Author:Hejianjun  Date:2016-12-05   Version:V1.0
+                        1738 --520: ****************************************************/
+                        1739 --521: U8 RTC_GetCurTime(PTime_ST *time)
+                        1740 	.align	2
+                        1741 	.align	2
+                        1742 	.global	_RTC_GetCurTime
+                        1743 _RTC_GetCurTime:
+00000644 210600000000*  1744 	mov	_rtc_LocalTime,r1
+0000064a 06f0           1745 	mov	r6,ep
+0000064c 0168           1746 	mov	r1,r13
+                        1747 --	    .bf
+                        1748 .LDW73:
+
+                                                                      Page 32
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1749 --522: {
+                        1750 --523:     U8 res = RET_FAIL;
+0000064e 0072           1751 	mov	0,r14
+                        1752 --524:     RtcaTime_ST temp;
+                        1753 --526:     if (FALSE == rtc_InitSts)
+00000650 2c0600000000*  1754 	mov	_rtc_InitSts,r12
+00000656 8c670100       1755 	ld.bu	0[r12],r12
+0000065a e061           1756 	cmp	zero,r12
+0000065c ba05*          1757 	bne	.L1237
+                        1758 --527:     {
+                        1759 --528:         res =  RET_FAIL;
+                        1760 --line528
+                        1761 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.82::
+                        1762 .LDWlin82:
+0000065e 0072           1763 	mov	0,r14
+00000660 b51d*          1764 	br	.L1239
+                        1765 .L1237:
+                        1766 --529:     }
+                        1767 --530:     else if (NULL_PTR == time)
+                        1768 --line530
+                        1769 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.83::
+                        1770 .LDWlin83:
+00000662 e0f1           1771 	cmp	zero,ep
+00000664 ba05*          1772 	bne	.L1240
+                        1773 --531:     {
+                        1774 --532:         res =  RET_INVALID;
+                        1775 --line532
+                        1776 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.84::
+                        1777 .LDWlin84:
+00000666 0272           1778 	mov	2,r14
+00000668 f515*          1779 	br	.L1239
+                        1780 .L1240:
+                        1781 --533:     }
+                        1782 --534:     else
+                        1783 --535:     {
+                        1784 --536:         time->year = rtc_LocalTime.year;
+                        1785 --line536
+                        1786 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.85::
+                        1787 .LDWlin85:
+0000066a e1670100       1788 	ld.hu	0[r1],r12
+0000066e 8064           1789 	sst.h	r12,0[ep]
+                        1790 --537:         time->month = rtc_LocalTime.month;
+00000670 81670300       1791 	ld.bu	2[r1],r12
+00000674 8263           1792 	sst.b	r12,2[ep]
+                        1793 --538:         time->day = rtc_LocalTime.day;
+00000676 81670500       1794 	ld.bu	4[r1],r12
+0000067a 8463           1795 	sst.b	r12,4[ep]
+                        1796 --539:         time->hour = rtc_LocalTime.hour;
+0000067c a1670500       1797 	ld.bu	5[r1],r12
+00000680 8563           1798 	sst.b	r12,5[ep]
+                        1799 --540:         time->minute = rtc_LocalTime.minute;
+00000682 81670700       1800 	ld.bu	6[r1],r12
+00000686 8663           1801 	sst.b	r12,6[ep]
+                        1802 --541:         time->sec = rtc_LocalTime.sec;
+00000688 a1670700       1803 	ld.bu	7[r1],r12
+0000068c 8763           1804 	sst.b	r12,7[ep]
+                        1805 --542:         time->dispFmt = rtc_LocalTime.dispFmt;
+0000068e 81670900       1806 	ld.bu	8[r1],r12
+00000692 8863           1807 	sst.b	r12,8[ep]
+                        1808 --543: 		res =  RET_OK;
+00000694 0172           1809 	mov	1,r14
+
+                                                                      Page 33
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1810 .L1239:
+                        1811 --545:     }
+                        1812 --546:     return res;
+00000696 0e50           1813 	mov	r14,r10
+                        1814 --	    .ef
+                        1815 .LDW83:
+00000698 7f00           1816 	jmp	[lp]
+                        1817 	.type	_RTC_GetCurTime,@function
+                        1818 	.size	_RTC_GetCurTime,.-_RTC_GetCurTime
+                        1819 	.align	2
+                        1820 .LDW93:
+                        1821 --_res	r14	local
+                        1822 
+                        1823 --_time	ep	param
+                        1824 
+                        1825 	.data
+                        1826 	.text
+                        1827 
+                        1828 --547: }
+                        1829 
+                        1830 --549: /***************************************************
+                        1831 --550: * Function:  RTC_GetDrivenTime
+                        1832 --551: * Description: get the driving time include driving time1 and driving time2
+                        1833 --552: * Parameters: input: index  driving time1 or driving time2
+                        1834 --553: *                   output:  value of driving time
+                        1835 --554: * Returns: TRUE or FALSE
+                        1836 --555: * $Create & Verlog:$
+                        1837 --556: * Author:Hejianjun  Date:2016-12-05   Version:V1.0
+                        1838 --557: ****************************************************/
+                        1839 --558: U8 RTC_GetDrivenTime(U8 Index, PU32 time)
+                        1840 	.align	2
+                        1841 	.align	2
+                        1842 	.global	_RTC_GetDrivenTime
+                        1843 _RTC_GetDrivenTime:
+0000069a c66eff00       1844 	andi	255,r6,r13
+0000069e 07f0           1845 	mov	r7,ep
+000006a0 210600000000*  1846 	mov	_rtc_DrivenTime1,r1
+                        1847 --	    .bf
+                        1848 .LDW04:
+                        1849 --559: {
+                        1850 --560:     U8 res = RET_FAIL;
+000006a6 0072           1851 	mov	0,r14
+                        1852 --562:     if (FALSE == rtc_InitSts)
+000006a8 2c0600000000*  1853 	mov	_rtc_InitSts,r12
+000006ae 8c670100       1854 	ld.bu	0[r12],r12
+000006b2 e061           1855 	cmp	zero,r12
+000006b4 ba05*          1856 	bne	.L1334
+                        1857 --563:     {
+                        1858 --564:         res = RET_FAIL;
+                        1859 --line564
+                        1860 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.86::
+                        1861 .LDWlin86:
+000006b6 0072           1862 	mov	0,r14
+000006b8 d515*          1863 	br	.L1336
+                        1864 .L1334:
+                        1865 --565:     }
+                        1866 --566:     else if ((NULL_PTR == time) || (E_DRIVEN_TIMEALL <= Index))
+                        1867 --line566
+                        1868 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.87::
+                        1869 .LDWlin87:
+000006ba e0f1           1870 	cmp	zero,ep
+
+                                                                      Page 34
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+000006bc b205*          1871 	be	.L1338
+000006be 626a           1872 	cmp	2,r13
+000006c0 b105*          1873 	bl	.L1337
+                        1874 .L1338:
+                        1875 --567:     {
+                        1876 --568:         res = RET_INVALID;
+                        1877 --line568
+                        1878 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.88::
+                        1879 .LDWlin88:
+000006c2 0272           1880 	mov	2,r14
+000006c4 f50d*          1881 	br	.L1336
+                        1882 .L1337:
+                        1883 --569:     }
+                        1884 --570:     else
+                        1885 --571:     {
+                        1886 --572:         if (E_DRIVEN_TIME1 == Index)
+                        1887 --line572
+                        1888 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.89::
+                        1889 .LDWlin89:
+000006c6 e069           1890 	cmp	zero,r13
+000006c8 9a0d*          1891 	bne	.L1341
+                        1892 --573:         {
+                        1893 --574:             *time = rtc_DrivenTime1;
+                        1894 --line574
+                        1895 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.90::
+                        1896 .LDWlin90:
+000006ca 210600000000*  1897 	mov	_rtc_DrivenTime1,r1
+000006d0 210f0100       1898 	ld.w	0[r1],r1
+000006d4 010d           1899 	sst.w	r1,0[ep]
+                        1900 --575:             res = RET_OK;
+000006d6 0172           1901 	mov	1,r14
+000006d8 d505*          1902 	br	.L1336
+                        1903 .L1341:
+                        1904 --576:         }
+                        1905 --577:         else
+                        1906 --578:         {
+                        1907 --579:             *time = rtc_DrivenTime2;
+                        1908 --line579
+                        1909 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc.91::
+                        1910 .LDWlin91:
+000006da 210f0500       1911 	ld.w	4[r1],r1
+000006de 010d           1912 	sst.w	r1,0[ep]
+                        1913 --580:             res = RET_OK;
+000006e0 0172           1914 	mov	1,r14
+                        1915 .L1336:
+                        1916 --581:         }
+                        1917 --582:     }
+                        1918 --583:     return res;
+000006e2 0e50           1919 	mov	r14,r10
+                        1920 --	    .ef
+                        1921 .LDW14:
+000006e4 7f00           1922 	jmp	[lp]
+                        1923 	.type	_RTC_GetDrivenTime,@function
+                        1924 	.size	_RTC_GetDrivenTime,.-_RTC_GetDrivenTime
+                        1925 	.align	2
+                        1926 .LDW24:
+                        1927 --_res	r14	local
+                        1928 
+                        1929 --_Index	r13	param
+                        1930 --_time	ep	param
+                        1931 
+
+                                                                      Page 35
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000080s1.si
+                        1932 	.data
+                        1933 	.text
+                        1934 
+                        1935 --584: }/* end of if*/
+                        1936 	.align	2
+                        1937 --_rtc_InitSts	_rtc_InitSts	static
+                        1938 --_rtc_GCounter	_rtc_GCounter	static
+                        1939 --_rtc_LocalTime	_rtc_LocalTime	static
+                        1940 --_rtc_NetTime	_rtc_NetTime	static
+                        1941 --_rtc_isTrigger	_rtc_isTrigger	static
+                        1942 --_rtc_DrivenTime1_offsset	_rtc_DrivenTime1_offsset	static
+                        1943 --_rtc_DrivenTime2_offsset	_rtc_DrivenTime2_offsset	static
+                        1944 --_rtc_DrivenTime1	_rtc_DrivenTime1	static
+                        1945 --_rtc_DrivenTime2	_rtc_DrivenTime2	static
+                        1946 --_rtc_DrivenTimeRes1	_rtc_DrivenTimeRes1	static
+                        1947 --_rtc_DrivenTimeRes2	_rtc_DrivenTimeRes2	static
+                        1948 --_rtc_NetAdjTimeReq	_rtc_NetAdjTimeReq	static
+                        1949 --_rtc_NetAdjCalendarReq	_rtc_NetAdjCalendarReq	static
+                        1950 --_insICETypePrm	_insICETypePrm	static
+                        1951 --_rtc_DrivTimeStart1	_rtc_DrivTimeStart1	static
+                        1952 --_rtc_DrivTimeEnd1	_rtc_DrivTimeEnd1	static
+                        1953 --_rtc_DrivTimeStart2	_rtc_DrivTimeStart2	static
+                        1954 --_rtc_DrivTimeEnd2	_rtc_DrivTimeEnd2	static
+                        1955 --_rtc_SendNetSignalReq	_rtc_SendNetSignalReq	static
+                        1956 
+                        1957 	.data
+                        1958 	.ghsnote version,14
+                        1959 	.ghsnote tools,3
+                        1960 	.ghsnote options,144
+                        1961 	.text
+                        1962 	.align	2
+                        1963 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crtc...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036C..0::
+                        1964 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

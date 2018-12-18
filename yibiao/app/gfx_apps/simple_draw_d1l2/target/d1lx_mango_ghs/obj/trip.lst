@@ -1,0 +1,1812 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\trip.dbo -source=trip.c -o .\obj\gh_00008oo1.o -list=.\obj\trip.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+Source File: trip.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\TRIP\trip.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                         112 --		-o .\obj\trip.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\TRIP\trip.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:30 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : trip.c
+                         128 --5: * Description : TRIP module applayer
+                         129 --6: * Author: Xiaojie.Zheng
+                         130 --7: * Date: 2016-12-02
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "trip_info.inc"
+                         134 --13: static BOOL trip_InitSts = FALSE;                           /*TRIP模块的初始化状态*/
+                         135 --14: static BOOL trip_RstFlag1 = FALSE;                       /*TRIP1复位标志*/
+                         136 --15: static BOOL trip_RstFlag2 = FALSE;                       /*TRIP2复位标志*/
+                         137 --16: static BOOL trip_KeyPressFlag = FALSE;               /*TRIP行车电脑按键是否有按键按下的标志*/
+                         138 --17: static U16 trip_ADCValue = 0;                                 /*当前的AD值*/
+                         139 --18: static U16 trip_ADCValueTemp = 0;                       /*保存前一次的AD值*/
+                         140 --19: static U32 trip_CntLongPress = 0;                          /*按键长按计数*/
+                         141 --20: static U32 trip_TimeCnt1 = 0;                                 /*规定按键长按次数*/
+                         142 --21: static U8 trip_Trip1RstTime = 0;                           /*trip1复位时间*/
+                         143 --22: static U32 trip_CRstCounter = 0;                           /*清除复位计数*/
+                         144 --23: static BOOL trip_ClearRstFlag = FALSE;               /*判断是否清除TRIP1复位标志*/
+                         145 --24: static TRIPKeySts_ST trip_KeyStatus;                    /*按键状态结构体变量*/
+                         146 --25: static U32 tickStart = 0;                                          /*存储trip1复位判断的开始时间*/
+                         147 --26: static U32 tickEnd = 0;                                            /*存储trip1复位判断的结束时间*/
+                         148 --27: static U8 insPresstime1Prm;                                  /*按键长按时间*/
+                         149 --28: static U8 insTripResetTimeoutPrm;		   /*trip1复位时间*/
+                         150 --29: static BOOL insTrip1UserEnPrm;
+                         151 --31: static RtcaTime_ST trip_start_sysTime;
+                         152 --32: static RtcaTime_ST trip_end_sysTime;
+                         153 --34: /***************************************************
+                         154 --35: * Function: TRIP_Init
+                         155 --36: * Description: TRIP drive computer button initialization
+                         156 --37: * Parameters: none
+                         157 --38: * Returns: none
+                         158 --39: * $Create & Verlog:$
+                         159 --40: * Author: Xiaojie.Zheng   Date:2016-12-02   Version:V1.0
+                         160 --41: * Author: huangyifan       Date:2017-06-28   Version:V2.0
+                         161 --42: *$ log :use diag_getxx
+                         162 --43: *$log:insTripResetTimeoutPrm plus 10;due to part4
+                         163 --44: ****************************************************/
+                         164 --45: void TRIP_Init(void)
+                         165 	.text
+                         166 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036A..0::
+                         167 	.align	2
+                         168 	.global	_TRIP_Init
+                         169 _TRIP_Init:
+00000000 8407e170        170 	prepare	{r25,r26,r27,r28,r29,r31},2
+00000004 3d0600000000*   171 	mov	.L72,r29
+0000000a 3c0600000000*   172 	mov	_trip_start_sysTime,r28
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+00000010 3b0600000000*   173 	mov	_insTripResetTimeoutPrm,r27
+00000016 3a0600000000*   174 	mov	_insPresstime1Prm,r26
+0000001c 390600000000*   175 	mov	_trip_KeyStatus,r25
+                         176 --	    .bf
+                         177 .LDW01:
+                         178 --46: {
+                         179 --47:     U8 res  = RET_FAIL;
+00000022 43070300        180 	st.b	zero,3[sp]
+00000026 005a            181 	mov	0,r11
+                         182 --49:     trip_CntLongPress = 0;
+00000028 7d070100        183 	st.w	zero,0[r29]
+                         184 --50:     trip_ADCValue = 0;
+0000002c 7d071400        185 	st.h	zero,20[r29]
+                         186 --51:     trip_ADCValueTemp = 0;
+00000030 7d071600        187 	st.h	zero,22[r29]
+                         188 --52:     trip_CRstCounter = 0;
+00000034 7d070900        189 	st.w	zero,8[r29]
+                         190 --53:     trip_InitSts = FALSE;
+00000038 5d071800        191 	st.b	zero,24[r29]
+                         192 --54:     trip_RstFlag1 = FALSE;
+0000003c 5d071900        193 	st.b	zero,25[r29]
+                         194 --55:     trip_RstFlag2 = FALSE;
+00000040 5d071a00        195 	st.b	zero,26[r29]
+                         196 --56:     trip_KeyPressFlag = FALSE;
+00000044 5d071b00        197 	st.b	zero,27[r29]
+                         198 --57:     trip_ClearRstFlag = FALSE;
+00000048 5d071d00        199 	st.b	zero,29[r29]
+                         200 --58:     trip_KeyStatus.type = TYPE_TRIP_NULL;
+0000004c 79070100        201 	st.w	zero,0[r25]
+                         202 --59:     trip_KeyStatus.status = STATUS_TRIP_PRESS_NO;
+00000050 79070500        203 	st.w	zero,4[r25]
+                         204 --60:     tickStart = 0;
+00000054 7d070d00        205 	st.w	zero,12[r29]
+                         206 --61:     tickEnd = 0;
+00000058 7d071100        207 	st.w	zero,16[r29]
+                         208 --62:     insPresstime1Prm = DIAG_GetPresstime1();
+                         209 	jarl	_DIAG_GetPresstime1,lp
+                         209 <EXPANSION BEGIN>
+                         209 jarl22 _DIAG_GetPresstime1 , lp 
+0000005c 80ff0000*       209 <EXPANSION END>
+00000060 5a570000        210 	st.b	r10,0[r26]
+                         211 --63:     insTripResetTimeoutPrm = DIAG_GetTripResetTimeout();
+                         212 --line63
+                         213 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.1::
+                         214 .LDWlin1:
+                         215 	jarl	_DIAG_GetTripResetTimeout,lp
+                         215 <EXPANSION BEGIN>
+                         215 jarl22 _DIAG_GetTripResetTimeout , lp 
+00000064 80ff0000*       215 <EXPANSION END>
+00000068 5b570000        216 	st.b	r10,0[r27]
+                         217 --64:     insTrip1UserEnPrm = DIAG_GetTrip1UserEn();
+                         218 --line64
+                         219 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.2::
+                         220 .LDWlin2:
+                         221 	jarl	_DIAG_GetTrip1UserEn,lp
+                         221 <EXPANSION BEGIN>
+                         221 jarl22 _DIAG_GetTrip1UserEn , lp 
+0000006c 80ff0000*       221 <EXPANSION END>
+00000070 2b0600000000*   222 	mov	_insTrip1UserEnPrm,r11
+00000076 4b570000        223 	st.b	r10,0[r11]
+                         224 --66:     trip_TimeCnt1 = S_TO_MS(insPresstime1Prm*0.25) / TRIP_PERIOD;
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                         225 --line66
+                         226 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.3::
+                         227 .LDWlin3:
+0000007a 9a0f0100        228 	ld.bu	0[r26],r1
+0000007e 405ed03f        229 	movhi	16336,zero,r11
+00000082 0052            230 	mov	0,r10
+00000084 f00f5264        231 	cvtf.uwd	r1,r12
+00000088 ea677464        232 	mulf.d	r10,r12,r12
+0000008c 2b0600408f40    233 	mov	1083129856,r11
+00000092 ea677464        234 	mulf.d	r10,r12,r12
+00000096 405e3440        235 	movhi	16436,zero,r11
+0000009a ea677e64        236 	divf.d	r10,r12,r12
+0000009e f167500c        237 	trncf.duw	r12,r1
+000000a2 7d0f0500        238 	st.w	r1,4[r29]
+                         239 --67:     trip_Trip1RstTime = insTripResetTimeoutPrm * 10 ;
+000000a6 9b0f0100        240 	ld.bu	0[r27],r1
+000000aa e10e0a00        241 	mulhi	10,r1,r1
+000000ae 5d0f1c00        242 	st.b	r1,28[r29]
+                         243 --68:     trip_InitSts = ADM_GetInitStatus();
+                         244 	jarl	_ADM_GetInitStatus,lp
+                         244 <EXPANSION BEGIN>
+                         244 jarl22 _ADM_GetInitStatus , lp 
+000000b2 80ff0000*       244 <EXPANSION END>
+000000b6 5d571800        245 	st.b	r10,24[r29]
+                         246 --69:     
+                         247 --70:     NZM_GetDataValue(INDEX_NZM_SYSTIME,&trip_start_sysTime,10);
+                         248 --line70
+                         249 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.4::
+                         250 .LDWlin4:
+000000ba 1c38            251 	mov	r28,r7
+000000bc 0b32            252 	mov	11,r6
+000000be 0a42            253 	mov	10,r8
+                         254 	jarl	_NZM_GetDataValue,lp
+                         254 <EXPANSION BEGIN>
+                         254 jarl22 _NZM_GetDataValue , lp 
+000000c0 80ff0000*       254 <EXPANSION END>
+                         255 --71:     if(trip_start_sysTime.year == 0)    
+                         256 --line71
+                         257 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.5::
+                         258 .LDWlin5:
+000000c4 fc0f0100        259 	ld.hu	0[r28],r1
+000000c8 e009            260 	cmp	zero,r1
+000000ca 9a0d*           261 	bne	.L4
+                         262 --72:     {
+                         263 --73:         RTCA_GetTime(&trip_start_sysTime);
+                         264 --line73
+                         265 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.6::
+                         266 .LDWlin6:
+000000cc 1c30            267 	mov	r28,r6
+                         268 	jarl	_RTCA_GetTime,lp
+                         268 <EXPANSION BEGIN>
+                         268 jarl22 _RTCA_GetTime , lp 
+000000ce 80ff0000*       268 <EXPANSION END>
+                         269 --74:         RTCA_GetTime(&trip_end_sysTime);
+                         270 --line74
+                         271 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.7::
+                         272 .LDWlin7:
+000000d2 260600000000*   273 	mov	_trip_end_sysTime,r6
+                         274 	jarl	_RTCA_GetTime,lp
+                         274 <EXPANSION BEGIN>
+                         274 jarl22 _RTCA_GetTime , lp 
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+000000d8 80ff0000*       274 <EXPANSION END>
+                         275 .L4:
+                         276 --75:     }
+                         277 --76: }
+                         278 --line76
+                         279 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.8::
+                         280 .LDWlin8:
+000000dc 0000            281 	nop
+                         282 --	    .ef
+                         283 .LDW11:
+000000de 4406ff70        284 	dispose	2,{r25,r26,r27,r28,r29,r31},[lp]
+                         285 	.type	_TRIP_Init,@function
+                         286 	.size	_TRIP_Init,.-_TRIP_Init
+                         287 	.align	2
+                         288 .LDW21:
+                         289 --_res	3[sp]	local
+                         290 
+                         291 	.data
+                         292 	.align	4
+                         293 .L72:
+                         294 	.type	.L72,@object
+                         295 	.size	.L72,0
+                         296 	.section ".bss","awb"
+                         297 	.align	4
+                         298 	.global	_trip_KeyStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         299 _trip_KeyStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         300 	.type	_trip_KeyStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         301 	.size	_trip_KeyStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,8
+00000000 000000000000    302 _trip_KeyStatus:	.space	8
+00000006 0000 
+                         303 	.type	_trip_KeyStatus,@object
+                         304 	.size	_trip_KeyStatus,8
+                         305 	.data
+                         306 	.global	_trip_CntLongPress..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         307 _trip_CntLongPress..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         308 	.type	_trip_CntLongPress..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         309 	.size	_trip_CntLongPress..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,4
+00000000 00000000        310 _trip_CntLongPress:	.byte	0,0,0,0
+                         311 	.type	_trip_CntLongPress,@object
+                         312 	.size	_trip_CntLongPress,4
+                         313 	.global	_trip_TimeCnt1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         314 _trip_TimeCnt1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         315 	.type	_trip_TimeCnt1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         316 	.size	_trip_TimeCnt1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,4
+00000004 00000000        317 _trip_TimeCnt1:	.byte	0,0,0,0
+                         318 	.type	_trip_TimeCnt1,@object
+                         319 	.size	_trip_TimeCnt1,4
+                         320 	.global	_trip_CRstCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         321 _trip_CRstCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         322 	.type	_trip_CRstCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         323 	.size	_trip_CRstCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,4
+00000008 00000000        324 _trip_CRstCounter:	.byte	0,0,0,0
+                         325 	.type	_trip_CRstCounter,@object
+                         326 	.size	_trip_CRstCounter,4
+                         327 	.global	_tickStart..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         328 _tickStart..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         329 	.type	_tickStart..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         330 	.size	_tickStart..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,4
+0000000c 00000000        331 _tickStart:	.byte	0,0,0,0
+                         332 	.type	_tickStart,@object
+                         333 	.size	_tickStart,4
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                         334 	.global	_tickEnd..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         335 _tickEnd..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         336 	.type	_tickEnd..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         337 	.size	_tickEnd..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,4
+00000010 00000000        338 _tickEnd:	.byte	0,0,0,0
+                         339 	.type	_tickEnd,@object
+                         340 	.size	_tickEnd,4
+                         341 	.global	_trip_ADCValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         342 _trip_ADCValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         343 	.type	_trip_ADCValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         344 	.size	_trip_ADCValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,2
+00000014 0000            345 _trip_ADCValue:	.byte	0,0
+                         346 	.type	_trip_ADCValue,@object
+                         347 	.size	_trip_ADCValue,2
+                         348 	.global	_trip_ADCValueTemp..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         349 _trip_ADCValueTemp..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         350 	.type	_trip_ADCValueTemp..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         351 	.size	_trip_ADCValueTemp..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,2
+00000016 0000            352 _trip_ADCValueTemp:	.byte	0,0
+                         353 	.type	_trip_ADCValueTemp,@object
+                         354 	.size	_trip_ADCValueTemp,2
+                         355 	.global	_trip_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         356 _trip_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         357 	.type	_trip_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         358 	.size	_trip_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,1
+00000018 00              359 _trip_InitSts:	.byte	0
+                         360 	.type	_trip_InitSts,@object
+                         361 	.size	_trip_InitSts,1
+                         362 	.global	_trip_RstFlag1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         363 _trip_RstFlag1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         364 	.type	_trip_RstFlag1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         365 	.size	_trip_RstFlag1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,1
+00000019 00              366 _trip_RstFlag1:	.byte	0
+                         367 	.type	_trip_RstFlag1,@object
+                         368 	.size	_trip_RstFlag1,1
+                         369 	.global	_trip_RstFlag2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         370 _trip_RstFlag2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         371 	.type	_trip_RstFlag2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         372 	.size	_trip_RstFlag2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,1
+0000001a 00              373 _trip_RstFlag2:	.byte	0
+                         374 	.type	_trip_RstFlag2,@object
+                         375 	.size	_trip_RstFlag2,1
+                         376 	.global	_trip_KeyPressFlag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         377 _trip_KeyPressFlag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         378 	.type	_trip_KeyPressFlag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         379 	.size	_trip_KeyPressFlag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,1
+0000001b 00              380 _trip_KeyPressFlag:	.byte	0
+                         381 	.type	_trip_KeyPressFlag,@object
+                         382 	.size	_trip_KeyPressFlag,1
+                         383 	.global	_trip_Trip1RstTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         384 _trip_Trip1RstTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         385 	.type	_trip_Trip1RstTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         386 	.size	_trip_Trip1RstTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,1
+0000001c 00              387 _trip_Trip1RstTime:	.byte	0
+                         388 	.type	_trip_Trip1RstTime,@object
+                         389 	.size	_trip_Trip1RstTime,1
+                         390 	.global	_trip_ClearRstFlag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         391 _trip_ClearRstFlag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         392 	.type	_trip_ClearRstFlag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         393 	.size	_trip_ClearRstFlag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,1
+0000001d 00              394 _trip_ClearRstFlag:	.byte	0
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                         395 	.type	_trip_ClearRstFlag,@object
+                         396 	.size	_trip_ClearRstFlag,1
+                         397 	.section ".bss","awb"
+                         398 	.global	_insPresstime1Prm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         399 _insPresstime1Prm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         400 	.type	_insPresstime1Prm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         401 	.size	_insPresstime1Prm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,1
+00000008 00              402 _insPresstime1Prm:	.space	1
+                         403 	.type	_insPresstime1Prm,@object
+                         404 	.size	_insPresstime1Prm,1
+                         405 	.global	_insTripResetTimeoutPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         406 _insTripResetTimeoutPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         407 	.type	_insTripResetTimeoutPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         408 	.size	_insTripResetTimeoutPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,1
+00000009 00              409 _insTripResetTimeoutPrm:	.space	1
+                         410 	.type	_insTripResetTimeoutPrm,@object
+                         411 	.size	_insTripResetTimeoutPrm,1
+                         412 	.global	_insTrip1UserEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         413 _insTrip1UserEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         414 	.type	_insTrip1UserEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         415 	.size	_insTrip1UserEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,1
+0000000a 00              416 _insTrip1UserEnPrm:	.space	1
+                         417 	.type	_insTrip1UserEnPrm,@object
+                         418 	.size	_insTrip1UserEnPrm,1
+                         419 	.section ".rodata","a"
+                         420 	.global	_monthDayTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         421 _monthDayTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         422 	.type	_monthDayTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         423 	.size	_monthDayTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,12
+00000000 1f1c1f1e        424 _monthDayTab:	.byte	31,28,31,30
+00000004 1f1e1f1f        425 	.byte	31,30,31,31
+00000008 1e1f1e1f        426 	.byte	30,31,30,31
+                         427 	.type	_monthDayTab,@object
+                         428 	.size	_monthDayTab,12
+                         429 	.section ".bss","awb"
+0000000b 00              430 	.space	1
+                         431 	.global	_trip_start_sysTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         432 _trip_start_sysTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         433 	.type	_trip_start_sysTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         434 	.size	_trip_start_sysTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,10
+0000000c 000000000000    435 _trip_start_sysTime:	.space	10
+00000012 00000000 
+                         436 	.type	_trip_start_sysTime,@object
+                         437 	.size	_trip_start_sysTime,10
+                         438 	.global	_trip_end_sysTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                         439 _trip_end_sysTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                         440 	.type	_trip_end_sysTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@object
+                         441 	.size	_trip_end_sysTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,10
+00000016 000000000000    442 _trip_end_sysTime:	.space	10
+0000001c 00000000 
+                         443 	.type	_trip_end_sysTime,@object
+                         444 	.size	_trip_end_sysTime,10
+                         445 	.data
+                         446 	.text
+                         447 
+                         448 
+                         449 --78: /***************************************************
+                         450 --79: * Function:  TRIP_Process_20ms
+                         451 --80: * Description: trip module processing function
+                         452 --81: * Parameters: none
+                         453 --82: * Returns: none
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                         454 --83: * $Create & Verlog:$
+                         455 --84: * Author: Xiaojie.Zheng    Date:2016-12-02   Version:V1.0
+                         456 --85: ****************************************************/
+                         457 --86: void TRIP_Process_20ms(void)
+                         458 	.align	2
+                         459 	.align	2
+                         460 	.global	_TRIP_Process_20ms
+                         461 _TRIP_Process_20ms:
+000000e2 9607e170        462 	prepare	{r25,r26,r27,r28,r29,r31},11
+000000e6 3d0600000000*   463 	mov	_trip_KeyStatus,r29
+                         464 --	    .bf
+                         465 .LDW31:
+                         466 --87: {
+                         467 --88:     U8 res = RET_FAIL;
+000000ec 43070500        468 	st.b	zero,5[sp]
+000000f0 005a            469 	mov	0,r11
+                         470 --89:     U8 resRtc = RET_FAIL;
+000000f2 43070700        471 	st.b	zero,7[sp]
+000000f6 005a            472 	mov	0,r11
+                         473 --90:     U8 resRst = RET_FAIL;
+000000f8 43070600        474 	st.b	zero,6[sp]
+000000fc 005a            475 	mov	0,r11
+                         476 --91:     U8 resOStm = RET_FAIL;
+000000fe 43070800        477 	st.b	zero,8[sp]
+00000102 005a            478 	mov	0,r11
+                         479 --92:     U8 rsttype = TYPE_RST_EXTERNAL;
+00000104 43070300        480 	st.b	zero,3[sp]
+                         481 --94:     U8 pwrMode = PWR_OFF;
+00000108 43070400        482 	st.b	zero,4[sp]
+                         483 --96:     PTime_ST curRtcTime;
+                         484 --97:     static U8 trip_PwrMode = PWR_OFF;
+                         485 --98:     Dm_CMD_ST fun;
+                         486 --100:        U64 value1 = 0;
+0000010c 00d2            487 	mov	0,r26
+0000010e 00da            488 	mov	0,r27
+                         489 --101:     U64 value2 = 0;
+00000110 0062            490 	mov	0,r12
+00000112 006a            491 	mov	0,r13
+00000114 a3074f620000    492 	st.dw	r12,36[sp]
+                         493 --102:     U8 i = 0;
+0000011a 00ca            494 	mov	0,r25
+                         495 --103:     U16 day = 0;
+0000011c 00e2            496 	mov	0,r28
+                         497 --105:     if (TRUE== trip_InitSts)
+0000011e 210600000000*   498 	mov	_trip_InitSts,r1
+00000124 810f0100        499 	ld.bu	0[r1],r1
+00000128 610a            500 	cmp	1,r1
+0000012a ea073103*       501 	bne	.L218
+                         502 --106:     {
+                         503 --107:         res = PWR_GetPwrMode(&pwrMode);
+                         504 --line107
+                         505 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.9::
+                         506 .LDWlin9:
+0000012e 23360400        507 	movea	4,sp,r6
+                         508 	jarl	_PWR_GetPwrMode,lp
+                         508 <EXPANSION BEGIN>
+                         508 jarl22 _PWR_GetPwrMode , lp 
+00000132 80ff0000*       508 <EXPANSION END>
+00000136 43570500        509 	st.b	r10,5[sp]
+                         510 --108:         resRst = RST_GetRstSource(&rsttype);
+                         511 --line108
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                         512 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.10::
+                         513 .LDWlin10:
+0000013a 23360300        514 	movea	3,sp,r6
+                         515 	jarl	_RST_GetRstSource,lp
+                         515 <EXPANSION BEGIN>
+                         515 jarl22 _RST_GetRstSource , lp 
+0000013e 80ff0000*       515 <EXPANSION END>
+00000142 43570600        516 	st.b	r10,6[sp]
+                         517 --109:         DM_UpdatePageInfo(&fun);
+                         518 --line109
+                         519 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.11::
+                         520 .LDWlin11:
+00000146 23360900        521 	movea	9,sp,r6
+                         522 	jarl	_DM_UpdatePageInfo,lp
+                         522 <EXPANSION BEGIN>
+                         522 jarl22 _DM_UpdatePageInfo , lp 
+0000014a 80ff0000*       522 <EXPANSION END>
+                         523 --110:         if (RET_OK == res)
+                         524 --line110
+                         525 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.12::
+                         526 .LDWlin12:
+0000014e a35f0500        527 	ld.bu	5[sp],r11
+00000152 615a            528 	cmp	1,r11
+00000154 ea071f02*       529 	bne	.L190
+                         530 --111:         {
+                         531 --112:             if((PWR_OFF == pwrMode) ||(PWR_ACC == pwrMode))
+                         532 --line112
+                         533 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.13::
+                         534 .LDWlin13:
+00000158 830f0500        535 	ld.bu	4[sp],r1
+0000015c e009            536 	cmp	zero,r1
+0000015e e205*           537 	be	.L163
+00000160 830f0500        538 	ld.bu	4[sp],r1
+00000164 610a            539 	cmp	1,r1
+00000166 ea07ff01*       540 	bne	.L189
+                         541 .L163:
+                         542 --113:             {
+                         543 --114:                     if((PWR_CRANK == trip_PwrMode) ||(PWR_RUN== trip_PwrMode))
+                         544 --line114
+                         545 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.14::
+                         546 .LDWlin14:
+0000016a 210600000000*   547 	mov	.L532,r1
+00000170 810f0100        548 	ld.bu	0[r1],r1
+00000174 630a            549 	cmp	3,r1
+00000176 820d*           550 	be	.L166
+00000178 210600000000*   551 	mov	.L532,r1
+0000017e 810f0100        552 	ld.bu	0[r1],r1
+00000182 620a            553 	cmp	2,r1
+00000184 ea05*           554 	bne	.L168
+                         555 .L166:
+                         556 --115:                     {
+                         557 --116:                         //tickStart = R_TICK_GetTimeMS(0);
+                         558 --117:                          #if 1//liuyingying @20171221 rtc
+                         559 --118:                             RTCA_GetTime(&trip_start_sysTime);
+                         560 --line118
+                         561 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.15::
+                         562 .LDWlin15:
+00000186 260600000000*   563 	mov	_trip_start_sysTime,r6
+                         564 	jarl	_RTCA_GetTime,lp
+                         564 <EXPANSION BEGIN>
+                         564 jarl22 _RTCA_GetTime , lp 
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+0000018c 80ff0000*       564 <EXPANSION END>
+                         565 .L168:
+                         566 --119:                          #endif
+                         567 --120:                     }
+                         568 --121:                     else
+                         569 --122:                     {
+                         570 --123:                     }
+                         571 --124:                      #if 1//liuyingying @20171221 rtc
+                         572 --125:                        RTCA_GetTime(&trip_end_sysTime);
+                         573 --line125
+                         574 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.16::
+                         575 .LDWlin16:
+00000190 260600000000*   576 	mov	_trip_end_sysTime,r6
+                         577 	jarl	_RTCA_GetTime,lp
+                         577 <EXPANSION BEGIN>
+                         577 jarl22 _RTCA_GetTime , lp 
+00000196 80ff0000*       577 <EXPANSION END>
+                         578 --126:                      #endif
+                         579 --128:                     #if 1//liuyingying @20171221 rtc
+                         580 --129:                     value1 = trip_end_sysTime.year *365*24*60*60;
+                         581 --line129
+                         582 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.17::
+                         583 .LDWlin17:
+0000019a fd771700        584 	ld.hu	22[r29],r14
+0000019e 200e6d01        585 	movea	365,zero,r1
+000001a2 ee0f2002        586 	mul	r14,r1,zero
+000001a6 f80f4002        587 	mul	24,r1,zero
+000001aa fc0f4402        588 	mul	60,r1,zero
+000001ae fc0f4402        589 	mul	60,r1,zero
+000001b2 01d8            590 	mov	r1,r27
+000001b4 01d0            591 	mov	r1,r26
+000001b6 bfda            592 	sar	31,r27
+                         593 --130:                     for(i = 1; i <trip_end_sysTime.month; i ++)
+000001b8 01ca            594 	mov	1,r25
+000001ba a515*           595 	br	.L172
+                         596 .L171:
+                         597 --131:                     {
+                         598 --132:                         day +=monthDayTab[i];
+                         599 --line132
+                         600 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.18::
+                         601 .LDWlin18:
+000001bc 3e0600000000*   602 	mov	_monthDayTab,ep
+000001c2 d9f1            603 	add	r25,ep
+000001c4 6008            604 	sld.bu	0[ep],r1
+000001c6 c1e1            605 	add	r1,r28
+000001c8 dc00            606 	zxh	r28
+                         607 --133:                         if((2 == i) && (0 == trip_end_sysTime.year%4))
+000001ca 62ca            608 	cmp	2,r25
+000001cc fa05*           609 	bne	.L170
+000001ce fd0f1700        610 	ld.hu	22[r29],r1
+000001d2 de0a            611 	shl	30,r1
+000001d4 ba05*           612 	bne	.L170
+                         613 --134:                         day +=1;
+                         614 --line134
+                         615 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.19::
+                         616 .LDWlin19:
+000001d6 41e2            617 	add	1,r28
+000001d8 dc00            618 	zxh	r28
+                         619 .L170:
+000001da 41ca            620 	add	1,r25
+000001dc 9900            621 	zxb	r25
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                         622 .L172:
+000001de 9d0f1900        623 	ld.bu	24[r29],r1
+000001e2 e1c9            624 	cmp	r1,r25
+000001e4 c1ed*           625 	bl	.L171
+                         626 --135:                     }
+                         627 --136:                     value1 +=(day+trip_end_sysTime.day)*24*60*60;
+                         628 --line136
+                         629 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.20::
+                         630 .LDWlin20:
+000001e6 9d0f1b00        631 	ld.bu	26[r29],r1
+000001ea dc09            632 	add	r28,r1
+000001ec f80f4002        633 	mul	24,r1,zero
+000001f0 fc0f4402        634 	mul	60,r1,zero
+000001f4 fc0f4402        635 	mul	60,r1,zero
+000001f8 0158            636 	mov	r1,r11
+000001fa bf5a            637 	sar	31,r11
+000001fc 0160            638 	mov	r1,r12
+000001fe da61            639 	add	r26,r12
+00000200 fb5fa26b        640 	adfl	r27,r11,r13
+00000204 0cd0            641 	mov	r12,r26
+00000206 0dd8            642 	mov	r13,r27
+                         643 --137:                     value1 +=(trip_end_sysTime.hour*60*60);
+00000208 bd0f1b00        644 	ld.bu	27[r29],r1
+0000020c e10e3c00        645 	mulhi	60,r1,r1
+00000210 fc0f4402        646 	mul	60,r1,zero
+00000214 0158            647 	mov	r1,r11
+00000216 bf5a            648 	sar	31,r11
+00000218 0160            649 	mov	r1,r12
+0000021a da61            650 	add	r26,r12
+0000021c fb5fa26b        651 	adfl	r27,r11,r13
+00000220 0cd0            652 	mov	r12,r26
+00000222 0dd8            653 	mov	r13,r27
+                         654 --138:                     value1 +=(trip_end_sysTime.minute*60);
+00000224 9d0f1d00        655 	ld.bu	28[r29],r1
+00000228 e1663c00        656 	mulhi	60,r1,r12
+0000022c 0c58            657 	mov	r12,r11
+0000022e bf5a            658 	sar	31,r11
+00000230 da61            659 	add	r26,r12
+00000232 fb5fa26b        660 	adfl	r27,r11,r13
+00000236 0cd0            661 	mov	r12,r26
+00000238 0dd8            662 	mov	r13,r27
+                         663 --139:                     value1 +=(trip_end_sysTime.sec);
+0000023a bd671d00        664 	ld.bu	29[r29],r12
+0000023e da61            665 	add	r26,r12
+00000240 fb07a26b        666 	adfl	r27,zero,r13
+00000244 0cd0            667 	mov	r12,r26
+00000246 0dd8            668 	mov	r13,r27
+                         669 --140:                     
+                         670 --141:                     value2 = trip_start_sysTime.year *365*24*60*60;
+00000248 fd770d00        671 	ld.hu	12[r29],r14
+0000024c 200e6d01        672 	movea	365,zero,r1
+00000250 ee0f2002        673 	mul	r14,r1,zero
+00000254 f80f4002        674 	mul	24,r1,zero
+00000258 fc0f4402        675 	mul	60,r1,zero
+0000025c fc0f4402        676 	mul	60,r1,zero
+00000260 0158            677 	mov	r1,r11
+00000262 bf5a            678 	sar	31,r11
+00000264 630f2500        679 	st.w	r1,36[sp]
+00000268 635f2900        680 	st.w	r11,40[sp]
+                         681 --142:                     for(i = 1; i <trip_start_sysTime.month; i ++)
+0000026c 01ca            682 	mov	1,r25
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+0000026e a515*           683 	br	.L179
+                         684 .L178:
+                         685 --143:                     {
+                         686 --144:                         day +=monthDayTab[i];
+                         687 --line144
+                         688 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.21::
+                         689 .LDWlin21:
+00000270 3e0600000000*   690 	mov	_monthDayTab,ep
+00000276 d9f1            691 	add	r25,ep
+00000278 6008            692 	sld.bu	0[ep],r1
+0000027a c1e1            693 	add	r1,r28
+0000027c dc00            694 	zxh	r28
+                         695 --145:                         if((2 == i) && (0 == trip_start_sysTime.year%4))
+0000027e 62ca            696 	cmp	2,r25
+00000280 fa05*           697 	bne	.L177
+00000282 fd0f0d00        698 	ld.hu	12[r29],r1
+00000286 de0a            699 	shl	30,r1
+00000288 ba05*           700 	bne	.L177
+                         701 --146:                         day +=1;
+                         702 --line146
+                         703 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.22::
+                         704 .LDWlin22:
+0000028a 41e2            705 	add	1,r28
+0000028c dc00            706 	zxh	r28
+                         707 .L177:
+0000028e 41ca            708 	add	1,r25
+00000290 9900            709 	zxb	r25
+                         710 .L179:
+00000292 9d0f0f00        711 	ld.bu	14[r29],r1
+00000296 e1c9            712 	cmp	r1,r25
+00000298 c1ed*           713 	bl	.L178
+                         714 --147:                     }
+                         715 --148:                     value2 +=(day+trip_start_sysTime.day)*24*60*60;
+                         716 --line148
+                         717 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.23::
+                         718 .LDWlin23:
+0000029a 9d0f1100        719 	ld.bu	16[r29],r1
+0000029e 23672500        720 	ld.w	36[sp],r12
+000002a2 dc09            721 	add	r28,r1
+000002a4 f80f4002        722 	mul	24,r1,zero
+000002a8 fc0f4402        723 	mul	60,r1,zero
+000002ac fc0f4402        724 	mul	60,r1,zero
+000002b0 0158            725 	mov	r1,r11
+000002b2 bf5a            726 	sar	31,r11
+000002b4 c161            727 	add	r1,r12
+000002b6 230f2900        728 	ld.w	40[sp],r1
+000002ba e15fa26b        729 	adfl	r1,r11,r13
+000002be a3074f620000    730 	st.dw	r12,36[sp]
+                         731 --149:                     value2 +=(trip_start_sysTime.hour*60*60);
+000002c4 bd0f1100        732 	ld.bu	17[r29],r1
+000002c8 23672500        733 	ld.w	36[sp],r12
+000002cc e10e3c00        734 	mulhi	60,r1,r1
+000002d0 fc0f4402        735 	mul	60,r1,zero
+000002d4 0158            736 	mov	r1,r11
+000002d6 bf5a            737 	sar	31,r11
+000002d8 c161            738 	add	r1,r12
+000002da 230f2900        739 	ld.w	40[sp],r1
+000002de e15fa26b        740 	adfl	r1,r11,r13
+000002e2 a3074f620000    741 	st.dw	r12,36[sp]
+                         742 --150:                     value2 +=(trip_start_sysTime.minute*60);
+000002e8 9d0f1300        743 	ld.bu	18[r29],r1
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+000002ec 23672500        744 	ld.w	36[sp],r12
+000002f0 e1563c00        745 	mulhi	60,r1,r10
+000002f4 230f2900        746 	ld.w	40[sp],r1
+000002f8 0a58            747 	mov	r10,r11
+000002fa bf5a            748 	sar	31,r11
+000002fc ca61            749 	add	r10,r12
+000002fe e15fa26b        750 	adfl	r1,r11,r13
+00000302 a3074f620000    751 	st.dw	r12,36[sp]
+                         752 --151:                     value2 +=(trip_start_sysTime.sec);
+00000308 bd571300        753 	ld.bu	19[r29],r10
+0000030c 23672500        754 	ld.w	36[sp],r12
+00000310 230f2900        755 	ld.w	40[sp],r1
+00000314 ca61            756 	add	r10,r12
+00000316 e107a26b        757 	adfl	r1,zero,r13
+0000031a a3074f620000    758 	st.dw	r12,36[sp]
+                         759 --153:                     if(value1 > value2)
+00000320 23672900        760 	ld.w	40[sp],r12
+00000324 235f2500        761 	ld.w	36[sp],r11
+00000328 ebd1            762 	cmp	r11,r26
+0000032a fb679603        763 	sbfh	r27,r12,zero
+0000032e b91d*           764 	bnl	.L189
+                         765 --154:                     {
+                         766 --155:                         if((value1 - value2) >(trip_Trip1RstTime*60))
+                         767 --line155
+                         768 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.24::
+                         769 .LDWlin24:
+00000330 210600000000*   770 	mov	_trip_Trip1RstTime,r1
+00000336 810f0100        771 	ld.bu	0[r1],r1
+0000033a 23672500        772 	ld.w	36[sp],r12
+0000033e 23772900        773 	ld.w	40[sp],r14
+00000342 e10e3c00        774 	mulhi	60,r1,r1
+00000346 9a61            775 	subr	r26,r12
+00000348 eedf826b        776 	sbfl	r14,r27,r13
+0000034c 0158            777 	mov	r1,r11
+0000034e bf5a            778 	sar	31,r11
+00000350 e161            779 	cmp	r1,r12
+00000352 ed5f9603        780 	sbfh	r13,r11,zero
+00000356 f905*           781 	bnl	.L189
+                         782 --156:                         {
+                         783 --157:                          trip_RstFlag1 = TRUE;
+                         784 --line157
+                         785 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.25::
+                         786 .LDWlin25:
+00000358 2b0600000000*   787 	mov	_trip_RstFlag1,r11
+0000035e 010a            788 	mov	1,r1
+00000360 4b0f0000        789 	st.b	r1,0[r11]
+                         790 .L189:
+                         791 --158:                         }
+                         792 --159:                         else
+                         793 --160:                         {
+                         794 --161:                         }
+                         795 --162:                     }
+                         796 --163:                     else
+                         797 --164:                     {
+                         798 --165:                     }
+                         799 --167:                     #else
+                         800 --168:                      if((PWR_CRANK == trip_PwrMode) ||(PWR_RUN== trip_PwrMode))
+                         801 --169:                     {
+                         802 --170:                         tickStart = R_TICK_GetTimeMS(0);
+                         803 --171:                     }
+                         804 --172:                     else
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                         805 --173:                     {
+                         806 --174:                     }
+                         807 --175:                     tickEnd = R_TICK_GetTimeMS(0);
+                         808 --176:                     if (trip_Trip1RstTime <= ((tickEnd - tickStart)/60000))/*300000*/
+                         809 --177:                     {
+                         810 --178:                     trip_RstFlag1 = TRUE;
+                         811 --179:                     trip_ClearRstFlag = FALSE;
+                         812 --180:                     }
+                         813 --181:                     else
+                         814 --182:                     {
+                         815 --183:                     trip_ClearRstFlag = FALSE;
+                         816 --184:                     }
+                         817 --185:                     #endif
+                         818 --188:                    
+                         819 --190:             }
+                         820 --191:            else
+                         821 --192:            {
+                         822 --193:            }
+                         823 --194:            trip_PwrMode = pwrMode;
+00000364 830f0500        824 	ld.bu	4[sp],r1
+00000368 2b0600000000*   825 	mov	.L532,r11
+0000036e 4b0f0000        826 	st.b	r1,0[r11]
+                         827 .L190:
+                         828 --195:         }
+                         829 --196: 		else
+                         830 --197: 		{
+                         831 --198: 		}
+                         832 --199:         
+                         833 --200:         trip_GetKeySts();/*key detect*/
+                         834 	jarl	_trip_GetKeySts,lp
+                         834 <EXPANSION BEGIN>
+                         834 jarl22 _trip_GetKeySts , lp 
+00000372 80ffb601*       834 <EXPANSION END>
+                         835 --201:         if ((TYPE_TRIP_OK == trip_KeyStatus.type) && (STATUS_TRIP_PRESS_LONG == trip_KeyStatus.status))
+                         836 --line201
+                         837 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.26::
+                         838 .LDWlin26:
+00000376 3d0f0100        839 	ld.w	0[r29],r1
+0000037a 610a            840 	cmp	1,r1
+0000037c ba2d*           841 	bne	.L191
+0000037e 3d0f0500        842 	ld.w	4[r29],r1
+00000382 610a            843 	cmp	1,r1
+00000384 fa25*           844 	bne	.L191
+                         845 --202:         {
+                         846 --203:             if((INDEX_FUNCTION == fun.PageType)
+                         847 --line203
+                         848 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.27::
+                         849 .LDWlin27:
+00000386 a30f0900        850 	ld.bu	9[sp],r1
+0000038a 620a            851 	cmp	2,r1
+0000038c 8a15*           852 	bne	.L194
+0000038e 830f0b00        853 	ld.bu	10[sp],r1
+00000392 e009            854 	cmp	zero,r1
+00000394 ca0d*           855 	bne	.L194
+00000396 a30f0b00        856 	ld.bu	11[sp],r1
+0000039a 640a            857 	cmp	4,r1
+0000039c 8a0d*           858 	bne	.L194
+                         859 --204:                 && (MAINFUCTION_TC == fun.MainPage)
+                         860 --205:                 && (SUBFUCTION_TC_AUTOSTART == fun.SubPage))
+                         861 --206:                 {
+                         862 --207:                     trip_RstFlag1 = TRUE;
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                         863 --line207
+                         864 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.28::
+                         865 .LDWlin28:
+0000039e 2b0600000000*   866 	mov	_trip_RstFlag1,r11
+000003a4 010a            867 	mov	1,r1
+000003a6 4b0f0000        868 	st.b	r1,0[r11]
+000003aa 852d*           869 	br	.L204
+                         870 .L194:
+                         871 --208:                 }
+                         872 --209:             else if((INDEX_FUNCTION == fun.PageType)
+                         873 --line209
+                         874 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.29::
+                         875 .LDWlin29:
+000003ac a30f0900        876 	ld.bu	9[sp],r1
+000003b0 620a            877 	cmp	2,r1
+000003b2 ca25*           878 	bne	.L204
+000003b4 830f0b00        879 	ld.bu	10[sp],r1
+000003b8 e009            880 	cmp	zero,r1
+000003ba 8a25*           881 	bne	.L204
+000003bc a30f0b00        882 	ld.bu	11[sp],r1
+000003c0 650a            883 	cmp	5,r1
+000003c2 ca1d*           884 	bne	.L204
+                         885 --210:                 && (MAINFUCTION_TC == fun.MainPage)
+                         886 --211:                 && (SUBFUCTION_TC_AUTORST== fun.SubPage))
+                         887 --212:                 {
+                         888 --213:                     trip_RstFlag2 = TRUE;
+                         889 --line213
+                         890 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.30::
+                         891 .LDWlin30:
+000003c4 2b0600000000*   892 	mov	_trip_RstFlag2,r11
+000003ca 010a            893 	mov	1,r1
+000003cc 4b0f0000        894 	st.b	r1,0[r11]
+000003d0 d515*           895 	br	.L204
+                         896 .L191:
+                         897 --214:                 }
+                         898 --215:             else
+                         899 --216:                 {
+                         900 --217:                 }
+                         901 --218:         }
+                         902 --219:         else
+                         903 --220:         {
+                         904 --221:             if (TRUE == resRst)
+                         905 --line221
+                         906 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.31::
+                         907 .LDWlin31:
+000003d2 835f0700        908 	ld.bu	6[sp],r11
+000003d6 615a            909 	cmp	1,r11
+000003d8 9a15*           910 	bne	.L204
+                         911 --222:             {
+                         912 --223:                 if (TYPE_RST_POC0RES == rsttype)
+                         913 --line223
+                         914 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.32::
+                         915 .LDWlin32:
+000003da a30f0300        916 	ld.bu	3[sp],r1
+000003de 610a            917 	cmp	1,r1
+000003e0 da0d*           918 	bne	.L204
+                         919 --224:                 {
+                         920 --225:                     trip_RstFlag1 = TRUE;
+                         921 --line225
+                         922 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.33::
+                         923 .LDWlin33:
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+000003e2 2b0600000000*   924 	mov	_trip_RstFlag1,r11
+000003e8 010a            925 	mov	1,r1
+000003ea 4b0f0000        926 	st.b	r1,0[r11]
+                         927 --226:                     trip_RstFlag2 = TRUE;
+000003ee 2b0600000000*   928 	mov	_trip_RstFlag2,r11
+000003f4 010a            929 	mov	1,r1
+000003f6 4b0f0000        930 	st.b	r1,0[r11]
+                         931 .L204:
+                         932 --227:                 }
+                         933 --228:                 else
+                         934 --229:                 {
+                         935 --230:                 }
+                         936 --231:             }
+                         937 --232:             else
+                         938 --233:             {
+                         939 --234:             }
+                         940 --235:         }
+                         941 --236: 		
+                         942 --237:         if ((TRUE == trip_RstFlag1) || (TRUE == trip_RstFlag2))     /*reset condition satisfy*/
+000003fa 210600000000*   943 	mov	_trip_RstFlag1,r1
+00000400 810f0100        944 	ld.bu	0[r1],r1
+00000404 610a            945 	cmp	1,r1
+00000406 820d*           946 	be	.L212
+00000408 210600000000*   947 	mov	_trip_RstFlag2,r1
+0000040e 810f0100        948 	ld.bu	0[r1],r1
+00000412 610a            949 	cmp	1,r1
+00000414 ba25*           950 	bne	.L218
+                         951 .L212:
+                         952 --238:         {
+                         953 --239:              trip_CRstCounter++;
+                         954 --line239
+                         955 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.34::
+                         956 .LDWlin34:
+00000416 210600000000*   957 	mov	_trip_CRstCounter,r1
+0000041c 210f0100        958 	ld.w	0[r1],r1
+00000420 2c0600000000*   959 	mov	_trip_CRstCounter,r12
+00000426 410a            960 	add	1,r1
+00000428 6c0f0100        961 	st.w	r1,0[r12]
+                         962 --240:             if (TRIP_CRSTCNT <= trip_CRstCounter)
+0000042c 210600000000*   963 	mov	_trip_CRstCounter,r1
+00000432 210f0100        964 	ld.w	0[r1],r1
+00000436 0106b5ff        965 	addi	-75,r1,zero
+0000043a 8915*           966 	bnl	.L218
+                         967 --241:             {
+                         968 --242:                 trip_RstFlag1 = FALSE;
+                         969 --line242
+                         970 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.35::
+                         971 .LDWlin35:
+0000043c 2b0600000000*   972 	mov	_trip_RstFlag1,r11
+00000442 4b070000        973 	st.b	zero,0[r11]
+                         974 --243:                 trip_RstFlag2 = FALSE;
+00000446 2b0600000000*   975 	mov	_trip_RstFlag2,r11
+0000044c 4b070000        976 	st.b	zero,0[r11]
+                         977 --244:                 trip_CRstCounter = 0;
+00000450 2b0600000000*   978 	mov	_trip_CRstCounter,r11
+00000456 6b070100        979 	st.w	zero,0[r11]
+                         980 .L218:
+                         981 --245:             }
+                         982 --246:             else
+                         983 --247:             {
+                         984 --248:             }
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                         985 --249:         }
+                         986 --250:         else
+                         987 --251:         {
+                         988 --252:         }
+                         989 --253:     }
+                         990 --254:     else
+                         991 --255:     {
+                         992 --256:     }
+                         993 --257: }
+0000045a 0000            994 	nop
+                         995 --	    .ef
+                         996 .LDW41:
+0000045c 5606ff70        997 	dispose	11,{r25,r26,r27,r28,r29,r31},[lp]
+                         998 	.type	_TRIP_Process_20ms,@function
+                         999 	.size	_TRIP_Process_20ms,.-_TRIP_Process_20ms
+                        1000 	.align	2
+                        1001 .LDW51:
+                        1002 --_trip_PwrMode	.L532	static
+                        1003 --_res	5[sp]	local
+                        1004 --_resRtc	7[sp]	local
+                        1005 --_resRst	6[sp]	local
+                        1006 --_resOStm	8[sp]	local
+                        1007 --_rsttype	3[sp]	local
+                        1008 --_pwrMode	4[sp]	local
+                        1009 --_fun	9[sp]	local
+                        1010 --_value1	r26	local
+                        1011 --_value2	36[sp]	local
+                        1012 --_i	r25	local
+                        1013 --_day	r28	local
+                        1014 
+                        1015 	.data
+                        1016 .L532:
+                        1017 	.global	_trip_PwrMode.TRIP_Process_20ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip..20
+                        1018 _trip_PwrMode.TRIP_Process_20ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip..20:
+                        1019 	.type	_trip_PwrMode.TRIP_Process_20ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip..20,@object
+                        1020 	.size	_trip_PwrMode.TRIP_Process_20ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip..20,1
+0000001e 00             1021 	.byte	0
+                        1022 	.type	.L532,@object
+                        1023 	.size	.L532,1
+                        1024 	.text
+                        1025 
+                        1026 
+                        1027 --259: /***************************************************
+                        1028 --260: * Function: TRIP_GetTripRstSts
+                        1029 --261: * Description: gets the reset state of the trip drive computer
+                        1030 --262: * Parameters: tripIndex : the reset type of the TRIP driving computer keys
+                        1031 --263: 			tripRstFlag : store the rstflag
+                        1032 --264: * Returns:   RET_FAIL
+                        1033 --265:                     RET_INVALID
+                        1034 --266:                     RET_OK
+                        1035 --267: * $Create & Verlog:$
+                        1036 --268: * Author: Xiaojie.Zheng   Date:2016-12-02   Version:V1.0
+                        1037 --269: ****************************************************/
+                        1038 --270: U8 TRIP_GetTripRstSts(TRIPRstType_ENUM tripIndex, PU8 tripRstFlag)
+                        1039 	.align	2
+                        1040 	.align	2
+                        1041 	.global	_TRIP_GetTripRstSts
+                        1042 _TRIP_GetTripRstSts:
+00000460 0668           1043 	mov	r6,r13
+00000462 07f0           1044 	mov	r7,ep
+00000464 210600000000*  1045 	mov	_trip_InitSts,r1
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                        1046 --	    .bf
+                        1047 .LDW61:
+                        1048 --271: {
+                        1049 --272:     U8 trip_res = RET_FAIL;
+0000046a 0072           1050 	mov	0,r14
+                        1051 --274:     if (FALSE == trip_InitSts)
+0000046c 2c0600000000*  1052 	mov	_trip_InitSts,r12
+00000472 8c670100       1053 	ld.bu	0[r12],r12
+00000476 e061           1054 	cmp	zero,r12
+00000478 ba05*          1055 	bne	.L611
+                        1056 --275:     {
+                        1057 --276:         trip_res =  RET_FAIL;
+                        1058 --line276
+                        1059 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.36::
+                        1060 .LDWlin36:
+0000047a 0072           1061 	mov	0,r14
+0000047c c515*          1062 	br	.L613
+                        1063 .L611:
+                        1064 --277:     }
+                        1065 --278:     else
+                        1066 --279:     {
+                        1067 --280:     	if ((RSTTYPE_TRIP_ALL == tripIndex) || (RSTTYPE_TRIP_PRESS_NO == tripIndex) || (NULL_PTR == tripRstFlag))
+                        1068 --line280
+                        1069 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.37::
+                        1070 .LDWlin37:
+0000047e 636a           1071 	cmp	3,r13
+00000480 d205*          1072 	be	.L615
+00000482 e069           1073 	cmp	zero,r13
+00000484 b205*          1074 	be	.L615
+00000486 e0f1           1075 	cmp	zero,ep
+00000488 ba05*          1076 	bne	.L614
+                        1077 .L615:
+                        1078 --281:     	{
+                        1079 --282:             trip_res =  RET_INVALID;
+                        1080 --line282
+                        1081 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.38::
+                        1082 .LDWlin38:
+0000048a 0272           1083 	mov	2,r14
+0000048c c50d*          1084 	br	.L613
+                        1085 .L614:
+                        1086 --283:     	}
+                        1087 --284:     	else if (RSTTYPE_TRIP_TRIP1 == tripIndex)
+                        1088 --line284
+                        1089 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.39::
+                        1090 .LDWlin39:
+0000048e 616a           1091 	cmp	1,r13
+00000490 ea05*          1092 	bne	.L619
+                        1093 --285:     	{
+                        1094 --286:             *tripRstFlag = trip_RstFlag1;
+                        1095 --line286
+                        1096 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.40::
+                        1097 .LDWlin40:
+00000492 a10f0100       1098 	ld.bu	1[r1],r1
+00000496 800b           1099 	sst.b	r1,0[ep]
+                        1100 --287:             trip_res =  RET_OK;
+00000498 0172           1101 	mov	1,r14
+0000049a d505*          1102 	br	.L613
+                        1103 .L619:
+                        1104 --288:     	}
+                        1105 --289:     	else
+                        1106 --290:     	{
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                        1107 --291:             *tripRstFlag = trip_RstFlag2;
+                        1108 --line291
+                        1109 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.41::
+                        1110 .LDWlin41:
+0000049c 810f0300       1111 	ld.bu	2[r1],r1
+000004a0 800b           1112 	sst.b	r1,0[ep]
+                        1113 --292:             trip_res =  RET_OK;
+000004a2 0172           1114 	mov	1,r14
+                        1115 .L613:
+                        1116 --293:     	}
+                        1117 --294:     }
+                        1118 --295:     return trip_res;
+000004a4 0e50           1119 	mov	r14,r10
+                        1120 --	    .ef
+                        1121 .LDW71:
+000004a6 7f00           1122 	jmp	[lp]
+                        1123 	.type	_TRIP_GetTripRstSts,@function
+                        1124 	.size	_TRIP_GetTripRstSts,.-_TRIP_GetTripRstSts
+                        1125 	.align	2
+                        1126 .LDW81:
+                        1127 --_trip_res	r14	local
+                        1128 
+                        1129 --_tripIndex	r13	param
+                        1130 --_tripRstFlag	ep	param
+                        1131 
+                        1132 	.data
+                        1133 	.text
+                        1134 
+                        1135 --296: }
+                        1136 
+                        1137 --298: /***************************************************
+                        1138 --299: * Function: TRIP_GetKeyEvent
+                        1139 --300: * Description: Returns the type and status of the key
+                        1140 --301: * Parameters: TRIPKeySts_ST:structure for defining TRIP driving computer key state
+                        1141 --302: * Returns: RET_FAIL
+                        1142 --303:                     RET_INVALID
+                        1143 --304:                     RET_OK
+                        1144 --305: * $Create & Verlog:$
+                        1145 --306: * Author: Xiaojie.Zheng   Date:2016-12-02   Version:V1.0
+                        1146 --307: ****************************************************/
+                        1147 --308: U8 TRIP_GetGetKeyEvent(TRIPKeySts_ST *PValue)
+                        1148 	.align	2
+                        1149 	.align	2
+                        1150 	.global	_TRIP_GetGetKeyEvent
+                        1151 _TRIP_GetGetKeyEvent:
+000004a8 210600000000*  1152 	mov	_trip_KeyStatus,r1
+000004ae 06f0           1153 	mov	r6,ep
+000004b0 0168           1154 	mov	r1,r13
+                        1155 --	    .bf
+                        1156 .LDW91:
+                        1157 --309: {
+                        1158 --310:     U8 trip_res = RET_OK;
+000004b2 0172           1159 	mov	1,r14
+                        1160 --312:     if (FALSE == trip_InitSts)
+000004b4 2c0600000000*  1161 	mov	_trip_InitSts,r12
+000004ba 8c670100       1162 	ld.bu	0[r12],r12
+000004be e061           1163 	cmp	zero,r12
+000004c0 ba05*          1164 	bne	.L705
+                        1165 --313:     {
+                        1166 --314:         trip_res = RET_FAIL;
+                        1167 --line314
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                        1168 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.42::
+                        1169 .LDWlin42:
+000004c2 0072           1170 	mov	0,r14
+000004c4 d50d*          1171 	br	.L707
+                        1172 .L705:
+                        1173 --315:     }
+                        1174 --316:     else if (NULL_PTR == PValue)
+                        1175 --line316
+                        1176 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.43::
+                        1177 .LDWlin43:
+000004c6 e0f1           1178 	cmp	zero,ep
+000004c8 ba05*          1179 	bne	.L708
+                        1180 --317:     {
+                        1181 --318:         trip_res = RET_INVALID;
+                        1182 --line318
+                        1183 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.44::
+                        1184 .LDWlin44:
+000004ca 0272           1185 	mov	2,r14
+000004cc 950d*          1186 	br	.L707
+                        1187 .L708:
+                        1188 --319:      }
+                        1189 --320:     else
+                        1190 --321:     {
+                        1191 --322:         PValue->status = trip_KeyStatus.status;
+                        1192 --line322
+                        1193 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.45::
+                        1194 .LDWlin45:
+000004ce 21670500       1195 	ld.w	4[r1],r12
+000004d2 0365           1196 	sst.w	r12,4[ep]
+                        1197 --323:         PValue->type = trip_KeyStatus.type;
+000004d4 21670100       1198 	ld.w	0[r1],r12
+000004d8 0165           1199 	sst.w	r12,0[ep]
+                        1200 --325:         trip_KeyStatus.status =STATUS_TRIP_PRESS_NO;
+000004da 61070500       1201 	st.w	zero,4[r1]
+                        1202 .L707:
+                        1203 --326:     }
+                        1204 --328:     return trip_res;
+000004de 0e50           1205 	mov	r14,r10
+                        1206 --	    .ef
+                        1207 .LDW02:
+000004e0 7f00           1208 	jmp	[lp]
+                        1209 	.type	_TRIP_GetGetKeyEvent,@function
+                        1210 	.size	_TRIP_GetGetKeyEvent,.-_TRIP_GetGetKeyEvent
+                        1211 	.align	2
+                        1212 .LDW12:
+                        1213 --_trip_res	r14	local
+                        1214 
+                        1215 --_PValue	ep	param
+                        1216 
+                        1217 	.data
+                        1218 	.text
+                        1219 
+                        1220 --329: }
+                        1221 
+                        1222 --333: /***************************************************
+                        1223 --334: * Function: TRIP_GetRTCTime
+                        1224 --335: * Description: Returns the type and status of the key
+                        1225 --336: * Parameters: TRIPKeySts_ST:structure for defining TRIP driving computer key state
+                        1226 --337: * Returns: RET_FAIL
+                        1227 --338:                     RET_INVALID
+                        1228 --339:                     RET_OK
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                        1229 --340: * $Create & Verlog:$
+                        1230 --341: * Author: Xiaojie.Zheng   Date:2016-12-02   Version:V1.0
+                        1231 --342: ****************************************************/
+                        1232 --343: U8 TRIP_GetRTCTime(RtcaTime_ST *PValue)
+                        1233 	.align	2
+                        1234 	.align	2
+                        1235 	.global	_TRIP_GetRTCTime
+                        1236 _TRIP_GetRTCTime:
+000004e2 06f0           1237 	mov	r6,ep
+                        1238 --	    .bf
+                        1239 .LDW22:
+                        1240 --344: {
+                        1241 --345:     U8 trip_res = RET_OK;
+000004e4 010a           1242 	mov	1,r1
+                        1243 --347:     if (FALSE == trip_InitSts)
+000004e6 2e0600000000*  1244 	mov	_trip_InitSts,r14
+000004ec 8e770100       1245 	ld.bu	0[r14],r14
+000004f0 e071           1246 	cmp	zero,r14
+000004f2 ba05*          1247 	bne	.L781
+                        1248 --348:     {
+                        1249 --349:         trip_res = RET_FAIL;
+                        1250 --line349
+                        1251 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.46::
+                        1252 .LDWlin46:
+000004f4 000a           1253 	mov	0,r1
+000004f6 f515*          1254 	br	.L783
+                        1255 .L781:
+                        1256 --350:     }
+                        1257 --351:     else if (NULL_PTR == PValue)
+                        1258 --line351
+                        1259 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.47::
+                        1260 .LDWlin47:
+000004f8 e0f1           1261 	cmp	zero,ep
+000004fa ba05*          1262 	bne	.L784
+                        1263 --352:     {
+                        1264 --353:         trip_res = RET_INVALID;
+                        1265 --line353
+                        1266 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.48::
+                        1267 .LDWlin48:
+000004fc 020a           1268 	mov	2,r1
+000004fe b515*          1269 	br	.L783
+                        1270 .L784:
+                        1271 --354:      }
+                        1272 --355:     else
+                        1273 --356:     {
+                        1274 --357:        *PValue = trip_start_sysTime;
+                        1275 --line357
+                        1276 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.49::
+                        1277 .LDWlin49:
+00000500 2e0600000000*  1278 	mov	_trip_start_sysTime,r14
+00000506 ee6f0100       1279 	ld.hu	0[r14],r13
+0000050a ee670300       1280 	ld.hu	2[r14],r12
+0000050e ee5f0500       1281 	ld.hu	4[r14],r11
+00000512 ee570700       1282 	ld.hu	6[r14],r10
+00000516 806c           1283 	sst.h	r13,0[ep]
+00000518 8164           1284 	sst.h	r12,2[ep]
+0000051a 825c           1285 	sst.h	r11,4[ep]
+0000051c 8354           1286 	sst.h	r10,6[ep]
+0000051e ee770900       1287 	ld.hu	8[r14],r14
+00000522 8474           1288 	sst.h	r14,8[ep]
+                        1289 .L783:
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                        1290 --358:     }
+                        1291 --360:     return trip_res;
+00000524 0150           1292 	mov	r1,r10
+                        1293 --	    .ef
+                        1294 .LDW32:
+00000526 7f00           1295 	jmp	[lp]
+                        1296 	.type	_TRIP_GetRTCTime,@function
+                        1297 	.size	_TRIP_GetRTCTime,.-_TRIP_GetRTCTime
+                        1298 	.align	2
+                        1299 .LDW42:
+                        1300 --_trip_res	r1	local
+                        1301 
+                        1302 --_PValue	ep	param
+                        1303 
+                        1304 	.data
+                        1305 	.text
+                        1306 
+                        1307 --361: }
+                        1308 
+                        1309 --363: /***************************************************
+                        1310 --364: * Function: trip_GetKeySts
+                        1311 --365: * Description: Get key state
+                        1312 --366: * Parameters:  input: none
+                        1313 --367: * Returns: none
+                        1314 --368: * $Create & Verlog:$
+                        1315 --369: * Author: Xiaojie.Zheng  Date:2016-12-02   Version:V1.0
+                        1316 --370: ****************************************************/
+                        1317 --371: static void trip_GetKeySts(void)
+                        1318 	.align	2
+                        1319 	.align	2
+                        1320 	.global	_trip_GetKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                        1321 _trip_GetKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.:
+                        1322 _trip_GetKeySts:
+00000528 8007e170       1323 	prepare	{r25,r26,r27,r28,r29,r31},0
+0000052c 3d0600000000*  1324 	mov	_trip_CntLongPress,r29
+00000532 3dde1400       1325 	movea	20,r29,r27
+00000536 3dd61b00       1326 	movea	27,r29,r26
+0000053a 3c0600000000*  1327 	mov	_trip_KeyStatus,r28
+00000540 1dc8           1328 	mov	r29,r25
+                        1329 --	    .bf
+                        1330 .LDW52:
+                        1331 --372: {
+                        1332 --373:     if (TRUE == ADM_GetDebounceValue(INDEX_ADM_TRIPCOMPUTER, &trip_ADCValue))
+00000542 1b38           1333 	mov	r27,r7
+00000544 0232           1334 	mov	2,r6
+                        1335 	jarl	_ADM_GetDebounceValue,lp
+                        1335 <EXPANSION BEGIN>
+                        1335 jarl22 _ADM_GetDebounceValue , lp 
+00000546 80ff0000*      1335 <EXPANSION END>
+0000054a 6152           1336 	cmp	1,r10
+0000054c ea077d01*      1337 	bne	.L907
+                        1338 --374:     {
+                        1339 --375:         if ((ABS_SUB(trip_ADCValue, TRIP_REOPEN)) < (TRIP_OFFSET))
+                        1340 --line375
+                        1341 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.50::
+                        1342 .LDWlin50:
+00000550 fd0f1500       1343 	ld.hu	20[r29],r1
+00000554 0106e3f3       1344 	addi	-3101,r1,zero
+00000558 e905*          1345 	bnl	.L855
+0000055a fd0f1500       1346 	ld.hu	20[r29],r1
+0000055e 010ee4f3       1347 	addi	-3100,r1,r1
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+00000562 e505*          1348 	br	.L857
+                        1349 .L855:
+00000564 fd0f1500       1350 	ld.hu	20[r29],r1
+00000568 20761c0c       1351 	movea	3100,zero,r14
+0000056c 8e09           1352 	subr	r14,r1
+                        1353 .L857:
+0000056e 01065cff       1354 	addi	-164,r1,zero
+00000572 fe0d*          1355 	bge	.L853
+                        1356 --376:         {
+                        1357 --377:             trip_CntLongPress =0;
+                        1358 --line377
+                        1359 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.51::
+                        1360 .LDWlin51:
+00000574 7d070100       1361 	st.w	zero,0[r29]
+                        1362 --378:             if (TRUE ==trip_KeyPressFlag)
+00000578 bd0f1b00       1363 	ld.bu	27[r29],r1
+0000057c 610a           1364 	cmp	1,r1
+0000057e ea074b01*      1365 	bne	.L907
+                        1366 --379:             {
+                        1367 --380:                 trip_KeyPressFlag = FALSE;
+                        1368 --line380
+                        1369 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.52::
+                        1370 .LDWlin52:
+00000582 5d071b00       1371 	st.b	zero,27[r29]
+                        1372 --381:                 trip_KeyStatus.status = STATUS_TRIP_PRESS_SHORT;
+00000586 020a           1373 	mov	2,r1
+00000588 7c0f0500       1374 	st.w	r1,4[r28]
+0000058c 80073c01*      1375 	br	.L907
+                        1376 .L853:
+                        1377 --382:             }
+                        1378 --383:             else
+                        1379 --384:             {
+                        1380 --385:             }
+                        1381 --386:         }
+                        1382 --387:         else
+                        1383 --388:         {
+                        1384 --389:             if ((ABS_SUB(trip_ADCValue, TRIP_OK)) < (TRIP_OFFSET))
+                        1385 --line389
+                        1386 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.53::
+                        1387 .LDWlin53:
+00000590 fd0f1500       1388 	ld.hu	20[r29],r1
+00000594 0106e6f5       1389 	addi	-2586,r1,zero
+00000598 e905*          1390 	bnl	.L864
+0000059a fd0f1500       1391 	ld.hu	20[r29],r1
+0000059e 010ee7f5       1392 	addi	-2585,r1,r1
+000005a2 e505*          1393 	br	.L866
+                        1394 .L864:
+000005a4 fd0f1500       1395 	ld.hu	20[r29],r1
+000005a8 2076190a       1396 	movea	2585,zero,r14
+000005ac 8e09           1397 	subr	r14,r1
+                        1398 .L866:
+000005ae 01065cff       1399 	addi	-164,r1,zero
+000005b2 de05*          1400 	bge	.L862
+                        1401 --390:             {
+                        1402 --391:                 trip_KeyStatus.type = TYPE_TRIP_OK;
+                        1403 --line391
+                        1404 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.54::
+                        1405 .LDWlin54:
+000005b4 010a           1406 	mov	1,r1
+000005b6 7c0f0100       1407 	st.w	r1,0[r28]
+000005ba b55d*          1408 	br	.L867
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                        1409 .L862:
+                        1410 --392:             }
+                        1411 --393:             else if ((ABS_SUB(trip_ADCValue, TRIP_UP)) < (TRIP_OFFSET))
+                        1412 --line393
+                        1413 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.55::
+                        1414 .LDWlin55:
+000005bc fd0f1500       1415 	ld.hu	20[r29],r1
+000005c0 0106fdf7       1416 	addi	-2051,r1,zero
+000005c4 e905*          1417 	bnl	.L870
+000005c6 fd0f1500       1418 	ld.hu	20[r29],r1
+000005ca 010efef7       1419 	addi	-2050,r1,r1
+000005ce e505*          1420 	br	.L872
+                        1421 .L870:
+000005d0 fd0f1500       1422 	ld.hu	20[r29],r1
+000005d4 20760208       1423 	movea	2050,zero,r14
+000005d8 8e09           1424 	subr	r14,r1
+                        1425 .L872:
+000005da 01065cff       1426 	addi	-164,r1,zero
+000005de de05*          1427 	bge	.L868
+                        1428 --394:             {
+                        1429 --395:                 trip_KeyStatus.type = TYPE_TRIP_UP;
+                        1430 --line395
+                        1431 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.56::
+                        1432 .LDWlin56:
+000005e0 020a           1433 	mov	2,r1
+000005e2 7c0f0100       1434 	st.w	r1,0[r28]
+000005e6 d545*          1435 	br	.L867
+                        1436 .L868:
+                        1437 --396:             }
+                        1438 --397:             else if ((ABS_SUB(trip_ADCValue, TRIP_DOWN)) < (TRIP_OFFSET))
+                        1439 --line397
+                        1440 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.57::
+                        1441 .LDWlin57:
+000005e8 fd0f1500       1442 	ld.hu	20[r29],r1
+000005ec 01060ffa       1443 	addi	-1521,r1,zero
+000005f0 e905*          1444 	bnl	.L876
+000005f2 fd0f1500       1445 	ld.hu	20[r29],r1
+000005f6 010e10fa       1446 	addi	-1520,r1,r1
+000005fa e505*          1447 	br	.L878
+                        1448 .L876:
+000005fc fd0f1500       1449 	ld.hu	20[r29],r1
+00000600 2076f005       1450 	movea	1520,zero,r14
+00000604 8e09           1451 	subr	r14,r1
+                        1452 .L878:
+00000606 01065cff       1453 	addi	-164,r1,zero
+0000060a de05*          1454 	bge	.L874
+                        1455 --398:             {
+                        1456 --399:                 trip_KeyStatus.type = TYPE_TRIP_DOWN;
+                        1457 --line399
+                        1458 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.58::
+                        1459 .LDWlin58:
+0000060c 030a           1460 	mov	3,r1
+0000060e 7c0f0100       1461 	st.w	r1,0[r28]
+00000612 f52d*          1462 	br	.L867
+                        1463 .L874:
+                        1464 --400:             }
+                        1465 --401:             else if ((ABS_SUB(trip_ADCValue, TRIP_LEFT)) < (TRIP_OFFSET))
+                        1466 --line401
+                        1467 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.59::
+                        1468 .LDWlin59:
+00000614 fd0f1500       1469 	ld.hu	20[r29],r1
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+00000618 010626fc       1470 	addi	-986,r1,zero
+0000061c e905*          1471 	bnl	.L882
+0000061e fd0f1500       1472 	ld.hu	20[r29],r1
+00000622 010e27fc       1473 	addi	-985,r1,r1
+00000626 e505*          1474 	br	.L884
+                        1475 .L882:
+00000628 fd0f1500       1476 	ld.hu	20[r29],r1
+0000062c 2076d903       1477 	movea	985,zero,r14
+00000630 8e09           1478 	subr	r14,r1
+                        1479 .L884:
+00000632 01065cff       1480 	addi	-164,r1,zero
+00000636 de05*          1481 	bge	.L880
+                        1482 --402:             {
+                        1483 --403:                 trip_KeyStatus.type = TYPE_TRIP_LEFT;
+                        1484 --line403
+                        1485 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.60::
+                        1486 .LDWlin60:
+00000638 050a           1487 	mov	5,r1
+0000063a 7c0f0100       1488 	st.w	r1,0[r28]
+0000063e 951d*          1489 	br	.L867
+                        1490 .L880:
+                        1491 --404:             }
+                        1492 --405:             else if ((ABS_SUB(trip_ADCValue, TRIP_RIGHT)) < (TRIP_OFFSET))
+                        1493 --line405
+                        1494 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.61::
+                        1495 .LDWlin61:
+00000640 fd0f1500       1496 	ld.hu	20[r29],r1
+00000644 010619fe       1497 	addi	-487,r1,zero
+00000648 e905*          1498 	bnl	.L888
+0000064a fd0f1500       1499 	ld.hu	20[r29],r1
+0000064e 010e1afe       1500 	addi	-486,r1,r1
+00000652 e505*          1501 	br	.L890
+                        1502 .L888:
+00000654 fd0f1500       1503 	ld.hu	20[r29],r1
+00000658 2076e601       1504 	movea	486,zero,r14
+0000065c 8e09           1505 	subr	r14,r1
+                        1506 .L890:
+0000065e 01065cff       1507 	addi	-164,r1,zero
+00000662 de05*          1508 	bge	.L886
+                        1509 --406:             {
+                        1510 --407:                 trip_KeyStatus.type = TYPE_TRIP_RIGHT;
+                        1511 --line407
+                        1512 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.62::
+                        1513 .LDWlin62:
+00000664 040a           1514 	mov	4,r1
+00000666 7c0f0100       1515 	st.w	r1,0[r28]
+0000066a b505*          1516 	br	.L867
+                        1517 .L886:
+                        1518 --408:             }
+                        1519 --409:             else
+                        1520 --410:             {
+                        1521 --411:                 trip_KeyStatus.type = TYPE_TRIP_NULL;
+                        1522 --line411
+                        1523 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.63::
+                        1524 .LDWlin63:
+0000066c 7c070100       1525 	st.w	zero,0[r28]
+                        1526 .L867:
+                        1527 --412:             }
+                        1528 --414:             if(trip_KeyStatus.type != TYPE_TRIP_NULL)
+00000670 3c0f0100       1529 	ld.w	0[r28],r1
+00000674 e009           1530 	cmp	zero,r1
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+00000676 8225*          1531 	be	.L892
+                        1532 --415:             {
+                        1533 --416:                 trip_CntLongPress++;
+                        1534 --line416
+                        1535 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.64::
+                        1536 .LDWlin64:
+00000678 3d0f0100       1537 	ld.w	0[r29],r1
+0000067c 410a           1538 	add	1,r1
+0000067e 7d0f0100       1539 	st.w	r1,0[r29]
+                        1540 --417:                 if (trip_CntLongPress > trip_TimeCnt1)
+00000682 3d0f0500       1541 	ld.w	4[r29],r1
+00000686 3d770100       1542 	ld.w	0[r29],r14
+0000068a e171           1543 	cmp	r1,r14
+0000068c b30d*          1544 	bnh	.L894
+                        1545 --418:                 {
+                        1546 --419:                     if (TRUE ==trip_KeyPressFlag) 
+                        1547 --line419
+                        1548 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.65::
+                        1549 .LDWlin65:
+0000068e bd0f1b00       1550 	ld.bu	27[r29],r1
+00000692 610a           1551 	cmp	1,r1
+00000694 aa1d*          1552 	bne	.L907
+                        1553 --420: 					{
+                        1554 --421:                         trip_KeyPressFlag = FALSE;
+                        1555 --line421
+                        1556 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.66::
+                        1557 .LDWlin66:
+00000696 5d071b00       1558 	st.b	zero,27[r29]
+                        1559 --422:                        trip_KeyStatus.status = STATUS_TRIP_PRESS_LONG;
+0000069a 010a           1560 	mov	1,r1
+0000069c 7c0f0500       1561 	st.w	r1,4[r28]
+000006a0 c515*          1562 	br	.L907
+                        1563 .L894:
+                        1564 --423:                     }
+                        1565 --424: 					else
+                        1566 --425: 					{
+                        1567 --426: 					}
+                        1568 --427:                 }
+                        1569 --428:                 else
+                        1570 --429:                 {
+                        1571 --430:                      if (FALSE ==trip_KeyPressFlag) 
+                        1572 --line430
+                        1573 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.67::
+                        1574 .LDWlin67:
+000006a2 bd0f1b00       1575 	ld.bu	27[r29],r1
+000006a6 e009           1576 	cmp	zero,r1
+000006a8 8a15*          1577 	bne	.L907
+                        1578 --431: 					 {
+                        1579 --432:                         trip_KeyPressFlag = TRUE;
+                        1580 --line432
+                        1581 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.68::
+                        1582 .LDWlin68:
+000006aa 010a           1583 	mov	1,r1
+000006ac 5d0f1b00       1584 	st.b	r1,27[r29]
+                        1585 --433:                         trip_CntLongPress = 0;
+000006b0 7d070100       1586 	st.w	zero,0[r29]
+000006b4 a50d*          1587 	br	.L907
+                        1588 .L892:
+                        1589 --434:                      }
+                        1590 --435: 					 else
+                        1591 --436: 				 	 {
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                        1592 --437: 				 	 }
+                        1593 --438:                 }
+                        1594 --439:             }
+                        1595 --440:             else
+                        1596 --441:             {
+                        1597 --442:                 if (TRUE ==trip_KeyPressFlag)
+                        1598 --line442
+                        1599 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.69::
+                        1600 .LDWlin69:
+000006b6 bd0f1b00       1601 	ld.bu	27[r29],r1
+000006ba 610a           1602 	cmp	1,r1
+000006bc ea05*          1603 	bne	.L907
+                        1604 --443:                 {
+                        1605 --444:                     trip_KeyPressFlag = FALSE;
+                        1606 --line444
+                        1607 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.70::
+                        1608 .LDWlin70:
+000006be 5d071b00       1609 	st.b	zero,27[r29]
+                        1610 --445:                     trip_KeyStatus.status = STATUS_TRIP_PRESS_OUTRANGE;
+000006c2 030a           1611 	mov	3,r1
+000006c4 7c0f0500       1612 	st.w	r1,4[r28]
+                        1613 .L907:
+                        1614 --446:                 }
+                        1615 --447:                 else
+                        1616 --448:                 {
+                        1617 --449:                 }
+                        1618 --450:             }
+                        1619 --451:         }
+                        1620 --453:     }
+                        1621 --454: 	else
+                        1622 --455: 	{
+                        1623 --456: 	}
+                        1624 --457: }
+000006c8 0000           1625 	nop
+                        1626 --	    .ef
+                        1627 .LDW62:
+000006ca 4006ff70       1628 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                        1629 	.type	_trip_GetKeySts,@function
+                        1630 	.size	_trip_GetKeySts,.-_trip_GetKeySts
+                        1631 	.type	_trip_GetKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,@function
+                        1632 	.size	_trip_GetKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.,.-_trip_GetKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip.
+                        1633 	.align	2
+                        1634 .LDW72:
+                        1635 
+                        1636 	.data
+                        1637 	.text
+                        1638 
+                        1639 	.align	2
+                        1640 --_monthDayTab	_monthDayTab	static
+                        1641 --_trip_InitSts	_trip_InitSts	static
+                        1642 --_trip_RstFlag1	_trip_RstFlag1	static
+                        1643 --_trip_RstFlag2	_trip_RstFlag2	static
+                        1644 --_trip_KeyPressFlag	_trip_KeyPressFlag	static
+                        1645 --_trip_ADCValue	_trip_ADCValue	static
+                        1646 --_trip_ADCValueTemp	_trip_ADCValueTemp	static
+                        1647 --_trip_CntLongPress	_trip_CntLongPress	static
+                        1648 --_trip_TimeCnt1	_trip_TimeCnt1	static
+                        1649 --_trip_Trip1RstTime	_trip_Trip1RstTime	static
+                        1650 --_trip_CRstCounter	_trip_CRstCounter	static
+                        1651 --_trip_ClearRstFlag	_trip_ClearRstFlag	static
+                        1652 --_trip_KeyStatus	_trip_KeyStatus	static
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008oo1.si
+                        1653 --_tickStart	_tickStart	static
+                        1654 --_tickEnd	_tickEnd	static
+                        1655 --_insPresstime1Prm	_insPresstime1Prm	static
+                        1656 --_insTripResetTimeoutPrm	_insTripResetTimeoutPrm	static
+                        1657 --_insTrip1UserEnPrm	_insTrip1UserEnPrm	static
+                        1658 --_trip_start_sysTime	_trip_start_sysTime	static
+                        1659 --_trip_end_sysTime	_trip_end_sysTime	static
+                        1660 
+                        1661 	.data
+                        1662 	.ghsnote version,14
+                        1663 	.ghsnote tools,3
+                        1664 	.ghsnote options,144
+                        1665 	.text
+                        1666 	.align	2
+                        1667 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctrip...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036A..0::
+                        1668 .rh850_flags DOUBLE,REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,DOUBLE64,G3M

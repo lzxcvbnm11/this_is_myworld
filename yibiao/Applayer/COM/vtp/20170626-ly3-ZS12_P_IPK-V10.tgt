@@ -1,0 +1,66 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                    Mentor Graphics Corporation                             */
+/*                        All rights reserved                                 */
+/*                                                                            */
+/* ************************************************************************** */
+/*                                                                            */
+/*  Description:   Target file for Volcano 7.2                                */
+/*  Project:       ZS1X                                                       */
+/*  Release:       P_V10                                                      */
+/*  Configuration: ZS12_P_for IPK&FICM                                        */
+/*  Node:          Instruments                                                */
+/*                                                                            */
+/* ************************************************************************** */
+
+
+target_file;
+volcano version "7.21";
+
+target "GHS RH850";
+RAM 0xFEBF8000 to 0xFEBFDFFF;
+NVRAM 0x003F0000 to 0x003FFFFF;
+network interface IPK_CAN_HS {
+	controller "RSCAN";
+	base 0xFFD00000;
+	clock frequency 8 MHz;
+	attributes {
+		driver_version = 3;
+		rx_buffers = 32;
+		clock_select = 1;
+		channel = 0;
+		err_int_vect_prio = 0;
+		rx_int_vect_prio = 3;
+		tx_int_vect_prio = 3;
+		err_int_reg_address = 0xffffb08e;
+		rx_int_reg_address = 0xffffb090;
+		tx_int_reg_address = 0xffffb092;
+		bus_off_auto_recovery = 0;
+		}
+	ID_to_frame_method search_on_IDs;
+}
+network interface IPK_LIN3 {
+	controller "RLIN3";
+	base 0xFFCE0000;
+	clock frequency 48 MHz;
+	attributes {
+		driver_version = 1;
+		rx_int_channel = 82;
+		rx_int_priority = 3;
+		tx_int_channel = 83;
+		tx_int_priority = 3;
+		err_int_channel = 81;
+		err_int_priority = 3;
+		intc_base = 0XFFFEEA00;
+		rx_pin = 7;
+		tx_pin = 8;
+		pm_reg_address = 0XFF618010;
+		pmc_reg_address = 0XFF618014;
+		port_reg_address = 0XFF618000;
+		pfce_reg_address = 0XFF61801C;
+		pfc_reg_address = 0XFF618018;
+		pibc_reg_address = 0XFFC1C000;
+		ppr_reg_address = 0XFF61800C;
+		auto_connect = 1;
+		}
+}

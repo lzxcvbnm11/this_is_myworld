@@ -1,0 +1,1717 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\RangeToEmptyAlgorithm_V2.dbo -source=RangeToEmptyAlgorithm_V2.c -o .\obj\gh_000084o1.o -list=.\obj\RangeToEmptyAlgorithm_V2.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+Source File: RangeToEmptyAlgorithm_V2.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\RANG\RangeToEmptyAlgorithm_V2.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                         112 --		-o .\obj\RangeToEmptyAlgorithm_V2.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\RANG\RangeToEmptyAlgorithm_V2.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:33 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2:  * File: RangeToEmptyAlgorithm_V2.c
+                         126 --3:  *
+                         127 --4:  * Code generated for Simulink model 'RangeToEmptyAlgorithm_V2'.
+                         128 --5:  *
+                         129 --6:  * Model version                  : 1.348
+                         130 --7:  * Simulink Coder version         : 8.6 (R2014a) 27-Dec-2013
+                         131 --8:  * C/C++ source code generated on : Tue Nov 22 15:25:32 2016
+                         132 --9:  *
+                         133 --10:  * Target selection: ert.tlc
+                         134 --11:  * Embedded hardware selection: Generic->32-bit Embedded Processor
+                         135 --12:  * Code generation objectives: Unspecified
+                         136 --13:  * Validation result: Not run
+                         137 --14:  */
+                         138 --16: #include "RangeToEmptyAlgorithm_V2.h"
+                         139 --17: #include "RangeToEmptyAlgorithm_V2_private.h"
+                         140 --18: #include "nvm_public.h"
+                         141 --20: /* Exported block signals */
+                         142 --21: U32 gASI_VehicleOdometer;         /* '<Root>/gASI_VehicleOdometer' */
+                         143 --22: U8 gASI_K_FullFuelConsumption;    /* '<Root>/gASI_K_FullFuelConsumption' */
+                         144 --23: U8 gASI_K_RecentFuelConsumption;  /* '<Root>/gASI_K_RecentFuelConsumption' */
+                         145 --24: U8 gASI_K_OdometerSum;            /* '<Root>/gASI_K_OdometerSum' */
+                         146 --25: U16 gASI_K_FuelSum;               /* '<Root>/gASI_K_FuelSum' */
+                         147 --26: U32 gASI_K_RangeToEmpty;          /* '<Root>/gASI_K_RangeToEmpty' */
+                         148 --27: U8 gASI_VehicleOdometerV;         /* '<Root>/gASI_VehicleOdometerV' */
+                         149 --28: U32 prmRangeToEmpty;              /* '<Root>/Range To Empty Algorithm' */
+                         150 --29: U16 prmFuelSum;                   /* '<Root>/Data Type Conversion4' */
+                         151 --30: U16 prmDisplayRangeToEmpty;       /* '<Root>/Range To Empty Algorithm' */
+                         152 --31: U8 prmFullFuelConsumption;        /* '<Root>/Data Type Conversion' */
+                         153 --32: U8 prmRecentFuelConsumption;      /* '<Root>/Data Type Conversion1' */
+                         154 --33: U8 prmOdometerSum;                /* '<Root>/Range To Empty Algorithm' */
+                         155 --34: BOOL prmRangeToEmptyWarning;      /* '<Root>/Range To Empty Algorithm' */
+                         156 --36: /* Block signals (auto storage) */
+                         157 --37: B_RangeToEmptyAlgorithm_V2_T RangeToEmptyAlgorithm_V2_B;
+                         158 --39: /* Block states (auto storage) */
+                         159 --40: DW_RangeToEmptyAlgorithm_V2_T RangeToEmptyAlgorithm_V2_DW;
+                         160 --42: /* Real-time model */
+                         161 --43: RT_MODEL_RangeToEmptyAlgorith_T RangeToEmptyAlgorithm_V2_M_;
+                         162 --44: RT_MODEL_RangeToEmptyAlgorith_T *const RangeToEmptyAlgorithm_V2_M =
+                         163 --45:   &RangeToEmptyAlgorithm_V2_M_;
+                         164 --47: /* Model step function */
+                         165 --48: void RangeToEmptyAlgorithm_V2_step(void)
+                         166 	.text
+                         167 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036D..0::
+                         168 	.align	2
+                         169 	.global	_RangeToEmptyAlgorithm_V2_step
+                         170 _RangeToEmptyAlgorithm_V2_step:
+00000000 8e07e170        171 	prepare	{r25,r26,r27,r28,r29,r31},7
+00000004 3b0600000000*   172 	mov	_RangeToEmptyAlgorithm_V2_DW,r27
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+0000000a 3a0600000000*   173 	mov	_RangeToEmptyAlgorithm_V2_P,r26
+00000010 390600000000*   174 	mov	_RangeToEmptyAlgorithm_V2_B,r25
+                         175 --	    .bf
+                         176 .LDW01:
+                         177 --49: {
+                         178 --50:   DBL FuelConsumption;
+                         179 --51:   BOOL guard1 = false;
+00000016 43070300        180 	st.b	zero,3[sp]
+0000001a 005a            181 	mov	0,r11
+                         182 --52:   BOOL guard2 = false;
+0000001c 43070400        183 	st.b	zero,4[sp]
+00000020 005a            184 	mov	0,r11
+                         185 --53:   BOOL guard3 = false;
+00000022 43070500        186 	st.b	zero,5[sp]
+00000026 005a            187 	mov	0,r11
+                         188 --54:   BOOL guard4 = false;
+00000028 43070600        189 	st.b	zero,6[sp]
+0000002c 005a            190 	mov	0,r11
+                         191 --55:   BOOL guard5 = false;
+0000002e 43070700        192 	st.b	zero,7[sp]
+00000032 005a            193 	mov	0,r11
+                         194 --56:   DBL u1;
+                         195 --57:   U32 u1_0;
+                         196 --58:   #if 1
+                         197 --59:   RANG_Input();
+                         198 	jarl	_RANG_Input,lp
+                         198 <EXPANSION BEGIN>
+                         198 jarl22 _RANG_Input , lp 
+00000034 80ff0000*       198 <EXPANSION END>
+                         199 --60:   /* Chart: '<Root>/Range To Empty Algorithm' incorporates:
+                         200 --61:    *  Inport: '<Root>/gASI_K_FuelSum'
+                         201 --62:    *  Inport: '<Root>/gASI_K_FullFuelConsumption'
+                         202 --63:    *  Inport: '<Root>/gASI_K_OdometerSum'
+                         203 --64:    *  Inport: '<Root>/gASI_K_RangeToEmpty'
+                         204 --65:    *  Inport: '<Root>/gASI_K_RecentFuelConsumption'
+                         205 --66:    *  Inport: '<Root>/gASI_VehicleOdometer'
+                         206 --67:    *  Inport: '<Root>/gASI_VehicleOdometerV'
+                         207 --68:    *  Inport: '<Root>/gFuelLvlPctV'
+                         208 --69:    *  Inport: '<Root>/gRefuelFlag'
+                         209 --70:    *  Inport: '<Root>/prmDisplayFuel'
+                         210 --71:    */
+                         211 --72:   /* Gateway: Range To Empty Algorithm */
+                         212 --73:   /* During: Range To Empty Algorithm */
+                         213 --74:   /* Entry Internal: Range To Empty Algorithm */
+                         214 --75:   /* Transition: '<S1>:442' */
+                         215 --76:   /*  Initialize  */
+                         216 --77:   if (RangeToEmptyAlgorithm_V2_DW.InitializeCount < 2) {
+                         217 --line77
+                         218 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.1::
+                         219 .LDWlin1:
+00000038 9b0f2500        220 	ld.bu	36[r27],r1
+0000003c 620a            221 	cmp	2,r1
+0000003e 9965*           222 	bnl	.L4
+                         223 --78:     /* Transition: '<S1>:512' */
+                         224 --79:     /* Transition: '<S1>:443' */
+                         225 --80:     RangeToEmptyAlgorithm_V2_B.FullFuelConsumption = gASI_K_FullFuelConsumption;
+                         226 --line80
+                         227 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.2::
+                         228 .LDWlin2:
+00000040 210600000000*   229 	mov	_gASI_K_FullFuelConsumption,r1
+00000046 810f0100        230 	ld.bu	0[r1],r1
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+0000004a f00f5264        231 	cvtf.uwd	r1,r12
+0000004e b9078f600000    232 	st.dw	r12,8[r25]
+                         233 --81:     RangeToEmptyAlgorithm_V2_B.RecentFuelConsumption =
+00000054 210600000000*   234 	mov	_gASI_K_RecentFuelConsumption,r1
+0000005a 810f0100        235 	ld.bu	0[r1],r1
+0000005e f00f5264        236 	cvtf.uwd	r1,r12
+00000062 b9070f610000    237 	st.dw	r12,16[r25]
+                         238 --82:       gASI_K_RecentFuelConsumption;
+                         239 --83:     RangeToEmptyAlgorithm_V2_DW.LastFuelConsumption =
+00000068 210600000000*   240 	mov	_gASI_K_RecentFuelConsumption,r1
+0000006e 810f0100        241 	ld.bu	0[r1],r1
+00000072 f00f5264        242 	cvtf.uwd	r1,r12
+00000076 bb070f610000    243 	st.dw	r12,16[r27]
+                         244 --84:       gASI_K_RecentFuelConsumption;
+                         245 --85:     RangeToEmptyAlgorithm_V2_DW.NewFuelConsumption =
+0000007c 210600000000*   246 	mov	_gASI_K_RecentFuelConsumption,r1
+00000082 810f0100        247 	ld.bu	0[r1],r1
+00000086 f00f5264        248 	cvtf.uwd	r1,r12
+0000008a bb078f610000    249 	st.dw	r12,24[r27]
+                         250 --86:       gASI_K_RecentFuelConsumption;
+                         251 --87:     prmOdometerSum = gASI_K_OdometerSum;
+00000090 210600000000*   252 	mov	_gASI_K_OdometerSum,r1
+00000096 810f0100        253 	ld.bu	0[r1],r1
+0000009a 2c0600000000*   254 	mov	_prmOdometerSum,r12
+000000a0 4c0f0000        255 	st.b	r1,0[r12]
+                         256 --88:     RangeToEmptyAlgorithm_V2_B.FuelSum = gASI_K_FuelSum;
+000000a4 210600000000*   257 	mov	_gASI_K_FuelSum,r1
+000000aa e10f0100        258 	ld.hu	0[r1],r1
+000000ae f00f5264        259 	cvtf.uwd	r1,r12
+000000b2 b9070f600000    260 	st.dw	r12,0[r25]
+                         261 --89:     prmRangeToEmpty = gASI_K_RangeToEmpty;
+000000b8 210600000000*   262 	mov	_gASI_K_RangeToEmpty,r1
+000000be 210f0100        263 	ld.w	0[r1],r1
+000000c2 2c0600000000*   264 	mov	_prmRangeToEmpty,r12
+000000c8 6c0f0100        265 	st.w	r1,0[r12]
+                         266 --90:     RangeToEmptyAlgorithm_V2_DW.LastOdometer = gASI_VehicleOdometer;
+000000cc 210600000000*   267 	mov	_gASI_VehicleOdometer,r1
+000000d2 210f0100        268 	ld.w	0[r1],r1
+000000d6 7b0f2100        269 	st.w	r1,32[r27]
+                         270 --91:     RangeToEmptyAlgorithm_V2_DW.LastFuel = prmDisplayFuel;
+000000da 2b0600000000*   271 	mov	_prmDisplayFuel,r11
+000000e0 ab0709600000    272 	ld.dw	0[r11],r12
+000000e6 bb078f600000    273 	st.dw	r12,8[r27]
+                         274 --92:     RangeToEmptyAlgorithm_V2_DW.InitializeCount++;
+000000ec 9b0f2500        275 	ld.bu	36[r27],r1
+000000f0 410a            276 	add	1,r1
+000000f2 5b0f2400        277 	st.b	r1,36[r27]
+                         278 --94:     /* Transition: '<S1>:428' */
+                         279 --95:     /* Transition: '<S1>:466' */
+                         280 --96:     guard5 = true;
+000000f6 015a            281 	mov	1,r11
+000000f8 435f0700        282 	st.b	r11,7[sp]
+000000fc 8007ec05*       283 	br	.L6
+                         284 .L4:
+                         285 --97:   } else {
+                         286 --98:     /* Transition: '<S1>:448' */
+                         287 --99:     /* {
+                         288 --100:        K_FullFuelConsumption=FullFuelConsumption;
+                         289 --101:        K_RecentFuelConsumption=RecentFuelConsumption;
+                         290 --102:        K_OdometerSum=OdometerSum;
+                         291 --103:        K_FuelSum=FuelSum;
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                         292 --104:        K_RangeToEmpty=RangeToEmpty;
+                         293 --105:        } */
+                         294 --106:     /* Transition: '<S1>:456' */
+                         295 --107:     /*  Failsafe  */
+                         296 --108:     if (((gFuelLvlPctV == 1) || (gASI_VehicleOdometerV == 1))&& (prmRangeToEmpty >= RangeToEmptyAlgorithm_V2_P.K_StepDistance)) {
+                         297 --line108
+                         298 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.3::
+                         299 .LDWlin3:
+00000100 210600000000*   300 	mov	_gFuelLvlPctV,r1
+00000106 810f0100        301 	ld.bu	0[r1],r1
+0000010a 610a            302 	cmp	1,r1
+0000010c 820d*           303 	be	.L9
+0000010e 210600000000*   304 	mov	_gASI_VehicleOdometerV,r1
+00000114 810f0100        305 	ld.bu	0[r1],r1
+00000118 610a            306 	cmp	1,r1
+0000011a da2d*           307 	bne	.L7
+                         308 .L9:
+0000011c 2e0600000000*   309 	mov	_prmRangeToEmpty,r14
+00000122 9a0f0900        310 	ld.bu	8[r26],r1
+00000126 2e770100        311 	ld.w	0[r14],r14
+0000012a e171            312 	cmp	r1,r14
+0000012c c125*           313 	bl	.L7
+                         314 --109:       /* Transition: '<S1>:482' */
+                         315 --110:       /* Transition: '<S1>:468' */
+                         316 --111:       u1_0 = prmRangeToEmpty - RangeToEmptyAlgorithm_V2_P.K_StepDistance;
+                         317 --line111
+                         318 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.4::
+                         319 .LDWlin4:
+0000012e 210600000000*   320 	mov	_prmRangeToEmpty,r1
+00000134 210f0100        321 	ld.w	0[r1],r1
+00000138 9a770900        322 	ld.bu	8[r26],r14
+0000013c 630f0d00        323 	st.w	r1,12[sp]
+00000140 0160            324 	mov	r1,r12
+00000142 ae61            325 	sub	r14,r12
+00000144 63670d00        326 	st.w	r12,12[sp]
+                         327 --112:       if (0U >= u1_0) {
+00000148 235f0d00        328 	ld.w	12[sp],r11
+0000014c e059            329 	cmp	zero,r11
+0000014e fb05*           330 	bh	.L11
+                         331 --113:         prmRangeToEmpty = 0U;
+                         332 --line113
+                         333 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.5::
+                         334 .LDWlin5:
+00000150 2b0600000000*   335 	mov	_prmRangeToEmpty,r11
+00000156 6b070100        336 	st.w	zero,0[r11]
+0000015a 850d*           337 	br	.L13
+                         338 .L11:
+                         339 --114:       } else {
+                         340 --115:         prmRangeToEmpty = u1_0;
+                         341 --line115
+                         342 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.6::
+                         343 .LDWlin6:
+0000015c 235f0d00        344 	ld.w	12[sp],r11
+00000160 2c0600000000*   345 	mov	_prmRangeToEmpty,r12
+00000166 6c5f0100        346 	st.w	r11,0[r12]
+                         347 .L13:
+                         348 --116:       }
+                         349 --118:       /* Transition: '<S1>:510' */
+                         350 --119:       guard5 = true;
+0000016a 015a            351 	mov	1,r11
+0000016c 435f0700        352 	st.b	r11,7[sp]
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+00000170 80077805*       353 	br	.L6
+                         354 .L7:
+                         355 --120:     } else {
+                         356 --121:       /* Transition: '<S1>:496' */
+                         357 --122:       /* Fast Mode for Refuel */
+                         358 --123:       if (gRefuelFlag == 0) {
+                         359 --line123
+                         360 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.7::
+                         361 .LDWlin7:
+00000174 210600000000*   362 	mov	_gRefuelFlag,r1
+0000017a 810f0100        363 	ld.bu	0[r1],r1
+0000017e e009            364 	cmp	zero,r1
+00000180 ea070504*       365 	bne	.L15
+                         366 --124:         /* Transition: '<S1>:460' */
+                         367 --125:         /* Transition: '<S1>:488' */
+                         368 --126:         RangeToEmptyAlgorithm_V2_DW.FuelConsumptionRate = 0.0;
+                         369 --line126
+                         370 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.8::
+                         371 .LDWlin8:
+00000184 006a            372 	mov	0,r13
+00000186 0062            373 	mov	0,r12
+00000188 bb070f600000    374 	st.dw	r12,0[r27]
+                         375 --128:         /* Transition: '<S1>:422' */
+                         376 --129:         /* Transition: '<S1>:504' */
+                         377 --130:         /* Slow Mode for Injection */
+                         378 --131:         if ((RangeToEmptyAlgorithm_V2_DW.LastFuel < prmDisplayFuel) ||
+0000018e 2b0600000000*   379 	mov	_prmDisplayFuel,r11
+00000194 ab0709600000    380 	ld.dw	0[r11],r12
+0000019a bb0789500000    381 	ld.dw	8[r27],r10
+000001a0 ea673074        382 	cmpf.d	le,r12,r10,0
+000001a4 e0070004        383 	trfsr	0
+000001a8 ea35*           384 	bne	.L18
+000001aa 2b0600000000*   385 	mov	_prmDisplayFuel,r11
+000001b0 ab0709600000    386 	ld.dw	0[r11],r12
+000001b6 405e1040        387 	movhi	16400,zero,r11
+000001ba 0052            388 	mov	0,r10
+000001bc ea677064        389 	addf.d	r10,r12,r12
+000001c0 bb0789500000    390 	ld.dw	8[r27],r10
+000001c6 ec573274        391 	cmpf.d	le,r10,r12,1
+000001ca e0070204        392 	trfsr	1
+000001ce ba25*           393 	bne	.L18
+000001d0 2e0600000000*   394 	mov	_gASI_VehicleOdometer,r14
+000001d6 3b0f2100        395 	ld.w	32[r27],r1
+000001da 2e770100        396 	ld.w	0[r14],r14
+000001de e171            397 	cmp	r1,r14
+000001e0 a11d*           398 	bl	.L18
+000001e2 3b0f2100        399 	ld.w	32[r27],r1
+000001e6 2e0600000000*   400 	mov	_gASI_VehicleOdometer,r14
+000001ec 2e770100        401 	ld.w	0[r14],r14
+000001f0 410a            402 	add	1,r1
+000001f2 e171            403 	cmp	r1,r14
+000001f4 8b15*           404 	bh	.L18
+000001f6 2e0600000000*   405 	mov	_prmDisplayFuel,r14
+000001fc ae0709500000    406 	ld.dw	0[r14],r10
+00000202 2d06c0d4ea40    407 	mov	1089131712,r13
+00000208 0062            408 	mov	0,r12
+0000020a ec573464        409 	cmpf.d	lt,r10,r12,2
+0000020e e0070404        410 	trfsr	2
+00000212 e215*           411 	be	.L17
+                         412 .L18:
+                         413 --132:             (RangeToEmptyAlgorithm_V2_DW.LastFuel > prmDisplayFuel + 4.0) ||
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                         414 --133:             ((gASI_VehicleOdometer < RangeToEmptyAlgorithm_V2_DW.LastOdometer) ||
+                         415 --134:              (gASI_VehicleOdometer > RangeToEmptyAlgorithm_V2_DW.LastOdometer +
+                         416 --135:               1U)) || (prmDisplayFuel >= 54950.0)) {
+                         417 --136:           /* Transition: '<S1>:493' */
+                         418 --137:           /* Transition: '<S1>:445' */
+                         419 --138:           RangeToEmptyAlgorithm_V2_DW.LastOdometer = gASI_VehicleOdometer;
+                         420 --line138
+                         421 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.9::
+                         422 .LDWlin9:
+00000214 210600000000*   423 	mov	_gASI_VehicleOdometer,r1
+0000021a 210f0100        424 	ld.w	0[r1],r1
+0000021e 7b0f2100        425 	st.w	r1,32[r27]
+                         426 --139:           RangeToEmptyAlgorithm_V2_DW.LastFuel = prmDisplayFuel;
+00000222 2b0600000000*   427 	mov	_prmDisplayFuel,r11
+00000228 ab0709600000    428 	ld.dw	0[r11],r12
+0000022e bb078f600000    429 	st.dw	r12,8[r27]
+                         430 --140:           guard4 = true;
+00000234 015a            431 	mov	1,r11
+00000236 435f0600        432 	st.b	r11,6[sp]
+0000023a 8007ae04*       433 	br	.L6
+                         434 .L17:
+                         435 --141:         } else {
+                         436 --142:           /* Transition: '<S1>:417' */
+                         437 --143:           prmOdometerSum = (U8)((prmOdometerSum + gASI_VehicleOdometer) -
+                         438 --line143
+                         439 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.10::
+                         440 .LDWlin10:
+0000023e 210600000000*   441 	mov	_gASI_VehicleOdometer,r1
+00000244 2e0600000000*   442 	mov	_prmOdometerSum,r14
+0000024a 210f0100        443 	ld.w	0[r1],r1
+0000024e 8e770100        444 	ld.bu	0[r14],r14
+00000252 2d0600000000*   445 	mov	_prmOdometerSum,r13
+00000258 ce09            446 	add	r14,r1
+0000025a 3b772100        447 	ld.w	32[r27],r14
+0000025e ae09            448 	sub	r14,r1
+00000260 4d0f0000        449 	st.b	r1,0[r13]
+                         450 --144:             RangeToEmptyAlgorithm_V2_DW.LastOdometer);
+                         451 --145:           RangeToEmptyAlgorithm_V2_B.FuelSum +=
+00000264 2e0600000000*   452 	mov	_prmDisplayFuel,r14
+0000026a bb0789600000    453 	ld.dw	8[r27],r12
+00000270 ae0709500000    454 	ld.dw	0[r14],r10
+00000276 ea677254        455 	subf.d	r10,r12,r10
+0000027a b90709600000    456 	ld.dw	0[r25],r12
+00000280 ea677064        457 	addf.d	r10,r12,r12
+00000284 b9070f600000    458 	st.dw	r12,0[r25]
+                         459 --146:             RangeToEmptyAlgorithm_V2_DW.LastFuel - prmDisplayFuel;
+                         460 --147:           RangeToEmptyAlgorithm_V2_DW.LastOdometer = gASI_VehicleOdometer;
+0000028a 210600000000*   461 	mov	_gASI_VehicleOdometer,r1
+00000290 210f0100        462 	ld.w	0[r1],r1
+00000294 7b0f2100        463 	st.w	r1,32[r27]
+                         464 --148:           RangeToEmptyAlgorithm_V2_DW.LastFuel = prmDisplayFuel;
+00000298 2b0600000000*   465 	mov	_prmDisplayFuel,r11
+0000029e ab0709600000    466 	ld.dw	0[r11],r12
+000002a4 bb078f600000    467 	st.dw	r12,8[r27]
+                         468 --149:           if (prmOdometerSum >= RangeToEmptyAlgorithm_V2_P.K_OdometerInterval) {
+000002aa 2e0600000000*   469 	mov	_prmOdometerSum,r14
+000002b0 ba0f0700        470 	ld.bu	7[r26],r1
+000002b4 8e770100        471 	ld.bu	0[r14],r14
+000002b8 e171            472 	cmp	r1,r14
+000002ba e1071301*       473 	bl	.L30
+                         474 --150:             /* Transition: '<S1>:451' */
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                         475 --151:             /* Transition: '<S1>:473' */
+                         476 --152:             FuelConsumption = RangeToEmptyAlgorithm_V2_B.FuelSum / (DBL)
+                         477 --line152
+                         478 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.11::
+                         479 .LDWlin11:
+000002be 210600000000*   480 	mov	_prmOdometerSum,r1
+000002c4 810f0100        481 	ld.bu	0[r1],r1
+000002c8 b90709500000    482 	ld.dw	0[r25],r10
+000002ce f00f5264        483 	cvtf.uwd	r1,r12
+000002d2 ec577ee4        484 	divf.d	r12,r10,r28
+                         485 --153:               prmOdometerSum;
+                         486 --154:             RangeToEmptyAlgorithm_V2_B.FullFuelConsumption += (DBL)
+000002d6 ba0f0700        487 	ld.bu	7[r26],r1
+000002da c10a            488 	shl	1,r1
+000002dc e00f5264        489 	cvtf.wd	r1,r12
+000002e0 fa0f0100        490 	ld.hu	0[r26],r1
+000002e4 f00f5254        491 	cvtf.uwd	r1,r10
+000002e8 ea677e64        492 	divf.d	r10,r12,r12
+000002ec b90789500000    493 	ld.dw	8[r25],r10
+000002f2 eae77254        494 	subf.d	r10,r28,r10
+000002f6 ea677454        495 	mulf.d	r10,r12,r10
+000002fa b90789600000    496 	ld.dw	8[r25],r12
+00000300 ea677064        497 	addf.d	r10,r12,r12
+00000304 b9078f600000    498 	st.dw	r12,8[r25]
+                         499 --155:               (RangeToEmptyAlgorithm_V2_P.K_OdometerInterval << 1) / (DBL)
+                         500 --156:               RangeToEmptyAlgorithm_V2_P.K_FullFuelOdometer * (FuelConsumption -
+                         501 --157:               RangeToEmptyAlgorithm_V2_B.FullFuelConsumption);
+                         502 --158:             RangeToEmptyAlgorithm_V2_DW.LastFuelConsumption =
+0000030a bb0789610000    503 	ld.dw	24[r27],r12
+00000310 bb070f610000    504 	st.dw	r12,16[r27]
+                         505 --159:               RangeToEmptyAlgorithm_V2_DW.NewFuelConsumption;
+                         506 --160:             u1 = (DBL)prmRangeToEmpty * 0.001;
+00000316 210600000000*   507 	mov	_prmRangeToEmpty,r1
+0000031c 210f0100        508 	ld.w	0[r1],r1
+00000320 2b064d62503f    509 	mov	1062232653,r11
+00000326 2a06fca9f1d2    510 	mov	-755914244,r10
+0000032c f00f5264        511 	cvtf.uwd	r1,r12
+00000330 ea677434        512 	mulf.d	r10,r12,r6
+00000334 a3074f310000    513 	st.dw	r6,20[sp]
+                         514 --161:             if (RangeToEmptyAlgorithm_V2_P.K_EmptyFuelOdometer >= u1) {
+0000033a ba0f0500        515 	ld.bu	5[r26],r1
+0000033e a30749310000    516 	ld.dw	20[sp],r6
+00000344 f00f5264        517 	cvtf.uwd	r1,r12
+00000348 e6673664        518 	cmpf.d	lt,r12,r6,3
+0000034c e0070604        519 	trfsr	3
+00000350 820d*           520 	be	.L26
+                         521 --162:               u1 = RangeToEmptyAlgorithm_V2_P.K_EmptyFuelOdometer;
+                         522 --line162
+                         523 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.12::
+                         524 .LDWlin12:
+00000352 ba0f0500        525 	ld.bu	5[r26],r1
+00000356 f00f5264        526 	cvtf.uwd	r1,r12
+0000035a a3074f610000    527 	st.dw	r12,20[sp]
+                         528 .L26:
+                         529 --163:             }
+                         530 --165:             if (!(u1 <= RangeToEmptyAlgorithm_V2_P.K_FullFuelOdometer)) {
+00000360 fa0f0100        531 	ld.hu	0[r26],r1
+00000364 a30749310000    532 	ld.dw	20[sp],r6
+0000036a f00f5264        533 	cvtf.uwd	r1,r12
+0000036e e6673864        534 	cmpf.d	lt,r12,r6,4
+00000372 e0070804        535 	trfsr	4
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+00000376 8a0d*           536 	bne	.L28
+                         537 --166:               u1 = RangeToEmptyAlgorithm_V2_P.K_FullFuelOdometer;
+                         538 --line166
+                         539 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.13::
+                         540 .LDWlin13:
+00000378 fa0f0100        541 	ld.hu	0[r26],r1
+0000037c f00f5264        542 	cvtf.uwd	r1,r12
+00000380 a3074f610000    543 	st.dw	r12,20[sp]
+                         544 .L28:
+                         545 --167:             }
+                         546 --169:             RangeToEmptyAlgorithm_V2_DW.NewFuelConsumption += (DBL)
+00000386 ba0f0700        547 	ld.bu	7[r26],r1
+0000038a a30749310000    548 	ld.dw	20[sp],r6
+00000390 bb0789510000    549 	ld.dw	24[r27],r10
+00000396 c10a            550 	shl	1,r1
+00000398 e00f5264        551 	cvtf.wd	r1,r12
+0000039c eae77254        552 	subf.d	r10,r28,r10
+000003a0 e6677e64        553 	divf.d	r6,r12,r12
+000003a4 ea677454        554 	mulf.d	r10,r12,r10
+000003a8 bb0789610000    555 	ld.dw	24[r27],r12
+000003ae ea677064        556 	addf.d	r10,r12,r12
+000003b2 bb078f610000    557 	st.dw	r12,24[r27]
+                         558 --170:               (RangeToEmptyAlgorithm_V2_P.K_OdometerInterval << 1) / u1 *
+                         559 --171:               (FuelConsumption - RangeToEmptyAlgorithm_V2_DW.NewFuelConsumption);
+                         560 --172:             prmOdometerSum = 0U;
+000003b8 2b0600000000*   561 	mov	_prmOdometerSum,r11
+000003be 4b070000        562 	st.b	zero,0[r11]
+                         563 --173:             RangeToEmptyAlgorithm_V2_B.FuelSum = 0.0;
+000003c2 006a            564 	mov	0,r13
+000003c4 0062            565 	mov	0,r12
+000003c6 b9070f600000    566 	st.dw	r12,0[r25]
+                         567 .L30:
+                         568 --175:             /* Transition: '<S1>:467' */
+                         569 --176:           } else {
+                         570 --177:             /* Transition: '<S1>:461' */
+                         571 --178:           }
+                         572 --180:           /* Transition: '<S1>:426' */
+                         573 --181:           RangeToEmptyAlgorithm_V2_B.RecentFuelConsumption = ((DBL)
+000003cc 2e0600000000*   574 	mov	_prmOdometerSum,r14
+000003d2 ba0f0700        575 	ld.bu	7[r26],r1
+000003d6 8e770100        576 	ld.bu	0[r14],r14
+000003da bb0709510000    577 	ld.dw	16[r27],r10
+000003e0 bb0789410000    578 	ld.dw	24[r27],r8
+000003e6 ae09            579 	sub	r14,r1
+000003e8 e00f5264        580 	cvtf.wd	r1,r12
+000003ec 210600000000*   581 	mov	_prmOdometerSum,r1
+000003f2 810f0100        582 	ld.bu	0[r1],r1
+000003f6 ea677464        583 	mulf.d	r10,r12,r12
+000003fa f00f5254        584 	cvtf.uwd	r1,r10
+000003fe ba0f0700        585 	ld.bu	7[r26],r1
+00000402 ea477454        586 	mulf.d	r10,r8,r10
+00000406 ea677064        587 	addf.d	r10,r12,r12
+0000040a f00f5254        588 	cvtf.uwd	r1,r10
+0000040e ea677e64        589 	divf.d	r10,r12,r12
+00000412 b9070f610000    590 	st.dw	r12,16[r25]
+                         591 --182:             (RangeToEmptyAlgorithm_V2_P.K_OdometerInterval - prmOdometerSum) *
+                         592 --183:             RangeToEmptyAlgorithm_V2_DW.LastFuelConsumption +
+                         593 --184:             RangeToEmptyAlgorithm_V2_DW.NewFuelConsumption * (DBL)
+                         594 --185:             prmOdometerSum) / (DBL)
+                         595 --186:             RangeToEmptyAlgorithm_V2_P.K_OdometerInterval;
+                         596 --187:           if((prmRangeToEmpty >= (prmDisplayFuel - (DBL)
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+00000418 210600000000*   597 	mov	_prmRangeToEmpty,r1
+0000041e 210f0100        598 	ld.w	0[r1],r1
+00000422 0042            599 	mov	0,r8
+00000424 290600408f40    600 	mov	1083129856,r9
+0000042a 2e0600000000*   601 	mov	_prmDisplayFuel,r14
+00000430 f00f5264        602 	cvtf.uwd	r1,r12
+00000434 9a0f0500        603 	ld.bu	4[r26],r1
+00000438 f00f5254        604 	cvtf.uwd	r1,r10
+0000043c e8577454        605 	mulf.d	r8,r10,r10
+00000440 ae0709400000    606 	ld.dw	0[r14],r8
+00000446 ea477254        607 	subf.d	r10,r8,r10
+0000044a 290600408f40    608 	mov	1083129856,r9
+00000450 0042            609 	mov	0,r8
+00000452 e8577454        610 	mulf.d	r8,r10,r10
+00000456 b90709410000    611 	ld.dw	16[r25],r8
+0000045c e8577e54        612 	divf.d	r8,r10,r10
+00000460 ea673a64        613 	cmpf.d	lt,r12,r10,5
+00000464 e0070a04        614 	trfsr	5
+00000468 d22d*           615 	be	.L31
+0000046a 2e0600000000*   616 	mov	_prmRangeToEmpty,r14
+00000470 9a0f0900        617 	ld.bu	8[r26],r1
+00000474 2e770100        618 	ld.w	0[r14],r14
+00000478 e171            619 	cmp	r1,r14
+0000047a c125*           620 	bl	.L31
+                         621 --188:                                   RangeToEmptyAlgorithm_V2_P.K_BottomFuel *
+                         622 --189:                                   1000.0) * 1000.0 /
+                         623 --190:               RangeToEmptyAlgorithm_V2_B.RecentFuelConsumption) &&
+                         624 --191:               (prmRangeToEmpty >= RangeToEmptyAlgorithm_V2_P.K_StepDistance)){
+                         625 --192:             /* Transition: '<S1>:429' */
+                         626 --193:             /* Transition: '<S1>:508' */
+                         627 --194:             u1_0 = prmRangeToEmpty - RangeToEmptyAlgorithm_V2_P.K_StepDistance;
+                         628 --line194
+                         629 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.14::
+                         630 .LDWlin14:
+0000047c 210600000000*   631 	mov	_prmRangeToEmpty,r1
+00000482 210f0100        632 	ld.w	0[r1],r1
+00000486 9a770900        633 	ld.bu	8[r26],r14
+0000048a 630f0d00        634 	st.w	r1,12[sp]
+0000048e 0160            635 	mov	r1,r12
+00000490 ae61            636 	sub	r14,r12
+00000492 63670d00        637 	st.w	r12,12[sp]
+                         638 --195:             if (0U >= u1_0) {
+00000496 235f0d00        639 	ld.w	12[sp],r11
+0000049a e059            640 	cmp	zero,r11
+0000049c fb05*           641 	bh	.L34
+                         642 --196:               prmRangeToEmpty = 0U;
+                         643 --line196
+                         644 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.15::
+                         645 .LDWlin15:
+0000049e 2b0600000000*   646 	mov	_prmRangeToEmpty,r11
+000004a4 6b070100        647 	st.w	zero,0[r11]
+000004a8 850d*           648 	br	.L36
+                         649 .L34:
+                         650 --197:             } else {
+                         651 --198:               prmRangeToEmpty = u1_0;
+                         652 --line198
+                         653 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.16::
+                         654 .LDWlin16:
+000004aa 235f0d00        655 	ld.w	12[sp],r11
+000004ae 2c0600000000*   656 	mov	_prmRangeToEmpty,r12
+000004b4 6c5f0100        657 	st.w	r11,0[r12]
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                         658 .L36:
+                         659 --199:             }
+                         660 --201:             guard3 = true;
+000004b8 015a            661 	mov	1,r11
+000004ba 435f0500        662 	st.b	r11,5[sp]
+000004be 80072a02*       663 	br	.L6
+                         664 .L31:
+                         665 --202:           } else {
+                         666 --203:             /* Transition: '<S1>:424' */
+                         667 --204:             if (prmRangeToEmpty +
+                         668 --line204
+                         669 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.17::
+                         670 .LDWlin17:
+000004c2 2e0600000000*   671 	mov	_prmRangeToEmpty,r14
+000004c8 fa0f0300        672 	ld.hu	2[r26],r1
+000004cc 0042            673 	mov	0,r8
+000004ce 2e770100        674 	ld.w	0[r14],r14
+000004d2 290600408f40    675 	mov	1083129856,r9
+000004d8 ce09            676 	add	r14,r1
+000004da f00f5264        677 	cvtf.uwd	r1,r12
+000004de 9a0f0500        678 	ld.bu	4[r26],r1
+000004e2 2e0600000000*   679 	mov	_prmDisplayFuel,r14
+000004e8 f00f5254        680 	cvtf.uwd	r1,r10
+000004ec e8577454        681 	mulf.d	r8,r10,r10
+000004f0 ae0709400000    682 	ld.dw	0[r14],r8
+000004f6 ea477254        683 	subf.d	r10,r8,r10
+000004fa 290600408f40    684 	mov	1083129856,r9
+00000500 0042            685 	mov	0,r8
+00000502 e8577454        686 	mulf.d	r8,r10,r10
+00000506 b90709410000    687 	ld.dw	16[r25],r8
+0000050c e8577e54        688 	divf.d	r8,r10,r10
+00000510 ec573c64        689 	cmpf.d	lt,r10,r12,6
+00000514 e0070c04        690 	trfsr	6
+00000518 9235*           691 	be	.L38
+                         692 --205:                 RangeToEmptyAlgorithm_V2_P.K_HysteresisDistance <=
+                         693 --206:                 (prmDisplayFuel - (DBL)
+                         694 --207:                  RangeToEmptyAlgorithm_V2_P.K_BottomFuel * 1000.0) * 1000.0 /
+                         695 --208:                 RangeToEmptyAlgorithm_V2_B.RecentFuelConsumption) {
+                         696 --209:               /* Transition: '<S1>:502' */
+                         697 --210:               /* Transition: '<S1>:495' */
+                         698 --211:               FuelConsumption = (DBL)
+                         699 --line211
+                         700 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.18::
+                         701 .LDWlin18:
+0000051a 9a0f0900        702 	ld.bu	8[r26],r1
+0000051e 405ee03f        703 	movhi	16352,zero,r11
+00000522 0052            704 	mov	0,r10
+00000524 f00f5264        705 	cvtf.uwd	r1,r12
+00000528 210600000000*   706 	mov	_prmRangeToEmpty,r1
+0000052e 210f0100        707 	ld.w	0[r1],r1
+00000532 ea677464        708 	mulf.d	r10,r12,r12
+00000536 f00f5254        709 	cvtf.uwd	r1,r10
+0000053a ea6770e4        710 	addf.d	r10,r12,r28
+                         711 --212:                 RangeToEmptyAlgorithm_V2_P.K_StepDistance * 0.5 + (DBL)
+                         712 --213:                 prmRangeToEmpty;
+                         713 --214:               if (FuelConsumption <= 999000.0) {
+0000053e 2d06b07c2e41    714 	mov	1093565616,r13
+00000544 0062            715 	mov	0,r12
+00000546 fc673e64        716 	cmpf.d	lt,r12,r28,7
+0000054a e0070e04        717 	trfsr	7
+0000054e 920d*           718 	be	.L40
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                         719 --215:                 prmRangeToEmpty = (U32)FuelConsumption;
+                         720 --line215
+                         721 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.19::
+                         722 .LDWlin19:
+00000550 f1e7500c        723 	trncf.duw	r28,r1
+00000554 2b0600000000*   724 	mov	_prmRangeToEmpty,r11
+0000055a 6b0f0100        725 	st.w	r1,0[r11]
+0000055e 950d*           726 	br	.L42
+                         727 .L40:
+                         728 --216:               } else {
+                         729 --217:                 prmRangeToEmpty = 999000U;
+                         730 --line217
+                         731 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.20::
+                         732 .LDWlin20:
+00000560 2106583e0f00    733 	mov	999000,r1
+00000566 2b0600000000*   734 	mov	_prmRangeToEmpty,r11
+0000056c 6b0f0100        735 	st.w	r1,0[r11]
+                         736 .L42:
+                         737 --218:               }
+                         738 --220:               guard2 = true;
+00000570 015a            739 	mov	1,r11
+00000572 435f0400        740 	st.b	r11,4[sp]
+00000576 80077201*       741 	br	.L6
+                         742 .L38:
+                         743 --221:             } else {
+                         744 --222:               /* Transition: '<S1>:465' */
+                         745 --223:               guard1 = true;
+                         746 --line223
+                         747 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.21::
+                         748 .LDWlin21:
+0000057a 015a            749 	mov	1,r11
+0000057c 435f0300        750 	st.b	r11,3[sp]
+00000580 80076801*       751 	br	.L6
+                         752 .L15:
+                         753 --224:             }
+                         754 --225:           }
+                         755 --226:         }
+                         756 --227:       } else {
+                         757 --228:         /* Transition: '<S1>:437' */
+                         758 --229:         if (prmRangeToEmpty >= (U32)
+                         759 --line229
+                         760 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.22::
+                         761 .LDWlin22:
+00000584 fa770100        762 	ld.hu	0[r26],r14
+00000588 200ee803        763 	movea	1000,zero,r1
+0000058c ee0f2202        764 	mulu	r14,r1,zero
+00000590 2e0600000000*   765 	mov	_prmRangeToEmpty,r14
+00000596 2e770100        766 	ld.w	0[r14],r14
+0000059a e171            767 	cmp	r1,r14
+0000059c 810d*           768 	bl	.L45
+                         769 --230:             (RangeToEmptyAlgorithm_V2_P.K_FullFuelOdometer * 1000)) {
+                         770 --231:           /* Transition: '<S1>:430' */
+                         771 --232:           /* Transition: '<S1>:500' */
+                         772 --233:           RangeToEmptyAlgorithm_V2_B.RecentFuelConsumption =
+                         773 --line233
+                         774 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.23::
+                         775 .LDWlin23:
+0000059e b90789600000    776 	ld.dw	8[r25],r12
+000005a4 b9070f610000    777 	st.dw	r12,16[r25]
+000005aa f54d*           778 	br	.L47
+                         779 .L45:
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                         780 --234:             RangeToEmptyAlgorithm_V2_B.FullFuelConsumption;
+                         781 --236:           /* Transition: '<S1>:418' */
+                         782 --237:         } else {
+                         783 --238:           /* Transition: '<S1>:440' */
+                         784 --239:           if (RangeToEmptyAlgorithm_V2_DW.FuelConsumptionRate == 0.0) {
+                         785 --line239
+                         786 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.24::
+                         787 .LDWlin24:
+000005ac bb0709500000    788 	ld.dw	0[r27],r10
+000005b2 006a            789 	mov	0,r13
+000005b4 0062            790 	mov	0,r12
+000005b6 ec573014        791 	cmpf.d	eq,r10,r12,0
+000005ba e0070004        792 	trfsr	0
+000005be ba25*           793 	bne	.L50
+                         794 --240:             /* Transition: '<S1>:503' */
+                         795 --241:             /* Transition: '<S1>:480' */
+                         796 --242:             RangeToEmptyAlgorithm_V2_DW.FuelConsumptionRate =
+                         797 --line242
+                         798 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.25::
+                         799 .LDWlin25:
+000005c0 b90789600000    800 	ld.dw	8[r25],r12
+000005c6 b90709510000    801 	ld.dw	16[r25],r10
+000005cc fa0f0100        802 	ld.hu	0[r26],r1
+000005d0 27064d62503f    803 	mov	1062232653,r7
+000005d6 2606fca9f1d2    804 	mov	-755914244,r6
+000005dc ea677264        805 	subf.d	r10,r12,r12
+000005e0 f00f5254        806 	cvtf.uwd	r1,r10
+000005e4 210600000000*   807 	mov	_prmRangeToEmpty,r1
+000005ea 210f0100        808 	ld.w	0[r1],r1
+000005ee f00f5244        809 	cvtf.uwd	r1,r8
+000005f2 e6477444        810 	mulf.d	r6,r8,r8
+000005f6 e8577254        811 	subf.d	r8,r10,r10
+000005fa ea677e64        812 	divf.d	r10,r12,r12
+000005fe bb070f600000    813 	st.dw	r12,0[r27]
+                         814 .L50:
+                         815 --243:               (RangeToEmptyAlgorithm_V2_B.FullFuelConsumption -
+                         816 --244:                RangeToEmptyAlgorithm_V2_B.RecentFuelConsumption) / ((DBL)
+                         817 --245:               RangeToEmptyAlgorithm_V2_P.K_FullFuelOdometer - (DBL)
+                         818 --246:               prmRangeToEmpty * 0.001);
+                         819 --248:             /* Transition: '<S1>:435' */
+                         820 --249:           } else {
+                         821 --250:             /* Transition: '<S1>:497' */
+                         822 --251:           }
+                         823 --253:           /* Transition: '<S1>:459' */
+                         824 --254:           RangeToEmptyAlgorithm_V2_B.RecentFuelConsumption =
+00000604 fa0f0100        825 	ld.hu	0[r26],r1
+00000608 29064d62503f    826 	mov	1062232653,r9
+0000060e 2806fca9f1d2    827 	mov	-755914244,r8
+00000614 f00f5264        828 	cvtf.uwd	r1,r12
+00000618 210600000000*   829 	mov	_prmRangeToEmpty,r1
+0000061e 210f0100        830 	ld.w	0[r1],r1
+00000622 f00f5254        831 	cvtf.uwd	r1,r10
+00000626 e8577454        832 	mulf.d	r8,r10,r10
+0000062a ea677264        833 	subf.d	r10,r12,r12
+0000062e bb0709500000    834 	ld.dw	0[r27],r10
+00000634 ea677464        835 	mulf.d	r10,r12,r12
+00000638 b90789500000    836 	ld.dw	8[r25],r10
+0000063e ec577264        837 	subf.d	r12,r10,r12
+00000642 b9070f610000    838 	st.dw	r12,16[r25]
+                         839 .L47:
+                         840 --255:             RangeToEmptyAlgorithm_V2_B.FullFuelConsumption - ((DBL)
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                         841 --256:             RangeToEmptyAlgorithm_V2_P.K_FullFuelOdometer - (DBL)
+                         842 --257:             prmRangeToEmpty * 0.001) *
+                         843 --258:             RangeToEmptyAlgorithm_V2_DW.FuelConsumptionRate;
+                         844 --259:         }
+                         845 --261:         /* Transition: '<S1>:438' */
+                         846 --262:         prmRangeToEmpty = (U32)((prmDisplayFuel - (DBL)
+00000648 9a0f0500        847 	ld.bu	4[r26],r1
+0000064c 0052            848 	mov	0,r10
+0000064e 2b0600408f40    849 	mov	1083129856,r11
+00000654 2e0600000000*   850 	mov	_prmDisplayFuel,r14
+0000065a 3d0600000000*   851 	mov	_prmRangeToEmpty,r29
+00000660 f00f5264        852 	cvtf.uwd	r1,r12
+00000664 ea677464        853 	mulf.d	r10,r12,r12
+00000668 ae0709500000    854 	ld.dw	0[r14],r10
+0000066e ec577264        855 	subf.d	r12,r10,r12
+00000672 2b0600408f40    856 	mov	1083129856,r11
+00000678 0052            857 	mov	0,r10
+0000067a ea677464        858 	mulf.d	r10,r12,r12
+0000067e b90709510000    859 	ld.dw	16[r25],r10
+00000684 ea677e64        860 	divf.d	r10,r12,r12
+00000688 f167500c        861 	trncf.duw	r12,r1
+0000068c 7d0f0100        862 	st.w	r1,0[r29]
+                         863 --263:           RangeToEmptyAlgorithm_V2_P.K_BottomFuel * 1000.0) * 1000.0 /
+                         864 --264:           RangeToEmptyAlgorithm_V2_B.RecentFuelConsumption);
+                         865 --265:         prmDisplayRangeToEmpty = (U16)((DBL)prmRangeToEmpty * 0.001);
+00000690 210600000000*   866 	mov	_prmRangeToEmpty,r1
+00000696 210f0100        867 	ld.w	0[r1],r1
+0000069a 2b064d62503f    868 	mov	1062232653,r11
+000006a0 2a06fca9f1d2    869 	mov	-755914244,r10
+000006a6 f00f5264        870 	cvtf.uwd	r1,r12
+000006aa ea677464        871 	mulf.d	r10,r12,r12
+000006ae f167500c        872 	trncf.duw	r12,r1
+000006b2 2c0600000000*   873 	mov	_prmDisplayRangeToEmpty,r12
+000006b8 c100            874 	zxh	r1
+000006ba 6c0f0000        875 	st.h	r1,0[r12]
+                         876 --266:         prmRangeToEmptyWarning = false;
+000006be 2b0600000000*   877 	mov	_prmRangeToEmptyWarning,r11
+000006c4 4b070000        878 	st.b	zero,0[r11]
+                         879 --267:         RangeToEmptyAlgorithm_V2_DW.LastOdometer = gASI_VehicleOdometer;
+000006c8 210600000000*   880 	mov	_gASI_VehicleOdometer,r1
+000006ce 210f0100        881 	ld.w	0[r1],r1
+000006d2 7b0f2100        882 	st.w	r1,32[r27]
+                         883 --268:         RangeToEmptyAlgorithm_V2_DW.LastFuel = prmDisplayFuel;
+000006d6 2b0600000000*   884 	mov	_prmDisplayFuel,r11
+000006dc ab0709600000    885 	ld.dw	0[r11],r12
+000006e2 bb078f600000    886 	st.dw	r12,8[r27]
+                         887 .L6:
+                         888 --270:         /* Transition: '<S1>:486' */
+                         889 --271:         /* Transition: '<S1>:509' */
+                         890 --272:         /* Transition: '<S1>:450' */
+                         891 --273:       }
+                         892 --274:     }
+                         893 --275:   }
+                         894 --277:   if (guard5) {
+000006e8 a35f0700        895 	ld.bu	7[sp],r11
+000006ec e059            896 	cmp	zero,r11
+000006ee c205*           897 	be	.L51
+                         898 --278:     /* Transition: '<S1>:507' */
+                         899 --279:     /* Transition: '<S1>:434' */
+                         900 --280:     guard4 = true;
+                         901 --line280
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                         902 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.26::
+                         903 .LDWlin26:
+000006f0 015a            904 	mov	1,r11
+000006f2 435f0600        905 	st.b	r11,6[sp]
+                         906 .L51:
+                         907 --281:   }
+                         908 --283:   if (guard4) {
+000006f6 835f0700        909 	ld.bu	6[sp],r11
+000006fa e059            910 	cmp	zero,r11
+000006fc c205*           911 	be	.L53
+                         912 --284:     /* Transition: '<S1>:489' */
+                         913 --285:     guard3 = true;
+                         914 --line285
+                         915 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.27::
+                         916 .LDWlin27:
+000006fe 015a            917 	mov	1,r11
+00000700 435f0500        918 	st.b	r11,5[sp]
+                         919 .L53:
+                         920 --286:   }
+                         921 --288:   if (guard3) {
+00000704 a35f0500        922 	ld.bu	5[sp],r11
+00000708 e059            923 	cmp	zero,r11
+0000070a c205*           924 	be	.L55
+                         925 --289:     /* Transition: '<S1>:455' */
+                         926 --290:     guard2 = true;
+                         927 --line290
+                         928 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.28::
+                         929 .LDWlin28:
+0000070c 015a            930 	mov	1,r11
+0000070e 435f0400        931 	st.b	r11,4[sp]
+                         932 .L55:
+                         933 --291:   }
+                         934 --293:   if (guard2) {
+00000712 835f0500        935 	ld.bu	4[sp],r11
+00000716 e059            936 	cmp	zero,r11
+00000718 c205*           937 	be	.L57
+                         938 --294:     /* Transition: '<S1>:472' */
+                         939 --295:     guard1 = true;
+                         940 --line295
+                         941 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.29::
+                         942 .LDWlin29:
+0000071a 015a            943 	mov	1,r11
+0000071c 435f0300        944 	st.b	r11,3[sp]
+                         945 .L57:
+                         946 --296:   }
+                         947 --298:   if (guard1) {
+00000720 a35f0300        948 	ld.bu	3[sp],r11
+00000724 e059            949 	cmp	zero,r11
+00000726 d22d*           950 	be	.L59
+                         951 --299:     /* Transition: '<S1>:447' */
+                         952 --300:     prmDisplayRangeToEmpty = (U16)((DBL)prmRangeToEmpty * 0.001);
+                         953 --line300
+                         954 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.30::
+                         955 .LDWlin30:
+00000728 210600000000*   956 	mov	_prmRangeToEmpty,r1
+0000072e 210f0100        957 	ld.w	0[r1],r1
+00000732 2b064d62503f    958 	mov	1062232653,r11
+00000738 2a06fca9f1d2    959 	mov	-755914244,r10
+0000073e f00f5264        960 	cvtf.uwd	r1,r12
+00000742 ea677464        961 	mulf.d	r10,r12,r12
+00000746 f167500c        962 	trncf.duw	r12,r1
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+0000074a 2c0600000000*   963 	mov	_prmDisplayRangeToEmpty,r12
+00000750 c100            964 	zxh	r1
+00000752 6c0f0000        965 	st.h	r1,0[r12]
+                         966 --301:     if (prmDisplayRangeToEmpty >= RangeToEmptyAlgorithm_V2_P.K_EmptyFuelOdometer)
+00000756 2e0600000000*   967 	mov	_prmDisplayRangeToEmpty,r14
+0000075c ba0f0500        968 	ld.bu	5[r26],r1
+00000760 ee770100        969 	ld.hu	0[r14],r14
+00000764 e171            970 	cmp	r1,r14
+00000766 f105*           971 	bl	.L61
+                         972 --302:     {
+                         973 --303:       /* Transition: '<S1>:499' */
+                         974 --304:       /* Transition: '<S1>:463' */
+                         975 --305:       prmRangeToEmptyWarning = false;
+                         976 --line305
+                         977 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.31::
+                         978 .LDWlin31:
+00000768 2b0600000000*   979 	mov	_prmRangeToEmptyWarning,r11
+0000076e 4b070000        980 	st.b	zero,0[r11]
+00000772 f505*           981 	br	.L59
+                         982 .L61:
+                         983 --307:       /* Transition: '<S1>:505' */
+                         984 --308:     } else {
+                         985 --309:       /* Transition: '<S1>:501' */
+                         986 --310:       prmRangeToEmptyWarning = true;
+                         987 --line310
+                         988 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.32::
+                         989 .LDWlin32:
+00000774 2b0600000000*   990 	mov	_prmRangeToEmptyWarning,r11
+0000077a 010a            991 	mov	1,r1
+0000077c 4b0f0000        992 	st.b	r1,0[r11]
+                         993 .L59:
+                         994 --311:     }
+                         995 --312:   }
+                         996 --314:   /* End of Chart: '<Root>/Range To Empty Algorithm' */
+                         997 --316:   /* DataTypeConversion: '<Root>/Data Type Conversion4' */
+                         998 --317:   /* Transition: '<S1>:498' */
+                         999 --318:   FuelConsumption = floor(RangeToEmptyAlgorithm_V2_B.FuelSum);
+00000780 b90709300000   1000 	ld.dw	0[r25],r6
+                        1001 	jarl	_floor,lp
+                        1001 <EXPANSION BEGIN>
+                        1001 jarl22 _floor , lp 
+00000786 80ff0000*      1001 <EXPANSION END>
+0000078a 0ae0           1002 	mov	r10,r28
+0000078c 0be8           1003 	mov	r11,r29
+                        1004 --319:   if (rtIsNaN(FuelConsumption) || rtIsInf(FuelConsumption)) {
+                        1005 --line319
+                        1006 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.33::
+                        1007 .LDWlin33:
+0000078e 1c30           1008 	mov	r28,r6
+00000790 1d38           1009 	mov	r29,r7
+                        1010 	jarl	_rtIsNaN,lp
+                        1010 <EXPANSION BEGIN>
+                        1010 jarl22 _rtIsNaN , lp 
+00000792 80ff0000*      1010 <EXPANSION END>
+00000796 e051           1011 	cmp	zero,r10
+00000798 fa05*          1012 	bne	.L65
+0000079a 1c30           1013 	mov	r28,r6
+0000079c 1d38           1014 	mov	r29,r7
+                        1015 	jarl	_rtIsInf,lp
+                        1015 <EXPANSION BEGIN>
+                        1015 jarl22 _rtIsInf , lp 
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+0000079e 80ff0000*      1015 <EXPANSION END>
+000007a2 e051           1016 	cmp	zero,r10
+000007a4 c205*          1017 	be	.L64
+                        1018 .L65:
+                        1019 --320:     FuelConsumption = 0.0;
+                        1020 --line320
+                        1021 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.34::
+                        1022 .LDWlin34:
+000007a6 00ea           1023 	mov	0,r29
+000007a8 00e2           1024 	mov	0,r28
+000007aa c50d*          1025 	br	.L67
+                        1026 .L64:
+                        1027 --321:   } else {
+                        1028 --322:     FuelConsumption = fmod(FuelConsumption, 65536.0);
+                        1029 --line322
+                        1030 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.35::
+                        1031 .LDWlin35:
+000007ac 1c30           1032 	mov	r28,r6
+000007ae 1d38           1033 	mov	r29,r7
+000007b0 404ef040       1034 	movhi	16624,zero,r9
+000007b4 0042           1035 	mov	0,r8
+                        1036 	jarl	_fmod,lp
+                        1036 <EXPANSION BEGIN>
+                        1036 jarl22 _fmod , lp 
+000007b6 80ff0000*      1036 <EXPANSION END>
+000007ba 0a60           1037 	mov	r10,r12
+000007bc 0b68           1038 	mov	r11,r13
+000007be 0ce0           1039 	mov	r12,r28
+000007c0 0de8           1040 	mov	r13,r29
+                        1041 .L67:
+                        1042 --323:   }
+                        1043 --325:   prmFuelSum = (U16)(FuelConsumption < 0.0 ? (int32_T)(U16)-(int16_T)
+                        1044 --line325
+                        1045 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.36::
+                        1046 .LDWlin36:
+000007c2 006a           1047 	mov	0,r13
+000007c4 0062           1048 	mov	0,r12
+000007c6 fc673274       1049 	cmpf.d	le,r12,r28,1
+000007ca e0070204       1050 	trfsr	1
+000007ce a20d*          1051 	be	.L68
+000007d0 e1e75864       1052 	negf.d	r28,r12
+000007d4 f167500c       1053 	trncf.duw	r12,r1
+000007d8 c100           1054 	zxh	r1
+000007da e100           1055 	sxh	r1
+000007dc 8009           1056 	subr	zero,r1
+000007de c100           1057 	zxh	r1
+000007e0 c505*          1058 	br	.L70
+                        1059 .L68:
+000007e2 f1e7500c       1060 	trncf.duw	r28,r1
+000007e6 c100           1061 	zxh	r1
+                        1062 .L70:
+000007e8 2b0600000000*  1063 	mov	_prmFuelSum,r11
+000007ee 6b0f0000       1064 	st.h	r1,0[r11]
+                        1065 --326:     (U16)-FuelConsumption : (int32_T)(U16)FuelConsumption);
+                        1066 --328:   /* End of DataTypeConversion: '<Root>/Data Type Conversion4' */
+                        1067 --330:   /* DataTypeConversion: '<Root>/Data Type Conversion' */
+                        1068 --331:   FuelConsumption = floor(RangeToEmptyAlgorithm_V2_B.FullFuelConsumption);
+                        1069 --line331
+                        1070 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.37::
+                        1071 .LDWlin37:
+000007f2 b90789300000   1072 	ld.dw	8[r25],r6
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                        1073 	jarl	_floor,lp
+                        1073 <EXPANSION BEGIN>
+                        1073 jarl22 _floor , lp 
+000007f8 80ff0000*      1073 <EXPANSION END>
+000007fc 0ae0           1074 	mov	r10,r28
+000007fe 0be8           1075 	mov	r11,r29
+                        1076 --332:   if (rtIsNaN(FuelConsumption) || rtIsInf(FuelConsumption)) {
+                        1077 --line332
+                        1078 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.38::
+                        1079 .LDWlin38:
+00000800 1c30           1080 	mov	r28,r6
+00000802 1d38           1081 	mov	r29,r7
+                        1082 	jarl	_rtIsNaN,lp
+                        1082 <EXPANSION BEGIN>
+                        1082 jarl22 _rtIsNaN , lp 
+00000804 80ff0000*      1082 <EXPANSION END>
+00000808 e051           1083 	cmp	zero,r10
+0000080a fa05*          1084 	bne	.L72
+0000080c 1c30           1085 	mov	r28,r6
+0000080e 1d38           1086 	mov	r29,r7
+                        1087 	jarl	_rtIsInf,lp
+                        1087 <EXPANSION BEGIN>
+                        1087 jarl22 _rtIsInf , lp 
+00000810 80ff0000*      1087 <EXPANSION END>
+00000814 e051           1088 	cmp	zero,r10
+00000816 c205*          1089 	be	.L71
+                        1090 .L72:
+                        1091 --333:     FuelConsumption = 0.0;
+                        1092 --line333
+                        1093 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.39::
+                        1094 .LDWlin39:
+00000818 00ea           1095 	mov	0,r29
+0000081a 00e2           1096 	mov	0,r28
+0000081c c50d*          1097 	br	.L74
+                        1098 .L71:
+                        1099 --334:   } else {
+                        1100 --335:     FuelConsumption = fmod(FuelConsumption, 256.0);
+                        1101 --line335
+                        1102 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.40::
+                        1103 .LDWlin40:
+0000081e 1c30           1104 	mov	r28,r6
+00000820 1d38           1105 	mov	r29,r7
+00000822 404e7040       1106 	movhi	16496,zero,r9
+00000826 0042           1107 	mov	0,r8
+                        1108 	jarl	_fmod,lp
+                        1108 <EXPANSION BEGIN>
+                        1108 jarl22 _fmod , lp 
+00000828 80ff0000*      1108 <EXPANSION END>
+0000082c 0a60           1109 	mov	r10,r12
+0000082e 0b68           1110 	mov	r11,r13
+00000830 0ce0           1111 	mov	r12,r28
+00000832 0de8           1112 	mov	r13,r29
+                        1113 .L74:
+                        1114 --336:   }
+                        1115 --338:   prmFullFuelConsumption = (U8)(FuelConsumption < 0.0 ? (int32_T)(U8)
+                        1116 --line338
+                        1117 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.41::
+                        1118 .LDWlin41:
+00000834 006a           1119 	mov	0,r13
+00000836 0062           1120 	mov	0,r12
+00000838 fc673474       1121 	cmpf.d	le,r12,r28,2
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+0000083c e0070404       1122 	trfsr	2
+00000840 a20d*          1123 	be	.L75
+00000842 e1e75864       1124 	negf.d	r28,r12
+00000846 f167500c       1125 	trncf.duw	r12,r1
+0000084a 8100           1126 	zxb	r1
+0000084c a100           1127 	sxb	r1
+0000084e 8009           1128 	subr	zero,r1
+00000850 8100           1129 	zxb	r1
+00000852 c505*          1130 	br	.L77
+                        1131 .L75:
+00000854 f1e7500c       1132 	trncf.duw	r28,r1
+00000858 8100           1133 	zxb	r1
+                        1134 .L77:
+0000085a 2b0600000000*  1135 	mov	_prmFullFuelConsumption,r11
+00000860 4b0f0000       1136 	st.b	r1,0[r11]
+                        1137 --339:                                      -(int8_T)(U8)-FuelConsumption :
+                        1138 --340:     (int32_T)(U8)FuelConsumption);
+                        1139 --342:   /* End of DataTypeConversion: '<Root>/Data Type Conversion' */
+                        1140 --344:   /* DataTypeConversion: '<Root>/Data Type Conversion1' */
+                        1141 --345:   FuelConsumption = floor(RangeToEmptyAlgorithm_V2_B.RecentFuelConsumption);
+                        1142 --line345
+                        1143 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.42::
+                        1144 .LDWlin42:
+00000864 b90709310000   1145 	ld.dw	16[r25],r6
+                        1146 	jarl	_floor,lp
+                        1146 <EXPANSION BEGIN>
+                        1146 jarl22 _floor , lp 
+0000086a 80ff0000*      1146 <EXPANSION END>
+0000086e 0ae0           1147 	mov	r10,r28
+00000870 0be8           1148 	mov	r11,r29
+                        1149 --346:   if (rtIsNaN(FuelConsumption) || rtIsInf(FuelConsumption)) {
+                        1150 --line346
+                        1151 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.43::
+                        1152 .LDWlin43:
+00000872 1c30           1153 	mov	r28,r6
+00000874 1d38           1154 	mov	r29,r7
+                        1155 	jarl	_rtIsNaN,lp
+                        1155 <EXPANSION BEGIN>
+                        1155 jarl22 _rtIsNaN , lp 
+00000876 80ff0000*      1155 <EXPANSION END>
+0000087a e051           1156 	cmp	zero,r10
+0000087c fa05*          1157 	bne	.L79
+0000087e 1c30           1158 	mov	r28,r6
+00000880 1d38           1159 	mov	r29,r7
+                        1160 	jarl	_rtIsInf,lp
+                        1160 <EXPANSION BEGIN>
+                        1160 jarl22 _rtIsInf , lp 
+00000882 80ff0000*      1160 <EXPANSION END>
+00000886 e051           1161 	cmp	zero,r10
+00000888 c205*          1162 	be	.L78
+                        1163 .L79:
+                        1164 --347:     FuelConsumption = 0.0;
+                        1165 --line347
+                        1166 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.44::
+                        1167 .LDWlin44:
+0000088a 00ea           1168 	mov	0,r29
+0000088c 00e2           1169 	mov	0,r28
+0000088e c50d*          1170 	br	.L81
+                        1171 .L78:
+                        1172 --348:   } else {
+                        1173 --349:     FuelConsumption = fmod(FuelConsumption, 256.0);
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                        1174 --line349
+                        1175 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.45::
+                        1176 .LDWlin45:
+00000890 1c30           1177 	mov	r28,r6
+00000892 1d38           1178 	mov	r29,r7
+00000894 404e7040       1179 	movhi	16496,zero,r9
+00000898 0042           1180 	mov	0,r8
+                        1181 	jarl	_fmod,lp
+                        1181 <EXPANSION BEGIN>
+                        1181 jarl22 _fmod , lp 
+0000089a 80ff0000*      1181 <EXPANSION END>
+0000089e 0a60           1182 	mov	r10,r12
+000008a0 0b68           1183 	mov	r11,r13
+000008a2 0ce0           1184 	mov	r12,r28
+000008a4 0de8           1185 	mov	r13,r29
+                        1186 .L81:
+                        1187 --350:   }
+                        1188 --352:   prmRecentFuelConsumption = (U8)(FuelConsumption < 0.0 ? (int32_T)(U8)
+                        1189 --line352
+                        1190 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.46::
+                        1191 .LDWlin46:
+000008a6 006a           1192 	mov	0,r13
+000008a8 0062           1193 	mov	0,r12
+000008aa fc673674       1194 	cmpf.d	le,r12,r28,3
+000008ae e0070604       1195 	trfsr	3
+000008b2 a20d*          1196 	be	.L82
+000008b4 e1e75864       1197 	negf.d	r28,r12
+000008b8 f167500c       1198 	trncf.duw	r12,r1
+000008bc 8100           1199 	zxb	r1
+000008be a100           1200 	sxb	r1
+000008c0 8009           1201 	subr	zero,r1
+000008c2 8100           1202 	zxb	r1
+000008c4 c505*          1203 	br	.L84
+                        1204 .L82:
+000008c6 f1e7500c       1205 	trncf.duw	r28,r1
+000008ca 8100           1206 	zxb	r1
+                        1207 .L84:
+000008cc 2b0600000000*  1208 	mov	_prmRecentFuelConsumption,r11
+000008d2 4b0f0000       1209 	st.b	r1,0[r11]
+                        1210 --353:     -(int8_T)(U8)-FuelConsumption : (int32_T)(U8)FuelConsumption);
+                        1211 --354:   
+                        1212 --355:   /* End of DataTypeConversion: '<Root>/Data Type Conversion1' */
+                        1213 --356:   #endif
+                        1214 --357:   //RANG_Output();  
+                        1215 --358:   //RANG_Printf();
+                        1216 --359: }
+                        1217 --line359
+                        1218 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.47::
+                        1219 .LDWlin47:
+000008d6 0000           1220 	nop
+                        1221 --	    .ef
+                        1222 .LDW11:
+000008d8 4e06ff70       1223 	dispose	7,{r25,r26,r27,r28,r29,r31},[lp]
+                        1224 	.type	_RangeToEmptyAlgorithm_V2_step,@function
+                        1225 	.size	_RangeToEmptyAlgorithm_V2_step,.-_RangeToEmptyAlgorithm_V2_step
+                        1226 	.align	2
+                        1227 .LDW21:
+                        1228 --_FuelConsumption	r28	local
+                        1229 --_guard1	3[sp]	local
+                        1230 --_guard2	4[sp]	local
+                        1231 --_guard3	5[sp]	local
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                        1232 --_guard4	6[sp]	local
+                        1233 --_guard5	7[sp]	local
+                        1234 --_u1	20[sp]	local
+                        1235 --_u1_0	12[sp]	local
+                        1236 
+                        1237 	.section ".bss","awb"
+                        1238 .L338:
+                        1239 	.type	.L338,@object
+                        1240 	.size	.L338,0
+                        1241 	.data
+                        1242 	.text
+                        1243 
+                        1244 
+                        1245 --361: /* Model initialize function */
+                        1246 --362: void RangeToEmptyAlgorithm_V2_initialize(void)
+                        1247 	.align	2
+                        1248 	.align	2
+                        1249 	.global	_RangeToEmptyAlgorithm_V2_initialize
+                        1250 _RangeToEmptyAlgorithm_V2_initialize:
+000008dc 8007e130       1251 	prepare	{r26,r27,r28,r29,r31},0
+000008e0 3d0600000000*  1252 	mov	_RangeToEmptyAlgorithm_V2_DW,r29
+000008e6 3c0600000000*  1253 	mov	_RangeToEmptyAlgorithm_V2_B,r28
+000008ec 3b0600000000*  1254 	mov	_gASI_K_RangeToEmpty,r27
+000008f2 3a0600000000*  1255 	mov	_gASI_K_RecentFuelConsumption,r26
+                        1256 --	    .bf
+                        1257 .LDW31:
+                        1258 --363: {
+                        1259 --364:   /* Registration code */
+                        1260 --366:   /* initialize non-finites */
+                        1261 --367:   rt_InitInfAndNaN(sizeof(DBL));
+000008f8 0832           1262 	mov	8,r6
+                        1263 	jarl	_rt_InitInfAndNaN,lp
+                        1263 <EXPANSION BEGIN>
+                        1263 jarl22 _rt_InitInfAndNaN , lp 
+000008fa 80ff0000*      1263 <EXPANSION END>
+                        1264 --369:   /* initialize error status */
+                        1265 --370:   rtmSetErrorStatus(RangeToEmptyAlgorithm_V2_M, (NULL));
+                        1266 --line370
+                        1267 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.48::
+                        1268 .LDWlin48:
+000008fe 3e0600000000*  1269 	mov	_RangeToEmptyAlgorithm_V2_M,ep
+00000904 00f5           1270 	sld.w	0[ep],ep
+00000906 0105           1271 	sst.w	zero,0[ep]
+                        1272 --372:   /* block I/O */
+                        1273 --373:   (void) memset(((void *) &RangeToEmptyAlgorithm_V2_B), 0,
+00000908 1c30           1274 	mov	r28,r6
+0000090a 003a           1275 	mov	0,r7
+0000090c 20461800       1276 	movea	24,zero,r8
+                        1277 	jarl	_memset,lp
+                        1277 <EXPANSION BEGIN>
+                        1277 jarl22 _memset , lp 
+00000910 80ff0000*      1277 <EXPANSION END>
+                        1278 --374:                 sizeof(B_RangeToEmptyAlgorithm_V2_T));
+                        1279 --376:   /* exported global signals */
+                        1280 --377:   prmRangeToEmpty = 0U;
+                        1281 --line377
+                        1282 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.49::
+                        1283 .LDWlin49:
+00000914 2b0600000000*  1284 	mov	_prmRangeToEmpty,r11
+0000091a 6b070100       1285 	st.w	zero,0[r11]
+                        1286 --378:   prmFuelSum = 0U;
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+0000091e 2b0600000000*  1287 	mov	_prmFuelSum,r11
+00000924 6b070000       1288 	st.h	zero,0[r11]
+                        1289 --379:   prmDisplayRangeToEmpty = 0U;
+00000928 2b0600000000*  1290 	mov	_prmDisplayRangeToEmpty,r11
+0000092e 6b070000       1291 	st.h	zero,0[r11]
+                        1292 --380:   prmFullFuelConsumption = 0U;
+00000932 2b0600000000*  1293 	mov	_prmFullFuelConsumption,r11
+00000938 4b070000       1294 	st.b	zero,0[r11]
+                        1295 --381:   prmRecentFuelConsumption = 0U;
+0000093c 2b0600000000*  1296 	mov	_prmRecentFuelConsumption,r11
+00000942 4b070000       1297 	st.b	zero,0[r11]
+                        1298 --382:   prmOdometerSum = 0U;
+00000946 2b0600000000*  1299 	mov	_prmOdometerSum,r11
+0000094c 4b070000       1300 	st.b	zero,0[r11]
+                        1301 --383:   prmRangeToEmptyWarning = false;
+00000950 2b0600000000*  1302 	mov	_prmRangeToEmptyWarning,r11
+00000956 4b070000       1303 	st.b	zero,0[r11]
+                        1304 --385:   /* states (dwork) */
+                        1305 --386:   (void) memset((void *)&RangeToEmptyAlgorithm_V2_DW, 0,
+0000095a 1d30           1306 	mov	r29,r6
+0000095c 003a           1307 	mov	0,r7
+0000095e 20462800       1308 	movea	40,zero,r8
+                        1309 	jarl	_memset,lp
+                        1309 <EXPANSION BEGIN>
+                        1309 jarl22 _memset , lp 
+00000962 80ff0000*      1309 <EXPANSION END>
+                        1310 --387:                 sizeof(DW_RangeToEmptyAlgorithm_V2_T));
+                        1311 --389:   /* external inputs */
+                        1312 --390:   gASI_VehicleOdometer = 0U;
+                        1313 --line390
+                        1314 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.50::
+                        1315 .LDWlin50:
+00000966 2b0600000000*  1316 	mov	_gASI_VehicleOdometer,r11
+0000096c 6b070100       1317 	st.w	zero,0[r11]
+                        1318 --391:   gASI_K_FullFuelConsumption = 0U;
+00000970 2b0600000000*  1319 	mov	_gASI_K_FullFuelConsumption,r11
+00000976 4b070000       1320 	st.b	zero,0[r11]
+                        1321 --392:   gASI_K_RecentFuelConsumption = 0U;
+0000097a 5a070000       1322 	st.b	zero,0[r26]
+                        1323 --393:   gASI_K_OdometerSum = 0U;
+0000097e 2b0600000000*  1324 	mov	_gASI_K_OdometerSum,r11
+00000984 4b070000       1325 	st.b	zero,0[r11]
+                        1326 --394:   gASI_K_FuelSum = 0U;
+00000988 2b0600000000*  1327 	mov	_gASI_K_FuelSum,r11
+0000098e 6b070000       1328 	st.h	zero,0[r11]
+                        1329 --395:   gASI_K_RangeToEmpty = 0U;
+00000992 7b070100       1330 	st.w	zero,0[r27]
+                        1331 --396:   gASI_VehicleOdometerV = 0U;
+00000996 2b0600000000*  1332 	mov	_gASI_VehicleOdometerV,r11
+0000099c 4b070000       1333 	st.b	zero,0[r11]
+                        1334 --398:   /* InitializeConditions for Chart: '<Root>/Range To Empty Algorithm' */
+                        1335 --399:   RangeToEmptyAlgorithm_V2_DW.InitializeCount = 0U;
+000009a0 5d072400       1336 	st.b	zero,36[r29]
+                        1337 --400:   RangeToEmptyAlgorithm_V2_DW.LastOdometer = 0U;
+000009a4 7d072100       1338 	st.w	zero,32[r29]
+                        1339 --401:   RangeToEmptyAlgorithm_V2_DW.FuelConsumptionRate = 0.0;
+000009a8 7d070100       1340 	st.w	zero,0[r29]
+000009ac 7d070500       1341 	st.w	zero,4[r29]
+                        1342 --402:   RangeToEmptyAlgorithm_V2_DW.LastFuel = 0.0;
+000009b0 7d070900       1343 	st.w	zero,8[r29]
+000009b4 7d070d00       1344 	st.w	zero,12[r29]
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                        1345 --403:   RangeToEmptyAlgorithm_V2_DW.LastFuelConsumption = 0.0;
+000009b8 7d071100       1346 	st.w	zero,16[r29]
+000009bc 7d071500       1347 	st.w	zero,20[r29]
+                        1348 --404:   RangeToEmptyAlgorithm_V2_DW.NewFuelConsumption = 0.0;
+000009c0 7d071900       1349 	st.w	zero,24[r29]
+000009c4 7d071d00       1350 	st.w	zero,28[r29]
+                        1351 --405:   prmOdometerSum = 0U;
+000009c8 2b0600000000*  1352 	mov	_prmOdometerSum,r11
+000009ce 4b070000       1353 	st.b	zero,0[r11]
+                        1354 --406:   RangeToEmptyAlgorithm_V2_B.FuelSum = 0.0;
+000009d2 7c070100       1355 	st.w	zero,0[r28]
+000009d6 7c070500       1356 	st.w	zero,4[r28]
+                        1357 --407:   RangeToEmptyAlgorithm_V2_B.FullFuelConsumption = 0.0;
+000009da 7c070900       1358 	st.w	zero,8[r28]
+000009de 7c070d00       1359 	st.w	zero,12[r28]
+                        1360 --408:   RangeToEmptyAlgorithm_V2_B.RecentFuelConsumption = 0.0;
+000009e2 7c071100       1361 	st.w	zero,16[r28]
+000009e6 7c071500       1362 	st.w	zero,20[r28]
+                        1363 --409:   prmRangeToEmpty = 0U;
+000009ea 2b0600000000*  1364 	mov	_prmRangeToEmpty,r11
+000009f0 6b070100       1365 	st.w	zero,0[r11]
+                        1366 --410:   
+                        1367 --411:     NVM_GetParas(INDEX_NVM_K_ODOMETERSUM,&gASI_K_OdometerSum,1);
+000009f4 20368700       1368 	movea	135,zero,r6
+000009f8 0142           1369 	mov	1,r8
+000009fa 270600000000*  1370 	mov	_gASI_K_OdometerSum,r7
+                        1371 	jarl	_NVM_GetParas,lp
+                        1371 <EXPANSION BEGIN>
+                        1371 jarl22 _NVM_GetParas , lp 
+00000a00 80ff0000*      1371 <EXPANSION END>
+                        1372 --412:     NVM_GetParas(INDEX_NVM_K_FUELSUM,&gASI_K_FuelSum,2);
+                        1373 --line412
+                        1374 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.51::
+                        1375 .LDWlin51:
+00000a04 270600000000*  1376 	mov	_gASI_K_FuelSum,r7
+00000a0a 20368800       1377 	movea	136,zero,r6
+00000a0e 0242           1378 	mov	2,r8
+                        1379 	jarl	_NVM_GetParas,lp
+                        1379 <EXPANSION BEGIN>
+                        1379 jarl22 _NVM_GetParas , lp 
+00000a10 80ff0000*      1379 <EXPANSION END>
+                        1380 --413:     NVM_GetParas(INDEX_NVM_K_FULLFUELCOMSUMPTION,&gASI_K_FullFuelConsumption,1);
+                        1381 --line413
+                        1382 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.52::
+                        1383 .LDWlin52:
+00000a14 20368500       1384 	movea	133,zero,r6
+00000a18 0142           1385 	mov	1,r8
+00000a1a 270600000000*  1386 	mov	_gASI_K_FullFuelConsumption,r7
+                        1387 	jarl	_NVM_GetParas,lp
+                        1387 <EXPANSION BEGIN>
+                        1387 jarl22 _NVM_GetParas , lp 
+00000a20 80ff0000*      1387 <EXPANSION END>
+                        1388 --414:     NVM_GetParas(INDEX_NVM_K_RECENTFUELCONSUMPTION,&gASI_K_RecentFuelConsumption,1);
+                        1389 --line414
+                        1390 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.53::
+                        1391 .LDWlin53:
+00000a24 1a38           1392 	mov	r26,r7
+00000a26 20368600       1393 	movea	134,zero,r6
+00000a2a 0142           1394 	mov	1,r8
+                        1395 	jarl	_NVM_GetParas,lp
+                        1395 <EXPANSION BEGIN>
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                        1395 jarl22 _NVM_GetParas , lp 
+00000a2c 80ff0000*      1395 <EXPANSION END>
+                        1396 --415:     NVM_GetParas(INDEX_NVM_K_RANGETOEMPTY,&gASI_K_RangeToEmpty,4);
+                        1397 --line415
+                        1398 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.54::
+                        1399 .LDWlin54:
+00000a30 1b38           1400 	mov	r27,r7
+00000a32 20368400       1401 	movea	132,zero,r6
+00000a36 0442           1402 	mov	4,r8
+                        1403 	jarl	_NVM_GetParas,lp
+                        1403 <EXPANSION BEGIN>
+                        1403 jarl22 _NVM_GetParas , lp 
+00000a38 80ff0000*      1403 <EXPANSION END>
+                        1404 --416:     
+                        1405 --417: }
+                        1406 --line417
+                        1407 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2.55::
+                        1408 .LDWlin55:
+00000a3c 0000           1409 	nop
+                        1410 --	    .ef
+                        1411 .LDW41:
+00000a3e 4006ff30       1412 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                        1413 	.type	_RangeToEmptyAlgorithm_V2_initialize,@function
+                        1414 	.size	_RangeToEmptyAlgorithm_V2_initialize,.-_RangeToEmptyAlgorithm_V2_initialize
+                        1415 	.align	2
+                        1416 .LDW51:
+                        1417 
+                        1418 	.section ".bss","awb"
+                        1419 .L780:
+                        1420 	.type	.L780,@object
+                        1421 	.size	.L780,0
+                        1422 	.data
+                        1423 	.text
+                        1424 
+                        1425 
+                        1426 --419: /* Model terminate function */
+                        1427 --420: void RangeToEmptyAlgorithm_V2_terminate(void)
+                        1428 	.align	2
+                        1429 	.align	2
+                        1430 	.global	_RangeToEmptyAlgorithm_V2_terminate
+                        1431 _RangeToEmptyAlgorithm_V2_terminate:
+                        1432 --	    .bf
+                        1433 .LDW61:
+                        1434 --421: {
+                        1435 --422:   /* (no terminate code required) */
+                        1436 --423: }
+00000a42 0000           1437 	nop
+                        1438 --	    .ef
+                        1439 .LDW71:
+00000a44 7f00           1440 	jmp	[lp]
+                        1441 	.type	_RangeToEmptyAlgorithm_V2_terminate,@function
+                        1442 	.size	_RangeToEmptyAlgorithm_V2_terminate,.-_RangeToEmptyAlgorithm_V2_terminate
+                        1443 	.align	2
+                        1444 .LDW81:
+                        1445 
+                        1446 	.section ".bss","awb"
+                        1447 .L904:
+                        1448 	.type	.L904,@object
+                        1449 	.size	.L904,0
+                        1450 	.data
+                        1451 	.text
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                        1452 
+                        1453 	.align	2
+                        1454 --_RangeToEmptyAlgorithm_V2_P	_RangeToEmptyAlgorithm_V2_P	import
+                        1455 --_prmDisplayFuel	_prmDisplayFuel	import
+                        1456 --_gFuelLvlPctV	_gFuelLvlPctV	import
+                        1457 --_gRefuelFlag	_gRefuelFlag	import
+                        1458 
+                        1459 	.section ".rodata","a"
+                        1460 	.align	4
+                        1461 	.global	_RangeToEmptyAlgorithm_V2_M
+00000000 00000000*      1462 _RangeToEmptyAlgorithm_V2_M:	.word	_RangeToEmptyAlgorithm_V2_M_
+                        1463 	.type	_RangeToEmptyAlgorithm_V2_M,@object
+                        1464 	.size	_RangeToEmptyAlgorithm_V2_M,4
+                        1465 	.data
+                        1466 	.section ".bss","awb"
+                        1467 	.align	8
+                        1468 	.align	8
+                        1469 	.global	_RangeToEmptyAlgorithm_V2_B
+00000000 000000000000   1470 _RangeToEmptyAlgorithm_V2_B:	.space	24
+00000006 000000000000 
+0000000c 000000000000 
+00000012 000000000000 
+                        1471 	.type	_RangeToEmptyAlgorithm_V2_B,@object
+                        1472 	.size	_RangeToEmptyAlgorithm_V2_B,24
+                        1473 	.align	8
+                        1474 	.global	_RangeToEmptyAlgorithm_V2_DW
+00000018 000000000000   1475 _RangeToEmptyAlgorithm_V2_DW:	.space	40
+0000001e 000000000000 
+00000024 000000000000 
+0000002a 000000000000 
+00000030 000000000000 
+00000036 000000000000 
+0000003c 00000000 
+                        1476 	.type	_RangeToEmptyAlgorithm_V2_DW,@object
+                        1477 	.size	_RangeToEmptyAlgorithm_V2_DW,40
+                        1478 	.align	4
+                        1479 	.global	_gASI_VehicleOdometer
+00000040 00000000       1480 _gASI_VehicleOdometer:	.space	4
+                        1481 	.type	_gASI_VehicleOdometer,@object
+                        1482 	.size	_gASI_VehicleOdometer,4
+                        1483 	.align	4
+                        1484 	.global	_gASI_K_RangeToEmpty
+00000044 00000000       1485 _gASI_K_RangeToEmpty:	.space	4
+                        1486 	.type	_gASI_K_RangeToEmpty,@object
+                        1487 	.size	_gASI_K_RangeToEmpty,4
+                        1488 	.align	4
+                        1489 	.global	_prmRangeToEmpty
+00000048 00000000       1490 _prmRangeToEmpty:	.space	4
+                        1491 	.type	_prmRangeToEmpty,@object
+                        1492 	.size	_prmRangeToEmpty,4
+                        1493 	.align	4
+                        1494 	.global	_RangeToEmptyAlgorithm_V2_M_
+0000004c 00000000       1495 _RangeToEmptyAlgorithm_V2_M_:	.space	4
+                        1496 	.type	_RangeToEmptyAlgorithm_V2_M_,@object
+                        1497 	.size	_RangeToEmptyAlgorithm_V2_M_,4
+                        1498 	.align	2
+                        1499 	.global	_gASI_K_FuelSum
+00000050 0000           1500 _gASI_K_FuelSum:	.space	2
+                        1501 	.type	_gASI_K_FuelSum,@object
+                        1502 	.size	_gASI_K_FuelSum,2
+                        1503 	.align	2
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084o1.si
+                        1504 	.global	_prmFuelSum
+00000052 0000           1505 _prmFuelSum:	.space	2
+                        1506 	.type	_prmFuelSum,@object
+                        1507 	.size	_prmFuelSum,2
+                        1508 	.align	2
+                        1509 	.global	_prmDisplayRangeToEmpty
+00000054 0000           1510 _prmDisplayRangeToEmpty:	.space	2
+                        1511 	.type	_prmDisplayRangeToEmpty,@object
+                        1512 	.size	_prmDisplayRangeToEmpty,2
+                        1513 	.global	_gASI_K_FullFuelConsumption
+00000056 00             1514 _gASI_K_FullFuelConsumption:	.space	1
+                        1515 	.type	_gASI_K_FullFuelConsumption,@object
+                        1516 	.size	_gASI_K_FullFuelConsumption,1
+                        1517 	.global	_gASI_K_RecentFuelConsumption
+00000057 00             1518 _gASI_K_RecentFuelConsumption:	.space	1
+                        1519 	.type	_gASI_K_RecentFuelConsumption,@object
+                        1520 	.size	_gASI_K_RecentFuelConsumption,1
+                        1521 	.global	_gASI_K_OdometerSum
+00000058 00             1522 _gASI_K_OdometerSum:	.space	1
+                        1523 	.type	_gASI_K_OdometerSum,@object
+                        1524 	.size	_gASI_K_OdometerSum,1
+                        1525 	.global	_gASI_VehicleOdometerV
+00000059 00             1526 _gASI_VehicleOdometerV:	.space	1
+                        1527 	.type	_gASI_VehicleOdometerV,@object
+                        1528 	.size	_gASI_VehicleOdometerV,1
+                        1529 	.global	_prmFullFuelConsumption
+0000005a 00             1530 _prmFullFuelConsumption:	.space	1
+                        1531 	.type	_prmFullFuelConsumption,@object
+                        1532 	.size	_prmFullFuelConsumption,1
+                        1533 	.global	_prmRecentFuelConsumption
+0000005b 00             1534 _prmRecentFuelConsumption:	.space	1
+                        1535 	.type	_prmRecentFuelConsumption,@object
+                        1536 	.size	_prmRecentFuelConsumption,1
+                        1537 	.global	_prmOdometerSum
+0000005c 00             1538 _prmOdometerSum:	.space	1
+                        1539 	.type	_prmOdometerSum,@object
+                        1540 	.size	_prmOdometerSum,1
+                        1541 	.global	_prmRangeToEmptyWarning
+0000005d 00             1542 _prmRangeToEmptyWarning:	.space	1
+                        1543 	.type	_prmRangeToEmptyWarning,@object
+                        1544 	.size	_prmRangeToEmptyWarning,1
+                        1545 	.data
+                        1546 	.ghsnote version,14
+                        1547 	.ghsnote tools,3
+                        1548 	.ghsnote options,144
+                        1549 	.text
+                        1550 	.align	2
+                        1551 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRangeToEmptyAlgorithm_V2...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036D..0::
+                        1552 .rh850_flags DOUBLE,REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,DOUBLE64,G3M

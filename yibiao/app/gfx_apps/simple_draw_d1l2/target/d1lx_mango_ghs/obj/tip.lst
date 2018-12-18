@@ -1,0 +1,1775 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\tip.dbo -source=tip.c -o .\obj\gh_00003601.o -list=.\obj\tip.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+Source File: tip.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\TIP\tip.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         112 --		-o .\obj\tip.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\TIP\tip.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:30 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : tip.c
+                         128 --5: * Description : TIP API application
+                         129 --6: * Author: Hejianjun
+                         130 --7: * Date: 2016-11-30
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "tip_info.inc"
+                         134 --13: static U8 tip_InitSts = FALSE;                                                         /*TIP的初始化变量*/
+                         135 --14:                                                        /*获取消抖后的TIP AD值*/
+                         136 --15: static TIPKeySts_ST tip_KeyStatus = STATUS_TIP_SPORTOFF;   /*存储按键状态的结构体变量*/
+                         137 --16: static BOOL tip_WinterKeySts = STATUS_IOM_HIGH;                 /*存储冬季谋淞浚式开关状态的*/
+                         138 --17: static TIPSendNetData_ST tip_NetOPSSignal;           /*存储发送的网络信号结构体*/
+                         139 --20: static U16 FltCntRang = 0;
+                         140 --21: static U16 FltCntstuck = 0;
+                         141 --22: static U16 FltCntIllegal = 0;
+                         142 --23: static TIPFlt_ST TipFlt;
+                         143 --25: /***************************************************
+                         144 --26: * Function: TIP_Init
+                         145 --27: * Description: TIP module initialized
+                         146 --28: * Parameters: none
+                         147 --29: * Returns: none
+                         148 --30: * $Create & Verlog:$
+                         149 --31: * Author:Hejianjun  Date:2016-11-30   Version:V1.0
+                         150 --32: ****************************************************/
+                         151 --33: void TIP_Init(void)
+                         152 	.text
+                         153 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036A..0::
+                         154 	.align	2
+                         155 	.global	_TIP_Init
+                         156 _TIP_Init:
+00000000 8007e130        157 	prepare	{r26,r27,r28,r29,r31},0
+00000004 3d0600000000*   158 	mov	.L54,r29
+0000000a 3c0600000000*   159 	mov	_tip_NetOPSSignal,r28
+00000010 3b0600000000*   160 	mov	_TipFlt,r27
+                         161 --	    .bf
+                         162 .LDW01:
+                         163 --34: {
+                         164 --35:     tip_KeyStatus.status = STATUS_TIP_SPORTOFF;
+00000016 7d070100        165 	st.w	zero,0[r29]
+                         166 --36:     tip_WinterKeySts = STATUS_IOM_HIGH;
+0000001a 010a            167 	mov	1,r1
+0000001c 5d0f0f00        168 	st.b	r1,15[r29]
+                         169 --37:     tip_NetOPSSignal.TrPfShftPtrnSw1A = FALSE;
+00000020 5c070200        170 	st.b	zero,2[r28]
+                         171 --38:     tip_NetOPSSignal.TrPfShftPtrnSw4A = FALSE;
+00000024 5c070300        172 	st.b	zero,3[r28]
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         173 --39:     tip_NetOPSSignal.PfTrTapUpDwnEnbSwSta = 0u;
+00000028 5c070000        174 	st.b	zero,0[r28]
+                         175 --40:     tip_NetOPSSignal.PfTrTapUpDwnSwSta = 0u;
+0000002c 5c070100        176 	st.b	zero,1[r28]
+                         177 --41:     tip_NetOPSSignal.PfTrRollingCnt = 0u;
+00000030 5c070400        178 	st.b	zero,4[r28]
+                         179 --42:     tip_NetOPSSignal.TrPfRollingCnt = 0u;
+00000034 5c070500        180 	st.b	zero,5[r28]
+                         181 --43:     TipFlt.OutRang = FALSE;
+00000038 9b0f0100        182 	ld.bu	0[r27],r1
+0000003c c10efe00        183 	andi	254,r1,r1
+00000040 5b0f0000        184 	st.b	r1,0[r27]
+                         185 --44:     TipFlt.Stuck = FALSE;
+00000044 9b0f0100        186 	ld.bu	0[r27],r1
+00000048 c10efd00        187 	andi	253,r1,r1
+0000004c 5b0f0000        188 	st.b	r1,0[r27]
+                         189 --45:     TipFlt.Illeagal = FALSE;
+00000050 9b0f0100        190 	ld.bu	0[r27],r1
+00000054 c10efb00        191 	andi	251,r1,r1
+00000058 5b0f0000        192 	st.b	r1,0[r27]
+                         193 --46:     
+                         194 --47:     tip_InitSts = ((ADM_GetInitStatus()) && (IOM_GetModuleStatus()));
+0000005c 00d2            195 	mov	0,r26
+                         196 	jarl	_ADM_GetInitStatus,lp
+                         196 <EXPANSION BEGIN>
+                         196 jarl22 _ADM_GetInitStatus , lp 
+0000005e 80ff0000*       196 <EXPANSION END>
+00000062 e051            197 	cmp	zero,r10
+00000064 e205*           198 	be	.L5
+                         199 	jarl	_IOM_GetModuleStatus,lp
+                         199 <EXPANSION BEGIN>
+                         199 jarl22 _IOM_GetModuleStatus , lp 
+00000066 80ff0000*       199 <EXPANSION END>
+0000006a e051            200 	cmp	zero,r10
+0000006c e1d714d3        201 	cmovne	1,r26,r26
+                         202 .L5:
+00000070 5dd70e00        203 	st.b	r26,14[r29]
+                         204 --48: }
+                         205 --line48
+                         206 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.1::
+                         207 .LDWlin1:
+00000074 0000            208 	nop
+                         209 --	    .ef
+                         210 .LDW11:
+00000076 4006ff30        211 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                         212 	.type	_TIP_Init,@function
+                         213 	.size	_TIP_Init,.-_TIP_Init
+                         214 	.align	2
+                         215 .LDW21:
+                         216 
+                         217 	.data
+                         218 	.align	4
+                         219 .L54:
+                         220 	.type	.L54,@object
+                         221 	.size	.L54,0
+                         222 	.global	_tip_KeyStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         223 _tip_KeyStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         224 	.type	_tip_KeyStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@object
+                         225 	.size	_tip_KeyStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,8
+00000000 00000000        226 _tip_KeyStatus:	.space	4
+00000004 00              227 	.space	1
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+00000005 000000          228 	.space	3
+                         229 	.type	_tip_KeyStatus,@object
+                         230 	.size	_tip_KeyStatus,8
+                         231 	.section ".bss","awb"
+                         232 	.global	_tip_NetOPSSignal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         233 _tip_NetOPSSignal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         234 	.type	_tip_NetOPSSignal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@object
+                         235 	.size	_tip_NetOPSSignal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,6
+00000000 000000000000    236 _tip_NetOPSSignal:	.space	6
+                         237 	.type	_tip_NetOPSSignal,@object
+                         238 	.size	_tip_NetOPSSignal,6
+                         239 	.data
+                         240 	.global	_FltCntRang..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         241 _FltCntRang..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         242 	.type	_FltCntRang..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@object
+                         243 	.size	_FltCntRang..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,2
+00000008 0000            244 _FltCntRang:	.byte	0,0
+                         245 	.type	_FltCntRang,@object
+                         246 	.size	_FltCntRang,2
+                         247 	.global	_FltCntstuck..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         248 _FltCntstuck..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         249 	.type	_FltCntstuck..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@object
+                         250 	.size	_FltCntstuck..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,2
+0000000a 0000            251 _FltCntstuck:	.byte	0,0
+                         252 	.type	_FltCntstuck,@object
+                         253 	.size	_FltCntstuck,2
+                         254 	.global	_FltCntIllegal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         255 _FltCntIllegal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         256 	.type	_FltCntIllegal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@object
+                         257 	.size	_FltCntIllegal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,2
+0000000c 0000            258 _FltCntIllegal:	.byte	0,0
+                         259 	.type	_FltCntIllegal,@object
+                         260 	.size	_FltCntIllegal,2
+                         261 	.global	_tip_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         262 _tip_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         263 	.type	_tip_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@object
+                         264 	.size	_tip_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,1
+0000000e 00              265 _tip_InitSts:	.byte	0
+                         266 	.type	_tip_InitSts,@object
+                         267 	.size	_tip_InitSts,1
+                         268 	.global	_tip_WinterKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         269 _tip_WinterKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         270 	.type	_tip_WinterKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@object
+                         271 	.size	_tip_WinterKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,1
+0000000f 01              272 _tip_WinterKeySts:	.byte	1
+                         273 	.type	_tip_WinterKeySts,@object
+                         274 	.size	_tip_WinterKeySts,1
+                         275 	.section ".bss","awb"
+                         276 	.global	_TipFlt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         277 _TipFlt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         278 	.type	_TipFlt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@object
+                         279 	.size	_TipFlt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,1
+00000006 00              280 _TipFlt:	.space	1
+                         281 	.type	_TipFlt,@object
+                         282 	.size	_TipFlt,1
+                         283 	.data
+                         284 	.text
+                         285 
+                         286 
+                         287 --50: /***************************************************
+                         288 --51: * Function: TIP_Process_20ms
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         289 --52: * Description: the process of the TIP module
+                         290 --53: * Parameters: none
+                         291 --54: * Returns: none
+                         292 --55: * $Create & Verlog:$
+                         293 --56: * Author:Hejianjun   Date:2016-11-30   Version:V1.0
+                         294 --57: ****************************************************/
+                         295 --58: void TIP_Process_20ms(void)
+                         296 	.align	2
+                         297 	.align	2
+                         298 	.global	_TIP_Process_20ms
+                         299 _TIP_Process_20ms:
+0000007a 8207e100        300 	prepare	{r28,r29,r31},1
+0000007e 3d0600000000*   301 	mov	_tip_NetOPSSignal,r29
+00000084 1de0            302 	mov	r29,r28
+                         303 --	    .bf
+                         304 .LDW31:
+                         305 --59: {
+                         306 --60: 	U8 batSts = 0;
+00000086 43070300        307 	st.b	zero,3[sp]
+                         308 --62:     if (TRUE == tip_InitSts)
+0000008a 210600000000*   309 	mov	_tip_InitSts,r1
+00000090 810f0100        310 	ld.bu	0[r1],r1
+00000094 610a            311 	cmp	1,r1
+00000096 fa0d*           312 	bne	.L112
+                         313 --63:     {
+                         314 --64:     	BAT_GetBatFltSts(TYPE_BATDET_CLASSA,&batSts);
+                         315 --line64
+                         316 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.2::
+                         317 .LDWlin2:
+00000098 0132            318 	mov	1,r6
+0000009a 233e0300        319 	movea	3,sp,r7
+                         320 	jarl	_BAT_GetBatFltSts,lp
+                         320 <EXPANSION BEGIN>
+                         320 jarl22 _BAT_GetBatFltSts , lp 
+0000009e 80ff0000*       320 <EXPANSION END>
+                         321 --65: 		if(FLT_BAT_NO == batSts)
+                         322 --line65
+                         323 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.3::
+                         324 .LDWlin3:
+000000a2 a30f0300        325 	ld.bu	3[sp],r1
+000000a6 e009            326 	cmp	zero,r1
+000000a8 ba05*           327 	bne	.L116
+                         328 --66: 		{
+                         329 --67:        		 tip_LocalProcess();
+                         330 --line67
+                         331 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.4::
+                         332 .LDWlin4:
+                         333 	jarl	_tip_LocalProcess,lp
+                         333 <EXPANSION BEGIN>
+                         333 jarl22 _tip_LocalProcess , lp 
+000000aa 80ffae02*       333 <EXPANSION END>
+                         334 .L116:
+                         335 --68: 		}
+                         336 --69: 		else
+                         337 --70: 		{
+                         338 --71: 		}
+                         339 --72:         tip_Rollingcnt();
+                         340 --line72
+                         341 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.5::
+                         342 .LDWlin5:
+                         343 	jarl	_tip_Rollingcnt,lp
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         343 <EXPANSION BEGIN>
+                         343 jarl22 _tip_Rollingcnt , lp 
+000000ae 80ff2c04*       343 <EXPANSION END>
+000000b2 d50d*           344 	br	.L117
+                         345 .L112:
+                         346 --73:     }
+                         347 --74:     else
+                         348 --75:     {
+                         349 --76:         tip_NetOPSSignal.TrPfShftPtrnSw1A = FALSE;
+                         350 --line76
+                         351 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.6::
+                         352 .LDWlin6:
+000000b4 5d070200        353 	st.b	zero,2[r29]
+                         354 --77:         tip_NetOPSSignal.TrPfShftPtrnSw4A = FALSE;
+000000b8 5d070300        355 	st.b	zero,3[r29]
+                         356 --78:         tip_NetOPSSignal.PfTrTapUpDwnEnbSwSta = 0u;
+000000bc 5d070000        357 	st.b	zero,0[r29]
+                         358 --79:         tip_NetOPSSignal.PfTrTapUpDwnSwSta = 0u;
+000000c0 5d070100        359 	st.b	zero,1[r29]
+                         360 --80:         tip_NetOPSSignal.PfTrRollingCnt = 0u;
+000000c4 5d070400        361 	st.b	zero,4[r29]
+                         362 --81:         tip_NetOPSSignal.TrPfRollingCnt = 0u;
+000000c8 5d070500        363 	st.b	zero,5[r29]
+                         364 .L117:
+                         365 --82:     }
+                         366 --83:    
+                         367 --84: }
+000000cc 0000            368 	nop
+                         369 --	    .ef
+                         370 .LDW41:
+000000ce 4206ff00        371 	dispose	1,{r28,r29,r31},[lp]
+                         372 	.type	_TIP_Process_20ms,@function
+                         373 	.size	_TIP_Process_20ms,.-_TIP_Process_20ms
+                         374 	.align	2
+                         375 .LDW51:
+                         376 --_batSts	3[sp]	local
+                         377 
+                         378 	.data
+                         379 	.text
+                         380 
+                         381 
+                         382 --86: /***************************************************
+                         383 --87: * Function: tip_SerachKeySts
+                         384 --88: * Description: check the status of tip switch
+                         385 --89: * Parameters: none
+                         386 --90: * Returns: TRUE or FALSE
+                         387 --91: * $Create & Verlog:$
+                         388 --92: * Author:Hejianjun   Date:2016-11-30   Version:V1.0
+                         389 --93: ****************************************************/
+                         390 --94: static void tip_SerachKeySts(void)
+                         391 	.align	2
+                         392 	.align	2
+                         393 	.global	_tip_SerachKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         394 _tip_SerachKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         395 _tip_SerachKeySts:
+000000d2 8207e110        396 	prepare	{r27,r28,r29,r31},1
+000000d6 3d0600000000*   397 	mov	_tip_WinterKeySts-3,r29
+000000dc 3de6f4ff        398 	movea	-12,r29,r28
+                         399 --	    .bf
+                         400 .LDW61:
+                         401 --95: {
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         402 --96:     U16  advalue = 0;
+000000e0 63070200        403 	st.h	zero,2[sp]
+                         404 --97:     BOOL keysts = STATUS_IOM_HIGH;
+000000e4 010a            405 	mov	1,r1
+000000e6 430f0100        406 	st.b	r1,1[sp]
+                         407 --98:     TIPKeyStatus_ENUM tipKeySts = STATUS_TIP_SPORTOFF;
+000000ea 00da            408 	mov	0,r27
+                         409 --99:     
+                         410 --100:     if (RET_OK == IOM_GetInputLevel(INDEX_IOINTPUT_WINTERMODE, &keysts))
+000000ec 0032            411 	mov	0,r6
+000000ee 233e0100        412 	movea	1,sp,r7
+                         413 	jarl	_IOM_GetInputLevel,lp
+                         413 <EXPANSION BEGIN>
+                         413 jarl22 _IOM_GetInputLevel , lp 
+000000f2 80ff0000*       413 <EXPANSION END>
+000000f6 6152            414 	cmp	1,r10
+000000f8 8a0d*           415 	bne	.L211
+                         416 --101:     {
+                         417 --102:         tip_WinterKeySts = keysts;
+                         418 --line102
+                         419 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.7::
+                         420 .LDWlin7:
+000000fa a30f0100        421 	ld.bu	1[sp],r1
+000000fe 2b0600000000*   422 	mov	_tip_WinterKeySts,r11
+00000104 4b0f0000        423 	st.b	r1,0[r11]
+                         424 .L211:
+                         425 --103:     }
+                         426 --104:     else
+                         427 --105:     {
+                         428 --106:     }    
+                         429 --107: 	
+                         430 --108:     if (RET_OK == ADM_GetDebounceValue(INDEX_ADM_LOCALTAPUPDOWN, &advalue))
+00000108 0332            431 	mov	3,r6
+0000010a 233e0200        432 	movea	2,sp,r7
+                         433 	jarl	_ADM_GetDebounceValue,lp
+                         433 <EXPANSION BEGIN>
+                         433 jarl22 _ADM_GetDebounceValue , lp 
+0000010e 80ff0000*       433 <EXPANSION END>
+00000112 6152            434 	cmp	1,r10
+00000114 ba5d*           435 	bne	.L238
+                         436 --109:     {
+                         437 --110:     	
+                         438 --111:         if (ABS_SUB(advalue, TIP_SPORT_OFF) <= (TIP_OFFSETRANGE))
+                         439 --line111
+                         440 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.8::
+                         441 .LDWlin8:
+00000116 e30f0300        442 	ld.hu	2[sp],r1
+0000011a 01063df2        443 	addi	-3523,r1,zero
+0000011e e905*           444 	bnl	.L216
+00000120 e30f0300        445 	ld.hu	2[sp],r1
+00000124 010e3ef2        446 	addi	-3522,r1,r1
+00000128 e505*           447 	br	.L218
+                         448 .L216:
+0000012a e30f0300        449 	ld.hu	2[sp],r1
+0000012e 2076c20d        450 	movea	3522,zero,r14
+00000132 8e09            451 	subr	r14,r1
+                         452 .L218:
+00000134 01065cff        453 	addi	-164,r1,zero
+00000138 cf05*           454 	bgt	.L214
+                         455 --112:         {
+                         456 --113:             tip_KeyStatus.status = STATUS_TIP_SPORTOFF; 
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         457 --line113
+                         458 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.9::
+                         459 .LDWlin9:
+0000013a 7c070100        460 	st.w	zero,0[r28]
+0000013e e545*           461 	br	.L238
+                         462 .L214:
+                         463 --114:         }
+                         464 --115:         else if (ABS_SUB(advalue, TIP_SPORT_ON) <= (TIP_OFFSETRANGE))
+                         465 --line115
+                         466 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.10::
+                         467 .LDWlin10:
+00000140 e30f0300        468 	ld.hu	2[sp],r1
+00000144 0106a1f5        469 	addi	-2655,r1,zero
+00000148 e905*           470 	bnl	.L222
+0000014a e30f0300        471 	ld.hu	2[sp],r1
+0000014e 010ea2f5        472 	addi	-2654,r1,r1
+00000152 e505*           473 	br	.L224
+                         474 .L222:
+00000154 e30f0300        475 	ld.hu	2[sp],r1
+00000158 20765e0a        476 	movea	2654,zero,r14
+0000015c 8e09            477 	subr	r14,r1
+                         478 .L224:
+0000015e 01065cff        479 	addi	-164,r1,zero
+00000162 df05*           480 	bgt	.L220
+                         481 --116:         {
+                         482 --117:            tip_KeyStatus.status = STATUS_TIP_SPORTON; 
+                         483 --line117
+                         484 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.11::
+                         485 .LDWlin11:
+00000164 010a            486 	mov	1,r1
+00000166 7c0f0100        487 	st.w	r1,0[r28]
+0000016a 8535*           488 	br	.L238
+                         489 .L220:
+                         490 --118:         }
+                         491 --119:         else if (ABS_SUB(advalue, TIP_LOCAL_DOWN) <= (TIP_OFFSETRANGE))
+                         492 --line119
+                         493 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.12::
+                         494 .LDWlin12:
+0000016c e30f0300        495 	ld.hu	2[sp],r1
+00000170 01061ff9        496 	addi	-1761,r1,zero
+00000174 e905*           497 	bnl	.L228
+00000176 e30f0300        498 	ld.hu	2[sp],r1
+0000017a 010e20f9        499 	addi	-1760,r1,r1
+0000017e e505*           500 	br	.L230
+                         501 .L228:
+00000180 e30f0300        502 	ld.hu	2[sp],r1
+00000184 2076e006        503 	movea	1760,zero,r14
+00000188 8e09            504 	subr	r14,r1
+                         505 .L230:
+0000018a 01065cff        506 	addi	-164,r1,zero
+0000018e df05*           507 	bgt	.L226
+                         508 --120:         {
+                         509 --121:             tip_KeyStatus.status = STATUS_TIP_TAPDOWNPRESS; 
+                         510 --line121
+                         511 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.13::
+                         512 .LDWlin13:
+00000190 040a            513 	mov	4,r1
+00000192 7c0f0100        514 	st.w	r1,0[r28]
+00000196 a51d*           515 	br	.L238
+                         516 .L226:
+                         517 --122:         }
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         518 --123:         else if (ABS_SUB(advalue, TIP_LOCAL_UP) <= (TIP_OFFSETRANGE))
+                         519 --line123
+                         520 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.14::
+                         521 .LDWlin14:
+00000198 e30f0300        522 	ld.hu	2[sp],r1
+0000019c 0106abfc        523 	addi	-853,r1,zero
+000001a0 e905*           524 	bnl	.L234
+000001a2 e30f0300        525 	ld.hu	2[sp],r1
+000001a6 010eacfc        526 	addi	-852,r1,r1
+000001aa e505*           527 	br	.L236
+                         528 .L234:
+000001ac e30f0300        529 	ld.hu	2[sp],r1
+000001b0 20765403        530 	movea	852,zero,r14
+000001b4 8e09            531 	subr	r14,r1
+                         532 .L236:
+000001b6 01065cff        533 	addi	-164,r1,zero
+000001ba df05*           534 	bgt	.L232
+                         535 --124:         {
+                         536 --125:             tip_KeyStatus.status = STATUS_TIP_TAPUPPRESS; 
+                         537 --line125
+                         538 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.15::
+                         539 .LDWlin15:
+000001bc 020a            540 	mov	2,r1
+000001be 7c0f0100        541 	st.w	r1,0[r28]
+000001c2 c505*           542 	br	.L238
+                         543 .L232:
+                         544 --126:         }
+                         545 --127:         else                                                                                                               /* out of range*/
+                         546 --128:         {
+                         547 --129:             tip_KeyStatus.status = STATUS_TIP_OUTOFRANGE; 
+                         548 --line129
+                         549 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.16::
+                         550 .LDWlin16:
+000001c4 060a            551 	mov	6,r1
+000001c6 7c0f0100        552 	st.w	r1,0[r28]
+                         553 .L238:
+                         554 --130:         }
+                         555 --131:      }
+                         556 --132:     else
+                         557 --133:     {
+                         558 --134:     }   
+                         559 --135:  
+                         560 --136:    
+                         561 --137: }
+000001ca 0000            562 	nop
+                         563 --	    .ef
+                         564 .LDW71:
+000001cc 4206ff10        565 	dispose	1,{r27,r28,r29,r31},[lp]
+                         566 	.type	_tip_SerachKeySts,@function
+                         567 	.size	_tip_SerachKeySts,.-_tip_SerachKeySts
+                         568 	.type	_tip_SerachKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@function
+                         569 	.size	_tip_SerachKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,.-_tip_SerachKeySts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         570 	.align	2
+                         571 .LDW81:
+                         572 --_advalue	2[sp]	local
+                         573 --_keysts	1[sp]	local
+                         574 --_tipKeySts	r27	local
+                         575 
+                         576 	.data
+                         577 	.text
+                         578 
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         579 
+                         580 --139: /***************************************************
+                         581 --140: * Function: tip_TipStuckFaultDetect
+                         582 --141: * Description: detect outofrang fault
+                         583 --142: * Parameters: none
+                         584 --143: * Returns: TRUE or FALSE
+                         585 --144: * $Create & Verlog:$
+                         586 --145: * Author:huangxianxiang   Date:2017-06-27   Version:V2.0
+                         587 --146: ****************************************************/
+                         588 --147: static void tip_OutOfRangFaultDetect(void)
+                         589 	.align	2
+                         590 	.align	2
+                         591 	.global	_tip_OutOfRangFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         592 _tip_OutOfRangFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         593 _tip_OutOfRangFaultDetect:
+000001d0 210600000000*   594 	mov	_FltCntRang,r1
+000001d6 0160            595 	mov	r1,r12
+000001d8 2176f8ff        596 	movea	-8,r1,r14
+000001dc 3e0600000000*   597 	mov	_TipFlt,ep
+000001e2 215e0800        598 	movea	8,r1,r11
+                         599 --	    .bf
+                         600 .LDW91:
+                         601 --148: {
+                         602 --149:     static TIPKeyStatus_ENUM TipStsOutRang = STATUS_TIP_SPORTOFF;
+                         603 --150:     
+                         604 --151:     if(TipStsOutRang != tip_KeyStatus.status)
+000001e6 2e6f0100        605 	ld.w	0[r14],r13
+000001ea 21570900        606 	ld.w	8[r1],r10
+000001ee ed51            607 	cmp	r13,r10
+000001f0 f205*           608 	be	.L398
+                         609 --152:     {
+                         610 --153:         FltCntRang = 0;        
+                         611 --line153
+                         612 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.17::
+                         613 .LDWlin17:
+000001f2 61070000        614 	st.h	zero,0[r1]
+                         615 --154:         TipStsOutRang = tip_KeyStatus.status;
+000001f6 2e6f0100        616 	ld.w	0[r14],r13
+000001fa 616f0900        617 	st.w	r13,8[r1]
+                         618 .L398:
+                         619 --155:     }
+                         620 --156:     else
+                         621 --157:     {
+                         622 --158:     }
+                         623 --159:     
+                         624 --160:     if(STATUS_TIP_OUTOFRANGE == tip_KeyStatus.status)
+000001fe 2e6f0100        625 	ld.w	0[r14],r13
+00000202 666a            626 	cmp	6,r13
+00000204 8a15*           627 	bne	.L399
+                         628 --161:     {
+                         629 --163:         if(TIP_OUTOFRANG_FLT_CNT <= FltCntRang)
+                         630 --line163
+                         631 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.18::
+                         632 .LDWlin18:
+00000206 e16f0100        633 	ld.hu	0[r1],r13
+0000020a 626a            634 	cmp	2,r13
+0000020c e105*           635 	bl	.L401
+                         636 --164:         {
+                         637 --165:             TipFlt.OutRang = TRUE;
+                         638 --line165
+                         639 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.19::
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         640 .LDWlin19:
+0000020e 6068            641 	sld.bu	0[ep],r13
+00000210 8d6e0100        642 	ori	1,r13,r13
+00000214 806b            643 	sst.b	r13,0[ep]
+00000216 a51d*           644 	br	.L404
+                         645 .L401:
+                         646 --166:         }
+                         647 --167:         else
+                         648 --168:         {
+                         649 --169:             FltCntRang ++;
+                         650 --line169
+                         651 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.20::
+                         652 .LDWlin20:
+00000218 e16f0100        653 	ld.hu	0[r1],r13
+0000021c 416a            654 	add	1,r13
+0000021e 616f0000        655 	st.h	r13,0[r1]
+00000222 c515*           656 	br	.L404
+                         657 .L399:
+                         658 --170:         }
+                         659 --171:     }
+                         660 --172:     else if(TRUE == TipFlt.OutRang)
+                         661 --line172
+                         662 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.21::
+                         663 .LDWlin21:
+00000224 6068            664 	sld.bu	0[ep],r13
+00000226 816a            665 	shr	1,r13
+00000228 9915*           666 	bnl	.L404
+                         667 --173:     {
+                         668 --174:         if(TIP_OUTOFRANG_FLT_CNT <= FltCntRang)
+                         669 --line174
+                         670 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.22::
+                         671 .LDWlin22:
+0000022a e16f0100        672 	ld.hu	0[r1],r13
+0000022e 626a            673 	cmp	2,r13
+00000230 810d*           674 	bl	.L407
+                         675 --175:         {
+                         676 --176:             TipFlt.OutRang = FALSE;
+                         677 --line176
+                         678 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.23::
+                         679 .LDWlin23:
+00000232 6068            680 	sld.bu	0[ep],r13
+00000234 cd6efe00        681 	andi	254,r13,r13
+00000238 806b            682 	sst.b	r13,0[ep]
+                         683 --177:             FltCntRang = 0;
+0000023a 61070000        684 	st.h	zero,0[r1]
+0000023e e505*           685 	br	.L404
+                         686 .L407:
+                         687 --178:         }
+                         688 --179:         else
+                         689 --180:         {
+                         690 --181:             FltCntRang ++;
+                         691 --line181
+                         692 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.24::
+                         693 .LDWlin24:
+00000240 e16f0100        694 	ld.hu	0[r1],r13
+00000244 416a            695 	add	1,r13
+00000246 616f0000        696 	st.h	r13,0[r1]
+                         697 .L404:
+                         698 --182:         }
+                         699 --183:     }
+                         700 --184:     else
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         701 --185:     {
+                         702 --186:     }
+                         703 --187: }
+0000024a 0000            704 	nop
+                         705 --	    .ef
+                         706 .LDW02:
+0000024c 7f00            707 	jmp	[lp]
+                         708 	.type	_tip_OutOfRangFaultDetect,@function
+                         709 	.size	_tip_OutOfRangFaultDetect,.-_tip_OutOfRangFaultDetect
+                         710 	.type	_tip_OutOfRangFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@function
+                         711 	.size	_tip_OutOfRangFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,.-_tip_OutOfRangFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         712 	.align	2
+                         713 .LDW12:
+                         714 --_TipStsOutRang	.L480	static
+                         715 
+                         716 	.data
+                         717 .L480:
+                         718 	.global	_TipStsOutRang.tip_OutOfRangFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..8
+                         719 _TipStsOutRang.tip_OutOfRangFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..8:
+                         720 	.type	_TipStsOutRang.tip_OutOfRangFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..8,@object
+                         721 	.size	_TipStsOutRang.tip_OutOfRangFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..8,4
+00000010 00000000        722 	.byte	0,0,0,0
+                         723 	.type	.L480,@object
+                         724 	.size	.L480,4
+                         725 	.text
+                         726 
+                         727 
+                         728 --189: /***************************************************
+                         729 --190: * Function: tip_TipStuckFaultDetect
+                         730 --191: * Description: detect stuck fault
+                         731 --192: * Parameters: none
+                         732 --193: * Returns: TRUE or FALSE
+                         733 --194: * $Create & Verlog:$
+                         734 --195: * Author:huangxianxiang   Date:2017-06-27   Version:V2.0
+                         735 --196: ****************************************************/
+                         736 --197: static void tip_TipStuckFaultDetect(void)
+                         737 	.align	2
+                         738 	.align	2
+                         739 	.global	_tip_TipStuckFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         740 _tip_TipStuckFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         741 _tip_TipStuckFaultDetect:
+0000024e 210600000000*   742 	mov	_FltCntstuck-2,r1
+00000254 2176f8ff        743 	movea	-8,r1,r14
+00000258 01660200        744 	addi	2,r1,r12
+0000025c 3e0600000000*   745 	mov	_TipFlt,ep
+00000262 215e0c00        746 	movea	12,r1,r11
+                         747 --	    .bf
+                         748 .LDW22:
+                         749 --198: {
+                         750 --199:      static TIPKeyStatus_ENUM TipStsStuck = STATUS_TIP_SPORTOFF;
+                         751 --200:      
+                         752 --201:       if(TipStsStuck != tip_KeyStatus.status)
+00000266 2e6f0100        753 	ld.w	0[r14],r13
+0000026a 21570d00        754 	ld.w	12[r1],r10
+0000026e ed51            755 	cmp	r13,r10
+00000270 f20d*           756 	be	.L498
+                         757 --202:       {
+                         758 --203:           FltCntstuck = 0;
+                         759 --line203
+                         760 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.25::
+                         761 .LDWlin25:
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+00000272 61070200        762 	st.h	zero,2[r1]
+                         763 --204:           TipStsStuck = tip_KeyStatus.status;
+00000276 2e6f0100        764 	ld.w	0[r14],r13
+0000027a 616f0d00        765 	st.w	r13,12[r1]
+                         766 --205:           if(TRUE == TipFlt.Stuck)
+0000027e 6068            767 	sld.bu	0[ep],r13
+00000280 826a            768 	shr	2,r13
+00000282 d91d*           769 	bnl	.L503
+                         770 --206:           {
+                         771 --207:               TipFlt.Stuck= FALSE;
+                         772 --line207
+                         773 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.26::
+                         774 .LDWlin26:
+00000284 6068            775 	sld.bu	0[ep],r13
+00000286 cd6efd00        776 	andi	253,r13,r13
+0000028a 806b            777 	sst.b	r13,0[ep]
+0000028c 851d*           778 	br	.L503
+                         779 .L498:
+                         780 --208:           }
+                         781 --209: 		  else
+                         782 --210: 	  	  {
+                         783 --211: 	  	  }
+                         784 --212:       }
+                         785 --213:       else
+                         786 --214:       {
+                         787 --215:          if(((STATUS_TIP_TAPDOWNPRESS == tip_KeyStatus.status) 
+                         788 --line215
+                         789 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.27::
+                         790 .LDWlin27:
+0000028e 2e6f0100        791 	ld.w	0[r14],r13
+00000292 646a            792 	cmp	4,r13
+00000294 d205*           793 	be	.L505
+00000296 2e6f0100        794 	ld.w	0[r14],r13
+0000029a 626a            795 	cmp	2,r13
+0000029c 8a15*           796 	bne	.L503
+                         797 .L505:
+                         798 --216:             || (STATUS_TIP_TAPUPPRESS == tip_KeyStatus.status)))
+                         799 --217:         {
+                         800 --218:             if(TIP_STUCK_FLT_CNT <= FltCntstuck)
+                         801 --line218
+                         802 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.28::
+                         803 .LDWlin28:
+0000029e e16f0300        804 	ld.hu	2[r1],r13
+000002a2 0d0624fa        805 	addi	-1500,r13,zero
+000002a6 e905*           806 	bnl	.L507
+                         807 --219:             {
+                         808 --220:                 TipFlt.Stuck= TRUE;
+                         809 --line220
+                         810 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.29::
+                         811 .LDWlin29:
+000002a8 6068            812 	sld.bu	0[ep],r13
+000002aa 8d6e0200        813 	ori	2,r13,r13
+000002ae 806b            814 	sst.b	r13,0[ep]
+000002b0 e505*           815 	br	.L503
+                         816 .L507:
+                         817 --221:             }
+                         818 --222:             else
+                         819 --223:             {
+                         820 --224:                 FltCntstuck ++;
+                         821 --line224
+                         822 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.30::
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         823 .LDWlin30:
+000002b2 e16f0300        824 	ld.hu	2[r1],r13
+000002b6 416a            825 	add	1,r13
+000002b8 616f0200        826 	st.h	r13,2[r1]
+                         827 .L503:
+                         828 --225:             }            
+                         829 --226:         }
+                         830 --227:         else
+                         831 --228:         {
+                         832 --229:         }
+                         833 --230:       }
+                         834 --231: }
+000002bc 0000            835 	nop
+                         836 --	    .ef
+                         837 .LDW32:
+000002be 7f00            838 	jmp	[lp]
+                         839 	.type	_tip_TipStuckFaultDetect,@function
+                         840 	.size	_tip_TipStuckFaultDetect,.-_tip_TipStuckFaultDetect
+                         841 	.type	_tip_TipStuckFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@function
+                         842 	.size	_tip_TipStuckFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,.-_tip_TipStuckFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         843 	.align	2
+                         844 .LDW42:
+                         845 --_TipStsStuck	.L568	static
+                         846 
+                         847 	.data
+                         848 .L568:
+                         849 	.global	_TipStsStuck.tip_TipStuckFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..9
+                         850 _TipStsStuck.tip_TipStuckFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..9:
+                         851 	.type	_TipStsStuck.tip_TipStuckFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..9,@object
+                         852 	.size	_TipStsStuck.tip_TipStuckFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..9,4
+00000014 00000000        853 	.byte	0,0,0,0
+                         854 	.type	.L568,@object
+                         855 	.size	.L568,4
+                         856 	.text
+                         857 
+                         858 
+                         859 --233: /***************************************************
+                         860 --234: * Function: tip_TipIllegalFaultDetect
+                         861 --235: * Description: detect illegal fault
+                         862 --236: * Parameters: none
+                         863 --237: * Returns: TRUE or FALSE
+                         864 --238: * $Create & Verlog:$
+                         865 --239: * Author:huangxianxiang   Date:2017-06-27   Version:V2.0
+                         866 --240: ****************************************************/
+                         867 --241: static void tip_TipIllegalFaultDetect(void)
+                         868 	.align	2
+                         869 	.align	2
+                         870 	.global	_tip_TipIllegalFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         871 _tip_TipIllegalFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                         872 _tip_TipIllegalFaultDetect:
+000002c0 210600000000*   873 	mov	_FltCntIllegal,r1
+000002c6 21f6f4ff        874 	movea	-12,r1,ep
+000002ca 0160            875 	mov	r1,r12
+000002cc 2e0600000000*   876 	mov	_TipFlt,r14
+000002d2 215e0300        877 	movea	3,r1,r11
+000002d6 21560c00        878 	movea	12,r1,r10
+                         879 --	    .bf
+                         880 .LDW52:
+                         881 --242: {
+                         882 --243:     static TIPKeyStatus_ENUM TipStsIllegal = STATUS_TIP_SPORTOFF;
+                         883 --244:     
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                         884 --245:     if(TipStsIllegal != tip_KeyStatus.status)
+000002da 006d            885 	sld.w	0[ep],r13
+000002dc 214f0d00        886 	ld.w	12[r1],r9
+000002e0 ed49            887 	cmp	r13,r9
+000002e2 e205*           888 	be	.L586
+                         889 --246:     {
+                         890 --247:         TipStsIllegal = tip_KeyStatus.status;
+                         891 --line247
+                         892 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.31::
+                         893 .LDWlin31:
+000002e4 006d            894 	sld.w	0[ep],r13
+000002e6 616f0d00        895 	st.w	r13,12[r1]
+                         896 --248:         FltCntIllegal = 0;
+000002ea 61070000        897 	st.h	zero,0[r1]
+                         898 .L586:
+                         899 --249:     }
+                         900 --250:     else
+                         901 --251:     {
+                         902 --252:     }
+                         903 --253:       
+                         904 --254:     if(((STATUS_IOM_LOW== tip_WinterKeySts)&&(STATUS_TIP_SPORTON== tip_KeyStatus.status))
+000002ee a16f0300        905 	ld.bu	3[r1],r13
+000002f2 e069            906 	cmp	zero,r13
+000002f4 ca05*           907 	bne	.L590
+000002f6 006d            908 	sld.w	0[ep],r13
+000002f8 616a            909 	cmp	1,r13
+000002fa f20d*           910 	be	.L588
+                         911 .L590:
+000002fc a16f0300        912 	ld.bu	3[r1],r13
+00000300 e069            913 	cmp	zero,r13
+00000302 ca05*           914 	bne	.L589
+00000304 006d            915 	sld.w	0[ep],r13
+00000306 626a            916 	cmp	2,r13
+00000308 820d*           917 	be	.L588
+                         918 .L589:
+0000030a a16f0300        919 	ld.bu	3[r1],r13
+0000030e e069            920 	cmp	zero,r13
+00000310 8a1d*           921 	bne	.L587
+00000312 006d            922 	sld.w	0[ep],r13
+00000314 646a            923 	cmp	4,r13
+00000316 da15*           924 	bne	.L587
+                         925 .L588:
+                         926 --255:         || ((STATUS_IOM_LOW== tip_WinterKeySts)&&(STATUS_TIP_TAPUPPRESS== tip_KeyStatus.status))
+                         927 --256:         ||((STATUS_IOM_LOW== tip_WinterKeySts)&&(STATUS_TIP_TAPDOWNPRESS== tip_KeyStatus.status)))
+                         928 --257:     {
+                         929 --258:         if(TIP_ILLEGAL_FLT_CNT <= FltCntIllegal)
+                         930 --line258
+                         931 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.32::
+                         932 .LDWlin32:
+00000318 e16f0100        933 	ld.hu	0[r1],r13
+0000031c 0d069cff        934 	addi	-100,r13,zero
+00000320 a90d*           935 	bnl	.L594
+                         936 --259:         {
+                         937 --260:             TipFlt.Illeagal = TRUE;
+                         938 --line260
+                         939 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.33::
+                         940 .LDWlin33:
+00000322 8e6f0100        941 	ld.bu	0[r14],r13
+00000326 8d6e0400        942 	ori	4,r13,r13
+0000032a 4e6f0000        943 	st.b	r13,0[r14]
+                         944 --261:             FltCntIllegal = 0;
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+0000032e 61070000        945 	st.h	zero,0[r1]
+00000332 9515*           946 	br	.L597
+                         947 .L594:
+                         948 --262:         }
+                         949 --263:         else
+                         950 --264:         {
+                         951 --265:             FltCntIllegal ++;
+                         952 --line265
+                         953 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.34::
+                         954 .LDWlin34:
+00000334 e16f0100        955 	ld.hu	0[r1],r13
+00000338 416a            956 	add	1,r13
+0000033a 616f0000        957 	st.h	r13,0[r1]
+0000033e b50d*           958 	br	.L597
+                         959 .L587:
+                         960 --266:         }
+                         961 --267:     }
+                         962 --268:     else if(TRUE == TipFlt.Illeagal)
+                         963 --line268
+                         964 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.35::
+                         965 .LDWlin35:
+00000340 8e6f0100        966 	ld.bu	0[r14],r13
+00000344 836a            967 	shr	3,r13
+00000346 f905*           968 	bnl	.L597
+                         969 --269:     {
+                         970 --270:          TipFlt.Illeagal = FALSE;
+                         971 --line270
+                         972 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.36::
+                         973 .LDWlin36:
+00000348 8e6f0100        974 	ld.bu	0[r14],r13
+0000034c cd6efb00        975 	andi	251,r13,r13
+00000350 4e6f0000        976 	st.b	r13,0[r14]
+                         977 .L597:
+                         978 --271:     }
+                         979 --272:     else
+                         980 --273:     {
+                         981 --274:     }
+                         982 --275: }
+00000354 0000            983 	nop
+                         984 --	    .ef
+                         985 .LDW62:
+00000356 7f00            986 	jmp	[lp]
+                         987 	.type	_tip_TipIllegalFaultDetect,@function
+                         988 	.size	_tip_TipIllegalFaultDetect,.-_tip_TipIllegalFaultDetect
+                         989 	.type	_tip_TipIllegalFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@function
+                         990 	.size	_tip_TipIllegalFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,.-_tip_TipIllegalFaultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                         991 	.align	2
+                         992 .LDW72:
+                         993 --_TipStsIllegal	.L684	static
+                         994 
+                         995 	.data
+                         996 .L684:
+                         997 	.global	_TipStsIllegal.tip_TipIllegalFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..10
+                         998 _TipStsIllegal.tip_TipIllegalFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..10:
+                         999 	.type	_TipStsIllegal.tip_TipIllegalFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..10,@object
+                        1000 	.size	_TipStsIllegal.tip_TipIllegalFaultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..10,4
+00000018 00000000       1001 	.byte	0,0,0,0
+                        1002 	.type	.L684,@object
+                        1003 	.size	.L684,4
+                        1004 	.text
+                        1005 
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                        1006 
+                        1007 --277: /***************************************************
+                        1008 --278: * Function: tip_LocalProcess
+                        1009 --279: * Description: serach Tip_Matrix table based on switch status
+                        1010 --280: * Parameters: input
+                        1011 --281: *                   sts:  TRUE or FALSE
+                        1012 --282: * Returns: TRUE or FALSE
+                        1013 --283: * $Create & Verlog:$
+                        1014 --284: * Author:Hejianjun   Date:2016-11-30   Version:V1.0
+                        1015 --285: ****************************************************/
+                        1016 --286: static void tip_LocalProcess(void)
+                        1017 	.align	2
+                        1018 	.align	2
+                        1019 	.global	_tip_LocalProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                        1020 _tip_LocalProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                        1021 _tip_LocalProcess:
+00000358 8007e170       1022 	prepare	{r25,r26,r27,r28,r29,r31},0
+0000035c 3d0600000000*  1023 	mov	_tip_NetOPSSignal,r29
+00000362 1dd0           1024 	mov	r29,r26
+00000364 3dce0600       1025 	movea	6,r29,r25
+00000368 3b0600000000*  1026 	mov	_Tip_Matrix,r27
+                        1027 --	    .bf
+                        1028 .LDW82:
+                        1029 --287: {
+                        1030 --288:     
+                        1031 --289:     U8 i = 0;    
+0000036e 00e2           1032 	mov	0,r28
+                        1033 --290:     
+                        1034 --291:     tip_SerachKeySts();   
+                        1035 	jarl	_tip_SerachKeySts,lp
+                        1035 <EXPANSION BEGIN>
+                        1035 jarl22 _tip_SerachKeySts , lp 
+00000370 bfff62fd*      1035 <EXPANSION END>
+                        1036 --292:     
+                        1037 --293:     tip_OutOfRangFaultDetect();            
+                        1038 --line293
+                        1039 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.37::
+                        1040 .LDWlin37:
+                        1041 	jarl	_tip_OutOfRangFaultDetect,lp
+                        1041 <EXPANSION BEGIN>
+                        1041 jarl22 _tip_OutOfRangFaultDetect , lp 
+00000374 bfff5cfe*      1041 <EXPANSION END>
+                        1042 --294:     tip_TipStuckFaultDetect();
+                        1043 --line294
+                        1044 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.38::
+                        1045 .LDWlin38:
+                        1046 	jarl	_tip_TipStuckFaultDetect,lp
+                        1046 <EXPANSION BEGIN>
+                        1046 jarl22 _tip_TipStuckFaultDetect , lp 
+00000378 bfffd6fe*      1046 <EXPANSION END>
+                        1047 --295:     tip_TipIllegalFaultDetect();   
+                        1048 --line295
+                        1049 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.39::
+                        1050 .LDWlin39:
+                        1051 	jarl	_tip_TipIllegalFaultDetect,lp
+                        1051 <EXPANSION BEGIN>
+                        1051 jarl22 _tip_TipIllegalFaultDetect , lp 
+0000037c bfff44ff*      1051 <EXPANSION END>
+                        1052 --296:     
+                        1053 --297:     if((FALSE ==TipFlt.Illeagal)
+                        1054 --line297
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                        1055 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.40::
+                        1056 .LDWlin40:
+00000380 9d0f0700       1057 	ld.bu	6[r29],r1
+00000384 dd0a           1058 	shl	29,r1
+00000386 ea35*          1059 	bne	.L705
+                        1060 --298:         && (FALSE ==TipFlt.Stuck)
+                        1061 --299:         && (FALSE ==TipFlt.OutRang))
+                        1062 --300:     {
+                        1063 --301:         for (i = 0; i < TIP_NETCONDITIONMAX; i++)
+                        1064 --line301
+                        1065 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.41::
+                        1066 .LDWlin41:
+00000388 00e2           1067 	mov	0,r28
+0000038a 0000           1068 	nop
+                        1069 .L709:
+                        1070 --302:         {
+                        1071 --303:             if ((Tip_Matrix[i].wintersts == tip_WinterKeySts) && (Tip_Matrix[i].val == tip_KeyStatus.status))
+0000038c fcf60c00       1072 	mulhi	12,r28,ep
+00000390 210600000000*  1073 	mov	_tip_WinterKeySts,r1
+00000396 810f0100       1074 	ld.bu	0[r1],r1
+0000039a dbf1           1075 	add	r27,ep
+0000039c 6070           1076 	sld.bu	0[ep],r14
+0000039e e171           1077 	cmp	r1,r14
+000003a0 ca25*          1078 	bne	.L713
+000003a2 fcf60c00       1079 	mulhi	12,r28,ep
+000003a6 210600000000*  1080 	mov	_tip_KeyStatus,r1
+000003ac 210f0100       1081 	ld.w	0[r1],r1
+000003b0 dbf1           1082 	add	r27,ep
+000003b2 0275           1083 	sld.w	4[ep],r14
+000003b4 e171           1084 	cmp	r1,r14
+000003b6 9a1d*          1085 	bne	.L713
+                        1086 --304:             {
+                        1087 --305:                 tip_NetOPSSignal.PfTrTapUpDwnEnbSwSta = Tip_Matrix[i].EnbSwStaVal;
+                        1088 --line305
+                        1089 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.42::
+                        1090 .LDWlin42:
+000003b8 fcf60c00       1091 	mulhi	12,r28,ep
+000003bc dbf1           1092 	add	r27,ep
+000003be 6808           1093 	sld.bu	8[ep],r1
+000003c0 5d0f0000       1094 	st.b	r1,0[r29]
+                        1095 --306:                 tip_NetOPSSignal.PfTrTapUpDwnSwSta = Tip_Matrix[i].SwStaVal;
+000003c4 fcf60c00       1096 	mulhi	12,r28,ep
+000003c8 dbf1           1097 	add	r27,ep
+000003ca 6908           1098 	sld.bu	9[ep],r1
+000003cc 5d0f0100       1099 	st.b	r1,1[r29]
+                        1100 --307:                 tip_NetOPSSignal.TrPfShftPtrnSw1A = Tip_Matrix[i].SModeSts;
+000003d0 fcf60c00       1101 	mulhi	12,r28,ep
+000003d4 dbf1           1102 	add	r27,ep
+000003d6 6a08           1103 	sld.bu	10[ep],r1
+000003d8 5d0f0200       1104 	st.b	r1,2[r29]
+                        1105 --308:                 tip_NetOPSSignal.TrPfShftPtrnSw4A = Tip_Matrix[i].WModeSts;
+000003dc fcf60c00       1106 	mulhi	12,r28,ep
+000003e0 dbf1           1107 	add	r27,ep
+000003e2 6b08           1108 	sld.bu	11[ep],r1
+000003e4 5d0f0300       1109 	st.b	r1,3[r29]
+                        1110 .L713:
+                        1111 --309:             }
+                        1112 --310:             else
+                        1113 --311:             {
+000003e8 41e2           1114 	add	1,r28
+000003ea 9c00           1115 	zxb	r28
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+000003ec 67e2           1116 	cmp	7,r28
+000003ee f1cd*          1117 	bl	.L709
+000003f0 d515*          1118 	br	.L714
+                        1119 .L705:
+                        1120 --312:             }
+                        1121 --313:         }
+                        1122 --314:     }
+                        1123 --315:     else
+                        1124 --316:     {
+                        1125 --317:         
+                        1126 --318:         if(TRUE == TipFlt.OutRang)
+                        1127 --line318
+                        1128 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.43::
+                        1129 .LDWlin43:
+000003f2 9d0f0700       1130 	ld.bu	6[r29],r1
+000003f6 810a           1131 	shr	1,r1
+000003f8 990d*          1132 	bnl	.L717
+                        1133 --319:         {
+                        1134 --320:             tip_NetOPSSignal.PfTrTapUpDwnEnbSwSta = ACTIVE;
+                        1135 --line320
+                        1136 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.44::
+                        1137 .LDWlin44:
+000003fa 010a           1138 	mov	1,r1
+000003fc 5d0f0000       1139 	st.b	r1,0[r29]
+                        1140 --321:             tip_NetOPSSignal.PfTrTapUpDwnSwSta = ACTIVE;
+00000400 010a           1141 	mov	1,r1
+00000402 5d0f0100       1142 	st.b	r1,1[r29]
+                        1143 --322:             tip_NetOPSSignal.TrPfShftPtrnSw1A = FALSE;
+00000406 5d070200       1144 	st.b	zero,2[r29]
+                        1145 .L717:
+                        1146 --323:         }
+                        1147 --324: 		else
+                        1148 --325: 		{
+                        1149 --326: 		}
+                        1150 --328:         if(TRUE == TipFlt.Illeagal)
+0000040a 9d0f0700       1151 	ld.bu	6[r29],r1
+0000040e 830a           1152 	shr	3,r1
+00000410 d905*          1153 	bnl	.L714
+                        1154 --329:         {
+                        1155 --330:             tip_NetOPSSignal.TrPfShftPtrnSw1A = FALSE;
+                        1156 --line330
+                        1157 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.45::
+                        1158 .LDWlin45:
+00000412 5d070200       1159 	st.b	zero,2[r29]
+                        1160 --331:             tip_NetOPSSignal.TrPfShftPtrnSw4A = FALSE;
+00000416 5d070300       1161 	st.b	zero,3[r29]
+                        1162 .L714:
+                        1163 --332:         }    
+                        1164 --333: 		else
+                        1165 --334: 		{
+                        1166 --335: 		}
+                        1167 --336:     }
+                        1168 --337: }
+0000041a 0000           1169 	nop
+                        1170 --	    .ef
+                        1171 .LDW92:
+0000041c 4006ff70       1172 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                        1173 	.type	_tip_LocalProcess,@function
+                        1174 	.size	_tip_LocalProcess,.-_tip_LocalProcess
+                        1175 	.type	_tip_LocalProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@function
+                        1176 	.size	_tip_LocalProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,.-_tip_LocalProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                        1177 	.align	2
+                        1178 .LDW03:
+                        1179 --_i	r28	local
+                        1180 
+                        1181 	.data
+                        1182 	.text
+                        1183 
+                        1184 
+                        1185 --339: /***************************************************
+                        1186 --340: * Function: TIP_SendNetSignal_10ms
+                        1187 --341: * Description: send net signal
+                        1188 --342: * Parameters:  input: none
+                        1189 --343: * Returns: none
+                        1190 --344: * $Create & Verlog:$
+                        1191 --345: * Author:Hejianjun  Date:2016-11-29   Version:V1.0
+                        1192 --346: ****************************************************/
+                        1193 --347: void TIP_SendNetSignal_10ms(void)
+                        1194 	.align	2
+                        1195 	.align	2
+                        1196 	.global	_TIP_SendNetSignal_10ms
+                        1197 _TIP_SendNetSignal_10ms:
+00000420 8007e110       1198 	prepare	{r27,r28,r29,r31},0
+00000424 3d0600000000*  1199 	mov	_tip_NetOPSSignal,r29
+0000042a 1de0           1200 	mov	r29,r28
+0000042c 3dde0600       1201 	movea	6,r29,r27
+                        1202 --	    .bf
+                        1203 .LDW13:
+                        1204 --348: {
+                        1205 --350:     if(TRUE ==TipFlt.Illeagal)
+00000430 9d0f0700       1206 	ld.bu	6[r29],r1
+00000434 830a           1207 	shr	3,r1
+00000436 e90d*          1208 	bnl	.L874
+                        1209 --351:     {
+                        1210 --352:         v_wr_bool(TrPfShftPtrnSw1A_handle, FALSE);              /*need update signal handle*/
+                        1211 --line352
+                        1212 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.46::
+                        1213 .LDWlin46:
+00000438 26063c373f00   1214 	mov	4142908,r6
+0000043e 003a           1215 	mov	0,r7
+                        1216 	jarl	_v_wr_bool,lp
+                        1216 <EXPANSION BEGIN>
+                        1216 jarl22 _v_wr_bool , lp 
+00000440 80ff0000*      1216 <EXPANSION END>
+                        1217 --353:         v_wr_bool(TrPfShftPtrnSw4A_handle, FALSE);
+                        1218 --line353
+                        1219 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.47::
+                        1220 .LDWlin47:
+00000444 260660373f00   1221 	mov	4142944,r6
+0000044a 003a           1222 	mov	0,r7
+                        1223 	jarl	_v_wr_bool,lp
+                        1223 <EXPANSION BEGIN>
+                        1223 jarl22 _v_wr_bool , lp 
+0000044c 80ff0000*      1223 <EXPANSION END>
+00000450 f50d*          1224 	br	.L876
+                        1225 .L874:
+                        1226 --354:     }
+                        1227 --355:     else
+                        1228 --356:     {
+                        1229 --357:         v_wr_bool(TrPfShftPtrnSw1A_handle, tip_NetOPSSignal.TrPfShftPtrnSw1A);              /*need update signal handle*/
+                        1230 --line357
+                        1231 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.48::
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                        1232 .LDWlin48:
+00000452 9d3f0300       1233 	ld.bu	2[r29],r7
+00000456 26063c373f00   1234 	mov	4142908,r6
+                        1235 	jarl	_v_wr_bool,lp
+                        1235 <EXPANSION BEGIN>
+                        1235 jarl22 _v_wr_bool , lp 
+0000045c 80ff0000*      1235 <EXPANSION END>
+                        1236 --358:         v_wr_bool(TrPfShftPtrnSw4A_handle, tip_NetOPSSignal.TrPfShftPtrnSw4A);
+                        1237 --line358
+                        1238 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.49::
+                        1239 .LDWlin49:
+00000460 bd3f0300       1240 	ld.bu	3[r29],r7
+00000464 260660373f00   1241 	mov	4142944,r6
+                        1242 	jarl	_v_wr_bool,lp
+                        1242 <EXPANSION BEGIN>
+                        1242 jarl22 _v_wr_bool , lp 
+0000046a 80ff0000*      1242 <EXPANSION END>
+                        1243 .L876:
+                        1244 --359:     }
+                        1245 --361:     if(TRUE == TipFlt.OutRang)
+                        1246 --line361
+                        1247 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.50::
+                        1248 .LDWlin50:
+0000046e 9d0f0700       1249 	ld.bu	6[r29],r1
+00000472 810a           1250 	shr	1,r1
+00000474 c915*          1251 	bnl	.L877
+                        1252 --362:     {  
+                        1253 --363:         v_wr_bool(TrPfShftPtrnSw1A_handle, FALSE);
+                        1254 --line363
+                        1255 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.51::
+                        1256 .LDWlin51:
+00000476 26063c373f00   1257 	mov	4142908,r6
+0000047c 003a           1258 	mov	0,r7
+                        1259 	jarl	_v_wr_bool,lp
+                        1259 <EXPANSION BEGIN>
+                        1259 jarl22 _v_wr_bool , lp 
+0000047e 80ff0000*      1259 <EXPANSION END>
+                        1260 --364:         v_wr_8(PfTrTapUpDwnEnbSwSta_handle, TIP_ILLEGALENABLE);
+                        1261 --line364
+                        1262 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.52::
+                        1263 .LDWlin52:
+00000482 260690343f00   1264 	mov	4142224,r6
+00000488 033a           1265 	mov	3,r7
+                        1266 	jarl	_v_wr_8,lp
+                        1266 <EXPANSION BEGIN>
+                        1266 jarl22 _v_wr_8 , lp 
+0000048a 80ff0000*      1266 <EXPANSION END>
+                        1267 --365:         v_wr_8(PfTrTapUpDwnSwSta_handle, TIP_ILLEGALENABLE);
+                        1268 --line365
+                        1269 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.53::
+                        1270 .LDWlin53:
+0000048e 2606d8343f00   1271 	mov	4142296,r6
+00000494 033a           1272 	mov	3,r7
+                        1273 	jarl	_v_wr_8,lp
+                        1273 <EXPANSION BEGIN>
+                        1273 jarl22 _v_wr_8 , lp 
+00000496 80ff0000*      1273 <EXPANSION END>
+0000049a f50d*          1274 	br	.L879
+                        1275 .L877:
+                        1276 --366:     }
+                        1277 --367:     else
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                        1278 --368:     {
+                        1279 --369:         v_wr_8(PfTrTapUpDwnEnbSwSta_handle, tip_NetOPSSignal.PfTrTapUpDwnEnbSwSta);
+                        1280 --line369
+                        1281 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.54::
+                        1282 .LDWlin54:
+0000049c 9d3f0100       1283 	ld.bu	0[r29],r7
+000004a0 260690343f00   1284 	mov	4142224,r6
+                        1285 	jarl	_v_wr_8,lp
+                        1285 <EXPANSION BEGIN>
+                        1285 jarl22 _v_wr_8 , lp 
+000004a6 80ff0000*      1285 <EXPANSION END>
+                        1286 --370:         v_wr_8(PfTrTapUpDwnSwSta_handle, tip_NetOPSSignal.PfTrTapUpDwnSwSta);
+                        1287 --line370
+                        1288 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.55::
+                        1289 .LDWlin55:
+000004aa bd3f0100       1290 	ld.bu	1[r29],r7
+000004ae 2606d8343f00   1291 	mov	4142296,r6
+                        1292 	jarl	_v_wr_8,lp
+                        1292 <EXPANSION BEGIN>
+                        1292 jarl22 _v_wr_8 , lp 
+000004b4 80ff0000*      1292 <EXPANSION END>
+                        1293 .L879:
+                        1294 --371:     }
+                        1295 --373: 	
+                        1296 --374:         v_wr_8(PfTrTapUpDwnSwStsAlvRC_handle, tip_NetOPSSignal.PfTrRollingCnt);		
+                        1297 --line374
+                        1298 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.56::
+                        1299 .LDWlin56:
+000004b8 9d3f0500       1300 	ld.bu	4[r29],r7
+000004bc 2606fc343f00   1301 	mov	4142332,r6
+                        1302 	jarl	_v_wr_8,lp
+                        1302 <EXPANSION BEGIN>
+                        1302 jarl22 _v_wr_8 , lp 
+000004c2 80ff0000*      1302 <EXPANSION END>
+                        1303 --375:         v_wr_8(TrPfShftPtrnSwAlvRC_handle, tip_NetOPSSignal.TrPfRollingCnt);
+                        1304 --line375
+                        1305 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.57::
+                        1306 .LDWlin57:
+000004c6 bd3f0500       1307 	ld.bu	5[r29],r7
+000004ca 260684373f00   1308 	mov	4142980,r6
+                        1309 	jarl	_v_wr_8,lp
+                        1309 <EXPANSION BEGIN>
+                        1309 jarl22 _v_wr_8 , lp 
+000004d0 80ff0000*      1309 <EXPANSION END>
+                        1310 --376: }
+                        1311 --line376
+                        1312 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.58::
+                        1313 .LDWlin58:
+000004d4 0000           1314 	nop
+                        1315 --	    .ef
+                        1316 .LDW23:
+000004d6 4006ff10       1317 	dispose	0,{r27,r28,r29,r31},[lp]
+                        1318 	.type	_TIP_SendNetSignal_10ms,@function
+                        1319 	.size	_TIP_SendNetSignal_10ms,.-_TIP_SendNetSignal_10ms
+                        1320 	.align	2
+                        1321 .LDW33:
+                        1322 
+                        1323 	.data
+                        1324 	.text
+                        1325 
+                        1326 
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                        1327 --378: /***************************************************
+                        1328 --379: * Function: tip_Rollingcnt
+                        1329 --380: * Description:  Rollingcnt signal update
+                        1330 --381: * Parameters:  input: none
+                        1331 --382: * Returns: none
+                        1332 --383: * $Create & Verlog:$
+                        1333 --384: * Author:Hejianjun  Date:2016-11-29   Version:V1.0
+                        1334 --385: ****************************************************/
+                        1335 --386: static void tip_Rollingcnt(void)
+                        1336 	.align	2
+                        1337 	.align	2
+                        1338 	.global	_tip_Rollingcnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                        1339 _tip_Rollingcnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.:
+                        1340 _tip_Rollingcnt:
+000004da 8007e170       1341 	prepare	{r25,r26,r27,r28,r29,r31},0
+000004de 3d0600000000*  1342 	mov	.L1004,r29
+000004e4 3c0600000000*  1343 	mov	_v_transmit_flags,r28
+000004ea 3dd60100       1344 	movea	1,r29,r26
+000004ee 1dc8           1345 	mov	r29,r25
+000004f0 3b0600000000*  1346 	mov	_tip_NetOPSSignal,r27
+                        1347 --	    .bf
+                        1348 .LDW43:
+                        1349 --387: {
+                        1350 --388:     static U8 RollCntPftr = 0;
+                        1351 --389:     static U8 RollCntTrpf = 0;
+                        1352 --390:     
+                        1353 --391:     if (FALSE != v_test_flag(tiprollcntPftr_handle))
+000004f6 1c361800       1354 	addi	24,r28,r6
+                        1355 	jarl	_v_test_flag,lp
+                        1355 <EXPANSION BEGIN>
+                        1355 jarl22 _v_test_flag , lp 
+000004fa 80ff0000*      1355 <EXPANSION END>
+000004fe e051           1356 	cmp	zero,r10
+00000500 8215*          1357 	be	.L968
+                        1358 --392:      {
+                        1359 --393:         RollCntPftr++;
+                        1360 --line393
+                        1361 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.59::
+                        1362 .LDWlin59:
+00000502 9d0f0100       1363 	ld.bu	0[r29],r1
+00000506 410a           1364 	add	1,r1
+00000508 5d0f0000       1365 	st.b	r1,0[r29]
+                        1366 --394:         RollCntPftr = RollCntPftr & 0x03;
+0000050c 9d0f0100       1367 	ld.bu	0[r29],r1
+00000510 c10e0300       1368 	andi	3,r1,r1
+00000514 5d0f0000       1369 	st.b	r1,0[r29]
+                        1370 --395:         tip_NetOPSSignal.PfTrRollingCnt = RollCntPftr;
+00000518 9d0f0100       1371 	ld.bu	0[r29],r1
+0000051c 5b0f0400       1372 	st.b	r1,4[r27]
+                        1373 .L968:
+                        1374 --396:      }
+                        1375 --397:     else
+                        1376 --398:     {    
+                        1377 --399:     }
+                        1378 --400:     v_clear_flag(tiprollcntPftr_handle);
+00000520 1c361800       1379 	addi	24,r28,r6
+                        1380 	jarl	_v_clear_flag,lp
+                        1380 <EXPANSION BEGIN>
+                        1380 jarl22 _v_clear_flag , lp 
+00000524 80ff0000*      1380 <EXPANSION END>
+                        1381 --402:     if (FALSE != v_test_flag(tiprollcntTrpf_handle))
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                        1382 --line402
+                        1383 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.60::
+                        1384 .LDWlin60:
+00000528 1c363000       1385 	addi	48,r28,r6
+                        1386 	jarl	_v_test_flag,lp
+                        1386 <EXPANSION BEGIN>
+                        1386 jarl22 _v_test_flag , lp 
+0000052c 80ff0000*      1386 <EXPANSION END>
+00000530 e051           1387 	cmp	zero,r10
+00000532 8215*          1388 	be	.L971
+                        1389 --403:     {
+                        1390 --404:         RollCntTrpf++;
+                        1391 --line404
+                        1392 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.61::
+                        1393 .LDWlin61:
+00000534 bd0f0100       1394 	ld.bu	1[r29],r1
+00000538 410a           1395 	add	1,r1
+0000053a 5d0f0100       1396 	st.b	r1,1[r29]
+                        1397 --405:         RollCntTrpf = RollCntTrpf & 0x03;
+0000053e bd0f0100       1398 	ld.bu	1[r29],r1
+00000542 c10e0300       1399 	andi	3,r1,r1
+00000546 5d0f0100       1400 	st.b	r1,1[r29]
+                        1401 --406:         tip_NetOPSSignal.TrPfRollingCnt = RollCntTrpf;
+0000054a bd0f0100       1402 	ld.bu	1[r29],r1
+0000054e 5b0f0500       1403 	st.b	r1,5[r27]
+                        1404 .L971:
+                        1405 --407:       
+                        1406 --408:     }
+                        1407 --409:     else
+                        1408 --410:     {    
+                        1409 --411:     }
+                        1410 --412:     v_clear_flag(tiprollcntTrpf_handle);
+00000552 1c363000       1411 	addi	48,r28,r6
+                        1412 	jarl	_v_clear_flag,lp
+                        1412 <EXPANSION BEGIN>
+                        1412 jarl22 _v_clear_flag , lp 
+00000556 80ff0000*      1412 <EXPANSION END>
+                        1413 --413: }
+                        1414 --line413
+                        1415 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.62::
+                        1416 .LDWlin62:
+0000055a 0000           1417 	nop
+                        1418 --	    .ef
+                        1419 .LDW53:
+0000055c 4006ff70       1420 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                        1421 	.type	_tip_Rollingcnt,@function
+                        1422 	.size	_tip_Rollingcnt,.-_tip_Rollingcnt
+                        1423 	.type	_tip_Rollingcnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,@function
+                        1424 	.size	_tip_Rollingcnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.,.-_tip_Rollingcnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.
+                        1425 	.align	2
+                        1426 .LDW63:
+                        1427 --_RollCntPftr	.L1033	static
+                        1428 --_RollCntTrpf	.L1034	static
+                        1429 
+                        1430 	.data
+                        1431 .L1004:
+                        1432 	.type	.L1004,@object
+                        1433 	.size	.L1004,0
+                        1434 .L1033:
+                        1435 	.global	_RollCntPftr.tip_Rollingcnt.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..11
+                        1436 _RollCntPftr.tip_Rollingcnt.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..11:
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                        1437 	.type	_RollCntPftr.tip_Rollingcnt.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..11,@object
+                        1438 	.size	_RollCntPftr.tip_Rollingcnt.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..11,1
+0000001c 00             1439 	.byte	0
+                        1440 	.type	.L1033,@object
+                        1441 	.size	.L1033,1
+                        1442 .L1034:
+                        1443 	.global	_RollCntTrpf.tip_Rollingcnt.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..12
+                        1444 _RollCntTrpf.tip_Rollingcnt.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..12:
+                        1445 	.type	_RollCntTrpf.tip_Rollingcnt.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..12,@object
+                        1446 	.size	_RollCntTrpf.tip_Rollingcnt.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip..12,1
+0000001d 00             1447 	.byte	0
+                        1448 	.type	.L1034,@object
+                        1449 	.size	.L1034,1
+                        1450 	.text
+                        1451 
+                        1452 
+                        1453 --415: /***************************************************
+                        1454 --416: * Function: TIP_GetFltStatus
+                        1455 --417: * Description:  get tip error status
+                        1456 --418: * Parameters:  output: 
+                        1457 --419: * Returns: 
+                        1458 --420: 			RET_INVALID
+                        1459 --421: 			RET_FAIL
+                        1460 --422: * $Create & Verlog:$
+                        1461 --423: * Author:Hejianjun  Date:2016-11-29   Version:V1.0
+                        1462 --424: ****************************************************/
+                        1463 --425: U8 TIP_GetFltStatus(TIPFlt_ST *status)
+                        1464 	.align	2
+                        1465 	.align	2
+                        1466 	.global	_TIP_GetFltStatus
+                        1467 _TIP_GetFltStatus:
+00000560 06f0           1468 	mov	r6,ep
+                        1469 --	    .bf
+                        1470 .LDW73:
+                        1471 --426: {
+                        1472 --427:     U8 res;
+                        1473 --428:     if (NULL_PTR == status)
+00000562 e0f1           1474 	cmp	zero,ep
+00000564 ba05*          1475 	bne	.L1050
+                        1476 --429:     {
+                        1477 --430:         res = RET_INVALID;
+                        1478 --line430
+                        1479 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.63::
+                        1480 .LDWlin63:
+00000566 020a           1481 	mov	2,r1
+00000568 8515*          1482 	br	.L1052
+                        1483 .L1050:
+                        1484 --431:     }
+                        1485 --432:     else
+                        1486 --433:     {
+                        1487 --434:         if (TRUE == tip_InitSts)
+                        1488 --line434
+                        1489 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.64::
+                        1490 .LDWlin64:
+0000056a 210600000000*  1491 	mov	_tip_InitSts,r1
+00000570 810f0100       1492 	ld.bu	0[r1],r1
+00000574 610a           1493 	cmp	1,r1
+00000576 8a0d*          1494 	bne	.L1053
+                        1495 --435:         {
+                        1496 --436:             *status = TipFlt;
+                        1497 --line436
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+                        1498 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.65::
+                        1499 .LDWlin65:
+00000578 210600000000*  1500 	mov	_TipFlt,r1
+0000057e 810f0100       1501 	ld.bu	0[r1],r1
+00000582 800b           1502 	sst.b	r1,0[ep]
+00000584 a505*          1503 	br	.L1052
+                        1504 .L1053:
+                        1505 --437:         }
+                        1506 --438:         else
+                        1507 --439:         {
+                        1508 --440:             res = RET_FAIL;
+                        1509 --line440
+                        1510 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip.66::
+                        1511 .LDWlin66:
+00000586 000a           1512 	mov	0,r1
+                        1513 .L1052:
+                        1514 --441:         }
+                        1515 --442:     }
+                        1516 --443:     return res;
+00000588 0150           1517 	mov	r1,r10
+                        1518 --	    .ef
+                        1519 .LDW83:
+0000058a 7f00           1520 	jmp	[lp]
+                        1521 	.type	_TIP_GetFltStatus,@function
+                        1522 	.size	_TIP_GetFltStatus,.-_TIP_GetFltStatus
+                        1523 	.align	2
+                        1524 .LDW93:
+                        1525 --_res	r1	local
+                        1526 
+                        1527 --_status	ep	param
+                        1528 
+                        1529 	.data
+                        1530 	.text
+                        1531 
+                        1532 --444: }
+                        1533 	.align	2
+                        1534 --_v_transmit_flags	_v_transmit_flags	import
+                        1535 --_tip_InitSts	_tip_InitSts	static
+                        1536 --_tip_KeyStatus	_tip_KeyStatus	static
+                        1537 --_tip_WinterKeySts	_tip_WinterKeySts	static
+                        1538 --_tip_NetOPSSignal	_tip_NetOPSSignal	static
+                        1539 --_FltCntRang	_FltCntRang	static
+                        1540 --_FltCntstuck	_FltCntstuck	static
+                        1541 --_FltCntIllegal	_FltCntIllegal	static
+                        1542 --_TipFlt	_TipFlt	static
+                        1543 
+                        1544 	.section ".rodata","a"
+                        1545 	.align	4
+                        1546 	.global	_Tip_Matrix
+00000000 00             1547 _Tip_Matrix:	.space	1
+00000001 000000         1548 	.space	3
+00000004 00000000       1549 	.space	4
+00000008 00             1550 	.space	1
+00000009 00             1551 	.space	1
+0000000a 00             1552 	.space	1
+0000000b 01             1553 	.byte	1
+0000000c 00             1554 	.space	1
+0000000d 000000         1555 	.space	3
+00000010 06000000       1556 	.byte	6,0,0,0
+00000014 0303           1557 	.byte	3,3
+00000016 00             1558 	.space	1
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003601.si
+00000017 01             1559 	.byte	1
+00000018 01             1560 	.byte	1
+00000019 000000         1561 	.space	3
+0000001c 00000000       1562 	.space	4
+00000020 00             1563 	.space	1
+00000021 00             1564 	.space	1
+00000022 00             1565 	.space	1
+00000023 00             1566 	.space	1
+00000024 01             1567 	.byte	1
+00000025 000000         1568 	.space	3
+00000028 01000000       1569 	.byte	1,0,0,0
+0000002c 01             1570 	.byte	1
+0000002d 00             1571 	.space	1
+0000002e 01             1572 	.byte	1
+0000002f 00             1573 	.space	1
+00000030 01             1574 	.byte	1
+00000031 000000         1575 	.space	3
+00000034 02000000       1576 	.byte	2,0,0,0
+00000038 0101           1577 	.byte	1,1
+0000003a 01             1578 	.byte	1
+0000003b 00             1579 	.space	1
+0000003c 01             1580 	.byte	1
+0000003d 000000         1581 	.space	3
+00000040 04000000       1582 	.byte	4,0,0,0
+00000044 0102           1583 	.byte	1,2
+00000046 01             1584 	.byte	1
+00000047 00             1585 	.space	1
+00000048 01             1586 	.byte	1
+00000049 000000         1587 	.space	3
+0000004c 06000000       1588 	.byte	6,0,0,0
+00000050 0303           1589 	.byte	3,3
+00000052 00             1590 	.space	1
+00000053 00             1591 	.space	1
+                        1592 	.type	_Tip_Matrix,@object
+                        1593 	.size	_Tip_Matrix,84
+                        1594 	.data
+                        1595 	.ghsnote version,14
+                        1596 	.ghsnote tools,3
+                        1597 	.ghsnote options,144
+                        1598 	.text
+                        1599 	.align	2
+                        1600 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctip...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036A..0::
+                        1601 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

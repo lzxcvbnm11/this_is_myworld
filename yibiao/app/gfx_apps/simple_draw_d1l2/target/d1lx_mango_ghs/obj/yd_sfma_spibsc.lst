@@ -1,0 +1,2712 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\yd_sfma_spibsc.dbo -source=yd_sfma_spibsc.c -o .\obj\gh_000011o1.o -list=.\obj\yd_sfma_spibsc.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+Source File: yd_sfma_spibsc.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c ..\..\..\..\..\macro\flashc\sfma\lib\yd_sfma_spibsc.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                         112 --		-o .\obj\yd_sfma_spibsc.o
+                         113 --Source File:   ..\..\..\..\..\macro\flashc\sfma\lib\yd_sfma_spibsc.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:46 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2: ****************************************************************************
+                         126 --3: PROJECT : SFMA driver
+                         127 --4: FILE    : $Id: yd_sfma_spibsc.c 7491 2016-02-02 16:51:40Z florian.zimmermann $
+                         128 --5: ============================================================================
+                         129 --6: DESCRIPTION
+                         130 --7: Driver for the SFMA(Serial Flash Memory Interface) macro
+                         131 --8: ============================================================================
+                         132 --9:                             C O P Y R I G H T
+                         133 --10: ============================================================================
+                         134 --11:                            Copyright (c) 2013 - 2014
+                         135 --12:                                   by
+                         136 --13:                        Renesas Electronics (Europe) GmbH.
+                         137 --14:                            Arcadiastrasse 10
+                         138 --15:                           D-40472 Duesseldorf
+                         139 --16:                                Germany
+                         140 --17:                           All rights reserved.
+                         141 --18: ============================================================================
+                         142 --20: DISCLAIMER
+                         143 --22: LICENSEE has read, understood and accepted the terms and conditions defined in
+                         144 --23: the license agreement, especially the usage rights. In any case, it is
+                         145 --24: LICENSEE's responsibility to make sure that any user of the software complies
+                         146 --25: with the terms and conditions of the signed license agreement.
+                         147 --27: ****************************************************************************
+                         148 --28: */
+                         149 --30: /***************************************************************************
+                         150 --31:   Title: SFMA Spibsc Driver
+                         151 --33:   SFMA Internal Interface
+                         152 --35: */
+                         153 --37: /***************************************************************************
+                         154 --38:   Section: Includes
+                         155 --39: */
+                         156 --40: #include "r_typedefs.h"
+                         157 --41: #include "yd_sfma_api.h"
+                         158 --42: #include "r_sfma_api.h"
+                         159 --43: #include "yd_sfma_spibsc.h"
+                         160 --44: #include "yd_config_sfma.h"
+                         161 --45: //#include "yd_sfma_sys.h"
+                         162 --47: /***************************************************************************
+                         163 --48:   Section: Local Defines
+                         164 --49: */
+                         165 --50: /***************************************************************************
+                         166 --51:   Constants: LOC_YD_SFMA_EVEN_CHECK_NUM
+                         167 --53:   This constant is even number check.
+                         168 --54: */
+                         169 --55: #define LOC_YD_SFMA_EVEN_CHECK_NUM         (1u)
+                         170 --57: /***************************************************************************
+                         171 --58:   Constants: LOC_YD_SFMA_WAIT_FLAG
+                         172 --60:   This constant is waiting flag.
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                         173 --62:   LOC_YD_SFMA_WAIT_FLAG_TRUE  - Wait true.
+                         174 --63:   LOC_YD_SFMA_WAIT_FLAG_FALSE - Wait false.
+                         175 --64: */
+                         176 --65: #define LOC_YD_SFMA_WAIT_FLAG_TRUE         (1u)
+                         177 --66: #define LOC_YD_SFMA_WAIT_FLAG_FALSE        (0u)
+                         178 --68: /***************************************************************************
+                         179 --69:   Constants: LOC_SFLASHCMD_READ_JEDEC
+                         180 --71:   This constant is Read JEDEC of serial flash command ID
+                         181 --72: */
+                         182 --73: #define LOC_SFLASHCMD_READ_JEDEC        (0x9FuL)
+                         183 --75: /***************************************************************************
+                         184 --76:   Constants: LOC_YD_SFMA_SPIBSC_SET_EAV_SHIFT
+                         185 --78:   This constant is shift values of EAV field of DREAR register.
+                         186 --79: */
+                         187 --80: #define LOC_YD_SFMA_SPIBSC_SET_EAV_SHIFT   (25uL)
+                         188 --82: /***************************************************************************
+                         189 --83:   Constants: LOC_YD_SFMA_SPIBSC_SET_EAV_MASK
+                         190 --85:   This constant is mask values of EAV field of DREAR register.
+                         191 --86: */
+                         192 --87: #define LOC_YD_SFMA_SPIBSC_SET_EAV_MASK    (0xFFuL)
+                         193 --89: /***************************************************************************
+                         194 --90:   Constants: LOC_YD_SFMA_MASK_BYTE_LOW
+                         195 --92:   This constant is mask values of lower byte of 32 bit register.
+                         196 --93: */
+                         197 --94: #define LOC_YD_SFMA_MASK_BYTE_LOW          (0x000000FFuL)
+                         198 --96: /***************************************************************************
+                         199 --97:   Constants: LOC_YD_SFMA_SPIBSC_SPBR
+                         200 --99:   This constant is value of setting SPBR.
+                         201 --101:   LOC_YD_SFMA_SPIBSC_SPBR_MIN       - The setting value of minimum SPBR value.
+                         202 --102:   LOC_YD_SFMA_SPIBSC_SPBR_MAX       - The setting value of max SPBR value.
+                         203 --103: */
+                         204 --104: #define LOC_YD_SFMA_SPIBSC_SPBR_MIN        (1uL)
+                         205 --105: #define LOC_YD_SFMA_SPIBSC_SPBR_MAX        (255uL)
+                         206 --107: /***************************************************************************
+                         207 --108:   Constants: LOC_YD_SFMA_SPIBSC_BRDV
+                         208 --110:   This constant is BRDV setting.
+                         209 --112:   LOC_YD_SFMA_SPIBSC_BRDV_BASE      - The setting value of BRDV base.
+                         210 --113:   LOC_YD_SFMA_SPIBSC_BRDV_2DIV      - The setting value of BRDV divided by 2.
+                         211 --114:   LOC_YD_SFMA_SPIBSC_BRDV_4DIV      - The setting value of BRDV divided by 4.
+                         212 --115:   LOC_YD_SFMA_SPIBSC_BRDV_8DIV      - The setting value of BRDV divided by 8.
+                         213 --116: */
+                         214 --117: #define LOC_YD_SFMA_SPIBSC_BRDV_BASE       (0uL)
+                         215 --118: #define LOC_YD_SFMA_SPIBSC_BRDV_2DIV       (1uL)
+                         216 --119: #define LOC_YD_SFMA_SPIBSC_BRDV_4DIV       (2uL)
+                         217 --120: #define LOC_YD_SFMA_SPIBSC_BRDV_8DIV       (3uL)
+                         218 --122: /***************************************************************************
+                         219 --123:   Constants: LOC_YD_SFMA_SPIBSC_SPBR_SET
+                         220 --125:   This constant is bit rate setting.
+                         221 --127:   LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV2  - Base bit rate divided by 2.
+                         222 --128:   LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV4  - Base bit rate divided by 4.
+                         223 --129:   LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV8  - Base bit rate divided by 8.
+                         224 --130:   LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV16 - Base bit rate divided by 16.
+                         225 --131: */
+                         226 --132: #define LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV2   (2uL)
+                         227 --133: #define LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV4   (4uL)
+                         228 --134: #define LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV8   (8uL)
+                         229 --135: #define LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV16  (16uL)
+                         230 --137: /***************************************************************************
+                         231 --138:   Constants: LOC_YD_SFMA_SPIBSC_CLK_MAX
+                         232 --140:   This constant is max bit rate frequency.
+                         233 --142:   LOC_YD_SFMA_SPIBSC_CLK_MAX        - MAX bit rate frequency division when BRDV is 0.
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                         234 --143:   LOC_YD_SFMA_SPIBSC_CLK_MAX_DIV2   - MAX bit rate frequency division when BRDV is 1.
+                         235 --144:   LOC_YD_SFMA_SPIBSC_CLK_MAX_DIV4   - MAX bit rate frequency division when BRDV is 2.
+                         236 --145:   LOC_YD_SFMA_SPIBSC_CLK_MAX_DIV8   - MAX bit rate frequency division when BRDV is 3.
+                         237 --146: */
+                         238 --147: #define LOC_YD_SFMA_SPIBSC_CLK_MAX         (510uL)
+                         239 --148: #define LOC_YD_SFMA_SPIBSC_CLK_MAX_DIV2    (1020uL)
+                         240 --149: #define LOC_YD_SFMA_SPIBSC_CLK_MAX_DIV4    (2040uL)
+                         241 --150: #define LOC_YD_SFMA_SPIBSC_CLK_MAX_DIV8    (4080uL)
+                         242 --152: /***************************************************************************
+                         243 --153:   Section: Local functions
+                         244 --154: */
+                         245 --155: /***************************************************************************
+                         246 --156:   Function: YD_Spibsc_SetMode
+                         247 --158:   Description:
+                         248 --159:   This function sets Quad I/O operation for the register of
+                         249 --160:   the serial flash memory according to the configuration.
+                         250 --162:   Parameter:
+                         251 --163:   Unit : The parameter specifies the instance number.
+                         252 --164:   Req  : The parameter specifies the request to the serial flash memory.
+                         253 --165:   SpiConfig : This is a pointer to the yd_sfma_SpiConfig_t structure to
+                         254 --166:               the configuration of the unit.
+                         255 --168:   Return value:
+                         256 --169:   See <yd_sfma_Error_t>.
+                         257 --170: */
+                         258 --171: static yd_sfma_Error_t YD_Spibsc_SetMode(const uint32_t           Unit,
+                         259 --172:                                          const yd_sfma_Req_t       Req,
+                         260 --173:                                          const yd_sfma_SpiConfig_t *SpiConfig);
+                         261 --175: static yd_sfma_Error_t YD_Spibsc_SetMode(const uint32_t           Unit,
+                         262 	.text
+                         263 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74037A..0::
+                         264 	.align	2
+                         265 	.global	_YD_Spibsc_SetMode..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.
+                         266 _YD_Spibsc_SetMode..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.:
+                         267 _YD_Spibsc_SetMode:
+00000000 b207e130        268 	prepare	{r26,r27,r28,r29,r31},25
+00000004 06d8            269 	mov	r6,r27
+00000006 07d0            270 	mov	r7,r26
+00000008 08e8            271 	mov	r8,r29
+                         272 --	    .bf
+                         273 .LDW01:
+                         274 --176:                                          const yd_sfma_Req_t       Req,
+                         275 --177:                                          const yd_sfma_SpiConfig_t *SpiConfig)
+                         276 --178: {
+                         277 --179:     yd_sfma_Error_t ret;
+                         278 --180:     uint8_t        st_reg1;
+                         279 --181:     uint8_t        st_reg2;
+                         280 --182:     uint8_t        cf_reg1;
+                         281 --183:     uint8_t        cf_reg2;
+                         282 --184:     yd_sfma_SpibscSpimdReg_t spibsc_reg;
+                         283 --186:     if (SpiConfig == R_NULL)
+0000000a e0e9            284 	cmp	zero,r29
+0000000c ca05*           285 	bne	.L4
+                         286 --187:     {
+                         287 --188:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                         288 --line188
+                         289 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.1::
+                         290 .LDWlin1:
+0000000e 02e2            291 	mov	2,r28
+00000010 8007e201*       292 	br	.L6
+                         293 .L4:
+                         294 --189:     }
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                         295 --190:     else
+                         296 --191:     {
+                         297 --192:         ret = YD_SFMA_SpibscReadStatusRegister(Unit, &st_reg1, &st_reg2, SpiConfig);
+                         298 --line192
+                         299 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.2::
+                         300 .LDWlin2:
+00000014 1b30            301 	mov	r27,r6
+00000016 1d48            302 	mov	r29,r9
+00000018 233e0000        303 	movea	0,sp,r7
+0000001c 23460100        304 	movea	1,sp,r8
+                         305 	jarl	_YD_SFMA_SpibscReadStatusRegister,lp
+                         305 <EXPANSION BEGIN>
+                         305 jarl22 _YD_SFMA_SpibscReadStatusRegister , lp 
+00000020 80ff0c04*       305 <EXPANSION END>
+00000024 0ae0            306 	mov	r10,r28
+                         307 --193:         if (ret == YD_SFMA_ERR_OK)
+                         308 --line193
+                         309 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.3::
+                         310 .LDWlin3:
+00000026 e0e1            311 	cmp	zero,r28
+00000028 9a7d*           312 	bne	.L7
+                         313 --194:         {
+                         314 --195:             ret = YD_SFMA_SpibscReadConfigRegister(Unit, &cf_reg1, &cf_reg2, SpiConfig);
+                         315 --line195
+                         316 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.4::
+                         317 .LDWlin4:
+0000002a 1b30            318 	mov	r27,r6
+0000002c 1d48            319 	mov	r29,r9
+0000002e 233e0200        320 	movea	2,sp,r7
+00000032 23460300        321 	movea	3,sp,r8
+                         322 	jarl	_YD_SFMA_SpibscReadConfigRegister,lp
+                         322 <EXPANSION BEGIN>
+                         322 jarl22 _YD_SFMA_SpibscReadConfigRegister , lp 
+00000036 80ff7a04*       322 <EXPANSION END>
+0000003a 0ae0            323 	mov	r10,r28
+                         324 --196:             if (ret == YD_SFMA_ERR_OK)
+                         325 --line196
+                         326 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.5::
+                         327 .LDWlin5:
+0000003c e0e1            328 	cmp	zero,r28
+0000003e ea6d*           329 	bne	.L7
+                         330 --197:             {
+                         331 --198:                 /* set serial-flash(1) same value of serial-flash(0) */
+                         332 --199:                 if (Req == YD_SFMA_REQ_SERIALMODE)
+                         333 --line199
+                         334 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.6::
+                         335 .LDWlin6:
+00000040 62d2            336 	cmp	2,r26
+00000042 da1d*           337 	bne	.L11
+                         338 --200:                 {
+                         339 --201:                     /* ---- set dual/serial mode ---- */
+                         340 --202:                     if (SpiConfig->Command.QuadIoMode.Reg == YD_SFMA_STATUS_REG)
+                         341 --line202
+                         342 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.7::
+                         343 .LDWlin7:
+00000044 3d0f1900        344 	ld.w	24[r29],r1
+00000048 e009            345 	cmp	zero,r1
+0000004a ba0d*           346 	bne	.L13
+                         347 --203:                     {
+                         348 --204:                         st_reg1 &= (uint8_t)~SpiConfig->Command.QuadIoMode.BitPosition;
+                         349 --line204
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                         350 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.8::
+                         351 .LDWlin8:
+0000004c 9d0f1d00        352 	ld.bu	28[r29],r1
+00000050 2170            353 	not	r1,r14
+00000052 830f0100        354 	ld.bu	0[sp],r1
+00000056 8e00            355 	zxb	r14
+00000058 4e09            356 	and	r14,r1
+0000005a 430f0000        357 	st.b	r1,0[sp]
+0000005e a52d*           358 	br	.L19
+                         359 .L13:
+                         360 --205:                     }
+                         361 --206:                     else if (SpiConfig->Command.QuadIoMode.Reg == YD_SFMA_CONFIG_REG)
+                         362 --line206
+                         363 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.9::
+                         364 .LDWlin9:
+00000060 3d0f1900        365 	ld.w	24[r29],r1
+00000064 610a            366 	cmp	1,r1
+00000066 ea25*           367 	bne	.L19
+                         368 --207:                     {
+                         369 --208:                         cf_reg1 &= (uint8_t)~SpiConfig->Command.QuadIoMode.BitPosition;
+                         370 --line208
+                         371 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.10::
+                         372 .LDWlin10:
+00000068 9d0f1d00        373 	ld.bu	28[r29],r1
+0000006c 2170            374 	not	r1,r14
+0000006e 830f0300        375 	ld.bu	2[sp],r1
+00000072 8e00            376 	zxb	r14
+00000074 4e09            377 	and	r14,r1
+00000076 430f0200        378 	st.b	r1,2[sp]
+0000007a c51d*           379 	br	.L19
+                         380 .L11:
+                         381 --209:                     }
+                         382 --210:                     else
+                         383 --211:                     {
+                         384 --212:                         /* Do Nothing */
+                         385 --213:                         ;
+                         386 --214:                     }
+                         387 --215:                 }
+                         388 --216:                 else if (Req == YD_SFMA_REQ_QUADMODE)
+                         389 --line216
+                         390 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.11::
+                         391 .LDWlin11:
+0000007c 63d2            392 	cmp	3,r26
+0000007e 9a1d*           393 	bne	.L20
+                         394 --217:                 {
+                         395 --218:                     /* ---- set quad mode ---- */
+                         396 --219:                     if (SpiConfig->Command.QuadIoMode.Reg == YD_SFMA_STATUS_REG)
+                         397 --line219
+                         398 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.12::
+                         399 .LDWlin12:
+00000080 3d0f1900        400 	ld.w	24[r29],r1
+00000084 e009            401 	cmp	zero,r1
+00000086 9a0d*           402 	bne	.L22
+                         403 --220:                     {
+                         404 --221:                         st_reg1 |= SpiConfig->Command.QuadIoMode.BitPosition;
+                         405 --line221
+                         406 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.13::
+                         407 .LDWlin13:
+00000088 830f0100        408 	ld.bu	0[sp],r1
+0000008c 9d771d00        409 	ld.bu	28[r29],r14
+00000090 0e09            410 	or	r14,r1
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+00000092 430f0000        411 	st.b	r1,0[sp]
+00000096 e50d*           412 	br	.L19
+                         413 .L22:
+                         414 --222:                     }
+                         415 --223:                     else if (SpiConfig->Command.QuadIoMode.Reg == YD_SFMA_CONFIG_REG)
+                         416 --line223
+                         417 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.14::
+                         418 .LDWlin14:
+00000098 3d0f1900        419 	ld.w	24[r29],r1
+0000009c 610a            420 	cmp	1,r1
+0000009e aa0d*           421 	bne	.L19
+                         422 --224:                     {
+                         423 --225:                         cf_reg1 |= SpiConfig->Command.QuadIoMode.BitPosition;
+                         424 --line225
+                         425 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.15::
+                         426 .LDWlin15:
+000000a0 830f0300        427 	ld.bu	2[sp],r1
+000000a4 9d771d00        428 	ld.bu	28[r29],r14
+000000a8 0e09            429 	or	r14,r1
+000000aa 430f0200        430 	st.b	r1,2[sp]
+000000ae a505*           431 	br	.L19
+                         432 .L20:
+                         433 --226:                     }
+                         434 --227:                     else
+                         435 --228:                     {
+                         436 --229:                         /* Do Nothing */
+                         437 --230:                         ;
+                         438 --231:                     }
+                         439 --232:                 }
+                         440 --233:                 else
+                         441 --234:                 {
+                         442 --235:                     /* error in argument */
+                         443 --236:                     ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                         444 --line236
+                         445 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.16::
+                         446 .LDWlin16:
+000000b0 02e2            447 	mov	2,r28
+                         448 .L19:
+                         449 --237:                 }
+                         450 --239:                 if (ret == YD_SFMA_ERR_OK)
+000000b2 e0e1            451 	cmp	zero,r28
+000000b4 ba35*           452 	bne	.L7
+                         453 --240:                 {
+                         454 --241:                     if (SpiConfig->Command.DummyCycle.Reg == YD_SFMA_STATUS_REG)
+                         455 --line241
+                         456 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.17::
+                         457 .LDWlin17:
+000000b6 3d0f3100        458 	ld.w	48[r29],r1
+000000ba e009            459 	cmp	zero,r1
+000000bc aa15*           460 	bne	.L31
+                         461 --242:                     {
+                         462 --243:                         st_reg1 &= (uint8_t)~SpiConfig->Command.DummyCycle.BitMask;
+                         463 --line243
+                         464 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.18::
+                         465 .LDWlin18:
+000000be 9d0f3500        466 	ld.bu	52[r29],r1
+000000c2 2170            467 	not	r1,r14
+000000c4 830f0100        468 	ld.bu	0[sp],r1
+000000c8 8e00            469 	zxb	r14
+000000ca 4e09            470 	and	r14,r1
+000000cc 430f0000        471 	st.b	r1,0[sp]
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                         472 --244:                         st_reg1 |= SpiConfig->Command.DummyCycle.BitSet;
+000000d0 830f0100        473 	ld.bu	0[sp],r1
+000000d4 bd773500        474 	ld.bu	53[r29],r14
+000000d8 0e09            475 	or	r14,r1
+000000da 430f0000        476 	st.b	r1,0[sp]
+000000de d515*           477 	br	.L33
+                         478 .L31:
+                         479 --245:                     }
+                         480 --246:                     else if (SpiConfig->Command.DummyCycle.Reg == YD_SFMA_CONFIG_REG)
+                         481 --line246
+                         482 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.19::
+                         483 .LDWlin19:
+000000e0 3d0f3100        484 	ld.w	48[r29],r1
+000000e4 610a            485 	cmp	1,r1
+000000e6 9a15*           486 	bne	.L33
+                         487 --247:                     {
+                         488 --248:                         cf_reg1 &= (uint8_t)~SpiConfig->Command.DummyCycle.BitMask;
+                         489 --line248
+                         490 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.20::
+                         491 .LDWlin20:
+000000e8 9d0f3500        492 	ld.bu	52[r29],r1
+000000ec 2170            493 	not	r1,r14
+000000ee 830f0300        494 	ld.bu	2[sp],r1
+000000f2 8e00            495 	zxb	r14
+000000f4 4e09            496 	and	r14,r1
+000000f6 430f0200        497 	st.b	r1,2[sp]
+                         498 --249:                         cf_reg1 |= SpiConfig->Command.DummyCycle.BitSet;
+000000fa 830f0300        499 	ld.bu	2[sp],r1
+000000fe bd773500        500 	ld.bu	53[r29],r14
+00000102 0e09            501 	or	r14,r1
+00000104 430f0200        502 	st.b	r1,2[sp]
+                         503 .L33:
+                         504 --250:                     }
+                         505 --251:                     else
+                         506 --252:                     {
+                         507 --253:                         /* Do Nothing */
+                         508 --254:                         ;
+                         509 --255:                     }
+                         510 --257:                     ret = YD_SFMA_SpibscWriteStatusRegister(Unit, st_reg1, cf_reg1, SpiConfig);
+00000108 833f0100        511 	ld.bu	0[sp],r7
+0000010c 1b30            512 	mov	r27,r6
+0000010e 83470300        513 	ld.bu	2[sp],r8
+00000112 1d48            514 	mov	r29,r9
+                         515 	jarl	_YD_SFMA_SpibscWriteStatusRegister,lp
+                         515 <EXPANSION BEGIN>
+                         515 jarl22 _YD_SFMA_SpibscWriteStatusRegister , lp 
+00000114 80ff5804*       515 <EXPANSION END>
+00000118 0ae0            516 	mov	r10,r28
+                         517 .L7:
+                         518 --258:                 }
+                         519 --259:             }
+                         520 --260:         }
+                         521 --262:     /* performance enhance mode
+                         522 --264:        Continuous read mode is the most efficient method to access SPI flash, because it allows to receive
+                         523 --265:        read burst sequences without the costly need to transfer the 1-bit read command sequence at the start
+                         524 --266:        of each burst. In order to do enable the continuous read mode, the SPI must first receive a standard
+                         525 --267:        read command sequence, which transmits a specific bit pattern (0xa5) right after the address bits.
+                         526 --268:        After this initial dummy read command, the SPI flash is in continuous read mode, where only the address
+                         527 --269:        bits need to be transferred at the beginning of each burst (still followed by the bit pattern (0xa5).
+                         528 --270:        The device exits continuous read mode right after the first SPI sequence which does not contain the 0xa5
+                         529 --271:        pattern.
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                         530 --272:     */
+                         531 --274:         /* if the status & config registers are configured correctly then request the performance
+                         532 --275:            enhance mode */
+                         533 --276:         if ((ret == YD_SFMA_ERR_OK) && (SpiConfig->PerformanceEnMode == YD_SFMA_PER_EN_MODE_ENABLE))
+                         534 --line276
+                         535 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.21::
+                         536 .LDWlin21:
+0000011a e0e1            537 	cmp	zero,r28
+0000011c ba6d*           538 	bne	.L6
+0000011e 3d0f7900        539 	ld.w	120[r29],r1
+00000122 610a            540 	cmp	1,r1
+00000124 fa65*           541 	bne	.L6
+                         542 --277:         {
+                         543 --278:             spibsc_reg.Cdb     = YD_SFMA_SPIBSC_1BIT;
+                         544 --line278
+                         545 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.22::
+                         546 .LDWlin22:
+00000126 63070500        547 	st.w	zero,4[sp]
+                         548 --279:             spibsc_reg.Ocdb    = YD_SFMA_SPIBSC_1BIT;
+0000012a 63070900        549 	st.w	zero,8[sp]
+                         550 --280:             spibsc_reg.Adb     = YD_SFMA_SPIBSC_4BIT;
+0000012e 020a            551 	mov	2,r1
+00000130 630f0d00        552 	st.w	r1,12[sp]
+                         553 --281:             spibsc_reg.Opdb    = YD_SFMA_SPIBSC_4BIT;
+00000134 020a            554 	mov	2,r1
+00000136 630f1100        555 	st.w	r1,16[sp]
+                         556 --282:             spibsc_reg.Spidb   = YD_SFMA_SPIBSC_4BIT;
+0000013a 020a            557 	mov	2,r1
+0000013c 630f1500        558 	st.w	r1,20[sp]
+                         559 --283:             spibsc_reg.Cde     = YD_SFMA_SPIBSC_OUTPUT_ENABLE;
+00000140 010a            560 	mov	1,r1
+00000142 630f1900        561 	st.w	r1,24[sp]
+                         562 --284:             spibsc_reg.Ocde    = YD_SFMA_SPIBSC_OUTPUT_DISABLE;
+00000146 63071d00        563 	st.w	zero,28[sp]
+                         564 --285:             spibsc_reg.Ade     = YD_SFMA_SPIBSC_OUTPUT_ADDR_32;
+0000014a 0f0a            565 	mov	15,r1
+0000014c 630f2100        566 	st.w	r1,32[sp]
+                         567 --286:             spibsc_reg.Opde    = YD_SFMA_SPIBSC_OUTPUT_OPD_3;
+00000150 080a            568 	mov	8,r1
+00000152 630f2500        569 	st.w	r1,36[sp]
+                         570 --287:             spibsc_reg.Spide   = YD_SFMA_SPIBSC_OUTPUT_DISABLE;
+00000156 63072900        571 	st.w	zero,40[sp]
+                         572 --288:             spibsc_reg.Sslkp   = YD_SFMA_SPIBSC_SPISSL_NEGATE;
+0000015a 63072d00        573 	st.w	zero,44[sp]
+                         574 --289:             spibsc_reg.Spire   = YD_SFMA_SPIBSC_OUTPUT_DISABLE;
+0000015e 63073100        575 	st.w	zero,48[sp]
+                         576 --290:             spibsc_reg.Spiwe   = YD_SFMA_SPIBSC_OUTPUT_ENABLE;
+00000162 010a            577 	mov	1,r1
+00000164 630f3500        578 	st.w	r1,52[sp]
+                         579 --291:             spibsc_reg.Dme     = YD_SFMA_SPIBSC_OUTPUT_ENABLE;     /* Dummy cycle enable at the time of a SPI mode */
+00000168 010a            580 	mov	1,r1
+0000016a 630f3900        581 	st.w	r1,56[sp]
+                         582 --292:             spibsc_reg.Addr    = 0x00000000uL;
+0000016e 63074900        583 	st.w	zero,72[sp]
+                         584 --293:             spibsc_reg.Dmdb    = YD_SFMA_SPIBSC_4BIT;              /* The dummy cycle bit width of the time of a SPI mode  */
+00000172 020a            585 	mov	2,r1
+00000174 430f5c00        586 	st.b	r1,92[sp]
+                         587 --294:             spibsc_reg.Dmcyc   = 6uL;                               /* The number of dummy cycles of the time of a SPI mode */
+00000178 060a            588 	mov	6,r1
+0000017a 430f5d00        589 	st.b	r1,93[sp]
+                         590 --295:             spibsc_reg.Ocmd    = 0uL;
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+0000017e 43075f00        591 	st.b	zero,95[sp]
+                         592 --297:             /* option bytes */
+                         593 --298:             spibsc_reg.Opd[0]  = 0x00uL;
+00000182 43076000        594 	st.b	zero,96[sp]
+                         595 --299:             spibsc_reg.Opd[1]  = 0x00uL;
+00000186 43076100        596 	st.b	zero,97[sp]
+                         597 --300:             spibsc_reg.Opd[2]  = 0x00uL;
+0000018a 43076200        598 	st.b	zero,98[sp]
+                         599 --301:             spibsc_reg.Opd[3]  = 0xA5uL;  /* performance enhance indicator */
+0000018e 200ea500        600 	movea	165,zero,r1
+00000192 430f6300        601 	st.b	r1,99[sp]
+                         602 --303:             /* different command for SDR and DDR */
+                         603 --304:             if(SpiConfig->TransferMode == YD_SFMA_SPIBSC_DDR_TRANS)
+00000196 bd0f7100        604 	ld.bu	113[r29],r1
+0000019a 610a            605 	cmp	1,r1
+0000019c da15*           606 	bne	.L40
+                         607 --305:             {
+                         608 --306:                 spibsc_reg.Addre   = YD_SFMA_SPIBSC_DDR_TRANS;         /* Address DDR enable                           */
+                         609 --line306
+                         610 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.23::
+                         611 .LDWlin23:
+0000019e 010a            612 	mov	1,r1
+000001a0 630f3d00        613 	st.w	r1,60[sp]
+                         614 --307:                 spibsc_reg.Opdre   = YD_SFMA_SPIBSC_DDR_TRANS;         /* Option data DDRenable                        */
+000001a4 010a            615 	mov	1,r1
+000001a6 630f4100        616 	st.w	r1,64[sp]
+                         617 --308:                 spibsc_reg.Spidre  = YD_SFMA_SPIBSC_DDR_TRANS;         /* Transmission data DDR enable                 */
+000001aa 010a            618 	mov	1,r1
+000001ac 630f4500        619 	st.w	r1,68[sp]
+                         620 --310:                 spibsc_reg.Cmd = SpiConfig->Command.ReadDdrIoQuad;
+000001b0 bd0f5d00        621 	ld.bu	93[r29],r1
+000001b4 430f5e00        622 	st.b	r1,94[sp]
+                         623 --311:                 ret = YD_SFMA_SpibscCommandTransfer(Unit, &spibsc_reg);
+000001b8 1b30            624 	mov	r27,r6
+000001ba 233e0400        625 	movea	4,sp,r7
+                         626 	jarl	_YD_SFMA_SpibscCommandTransfer,lp
+                         626 <EXPANSION BEGIN>
+                         626 jarl22 _YD_SFMA_SpibscCommandTransfer , lp 
+000001be 80ff0000*       626 <EXPANSION END>
+000001c2 0ae0            627 	mov	r10,r28
+000001c4 f515*           628 	br	.L6
+                         629 .L40:
+                         630 --312:             }
+                         631 --313:             else if(SpiConfig->TransferMode == YD_SFMA_SPIBSC_SDR_TRANS)
+                         632 --line313
+                         633 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.24::
+                         634 .LDWlin24:
+000001c6 bd0f7100        635 	ld.bu	113[r29],r1
+000001ca e009            636 	cmp	zero,r1
+000001cc aa15*           637 	bne	.L43
+                         638 --314:             {
+                         639 --315:                 spibsc_reg.Addre   = YD_SFMA_SPIBSC_SDR_TRANS;         /* Address SDR enable                           */
+                         640 --line315
+                         641 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.25::
+                         642 .LDWlin25:
+000001ce 63073d00        643 	st.w	zero,60[sp]
+                         644 --316:                 spibsc_reg.Opdre   = YD_SFMA_SPIBSC_SDR_TRANS;         /* Option data SDRenable                        */
+000001d2 63074100        645 	st.w	zero,64[sp]
+                         646 --317:                 spibsc_reg.Spidre  = YD_SFMA_SPIBSC_SDR_TRANS;         /* Transmission data DDR enable                 */
+000001d6 63074500        647 	st.w	zero,68[sp]
+                         648 --319:                 spibsc_reg.Cmd = SpiConfig->Command.ReadSdrIoQuad;
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+000001da 9d0f5900        649 	ld.bu	88[r29],r1
+000001de 430f5e00        650 	st.b	r1,94[sp]
+                         651 --320:                 ret = YD_SFMA_SpibscCommandTransfer(Unit, &spibsc_reg);
+000001e2 1b30            652 	mov	r27,r6
+000001e4 233e0400        653 	movea	4,sp,r7
+                         654 	jarl	_YD_SFMA_SpibscCommandTransfer,lp
+                         654 <EXPANSION BEGIN>
+                         654 jarl22 _YD_SFMA_SpibscCommandTransfer , lp 
+000001e8 80ff0000*       654 <EXPANSION END>
+000001ec 0ae0            655 	mov	r10,r28
+000001ee a505*           656 	br	.L6
+                         657 .L43:
+                         658 --321:             }
+                         659 --322:             else
+                         660 --323:             {
+                         661 --324:                 /* not supported */
+                         662 --325:                 ret = YD_SFMA_ERR_NOT_SUPPORT_TRANSFER;
+                         663 --line325
+                         664 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.26::
+                         665 .LDWlin26:
+000001f0 09e2            666 	mov	9,r28
+                         667 .L6:
+                         668 --326:             }
+                         669 --327:         }
+                         670 --328:     }
+                         671 --330:     return ret;
+000001f2 1c50            672 	mov	r28,r10
+                         673 --	    .ef
+                         674 .LDW11:
+000001f4 7206ff30        675 	dispose	25,{r26,r27,r28,r29,r31},[lp]
+                         676 	.type	_YD_Spibsc_SetMode,@function
+                         677 	.size	_YD_Spibsc_SetMode,.-_YD_Spibsc_SetMode
+                         678 	.type	_YD_Spibsc_SetMode..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.,@function
+                         679 	.size	_YD_Spibsc_SetMode..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.,.-_YD_Spibsc_SetMode..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.
+                         680 	.align	2
+                         681 .LDW21:
+                         682 --_ret	r28	local
+                         683 --_st_reg1	0[sp]	local
+                         684 --_st_reg2	1[sp]	local
+                         685 --_cf_reg1	2[sp]	local
+                         686 --_cf_reg2	3[sp]	local
+                         687 --_spibsc_reg	4[sp]	local
+                         688 
+                         689 --_Unit	r27	param
+                         690 --_Req	r26	param
+                         691 --_SpiConfig	r29	param
+                         692 
+                         693 	.section ".bss","awb"
+                         694 .L180:
+                         695 	.type	.L180,@object
+                         696 	.size	.L180,0
+                         697 	.data
+                         698 	.text
+                         699 
+                         700 --331: }
+                         701 
+                         702 --333: /***************************************************************************
+                         703 --334:   Section: Global Functions
+                         704 --335: */
+                         705 --337: /***************************************************************************
+                         706 --338:   Function: YD_SFMA_SpibscOpen
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                         707 --340:   see: <yd_sfma_spibsc.h>
+                         708 --341: */
+                         709 --342: yd_sfma_Error_t YD_SFMA_SpibscOpen(const uint32_t                   Unit,
+                         710 	.align	2
+                         711 	.align	2
+                         712 	.global	_YD_SFMA_SpibscOpen
+                         713 _YD_SFMA_SpibscOpen:
+000001f8 8a07e170        714 	prepare	{r25,r26,r27,r28,r29,r31},5
+000001fc 63371100        715 	st.w	r6,16[sp]
+00000200 07d0            716 	mov	r7,r26
+                         717 --	    .bf
+                         718 .LDW31:
+                         719 --343:                                  const yd_sfma_SpiConfig_t * const SpiConfig)
+                         720 --344: {
+                         721 --345:     yd_sfma_Error_t ret = YD_SFMA_ERR_OK;
+00000202 00da            722 	mov	0,r27
+                         723 --346:     yd_sfma_Req_t   req = YD_SFMA_REQ_SERIALMODE;
+00000204 025a            724 	mov	2,r11
+00000206 635f0d00        725 	st.w	r11,12[sp]
+                         726 --347:     uint32_t       clock_div;
+                         727 --348:     uint32_t       get_clock;
+                         728 --349:     uint8_t        spbr = 0;
+0000020a 00e2            729 	mov	0,r28
+                         730 --350:     uint8_t        brdv = 0;
+0000020c 00ca            731 	mov	0,r25
+                         732 --352:     if (SpiConfig == R_NULL)
+0000020e e0d1            733 	cmp	zero,r26
+00000210 ca05*           734 	bne	.L380
+                         735 --353:     {
+                         736 --354:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                         737 --line354
+                         738 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.27::
+                         739 .LDWlin27:
+00000212 02da            740 	mov	2,r27
+00000214 80072e01*       741 	br	.L382
+                         742 .L380:
+                         743 --355:     }
+                         744 --356:     else if (SpiConfig->MaxClock == 0)
+                         745 --line356
+                         746 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.28::
+                         747 .LDWlin28:
+00000218 3a0f0500        748 	ld.w	4[r26],r1
+0000021c e009            749 	cmp	zero,r1
+0000021e ca05*           750 	bne	.L383
+                         751 --357:     {
+                         752 --358:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                         753 --line358
+                         754 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.29::
+                         755 .LDWlin29:
+00000220 02da            756 	mov	2,r27
+00000222 80072001*       757 	br	.L382
+                         758 .L383:
+                         759 --359:     }
+                         760 --360:     else
+                         761 --361:     {
+                         762 --362:         /* ==== setting serial-flash quad mode ==== */
+                         763 --363:         if ((SpiConfig->DataWidth == YD_SFMA_SPIBSC_1BIT) ||
+                         764 --line363
+                         765 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.30::
+                         766 .LDWlin30:
+00000226 9a0f7100        767 	ld.bu	112[r26],r1
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+0000022a e009            768 	cmp	zero,r1
+0000022c d205*           769 	be	.L387
+0000022e 9a0f7100        770 	ld.bu	112[r26],r1
+00000232 610a            771 	cmp	1,r1
+00000234 da05*           772 	bne	.L386
+                         773 .L387:
+                         774 --364:             (SpiConfig->DataWidth == YD_SFMA_SPIBSC_2BIT))
+                         775 --365:         {
+                         776 --366:             req = YD_SFMA_REQ_SERIALMODE;
+                         777 --line366
+                         778 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.31::
+                         779 .LDWlin31:
+00000236 025a            780 	mov	2,r11
+00000238 635f0d00        781 	st.w	r11,12[sp]
+0000023c a50d*           782 	br	.L389
+                         783 .L386:
+                         784 --367:         }
+                         785 --368:         else if (SpiConfig->DataWidth == YD_SFMA_SPIBSC_4BIT)
+                         786 --line368
+                         787 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.32::
+                         788 .LDWlin32:
+0000023e 9a0f7100        789 	ld.bu	112[r26],r1
+00000242 620a            790 	cmp	2,r1
+00000244 da05*           791 	bne	.L390
+                         792 --369:         {
+                         793 --370:             req = YD_SFMA_REQ_QUADMODE;
+                         794 --line370
+                         795 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.33::
+                         796 .LDWlin33:
+00000246 035a            797 	mov	3,r11
+00000248 635f0d00        798 	st.w	r11,12[sp]
+0000024c a505*           799 	br	.L389
+                         800 .L390:
+                         801 --371:         }
+                         802 --372:         else
+                         803 --373:         {
+                         804 --374:             ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                         805 --line374
+                         806 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.34::
+                         807 .LDWlin34:
+0000024e 02da            808 	mov	2,r27
+                         809 .L389:
+                         810 --375:         }
+                         811 --377:         if (ret == YD_SFMA_ERR_OK)
+00000250 e0d9            812 	cmp	zero,r27
+00000252 8a7d*           813 	bne	.L382
+                         814 --378:         {
+                         815 --379:             /* calculate the bit rate from a bus clock and the maximum clock
+                         816 --380:                of connected serial flash memory */
+                         817 --381:             get_clock = (120*1000*1000); /* CPU clock = 120MHz */
+                         818 --line381
+                         819 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.35::
+                         820 .LDWlin35:
+00000254 2b06000e2707    821 	mov	120000000,r11
+0000025a 635f0900        822 	st.w	r11,8[sp]
+                         823 --382:             clock_div = (get_clock / SpiConfig->MaxClock);
+0000025e 23ef0900        824 	ld.w	8[sp],r29
+00000262 3a0f0500        825 	ld.w	4[r26],r1
+00000266 e1effe02        826 	divqu	r1,r29,zero
+                         827 --384:             /* When not dividing, it lowers one frequency dividing rate. */
+                         828 --385:             if ((get_clock % SpiConfig->MaxClock) != 0)
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+0000026a 230f0900        829 	ld.w	8[sp],r1
+0000026e 3a770500        830 	ld.w	4[r26],r14
+00000272 ee0ffe0a        831 	divqu	r14,r1,r1
+00000276 e009            832 	cmp	zero,r1
+00000278 a205*           833 	be	.L395
+                         834 --386:             {
+                         835 --387:                 clock_div++;
+                         836 --line387
+                         837 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.36::
+                         838 .LDWlin36:
+0000027a 41ea            839 	add	1,r29
+                         840 .L395:
+                         841 --388:             }
+                         842 --390:             /* SPBCR is possible to set only by even number. */
+                         843 --391:             if ((clock_div & LOC_YD_SFMA_EVEN_CHECK_NUM) != 0)
+0000027c dd060100        844 	andi	1,r29,zero
+00000280 a205*           845 	be	.L397
+                         846 --392:             {
+                         847 --393:                 clock_div += LOC_YD_SFMA_EVEN_CHECK_NUM;
+                         848 --line393
+                         849 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.37::
+                         850 .LDWlin37:
+00000282 41ea            851 	add	1,r29
+                         852 .L397:
+                         853 --394:             }
+                         854 --395:             if (clock_div <= LOC_YD_SFMA_SPIBSC_CLK_MAX)
+00000284 1d0601fe        855 	addi	-511,r29,zero
+00000288 c10d*           856 	bl	.L399
+                         857 --396:             {
+                         858 --397:                 /* When brdv makes 0 fixations */
+                         859 --398:                 if (clock_div == 0)
+                         860 --line398
+                         861 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.38::
+                         862 .LDWlin38:
+0000028a e0e9            863 	cmp	zero,r29
+0000028c ba05*           864 	bne	.L401
+                         865 --399:                 {
+                         866 --400:                     spbr = LOC_YD_SFMA_SPIBSC_SPBR_MIN;
+                         867 --line400
+                         868 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.39::
+                         869 .LDWlin39:
+0000028e 01e2            870 	mov	1,r28
+00000290 e505*           871 	br	.L403
+                         872 .L401:
+                         873 --401:                 }
+                         874 --402:                 else
+                         875 --403:                 {
+                         876 --404:                     spbr = (uint8_t)(clock_div / LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV2);
+                         877 --line404
+                         878 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.40::
+                         879 .LDWlin40:
+00000292 1d08            880 	mov	r29,r1
+00000294 810a            881 	shr	1,r1
+00000296 c1e6ff00        882 	andi	255,r1,r28
+0000029a 9c00            883 	zxb	r28
+                         884 .L403:
+                         885 --405:                 }
+                         886 --406:                 brdv = LOC_YD_SFMA_SPIBSC_BRDV_BASE;
+0000029c 00ca            887 	mov	0,r25
+0000029e 8525*           888 	br	.L404
+                         889 .L399:
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                         890 --407:             }
+                         891 --408:             else if (clock_div <= LOC_YD_SFMA_SPIBSC_CLK_MAX_DIV2)
+                         892 --line408
+                         893 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.41::
+                         894 .LDWlin41:
+000002a0 1d0603fc        895 	addi	-1021,r29,zero
+000002a4 810d*           896 	bl	.L405
+                         897 --409:             {
+                         898 --410:                 /* When brdv makes 1 fixations */
+                         899 --411:                 spbr = (uint8_t)(clock_div / LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV4);
+                         900 --line411
+                         901 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.42::
+                         902 .LDWlin42:
+000002a6 1d08            903 	mov	r29,r1
+000002a8 820a            904 	shr	2,r1
+000002aa c1e6ff00        905 	andi	255,r1,r28
+000002ae 9c00            906 	zxb	r28
+                         907 --412:                 brdv = LOC_YD_SFMA_SPIBSC_BRDV_2DIV;
+000002b0 01ca            908 	mov	1,r25
+000002b2 e515*           909 	br	.L404
+                         910 .L405:
+                         911 --413:             }
+                         912 --414:             else if (clock_div <= LOC_YD_SFMA_SPIBSC_CLK_MAX_DIV4)
+                         913 --line414
+                         914 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.43::
+                         915 .LDWlin43:
+000002b4 1d0607f8        916 	addi	-2041,r29,zero
+000002b8 810d*           917 	bl	.L408
+                         918 --415:             {
+                         919 --416:                 /* When brdv makes 2 fixations */
+                         920 --417:                 spbr = (uint8_t)(clock_div / LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV8);
+                         921 --line417
+                         922 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.44::
+                         923 .LDWlin44:
+000002ba 1d08            924 	mov	r29,r1
+000002bc 830a            925 	shr	3,r1
+000002be c1e6ff00        926 	andi	255,r1,r28
+000002c2 9c00            927 	zxb	r28
+                         928 --418:                 brdv = LOC_YD_SFMA_SPIBSC_BRDV_4DIV;
+000002c4 02ca            929 	mov	2,r25
+000002c6 c50d*           930 	br	.L404
+                         931 .L408:
+                         932 --419:             }
+                         933 --420:             else if (clock_div <= LOC_YD_SFMA_SPIBSC_CLK_MAX_DIV8)
+                         934 --line420
+                         935 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.45::
+                         936 .LDWlin45:
+000002c8 1d060ff0        937 	addi	-4081,r29,zero
+000002cc 810d*           938 	bl	.L411
+                         939 --421:             {
+                         940 --422:                 /* When brdv makes 3 fixations */
+                         941 --423:                 spbr = (uint8_t)(clock_div / LOC_YD_SFMA_SPIBSC_SPBR_SET_DIV16);
+                         942 --line423
+                         943 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.46::
+                         944 .LDWlin46:
+000002ce 1d08            945 	mov	r29,r1
+000002d0 840a            946 	shr	4,r1
+000002d2 c1e6ff00        947 	andi	255,r1,r28
+000002d6 9c00            948 	zxb	r28
+                         949 --424:                 brdv = LOC_YD_SFMA_SPIBSC_BRDV_8DIV;
+000002d8 03ca            950 	mov	3,r25
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+000002da a505*           951 	br	.L404
+                         952 .L411:
+                         953 --425:             }
+                         954 --426:             else
+                         955 --427:             {
+                         956 --428:                 ret = YD_SFMA_ERR_NOT_SUPPORT_CLOCK;
+                         957 --line428
+                         958 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.47::
+                         959 .LDWlin47:
+000002dc 08da            960 	mov	8,r27
+                         961 .L404:
+                         962 --429:             }
+                         963 --431:             if (ret == YD_SFMA_ERR_OK)
+000002de e0d9            964 	cmp	zero,r27
+000002e0 9a35*           965 	bne	.L382
+                         966 --432:             {
+                         967 --433:                 /* ==== Initialization of SPIBSC ==== */
+                         968 --434:                 /* when 120MHz -> spbr = 1 ;brdv = 0 */
+                         969 --435:                 ret = YD_SFMA_SpibscCommonInit(Unit,
+                         970 --line435
+                         971 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.48::
+                         972 .LDWlin48:
+000002e2 9a0f7100        973 	ld.bu	112[r26],r1
+000002e6 1c40            974 	mov	r28,r8
+000002e8 3a3f0100        975 	ld.w	0[r26],r7
+000002ec 1948            976 	mov	r25,r9
+000002ee 23371100        977 	ld.w	16[sp],r6
+000002f2 630f0100        978 	st.w	r1,0[sp]
+000002f6 ba0f7100        979 	ld.bu	113[r26],r1
+000002fa 630f0500        980 	st.w	r1,4[sp]
+                         981 	jarl	_YD_SFMA_SpibscCommonInit,lp
+                         981 <EXPANSION BEGIN>
+                         981 jarl22 _YD_SFMA_SpibscCommonInit , lp 
+000002fe 80ff0000*       981 <EXPANSION END>
+00000302 0ad8            982 	mov	r10,r27
+                         983 --436:                                               SpiConfig->MemoryNum,
+                         984 --437:                                               spbr,
+                         985 --438:                                               brdv,
+                         986 --439:                                               SpiConfig->DataWidth,
+                         987 --440:                                               SpiConfig->TransferMode);
+                         988 --441:                 if (ret == YD_SFMA_ERR_OK)
+                         989 --line441
+                         990 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.49::
+                         991 .LDWlin49:
+00000304 e0d9            992 	cmp	zero,r27
+00000306 ea1d*           993 	bne	.L382
+                         994 --442:                 {
+                         995 --443:                     ret = YD_Spibsc_SetMode(Unit, req, SpiConfig);
+                         996 --line443
+                         997 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.50::
+                         998 .LDWlin50:
+00000308 23371100        999 	ld.w	16[sp],r6
+0000030c 1a40           1000 	mov	r26,r8
+0000030e 233f0d00       1001 	ld.w	12[sp],r7
+                        1002 	jarl	_YD_Spibsc_SetMode,lp
+                        1002 <EXPANSION BEGIN>
+                        1002 jarl22 _YD_Spibsc_SetMode , lp 
+00000312 bfffeefc*      1002 <EXPANSION END>
+00000316 0ad8           1003 	mov	r10,r27
+                        1004 --445:                     /* if External address space mode selected */
+                        1005 --446:                     if(SpiConfig->Mode == YD_SFMA_SPIBSC_MODE_EXTERNAL)
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1006 --line446
+                        1007 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.51::
+                        1008 .LDWlin51:
+00000318 3a0f7d00       1009 	ld.w	124[r26],r1
+0000031c e009           1010 	cmp	zero,r1
+0000031e aa15*          1011 	bne	.L382
+                        1012 --447:                     {
+                        1013 --448:                         if (ret == YD_SFMA_ERR_OK)
+                        1014 --line448
+                        1015 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.52::
+                        1016 .LDWlin52:
+00000320 e0d9           1017 	cmp	zero,r27
+00000322 8a15*          1018 	bne	.L382
+                        1019 --449:                         {
+                        1020 --450:                             /* ==== Initialization of an outside address space read mode. ==== */
+                        1021 --451:                             ret = YD_SFMA_SpibscDrInit(Unit, SpiConfig);
+                        1022 --line451
+                        1023 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.53::
+                        1024 .LDWlin53:
+00000324 23371100       1025 	ld.w	16[sp],r6
+00000328 1a38           1026 	mov	r26,r7
+                        1027 	jarl	_YD_SFMA_SpibscDrInit,lp
+                        1027 <EXPANSION BEGIN>
+                        1027 jarl22 _YD_SFMA_SpibscDrInit , lp 
+0000032a 80ff0000*      1027 <EXPANSION END>
+0000032e 0ad8           1028 	mov	r10,r27
+                        1029 --452:                             if (ret == YD_SFMA_ERR_OK)
+                        1030 --line452
+                        1031 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.54::
+                        1032 .LDWlin54:
+00000330 e0d9           1033 	cmp	zero,r27
+00000332 8a0d*          1034 	bne	.L382
+                        1035 --453:                             {
+                        1036 --454:                                 ret = YD_SFMA_SpibscDrAddr(Unit, 0, 0);
+                        1037 --line454
+                        1038 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.55::
+                        1039 .LDWlin55:
+00000334 23371100       1040 	ld.w	16[sp],r6
+00000338 003a           1041 	mov	0,r7
+0000033a 0042           1042 	mov	0,r8
+                        1043 	jarl	_YD_SFMA_SpibscDrAddr,lp
+                        1043 <EXPANSION BEGIN>
+                        1043 jarl22 _YD_SFMA_SpibscDrAddr , lp 
+0000033c 80ff0000*      1043 <EXPANSION END>
+00000340 0ad8           1044 	mov	r10,r27
+                        1045 .L382:
+                        1046 --455:                             }
+                        1047 --456:                         }
+                        1048 --457:                     }
+                        1049 --458:                 }
+                        1050 --459:             }
+                        1051 --460:         }
+                        1052 --461:     }
+                        1053 --463:     return ret;
+                        1054 --line463
+                        1055 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.56::
+                        1056 .LDWlin56:
+00000342 1b50           1057 	mov	r27,r10
+                        1058 --	    .ef
+                        1059 .LDW41:
+00000344 4a06ff70       1060 	dispose	5,{r25,r26,r27,r28,r29,r31},[lp]
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1061 	.type	_YD_SFMA_SpibscOpen,@function
+                        1062 	.size	_YD_SFMA_SpibscOpen,.-_YD_SFMA_SpibscOpen
+                        1063 	.align	2
+                        1064 .LDW51:
+                        1065 --_ret	r27	local
+                        1066 --_req	12[sp]	local
+                        1067 --_clock_div	r29	local
+                        1068 --_get_clock	8[sp]	local
+                        1069 --_spbr	r28	local
+                        1070 --_brdv	r25	local
+                        1071 
+                        1072 --_Unit	16[sp]	param
+                        1073 --_SpiConfig	r26	param
+                        1074 
+                        1075 	.section ".bss","awb"
+                        1076 .L530:
+                        1077 	.type	.L530,@object
+                        1078 	.size	.L530,0
+                        1079 	.data
+                        1080 	.text
+                        1081 
+                        1082 --464: }
+                        1083 
+                        1084 --467: /***************************************************************************
+                        1085 --468:   Function: YD_SFMA_SpibscOpen
+                        1086 --470:   see: <yd_sfma_spibsc.h>
+                        1087 --471: */
+                        1088 --472: yd_sfma_Error_t YD_SFMA_SpibscCheckReg(const uint32_t                   Unit,
+                        1089 	.align	2
+                        1090 	.align	2
+                        1091 	.global	_YD_SFMA_SpibscCheckReg
+                        1092 _YD_SFMA_SpibscCheckReg:
+00000348 8007e110       1093 	prepare	{r27,r28,r29,r31},0
+0000034c 06e0           1094 	mov	r6,r28
+0000034e 07d8           1095 	mov	r7,r27
+                        1096 --	    .bf
+                        1097 .LDW61:
+                        1098 --473:                                  const yd_sfma_SpiConfig_t * const SpiConfig)
+                        1099 --474: {
+                        1100 --475:     yd_sfma_Error_t ret = YD_SFMA_ERR_OK;
+00000350 00ea           1101 	mov	0,r29
+                        1102 --477:     ret = YD_SFMA_SpibscReadReg();
+                        1103 	jarl	_YD_SFMA_SpibscReadReg,lp
+                        1103 <EXPANSION BEGIN>
+                        1103 jarl22 _YD_SFMA_SpibscReadReg , lp 
+00000352 80ff0000*      1103 <EXPANSION END>
+00000356 0ae8           1104 	mov	r10,r29
+                        1105 --478:     return ret;
+                        1106 --line478
+                        1107 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.57::
+                        1108 .LDWlin57:
+00000358 1d50           1109 	mov	r29,r10
+                        1110 --	    .ef
+                        1111 .LDW71:
+0000035a 4006ff10       1112 	dispose	0,{r27,r28,r29,r31},[lp]
+                        1113 	.type	_YD_SFMA_SpibscCheckReg,@function
+                        1114 	.size	_YD_SFMA_SpibscCheckReg,.-_YD_SFMA_SpibscCheckReg
+                        1115 	.align	2
+                        1116 .LDW81:
+                        1117 --_ret	r29	local
+                        1118 
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1119 --_Unit	r28	param
+                        1120 --_SpiConfig	r27	param
+                        1121 
+                        1122 	.section ".bss","awb"
+                        1123 .L700:
+                        1124 	.type	.L700,@object
+                        1125 	.size	.L700,0
+                        1126 	.data
+                        1127 	.text
+                        1128 
+                        1129 --479: }
+                        1130 
+                        1131 --481: /***************************************************************************
+                        1132 --482:   Function: YD_SFMA_SpibscJEDECRead
+                        1133 --484:   see: <yd_sfma_spibsc.h>
+                        1134 --485: */
+                        1135 --486: yd_sfma_Error_t YD_SFMA_SpibscJEDECRead(const uint32_t        Unit,
+                        1136 	.align	2
+                        1137 	.align	2
+                        1138 	.global	_YD_SFMA_SpibscJEDECRead
+                        1139 _YD_SFMA_SpibscJEDECRead:
+0000035e b607e170       1140 	prepare	{r25,r26,r27,r28,r29,r31},27
+00000362 06d8           1141 	mov	r6,r27
+00000364 07d0           1142 	mov	r7,r26
+00000366 634f0900       1143 	st.w	r9,8[sp]
+0000036a 08c8           1144 	mov	r8,r25
+                        1145 --	    .bf
+                        1146 .LDW91:
+                        1147 --487:                                             uint8_t * const ManufacturerID,
+                        1148 --488:                                             uint8_t * const MemoryType,
+                        1149 --489:                                             uint8_t * const Capacity)
+                        1150 --490: {
+                        1151 --491:     yd_sfma_SpibscSpimdReg_t spibsc_reg;
+                        1152 --492:     yd_sfma_Error_t          ret;
+                        1153 --493:     uint32_t                read_data;
+                        1154 --495:     if ((ManufacturerID == R_NULL) ||
+0000036c e0d1           1155 	cmp	zero,r26
+0000036e f205*          1156 	be	.L721
+00000370 e0c9           1157 	cmp	zero,r25
+00000372 d205*          1158 	be	.L721
+00000374 235f0900       1159 	ld.w	8[sp],r11
+00000378 e059           1160 	cmp	zero,r11
+0000037a ba05*          1161 	bne	.L720
+                        1162 .L721:
+                        1163 --496:         (MemoryType     == R_NULL) ||
+                        1164 --497:         (Capacity       == R_NULL))
+                        1165 --498:     {
+                        1166 --499:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        1167 --line499
+                        1168 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.58::
+                        1169 .LDWlin58:
+0000037c 02ea           1170 	mov	2,r29
+0000037e d53d*          1171 	br	.L724
+                        1172 .L720:
+                        1173 --500:     }
+                        1174 --501:     else
+                        1175 --502:     {
+                        1176 --503:         ret = YD_SFMA_SpibscCommonInit(Unit,
+                        1177 --line503
+                        1178 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.59::
+                        1179 .LDWlin59:
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+00000380 63070100       1180 	st.w	zero,0[sp]
+00000384 1b30           1181 	mov	r27,r6
+00000386 63070500       1182 	st.w	zero,4[sp]
+0000038a 003a           1183 	mov	0,r7
+0000038c 0142           1184 	mov	1,r8
+0000038e 004a           1185 	mov	0,r9
+                        1186 	jarl	_YD_SFMA_SpibscCommonInit,lp
+                        1186 <EXPANSION BEGIN>
+                        1186 jarl22 _YD_SFMA_SpibscCommonInit , lp 
+00000390 80ff0000*      1186 <EXPANSION END>
+00000394 0ae8           1187 	mov	r10,r29
+                        1188 --504:                                       YD_SFMA_SPIBSC_CMNCR_BSZ_SINGLE,
+                        1189 --505:                                       LOC_YD_SFMA_SPIBSC_SPBR_MIN,
+                        1190 --506:                                       0,
+                        1191 --507:                                       YD_SFMA_SPIBSC_1BIT,
+                        1192 --508:                                       YD_SFMA_SPIBSC_SDR_TRANS);
+                        1193 --509:         if (ret == YD_SFMA_ERR_OK)
+                        1194 --line509
+                        1195 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.60::
+                        1196 .LDWlin60:
+00000396 e0e9           1197 	cmp	zero,r29
+00000398 8a35*          1198 	bne	.L724
+                        1199 --510:         {
+                        1200 --511:             ret = YD_SFMA_SpibscRegsetInit(&spibsc_reg);
+                        1201 --line511
+                        1202 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.61::
+                        1203 .LDWlin61:
+0000039a 23360c00       1204 	movea	12,sp,r6
+                        1205 	jarl	_YD_SFMA_SpibscRegsetInit,lp
+                        1205 <EXPANSION BEGIN>
+                        1205 jarl22 _YD_SFMA_SpibscRegsetInit , lp 
+0000039e 80ff0003*      1205 <EXPANSION END>
+000003a2 0ae8           1206 	mov	r10,r29
+                        1207 --512:             if (ret == YD_SFMA_ERR_OK)
+                        1208 --line512
+                        1209 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.62::
+                        1210 .LDWlin62:
+000003a4 e0e9           1211 	cmp	zero,r29
+000003a6 9a2d*          1212 	bne	.L724
+                        1213 --513:             {
+                        1214 --514:                 /* read status in Single-SPI */
+                        1215 --515:                 /* Command */
+                        1216 --516:                 spibsc_reg.Cmd = LOC_SFLASHCMD_READ_JEDEC;
+                        1217 --line516
+                        1218 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.63::
+                        1219 .LDWlin63:
+000003a8 200e9f00       1220 	movea	159,zero,r1
+000003ac 430f6600       1221 	st.b	r1,102[sp]
+                        1222 --517:                 /* SPI mode Enable */
+                        1223 --518:                 spibsc_reg.Spide = YD_SFMA_SPIBSC_OUTPUT_SPID_32;
+000003b0 0f0a           1224 	mov	15,r1
+000003b2 630f3100       1225 	st.w	r1,48[sp]
+                        1226 --519:                 /* SPI mode Control */
+                        1227 --520:                 spibsc_reg.Spire = YD_SFMA_SPIBSC_SPIDATA_ENABLE;
+000003b6 010a           1228 	mov	1,r1
+000003b8 630f3900       1229 	st.w	r1,56[sp]
+                        1230 --522:                 ret = YD_SFMA_SpibscCommandTransfer(Unit, &spibsc_reg);
+000003bc 1b30           1231 	mov	r27,r6
+000003be 233e0c00       1232 	movea	12,sp,r7
+                        1233 	jarl	_YD_SFMA_SpibscCommandTransfer,lp
+                        1233 <EXPANSION BEGIN>
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1233 jarl22 _YD_SFMA_SpibscCommandTransfer , lp 
+000003c2 80ff0000*      1233 <EXPANSION END>
+000003c6 0ae8           1234 	mov	r10,r29
+                        1235 --523:                 if (ret == YD_SFMA_ERR_OK)
+                        1236 --line523
+                        1237 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.64::
+                        1238 .LDWlin64:
+000003c8 e0e9           1239 	cmp	zero,r29
+000003ca ba15*          1240 	bne	.L729
+                        1241 --524:                 {
+                        1242 --525:                     read_data = spibsc_reg.Smrdr[YD_SFMA_SMRDR_DATA_0];
+                        1243 --line525
+                        1244 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.65::
+                        1245 .LDWlin65:
+000003cc 23e75500       1246 	ld.w	84[sp],r28
+                        1247 --527:                     *ManufacturerID = (uint8_t)(read_data
+000003d0 1c08           1248 	mov	r28,r1
+000003d2 8100           1249 	zxb	r1
+000003d4 5a0f0000       1250 	st.b	r1,0[r26]
+                        1251 --528:                         					& LOC_YD_SFMA_MASK_BYTE_LOW);
+                        1252 --529:                     *MemoryType = (uint8_t)((read_data >> YD_SFMA_SHIFT_BYTE)
+000003d8 1c08           1253 	mov	r28,r1
+000003da 880a           1254 	shr	8,r1
+000003dc 8100           1255 	zxb	r1
+000003de 590f0000       1256 	st.b	r1,0[r25]
+                        1257 --530:                         					& LOC_YD_SFMA_MASK_BYTE_LOW);
+                        1258 --531:                     *Capacity   = (uint8_t)((read_data >> YD_SFMA_SHIFT_2BYTE)
+000003e2 235f0900       1259 	ld.w	8[sp],r11
+000003e6 1c08           1260 	mov	r28,r1
+000003e8 900a           1261 	shr	16,r1
+000003ea 8100           1262 	zxb	r1
+000003ec 4b0f0000       1263 	st.b	r1,0[r11]
+                        1264 .L729:
+                        1265 --532:                         					& LOC_YD_SFMA_MASK_BYTE_LOW);
+                        1266 --533:                 }
+                        1267 --534:                 ret = YD_SFMA_SpibscClose(Unit);
+000003f0 1b30           1268 	mov	r27,r6
+                        1269 	jarl	_YD_SFMA_SpibscClose,lp
+                        1269 <EXPANSION BEGIN>
+                        1269 jarl22 _YD_SFMA_SpibscClose , lp 
+000003f2 80ff0000*      1269 <EXPANSION END>
+000003f6 0ae8           1270 	mov	r10,r29
+                        1271 .L724:
+                        1272 --535:             }
+                        1273 --536:         }
+                        1274 --537:     }
+                        1275 --539:     return ret;
+                        1276 --line539
+                        1277 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.66::
+                        1278 .LDWlin66:
+000003f8 1d50           1279 	mov	r29,r10
+                        1280 --	    .ef
+                        1281 .LDW02:
+000003fa 7606ff70       1282 	dispose	27,{r25,r26,r27,r28,r29,r31},[lp]
+                        1283 	.type	_YD_SFMA_SpibscJEDECRead,@function
+                        1284 	.size	_YD_SFMA_SpibscJEDECRead,.-_YD_SFMA_SpibscJEDECRead
+                        1285 	.align	2
+                        1286 .LDW12:
+                        1287 --_spibsc_reg	12[sp]	local
+                        1288 --_ret	r29	local
+                        1289 --_read_data	r28	local
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1290 
+                        1291 --_Unit	r27	param
+                        1292 --_ManufacturerID	r26	param
+                        1293 --_MemoryType	r25	param
+                        1294 --_Capacity	8[sp]	param
+                        1295 
+                        1296 	.section ".bss","awb"
+                        1297 .L780:
+                        1298 	.type	.L780,@object
+                        1299 	.size	.L780,0
+                        1300 	.data
+                        1301 	.text
+                        1302 
+                        1303 --540: }
+                        1304 
+                        1305 --542: /***************************************************************************
+                        1306 --543:   Function: YD_SFMA_SpibscAccessAddressSet
+                        1307 --545:   see: <yd_sfma_spibsc.h>
+                        1308 --546: */
+                        1309 --547: yd_sfma_Error_t YD_SFMA_SpibscAccessAddressSet(const uint32_t Unit,
+                        1310 	.align	2
+                        1311 	.align	2
+                        1312 	.global	_YD_SFMA_SpibscAccessAddressSet
+                        1313 _YD_SFMA_SpibscAccessAddressSet:
+000003fe 8007e170       1314 	prepare	{r25,r26,r27,r28,r29,r31},0
+00000402 06c8           1315 	mov	r6,r25
+00000404 08d0           1316 	mov	r8,r26
+00000406 09d8           1317 	mov	r9,r27
+                        1318 --	    .bf
+                        1319 .LDW22:
+                        1320 --548:                                              const uint64_t Addr,
+                        1321 --549:                                              const uint8_t  Range)
+                        1322 --550: {
+                        1323 --551:     yd_sfma_Error_t ret;
+                        1324 --552:     uint8_t        eav;
+                        1325 --554:     eav = (uint8_t)((Addr >> LOC_YD_SFMA_SPIBSC_SET_EAV_SHIFT) & LOC_YD_SFMA_SPIBSC_SET_EAV_MASK);
+00000408 1b70           1326 	mov	r27,r14
+0000040a c772           1327 	shl	7,r14
+0000040c 1a08           1328 	mov	r26,r1
+0000040e 990a           1329 	shr	25,r1
+00000410 0e09           1330 	or	r14,r1
+00000412 8100           1331 	zxb	r1
+00000414 01e8           1332 	mov	r1,r29
+00000416 9d00           1333 	zxb	r29
+                        1334 --555:     ret = YD_SFMA_SpibscDrAddr(Unit, eav, Range);
+00000418 83471900       1335 	ld.bu	24[sp],r8
+0000041c 1930           1336 	mov	r25,r6
+0000041e 1d38           1337 	mov	r29,r7
+                        1338 	jarl	_YD_SFMA_SpibscDrAddr,lp
+                        1338 <EXPANSION BEGIN>
+                        1338 jarl22 _YD_SFMA_SpibscDrAddr , lp 
+00000420 80ff0000*      1338 <EXPANSION END>
+00000424 0ae0           1339 	mov	r10,r28
+                        1340 --557:     return ret;
+                        1341 --line557
+                        1342 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.67::
+                        1343 .LDWlin67:
+00000426 1c50           1344 	mov	r28,r10
+                        1345 --	    .ef
+                        1346 .LDW32:
+00000428 4006ff70       1347 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1348 	.type	_YD_SFMA_SpibscAccessAddressSet,@function
+                        1349 	.size	_YD_SFMA_SpibscAccessAddressSet,.-_YD_SFMA_SpibscAccessAddressSet
+                        1350 	.align	2
+                        1351 .LDW42:
+                        1352 --_ret	r28	local
+                        1353 --_eav	r29	local
+                        1354 
+                        1355 --_Unit	r25	param
+                        1356 --_Addr	r26	param
+                        1357 --_Range	24[sp]	param
+                        1358 
+                        1359 	.section ".bss","awb"
+                        1360 .L860:
+                        1361 	.type	.L860,@object
+                        1362 	.size	.L860,0
+                        1363 	.data
+                        1364 	.text
+                        1365 
+                        1366 --558: }
+                        1367 
+                        1368 --560: /***************************************************************************
+                        1369 --561:   Function: YD_SFMA_SpibscReadStatusRegister
+                        1370 --563:   see: <yd_sfma_spibsc.h>
+                        1371 --564: */
+                        1372 --565: yd_sfma_Error_t YD_SFMA_SpibscReadStatusRegister(const uint32_t           Unit,
+                        1373 	.align	2
+                        1374 	.align	2
+                        1375 	.global	_YD_SFMA_SpibscReadStatusRegister
+                        1376 _YD_SFMA_SpibscReadStatusRegister:
+0000042c b007e170       1377 	prepare	{r25,r26,r27,r28,r29,r31},24
+00000430 06c8           1378 	mov	r6,r25
+00000432 07e0           1379 	mov	r7,r28
+00000434 08d8           1380 	mov	r8,r27
+00000436 09d0           1381 	mov	r9,r26
+                        1382 --	    .bf
+                        1383 .LDW52:
+                        1384 --566:                                                      uint8_t * const    Status1,
+                        1385 --567:                                                      uint8_t * const    Status2,
+                        1386 --568:                                                const yd_sfma_SpiConfig_t *SpiConfig)
+                        1387 --569: {
+                        1388 --570:     yd_sfma_SpibscSpimdReg_t spibsc_reg;
+                        1389 --571:     yd_sfma_Error_t          ret;
+                        1390 --573:     if ((Status1 == R_NULL) ||
+00000438 e0e1           1391 	cmp	zero,r28
+0000043a b205*          1392 	be	.L881
+0000043c e0d9           1393 	cmp	zero,r27
+0000043e ba05*          1394 	bne	.L880
+                        1395 .L881:
+                        1396 --574:         (Status2 == R_NULL))
+                        1397 --575:     {
+                        1398 --576:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        1399 --line576
+                        1400 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.68::
+                        1401 .LDWlin68:
+00000440 02ea           1402 	mov	2,r29
+00000442 c535*          1403 	br	.L883
+                        1404 .L880:
+                        1405 --577:     }
+                        1406 --578:     else if (SpiConfig == R_NULL)
+                        1407 --line578
+                        1408 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.69::
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1409 .LDWlin69:
+00000444 e0d1           1410 	cmp	zero,r26
+00000446 ba05*          1411 	bne	.L884
+                        1412 --579:     {
+                        1413 --580:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        1414 --line580
+                        1415 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.70::
+                        1416 .LDWlin70:
+00000448 02ea           1417 	mov	2,r29
+0000044a 8535*          1418 	br	.L883
+                        1419 .L884:
+                        1420 --581:     }
+                        1421 --582:     else
+                        1422 --583:     {
+                        1423 --584:         ret = YD_SFMA_SpibscRegsetInit(&spibsc_reg);
+                        1424 --line584
+                        1425 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.71::
+                        1426 .LDWlin71:
+0000044c 23360000       1427 	movea	0,sp,r6
+                        1428 	jarl	_YD_SFMA_SpibscRegsetInit,lp
+                        1428 <EXPANSION BEGIN>
+                        1428 jarl22 _YD_SFMA_SpibscRegsetInit , lp 
+00000450 80ff4e02*      1428 <EXPANSION END>
+00000454 0ae8           1429 	mov	r10,r29
+                        1430 --585:         if (ret == YD_SFMA_ERR_OK)
+                        1431 --line585
+                        1432 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.72::
+                        1433 .LDWlin72:
+00000456 e0e9           1434 	cmp	zero,r29
+00000458 9a2d*          1435 	bne	.L883
+                        1436 --586:         {
+                        1437 --587:             /* Command */
+                        1438 --588:             spibsc_reg.Cmd = SpiConfig->Command.ReadStatus1;
+                        1439 --line588
+                        1440 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.73::
+                        1441 .LDWlin73:
+0000045a 9a0f6700       1442 	ld.bu	102[r26],r1
+0000045e 430f5a00       1443 	st.b	r1,90[sp]
+                        1444 --589:             /* SPI mode Enable */
+                        1445 --590:             spibsc_reg.Spide = YD_SFMA_SPIBSC_OUTPUT_SPID_8;
+00000462 080a           1446 	mov	8,r1
+00000464 630f2500       1447 	st.w	r1,36[sp]
+                        1448 --591:             /* SPI mode Control */
+                        1449 --592:             spibsc_reg.Spire = YD_SFMA_SPIBSC_SPIDATA_ENABLE;
+00000468 010a           1450 	mov	1,r1
+0000046a 630f2d00       1451 	st.w	r1,44[sp]
+                        1452 --594:             ret = YD_SFMA_SpibscCommandTransfer(Unit, &spibsc_reg);
+0000046e 1930           1453 	mov	r25,r6
+00000470 233e0000       1454 	movea	0,sp,r7
+                        1455 	jarl	_YD_SFMA_SpibscCommandTransfer,lp
+                        1455 <EXPANSION BEGIN>
+                        1455 jarl22 _YD_SFMA_SpibscCommandTransfer , lp 
+00000474 80ff0000*      1455 <EXPANSION END>
+00000478 0ae8           1456 	mov	r10,r29
+                        1457 --595:             if (ret == YD_SFMA_ERR_OK)
+                        1458 --line595
+                        1459 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.74::
+                        1460 .LDWlin74:
+0000047a e0e9           1461 	cmp	zero,r29
+0000047c fa15*          1462 	bne	.L883
+                        1463 --596:             {
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1464 --597:                 if (SpiConfig->MemoryNum == YD_SFMA_SPIBSC_CMNCR_BSZ_SINGLE)
+                        1465 --line597
+                        1466 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.75::
+                        1467 .LDWlin75:
+0000047e 3a0f0100       1468 	ld.w	0[r26],r1
+00000482 e009           1469 	cmp	zero,r1
+00000484 9a0d*          1470 	bne	.L891
+                        1471 --598:                 {
+                        1472 --599:                     /* Data[31:24] */
+                        1473 --600:                     *Status1 = (uint8_t)(spibsc_reg.Smrdr[YD_SFMA_SMRDR_DATA_0]
+                        1474 --line600
+                        1475 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.76::
+                        1476 .LDWlin76:
+00000486 230f4900       1477 	ld.w	72[sp],r1
+0000048a 980a           1478 	shr	24,r1
+0000048c 5c0f0000       1479 	st.b	r1,0[r28]
+                        1480 --601:                                 >> YD_SFMA_SHIFT_3BYTE);
+                        1481 --602:                     *Status2 = 0;
+00000490 5b070000       1482 	st.b	zero,0[r27]
+00000494 b50d*          1483 	br	.L883
+                        1484 .L891:
+                        1485 --603:                 }
+                        1486 --604:                 else
+                        1487 --605:                 {
+                        1488 --606:                     /* Data[55:48](23:16) */
+                        1489 --607:                     *Status1 = (uint8_t)(spibsc_reg.Smrdr[YD_SFMA_SMRDR_DATA_0]
+                        1490 --line607
+                        1491 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.77::
+                        1492 .LDWlin77:
+00000496 230f4900       1493 	ld.w	72[sp],r1
+0000049a 900a           1494 	shr	16,r1
+0000049c 5c0f0000       1495 	st.b	r1,0[r28]
+                        1496 --608:                                 >> YD_SFMA_SHIFT_2BYTE);
+                        1497 --609:                     /* Data[63:56](31:24) */
+                        1498 --610:                     *Status2 = (uint8_t)(spibsc_reg.Smrdr[YD_SFMA_SMRDR_DATA_0]
+000004a0 230f4900       1499 	ld.w	72[sp],r1
+000004a4 980a           1500 	shr	24,r1
+000004a6 5b0f0000       1501 	st.b	r1,0[r27]
+                        1502 .L883:
+                        1503 --611:                                 >> YD_SFMA_SHIFT_3BYTE);
+                        1504 --612:                 }
+                        1505 --613:             }
+                        1506 --614:         }
+                        1507 --615:     }
+                        1508 --617:     return ret;
+000004aa 1d50           1509 	mov	r29,r10
+                        1510 --	    .ef
+                        1511 .LDW62:
+000004ac 7006ff70       1512 	dispose	24,{r25,r26,r27,r28,r29,r31},[lp]
+                        1513 	.type	_YD_SFMA_SpibscReadStatusRegister,@function
+                        1514 	.size	_YD_SFMA_SpibscReadStatusRegister,.-_YD_SFMA_SpibscReadStatusRegister
+                        1515 	.align	2
+                        1516 .LDW72:
+                        1517 --_spibsc_reg	0[sp]	local
+                        1518 --_ret	r29	local
+                        1519 
+                        1520 --_Unit	r25	param
+                        1521 --_Status1	r28	param
+                        1522 --_Status2	r27	param
+                        1523 --_SpiConfig	r26	param
+                        1524 
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1525 	.section ".bss","awb"
+                        1526 .L938:
+                        1527 	.type	.L938,@object
+                        1528 	.size	.L938,0
+                        1529 	.data
+                        1530 	.text
+                        1531 
+                        1532 --618: }
+                        1533 
+                        1534 --620: /***************************************************************************
+                        1535 --621:   Function: YD_SFMA_SpibscReadConfigRegister
+                        1536 --623:   see: <yd_sfma_spibsc.h>
+                        1537 --624: */
+                        1538 --625: yd_sfma_Error_t YD_SFMA_SpibscReadConfigRegister(const uint32_t           Unit,
+                        1539 	.align	2
+                        1540 	.align	2
+                        1541 	.global	_YD_SFMA_SpibscReadConfigRegister
+                        1542 _YD_SFMA_SpibscReadConfigRegister:
+000004b0 b007e170       1543 	prepare	{r25,r26,r27,r28,r29,r31},24
+000004b4 06c8           1544 	mov	r6,r25
+000004b6 07e0           1545 	mov	r7,r28
+000004b8 08d8           1546 	mov	r8,r27
+000004ba 09d0           1547 	mov	r9,r26
+                        1548 --	    .bf
+                        1549 .LDW82:
+                        1550 --626:                                                      uint8_t * const    Config1,
+                        1551 --627:                                                      uint8_t * const    Config2,
+                        1552 --628:                                                const yd_sfma_SpiConfig_t *SpiConfig)
+                        1553 --629: {
+                        1554 --630:     yd_sfma_SpibscSpimdReg_t spibsc_reg;
+                        1555 --631:     yd_sfma_Error_t          ret;
+                        1556 --633:     if ((Config1 == R_NULL) ||
+000004bc e0e1           1557 	cmp	zero,r28
+000004be b205*          1558 	be	.L1004
+000004c0 e0d9           1559 	cmp	zero,r27
+000004c2 ba05*          1560 	bne	.L1003
+                        1561 .L1004:
+                        1562 --634:         (Config2 == R_NULL))
+                        1563 --635:     {
+                        1564 --636:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        1565 --line636
+                        1566 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.78::
+                        1567 .LDWlin78:
+000004c4 02ea           1568 	mov	2,r29
+000004c6 c535*          1569 	br	.L1006
+                        1570 .L1003:
+                        1571 --637:     }
+                        1572 --638:     else if (SpiConfig == R_NULL)
+                        1573 --line638
+                        1574 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.79::
+                        1575 .LDWlin79:
+000004c8 e0d1           1576 	cmp	zero,r26
+000004ca ba05*          1577 	bne	.L1007
+                        1578 --639:     {
+                        1579 --640:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        1580 --line640
+                        1581 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.80::
+                        1582 .LDWlin80:
+000004cc 02ea           1583 	mov	2,r29
+000004ce 8535*          1584 	br	.L1006
+                        1585 .L1007:
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1586 --641:     }
+                        1587 --642:     else
+                        1588 --643:     {
+                        1589 --644:         ret = YD_SFMA_SpibscRegsetInit(&spibsc_reg);
+                        1590 --line644
+                        1591 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.81::
+                        1592 .LDWlin81:
+000004d0 23360000       1593 	movea	0,sp,r6
+                        1594 	jarl	_YD_SFMA_SpibscRegsetInit,lp
+                        1594 <EXPANSION BEGIN>
+                        1594 jarl22 _YD_SFMA_SpibscRegsetInit , lp 
+000004d4 80ffca01*      1594 <EXPANSION END>
+000004d8 0ae8           1595 	mov	r10,r29
+                        1596 --645:         if (ret == YD_SFMA_ERR_OK)
+                        1597 --line645
+                        1598 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.82::
+                        1599 .LDWlin82:
+000004da e0e9           1600 	cmp	zero,r29
+000004dc 9a2d*          1601 	bne	.L1006
+                        1602 --646:         {
+                        1603 --647:             /* Command */
+                        1604 --648:             spibsc_reg.Cmd = SpiConfig->Command.ReadStatus2;
+                        1605 --line648
+                        1606 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.83::
+                        1607 .LDWlin83:
+000004de ba0f6700       1608 	ld.bu	103[r26],r1
+000004e2 430f5a00       1609 	st.b	r1,90[sp]
+                        1610 --649:             /* SPI mode Enable */
+                        1611 --650:             spibsc_reg.Spide = YD_SFMA_SPIBSC_OUTPUT_SPID_8;
+000004e6 080a           1612 	mov	8,r1
+000004e8 630f2500       1613 	st.w	r1,36[sp]
+                        1614 --651:             /* SPI mode Control */
+                        1615 --652:             spibsc_reg.Spire = YD_SFMA_SPIBSC_SPIDATA_ENABLE;
+000004ec 010a           1616 	mov	1,r1
+000004ee 630f2d00       1617 	st.w	r1,44[sp]
+                        1618 --654:             ret = YD_SFMA_SpibscCommandTransfer(Unit, &spibsc_reg);
+000004f2 1930           1619 	mov	r25,r6
+000004f4 233e0000       1620 	movea	0,sp,r7
+                        1621 	jarl	_YD_SFMA_SpibscCommandTransfer,lp
+                        1621 <EXPANSION BEGIN>
+                        1621 jarl22 _YD_SFMA_SpibscCommandTransfer , lp 
+000004f8 80ff0000*      1621 <EXPANSION END>
+000004fc 0ae8           1622 	mov	r10,r29
+                        1623 --655:             if (ret == YD_SFMA_ERR_OK)
+                        1624 --line655
+                        1625 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.84::
+                        1626 .LDWlin84:
+000004fe e0e9           1627 	cmp	zero,r29
+00000500 fa15*          1628 	bne	.L1006
+                        1629 --656:             {
+                        1630 --657:                 if (SpiConfig->MemoryNum == YD_SFMA_SPIBSC_CMNCR_BSZ_SINGLE)
+                        1631 --line657
+                        1632 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.85::
+                        1633 .LDWlin85:
+00000502 3a0f0100       1634 	ld.w	0[r26],r1
+00000506 e009           1635 	cmp	zero,r1
+00000508 9a0d*          1636 	bne	.L1014
+                        1637 --658:                 {
+                        1638 --659:                     /* Data[31:24] */
+                        1639 --660:                     *Config1 = (uint8_t)(spibsc_reg.Smrdr[YD_SFMA_SMRDR_DATA_0]
+                        1640 --line660
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1641 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.86::
+                        1642 .LDWlin86:
+0000050a 230f4900       1643 	ld.w	72[sp],r1
+0000050e 980a           1644 	shr	24,r1
+00000510 5c0f0000       1645 	st.b	r1,0[r28]
+                        1646 --661:                                 >> YD_SFMA_SHIFT_3BYTE);
+                        1647 --662:                     *Config2 = 0;
+00000514 5b070000       1648 	st.b	zero,0[r27]
+00000518 b50d*          1649 	br	.L1006
+                        1650 .L1014:
+                        1651 --663:                 }
+                        1652 --664:                 else
+                        1653 --665:                 {
+                        1654 --666:                     /* Data[55:48](23:16) */
+                        1655 --667:                     *Config1 = (uint8_t)(spibsc_reg.Smrdr[YD_SFMA_SMRDR_DATA_0]
+                        1656 --line667
+                        1657 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.87::
+                        1658 .LDWlin87:
+0000051a 230f4900       1659 	ld.w	72[sp],r1
+0000051e 900a           1660 	shr	16,r1
+00000520 5c0f0000       1661 	st.b	r1,0[r28]
+                        1662 --668:                                 >> YD_SFMA_SHIFT_2BYTE);
+                        1663 --669:                     /* Data[63:56](31:24) */
+                        1664 --670:                     *Config2 = (uint8_t)(spibsc_reg.Smrdr[YD_SFMA_SMRDR_DATA_0]
+00000524 230f4900       1665 	ld.w	72[sp],r1
+00000528 980a           1666 	shr	24,r1
+0000052a 5b0f0000       1667 	st.b	r1,0[r27]
+                        1668 .L1006:
+                        1669 --671:                                 >> YD_SFMA_SHIFT_3BYTE);
+                        1670 --672:                 }
+                        1671 --673:             }
+                        1672 --674:         }
+                        1673 --675:     }
+                        1674 --677:     return ret;
+0000052e 1d50           1675 	mov	r29,r10
+                        1676 --	    .ef
+                        1677 .LDW92:
+00000530 7006ff70       1678 	dispose	24,{r25,r26,r27,r28,r29,r31},[lp]
+                        1679 	.type	_YD_SFMA_SpibscReadConfigRegister,@function
+                        1680 	.size	_YD_SFMA_SpibscReadConfigRegister,.-_YD_SFMA_SpibscReadConfigRegister
+                        1681 	.align	2
+                        1682 .LDW03:
+                        1683 --_spibsc_reg	0[sp]	local
+                        1684 --_ret	r29	local
+                        1685 
+                        1686 --_Unit	r25	param
+                        1687 --_Config1	r28	param
+                        1688 --_Config2	r27	param
+                        1689 --_SpiConfig	r26	param
+                        1690 
+                        1691 	.section ".bss","awb"
+                        1692 .L1066:
+                        1693 	.type	.L1066,@object
+                        1694 	.size	.L1066,0
+                        1695 	.data
+                        1696 	.text
+                        1697 
+                        1698 --678: }
+                        1699 
+                        1700 --680: /***************************************************************************
+                        1701 --681:   Function: YD_SFMA_SpibscWriteEnableRegister
+
+                                                                      Page 30
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1702 --683:   see: <yd_sfma_spibsc.h>
+                        1703 --684: */
+                        1704 --685: yd_sfma_Error_t YD_SFMA_SpibscWriteEnableRegister(const uint32_t           Unit,
+                        1705 	.align	2
+                        1706 	.align	2
+                        1707 	.global	_YD_SFMA_SpibscWriteEnableRegister
+                        1708 _YD_SFMA_SpibscWriteEnableRegister:
+00000534 b007e110       1709 	prepare	{r27,r28,r29,r31},24
+00000538 06d8           1710 	mov	r6,r27
+0000053a 07e0           1711 	mov	r7,r28
+                        1712 --	    .bf
+                        1713 .LDW13:
+                        1714 --686:                                                 const yd_sfma_SpiConfig_t *SpiConfig)
+                        1715 --687: {
+                        1716 --688:     yd_sfma_SpibscSpimdReg_t spibsc_reg;
+                        1717 --689:     yd_sfma_Error_t          ret;
+                        1718 --691:     if (SpiConfig == R_NULL)
+0000053c e0e1           1719 	cmp	zero,r28
+0000053e ba05*          1720 	bne	.L1131
+                        1721 --692:     {
+                        1722 --693:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        1723 --line693
+                        1724 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.88::
+                        1725 .LDWlin88:
+00000540 02ea           1726 	mov	2,r29
+00000542 a515*          1727 	br	.L1133
+                        1728 .L1131:
+                        1729 --694:     }
+                        1730 --695:     else
+                        1731 --696:     {
+                        1732 --697:         ret = YD_SFMA_SpibscRegsetInit(&spibsc_reg);
+                        1733 --line697
+                        1734 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.89::
+                        1735 .LDWlin89:
+00000544 23360000       1736 	movea	0,sp,r6
+                        1737 	jarl	_YD_SFMA_SpibscRegsetInit,lp
+                        1737 <EXPANSION BEGIN>
+                        1737 jarl22 _YD_SFMA_SpibscRegsetInit , lp 
+00000548 80ff5601*      1737 <EXPANSION END>
+0000054c 0ae8           1738 	mov	r10,r29
+                        1739 --698:         if (ret == YD_SFMA_ERR_OK)
+                        1740 --line698
+                        1741 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.90::
+                        1742 .LDWlin90:
+0000054e e0e9           1743 	cmp	zero,r29
+00000550 ba0d*          1744 	bne	.L1133
+                        1745 --699:         {
+                        1746 --700:             /* Command */
+                        1747 --701:             spibsc_reg.Cmd = SpiConfig->Command.WriteEnable;
+                        1748 --line701
+                        1749 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.91::
+                        1750 .LDWlin91:
+00000552 9c0f6500       1751 	ld.bu	100[r28],r1
+00000556 430f5a00       1752 	st.b	r1,90[sp]
+                        1753 --703:             ret = YD_SFMA_SpibscCommandTransfer(Unit, &spibsc_reg);
+0000055a 1b30           1754 	mov	r27,r6
+0000055c 233e0000       1755 	movea	0,sp,r7
+                        1756 	jarl	_YD_SFMA_SpibscCommandTransfer,lp
+                        1756 <EXPANSION BEGIN>
+                        1756 jarl22 _YD_SFMA_SpibscCommandTransfer , lp 
+00000560 80ff0000*      1756 <EXPANSION END>
+
+                                                                      Page 31
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+00000564 0ae8           1757 	mov	r10,r29
+                        1758 .L1133:
+                        1759 --704:         }
+                        1760 --705:     }
+                        1761 --707:     return ret;
+                        1762 --line707
+                        1763 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.92::
+                        1764 .LDWlin92:
+00000566 1d50           1765 	mov	r29,r10
+                        1766 --	    .ef
+                        1767 .LDW23:
+00000568 7006ff10       1768 	dispose	24,{r27,r28,r29,r31},[lp]
+                        1769 	.type	_YD_SFMA_SpibscWriteEnableRegister,@function
+                        1770 	.size	_YD_SFMA_SpibscWriteEnableRegister,.-_YD_SFMA_SpibscWriteEnableRegister
+                        1771 	.align	2
+                        1772 .LDW33:
+                        1773 --_spibsc_reg	0[sp]	local
+                        1774 --_ret	r29	local
+                        1775 
+                        1776 --_Unit	r27	param
+                        1777 --_SpiConfig	r28	param
+                        1778 
+                        1779 	.section ".bss","awb"
+                        1780 .L1156:
+                        1781 	.type	.L1156,@object
+                        1782 	.size	.L1156,0
+                        1783 	.data
+                        1784 	.text
+                        1785 
+                        1786 --708: }
+                        1787 
+                        1788 --710: /***************************************************************************
+                        1789 --711:   Function: YD_SFMA_SpibscWriteStatusRegister
+                        1790 --713:   see: <yd_sfma_spibsc.h>
+                        1791 --714: */
+                        1792 --715: yd_sfma_Error_t YD_SFMA_SpibscWriteStatusRegister(const uint32_t           Unit,
+                        1793 	.align	2
+                        1794 	.align	2
+                        1795 	.global	_YD_SFMA_SpibscWriteStatusRegister
+                        1796 _YD_SFMA_SpibscWriteStatusRegister:
+0000056c b007e170       1797 	prepare	{r25,r26,r27,r28,r29,r31},24
+00000570 06d8           1798 	mov	r6,r27
+00000572 c7d6ff00       1799 	andi	255,r7,r26
+00000576 c8ceff00       1800 	andi	255,r8,r25
+0000057a 09e0           1801 	mov	r9,r28
+                        1802 --	    .bf
+                        1803 .LDW43:
+                        1804 --716:                                                 const uint8_t            Status,
+                        1805 --717:                                                 const uint8_t            Config,
+                        1806 --718:                                                 const yd_sfma_SpiConfig_t *SpiConfig)
+                        1807 --719: {
+                        1808 --720:     yd_sfma_SpibscSpimdReg_t spibsc_reg;
+                        1809 --721:     yd_sfma_Error_t          ret;
+                        1810 --723:     if (SpiConfig == R_NULL)
+0000057c e0e1           1811 	cmp	zero,r28
+0000057e ba05*          1812 	bne	.L1188
+                        1813 --724:     {
+                        1814 --725:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        1815 --line725
+                        1816 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.93::
+                        1817 .LDWlin93:
+
+                                                                      Page 32
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+00000580 02ea           1818 	mov	2,r29
+00000582 d52d*          1819 	br	.L1190
+                        1820 .L1188:
+                        1821 --726:     }
+                        1822 --727:     else
+                        1823 --728:     {
+                        1824 --729:         /* write status in Single-SPI */
+                        1825 --730:         ret = YD_SFMA_SpibscWriteEnableRegister(Unit, SpiConfig);
+                        1826 --line730
+                        1827 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.94::
+                        1828 .LDWlin94:
+00000584 1b30           1829 	mov	r27,r6
+00000586 1c38           1830 	mov	r28,r7
+                        1831 	jarl	_YD_SFMA_SpibscWriteEnableRegister,lp
+                        1831 <EXPANSION BEGIN>
+                        1831 jarl22 _YD_SFMA_SpibscWriteEnableRegister , lp 
+00000588 bfffacff*      1831 <EXPANSION END>
+0000058c 0ae8           1832 	mov	r10,r29
+                        1833 --731:         if (ret == YD_SFMA_ERR_OK)
+                        1834 --line731
+                        1835 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.95::
+                        1836 .LDWlin95:
+0000058e e0e9           1837 	cmp	zero,r29
+00000590 ea25*          1838 	bne	.L1190
+                        1839 --732:         {
+                        1840 --733:             ret = YD_SFMA_SpibscRegsetInit(&spibsc_reg);
+                        1841 --line733
+                        1842 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.96::
+                        1843 .LDWlin96:
+00000592 23360000       1844 	movea	0,sp,r6
+                        1845 	jarl	_YD_SFMA_SpibscRegsetInit,lp
+                        1845 <EXPANSION BEGIN>
+                        1845 jarl22 _YD_SFMA_SpibscRegsetInit , lp 
+00000596 80ff0801*      1845 <EXPANSION END>
+0000059a 0ae8           1846 	mov	r10,r29
+                        1847 --734:             if (ret == YD_SFMA_ERR_OK)
+                        1848 --line734
+                        1849 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.97::
+                        1850 .LDWlin97:
+0000059c e0e9           1851 	cmp	zero,r29
+0000059e fa1d*          1852 	bne	.L1190
+                        1853 --735:             {
+                        1854 --736:                 /* Command */
+                        1855 --737:                 spibsc_reg.Cmd = SpiConfig->Command.WriteStatus;
+                        1856 --line737
+                        1857 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.98::
+                        1858 .LDWlin98:
+000005a0 9c0f6900       1859 	ld.bu	104[r28],r1
+000005a4 430f5a00       1860 	st.b	r1,90[sp]
+                        1861 --738:                 /* Option-Data OPD3, OPD2 */
+                        1862 --739:                 spibsc_reg.Opde  = YD_SFMA_SPIBSC_OUTPUT_OPD_32;
+000005a8 0c0a           1863 	mov	12,r1
+000005aa 630f2100       1864 	st.w	r1,32[sp]
+                        1865 --740:                 spibsc_reg.Opdb  = YD_SFMA_SPIBSC_1BIT;
+000005ae 63070d00       1866 	st.w	zero,12[sp]
+                        1867 --741:                 spibsc_reg.Opd[YD_SFMA_OPTION_DATA_0] = 0;
+000005b2 43075c00       1868 	st.b	zero,92[sp]
+                        1869 --742:                 spibsc_reg.Opd[YD_SFMA_OPTION_DATA_1] = 0;
+000005b6 43075d00       1870 	st.b	zero,93[sp]
+                        1871 --743:                 spibsc_reg.Opd[YD_SFMA_OPTION_DATA_2] = Config;
+000005ba 43cf5e00       1872 	st.b	r25,94[sp]
+
+                                                                      Page 33
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1873 --744:                 spibsc_reg.Opd[YD_SFMA_OPTION_DATA_3] = Status;
+000005be 43d75f00       1874 	st.b	r26,95[sp]
+                        1875 --746:                 ret = YD_SFMA_SpibscCommandTransfer(Unit, &spibsc_reg);
+000005c2 1b30           1876 	mov	r27,r6
+000005c4 233e0000       1877 	movea	0,sp,r7
+                        1878 	jarl	_YD_SFMA_SpibscCommandTransfer,lp
+                        1878 <EXPANSION BEGIN>
+                        1878 jarl22 _YD_SFMA_SpibscCommandTransfer , lp 
+000005c8 80ff0000*      1878 <EXPANSION END>
+000005cc 0ae8           1879 	mov	r10,r29
+                        1880 --748:                 if (ret == YD_SFMA_ERR_OK)
+                        1881 --line748
+                        1882 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.99::
+                        1883 .LDWlin99:
+000005ce e0e9           1884 	cmp	zero,r29
+000005d0 ea05*          1885 	bne	.L1190
+                        1886 --749:                 {
+                        1887 --750:                     ret = YD_SFMA_SpibscBusyWait(Unit, SpiConfig);
+                        1888 --line750
+                        1889 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.100::
+                        1890 .LDWlin100:
+000005d2 1b30           1891 	mov	r27,r6
+000005d4 1c38           1892 	mov	r28,r7
+                        1893 	jarl	_YD_SFMA_SpibscBusyWait,lp
+                        1893 <EXPANSION BEGIN>
+                        1893 jarl22 _YD_SFMA_SpibscBusyWait , lp 
+000005d6 80ff0c00*      1893 <EXPANSION END>
+000005da 0ae8           1894 	mov	r10,r29
+                        1895 .L1190:
+                        1896 --751:                 }
+                        1897 --752:             }
+                        1898 --753:         }
+                        1899 --754:     }
+                        1900 --756:     return ret;
+                        1901 --line756
+                        1902 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.101::
+                        1903 .LDWlin101:
+000005dc 1d50           1904 	mov	r29,r10
+                        1905 --	    .ef
+                        1906 .LDW53:
+000005de 7006ff70       1907 	dispose	24,{r25,r26,r27,r28,r29,r31},[lp]
+                        1908 	.type	_YD_SFMA_SpibscWriteStatusRegister,@function
+                        1909 	.size	_YD_SFMA_SpibscWriteStatusRegister,.-_YD_SFMA_SpibscWriteStatusRegister
+                        1910 	.align	2
+                        1911 .LDW63:
+                        1912 --_spibsc_reg	0[sp]	local
+                        1913 --_ret	r29	local
+                        1914 
+                        1915 --_Unit	r27	param
+                        1916 --_Status	r26	param
+                        1917 --_Config	r25	param
+                        1918 --_SpiConfig	r28	param
+                        1919 
+                        1920 	.section ".bss","awb"
+                        1921 .L1240:
+                        1922 	.type	.L1240,@object
+                        1923 	.size	.L1240,0
+                        1924 	.data
+                        1925 	.text
+                        1926 
+                        1927 --757: }
+
+                                                                      Page 34
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        1928 
+                        1929 --759: /***************************************************************************
+                        1930 --760:   Function: YD_SFMA_SpibscBusyWait
+                        1931 --762:   see: <yd_sfma_spibsc.h>
+                        1932 --763: */
+                        1933 --764: yd_sfma_Error_t YD_SFMA_SpibscBusyWait(const uint32_t           Unit,
+                        1934 	.align	2
+                        1935 	.align	2
+                        1936 	.global	_YD_SFMA_SpibscBusyWait
+                        1937 _YD_SFMA_SpibscBusyWait:
+000005e2 8207e170       1938 	prepare	{r25,r26,r27,r28,r29,r31},1
+000005e6 06c8           1939 	mov	r6,r25
+000005e8 07d8           1940 	mov	r7,r27
+                        1941 --	    .bf
+                        1942 .LDW73:
+                        1943 --765:                                      const yd_sfma_SpiConfig_t *SpiConfig)
+                        1944 --766: {
+                        1945 --767:     yd_sfma_Error_t ret = YD_SFMA_ERR_OK;
+000005ea 00ea           1946 	mov	0,r29
+                        1947 --768:     uint8_t        st_reg1 = 0;
+000005ec 43070200       1948 	st.b	zero,2[sp]
+                        1949 --769:     uint8_t        st_reg2 = 0;
+000005f0 43070300       1950 	st.b	zero,3[sp]
+                        1951 --770:     uint32_t       loop_break;
+                        1952 --771:     uint32_t       wait = 0;
+000005f4 00d2           1953 	mov	0,r26
+                        1954 --773:     if (SpiConfig == R_NULL)
+000005f6 e0d9           1955 	cmp	zero,r27
+000005f8 ba05*          1956 	bne	.L1302
+                        1957 --774:     {
+                        1958 --775:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        1959 --line775
+                        1960 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.102::
+                        1961 .LDWlin102:
+000005fa 02ea           1962 	mov	2,r29
+000005fc e54d*          1963 	br	.L1304
+                        1964 .L1302:
+                        1965 --776:     }
+                        1966 --777:     else
+                        1967 --778:     {
+                        1968 --779:         loop_break = LOC_YD_SFMA_WAIT_FLAG_FALSE;
+                        1969 --line779
+                        1970 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.103::
+                        1971 .LDWlin103:
+000005fe 00e2           1972 	mov	0,r28
+                        1973 --780:         while (loop_break != LOC_YD_SFMA_WAIT_FLAG_TRUE)
+00000600 a54d*          1974 	br	.L1305
+                        1975 .L1307:
+                        1976 --781:         {
+                        1977 --782:             if (SpiConfig->Command.WriteInProgress.Reg == YD_SFMA_STATUS_REG)
+                        1978 --line782
+                        1979 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.104::
+                        1980 .LDWlin104:
+00000602 3b0f2900       1981 	ld.w	40[r27],r1
+00000606 e009           1982 	cmp	zero,r1
+00000608 ba0d*          1983 	bne	.L1308
+                        1984 --783:             {
+                        1985 --784:                 ret = YD_SFMA_SpibscReadStatusRegister(Unit, &st_reg1, &st_reg2, SpiConfig);
+                        1986 --line784
+                        1987 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.105::
+                        1988 .LDWlin105:
+
+                                                                      Page 35
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+0000060a 1930           1989 	mov	r25,r6
+0000060c 1b48           1990 	mov	r27,r9
+0000060e 233e0200       1991 	movea	2,sp,r7
+00000612 23460300       1992 	movea	3,sp,r8
+                        1993 	jarl	_YD_SFMA_SpibscReadStatusRegister,lp
+                        1993 <EXPANSION BEGIN>
+                        1993 jarl22 _YD_SFMA_SpibscReadStatusRegister , lp 
+00000616 bfff16fe*      1993 <EXPANSION END>
+0000061a 0ae8           1994 	mov	r10,r29
+0000061c 8515*          1995 	br	.L1310
+                        1996 .L1308:
+                        1997 --785:             }
+                        1998 --786:             else if (SpiConfig->Command.WriteInProgress.Reg == YD_SFMA_CONFIG_REG)
+                        1999 --line786
+                        2000 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.106::
+                        2001 .LDWlin106:
+0000061e 3b0f2900       2002 	ld.w	40[r27],r1
+00000622 610a           2003 	cmp	1,r1
+00000624 ba0d*          2004 	bne	.L1311
+                        2005 --787:             {
+                        2006 --788:                 ret = YD_SFMA_SpibscReadConfigRegister(Unit, &st_reg1, &st_reg2, SpiConfig);
+                        2007 --line788
+                        2008 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.107::
+                        2009 .LDWlin107:
+00000626 1930           2010 	mov	r25,r6
+00000628 1b48           2011 	mov	r27,r9
+0000062a 233e0200       2012 	movea	2,sp,r7
+0000062e 23460300       2013 	movea	3,sp,r8
+                        2014 	jarl	_YD_SFMA_SpibscReadConfigRegister,lp
+                        2014 <EXPANSION BEGIN>
+                        2014 jarl22 _YD_SFMA_SpibscReadConfigRegister , lp 
+00000632 bfff7efe*      2014 <EXPANSION END>
+00000636 0ae8           2015 	mov	r10,r29
+00000638 a505*          2016 	br	.L1310
+                        2017 .L1311:
+                        2018 --789:             }
+                        2019 --790:             else
+                        2020 --791:             {
+                        2021 --792:                 ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        2022 --line792
+                        2023 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.108::
+                        2024 .LDWlin108:
+0000063a 02ea           2025 	mov	2,r29
+                        2026 .L1310:
+                        2027 --793:             }
+                        2028 --795:             if (ret == YD_SFMA_ERR_OK)
+0000063c e0e9           2029 	cmp	zero,r29
+0000063e aa2d*          2030 	bne	.L1314
+                        2031 --796:             {
+                        2032 --797:                 if (SpiConfig->MemoryNum == YD_SFMA_SPIBSC_CMNCR_BSZ_DUAL)
+                        2033 --line797
+                        2034 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.109::
+                        2035 .LDWlin109:
+00000640 3b0f0100       2036 	ld.w	0[r27],r1
+00000644 610a           2037 	cmp	1,r1
+00000646 fa0d*          2038 	bne	.L1316
+                        2039 --798:                 {
+                        2040 --799:                     /* s-flash x 2 */
+                        2041 --800:                     if (((st_reg1 & SpiConfig->Command.WriteInProgress.BitPosition) == 0) &&
+                        2042 --line800
+                        2043 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.110::
+
+                                                                      Page 36
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        2044 .LDWlin110:
+00000648 9b0f2d00       2045 	ld.bu	44[r27],r1
+0000064c 83770300       2046 	ld.bu	2[sp],r14
+00000650 4e09           2047 	and	r14,r1
+00000652 fa15*          2048 	bne	.L1321
+00000654 9b0f2d00       2049 	ld.bu	44[r27],r1
+00000658 a3770300       2050 	ld.bu	3[sp],r14
+0000065c 4e09           2051 	and	r14,r1
+0000065e 9a15*          2052 	bne	.L1321
+                        2053 --801:                         ((st_reg2 & SpiConfig->Command.WriteInProgress.BitPosition) == 0))
+                        2054 --802:                     {
+                        2055 --803:                         loop_break = LOC_YD_SFMA_WAIT_FLAG_TRUE;
+                        2056 --line803
+                        2057 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.111::
+                        2058 .LDWlin111:
+00000660 01e2           2059 	mov	1,r28
+00000662 f50d*          2060 	br	.L1321
+                        2061 .L1316:
+                        2062 --804:                     }
+                        2063 --805:                 }
+                        2064 --806:                 else if (SpiConfig->MemoryNum == YD_SFMA_SPIBSC_CMNCR_BSZ_SINGLE)
+                        2065 --line806
+                        2066 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.112::
+                        2067 .LDWlin112:
+00000664 3b0f0100       2068 	ld.w	0[r27],r1
+00000668 e009           2069 	cmp	zero,r1
+0000066a 9a0d*          2070 	bne	.L1322
+                        2071 --807:                 {
+                        2072 --808:                     /* s-flash x 1 */
+                        2073 --809:                     if ((st_reg1 & SpiConfig->Command.WriteInProgress.BitPosition) == 0)
+                        2074 --line809
+                        2075 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.113::
+                        2076 .LDWlin113:
+0000066c 9b0f2d00       2077 	ld.bu	44[r27],r1
+00000670 83770300       2078 	ld.bu	2[sp],r14
+00000674 4e09           2079 	and	r14,r1
+00000676 da05*          2080 	bne	.L1321
+                        2081 --810:                     {
+                        2082 --811:                         loop_break = LOC_YD_SFMA_WAIT_FLAG_TRUE;
+                        2083 --line811
+                        2084 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.114::
+                        2085 .LDWlin114:
+00000678 01e2           2086 	mov	1,r28
+0000067a b505*          2087 	br	.L1321
+                        2088 .L1322:
+                        2089 --812:                     }
+                        2090 --813:                 }
+                        2091 --814:                 else
+                        2092 --815:                 {
+                        2093 --816:                     ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        2094 --line816
+                        2095 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.115::
+                        2096 .LDWlin115:
+0000067c 02ea           2097 	mov	2,r29
+                        2098 --817:                     loop_break = LOC_YD_SFMA_WAIT_FLAG_TRUE;
+0000067e 01e2           2099 	mov	1,r28
+                        2100 .L1321:
+                        2101 --818:                 }
+                        2102 --820:                 /* The check of the timeout */
+                        2103 --821:                 if (wait >= YD_SFMA_BUSY_WAIT)
+00000680 210640420f00   2104 	mov	1000000,r1
+
+                                                                      Page 37
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+00000686 e1d1           2105 	cmp	r1,r26
+00000688 b105*          2106 	bl	.L1327
+                        2107 --822:                 {
+                        2108 --823:                     ret = YD_SFMA_ERR_FATAL_HW;
+                        2109 --line823
+                        2110 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.116::
+                        2111 .LDWlin116:
+0000068a 07ea           2112 	mov	7,r29
+                        2113 --824:                     loop_break = LOC_YD_SFMA_WAIT_FLAG_TRUE;
+0000068c 01e2           2114 	mov	1,r28
+                        2115 .L1327:
+                        2116 --825:                 }
+                        2117 --826:                 wait++;
+0000068e 41d2           2118 	add	1,r26
+00000690 a505*          2119 	br	.L1305
+                        2120 .L1314:
+                        2121 --827:             }
+                        2122 --828:             else
+                        2123 --829:             {
+                        2124 --830:                 loop_break = LOC_YD_SFMA_WAIT_FLAG_TRUE;
+                        2125 --line830
+                        2126 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.117::
+                        2127 .LDWlin117:
+00000692 01e2           2128 	mov	1,r28
+                        2129 .L1305:
+00000694 61e2           2130 	cmp	1,r28
+00000696 eab5*          2131 	bne	.L1307
+                        2132 .L1304:
+                        2133 --831:             }
+                        2134 --832:         }
+                        2135 --833:     }
+                        2136 --835:     return ret;
+                        2137 --line835
+                        2138 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.118::
+                        2139 .LDWlin118:
+00000698 1d50           2140 	mov	r29,r10
+                        2141 --	    .ef
+                        2142 .LDW83:
+0000069a 4206ff70       2143 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                        2144 	.type	_YD_SFMA_SpibscBusyWait,@function
+                        2145 	.size	_YD_SFMA_SpibscBusyWait,.-_YD_SFMA_SpibscBusyWait
+                        2146 	.align	2
+                        2147 .LDW93:
+                        2148 --_ret	r29	local
+                        2149 --_st_reg1	2[sp]	local
+                        2150 --_st_reg2	3[sp]	local
+                        2151 --_loop_break	r28	local
+                        2152 --_wait	r26	local
+                        2153 
+                        2154 --_Unit	r25	param
+                        2155 --_SpiConfig	r27	param
+                        2156 
+                        2157 	.section ".bss","awb"
+                        2158 .L1410:
+                        2159 	.type	.L1410,@object
+                        2160 	.size	.L1410,0
+                        2161 	.data
+                        2162 	.text
+                        2163 
+                        2164 --836: }
+                        2165 
+
+                                                                      Page 38
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        2166 --838: /***************************************************************************
+                        2167 --839:   Function: YD_SFMA_SpibscRegsetInit
+                        2168 --841:   see: <yd_sfma_spibsc.h>
+                        2169 --842: */
+                        2170 --843: yd_sfma_Error_t YD_SFMA_SpibscRegsetInit(yd_sfma_SpibscSpimdReg_t * const Regset)
+                        2171 	.align	2
+                        2172 	.align	2
+                        2173 	.global	_YD_SFMA_SpibscRegsetInit
+                        2174 _YD_SFMA_SpibscRegsetInit:
+0000069e 06f0           2175 	mov	r6,ep
+                        2176 --	    .bf
+                        2177 .LDW04:
+                        2178 --844: {
+                        2179 --845:     yd_sfma_Error_t ret = YD_SFMA_ERR_OK;
+000006a0 000a           2180 	mov	0,r1
+                        2181 --847:     if (Regset == R_NULL)
+000006a2 e0f1           2182 	cmp	zero,ep
+000006a4 ba05*          2183 	bne	.L1511
+                        2184 --848:     {
+                        2185 --849:         ret = YD_SFMA_ERR_PARAM_INCORRECT;
+                        2186 --line849
+                        2187 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.119::
+                        2188 .LDWlin119:
+000006a6 020a           2189 	mov	2,r1
+000006a8 a515*          2190 	br	.L1513
+                        2191 .L1511:
+                        2192 --850:     }
+                        2193 --851:     else
+                        2194 --852:     {
+                        2195 --853:         /* Command Enable */
+                        2196 --854:         Regset->Cde = YD_SFMA_SPIBSC_OUTPUT_ENABLE;
+                        2197 --line854
+                        2198 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.120::
+                        2199 .LDWlin120:
+000006aa 0172           2200 	mov	1,r14
+000006ac 0b75           2201 	sst.w	r14,20[ep]
+                        2202 --855:         Regset->Cdb = YD_SFMA_SPIBSC_1BIT;
+000006ae 0105           2203 	sst.w	zero,0[ep]
+                        2204 --856:         /* Optional-Command Disable */
+                        2205 --857:         Regset->Ocde = YD_SFMA_SPIBSC_OUTPUT_DISABLE;
+000006b0 0d05           2206 	sst.w	zero,24[ep]
+                        2207 --858:         /* Address Disable */
+                        2208 --859:         Regset->Ade  = YD_SFMA_SPIBSC_OUTPUT_DISABLE;
+000006b2 0f05           2209 	sst.w	zero,28[ep]
+                        2210 --860:         /* Option-Data Disable */
+                        2211 --861:         Regset->Opde = YD_SFMA_SPIBSC_OUTPUT_DISABLE;
+000006b4 1105           2212 	sst.w	zero,32[ep]
+                        2213 --862:         /* Dummy cycle Disable */
+                        2214 --863:         Regset->Dme  = YD_SFMA_SPIBSC_DUMMY_CYC_DISABLE;
+000006b6 1b05           2215 	sst.w	zero,52[ep]
+                        2216 --864:         /* SPI mode Enable */
+                        2217 --865:         Regset->Spide = YD_SFMA_SPIBSC_OUTPUT_DISABLE;
+000006b8 1305           2218 	sst.w	zero,36[ep]
+                        2219 --866:         Regset->Smwdr[YD_SFMA_SMWDR_DATA_0] = 0x00;
+000006ba 2905           2220 	sst.w	zero,80[ep]
+                        2221 --867:         Regset->Smwdr[YD_SFMA_SMWDR_DATA_1] = 0x00;
+000006bc 2b05           2222 	sst.w	zero,84[ep]
+                        2223 --868:         Regset->Spidb = YD_SFMA_SPIBSC_1BIT;
+000006be 0905           2224 	sst.w	zero,16[ep]
+                        2225 --869:         /* SPI mode Control */
+                        2226 --870:         Regset->Sslkp = YD_SFMA_SPIBSC_SPISSL_NEGATE;
+
+                                                                      Page 39
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+000006c0 1505           2227 	sst.w	zero,40[ep]
+                        2228 --871:         Regset->Spire = YD_SFMA_SPIBSC_SPIDATA_DISABLE;
+000006c2 1705           2229 	sst.w	zero,44[ep]
+                        2230 --872:         Regset->Spiwe = YD_SFMA_SPIBSC_SPIDATA_DISABLE;
+000006c4 1905           2231 	sst.w	zero,48[ep]
+                        2232 --873:         /* SPI mode SDR Setting */
+                        2233 --874:         Regset->Addre  = YD_SFMA_SPIBSC_SDR_TRANS;
+000006c6 1d05           2234 	sst.w	zero,56[ep]
+                        2235 --875:         Regset->Opdre  = YD_SFMA_SPIBSC_SDR_TRANS;
+000006c8 1f05           2236 	sst.w	zero,60[ep]
+                        2237 --876:         Regset->Spidre = YD_SFMA_SPIBSC_SDR_TRANS;
+000006ca 2105           2238 	sst.w	zero,64[ep]
+                        2239 .L1513:
+                        2240 --877:     }
+                        2241 --879:     return ret;
+000006cc 0150           2242 	mov	r1,r10
+                        2243 --	    .ef
+                        2244 .LDW14:
+000006ce 7f00           2245 	jmp	[lp]
+                        2246 	.type	_YD_SFMA_SpibscRegsetInit,@function
+                        2247 	.size	_YD_SFMA_SpibscRegsetInit,.-_YD_SFMA_SpibscRegsetInit
+                        2248 	.align	2
+                        2249 .LDW24:
+                        2250 --_ret	r1	local
+                        2251 
+                        2252 --_Regset	ep	param
+                        2253 
+                        2254 	.section ".bss","awb"
+                        2255 .L1566:
+                        2256 	.type	.L1566,@object
+                        2257 	.size	.L1566,0
+                        2258 	.data
+                        2259 	.text
+                        2260 
+                        2261 --880: }
+                        2262 
+                        2263 --883: /***************************************************************************
+                        2264 --884:   Function: YD_SFMA_SpibscWriteExitExtAddr
+                        2265 --886:   see: <yd_sfma_spibsc.h>
+                        2266 --887: */
+                        2267 --888: yd_sfma_Error_t YD_SFMA_SpibscWriteExitExtAddr(const uint32_t Unit,
+                        2268 	.align	2
+                        2269 	.align	2
+                        2270 	.global	_YD_SFMA_SpibscWriteExitExtAddr
+                        2271 _YD_SFMA_SpibscWriteExitExtAddr:
+000006d0 b007e110       2272 	prepare	{r27,r28,r29,r31},24
+000006d4 06d8           2273 	mov	r6,r27
+000006d6 07e0           2274 	mov	r7,r28
+                        2275 --	    .bf
+                        2276 .LDW34:
+                        2277 --889:                                              const yd_sfma_SpiConfig_t *SpiConfig)
+                        2278 --890: {
+                        2279 --891:     yd_sfma_SpibscSpimdReg_t spibsc_reg;
+                        2280 --892:     yd_sfma_Error_t          ret;
+                        2281 --894:     /* if we are in external address space we need to exit out of this mode
+                        2282 --895:        convert to single IO and send 0xFF
+                        2283 --897:        if we are not in external address space then it will not be necessary to
+                        2284 --898:        send this but no harm anyway
+                        2285 --899:     */
+                        2286 --901:     /* terminate current transfer */
+                        2287 --902:     ret = YD_SFMA_ERR_OK;
+
+                                                                      Page 40
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+000006d8 00ea           2288 	mov	0,r29
+                        2289 --904:     if (ret == YD_SFMA_ERR_OK)
+000006da e0e9           2290 	cmp	zero,r29
+000006dc da1d*          2291 	bne	.L1637
+                        2292 --905:     {
+                        2293 --906:         ret = YD_SFMA_SpibscRegsetInit(&spibsc_reg);
+                        2294 --line906
+                        2295 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.121::
+                        2296 .LDWlin121:
+000006de 23360000       2297 	movea	0,sp,r6
+                        2298 	jarl	_YD_SFMA_SpibscRegsetInit,lp
+                        2298 <EXPANSION BEGIN>
+                        2298 jarl22 _YD_SFMA_SpibscRegsetInit , lp 
+000006e2 bfffbcff*      2298 <EXPANSION END>
+000006e6 0ae8           2299 	mov	r10,r29
+                        2300 --907:         if (ret == YD_SFMA_ERR_OK)
+                        2301 --line907
+                        2302 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.122::
+                        2303 .LDWlin122:
+000006e8 e0e9           2304 	cmp	zero,r29
+000006ea ea15*          2305 	bne	.L1637
+                        2306 --908:         {
+                        2307 --909:             /* Command + the option cmd */
+                        2308 --910:             spibsc_reg.Cmd = SpiConfig->Command.ExitExtAddrSpc;
+                        2309 --line910
+                        2310 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.123::
+                        2311 .LDWlin123:
+000006ec bc0f6900       2312 	ld.bu	105[r28],r1
+000006f0 430f5a00       2313 	st.b	r1,90[sp]
+                        2314 --911:             spibsc_reg.Ocdb = YD_SFMA_SPIBSC_1BIT;
+000006f4 63070500       2315 	st.w	zero,4[sp]
+                        2316 --912:             spibsc_reg.Ocde = YD_SFMA_SPIBSC_OUTPUT_ENABLE;
+000006f8 010a           2317 	mov	1,r1
+000006fa 630f1900       2318 	st.w	r1,24[sp]
+                        2319 --913:             spibsc_reg.Ocmd = SpiConfig->Command.ExitExtAddrSpc;
+000006fe bc0f6900       2320 	ld.bu	105[r28],r1
+00000702 430f5b00       2321 	st.b	r1,91[sp]
+                        2322 --915:             spibsc_reg.Sslkp = YD_SFMA_SPIBSC_SPISSL_NEGATE;
+00000706 63072900       2323 	st.w	zero,40[sp]
+                        2324 --916:             ret = YD_SFMA_SpibscCommandTransfer(Unit, &spibsc_reg);
+0000070a 1b30           2325 	mov	r27,r6
+0000070c 233e0000       2326 	movea	0,sp,r7
+                        2327 	jarl	_YD_SFMA_SpibscCommandTransfer,lp
+                        2327 <EXPANSION BEGIN>
+                        2327 jarl22 _YD_SFMA_SpibscCommandTransfer , lp 
+00000710 80ff0000*      2327 <EXPANSION END>
+00000714 0ae8           2328 	mov	r10,r29
+                        2329 .L1637:
+                        2330 --917:         }
+                        2331 --918:     }
+                        2332 --920:     return ret;
+                        2333 --line920
+                        2334 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.124::
+                        2335 .LDWlin124:
+00000716 1d50           2336 	mov	r29,r10
+                        2337 --	    .ef
+                        2338 .LDW44:
+00000718 7006ff10       2339 	dispose	24,{r27,r28,r29,r31},[lp]
+                        2340 	.type	_YD_SFMA_SpibscWriteExitExtAddr,@function
+                        2341 	.size	_YD_SFMA_SpibscWriteExitExtAddr,.-_YD_SFMA_SpibscWriteExitExtAddr
+                        2342 	.align	2
+
+                                                                      Page 41
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        2343 .LDW54:
+                        2344 --_spibsc_reg	0[sp]	local
+                        2345 --_ret	r29	local
+                        2346 
+                        2347 --_Unit	r27	param
+                        2348 --_SpiConfig	r28	param
+                        2349 
+                        2350 	.section ".bss","awb"
+                        2351 .L1676:
+                        2352 	.type	.L1676,@object
+                        2353 	.size	.L1676,0
+                        2354 	.data
+                        2355 	.text
+                        2356 
+                        2357 --921: }
+                        2358 
+                        2359 --924: /***************************************************************************
+                        2360 --925:   Function: YD_SFMA_SpibscWriteReset
+                        2361 --927:   see: <yd_sfma_spibsc.h>
+                        2362 --928: */
+                        2363 --929: yd_sfma_Error_t YD_SFMA_SpibscWriteReset(const uint32_t Unit,
+                        2364 	.align	2
+                        2365 	.align	2
+                        2366 	.global	_YD_SFMA_SpibscWriteReset
+                        2367 _YD_SFMA_SpibscWriteReset:
+0000071c b007e110       2368 	prepare	{r27,r28,r29,r31},24
+00000720 06e0           2369 	mov	r6,r28
+00000722 07d8           2370 	mov	r7,r27
+                        2371 --	    .bf
+                        2372 .LDW64:
+                        2373 --930:                                        const yd_sfma_SpiConfig_t *SpiConfig)
+                        2374 --931: {
+                        2375 --932:     yd_sfma_SpibscSpimdReg_t spibsc_reg;
+                        2376 --933:     yd_sfma_Error_t          ret;
+                        2377 --935:     ret = YD_SFMA_ERR_OK;
+00000724 00ea           2378 	mov	0,r29
+                        2379 --936:     if (ret == YD_SFMA_ERR_OK)
+00000726 e0e9           2380 	cmp	zero,r29
+00000728 aa25*          2381 	bne	.L1720
+                        2382 --937:     {
+                        2383 --938:         ret = YD_SFMA_SpibscRegsetInit(&spibsc_reg);
+                        2384 --line938
+                        2385 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.125::
+                        2386 .LDWlin125:
+0000072a 23360000       2387 	movea	0,sp,r6
+                        2388 	jarl	_YD_SFMA_SpibscRegsetInit,lp
+                        2388 <EXPANSION BEGIN>
+                        2388 jarl22 _YD_SFMA_SpibscRegsetInit , lp 
+0000072e bfff70ff*      2388 <EXPANSION END>
+00000732 0ae8           2389 	mov	r10,r29
+                        2390 --939:         if (ret == YD_SFMA_ERR_OK)
+                        2391 --line939
+                        2392 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.126::
+                        2393 .LDWlin126:
+00000734 e0e9           2394 	cmp	zero,r29
+00000736 fa0d*          2395 	bne	.L1722
+                        2396 --940:         {
+                        2397 --941:             /* RSTEN Command */
+                        2398 --942:             spibsc_reg.Cmd = SpiConfig->Command.ResetEnable;
+                        2399 --line942
+                        2400 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.127::
+
+                                                                      Page 42
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        2401 .LDWlin127:
+00000738 9b0f6b00       2402 	ld.bu	106[r27],r1
+0000073c 430f5a00       2403 	st.b	r1,90[sp]
+                        2404 --943:             spibsc_reg.Ocdb = YD_SFMA_SPIBSC_1BIT;
+00000740 63070500       2405 	st.w	zero,4[sp]
+                        2406 --945:             spibsc_reg.Sslkp = YD_SFMA_SPIBSC_SPISSL_NEGATE;
+00000744 63072900       2407 	st.w	zero,40[sp]
+                        2408 --946:             ret = YD_SFMA_SpibscCommandTransfer(Unit, &spibsc_reg);
+00000748 1c30           2409 	mov	r28,r6
+0000074a 233e0000       2410 	movea	0,sp,r7
+                        2411 	jarl	_YD_SFMA_SpibscCommandTransfer,lp
+                        2411 <EXPANSION BEGIN>
+                        2411 jarl22 _YD_SFMA_SpibscCommandTransfer , lp 
+0000074e 80ff0000*      2411 <EXPANSION END>
+00000752 0ae8           2412 	mov	r10,r29
+                        2413 .L1722:
+                        2414 --947:         }
+                        2415 --949:         /* we need a delay of at least 10us between the two commands */
+                        2416 --950: 		/* TODO: will maybe not work without waiting but waiting fixed amount of time is also wrong */
+                        2417 --951:         /* R_TICK_WaitUS(0, 10u); */
+                        2418 --953:         if (ret == YD_SFMA_ERR_OK)
+                        2419 --line953
+                        2420 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.128::
+                        2421 .LDWlin128:
+00000754 e0e9           2422 	cmp	zero,r29
+00000756 ba0d*          2423 	bne	.L1720
+                        2424 --954:         {
+                        2425 --955:             /* RST Command */
+                        2426 --956:             spibsc_reg.Cmd = SpiConfig->Command.Reset;
+                        2427 --line956
+                        2428 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.129::
+                        2429 .LDWlin129:
+00000758 bb0f6b00       2430 	ld.bu	107[r27],r1
+0000075c 430f5a00       2431 	st.b	r1,90[sp]
+                        2432 --957:             ret = YD_SFMA_SpibscCommandTransfer(Unit, &spibsc_reg);
+00000760 1c30           2433 	mov	r28,r6
+00000762 233e0000       2434 	movea	0,sp,r7
+                        2435 	jarl	_YD_SFMA_SpibscCommandTransfer,lp
+                        2435 <EXPANSION BEGIN>
+                        2435 jarl22 _YD_SFMA_SpibscCommandTransfer , lp 
+00000766 80ff0000*      2435 <EXPANSION END>
+0000076a 0ae8           2436 	mov	r10,r29
+                        2437 .L1720:
+                        2438 --958:         }
+                        2439 --959:     }
+                        2440 --961:     return ret;
+                        2441 --line961
+                        2442 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc.130::
+                        2443 .LDWlin130:
+0000076c 1d50           2444 	mov	r29,r10
+                        2445 --	    .ef
+                        2446 .LDW74:
+0000076e 7006ff10       2447 	dispose	24,{r27,r28,r29,r31},[lp]
+                        2448 	.type	_YD_SFMA_SpibscWriteReset,@function
+                        2449 	.size	_YD_SFMA_SpibscWriteReset,.-_YD_SFMA_SpibscWriteReset
+                        2450 	.align	2
+                        2451 .LDW84:
+                        2452 --_spibsc_reg	0[sp]	local
+                        2453 --_ret	r29	local
+                        2454 
+                        2455 --_Unit	r28	param
+
+                                                                      Page 43
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000011o1.si
+                        2456 --_SpiConfig	r27	param
+                        2457 
+                        2458 	.section ".bss","awb"
+                        2459 .L1758:
+                        2460 	.type	.L1758,@object
+                        2461 	.size	.L1758,0
+                        2462 	.data
+                        2463 	.text
+                        2464 
+                        2465 --962: }
+                        2466 	.align	2
+                        2467 
+                        2468 	.data
+                        2469 	.ghsnote version,14
+                        2470 	.ghsnote tools,3
+                        2471 	.ghsnote options,144
+                        2472 	.text
+                        2473 	.align	2
+                        2474 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sfma_spibsc...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74037A..0::
+                        2475 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

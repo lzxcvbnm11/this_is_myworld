@@ -1,0 +1,3463 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                    Mentor Graphics Corporation                             */
+/*                        All rights reserved                                 */
+/*                                                                            */
+/* ************************************************************************** */
+/*                                                                            */
+/*  Description:   Network file for Volcano 7.2                               */
+/*  Project:       ZS1X                                                       */
+/*  Release:       PPV_V07                                                    */
+/*  Configuration: SGE                                                        */
+/*  Node:          Instruments                                                */
+/*                                                                            */
+/* ************************************************************************** */
+
+
+
+network_file;
+volcano version "7.20";
+
+/* Frames */
+
+/* IPK_CAN_HS */
+/* IPK_CAN_HS_Ctrl */
+
+/* Received Frames */
+signal frame AC_HSC1_FrP00 {
+	received;
+	/* identifier = 0x5F2; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: AC_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 1 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal keep_network_AC_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+		update bit 1;
+	}
+}
+signal frame AC_HSC1_FrS01 {
+	received;
+	/* identifier = 0x4B5; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* FM_Silent_HS */
+	/* Publisher: AC_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 15 ms; */
+	/* FM_Silent_HS */
+	/* period = 15 ms; */
+	frame size 1 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal wake_network_AC_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+		update bit 1;
+	}
+}
+signal frame BCM_GW_HSC1_FrP01 {
+	received;
+	/* identifier = 0x1F1; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 20 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal PwrMdMstrAccryA_H1_HS {
+		type unsigned;
+		size 1 bits;
+		offset 58 bits;
+	}
+	signal PwrMdMstrRunCrkA_H1_HS {
+		type unsigned;
+		size 1 bits;
+		offset 59 bits;
+	}
+	signal SysOpnlMd_HS {
+		type unsigned;
+		size 3 bits;
+		offset 60 bits;
+	}
+	signal SysPwrMdV_h1_HS {
+		type unsigned;
+		size 1 bits;
+		offset 25 bits;
+	}
+	signal SysPwrMd_h1_HS {
+		type unsigned;
+		size 2 bits;
+		offset 56 bits;
+	}
+	signal SysVol_HS {
+		type unsigned;
+		size 8 bits;
+		offset 16 bits;
+	}
+	signal SysVolMd_HS {
+		type unsigned;
+		size 2 bits;
+		offset 1 bits;
+	}
+	signal SysVolMdV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 63 bits;
+	}
+	signal SysVolV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 24 bits;
+	}
+}
+signal frame BCM_GW_HSC1_FrP07 {
+	received;
+	/* identifier = 0x540; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 1000 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal VehOdoV_H1_HS {
+		type unsigned;
+		size 1 bits;
+		offset 39 bits;
+	}
+	signal VehOdo_H1_HS {
+		type bytes;
+		size 3 bytes;
+		offset 40 bits;
+	}
+}
+signal frame BCM_GW_HSC1_FrP09 {
+	received;
+	/* identifier = 0x31B; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal PwrMdMstrAccryWkupA_HS {
+		type boolean;
+		size 1 bits;
+		offset 46 bits;
+	}
+	signal PwrMdMstrIgnA_HS {
+		type boolean;
+		size 1 bits;
+		offset 47 bits;
+	}
+}
+signal frame BCM_HSC1_FrP02 {
+	received;
+	/* identifier = 0x473; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 200 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal VINBCM_H1_HS {
+		type bytes;
+		size 8 bytes;
+		offset 0 bits;
+	}
+}
+signal frame BCM_HSC1_FrP03 {
+	received;
+	/* identifier = 0x47A; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 200 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal AmbtLghtLvl_H1_HS {
+		type unsigned;
+		size 2 bits;
+		offset 56 bits;
+	}
+	signal LghtSwPosSts_H1_HS {
+		type unsigned;
+		size 3 bits;
+		offset 61 bits;
+	}
+	signal OdoSecy_HS {
+		type bytes;
+		size 3 bytes;
+		offset 0 bits;
+	}
+	signal SIAOdoSecy_HS {
+		type bytes;
+		size 3 bytes;
+		offset 24 bits;
+	}
+}
+signal frame BCM_HSC1_FrP04 {
+	received;
+	/* identifier = 0x46A; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 10 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal BCMEmgcSp_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+	}
+	signal BCMPwrMdHwdSta_HS {
+		type unsigned;
+		size 2 bits;
+		offset 9 bits;
+	}
+	signal BCMPwrMdHwdStaV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 8 bits;
+	}
+	signal BCMSSBA_HS {
+		type unsigned;
+		size 1 bits;
+		offset 1 bits;
+	}
+	signal BCMSSBAV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 2 bits;
+	}
+	signal BntOpenSts_H1_HS {
+		type unsigned;
+		size 2 bits;
+		offset 20 bits;
+	}
+	signal DipdBeamLghtOn_HS {
+		type boolean;
+		size 1 bits;
+		offset 7 bits;
+	}
+	signal DrvrDoorOpenSts_H1_HS {
+		type unsigned;
+		size 2 bits;
+		offset 22 bits;
+	}
+	signal FrtFogLghtOn_H1_HS {
+		type boolean;
+		size 1 bits;
+		offset 6 bits;
+	}
+	signal FrtPsngDoorOpenSts_H1_HS {
+		type unsigned;
+		size 2 bits;
+		offset 18 bits;
+	}
+	signal LDircnIO_HS {
+		type boolean;
+		size 1 bits;
+		offset 29 bits;
+	}
+	signal LdspcOpenSts_H1_HS {
+		type unsigned;
+		size 2 bits;
+		offset 24 bits;
+	}
+	signal MainBeamLghtOn_H1_HS {
+		type boolean;
+		size 1 bits;
+		offset 28 bits;
+	}
+	signal RDircnIO_HS {
+		type boolean;
+		size 1 bits;
+		offset 30 bits;
+	}
+	signal RrFogLghtF_H1_HS {
+		type boolean;
+		size 1 bits;
+		offset 27 bits;
+	}
+	signal RrFogLghtOn_H1_HS {
+		type boolean;
+		size 1 bits;
+		offset 31 bits;
+	}
+	signal VehLckngSta_H1_HS {
+		type unsigned;
+		size 3 bits;
+		offset 13 bits;
+	}
+	signal VehSideLghtSts_H1_HS {
+		type unsigned;
+		size 2 bits;
+		offset 11 bits;
+	}
+}
+signal frame BCM_HSC1_FrP06 {
+	received;
+	/* identifier = 0x21C; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 50 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal BCMGearShftParkNtrlESR_HS {
+		type boolean;
+		size 1 bits;
+		offset 32 bits;
+	}
+	signal BCMNoSmtKeyInVehRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 53 bits;
+	}
+	signal BCMNoSmtKeyPressBrkTRR_HS {
+		type boolean;
+		size 1 bits;
+		offset 55 bits;
+	}
+	signal BCMNoSmtKeyPressClToRR_HS {
+		type boolean;
+		size 1 bits;
+		offset 54 bits;
+	}
+	signal BCMPressBrkRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 36 bits;
+	}
+	signal BCMPressClRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 35 bits;
+	}
+	signal BCMPutSmtKeyToBkupPosR_HS {
+		type boolean;
+		size 1 bits;
+		offset 52 bits;
+	}
+	signal BCMRunCrkF_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+	}
+	signal BCMShftParkRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 30 bits;
+	}
+	signal BCMSSBFltSts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 61 bits;
+	}
+	signal BCMTakeSmtKeyOutOfSR_HS {
+		type boolean;
+		size 1 bits;
+		offset 34 bits;
+	}
+	signal DayTimeRunningLghtF_HS {
+		type boolean;
+		size 1 bits;
+		offset 38 bits;
+	}
+	signal DrvrWndOpenRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 51 bits;
+	}
+	signal FrtSideLghtF_HS {
+		type boolean;
+		size 1 bits;
+		offset 12 bits;
+	}
+	signal LBrkLghtF_HS {
+		type boolean;
+		size 1 bits;
+		offset 47 bits;
+	}
+	signal LDipdBeamLghtF_HS {
+		type boolean;
+		size 1 bits;
+		offset 46 bits;
+	}
+	signal LDircnIndLghtF_H1_HS {
+		type boolean;
+		size 1 bits;
+		offset 45 bits;
+	}
+	signal PEPSAntFlt_HS {
+		type boolean;
+		size 1 bits;
+		offset 1 bits;
+	}
+	signal RBrkLghtF_HS {
+		type boolean;
+		size 1 bits;
+		offset 43 bits;
+	}
+	signal RDipdBeamLghtF_HS {
+		type boolean;
+		size 1 bits;
+		offset 42 bits;
+	}
+	signal RDircnIndLghtF_H1_HS {
+		type boolean;
+		size 1 bits;
+		offset 41 bits;
+	}
+	signal RevsLghtF_H1_HS {
+		type boolean;
+		size 1 bits;
+		offset 39 bits;
+	}
+	signal RrSideLghtF_HS {
+		type boolean;
+		size 1 bits;
+		offset 13 bits;
+	}
+	signal ScurtAlrmSts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 56 bits;
+	}
+	signal ScurtKeyBatLow_HS {
+		type boolean;
+		size 1 bits;
+		offset 59 bits;
+	}
+	signal ScurtKeyInvd_HS {
+		type boolean;
+		size 1 bits;
+		offset 27 bits;
+	}
+	signal ShifterLckRlseBrkReqA_HS {
+		type boolean;
+		size 1 bits;
+		offset 31 bits;
+	}
+	signal SrfOpenRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 48 bits;
+	}
+	signal SSBEnOffRmndr_HS {
+		type unsigned;
+		size 2 bits;
+		offset 24 bits;
+	}
+	signal TakeKeyOutRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 33 bits;
+	}
+}
+signal frame BCM_HSC1_FrP09 {
+	received;
+	/* identifier = 0x21D; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 50 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal BCMSyncSmtKeyRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 58 bits;
+	}
+	signal DrvrPWLInitnRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 59 bits;
+	}
+	signal SrfInitnRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 43 bits;
+	}
+}
+signal frame BCM_PMDC_HSC1_FrP01 {
+	received;
+	/* identifier = 0x319; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal BatVol_HS {
+		type unsigned;
+		size 14 bits;
+		offset 16 bits;
+	}
+}
+signal frame BCM_PMDC_HSC1_FrP02 {
+	received;
+	/* identifier = 0x32E; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal BatAgngSta_HS {
+		type unsigned;
+		size 3 bits;
+		offset 45 bits;
+	}
+	signal GenrSta_HS {
+		type unsigned;
+		size 3 bits;
+		offset 61 bits;
+	}
+}
+signal frame BCM_PMDC_HSC1_FrP03 {
+	received;
+	/* identifier = 0x517; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 1000 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal BatSOC_HS {
+		type unsigned;
+		size 8 bits;
+		offset 48 bits;
+	}
+	signal VehLdShedLvl_H1_HS {
+		type unsigned;
+		size 3 bits;
+		offset 45 bits;
+	}
+}
+signal frame BCM_TBOX_HSC1_FrP01 {
+	received;
+	/* identifier = 0x34D; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal EmgcCallFlrSts_HS {
+		type unsigned;
+		size 2 bits;
+		offset 40 bits;
+	}
+}
+signal frame ECM_HSC1_FrP00 {
+	received;
+	/* identifier = 0x0C9; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ECM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 10 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal CCA_HS {
+		type boolean;
+		size 1 bits;
+		offset 38 bits;
+	}
+	signal CCEnbd_HS {
+		type boolean;
+		size 1 bits;
+		offset 37 bits;
+	}
+	signal En12VoltStrMotCmddOn_HS {
+		type boolean;
+		size 1 bits;
+		offset 13 bits;
+	}
+	signal EnRunA_HS {
+		type boolean;
+		size 1 bits;
+		offset 63 bits;
+	}
+	signal EnSpd_HS {
+		type unsigned;
+		size 16 bits;
+		offset 40 bits;
+	}
+	signal EnSpdSts_HS {
+		type unsigned;
+		size 2 bits;
+		offset 56 bits;
+	}
+}
+signal frame ECM_HSC1_FrP04 {
+	received;
+	/* identifier = 0x194; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ECM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 25 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal DrvrShftCtrlTrgtGear_HS {
+		type unsigned;
+		size 4 bits;
+		offset 40 bits;
+	}
+	signal TrShftLvrPos_HS {
+		type unsigned;
+		size 4 bits;
+		offset 32 bits;
+	}
+	signal TrShftLvrPosV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 36 bits;
+	}
+	signal TrShftPtrnASts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 18 bits;
+	}
+	signal TrTapUpTapDwnMdSts_HS {
+		type unsigned;
+		size 2 bits;
+		offset 16 bits;
+	}
+}
+signal frame ECM_HSC1_FrP07 {
+	received;
+	/* identifier = 0x1DF; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ECM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 25 ms; */
+	/* offset = 0 ms; */
+	frame size 2 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal EnASSSta_HS {
+		type unsigned;
+		size 2 bits;
+		offset 8 bits;
+	}
+}
+signal frame ECM_HSC1_FrP09 {
+	received;
+	/* identifier = 0x2C3; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ECM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 50 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal EcoDrvngAIO_HS {
+		type boolean;
+		size 1 bits;
+		offset 47 bits;
+	}
+	signal EcoDrvngDspStsGearSIS_HS {
+		type unsigned;
+		size 2 bits;
+		offset 61 bits;
+	}
+	signal EcoDrvngDspStsRcmndFG_HS {
+		type unsigned;
+		size 4 bits;
+		offset 12 bits;
+	}
+	signal ECODrvngSpdRutA_HS {
+		type boolean;
+		size 1 bits;
+		offset 45 bits;
+	}
+}
+signal frame ECM_HSC1_FrP10 {
+	received;
+	/* identifier = 0x3B1; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ECM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal ASSInhBtnLampOn_HS {
+		type boolean;
+		size 1 bits;
+		offset 56 bits;
+	}
+	signal ASSInhIO_HS {
+		type boolean;
+		size 1 bits;
+		offset 53 bits;
+	}
+	signal ASSStsLampOn_HS {
+		type boolean;
+		size 1 bits;
+		offset 57 bits;
+	}
+	signal ASSWrnngLampOn_HS {
+		type boolean;
+		size 1 bits;
+		offset 58 bits;
+	}
+	signal CCFltPrst_HS {
+		type boolean;
+		size 1 bits;
+		offset 54 bits;
+	}
+	signal ECMClsDoorToAutoStR_HS {
+		type boolean;
+		size 1 bits;
+		offset 61 bits;
+	}
+	signal ECMFasnSbltToAutoStR_HS {
+		type boolean;
+		size 1 bits;
+		offset 60 bits;
+	}
+	signal ECMPressClBrkRmndr_HS {
+		type unsigned;
+		size 2 bits;
+		offset 62 bits;
+	}
+	signal ECMShftNtrlToAutoStR_HS {
+		type boolean;
+		size 1 bits;
+		offset 55 bits;
+	}
+}
+signal frame ECM_HSC1_FrP12 {
+	received;
+	/* identifier = 0x3D1; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ECM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal CrusAndSpdLmtrDrvrSS_HS {
+		type unsigned;
+		size 12 bits;
+		offset 32 bits;
+	}
+	signal EnEmsnRltdMalfA_HS {
+		type boolean;
+		size 1 bits;
+		offset 60 bits;
+	}
+	signal EnEmsnRltdMalfIndReq_HS {
+		type unsigned;
+		size 3 bits;
+		offset 56 bits;
+	}
+	signal EnNonEmsnRltdMalfA_HS {
+		type boolean;
+		size 1 bits;
+		offset 59 bits;
+	}
+	signal FuelCsump_HS {
+		type unsigned;
+		size 12 bits;
+		offset 16 bits;
+	}
+}
+signal frame ECM_HSC1_FrP14 {
+	received;
+	/* identifier = 0x4C1; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ECM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 500 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal EnClntTem_HS {
+		type unsigned;
+		size 8 bits;
+		offset 40 bits;
+	}
+	signal EnClntTemV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 62 bits;
+	}
+}
+signal frame ECM_HSC1_FrP15 {
+	received;
+	/* identifier = 0x4D1; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ECM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 500 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal EnOilPrsLowIO_HS {
+		type boolean;
+		size 1 bits;
+		offset 61 bits;
+	}
+}
+signal frame ECM_HSC1_FrP27 {
+	received;
+	/* identifier = 0x0FB; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ECM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 10 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal SpdAstSysStsECM_HS {
+		type unsigned;
+		size 3 bits;
+		offset 40 bits;
+	}
+	signal SpdAstSysTrgtSpd_HS {
+		type unsigned;
+		size 15 bits;
+		offset 24 bits;
+	}
+}
+signal frame EPB_HSC2_FrP00 {
+	received;
+	/* identifier = 0x230; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: EPB_HSC */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 20 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal EPBSysAudWrnngReq_HS {
+		type unsigned;
+		size 2 bits;
+		offset 50 bits;
+	}
+	signal EPBSysDspMsgReq_HS {
+		type unsigned;
+		size 3 bits;
+		offset 58 bits;
+	}
+	signal EPBSysStsIndReq_HS {
+		type unsigned;
+		size 2 bits;
+		offset 40 bits;
+	}
+	signal EPBSysWrnngIndReq_HS {
+		type unsigned;
+		size 2 bits;
+		offset 56 bits;
+	}
+}
+signal frame EPS_HSC1_FrP00 {
+	received;
+	/* identifier = 0x148; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: EPS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 1000 ms; */
+	/* offset = 0 ms; */
+	frame size 1 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal EPSFlrSts_HS {
+		type unsigned;
+		size 2 bits;
+		offset 6 bits;
+	}
+}
+signal frame ESCL_HSC1_FrP00 {
+	received;
+	/* identifier = 0x42F; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ESCL_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 1 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal keep_network_ESCL_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+		update bit 1;
+	}
+}
+signal frame ESCL_HSC1_FrP01 {
+	received;
+	/* identifier = 0x467; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: ESCL_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 50 ms; */
+	/* offset = 0 ms; */
+	frame size 4 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal ESCLFlrIndCmd_HS {
+		type unsigned;
+		size 2 bits;
+		offset 0 bits;
+	}
+}
+signal frame ESCL_HSC1_FrS04 {
+	received;
+	/* identifier = 0x423; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* FM_Silent_HS */
+	/* Publisher: ESCL_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Silent_HS */
+	/* period = 15 ms; */
+	frame size 1 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal wake_network_ESCL_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+		update bit 1;
+	}
+}
+signal frame FICM_HSC1_FrP00 {
+	received;
+	/* identifier = 0x450; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: FICM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 1 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal keep_network_FICM_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+		update bit 1;
+	}
+}
+signal frame FICM_HSC1_FrP01 {
+	received;
+	/* identifier = 0x36B; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: FICM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal ChmA_HS {
+		type boolean;
+		size 1 bits;
+		offset 50 bits;
+	}
+	signal FICMTemUntAdj_HS {
+		type unsigned;
+		size 2 bits;
+		offset 48 bits;
+	}
+}
+signal frame FICM_HSC1_FrP02 {
+	received;
+	/* identifier = 0x376; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: FICM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal FICMDistUnitAdjtReqA_HS {
+		type boolean;
+		size 1 bits;
+		offset 6 bits;
+	}
+}
+signal frame FICM_HSC1_FrP05 {
+	received;
+	/* identifier = 0x50B; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: FICM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 500 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal CalendarAdjReqA_HS {
+		type boolean;
+		size 1 bits;
+		offset 31 bits;
+	}
+	signal CalendarDayAdj_HS {
+		type unsigned;
+		size 5 bits;
+		offset 40 bits;
+	}
+	signal CalendarMonthAdj_HS {
+		type unsigned;
+		size 4 bits;
+		offset 48 bits;
+	}
+	signal CalendarYearAdj_HS {
+		type unsigned;
+		size 8 bits;
+		offset 56 bits;
+	}
+	signal HourOfDayAdj_HS {
+		type unsigned;
+		size 5 bits;
+		offset 32 bits;
+	}
+	signal MinuteOfHourAdj_HS {
+		type unsigned;
+		size 6 bits;
+		offset 24 bits;
+	}
+	signal SecsOfMinuteAdj_HS {
+		type unsigned;
+		size 6 bits;
+		offset 16 bits;
+	}
+	signal TimeAdjReqA_HS {
+		type boolean;
+		size 1 bits;
+		offset 30 bits;
+	}
+	signal TimeDspFmtAdj_HS {
+		type unsigned;
+		size 1 bits;
+		offset 22 bits;
+	}
+}
+signal frame FICM_HSC1_FrP12 {
+	received;
+	/* identifier = 0x367; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: FICM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal FICMFuelCsumpUntAdj_HS {
+		type unsigned;
+		size 2 bits;
+		offset 4 bits;
+	}
+	signal FICMFuelCsumpUntAdjARA_HS {
+		type boolean;
+		size 1 bits;
+		offset 6 bits;
+	}
+	signal FICMOverSpdFnCrntSts_HS {
+		type unsigned;
+		size 1 bits;
+		offset 26 bits;
+	}
+	signal FICMOvrSpdThrshldAdj_HS {
+		type unsigned;
+		size 6 bits;
+		offset 8 bits;
+	}
+	signal FICMOvrSpdThrshldAdjtRA_HS {
+		type boolean;
+		size 1 bits;
+		offset 7 bits;
+	}
+	signal FICMTemUntAdjtReqA_HS {
+		type boolean;
+		size 1 bits;
+		offset 39 bits;
+	}
+	signal FICMTyrePressureUntAdjtReqA_HS {
+		type boolean;
+		size 1 bits;
+		offset 15 bits;
+	}
+	signal FICMVehMntnceSts_HS {
+		type unsigned;
+		size 2 bits;
+		offset 27 bits;
+	}
+	signal MusSrcMd_HS {
+		type unsigned;
+		size 4 bits;
+		offset 40 bits;
+	}
+	signal RdoFrqcVal_HS {
+		type unsigned;
+		size 16 bits;
+		offset 48 bits;
+	}
+}
+signal frame FICM_HSC1_FrP14 {
+	received;
+	/* identifier = 0x37D; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: FICM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal NavDircn_HS {
+		type unsigned;
+		size 6 bits;
+		offset 42 bits;
+	}
+	signal NavDist_HS {
+		type unsigned;
+		size 15 bits;
+		offset 49 bits;
+	}
+	signal NavDistUnit_HS {
+		type unsigned;
+		size 1 bits;
+		offset 48 bits;
+	}
+}
+signal frame FICM_HSC1_FrS00 {
+	received;
+	/* identifier = 0x447; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* FM_Silent_HS */
+	/* Publisher: FICM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 15 ms; */
+	/* FM_Silent_HS */
+	/* period = 15 ms; */
+	frame size 1 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal wake_network_FICM_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+		update bit 1;
+	}
+}
+signal frame SAS_HSC1_FrP00 {
+	received;
+	/* identifier = 0x1E5; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: EPS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 10 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal StrgWhlAngSnsrCalSts_HS {
+		type unsigned;
+		size 2 bits;
+		offset 61 bits;
+	}
+	signal StrgWhlAngSnsrFlt_HS {
+		type boolean;
+		size 1 bits;
+		offset 56 bits;
+	}
+}
+signal frame SCS_HSC1_FrP03 {
+	received;
+	/* identifier = 0x1C7; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: SCS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 10 ms; */
+	/* offset = 0 ms; */
+	frame size 7 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal AutoHoldSysSts_HS {
+		type unsigned;
+		size 2 bits;
+		offset 54 bits;
+	}
+}
+signal frame SCS_HSC1_FrP06 {
+	received;
+	/* identifier = 0x232; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: SCS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 10 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal HDCSysSts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 13 bits;
+	}
+}
+signal frame SCS_HSC1_FrP09 {
+	received;
+	/* identifier = 0x214; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: SCS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 50 ms; */
+	/* offset = 0 ms; */
+	frame size 6 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal BrkFludLvlLow_HS {
+		type boolean;
+		size 1 bits;
+		offset 46 bits;
+	}
+	signal BrkFludLvlLowV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 47 bits;
+	}
+}
+signal frame SCS_HSC1_FrP11 {
+	received;
+	/* identifier = 0x348; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: SCS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 50 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal WhlGndVelLDrvn_HS {
+		type unsigned;
+		size 14 bits;
+		offset 48 bits;
+	}
+	signal WhlGndVelLDrvnV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 62 bits;
+	}
+	signal WhlGndVelRDrvn_HS {
+		type unsigned;
+		size 14 bits;
+		offset 32 bits;
+	}
+	signal WhlGndVelRDrvnV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 46 bits;
+	}
+}
+signal frame SCS_HSC1_FrP12 {
+	received;
+	/* identifier = 0x34A; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: SCS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 50 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal WhlGndVelLNonDrvn_HS {
+		type unsigned;
+		size 14 bits;
+		offset 48 bits;
+	}
+	signal WhlGndVelLNonDrvnV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 62 bits;
+	}
+	signal WhlGndVelRNonDrvn_HS {
+		type unsigned;
+		size 14 bits;
+		offset 32 bits;
+	}
+	signal WhlGndVelRNonDrvnV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 46 bits;
+	}
+}
+signal frame SCS_HSC1_FrP13 {
+	received;
+	/* identifier = 0x17D; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: SCS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 7 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal ABSIO_HS {
+		type boolean;
+		size 1 bits;
+		offset 44 bits;
+	}
+	signal BrkSysRedBrkTlltReq_HS {
+		type boolean;
+		size 1 bits;
+		offset 35 bits;
+	}
+	signal TCSOpngMd_HS {
+		type unsigned;
+		size 3 bits;
+		offset 53 bits;
+	}
+	signal TCSOpngSts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 20 bits;
+	}
+	signal VSEMd_HS {
+		type unsigned;
+		size 3 bits;
+		offset 45 bits;
+	}
+	signal VSESts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 50 bits;
+	}
+}
+signal frame SCS_HSC1_FrP14 {
+	received;
+	/* identifier = 0x345; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: SCS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal AutoHoldMsg_HS {
+		type unsigned;
+		size 3 bits;
+		offset 53 bits;
+	}
+}
+signal frame SCS_HSC1_FrP15 {
+	received;
+	/* identifier = 0x353; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: SCS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal DistRCAvgDrvn_HS {
+		type unsigned;
+		size 13 bits;
+		offset 32 bits;
+	}
+	signal DistRCAvgDrvnV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 46 bits;
+	}
+	signal VehSpdAvgDrvn_HS {
+		type unsigned;
+		size 15 bits;
+		offset 48 bits;
+	}
+	signal VehSpdAvgDrvnV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 63 bits;
+	}
+}
+signal frame SDM_HSC1_FrP00 {
+	received;
+	/* identifier = 0x163; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: SDM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 20 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal AirbagSysFltIndCmd_HS {
+		type unsigned;
+		size 2 bits;
+		offset 54 bits;
+	}
+	signal FasnDrvrSbltIndCmd_HS {
+		type unsigned;
+		size 2 bits;
+		offset 62 bits;
+	}
+	signal FasnFrtPsngSbltIndCmd_HS {
+		type unsigned;
+		size 2 bits;
+		offset 60 bits;
+	}
+	signal FasnSbltAudRmndr_HS {
+		type boolean;
+		size 1 bits;
+		offset 37 bits;
+	}
+}
+signal frame TCM_HSC1_FrP09 {
+	received;
+	/* identifier = 0x4C9; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: TCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 500 ms; */
+	/* offset = 0 ms; */
+	frame size 7 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal TrNonEmsnRltdMalfA_HS {
+		type boolean;
+		size 1 bits;
+		offset 52 bits;
+	}
+}
+signal frame TPMS_HSC1_FrP00 {
+	received;
+	/* identifier = 0x430; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: TPMS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 1 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal keep_network_TPMS_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+		update bit 1;
+	}
+}
+signal frame TPMS_HSC1_FrP01 {
+	received;
+	/* identifier = 0x47D; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: TPMS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 400 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal FLTirePrs_HS {
+		type unsigned;
+		size 7 bits;
+		offset 0 bits;
+	}
+	signal FLTirePrsV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 7 bits;
+	}
+	signal FLTireTem_HS {
+		type unsigned;
+		size 7 bits;
+		offset 8 bits;
+	}
+	signal FLTireTemV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 15 bits;
+	}
+	signal FRTirePrs_HS {
+		type unsigned;
+		size 7 bits;
+		offset 16 bits;
+	}
+	signal FRTirePrsV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 23 bits;
+	}
+	signal FRTireTem_HS {
+		type unsigned;
+		size 7 bits;
+		offset 24 bits;
+	}
+	signal FRTireTemV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 31 bits;
+	}
+	signal RLTirePrs_HS {
+		type unsigned;
+		size 7 bits;
+		offset 32 bits;
+	}
+	signal RLTirePrsV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 39 bits;
+	}
+	signal RLTireTem_HS {
+		type unsigned;
+		size 7 bits;
+		offset 40 bits;
+	}
+	signal RLTireTemV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 47 bits;
+	}
+	signal RRTirePrs_HS {
+		type unsigned;
+		size 7 bits;
+		offset 48 bits;
+	}
+	signal RRTirePrsV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 55 bits;
+	}
+	signal RRTireTem_HS {
+		type unsigned;
+		size 7 bits;
+		offset 56 bits;
+	}
+	signal RRTireTemV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 63 bits;
+	}
+}
+signal frame TPMS_HSC1_FrP02 {
+	received;
+	/* identifier = 0x47E; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* Publisher: TPMS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 400 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal FLTireSts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 61 bits;
+	}
+	signal FRTireSts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 58 bits;
+	}
+	signal RLTireSts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 53 bits;
+	}
+	signal RRTireSts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 50 bits;
+	}
+	signal TPMSAutoLoctnCm_HS {
+		type boolean;
+		size 1 bits;
+		offset 57 bits;
+	}
+	signal TPMSF_HS {
+		type boolean;
+		size 1 bits;
+		offset 56 bits;
+	}
+	signal TPMSIdficnLrnCm_HS {
+		type boolean;
+		size 1 bits;
+		offset 49 bits;
+	}
+	signal TPMSTirePrsLowIO_HS {
+		type boolean;
+		size 1 bits;
+		offset 48 bits;
+	}
+	signal TPMSWntrMdA_HS {
+		type boolean;
+		size 1 bits;
+		offset 47 bits;
+	}
+}
+signal frame TPMS_HSC1_FrS00 {
+	received;
+	/* identifier = 0x424; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* FM_Silent_HS */
+	/* Publisher: TPMS_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* period = 10 ms; */
+	frame size 1 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal wake_network_TPMS_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+		update bit 1;
+	}
+}
+
+/* Transmitted Frames */
+signal frame DIAG_DTCInfo_IPK {
+	sporadic transmit;
+	/* identifier = 0x7B8; */
+	/* FM_Normal_HS */
+	/* period = 995 ms; */
+	frame size 7 bytes;
+	endianness big;
+	signal DTCInfomationIPK_HS {
+		type bytes;
+		size 7 bytes;
+		offset 0 bits;
+	}
+}
+signal frame IPK_BCM_HSC1_FrP05 {
+	periodic transmit;
+	/* identifier = 0x0D9; */
+	/* FM_Normal_HS */
+	/* period = 10 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal ASSInhBtnA_HS {
+		type boolean;
+		size 1 bits;
+		offset 17 bits;
+	}
+}
+signal frame IPK_BCM_HSC1_FrP07 {
+	periodic transmit;
+	/* identifier = 0x1F2; */
+	/* FM_Normal_HS */
+	/* period = 20 ms; */
+	/* offset = 0 ms; */
+	frame size 2 bytes;
+	endianness big;
+	signal SysBPM_HS {
+		type unsigned;
+		size 2 bits;
+		offset 12 bits;
+	}
+	signal SysBPMEnbd_HS {
+		type boolean;
+		size 1 bits;
+		offset 14 bits;
+	}
+}
+signal frame IPK_GW_HSC1_FrP03 {
+	periodic transmit;
+	/* identifier = 0x1F3; */
+	/* FM_Normal_HS */
+	/* period = 30 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal PfTrTapUpDwnEnbSwSta_HS {
+		type unsigned;
+		size 2 bits;
+		offset 52 bits;
+	}
+	signal PfTrTapUpDwnSecySwSta_HS {
+		type unsigned;
+		size 2 bits;
+		offset 48 bits;
+	}
+	signal PfTrTapUpDwnSwSta_HS {
+		type unsigned;
+		size 2 bits;
+		offset 50 bits;
+	}
+	signal PfTrTapUpDwnSwStsAlvRC_HS {
+		type unsigned;
+		size 2 bits;
+		offset 54 bits;
+	}
+	signal TrPfShftPtrnSw1A_HS {
+		type boolean;
+		size 1 bits;
+		offset 61 bits;
+	}
+	signal TrPfShftPtrnSw4A_HS {
+		type boolean;
+		size 1 bits;
+		offset 58 bits;
+	}
+	signal TrPfShftPtrnSwAlvRC_HS {
+		type unsigned;
+		size 2 bits;
+		offset 62 bits;
+	}
+}
+signal frame IPK_GW_HSC1_FrP04 {
+	periodic transmit;
+	/* identifier = 0x1E1; */
+	/* FM_Normal_HS */
+	/* period = 30 ms; */
+	/* offset = 0 ms; */
+	frame size 7 bytes;
+	endianness big;
+	signal CCSwStsAlvRC_HS {
+		type unsigned;
+		size 2 bits;
+		offset 32 bits;
+	}
+	signal CCSwStsCanclSwA_HS {
+		type boolean;
+		size 1 bits;
+		offset 55 bits;
+	}
+	signal CCSwStsDisDecSwA_HS {
+		type boolean;
+		size 1 bits;
+		offset 34 bits;
+	}
+	signal CCSwStsDistIncSwA_HS {
+		type boolean;
+		size 1 bits;
+		offset 35 bits;
+	}
+	signal CCSwStsOnSwA_HS {
+		type boolean;
+		size 1 bits;
+		offset 54 bits;
+	}
+	signal CCSwStsPV_HS {
+		type unsigned;
+		size 8 bits;
+		offset 40 bits;
+	}
+	signal CCSwStsRsmSwA_HS {
+		type boolean;
+		size 1 bits;
+		offset 53 bits;
+	}
+	signal CCSwStsSetSwA_HS {
+		type boolean;
+		size 1 bits;
+		offset 52 bits;
+	}
+	signal CCSwStsSpdDecSwA_HS {
+		type boolean;
+		size 1 bits;
+		offset 50 bits;
+	}
+	signal CCSwStsSpdIncSwA_HS {
+		type boolean;
+		size 1 bits;
+		offset 51 bits;
+	}
+	signal CCSwStsSwDataIntgty_HS {
+		type unsigned;
+		size 2 bits;
+		offset 48 bits;
+	}
+}
+signal frame IPK_HSC1_FrP00 {
+	periodic transmit;
+	/* identifier = 0x5F3; */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 1 bytes;
+	endianness big;
+	signal keep_network_IPK_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+		update bit 1;
+	}
+}
+signal frame IPK_HSC1_FrP01 {
+	periodic transmit;
+	/* identifier = 0x476; */
+	/* FM_Normal_HS */
+	/* period = 200 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal VINClstr_HS {
+		type bytes;
+		size 8 bytes;
+		offset 0 bits;
+	}
+}
+signal frame IPK_HSC1_FrP03 {
+	periodic transmit;
+	/* identifier = 0x416; */
+	/* FM_Normal_HS */
+	/* period = 200 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal AirbagWrnngIndF_HS {
+		type boolean;
+		size 1 bits;
+		offset 8 bits;
+	}
+	signal Clstr10KmTick_HS {
+		type boolean;
+		size 1 bits;
+		offset 39 bits;
+	}
+	signal DspMeasSys_HS {
+		type unsigned;
+		size 1 bits;
+		offset 37 bits;
+	}
+	signal FuelLvlPcnt_HS {
+		type unsigned;
+		size 8 bits;
+		offset 16 bits;
+	}
+	signal FuelLvlPcntV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 36 bits;
+	}
+	signal FuelTotCapct_HS {
+		type unsigned;
+		size 12 bits;
+		offset 24 bits;
+	}
+}
+signal frame IPK_HSC1_FrP04 {
+	periodic transmit;
+	/* identifier = 0x35A; */
+	/* FM_Normal_HS */
+	/* period = 10 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal AvgFuelCsump_HS {
+		type unsigned;
+		size 8 bits;
+		offset 0 bits;
+	}
+	signal AvgFuelCsumpV_HS {
+		type unsigned;
+		size 1 bits;
+		offset 32 bits;
+	}
+	signal ChmCmdSndCndcPrd_HS {
+		type unsigned;
+		size 8 bits;
+		offset 56 bits;
+	}
+	signal ChmCmdSndDutyCyc_HS {
+		type unsigned;
+		size 8 bits;
+		offset 48 bits;
+	}
+	signal ChmCmdSndLoctnFL_HS {
+		type boolean;
+		size 1 bits;
+		offset 40 bits;
+	}
+	signal ChmCmdSndLoctnFR_HS {
+		type boolean;
+		size 1 bits;
+		offset 41 bits;
+	}
+	signal ChmCmdSndLoctnRL_HS {
+		type boolean;
+		size 1 bits;
+		offset 42 bits;
+	}
+	signal ChmCmdSndLoctnRR_HS {
+		type boolean;
+		size 1 bits;
+		offset 43 bits;
+	}
+	signal ChmCmdSndTone_HS {
+		type unsigned;
+		size 4 bits;
+		offset 44 bits;
+	}
+	signal ClstrDspdVehSpd_HS {
+		type unsigned;
+		size 8 bits;
+		offset 16 bits;
+	}
+	signal IPCAccryA_HS {
+		type boolean;
+		size 1 bits;
+		offset 8 bits;
+	}
+	signal IPCRunCrkA_HS {
+		type boolean;
+		size 1 bits;
+		offset 9 bits;
+	}
+	signal IPCRunCrkF_HS {
+		type boolean;
+		size 1 bits;
+		offset 10 bits;
+	}
+	signal IPCSSBA_HS {
+		type boolean;
+		size 1 bits;
+		offset 11 bits;
+	}
+	signal IPCSSBAV_HS {
+		type boolean;
+		size 1 bits;
+		offset 12 bits;
+	}
+	signal IPCSSBFltSts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 13 bits;
+	}
+	signal LanggSetng_HS {
+		type unsigned;
+		size 7 bits;
+		offset 33 bits;
+	}
+}
+signal frame IPK_HSC1_FrP05 {
+	periodic transmit;
+	/* identifier = 0x46E; */
+	/* FM_Normal_HS */
+	/* period = 200 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal OdoPriy_HS {
+		type bytes;
+		size 3 bytes;
+		offset 24 bits;
+	}
+	signal SIAOdoPriy_HS {
+		type bytes;
+		size 3 bytes;
+		offset 0 bits;
+	}
+}
+signal frame IPK_HSC1_FrP06 {
+	periodic transmit;
+	/* identifier = 0x541; */
+	/* FM_Normal_HS */
+	/* period = 200 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal CalendarDay_HS {
+		type unsigned;
+		size 5 bits;
+		offset 40 bits;
+	}
+	signal CalendarMonth_HS {
+		type unsigned;
+		size 4 bits;
+		offset 48 bits;
+	}
+	signal CalendarYear_HS {
+		type unsigned;
+		size 8 bits;
+		offset 56 bits;
+	}
+	signal HourOfDay_HS {
+		type unsigned;
+		size 5 bits;
+		offset 32 bits;
+	}
+	signal MinuteOfHour_HS {
+		type unsigned;
+		size 6 bits;
+		offset 24 bits;
+	}
+	signal SecsOfMinute_HS {
+		type unsigned;
+		size 6 bits;
+		offset 16 bits;
+	}
+	signal TimeDspFmt_HS {
+		type unsigned;
+		size 1 bits;
+		offset 22 bits;
+	}
+}
+signal frame IPK_HSC1_FrP07 {
+	periodic transmit;
+	/* identifier = 0x463; */
+	/* FM_Normal_HS */
+	/* period = 10 ms; */
+	/* offset = 0 ms; */
+	frame size 4 bytes;
+	endianness big;
+	signal IPCEcoDrvngSwA_HS {
+		type boolean;
+		size 1 bits;
+		offset 2 bits;
+	}
+}
+signal frame IPK_HSC1_FrP08 {
+	periodic transmit;
+	/* identifier = 0x36A; */
+	/* FM_Normal_HS */
+	/* period = 100 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal ClstrDistUnt_HS {
+		type unsigned;
+		size 1 bits;
+		offset 31 bits;
+	}
+	signal ClstrFuelCsumpUnt_HS {
+		type unsigned;
+		size 2 bits;
+		offset 16 bits;
+	}
+	signal ClstrTemUnt_HS {
+		type unsigned;
+		size 2 bits;
+		offset 26 bits;
+	}
+	signal ClstrTyrePressureUnt_HS {
+		type unsigned;
+		size 2 bits;
+		offset 12 bits;
+	}
+	signal RmnDrvngDist_HS {
+		type unsigned;
+		size 12 bits;
+		offset 0 bits;
+	}
+}
+signal frame IPK_HSC1_FrP09 {
+	periodic transmit;
+	/* identifier = 0x417; */
+	/* FM_Normal_HS */
+	/* period = 200 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal ClstrDspdABSWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 17 bits;
+	}
+	signal ClstrDspdAirbagWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 35 bits;
+	}
+	signal ClstrDspdAltrWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 28 bits;
+	}
+	signal ClstrDspdASpdLmtrWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 32 bits;
+	}
+	signal ClstrDspdBrkSysWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 19 bits;
+	}
+	signal ClstrDspdCCWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 51 bits;
+	}
+	signal ClstrDspdClntTemWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 18 bits;
+	}
+	signal ClstrDspdEnDrvByWireW_HS {
+		type unsigned;
+		size 1 bits;
+		offset 49 bits;
+	}
+	signal ClstrDspdEPSWrnng_HS {
+		type unsigned;
+		size 2 bits;
+		offset 0 bits;
+	}
+	signal ClstrDspdFuelLvlSgmt_HS {
+		type unsigned;
+		size 4 bits;
+		offset 4 bits;
+	}
+	signal ClstrDspdFuelSnsrWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 23 bits;
+	}
+	signal ClstrDspdFuelSts_HS {
+		type unsigned;
+		size 2 bits;
+		offset 21 bits;
+	}
+	signal ClstrDspdInfoMsk_HS {
+		type unsigned;
+		size 1 bits;
+		offset 47 bits;
+	}
+	signal ClstrDspdInvdKeyWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 36 bits;
+	}
+	signal ClstrDspdMalfIndrLghtW_HS {
+		type unsigned;
+		size 1 bits;
+		offset 48 bits;
+	}
+	signal ClstrDspdOilPrsLowW_HS {
+		type unsigned;
+		size 1 bits;
+		offset 29 bits;
+	}
+	signal ClstrDspdPDCWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 44 bits;
+	}
+	signal ClstrDspdSASUncalWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 34 bits;
+	}
+	signal ClstrDspdSASWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 33 bits;
+	}
+	signal ClstrDspdSCSWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 15 bits;
+	}
+	signal ClstrDspdScurtKeyBatLW_HS {
+		type unsigned;
+		size 1 bits;
+		offset 37 bits;
+	}
+	signal ClstrDspdSpStWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 24 bits;
+	}
+	signal ClstrDspdTCSWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 16 bits;
+	}
+	signal ClstrDspdTrWrnng_HS {
+		type unsigned;
+		size 1 bits;
+		offset 46 bits;
+	}
+	signal ClstrDspdTyrePrsSts_HS {
+		type unsigned;
+		size 2 bits;
+		offset 26 bits;
+	}
+}
+signal frame IPK_HSC1_FrP10 {
+	periodic transmit;
+	/* identifier = 0x478; */
+	/* FM_Normal_HS */
+	/* period = 200 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal ClstrDspdFLTirePrs_HS {
+		type unsigned;
+		size 7 bits;
+		offset 25 bits;
+	}
+	signal ClstrDspdFLTireSts_HS {
+		type unsigned;
+		size 1 bits;
+		offset 24 bits;
+	}
+	signal ClstrDspdFRTirePrs_HS {
+		type unsigned;
+		size 7 bits;
+		offset 17 bits;
+	}
+	signal ClstrDspdFRTireSts_HS {
+		type unsigned;
+		size 1 bits;
+		offset 16 bits;
+	}
+	signal ClstrDspdRLTirePrs_HS {
+		type unsigned;
+		size 7 bits;
+		offset 9 bits;
+	}
+	signal ClstrDspdRLTireSts_HS {
+		type unsigned;
+		size 1 bits;
+		offset 8 bits;
+	}
+	signal ClstrDspdRRTirePrs_HS {
+		type unsigned;
+		size 7 bits;
+		offset 1 bits;
+	}
+	signal ClstrDspdRRTireSts_HS {
+		type unsigned;
+		size 1 bits;
+		offset 0 bits;
+	}
+	signal StabCtrlDsblSwA_HS {
+		type boolean;
+		size 1 bits;
+		offset 34 bits;
+	}
+}
+signal frame IPK_HSC1_FS00 {
+	sporadic transmit;
+	/* identifier = 0x5FB; */
+	/* FM_Normal_HS */
+	/* period = 15 ms; */
+	/* FM_Silent_HS */
+	/* period = 15 ms; */
+	frame size 1 bytes;
+	endianness big;
+	signal wake_network_IPK_HS {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+		update bit 1;
+	}
+}
+signal frame IPK_PDC_HSC1_FrP00 {
+	periodic transmit;
+	/* identifier = 0x23D; */
+	/* FM_Normal_HS */
+	/* period = 50 ms; */
+	/* offset = 0 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal FLObsRng_HS {
+		type unsigned;
+		size 4 bits;
+		offset 20 bits;
+	}
+	signal FRObsRng_HS {
+		type unsigned;
+		size 4 bits;
+		offset 24 bits;
+	}
+	signal FrtMidLObsRng_HS {
+		type unsigned;
+		size 4 bits;
+		offset 36 bits;
+	}
+	signal FrtMidRObsRng_HS {
+		type unsigned;
+		size 4 bits;
+		offset 40 bits;
+	}
+	signal FrtObsDist_HS {
+		type unsigned;
+		size 8 bits;
+		offset 8 bits;
+	}
+	signal PDCCofignSts_HS {
+		type unsigned;
+		size 3 bits;
+		offset 16 bits;
+	}
+	signal PDCSysSts_HS {
+		type unsigned;
+		size 4 bits;
+		offset 60 bits;
+	}
+	signal RLObsRng_HS {
+		type unsigned;
+		size 4 bits;
+		offset 28 bits;
+	}
+	signal RrMidLObsRng_HS {
+		type unsigned;
+		size 4 bits;
+		offset 44 bits;
+	}
+	signal RrMidRObsRng_HS {
+		type unsigned;
+		size 4 bits;
+		offset 48 bits;
+	}
+	signal RrObsDist_HS {
+		type unsigned;
+		size 8 bits;
+		offset 0 bits;
+	}
+	signal RRObsRng_HS {
+		type unsigned;
+		size 4 bits;
+		offset 32 bits;
+	}
+}
+
+/* IPK_LIN3 */
+/* IPK_LIN3_Ctrl */
+
+/* Received Frames */
+signal frame PDC_LIN3_FrP00 {
+	received;
+	/* identifier = 0x1B; */
+	/* Receive Modes */
+	/* FM_Normal_L3 */
+	/* Publisher: PDC_LIN3 */
+	/* Transmit Timing */
+	/* FM_Normal_L3 */
+	/* period = <undefined>; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness little;
+	checksum_model enhanced;
+	signal PDCCofignSts_L_L3 {
+		type unsigned;
+		size 3 bits;
+		offset 60 bits;
+	}
+	signal PDCOverVolFlt_L_L3 {
+		type boolean;
+		size 1 bits;
+		offset 4 bits;
+	}
+	signal PDCRespEr_L_L3 {
+		type boolean;
+		size 1 bits;
+		offset 63 bits;
+	}
+	signal PDCRLSnsrFlt_L_L3 {
+		type boolean;
+		size 1 bits;
+		offset 1 bits;
+	}
+	signal PDCRrMidLSnsrFlt_L_L3 {
+		type boolean;
+		size 1 bits;
+		offset 2 bits;
+	}
+	signal PDCRrMidRSnsrFlt_L_L3 {
+		type boolean;
+		size 1 bits;
+		offset 3 bits;
+	}
+	signal PDCRRSnsrFlt_L_L3 {
+		type boolean;
+		size 1 bits;
+		offset 0 bits;
+	}
+	signal PDCSysSts_L_L3 {
+		type unsigned;
+		size 4 bits;
+		offset 56 bits;
+	}
+	signal PDCUnderVolFlt_L_L3 {
+		type boolean;
+		size 1 bits;
+		offset 5 bits;
+	}
+	signal RLObsRng_L_L3 {
+		type unsigned;
+		size 4 bits;
+		offset 16 bits;
+	}
+	signal RrMidLObsRng_L_L3 {
+		type unsigned;
+		size 4 bits;
+		offset 24 bits;
+	}
+	signal RrMidRObsRng_L_L3 {
+		type unsigned;
+		size 4 bits;
+		offset 28 bits;
+	}
+	signal RrObsDist_L_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 40 bits;
+	}
+	signal RRObsRng_L_L3 {
+		type unsigned;
+		size 4 bits;
+		offset 20 bits;
+	}
+	signal RrPDCAudWrnng_L_L3 {
+		type unsigned;
+		size 4 bits;
+		offset 52 bits;
+	}
+}
+
+/* Transmitted Frames */
+signal frame IPK_LIN3_FrP00 {
+	periodic transmit;
+	/* identifier = 0x1A; */
+	/* FM_Normal_L3 */
+	/* period = <undefined>; */
+	frame size 8 bytes;
+	endianness little;
+	checksum_model enhanced;
+	signal LowAcurcVehSpdAvg_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 0 bits;
+	}
+	signal MstrSysPwrMd_L3 {
+		type unsigned;
+		size 2 bits;
+		offset 13 bits;
+	}
+	signal TrShftLvrPosV_l5_L3 {
+		type unsigned;
+		size 1 bits;
+		offset 8 bits;
+	}
+	signal TrShftLvrPos_l5_L3 {
+		type unsigned;
+		size 4 bits;
+		offset 9 bits;
+	}
+}
+
+/* Application controlled LIN diagnostic Frames */
+signal frame MasterReq {
+	periodic transmit;
+	/* identifier = 0x3c; */
+	/* FM_Diagnostics_L3 */
+	frame size 8 bytes;
+	signal MasterReqB0_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 0 bits;
+	}
+	signal MasterReqB1_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 8 bits;
+	}
+	signal MasterReqB2_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 16 bits;
+	}
+	signal MasterReqB3_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 24 bits;
+	}
+	signal MasterReqB4_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 32 bits;
+	}
+	signal MasterReqB5_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 40 bits;
+	}
+	signal MasterReqB6_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 48 bits;
+	}
+	signal MasterReqB7_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 56 bits;
+	}
+}
+signal frame SlaveResp {
+	received;
+	/* identifier = 0x3d; */
+	/* Receive Modes */
+	/* FM_Diagnostics_L3 */
+	/* Publisher: - */
+	frame size 8 bytes;
+	signal SlaveRespB0_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 0 bits;
+	}
+	signal SlaveRespB1_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 8 bits;
+	}
+	signal SlaveRespB2_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 16 bits;
+	}
+	signal SlaveRespB3_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 24 bits;
+	}
+	signal SlaveRespB4_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 32 bits;
+	}
+	signal SlaveRespB5_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 40 bits;
+	}
+	signal SlaveRespB6_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 48 bits;
+	}
+	signal SlaveRespB7_L3 {
+		type unsigned;
+		size 8 bits;
+		offset 56 bits;
+	}
+}
+
+/* Sporadic Frame Holders */
+
+/* IPK_LIN3 */
+
+/* Event Triggered Frame Holders */
+
+/* IPK_LIN3 */
+
+/* Immediate Frames */
+
+/* IPK_CAN_HS */
+/* IPK_CAN_HS_Ctrl */
+
+/* Received Immediate Frames */
+immediate frame BCM_HSC1_FrI01 {
+	/* identifier = 0x41F; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* FM_Silent_HS */
+	/* Publisher: BCM_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* TxInterval = 50 ms; */
+	/* FM_Silent_HS */
+	/* TxInterval = 50 ms; */
+	frame size 3 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal network_mode {
+		offset 16 bits;
+	}
+	signal signal_config_id {
+		offset 0 bits;
+	}
+}
+immediate frame DIAG_FuncReq_HSC1 {
+	/* identifier = 0x7DF; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* FM_Quiet_HS */
+	/* FM_Silent_HS */
+	/* Publisher: DIAG_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* TxInterval = 20 ms; */
+	/* FM_Quiet_HS */
+	/* TxInterval = 20 ms; */
+	/* FM_Silent_HS */
+	/* TxInterval = 20 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal DiagnosticFuncAddrReq {
+		offset 0 bits;
+	}
+}
+immediate frame DIAG_PhysReq_IPK {
+	/* identifier = 0x760; */
+	/* Receive Modes */
+	/* FM_Normal_HS */
+	/* FM_Quiet_HS */
+	/* FM_Silent_HS */
+	/* Publisher: DIAG_CAN_HS */
+	/* Transmit Timing */
+	/* FM_Normal_HS */
+	/* TxInterval = 20 ms; */
+	/* FM_Quiet_HS */
+	/* TxInterval = 20 ms; */
+	/* FM_Silent_HS */
+	/* TxInterval = 20 ms; */
+	frame size 8 bytes;
+	dlc_check_mode strict;
+	endianness big;
+	signal DiagnosticReqIPK {
+		offset 0 bits;
+	}
+}
+immediate frame slave_rx_remote_frame {
+	frame size = 0 bytes;
+}
+/* Transmitted Immediate Frames */
+immediate frame DIAG_PhysResp_IPK {
+	/* identifier = 0x768; */
+	/* FM_Normal_HS */
+	/* TxInterval = 10 ms; */
+	/* FM_Quiet_HS */
+	/* TxInterval = 10 ms; */
+	/* FM_Silent_HS */
+	/* TxInterval = 10 ms; */
+	frame size 8 bytes;
+	endianness big;
+	signal DiagnosticRespIPK {
+		offset 0 bits;
+	}
+}
+immediate frame IPK_HSC1_SecNWM {
+	/* identifier = 0x43F; */
+	/* FM_Normal_HS */
+	/* TxInterval = 50 ms; */
+	/* FM_Silent_HS */
+	/* TxInterval = 50 ms; */
+	frame size 3 bytes;
+	endianness big;
+	signal sm_network_mode_h1 {
+		offset 16 bits;
+	}
+	signal sm_signal_config_id_h1 {
+		offset 0 bits;
+	}
+}
+immediate frame slave_tx_remote_frame {
+	frame size = 0 bytes;
+}
+
+/* IPK_LIN3 */
+/* IPK_LIN3_Ctrl */
+
+/* Received Immediate Frames */
+
+/* Transmitted Immediate Frames */
+
+/* Frame Modes */
+frame mode FM_Normal_HS {
+	/* Rx Frames */
+	carries frame AC_HSC1_FrP00;
+	carries frame AC_HSC1_FrS01;
+	carries frame BCM_GW_HSC1_FrP01;
+	carries frame BCM_GW_HSC1_FrP07;
+	carries frame BCM_GW_HSC1_FrP09;
+	carries frame BCM_HSC1_FrI01;
+	carries frame BCM_HSC1_FrP02;
+	carries frame BCM_HSC1_FrP03;
+	carries frame BCM_HSC1_FrP04;
+	carries frame BCM_HSC1_FrP06;
+	carries frame BCM_HSC1_FrP09;
+	carries frame BCM_PMDC_HSC1_FrP01;
+	carries frame BCM_PMDC_HSC1_FrP02;
+	carries frame BCM_PMDC_HSC1_FrP03;
+	carries frame BCM_TBOX_HSC1_FrP01;
+	carries frame DIAG_FuncReq_HSC1;
+	carries frame DIAG_PhysReq_IPK;
+	carries frame ECM_HSC1_FrP00;
+	carries frame ECM_HSC1_FrP04;
+	carries frame ECM_HSC1_FrP07;
+	carries frame ECM_HSC1_FrP09;
+	carries frame ECM_HSC1_FrP10;
+	carries frame ECM_HSC1_FrP12;
+	carries frame ECM_HSC1_FrP14;
+	carries frame ECM_HSC1_FrP15;
+	carries frame ECM_HSC1_FrP27;
+	carries frame EPB_HSC2_FrP00;
+	carries frame EPS_HSC1_FrP00;
+	carries frame ESCL_HSC1_FrP00;
+	carries frame ESCL_HSC1_FrP01;
+	carries frame ESCL_HSC1_FrS04;
+	carries frame FICM_HSC1_FrP00;
+	carries frame FICM_HSC1_FrP01;
+	carries frame FICM_HSC1_FrP02;
+	carries frame FICM_HSC1_FrP05;
+	carries frame FICM_HSC1_FrP12;
+	carries frame FICM_HSC1_FrP14;
+	carries frame FICM_HSC1_FrS00;
+	carries frame SAS_HSC1_FrP00;
+	carries frame SCS_HSC1_FrP03;
+	carries frame SCS_HSC1_FrP06;
+	carries frame SCS_HSC1_FrP09;
+	carries frame SCS_HSC1_FrP11;
+	carries frame SCS_HSC1_FrP12;
+	carries frame SCS_HSC1_FrP13;
+	carries frame SCS_HSC1_FrP14;
+	carries frame SCS_HSC1_FrP15;
+	carries frame SDM_HSC1_FrP00;
+	carries frame TCM_HSC1_FrP09;
+	carries frame TPMS_HSC1_FrP00;
+	carries frame TPMS_HSC1_FrP01;
+	carries frame TPMS_HSC1_FrP02;
+	carries frame TPMS_HSC1_FrS00;
+        carries frame slave_rx_remote_frame;
+	/* Tx Frames */
+        carries frame slave_tx_remote_frame;
+	carries frame DIAG_DTCInfo_IPK;
+	carries frame DIAG_PhysResp_IPK;
+	carries frame IPK_BCM_HSC1_FrP05;
+	carries frame IPK_BCM_HSC1_FrP07;
+	carries frame IPK_GW_HSC1_FrP03;
+	carries frame IPK_GW_HSC1_FrP04;
+	carries frame IPK_HSC1_FrP00;
+	carries frame IPK_HSC1_FrP01;
+	carries frame IPK_HSC1_FrP03;
+	carries frame IPK_HSC1_FrP04;
+	carries frame IPK_HSC1_FrP05;
+	carries frame IPK_HSC1_FrP06;
+	carries frame IPK_HSC1_FrP07;
+	carries frame IPK_HSC1_FrP08;
+	carries frame IPK_HSC1_FrP09;
+	carries frame IPK_HSC1_FrP10;
+	carries frame IPK_HSC1_FS00;
+	carries frame IPK_HSC1_SecNWM;
+	carries frame IPK_PDC_HSC1_FrP00;
+	periodic {
+		frame IPK_BCM_HSC1_FrP05 every 10 ms offset 0 us;
+		frame IPK_BCM_HSC1_FrP07 every 20 ms offset 0 us;
+		frame IPK_GW_HSC1_FrP03 every 30 ms offset 0 us;
+		frame IPK_GW_HSC1_FrP04 every 30 ms offset 0 us;
+		frame IPK_HSC1_FrP00 every 100 ms offset 0 us;
+		frame IPK_HSC1_FrP01 every 200 ms offset 0 us;
+		frame IPK_HSC1_FrP03 every 200 ms offset 0 us;
+		frame IPK_HSC1_FrP04 every 10 ms offset 0 us;
+		frame IPK_HSC1_FrP05 every 200 ms offset 0 us;
+		frame IPK_HSC1_FrP06 every 200 ms offset 0 us;
+		frame IPK_HSC1_FrP07 every 10 ms offset 0 us;
+		frame IPK_HSC1_FrP08 every 100 ms offset 0 us;
+		frame IPK_HSC1_FrP09 every 200 ms offset 0 us;
+		frame IPK_HSC1_FrP10 every 200 ms offset 0 us;
+		frame IPK_PDC_HSC1_FrP00 every 50 ms offset 0 us;
+	}	/* periodic */
+}	/* mode */
+
+frame mode FM_Quiet_HS {
+	/* Rx Frames */
+	carries frame DIAG_FuncReq_HSC1;
+	carries frame DIAG_PhysReq_IPK;
+	/* Tx Frames */
+	carries frame DIAG_PhysResp_IPK;
+	periodic {
+	}	/* periodic */
+}	/* mode */
+
+frame mode FM_Silent_HS {
+	/* Rx Frames */
+	carries frame AC_HSC1_FrS01;
+	carries frame BCM_HSC1_FrI01;
+	carries frame DIAG_FuncReq_HSC1;
+	carries frame DIAG_PhysReq_IPK;
+	carries frame ESCL_HSC1_FrS04;
+	carries frame FICM_HSC1_FrS00;
+	carries frame TPMS_HSC1_FrS00;
+        carries frame slave_rx_remote_frame;
+	/* Tx Frames */
+	carries frame DIAG_PhysResp_IPK;
+	carries frame IPK_HSC1_FS00;
+	carries frame IPK_HSC1_SecNWM;
+	periodic {
+	}	/* periodic */
+}	/* mode */
+
+frame mode FM_Diagnostics_L3 {
+	carries frame MasterReq;
+	carries frame SlaveResp;
+	schedule {
+		frame MasterReq delay 50 ms;
+		frame SlaveResp delay 10 ms;
+	}
+}
+
+frame mode FM_Normal_L3 {
+	carries frame IPK_LIN3_FrP00;
+	carries frame PDC_LIN3_FrP00;
+	schedule {
+		frame IPK_LIN3_FrP00 delay 40 ms;
+		frame PDC_LIN3_FrP00 delay 40 ms;
+	}
+}
+
+
+/* Interfaces */
+	/*	IPK_CAN_HS/IPK_CAN_HS_Ctrl	*/
+network interface IPK_CAN_HS {
+	protocol CAN11 {
+	priority_bits 11;
+	filter_bits 0;
+	prescale 0;
+	prop_seg 5;
+	phase_seg1 5;
+	phase_seg2 5;
+	sjw 2;
+	nsamples = 1;
+	interest_mask "xxxxxxxxxxx" if_required;
+        frame slave_tx_remote_frame size 0 ID 0x100; //Tx
+        frame slave_rx_remote_frame size 0 ID 0x100; //Rx
+	frame AC_HSC1_FrP00 size 1 ID 0x5F2;	//Rx
+	frame AC_HSC1_FrS01 size 1 ID 0x4B5;	//Rx
+	frame BCM_GW_HSC1_FrP01 size 8 ID 0x1F1;	//Rx
+	frame BCM_GW_HSC1_FrP07 size 8 ID 0x540;	//Rx
+	frame BCM_GW_HSC1_FrP09 size 8 ID 0x31B;	//Rx
+	frame BCM_HSC1_FrI01 size 3 ID 0x41F;	//Rx
+	frame BCM_HSC1_FrP02 size 8 ID 0x473;	//Rx
+	frame BCM_HSC1_FrP03 size 8 ID 0x47A;	//Rx
+	frame BCM_HSC1_FrP04 size 8 ID 0x46A;	//Rx
+	frame BCM_HSC1_FrP06 size 8 ID 0x21C;	//Rx
+	frame BCM_HSC1_FrP09 size 8 ID 0x21D;	//Rx
+	frame BCM_PMDC_HSC1_FrP01 size 8 ID 0x319;	//Rx
+	frame BCM_PMDC_HSC1_FrP02 size 8 ID 0x32E;	//Rx
+	frame BCM_PMDC_HSC1_FrP03 size 8 ID 0x517;	//Rx
+	frame BCM_TBOX_HSC1_FrP01 size 8 ID 0x34D;	//Rx
+	frame DIAG_DTCInfo_IPK size 7 ID 0x7B8;	//Tx
+	frame DIAG_FuncReq_HSC1 size 8 ID 0x7DF;	//Rx
+	frame DIAG_PhysReq_IPK size 8 ID 0x760;	//Rx
+	frame DIAG_PhysResp_IPK size 8 ID 0x768;	//Tx
+	frame ECM_HSC1_FrP00 size 8 ID 0x0C9;	//Rx
+	frame ECM_HSC1_FrP04 size 8 ID 0x194;	//Rx
+	frame ECM_HSC1_FrP07 size 2 ID 0x1DF;	//Rx
+	frame ECM_HSC1_FrP09 size 8 ID 0x2C3;	//Rx
+	frame ECM_HSC1_FrP10 size 8 ID 0x3B1;	//Rx
+	frame ECM_HSC1_FrP12 size 8 ID 0x3D1;	//Rx
+	frame ECM_HSC1_FrP14 size 8 ID 0x4C1;	//Rx
+	frame ECM_HSC1_FrP15 size 8 ID 0x4D1;	//Rx
+	frame ECM_HSC1_FrP27 size 8 ID 0x0FB;	//Rx
+	frame EPB_HSC2_FrP00 size 8 ID 0x230;	//Rx
+	frame EPS_HSC1_FrP00 size 1 ID 0x148;	//Rx
+	frame ESCL_HSC1_FrP00 size 1 ID 0x42F;	//Rx
+	frame ESCL_HSC1_FrP01 size 4 ID 0x467;	//Rx
+	frame ESCL_HSC1_FrS04 size 1 ID 0x423;	//Rx
+	frame FICM_HSC1_FrP00 size 1 ID 0x450;	//Rx
+	frame FICM_HSC1_FrP01 size 8 ID 0x36B;	//Rx
+	frame FICM_HSC1_FrP02 size 8 ID 0x376;	//Rx
+	frame FICM_HSC1_FrP05 size 8 ID 0x50B;	//Rx
+	frame FICM_HSC1_FrP12 size 8 ID 0x367;	//Rx
+	frame FICM_HSC1_FrP14 size 8 ID 0x37D;	//Rx
+	frame FICM_HSC1_FrS00 size 1 ID 0x447;	//Rx
+	frame IPK_BCM_HSC1_FrP05 size 8 ID 0x0D9;	//Tx
+	frame IPK_BCM_HSC1_FrP07 size 2 ID 0x1F2;	//Tx
+	frame IPK_GW_HSC1_FrP03 size 8 ID 0x1F3;	//Tx
+	frame IPK_GW_HSC1_FrP04 size 7 ID 0x1E1;	//Tx
+	frame IPK_HSC1_FrP00 size 1 ID 0x5F3;	//Tx
+	frame IPK_HSC1_FrP01 size 8 ID 0x476;	//Tx
+	frame IPK_HSC1_FrP03 size 8 ID 0x416;	//Tx
+	frame IPK_HSC1_FrP04 size 8 ID 0x35A;	//Tx
+	frame IPK_HSC1_FrP05 size 8 ID 0x46E;	//Tx
+	frame IPK_HSC1_FrP06 size 8 ID 0x541;	//Tx
+	frame IPK_HSC1_FrP07 size 4 ID 0x463;	//Tx
+	frame IPK_HSC1_FrP08 size 8 ID 0x36A;	//Tx
+	frame IPK_HSC1_FrP09 size 8 ID 0x417;	//Tx
+	frame IPK_HSC1_FrP10 size 8 ID 0x478;	//Tx
+	frame IPK_HSC1_FS00 size 1 ID 0x5FB;	//Tx
+	frame IPK_HSC1_SecNWM size 3 ID 0x43F;	//Tx
+	frame IPK_PDC_HSC1_FrP00 size 8 ID 0x23D;	//Tx
+	frame SAS_HSC1_FrP00 size 8 ID 0x1E5;	//Rx
+	frame SCS_HSC1_FrP03 size 7 ID 0x1C7;	//Rx
+	frame SCS_HSC1_FrP06 size 8 ID 0x232;	//Rx
+	frame SCS_HSC1_FrP09 size 6 ID 0x214;	//Rx
+	frame SCS_HSC1_FrP11 size 8 ID 0x348;	//Rx
+	frame SCS_HSC1_FrP12 size 8 ID 0x34A;	//Rx
+	frame SCS_HSC1_FrP13 size 7 ID 0x17D;	//Rx
+	frame SCS_HSC1_FrP14 size 8 ID 0x345;	//Rx
+	frame SCS_HSC1_FrP15 size 8 ID 0x353;	//Rx
+	frame SDM_HSC1_FrP00 size 8 ID 0x163;	//Rx
+	frame TCM_HSC1_FrP09 size 7 ID 0x4C9;	//Rx
+	frame TPMS_HSC1_FrP00 size 1 ID 0x430;	//Rx
+	frame TPMS_HSC1_FrP01 size 8 ID 0x47D;	//Rx
+	frame TPMS_HSC1_FrP02 size 8 ID 0x47E;	//Rx
+	frame TPMS_HSC1_FrS00 size 1 ID 0x424;	//Rx
+	platform TRANSPORT_OPTIONAL {
+		}//transport
+	}//protocol
+}//interface
+
+	/*	IPK_LIN3/IPK_LIN3_Ctrl	*/
+network interface IPK_LIN3 {
+	protocol LIN {
+	frame MasterReq size 8 ID 0x3c;	//Tx
+	frame SlaveResp size 8 ID 0x3d;	//Rx
+	frame IPK_LIN3_FrP00 size 8 ID 0x1A;	//Tx
+	frame PDC_LIN3_FrP00 size 8 ID 0x1B;	//Rx
+	mode FM_Diagnostics_L3;
+	mode FM_Normal_L3;
+	}//protocol
+}//interface
+
+
+/* Signal Mappings */
+
+/* Instruments/IPK_CAN_HS */
+	map signal from application AirbagWrnngIndF to AirbagWrnngIndF_HS;
+	map signal from application ASSInhBtnA to ASSInhBtnA_HS;
+	map signal from application AvgFuelCsump to AvgFuelCsump_HS;
+	map signal from application AvgFuelCsumpV to AvgFuelCsumpV_HS;
+	map signal from application CalendarDay to CalendarDay_HS;
+	map signal from application CalendarMonth to CalendarMonth_HS;
+	map signal from application CalendarYear to CalendarYear_HS;
+	map signal from application CCSwStsAlvRC to CCSwStsAlvRC_HS;
+	map signal from application CCSwStsCanclSwA to CCSwStsCanclSwA_HS;
+	map signal from application CCSwStsDisDecSwA to CCSwStsDisDecSwA_HS;
+	map signal from application CCSwStsDistIncSwA to CCSwStsDistIncSwA_HS;
+	map signal from application CCSwStsOnSwA to CCSwStsOnSwA_HS;
+	map signal from application CCSwStsPV to CCSwStsPV_HS;
+	map signal from application CCSwStsRsmSwA to CCSwStsRsmSwA_HS;
+	map signal from application CCSwStsSetSwA to CCSwStsSetSwA_HS;
+	map signal from application CCSwStsSpdDecSwA to CCSwStsSpdDecSwA_HS;
+	map signal from application CCSwStsSpdIncSwA to CCSwStsSpdIncSwA_HS;
+	map signal from application CCSwStsSwDataIntgty to CCSwStsSwDataIntgty_HS;
+	map signal from application ChmCmdSndCndcPrd to ChmCmdSndCndcPrd_HS;
+	map signal from application ChmCmdSndDutyCyc to ChmCmdSndDutyCyc_HS;
+	map signal from application ChmCmdSndLoctnFL to ChmCmdSndLoctnFL_HS;
+	map signal from application ChmCmdSndLoctnFR to ChmCmdSndLoctnFR_HS;
+	map signal from application ChmCmdSndLoctnRL to ChmCmdSndLoctnRL_HS;
+	map signal from application ChmCmdSndLoctnRR to ChmCmdSndLoctnRR_HS;
+	map signal from application ChmCmdSndTone to ChmCmdSndTone_HS;
+	map signal from application Clstr10KmTick to Clstr10KmTick_HS;
+	map signal from application ClstrDistUnt to ClstrDistUnt_HS;
+	map signal from application ClstrDspdABSWrnng to ClstrDspdABSWrnng_HS;
+	map signal from application ClstrDspdAirbagWrnng to ClstrDspdAirbagWrnng_HS;
+	map signal from application ClstrDspdAltrWrnng to ClstrDspdAltrWrnng_HS;
+	map signal from application ClstrDspdASpdLmtrWrnng to ClstrDspdASpdLmtrWrnng_HS;
+	map signal from application ClstrDspdBrkSysWrnng to ClstrDspdBrkSysWrnng_HS;
+	map signal from application ClstrDspdCCWrnng to ClstrDspdCCWrnng_HS;
+	map signal from application ClstrDspdClntTemWrnng to ClstrDspdClntTemWrnng_HS;
+	map signal from application ClstrDspdEnDrvByWireW to ClstrDspdEnDrvByWireW_HS;
+	map signal from application ClstrDspdEPSWrnng to ClstrDspdEPSWrnng_HS;
+	map signal from application ClstrDspdFLTirePrs to ClstrDspdFLTirePrs_HS;
+	map signal from application ClstrDspdFLTireSts to ClstrDspdFLTireSts_HS;
+	map signal from application ClstrDspdFRTirePrs to ClstrDspdFRTirePrs_HS;
+	map signal from application ClstrDspdFRTireSts to ClstrDspdFRTireSts_HS;
+	map signal from application ClstrDspdFuelLvlSgmt to ClstrDspdFuelLvlSgmt_HS;
+	map signal from application ClstrDspdFuelSnsrWrnng to ClstrDspdFuelSnsrWrnng_HS;
+	map signal from application ClstrDspdFuelSts to ClstrDspdFuelSts_HS;
+	map signal from application ClstrDspdInfoMsk to ClstrDspdInfoMsk_HS;
+	map signal from application ClstrDspdInvdKeyWrnng to ClstrDspdInvdKeyWrnng_HS;
+	map signal from application ClstrDspdMalfIndrLghtW to ClstrDspdMalfIndrLghtW_HS;
+	map signal from application ClstrDspdOilPrsLowW to ClstrDspdOilPrsLowW_HS;
+	map signal from application ClstrDspdPDCWrnng to ClstrDspdPDCWrnng_HS;
+	map signal from application ClstrDspdRLTirePrs to ClstrDspdRLTirePrs_HS;
+	map signal from application ClstrDspdRLTireSts to ClstrDspdRLTireSts_HS;
+	map signal from application ClstrDspdRRTirePrs to ClstrDspdRRTirePrs_HS;
+	map signal from application ClstrDspdRRTireSts to ClstrDspdRRTireSts_HS;
+	map signal from application ClstrDspdSASUncalWrnng to ClstrDspdSASUncalWrnng_HS;
+	map signal from application ClstrDspdSASWrnng to ClstrDspdSASWrnng_HS;
+	map signal from application ClstrDspdSCSWrnng to ClstrDspdSCSWrnng_HS;
+	map signal from application ClstrDspdScurtKeyBatLW to ClstrDspdScurtKeyBatLW_HS;
+	map signal from application ClstrDspdSpStWrnng to ClstrDspdSpStWrnng_HS;
+	map signal from application ClstrDspdTCSWrnng to ClstrDspdTCSWrnng_HS;
+	map signal from application ClstrDspdTrWrnng to ClstrDspdTrWrnng_HS;
+	map signal from application ClstrDspdTyrePrsSts to ClstrDspdTyrePrsSts_HS;
+	map signal from application ClstrDspdVehSpd to ClstrDspdVehSpd_HS;
+	map signal from application ClstrFuelCsumpUnt to ClstrFuelCsumpUnt_HS;
+	map signal from application ClstrTemUnt to ClstrTemUnt_HS;
+	map signal from application ClstrTyrePressureUnt to ClstrTyrePressureUnt_HS;
+	map signal from application DspMeasSys to DspMeasSys_HS;
+	map signal from application DTCInfomationIPK to DTCInfomationIPK_HS;
+	map signal from application FLObsRng to FLObsRng_HS;
+	map signal from application FRObsRng to FRObsRng_HS;
+	map signal from application FrtMidLObsRng to FrtMidLObsRng_HS;
+	map signal from application FrtMidRObsRng to FrtMidRObsRng_HS;
+	map signal from application FrtObsDist to FrtObsDist_HS;
+	map signal from application FuelLvlPcnt to FuelLvlPcnt_HS;
+	map signal from application FuelLvlPcntV to FuelLvlPcntV_HS;
+	map signal from application FuelTotCapct to FuelTotCapct_HS;
+	map signal from application HourOfDay to HourOfDay_HS;
+	map signal from application IPCAccryA to IPCAccryA_HS;
+	map signal from application IPCEcoDrvngSwA to IPCEcoDrvngSwA_HS;
+	map signal from application IPCRunCrkA to IPCRunCrkA_HS;
+	map signal from application IPCRunCrkF to IPCRunCrkF_HS;
+	map signal from application IPCSSBA to IPCSSBA_HS;
+	map signal from application IPCSSBAV to IPCSSBAV_HS;
+	map signal from application IPCSSBFltSts to IPCSSBFltSts_HS;
+	map signal from application keep_network_IPK to keep_network_IPK_HS;
+	map signal from application LanggSetng to LanggSetng_HS;
+	map signal from application MinuteOfHour to MinuteOfHour_HS;
+	map signal from application OdoPriy to OdoPriy_HS;
+	map signal from application PDCCofignSts to PDCCofignSts_HS;
+	map signal from application PDCSysSts to PDCSysSts_HS;
+	map signal from application PfTrTapUpDwnEnbSwSta to PfTrTapUpDwnEnbSwSta_HS;
+	map signal from application PfTrTapUpDwnSecySwSta to PfTrTapUpDwnSecySwSta_HS;
+	map signal from application PfTrTapUpDwnSwSta to PfTrTapUpDwnSwSta_HS;
+	map signal from application PfTrTapUpDwnSwStsAlvRC to PfTrTapUpDwnSwStsAlvRC_HS;
+	map signal from application RLObsRng to RLObsRng_HS;
+	map signal from application RmnDrvngDist to RmnDrvngDist_HS;
+	map signal from application RrMidLObsRng to RrMidLObsRng_HS;
+	map signal from application RrMidRObsRng to RrMidRObsRng_HS;
+	map signal from application RrObsDist to RrObsDist_HS;
+	map signal from application RRObsRng to RRObsRng_HS;
+	map signal from application SecsOfMinute to SecsOfMinute_HS;
+	map signal from application SIAOdoPriy to SIAOdoPriy_HS;
+	map signal from application StabCtrlDsblSwA to StabCtrlDsblSwA_HS;
+	map signal from application SysBPM to SysBPM_HS;
+	map signal from application SysBPMEnbd to SysBPMEnbd_HS;
+	map signal from application TimeDspFmt to TimeDspFmt_HS;
+	map signal from application TrPfShftPtrnSw1A to TrPfShftPtrnSw1A_HS;
+	map signal from application TrPfShftPtrnSw4A to TrPfShftPtrnSw4A_HS;
+	map signal from application TrPfShftPtrnSwAlvRC to TrPfShftPtrnSwAlvRC_HS;
+	map signal from application VINClstr to VINClstr_HS;
+	map signal from application wake_network_IPK to wake_network_IPK_HS;
+	map signal from ABSIO_HS to application ABSIO;
+	map signal from AirbagSysFltIndCmd_HS to application AirbagSysFltIndCmd;
+	map signal from AmbtLghtLvl_H1_HS to application AmbtLghtLvl;
+	map signal from ASSInhBtnLampOn_HS to application ASSInhBtnLampOn;
+	map signal from ASSInhIO_HS to application ASSInhIO;
+	map signal from ASSStsLampOn_HS to application ASSStsLampOn;
+	map signal from ASSWrnngLampOn_HS to application ASSWrnngLampOn;
+	map signal from AutoHoldMsg_HS to application AutoHoldMsg;
+	map signal from AutoHoldSysSts_HS to application AutoHoldSysSts;
+	map signal from BatAgngSta_HS to application BatAgngSta;
+	map signal from BatSOC_HS to application BatSOC;
+	map signal from BatVol_HS to application BatVol;
+	map signal from BCMEmgcSp_HS to application BCMEmgcSp;
+	map signal from BCMGearShftParkNtrlESR_HS to application BCMGearShftParkNtrlESR;
+	map signal from BCMNoSmtKeyInVehRmndr_HS to application BCMNoSmtKeyInVehRmndr;
+	map signal from BCMNoSmtKeyPressBrkTRR_HS to application BCMNoSmtKeyPressBrkTRR;
+	map signal from BCMNoSmtKeyPressClToRR_HS to application BCMNoSmtKeyPressClToRR;
+	map signal from BCMPressBrkRmndr_HS to application BCMPressBrkRmndr;
+	map signal from BCMPressClRmndr_HS to application BCMPressClRmndr;
+	map signal from BCMPutSmtKeyToBkupPosR_HS to application BCMPutSmtKeyToBkupPosR;
+	map signal from BCMPwrMdHwdSta_HS to application BCMPwrMdHwdSta;
+	map signal from BCMPwrMdHwdStaV_HS to application BCMPwrMdHwdStaV;
+	map signal from BCMRunCrkF_HS to application BCMRunCrkF;
+	map signal from BCMShftParkRmndr_HS to application BCMShftParkRmndr;
+	map signal from BCMSSBA_HS to application BCMSSBA;
+	map signal from BCMSSBAV_HS to application BCMSSBAV;
+	map signal from BCMSSBFltSts_HS to application BCMSSBFltSts;
+	map signal from BCMSyncSmtKeyRmndr_HS to application BCMSyncSmtKeyRmndr;
+	map signal from BCMTakeSmtKeyOutOfSR_HS to application BCMTakeSmtKeyOutOfSR;
+	map signal from BntOpenSts_H1_HS to application BntOpenSts;
+	map signal from BrkFludLvlLow_HS to application BrkFludLvlLow;
+	map signal from BrkFludLvlLowV_HS to application BrkFludLvlLowV;
+	map signal from BrkSysRedBrkTlltReq_HS to application BrkSysRedBrkTlltReq;
+	map signal from CalendarAdjReqA_HS to application CalendarAdjReqA;
+	map signal from CalendarDayAdj_HS to application CalendarDayAdj;
+	map signal from CalendarMonthAdj_HS to application CalendarMonthAdj;
+	map signal from CalendarYearAdj_HS to application CalendarYearAdj;
+	map signal from CCA_HS to application CCA;
+	map signal from CCEnbd_HS to application CCEnbd;
+	map signal from CCFltPrst_HS to application CCFltPrst;
+	map signal from ChmA_HS to application ChmA;
+	map signal from CrusAndSpdLmtrDrvrSS_HS to application CrusAndSpdLmtrDrvrSS;
+	map signal from DayTimeRunningLghtF_HS to application DayTimeRunningLghtF;
+	map signal from DipdBeamLghtOn_HS to application DipdBeamLghtOn;
+	map signal from DistRCAvgDrvn_HS to application DistRCAvgDrvn;
+	map signal from DistRCAvgDrvnV_HS to application DistRCAvgDrvnV;
+	map signal from DrvrDoorOpenSts_H1_HS to application DrvrDoorOpenSts;
+	map signal from DrvrPWLInitnRmndr_HS to application DrvrPWLInitnRmndr;
+	map signal from DrvrShftCtrlTrgtGear_HS to application DrvrShftCtrlTrgtGear;
+	map signal from DrvrWndOpenRmndr_HS to application DrvrWndOpenRmndr;
+	map signal from ECMClsDoorToAutoStR_HS to application ECMClsDoorToAutoStR;
+	map signal from ECMFasnSbltToAutoStR_HS to application ECMFasnSbltToAutoStR;
+	map signal from ECMPressClBrkRmndr_HS to application ECMPressClBrkRmndr;
+	map signal from ECMShftNtrlToAutoStR_HS to application ECMShftNtrlToAutoStR;
+	map signal from EcoDrvngAIO_HS to application EcoDrvngAIO;
+	map signal from EcoDrvngDspStsGearSIS_HS to application EcoDrvngDspStsGearSIS;
+	map signal from EcoDrvngDspStsRcmndFG_HS to application EcoDrvngDspStsRcmndFG;
+	map signal from ECODrvngSpdRutA_HS to application ECODrvngSpdRutA;
+	map signal from EmgcCallFlrSts_HS to application EmgcCallFlrSts;
+	map signal from En12VoltStrMotCmddOn_HS to application En12VoltStrMotCmddOn;
+	map signal from EnASSSta_HS to application EnASSSta;
+	map signal from EnClntTem_HS to application EnClntTem;
+	map signal from EnClntTemV_HS to application EnClntTemV;
+	map signal from EnEmsnRltdMalfA_HS to application EnEmsnRltdMalfA;
+	map signal from EnEmsnRltdMalfIndReq_HS to application EnEmsnRltdMalfIndReq;
+	map signal from EnNonEmsnRltdMalfA_HS to application EnNonEmsnRltdMalfA;
+	map signal from EnOilPrsLowIO_HS to application EnOilPrsLowIO;
+	map signal from EnRunA_HS to application EnRunA;
+	map signal from EnSpd_HS to application EnSpd;
+	map signal from EnSpdSts_HS to application EnSpdSts;
+	map signal from EPBSysAudWrnngReq_HS to application EPBSysAudWrnngReq;
+	map signal from EPBSysDspMsgReq_HS to application EPBSysDspMsgReq;
+	map signal from EPBSysStsIndReq_HS to application EPBSysStsIndReq;
+	map signal from EPBSysWrnngIndReq_HS to application EPBSysWrnngIndReq;
+	map signal from EPSFlrSts_HS to application EPSFlrSts;
+	map signal from ESCLFlrIndCmd_HS to application ESCLFlrIndCmd;
+	map signal from FasnDrvrSbltIndCmd_HS to application FasnDrvrSbltIndCmd;
+	map signal from FasnFrtPsngSbltIndCmd_HS to application FasnFrtPsngSbltIndCmd;
+	map signal from FasnSbltAudRmndr_HS to application FasnSbltAudRmndr;
+	map signal from FICMDistUnitAdjtReqA_HS to application FICMDistUnitAdjtReqA;
+	map signal from FICMFuelCsumpUntAdj_HS to application FICMFuelCsumpUntAdj;
+	map signal from FICMFuelCsumpUntAdjARA_HS to application FICMFuelCsumpUntAdjARA;
+	map signal from FICMOverSpdFnCrntSts_HS to application FICMOverSpdFnCrntSts;
+	map signal from FICMOvrSpdThrshldAdj_HS to application FICMOvrSpdThrshldAdj;
+	map signal from FICMOvrSpdThrshldAdjtRA_HS to application FICMOvrSpdThrshldAdjtRA;
+	map signal from FICMTemUntAdj_HS to application FICMTemUntAdj;
+	map signal from FICMTemUntAdjtReqA_HS to application FICMTemUntAdjtReqA;
+	map signal from FICMTyrePressureUntAdjtReqA_HS to application FICMTyrePressureUntAdjtReqA;
+	map signal from FICMVehMntnceSts_HS to application FICMVehMntnceSts;
+	map signal from FLTirePrs_HS to application FLTirePrs;
+	map signal from FLTirePrsV_HS to application FLTirePrsV;
+	map signal from FLTireSts_HS to application FLTireSts;
+	map signal from FLTireTem_HS to application FLTireTem;
+	map signal from FLTireTemV_HS to application FLTireTemV;
+	map signal from FrtFogLghtOn_H1_HS to application FrtFogLghtOn;
+	map signal from FRTirePrs_HS to application FRTirePrs;
+	map signal from FRTirePrsV_HS to application FRTirePrsV;
+	map signal from FRTireSts_HS to application FRTireSts;
+	map signal from FRTireTem_HS to application FRTireTem;
+	map signal from FRTireTemV_HS to application FRTireTemV;
+	map signal from FrtPsngDoorOpenSts_H1_HS to application FrtPsngDoorOpenSts;
+	map signal from FrtSideLghtF_HS to application FrtSideLghtF;
+	map signal from FuelCsump_HS to application FuelCsump;
+	map signal from GenrSta_HS to application GenrSta;
+	map signal from HDCSysSts_HS to application HDCSysSts;
+	map signal from HourOfDayAdj_HS to application HourOfDayAdj;
+	map signal from keep_network_AC_HS to application keep_network_AC;
+	map signal from keep_network_ESCL_HS to application keep_network_ESCL;
+	map signal from keep_network_FICM_HS to application keep_network_FICM;
+	map signal from keep_network_TPMS_HS to application keep_network_TPMS;
+	map signal from LBrkLghtF_HS to application LBrkLghtF;
+	map signal from LDipdBeamLghtF_HS to application LDipdBeamLghtF;
+	map signal from LDircnIndLghtF_H1_HS to application LDircnIndLghtF;
+	map signal from LDircnIO_HS to application LDircnIO;
+	map signal from LdspcOpenSts_H1_HS to application LdspcOpenSts;
+	map signal from LghtSwPosSts_H1_HS to application LghtSwPosSts;
+	map signal from MainBeamLghtOn_H1_HS to application MainBeamLghtOn;
+	map signal from MinuteOfHourAdj_HS to application MinuteOfHourAdj;
+	map signal from MusSrcMd_HS to application MusSrcMd;
+	map signal from NavDircn_HS to application NavDircn;
+	map signal from NavDist_HS to application NavDist;
+	map signal from NavDistUnit_HS to application NavDistUnit;
+	map signal from OdoSecy_HS to application OdoSecy;
+	map signal from PEPSAntFlt_HS to application PEPSAntFlt;
+	map signal from PwrMdMstrAccryA_H1_HS to application PwrMdMstrAccryA;
+	map signal from PwrMdMstrAccryWkupA_HS to application PwrMdMstrAccryWkupA;
+	map signal from PwrMdMstrIgnA_HS to application PwrMdMstrIgnA;
+	map signal from PwrMdMstrRunCrkA_H1_HS to application PwrMdMstrRunCrkA;
+	map signal from RBrkLghtF_HS to application RBrkLghtF;
+	map signal from RDipdBeamLghtF_HS to application RDipdBeamLghtF;
+	map signal from RDircnIndLghtF_H1_HS to application RDircnIndLghtF;
+	map signal from RDircnIO_HS to application RDircnIO;
+	map signal from RdoFrqcVal_HS to application RdoFrqcVal;
+	map signal from RevsLghtF_H1_HS to application RevsLghtF;
+	map signal from RLTirePrs_HS to application RLTirePrs;
+	map signal from RLTirePrsV_HS to application RLTirePrsV;
+	map signal from RLTireSts_HS to application RLTireSts;
+	map signal from RLTireTem_HS to application RLTireTem;
+	map signal from RLTireTemV_HS to application RLTireTemV;
+	map signal from RrFogLghtF_H1_HS to application RrFogLghtF;
+	map signal from RrFogLghtOn_H1_HS to application RrFogLghtOn;
+	map signal from RrSideLghtF_HS to application RrSideLghtF;
+	map signal from RRTirePrs_HS to application RRTirePrs;
+	map signal from RRTirePrsV_HS to application RRTirePrsV;
+	map signal from RRTireSts_HS to application RRTireSts;
+	map signal from RRTireTem_HS to application RRTireTem;
+	map signal from RRTireTemV_HS to application RRTireTemV;
+	map signal from ScurtAlrmSts_HS to application ScurtAlrmSts;
+	map signal from ScurtKeyBatLow_HS to application ScurtKeyBatLow;
+	map signal from ScurtKeyInvd_HS to application ScurtKeyInvd;
+	map signal from SecsOfMinuteAdj_HS to application SecsOfMinuteAdj;
+	map signal from ShifterLckRlseBrkReqA_HS to application ShifterLckRlseBrkReqA;
+	map signal from SIAOdoSecy_HS to application SIAOdoSecy;
+	map signal from SpdAstSysStsECM_HS to application SpdAstSysStsECM;
+	map signal from SpdAstSysTrgtSpd_HS to application SpdAstSysTrgtSpd;
+	map signal from SrfInitnRmndr_HS to application SrfInitnRmndr;
+	map signal from SrfOpenRmndr_HS to application SrfOpenRmndr;
+	map signal from SSBEnOffRmndr_HS to application SSBEnOffRmndr;
+	map signal from StrgWhlAngSnsrCalSts_HS to application StrgWhlAngSnsrCalSts;
+	map signal from StrgWhlAngSnsrFlt_HS to application StrgWhlAngSnsrFlt;
+	map signal from SysOpnlMd_HS to application SysOpnlMd;
+	map signal from SysPwrMd_h1_HS to application SysPwrMd;
+	map signal from SysPwrMdV_h1_HS to application SysPwrMdV;
+	map signal from SysVol_HS to application SysVol;
+	map signal from SysVolMd_HS to application SysVolMd;
+	map signal from SysVolMdV_HS to application SysVolMdV;
+	map signal from SysVolV_HS to application SysVolV;
+	map signal from TakeKeyOutRmndr_HS to application TakeKeyOutRmndr;
+	map signal from TCSOpngMd_HS to application TCSOpngMd;
+	map signal from TCSOpngSts_HS to application TCSOpngSts;
+	map signal from TimeAdjReqA_HS to application TimeAdjReqA;
+	map signal from TimeDspFmtAdj_HS to application TimeDspFmtAdj;
+	map signal from TPMSAutoLoctnCm_HS to application TPMSAutoLoctnCm;
+	map signal from TPMSF_HS to application TPMSF;
+	map signal from TPMSIdficnLrnCm_HS to application TPMSIdficnLrnCm;
+	map signal from TPMSTirePrsLowIO_HS to application TPMSTirePrsLowIO;
+	map signal from TPMSWntrMdA_HS to application TPMSWntrMdA;
+	map signal from TrNonEmsnRltdMalfA_HS to application TrNonEmsnRltdMalfA;
+	map signal from TrShftLvrPos_HS to application TrShftLvrPos;
+	map signal from TrShftLvrPosV_HS to application TrShftLvrPosV;
+	map signal from TrShftPtrnASts_HS to application TrShftPtrnASts;
+	map signal from TrTapUpTapDwnMdSts_HS to application TrTapUpTapDwnMdSts;
+	map signal from VehLckngSta_H1_HS to application VehLckngSta;
+	map signal from VehLdShedLvl_H1_HS to application VehLdShedLvl;
+	map signal from VehOdo_H1_HS to application VehOdo;
+	map signal from VehOdoV_H1_HS to application VehOdoV;
+	map signal from VehSideLghtSts_H1_HS to application VehSideLghtSts;
+	map signal from VehSpdAvgDrvn_HS to application VehSpdAvgDrvn;
+	map signal from VehSpdAvgDrvnV_HS to application VehSpdAvgDrvnV;
+	map signal from VINBCM_H1_HS to application VINBCM;
+	map signal from VSEMd_HS to application VSEMd;
+	map signal from VSESts_HS to application VSESts;
+	map signal from wake_network_AC_HS to application wake_network_AC;
+	map signal from wake_network_ESCL_HS to application wake_network_ESCL;
+	map signal from wake_network_FICM_HS to application wake_network_FICM;
+	map signal from wake_network_TPMS_HS to application wake_network_TPMS;
+	map signal from WhlGndVelLDrvn_HS to application WhlGndVelLDrvn;
+	map signal from WhlGndVelLDrvnV_HS to application WhlGndVelLDrvnV;
+	map signal from WhlGndVelLNonDrvn_HS to application WhlGndVelLNonDrvn;
+	map signal from WhlGndVelLNonDrvnV_HS to application WhlGndVelLNonDrvnV;
+	map signal from WhlGndVelRDrvn_HS to application WhlGndVelRDrvn;
+	map signal from WhlGndVelRDrvnV_HS to application WhlGndVelRDrvnV;
+	map signal from WhlGndVelRNonDrvn_HS to application WhlGndVelRNonDrvn;
+	map signal from WhlGndVelRNonDrvnV_HS to application WhlGndVelRNonDrvnV;
+	map signal from stale constant 200 to application busoff_decrement_time;
+	map signal from stale constant 5 to application busoff_max;
+	map signal from stale constant 50 to application busoff_time;
+	map signal from stale constant 100 to application busoff_wait_time;
+	map signal from stale constant 1500 to application communication_timeout_time_slave;
+	map signal from stale constant 12 to application fixed_frame_normal_period;
+	map signal from stale constant 1 to application fixed_frame_startup_period;
+	map signal from stale constant 100 to application keep_network_timeout_time_slave;
+	map signal from stale constant 50 to application keep_net_alive_time_master;
+	map signal from stale constant 28673 to application local_signal_config_id;
+	map signal from stale constant 100 to application m;
+	map signal from stale constant 26 to application master_timeout_time_sec_master;
+	map signal from stale constant 20 to application monitoring_timeout_time_master;
+	map signal from stale constant 10 to application n;
+	map signal from stale constant { 0x34, 0x01, 0x06, 0x10, 0x31, 0x22, 0x58, 0x07 } to application NCFRefNoIPK;
+	map signal from stale constant 100 to application remoteframe_timeout_time;
+	map signal from stale constant 4 to application short_time_recovery_num;
+	map signal from stale constant 10 to application startup_time_sec_master;
+	map signal from stale constant false to application stay_in_busoff;
+	map signal from stale constant false to application stay_in_expulsion;
+	map signal from stale constant 24 to application wait_for_network_sleep_time_master;
+	map signal from stale constant 28 to application wait_for_network_sleep_time_slave;
+	map signal from stale constant 14 to application wakeup_network_signal_time_slave;
+	map signal from stale constant 20 to application wakeup_network_time_slave;
+	map signal from stale constant 4 to application wakeup_pending_time_master;
+	map signal from stale constant 10 to application wakeup_pending_time_sec_master;
+	map signal from stale constant 20 to application wakeup_pending_time_slave;
+	map signal from stale constant 14 to application wake_network_signal_time_slave;
+
+/* Instruments/IPK_LIN3 */
+	map signal from application MasterReqB0 to MasterReqB0_L3;
+	map signal from application MasterReqB1 to MasterReqB1_L3;
+	map signal from application MasterReqB2 to MasterReqB2_L3;
+	map signal from application MasterReqB3 to MasterReqB3_L3;
+	map signal from application MasterReqB4 to MasterReqB4_L3;
+	map signal from application MasterReqB5 to MasterReqB5_L3;
+	map signal from application MasterReqB6 to MasterReqB6_L3;
+	map signal from application MasterReqB7 to MasterReqB7_L3;
+	map signal from application LowAcurcVehSpdAvg to LowAcurcVehSpdAvg_L3;
+	map signal from application MstrSysPwrMd to MstrSysPwrMd_L3;
+	map signal from application TrShftLvrPosV_l5 to TrShftLvrPosV_l5_L3;
+	map signal from application TrShftLvrPos_l5 to TrShftLvrPos_l5_L3;
+	map signal from SlaveRespB0_L3 to application SlaveRespB0;
+	map signal from SlaveRespB1_L3 to application SlaveRespB1;
+	map signal from SlaveRespB2_L3 to application SlaveRespB2;
+	map signal from SlaveRespB3_L3 to application SlaveRespB3;
+	map signal from SlaveRespB4_L3 to application SlaveRespB4;
+	map signal from SlaveRespB5_L3 to application SlaveRespB5;
+	map signal from SlaveRespB6_L3 to application SlaveRespB6;
+	map signal from SlaveRespB7_L3 to application SlaveRespB7;
+	map signal from PDCCofignSts_L_L3 to application PDCCofignSts_L;
+	map signal from PDCOverVolFlt_L_L3 to application PDCOverVolFlt_L;
+	map signal from PDCRespEr_L_L3 to application PDCRespEr_L;
+	map signal from PDCRLSnsrFlt_L_L3 to application PDCRLSnsrFlt_L;
+	map signal from PDCRrMidLSnsrFlt_L_L3 to application PDCRrMidLSnsrFlt_L;
+	map signal from PDCRrMidRSnsrFlt_L_L3 to application PDCRrMidRSnsrFlt_L;
+	map signal from PDCRRSnsrFlt_L_L3 to application PDCRRSnsrFlt_L;
+	map signal from PDCSysSts_L_L3 to application PDCSysSts_L;
+	map signal from PDCUnderVolFlt_L_L3 to application PDCUnderVolFlt_L;
+	map signal from RLObsRng_L_L3 to application RLObsRng_L;
+	map signal from RrMidLObsRng_L_L3 to application RrMidLObsRng_L;
+	map signal from RrMidRObsRng_L_L3 to application RrMidRObsRng_L;
+	map signal from RrObsDist_L_L3 to application RrObsDist_L;
+	map signal from RRObsRng_L_L3 to application RRObsRng_L;
+	map signal from RrPDCAudWrnng_L_L3 to application RrPDCAudWrnng_L;
+
+/* Gateways */
+
+/* Initialisation Values */
+	initial value BatSOC = 187;
+	initial value BatVol = 16383;
+	initial value EnASSSta = 1;
+	initial value FLTirePrs = 55;
+	initial value FLTireTem = 45;
+	initial value FRTirePrs = 55;
+	initial value FRTireTem = 45;
+	initial value MusSrcMd = 15;
+	initial value NavDircn = 63;
+	initial value NavDist = 32767;
+	initial value RdoFrqcVal = 65535;
+	initial value RLTirePrs = 55;
+	initial value RLTireTem = 45;
+	initial value RRTirePrs = 55;
+	initial value RRTireTem = 45;
+	initial value signal_config_id = 28673;
+	initial value SysPwrMdV = 1;
+	initial value TPMSAutoLoctnCm = true;
+	initial value TPMSIdficnLrnCm = true;
+	initial value VehLckngSta = 7;
+	initial value VINBCM = { 0xff, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+	initial value WhlGndVelLDrvnV = 1;
+	initial value WhlGndVelLNonDrvnV = 1;
+	initial value WhlGndVelRDrvnV = 1;
+	initial value WhlGndVelRNonDrvnV = 1;
+	initial value sm_signal_config_id_h1 = 28673;

@@ -1,0 +1,656 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_gpio_main.dbo -source=r_gpio_main.c -o .\obj\gh_00008j01.o -list=.\obj\r_gpio_main.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+Source File: r_gpio_main.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c ..\..\..\..\..\macro\gpio\src\r_gpio_main.c -o
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+                         112 --		.\obj\r_gpio_main.o
+                         113 --Source File:   ..\..\..\..\..\macro\gpio\src\r_gpio_main.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:58 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2: ****************************************************************************
+                         126 --3: PROJECT : GPIO driver
+                         127 --4: FILE    : $Id: r_gpio_main.c 7402 2016-01-27 15:43:39Z florian.zimmermann $
+                         128 --5: ============================================================================
+                         129 --6: DESCRIPTION
+                         130 --7: Driver for GPIO macro
+                         131 --8: ============================================================================
+                         132 --9:                             C O P Y R I G H T
+                         133 --10: ============================================================================
+                         134 --11:                        Copyright (c) 2013 - 2014
+                         135 --12:                                   by
+                         136 --13:                        Renesas Electronics (Europe) GmbH.
+                         137 --14:                            Arcadiastrasse 10
+                         138 --15:                           D-40472 Duesseldorf
+                         139 --16:                                Germany
+                         140 --17:                           All rights reserved.
+                         141 --18: ============================================================================
+                         142 --19: Purpose: only for testing, not for mass production
+                         143 --21: DISCLAIMER
+                         144 --23: LICENSEE has read, understood and accepted the terms and conditions defined in
+                         145 --24: the license agreement, especially the usage rights. In any case, it is
+                         146 --25: LICENSEE's responsibility to make sure that any user of the software complies
+                         147 --26: with the terms and conditions of the signed license agreement.
+                         148 --28: SAMPLE CODE is not part of the licensed software, as such it must not be used in
+                         149 --29: mass-production applications. It can only be used for evaluation and
+                         150 --30: demonstration purposes at customer's premises listed in the signed license
+                         151 --31: agreement.
+                         152 --33: ****************************************************************************
+                         153 --34: */
+                         154 --37: /***********************************************************************************************
+                         155 --38:                             Macro description
+                         156 --39: GPIO functions 
+                         157 --40: Set/reset read pin
+                         158 --41: Configure and activcate external portpin interrupts  
+                         159 --43: */
+                         160 --45: /*******************************************************************************
+                         161 --46:   Section: Includes
+                         162 --47: */
+                         163 --48: #include "r_typedefs.h"
+                         164 --49: #include "r_gpio_api.h"
+                         165 --50: #include "r_gpio_sys.h"
+                         166 --54: /*******************************************************************************
+                         167 --55:   Section: Local Functions
+                         168 --56: */
+                         169 --57: /*******************************************************************************
+                         170 --58:   Section: Global Functions
+                         171 --59: */
+                         172 --61: /*******************************************************************************
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+                         173 --62:   Function: R_GPIO_Init
+                         174 --64:   See: r_gpio_api.h for details
+                         175 --65: */
+                         176 --67: void R_GPIO_Init(void) 
+                         177 	.text
+                         178 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gpio_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740386..0::
+                         179 	.align	2
+                         180 	.global	_R_GPIO_Init
+                         181 _R_GPIO_Init:
+                         182 --	    .bf
+                         183 .LDW01:
+                         184 --68: {
+                         185 --69: }
+00000000 0000            186 	nop
+                         187 --	    .ef
+                         188 .LDW11:
+00000002 7f00            189 	jmp	[lp]
+                         190 	.type	_R_GPIO_Init,@function
+                         191 	.size	_R_GPIO_Init,.-_R_GPIO_Init
+                         192 	.align	2
+                         193 .LDW21:
+                         194 
+                         195 	.section ".bss","awb"
+                         196 .L24:
+                         197 	.type	.L24,@object
+                         198 	.size	.L24,0
+                         199 	.data
+                         200 	.text
+                         201 
+                         202 
+                         203 --71: /*******************************************************************************
+                         204 --72:   Function: R_GPIO_DeInit
+                         205 --74:   See: r_gpio_api.h for details
+                         206 --75: */
+                         207 --77: void R_GPIO_DeInit(void) 
+                         208 	.align	2
+                         209 	.align	2
+                         210 	.global	_R_GPIO_DeInit
+                         211 _R_GPIO_DeInit:
+                         212 --	    .bf
+                         213 .LDW31:
+                         214 --78: {
+                         215 --79: }
+00000004 0000            216 	nop
+                         217 --	    .ef
+                         218 .LDW41:
+00000006 7f00            219 	jmp	[lp]
+                         220 	.type	_R_GPIO_DeInit,@function
+                         221 	.size	_R_GPIO_DeInit,.-_R_GPIO_DeInit
+                         222 	.align	2
+                         223 .LDW51:
+                         224 
+                         225 	.section ".bss","awb"
+                         226 .L56:
+                         227 	.type	.L56,@object
+                         228 	.size	.L56,0
+                         229 	.data
+                         230 	.text
+                         231 
+                         232 
+                         233 --81: /*******************************************************************************
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+                         234 --82:   Function: R_GPIO_PinRead
+                         235 --84:   See: r_gpio_api.h for details
+                         236 --85: */
+                         237 --87:  uint8_t R_GPIO_PinRead(int32_t Port, uint8_t Pin)
+                         238 	.align	2
+                         239 	.align	2
+                         240 	.global	_R_GPIO_PinRead
+                         241 _R_GPIO_PinRead:
+00000008 8007e100        242 	prepare	{r28,r29,r31},0
+0000000c 06e8            243 	mov	r6,r29
+0000000e c7e6ff00        244 	andi	255,r7,r28
+                         245 --	    .bf
+                         246 .LDW61:
+                         247 --88: {
+                         248 --89:     return R_SYS_GPIO_GetPin(Port, Pin);
+00000012 1d30            249 	mov	r29,r6
+00000014 1c38            250 	mov	r28,r7
+                         251 	jarl	_R_SYS_GPIO_GetPin,lp
+                         251 <EXPANSION BEGIN>
+                         251 jarl22 _R_SYS_GPIO_GetPin , lp 
+00000016 80ff0000*       251 <EXPANSION END>
+0000001a 8a00            252 	zxb	r10
+                         253 --	    .ef
+                         254 .LDW71:
+                         255 --line90
+                         256 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gpio_main.1::
+                         257 .LDWlin1:
+0000001c 4006ff00        258 	dispose	0,{r28,r29,r31},[lp]
+                         259 	.type	_R_GPIO_PinRead,@function
+                         260 	.size	_R_GPIO_PinRead,.-_R_GPIO_PinRead
+                         261 	.align	2
+                         262 .LDW81:
+                         263 
+                         264 --_Port	r29	param
+                         265 --_Pin	r28	param
+                         266 
+                         267 	.section ".bss","awb"
+                         268 .L88:
+                         269 	.type	.L88,@object
+                         270 	.size	.L88,0
+                         271 	.data
+                         272 	.text
+                         273 
+                         274 --90: }
+                         275 
+                         276 --92: /*******************************************************************************
+                         277 --93:   Function: R_GPIO_PinDirection
+                         278 --95:   See: r_gpio_api.h for details
+                         279 --96: */
+                         280 --97: void R_GPIO_PinDirection(int32_t Port, uint8_t Pin, uint8_t Dir)
+                         281 	.align	2
+                         282 	.align	2
+                         283 	.global	_R_GPIO_PinDirection
+                         284 _R_GPIO_PinDirection:
+00000020 8007e110        285 	prepare	{r27,r28,r29,r31},0
+00000024 06e8            286 	mov	r6,r29
+00000026 c7e6ff00        287 	andi	255,r7,r28
+0000002a c8deff00        288 	andi	255,r8,r27
+                         289 --	    .bf
+                         290 .LDW91:
+                         291 --98: {
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+                         292 --99:     R_SYS_GPIO_PinDirection(Port, Pin, Dir);
+0000002e 1d30            293 	mov	r29,r6
+00000030 1c38            294 	mov	r28,r7
+00000032 1b40            295 	mov	r27,r8
+                         296 	jarl	_R_SYS_GPIO_PinDirection,lp
+                         296 <EXPANSION BEGIN>
+                         296 jarl22 _R_SYS_GPIO_PinDirection , lp 
+00000034 80ff0000*       296 <EXPANSION END>
+                         297 --100: }
+                         298 --line100
+                         299 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gpio_main.2::
+                         300 .LDWlin2:
+00000038 0000            301 	nop
+                         302 --	    .ef
+                         303 .LDW02:
+0000003a 4006ff10        304 	dispose	0,{r27,r28,r29,r31},[lp]
+                         305 	.type	_R_GPIO_PinDirection,@function
+                         306 	.size	_R_GPIO_PinDirection,.-_R_GPIO_PinDirection
+                         307 	.align	2
+                         308 .LDW12:
+                         309 
+                         310 --_Port	r29	param
+                         311 --_Pin	r28	param
+                         312 --_Dir	r27	param
+                         313 
+                         314 	.section ".bss","awb"
+                         315 .L122:
+                         316 	.type	.L122,@object
+                         317 	.size	.L122,0
+                         318 	.data
+                         319 	.text
+                         320 
+                         321 
+                         322 --102: /*******************************************************************************
+                         323 --103:   Function: R_GPIO_R_GPIO_WritePin
+                         324 --105:   See: r_gpio_api.h for details
+                         325 --106: */
+                         326 --108: void R_GPIO_WritePin(int32_t Port, uint8_t Pin, uint8_t Value)
+                         327 	.align	2
+                         328 	.align	2
+                         329 	.global	_R_GPIO_WritePin
+                         330 _R_GPIO_WritePin:
+0000003e 8007e110        331 	prepare	{r27,r28,r29,r31},0
+00000042 06e8            332 	mov	r6,r29
+00000044 c7e6ff00        333 	andi	255,r7,r28
+00000048 c8deff00        334 	andi	255,r8,r27
+                         335 --	    .bf
+                         336 .LDW22:
+                         337 --109: {
+                         338 --110:      R_SYS_GPIO_SetPin(Port, Pin, Value);
+0000004c 1d30            339 	mov	r29,r6
+0000004e 1c38            340 	mov	r28,r7
+00000050 1b40            341 	mov	r27,r8
+                         342 	jarl	_R_SYS_GPIO_SetPin,lp
+                         342 <EXPANSION BEGIN>
+                         342 jarl22 _R_SYS_GPIO_SetPin , lp 
+00000052 80ff0000*       342 <EXPANSION END>
+                         343 --111: }
+                         344 --line111
+                         345 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gpio_main.3::
+                         346 .LDWlin3:
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+00000056 0000            347 	nop
+                         348 --	    .ef
+                         349 .LDW32:
+00000058 4006ff10        350 	dispose	0,{r27,r28,r29,r31},[lp]
+                         351 	.type	_R_GPIO_WritePin,@function
+                         352 	.size	_R_GPIO_WritePin,.-_R_GPIO_WritePin
+                         353 	.align	2
+                         354 .LDW42:
+                         355 
+                         356 --_Port	r29	param
+                         357 --_Pin	r28	param
+                         358 --_Value	r27	param
+                         359 
+                         360 	.section ".bss","awb"
+                         361 .L154:
+                         362 	.type	.L154,@object
+                         363 	.size	.L154,0
+                         364 	.data
+                         365 	.text
+                         366 
+                         367 
+                         368 --113: /*******************************************************************************
+                         369 --114:   Function: R_GPIO_TogglePin
+                         370 --116:   See: r_gpio_api.h for details
+                         371 --117: */
+                         372 --119: void R_GPIO_TogglePin(int32_t Port, uint8_t Pin)
+                         373 	.align	2
+                         374 	.align	2
+                         375 	.global	_R_GPIO_TogglePin
+                         376 _R_GPIO_TogglePin:
+0000005c 8007e100        377 	prepare	{r28,r29,r31},0
+00000060 06e8            378 	mov	r6,r29
+00000062 c7e6ff00        379 	andi	255,r7,r28
+                         380 --	    .bf
+                         381 .LDW52:
+                         382 --120: {
+                         383 --121:      R_SYS_GPIO_InvPin(Port, Pin);
+00000066 1d30            384 	mov	r29,r6
+00000068 1c38            385 	mov	r28,r7
+                         386 	jarl	_R_SYS_GPIO_InvPin,lp
+                         386 <EXPANSION BEGIN>
+                         386 jarl22 _R_SYS_GPIO_InvPin , lp 
+0000006a 80ff0000*       386 <EXPANSION END>
+                         387 --122: }
+                         388 --line122
+                         389 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gpio_main.4::
+                         390 .LDWlin4:
+0000006e 0000            391 	nop
+                         392 --	    .ef
+                         393 .LDW62:
+00000070 4006ff00        394 	dispose	0,{r28,r29,r31},[lp]
+                         395 	.type	_R_GPIO_TogglePin,@function
+                         396 	.size	_R_GPIO_TogglePin,.-_R_GPIO_TogglePin
+                         397 	.align	2
+                         398 .LDW72:
+                         399 
+                         400 --_Port	r29	param
+                         401 --_Pin	r28	param
+                         402 
+                         403 	.section ".bss","awb"
+                         404 .L186:
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+                         405 	.type	.L186,@object
+                         406 	.size	.L186,0
+                         407 	.data
+                         408 	.text
+                         409 
+                         410 
+                         411 --124: /*******************************************************************************
+                         412 --125:   Function: R_GPIO_PortRead
+                         413 --127:   See: r_gpio_api.h for details
+                         414 --128: */
+                         415 --130:  uint16_t R_GPIO_PortRead(int32_t Port) 
+                         416 	.align	2
+                         417 	.align	2
+                         418 	.global	_R_GPIO_PortRead
+                         419 _R_GPIO_PortRead:
+00000074 80076100        420 	prepare	{r29,r31},0
+00000078 06e8            421 	mov	r6,r29
+                         422 --	    .bf
+                         423 .LDW82:
+                         424 --131: {
+                         425 --132:     return R_SYS_GPIO_GetPort(Port);
+0000007a 1d30            426 	mov	r29,r6
+                         427 	jarl	_R_SYS_GPIO_GetPort,lp
+                         427 <EXPANSION BEGIN>
+                         427 jarl22 _R_SYS_GPIO_GetPort , lp 
+0000007c 80ff0000*       427 <EXPANSION END>
+00000080 ca00            428 	zxh	r10
+                         429 --	    .ef
+                         430 .LDW92:
+                         431 --line133
+                         432 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gpio_main.5::
+                         433 .LDWlin5:
+00000082 40067f00        434 	dispose	0,{r29,r31},[lp]
+                         435 	.type	_R_GPIO_PortRead,@function
+                         436 	.size	_R_GPIO_PortRead,.-_R_GPIO_PortRead
+                         437 	.align	2
+                         438 .LDW03:
+                         439 
+                         440 --_Port	r29	param
+                         441 
+                         442 	.section ".bss","awb"
+                         443 .L216:
+                         444 	.type	.L216,@object
+                         445 	.size	.L216,0
+                         446 	.data
+                         447 	.text
+                         448 
+                         449 --133: }
+                         450 
+                         451 --135: /*******************************************************************************
+                         452 --136:   Function: R_GPIO_WritePort
+                         453 --138:   See: r_gpio_api.h for details
+                         454 --139: */
+                         455 --141: void R_GPIO_WritePort(int32_t Port, uint16_t Mask, uint16_t Value) 
+                         456 	.align	2
+                         457 	.align	2
+                         458 	.global	_R_GPIO_WritePort
+                         459 _R_GPIO_WritePort:
+00000086 8007e110        460 	prepare	{r27,r28,r29,r31},0
+0000008a 06e8            461 	mov	r6,r29
+0000008c c7e6ffff        462 	andi	65535,r7,r28
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+00000090 c8deffff        463 	andi	65535,r8,r27
+                         464 --	    .bf
+                         465 .LDW13:
+                         466 --142: {
+                         467 --143:     R_SYS_GPIO_WritePort(Port, Mask, Value);
+00000094 1d30            468 	mov	r29,r6
+00000096 1c38            469 	mov	r28,r7
+00000098 1b40            470 	mov	r27,r8
+                         471 	jarl	_R_SYS_GPIO_WritePort,lp
+                         471 <EXPANSION BEGIN>
+                         471 jarl22 _R_SYS_GPIO_WritePort , lp 
+0000009a 80ff0000*       471 <EXPANSION END>
+                         472 --144: }
+                         473 --line144
+                         474 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gpio_main.6::
+                         475 .LDWlin6:
+0000009e 0000            476 	nop
+                         477 --	    .ef
+                         478 .LDW23:
+000000a0 4006ff10        479 	dispose	0,{r27,r28,r29,r31},[lp]
+                         480 	.type	_R_GPIO_WritePort,@function
+                         481 	.size	_R_GPIO_WritePort,.-_R_GPIO_WritePort
+                         482 	.align	2
+                         483 .LDW33:
+                         484 
+                         485 --_Port	r29	param
+                         486 --_Mask	r28	param
+                         487 --_Value	r27	param
+                         488 
+                         489 	.section ".bss","awb"
+                         490 .L250:
+                         491 	.type	.L250,@object
+                         492 	.size	.L250,0
+                         493 	.data
+                         494 	.text
+                         495 
+                         496 
+                         497 --146: /*******************************************************************************
+                         498 --147:   Function: R_GPIO_TogglePort
+                         499 --149:   See: r_gpio_api.h for details
+                         500 --150: */
+                         501 --152: void R_GPIO_TogglePort(int32_t Port, uint16_t Mask) 
+                         502 	.align	2
+                         503 	.align	2
+                         504 	.global	_R_GPIO_TogglePort
+                         505 _R_GPIO_TogglePort:
+000000a4 8007e100        506 	prepare	{r28,r29,r31},0
+000000a8 06e8            507 	mov	r6,r29
+000000aa c7e6ffff        508 	andi	65535,r7,r28
+                         509 --	    .bf
+                         510 .LDW43:
+                         511 --153: {
+                         512 --154:      R_SYS_GPIO_InvPort(Port);
+000000ae 1d30            513 	mov	r29,r6
+                         514 	jarl	_R_SYS_GPIO_InvPort,lp
+                         514 <EXPANSION BEGIN>
+                         514 jarl22 _R_SYS_GPIO_InvPort , lp 
+000000b0 80ff0000*       514 <EXPANSION END>
+                         515 --155: }
+                         516 --line155
+                         517 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gpio_main.7::
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+                         518 .LDWlin7:
+000000b4 0000            519 	nop
+                         520 --	    .ef
+                         521 .LDW53:
+000000b6 4006ff00        522 	dispose	0,{r28,r29,r31},[lp]
+                         523 	.type	_R_GPIO_TogglePort,@function
+                         524 	.size	_R_GPIO_TogglePort,.-_R_GPIO_TogglePort
+                         525 	.align	2
+                         526 .LDW63:
+                         527 
+                         528 --_Port	r29	param
+                         529 --_Mask	r28	param
+                         530 
+                         531 	.section ".bss","awb"
+                         532 .L282:
+                         533 	.type	.L282,@object
+                         534 	.size	.L282,0
+                         535 	.data
+                         536 	.text
+                         537 
+                         538 
+                         539 --158: /*******************************************************************************
+                         540 --159:   Function: R_GPIO_IOResetBuffer
+                         541 --161:   See: r_gpio_api.h for details
+                         542 --162: */
+                         543 --164: void R_GPIO_IOReset(uint8_t SetRelease)
+                         544 	.align	2
+                         545 	.align	2
+                         546 	.global	_R_GPIO_IOReset
+                         547 _R_GPIO_IOReset:
+000000ba 80076100        548 	prepare	{r29,r31},0
+000000be c6eeff00        549 	andi	255,r6,r29
+                         550 --	    .bf
+                         551 .LDW73:
+                         552 --165: {
+                         553 --166:     R_SYS_GPIO_IOReset(SetRelease);
+000000c2 1d30            554 	mov	r29,r6
+                         555 	jarl	_R_SYS_GPIO_IOReset,lp
+                         555 <EXPANSION BEGIN>
+                         555 jarl22 _R_SYS_GPIO_IOReset , lp 
+000000c4 80ff0000*       555 <EXPANSION END>
+                         556 --167: }
+                         557 --line167
+                         558 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gpio_main.8::
+                         559 .LDWlin8:
+000000c8 0000            560 	nop
+                         561 --	    .ef
+                         562 .LDW83:
+000000ca 40067f00        563 	dispose	0,{r29,r31},[lp]
+                         564 	.type	_R_GPIO_IOReset,@function
+                         565 	.size	_R_GPIO_IOReset,.-_R_GPIO_IOReset
+                         566 	.align	2
+                         567 .LDW93:
+                         568 
+                         569 --_SetRelease	r29	param
+                         570 
+                         571 	.section ".bss","awb"
+                         572 .L314:
+                         573 	.type	.L314,@object
+                         574 	.size	.L314,0
+                         575 	.data
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008j01.si
+                         576 	.text
+                         577 
+                         578 	.align	2
+                         579 
+                         580 	.data
+                         581 	.ghsnote version,14
+                         582 	.ghsnote tools,3
+                         583 	.ghsnote options,144
+                         584 	.text
+                         585 	.align	2
+                         586 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gpio_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740386..0::
+                         587 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

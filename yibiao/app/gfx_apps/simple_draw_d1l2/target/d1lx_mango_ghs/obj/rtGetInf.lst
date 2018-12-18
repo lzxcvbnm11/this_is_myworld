@@ -1,0 +1,529 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\rtGetInf.dbo -source=rtGetInf.c -o .\obj\gh_00001u01.o -list=.\obj\rtGetInf.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si
+Source File: rtGetInf.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Common\rtGetInf.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si
+                         112 --		-o .\obj\rtGetInf.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Common\rtGetInf.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:21 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2:  * File: rtGetInf.c
+                         126 --3:  *
+                         127 --4:  * Code generated for Simulink model 'FuelLevelAlgorithm_V2'.
+                         128 --5:  *
+                         129 --6:  * Model version                  : 1.310
+                         130 --7:  * Simulink Coder version         : 8.6 (R2014a) 27-Dec-2013
+                         131 --8:  * C/C++ source code generated on : Mon Dec 11 13:32:48 2017
+                         132 --9:  *
+                         133 --10:  * Target selection: ert.tlc
+                         134 --11:  * Embedded hardware selection: Generic->32-bit Embedded Processor
+                         135 --12:  * Code generation objectives: Unspecified
+                         136 --13:  * Validation result: Not run
+                         137 --14:  */
+                         138 --16: /*
+                         139 --17:  * Abstract:
+                         140 --18:  *      Function to intialize non-finite, Inf
+                         141 --19:  */
+                         142 --20: #include "rtGetInf.h"
+                         143 --21: #define NumBitsPerChar                 8U
+                         144 --23: /*
+                         145 --24:  * Initialize rtInf needed by the generated code.
+                         146 --25:  * Inf is initialized as non-signaling. Assumes IEEE.
+                         147 --26:  */
+                         148 --27: DBL rtGetInf(void)
+                         149 	.text
+                         150 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CrtGetInf...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740361..0::
+                         151 	.align	2
+                         152 	.global	_rtGetInf
+                         153 _rtGetInf:
+00000000 8a07e130        154 	prepare	{r26,r27,r28,r29,r31},5
+00000004 40d6f07f        155 	movhi	hi(2146435072),zero,r26
+                         156 --	    .bf
+                         157 .LDW01:
+                         158 --28: {
+                         159 --29:   size_t bitsPerReal = sizeof(DBL) * (NumBitsPerChar);
+00000008 20de4000        160 	movea	64,zero,r27
+                         161 --30:   DBL inf = 0.0;
+0000000c 00ea            162 	mov	0,r29
+0000000e 00e2            163 	mov	0,r28
+                         164 --31:   if (bitsPerReal == 32U) {
+00000010 1b06e0ff        165 	addi	-32,r27,zero
+00000014 ea05*           166 	bne	.L4
+                         167 --32:     inf = rtGetInfF();
+                         168 --line32
+                         169 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CrtGetInf.1::
+                         170 .LDWlin1:
+                         171 	jarl	_rtGetInfF,lp
+                         171 <EXPANSION BEGIN>
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si
+                         171 jarl22 _rtGetInfF , lp 
+00000016 80ff4800*       171 <EXPANSION END>
+0000001a e25752e4        172 	cvtf.sd	r10,r28
+0000001e c51d*           173 	br	.L6
+                         174 .L4:
+                         175 --33:   } else {
+                         176 --	    .bs
+                         177 .LDW11:
+                         178 --34:     U16 one = 1U;
+                         179 --line34
+                         180 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CrtGetInf.2::
+                         181 .LDWlin2:
+00000020 010a            182 	mov	1,r1
+00000022 630f0200        183 	st.h	r1,2[sp]
+                         184 --35:     enum {
+                         185 --36:       LittleEndian,
+                         186 --37:       BigEndian
+                         187 --38:     } machByteOrder = (*((U8 *) &one) == 1U) ? LittleEndian : BigEndian;
+00000026 83770300        188 	ld.bu	2[sp],r14
+0000002a 6172            189 	cmp	1,r14
+0000002c ea0f0000        190 	setfne	r1
+                         191 --39:     switch (machByteOrder) {
+00000030 610a            192 	cmp	1,r1
+00000032 ab15*           193 	bh	.L6
+00000034 990d*           194 	bnl	.L12
+                         195 --40:      case LittleEndian:
+                         196 --41:       {
+                         197 --	    .bs
+                         198 .LDW21:
+                         199 --42:         union {
+                         200 --43:           LittleEndianIEEEDouble bitVal;
+                         201 --44:           DBL fltVal;
+                         202 --45:         } tmpVal;
+                         203 --47:         tmpVal.bitVal.words.wordH = 0x7FF00000U;
+                         204 --line47
+                         205 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CrtGetInf.3::
+                         206 .LDWlin3:
+00000036 63d71100        207 	st.w	r26,16[sp]
+                         208 --48:         tmpVal.bitVal.words.wordL = 0x00000000U;
+0000003a 63070d00        209 	st.w	zero,12[sp]
+                         210 --49:         inf = tmpVal.fltVal;
+0000003e a307c9e00000    211 	ld.dw	12[sp],r28
+                         212 --50:         break;
+00000044 950d*           213 	br	.L6
+                         214 .L12:
+                         215 --	    .es
+                         216 .LDW31:
+                         217 --51:       }
+                         218 --53:      case BigEndian:
+                         219 --54:       {
+                         220 --	    .bs
+                         221 .LDW41:
+                         222 --55:         union {
+                         223 --56:           BigEndianIEEEDouble bitVal;
+                         224 --57:           DBL fltVal;
+                         225 --58:         } tmpVal;
+                         226 --60:         tmpVal.bitVal.words.wordH = 0x7FF00000U;
+                         227 --line60
+                         228 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CrtGetInf.4::
+                         229 .LDWlin4:
+00000046 63d70500        230 	st.w	r26,4[sp]
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si
+                         231 --61:         tmpVal.bitVal.words.wordL = 0x00000000U;
+0000004a 63070900        232 	st.w	zero,8[sp]
+                         233 --62:         inf = tmpVal.fltVal;
+0000004e a30749e00000    234 	ld.dw	4[sp],r28
+                         235 --63:         break;
+00000054 0000            236 	nop
+                         237 --	    .es
+                         238 .LDW51:
+                         239 .L10:
+                         240 --	    .es
+                         241 .LDW61:
+                         242 .L6:
+                         243 --64:       }
+                         244 --65:     }
+                         245 --66:   }
+                         246 --68:   return inf;
+00000056 1c50            247 	mov	r28,r10
+00000058 1d58            248 	mov	r29,r11
+                         249 --	    .ef
+                         250 .LDW71:
+0000005a 4a06ff30        251 	dispose	5,{r26,r27,r28,r29,r31},[lp]
+                         252 	.type	_rtGetInf,@function
+                         253 	.size	_rtGetInf,.-_rtGetInf
+                         254 	.align	2
+                         255 .LDW81:
+                         256 --_bitsPerReal	r27	local
+                         257 --_inf	r28	local
+                         258 --_one	2[sp]	local
+                         259 --_machByteOrder	r1	local
+                         260 --_tmpVal	12[sp]	local
+                         261 --_tmpVal	4[sp]	local
+                         262 
+                         263 	.section ".bss","awb"
+                         264 .L58:
+                         265 	.type	.L58,@object
+                         266 	.size	.L58,0
+                         267 	.data
+                         268 	.text
+                         269 
+                         270 --69: }
+                         271 
+                         272 --71: /*
+                         273 --72:  * Initialize rtInfF needed by the generated code.
+                         274 --73:  * Inf is initialized as non-signaling. Assumes IEEE.
+                         275 --74:  */
+                         276 --75: real32_T rtGetInfF(void)
+                         277 	.align	2
+                         278 	.align	2
+                         279 	.global	_rtGetInfF
+                         280 _rtGetInfF:
+0000005e 5c1a            281 	add	-4,sp
+                         282 --	    .bf
+                         283 .LDW91:
+                         284 --76: {
+                         285 --77:   IEEESingle infF;
+                         286 --78:   infF.wordL.wordLuint = 0x7F800000U;
+00000060 400e807f        287 	movhi	hi(2139095040),zero,r1
+00000064 630f0100        288 	st.w	r1,0[sp]
+                         289 --79:   return infF.wordL.wordLreal;
+00000068 23570100        290 	ld.w	0[sp],r10
+                         291 --	    .ef
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si
+                         292 .LDW02:
+0000006c 441a            293 	add	4,sp
+0000006e 7f00            294 	jmp	[lp]
+                         295 	.type	_rtGetInfF,@function
+                         296 	.size	_rtGetInfF,.-_rtGetInfF
+                         297 	.align	2
+                         298 .LDW12:
+                         299 --_infF	0[sp]	local
+                         300 
+                         301 	.section ".bss","awb"
+                         302 .L138:
+                         303 	.type	.L138,@object
+                         304 	.size	.L138,0
+                         305 	.data
+                         306 	.text
+                         307 
+                         308 --80: }
+                         309 
+                         310 --82: /*
+                         311 --83:  * Initialize rtMinusInf needed by the generated code.
+                         312 --84:  * Inf is initialized as non-signaling. Assumes IEEE.
+                         313 --85:  */
+                         314 --86: DBL rtGetMinusInf(void)
+                         315 	.align	2
+                         316 	.align	2
+                         317 	.global	_rtGetMinusInf
+                         318 _rtGetMinusInf:
+00000070 8a07e110        319 	prepare	{r27,r28,r29,r31},5
+                         320 --	    .bf
+                         321 .LDW22:
+                         322 --87: {
+                         323 --88:   size_t bitsPerReal = sizeof(DBL) * (NumBitsPerChar);
+00000074 20de4000        324 	movea	64,zero,r27
+                         325 --89:   DBL minf = 0.0;
+00000078 00ea            326 	mov	0,r29
+0000007a 00e2            327 	mov	0,r28
+                         328 --90:   if (bitsPerReal == 32U) {
+0000007c 1b06e0ff        329 	addi	-32,r27,zero
+00000080 ea05*           330 	bne	.L155
+                         331 --91:     minf = rtGetMinusInfF();
+                         332 --line91
+                         333 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CrtGetInf.5::
+                         334 .LDWlin5:
+                         335 	jarl	_rtGetMinusInfF,lp
+                         335 <EXPANSION BEGIN>
+                         335 jarl22 _rtGetMinusInfF , lp 
+00000082 80ff5000*       335 <EXPANSION END>
+00000086 e25752e4        336 	cvtf.sd	r10,r28
+0000008a 8525*           337 	br	.L157
+                         338 .L155:
+                         339 --92:   } else {
+                         340 --	    .bs
+                         341 .LDW32:
+                         342 --93:     U16 one = 1U;
+                         343 --line93
+                         344 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CrtGetInf.6::
+                         345 .LDWlin6:
+0000008c 010a            346 	mov	1,r1
+0000008e 630f0200        347 	st.h	r1,2[sp]
+                         348 --94:     enum {
+                         349 --95:       LittleEndian,
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si
+                         350 --96:       BigEndian
+                         351 --97:     } machByteOrder = (*((U8 *) &one) == 1U) ? LittleEndian : BigEndian;
+00000092 83770300        352 	ld.bu	2[sp],r14
+00000096 6172            353 	cmp	1,r14
+00000098 ea0f0000        354 	setfne	r1
+                         355 --98:     switch (machByteOrder) {
+0000009c 610a            356 	cmp	1,r1
+0000009e eb15*           357 	bh	.L157
+000000a0 b90d*           358 	bnl	.L163
+                         359 --99:      case LittleEndian:
+                         360 --100:       {
+                         361 --	    .bs
+                         362 .LDW42:
+                         363 --101:         union {
+                         364 --102:           LittleEndianIEEEDouble bitVal;
+                         365 --103:           DBL fltVal;
+                         366 --104:         } tmpVal;
+                         367 --106:         tmpVal.bitVal.words.wordH = 0xFFF00000U;
+                         368 --line106
+                         369 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CrtGetInf.7::
+                         370 .LDWlin7:
+000000a2 4076f0ff        371 	movhi	hi(-1048576),zero,r14
+000000a6 63771100        372 	st.w	r14,16[sp]
+                         373 --107:         tmpVal.bitVal.words.wordL = 0x00000000U;
+000000aa 63070d00        374 	st.w	zero,12[sp]
+                         375 --108:         minf = tmpVal.fltVal;
+000000ae a307c9e00000    376 	ld.dw	12[sp],r28
+                         377 --109:         break;
+000000b4 b50d*           378 	br	.L157
+                         379 .L163:
+                         380 --	    .es
+                         381 .LDW52:
+                         382 --110:       }
+                         383 --112:      case BigEndian:
+                         384 --113:       {
+                         385 --	    .bs
+                         386 .LDW62:
+                         387 --114:         union {
+                         388 --115:           BigEndianIEEEDouble bitVal;
+                         389 --116:           DBL fltVal;
+                         390 --117:         } tmpVal;
+                         391 --119:         tmpVal.bitVal.words.wordH = 0xFFF00000U;
+                         392 --line119
+                         393 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CrtGetInf.8::
+                         394 .LDWlin8:
+000000b6 4076f0ff        395 	movhi	hi(-1048576),zero,r14
+000000ba 63770500        396 	st.w	r14,4[sp]
+                         397 --120:         tmpVal.bitVal.words.wordL = 0x00000000U;
+000000be 63070900        398 	st.w	zero,8[sp]
+                         399 --121:         minf = tmpVal.fltVal;
+000000c2 a30749e00000    400 	ld.dw	4[sp],r28
+                         401 --122:         break;
+000000c8 0000            402 	nop
+                         403 --	    .es
+                         404 .LDW72:
+                         405 .L161:
+                         406 --	    .es
+                         407 .LDW82:
+                         408 .L157:
+                         409 --123:       }
+                         410 --124:     }
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si
+                         411 --125:   }
+                         412 --127:   return minf;
+000000ca 1c50            413 	mov	r28,r10
+000000cc 1d58            414 	mov	r29,r11
+                         415 --	    .ef
+                         416 .LDW92:
+000000ce 4a06ff10        417 	dispose	5,{r27,r28,r29,r31},[lp]
+                         418 	.type	_rtGetMinusInf,@function
+                         419 	.size	_rtGetMinusInf,.-_rtGetMinusInf
+                         420 	.align	2
+                         421 .LDW03:
+                         422 --_bitsPerReal	r27	local
+                         423 --_minf	r28	local
+                         424 --_one	2[sp]	local
+                         425 --_machByteOrder	r1	local
+                         426 --_tmpVal	12[sp]	local
+                         427 --_tmpVal	4[sp]	local
+                         428 
+                         429 	.section ".bss","awb"
+                         430 .L218:
+                         431 	.type	.L218,@object
+                         432 	.size	.L218,0
+                         433 	.data
+                         434 	.text
+                         435 
+                         436 --128: }
+                         437 
+                         438 --130: /*
+                         439 --131:  * Initialize rtMinusInfF needed by the generated code.
+                         440 --132:  * Inf is initialized as non-signaling. Assumes IEEE.
+                         441 --133:  */
+                         442 --134: real32_T rtGetMinusInfF(void)
+                         443 	.align	2
+                         444 	.align	2
+                         445 	.global	_rtGetMinusInfF
+                         446 _rtGetMinusInfF:
+000000d2 5c1a            447 	add	-4,sp
+                         448 --	    .bf
+                         449 .LDW13:
+                         450 --135: {
+                         451 --136:   IEEESingle minfF;
+                         452 --137:   minfF.wordL.wordLuint = 0xFF800000U;
+000000d4 400e80ff        453 	movhi	hi(-8388608),zero,r1
+000000d8 630f0100        454 	st.w	r1,0[sp]
+                         455 --138:   return minfF.wordL.wordLreal;
+000000dc 23570100        456 	ld.w	0[sp],r10
+                         457 --	    .ef
+                         458 .LDW23:
+000000e0 441a            459 	add	4,sp
+000000e2 7f00            460 	jmp	[lp]
+                         461 	.type	_rtGetMinusInfF,@function
+                         462 	.size	_rtGetMinusInfF,.-_rtGetMinusInfF
+                         463 	.align	2
+                         464 .LDW33:
+                         465 --_minfF	0[sp]	local
+                         466 
+                         467 	.section ".bss","awb"
+                         468 .L298:
+                         469 	.type	.L298,@object
+                         470 	.size	.L298,0
+                         471 	.data
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001u01.si
+                         472 	.text
+                         473 
+                         474 --139: }
+                         475 	.align	2
+                         476 
+                         477 	.data
+                         478 	.ghsnote version,14
+                         479 	.ghsnote tools,3
+                         480 	.ghsnote options,144
+                         481 	.text
+                         482 	.align	2
+                         483 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CrtGetInf...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740361..0::
+                         484 .rh850_flags DOUBLE,REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,DOUBLE64,G3M

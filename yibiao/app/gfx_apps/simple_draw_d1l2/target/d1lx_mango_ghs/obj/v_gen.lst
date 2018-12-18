@@ -1,0 +1,544 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\v_gen.dbo -source=v_gen.c -o .\obj\gh_000081c1.o -list=.\obj\v_gen.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si
+Source File: v_gen.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\COM\vtp\v_gen.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si
+                         112 --		-o .\obj\v_gen.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\COM\vtp\v_gen.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:37 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 	.section ".rodata","a"
+                         125 	.align	4
+                         126 	.global	_v_imf_inot
+00000000 00              127 _v_imf_inot:	.space	1
+00000001 00              128 	.space	1
+00000002 00              129 	.space	1
+00000003 00              130 	.space	1
+00000004 00              131 	.space	1
+00000005 00              132 	.space	1
+00000006 00              133 	.space	1
+00000007 ff              134 	.byte	255
+                         135 	.type	_v_imf_inot,@object
+                         136 	.size	_v_imf_inot,8
+                         137 	.global	_v_imf_array
+00000008 dc3c3f00        138 _v_imf_array:	.byte	220,60,63,0
+                         139 	.type	_v_imf_array,@object
+                         140 	.size	_v_imf_array,4
+                         141 	.global	_v_fixed_checksum
+0000000c 0020d386        142 _v_fixed_checksum:	.byte	0,32,211,134
+                         143 	.type	_v_fixed_checksum,@object
+                         144 	.size	_v_fixed_checksum,4
+                         145 	.global	_v_target_checksum
+00000010 75ad47f8        146 _v_target_checksum:	.byte	117,173,71,248
+                         147 	.type	_v_target_checksum,@object
+                         148 	.size	_v_target_checksum,4
+                         149 	.global	_v_flag_byte_count
+00000014 0400            150 _v_flag_byte_count:	.byte	4,0
+                         151 	.type	_v_flag_byte_count,@object
+                         152 	.size	_v_flag_byte_count,2
+                         153 	.global	_v_overrun_flag_byte_count
+00000016 0100            154 _v_overrun_flag_byte_count:	.byte	1,0
+                         155 	.type	_v_overrun_flag_byte_count,@object
+                         156 	.size	_v_overrun_flag_byte_count,2
+                         157 	.global	_v_use_enhanced_timeouts
+00000018 00              158 _v_use_enhanced_timeouts:	.byte	0
+                         159 	.type	_v_use_enhanced_timeouts,@object
+                         160 	.size	_v_use_enhanced_timeouts,1
+00000019 000000          161 	.space	3
+                         162 	.global	_v_overrun_flags
+0000001c 00000000        163 _v_overrun_flags:	.space	4
+00000020 00000000        164 	.space	4
+00000024 00000000        165 	.space	4
+00000028 00000000        166 	.space	4
+0000002c 00000000        167 	.space	4
+00000030 00              168 	.space	1
+00000031 00              169 	.space	1
+00000032 0000            170 	.space	2
+                         171 	.type	_v_overrun_flags,@object
+                         172 	.size	_v_overrun_flags,24
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si
+                         173 	.global	_v_timeout_flags
+00000034 00000000        174 _v_timeout_flags:	.space	4
+00000038 00000000        175 	.space	4
+0000003c 00000000        176 	.space	4
+00000040 00000000        177 	.space	4
+00000044 00000000        178 	.space	4
+00000048 00              179 	.space	1
+00000049 00              180 	.space	1
+0000004a 0000            181 	.space	2
+                         182 	.type	_v_timeout_flags,@object
+                         183 	.size	_v_timeout_flags,24
+                         184 	.global	_v_timeouts
+0000004c 00000000        185 _v_timeouts:	.space	4
+00000050 00000000        186 	.space	4
+00000054 00000000        187 	.space	4
+00000058 00000000        188 	.space	4
+0000005c 00000000        189 	.space	4
+00000060 00              190 	.space	1
+00000061 00              191 	.space	1
+00000062 0000            192 	.space	2
+00000064 00000000        193 	.space	4
+00000068 00              194 	.space	1
+00000069 000000          195 	.space	3
+                         196 	.type	_v_timeouts,@object
+                         197 	.size	_v_timeouts,32
+                         198 	.global	_v_imf_not
+0000006c ffffffff        199 _v_imf_not:	.byte	255,255,255,255
+00000070 ffff            200 	.byte	255,255
+00000072 0000            201 	.space	2
+00000074 14001500        202 	.byte	20,0,21,0
+00000078 ffffffff        203 	.byte	255,255,255,255
+                         204 	.type	_v_imf_not,@object
+                         205 	.size	_v_imf_not,16
+                         206 	.global	_v_controllers
+0000007c 4c3d3f00        207 _v_controllers:	.byte	76,61,63,0
+00000080 0080bffe        208 	.byte	0,128,191,254
+00000084 58413f00        209 	.byte	88,65,63,0
+00000088 00000000        210 	.space	4
+0000008c 00000000*       211 	.word	_v_rscan_send_frame
+00000090 00000000*       212 	.word	_v_rscan_send_frames
+00000094 00000000*       213 	.word	_v_rscan_read_frame
+00000098 00000000*       214 	.word	_v_rscan_read_frames
+0000009c 00000000*       215 	.word	_v_rscan_tx_pending
+000000a0 00000000*       216 	.word	_v_rscan_set_mode
+000000a4 00000000*       217 	.word	_v_rscan_rx_interrupt_handler
+000000a8 00000000*       218 	.word	_v_rscan_init_controller
+000000ac 00000000*       219 	.word	_v_rscan_connect_controller
+000000b0 00000000*       220 	.word	_v_rscan_disconnect_controller
+000000b4 00000000*       221 	.word	_v_rscan_controller_active
+000000b8 00000000*       222 	.word	_v_rscan_controller_ioctl
+000000bc 00000000*       223 	.word	_v_rscan_tx_interrupt_handler
+000000c0 00000000*       224 	.word	_v_rscan_busoff_interrupt_handler
+000000c4 00000000*       225 	.word	_v_rscan_check_frame
+000000c8 00000000        226 	.space	4
+000000cc b880bffe        227 	.byte	184,128,191,254
+000000d0 01              228 	.byte	1
+000000d1 00              229 	.space	1
+000000d2 0000            230 	.space	2
+000000d4 9c3f3f00        231 	.byte	156,63,63,0
+000000d8 1c81bffe        232 	.byte	28,129,191,254
+000000dc 0c443f00        233 	.byte	12,68,63,0
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si
+000000e0 40443f00        234 	.byte	64,68,63,0
+000000e4 00000000*       235 	.word	_v_rlin3_send_frame
+000000e8 00000000*       236 	.word	_v_rlin3_send_frames
+000000ec 00000000*       237 	.word	_v_rlin3_read_frame
+000000f0 00000000*       238 	.word	_v_rlin3_read_frames
+000000f4 00000000*       239 	.word	_v_rlin3_tx_pending
+000000f8 00000000*       240 	.word	_v_rlin3_set_mode
+000000fc 00000000*       241 	.word	_v_rlin3_rx_interrupt_handler
+00000100 00000000*       242 	.word	_v_rlin3_init_controller
+00000104 00000000*       243 	.word	_v_rlin3_connect_controller
+00000108 00000000*       244 	.word	_v_rlin3_disconnect_controller
+0000010c 00000000*       245 	.word	_v_rlin3_controller_active
+00000110 00000000*       246 	.word	_v_rlin3_controller_ioctl
+00000114 00000000*       247 	.word	_v_rlin3_tx_interrupt_handler
+00000118 00000000        248 	.space	4
+0000011c 00000000*       249 	.word	_v_rlin3_check_frame
+00000120 00000000        250 	.space	4
+00000124 d481bffe        251 	.byte	212,129,191,254
+00000128 0401            252 	.byte	4,1
+0000012a 0000            253 	.space	2
+0000012c 00000000        254 	.space	4
+00000130 00000000        255 	.space	4
+00000134 00000000        256 	.space	4
+00000138 00000000        257 	.space	4
+0000013c 00000000        258 	.space	4
+00000140 00000000        259 	.space	4
+00000144 00000000        260 	.space	4
+00000148 00000000        261 	.space	4
+0000014c 00000000        262 	.space	4
+00000150 00000000        263 	.space	4
+00000154 00000000        264 	.space	4
+00000158 00000000        265 	.space	4
+0000015c 00000000        266 	.space	4
+00000160 00000000        267 	.space	4
+00000164 00000000        268 	.space	4
+00000168 00000000        269 	.space	4
+0000016c 00000000        270 	.space	4
+00000170 00000000        271 	.space	4
+00000174 00000000        272 	.space	4
+00000178 00000000        273 	.space	4
+0000017c 00000000        274 	.space	4
+00000180 00              275 	.space	1
+00000181 00              276 	.space	1
+00000182 0000            277 	.space	2
+                         278 	.type	_v_controllers,@object
+                         279 	.size	_v_controllers,264
+                         280 	.global	_v_flags
+00000184 ec143f00        281 _v_flags:	.byte	236,20,63,0
+00000188 00000000*       282 	.word	_v_flag_buffer
+0000018c 00000000        283 	.space	4
+00000190 00000000*       284 	.word	_v_flags
+00000194 0c3d3f00        285 	.byte	12,61,63,0
+00000198 0101            286 	.byte	1,1
+0000019a 0000            287 	.space	2
+0000019c e0053f00        288 	.byte	224,5,63,0
+000001a0 00000000*       289 	.word	_v_flag_buffer
+000001a4 00000000        290 	.space	4
+000001a8 00000000        291 	.space	4
+000001ac 00000000        292 	.space	4
+000001b0 0201            293 	.byte	2,1
+000001b2 0000            294 	.space	2
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si
+000001b4 c81d3f00        295 	.byte	200,29,63,0
+000001b8 00000000*       296 	.word	_v_flag_buffer
+000001bc 00000000        297 	.space	4
+000001c0 00000000        298 	.space	4
+000001c4 00000000        299 	.space	4
+000001c8 0401            300 	.byte	4,1
+000001ca 0000            301 	.space	2
+000001cc f8083f00        302 	.byte	248,8,63,0
+000001d0 00000000*       303 	.word	_v_flag_buffer
+000001d4 00000000        304 	.space	4
+000001d8 00000000        305 	.space	4
+000001dc 00000000        306 	.space	4
+000001e0 0801            307 	.byte	8,1
+000001e2 0000            308 	.space	2
+000001e4 a41d3f00        309 	.byte	164,29,63,0
+000001e8 00000000*       310 	.word	_v_flag_buffer
+000001ec 00000000        311 	.space	4
+000001f0 00000000        312 	.space	4
+000001f4 00000000        313 	.space	4
+000001f8 1001            314 	.byte	16,1
+000001fa 0000            315 	.space	2
+000001fc ec023f00        316 	.byte	236,2,63,0
+00000200 00000000*       317 	.word	_v_flag_buffer
+00000204 00000000        318 	.space	4
+00000208 00000000        319 	.space	4
+0000020c 00000000        320 	.space	4
+00000210 2001            321 	.byte	32,1
+00000212 0000            322 	.space	2
+00000214 380b3f00        323 	.byte	56,11,63,0
+00000218 00000000*       324 	.word	_v_flag_buffer
+0000021c 00000000        325 	.space	4
+00000220 00000000        326 	.space	4
+00000224 00000000        327 	.space	4
+00000228 4001            328 	.byte	64,1
+0000022a 0000            329 	.space	2
+0000022c f81a3f00        330 	.byte	248,26,63,0
+00000230 00000000*       331 	.word	_v_flag_buffer
+00000234 00000000        332 	.space	4
+00000238 00000000        333 	.space	4
+0000023c 00000000        334 	.space	4
+00000240 8001            335 	.byte	128,1
+00000242 0000            336 	.space	2
+00000244 e0203f00        337 	.byte	224,32,63,0
+00000248 00000000*       338 	.word	_v_flag_buffer+1
+0000024c 00000000        339 	.space	4
+00000250 00000000        340 	.space	4
+00000254 00000000        341 	.space	4
+00000258 0101            342 	.byte	1,1
+0000025a 0000            343 	.space	2
+0000025c 04213f00        344 	.byte	4,33,63,0
+00000260 00000000*       345 	.word	_v_flag_buffer+1
+00000264 00000000        346 	.space	4
+00000268 00000000        347 	.space	4
+0000026c 00000000        348 	.space	4
+00000270 0201            349 	.byte	2,1
+00000272 0000            350 	.space	2
+00000274 14143f00        351 	.byte	20,20,63,0
+00000278 00000000*       352 	.word	_v_flag_buffer+1
+0000027c 00000000        353 	.space	4
+00000280 00000000        354 	.space	4
+00000284 00000000        355 	.space	4
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si
+00000288 0401            356 	.byte	4,1
+0000028a 0000            357 	.space	2
+0000028c 3c013f00        358 	.byte	60,1,63,0
+00000290 00000000*       359 	.word	_v_flag_buffer+1
+00000294 00000000        360 	.space	4
+00000298 00000000        361 	.space	4
+0000029c 00000000        362 	.space	4
+000002a0 0801            363 	.byte	8,1
+000002a2 0000            364 	.space	2
+000002a4 40003f00        365 	.byte	64,0,63,0
+000002a8 00000000*       366 	.word	_v_flag_buffer+1
+000002ac 00000000        367 	.space	4
+000002b0 00000000        368 	.space	4
+000002b4 00000000        369 	.space	4
+000002b8 1001            370 	.byte	16,1
+000002ba 0000            371 	.space	2
+000002bc a41d3f00        372 	.byte	164,29,63,0
+000002c0 00000000*       373 	.word	_v_flag_buffer+1
+000002c4 00000000        374 	.space	4
+000002c8 00000000        375 	.space	4
+000002cc 00000000        376 	.space	4
+000002d0 2001            377 	.byte	32,1
+000002d2 0000            378 	.space	2
+000002d4 4c213f00        379 	.byte	76,33,63,0
+000002d8 00000000*       380 	.word	_v_flag_buffer+1
+000002dc 00000000        381 	.space	4
+000002e0 00000000        382 	.space	4
+000002e4 00000000        383 	.space	4
+000002e8 4001            384 	.byte	64,1
+000002ea 0000            385 	.space	2
+000002ec f01c3f00        386 	.byte	240,28,63,0
+000002f0 00000000*       387 	.word	_v_flag_buffer+1
+000002f4 00000000        388 	.space	4
+000002f8 00000000        389 	.space	4
+000002fc 00000000        390 	.space	4
+00000300 8001            391 	.byte	128,1
+00000302 0000            392 	.space	2
+00000304 b4103f00        393 	.byte	180,16,63,0
+00000308 00000000*       394 	.word	_v_flag_buffer+2
+0000030c 00000000        395 	.space	4
+00000310 00000000        396 	.space	4
+00000314 00000000        397 	.space	4
+00000318 0101            398 	.byte	1,1
+0000031a 0000            399 	.space	2
+0000031c ec383f00        400 	.byte	236,56,63,0
+00000320 00000000*       401 	.word	_v_flag_buffer+2
+00000324 00000000        402 	.space	4
+00000328 00000000        403 	.space	4
+0000032c 00000000        404 	.space	4
+00000330 0201            405 	.byte	2,1
+00000332 0000            406 	.space	2
+00000334 bc203f00        407 	.byte	188,32,63,0
+00000338 00000000*       408 	.word	_v_flag_buffer+2
+0000033c 00000000        409 	.space	4
+00000340 00000000        410 	.space	4
+00000344 00000000        411 	.space	4
+00000348 0401            412 	.byte	4,1
+0000034a 0000            413 	.space	2
+0000034c 6c073f00        414 	.byte	108,7,63,0
+00000350 00000000*       415 	.word	_v_flag_buffer+2
+00000354 00000000        416 	.space	4
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si
+00000358 00000000        417 	.space	4
+0000035c 00000000        418 	.space	4
+00000360 0801            419 	.byte	8,1
+00000362 0000            420 	.space	2
+00000364 dc063f00        421 	.byte	220,6,63,0
+00000368 00000000*       422 	.word	_v_flag_buffer+2
+0000036c 00000000        423 	.space	4
+00000370 00000000*       424 	.word	_v_flags+480
+00000374 1c3d3f00        425 	.byte	28,61,63,0
+00000378 1001            426 	.byte	16,1
+0000037a 0000            427 	.space	2
+0000037c 00073f00        428 	.byte	0,7,63,0
+00000380 00000000*       429 	.word	_v_flag_buffer+2
+00000384 00000000        430 	.space	4
+00000388 00000000*       431 	.word	_v_flags+504
+0000038c 2c3d3f00        432 	.byte	44,61,63,0
+00000390 2001            433 	.byte	32,1
+00000392 0000            434 	.space	2
+00000394 5c143f00        435 	.byte	92,20,63,0
+00000398 00000000*       436 	.word	_v_flag_buffer+2
+0000039c 00000000        437 	.space	4
+000003a0 00000000        438 	.space	4
+000003a4 00000000        439 	.space	4
+000003a8 4001            440 	.byte	64,1
+000003aa 0000            441 	.space	2
+000003ac 00000000        442 	.space	4
+000003b0 00000000        443 	.space	4
+000003b4 00000000        444 	.space	4
+000003b8 00000000        445 	.space	4
+000003bc 00000000        446 	.space	4
+000003c0 00              447 	.space	1
+000003c1 00              448 	.space	1
+000003c2 0000            449 	.space	2
+                         450 	.type	_v_flags,@object
+                         451 	.size	_v_flags,576
+                         452 	.global	_v_transmit_flags
+000003c4 f0253f00        453 _v_transmit_flags:	.byte	240,37,63,0
+000003c8 00000000*       454 	.word	_v_flag_buffer+2
+000003cc 00000000        455 	.space	4
+000003d0 00000000        456 	.space	4
+000003d4 00000000        457 	.space	4
+000003d8 8001            458 	.byte	128,1
+000003da 0000            459 	.space	2
+000003dc fc343f00        460 	.byte	252,52,63,0
+000003e0 00000000*       461 	.word	_v_flag_buffer+3
+000003e4 00000000        462 	.space	4
+000003e8 00000000        463 	.space	4
+000003ec 00000000        464 	.space	4
+000003f0 0101            465 	.byte	1,1
+000003f2 0000            466 	.space	2
+000003f4 84373f00        467 	.byte	132,55,63,0
+000003f8 00000000*       468 	.word	_v_flag_buffer+3
+000003fc 00000000        469 	.space	4
+00000400 00000000        470 	.space	4
+00000404 00000000        471 	.space	4
+00000408 0201            472 	.byte	2,1
+0000040a 0000            473 	.space	2
+0000040c 00000000        474 	.space	4
+00000410 00000000        475 	.space	4
+00000414 00000000        476 	.space	4
+00000418 00000000        477 	.space	4
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000081c1.si
+0000041c 00000000        478 	.space	4
+00000420 00              479 	.space	1
+00000421 00              480 	.space	1
+00000422 0000            481 	.space	2
+                         482 	.type	_v_transmit_flags,@object
+                         483 	.size	_v_transmit_flags,96
+                         484 	.data
+                         485 	.section ".bss","awb"
+                         486 	.global	_v_flag_buffer
+00000000 00000000        487 _v_flag_buffer:	.space	4
+                         488 	.type	_v_flag_buffer,@object
+                         489 	.size	_v_flag_buffer,4
+                         490 	.global	_v_overrun_flag_buffer
+00000004 00              491 _v_overrun_flag_buffer:	.space	1
+                         492 	.type	_v_overrun_flag_buffer,@object
+                         493 	.size	_v_overrun_flag_buffer,1
+                         494 	.global	_v_ctrl_connected
+00000005 00              495 _v_ctrl_connected:	.space	1
+                         496 	.type	_v_ctrl_connected,@object
+                         497 	.size	_v_ctrl_connected,1
+                         498 	.data
+                         499 	.ghsnote version,14
+                         500 	.ghsnote tools,3
+                         501 	.ghsnote options,144
+                         502 	.text
+                         503 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cv_gen...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740371..0::
+                         504 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cv_gen...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740371..0::
+                         505 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

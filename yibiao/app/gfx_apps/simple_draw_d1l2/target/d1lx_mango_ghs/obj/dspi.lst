@@ -1,0 +1,2333 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\dspi.dbo -source=dspi.c -o .\obj\gh_000083s1.o -list=.\obj\dspi.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+Source File: dspi.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\DSPI\dspi.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                         112 --		-o .\obj\dspi.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\DSPI\dspi.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:26 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : dspi.c
+                         128 --5: * Description : Driver source file of DSPI.
+                         129 --6: * Author: Qinhui.Shen
+                         130 --7: * Date: 2016-12-04
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "dspi_info.inc"
+                         134 --13: /*--------------- Global variable definition and initialization -----------------*/
+                         135 --14: static BOOL Dspi_Status = FALSE;
+                         136 --16: /*---------------------- Implementation of module ---------------------*/
+                         137 --17: /***************************************************
+                         138 --18: * Function: DSPI_Init
+                         139 --19: * Description: DSPI initialization.
+                         140 --20: * Parameters: none
+                         141 --21: * Returns:
+                         142 --22: *
+                         143 --23: * $Create & Verlog:$
+                         144 --24: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                         145 --25: ****************************************************/
+                         146 --26: void DSPI_Init(void)
+                         147 	.text
+                         148 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740366..0::
+                         149 	.align	2
+                         150 	.global	_DSPI_Init
+                         151 _DSPI_Init:
+00000000 80072100        152 	prepare	{r31},0
+                         153 --	    .bf
+                         154 .LDW01:
+                         155 --27: {
+                         156 --28:     dspi_LCD_init();
+                         157 	jarl	_dspi_LCD_init,lp
+                         157 <EXPANSION BEGIN>
+                         157 jarl22 _dspi_LCD_init , lp 
+00000004 80ffb803*       157 <EXPANSION END>
+                         158 --29:     dspi_EEP_init();
+                         159 --line29
+                         160 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.1::
+                         161 .LDWlin1:
+                         162 	jarl	_dspi_EEP_init,lp
+                         162 <EXPANSION BEGIN>
+                         162 jarl22 _dspi_EEP_init , lp 
+00000008 80ff0c02*       162 <EXPANSION END>
+                         163 --31:     #ifdef _DSPI_INIT_FLASH_
+                         164 --32:     dspi_FLASH_init();
+                         165 --line32
+                         166 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.2::
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                         167 .LDWlin2:
+                         168 	jarl	_dspi_FLASH_init,lp
+                         168 <EXPANSION BEGIN>
+                         168 jarl22 _dspi_FLASH_init , lp 
+0000000c 80ffb402*       168 <EXPANSION END>
+                         169 --33:     #endif
+                         170 --35:     Dspi_Status = TRUE;
+                         171 --line35
+                         172 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.3::
+                         173 .LDWlin3:
+00000010 2b0600000000*   174 	mov	_Dspi_Status,r11
+00000016 010a            175 	mov	1,r1
+00000018 4b0f0000        176 	st.b	r1,0[r11]
+                         177 --36: }
+0000001c 0000            178 	nop
+                         179 --	    .ef
+                         180 .LDW11:
+0000001e 40063f00        181 	dispose	0,{r31},[lp]
+                         182 	.type	_DSPI_Init,@function
+                         183 	.size	_DSPI_Init,.-_DSPI_Init
+                         184 	.align	2
+                         185 .LDW21:
+                         186 
+                         187 	.data
+                         188 .L32:
+                         189 	.type	.L32,@object
+                         190 	.size	.L32,0
+                         191 	.global	_Dspi_Status..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                         192 _Dspi_Status..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                         193 	.type	_Dspi_Status..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@object
+                         194 	.size	_Dspi_Status..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,1
+00000000 00              195 _Dspi_Status:	.byte	0
+                         196 	.type	_Dspi_Status,@object
+                         197 	.size	_Dspi_Status,1
+                         198 	.section ".rodata","a"
+                         199 	.align	4
+                         200 	.global	_DspiList..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                         201 _DspiList..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                         202 	.type	_DspiList..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@object
+                         203 	.size	_DspiList..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,24
+00000000 01              204 _DspiList:	.byte	1
+00000001 000000          205 	.space	3
+00000004 01000000        206 	.byte	1,0,0,0
+00000008 01              207 	.byte	1
+00000009 000000          208 	.space	3
+0000000c 00000000        209 	.space	4
+00000010 01              210 	.byte	1
+00000011 000000          211 	.space	3
+00000014 00000000        212 	.space	4
+                         213 	.type	_DspiList,@object
+                         214 	.size	_DspiList,24
+                         215 	.data
+                         216 	.text
+                         217 
+                         218 
+                         219 --38: /***************************************************
+                         220 --39: * Function: DSPI_GetInitStatus
+                         221 --40: * Description: get DSPI module initialization status.
+                         222 --41: * Parameters:
+                         223 --42: *               Input:
+                         224 --43: *                      SPIHdl -specify the handle of the DSPI.
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                         225 --44: * Returns:
+                         226 --45: *           the value of the Init status.
+                         227 --46: *
+                         228 --47: * $Create & Verlog:$
+                         229 --48: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                         230 --49: ****************************************************/
+                         231 --50: U8  DSPI_GetInitStatus(DSPI_Handle_ENUM SPIHdl)
+                         232 	.align	2
+                         233 	.align	2
+                         234 	.global	_DSPI_GetInitStatus
+                         235 _DSPI_GetInitStatus:
+00000022 0670            236 	mov	r6,r14
+00000024 210600000000*   237 	mov	_Dspi_Status,r1
+                         238 --	    .bf
+                         239 .LDW31:
+                         240 --51: {
+                         241 --52:     return Dspi_Status;
+0000002a 2a0600000000*   242 	mov	_Dspi_Status,r10
+00000030 8a570100        243 	ld.bu	0[r10],r10
+                         244 --	    .ef
+                         245 .LDW41:
+00000034 7f00            246 	jmp	[lp]
+                         247 	.type	_DSPI_GetInitStatus,@function
+                         248 	.size	_DSPI_GetInitStatus,.-_DSPI_GetInitStatus
+                         249 	.align	2
+                         250 .LDW51:
+                         251 
+                         252 --_SPIHdl	r14	param
+                         253 
+                         254 	.data
+                         255 	.text
+                         256 
+                         257 --53: }
+                         258 
+                         259 --56: /***************************************************
+                         260 --57: * Function: DSPI_SPIStop
+                         261 --58: * Description: stop SPI
+                         262 --59: * Parameters:
+                         263 --60: *               Input:
+                         264 --61: *                      SPIHdl -specify the handle of the DSPI.
+                         265 --62: * Returns:
+                         266 --63: *            RET_FAIL
+                         267 --64: *            RET_OK
+                         268 --65: * $Create & Verlog:$
+                         269 --66: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                         270 --67: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                         271 --68: *  $log: only a 'return'
+                         272 --69: ****************************************************/
+                         273 --70: U8  DSPI_SPIStop(DSPI_Handle_ENUM SPIHdl)
+                         274 	.align	2
+                         275 	.align	2
+                         276 	.global	_DSPI_SPIStop
+                         277 _DSPI_SPIStop:
+00000036 0668            278 	mov	r6,r13
+00000038 210600000000*   279 	mov	_Dspi_Status,r1
+0000003e 3e06400061ff    280 	mov	-10420160,ep
+                         281 --	    .bf
+                         282 .LDW61:
+                         283 --71: {
+                         284 --72:     U8 retVal = RET_OK;
+00000044 0172            285 	mov	1,r14
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                         286 --74:     if (FALSE == Dspi_Status)
+00000046 210600000000*   287 	mov	_Dspi_Status,r1
+0000004c 810f0100        288 	ld.bu	0[r1],r1
+00000050 e009            289 	cmp	zero,r1
+00000052 ba05*           290 	bne	.L85
+                         291 --75:     {
+                         292 --76:         retVal = RET_FAIL;
+                         293 --line76
+                         294 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.4::
+                         295 .LDWlin4:
+00000054 0072            296 	mov	0,r14
+00000056 f51d*           297 	br	.L87
+                         298 .L85:
+                         299 --77:     }
+                         300 --78:     else
+                         301 --79:     {
+                         302 --80:         switch (SPIHdl)
+                         303 --line80
+                         304 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.5::
+                         305 .LDWlin5:
+00000058 0d08            306 	mov	r13,r1
+0000005a 610a            307 	cmp	1,r1
+0000005c d105*           308 	bl	.L90
+0000005e b20d*           309 	be	.L91
+00000060 620a            310 	cmp	2,r1
+00000062 fa15*           311 	bne	.L93
+00000064 f50d*           312 	br	.L92
+                         313 .L90:
+                         314 --81:         {
+                         315 --82:             case HANDLE_DSPI_EEP:
+                         316 --83:                 SET_BIT(DSPI_EEP_CS, PCR_P); /* CS = 1 */
+                         317 --line83
+                         318 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.6::
+                         319 .LDWlin6:
+00000066 3e0f5d2a        320 	ld.w	10844[ep],r1
+0000006a 810e0010        321 	ori	4096,r1,r1
+0000006e 7e0f5d2a        322 	st.w	r1,10844[ep]
+00000072 9515*           323 	br	.L87
+                         324 .L91:
+                         325 --84:                 break;
+                         326 --85:             case HANDLE_DSPI_FLASH:
+                         327 --86:                 SET_BIT(DSPI_FLASH_CS, PCR_P); /* CS = 1 */
+                         328 --line86
+                         329 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.7::
+                         330 .LDWlin7:
+00000074 3e0f0525        331 	ld.w	9476[ep],r1
+00000078 810e0010        332 	ori	4096,r1,r1
+0000007c 7e0f0525        333 	st.w	r1,9476[ep]
+00000080 a50d*           334 	br	.L87
+                         335 .L92:
+                         336 --87:                 break;
+                         337 --88:             case HANDLE_DSPI_LCD:
+                         338 --89:                 SET_BIT(DSPI_LCD_CS, PCR_P); /* CS = 1 */
+                         339 --line89
+                         340 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.8::
+                         341 .LDWlin8:
+00000082 3e0fc92a        342 	ld.w	10952[ep],r1
+00000086 810e0010        343 	ori	4096,r1,r1
+0000008a 7e0fc92a        344 	st.w	r1,10952[ep]
+0000008e b505*           345 	br	.L87
+                         346 .L93:
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                         347 --90:                 break;
+                         348 --91:             default:
+                         349 --92:                 retVal = RET_FAIL;
+                         350 --line92
+                         351 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.9::
+                         352 .LDWlin9:
+00000090 0072            353 	mov	0,r14
+00000092 0000            354 	nop
+                         355 .L87:
+                         356 --93:                 break;
+                         357 --94:         }
+                         358 --95:     }
+                         359 --96:     return retVal;
+00000094 0e50            360 	mov	r14,r10
+                         361 --	    .ef
+                         362 .LDW71:
+00000096 7f00            363 	jmp	[lp]
+                         364 	.type	_DSPI_SPIStop,@function
+                         365 	.size	_DSPI_SPIStop,.-_DSPI_SPIStop
+                         366 	.align	2
+                         367 .LDW81:
+                         368 --_retVal	r14	local
+                         369 
+                         370 --_SPIHdl	r13	param
+                         371 
+                         372 	.data
+                         373 	.text
+                         374 
+                         375 --97: }
+                         376 
+                         377 --100: /***************************************************
+                         378 --101: * Function: DSPI_SPIStart
+                         379 --102: * Description: start SPI.
+                         380 --103: * Parameters:
+                         381 --104: *               Input:
+                         382 --105: *                      SPIHdl -specify the handle of the DSPI.
+                         383 --106: * Returns:
+                         384 --107: *            RET_FAIL
+                         385 --108: *            RET_OK
+                         386 --109: *
+                         387 --110: * $Create & Verlog:$
+                         388 --111: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                         389 --112: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                         390 --113: *  $log: only a 'return'
+                         391 --114: ****************************************************/
+                         392 --115: U8  DSPI_SPIStart(DSPI_Handle_ENUM SPIHdl)
+                         393 	.align	2
+                         394 	.align	2
+                         395 	.global	_DSPI_SPIStart
+                         396 _DSPI_SPIStart:
+00000098 0668            397 	mov	r6,r13
+0000009a 210600000000*   398 	mov	_Dspi_Status,r1
+000000a0 3e06400061ff    399 	mov	-10420160,ep
+                         400 --	    .bf
+                         401 .LDW91:
+                         402 --116: {
+                         403 --117:     U8 retVal = RET_OK;
+000000a6 0172            404 	mov	1,r14
+                         405 --119:     if (FALSE == Dspi_Status)
+000000a8 210600000000*   406 	mov	_Dspi_Status,r1
+000000ae 810f0100        407 	ld.bu	0[r1],r1
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+000000b2 e009            408 	cmp	zero,r1
+000000b4 ba05*           409 	bne	.L184
+                         410 --120:     {
+                         411 --121:          retVal = RET_FAIL;
+                         412 --line121
+                         413 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.10::
+                         414 .LDWlin10:
+000000b6 0072            415 	mov	0,r14
+000000b8 a525*           416 	br	.L186
+                         417 .L184:
+                         418 --122:     }
+                         419 --123:     else
+                         420 --124:     {
+                         421 --125:         switch (SPIHdl)
+                         422 --line125
+                         423 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.11::
+                         424 .LDWlin11:
+000000ba 0d08            425 	mov	r13,r1
+000000bc 610a            426 	cmp	1,r1
+000000be d105*           427 	bl	.L189
+000000c0 c20d*           428 	be	.L190
+000000c2 620a            429 	cmp	2,r1
+000000c4 aa1d*           430 	bne	.L192
+000000c6 9515*           431 	br	.L191
+                         432 .L189:
+                         433 --126:         {
+                         434 --127:             case HANDLE_DSPI_EEP:
+                         435 --128:                 CLR_BIT(DSPI_EEP_CS, PCR_P); /* CS = 0 */
+                         436 --line128
+                         437 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.12::
+                         438 .LDWlin12:
+000000c8 3e0f5d2a        439 	ld.w	10844[ep],r1
+000000cc 2066ffef        440 	movea	-4097,zero,r12
+000000d0 4c09            441 	and	r12,r1
+000000d2 7e0f5d2a        442 	st.w	r1,10844[ep]
+000000d6 b515*           443 	br	.L186
+                         444 .L190:
+                         445 --129:                 break;
+                         446 --130:             case HANDLE_DSPI_FLASH:
+                         447 --131:                 CLR_BIT(DSPI_FLASH_CS, PCR_P); /* CS = 0 */
+                         448 --line131
+                         449 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.13::
+                         450 .LDWlin13:
+000000d8 3e0f0525        451 	ld.w	9476[ep],r1
+000000dc 2066ffef        452 	movea	-4097,zero,r12
+000000e0 4c09            453 	and	r12,r1
+000000e2 7e0f0525        454 	st.w	r1,9476[ep]
+000000e6 b50d*           455 	br	.L186
+                         456 .L191:
+                         457 --132:                 break;
+                         458 --133:             case HANDLE_DSPI_LCD:
+                         459 --134:                 CLR_BIT(DSPI_LCD_CS, PCR_P); /* CS = 0 */
+                         460 --line134
+                         461 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.14::
+                         462 .LDWlin14:
+000000e8 3e0fc92a        463 	ld.w	10952[ep],r1
+000000ec 2066ffef        464 	movea	-4097,zero,r12
+000000f0 4c09            465 	and	r12,r1
+000000f2 7e0fc92a        466 	st.w	r1,10952[ep]
+000000f6 b505*           467 	br	.L186
+                         468 .L192:
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                         469 --135:                 break;
+                         470 --136:             default:
+                         471 --137:                  retVal = RET_FAIL;
+                         472 --line137
+                         473 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.15::
+                         474 .LDWlin15:
+000000f8 0072            475 	mov	0,r14
+000000fa 0000            476 	nop
+                         477 .L186:
+                         478 --138:                 break;
+                         479 --139:         }
+                         480 --140:     }
+                         481 --141:     return retVal;
+000000fc 0e50            482 	mov	r14,r10
+                         483 --	    .ef
+                         484 .LDW02:
+000000fe 7f00            485 	jmp	[lp]
+                         486 	.type	_DSPI_SPIStart,@function
+                         487 	.size	_DSPI_SPIStart,.-_DSPI_SPIStart
+                         488 	.align	2
+                         489 .LDW12:
+                         490 --_retVal	r14	local
+                         491 
+                         492 --_SPIHdl	r13	param
+                         493 
+                         494 	.data
+                         495 	.text
+                         496 
+                         497 --142: }
+                         498 
+                         499 --146: /***************************************************
+                         500 --147: * Function: DSPI_WriteByte
+                         501 --148: * Description: Write a Byte data to DSPI
+                         502 --149: * Parameters:
+                         503 --150: *               Input:
+                         504 --151: *                      SPIHdl -specify the handle of the DSPI.
+                         505 --152: *                      data - the data that would be writting.
+                         506 --153: * Returns:
+                         507 --154: *            RET_FAIL
+                         508 --155: *            RET_OK
+                         509 --156: *
+                         510 --157: * $Create & Verlog:$
+                         511 --158: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                         512 --159: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                         513 --160: *  $log: only a 'return'
+                         514 --161: ****************************************************/
+                         515 --162: U8  DSPI_WriteByte(DSPI_Handle_ENUM SPIHdl, U8 data)
+                         516 	.align	2
+                         517 	.align	2
+                         518 	.global	_DSPI_WriteByte
+                         519 _DSPI_WriteByte:
+00000100 8207e110        520 	prepare	{r27,r28,r29,r31},1
+00000104 06e0            521 	mov	r6,r28
+00000106 c7deff00        522 	andi	255,r7,r27
+0000010a 210600000000*   523 	mov	_Dspi_Status,r1
+                         524 --	    .bf
+                         525 .LDW22:
+                         526 --163: {
+                         527 --164:     U8 retVal = RET_OK;
+00000110 01ea            528 	mov	1,r29
+                         529 --165:     U8 buf = data;
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+00000112 43df0300        530 	st.b	r27,3[sp]
+                         531 --167:     if (FALSE == Dspi_Status)
+00000116 210600000000*   532 	mov	_Dspi_Status,r1
+0000011c 810f0100        533 	ld.bu	0[r1],r1
+00000120 e009            534 	cmp	zero,r1
+00000122 ba05*           535 	bne	.L280
+                         536 --168:     {
+                         537 --169:          retVal = RET_FAIL;
+                         538 --line169
+                         539 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.16::
+                         540 .LDWlin16:
+00000124 00ea            541 	mov	0,r29
+00000126 c50d*           542 	br	.L282
+                         543 .L280:
+                         544 --170:     }
+                         545 --171:     else if (SPIHdl >= HANDLE_DSPI_ALL)
+                         546 --line171
+                         547 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.17::
+                         548 .LDWlin17:
+00000128 63e2            549 	cmp	3,r28
+0000012a b605*           550 	blt	.L283
+                         551 --172:     {
+                         552 --173:         retVal = RET_FAIL;
+                         553 --line173
+                         554 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.18::
+                         555 .LDWlin18:
+0000012c 00ea            556 	mov	0,r29
+0000012e 850d*           557 	br	.L282
+                         558 .L283:
+                         559 --174:     }
+                         560 --175:     else
+                         561 --176:     {
+                         562 --177:         retVal = dspi_Write(SPIHdl, &buf, 1);
+                         563 --line177
+                         564 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.19::
+                         565 .LDWlin19:
+00000130 1c30            566 	mov	r28,r6
+00000132 233e0300        567 	movea	3,sp,r7
+00000136 0142            568 	mov	1,r8
+                         569 	jarl	_dspi_Write,lp
+                         569 <EXPANSION BEGIN>
+                         569 jarl22 _dspi_Write , lp 
+00000138 80ff8404*       569 <EXPANSION END>
+0000013c 0ae8            570 	mov	r10,r29
+                         571 .L282:
+                         572 --178:     }
+                         573 --179:     return retVal;
+                         574 --line179
+                         575 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.20::
+                         576 .LDWlin20:
+0000013e 1d50            577 	mov	r29,r10
+                         578 --	    .ef
+                         579 .LDW32:
+00000140 4206ff10        580 	dispose	1,{r27,r28,r29,r31},[lp]
+                         581 	.type	_DSPI_WriteByte,@function
+                         582 	.size	_DSPI_WriteByte,.-_DSPI_WriteByte
+                         583 	.align	2
+                         584 .LDW42:
+                         585 --_retVal	r29	local
+                         586 --_buf	3[sp]	local
+                         587 
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                         588 --_SPIHdl	r28	param
+                         589 --_data	r27	param
+                         590 
+                         591 	.data
+                         592 	.text
+                         593 
+                         594 --180: }
+                         595 
+                         596 --183: /***************************************************
+                         597 --184: * Function: DSPI_WriteBytes
+                         598 --185: * Description: Write Bytes data to DSPI.
+                         599 --186: * Parameters:
+                         600 --187: *               Input:
+                         601 --188: *                      SPIHdl -specify the handle of the DSPI.
+                         602 --189: *                      Data - the buffer of the datas.
+                         603 --190: *                      size - the bytes numbers of the datas want to write.
+                         604 --191: * Returns:
+                         605 --192: *            RET_FAIL
+                         606 --193: *            RET_OK
+                         607 --194: *
+                         608 --195: * $Create & Verlog:$
+                         609 --196: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                         610 --197: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                         611 --198: *  $log: only a 'return'
+                         612 --199: ****************************************************/
+                         613 --200: U8  DSPI_WriteBytes (DSPI_Handle_ENUM SPIHdl, const PU8 Data, U16 size)
+                         614 	.align	2
+                         615 	.align	2
+                         616 	.global	_DSPI_WriteBytes
+                         617 _DSPI_WriteBytes:
+00000144 8007e130        618 	prepare	{r26,r27,r28,r29,r31},0
+00000148 06e0            619 	mov	r6,r28
+0000014a 07d8            620 	mov	r7,r27
+0000014c c8d6ffff        621 	andi	65535,r8,r26
+00000150 210600000000*   622 	mov	_Dspi_Status,r1
+                         623 --	    .bf
+                         624 .LDW52:
+                         625 --201: {
+                         626 --202:     U8 retVal = RET_OK;
+00000156 01ea            627 	mov	1,r29
+                         628 --204:     if (FALSE == Dspi_Status)
+00000158 210600000000*   629 	mov	_Dspi_Status,r1
+0000015e 810f0100        630 	ld.bu	0[r1],r1
+00000162 e009            631 	cmp	zero,r1
+00000164 ba05*           632 	bne	.L344
+                         633 --205:     {
+                         634 --206:         retVal = RET_FAIL;
+                         635 --line206
+                         636 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.21::
+                         637 .LDWlin21:
+00000166 00ea            638 	mov	0,r29
+00000168 f50d*           639 	br	.L346
+                         640 .L344:
+                         641 --207:     }
+                         642 --208:     else if ((SPIHdl >= HANDLE_DSPI_ALL) || (NULL == Data) || (0 == size))
+                         643 --line208
+                         644 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.22::
+                         645 .LDWlin22:
+0000016a 63e2            646 	cmp	3,r28
+0000016c de05*           647 	bge	.L348
+0000016e e0d9            648 	cmp	zero,r27
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+00000170 b205*           649 	be	.L348
+00000172 e0d1            650 	cmp	zero,r26
+00000174 ba05*           651 	bne	.L347
+                         652 .L348:
+                         653 --209:     {
+                         654 --210:         retVal = RET_FAIL;
+                         655 --line210
+                         656 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.23::
+                         657 .LDWlin23:
+00000176 00ea            658 	mov	0,r29
+00000178 f505*           659 	br	.L346
+                         660 .L347:
+                         661 --211:     }
+                         662 --212:     else
+                         663 --213:     {
+                         664 --214:         retVal = dspi_Write(SPIHdl, Data, size);
+                         665 --line214
+                         666 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.24::
+                         667 .LDWlin24:
+0000017a 1c30            668 	mov	r28,r6
+0000017c 1b38            669 	mov	r27,r7
+0000017e 1a40            670 	mov	r26,r8
+                         671 	jarl	_dspi_Write,lp
+                         671 <EXPANSION BEGIN>
+                         671 jarl22 _dspi_Write , lp 
+00000180 80ff3c04*       671 <EXPANSION END>
+00000184 0ae8            672 	mov	r10,r29
+                         673 .L346:
+                         674 --215:     }
+                         675 --216:     return retVal;
+                         676 --line216
+                         677 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.25::
+                         678 .LDWlin25:
+00000186 1d50            679 	mov	r29,r10
+                         680 --	    .ef
+                         681 .LDW62:
+00000188 4006ff30        682 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                         683 	.type	_DSPI_WriteBytes,@function
+                         684 	.size	_DSPI_WriteBytes,.-_DSPI_WriteBytes
+                         685 	.align	2
+                         686 .LDW72:
+                         687 --_retVal	r29	local
+                         688 
+                         689 --_SPIHdl	r28	param
+                         690 --_Data	r27	param
+                         691 --_size	r26	param
+                         692 
+                         693 	.data
+                         694 	.text
+                         695 
+                         696 --217: }
+                         697 
+                         698 --219: /***************************************************
+                         699 --220: * Function: DSPI_ReadByte
+                         700 --221: * Description: read a byte from DSPI.
+                         701 --222: * Parameters:
+                         702 --223: *               Input:
+                         703 --224: *                      SPIHdl -specify the handle of the DSPI.
+                         704 --225: *                      Data - save the readed data.
+                         705 --226: * Returns:
+                         706 --227: *            RET_FAIL
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                         707 --228: *            RET_OK
+                         708 --229: *
+                         709 --230: * $Create & Verlog:$
+                         710 --231: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                         711 --232: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                         712 --233: *  $log: only a 'return'
+                         713 --234: ****************************************************/
+                         714 --235: U8  DSPI_ReadByte(DSPI_Handle_ENUM SPIHdl, PU8 Data)
+                         715 	.align	2
+                         716 	.align	2
+                         717 	.global	_DSPI_ReadByte
+                         718 _DSPI_ReadByte:
+0000018c 8007e110        719 	prepare	{r27,r28,r29,r31},0
+00000190 06e0            720 	mov	r6,r28
+00000192 07d8            721 	mov	r7,r27
+00000194 210600000000*   722 	mov	_Dspi_Status,r1
+                         723 --	    .bf
+                         724 .LDW82:
+                         725 --236: {
+                         726 --237:     U8 retVal = RET_OK;
+0000019a 01ea            727 	mov	1,r29
+                         728 --239:     if (FALSE == Dspi_Status)
+0000019c 210600000000*   729 	mov	_Dspi_Status,r1
+000001a2 810f0100        730 	ld.bu	0[r1],r1
+000001a6 e009            731 	cmp	zero,r1
+000001a8 ba05*           732 	bne	.L413
+                         733 --240:     {
+                         734 --241:         retVal = RET_FAIL;
+                         735 --line241
+                         736 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.26::
+                         737 .LDWlin26:
+000001aa 00ea            738 	mov	0,r29
+000001ac d50d*           739 	br	.L415
+                         740 .L413:
+                         741 --242:     }
+                         742 --243:     else if ((SPIHdl >= HANDLE_DSPI_ALL) || (NULL == Data))
+                         743 --line243
+                         744 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.27::
+                         745 .LDWlin27:
+000001ae 63e2            746 	cmp	3,r28
+000001b0 be05*           747 	bge	.L417
+000001b2 e0d9            748 	cmp	zero,r27
+000001b4 ba05*           749 	bne	.L416
+                         750 .L417:
+                         751 --244:     {
+                         752 --245:         retVal = RET_FAIL;
+                         753 --line245
+                         754 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.28::
+                         755 .LDWlin28:
+000001b6 00ea            756 	mov	0,r29
+000001b8 f505*           757 	br	.L415
+                         758 .L416:
+                         759 --246:     }
+                         760 --247:     else
+                         761 --248:     {
+                         762 --249:         retVal = dspi_Read(SPIHdl, Data, 1);
+                         763 --line249
+                         764 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.29::
+                         765 .LDWlin29:
+000001ba 1c30            766 	mov	r28,r6
+000001bc 1b38            767 	mov	r27,r7
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+000001be 0142            768 	mov	1,r8
+                         769 	jarl	_dspi_Read,lp
+                         769 <EXPANSION BEGIN>
+                         769 jarl22 _dspi_Read , lp 
+000001c0 80ffcc04*       769 <EXPANSION END>
+000001c4 0ae8            770 	mov	r10,r29
+                         771 .L415:
+                         772 --250:     }
+                         773 --251:     return retVal;
+                         774 --line251
+                         775 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.30::
+                         776 .LDWlin30:
+000001c6 1d50            777 	mov	r29,r10
+                         778 --	    .ef
+                         779 .LDW92:
+000001c8 4006ff10        780 	dispose	0,{r27,r28,r29,r31},[lp]
+                         781 	.type	_DSPI_ReadByte,@function
+                         782 	.size	_DSPI_ReadByte,.-_DSPI_ReadByte
+                         783 	.align	2
+                         784 .LDW03:
+                         785 --_retVal	r29	local
+                         786 
+                         787 --_SPIHdl	r28	param
+                         788 --_Data	r27	param
+                         789 
+                         790 	.data
+                         791 	.text
+                         792 
+                         793 --252: }
+                         794 
+                         795 --255: /***************************************************
+                         796 --256: * Function: DSPI_ReadBytes
+                         797 --257: * Description: read bytes from DSPI.
+                         798 --258: * Parameters:
+                         799 --259: *               Input:
+                         800 --260: *                      SPIHdl -specify the handle of the DSPI.
+                         801 --261: *                      Data - the buffer to save the readed bytes.
+                         802 --262: *                      size -  the byte numbers of the data want to read.
+                         803 --263: * Returns:
+                         804 --264: *            RET_FAIL
+                         805 --265: *            RET_OK
+                         806 --266: *
+                         807 --267: * $Create & Verlog:$
+                         808 --268: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                         809 --269: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                         810 --270: *  $log: only a 'return'
+                         811 --271: ****************************************************/
+                         812 --272: U8  DSPI_ReadBytes(DSPI_Handle_ENUM SPIHdl, PU8 Data,U16 size)
+                         813 	.align	2
+                         814 	.align	2
+                         815 	.global	_DSPI_ReadBytes
+                         816 _DSPI_ReadBytes:
+000001cc 8007e130        817 	prepare	{r26,r27,r28,r29,r31},0
+000001d0 06e0            818 	mov	r6,r28
+000001d2 07d8            819 	mov	r7,r27
+000001d4 c8d6ffff        820 	andi	65535,r8,r26
+000001d8 210600000000*   821 	mov	_Dspi_Status,r1
+                         822 --	    .bf
+                         823 .LDW13:
+                         824 --273: {
+                         825 --274:     U8 retVal = RET_OK;
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+000001de 01ea            826 	mov	1,r29
+                         827 --276:     if (FALSE == Dspi_Status)
+000001e0 210600000000*   828 	mov	_Dspi_Status,r1
+000001e6 810f0100        829 	ld.bu	0[r1],r1
+000001ea e009            830 	cmp	zero,r1
+000001ec ba05*           831 	bne	.L488
+                         832 --277:     {
+                         833 --278:         retVal = RET_FAIL;
+                         834 --line278
+                         835 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.31::
+                         836 .LDWlin31:
+000001ee 00ea            837 	mov	0,r29
+000001f0 f50d*           838 	br	.L490
+                         839 .L488:
+                         840 --279:     }
+                         841 --280:     else if ((SPIHdl >= HANDLE_DSPI_ALL) || (NULL == Data) || (0 == size))
+                         842 --line280
+                         843 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.32::
+                         844 .LDWlin32:
+000001f2 63e2            845 	cmp	3,r28
+000001f4 de05*           846 	bge	.L492
+000001f6 e0d9            847 	cmp	zero,r27
+000001f8 b205*           848 	be	.L492
+000001fa e0d1            849 	cmp	zero,r26
+000001fc ba05*           850 	bne	.L491
+                         851 .L492:
+                         852 --281:     {
+                         853 --282:         retVal = RET_FAIL;
+                         854 --line282
+                         855 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.33::
+                         856 .LDWlin33:
+000001fe 00ea            857 	mov	0,r29
+00000200 f505*           858 	br	.L490
+                         859 .L491:
+                         860 --283:     }
+                         861 --284:     else
+                         862 --285:     {
+                         863 --286:         retVal = dspi_Read(SPIHdl, Data, size);
+                         864 --line286
+                         865 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.34::
+                         866 .LDWlin34:
+00000202 1c30            867 	mov	r28,r6
+00000204 1b38            868 	mov	r27,r7
+00000206 1a40            869 	mov	r26,r8
+                         870 	jarl	_dspi_Read,lp
+                         870 <EXPANSION BEGIN>
+                         870 jarl22 _dspi_Read , lp 
+00000208 80ff8404*       870 <EXPANSION END>
+0000020c 0ae8            871 	mov	r10,r29
+                         872 .L490:
+                         873 --287:     }
+                         874 --288:     return retVal;
+                         875 --line288
+                         876 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.35::
+                         877 .LDWlin35:
+0000020e 1d50            878 	mov	r29,r10
+                         879 --	    .ef
+                         880 .LDW23:
+00000210 4006ff30        881 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                         882 	.type	_DSPI_ReadBytes,@function
+                         883 	.size	_DSPI_ReadBytes,.-_DSPI_ReadBytes
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                         884 	.align	2
+                         885 .LDW33:
+                         886 --_retVal	r29	local
+                         887 
+                         888 --_SPIHdl	r28	param
+                         889 --_Data	r27	param
+                         890 --_size	r26	param
+                         891 
+                         892 	.data
+                         893 	.text
+                         894 
+                         895 --289: }
+                         896 
+                         897 --291: /************************ private fucntion define ***************************/
+                         898 --292: /***************************************************
+                         899 --293: * Function: dspi_EEP_init
+                         900 --294: * Description: EEPROM spi hardware initialization.
+                         901 --295: * Parameters:none
+                         902 --296: * Returns: none
+                         903 --297: *
+                         904 --298: * $Create & Verlog:$
+                         905 --299: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                         906 --300: ****************************************************/
+                         907 --301: static void dspi_EEP_init(void)
+                         908 	.align	2
+                         909 	.align	2
+                         910 	.global	_dspi_EEP_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                         911 _dspi_EEP_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                         912 _dspi_EEP_init:
+00000214 3e06400061ff    913 	mov	-10420160,ep
+                         914 --	    .bf
+                         915 .LDW43:
+                         916 --302: {
+                         917 --303:     /* SO - EEP-SI */
+                         918 --304:     CLR_BIT(DSPI_EEP_MISO, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+0000021a 3e0f652a        919 	ld.w	10852[ep],r1
+0000021e 2076bfff        920 	movea	-65,zero,r14
+00000222 4e09            921 	and	r14,r1
+00000224 7e0f652a        922 	st.w	r1,10852[ep]
+                         923 --305:     SET_BIT(DSPI_EEP_MISO, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+00000228 3e0f652a        924 	ld.w	10852[ep],r1
+0000022c 810e1000        925 	ori	16,r1,r1
+00000230 7e0f652a        926 	st.w	r1,10852[ep]
+                         927 --306:     SET_BIT(DSPI_EEP_MISO, PCR_PIBC); /* =1 Enable input buffer. */
+00000234 3e0f652a        928 	ld.w	10852[ep],r1
+00000238 40760100        929 	movhi	hi(65536),zero,r14
+0000023c 0e09            930 	or	r14,r1
+0000023e 7e0f652a        931 	st.w	r1,10852[ep]
+                         932 --307:     /* SI - EEP-SO */
+                         933 --308:     CLR_BIT(DSPI_EEP_MOSI, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+00000242 3e0f612a        934 	ld.w	10848[ep],r1
+00000246 2076bfff        935 	movea	-65,zero,r14
+0000024a 4e09            936 	and	r14,r1
+0000024c 7e0f612a        937 	st.w	r1,10848[ep]
+                         938 --309:     CLR_BIT(DSPI_EEP_MOSI, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+00000250 3e0f612a        939 	ld.w	10848[ep],r1
+00000254 2076efff        940 	movea	-17,zero,r14
+00000258 4e09            941 	and	r14,r1
+0000025a 7e0f612a        942 	st.w	r1,10848[ep]
+                         943 --310:     CLR_BIT(DSPI_EEP_MOSI, PCR_P); /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+0000025e 3e0f612a        944 	ld.w	10848[ep],r1
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+00000262 2076ffef        945 	movea	-4097,zero,r14
+00000266 4e09            946 	and	r14,r1
+00000268 7e0f612a        947 	st.w	r1,10848[ep]
+                         948 --311:     /* SCK - EEP-SCK */
+                         949 --312:     CLR_BIT(DSPI_EEP_SCK, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+0000026c 3e0f692a        950 	ld.w	10856[ep],r1
+00000270 2076bfff        951 	movea	-65,zero,r14
+00000274 4e09            952 	and	r14,r1
+00000276 7e0f692a        953 	st.w	r1,10856[ep]
+                         954 --313:     CLR_BIT(DSPI_EEP_SCK, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+0000027a 3e0f692a        955 	ld.w	10856[ep],r1
+0000027e 2076efff        956 	movea	-17,zero,r14
+00000282 4e09            957 	and	r14,r1
+00000284 7e0f692a        958 	st.w	r1,10856[ep]
+                         959 --314:     SET_BIT(DSPI_EEP_SCK, PCR_P);  /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+00000288 3e0f692a        960 	ld.w	10856[ep],r1
+0000028c 810e0010        961 	ori	4096,r1,r1
+00000290 7e0f692a        962 	st.w	r1,10856[ep]
+                         963 --315:     /* nCS - EEP-CS */
+                         964 --316:     CLR_BIT(DSPI_EEP_CS, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+00000294 3e0f5d2a        965 	ld.w	10844[ep],r1
+00000298 2076bfff        966 	movea	-65,zero,r14
+0000029c 4e09            967 	and	r14,r1
+0000029e 7e0f5d2a        968 	st.w	r1,10844[ep]
+                         969 --317:     CLR_BIT (DSPI_EEP_CS, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+000002a2 3e0f5d2a        970 	ld.w	10844[ep],r1
+000002a6 2076efff        971 	movea	-17,zero,r14
+000002aa 4e09            972 	and	r14,r1
+000002ac 7e0f5d2a        973 	st.w	r1,10844[ep]
+                         974 --318:     SET_BIT(DSPI_EEP_CS, PCR_P); /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+000002b0 3e0f5d2a        975 	ld.w	10844[ep],r1
+000002b4 810e0010        976 	ori	4096,r1,r1
+000002b8 7e0f5d2a        977 	st.w	r1,10844[ep]
+                         978 --319: }
+000002bc 0000            979 	nop
+                         980 --	    .ef
+                         981 .LDW53:
+000002be 7f00            982 	jmp	[lp]
+                         983 	.type	_dspi_EEP_init,@function
+                         984 	.size	_dspi_EEP_init,.-_dspi_EEP_init
+                         985 	.type	_dspi_EEP_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@function
+                         986 	.size	_dspi_EEP_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,.-_dspi_EEP_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                         987 	.align	2
+                         988 .LDW63:
+                         989 
+                         990 	.section ".bss","awb"
+                         991 .L592:
+                         992 	.type	.L592,@object
+                         993 	.size	.L592,0
+                         994 	.data
+                         995 	.text
+                         996 
+                         997 
+                         998 --321: /***************************************************
+                         999 --322: * Function: dspi_FLASH_init
+                        1000 --323: * Description: extern FLASH spi hardware initialization.
+                        1001 --324: * Parameters:none
+                        1002 --325: * Returns: none
+                        1003 --326: *
+                        1004 --327: * $Create & Verlog:$
+                        1005 --328: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1006 --329: ****************************************************/
+                        1007 --330: static void dspi_FLASH_init(void)
+                        1008 	.align	2
+                        1009 	.align	2
+                        1010 	.global	_dspi_FLASH_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1011 _dspi_FLASH_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                        1012 _dspi_FLASH_init:
+000002c0 3e06400061ff   1013 	mov	-10420160,ep
+                        1014 --	    .bf
+                        1015 .LDW73:
+                        1016 --331: {
+                        1017 --332:     /* SO_SIO1 */
+                        1018 --333:     CLR_BIT(DSPI_FLASH_IO1_MISO, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+000002c6 3e0f0d25       1019 	ld.w	9484[ep],r1
+000002ca 2076bfff       1020 	movea	-65,zero,r14
+000002ce 4e09           1021 	and	r14,r1
+000002d0 7e0f0d25       1022 	st.w	r1,9484[ep]
+                        1023 --334:     SET_BIT(DSPI_FLASH_IO1_MISO, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+000002d4 3e0f0d25       1024 	ld.w	9484[ep],r1
+000002d8 810e1000       1025 	ori	16,r1,r1
+000002dc 7e0f0d25       1026 	st.w	r1,9484[ep]
+                        1027 --335:     SET_BIT(DSPI_FLASH_IO1_MISO, PCR_PIBC);/* =1 Enable input buffer. */
+000002e0 3e0f0d25       1028 	ld.w	9484[ep],r1
+000002e4 40760100       1029 	movhi	hi(65536),zero,r14
+000002e8 0e09           1030 	or	r14,r1
+000002ea 7e0f0d25       1031 	st.w	r1,9484[ep]
+                        1032 --336:     /* SI_SIO0 */
+                        1033 --337:     CLR_BIT(DSPI_FLASH_IO0_MOSI, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+000002ee 3e0f0925       1034 	ld.w	9480[ep],r1
+000002f2 2076bfff       1035 	movea	-65,zero,r14
+000002f6 4e09           1036 	and	r14,r1
+000002f8 7e0f0925       1037 	st.w	r1,9480[ep]
+                        1038 --338:     CLR_BIT(DSPI_FLASH_IO0_MOSI, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+000002fc 3e0f0925       1039 	ld.w	9480[ep],r1
+00000300 2076efff       1040 	movea	-17,zero,r14
+00000304 4e09           1041 	and	r14,r1
+00000306 7e0f0925       1042 	st.w	r1,9480[ep]
+                        1043 --339:     CLR_BIT(DSPI_FLASH_IO0_MOSI, PCR_P); /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+0000030a 3e0f0925       1044 	ld.w	9480[ep],r1
+0000030e 2076ffef       1045 	movea	-4097,zero,r14
+00000312 4e09           1046 	and	r14,r1
+00000314 7e0f0925       1047 	st.w	r1,9480[ep]
+                        1048 --340:     /* SCK */
+                        1049 --341:     CLR_BIT(DSPI_FLASH_SCK, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+00000318 3e0f0125       1050 	ld.w	9472[ep],r1
+0000031c 2076bfff       1051 	movea	-65,zero,r14
+00000320 4e09           1052 	and	r14,r1
+00000322 7e0f0125       1053 	st.w	r1,9472[ep]
+                        1054 --342:     CLR_BIT(DSPI_FLASH_IO0_MOSI, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+00000326 3e0f0925       1055 	ld.w	9480[ep],r1
+0000032a 2076efff       1056 	movea	-17,zero,r14
+0000032e 4e09           1057 	and	r14,r1
+00000330 7e0f0925       1058 	st.w	r1,9480[ep]
+                        1059 --343:     SET_BIT(DSPI_FLASH_IO0_MOSI, PCR_P);  /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+00000334 3e0f0925       1060 	ld.w	9480[ep],r1
+00000338 810e0010       1061 	ori	4096,r1,r1
+0000033c 7e0f0925       1062 	st.w	r1,9480[ep]
+                        1063 --344:     /* nCS  */
+                        1064 --345:     CLR_BIT(DSPI_FLASH_CS, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+00000340 3e0f0525       1065 	ld.w	9476[ep],r1
+00000344 2076bfff       1066 	movea	-65,zero,r14
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+00000348 4e09           1067 	and	r14,r1
+0000034a 7e0f0525       1068 	st.w	r1,9476[ep]
+                        1069 --346:     CLR_BIT(DSPI_FLASH_CS, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+0000034e 3e0f0525       1070 	ld.w	9476[ep],r1
+00000352 2076efff       1071 	movea	-17,zero,r14
+00000356 4e09           1072 	and	r14,r1
+00000358 7e0f0525       1073 	st.w	r1,9476[ep]
+                        1074 --347:     SET_BIT(DSPI_FLASH_CS, PCR_P); /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+0000035c 3e0f0525       1075 	ld.w	9476[ep],r1
+00000360 810e0010       1076 	ori	4096,r1,r1
+00000364 7e0f0525       1077 	st.w	r1,9476[ep]
+                        1078 --348:    /* WP_SIO2 */
+                        1079 --349:     CLR_BIT(DSPI_FLASH_IO2_WP, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+00000368 3e0f1125       1080 	ld.w	9488[ep],r1
+0000036c 2076bfff       1081 	movea	-65,zero,r14
+00000370 4e09           1082 	and	r14,r1
+00000372 7e0f1125       1083 	st.w	r1,9488[ep]
+                        1084 --350:     CLR_BIT(DSPI_FLASH_IO2_WP, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+00000376 3e0f1125       1085 	ld.w	9488[ep],r1
+0000037a 2076efff       1086 	movea	-17,zero,r14
+0000037e 4e09           1087 	and	r14,r1
+00000380 7e0f1125       1088 	st.w	r1,9488[ep]
+                        1089 --351:     SET_BIT(DSPI_FLASH_IO2_WP, PCR_P); /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+00000384 3e0f1125       1090 	ld.w	9488[ep],r1
+00000388 810e0010       1091 	ori	4096,r1,r1
+0000038c 7e0f1125       1092 	st.w	r1,9488[ep]
+                        1093 --352:    /* NC_SIO3 */
+                        1094 --353:     CLR_BIT(DSPI_FLASH_IO3_HOLD, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+00000390 3e0f1525       1095 	ld.w	9492[ep],r1
+00000394 2076bfff       1096 	movea	-65,zero,r14
+00000398 4e09           1097 	and	r14,r1
+0000039a 7e0f1525       1098 	st.w	r1,9492[ep]
+                        1099 --354:     CLR_BIT(DSPI_FLASH_IO3_HOLD, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+0000039e 3e0f1525       1100 	ld.w	9492[ep],r1
+000003a2 2076efff       1101 	movea	-17,zero,r14
+000003a6 4e09           1102 	and	r14,r1
+000003a8 7e0f1525       1103 	st.w	r1,9492[ep]
+                        1104 --355:     SET_BIT(DSPI_FLASH_IO3_HOLD, PCR_P); /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+000003ac 3e0f1525       1105 	ld.w	9492[ep],r1
+000003b0 810e0010       1106 	ori	4096,r1,r1
+000003b4 7e0f1525       1107 	st.w	r1,9492[ep]
+                        1108 --356: }
+000003b8 0000           1109 	nop
+                        1110 --	    .ef
+                        1111 .LDW83:
+000003ba 7f00           1112 	jmp	[lp]
+                        1113 	.type	_dspi_FLASH_init,@function
+                        1114 	.size	_dspi_FLASH_init,.-_dspi_FLASH_init
+                        1115 	.type	_dspi_FLASH_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@function
+                        1116 	.size	_dspi_FLASH_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,.-_dspi_FLASH_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1117 	.align	2
+                        1118 .LDW93:
+                        1119 
+                        1120 	.section ".bss","awb"
+                        1121 .L700:
+                        1122 	.type	.L700,@object
+                        1123 	.size	.L700,0
+                        1124 	.data
+                        1125 	.text
+                        1126 
+                        1127 
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1128 --357: /***************************************************
+                        1129 --358: * Function: dspi_LCD_init
+                        1130 --359: * Description: LCD spi hardware initialization.
+                        1131 --360: * Parameters:none
+                        1132 --361: * Returns: none
+                        1133 --362: *
+                        1134 --363: * $Create & Verlog:$
+                        1135 --364: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                        1136 --365: ****************************************************/
+                        1137 --366: static void dspi_LCD_init(void)
+                        1138 	.align	2
+                        1139 	.align	2
+                        1140 	.global	_dspi_LCD_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1141 _dspi_LCD_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                        1142 _dspi_LCD_init:
+000003bc 3e06400061ff   1143 	mov	-10420160,ep
+                        1144 --	    .bf
+                        1145 .LDW04:
+                        1146 --367: {
+                        1147 --368:     /* TFT-EEP-SO  */
+                        1148 --369:     CLR_BIT(DSPI_LCD_MISO, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+000003c2 3e0f0520       1149 	ld.w	8196[ep],r1
+000003c6 2076bfff       1150 	movea	-65,zero,r14
+000003ca 4e09           1151 	and	r14,r1
+000003cc 7e0f0520       1152 	st.w	r1,8196[ep]
+                        1153 --370:     SET_BIT(DSPI_LCD_MISO, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+000003d0 3e0f0520       1154 	ld.w	8196[ep],r1
+000003d4 810e1000       1155 	ori	16,r1,r1
+000003d8 7e0f0520       1156 	st.w	r1,8196[ep]
+                        1157 --371:     SET_BIT(DSPI_LCD_MISO, PCR_PIBC);/* =1 Enable input buffer. */
+000003dc 3e0f0520       1158 	ld.w	8196[ep],r1
+000003e0 40760100       1159 	movhi	hi(65536),zero,r14
+000003e4 0e09           1160 	or	r14,r1
+000003e6 7e0f0520       1161 	st.w	r1,8196[ep]
+                        1162 --373:     /* TFT-EEP-SI  */
+                        1163 --374:     CLR_BIT(DSPI_LCD_MOSI, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+000003ea 3e0fd12a       1164 	ld.w	10960[ep],r1
+000003ee 2076bfff       1165 	movea	-65,zero,r14
+000003f2 4e09           1166 	and	r14,r1
+000003f4 7e0fd12a       1167 	st.w	r1,10960[ep]
+                        1168 --375:     CLR_BIT(DSPI_LCD_MOSI, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+000003f8 3e0fd12a       1169 	ld.w	10960[ep],r1
+000003fc 2076efff       1170 	movea	-17,zero,r14
+00000400 4e09           1171 	and	r14,r1
+00000402 7e0fd12a       1172 	st.w	r1,10960[ep]
+                        1173 --376:     CLR_BIT(DSPI_LCD_MOSI, PCR_P); /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+00000406 3e0fd12a       1174 	ld.w	10960[ep],r1
+0000040a 2076ffef       1175 	movea	-4097,zero,r14
+0000040e 4e09           1176 	and	r14,r1
+00000410 7e0fd12a       1177 	st.w	r1,10960[ep]
+                        1178 --378:     /* TFT-EEP-SCK  */
+                        1179 --379:     CLR_BIT(DSPI_LCD_SCK, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+00000414 3e0fcd2a       1180 	ld.w	10956[ep],r1
+00000418 2076bfff       1181 	movea	-65,zero,r14
+0000041c 4e09           1182 	and	r14,r1
+0000041e 7e0fcd2a       1183 	st.w	r1,10956[ep]
+                        1184 --380:     CLR_BIT(DSPI_LCD_SCK, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+00000422 3e0fcd2a       1185 	ld.w	10956[ep],r1
+00000426 2076efff       1186 	movea	-17,zero,r14
+0000042a 4e09           1187 	and	r14,r1
+0000042c 7e0fcd2a       1188 	st.w	r1,10956[ep]
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1189 --381:     SET_BIT(DSPI_LCD_SCK, PCR_P);  /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+00000430 3e0fcd2a       1190 	ld.w	10956[ep],r1
+00000434 810e0010       1191 	ori	4096,r1,r1
+00000438 7e0fcd2a       1192 	st.w	r1,10956[ep]
+                        1193 --383:     /* MCU-TFT-CS  */
+                        1194 --384:     CLR_BIT(DSPI_LCD_CS, PCR_PMC); /* =0 PORT MODE, =1 ALTERNATIVE MODE */
+0000043c 3e0fc92a       1195 	ld.w	10952[ep],r1
+00000440 2076bfff       1196 	movea	-65,zero,r14
+00000444 4e09           1197 	and	r14,r1
+00000446 7e0fc92a       1198 	st.w	r1,10952[ep]
+                        1199 --385:     CLR_BIT(DSPI_LCD_CS, PCR_PM); /* =0 OUTPUT MODE, =1 INTPUT MODE */
+0000044a 3e0fc92a       1200 	ld.w	10952[ep],r1
+0000044e 2076efff       1201 	movea	-17,zero,r14
+00000452 4e09           1202 	and	r14,r1
+00000454 7e0fc92a       1203 	st.w	r1,10952[ep]
+                        1204 --386:     SET_BIT(DSPI_LCD_CS, PCR_P); /* =0 LOW LEVEL OUTPUT, =1 HIGH LEVEL OUTPUT */
+00000458 3e0fc92a       1205 	ld.w	10952[ep],r1
+0000045c 810e0010       1206 	ori	4096,r1,r1
+00000460 7e0fc92a       1207 	st.w	r1,10952[ep]
+                        1208 --387: }
+00000464 0000           1209 	nop
+                        1210 --	    .ef
+                        1211 .LDW14:
+00000466 7f00           1212 	jmp	[lp]
+                        1213 	.type	_dspi_LCD_init,@function
+                        1214 	.size	_dspi_LCD_init,.-_dspi_LCD_init
+                        1215 	.type	_dspi_LCD_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@function
+                        1216 	.size	_dspi_LCD_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,.-_dspi_LCD_init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1217 	.align	2
+                        1218 .LDW24:
+                        1219 
+                        1220 	.section ".bss","awb"
+                        1221 .L800:
+                        1222 	.type	.L800,@object
+                        1223 	.size	.L800,0
+                        1224 	.data
+                        1225 	.text
+                        1226 
+                        1227 
+                        1228 --389: /***************************************************
+                        1229 --390: * Function: dspi_SetSCK
+                        1230 --391: * Description: Set sck pin level.
+                        1231 --392: * Parameters:none
+                        1232 --393: * Returns: none
+                        1233 --394: *
+                        1234 --395: * $Create & Verlog:$
+                        1235 --396: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                        1236 --397: ****************************************************/
+                        1237 --398: static void dspi_SetSCK(DSPI_Handle_ENUM SPIHdl, U8 val)
+                        1238 	.align	2
+                        1239 	.align	2
+                        1240 	.global	_dspi_SetSCK..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1241 _dspi_SetSCK..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                        1242 _dspi_SetSCK:
+00000468 0670           1243 	mov	r6,r14
+0000046a c70eff00       1244 	andi	255,r7,r1
+0000046e 3e06400061ff   1245 	mov	-10420160,ep
+                        1246 --	    .bf
+                        1247 .LDW34:
+                        1248 --399: {
+                        1249 --400:     switch (SPIHdl)
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+00000474 6172           1250 	cmp	1,r14
+00000476 d105*          1251 	bl	.L852
+00000478 d215*          1252 	be	.L856
+0000047a 6272           1253 	cmp	2,r14
+0000047c da35*          1254 	bne	.L864
+0000047e b525*          1255 	br	.L860
+                        1256 .L852:
+                        1257 --401:     {
+                        1258 --402:     case HANDLE_DSPI_EEP:
+                        1259 --403:         if (val)
+                        1260 --line403
+                        1261 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.36::
+                        1262 .LDWlin36:
+00000480 e009           1263 	cmp	zero,r1
+00000482 820d*          1264 	be	.L853
+                        1265 --404:         {
+                        1266 --405:             SET_BIT(DSPI_EEP_SCK, PCR_P);
+                        1267 --line405
+                        1268 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.37::
+                        1269 .LDWlin37:
+00000484 3e6f692a       1270 	ld.w	10856[ep],r13
+00000488 8d6e0010       1271 	ori	4096,r13,r13
+0000048c 7e6f692a       1272 	st.w	r13,10856[ep]
+00000490 850d*          1273 	br	.L855
+                        1274 .L853:
+                        1275 --406:         }
+                        1276 --407:         else
+                        1277 --408:         {
+                        1278 --409:             CLR_BIT(DSPI_EEP_SCK, PCR_P);
+                        1279 --line409
+                        1280 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.38::
+                        1281 .LDWlin38:
+00000492 3e6f692a       1282 	ld.w	10856[ep],r13
+00000496 2066ffef       1283 	movea	-4097,zero,r12
+0000049a 4c69           1284 	and	r12,r13
+0000049c 7e6f692a       1285 	st.w	r13,10856[ep]
+                        1286 .L855:
+000004a0 c525*          1287 	br	.L850
+                        1288 .L856:
+                        1289 --410:         }
+                        1290 --411:         break;
+                        1291 --412:     case HANDLE_DSPI_FLASH:
+                        1292 --413:         if (val)
+                        1293 --line413
+                        1294 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.39::
+                        1295 .LDWlin39:
+000004a2 e009           1296 	cmp	zero,r1
+000004a4 820d*          1297 	be	.L857
+                        1298 --414:         {
+                        1299 --415:             SET_BIT(DSPI_FLASH_SCK, PCR_P);
+                        1300 --line415
+                        1301 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.40::
+                        1302 .LDWlin40:
+000004a6 3e6f0125       1303 	ld.w	9472[ep],r13
+000004aa 8d6e0010       1304 	ori	4096,r13,r13
+000004ae 7e6f0125       1305 	st.w	r13,9472[ep]
+000004b2 850d*          1306 	br	.L859
+                        1307 .L857:
+                        1308 --416:         }
+                        1309 --417:         else
+                        1310 --418:         {
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1311 --419:             CLR_BIT(DSPI_FLASH_SCK, PCR_P);
+                        1312 --line419
+                        1313 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.41::
+                        1314 .LDWlin41:
+000004b4 3e6f0125       1315 	ld.w	9472[ep],r13
+000004b8 2066ffef       1316 	movea	-4097,zero,r12
+000004bc 4c69           1317 	and	r12,r13
+000004be 7e6f0125       1318 	st.w	r13,9472[ep]
+                        1319 .L859:
+000004c2 b515*          1320 	br	.L850
+                        1321 .L860:
+                        1322 --420:         }
+                        1323 --421:         break;
+                        1324 --422:     case HANDLE_DSPI_LCD:
+                        1325 --423:         if (val)
+                        1326 --line423
+                        1327 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.42::
+                        1328 .LDWlin42:
+000004c4 e009           1329 	cmp	zero,r1
+000004c6 820d*          1330 	be	.L861
+                        1331 --424:         {
+                        1332 --425:             SET_BIT(DSPI_LCD_SCK, PCR_P);
+                        1333 --line425
+                        1334 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.43::
+                        1335 .LDWlin43:
+000004c8 3e6fcd2a       1336 	ld.w	10956[ep],r13
+000004cc 8d6e0010       1337 	ori	4096,r13,r13
+000004d0 7e6fcd2a       1338 	st.w	r13,10956[ep]
+000004d4 850d*          1339 	br	.L863
+                        1340 .L861:
+                        1341 --426:         }
+                        1342 --427:         else
+                        1343 --428:         {
+                        1344 --429:             CLR_BIT(DSPI_LCD_SCK, PCR_P);
+                        1345 --line429
+                        1346 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.44::
+                        1347 .LDWlin44:
+000004d6 3e6fcd2a       1348 	ld.w	10956[ep],r13
+000004da 2066ffef       1349 	movea	-4097,zero,r12
+000004de 4c69           1350 	and	r12,r13
+000004e0 7e6fcd2a       1351 	st.w	r13,10956[ep]
+                        1352 .L863:
+000004e4 a505*          1353 	br	.L850
+                        1354 .L864:
+                        1355 --line433
+                        1356 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.45::
+                        1357 .LDWlin45:
+000004e6 0000           1358 	nop
+                        1359 .L850:
+                        1360 --430:         }
+                        1361 --431:         break;
+                        1362 --432:     default:
+                        1363 --433:         break;
+                        1364 --434:     }
+                        1365 --435: }
+000004e8 0000           1366 	nop
+                        1367 --	    .ef
+                        1368 .LDW44:
+000004ea 7f00           1369 	jmp	[lp]
+                        1370 	.type	_dspi_SetSCK,@function
+                        1371 	.size	_dspi_SetSCK,.-_dspi_SetSCK
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1372 	.type	_dspi_SetSCK..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@function
+                        1373 	.size	_dspi_SetSCK..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,.-_dspi_SetSCK..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1374 	.align	2
+                        1375 .LDW54:
+                        1376 
+                        1377 --_SPIHdl	r14	param
+                        1378 --_val	r1	param
+                        1379 
+                        1380 	.section ".bss","awb"
+                        1381 .L900:
+                        1382 	.type	.L900,@object
+                        1383 	.size	.L900,0
+                        1384 	.data
+                        1385 	.text
+                        1386 
+                        1387 
+                        1388 --437: /***************************************************
+                        1389 --438: * Function: dspi_SetMOSI
+                        1390 --439: * Description: Set mosi pin level.
+                        1391 --440: * Parameters:none
+                        1392 --441: * Returns: none
+                        1393 --442: *
+                        1394 --443: * $Create & Verlog:$
+                        1395 --444: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                        1396 --445: ****************************************************/
+                        1397 --446: static void dspi_SetMOSI(DSPI_Handle_ENUM SPIHdl, U8 val)
+                        1398 	.align	2
+                        1399 	.align	2
+                        1400 	.global	_dspi_SetMOSI..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1401 _dspi_SetMOSI..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                        1402 _dspi_SetMOSI:
+000004ec 0670           1403 	mov	r6,r14
+000004ee c70eff00       1404 	andi	255,r7,r1
+000004f2 3e06400061ff   1405 	mov	-10420160,ep
+                        1406 --	    .bf
+                        1407 .LDW64:
+                        1408 --447: {
+                        1409 --448:     switch (SPIHdl)
+000004f8 6172           1410 	cmp	1,r14
+000004fa d105*          1411 	bl	.L965
+000004fc d215*          1412 	be	.L969
+000004fe 6272           1413 	cmp	2,r14
+00000500 da35*          1414 	bne	.L977
+00000502 b525*          1415 	br	.L973
+                        1416 .L965:
+                        1417 --449:     {
+                        1418 --450:     case HANDLE_DSPI_EEP:
+                        1419 --451:         if (val)
+                        1420 --line451
+                        1421 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.46::
+                        1422 .LDWlin46:
+00000504 e009           1423 	cmp	zero,r1
+00000506 820d*          1424 	be	.L966
+                        1425 --452:         {
+                        1426 --453:             SET_BIT(DSPI_EEP_MOSI, PCR_P);
+                        1427 --line453
+                        1428 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.47::
+                        1429 .LDWlin47:
+00000508 3e6f612a       1430 	ld.w	10848[ep],r13
+0000050c 8d6e0010       1431 	ori	4096,r13,r13
+00000510 7e6f612a       1432 	st.w	r13,10848[ep]
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+00000514 850d*          1433 	br	.L968
+                        1434 .L966:
+                        1435 --454:         }
+                        1436 --455:         else
+                        1437 --456:         {
+                        1438 --457:             CLR_BIT(DSPI_EEP_MOSI, PCR_P);
+                        1439 --line457
+                        1440 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.48::
+                        1441 .LDWlin48:
+00000516 3e6f612a       1442 	ld.w	10848[ep],r13
+0000051a 2066ffef       1443 	movea	-4097,zero,r12
+0000051e 4c69           1444 	and	r12,r13
+00000520 7e6f612a       1445 	st.w	r13,10848[ep]
+                        1446 .L968:
+00000524 c525*          1447 	br	.L963
+                        1448 .L969:
+                        1449 --458:         }
+                        1450 --459:         break;
+                        1451 --460:     case HANDLE_DSPI_FLASH:
+                        1452 --461:         if (val)
+                        1453 --line461
+                        1454 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.49::
+                        1455 .LDWlin49:
+00000526 e009           1456 	cmp	zero,r1
+00000528 820d*          1457 	be	.L970
+                        1458 --462:         {
+                        1459 --463:             SET_BIT(DSPI_FLASH_IO0_MOSI, PCR_P);
+                        1460 --line463
+                        1461 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.50::
+                        1462 .LDWlin50:
+0000052a 3e6f0925       1463 	ld.w	9480[ep],r13
+0000052e 8d6e0010       1464 	ori	4096,r13,r13
+00000532 7e6f0925       1465 	st.w	r13,9480[ep]
+00000536 850d*          1466 	br	.L972
+                        1467 .L970:
+                        1468 --464:         }
+                        1469 --465:         else
+                        1470 --466:         {
+                        1471 --467:             CLR_BIT(DSPI_FLASH_IO0_MOSI, PCR_P);
+                        1472 --line467
+                        1473 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.51::
+                        1474 .LDWlin51:
+00000538 3e6f0925       1475 	ld.w	9480[ep],r13
+0000053c 2066ffef       1476 	movea	-4097,zero,r12
+00000540 4c69           1477 	and	r12,r13
+00000542 7e6f0925       1478 	st.w	r13,9480[ep]
+                        1479 .L972:
+00000546 b515*          1480 	br	.L963
+                        1481 .L973:
+                        1482 --468:         }
+                        1483 --469:         break;
+                        1484 --470:     case HANDLE_DSPI_LCD:
+                        1485 --471:         if (val)
+                        1486 --line471
+                        1487 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.52::
+                        1488 .LDWlin52:
+00000548 e009           1489 	cmp	zero,r1
+0000054a 820d*          1490 	be	.L974
+                        1491 --472:         {
+                        1492 --473:             SET_BIT(DSPI_LCD_MOSI, PCR_P);
+                        1493 --line473
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1494 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.53::
+                        1495 .LDWlin53:
+0000054c 3e6fd12a       1496 	ld.w	10960[ep],r13
+00000550 8d6e0010       1497 	ori	4096,r13,r13
+00000554 7e6fd12a       1498 	st.w	r13,10960[ep]
+00000558 850d*          1499 	br	.L976
+                        1500 .L974:
+                        1501 --474:         }
+                        1502 --475:         else
+                        1503 --476:         {
+                        1504 --477:             CLR_BIT(DSPI_LCD_MOSI, PCR_P);
+                        1505 --line477
+                        1506 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.54::
+                        1507 .LDWlin54:
+0000055a 3e6fd12a       1508 	ld.w	10960[ep],r13
+0000055e 2066ffef       1509 	movea	-4097,zero,r12
+00000562 4c69           1510 	and	r12,r13
+00000564 7e6fd12a       1511 	st.w	r13,10960[ep]
+                        1512 .L976:
+00000568 a505*          1513 	br	.L963
+                        1514 .L977:
+                        1515 --line481
+                        1516 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.55::
+                        1517 .LDWlin55:
+0000056a 0000           1518 	nop
+                        1519 .L963:
+                        1520 --478:         }
+                        1521 --479:         break;
+                        1522 --480:     default:
+                        1523 --481:         break;
+                        1524 --482:     }
+                        1525 --483: }
+0000056c 0000           1526 	nop
+                        1527 --	    .ef
+                        1528 .LDW74:
+0000056e 7f00           1529 	jmp	[lp]
+                        1530 	.type	_dspi_SetMOSI,@function
+                        1531 	.size	_dspi_SetMOSI,.-_dspi_SetMOSI
+                        1532 	.type	_dspi_SetMOSI..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@function
+                        1533 	.size	_dspi_SetMOSI..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,.-_dspi_SetMOSI..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1534 	.align	2
+                        1535 .LDW84:
+                        1536 
+                        1537 --_SPIHdl	r14	param
+                        1538 --_val	r1	param
+                        1539 
+                        1540 	.section ".bss","awb"
+                        1541 .L1028:
+                        1542 	.type	.L1028,@object
+                        1543 	.size	.L1028,0
+                        1544 	.data
+                        1545 	.text
+                        1546 
+                        1547 
+                        1548 --485: /***************************************************
+                        1549 --486: * Function: dspi_GetMISO
+                        1550 --487: * Description: Get miso pin level.
+                        1551 --488: * Parameters:none
+                        1552 --489: * Returns: none
+                        1553 --490: *
+                        1554 --491: * $Create & Verlog:$
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1555 --492: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                        1556 --493: ****************************************************/
+                        1557 --494: static U8 dspi_GetMISO(DSPI_Handle_ENUM SPIHdl)
+                        1558 	.align	2
+                        1559 	.align	2
+                        1560 	.global	_dspi_GetMISO..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1561 _dspi_GetMISO..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                        1562 _dspi_GetMISO:
+00000570 0670           1563 	mov	r6,r14
+00000572 3e06400061ff   1564 	mov	-10420160,ep
+                        1565 --	    .bf
+                        1566 .LDW94:
+                        1567 --495: {
+                        1568 --496:     U8 val = 0;
+00000578 000a           1569 	mov	0,r1
+                        1570 --498:     switch (SPIHdl)
+0000057a 6172           1571 	cmp	1,r14
+0000057c d105*          1572 	bl	.L1093
+0000057e c20d*          1573 	be	.L1094
+00000580 6272           1574 	cmp	2,r14
+00000582 aa1d*          1575 	bne	.L1096
+00000584 9515*          1576 	br	.L1095
+                        1577 .L1093:
+                        1578 --499:     {
+                        1579 --500:     case HANDLE_DSPI_EEP:
+                        1580 --501:         val = GET_BIT(DSPI_EEP_MISO, PCR_PPR);
+                        1581 --line501
+                        1582 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.56::
+                        1583 .LDWlin56:
+00000586 3e6f652a       1584 	ld.w	10852[ep],r13
+0000058a 886a           1585 	shr	8,r13
+0000058c cd6e0100       1586 	andi	1,r13,r13
+00000590 cd0eff00       1587 	andi	255,r13,r1
+00000594 a515*          1588 	br	.L1091
+                        1589 .L1094:
+                        1590 --502:         break;
+                        1591 --503:     case HANDLE_DSPI_FLASH:
+                        1592 --504:         val = GET_BIT(DSPI_FLASH_IO1_MISO, PCR_PPR);
+                        1593 --line504
+                        1594 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.57::
+                        1595 .LDWlin57:
+00000596 3e6f0d25       1596 	ld.w	9484[ep],r13
+0000059a 886a           1597 	shr	8,r13
+0000059c cd6e0100       1598 	andi	1,r13,r13
+000005a0 cd0eff00       1599 	andi	255,r13,r1
+000005a4 a50d*          1600 	br	.L1091
+                        1601 .L1095:
+                        1602 --505:         break;
+                        1603 --506:     case HANDLE_DSPI_LCD:
+                        1604 --507:         val = GET_BIT(DSPI_LCD_MISO, PCR_PPR);
+                        1605 --line507
+                        1606 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.58::
+                        1607 .LDWlin58:
+000005a6 3e6f0520       1608 	ld.w	8196[ep],r13
+000005aa 886a           1609 	shr	8,r13
+000005ac cd6e0100       1610 	andi	1,r13,r13
+000005b0 cd0eff00       1611 	andi	255,r13,r1
+000005b4 a505*          1612 	br	.L1091
+                        1613 .L1096:
+                        1614 --line510
+                        1615 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.59::
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1616 .LDWlin59:
+000005b6 0000           1617 	nop
+                        1618 .L1091:
+                        1619 --508:         break;
+                        1620 --509:     default:
+                        1621 --510:         break;
+                        1622 --511:     }
+                        1623 --512:     return val;
+000005b8 0150           1624 	mov	r1,r10
+                        1625 --	    .ef
+                        1626 .LDW05:
+000005ba 7f00           1627 	jmp	[lp]
+                        1628 	.type	_dspi_GetMISO,@function
+                        1629 	.size	_dspi_GetMISO,.-_dspi_GetMISO
+                        1630 	.type	_dspi_GetMISO..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@function
+                        1631 	.size	_dspi_GetMISO..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,.-_dspi_GetMISO..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1632 	.align	2
+                        1633 .LDW15:
+                        1634 --_val	r1	local
+                        1635 
+                        1636 --_SPIHdl	r14	param
+                        1637 
+                        1638 	.section ".bss","awb"
+                        1639 .L1130:
+                        1640 	.type	.L1130,@object
+                        1641 	.size	.L1130,0
+                        1642 	.data
+                        1643 	.text
+                        1644 
+                        1645 --513: }
+                        1646 
+                        1647 --515: /***************************************************
+                        1648 --516: * Function: dspi_Write
+                        1649 --517: * Description: dspi write data(s).
+                        1650 --518: * Parameters:
+                        1651 --519: *                Input:
+                        1652 --520: *                      pDspi - the handle of the DSPI device.
+                        1653 --521: *                      Buf - the buffer of the data(s).
+                        1654 --522: *                      size - the byte numbers of the data(s)
+                        1655 --523: * Returns:
+                        1656 --524: *            RET_FAIL
+                        1657 --525: *            RET_OK
+                        1658 --526: *
+                        1659 --527: * $Create & Verlog:$
+                        1660 --528: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                        1661 --529: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                        1662 --530: *  $log: only a 'return'
+                        1663 --531: ****************************************************/
+                        1664 --532: static BOOL dspi_Write(DSPI_Handle_ENUM SPIHdl, PU8 Buf, U16 size)
+                        1665 	.align	2
+                        1666 	.align	2
+                        1667 	.global	_dspi_Write..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1668 _dspi_Write..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                        1669 _dspi_Write:
+000005bc 8607e170       1670 	prepare	{r25,r26,r27,r28,r29,r31},3
+000005c0 633f0500       1671 	st.w	r7,4[sp]
+000005c4 c85effff       1672 	andi	65535,r8,r11
+000005c8 635f0a00       1673 	st.h	r11,10[sp]
+000005cc 06d0           1674 	mov	r6,r26
+                        1675 --	    .bf
+                        1676 .LDW25:
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1677 --533: {
+                        1678 --534:     U16 k = 0;
+000005ce 00ea           1679 	mov	0,r29
+                        1680 --535:     U16 m = 0;
+000005d0 00e2           1681 	mov	0,r28
+                        1682 --536:     U8 val = 0;
+000005d2 00da           1683 	mov	0,r27
+                        1684 --537:     U8 retVal = RET_OK;
+000005d4 01ca           1685 	mov	1,r25
+                        1686 --539:     if ((NULL_PTR == Buf) || (0 == size))
+000005d6 235f0500       1687 	ld.w	4[sp],r11
+000005da e059           1688 	cmp	zero,r11
+000005dc d205*          1689 	be	.L1179
+000005de e35f0b00       1690 	ld.hu	10[sp],r11
+000005e2 e059           1691 	cmp	zero,r11
+000005e4 ba05*          1692 	bne	.L1178
+                        1693 .L1179:
+                        1694 --540:     {
+                        1695 --541:         retVal = RET_FAIL;
+                        1696 --line541
+                        1697 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.60::
+                        1698 .LDWlin60:
+000005e6 00ca           1699 	mov	0,r25
+000005e8 f54d*          1700 	br	.L1181
+                        1701 .L1178:
+                        1702 --542:     }
+                        1703 --543:     else
+                        1704 --544:     {
+                        1705 --545:         for (k = 0; k < size; k++)
+                        1706 --line545
+                        1707 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.61::
+                        1708 .LDWlin61:
+000005ea 00ea           1709 	mov	0,r29
+000005ec d545*          1710 	br	.L1185
+                        1711 .L1184:
+                        1712 --546:         {
+                        1713 --547:             val = Buf[k];
+                        1714 --line547
+                        1715 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.62::
+                        1716 .LDWlin62:
+000005ee 235f0500       1717 	ld.w	4[sp],r11
+000005f2 1df0           1718 	mov	r29,ep
+000005f4 cbf1           1719 	add	r11,ep
+000005f6 60d8           1720 	sld.bu	0[ep],r27
+                        1721 --548:             for (m = 0; m < 8; m++)
+000005f8 00e2           1722 	mov	0,r28
+000005fa 0000           1723 	nop
+                        1724 .L1188:
+                        1725 --549:             {
+                        1726 --550:                 dspi_SetSCK(SPIHdl, ((~(DspiList[SPIHdl].EdgeWr)) & 0x01)); /* SCK = 0 */
+000005fc 1af0           1727 	mov	r26,ep
+000005fe c3f2           1728 	shl	3,ep
+00000600 2b0600000000*  1729 	mov	_DspiList,r11
+00000606 cbf1           1730 	add	r11,ep
+00000608 1a30           1731 	mov	r26,r6
+0000060a 6008           1732 	sld.bu	0[ep],r1
+0000060c 2108           1733 	not	r1,r1
+0000060e c13e0100       1734 	andi	1,r1,r7
+                        1735 	jarl	_dspi_SetSCK,lp
+                        1735 <EXPANSION BEGIN>
+                        1735 jarl22 _dspi_SetSCK , lp 
+
+                                                                      Page 30
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+00000612 bfff56fe*      1735 <EXPANSION END>
+                        1736 --551:                 if (val & 0x80)
+                        1737 --line551
+                        1738 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.63::
+                        1739 .LDWlin63:
+00000616 db068000       1740 	andi	128,r27,zero
+0000061a e205*          1741 	be	.L1189
+                        1742 --552:                 {
+                        1743 --553:                     dspi_SetMOSI(SPIHdl, 0x01); /* MOSI = 1 */
+                        1744 --line553
+                        1745 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.64::
+                        1746 .LDWlin64:
+0000061c 1a30           1747 	mov	r26,r6
+0000061e 013a           1748 	mov	1,r7
+                        1749 	jarl	_dspi_SetMOSI,lp
+                        1749 <EXPANSION BEGIN>
+                        1749 jarl22 _dspi_SetMOSI , lp 
+00000620 bfffccfe*      1749 <EXPANSION END>
+00000624 d505*          1750 	br	.L1191
+                        1751 .L1189:
+                        1752 --554:                 }
+                        1753 --555:                 else
+                        1754 --556:                 {
+                        1755 --557:                     dspi_SetMOSI(SPIHdl, 0x00); /* MOSI = 0 */
+                        1756 --line557
+                        1757 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.65::
+                        1758 .LDWlin65:
+00000626 1a30           1759 	mov	r26,r6
+00000628 003a           1760 	mov	0,r7
+                        1761 	jarl	_dspi_SetMOSI,lp
+                        1761 <EXPANSION BEGIN>
+                        1761 jarl22 _dspi_SetMOSI , lp 
+0000062a bfffc2fe*      1761 <EXPANSION END>
+                        1762 .L1191:
+                        1763 --558:                 }
+                        1764 --559:                 val <<= 1;
+                        1765 --line559
+                        1766 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.66::
+                        1767 .LDWlin66:
+0000062e c1da           1768 	shl	1,r27
+00000630 9b00           1769 	zxb	r27
+                        1770 --560:                 dspi_Delay(DspiList[SPIHdl].DlyCnt);
+00000632 1af0           1771 	mov	r26,ep
+00000634 c3f2           1772 	shl	3,ep
+00000636 2b0600000000*  1773 	mov	_DspiList,r11
+0000063c cbf1           1774 	add	r11,ep
+0000063e 0235           1775 	sld.w	4[ep],r6
+                        1776 	jarl	_dspi_Delay,lp
+                        1776 <EXPANSION BEGIN>
+                        1776 jarl22 _dspi_Delay , lp 
+00000640 80ff1c01*      1776 <EXPANSION END>
+                        1777 --561:                 dspi_SetSCK(SPIHdl, DspiList[SPIHdl].EdgeWr);; /*SCK = 1 */
+                        1778 --line561
+                        1779 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.67::
+                        1780 .LDWlin67:
+00000644 1af0           1781 	mov	r26,ep
+00000646 c3f2           1782 	shl	3,ep
+00000648 2b0600000000*  1783 	mov	_DspiList,r11
+0000064e cbf1           1784 	add	r11,ep
+00000650 1a30           1785 	mov	r26,r6
+00000652 6038           1786 	sld.bu	0[ep],r7
+
+                                                                      Page 31
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1787 	jarl	_dspi_SetSCK,lp
+                        1787 <EXPANSION BEGIN>
+                        1787 jarl22 _dspi_SetSCK , lp 
+00000654 bfff14fe*      1787 <EXPANSION END>
+                        1788 --562:                 dspi_Delay(DspiList[SPIHdl].DlyCnt);
+                        1789 --line562
+                        1790 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.68::
+                        1791 .LDWlin68:
+00000658 1af0           1792 	mov	r26,ep
+0000065a c3f2           1793 	shl	3,ep
+0000065c 2b0600000000*  1794 	mov	_DspiList,r11
+00000662 cbf1           1795 	add	r11,ep
+00000664 0235           1796 	sld.w	4[ep],r6
+                        1797 	jarl	_dspi_Delay,lp
+                        1797 <EXPANSION BEGIN>
+                        1797 jarl22 _dspi_Delay , lp 
+00000666 80fff600*      1797 <EXPANSION END>
+                        1798 --line548
+                        1799 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.69::
+                        1800 .LDWlin69:
+0000066a 41e2           1801 	add	1,r28
+0000066c dc00           1802 	zxh	r28
+0000066e 68e2           1803 	cmp	8,r28
+00000670 e1c5*          1804 	bl	.L1188
+                        1805 --line545
+                        1806 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.70::
+                        1807 .LDWlin70:
+00000672 41ea           1808 	add	1,r29
+00000674 dd00           1809 	zxh	r29
+                        1810 .L1185:
+00000676 e35f0b00       1811 	ld.hu	10[sp],r11
+0000067a ebe9           1812 	cmp	r11,r29
+0000067c 91bd*          1813 	bl	.L1184
+                        1814 --563:             }
+                        1815 --564:         }
+                        1816 --565:         dspi_SetSCK(SPIHdl, 0x00); /* SCK = 0 */
+                        1817 --line565
+                        1818 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.71::
+                        1819 .LDWlin71:
+0000067e 1a30           1820 	mov	r26,r6
+00000680 003a           1821 	mov	0,r7
+                        1822 	jarl	_dspi_SetSCK,lp
+                        1822 <EXPANSION BEGIN>
+                        1822 jarl22 _dspi_SetSCK , lp 
+00000682 bfffe6fd*      1822 <EXPANSION END>
+                        1823 .L1181:
+                        1824 --566:     }
+                        1825 --567:     return retVal;
+                        1826 --line567
+                        1827 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.72::
+                        1828 .LDWlin72:
+00000686 1950           1829 	mov	r25,r10
+                        1830 --	    .ef
+                        1831 .LDW35:
+00000688 4606ff70       1832 	dispose	3,{r25,r26,r27,r28,r29,r31},[lp]
+                        1833 	.type	_dspi_Write,@function
+                        1834 	.size	_dspi_Write,.-_dspi_Write
+                        1835 	.type	_dspi_Write..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@function
+                        1836 	.size	_dspi_Write..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,.-_dspi_Write..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1837 	.align	2
+                        1838 .LDW45:
+
+                                                                      Page 32
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        1839 --_k	r29	local
+                        1840 --_m	r28	local
+                        1841 --_val	r27	local
+                        1842 --_retVal	r25	local
+                        1843 
+                        1844 --_SPIHdl	r26	param
+                        1845 --_Buf	4[sp]	param
+                        1846 --_size	10[sp]	param
+                        1847 
+                        1848 	.section ".bss","awb"
+                        1849 .L1258:
+                        1850 	.type	.L1258,@object
+                        1851 	.size	.L1258,0
+                        1852 	.data
+                        1853 	.text
+                        1854 
+                        1855 --568: }
+                        1856 
+                        1857 --570: /***************************************************
+                        1858 --571: * Function: dspi_Read
+                        1859 --572: * Description: dspi read data(s).
+                        1860 --573: * Parameters:
+                        1861 --574: *                Input:
+                        1862 --575: *                      pDspi - the handle of the DSPI device.
+                        1863 --576: *                      Buf - the buffer of the data(s).
+                        1864 --577: *                      size - the byte numbers of the data(s)
+                        1865 --578: * Returns:
+                        1866 --579: *            RET_FAIL
+                        1867 --580: *            RET_OK
+                        1868 --581: *
+                        1869 --582: * $Create & Verlog:$
+                        1870 --583: * Author:Qinhui.Shen  Date:2016-12-04   Version:V1.0
+                        1871 --584: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                        1872 --585: *  $log: only a 'return'
+                        1873 --586: ****************************************************/
+                        1874 --587: static BOOL dspi_Read(DSPI_Handle_ENUM SPIHdl, PU8 Buf, U16 size)
+                        1875 	.align	2
+                        1876 	.align	2
+                        1877 	.global	_dspi_Read..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        1878 _dspi_Read..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                        1879 _dspi_Read:
+0000068c 8607e170       1880 	prepare	{r25,r26,r27,r28,r29,r31},3
+00000690 633f0500       1881 	st.w	r7,4[sp]
+00000694 c85effff       1882 	andi	65535,r8,r11
+00000698 635f0a00       1883 	st.h	r11,10[sp]
+0000069c 06d0           1884 	mov	r6,r26
+                        1885 --	    .bf
+                        1886 .LDW55:
+                        1887 --588: {
+                        1888 --589:     U16 k = 0;
+0000069e 00e2           1889 	mov	0,r28
+                        1890 --590:     U16 m = 0;
+000006a0 00da           1891 	mov	0,r27
+                        1892 --591:     U8 val = 0x00;
+000006a2 00ea           1893 	mov	0,r29
+                        1894 --592:     U8 retVal = RET_OK;
+000006a4 01ca           1895 	mov	1,r25
+                        1896 --594:     if ((NULL_PTR == Buf) || (0 == size))
+000006a6 235f0500       1897 	ld.w	4[sp],r11
+000006aa e059           1898 	cmp	zero,r11
+000006ac d205*          1899 	be	.L1348
+
+                                                                      Page 33
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+000006ae e35f0b00       1900 	ld.hu	10[sp],r11
+000006b2 e059           1901 	cmp	zero,r11
+000006b4 ba05*          1902 	bne	.L1347
+                        1903 .L1348:
+                        1904 --595:     {
+                        1905 --596:         retVal = RET_FAIL;
+                        1906 --line596
+                        1907 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.73::
+                        1908 .LDWlin73:
+000006b6 00ca           1909 	mov	0,r25
+000006b8 f54d*          1910 	br	.L1350
+                        1911 .L1347:
+                        1912 --597:     }
+                        1913 --598:     else
+                        1914 --599:     {
+                        1915 --600:         for (k = 0; k < size; k++)
+                        1916 --line600
+                        1917 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.74::
+                        1918 .LDWlin74:
+000006ba 00e2           1919 	mov	0,r28
+000006bc d545*          1920 	br	.L1354
+                        1921 .L1353:
+                        1922 --601:         {
+                        1923 --602:             val = 0;
+                        1924 --line602
+                        1925 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.75::
+                        1926 .LDWlin75:
+000006be 00ea           1927 	mov	0,r29
+                        1928 --603:             for (m = 0; m < 8; m++)
+000006c0 00da           1929 	mov	0,r27
+000006c2 0000           1930 	nop
+                        1931 .L1357:
+                        1932 --604:             {
+                        1933 --605:                 dspi_SetSCK(SPIHdl, ((~(DspiList[SPIHdl].EdgeWr)) & 0x01)); /* SCK = 0 */
+000006c4 1af0           1934 	mov	r26,ep
+000006c6 c3f2           1935 	shl	3,ep
+000006c8 2b0600000000*  1936 	mov	_DspiList,r11
+000006ce cbf1           1937 	add	r11,ep
+000006d0 1a30           1938 	mov	r26,r6
+000006d2 6008           1939 	sld.bu	0[ep],r1
+000006d4 2108           1940 	not	r1,r1
+000006d6 c13e0100       1941 	andi	1,r1,r7
+                        1942 	jarl	_dspi_SetSCK,lp
+                        1942 <EXPANSION BEGIN>
+                        1942 jarl22 _dspi_SetSCK , lp 
+000006da bfff8efd*      1942 <EXPANSION END>
+                        1943 --606:                 val <<= 1;
+                        1944 --line606
+                        1945 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.76::
+                        1946 .LDWlin76:
+000006de c1ea           1947 	shl	1,r29
+000006e0 9d00           1948 	zxb	r29
+                        1949 --607:                 dspi_Delay(DspiList[SPIHdl].DlyCnt);
+000006e2 1af0           1950 	mov	r26,ep
+000006e4 c3f2           1951 	shl	3,ep
+000006e6 2b0600000000*  1952 	mov	_DspiList,r11
+000006ec cbf1           1953 	add	r11,ep
+000006ee 0235           1954 	sld.w	4[ep],r6
+                        1955 	jarl	_dspi_Delay,lp
+                        1955 <EXPANSION BEGIN>
+                        1955 jarl22 _dspi_Delay , lp 
+
+                                                                      Page 34
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+000006f0 80ff6c00*      1955 <EXPANSION END>
+                        1956 --608:                 dspi_SetSCK(SPIHdl, DspiList[SPIHdl].EdgeWr); /*SCK = 1 */
+                        1957 --line608
+                        1958 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.77::
+                        1959 .LDWlin77:
+000006f4 1af0           1960 	mov	r26,ep
+000006f6 c3f2           1961 	shl	3,ep
+000006f8 2b0600000000*  1962 	mov	_DspiList,r11
+000006fe cbf1           1963 	add	r11,ep
+00000700 1a30           1964 	mov	r26,r6
+00000702 6038           1965 	sld.bu	0[ep],r7
+                        1966 	jarl	_dspi_SetSCK,lp
+                        1966 <EXPANSION BEGIN>
+                        1966 jarl22 _dspi_SetSCK , lp 
+00000704 bfff64fd*      1966 <EXPANSION END>
+                        1967 --609:                 
+                        1968 --610:                 if(dspi_GetMISO(SPIHdl))
+                        1969 --line610
+                        1970 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.78::
+                        1971 .LDWlin78:
+00000708 1a30           1972 	mov	r26,r6
+                        1973 	jarl	_dspi_GetMISO,lp
+                        1973 <EXPANSION BEGIN>
+                        1973 jarl22 _dspi_GetMISO , lp 
+0000070a bfff66fe*      1973 <EXPANSION END>
+0000070e e051           1974 	cmp	zero,r10
+00000710 c205*          1975 	be	.L1358
+                        1976 --611:                 {
+                        1977 --612:                     val |= 0x01;
+                        1978 --line612
+                        1979 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.79::
+                        1980 .LDWlin79:
+00000712 9dee0100       1981 	ori	1,r29,r29
+00000716 c505*          1982 	br	.L1360
+                        1983 .L1358:
+                        1984 --613:                 }
+                        1985 --614:                 
+                        1986 --615:                 else 
+                        1987 --616:                 {
+                        1988 --617:                     val&=~0x01;
+                        1989 --line617
+                        1990 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.80::
+                        1991 .LDWlin80:
+00000718 ddeefe00       1992 	andi	254,r29,r29
+0000071c 9d00           1993 	zxb	r29
+                        1994 .L1360:
+                        1995 --618:                 } 
+                        1996 --619:                 dspi_Delay(DspiList[SPIHdl].DlyCnt);
+0000071e 1af0           1997 	mov	r26,ep
+00000720 c3f2           1998 	shl	3,ep
+00000722 2b0600000000*  1999 	mov	_DspiList,r11
+00000728 cbf1           2000 	add	r11,ep
+0000072a 0235           2001 	sld.w	4[ep],r6
+                        2002 	jarl	_dspi_Delay,lp
+                        2002 <EXPANSION BEGIN>
+                        2002 jarl22 _dspi_Delay , lp 
+0000072c 80ff3000*      2002 <EXPANSION END>
+                        2003 --line603
+                        2004 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.81::
+                        2005 .LDWlin81:
+00000730 41da           2006 	add	1,r27
+
+                                                                      Page 35
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+00000732 db00           2007 	zxh	r27
+00000734 68da           2008 	cmp	8,r27
+00000736 f1c5*          2009 	bl	.L1357
+                        2010 --620:             }
+                        2011 --621:             Buf[k] = val;
+                        2012 --line621
+                        2013 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.82::
+                        2014 .LDWlin82:
+00000738 235f0500       2015 	ld.w	4[sp],r11
+0000073c 1cf0           2016 	mov	r28,ep
+0000073e cbf1           2017 	add	r11,ep
+00000740 80eb           2018 	sst.b	r29,0[ep]
+00000742 41e2           2019 	add	1,r28
+00000744 dc00           2020 	zxh	r28
+                        2021 .L1354:
+00000746 e35f0b00       2022 	ld.hu	10[sp],r11
+0000074a ebe1           2023 	cmp	r11,r28
+0000074c 91bd*          2024 	bl	.L1353
+                        2025 --622:         }
+                        2026 --623:         dspi_SetSCK(SPIHdl, 0x00); /* SCK = 0 */
+                        2027 --line623
+                        2028 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.83::
+                        2029 .LDWlin83:
+0000074e 1a30           2030 	mov	r26,r6
+00000750 003a           2031 	mov	0,r7
+                        2032 	jarl	_dspi_SetSCK,lp
+                        2032 <EXPANSION BEGIN>
+                        2032 jarl22 _dspi_SetSCK , lp 
+00000752 bfff16fd*      2032 <EXPANSION END>
+                        2033 .L1350:
+                        2034 --624:     }
+                        2035 --625:     return retVal;
+                        2036 --line625
+                        2037 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.84::
+                        2038 .LDWlin84:
+00000756 1950           2039 	mov	r25,r10
+                        2040 --	    .ef
+                        2041 .LDW65:
+00000758 4606ff70       2042 	dispose	3,{r25,r26,r27,r28,r29,r31},[lp]
+                        2043 	.type	_dspi_Read,@function
+                        2044 	.size	_dspi_Read,.-_dspi_Read
+                        2045 	.type	_dspi_Read..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@function
+                        2046 	.size	_dspi_Read..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,.-_dspi_Read..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        2047 	.align	2
+                        2048 .LDW75:
+                        2049 --_k	r28	local
+                        2050 --_m	r27	local
+                        2051 --_val	r29	local
+                        2052 --_retVal	r25	local
+                        2053 
+                        2054 --_SPIHdl	r26	param
+                        2055 --_Buf	4[sp]	param
+                        2056 --_size	10[sp]	param
+                        2057 
+                        2058 	.section ".bss","awb"
+                        2059 .L1420:
+                        2060 	.type	.L1420,@object
+                        2061 	.size	.L1420,0
+                        2062 	.data
+                        2063 	.text
+                        2064 
+
+                                                                      Page 36
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        2065 --626: }
+                        2066 
+                        2067 --628: /***************************************************
+                        2068 --629: * Function: dspi_Delay
+                        2069 --630: * Description: delay function.
+                        2070 --631: * Parameters:
+                        2071 --632: *                Input:
+                        2072 --633:  *                      m - the counts param of delay.
+                        2073 --634: * Returns: none
+                        2074 --635: *
+                        2075 --636: * $Create & Verlog:$
+                        2076 --637: * Author:Qinhui.Shen  Date:2016-10-14   Version:V1.0
+                        2077 --638: ****************************************************/
+                        2078 --639: static void dspi_Delay(U32 m)
+                        2079 	.align	2
+                        2080 	.align	2
+                        2081 	.global	_dspi_Delay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+                        2082 _dspi_Delay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.:
+                        2083 _dspi_Delay:
+0000075c 0670           2084 	mov	r6,r14
+                        2085 --	    .bf
+                        2086 .LDW85:
+                        2087 --640: {
+                        2088 --641:     U32 k;
+                        2089 --643:     for(; m > 0; m--)
+0000075e 850d*          2090 	br	.L1515
+                        2091 .L1514:
+                        2092 --644:     {
+                        2093 --645:         for(k = 300; k > 0; k--)
+                        2094 --line645
+                        2095 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.85::
+                        2096 .LDWlin85:
+00000760 200e2c01       2097 	movea	300,zero,r1
+00000764 0000           2098 	nop
+                        2099 .L1518:
+                        2100 --646:         {
+00000766 5f0a           2101 	add	-1,r1
+00000768 e009           2102 	cmp	zero,r1
+0000076a ebfd*          2103 	bh	.L1518
+                        2104 --line643
+                        2105 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.86::
+                        2106 .LDWlin86:
+0000076c 5f72           2107 	add	-1,r14
+                        2108 .L1515:
+0000076e e071           2109 	cmp	zero,r14
+00000770 8bfd*          2110 	bh	.L1514
+                        2111 --647:             ;
+                        2112 --648:         }
+                        2113 --649:     }
+                        2114 --650: }
+                        2115 --line650
+                        2116 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.87::
+                        2117 .LDWlin87:
+00000772 0000           2118 	nop
+                        2119 --	    .ef
+                        2120 .LDW95:
+00000774 7f00           2121 	jmp	[lp]
+                        2122 	.type	_dspi_Delay,@function
+                        2123 	.size	_dspi_Delay,.-_dspi_Delay
+                        2124 	.type	_dspi_Delay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,@function
+                        2125 	.size	_dspi_Delay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.,.-_dspi_Delay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi.
+
+                                                                      Page 37
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000083s1.si
+                        2126 	.align	2
+                        2127 .LDW06:
+                        2128 --_k	r1	local
+                        2129 
+                        2130 --_m	r14	param
+                        2131 
+                        2132 	.section ".bss","awb"
+                        2133 .L1542:
+                        2134 	.type	.L1542,@object
+                        2135 	.size	.L1542,0
+                        2136 	.data
+                        2137 	.text
+                        2138 
+                        2139 	.align	2
+                        2140 --_DspiList	_DspiList	static
+                        2141 --_Dspi_Status	_Dspi_Status	static
+                        2142 
+                        2143 	.data
+                        2144 	.ghsnote version,14
+                        2145 	.ghsnote tools,3
+                        2146 	.ghsnote options,144
+                        2147 	.text
+                        2148 	.align	2
+                        2149 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cdspi...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740366..0::
+                        2150 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

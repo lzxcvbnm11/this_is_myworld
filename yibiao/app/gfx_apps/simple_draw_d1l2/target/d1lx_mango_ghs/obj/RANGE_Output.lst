@@ -1,0 +1,906 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\RANGE_Output.dbo -source=RANGE_Output.c -o .\obj\gh_000038o1.o -list=.\obj\RANGE_Output.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+Source File: RANGE_Output.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\RANG\RANGE_Output.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         112 --		-o .\obj\RANGE_Output.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\RANG\RANGE_Output.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:32 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --2: /**************************************************************************
+                         125 --3: |                                Copyright
+                         126 --4: |------------------------------------------------------------------------
+                         127 --5: |Copyright(c) by YEEDON MultiMedia Co.LTD. All rights reserved.
+                         128 --6: |
+                         129 --7: |    this software if furnished under a license and may be used and copied
+                         130 --8: |    only in accordance with the terms of such license and with the inclusion
+                         131 --9: |    of he above copyright notic.This software or any other copies thereof
+                         132 --10: |    may not be provided of otherwise made available to any other persion.
+                         133 --11: |    No title to and ownership of the software is hereby transferred.
+                         134 --12: |
+                         135 --13: |    the information in this software is subject to change without notice
+                         136 --14: |   and should not be construed as a commitment by
+                         137 --15: |   YEEDON MultiMedia Co.LTD.
+                         138 --16: |
+                         139 --17: |     YEEDON MultiMedia Co.LTD. assumes no responsibility for the use or reliability
+                         140 --18: |     of its Software on equipment which is not supported by YEEDON MultiMedia Co.LTD.
+                         141 --19: |--------------------------------------------------------------
+                         142 --20: **************************************************************************/
+                         143 --22: /*--------------------------------------------------------------------------*/
+                         144 --23: /*****************************************************************************
+                         145 --24: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         146 --25: *
+                         147 --26: * File Name : Rang_output.c
+                         148 --27: * Description : Rang_output signal process
+                         149 --28: * Author: liuyingying
+                         150 --29: * Date: 2016-12-21
+                         151 --30: ******************************************************************************/
+                         152 --31: /*---------------------------------------------------------------------------*/
+                         153 --35: /*------------------------------------------------------------------------*/
+                         154 --36: /*-----Head of file----------------------------------------------------------*/
+                         155 --37: /*------------------------------------------------------------------------*/
+                         156 --38: #include "yd_typedefs.h"
+                         157 --39: #include "public.h"
+                         158 --40: #include "RangeToEmptyAlgorithm_V2.h"
+                         159 --41: #include "nvm_public.h"
+                         160 --42: #include "pwr_public.h"
+                         161 --43: #include "com_public.h"
+                         162 --46: /***************************************************
+                         163 --47: * Function: RANG_GetDisplayRangeToEmpty
+                         164 --48: * Description:  get the Range Value
+                         165 --49: * Parameters: none
+                         166 --50: * Returns:prmDisplayRangeToEmpty
+                         167 --51:                 the detail rang value
+                         168 --52: * $Create & Verlog:$
+                         169 --53: * Author:liuyingying  Date:2016-12-21   Version:V1.0
+                         170 --54: ****************************************************/
+                         171 --55: U16 RANG_GetDisplayRangeToEmpty(void)
+                         172 	.text
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         173 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036D..0::
+                         174 	.align	2
+                         175 	.global	_RANG_GetDisplayRangeToEmpty
+                         176 _RANG_GetDisplayRangeToEmpty:
+                         177 --	    .bf
+                         178 .LDW01:
+                         179 --56: {
+                         180 --57:     return prmDisplayRangeToEmpty;
+00000000 2a0600000000*   181 	mov	_prmDisplayRangeToEmpty,r10
+00000006 ea570100        182 	ld.hu	0[r10],r10
+                         183 --	    .ef
+                         184 .LDW11:
+0000000a 7f00            185 	jmp	[lp]
+                         186 	.type	_RANG_GetDisplayRangeToEmpty,@function
+                         187 	.size	_RANG_GetDisplayRangeToEmpty,.-_RANG_GetDisplayRangeToEmpty
+                         188 	.align	2
+                         189 .LDW21:
+                         190 
+                         191 	.section ".bss","awb"
+                         192 .L24:
+                         193 	.type	.L24,@object
+                         194 	.size	.L24,0
+                         195 	.data
+                         196 	.text
+                         197 
+                         198 --58: }
+                         199 
+                         200 --60: /***************************************************
+                         201 --61: * Function: RANG_GetOdoSum
+                         202 --62: * Description:  RANG OUTPUT  Interface which Rang module used
+                         203 --63: * Parameters: none
+                         204 --64: * Returns:prmRangeToEmptyWarning
+                         205 --65:                 TRUE: hmi will not display prmDisplayRangeToEmpty
+                         206 --66:                 FALSE:hmi will display prmDisplayRangeToEmpty
+                         207 --67: * $Create & Verlog:$
+                         208 --68: * Author:liuyingying  Date:2016-12-21   Version:V1.0
+                         209 --69: ****************************************************/
+                         210 --71: U8 RANG_GetOdoSum(void)
+                         211 	.align	2
+                         212 	.align	2
+                         213 	.global	_RANG_GetOdoSum
+                         214 _RANG_GetOdoSum:
+                         215 --	    .bf
+                         216 .LDW31:
+                         217 --72: {
+                         218 --73:     return prmOdometerSum;
+0000000c 2a0600000000*   219 	mov	_prmOdometerSum,r10
+00000012 8a570100        220 	ld.bu	0[r10],r10
+                         221 --	    .ef
+                         222 .LDW41:
+00000016 7f00            223 	jmp	[lp]
+                         224 	.type	_RANG_GetOdoSum,@function
+                         225 	.size	_RANG_GetOdoSum,.-_RANG_GetOdoSum
+                         226 	.align	2
+                         227 .LDW51:
+                         228 
+                         229 	.section ".bss","awb"
+                         230 .L56:
+                         231 	.type	.L56,@object
+                         232 	.size	.L56,0
+                         233 	.data
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         234 	.text
+                         235 
+                         236 --74: }
+                         237 
+                         238 --76: /***************************************************
+                         239 --77: * Function: RANG_GetFuelSum
+                         240 --78: * Description:  RANG OUTPUT  Interface which Rang module used
+                         241 --79: * Parameters: none
+                         242 --80: * Returns:prmRangeToEmptyWarning
+                         243 --81:                 TRUE: hmi will not display prmDisplayRangeToEmpty
+                         244 --82:                 FALSE:hmi will display prmDisplayRangeToEmpty
+                         245 --83: * $Create & Verlog:$
+                         246 --84: * Author:liuyingying  Date:2016-12-21   Version:V1.0
+                         247 --85: ****************************************************/
+                         248 --86: U16 RANG_GetFuelSum(void)
+                         249 	.align	2
+                         250 	.align	2
+                         251 	.global	_RANG_GetFuelSum
+                         252 _RANG_GetFuelSum:
+                         253 --	    .bf
+                         254 .LDW61:
+                         255 --87: {
+                         256 --88:     return prmFuelSum;
+00000018 2a0600000000*   257 	mov	_prmFuelSum,r10
+0000001e ea570100        258 	ld.hu	0[r10],r10
+                         259 --	    .ef
+                         260 .LDW71:
+00000022 7f00            261 	jmp	[lp]
+                         262 	.type	_RANG_GetFuelSum,@function
+                         263 	.size	_RANG_GetFuelSum,.-_RANG_GetFuelSum
+                         264 	.align	2
+                         265 .LDW81:
+                         266 
+                         267 	.section ".bss","awb"
+                         268 .L88:
+                         269 	.type	.L88,@object
+                         270 	.size	.L88,0
+                         271 	.data
+                         272 	.text
+                         273 
+                         274 --89: }
+                         275 
+                         276 --91: /***************************************************
+                         277 --92: * Function: RANG_GetFullFuelConsumption
+                         278 --93: * Description:  RANG OUTPUT  Interface which Rang module used
+                         279 --94: * Parameters: none
+                         280 --95: * Returns:prmRangeToEmptyWarning
+                         281 --96:                 TRUE: hmi will not display prmDisplayRangeToEmpty
+                         282 --97:                 FALSE:hmi will display prmDisplayRangeToEmpty
+                         283 --98: * $Create & Verlog:$
+                         284 --99: * Author:liuyingying  Date:2016-12-21   Version:V1.0
+                         285 --100: ****************************************************/
+                         286 --101: U8  RANG_GetFullFuelConsumption(void)
+                         287 	.align	2
+                         288 	.align	2
+                         289 	.global	_RANG_GetFullFuelConsumption
+                         290 _RANG_GetFullFuelConsumption:
+                         291 --	    .bf
+                         292 .LDW91:
+                         293 --102: {
+                         294 --103:     return prmFullFuelConsumption;
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+00000024 2a0600000000*   295 	mov	_prmFullFuelConsumption,r10
+0000002a 8a570100        296 	ld.bu	0[r10],r10
+                         297 --	    .ef
+                         298 .LDW02:
+0000002e 7f00            299 	jmp	[lp]
+                         300 	.type	_RANG_GetFullFuelConsumption,@function
+                         301 	.size	_RANG_GetFullFuelConsumption,.-_RANG_GetFullFuelConsumption
+                         302 	.align	2
+                         303 .LDW12:
+                         304 
+                         305 	.section ".bss","awb"
+                         306 .L120:
+                         307 	.type	.L120,@object
+                         308 	.size	.L120,0
+                         309 	.data
+                         310 	.text
+                         311 
+                         312 --104: }
+                         313 
+                         314 --106: /***************************************************
+                         315 --107: * Function: RANG_GetRecentFuelConsumption
+                         316 --108: * Description:  RANG OUTPUT  Interface which Rang module used
+                         317 --109: * Parameters: none
+                         318 --110: * Returns:prmRangeToEmptyWarning
+                         319 --111:                 TRUE: hmi will not display prmDisplayRangeToEmpty
+                         320 --112:                 FALSE:hmi will display prmDisplayRangeToEmpty
+                         321 --113: * $Create & Verlog:$
+                         322 --114: * Author:liuyingying  Date:2016-12-21   Version:V1.0
+                         323 --115: ****************************************************/
+                         324 --117: U8  RANG_GetRecentFuelConsumption(void)
+                         325 	.align	2
+                         326 	.align	2
+                         327 	.global	_RANG_GetRecentFuelConsumption
+                         328 _RANG_GetRecentFuelConsumption:
+                         329 --	    .bf
+                         330 .LDW22:
+                         331 --118: {
+                         332 --119:     return prmRecentFuelConsumption;
+00000030 2a0600000000*   333 	mov	_prmRecentFuelConsumption,r10
+00000036 8a570100        334 	ld.bu	0[r10],r10
+                         335 --	    .ef
+                         336 .LDW32:
+0000003a 7f00            337 	jmp	[lp]
+                         338 	.type	_RANG_GetRecentFuelConsumption,@function
+                         339 	.size	_RANG_GetRecentFuelConsumption,.-_RANG_GetRecentFuelConsumption
+                         340 	.align	2
+                         341 .LDW42:
+                         342 
+                         343 	.section ".bss","awb"
+                         344 .L152:
+                         345 	.type	.L152,@object
+                         346 	.size	.L152,0
+                         347 	.data
+                         348 	.text
+                         349 
+                         350 --120: }
+                         351 
+                         352 --123: /***************************************************
+                         353 --124: * Function: RANG_GetDisplayRangeToEmptyWarn
+                         354 --125: * Description:  RANG OUTPUT  Interface which Rang module used
+                         355 --126: * Parameters: none
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         356 --127: * Returns:prmRangeToEmptyWarning
+                         357 --128:                 TRUE: hmi will not display prmDisplayRangeToEmpty
+                         358 --129:                 FALSE:hmi will display prmDisplayRangeToEmpty
+                         359 --130: * $Create & Verlog:$
+                         360 --131: * Author:liuyingying  Date:2016-12-21   Version:V1.0
+                         361 --132: ****************************************************/
+                         362 --133: BOOL RANG_GetDisplayRangeToEmptyWarn(void)
+                         363 	.align	2
+                         364 	.align	2
+                         365 	.global	_RANG_GetDisplayRangeToEmptyWarn
+                         366 _RANG_GetDisplayRangeToEmptyWarn:
+                         367 --	    .bf
+                         368 .LDW52:
+                         369 --134: {
+                         370 --135:     return prmRangeToEmptyWarning;
+0000003c 2a0600000000*   371 	mov	_prmRangeToEmptyWarning,r10
+00000042 8a570100        372 	ld.bu	0[r10],r10
+                         373 --	    .ef
+                         374 .LDW62:
+00000046 7f00            375 	jmp	[lp]
+                         376 	.type	_RANG_GetDisplayRangeToEmptyWarn,@function
+                         377 	.size	_RANG_GetDisplayRangeToEmptyWarn,.-_RANG_GetDisplayRangeToEmptyWarn
+                         378 	.align	2
+                         379 .LDW72:
+                         380 
+                         381 	.section ".bss","awb"
+                         382 .L184:
+                         383 	.type	.L184,@object
+                         384 	.size	.L184,0
+                         385 	.data
+                         386 	.text
+                         387 
+                         388 --136: }
+                         389 
+                         390 --139: void RANG_NetSignal_OutPut(void)
+                         391 	.align	2
+                         392 	.align	2
+                         393 	.global	_RANG_NetSignal_OutPut
+                         394 _RANG_NetSignal_OutPut:
+00000048 80076100        395 	prepare	{r29,r31},0
+                         396 --	    .bf
+                         397 .LDW82:
+                         398 --140: {
+                         399 --141:     U16   RangeToEmpty_Send ;
+                         400 --142:    	
+                         401 --143: 	#if DEBUG_FL_ALGORITHM
+                         402 --144: 	v_wr_8(prmOdometerSum_handle,prmOdometerSum);
+0000004c 270600000000*   403 	mov	_prmOdometerSum,r7
+00000052 873f0100        404 	ld.bu	0[r7],r7
+00000056 2606f8233f00    405 	mov	4137976,r6
+                         406 	jarl	_v_wr_8,lp
+                         406 <EXPANSION BEGIN>
+                         406 jarl22 _v_wr_8 , lp 
+0000005c 80ff0000*       406 <EXPANSION END>
+                         407 --145: 	v_wr_8(prmRecentFuelConsumption_handle,prmRecentFuelConsumption);
+                         408 --line145
+                         409 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.1::
+                         410 .LDWlin1:
+00000060 270600000000*   411 	mov	_prmRecentFuelConsumption,r7
+00000066 873f0100        412 	ld.bu	0[r7],r7
+0000006a 26061c243f00    413 	mov	4138012,r6
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         414 	jarl	_v_wr_8,lp
+                         414 <EXPANSION BEGIN>
+                         414 jarl22 _v_wr_8 , lp 
+00000070 80ff0000*       414 <EXPANSION END>
+                         415 --146: 	v_wr_16(prmFuelSum_handle,prmFuelSum);
+                         416 --line146
+                         417 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.2::
+                         418 .LDWlin2:
+00000074 270600000000*   419 	mov	_prmFuelSum,r7
+0000007a e73f0100        420 	ld.hu	0[r7],r7
+0000007e 260640243f00    421 	mov	4138048,r6
+                         422 	jarl	_v_wr_16,lp
+                         422 <EXPANSION BEGIN>
+                         422 jarl22 _v_wr_16 , lp 
+00000084 80ff0000*       422 <EXPANSION END>
+                         423 --148: 	RangeToEmpty_Send = prmDisplayRangeToEmpty%1000;
+                         424 --line148
+                         425 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.3::
+                         426 .LDWlin3:
+00000088 210600000000*   427 	mov	_prmDisplayRangeToEmpty,r1
+0000008e e10f0100        428 	ld.hu	0[r1],r1
+00000092 2076e803        429 	movea	1000,zero,r14
+00000096 ee0ffcea        430 	divq	r14,r1,r29
+0000009a dd00            431 	zxh	r29
+                         432 --149: 	v_wr_16(RmnDrvngDist_handle,RangeToEmpty_Send);
+0000009c 1d38            433 	mov	r29,r7
+0000009e 260644353f00    434 	mov	4142404,r6
+                         435 	jarl	_v_wr_16,lp
+                         435 <EXPANSION BEGIN>
+                         435 jarl22 _v_wr_16 , lp 
+000000a4 80ff0000*       435 <EXPANSION END>
+                         436 --150: 	
+                         437 --152: 	/*
+                         438 --153: 	RangeToEmpty_Send = (((prmRangeToEmpty & 0x0000ff) << 16)
+                         439 --154:                                 | (prmRangeToEmpty & 0x00ff00)
+                         440 --155:                                 | ((prmRangeToEmpty & 0xff0000) >> 16));
+                         441 --156: 	*/
+                         442 --157: 	
+                         443 --158: 	//v_wr_bytes(prmRangeToEmpty_handle,&RangeToEmpty_Send,3,0);
+                         444 --159: 	
+                         445 --160: 	#endif
+                         446 --161: }
+                         447 --line161
+                         448 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.4::
+                         449 .LDWlin4:
+000000a8 0000            450 	nop
+                         451 --	    .ef
+                         452 .LDW92:
+000000aa 40067f00        453 	dispose	0,{r29,r31},[lp]
+                         454 	.type	_RANG_NetSignal_OutPut,@function
+                         455 	.size	_RANG_NetSignal_OutPut,.-_RANG_NetSignal_OutPut
+                         456 	.align	2
+                         457 .LDW03:
+                         458 --_RangeToEmpty_Send	r29	local
+                         459 
+                         460 	.section ".bss","awb"
+                         461 .L226:
+                         462 	.type	.L226,@object
+                         463 	.size	.L226,0
+                         464 	.data
+                         465 	.text
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         466 
+                         467 
+                         468 --162: /***************************************************
+                         469 --163: * Function: RANG_Output
+                         470 --164: * Description:  rang output
+                         471 --165: * Parameters: none
+                         472 --166: * Returns:none
+                         473 --167: * $Create & Verlog:$
+                         474 --168: * Author:liuyingying  Date:2017-11-27   Version:V1.0
+                         475 --169: ****************************************************/
+                         476 --171: void RANG_Output(void)
+                         477 	.align	2
+                         478 	.align	2
+                         479 	.global	_RANG_Output
+                         480 _RANG_Output:
+000000ae 8207e100        481 	prepare	{r28,r29,r31},1
+000000b2 3d0600000000*   482 	mov	.L302,r29
+000000b8 1de0            483 	mov	r29,r28
+                         484 --	    .bf
+                         485 .LDW13:
+                         486 --172: {
+                         487 --173: 	static U8 pwrMode;
+                         488 --174: 		U8 curMode;
+                         489 --175: 	
+                         490 --176: 		PWR_GetPwrMode(&curMode);
+000000ba 23360300        491 	movea	3,sp,r6
+                         492 	jarl	_PWR_GetPwrMode,lp
+                         492 <EXPANSION BEGIN>
+                         492 jarl22 _PWR_GetPwrMode , lp 
+000000be 80ff0000*       492 <EXPANSION END>
+                         493 --177: 		if(((PWR_OFF == curMode) || (PWR_ACC == curMode)) && ((PWR_RUN == pwrMode) || 
+                         494 --line177
+                         495 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.5::
+                         496 .LDWlin5:
+000000c2 a30f0300        497 	ld.bu	3[sp],r1
+000000c6 e009            498 	cmp	zero,r1
+000000c8 d205*           499 	be	.L257
+000000ca a30f0300        500 	ld.bu	3[sp],r1
+000000ce 610a            501 	cmp	1,r1
+000000d0 9a35*           502 	bne	.L255
+                         503 .L257:
+000000d2 9d0f0100        504 	ld.bu	0[r29],r1
+000000d6 620a            505 	cmp	2,r1
+000000d8 d205*           506 	be	.L256
+000000da 9d0f0100        507 	ld.bu	0[r29],r1
+000000de 630a            508 	cmp	3,r1
+000000e0 9a2d*           509 	bne	.L255
+                         510 .L256:
+                         511 --178: 		(PWR_CRANK == pwrMode)))
+                         512 --179: 		{
+                         513 --180: 		    NVM_SetParas(INDEX_NVM_K_ODOMETERSUM,&prmOdometerSum,1);
+                         514 --line180
+                         515 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.6::
+                         516 .LDWlin6:
+000000e2 20368700        517 	movea	135,zero,r6
+000000e6 0142            518 	mov	1,r8
+000000e8 270600000000*   519 	mov	_prmOdometerSum,r7
+                         520 	jarl	_NVM_SetParas,lp
+                         520 <EXPANSION BEGIN>
+                         520 jarl22 _NVM_SetParas , lp 
+000000ee 80ff0000*       520 <EXPANSION END>
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         521 --181: 		    NVM_SetParas(INDEX_NVM_K_FUELSUM,&prmFuelSum,2);
+                         522 --line181
+                         523 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.7::
+                         524 .LDWlin7:
+000000f2 270600000000*   525 	mov	_prmFuelSum,r7
+000000f8 20368800        526 	movea	136,zero,r6
+000000fc 0242            527 	mov	2,r8
+                         528 	jarl	_NVM_SetParas,lp
+                         528 <EXPANSION BEGIN>
+                         528 jarl22 _NVM_SetParas , lp 
+000000fe 80ff0000*       528 <EXPANSION END>
+                         529 --182: 		    NVM_SetParas(INDEX_NVM_K_FULLFUELCOMSUMPTION,&prmFullFuelConsumption,1);
+                         530 --line182
+                         531 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.8::
+                         532 .LDWlin8:
+00000102 20368500        533 	movea	133,zero,r6
+00000106 0142            534 	mov	1,r8
+00000108 270600000000*   535 	mov	_prmFullFuelConsumption,r7
+                         536 	jarl	_NVM_SetParas,lp
+                         536 <EXPANSION BEGIN>
+                         536 jarl22 _NVM_SetParas , lp 
+0000010e 80ff0000*       536 <EXPANSION END>
+                         537 --183: 		    NVM_SetParas(INDEX_NVM_K_RECENTFUELCONSUMPTION,&prmRecentFuelConsumption,1);
+                         538 --line183
+                         539 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.9::
+                         540 .LDWlin9:
+00000112 20368600        541 	movea	134,zero,r6
+00000116 0142            542 	mov	1,r8
+00000118 270600000000*   543 	mov	_prmRecentFuelConsumption,r7
+                         544 	jarl	_NVM_SetParas,lp
+                         544 <EXPANSION BEGIN>
+                         544 jarl22 _NVM_SetParas , lp 
+0000011e 80ff0000*       544 <EXPANSION END>
+                         545 --184: 		    NVM_SetParas(INDEX_NVM_K_RANGETOEMPTY,&prmRangeToEmpty,4);
+                         546 --line184
+                         547 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.10::
+                         548 .LDWlin10:
+00000122 270600000000*   549 	mov	_prmRangeToEmpty,r7
+00000128 20368400        550 	movea	132,zero,r6
+0000012c 0442            551 	mov	4,r8
+                         552 	jarl	_NVM_SetParas,lp
+                         552 <EXPANSION BEGIN>
+                         552 jarl22 _NVM_SetParas , lp 
+0000012e 80ff0000*       552 <EXPANSION END>
+                         553 .L255:
+                         554 --185: 		}	
+                         555 --186: 		pwrMode = curMode;
+                         556 --line186
+                         557 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.11::
+                         558 .LDWlin11:
+00000132 a30f0300        559 	ld.bu	3[sp],r1
+00000136 5d0f0000        560 	st.b	r1,0[r29]
+                         561 --187: 		
+                         562 --190: }
+0000013a 0000            563 	nop
+                         564 --	    .ef
+                         565 .LDW23:
+0000013c 4206ff00        566 	dispose	1,{r28,r29,r31},[lp]
+                         567 	.type	_RANG_Output,@function
+                         568 	.size	_RANG_Output,.-_RANG_Output
+                         569 	.align	2
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         570 .LDW33:
+                         571 --_pwrMode	.L333	static
+                         572 --_curMode	3[sp]	local
+                         573 
+                         574 	.section ".bss","awb"
+                         575 .L302:
+                         576 	.type	.L302,@object
+                         577 	.size	.L302,0
+                         578 	.global	_pwrMode.RANG_Output.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output..0
+                         579 _pwrMode.RANG_Output.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output..0:
+                         580 	.type	_pwrMode.RANG_Output.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output..0,@object
+                         581 	.size	_pwrMode.RANG_Output.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output..0,1
+00000000 00              582 .L333:	.space	1
+                         583 	.type	.L333,@object
+                         584 	.size	.L333,1
+                         585 	.data
+                         586 	.text
+                         587 
+                         588 
+                         589 --192: /***************************************************
+                         590 --193: * Function: RANG_Output
+                         591 --194: * Description:  rang output
+                         592 --195: * Parameters: none
+                         593 --196: * Returns:none
+                         594 --197: * $Create & Verlog:$
+                         595 --198: * Author:liuyingying  Date:2017-11-27   Version:V1.0
+                         596 --199: ****************************************************/
+                         597 --201: void RANG_OutputBeforeSleep(void)
+                         598 	.align	2
+                         599 	.align	2
+                         600 	.global	_RANG_OutputBeforeSleep
+                         601 _RANG_OutputBeforeSleep:
+00000140 80072100        602 	prepare	{r31},0
+                         603 --	    .bf
+                         604 .LDW43:
+                         605 --202: {
+                         606 --203: 	#if 1
+                         607 --204: 	static U8 pwrMode;
+                         608 --205: 		U8 curMode;
+                         609 --206: 	
+                         610 --207: 		
+                         611 --208: 		    NVM_SetParas(INDEX_NVM_K_ODOMETERSUM,&prmOdometerSum,1);
+00000144 20368700        612 	movea	135,zero,r6
+00000148 0142            613 	mov	1,r8
+0000014a 270600000000*   614 	mov	_prmOdometerSum,r7
+                         615 	jarl	_NVM_SetParas,lp
+                         615 <EXPANSION BEGIN>
+                         615 jarl22 _NVM_SetParas , lp 
+00000150 80ff0000*       615 <EXPANSION END>
+                         616 --209: 		    NVM_SetParas(INDEX_NVM_K_FUELSUM,&prmFuelSum,2);
+                         617 --line209
+                         618 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.12::
+                         619 .LDWlin12:
+00000154 270600000000*   620 	mov	_prmFuelSum,r7
+0000015a 20368800        621 	movea	136,zero,r6
+0000015e 0242            622 	mov	2,r8
+                         623 	jarl	_NVM_SetParas,lp
+                         623 <EXPANSION BEGIN>
+                         623 jarl22 _NVM_SetParas , lp 
+00000160 80ff0000*       623 <EXPANSION END>
+                         624 --210: 		    NVM_SetParas(INDEX_NVM_K_FULLFUELCOMSUMPTION,&prmFullFuelConsumption,1);
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         625 --line210
+                         626 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.13::
+                         627 .LDWlin13:
+00000164 20368500        628 	movea	133,zero,r6
+00000168 0142            629 	mov	1,r8
+0000016a 270600000000*   630 	mov	_prmFullFuelConsumption,r7
+                         631 	jarl	_NVM_SetParas,lp
+                         631 <EXPANSION BEGIN>
+                         631 jarl22 _NVM_SetParas , lp 
+00000170 80ff0000*       631 <EXPANSION END>
+                         632 --211: 		    NVM_SetParas(INDEX_NVM_K_RECENTFUELCONSUMPTION,&prmRecentFuelConsumption,1);
+                         633 --line211
+                         634 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.14::
+                         635 .LDWlin14:
+00000174 20368600        636 	movea	134,zero,r6
+00000178 0142            637 	mov	1,r8
+0000017a 270600000000*   638 	mov	_prmRecentFuelConsumption,r7
+                         639 	jarl	_NVM_SetParas,lp
+                         639 <EXPANSION BEGIN>
+                         639 jarl22 _NVM_SetParas , lp 
+00000180 80ff0000*       639 <EXPANSION END>
+                         640 --212: 		    NVM_SetParas(INDEX_NVM_K_RANGETOEMPTY,&prmRangeToEmpty,4);
+                         641 --line212
+                         642 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.15::
+                         643 .LDWlin15:
+00000184 270600000000*   644 	mov	_prmRangeToEmpty,r7
+0000018a 20368400        645 	movea	132,zero,r6
+0000018e 0442            646 	mov	4,r8
+                         647 	jarl	_NVM_SetParas,lp
+                         647 <EXPANSION BEGIN>
+                         647 jarl22 _NVM_SetParas , lp 
+00000190 80ff0000*       647 <EXPANSION END>
+                         648 --213: 		
+                         649 --214: 		
+                         650 --216: #endif
+                         651 --217: }
+                         652 --line217
+                         653 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.16::
+                         654 .LDWlin16:
+00000194 0000            655 	nop
+                         656 --	    .ef
+                         657 .LDW53:
+00000196 40063f00        658 	dispose	0,{r31},[lp]
+                         659 	.type	_RANG_OutputBeforeSleep,@function
+                         660 	.size	_RANG_OutputBeforeSleep,.-_RANG_OutputBeforeSleep
+                         661 	.align	2
+                         662 .LDW63:
+                         663 
+                         664 	.section ".bss","awb"
+                         665 .L370:
+                         666 	.type	.L370,@object
+                         667 	.size	.L370,0
+                         668 	.data
+                         669 	.text
+                         670 
+                         671 
+                         672 --220: /***************************************************
+                         673 --221: * Function: RANG_Printf
+                         674 --222: * Description:  rang output
+                         675 --223: * Parameters: none
+                         676 --224: * Returns:none
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         677 --225: * $Create & Verlog:$
+                         678 --226: * Author:liuyingying  Date:2017-11-27   Version:V1.0
+                         679 --227: ****************************************************/
+                         680 --228: void RANG_Printf(void)
+                         681 	.align	2
+                         682 	.align	2
+                         683 	.global	_RANG_Printf
+                         684 _RANG_Printf:
+0000019a 94072100        685 	prepare	{r31},10
+                         686 --	    .bf
+                         687 .LDW73:
+                         688 --229: {
+                         689 --230: 	    printf("rang:%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n ", 
+0000019e 210600000000*   690 	mov	_gASI_K_OdometerSum,r1
+000001a4 810f0100        691 	ld.bu	0[r1],r1
+000001a8 270600000000*   692 	mov	_gASI_VehicleOdometer,r7
+000001ae 280600000000*   693 	mov	_gASI_K_FullFuelConsumption,r8
+000001b4 290600000000*   694 	mov	_gASI_K_RecentFuelConsumption,r9
+000001ba 630f0100        695 	st.w	r1,0[sp]
+000001be 210600000000*   696 	mov	_gASI_K_FuelSum,r1
+000001c4 e10f0100        697 	ld.hu	0[r1],r1
+000001c8 273f0100        698 	ld.w	0[r7],r7
+000001cc 88470100        699 	ld.bu	0[r8],r8
+000001d0 894f0100        700 	ld.bu	0[r9],r9
+000001d4 630f0500        701 	st.w	r1,4[sp]
+000001d8 210600000000*   702 	mov	_gASI_K_RangeToEmpty,r1
+000001de 210f0100        703 	ld.w	0[r1],r1
+000001e2 260600000000*   704 	mov	.L422,r6
+000001e8 630f0900        705 	st.w	r1,8[sp]
+000001ec 210600000000*   706 	mov	_gASI_VehicleOdometerV,r1
+000001f2 810f0100        707 	ld.bu	0[r1],r1
+000001f6 630f0d00        708 	st.w	r1,12[sp]
+000001fa 210600000000*   709 	mov	_prmFuelSum,r1
+00000200 e10f0100        710 	ld.hu	0[r1],r1
+00000204 630f1100        711 	st.w	r1,16[sp]
+00000208 210600000000*   712 	mov	_prmDisplayRangeToEmpty,r1
+0000020e e10f0100        713 	ld.hu	0[r1],r1
+00000212 630f1500        714 	st.w	r1,20[sp]
+00000216 210600000000*   715 	mov	_prmFullFuelConsumption,r1
+0000021c 810f0100        716 	ld.bu	0[r1],r1
+00000220 630f1900        717 	st.w	r1,24[sp]
+00000224 210600000000*   718 	mov	_prmRecentFuelConsumption,r1
+0000022a 810f0100        719 	ld.bu	0[r1],r1
+0000022e 630f1d00        720 	st.w	r1,28[sp]
+00000232 210600000000*   721 	mov	_prmOdometerSum,r1
+00000238 810f0100        722 	ld.bu	0[r1],r1
+0000023c 630f2100        723 	st.w	r1,32[sp]
+00000240 210600000000*   724 	mov	_prmRangeToEmptyWarning,r1
+00000246 810f0100        725 	ld.bu	0[r1],r1
+0000024a 630f2500        726 	st.w	r1,36[sp]
+                         727 	jarl	_printf,lp
+                         727 <EXPANSION BEGIN>
+                         727 jarl22 _printf , lp 
+0000024e 80ff0000*       727 <EXPANSION END>
+                         728 --231:                     gASI_VehicleOdometer,
+                         729 --232:                     gASI_K_FullFuelConsumption,
+                         730 --233:                     gASI_K_RecentFuelConsumption,
+                         731 --234:                     gASI_K_OdometerSum,
+                         732 --235:                     gASI_K_FuelSum,
+                         733 --236:                     gASI_K_RangeToEmpty,
+                         734 --237:                     gASI_VehicleOdometerV,
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         735 --238:                     prmFuelSum,
+                         736 --239:                     prmDisplayRangeToEmpty, 
+                         737 --240:                     prmFullFuelConsumption,
+                         738 --241:                     prmRecentFuelConsumption,
+                         739 --242:                     prmOdometerSum,
+                         740 --243:                     prmRangeToEmptyWarning);
+                         741 --244: }
+                         742 --line244
+                         743 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output.17::
+                         744 .LDWlin17:
+00000252 0000            745 	nop
+                         746 --	    .ef
+                         747 .LDW83:
+00000254 54063f00        748 	dispose	10,{r31},[lp]
+                         749 	.type	_RANG_Printf,@function
+                         750 	.size	_RANG_Printf,.-_RANG_Printf
+                         751 	.align	2
+                         752 .LDW93:
+                         753 --.L411	.L422	static
+                         754 
+                         755 	.section ".bss","awb"
+                         756 .L410:
+                         757 	.type	.L410,@object
+                         758 	.size	.L410,0
+                         759 	.section ".rodata","a"
+                         760 .L422:--	"rang:%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n "
+00000000 72616e67        761 	.byte	114,97,110,103
+00000004 3a25640a        762 	.byte	58,37,100,10
+00000008 25640a25        763 	.byte	37,100,10,37
+0000000c 640a2564        764 	.byte	100,10,37,100
+00000010 0a25640a        765 	.byte	10,37,100,10
+00000014 25640a25        766 	.byte	37,100,10,37
+00000018 640a2564        767 	.byte	100,10,37,100
+0000001c 0a25640a        768 	.byte	10,37,100,10
+00000020 25640a25        769 	.byte	37,100,10,37
+00000024 640a2564        770 	.byte	100,10,37,100
+00000028 0a25640a        771 	.byte	10,37,100,10
+0000002c 2000            772 	.byte	32,0
+                         773 	.type	.L422,@object
+                         774 	.size	.L422,46
+                         775 	.data
+                         776 	.text
+                         777 
+                         778 	.align	2
+                         779 --_gASI_VehicleOdometer	_gASI_VehicleOdometer	import
+                         780 --_gASI_K_FullFuelConsumption	_gASI_K_FullFuelConsumption	import
+                         781 --_gASI_K_RecentFuelConsumption	_gASI_K_RecentFuelConsumption	import
+                         782 --_gASI_K_OdometerSum	_gASI_K_OdometerSum	import
+                         783 --_gASI_K_FuelSum	_gASI_K_FuelSum	import
+                         784 --_gASI_K_RangeToEmpty	_gASI_K_RangeToEmpty	import
+                         785 --_gASI_VehicleOdometerV	_gASI_VehicleOdometerV	import
+                         786 --_prmRangeToEmpty	_prmRangeToEmpty	import
+                         787 --_prmFuelSum	_prmFuelSum	import
+                         788 --_prmDisplayRangeToEmpty	_prmDisplayRangeToEmpty	import
+                         789 --_prmFullFuelConsumption	_prmFullFuelConsumption	import
+                         790 --_prmRecentFuelConsumption	_prmRecentFuelConsumption	import
+                         791 --_prmOdometerSum	_prmOdometerSum	import
+                         792 --_prmRangeToEmptyWarning	_prmRangeToEmptyWarning	import
+                         793 
+                         794 	.data
+                         795 	.ghsnote version,14
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000038o1.si
+                         796 	.ghsnote tools,3
+                         797 	.ghsnote options,144
+                         798 	.text
+                         799 	.align	2
+                         800 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CRANGE_Output...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036D..0::
+                         801 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

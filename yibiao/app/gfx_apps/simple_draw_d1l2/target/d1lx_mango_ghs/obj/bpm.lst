@@ -1,0 +1,862 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\bpm.dbo -source=bpm.c -o .\obj\gh_000013g1.o -list=.\obj\bpm.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+Source File: bpm.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\middleware\BPM\bpm.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+                         112 --		-o .\obj\bpm.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\middleware\BPM\bpm.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:29 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : bpm.c
+                         128 --5: * Description :the bpm module.
+                         129 --6: * Author: Xueping.Chen
+                         130 --7: * Date: 2016-11-30
+                         131 --8: ******************************************************************************/
+                         132 --9: /* Files for including */
+                         133 --10: #include "r_typedefs.h"
+                         134 --11: #include "r_dev_pin_types.h"
+                         135 --12: #include "bpm_info.inc"
+                         136 --13: #include "R_tick_api.h"
+                         137 --14: static BOOL bpm_InitStatus = FALSE;
+                         138 --15: static U32 bpm_ListIndex = 0;
+                         139 --16: static BpmInfo_ST bpm_WarnInfo;
+                         140 --17: static BOOL bpm_WarnWorkStatus = FALSE;
+                         141 --18: static BpmPrm_ST g_pPrmList[8];
+                         142 --19: static BpmTC_ST bpm_TcPrm;
+                         143 --20: static U16 timecnt = 0;
+                         144 --22: /***************************************************
+                         145 --23: * Function: BPM_Init
+                         146 --24: * Description: the initializing of the bpm module
+                         147 --25: * Parameters: none
+                         148 --26: * Returns: none
+                         149 --27: * $Create & Verlog:$
+                         150 --28: * Author:Xueping.Chen  Date:2016-11-30   Version:V1.0
+                         151 --29: ****************************************************/
+                         152 --30: void BPM_Init(void)
+                         153 	.text
+                         154 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740369..0::
+                         155 	.align	2
+                         156 	.global	_BPM_Init
+                         157 _BPM_Init:
+00000000 8007e170        158 	prepare	{r25,r26,r27,r28,r29,r31},0
+00000004 3d0600000000*   159 	mov	.L56,r29
+0000000a 3dd64000        160 	movea	64,r29,r26
+0000000e 3dce5800        161 	movea	88,r29,r25
+00000012 1de0            162 	mov	r29,r28
+                         163 --	    .bf
+                         164 .LDW01:
+                         165 --31: {
+                         166 --32:      U8 res;
+                         167 --33:     bpm_InitStatus = (DIO_GetInitStatus() && TAUB_GetInitStatus() /*&& OSTM_GetInitStatus()*/);
+00000014 00da            168 	mov	0,r27
+                         169 	jarl	_DIO_GetInitStatus,lp
+                         169 <EXPANSION BEGIN>
+                         169 jarl22 _DIO_GetInitStatus , lp 
+00000016 80ff0000*       169 <EXPANSION END>
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+0000001a e051            170 	cmp	zero,r10
+0000001c e205*           171 	be	.L5
+                         172 	jarl	_TAUB_GetInitStatus,lp
+                         172 <EXPANSION BEGIN>
+                         172 jarl22 _TAUB_GetInitStatus , lp 
+0000001e 80ff0000*       172 <EXPANSION END>
+00000022 e051            173 	cmp	zero,r10
+00000024 e1df14db        174 	cmovne	1,r27,r27
+                         175 .L5:
+00000028 2b0600000000*   176 	mov	_bpm_InitStatus,r11
+0000002e 4bdf0000        177 	st.b	r27,0[r11]
+                         178 --34:     /*initializing the variable */
+                         179 --35:     memset(&g_pPrmList,0,sizeof(g_pPrmList));
+                         180 --line35
+                         181 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.1::
+                         182 .LDWlin1:
+00000032 1c30            183 	mov	r28,r6
+00000034 003a            184 	mov	0,r7
+00000036 20464000        185 	movea	64,zero,r8
+                         186 	jarl	_memset,lp
+                         186 <EXPANSION BEGIN>
+                         186 jarl22 _memset , lp 
+0000003a 80ff0000*       186 <EXPANSION END>
+                         187 --36:     bpm_WarnInfo.pPrmList = &g_pPrmList;//NULL_PTR;
+                         188 --line36
+                         189 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.2::
+                         190 .LDWlin2:
+0000003e 7de75900        191 	st.w	r28,88[r29]
+                         192 --37:     bpm_WarnInfo.PrmList_size = 0;
+00000042 5d075c00        193 	st.b	zero,92[r29]
+                         194 --38:     bpm_WarnInfo.OutCircle = 0;
+00000046 7d075e00        195 	st.h	zero,94[r29]
+                         196 --39:     bpm_WarnInfo.OutEnable = FALSE;
+0000004a 5d076000        197 	st.b	zero,96[r29]
+                         198 --40:     bpm_WarnInfo.Reserve = 0;
+0000004e 5d076100        199 	st.b	zero,97[r29]
+                         200 --41:     bpm_TcPrm.HighTime = 0;
+00000052 7d074100        201 	st.w	zero,64[r29]
+                         202 --42:     bpm_TcPrm.CycleTime = 0;
+00000056 7d074500        203 	st.w	zero,68[r29]
+                         204 --43:     bpm_TcPrm.Dcnt_Max = 0;
+0000005a 7d074900        205 	st.w	zero,72[r29]
+                         206 --44:     bpm_TcPrm.cnt = 0;
+0000005e 7d074d00        207 	st.w	zero,76[r29]
+                         208 --45:     bpm_TcPrm.IsHigh = 0;
+00000062 5d075400        209 	st.b	zero,84[r29]
+                         210 --46:     bpm_TcPrm.Reserve = 0;
+00000066 5d075500        211 	st.b	zero,85[r29]
+                         212 --47: }
+0000006a 0000            213 	nop
+                         214 --	    .ef
+                         215 .LDW11:
+0000006c 4006ff70        216 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         217 	.type	_BPM_Init,@function
+                         218 	.size	_BPM_Init,.-_BPM_Init
+                         219 	.align	2
+                         220 .LDW21:
+                         221 
+                         222 	.section ".bss","awb"
+                         223 	.align	4
+                         224 .L56:
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+                         225 	.type	.L56,@object
+                         226 	.size	.L56,0
+                         227 	.data
+                         228 	.align	4
+                         229 	.global	_bpm_ListIndex..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.
+                         230 _bpm_ListIndex..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.:
+                         231 	.type	_bpm_ListIndex..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,@object
+                         232 	.size	_bpm_ListIndex..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,4
+00000000 00000000        233 _bpm_ListIndex:	.byte	0,0,0,0
+                         234 	.type	_bpm_ListIndex,@object
+                         235 	.size	_bpm_ListIndex,4
+                         236 	.global	_timecnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.
+                         237 _timecnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.:
+                         238 	.type	_timecnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,@object
+                         239 	.size	_timecnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,2
+00000004 0000            240 _timecnt:	.byte	0,0
+                         241 	.type	_timecnt,@object
+                         242 	.size	_timecnt,2
+                         243 	.global	_bpm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.
+                         244 _bpm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.:
+                         245 	.type	_bpm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,@object
+                         246 	.size	_bpm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,1
+00000006 00              247 _bpm_InitStatus:	.byte	0
+                         248 	.type	_bpm_InitStatus,@object
+                         249 	.size	_bpm_InitStatus,1
+                         250 	.global	_bpm_WarnWorkStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.
+                         251 _bpm_WarnWorkStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.:
+                         252 	.type	_bpm_WarnWorkStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,@object
+                         253 	.size	_bpm_WarnWorkStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,1
+00000007 00              254 _bpm_WarnWorkStatus:	.byte	0
+                         255 	.type	_bpm_WarnWorkStatus,@object
+                         256 	.size	_bpm_WarnWorkStatus,1
+                         257 	.section ".bss","awb"
+                         258 	.global	_g_pPrmList..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.
+                         259 _g_pPrmList..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.:
+                         260 	.type	_g_pPrmList..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,@object
+                         261 	.size	_g_pPrmList..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,64
+00000000 000000000000    262 _g_pPrmList:	.space	64
+00000006 000000000000 
+0000000c 000000000000 
+00000012 000000000000 
+00000018 000000000000 
+0000001e 000000000000 
+00000024 000000000000 
+0000002a 000000000000 
+00000030 000000000000 
+00000036 000000000000 
+0000003c 00000000 
+                         263 	.type	_g_pPrmList,@object
+                         264 	.size	_g_pPrmList,64
+                         265 	.global	_bpm_TcPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.
+                         266 _bpm_TcPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.:
+                         267 	.type	_bpm_TcPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,@object
+                         268 	.size	_bpm_TcPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,24
+00000040 000000000000    269 _bpm_TcPrm:	.space	24
+00000046 000000000000 
+0000004c 000000000000 
+00000052 000000000000 
+                         270 	.type	_bpm_TcPrm,@object
+                         271 	.size	_bpm_TcPrm,24
+                         272 	.global	_bpm_WarnInfo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+                         273 _bpm_WarnInfo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.:
+                         274 	.type	_bpm_WarnInfo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,@object
+                         275 	.size	_bpm_WarnInfo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,12
+00000058 000000000000    276 _bpm_WarnInfo:	.space	12
+0000005e 000000000000 
+                         277 	.type	_bpm_WarnInfo,@object
+                         278 	.size	_bpm_WarnInfo,12
+                         279 	.data
+                         280 	.text
+                         281 
+                         282 
+                         283 --49: /***************************************************
+                         284 --50: * Function: BPM_Process_10ms
+                         285 --51: * Description: the process of the bpm module
+                         286 --52: * Parameters:  none
+                         287 --53: * Returns: none
+                         288 --54: * $Create & Verlog:$
+                         289 --55: * Author:Xueping.Chen  Date:2016-11-30   Version:V1.0
+                         290 --56: ****************************************************/
+                         291 --57: void BPM_Process_10ms(void)
+                         292 	.align	2
+                         293 	.align	2
+                         294 	.global	_BPM_Process_10ms
+                         295 _BPM_Process_10ms:
+                         296 --	    .bf
+                         297 .LDW31:
+                         298 --58: {
+                         299 --59:     
+                         300 --60: }
+00000070 0000            301 	nop
+                         302 --	    .ef
+                         303 .LDW41:
+00000072 7f00            304 	jmp	[lp]
+                         305 	.type	_BPM_Process_10ms,@function
+                         306 	.size	_BPM_Process_10ms,.-_BPM_Process_10ms
+                         307 	.align	2
+                         308 .LDW51:
+                         309 
+                         310 	.section ".bss","awb"
+                         311 .L136:
+                         312 	.type	.L136,@object
+                         313 	.size	.L136,0
+                         314 	.data
+                         315 	.text
+                         316 
+                         317 
+                         318 --62: /***************************************************
+                         319 --63: * Function: bpm_Handle
+                         320 --64: * Description: the handler of the bmp
+                         321 --65: * Parameters:  none
+                         322 --66: * Returns: none
+                         323 --67: * $Create & Verlog:$
+                         324 --68: * Author:Xueping.Chen  Date:2017-01-02   Version:V1.0
+                         325 --69: ****************************************************/
+                         326 --70:  void BPM_Handle(void)
+                         327 	.align	2
+                         328 	.align	2
+                         329 	.global	_BPM_Handle
+                         330 _BPM_Handle:
+00000074 8207e170        331 	prepare	{r25,r26,r27,r28,r29,r31},1
+00000078 3d0600000000*   332 	mov	_bpm_ListIndex,r29
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+0000007e 1dd0            333 	mov	r29,r26
+00000080 3dce0400        334 	movea	4,r29,r25
+00000084 3c0600000000*   335 	mov	_bpm_WarnInfo,r28
+0000008a 3b0600000000*   336 	mov	_bpm_TcPrm,r27
+                         337 --	    .bf
+                         338 .LDW61:
+                         339 --71: {
+                         340 --72:     U8 res =0;
+00000090 43070300        341 	st.b	zero,3[sp]
+                         342 --74:     if (++timecnt >= bpm_TcPrm.Dcnt_Max)
+00000094 fd0f0500        343 	ld.hu	4[r29],r1
+00000098 3b770900        344 	ld.w	8[r27],r14
+0000009c 410a            345 	add	1,r1
+0000009e c100            346 	zxh	r1
+000000a0 7d0f0400        347 	st.h	r1,4[r29]
+000000a4 ee09            348 	cmp	r14,r1
+000000a6 f125*           349 	bl	.L155
+                         350 --75:     {
+                         351 --76:         timecnt = 0;
+                         352 --line76
+                         353 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.3::
+                         354 .LDWlin3:
+000000a8 7d070400        355 	st.h	zero,4[r29]
+                         356 --78:         if (bpm_ListIndex >= bpm_WarnInfo.PrmList_size)
+000000ac 9c0f0500        357 	ld.bu	4[r28],r1
+000000b0 3d770100        358 	ld.w	0[r29],r14
+000000b4 e171            359 	cmp	r1,r14
+000000b6 c105*           360 	bl	.L152
+                         361 --79:         {
+                         362 --80:              bpm_WarnWorkStatus =FALSE;
+                         363 --line80
+                         364 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.4::
+                         365 .LDWlin4:
+000000b8 5d070700        366 	st.b	zero,7[r29]
+000000bc c51d*           367 	br	.L155
+                         368 .L152:
+                         369 --81:         }
+                         370 --82:         else
+                         371 --83:         {
+                         372 --84:             DIO_SetIOSts(INDEX_POWER_BUZZER,bpm_WarnInfo.pPrmList[bpm_ListIndex].PwrLevel, &res);
+                         373 --line84
+                         374 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.5::
+                         375 .LDWlin5:
+000000be 3d0f0100        376 	ld.w	0[r29],r1
+000000c2 0c32            377 	mov	12,r6
+000000c4 3cf70100        378 	ld.w	0[r28],ep
+000000c8 23460300        379 	movea	3,sp,r8
+000000cc c30a            380 	shl	3,r1
+000000ce c1f1            381 	add	r1,ep
+000000d0 6038            382 	sld.bu	0[ep],r7
+                         383 	jarl	_DIO_SetIOSts,lp
+                         383 <EXPANSION BEGIN>
+                         383 jarl22 _DIO_SetIOSts , lp 
+000000d2 80ff0000*       383 <EXPANSION END>
+                         384 --85:             bpm_Trans(&(bpm_WarnInfo.pPrmList[bpm_ListIndex]), &bpm_TcPrm);
+                         385 --line85
+                         386 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.6::
+                         387 .LDWlin6:
+000000d6 3d0f0100        388 	ld.w	0[r29],r1
+000000da 1b38            389 	mov	r27,r7
+000000dc 3c770100        390 	ld.w	0[r28],r14
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+000000e0 c30a            391 	shl	3,r1
+000000e2 ce09            392 	add	r14,r1
+000000e4 0130            393 	mov	r1,r6
+                         394 	jarl	_bpm_Trans,lp
+                         394 <EXPANSION BEGIN>
+                         394 jarl22 _bpm_Trans , lp 
+000000e6 80ff1400*       394 <EXPANSION END>
+                         395 --86:             bpm_ListIndex++;
+                         396 --line86
+                         397 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.7::
+                         398 .LDWlin7:
+000000ea 3d0f0100        399 	ld.w	0[r29],r1
+000000ee 410a            400 	add	1,r1
+000000f0 7d0f0100        401 	st.w	r1,0[r29]
+                         402 .L155:
+                         403 --87:         }
+                         404 --89:     }
+                         405 --90:     else
+                         406 --91:     {
+                         407 --92:     }
+                         408 --93: }
+000000f4 0000            409 	nop
+                         410 --	    .ef
+                         411 .LDW71:
+000000f6 4206ff70        412 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                         413 	.type	_BPM_Handle,@function
+                         414 	.size	_BPM_Handle,.-_BPM_Handle
+                         415 	.align	2
+                         416 .LDW81:
+                         417 --_res	3[sp]	local
+                         418 
+                         419 	.data
+                         420 	.text
+                         421 
+                         422 
+                         423 --96: /***************************************************
+                         424 --97: * Function: bpm_Trans
+                         425 --98: * Description: Information conversion, depending on the type of BpmPrm_ST coexist to BpmTC_ST type variable
+                         426 --99: * Parameters:  *pinfo : input  reference the BpmPrm_ST
+                         427 --100:                           *pTC : output  reference the BpmTC_ST
+                         428 --101: * Returns: TRUE or FALSE
+                         429 --102: * $Create & Verlog:$
+                         430 --103: * Author:Xueping.Chen  Date:2016-11-30   Version:V1.0
+                         431 --104: ****************************************************/
+                         432 --105: static U8 bpm_Trans(BpmPrm_ST *pinfo, BpmTC_ST *pTC)
+                         433 	.align	2
+                         434 	.align	2
+                         435 	.global	_bpm_Trans..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.
+                         436 _bpm_Trans..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.:
+                         437 _bpm_Trans:
+000000fa 8007e110        438 	prepare	{r27,r28,r29,r31},0
+000000fe 06d8            439 	mov	r6,r27
+00000100 07e8            440 	mov	r7,r29
+00000102 210600000000*   441 	mov	_bpm_InitStatus-2,r1
+                         442 --	    .bf
+                         443 .LDW91:
+                         444 --106: {
+                         445 --107:     U8 res = RET_FAIL;
+00000108 00e2            446 	mov	0,r28
+                         447 --109:     if (FALSE == bpm_InitStatus)
+0000010a 210600000000*   448 	mov	_bpm_InitStatus,r1
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+00000110 810f0100        449 	ld.bu	0[r1],r1
+00000114 e009            450 	cmp	zero,r1
+00000116 ba05*           451 	bne	.L221
+                         452 --110:     {
+                         453 --111:         res = RET_FAIL;
+                         454 --line111
+                         455 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.8::
+                         456 .LDWlin8:
+00000118 00e2            457 	mov	0,r28
+0000011a c53d*           458 	br	.L223
+                         459 .L221:
+                         460 --112:     }
+                         461 --113:     else if ((NULL_PTR == pinfo) || (NULL_PTR == pTC))
+                         462 --line113
+                         463 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.9::
+                         464 .LDWlin9:
+0000011c e0d9            465 	cmp	zero,r27
+0000011e b205*           466 	be	.L225
+00000120 e0e9            467 	cmp	zero,r29
+00000122 ba05*           468 	bne	.L224
+                         469 .L225:
+                         470 --114:     {
+                         471 --115:         res = RET_INVALID;
+                         472 --line115
+                         473 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.10::
+                         474 .LDWlin10:
+00000124 02e2            475 	mov	2,r28
+00000126 e535*           476 	br	.L223
+                         477 .L224:
+                         478 --116:     }
+                         479 --117:     else
+                         480 --118:     {
+                         481 --119:         pTC->HighTime =6163*pinfo->Duty/pinfo->Frequency;
+                         482 --line119
+                         483 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.11::
+                         484 .LDWlin11:
+00000128 bb0f0500        485 	ld.bu	5[r27],r1
+0000012c fb770300        486 	ld.hu	2[r27],r14
+00000130 e10e1318        487 	mulhi	6163,r1,r1
+00000134 ee0ffc02        488 	divq	r14,r1,zero
+00000138 7d0f0100        489 	st.w	r1,0[r29]
+                         490 --120:         pTC->Dcnt_Max = pinfo->Duration;
+0000013c fb0f0700        491 	ld.hu	6[r27],r1
+00000140 7d0f0900        492 	st.w	r1,8[r29]
+                         493 --122:         if(pinfo->Frequency == 0)
+00000144 fb0f0300        494 	ld.hu	2[r27],r1
+00000148 e009            495 	cmp	zero,r1
+0000014a ca05*           496 	bne	.L228
+                         497 --123:         {
+                         498 --124:             pTC->CycleTime  = 0;
+                         499 --line124
+                         500 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.12::
+                         501 .LDWlin12:
+0000014c 7d070500        502 	st.w	zero,4[r29]
+00000150 a50d*           503 	br	.L230
+                         504 .L228:
+                         505 --125:         }
+                         506 --126:         else
+                         507 --127:         {
+                         508 --128:             pTC->CycleTime =  616300 / pinfo->Frequency;
+                         509 --line128
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+                         510 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.13::
+                         511 .LDWlin13:
+00000152 fb770300        512 	ld.hu	2[r27],r14
+00000156 21066c670900    513 	mov	616300,r1
+0000015c ee0ffc02        514 	divq	r14,r1,zero
+00000160 7d0f0500        515 	st.w	r1,4[r29]
+                         516 .L230:
+                         517 --129:         }
+                         518 --131:         if (0 !=pTC->CycleTime && 0 !=pTC->HighTime)
+00000164 3d0f0500        519 	ld.w	4[r29],r1
+00000168 e009            520 	cmp	zero,r1
+0000016a 8215*           521 	be	.L231
+0000016c 3d0f0100        522 	ld.w	0[r29],r1
+00000170 e009            523 	cmp	zero,r1
+00000172 c20d*           524 	be	.L231
+                         525 --132:         {
+                         526 --133:             TAUB_SetParam(TYPE_TAUB_2,  pTC->CycleTime,pTC->HighTime);
+                         527 --line133
+                         528 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.14::
+                         529 .LDWlin14:
+00000174 3d3f0500        530 	ld.w	4[r29],r7
+00000178 0232            531 	mov	2,r6
+0000017a 3d470100        532 	ld.w	0[r29],r8
+                         533 	jarl	_TAUB_SetParam,lp
+                         533 <EXPANSION BEGIN>
+                         533 jarl22 _TAUB_SetParam , lp 
+0000017e 80ff0000*       533 <EXPANSION END>
+                         534 --134:             TAUB_Start(TYPE_TAUB_2);
+                         535 --line134
+                         536 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.15::
+                         537 .LDWlin15:
+00000182 0232            538 	mov	2,r6
+                         539 	jarl	_TAUB_Start,lp
+                         539 <EXPANSION BEGIN>
+                         539 jarl22 _TAUB_Start , lp 
+00000184 80ff0000*       539 <EXPANSION END>
+00000188 c505*           540 	br	.L234
+                         541 .L231:
+                         542 --135:         }
+                         543 --136:         else
+                         544 --137:         {
+                         545 --138:             TAUB_Stop(TYPE_TAUB_2);
+                         546 --line138
+                         547 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.16::
+                         548 .LDWlin16:
+0000018a 0232            549 	mov	2,r6
+                         550 	jarl	_TAUB_Stop,lp
+                         550 <EXPANSION BEGIN>
+                         550 jarl22 _TAUB_Stop , lp 
+0000018c 80ff0000*       550 <EXPANSION END>
+                         551 .L234:
+                         552 --139:         }
+                         553 --141:         res = RET_OK;
+                         554 --line141
+                         555 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.17::
+                         556 .LDWlin17:
+00000190 01e2            557 	mov	1,r28
+                         558 .L223:
+                         559 --142:     }
+                         560 --143:     return res;
+00000192 1c50            561 	mov	r28,r10
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+                         562 --	    .ef
+                         563 .LDW02:
+00000194 4006ff10        564 	dispose	0,{r27,r28,r29,r31},[lp]
+                         565 	.type	_bpm_Trans,@function
+                         566 	.size	_bpm_Trans,.-_bpm_Trans
+                         567 	.type	_bpm_Trans..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,@function
+                         568 	.size	_bpm_Trans..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.,.-_bpm_Trans..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.
+                         569 	.align	2
+                         570 .LDW12:
+                         571 --_res	r28	local
+                         572 
+                         573 --_pinfo	r27	param
+                         574 --_pTC	r29	param
+                         575 
+                         576 	.data
+                         577 	.text
+                         578 
+                         579 --144: }
+                         580 
+                         581 --146: /***************************************************
+                         582 --147: * Function: BPM_GetInitStatus
+                         583 --148: * Description: get the status of the bpm initializing
+                         584 --149: * Parameters:  none
+                         585 --150: * Returns: TRUE or FALSE
+                         586 --151: * $Create & Verlog:$
+                         587 --152: * Author:Xueping.Chen  Date:2016-11-30   Version:V1.0
+                         588 --153: ****************************************************/
+                         589 --154: BOOL BPM_GetInitStatus(void)
+                         590 	.align	2
+                         591 	.align	2
+                         592 	.global	_BPM_GetInitStatus
+                         593 _BPM_GetInitStatus:
+00000198 210600000000*   594 	mov	_bpm_InitStatus-2,r1
+                         595 --	    .bf
+                         596 .LDW22:
+                         597 --155: {
+                         598 --156:     return bpm_InitStatus;
+0000019e 2a0600000000*   599 	mov	_bpm_InitStatus,r10
+000001a4 8a570100        600 	ld.bu	0[r10],r10
+                         601 --	    .ef
+                         602 .LDW32:
+000001a8 7f00            603 	jmp	[lp]
+                         604 	.type	_BPM_GetInitStatus,@function
+                         605 	.size	_BPM_GetInitStatus,.-_BPM_GetInitStatus
+                         606 	.align	2
+                         607 .LDW42:
+                         608 
+                         609 	.data
+                         610 	.text
+                         611 
+                         612 --157: }
+                         613 
+                         614 --160: /***************************************************
+                         615 --161: * Function: BPM_SetWarnInfo
+                         616 --162: * Description: get the warning infomation for the bpm
+                         617 --163: * Parameters:  *pStInfor :  input  reference the BpmInfo_ST
+                         618 --164: * Returns: TRUE or FALSE
+                         619 --165: * $Create & Verlog:$
+                         620 --166: * Author:Xueping.Chen  Date:2016-11-30   Version:V1.0
+                         621 --167: ****************************************************/
+                         622 --168: U8 BPM_SetWarnInfo(BpmInfo_ST *pStInfor)
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+                         623 	.align	2
+                         624 	.align	2
+                         625 	.global	_BPM_SetWarnInfo
+                         626 _BPM_SetWarnInfo:
+000001aa 06f0            627 	mov	r6,ep
+000001ac 210600000000*   628 	mov	_bpm_ListIndex,r1
+                         629 --	    .bf
+                         630 .LDW52:
+                         631 --169: {
+                         632 --170:     U8 res = RET_FAIL;
+000001b2 0072            633 	mov	0,r14
+                         634 --172:     if (FALSE == bpm_InitStatus)
+000001b4 816f0700        635 	ld.bu	6[r1],r13
+000001b8 e069            636 	cmp	zero,r13
+000001ba ba05*           637 	bne	.L373
+                         638 --173:     {
+                         639 --174:         res = RET_FAIL;
+                         640 --line174
+                         641 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.18::
+                         642 .LDWlin18:
+000001bc 0072            643 	mov	0,r14
+000001be e51d*           644 	br	.L375
+                         645 .L373:
+                         646 --175:     }
+                         647 --176:     else if (NULL_PTR == pStInfor)
+                         648 --line176
+                         649 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.19::
+                         650 .LDWlin19:
+000001c0 e0f1            651 	cmp	zero,ep
+000001c2 ba05*           652 	bne	.L376
+                         653 --177:     {
+                         654 --178:         res = RET_INVALID;
+                         655 --line178
+                         656 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.20::
+                         657 .LDWlin20:
+000001c4 0272            658 	mov	2,r14
+000001c6 a51d*           659 	br	.L375
+                         660 .L376:
+                         661 --179:     }
+                         662 --180:     else
+                         663 --181:     {
+                         664 --182:         bpm_WarnInfo = *pStInfor;
+                         665 --line182
+                         666 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm.21::
+                         667 .LDWlin21:
+000001c8 0065            668 	sld.w	0[ep],r12
+000001ca 025d            669 	sld.w	4[ep],r11
+000001cc 0455            670 	sld.w	8[ep],r10
+000001ce 2d0600000000*   671 	mov	_bpm_WarnInfo,r13
+000001d4 6d670100        672 	st.w	r12,0[r13]
+000001d8 6d5f0500        673 	st.w	r11,4[r13]
+000001dc 6d570900        674 	st.w	r10,8[r13]
+                         675 --184:         bpm_WarnWorkStatus =TRUE;
+000001e0 016a            676 	mov	1,r13
+000001e2 416f0700        677 	st.b	r13,7[r1]
+                         678 --186:         bpm_ListIndex =0;
+000001e6 2b0600000000*   679 	mov	_bpm_ListIndex,r11
+000001ec 6b070100        680 	st.w	zero,0[r11]
+                         681 --188:         timecnt =0xffff;
+000001f0 806effff        682 	ori	65535,zero,r13
+000001f4 616f0400        683 	st.h	r13,4[r1]
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+                         684 --190:         res = RET_OK;
+000001f8 0172            685 	mov	1,r14
+                         686 .L375:
+                         687 --191:     }
+                         688 --193:     return res;
+000001fa 0e50            689 	mov	r14,r10
+                         690 --	    .ef
+                         691 .LDW62:
+000001fc 7f00            692 	jmp	[lp]
+                         693 	.type	_BPM_SetWarnInfo,@function
+                         694 	.size	_BPM_SetWarnInfo,.-_BPM_SetWarnInfo
+                         695 	.align	2
+                         696 .LDW72:
+                         697 --_res	r14	local
+                         698 
+                         699 --_pStInfor	ep	param
+                         700 
+                         701 	.data
+                         702 	.text
+                         703 
+                         704 --194: }
+                         705 
+                         706 --198: BOOL BPM_GetWorkStatus(void)
+                         707 	.align	2
+                         708 	.align	2
+                         709 	.global	_BPM_GetWorkStatus
+                         710 _BPM_GetWorkStatus:
+000001fe 210600000000*   711 	mov	_bpm_WarnWorkStatus-3,r1
+                         712 --	    .bf
+                         713 .LDW82:
+                         714 --199: {
+                         715 --200:     return bpm_WarnWorkStatus;
+00000204 2a0600000000*   716 	mov	_bpm_WarnWorkStatus,r10
+0000020a 8a570100        717 	ld.bu	0[r10],r10
+                         718 --	    .ef
+                         719 .LDW92:
+0000020e 7f00            720 	jmp	[lp]
+                         721 	.type	_BPM_GetWorkStatus,@function
+                         722 	.size	_BPM_GetWorkStatus,.-_BPM_GetWorkStatus
+                         723 	.align	2
+                         724 .LDW03:
+                         725 
+                         726 	.data
+                         727 	.text
+                         728 
+                         729 --201: }
+                         730 
+                         731 --203: U32 BPM_GetOutCircleValue(void)
+                         732 	.align	2
+                         733 	.align	2
+                         734 	.global	_BPM_GetOutCircleValue
+                         735 _BPM_GetOutCircleValue:
+                         736 --	    .bf
+                         737 .LDW13:
+                         738 --204: {
+                         739 --205:     return bpm_WarnInfo.OutCircle;
+00000210 2a0600000000*   740 	mov	_bpm_WarnInfo+6,r10
+00000216 ea570100        741 	ld.hu	0[r10],r10
+                         742 --	    .ef
+                         743 .LDW23:
+0000021a 7f00            744 	jmp	[lp]
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000013g1.si
+                         745 	.type	_BPM_GetOutCircleValue,@function
+                         746 	.size	_BPM_GetOutCircleValue,.-_BPM_GetOutCircleValue
+                         747 	.align	2
+                         748 .LDW33:
+                         749 
+                         750 	.data
+                         751 	.text
+                         752 
+                         753 --206: }
+                         754 	.align	2
+                         755 --_bpm_InitStatus	_bpm_InitStatus	static
+                         756 --_bpm_ListIndex	_bpm_ListIndex	static
+                         757 --_bpm_WarnInfo	_bpm_WarnInfo	static
+                         758 --_bpm_WarnWorkStatus	_bpm_WarnWorkStatus	static
+                         759 --_g_pPrmList	_g_pPrmList	static
+                         760 --_bpm_TcPrm	_bpm_TcPrm	static
+                         761 --_timecnt	_timecnt	static
+                         762 
+                         763 	.data
+                         764 	.ghsnote version,14
+                         765 	.ghsnote tools,3
+                         766 	.ghsnote options,144
+                         767 	.text
+                         768 	.align	2
+                         769 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cbpm...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740369..0::
+                         770 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

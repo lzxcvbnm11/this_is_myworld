@@ -1,0 +1,1339 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\ftr.dbo -source=ftr.c -o .\obj\gh_000084g1.o -list=.\obj\ftr.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+Source File: ftr.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\FTR\ftr.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         112 --		-o .\obj\ftr.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\FTR\ftr.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:40 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --3: /**************************************************************************
+                         125 --4: |                                Copyright
+                         126 --5: |------------------------------------------------------------------------
+                         127 --6: |Copyright(c) by YEEDON MultiMedia Co.LTD. All rights reserved.
+                         128 --7: |
+                         129 --8: |    this software if furnished under a license and may be used and copied
+                         130 --9: |    only in accordance with the terms of such license and with the inclusion
+                         131 --10: |    of he above copyright notic.This software or any other copies thereof
+                         132 --11: |    may not be provided of otherwise made available to any other persion.
+                         133 --12: |    No title to and ownership of the software is hereby transferred.
+                         134 --13: |
+                         135 --14: |    the information in this software is subject to change without notice
+                         136 --15: |   and should not be construed as a commitment by
+                         137 --16: |   YEEDON MultiMedia Co.LTD.
+                         138 --17: |
+                         139 --18: |     YEEDON MultiMedia Co.LTD. assumes no responsibility for the use or reliability
+                         140 --19: |     of its Software on equipment which is not supported by YEEDON MultiMedia Co.LTD.
+                         141 --20: |--------------------------------------------------------------
+                         142 --21: **************************************************************************/
+                         143 --25: /*-----------------------------------------------------------------------*/
+                         144 --26: /*----Description of file-----------------------------------------------------*/
+                         145 --27: /*-----------------------------------------------------------------------*/
+                         146 --31: /*************************************************************************
+                         147 --32: FTR 
+                         148 --33: *************************************************************************/
+                         149 --36: /*------------------------------------------------------------------------*/
+                         150 --37: /*-----Head of file----------------------------------------------------------*/
+                         151 --38: /*------------------------------------------------------------------------*/
+                         152 --39: #include "ftr_info.inc"
+                         153 --41: static BOOL  PwrConditon_Flag = FALSE;
+                         154 --42: static BOOL  BatConditon_Flag = TRUE;
+                         155 --43: static BOOL  WorkConditon_Flag = FALSE;
+                         156 --45: static  U16 PwrConditon_cnt = 0;
+                         157 --46: static  U16 BatConditon_cnt = 0;
+                         158 --47: static  U16 WorkConditon_cnt = 0;
+                         159 --49: static U8 ftr_InitSts = 0;
+                         160 --50: static U8 ftr_Dtc_Count;
+                         161 --52: /**************************************************
+                         162 --53: *Function :FTR_Init
+                         163 --54: *Description: FTR_Init Module Inital
+                         164 --55: *Parameters:none
+                         165 --56: *Returns: none
+                         166 --57: **create&Verlog:
+                         167 --58: *Author Name csm  Date:2017-07-04    Ver:2.0
+                         168 --59: ***************************************************/
+                         169 --60: void FTR_Init(void)
+                         170 	.text
+                         171 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740375..0::
+                         172 	.align	2
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         173 	.global	_FTR_Init
+                         174 _FTR_Init:
+00000000 80076100        175 	prepare	{r29,r31},0
+00000004 3d0600000000*   176 	mov	.L40,r29
+                         177 --	    .bf
+                         178 .LDW01:
+                         179 --61: {
+                         180 --63:     PwrConditon_Flag = 0;
+0000000a 5d070600        181 	st.b	zero,6[r29]
+                         182 --64:     BatConditon_Flag = 0;
+0000000e 5d070700        183 	st.b	zero,7[r29]
+                         184 --65:     WorkConditon_Flag = 0;
+00000012 5d070800        185 	st.b	zero,8[r29]
+                         186 --67:     PwrConditon_cnt = 0;
+00000016 7d070000        187 	st.h	zero,0[r29]
+                         188 --68:     BatConditon_cnt = 0;
+0000001a 7d070200        189 	st.h	zero,2[r29]
+                         190 --69:     WorkConditon_cnt = 0;
+0000001e 7d070400        191 	st.h	zero,4[r29]
+                         192 --70: 	ftr_Dtc_Count =0;
+00000022 2b0600000000*   193 	mov	_ftr_Dtc_Count,r11
+00000028 4b070000        194 	st.b	zero,0[r11]
+                         195 --71:     
+                         196 --72:     ftr_InitSts = BAT_GetInitSts();
+                         197 	jarl	_BAT_GetInitSts,lp
+                         197 <EXPANSION BEGIN>
+                         197 jarl22 _BAT_GetInitSts , lp 
+0000002c 80ff0000*       197 <EXPANSION END>
+00000030 5d570900        198 	st.b	r10,9[r29]
+                         199 --73:     
+                         200 --74: }
+                         201 --line74
+                         202 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.1::
+                         203 .LDWlin1:
+00000034 0000            204 	nop
+                         205 --	    .ef
+                         206 .LDW11:
+00000036 40067f00        207 	dispose	0,{r29,r31},[lp]
+                         208 	.type	_FTR_Init,@function
+                         209 	.size	_FTR_Init,.-_FTR_Init
+                         210 	.align	2
+                         211 .LDW21:
+                         212 
+                         213 	.data
+                         214 	.align	2
+                         215 .L40:
+                         216 	.type	.L40,@object
+                         217 	.size	.L40,0
+                         218 	.global	_PwrConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         219 _PwrConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         220 	.type	_PwrConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@object
+                         221 	.size	_PwrConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,2
+00000000 0000            222 _PwrConditon_cnt:	.byte	0,0
+                         223 	.type	_PwrConditon_cnt,@object
+                         224 	.size	_PwrConditon_cnt,2
+                         225 	.global	_BatConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         226 _BatConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         227 	.type	_BatConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@object
+                         228 	.size	_BatConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,2
+00000002 0000            229 _BatConditon_cnt:	.byte	0,0
+                         230 	.type	_BatConditon_cnt,@object
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         231 	.size	_BatConditon_cnt,2
+                         232 	.global	_WorkConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         233 _WorkConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         234 	.type	_WorkConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@object
+                         235 	.size	_WorkConditon_cnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,2
+00000004 0000            236 _WorkConditon_cnt:	.byte	0,0
+                         237 	.type	_WorkConditon_cnt,@object
+                         238 	.size	_WorkConditon_cnt,2
+                         239 	.global	_PwrConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         240 _PwrConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         241 	.type	_PwrConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@object
+                         242 	.size	_PwrConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,1
+00000006 00              243 _PwrConditon_Flag:	.byte	0
+                         244 	.type	_PwrConditon_Flag,@object
+                         245 	.size	_PwrConditon_Flag,1
+                         246 	.global	_BatConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         247 _BatConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         248 	.type	_BatConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@object
+                         249 	.size	_BatConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,1
+00000007 01              250 _BatConditon_Flag:	.byte	1
+                         251 	.type	_BatConditon_Flag,@object
+                         252 	.size	_BatConditon_Flag,1
+                         253 	.global	_WorkConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         254 _WorkConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         255 	.type	_WorkConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@object
+                         256 	.size	_WorkConditon_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,1
+00000008 00              257 _WorkConditon_Flag:	.byte	0
+                         258 	.type	_WorkConditon_Flag,@object
+                         259 	.size	_WorkConditon_Flag,1
+                         260 	.global	_ftr_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         261 _ftr_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         262 	.type	_ftr_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@object
+                         263 	.size	_ftr_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,1
+00000009 00              264 _ftr_InitSts:	.byte	0
+                         265 	.type	_ftr_InitSts,@object
+                         266 	.size	_ftr_InitSts,1
+                         267 	.section ".bss","awb"
+                         268 	.global	_ftr_Dtc_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         269 _ftr_Dtc_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         270 	.type	_ftr_Dtc_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@object
+                         271 	.size	_ftr_Dtc_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,1
+00000000 00              272 _ftr_Dtc_Count:	.space	1
+                         273 	.type	_ftr_Dtc_Count,@object
+                         274 	.size	_ftr_Dtc_Count,1
+                         275 	.data
+                         276 	.text
+                         277 
+                         278 
+                         279 --78: /**************************************************
+                         280 --79: *Function :FTR_Process_50ms
+                         281 --80: *Description: ftr  Module process
+                         282 --81: *Parameters:none
+                         283 --82: *Returns: none
+                         284 --83: **create&Verlog:
+                         285 --84: *Author Name csm  Date:2017-07-04    Ver:2.0
+                         286 --85: ***************************************************/
+                         287 --86: void FTR_Process_50ms(void)
+                         288 	.align	2
+                         289 	.align	2
+                         290 	.global	_FTR_Process_50ms
+                         291 _FTR_Process_50ms:
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+0000003a 80072100        292 	prepare	{r31},0
+                         293 --	    .bf
+                         294 .LDW31:
+                         295 --87: {
+                         296 --88:     ftr_pwr_condition_detect();
+                         297 	jarl	_ftr_pwr_condition_detect,lp
+                         297 <EXPANSION BEGIN>
+                         297 jarl22 _ftr_pwr_condition_detect , lp 
+0000003e 80ff1600*       297 <EXPANSION END>
+                         298 --89:     ftr_work_condition_detect();
+                         299 --line89
+                         300 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.2::
+                         301 .LDWlin2:
+                         302 	jarl	_ftr_work_condition_detect,lp
+                         302 <EXPANSION BEGIN>
+                         302 jarl22 _ftr_work_condition_detect , lp 
+00000042 80ffba00*       302 <EXPANSION END>
+                         303 --90:     ftr_bat_condition_detect();
+                         304 --line90
+                         305 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.3::
+                         306 .LDWlin3:
+                         307 	jarl	_ftr_bat_condition_detect,lp
+                         307 <EXPANSION BEGIN>
+                         307 jarl22 _ftr_bat_condition_detect , lp 
+00000046 80ff6400*       307 <EXPANSION END>
+                         308 --91:     ftr_dtc_report();        
+                         309 --line91
+                         310 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.4::
+                         311 .LDWlin4:
+                         312 	jarl	_ftr_dtc_report,lp
+                         312 <EXPANSION BEGIN>
+                         312 jarl22 _ftr_dtc_report , lp 
+0000004a 80ffe200*       312 <EXPANSION END>
+                         313 --92: }
+                         314 --line92
+                         315 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.5::
+                         316 .LDWlin5:
+0000004e 0000            317 	nop
+                         318 --	    .ef
+                         319 .LDW41:
+00000050 40063f00        320 	dispose	0,{r31},[lp]
+                         321 	.type	_FTR_Process_50ms,@function
+                         322 	.size	_FTR_Process_50ms,.-_FTR_Process_50ms
+                         323 	.align	2
+                         324 .LDW51:
+                         325 
+                         326 	.section ".bss","awb"
+                         327 .L96:
+                         328 	.type	.L96,@object
+                         329 	.size	.L96,0
+                         330 	.data
+                         331 	.text
+                         332 
+                         333 
+                         334 --93: /**************************************************
+                         335 --94: *Function :ftr_pwr_condition_detect
+                         336 --95: *Description: ftr  Module process
+                         337 --96: *Parameters:none
+                         338 --97: *Returns: none
+                         339 --98: **create&Verlog:
+                         340 --99: *Author Name csm  Date:2017-07-04    Ver:2.0
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         341 --100: ***************************************************/
+                         342 --101: static void ftr_pwr_condition_detect(void)
+                         343 	.align	2
+                         344 	.align	2
+                         345 	.global	_ftr_pwr_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         346 _ftr_pwr_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         347 _ftr_pwr_condition_detect:
+00000054 8207e130        348 	prepare	{r26,r27,r28,r29,r31},1
+00000058 3d0600000000*   349 	mov	_PwrConditon_cnt,r29
+0000005e 1dd8            350 	mov	r29,r27
+00000060 3dd60600        351 	movea	6,r29,r26
+                         352 --	    .bf
+                         353 .LDW61:
+                         354 --102: {
+                         355 --103:     	U8 Mode = 0;
+00000064 43070300        356 	st.b	zero,3[sp]
+                         357 --104:      	U8 batSts = 0;
+00000068 00e2            358 	mov	0,r28
+                         359 --105:    
+                         360 --106: 	PWR_GetPwrMode(&Mode);
+0000006a 23360300        361 	movea	3,sp,r6
+                         362 	jarl	_PWR_GetPwrMode,lp
+                         362 <EXPANSION BEGIN>
+                         362 jarl22 _PWR_GetPwrMode , lp 
+0000006e 80ff0000*       362 <EXPANSION END>
+                         363 --107: 	switch (Mode) 
+                         364 --line107
+                         365 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.6::
+                         366 .LDWlin6:
+00000072 a30f0300        367 	ld.bu	3[sp],r1
+00000076 630a            368 	cmp	3,r1
+00000078 f105*           369 	bl	.L125
+0000007a db15*           370 	bh	.L122
+                         371 --108: 	{
+                         372 --109: 		         
+                         373 --110: 		case PWR_CRANK:
+                         374 --111: 			PwrConditon_cnt =0;
+                         375 --line111
+                         376 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.7::
+                         377 .LDWlin7:
+0000007c 7d070000        378 	st.h	zero,0[r29]
+                         379 --112: 			PwrConditon_Flag = FALSE;
+00000080 5d070600        380 	st.b	zero,6[r29]
+00000084 8515*           381 	br	.L122
+                         382 .L125:
+                         383 --113: 			break;
+                         384 --114:         case PWR_OFF:
+                         385 --115: 		case PWR_ACC: 
+                         386 --116: 		case PWR_RUN:
+                         387 --117:             if (PWRCONDITION_CNT <= PwrConditon_cnt)
+                         388 --line117
+                         389 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.8::
+                         390 .LDWlin8:
+00000086 fd0f0100        391 	ld.hu	0[r29],r1
+0000008a 0106d8ff        392 	addi	-40,r1,zero
+0000008e d905*           393 	bnl	.L126
+                         394 --118:             {
+                         395 --119:                 PwrConditon_Flag = TRUE;	                
+                         396 --line119
+                         397 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.9::
+                         398 .LDWlin9:
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+00000090 010a            399 	mov	1,r1
+00000092 5d0f0600        400 	st.b	r1,6[r29]
+00000096 e505*           401 	br	.L128
+                         402 .L126:
+                         403 --120:             }
+                         404 --121:             else
+                         405 --122:             {
+                         406 --123:                 PwrConditon_cnt ++;
+                         407 --line123
+                         408 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.10::
+                         409 .LDWlin10:
+00000098 fd0f0100        410 	ld.hu	0[r29],r1
+0000009c 410a            411 	add	1,r1
+0000009e 7d0f0000        412 	st.h	r1,0[r29]
+                         413 .L128:
+000000a2 0000            414 	nop
+                         415 .L122:
+                         416 --124:             }                
+                         417 --125: 			
+                         418 --126: 			break;
+                         419 --127: 	}
+                         420 --129: 	return;
+000000a4 0000            421 	nop
+                         422 --	    .ef
+                         423 .LDW71:
+000000a6 4206ff30        424 	dispose	1,{r26,r27,r28,r29,r31},[lp]
+                         425 	.type	_ftr_pwr_condition_detect,@function
+                         426 	.size	_ftr_pwr_condition_detect,.-_ftr_pwr_condition_detect
+                         427 	.type	_ftr_pwr_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@function
+                         428 	.size	_ftr_pwr_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,.-_ftr_pwr_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         429 	.align	2
+                         430 .LDW81:
+                         431 --_Mode	3[sp]	local
+                         432 --_batSts	r28	local
+                         433 
+                         434 	.data
+                         435 	.text
+                         436 
+                         437 --130: }
+                         438 
+                         439 --133: /**************************************************
+                         440 --134: *Function :ftr_bat_condition_detect
+                         441 --135: *Description: ftr  Module process
+                         442 --136: *Parameters:none
+                         443 --137: *Returns: none
+                         444 --138: **create&Verlog:
+                         445 --139: *Author Name csm  Date:2017-07-04    Ver:2.0
+                         446 --140: ***************************************************/
+                         447 --141: static void ftr_bat_condition_detect(void)
+                         448 	.align	2
+                         449 	.align	2
+                         450 	.global	_ftr_bat_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         451 _ftr_bat_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         452 _ftr_bat_condition_detect:
+000000aa 8207e110        453 	prepare	{r27,r28,r29,r31},1
+000000ae 3c0600000000*   454 	mov	_BatConditon_cnt,r28
+000000b4 1ceefeff        455 	addi	-2,r28,r29
+000000b8 3cde0500        456 	movea	5,r28,r27
+                         457 --	    .bf
+                         458 .LDW91:
+                         459 --142: {
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         460 --143:     U8 sts = 0;
+000000bc 43070300        461 	st.b	zero,3[sp]
+                         462 --144:     
+                         463 --145:     BAT_GetBatFltSts(TYPE_BATDET_TD,&sts);
+000000c0 0032            464 	mov	0,r6
+000000c2 233e0300        465 	movea	3,sp,r7
+                         466 	jarl	_BAT_GetBatFltSts,lp
+                         466 <EXPANSION BEGIN>
+                         466 jarl22 _BAT_GetBatFltSts , lp 
+000000c6 80ff0000*       466 <EXPANSION END>
+                         467 --146:     if(FLT_BAT_NO == sts)
+                         468 --line146
+                         469 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.11::
+                         470 .LDWlin11:
+000000ca a30f0300        471 	ld.bu	3[sp],r1
+000000ce e009            472 	cmp	zero,r1
+000000d0 fa0d*           473 	bne	.L207
+                         474 --147:     {
+                         475 --148:         BatConditon_cnt++;
+                         476 --line148
+                         477 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.12::
+                         478 .LDWlin12:
+000000d2 fd0f0300        479 	ld.hu	2[r29],r1
+000000d6 410a            480 	add	1,r1
+000000d8 7d0f0200        481 	st.h	r1,2[r29]
+                         482 --149:         if(BATCONDITION_CNT <= BatConditon_cnt)
+000000dc fd0f0300        483 	ld.hu	2[r29],r1
+000000e0 0106d8ff        484 	addi	-40,r1,zero
+000000e4 990d*           485 	bnl	.L212
+                         486 --150:         {
+                         487 --151:             BatConditon_Flag = TRUE;
+                         488 --line151
+                         489 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.13::
+                         490 .LDWlin13:
+000000e6 010a            491 	mov	1,r1
+000000e8 5d0f0700        492 	st.b	r1,7[r29]
+000000ec d505*           493 	br	.L212
+                         494 .L207:
+                         495 --152:         }
+                         496 --153:         else
+                         497 --154:         {
+                         498 --155:         }
+                         499 --156:     }
+                         500 --157:     else
+                         501 --158:     {
+                         502 --159:         BatConditon_Flag = FALSE;
+                         503 --line159
+                         504 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.14::
+                         505 .LDWlin14:
+000000ee 5d070700        506 	st.b	zero,7[r29]
+                         507 --160: 		BatConditon_cnt = 0;
+000000f2 7d070200        508 	st.h	zero,2[r29]
+                         509 .L212:
+                         510 --161:     }
+                         511 --163: 	return;	
+000000f6 0000            512 	nop
+                         513 --	    .ef
+                         514 .LDW02:
+000000f8 4206ff10        515 	dispose	1,{r27,r28,r29,r31},[lp]
+                         516 	.type	_ftr_bat_condition_detect,@function
+                         517 	.size	_ftr_bat_condition_detect,.-_ftr_bat_condition_detect
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         518 	.type	_ftr_bat_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@function
+                         519 	.size	_ftr_bat_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,.-_ftr_bat_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         520 	.align	2
+                         521 .LDW12:
+                         522 --_sts	3[sp]	local
+                         523 
+                         524 	.data
+                         525 	.text
+                         526 
+                         527 --164: }
+                         528 
+                         529 --167: /**************************************************
+                         530 --168: *Function :ftr_work_condition_detect
+                         531 --169: *Description: ftr  Module process
+                         532 --170: *Parameters:none
+                         533 --171: *Returns: none
+                         534 --172: **create&Verlog:
+                         535 --173: *Author Name csm  Date:2017-07-04    Ver:2.0
+                         536 --174: ***************************************************/
+                         537 --175: static void ftr_work_condition_detect(void)
+                         538 	.align	2
+                         539 	.align	2
+                         540 	.global	_ftr_work_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         541 _ftr_work_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         542 _ftr_work_condition_detect:
+000000fc 210600000000*   543 	mov	_WorkConditon_cnt,r1
+00000102 216e0400        544 	movea	4,r1,r13
+00000106 0160            545 	mov	r1,r12
+                         546 --	    .bf
+                         547 .LDW22:
+                         548 --176: {
+                         549 --177:     if(WORKCONDITION_CNT <= WorkConditon_cnt)
+00000108 e1770100        550 	ld.hu	0[r1],r14
+0000010c 0e06d8ff        551 	addi	-40,r14,zero
+00000110 d905*           552 	bnl	.L285
+                         553 --178:     {
+                         554 --179:         WorkConditon_Flag = TRUE;
+                         555 --line179
+                         556 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.15::
+                         557 .LDWlin15:
+00000112 0172            558 	mov	1,r14
+00000114 41770400        559 	st.b	r14,4[r1]
+00000118 850d*           560 	br	.L287
+                         561 .L285:
+                         562 --180:     }
+                         563 --181:     else
+                         564 --182:     {
+                         565 --183:         WorkConditon_cnt ++;
+                         566 --line183
+                         567 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.16::
+                         568 .LDWlin16:
+0000011a e1770100        569 	ld.hu	0[r1],r14
+0000011e 4172            570 	add	1,r14
+00000120 61770000        571 	st.h	r14,0[r1]
+                         572 --184:         WorkConditon_Flag = FALSE;
+00000124 41070400        573 	st.b	zero,4[r1]
+                         574 .L287:
+                         575 --185:     }
+                         576 --186: }
+00000128 0000            577 	nop
+                         578 --	    .ef
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         579 .LDW32:
+0000012a 7f00            580 	jmp	[lp]
+                         581 	.type	_ftr_work_condition_detect,@function
+                         582 	.size	_ftr_work_condition_detect,.-_ftr_work_condition_detect
+                         583 	.type	_ftr_work_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@function
+                         584 	.size	_ftr_work_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,.-_ftr_work_condition_detect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         585 	.align	2
+                         586 .LDW42:
+                         587 
+                         588 	.data
+                         589 	.text
+                         590 
+                         591 
+                         592 --188: /**************************************************
+                         593 --189: *Function :ftr_dtc_report
+                         594 --190: *Description: ftr fault report
+                         595 --191: *Parameters:none
+                         596 --192: *Returns: none
+                         597 --193: **create&Verlog:
+                         598 --194: *Author Name csm  Date:2017-07-04    Ver:2.0
+                         599 --195: ***************************************************/
+                         600 --196: static void ftr_dtc_report(void)
+                         601 	.align	2
+                         602 	.align	2
+                         603 	.global	_ftr_dtc_report..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                         604 _ftr_dtc_report..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.:
+                         605 _ftr_dtc_report:
+0000012c 8207e130        606 	prepare	{r26,r27,r28,r29,r31},1
+00000130 3a0600000000*   607 	mov	_PwrConditon_Flag,r26
+00000136 1aeefeff        608 	addi	-2,r26,r29
+0000013a 3ade0200        609 	movea	2,r26,r27
+0000013e 3c0600000000*   610 	mov	_ftr_Dtc_Count,r28
+                         611 --	    .bf
+                         612 .LDW52:
+                         613 --197: {
+                         614 --198: 	U8 sts = 0;
+00000144 43070000        615 	st.b	zero,0[sp]
+                         616 --199:     U8 batSts = 0;
+00000148 43070100        617 	st.b	zero,1[sp]
+                         618 --201: 	SSBFlt_ST ssbSts;
+                         619 --202: 	TIPFlt_ST TipSts;
+                         620 --203:     /*----BAT DTC REPROT-----START------------*/
+                         621 --204:     if ((TRUE == PwrConditon_Flag) 
+0000014c 9d0f0300        622 	ld.bu	2[r29],r1
+00000150 610a            623 	cmp	1,r1
+00000152 ca25*           624 	bne	.L338
+00000154 9d0f0500        625 	ld.bu	4[r29],r1
+00000158 610a            626 	cmp	1,r1
+0000015a 8a25*           627 	bne	.L338
+                         628 --205:          && (TRUE == WorkConditon_Flag))
+                         629 --206:     {
+                         630 --207:         BAT_GetBatFltSts(TYPE_BATDET_TD,&batSts);
+                         631 --line207
+                         632 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.17::
+                         633 .LDWlin17:
+0000015c 0032            634 	mov	0,r6
+0000015e 233e0100        635 	movea	1,sp,r7
+                         636 	jarl	_BAT_GetBatFltSts,lp
+                         636 <EXPANSION BEGIN>
+                         636 jarl22 _BAT_GetBatFltSts , lp 
+00000162 80ff0000*       636 <EXPANSION END>
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         637 --208:     			if (FLT_BAT_NO == batSts) 
+                         638 --line208
+                         639 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.18::
+                         640 .LDWlin18:
+00000166 a30f0100        641 	ld.bu	1[sp],r1
+0000016a e009            642 	cmp	zero,r1
+0000016c aa0d*           643 	bne	.L332
+                         644 --209:     			{			
+                         645 --211:     				f_fm_setDTCByNo(DTC_D56217,FALSE);
+                         646 --line211
+                         647 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.19::
+                         648 .LDWlin19:
+0000016e 0232            649 	mov	2,r6
+00000170 003a            650 	mov	0,r7
+                         651 	jarl	_f_fm_setDTCByNo,lp
+                         651 <EXPANSION BEGIN>
+                         651 jarl22 _f_fm_setDTCByNo , lp 
+00000172 80ff0000*       651 <EXPANSION END>
+                         652 --212:     				f_fm_setDTCByNo(DTC_D56316,FALSE);
+                         653 --line212
+                         654 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.20::
+                         655 .LDWlin20:
+00000176 0332            656 	mov	3,r6
+00000178 003a            657 	mov	0,r7
+                         658 	jarl	_f_fm_setDTCByNo,lp
+                         658 <EXPANSION BEGIN>
+                         658 jarl22 _f_fm_setDTCByNo , lp 
+0000017a 80ff0000*       658 <EXPANSION END>
+0000017e e50d*           659 	br	.L338
+                         660 .L332:
+                         661 --213:     			}			
+                         662 --214:     			else
+                         663 --215:                 {
+                         664 --216:     			
+                         665 --217:     				if (FLT_BAT_VOL_HIGH ==batSts) 
+                         666 --line217
+                         667 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.21::
+                         668 .LDWlin21:
+00000180 a30f0100        669 	ld.bu	1[sp],r1
+00000184 610a            670 	cmp	1,r1
+00000186 ea05*           671 	bne	.L335
+                         672 --218:     				{
+                         673 --219:     					f_fm_setDTCByNo(DTC_D56217,TRUE);
+                         674 --line219
+                         675 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.22::
+                         676 .LDWlin22:
+00000188 0232            677 	mov	2,r6
+0000018a 013a            678 	mov	1,r7
+                         679 	jarl	_f_fm_setDTCByNo,lp
+                         679 <EXPANSION BEGIN>
+                         679 jarl22 _f_fm_setDTCByNo , lp 
+0000018c 80ff0000*       679 <EXPANSION END>
+00000190 d505*           680 	br	.L338
+                         681 .L335:
+                         682 --220:     				}
+                         683 --221:     				else
+                         684 --222:     				{
+                         685 --223:     					f_fm_setDTCByNo(DTC_D56316,TRUE);
+                         686 --line223
+                         687 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.23::
+                         688 .LDWlin23:
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+00000192 0332            689 	mov	3,r6
+00000194 013a            690 	mov	1,r7
+                         691 	jarl	_f_fm_setDTCByNo,lp
+                         691 <EXPANSION BEGIN>
+                         691 jarl22 _f_fm_setDTCByNo , lp 
+00000196 80ff0000*       691 <EXPANSION END>
+                         692 .L338:
+                         693 --224:     				}	
+                         694 --225:     			}
+                         695 --226:     }
+                         696 --227:     else
+                         697 --228:     {
+                         698 --229:     }
+                         699 --230:     /*----BAT DTC REPROT-----END------------*/
+                         700 --233:     /*----OTHER DTC REPROT-----START--------*/
+                         701 --234: 	if ((TRUE == PwrConditon_Flag) 
+                         702 --line234
+                         703 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.24::
+                         704 .LDWlin24:
+0000019a 9d0f0300        705 	ld.bu	2[r29],r1
+0000019e 610a            706 	cmp	1,r1
+000001a0 ea07c901*       707 	bne	.L363
+000001a4 bd0f0300        708 	ld.bu	3[r29],r1
+000001a8 610a            709 	cmp	1,r1
+000001aa ea07bf01*       710 	bne	.L363
+000001ae 9d0f0500        711 	ld.bu	4[r29],r1
+000001b2 610a            712 	cmp	1,r1
+000001b4 ea07b501*       713 	bne	.L363
+                         714 --235:      && (TRUE == BatConditon_Flag)
+                         715 --236:      && (TRUE == WorkConditon_Flag)) 
+                         716 --237: 	{
+                         717 --238: 		ftr_Dtc_Count++;
+                         718 --line238
+                         719 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.25::
+                         720 .LDWlin25:
+000001b8 9c0f0100        721 	ld.bu	0[r28],r1
+000001bc 410a            722 	add	1,r1
+000001be 5c0f0000        723 	st.b	r1,0[r28]
+                         724 --239: 		switch (ftr_Dtc_Count) 
+000001c2 9c0f0100        725 	ld.bu	0[r28],r1
+000001c6 610a            726 	cmp	1,r1
+000001c8 e1076901*       727 	bl	.L357
+000001cc e205*           728 	be	.L345
+000001ce 630a            729 	cmp	3,r1
+000001d0 813d*           730 	bl	.L346
+000001d2 eb075f01*       731 	bh	.L357
+000001d6 e57d*           732 	br	.L353
+                         733 .L345:
+                         734 --240: 		{
+                         735 --241: 			case SUB_DTC_FLOW1:
+                         736 --242: 		        NWD_GetNodeMissing(INDEX_ECM_NODE,&sts);
+                         737 --line242
+                         738 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.26::
+                         739 .LDWlin26:
+000001d8 0032            740 	mov	0,r6
+000001da 233e0000        741 	movea	0,sp,r7
+                         742 	jarl	_NWD_GetNodeMissing,lp
+                         742 <EXPANSION BEGIN>
+                         742 jarl22 _NWD_GetNodeMissing , lp 
+000001de 80ff0000*       742 <EXPANSION END>
+                         743 --243: 		        f_fm_setDTCByNo(DTC_C10087,sts);
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         744 --line243
+                         745 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.27::
+                         746 .LDWlin27:
+000001e2 833f0100        747 	ld.bu	0[sp],r7
+000001e6 0832            748 	mov	8,r6
+                         749 	jarl	_f_fm_setDTCByNo,lp
+                         749 <EXPANSION BEGIN>
+                         749 jarl22 _f_fm_setDTCByNo , lp 
+000001e8 80ff0000*       749 <EXPANSION END>
+                         750 --245: 		        NWD_GetNodeMissing(INDEX_BCM_NODE,&sts);
+                         751 --line245
+                         752 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.28::
+                         753 .LDWlin28:
+000001ec 0432            754 	mov	4,r6
+000001ee 233e0000        755 	movea	0,sp,r7
+                         756 	jarl	_NWD_GetNodeMissing,lp
+                         756 <EXPANSION BEGIN>
+                         756 jarl22 _NWD_GetNodeMissing , lp 
+000001f2 80ff0000*       756 <EXPANSION END>
+                         757 --246: 		        f_fm_setDTCByNo(DTC_C14087,sts); 
+                         758 --line246
+                         759 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.29::
+                         760 .LDWlin29:
+000001f6 833f0100        761 	ld.bu	0[sp],r7
+000001fa 0932            762 	mov	9,r6
+                         763 	jarl	_f_fm_setDTCByNo,lp
+                         763 <EXPANSION BEGIN>
+                         763 jarl22 _f_fm_setDTCByNo , lp 
+000001fc 80ff0000*       763 <EXPANSION END>
+                         764 --248: 		         NWD_GetNodeMissing(INDEX_TCM_NODE,&sts);
+                         765 --line248
+                         766 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.30::
+                         767 .LDWlin30:
+00000200 0c32            768 	mov	12,r6
+00000202 233e0000        769 	movea	0,sp,r7
+                         770 	jarl	_NWD_GetNodeMissing,lp
+                         770 <EXPANSION BEGIN>
+                         770 jarl22 _NWD_GetNodeMissing , lp 
+00000206 80ff0000*       770 <EXPANSION END>
+                         771 --249: 		        f_fm_setDTCByNo(DTC_C10187,sts); 
+                         772 --line249
+                         773 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.31::
+                         774 .LDWlin31:
+0000020a 833f0100        775 	ld.bu	0[sp],r7
+0000020e 0b32            776 	mov	11,r6
+                         777 	jarl	_f_fm_setDTCByNo,lp
+                         777 <EXPANSION BEGIN>
+                         777 jarl22 _f_fm_setDTCByNo , lp 
+00000210 80ff0000*       777 <EXPANSION END>
+                         778 --250: 		        
+                         779 --251: 		         NWD_GetNodeMissing(INDEX_SDM_NODE,&sts);
+                         780 --line251
+                         781 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.32::
+                         782 .LDWlin32:
+00000214 0b32            783 	mov	11,r6
+00000216 233e0000        784 	movea	0,sp,r7
+                         785 	jarl	_NWD_GetNodeMissing,lp
+                         785 <EXPANSION BEGIN>
+                         785 jarl22 _NWD_GetNodeMissing , lp 
+0000021a 80ff0000*       785 <EXPANSION END>
+                         786 --252: 		        f_fm_setDTCByNo(DTC_C15187,sts); 
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         787 --line252
+                         788 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.33::
+                         789 .LDWlin33:
+0000021e 833f0100        790 	ld.bu	0[sp],r7
+00000222 0c32            791 	mov	12,r6
+                         792 	jarl	_f_fm_setDTCByNo,lp
+                         792 <EXPANSION BEGIN>
+                         792 jarl22 _f_fm_setDTCByNo , lp 
+00000224 80ff0000*       792 <EXPANSION END>
+                         793 --253: 		        
+                         794 --254: 		        NWD_GetNodeMissing(INDEX_FICM_NODE,&sts);
+                         795 --line254
+                         796 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.34::
+                         797 .LDWlin34:
+00000228 0832            798 	mov	8,r6
+0000022a 233e0000        799 	movea	0,sp,r7
+                         800 	jarl	_NWD_GetNodeMissing,lp
+                         800 <EXPANSION BEGIN>
+                         800 jarl22 _NWD_GetNodeMissing , lp 
+0000022e 80ff0000*       800 <EXPANSION END>
+                         801 --255: 		        f_fm_setDTCByNo(DTC_C24587,sts); 
+                         802 --line255
+                         803 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.35::
+                         804 .LDWlin35:
+00000232 833f0100        805 	ld.bu	0[sp],r7
+00000236 0e32            806 	mov	14,r6
+                         807 	jarl	_f_fm_setDTCByNo,lp
+                         807 <EXPANSION BEGIN>
+                         807 jarl22 _f_fm_setDTCByNo , lp 
+00000238 80ff0000*       807 <EXPANSION END>
+                         808 --line256
+                         809 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.36::
+                         810 .LDWlin36:
+0000023c 80072c01*       811 	br	.L363
+                         812 .L346:
+                         813 --256: 				break;
+                         814 --257: 				
+                         815 --258: 			case SUB_DTC_FLOW2:				
+                         816 --259: 		        f_fm_setDTCByNo(DTC_922186,ODO_GetOdoInvalidFlt()); 
+                         817 --line259
+                         818 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.37::
+                         819 .LDWlin37:
+                         820 	jarl	_ODO_GetOdoInvalidFlt,lp
+                         820 <EXPANSION BEGIN>
+                         820 jarl22 _ODO_GetOdoInvalidFlt , lp 
+00000240 80ff0000*       820 <EXPANSION END>
+00000244 0a38            821 	mov	r10,r7
+00000246 0632            822 	mov	6,r6
+                         823 	jarl	_f_fm_setDTCByNo,lp
+                         823 <EXPANSION BEGIN>
+                         823 jarl22 _f_fm_setDTCByNo , lp 
+00000248 80ff0000*       823 <EXPANSION END>
+                         824 --260: 		        f_fm_setDTCByNo(DTC_922000,ODO_GetOdoIncreaseFlt());
+                         825 --line260
+                         826 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.38::
+                         827 .LDWlin38:
+                         828 	jarl	_ODO_GetOdoIncreaseFlt,lp
+                         828 <EXPANSION BEGIN>
+                         828 jarl22 _ODO_GetOdoIncreaseFlt , lp 
+0000024c 80ff0000*       828 <EXPANSION END>
+00000250 0a38            829 	mov	r10,r7
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+00000252 0732            830 	mov	7,r6
+                         831 	jarl	_f_fm_setDTCByNo,lp
+                         831 <EXPANSION BEGIN>
+                         831 jarl22 _f_fm_setDTCByNo , lp 
+00000254 80ff0000*       831 <EXPANSION END>
+                         832 --261: 		        SSB_GetSSBFltSts(&ssbSts);
+                         833 --line261
+                         834 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.39::
+                         835 .LDWlin39:
+00000258 23360200        836 	movea	2,sp,r6
+                         837 	jarl	_SSB_GetSSBFltSts,lp
+                         837 <EXPANSION BEGIN>
+                         837 jarl22 _SSB_GetSSBFltSts , lp 
+0000025c 80ff0000*       837 <EXPANSION END>
+                         838 --262: 		        f_fm_setDTCByNo(DTC_975371,ssbSts.Stuck); 
+                         839 --line262
+                         840 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.40::
+                         841 .LDWlin40:
+00000260 830f0300        842 	ld.bu	2[sp],r1
+00000264 20361300        843 	movea	19,zero,r6
+00000268 de0a            844 	shl	30,r1
+0000026a 9f0a            845 	shr	31,r1
+0000026c 0138            846 	mov	r1,r7
+                         847 	jarl	_f_fm_setDTCByNo,lp
+                         847 <EXPANSION BEGIN>
+                         847 jarl22 _f_fm_setDTCByNo , lp 
+0000026e 80ff0000*       847 <EXPANSION END>
+                         848 --264: 		        f_fm_setDTCByNo(DTC_976400,ssbSts.MisMatch);
+                         849 --line264
+                         850 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.41::
+                         851 .LDWlin41:
+00000272 830f0300        852 	ld.bu	2[sp],r1
+00000276 20361400        853 	movea	20,zero,r6
+0000027a c13e0100        854 	andi	1,r1,r7
+                         855 	jarl	_f_fm_setDTCByNo,lp
+                         855 <EXPANSION BEGIN>
+                         855 jarl22 _f_fm_setDTCByNo , lp 
+0000027e 80ff0000*       855 <EXPANSION END>
+                         856 --266: 				CRUS_GetFltStatus(&sts);
+                         857 --line266
+                         858 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.42::
+                         859 .LDWlin42:
+00000282 23360000        860 	movea	0,sp,r6
+                         861 	jarl	_CRUS_GetFltStatus,lp
+                         861 <EXPANSION BEGIN>
+                         861 jarl22 _CRUS_GetFltStatus , lp 
+00000286 80ff0000*       861 <EXPANSION END>
+                         862 --267: 				switch(sts)
+                         863 --line267
+                         864 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.43::
+                         865 .LDWlin43:
+0000028a 830f0100        866 	ld.bu	0[sp],r1
+0000028e 610a            867 	cmp	1,r1
+00000290 8125*           868 	bl	.L347
+00000292 f205*           869 	be	.L349
+00000294 630a            870 	cmp	3,r1
+00000296 b10d*           871 	bl	.L350
+00000298 e215*           872 	be	.L352
+0000029a 640a            873 	cmp	4,r1
+0000029c aa1d*           874 	bne	.L347
+0000029e d50d*           875 	br	.L351
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         876 .L349:
+                         877 --268: 				{
+                         878 --269: 				    case FAULT_CRUS1_BAT:
+                         879 --270: 				        f_fm_setDTCByNo(DTC_056412,TRUE);
+                         880 --line270
+                         881 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.44::
+                         882 .LDWlin44:
+000002a0 20361600        883 	movea	22,zero,r6
+000002a4 013a            884 	mov	1,r7
+                         885 	jarl	_f_fm_setDTCByNo,lp
+                         885 <EXPANSION BEGIN>
+                         885 jarl22 _f_fm_setDTCByNo , lp 
+000002a6 80ff0000*       885 <EXPANSION END>
+                         886 --line271
+                         887 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.45::
+                         888 .LDWlin45:
+000002aa b515*           889 	br	.L347
+                         890 .L350:
+                         891 --271: 				    	break;
+                         892 --272: 						
+                         893 --273: 				    case FAULT_CRUS1_GND:
+                         894 --274: 				        f_fm_setDTCByNo(DTC_056411,TRUE);
+                         895 --line274
+                         896 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.46::
+                         897 .LDWlin46:
+000002ac 20361500        898 	movea	21,zero,r6
+000002b0 013a            899 	mov	1,r7
+                         900 	jarl	_f_fm_setDTCByNo,lp
+                         900 <EXPANSION BEGIN>
+                         900 jarl22 _f_fm_setDTCByNo , lp 
+000002b2 80ff0000*       900 <EXPANSION END>
+                         901 --line275
+                         902 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.47::
+                         903 .LDWlin47:
+000002b6 d50d*           904 	br	.L347
+                         905 .L351:
+                         906 --275: 				    	break;
+                         907 --276: 						
+                         908 --277: 				    case FAULT_CRUS1_OUTRANGE:
+                         909 --278: 				        f_fm_setDTCByNo(DTC_05641C,TRUE); 
+                         910 --line278
+                         911 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.48::
+                         912 .LDWlin48:
+000002b8 20361800        913 	movea	24,zero,r6
+000002bc 013a            914 	mov	1,r7
+                         915 	jarl	_f_fm_setDTCByNo,lp
+                         915 <EXPANSION BEGIN>
+                         915 jarl22 _f_fm_setDTCByNo , lp 
+000002be 80ff0000*       915 <EXPANSION END>
+                         916 --line279
+                         917 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.49::
+                         918 .LDWlin49:
+000002c2 f505*           919 	br	.L347
+                         920 .L352:
+                         921 --279: 				    	break;
+                         922 --280: 						
+                         923 --281: 				    case FAULT_CRUS1_STICKY:
+                         924 --282: 				        f_fm_setDTCByNo(DTC_056496,TRUE); 
+                         925 --line282
+                         926 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.50::
+                         927 .LDWlin50:
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+000002c4 20361700        928 	movea	23,zero,r6
+000002c8 013a            929 	mov	1,r7
+                         930 	jarl	_f_fm_setDTCByNo,lp
+                         930 <EXPANSION BEGIN>
+                         930 jarl22 _f_fm_setDTCByNo , lp 
+000002ca 80ff0000*       930 <EXPANSION END>
+                         931 --line283
+                         932 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.51::
+                         933 .LDWlin51:
+000002ce 0000            934 	nop
+                         935 .L347:
+000002d0 c54d*           936 	br	.L363
+                         937 .L353:
+                         938 --283: 				    	break;
+                         939 --284: 				}         
+                         940 --285: 				break;
+                         941 --286: 				
+                         942 --287: 			case SUB_DTC_FLOW3:                 
+                         943 --288: 				TIP_GetFltStatus(&TipSts);
+                         944 --line288
+                         945 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.52::
+                         946 .LDWlin52:
+000002d2 23360300        947 	movea	3,sp,r6
+                         948 	jarl	_TIP_GetFltStatus,lp
+                         948 <EXPANSION BEGIN>
+                         948 jarl22 _TIP_GetFltStatus , lp 
+000002d6 80ff0000*       948 <EXPANSION END>
+                         949 --289: 				f_fm_setDTCByNo(DTC_095596,TipSts.Stuck); 				
+                         950 --line289
+                         951 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.53::
+                         952 .LDWlin53:
+000002da a30f0300        953 	ld.bu	3[sp],r1
+000002de 20361d00        954 	movea	29,zero,r6
+000002e2 de0a            955 	shl	30,r1
+000002e4 9f0a            956 	shr	31,r1
+000002e6 0138            957 	mov	r1,r7
+                         958 	jarl	_f_fm_setDTCByNo,lp
+                         958 <EXPANSION BEGIN>
+                         958 jarl22 _f_fm_setDTCByNo , lp 
+000002e8 80ff0000*       958 <EXPANSION END>
+                         959 --290: 				f_fm_setDTCByNo(DTC_09551C,TipSts.OutRang);
+                         960 --line290
+                         961 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.54::
+                         962 .LDWlin54:
+000002ec a30f0300        963 	ld.bu	3[sp],r1
+000002f0 20361e00        964 	movea	30,zero,r6
+000002f4 c13e0100        965 	andi	1,r1,r7
+                         966 	jarl	_f_fm_setDTCByNo,lp
+                         966 <EXPANSION BEGIN>
+                         966 jarl22 _f_fm_setDTCByNo , lp 
+000002f8 80ff0000*       966 <EXPANSION END>
+                         967 --291: 				if(TRUE == FL_GetFuelSensorFaultFlag())
+                         968 --line291
+                         969 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.55::
+                         970 .LDWlin55:
+                         971 	jarl	_FL_GetFuelSensorFaultFlag,lp
+                         971 <EXPANSION BEGIN>
+                         971 jarl22 _FL_GetFuelSensorFaultFlag , lp 
+000002fc 80ff0000*       971 <EXPANSION END>
+00000300 6152            972 	cmp	1,r10
+00000302 fa05*           973 	bne	.L354
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                         974 --292: 				{
+                         975 --293: 					f_fm_setDTCByNo(DTC_920029,TRUE); 
+                         976 --line293
+                         977 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.56::
+                         978 .LDWlin56:
+00000304 20361f00        979 	movea	31,zero,r6
+00000308 013a            980 	mov	1,r7
+                         981 	jarl	_f_fm_setDTCByNo,lp
+                         981 <EXPANSION BEGIN>
+                         981 jarl22 _f_fm_setDTCByNo , lp 
+0000030a 80ff0000*       981 <EXPANSION END>
+0000030e e505*           982 	br	.L356
+                         983 .L354:
+                         984 --294: 				}
+                         985 --295: 				else
+                         986 --296: 				{
+                         987 --297: 					f_fm_setDTCByNo(DTC_920029,FALSE); 
+                         988 --line297
+                         989 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.57::
+                         990 .LDWlin57:
+00000310 20361f00        991 	movea	31,zero,r6
+00000314 003a            992 	mov	0,r7
+                         993 	jarl	_f_fm_setDTCByNo,lp
+                         993 <EXPANSION BEGIN>
+                         993 jarl22 _f_fm_setDTCByNo , lp 
+00000316 80ff0000*       993 <EXPANSION END>
+                         994 .L356:
+                         995 --298: 				}
+                         996 --299: 				SLF_GetSrsLedFltStatus(&sts);
+                         997 --line299
+                         998 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.58::
+                         999 .LDWlin58:
+0000031a 23360000       1000 	movea	0,sp,r6
+                        1001 	jarl	_SLF_GetSrsLedFltStatus,lp
+                        1001 <EXPANSION BEGIN>
+                        1001 jarl22 _SLF_GetSrsLedFltStatus , lp 
+0000031e 80ff0000*      1001 <EXPANSION END>
+                        1002 --300: 				f_fm_setDTCByNo(DTC_920100,sts);
+                        1003 --line300
+                        1004 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.59::
+                        1005 .LDWlin59:
+00000322 833f0100       1006 	ld.bu	0[sp],r7
+00000326 20362000       1007 	movea	32,zero,r6
+                        1008 	jarl	_f_fm_setDTCByNo,lp
+                        1008 <EXPANSION BEGIN>
+                        1008 jarl22 _f_fm_setDTCByNo , lp 
+0000032a 80ff0000*      1008 <EXPANSION END>
+                        1009 --line301
+                        1010 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.60::
+                        1011 .LDWlin60:
+0000032e d51d*          1012 	br	.L363
+                        1013 .L357:
+                        1014 --301: 				break;
+                        1015 --302: 				
+                        1016 --303: 			case SUB_DTC_FLOW0:
+                        1017 --304: 			default:		       
+                        1018 --305: 			    EED_GetEEPROMStatus(&sts);	
+                        1019 --line305
+                        1020 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.61::
+                        1021 .LDWlin61:
+00000330 23360000       1022 	movea	0,sp,r6
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                        1023 	jarl	_EED_GetEEPROMStatus,lp
+                        1023 <EXPANSION BEGIN>
+                        1023 jarl22 _EED_GetEEPROMStatus , lp 
+00000334 80ff0000*      1023 <EXPANSION END>
+                        1024 --306: 				switch(sts)
+                        1025 --line306
+                        1026 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.62::
+                        1027 .LDWlin62:
+00000338 830f0100       1028 	ld.bu	0[sp],r1
+0000033c e009           1029 	cmp	zero,r1
+0000033e e205*          1030 	be	.L361
+00000340 5e0a           1031 	add	-2,r1
+00000342 630a           1032 	cmp	3,r1
+00000344 8b0d*          1033 	bh	.L362
+00000346 a905*          1034 	bnl	.L361
+                        1035 --line311
+                        1036 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.63::
+                        1037 .LDWlin63:
+00000348 f505*          1038 	br	.L358
+                        1039 .L361:
+                        1040 --307: 				{
+                        1041 --308: 				    case STATUS_EED_READING:
+                        1042 --309: 				    case STATUS_EED_WRITEING:
+                        1043 --310: 				    case STATUS_EED_PROTECTING:
+                        1044 --311: 					break;
+                        1045 --312: 					
+                        1046 --313: 				    case STATUS_EED_UNKNOWN:
+                        1047 --314: 				    case STATUS_EED_ERR:
+                        1048 --315: 				        f_fm_setDTCByNo(DTC_E00142,TRUE); 
+                        1049 --line315
+                        1050 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.64::
+                        1051 .LDWlin64:
+0000034a 0132           1052 	mov	1,r6
+0000034c 013a           1053 	mov	1,r7
+                        1054 	jarl	_f_fm_setDTCByNo,lp
+                        1054 <EXPANSION BEGIN>
+                        1054 jarl22 _f_fm_setDTCByNo , lp 
+0000034e 80ff0000*      1054 <EXPANSION END>
+                        1055 --line316
+                        1056 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.65::
+                        1057 .LDWlin65:
+00000352 a505*          1058 	br	.L358
+                        1059 .L362:
+                        1060 --line320
+                        1061 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.66::
+                        1062 .LDWlin66:
+00000354 0000           1063 	nop
+                        1064 .L358:
+                        1065 --316: 				    	break;
+                        1066 --318: 				    case STATUS_EED_IDLE:
+                        1067 --319: 				    default:
+                        1068 --320: 				    	break;
+                        1069 --321: 						
+                        1070 --322: 				} 		    
+                        1071 --323: 			    f_fm_setDTCByNo(DTC_C07388,NWD_GetBusOffFlt());
+                        1072 	jarl	_NWD_GetBusOffFlt,lp
+                        1072 <EXPANSION BEGIN>
+                        1072 jarl22 _NWD_GetBusOffFlt , lp 
+00000356 80ff0000*      1072 <EXPANSION END>
+0000035a 0a38           1073 	mov	r10,r7
+0000035c 0532           1074 	mov	5,r6
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000084g1.si
+                        1075 	jarl	_f_fm_setDTCByNo,lp
+                        1075 <EXPANSION BEGIN>
+                        1075 jarl22 _f_fm_setDTCByNo , lp 
+0000035e 80ff0000*      1075 <EXPANSION END>
+                        1076 --324: 				ftr_Dtc_Count =0;
+                        1077 --line324
+                        1078 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.67::
+                        1079 .LDWlin67:
+00000362 5c070000       1080 	st.b	zero,0[r28]
+00000366 0000           1081 	nop
+                        1082 .L363:
+                        1083 --325: 				break;
+                        1084 --326: 		}
+                        1085 --327:     }
+                        1086 --328:     else
+                        1087 --329:     {
+                        1088 --330:     }  
+                        1089 --331:     /*----OTHER DTC REPROT-----END--------*/
+                        1090 --332: }
+00000368 0000           1091 	nop
+                        1092 --	    .ef
+                        1093 .LDW62:
+0000036a 4206ff30       1094 	dispose	1,{r26,r27,r28,r29,r31},[lp]
+                        1095 	.type	_ftr_dtc_report,@function
+                        1096 	.size	_ftr_dtc_report,.-_ftr_dtc_report
+                        1097 	.type	_ftr_dtc_report..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,@function
+                        1098 	.size	_ftr_dtc_report..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.,.-_ftr_dtc_report..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr.
+                        1099 	.align	2
+                        1100 .LDW72:
+                        1101 --_sts	0[sp]	local
+                        1102 --_batSts	1[sp]	local
+                        1103 --_ssbSts	2[sp]	local
+                        1104 --_TipSts	3[sp]	local
+                        1105 
+                        1106 	.data
+                        1107 	.text
+                        1108 
+                        1109 	.align	2
+                        1110 --_PwrConditon_Flag	_PwrConditon_Flag	static
+                        1111 --_BatConditon_Flag	_BatConditon_Flag	static
+                        1112 --_WorkConditon_Flag	_WorkConditon_Flag	static
+                        1113 --_PwrConditon_cnt	_PwrConditon_cnt	static
+                        1114 --_BatConditon_cnt	_BatConditon_cnt	static
+                        1115 --_WorkConditon_cnt	_WorkConditon_cnt	static
+                        1116 --_ftr_InitSts	_ftr_InitSts	static
+                        1117 --_ftr_Dtc_Count	_ftr_Dtc_Count	static
+                        1118 
+                        1119 	.data
+                        1120 	.ghsnote version,14
+                        1121 	.ghsnote tools,3
+                        1122 	.ghsnote options,144
+                        1123 	.text
+                        1124 	.align	2
+                        1125 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cftr...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740375..0::
+                        1126 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

@@ -1,0 +1,1249 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_pbg_main.dbo -source=r_pbg_main.c -o .\obj\gh_000086o1.o -list=.\obj\r_pbg_main.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+Source File: r_pbg_main.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c ..\..\..\..\..\macro\bus\pbg\src\r_pbg_main.c -o
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                         112 --		.\obj\r_pbg_main.o
+                         113 --Source File:   ..\..\..\..\..\macro\bus\pbg\src\r_pbg_main.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:56 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2: ****************************************************************************
+                         126 --3: PROJECT : VLIB Macro Driver  
+                         127 --4: FILE    : $Id: r_pbg_main.c 7171 2016-01-06 17:52:36Z tobyas.hennig $
+                         128 --5: ============================================================================ 
+                         129 --6: DESCRIPTION
+                         130 --7: Driver for the XC GUARD macro
+                         131 --8: ============================================================================
+                         132 --9:                             C O P Y R I G H T                            
+                         133 --10: ============================================================================
+                         134 --11:                            Copyright (c) 2012
+                         135 --12:                                   by 
+                         136 --13:                        Renesas Electronics (Europe) GmbH. 
+                         137 --14:                            Arcadiastrasse 10
+                         138 --15:                           D-40472 Duesseldorf
+                         139 --16:                                Germany
+                         140 --17:                           All rights reserved.
+                         141 --18: ============================================================================
+                         142 --19: Purpose: only for testing
+                         143 --21: DISCLAIMER                                                                   
+                         144 --22: This software is supplied by Renesas Electronics Corporation and is only     
+                         145 --23: intended for use with Renesas products. No other uses are authorized. This   
+                         146 --24: software is owned by Renesas Electronics Corporation and is protected under  
+                         147 --25: all applicable laws, including copyright laws.                               
+                         148 --26: THIS SOFTWARE IS PROVIDED "AS IS" AND RENESAS MAKES NO WARRANTIES REGARDING  
+                         149 --27: THIS SOFTWARE, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT      
+                         150 --28: LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE   
+                         151 --29: AND NON-INFRINGEMENT. ALL SUCH WARRANTIES ARE EXPRESSLY DISCLAIMED.          
+                         152 --30: TO THE MAXIMUM EXTENT PERMITTED NOT PROHIBITED BY LAW, NEITHER RENESAS       
+                         153 --31: ELECTRONICS CORPORATION NOR ANY OF ITS AFFILIATED COMPANIES SHALL BE LIABLE  
+                         154 --32: FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES FOR   
+                         155 --33: ANY REASON RELATED TO THIS SOFTWARE, EVEN IF RENESAS OR ITS AFFILIATES HAVE  
+                         156 --34: BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.                             
+                         157 --35: Renesas reserves the right, without notice, to make changes to this software 
+                         158 --36: and to discontinue the availability of this software. By using this software,
+                         159 --37: you agree to the additional terms and conditions found by accessing the      
+                         160 --38: following link:                                                              
+                         161 --39: http://www.renesas.com/disclaimer *                                          
+                         162 --40: Copyright (C) 2011 Renesas Electronics Corporation. All rights reserved.     
+                         163 --42: ****************************************************************************
+                         164 --43: */
+                         165 --45: /*******************************************************************************
+                         166 --46:   Title: PBG Main Module
+                         167 --48:   Implementation of the API and other global functions.
+                         168 --49: */
+                         169 --51: /*******************************************************************************
+                         170 --52:   Section: Includes
+                         171 --53: */
+                         172 --55: #include "r_typedefs.h"
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                         173 --56: #include "r_dev_api.h"
+                         174 --58: #include "r_config_pbg.h"
+                         175 --59: #include "r_pbg_api.h"
+                         176 --60: #define PBG_MAIN_GLOBALS_
+                         177 --61: #include "r_pbg_main.h"
+                         178 --62: #include "r_pbg_sys.h"
+                         179 --65: /*******************************************************************************
+                         180 --66:   Section: Local Constants
+                         181 --67: */
+                         182 --69: /*******************************************************************************
+                         183 --70:   Constant: loc_PBGVersion
+                         184 --72:   A string containig the macro driver version information  
+                         185 --73: */
+                         186 --75: static const int8_t  loc_pbgDrvVer[] = R_VERSION(PBG, R_PBG_VERSION_HI, R_PBG_VERSION_LO);
+                         187 --79: /*******************************************************************************
+                         188 --80:   Section: Local Variables
+                         189 --81: */
+                         190 --83: /*******************************************************************************
+                         191 --84:   Variable: loc_ErrorHandler
+                         192 --86:   A function pointer to a user callback (Applications error handler)  
+                         193 --87:   
+                         194 --88:   The value is assigned by the application using the driver 
+                         195 --89: */
+                         196 --91: static void (*loc_ErrorHandler )(uint32_t Unit, uint32_t Error) = 0u;
+                         197 --94: /*******************************************************************************
+                         198 --95:   Section: Global Functions
+                         199 --96: */
+                         200 --98: /*******************************************************************************
+                         201 --99:   Function: R_PBG_CheckMacroParams
+                         202 --100:   
+                         203 --101:   See: <PBG_main.h>
+                         204 --102: */
+                         205 --103: r_pbg_Error_t R_PBG_CheckMacroParams(uint32_t Unit);
+                         206 --104: r_pbg_Error_t R_PBG_CheckMacroParams(uint32_t Unit)
+                         207 	.text
+                         208 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740384..0::
+                         209 	.align	2
+                         210 	.global	_R_PBG_CheckMacroParams
+                         211 _R_PBG_CheckMacroParams:
+00000000 0608            212 	mov	r6,r1
+                         213 --	    .bf
+                         214 .LDW01:
+                         215 --105: {
+                         216 --106:     /* Feel free to add any more usefull parameter checks */
+                         217 --107:     if (R_PBG_MACRO_NUM <= Unit)
+00000002 6e0a            218 	cmp	14,r1
+00000004 b105*           219 	bl	.L4
+                         220 --108:     {
+                         221 --109:         return  R_PBG_ERR_RANGE; 
+                         222 --line109
+                         223 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.1::
+                         224 .LDWlin1:
+00000006 0252            225 	mov	2,r10
+00000008 a505*           226 	br	.L2
+                         227 .L4:
+                         228 --110:     }
+                         229 --111:     return R_PBG_ERR_OK;  
+                         230 --line111
+                         231 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.2::
+                         232 .LDWlin2:
+0000000a 0052            233 	mov	0,r10
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                         234 .L2:
+                         235 --	    .ef
+                         236 .LDW11:
+0000000c 7f00            237 	jmp	[lp]
+                         238 	.type	_R_PBG_CheckMacroParams,@function
+                         239 	.size	_R_PBG_CheckMacroParams,.-_R_PBG_CheckMacroParams
+                         240 	.align	2
+                         241 .LDW21:
+                         242 
+                         243 --_Unit	r1	param
+                         244 
+                         245 	.section ".bss","awb"
+                         246 .L28:
+                         247 	.type	.L28,@object
+                         248 	.size	.L28,0
+                         249 	.data
+                         250 	.text
+                         251 
+                         252 --112: }
+                         253 
+                         254 --114: /*******************************************************************************
+                         255 --115:   Function: R_PBG_ErrorHandler
+                         256 --116:   
+                         257 --117:   See: <PBG_main.h>
+                         258 --118: */
+                         259 --119: void R_PBG_ErrorHandler(uint32_t Unit, r_pbg_Error_t Error) 
+                         260 	.align	2
+                         261 	.align	2
+                         262 	.align	2
+                         263 	.global	_R_PBG_ErrorHandler
+                         264 _R_PBG_ErrorHandler:
+0000000e 8007e170        265 	prepare	{r25,r26,r27,r28,r29,r31},0
+00000012 3d0600000000*   266 	mov	.L80,r29
+00000018 06e0            267 	mov	r6,r28
+0000001a 07d8            268 	mov	r7,r27
+0000001c 1dd0            269 	mov	r29,r26
+                         270 --	    .bf
+                         271 .LDW31:
+                         272 --120: {
+                         273 --121:     if (0 != loc_ErrorHandler) 
+0000001e 3d0f0100        274 	ld.w	0[r29],r1
+00000022 e009            275 	cmp	zero,r1
+00000024 820d*           276 	be	.L48
+                         277 --122:     {      /* we've got a registered error handler here ...*/
+                         278 --123:         loc_ErrorHandler(Unit, (uint32_t) Error);      /* ... and we gonna use it!*/
+                         279 --line123
+                         280 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.3::
+                         281 .LDWlin3:
+00000026 3dcf0100        282 	ld.w	0[r29],r25
+0000002a 1c30            283 	mov	r28,r6
+0000002c 1b38            284 	mov	r27,r7
+0000002e f9c760f9        285 	jarl	[r25],lp
+00000032 b505*           286 	br	.L50
+                         287 .L48:
+                         288 --124:     } 
+                         289 --125:     else 
+                         290 --126:     {
+                         291 --127:         for(;;) 
+                         292 --line127
+                         293 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.4::
+                         294 .LDWlin4:
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+00000034 0000            295 	nop
+                         296 .L53:
+                         297 --128:         {        /* we don't have a handler */
+00000036 8505*           298 	br	.L53
+                         299 .L50:
+                         300 --129:         }        /* so, let's wait here */
+                         301 --130:     }
+                         302 --131: }
+                         303 --line131
+                         304 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.5::
+                         305 .LDWlin5:
+00000038 0000            306 	nop
+                         307 --	    .ef
+                         308 .LDW41:
+0000003a 4006ff70        309 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         310 	.type	_R_PBG_ErrorHandler,@function
+                         311 	.size	_R_PBG_ErrorHandler,.-_R_PBG_ErrorHandler
+                         312 	.align	2
+                         313 .LDW51:
+                         314 
+                         315 --_Unit	r28	param
+                         316 --_Error	r27	param
+                         317 
+                         318 	.data
+                         319 	.align	4
+                         320 .L80:
+                         321 	.type	.L80,@object
+                         322 	.size	.L80,0
+                         323 	.global	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.
+                         324 _loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.:
+                         325 	.type	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.,@object
+                         326 	.size	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.,4
+00000000 00000000        327 _loc_ErrorHandler:	.byte	0,0,0,0
+                         328 	.type	_loc_ErrorHandler,@object
+                         329 	.size	_loc_ErrorHandler,4
+                         330 	.section ".rodata","a"
+                         331 	.global	_loc_pbgDrvVer..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.
+                         332 _loc_pbgDrvVer..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.:
+                         333 	.type	_loc_pbgDrvVer..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.,@object
+                         334 	.size	_loc_pbgDrvVer..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.,27
+                         335 _loc_pbgDrvVer:--	"@(#)PBG driver version 0.1"
+00000000 40282329        336 	.byte	64,40,35,41
+00000004 50424720        337 	.byte	80,66,71,32
+00000008 64726976        338 	.byte	100,114,105,118
+0000000c 65722076        339 	.byte	101,114,32,118
+00000010 65727369        340 	.byte	101,114,115,105
+00000014 6f6e2030        341 	.byte	111,110,32,48
+00000018 2e31            342 	.byte	46,49
+0000001a 00              343 	.byte	0
+                         344 	.type	_loc_pbgDrvVer,@object
+                         345 	.size	_loc_pbgDrvVer,27
+                         346 	.data
+                         347 	.text
+                         348 
+                         349 
+                         350 --133: /*******************************************************************************
+                         351 --134:   Section: Global API Functions
+                         352 --135:   
+                         353 --136:   See: <r_pbg_api.h>
+                         354 --137: */
+                         355 --139: /*******************************************************************************
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                         356 --140:   Function: R_PBG_GetVersionStr
+                         357 --142:   See: <r_pbg_api.h> 
+                         358 --143: */
+                         359 --144: const int8_t * R_PBG_GetVersionStr(void) 
+                         360 	.align	2
+                         361 	.align	2
+                         362 	.global	_R_PBG_GetVersionStr
+                         363 _R_PBG_GetVersionStr:
+                         364 --	    .bf
+                         365 .LDW61:
+                         366 --145: {
+                         367 --146:     return (const int8_t *) loc_pbgDrvVer;
+0000003e 2a0600000000*   368 	mov	_loc_pbgDrvVer,r10
+                         369 --	    .ef
+                         370 .LDW71:
+00000044 7f00            371 	jmp	[lp]
+                         372 	.type	_R_PBG_GetVersionStr,@function
+                         373 	.size	_R_PBG_GetVersionStr,.-_R_PBG_GetVersionStr
+                         374 	.align	2
+                         375 .LDW81:
+                         376 
+                         377 	.section ".bss","awb"
+                         378 .L120:
+                         379 	.type	.L120,@object
+                         380 	.size	.L120,0
+                         381 	.data
+                         382 	.text
+                         383 
+                         384 --147: }
+                         385 
+                         386 --149: /*******************************************************************************
+                         387 --150:   Function: R_PBG_GetMajorVersion
+                         388 --152:   See: <r_pbg_api.h> 
+                         389 --153: */
+                         390 --154: const uint16_t R_PBG_GetMajorVersion(void) 
+                         391 	.align	2
+                         392 	.align	2
+                         393 	.global	_R_PBG_GetMajorVersion
+                         394 _R_PBG_GetMajorVersion:
+                         395 --	    .bf
+                         396 .LDW91:
+                         397 --155: {
+                         398 --156:     return (uint16_t)R_PBG_VERSION_HI; 
+00000046 0052            399 	mov	0,r10
+                         400 --	    .ef
+                         401 .LDW02:
+00000048 7f00            402 	jmp	[lp]
+                         403 	.type	_R_PBG_GetMajorVersion,@function
+                         404 	.size	_R_PBG_GetMajorVersion,.-_R_PBG_GetMajorVersion
+                         405 	.align	2
+                         406 .LDW12:
+                         407 
+                         408 	.section ".bss","awb"
+                         409 .L152:
+                         410 	.type	.L152,@object
+                         411 	.size	.L152,0
+                         412 	.data
+                         413 	.text
+                         414 
+                         415 --157: }
+                         416 
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                         417 --159: /*******************************************************************************
+                         418 --160:   Function: R_PBG_GetMinorVersion
+                         419 --162:   See: <r_pbg_api.h> 
+                         420 --163: */
+                         421 --164: const uint16_t R_PBG_GetMinorVersion(void) 
+                         422 	.align	2
+                         423 	.align	2
+                         424 	.global	_R_PBG_GetMinorVersion
+                         425 _R_PBG_GetMinorVersion:
+                         426 --	    .bf
+                         427 .LDW22:
+                         428 --165: {
+                         429 --166:     return (uint16_t)R_PBG_VERSION_LO; 
+0000004a 0152            430 	mov	1,r10
+                         431 --	    .ef
+                         432 .LDW32:
+0000004c 7f00            433 	jmp	[lp]
+                         434 	.type	_R_PBG_GetMinorVersion,@function
+                         435 	.size	_R_PBG_GetMinorVersion,.-_R_PBG_GetMinorVersion
+                         436 	.align	2
+                         437 .LDW42:
+                         438 
+                         439 	.section ".bss","awb"
+                         440 .L184:
+                         441 	.type	.L184,@object
+                         442 	.size	.L184,0
+                         443 	.data
+                         444 	.text
+                         445 
+                         446 --167: }
+                         447 
+                         448 --171: /*******************************************************************************
+                         449 --172:   Function: R_PBG_Init
+                         450 --174:   See: <r_pbg_api.h> 
+                         451 --175: */
+                         452 --176: r_pbg_Error_t R_PBG_Init(void) 
+                         453 	.align	2
+                         454 	.align	2
+                         455 	.global	_R_PBG_Init
+                         456 _R_PBG_Init:
+0000004e 80076100        457 	prepare	{r29,r31},0
+                         458 --	    .bf
+                         459 .LDW52:
+                         460 --177: {
+                         461 --178:     r_dev_PbgInstance_t Instance;
+                         462 --179:     
+                         463 --180:     for (Instance = (r_dev_PbgInstance_t)0; Instance < R_DEV_PBG_NUM; Instance++)
+00000052 00ea            464 	mov	0,r29
+00000054 0000            465 	nop
+                         466 .L200:
+                         467 --181:     {
+                         468 --182:         R_PBG_InitInstance(Instance);
+00000056 1d30            469 	mov	r29,r6
+                         470 	jarl	_R_PBG_InitInstance,lp
+                         470 <EXPANSION BEGIN>
+                         470 jarl22 _R_PBG_InitInstance , lp 
+00000058 80ff1000*       470 <EXPANSION END>
+                         471 --line180
+                         472 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.6::
+                         473 .LDWlin6:
+0000005c 41ea            474 	add	1,r29
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+0000005e 6eea            475 	cmp	14,r29
+00000060 b6fd*           476 	blt	.L200
+                         477 --183:     }
+                         478 --184:     
+                         479 --185:     return R_PBG_ERR_OK;
+                         480 --line185
+                         481 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.7::
+                         482 .LDWlin7:
+00000062 0052            483 	mov	0,r10
+                         484 --	    .ef
+                         485 .LDW62:
+00000064 40067f00        486 	dispose	0,{r29,r31},[lp]
+                         487 	.type	_R_PBG_Init,@function
+                         488 	.size	_R_PBG_Init,.-_R_PBG_Init
+                         489 	.align	2
+                         490 .LDW72:
+                         491 --_Instance	r29	local
+                         492 
+                         493 	.section ".bss","awb"
+                         494 .L226:
+                         495 	.type	.L226,@object
+                         496 	.size	.L226,0
+                         497 	.data
+                         498 	.text
+                         499 
+                         500 --186: }
+                         501 
+                         502 --188: /*******************************************************************************
+                         503 --189:   Function: R_PBG_InitInstance
+                         504 --191:   See: <r_pbg_api.h> 
+                         505 --192: */
+                         506 --193: r_pbg_Error_t R_PBG_InitInstance(r_dev_PbgInstance_t Instance) 
+                         507 	.align	2
+                         508 	.align	2
+                         509 	.global	_R_PBG_InitInstance
+                         510 _R_PBG_InitInstance:
+00000068 8407e110        511 	prepare	{r27,r28,r29,r31},2
+0000006c 06d8            512 	mov	r6,r27
+                         513 --	    .bf
+                         514 .LDW82:
+                         515 --194: {
+                         516 --195:     r_pbg_Id_t      Id;
+                         517 --196:     r_pbg_Error_t   Err = R_PBG_ERR_NG;
+0000006e 01ea            518 	mov	1,r29
+                         519 --197:     r_pbg_Error_t   LoopErr;
+                         520 --198:     
+                         521 --199:     Id.Instance = Instance;
+00000070 63df0100        522 	st.w	r27,0[sp]
+                         523 --200:     
+                         524 --201:     for (Id.Channel = 0; Id.Channel < 16; Id.Channel++)
+00000074 63070500        525 	st.w	zero,4[sp]
+00000078 8515*           526 	br	.L258
+                         527 .L257:
+                         528 --202:     {
+                         529 --203:         /* Try to initialialize a certain channel, risking that it might not exist */
+                         530 --204:         LoopErr = R_PBG_InitChannel(Id);
+                         531 --line204
+                         532 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.8::
+                         533 .LDWlin8:
+0000007a 23f60000        534 	movea	0,sp,ep
+0000007e 0035            535 	sld.w	0[ep],r6
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+00000080 023d            536 	sld.w	4[ep],r7
+                         537 	jarl	_R_PBG_InitChannel,lp
+                         537 <EXPANSION BEGIN>
+                         537 jarl22 _R_PBG_InitChannel , lp 
+00000082 80ff2600*       537 <EXPANSION END>
+00000086 0ae0            538 	mov	r10,r28
+                         539 --205:         
+                         540 --206:         /* If at least one channel was set up correctly, return OK. */
+                         541 --207:         if (R_PBG_ERR_OK == LoopErr)
+                         542 --line207
+                         543 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.9::
+                         544 .LDWlin9:
+00000088 e0e1            545 	cmp	zero,r28
+0000008a aa05*           546 	bne	.L256
+                         547 --208:         {
+                         548 --209:             Err = R_PBG_ERR_OK;
+                         549 --line209
+                         550 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.10::
+                         551 .LDWlin10:
+0000008c 00ea            552 	mov	0,r29
+                         553 .L256:
+0000008e 230f0500        554 	ld.w	4[sp],r1
+00000092 410a            555 	add	1,r1
+00000094 630f0500        556 	st.w	r1,4[sp]
+                         557 .L258:
+00000098 230f0500        558 	ld.w	4[sp],r1
+0000009c 0106f0ff        559 	addi	-16,r1,zero
+000000a0 d9ed*           560 	bnl	.L257
+                         561 --210:         }
+                         562 --211:     }
+                         563 --212:     
+                         564 --213:     return Err;
+                         565 --line213
+                         566 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.11::
+                         567 .LDWlin11:
+000000a2 1d50            568 	mov	r29,r10
+                         569 --	    .ef
+                         570 .LDW92:
+000000a4 4406ff10        571 	dispose	2,{r27,r28,r29,r31},[lp]
+                         572 	.type	_R_PBG_InitInstance,@function
+                         573 	.size	_R_PBG_InitInstance,.-_R_PBG_InitInstance
+                         574 	.align	2
+                         575 .LDW03:
+                         576 --_Id	0[sp]	local
+                         577 --_Err	r29	local
+                         578 --_LoopErr	r28	local
+                         579 
+                         580 --_Instance	r27	param
+                         581 
+                         582 	.section ".bss","awb"
+                         583 .L298:
+                         584 	.type	.L298,@object
+                         585 	.size	.L298,0
+                         586 	.data
+                         587 	.text
+                         588 
+                         589 --214: }
+                         590 
+                         591 --216: /*******************************************************************************
+                         592 --217:   Function: R_PBG_InitChannel
+                         593 --219:   See: <r_pbg_api.h> 
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                         594 --220: */
+                         595 --221: r_pbg_Error_t R_PBG_InitChannel(r_pbg_Id_t Id) 
+                         596 	.align	2
+                         597 	.align	2
+                         598 	.global	_R_PBG_InitChannel
+                         599 _R_PBG_InitChannel:
+000000a8 031ed8ff        600 	addi	-40,sp,sp
+000000ac 633f1d00        601 	st.w	r7,28[sp]
+000000b0 63371900        602 	st.w	r6,24[sp]
+000000b4 63ff1500        603 	st.w	lp,20[sp]
+000000b8 63ef1100        604 	st.w	r29,16[sp]
+                         605 --	    .bf
+                         606 .LDW13:
+                         607 --222: {
+                         608 --223:     r_pbg_t Instance;
+                         609 --224:     r_pbg_Error_t err = R_PBG_SYS_GetInstance(Id, &Instance);
+000000bc 23f61800        610 	movea	24,sp,ep
+000000c0 23460000        611 	movea	0,sp,r8
+000000c4 0035            612 	sld.w	0[ep],r6
+000000c6 023d            613 	sld.w	4[ep],r7
+                         614 	jarl	_R_PBG_SYS_GetInstance,lp
+                         614 <EXPANSION BEGIN>
+                         614 jarl22 _R_PBG_SYS_GetInstance , lp 
+000000c8 80ff0000*       614 <EXPANSION END>
+000000cc 0ae8            615 	mov	r10,r29
+                         616 --225:     
+                         617 --226:     /* Initialize channel if it exists */
+                         618 --227:     if (R_PBG_ERR_OK == err)
+                         619 --line227
+                         620 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.12::
+                         621 .LDWlin12:
+000000ce e0e9            622 	cmp	zero,r29
+000000d0 ba0d*           623 	bne	.L339
+                         624 --228:     {        
+                         625 --229:         R_PBG_WRITE32(Instance.Base0 + (4 * Id.Channel), R_PBG_DEFAULT_SETTING);
+                         626 --line229
+                         627 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.13::
+                         628 .LDWlin13:
+000000d2 230f1d00        629 	ld.w	28[sp],r1
+000000d6 23f70900        630 	ld.w	8[sp],ep
+000000da c20a            631 	shl	2,r1
+000000dc c1f1            632 	add	r1,ep
+000000de 2106ffffff07    633 	mov	134217727,r1
+000000e4 010d            634 	sst.w	r1,0[ep]
+                         635 .L339:
+                         636 --230:     }
+                         637 --231:     return err;
+000000e6 1d50            638 	mov	r29,r10
+                         639 --	    .ef
+                         640 .LDW23:
+000000e8 23ff1500        641 	ld.w	20[sp],lp
+000000ec 23ef1100        642 	ld.w	16[sp],r29
+000000f0 031e2800        643 	addi	40,sp,sp
+000000f4 7f00            644 	jmp	[lp]
+                         645 	.type	_R_PBG_InitChannel,@function
+                         646 	.size	_R_PBG_InitChannel,.-_R_PBG_InitChannel
+                         647 	.align	2
+                         648 .LDW33:
+                         649 --_Instance	0[sp]	local
+                         650 --_err	r29	local
+                         651 
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                         652 --_Id	24[sp]	param
+                         653 
+                         654 	.section ".bss","awb"
+                         655 .L366:
+                         656 	.type	.L366,@object
+                         657 	.size	.L366,0
+                         658 	.data
+                         659 	.text
+                         660 
+                         661 --232: }
+                         662 
+                         663 --235: /*******************************************************************************
+                         664 --236:   Function: R_PBG_ConfigureGuard
+                         665 --238:   See: <r_pbg_api.h> 
+                         666 --239: */
+                         667 --240: r_pbg_Error_t R_PBG_ConfigureGuard(r_pbg_Id_t Id, r_pbg_Config_t Config)
+                         668 	.align	2
+                         669 	.align	2
+                         670 	.global	_R_PBG_ConfigureGuard
+                         671 _R_PBG_ConfigureGuard:
+000000f6 031ed4ff        672 	addi	-44,sp,sp
+000000fa 633f2100        673 	st.w	r7,32[sp]
+000000fe 63371d00        674 	st.w	r6,28[sp]
+00000102 63ff1900        675 	st.w	lp,24[sp]
+00000106 63ef1100        676 	st.w	r29,16[sp]
+0000010a 63e71500        677 	st.w	r28,20[sp]
+0000010e 08e8            678 	mov	r8,r29
+                         679 --	    .bf
+                         680 .LDW43:
+                         681 --241: {
+                         682 --242:     r_pbg_t Instance;
+                         683 --243:     r_pbg_Error_t err = R_PBG_SYS_GetInstance(Id, &Instance);
+00000110 23f61c00        684 	movea	28,sp,ep
+00000114 23460000        685 	movea	0,sp,r8
+00000118 0035            686 	sld.w	0[ep],r6
+0000011a 023d            687 	sld.w	4[ep],r7
+                         688 	jarl	_R_PBG_SYS_GetInstance,lp
+                         688 <EXPANSION BEGIN>
+                         688 jarl22 _R_PBG_SYS_GetInstance , lp 
+0000011c 80ff0000*       688 <EXPANSION END>
+00000120 0ae0            689 	mov	r10,r28
+                         690 --244:     
+                         691 --245:     uint32_t prot_reg_value = 0;
+                         692 --line245
+                         693 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.14::
+                         694 .LDWlin14:
+00000122 000a            695 	mov	0,r1
+                         696 --246:     uint32_t prot_reg_address = 0;
+00000124 00f2            697 	mov	0,ep
+                         698 --248:     if (R_PBG_ERR_OK != err)
+00000126 e0e1            699 	cmp	zero,r28
+00000128 ea3d*           700 	bne	.L391
+                         701 --249:     {
+                         702 --250:         /* ERROR - Guard does not exist */
+                         703 --251:     }
+                         704 --252:     else
+                         705 --253:     {
+                         706 --254:         prot_reg_value |= (Config.PROTLOCK  << PROTLOCK_BIT);
+                         707 --line254
+                         708 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.15::
+                         709 .LDWlin15:
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+0000012a dd760100        710 	andi	1,r29,r14
+0000012e df72            711 	shl	31,r14
+00000130 0e09            712 	or	r14,r1
+                         713 --255:         prot_reg_value |= (Config.PROTVM    << PROTVM_BIT);
+00000132 1d70            714 	mov	r29,r14
+00000134 de72            715 	shl	30,r14
+00000136 9f72            716 	shr	31,r14
+00000138 da72            717 	shl	26,r14
+0000013a 0e09            718 	or	r14,r1
+                         719 --256:         prot_reg_value |= (Config.PROTUM    << PROTUM_BIT);
+0000013c 1d70            720 	mov	r29,r14
+0000013e dd72            721 	shl	29,r14
+00000140 9f72            722 	shr	31,r14
+00000142 d972            723 	shl	25,r14
+00000144 0e09            724 	or	r14,r1
+                         725 --257:         prot_reg_value |= (Config.PROTPEID  << PROTPEID_BIT);
+00000146 1d70            726 	mov	r29,r14
+00000148 d572            727 	shl	21,r14
+0000014a 9872            728 	shr	24,r14
+0000014c d172            729 	shl	17,r14
+0000014e 0e09            730 	or	r14,r1
+                         731 --258:         prot_reg_value |= (Config.VCID      << VCID_BIT);
+00000150 1d70            732 	mov	r29,r14
+00000152 cd72            733 	shl	13,r14
+00000154 9872            734 	shr	24,r14
+00000156 c972            735 	shl	9,r14
+00000158 0e09            736 	or	r14,r1
+                         737 --259:         prot_reg_value |= (Config.PROTSPID  << PROTSPID_BIT);
+0000015a 1d70            738 	mov	r29,r14
+0000015c c972            739 	shl	9,r14
+0000015e 9c72            740 	shr	28,r14
+00000160 c572            741 	shl	5,r14
+00000162 0e09            742 	or	r14,r1
+                         743 --260:         prot_reg_value |= (Config.PROTDEB   << PROTDEB_BIT);
+00000164 1d70            744 	mov	r29,r14
+00000166 c872            745 	shl	8,r14
+00000168 9f72            746 	shr	31,r14
+0000016a c472            747 	shl	4,r14
+0000016c 0e09            748 	or	r14,r1
+                         749 --261:         prot_reg_value |= (Config.PROTRDPDEF << PROTRDPDEF_BIT);
+0000016e 1d70            750 	mov	r29,r14
+00000170 c772            751 	shl	7,r14
+00000172 9f72            752 	shr	31,r14
+00000174 c372            753 	shl	3,r14
+00000176 0e09            754 	or	r14,r1
+                         755 --262:         prot_reg_value |= (Config.PROTWRPDEF << PROTWRPDEF_BIT);
+00000178 1d70            756 	mov	r29,r14
+0000017a c672            757 	shl	6,r14
+0000017c 9f72            758 	shr	31,r14
+0000017e c272            759 	shl	2,r14
+00000180 0e09            760 	or	r14,r1
+                         761 --263:         prot_reg_value |= (Config.PROTRD    << PROTRD_BIT);
+00000182 1d70            762 	mov	r29,r14
+00000184 c572            763 	shl	5,r14
+00000186 9f72            764 	shr	31,r14
+00000188 c172            765 	shl	1,r14
+0000018a 0e09            766 	or	r14,r1
+                         767 --264:         prot_reg_value |= (Config.PROTWR    << PROTWR_BIT);
+0000018c 1d70            768 	mov	r29,r14
+0000018e c472            769 	shl	4,r14
+00000190 9f72            770 	shr	31,r14
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+00000192 0e09            771 	or	r14,r1
+                         772 --265:         
+                         773 --266:         prot_reg_address = Instance.Base0 + (4 * Id.Channel);
+00000194 23772100        774 	ld.w	32[sp],r14
+00000198 236f0900        775 	ld.w	8[sp],r13
+0000019c c272            776 	shl	2,r14
+0000019e 0ef0            777 	mov	r14,ep
+000001a0 cdf1            778 	add	r13,ep
+                         779 --267:         
+                         780 --268:         R_PBG_WRITE32(prot_reg_address, prot_reg_value);
+000001a2 010d            781 	sst.w	r1,0[ep]
+                         782 .L391:
+                         783 --269:     }
+                         784 --271:     return err;
+000001a4 1c50            785 	mov	r28,r10
+                         786 --	    .ef
+                         787 .LDW53:
+000001a6 23ff1900        788 	ld.w	24[sp],lp
+000001aa 23ef1100        789 	ld.w	16[sp],r29
+000001ae 23e71500        790 	ld.w	20[sp],r28
+000001b2 031e2c00        791 	addi	44,sp,sp
+000001b6 7f00            792 	jmp	[lp]
+                         793 	.type	_R_PBG_ConfigureGuard,@function
+                         794 	.size	_R_PBG_ConfigureGuard,.-_R_PBG_ConfigureGuard
+                         795 	.align	2
+                         796 .LDW63:
+                         797 --_Instance	0[sp]	local
+                         798 --_err	r28	local
+                         799 --_prot_reg_value	r1	local
+                         800 --_prot_reg_address	ep	local
+                         801 
+                         802 --_Id	28[sp]	param
+                         803 --_Config	r29	param
+                         804 
+                         805 	.section ".bss","awb"
+                         806 .L442:
+                         807 	.type	.L442,@object
+                         808 	.size	.L442,0
+                         809 	.data
+                         810 	.text
+                         811 
+                         812 --272: }
+                         813 
+                         814 --274: /*******************************************************************************
+                         815 --275:   Function: R_PBG_ConfigureGuardSysCall
+                         816 --277:   See: <r_pbg_api.h> 
+                         817 --278: */
+                         818 --279: r_pbg_Error_t R_PBG_ConfigureGuardSysCall(r_pbg_Id_t Id, r_pbg_Config_t Config)
+                         819 	.align	2
+                         820 	.align	2
+                         821 	.global	_R_PBG_ConfigureGuardSysCall
+                         822 _R_PBG_ConfigureGuardSysCall:
+000001b8 031ee8ff        823 	addi	-24,sp,sp
+000001bc 633f0d00        824 	st.w	r7,12[sp]
+000001c0 63370900        825 	st.w	r6,8[sp]
+000001c4 63ff0500        826 	st.w	lp,4[sp]
+000001c8 63ef0100        827 	st.w	r29,0[sp]
+000001cc 08e8            828 	mov	r8,r29
+                         829 --	    .bf
+                         830 .LDW73:
+                         831 --280: {
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                         832 --281:     return R_PBG_ConfigureGuardSysCall_Internal(Id, Config);
+000001ce 23f60800        833 	movea	8,sp,ep
+000001d2 1d40            834 	mov	r29,r8
+000001d4 0035            835 	sld.w	0[ep],r6
+000001d6 023d            836 	sld.w	4[ep],r7
+                         837 	jarl	_R_PBG_ConfigureGuardSysCall_Internal,lp
+                         837 <EXPANSION BEGIN>
+                         837 jarl22 _R_PBG_ConfigureGuardSysCall_Internal , lp 
+000001d8 80ff0000*       837 <EXPANSION END>
+                         838 --	    .ef
+                         839 .LDW83:
+                         840 --line282
+                         841 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.16::
+                         842 .LDWlin16:
+000001dc 23ff0500        843 	ld.w	4[sp],lp
+000001e0 23ef0100        844 	ld.w	0[sp],r29
+000001e4 031e1800        845 	addi	24,sp,sp
+000001e8 7f00            846 	jmp	[lp]
+                         847 	.type	_R_PBG_ConfigureGuardSysCall,@function
+                         848 	.size	_R_PBG_ConfigureGuardSysCall,.-_R_PBG_ConfigureGuardSysCall
+                         849 	.align	2
+                         850 .LDW93:
+                         851 
+                         852 --_Id	8[sp]	param
+                         853 --_Config	r29	param
+                         854 
+                         855 	.section ".bss","awb"
+                         856 .L520:
+                         857 	.type	.L520,@object
+                         858 	.size	.L520,0
+                         859 	.data
+                         860 	.text
+                         861 
+                         862 --282: }
+                         863 
+                         864 --284: /*******************************************************************************
+                         865 --285:   Function: R_PBG_ClearErrorStatus
+                         866 --287:   See: <r_pbg_api.h> 
+                         867 --288: */
+                         868 --289: void R_PBG_ClearErrorStatus(r_pbg_Id_t Id)
+                         869 	.align	2
+                         870 	.align	2
+                         871 	.global	_R_PBG_ClearErrorStatus
+                         872 _R_PBG_ClearErrorStatus:
+000001ea 031ed8ff        873 	addi	-40,sp,sp
+000001ee 633f1d00        874 	st.w	r7,28[sp]
+000001f2 63371900        875 	st.w	r6,24[sp]
+000001f6 63ff1500        876 	st.w	lp,20[sp]
+000001fa 63ef1100        877 	st.w	r29,16[sp]
+                         878 --	    .bf
+                         879 .LDW04:
+                         880 --290: {
+                         881 --291:     r_pbg_t Instance;
+                         882 --292:     r_pbg_Error_t err = R_PBG_SYS_GetInstance(Id, &Instance);
+000001fe 23f61800        883 	movea	24,sp,ep
+00000202 23460000        884 	movea	0,sp,r8
+00000206 0035            885 	sld.w	0[ep],r6
+00000208 023d            886 	sld.w	4[ep],r7
+                         887 	jarl	_R_PBG_SYS_GetInstance,lp
+                         887 <EXPANSION BEGIN>
+                         887 jarl22 _R_PBG_SYS_GetInstance , lp 
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+0000020a 80ff0000*       887 <EXPANSION END>
+0000020e 0ae8            888 	mov	r10,r29
+                         889 --293:     
+                         890 --294:     uint32_t ctl_reg_address = 0;
+                         891 --line294
+                         892 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.17::
+                         893 .LDWlin17:
+00000210 00f2            894 	mov	0,ep
+                         895 --296:     if (R_PBG_ERR_OK != err)
+00000212 e0e9            896 	cmp	zero,r29
+00000214 da05*           897 	bne	.L536
+                         898 --297:     {
+                         899 --298:         /* ERROR - Guard does not exist */
+                         900 --299:     }
+                         901 --300:     else
+                         902 --301:     {
+                         903 --302:         ctl_reg_address = Instance.Base1 + R_PBG_REG_CTL;
+                         904 --line302
+                         905 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.18::
+                         906 .LDWlin18:
+00000216 23f70d00        907 	ld.w	12[sp],ep
+                         908 --303:         
+                         909 --304:         R_PBG_WRITE32(ctl_reg_address, 0x03);
+0000021a 030a            910 	mov	3,r1
+0000021c 010d            911 	sst.w	r1,0[ep]
+                         912 .L536:
+                         913 --305:     }
+                         914 --306: }
+0000021e 0000            915 	nop
+                         916 --	    .ef
+                         917 .LDW14:
+00000220 23ff1500        918 	ld.w	20[sp],lp
+00000224 23ef1100        919 	ld.w	16[sp],r29
+00000228 031e2800        920 	addi	40,sp,sp
+0000022c 7f00            921 	jmp	[lp]
+                         922 	.type	_R_PBG_ClearErrorStatus,@function
+                         923 	.size	_R_PBG_ClearErrorStatus,.-_R_PBG_ClearErrorStatus
+                         924 	.align	2
+                         925 .LDW24:
+                         926 --_Instance	0[sp]	local
+                         927 --_err	r29	local
+                         928 --_ctl_reg_address	ep	local
+                         929 
+                         930 --_Id	24[sp]	param
+                         931 
+                         932 	.section ".bss","awb"
+                         933 .L562:
+                         934 	.type	.L562,@object
+                         935 	.size	.L562,0
+                         936 	.data
+                         937 	.text
+                         938 
+                         939 
+                         940 --308: /*******************************************************************************
+                         941 --309:   Function: R_PBG_GetErrorStatus
+                         942 --311:   See: <r_pbg_api.h> 
+                         943 --312: */
+                         944 --313: uint32_t R_PBG_GetErrorStatus(r_pbg_Id_t Id)
+                         945 	.align	2
+                         946 	.align	2
+                         947 	.global	_R_PBG_GetErrorStatus
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                         948 _R_PBG_GetErrorStatus:
+0000022e 031ed8ff        949 	addi	-40,sp,sp
+00000232 633f1d00        950 	st.w	r7,28[sp]
+00000236 63371900        951 	st.w	r6,24[sp]
+0000023a 63ff1500        952 	st.w	lp,20[sp]
+0000023e 63ef1100        953 	st.w	r29,16[sp]
+                         954 --	    .bf
+                         955 .LDW34:
+                         956 --314: {
+                         957 --315:     r_pbg_t Instance;
+                         958 --316:     r_pbg_Error_t err = R_PBG_SYS_GetInstance(Id, &Instance);
+00000242 23f61800        959 	movea	24,sp,ep
+00000246 23460000        960 	movea	0,sp,r8
+0000024a 0035            961 	sld.w	0[ep],r6
+0000024c 023d            962 	sld.w	4[ep],r7
+                         963 	jarl	_R_PBG_SYS_GetInstance,lp
+                         963 <EXPANSION BEGIN>
+                         963 jarl22 _R_PBG_SYS_GetInstance , lp 
+0000024e 80ff0000*       963 <EXPANSION END>
+00000252 0ae8            964 	mov	r10,r29
+                         965 --317:     
+                         966 --318:     uint32_t stat_reg_address = 0;
+                         967 --line318
+                         968 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.19::
+                         969 .LDWlin19:
+00000254 00f2            970 	mov	0,ep
+                         971 --320:     if (R_PBG_ERR_OK != err)
+00000256 e0e9            972 	cmp	zero,r29
+00000258 b205*           973 	be	.L591
+                         974 --321:     {
+                         975 --322:         /* ERROR - Guard does not exist */
+                         976 --323:         return 0;
+                         977 --line323
+                         978 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.20::
+                         979 .LDWlin20:
+0000025a 0052            980 	mov	0,r10
+0000025c d505*           981 	br	.L589
+                         982 .L591:
+                         983 --324:     }
+                         984 --325:     else
+                         985 --326:     {
+                         986 --327:         stat_reg_address = Instance.Base1 + R_PBG_REG_STAT;
+                         987 --line327
+                         988 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.21::
+                         989 .LDWlin21:
+0000025e 23f70d00        990 	ld.w	12[sp],ep
+00000262 44f2            991 	add	4,ep
+                         992 --328:         
+                         993 --329:         return R_PBG_READ32(stat_reg_address);
+00000264 0055            994 	sld.w	0[ep],r10
+                         995 .L589:
+                         996 --	    .ef
+                         997 .LDW44:
+00000266 23ff1500        998 	ld.w	20[sp],lp
+0000026a 23ef1100        999 	ld.w	16[sp],r29
+0000026e 031e2800       1000 	addi	40,sp,sp
+00000272 7f00           1001 	jmp	[lp]
+                        1002 	.type	_R_PBG_GetErrorStatus,@function
+                        1003 	.size	_R_PBG_GetErrorStatus,.-_R_PBG_GetErrorStatus
+                        1004 	.align	2
+                        1005 .LDW54:
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                        1006 --_Instance	0[sp]	local
+                        1007 --_err	r29	local
+                        1008 --_stat_reg_address	ep	local
+                        1009 
+                        1010 --_Id	24[sp]	param
+                        1011 
+                        1012 	.section ".bss","awb"
+                        1013 .L626:
+                        1014 	.type	.L626,@object
+                        1015 	.size	.L626,0
+                        1016 	.data
+                        1017 	.text
+                        1018 
+                        1019 --330:     }
+                        1020 --331: }
+                        1021 
+                        1022 --333: /*******************************************************************************
+                        1023 --334:   Function: R_PBG_GetErrorDetails
+                        1024 --336:   See: <r_pbg_api.h> 
+                        1025 --337: */
+                        1026 --338: uint32_t R_PBG_GetErrorDetails(r_pbg_Id_t Id, uint32_t *Addr, uint32_t *Type)
+                        1027 	.align	2
+                        1028 	.align	2
+                        1029 	.global	_R_PBG_GetErrorDetails
+                        1030 _R_PBG_GetErrorDetails:
+00000274 031ed0ff       1031 	addi	-48,sp,sp
+00000278 633f2500       1032 	st.w	r7,36[sp]
+0000027c 63372100       1033 	st.w	r6,32[sp]
+00000280 63ff1d00       1034 	st.w	lp,28[sp]
+00000284 63e71500       1035 	st.w	r28,20[sp]
+00000288 63ef1100       1036 	st.w	r29,16[sp]
+0000028c 09e0           1037 	mov	r9,r28
+0000028e 63df1900       1038 	st.w	r27,24[sp]
+00000292 08e8           1039 	mov	r8,r29
+                        1040 --	    .bf
+                        1041 .LDW64:
+                        1042 --339: {
+                        1043 --340:     r_pbg_t Instance;
+                        1044 --341:     r_pbg_Error_t err = R_PBG_SYS_GetInstance(Id, &Instance);
+00000294 23f62000       1045 	movea	32,sp,ep
+00000298 23460000       1046 	movea	0,sp,r8
+0000029c 0035           1047 	sld.w	0[ep],r6
+0000029e 023d           1048 	sld.w	4[ep],r7
+                        1049 	jarl	_R_PBG_SYS_GetInstance,lp
+                        1049 <EXPANSION BEGIN>
+                        1049 jarl22 _R_PBG_SYS_GetInstance , lp 
+000002a0 80ff0000*      1049 <EXPANSION END>
+000002a4 0ad8           1050 	mov	r10,r27
+                        1051 --342:     
+                        1052 --343:     uint32_t addr_reg_address = 0;
+                        1053 --line343
+                        1054 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.22::
+                        1055 .LDWlin22:
+000002a6 00f2           1056 	mov	0,ep
+                        1057 --344:     uint32_t type_reg_address = 0;
+000002a8 000a           1058 	mov	0,r1
+                        1059 --346:     if (R_PBG_ERR_OK != err)
+000002aa e0d9           1060 	cmp	zero,r27
+000002ac b205*          1061 	be	.L655
+                        1062 --347:     {
+                        1063 --348:         /* ERROR - Guard does not exist */
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                        1064 --349:         return 0;
+                        1065 --line349
+                        1066 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.23::
+                        1067 .LDWlin23:
+000002ae 0052           1068 	mov	0,r10
+000002b0 b515*          1069 	br	.L653
+                        1070 .L655:
+                        1071 --350:     }
+                        1072 --351:     else
+                        1073 --352:     {
+                        1074 --353:         addr_reg_address = Instance.Base1 + R_PBG_REG_ADDR;
+                        1075 --line353
+                        1076 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.24::
+                        1077 .LDWlin24:
+000002b2 23f70d00       1078 	ld.w	12[sp],ep
+000002b6 48f2           1079 	add	8,ep
+                        1080 --354:         type_reg_address = Instance.Base1 + R_PBG_REG_TYPE;
+000002b8 230f0d00       1081 	ld.w	12[sp],r1
+000002bc 4c0a           1082 	add	12,r1
+                        1083 --355:         
+                        1084 --356:         if (0 != Addr)
+000002be e0e9           1085 	cmp	zero,r29
+000002c0 c205*          1086 	be	.L659
+                        1087 --357:         {
+                        1088 --358:             *Addr = R_PBG_READ32(addr_reg_address);
+                        1089 --line358
+                        1090 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.25::
+                        1091 .LDWlin25:
+000002c2 0075           1092 	sld.w	0[ep],r14
+000002c4 7d770100       1093 	st.w	r14,0[r29]
+                        1094 .L659:
+                        1095 --359:         }
+                        1096 --361:         if (0 != Type)
+000002c8 e0e1           1097 	cmp	zero,r28
+000002ca d205*          1098 	be	.L661
+                        1099 --362:         {
+                        1100 --363:             *Type = R_PBG_READ32(type_reg_address);
+                        1101 --line363
+                        1102 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main.26::
+                        1103 .LDWlin26:
+000002cc 21770100       1104 	ld.w	0[r1],r14
+000002d0 7c770100       1105 	st.w	r14,0[r28]
+                        1106 .L661:
+                        1107 --364:         }
+                        1108 --365:         
+                        1109 --366:         return 0;
+000002d4 0052           1110 	mov	0,r10
+                        1111 .L653:
+                        1112 --	    .ef
+                        1113 .LDW74:
+000002d6 23ff1d00       1114 	ld.w	28[sp],lp
+000002da 23ef1100       1115 	ld.w	16[sp],r29
+000002de 23e71500       1116 	ld.w	20[sp],r28
+000002e2 23df1900       1117 	ld.w	24[sp],r27
+000002e6 031e3000       1118 	addi	48,sp,sp
+000002ea 7f00           1119 	jmp	[lp]
+                        1120 	.type	_R_PBG_GetErrorDetails,@function
+                        1121 	.size	_R_PBG_GetErrorDetails,.-_R_PBG_GetErrorDetails
+                        1122 	.align	2
+                        1123 .LDW84:
+                        1124 --_Instance	0[sp]	local
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000086o1.si
+                        1125 --_err	r27	local
+                        1126 --_addr_reg_address	ep	local
+                        1127 --_type_reg_address	r1	local
+                        1128 
+                        1129 --_Id	32[sp]	param
+                        1130 --_Addr	r29	param
+                        1131 --_Type	r28	param
+                        1132 
+                        1133 	.section ".bss","awb"
+                        1134 .L702:
+                        1135 	.type	.L702,@object
+                        1136 	.size	.L702,0
+                        1137 	.data
+                        1138 	.text
+                        1139 
+                        1140 --367:     }
+                        1141 --368: }
+                        1142 	.align	2
+                        1143 --_loc_pbgDrvVer	_loc_pbgDrvVer	static
+                        1144 --_loc_ErrorHandler	_loc_ErrorHandler	static
+                        1145 
+                        1146 	.data
+                        1147 	.ghsnote version,14
+                        1148 	.ghsnote tools,3
+                        1149 	.ghsnote options,144
+                        1150 	.text
+                        1151 	.align	2
+                        1152 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_pbg_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740384..0::
+                        1153 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

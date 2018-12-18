@@ -1,0 +1,631 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_bsp_sys_stdio.dbo -source=r_bsp_sys_stdio.c -o .\obj\gh_00008o81.o -list=.\obj\r_bsp_sys_stdio.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+Source File: r_bsp_sys_stdio.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+                         112 --		..\..\..\..\..\bsp\board\d1lx_mango\src\stdio\r_bsp_sys_stdio.c
+                         113 --		-o .\obj\r_bsp_sys_stdio.o
+                         114 --Source File:   ..\..\..\..\..\bsp\board\d1lx_mango\src\stdio\r_bsp_sys_stdio.c
+                         115 --Directory:     
+                         116 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         117 --Compile Date:  Fri Feb 02 14:21:54 2018
+                         118 --Host OS:       Win32
+                         119 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         120 --Release:       Compiler v2013.5.5
+                         121 --Revision Date: Sat Oct 05 05:01:20 2013
+                         122 --Release Date:  Sat Oct 05 05:22:44 2013
+                         123 -- ecom  -g -w
+                         124 
+                         125 --1: /*
+                         126 --2: ****************************************************************************
+                         127 --3: PROJECT : BSP STDIO
+                         128 --4: FILE    : $Id: r_bsp_sys_stdio.c 7181 2016-01-07 18:23:41Z tobyas.hennig $
+                         129 --5: ============================================================================
+                         130 --6: DESCRIPTION
+                         131 --7: BSP Implementation D1X MANGO Board support sys functions - STDIO
+                         132 --8: ============================================================================
+                         133 --9:                             C O P Y R I G H T
+                         134 --10: ============================================================================
+                         135 --11:                            Copyright (c) 2014
+                         136 --12:                                   by 
+                         137 --13:                     Renesas Electronics (Europe) GmbH. 
+                         138 --14:                            Arcadiastrasse 10
+                         139 --15:                           D-40472 Duesseldorf
+                         140 --16:                                Germany
+                         141 --17:                           All rights reserved.
+                         142 --18: ============================================================================
+                         143 --19: Purpose: only for testing
+                         144 --21: DISCLAIMER                                                                   
+                         145 --22: This software is supplied by Renesas Electronics Corporation and is only     
+                         146 --23: intended for use with Renesas products. No other uses are authorized. This   
+                         147 --24: software is owned by Renesas Electronics Corporation and is protected under  
+                         148 --25: all applicable laws, including copyright laws.                               
+                         149 --26: THIS SOFTWARE IS PROVIDED "AS IS" AND RENESAS MAKES NO WARRANTIES REGARDING  
+                         150 --27: THIS SOFTWARE, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT      
+                         151 --28: LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE   
+                         152 --29: AND NON-INFRINGEMENT. ALL SUCH WARRANTIES ARE EXPRESSLY DISCLAIMED.          
+                         153 --30: TO THE MAXIMUM EXTENT PERMITTED NOT PROHIBITED BY LAW, NEITHER RENESAS       
+                         154 --31: ELECTRONICS CORPORATION NOR ANY OF ITS AFFILIATED COMPANIES SHALL BE LIABLE  
+                         155 --32: FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES FOR   
+                         156 --33: ANY REASON RELATED TO THIS SOFTWARE, EVEN IF RENESAS OR ITS AFFILIATES HAVE  
+                         157 --34: BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.                             
+                         158 --35: Renesas reserves the right, without notice, to make changes to this software 
+                         159 --36: and to discontinue the availability of this software. By using this software,
+                         160 --37: you agree to the additional terms and conditions found by accessing the      
+                         161 --38: following link:                                                              
+                         162 --39: http://www.renesas.com/disclaimer *                                          
+                         163 --40: Copyright (C) 2011 Renesas Electronics Corporation. All rights reserved.     
+                         164 --42: ****************************************************************************
+                         165 --44: */
+                         166 --46: /*******************************************************************************
+                         167 --47:   Section: Includes
+                         168 --48: */
+                         169 --49: #include "r_typedefs.h"
+                         170 --50: #include "r_bsp_stdio_api.h"
+                         171 --51: #include "r_bsp_stdio_sys.h"
+                         172 --53: #ifdef USE_RLIN3
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+                         173 --54: #include "r_rlin3_api.h"
+                         174 --55: #include "r_dev_api.h"
+                         175 --56: #include "r_bsp_board_config.h"
+                         176 --58: /*******************************************************************************
+                         177 --59:   Section: Local Defines
+                         178 --60: */
+                         179 --62: /*******************************************************************************
+                         180 --63:   Defines for port assignment of Uart (stdio printf)
+                         181 --65:     The Uart is connected on the D1Lx Mango Board
+                         182 --66:     to the following port pins.
+                         183 --68:         Uart TX     -> P0_8 (alt. function 1)
+                         184 --69:         Uart RX     -> P0_9 (alt. function 1)
+                         185 --70:      
+                         186 --71:      This requires the jumper connection
+                         187 --72:         Set Jumper JP22 2-3    (for Uart RX)
+                         188 --73:         Set Jumper JP41        (for Uart TX)
+                         189 --74: */
+                         190 --76: /* UART 0 */
+                         191 --77: #define LOC_TX0_PORT  0
+                         192 --78: #define LOC_TX0_PIN   8
+                         193 --79: #define LOC_TX0_AFUNC 1
+                         194 --80: #define LOC_RX0_PORT  0
+                         195 --81: #define LOC_RX0_PIN   9
+                         196 --82: #define LOC_RX0_AFUNC 1
+                         197 --84: /* UART 1 */
+                         198 --85: #define LOC_TX1_PORT  0
+                         199 --86: #define LOC_TX1_PIN   0
+                         200 --87: #define LOC_TX1_AFUNC 1
+                         201 --88: #define LOC_RX1_PORT  0
+                         202 --89: #define LOC_RX1_PIN   1
+                         203 --90: #define LOC_RX1_AFUNC 1
+                         204 --92: /* UART 2 */
+                         205 --93: #define LOC_TX2_PORT  0
+                         206 --94: #define LOC_TX2_PIN   2
+                         207 --95: #define LOC_TX2_AFUNC 1
+                         208 --96: #define LOC_RX2_PORT  0
+                         209 --97: #define LOC_RX2_PIN   3
+                         210 --98: #define LOC_RX2_AFUNC 1
+                         211 --100: /* UART 3 */
+                         212 --101: #define LOC_TX3_PORT  44
+                         213 --102: #define LOC_TX3_PIN   6
+                         214 --103: #define LOC_TX3_AFUNC 4
+                         215 --104: #define LOC_RX3_PORT  44
+                         216 --105: #define LOC_RX3_PIN   7
+                         217 --106: #define LOC_RX3_AFUNC 2
+                         218 --109: /*******************************************************************************
+                         219 --110:   Section: Local Variables
+                         220 --111: */
+                         221 --112: /* Variable: loc_CommPort 
+                         222 --113:    UART macro number used for communiction */
+                         223 --114: static uint8_t loc_CommPort = BSP_DEFAULT_UART; 
+                         224 --117: /*******************************************************************************
+                         225 --118:   Constant: loc_PinConfigStdioUart
+                         226 --120:   UART pin configuration set up
+                         227 --121: */
+                         228 --123: static const r_dev_PinConfig_t loc_PinConfigStdioUart[] = 
+                         229 --124: /*  Port           Pin          Func           Dir             Feedback     Pull        OpenDrain   HiCurr   HiSpeed  InputType */
+                         230 --125: {
+                         231 --126:     {LOC_TX0_PORT, LOC_TX0_PIN, LOC_TX0_AFUNC, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  /* Uart 0 TX */
+                         232 --127:     {LOC_RX0_PORT, LOC_RX0_PIN, LOC_RX0_AFUNC, R_DEV_PIN_IN,     0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  /* Uart 0 RX */
+                         233 --129:     /* delimiter - do not remove */
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+                         234 --130:     {0u,            R_DEV_PIN_LAST,0u,           R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,    0u,      0u,         0u,    R_DEV_PIN_CMOS1}  
+                         235 --131: };
+                         236 --133: /*******************************************************************************
+                         237 --134:   Constant: loc_ClkSelectionCfg
+                         238 --136:   UART cloks 
+                         239 --137: */
+                         240 --139: static const r_dev_ClkSelConfig_t loc_ClkSelectionCfg[] = 
+                         241 --140: /*   Cks                   SrcId                Divider     tpReqMsk      */
+                         242 --141: {
+                         243 --142:     {R_DEV_CKS_RLIN ,     R_DEV_CKS_SRC_PLLFIX_10,   0,   0},  
+                         244 --143:     /* delimiter - do not remove */
+                         245 --144:     {R_DEV_CKS_LAST  ,     R_DEV_CKS_SRC_MOSC,  0,   0}
+                         246 --145: };  
+                         247 --146: /*******************************************************************************
+                         248 --147:   Section: Global Device dependent IO Functions
+                         249 --150: */
+                         250 --152: /*******************************************************************************
+                         251 --153:   Function: R_BSP_SYS_STDIO_SetUart
+                         252 --154:     
+                         253 --155:     see <r_bsp_stdio_sys.h> for details
+                         254 --156: */
+                         255 --158: void R_BSP_SYS_STDIO_SetUart(uint32_t Unit) 
+                         256 --159: {
+                         257 --160:     r_rlin3_Parameter_t uartparams;
+                         258 --161:     loc_CommPort = Unit; 
+                         259 --162:     if (Unit < 0xFF)
+                         260 --163:     {    
+                         261 --164:         R_RLIN3_DeInit(Unit);
+                         262 --165:         /* UART Init */
+                         263 --166:         /* unit and settings of macro which is used for menu I/O */
+                         264 --167:         uartparams.Baudrate    = 115200;
+                         265 --168:         uartparams.Parity      = R_RLIN3_NONE_PARITY;
+                         266 --169:         uartparams.Stopbit     = R_RLIN3_ONE_STOPBIT;
+                         267 --170:         uartparams.Direction   = R_RLIN3_LSB_FIRST;
+                         268 --171:         uartparams.CharLength  = R_RLIN3_CHARLEN_8BIT;  
+                         269 --172:         uartparams.Detection   = R_RLIN3_DET_DISABLED; 
+                         270 --173:         uartparams.TxDataLevel = R_RLIN3_TDL_NOT_INVERTED;
+                         271 --174:         uartparams.RxDataLevel = R_RLIN3_RDL_NOT_INVERTED;
+                         272 --175:         uartparams.TxEnable    = R_RLIN3_TX_ENABLED;
+                         273 --176:         uartparams.RxEnable    = R_RLIN3_RX_ENABLED;
+                         274 --177:         R_RLIN3_Init(Unit, &uartparams);
+                         275 --178:     }
+                         276 --179:     
+                         277 --180: }
+                         278 --182: /*******************************************************************************
+                         279 --183:   Function: R_BSP_SYS_STDIO_Init
+                         280 --185:     see <r_bsp_stdio_sys.h> for details
+                         281 --186: */
+                         282 --188: void R_BSP_SYS_STDIO_Init(void) 
+                         283 --189: {
+                         284 --190:     if (loc_CommPort < 0xFF)
+                         285 --191:     {    
+                         286 --192:         R_DEV_ClkSelection(loc_ClkSelectionCfg);
+                         287 --194:         R_RLIN3_DeInit(loc_CommPort);
+                         288 --195:         /* UART Init */
+                         289 --196:         R_BSP_SYS_STDIO_SetUart(loc_CommPort); 
+                         290 --197:         /* Pin Init */  
+                         291 --198:         R_DEV_PinInit(loc_PinConfigStdioUart); 
+                         292 --199:     }
+                         293 --200:     
+                         294 --201: }
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+                         295 --203: /*******************************************************************************
+                         296 --204:   Function: R_BSP_SYS_STDIO_GetActCh
+                         297 --205:   
+                         298 --206:     see <r_bsp_stdio_sys.h> for details
+                         299 --207: */
+                         300 --208: uint8_t R_BSP_SYS_STDIO_GetActCh(void)
+                         301 --209: {
+                         302 --210:     return loc_CommPort; 
+                         303 --211: }
+                         304 --212: /*******************************************************************************
+                         305 --213:   Function: R_BSP_SYS_STDIO_DeInit
+                         306 --215:     see <r_bsp_stdio_sys.h> for details
+                         307 --216: */
+                         308 --218: void R_BSP_SYS_STDIO_DeInit(void) 
+                         309 --219: {
+                         310 --220:     R_RLIN3_DeInit(loc_CommPort); 
+                         311 --221:     loc_CommPort = 0xFF; 
+                         312 --222: }
+                         313 --226: /*******************************************************************************
+                         314 --227:   Function: R_BSP_SYS_STDIO_Write
+                         315 --229:     see <r_bsp_stdio_sys.h> for details
+                         316 --230: */
+                         317 --232: void R_BSP_SYS_STDIO_Write(uint8_t * Buffer, uint32_t Len)
+                         318 --233: {
+                         319 --234:     
+                         320 --235:     R_RLIN3_Write(loc_CommPort, Buffer, Len);
+                         321 --236:     R_RLIN3_Flush(loc_CommPort); 
+                         322 --237: }
+                         323 --240: /*******************************************************************************
+                         324 --241:   Function: R_BSP_SYS_STDIO_Read
+                         325 --243:     see <r_bsp_stdio_sys.h> for details
+                         326 --244: */
+                         327 --246: uint32_t R_BSP_SYS_STDIO_Read(uint8_t * String, uint32_t Max)
+                         328 --247: {
+                         329 --248:     uint32_t number = 0u;
+                         330 --249:     number = R_RLIN3_Read(loc_CommPort, String, Max);
+                         331 --250:      
+                         332 --251:     return number;
+                         333 --252: }
+                         334 --254: #else /* when no UART driver included, these functions remain "empty" */
+                         335 --256: void R_BSP_SYS_STDIO_SetUart(uint32_t Unit) 
+                         336 	.text
+                         337 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_stdio...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740382..0::
+                         338 	.align	2
+                         339 	.global	_R_BSP_SYS_STDIO_SetUart
+                         340 _R_BSP_SYS_STDIO_SetUart:
+00000000 0608            341 	mov	r6,r1
+                         342 --	    .bf
+                         343 .LDW01:
+                         344 --257: {
+                         345 --258:     Unit = Unit; 
+00000002 0000            346 	nop
+                         347 --259: }
+00000004 0000            348 	nop
+                         349 --	    .ef
+                         350 .LDW11:
+00000006 7f00            351 	jmp	[lp]
+                         352 	.type	_R_BSP_SYS_STDIO_SetUart,@function
+                         353 	.size	_R_BSP_SYS_STDIO_SetUart,.-_R_BSP_SYS_STDIO_SetUart
+                         354 	.align	2
+                         355 .LDW21:
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+                         356 
+                         357 --_Unit	r1	param
+                         358 
+                         359 	.section ".bss","awb"
+                         360 .L26:
+                         361 	.type	.L26,@object
+                         362 	.size	.L26,0
+                         363 	.data
+                         364 	.text
+                         365 
+                         366 
+                         367 --261: /*******************************************************************************
+                         368 --262:   Function: R_BSP_SYS_STDIO_Init
+                         369 --263: */
+                         370 --264:  
+                         371 --265: void R_BSP_SYS_STDIO_Init(void) 
+                         372 	.align	2
+                         373 	.align	2
+                         374 	.global	_R_BSP_SYS_STDIO_Init
+                         375 _R_BSP_SYS_STDIO_Init:
+                         376 --	    .bf
+                         377 .LDW31:
+                         378 --266: {
+                         379 --267:     
+                         380 --268: }
+00000008 0000            381 	nop
+                         382 --	    .ef
+                         383 .LDW41:
+0000000a 7f00            384 	jmp	[lp]
+                         385 	.type	_R_BSP_SYS_STDIO_Init,@function
+                         386 	.size	_R_BSP_SYS_STDIO_Init,.-_R_BSP_SYS_STDIO_Init
+                         387 	.align	2
+                         388 .LDW51:
+                         389 
+                         390 	.section ".bss","awb"
+                         391 .L56:
+                         392 	.type	.L56,@object
+                         393 	.size	.L56,0
+                         394 	.data
+                         395 	.text
+                         396 
+                         397 
+                         398 --269:  
+                         399 --270: /*******************************************************************************
+                         400 --271:   Function: R_BSP_SYS_STDIO_DeInit
+                         401 --272: */
+                         402 --273:  
+                         403 --274: void R_BSP_SYS_STDIO_DeInit(void) 
+                         404 	.align	2
+                         405 	.align	2
+                         406 	.global	_R_BSP_SYS_STDIO_DeInit
+                         407 _R_BSP_SYS_STDIO_DeInit:
+                         408 --	    .bf
+                         409 .LDW61:
+                         410 --275: {
+                         411 --277: }
+0000000c 0000            412 	nop
+                         413 --	    .ef
+                         414 .LDW71:
+0000000e 7f00            415 	jmp	[lp]
+                         416 	.type	_R_BSP_SYS_STDIO_DeInit,@function
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+                         417 	.size	_R_BSP_SYS_STDIO_DeInit,.-_R_BSP_SYS_STDIO_DeInit
+                         418 	.align	2
+                         419 .LDW81:
+                         420 
+                         421 	.section ".bss","awb"
+                         422 .L88:
+                         423 	.type	.L88,@object
+                         424 	.size	.L88,0
+                         425 	.data
+                         426 	.text
+                         427 
+                         428 
+                         429 --278:  
+                         430 --279: /*******************************************************************************
+                         431 --280:   Function: R_BSP_SYS_STDIO_Write
+                         432 --281: */
+                         433 --283: void R_BSP_SYS_STDIO_Write(uint8_t * Buffer, uint32_t Len)
+                         434 	.align	2
+                         435 	.align	2
+                         436 	.global	_R_BSP_SYS_STDIO_Write
+                         437 _R_BSP_SYS_STDIO_Write:
+00000010 0608            438 	mov	r6,r1
+00000012 0770            439 	mov	r7,r14
+                         440 --	    .bf
+                         441 .LDW91:
+                         442 --284: {
+                         443 --285:     Buffer  = Buffer; 
+00000014 0000            444 	nop
+                         445 --286:     Len     = Len; 
+00000016 0000            446 	nop
+                         447 --287: }
+00000018 0000            448 	nop
+                         449 --	    .ef
+                         450 .LDW02:
+0000001a 7f00            451 	jmp	[lp]
+                         452 	.type	_R_BSP_SYS_STDIO_Write,@function
+                         453 	.size	_R_BSP_SYS_STDIO_Write,.-_R_BSP_SYS_STDIO_Write
+                         454 	.align	2
+                         455 .LDW12:
+                         456 
+                         457 --_Buffer	r1	param
+                         458 --_Len	r14	param
+                         459 
+                         460 	.section ".bss","awb"
+                         461 .L124:
+                         462 	.type	.L124,@object
+                         463 	.size	.L124,0
+                         464 	.data
+                         465 	.text
+                         466 
+                         467 
+                         468 --290: /*******************************************************************************
+                         469 --291:   Function: R_BSP_SYS_STDIO_Read
+                         470 --292: */
+                         471 --294: uint32_t R_BSP_SYS_STDIO_Read(uint8_t * String, uint32_t Max)
+                         472 	.align	2
+                         473 	.align	2
+                         474 	.global	_R_BSP_SYS_STDIO_Read
+                         475 _R_BSP_SYS_STDIO_Read:
+0000001c 0670            476 	mov	r6,r14
+0000001e 0768            477 	mov	r7,r13
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+                         478 --	    .bf
+                         479 .LDW22:
+                         480 --295: {
+                         481 --296:     uint32_t number = 0u;
+00000020 000a            482 	mov	0,r1
+                         483 --297:     String = String;      
+00000022 0000            484 	nop
+                         485 --298:     return number;
+00000024 0150            486 	mov	r1,r10
+                         487 --	    .ef
+                         488 .LDW32:
+00000026 7f00            489 	jmp	[lp]
+                         490 	.type	_R_BSP_SYS_STDIO_Read,@function
+                         491 	.size	_R_BSP_SYS_STDIO_Read,.-_R_BSP_SYS_STDIO_Read
+                         492 	.align	2
+                         493 .LDW42:
+                         494 --_number	r1	local
+                         495 
+                         496 --_String	r14	param
+                         497 --_Max	r13	param
+                         498 
+                         499 	.section ".bss","awb"
+                         500 .L156:
+                         501 	.type	.L156,@object
+                         502 	.size	.L156,0
+                         503 	.data
+                         504 	.text
+                         505 
+                         506 --299: }
+                         507 
+                         508 --301: /*******************************************************************************
+                         509 --302:   Function: R_BSP_SYS_STDIO_GetActCh
+                         510 --303:   
+                         511 --304: */
+                         512 --306: uint8_t R_BSP_SYS_STDIO_GetActCh(void)
+                         513 	.align	2
+                         514 	.align	2
+                         515 	.global	_R_BSP_SYS_STDIO_GetActCh
+                         516 _R_BSP_SYS_STDIO_GetActCh:
+                         517 --	    .bf
+                         518 .LDW52:
+                         519 --307: {
+                         520 --308:     /* When UART is not used, only debugger printf is possible */
+                         521 --309:     return 0xFF; 
+00000028 2056ff00        522 	movea	255,zero,r10
+                         523 --	    .ef
+                         524 .LDW62:
+0000002c 7f00            525 	jmp	[lp]
+                         526 	.type	_R_BSP_SYS_STDIO_GetActCh,@function
+                         527 	.size	_R_BSP_SYS_STDIO_GetActCh,.-_R_BSP_SYS_STDIO_GetActCh
+                         528 	.align	2
+                         529 .LDW72:
+                         530 
+                         531 	.section ".bss","awb"
+                         532 .L184:
+                         533 	.type	.L184,@object
+                         534 	.size	.L184,0
+                         535 	.data
+                         536 	.text
+                         537 
+                         538 --310: }
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008o81.si
+                         539 
+                         540 --312: #endif /* of #ifdef USE_RLIN3 */
+                         541 --315: /*******************************************************************************
+                         542 --316:   Function: R_BSP_SYS_STDIO_AnWrite
+                         543 --318:     see <r_bsp_stdio_sys.h> for details
+                         544 --319: */
+                         545 --320: r_Error_t R_BSP_SYS_STDIO_AnWrite(char *String, uint8_t Line) 
+                         546 	.align	2
+                         547 	.align	2
+                         548 	.global	_R_BSP_SYS_STDIO_AnWrite
+                         549 _R_BSP_SYS_STDIO_AnWrite:
+0000002e 0608            550 	mov	r6,r1
+00000030 c776ff00        551 	andi	255,r7,r14
+                         552 --	    .bf
+                         553 .LDW82:
+                         554 --321: {
+                         555 --322:     /* Print32_t to AlphaNumeric Display needs to be implemented here.
+                         556 --323:        Currently not implemented. By return of R_NG, the print32_t will
+                         557 --324:        be relocated to R_BSP_STDIO_Printf (part of STDIO BSP)
+                         558 --325:        -> that means to the UART. */
+                         559 --326:     return R_NG;
+00000034 0152            560 	mov	1,r10
+                         561 --	    .ef
+                         562 .LDW92:
+00000036 7f00            563 	jmp	[lp]
+                         564 	.type	_R_BSP_SYS_STDIO_AnWrite,@function
+                         565 	.size	_R_BSP_SYS_STDIO_AnWrite,.-_R_BSP_SYS_STDIO_AnWrite
+                         566 	.align	2
+                         567 .LDW03:
+                         568 
+                         569 --_String	r1	param
+                         570 --_Line	r14	param
+                         571 
+                         572 	.section ".bss","awb"
+                         573 .L216:
+                         574 	.type	.L216,@object
+                         575 	.size	.L216,0
+                         576 	.data
+                         577 	.text
+                         578 
+                         579 --327: }
+                         580 	.align	2
+                         581 
+                         582 	.data
+                         583 	.ghsnote version,14
+                         584 	.ghsnote tools,3
+                         585 	.ghsnote options,144
+                         586 	.text
+                         587 	.align	2
+                         588 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_stdio...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740382..0::
+                         589 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

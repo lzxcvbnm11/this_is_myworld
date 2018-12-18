@@ -1,0 +1,1394 @@
+VERSION "?? CAN"
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	Filter
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: Instruments Vector__XXX
+
+BO_ 1522 AC_HSC1_FrP00: 1 Vector__XXX
+ SG_ keep_network_AC_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ keep_network_AC_HS_UB : 1|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1205 AC_HSC1_FrS01: 1 Vector__XXX
+ SG_ wake_network_AC_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ wake_network_AC_HS_UB : 1|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 497 BCM_GW_HSC1_FrP01: 8 Vector__XXX
+ SG_ PwrMdMstrAccryA_H1_HS : 2|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ PwrMdMstrRunCrkA_H1_HS : 3|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ SysOpnlMd_HS : 6|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ SysPwrMdV_h1_HS : 33|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ SysPwrMd_h1_HS : 1|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ SysVol_HS : 47|8@0+ (0.1,3) [3|28.5] "V"  Instruments
+ SG_ SysVolMd_HS : 58|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ SysVolMdV_HS : 7|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ SysVolV_HS : 32|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1344 BCM_GW_HSC1_FrP07: 8 Vector__XXX
+ SG_ VehOdoV_H1_HS : 31|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ VehOdo_H1_HS : 7|24@0+ (1,0) [0|16777200] ""  Instruments
+
+BO_ 795 BCM_GW_HSC1_FrP09: 8 Vector__XXX
+ SG_ PwrMdMstrAccryWkupA_HS : 22|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ PwrMdMstrIgnA_HS : 23|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1055 BCM_HSC1_FrI01: 3 Vector__XXX
+ SG_ network_mode : 7|8@0+ (1,0) [0|255] ""  Instruments
+ SG_ signal_config_id : 15|16@0+ (1,0) [0|65535] ""  Instruments
+
+BO_ 1139 BCM_HSC1_FrP02: 8 Vector__XXX
+ SG_ VINBCM_H1_HS : 7|64@0+ (1,0) [0|0] ""  Instruments
+
+BO_ 1146 BCM_HSC1_FrP03: 8 Vector__XXX
+ SG_ AmbtLghtLvl_H1_HS : 1|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ LghtSwPosSts_H1_HS : 7|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ OdoSecy_HS : 47|24@0+ (1,0) [0|16777200] "km"  Instruments
+ SG_ SIAOdoSecy_HS : 23|24@0+ (1,0) [0|16777200] "km"  Instruments
+
+BO_ 1130 BCM_HSC1_FrP04: 8 Vector__XXX
+ SG_ BCMEmgcSp_HS : 56|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMPwrMdHwdSta_HS : 50|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ BCMPwrMdHwdStaV_HS : 48|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMSSBA_HS : 57|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMSSBAV_HS : 58|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BntOpenSts_H1_HS : 45|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ DipdBeamLghtOn_HS : 63|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ DrvrDoorOpenSts_H1_HS : 47|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ FrtFogLghtOn_H1_HS : 62|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FrtPsngDoorOpenSts_H1_HS : 43|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ LDircnIO_HS : 37|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ LdspcOpenSts_H1_HS : 33|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ MainBeamLghtOn_H1_HS : 36|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RDircnIO_HS : 38|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RRDoorOpenSts_HS : 41|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ RrFogLghtF_H1_HS : 35|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RrFogLghtOn_H1_HS : 39|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ VehLckngSta_H1_HS : 55|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ VehSideLghtSts_H1_HS : 52|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 540 BCM_HSC1_FrP06: 8 Vector__XXX
+ SG_ BCMGearShftParkNtrlESR_HS : 24|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMNoSmtKeyInVehRmndr_HS : 13|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMNoSmtKeyPressBrkTRR_HS : 15|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMNoSmtKeyPressClToRR_HS : 14|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMPressBrkRmndr_HS : 28|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMPressClRmndr_HS : 27|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMPutSmtKeyToBkupPosR_HS : 12|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMRunCrkF_HS : 56|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMShftParkRmndr_HS : 38|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BCMSSBFltSts_HS : 7|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ BCMTakeSmtKeyOutOfSR_HS : 26|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ DayTimeRunningLghtF_HS : 30|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ DrvrWndOpenRmndr_HS : 11|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FrtSideLghtF_HS : 52|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ LBrkLghtF_HS : 23|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ LDipdBeamLghtF_HS : 22|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ LDircnIndLghtF_H1_HS : 21|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ PEPSAntFlt_HS : 57|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RBrkLghtF_HS : 19|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RDipdBeamLghtF_HS : 18|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RDircnIndLghtF_H1_HS : 17|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RevsLghtF_H1_HS : 31|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RrSideLghtF_HS : 53|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ ScurtAlrmSts_HS : 2|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ ScurtKeyBatLow_HS : 3|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ ScurtKeyInvd_HS : 35|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ ShifterLckRlseBrkReqA_HS : 39|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ SrfOpenRmndr_HS : 8|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ SSBEnOffRmndr_HS : 33|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ TakeKeyOutRmndr_HS : 25|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 541 BCM_HSC1_FrP09: 8 Vector__XXX
+ SG_ BCMSyncSmtKeyRmndr_HS : 2|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ DrvrPWLInitnRmndr_HS : 3|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ SrfInitnRmndr_HS : 19|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 793 BCM_PMDC_HSC1_FrP01: 8 Vector__XXX
+ SG_ BatVol_HS : 37|14@0+ (0.00097656,3) [3|18] "V"  Instruments
+
+BO_ 814 BCM_PMDC_HSC1_FrP02: 8 Vector__XXX
+ SG_ BatAgngSta_HS : 23|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ GenrSta_HS : 7|3@0+ (1,0) [0|7] ""  Instruments
+
+BO_ 1303 BCM_PMDC_HSC1_FrP03: 8 Vector__XXX
+ SG_ BatSOC_HS : 15|8@0+ (0.4,0) [0|100] "%"  Instruments
+ SG_ VehLdShedLvl_H1_HS : 23|3@0+ (1,0) [0|7] ""  Instruments
+
+BO_ 845 BCM_TBOX_HSC1_FrP01: 8 Vector__XXX
+ SG_ EmgcCallFlrSts_HS : 17|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 1976 DIAG_DTCInfo_IPK: 7 Instruments
+ SG_ DTCInfomationIPK_HS : 7|56@0+ (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2015 DIAG_FuncReq_HSC1: 8 Vector__XXX
+ SG_ DiagnosticFuncAddrReq : 7|64@0+ (1,0) [0|0] ""  Instruments
+
+BO_ 1888 DIAG_PhysReq_IPK: 8 Vector__XXX
+ SG_ DiagnosticReqIPK : 7|64@0+ (1,0) [0|0] ""  Instruments
+
+BO_ 1896 DIAG_PhysResp_IPK: 8 Instruments
+ SG_ DiagnosticRespIPK : 7|64@0+ (1,0) [0|0] ""  Vector__XXX
+
+BO_ 201 ECM_HSC1_FrP00: 8 Vector__XXX
+ SG_ CCA_HS : 30|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ CCEnbd_HS : 29|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ En12VoltStrMotCmddOn_HS : 53|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ EnRunA_HS : 7|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ EnSpd_HS : 15|16@0+ (0.25,0) [0|16383.8] "rpm"  Instruments
+ SG_ EnSpdSts_HS : 1|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 404 ECM_HSC1_FrP04: 8 Vector__XXX
+ SG_ DrvrShftCtrlTrgtGear_HS : 19|4@0+ (1,0) [0|15] ""  Instruments
+ SG_ TrShftLvrPos_HS : 27|4@0+ (1,0) [0|15] ""  Instruments
+ SG_ TrShftLvrPosV_HS : 28|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ TrShftPtrnASts_HS : 44|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ TrTapUpTapDwnMdSts_HS : 41|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 479 ECM_HSC1_FrP07: 2 Vector__XXX
+ SG_ EnASSSta_HS : 1|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 707 ECM_HSC1_FrP09: 8 Vector__XXX
+ SG_ EcoDrvngAIO_HS : 23|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ EcoDrvngDspStsGearSIS_HS : 6|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ EcoDrvngDspStsRcmndFG_HS : 55|4@0+ (1,0) [0|15] ""  Instruments
+ SG_ ECODrvngSpdRutA_HS : 21|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 945 ECM_HSC1_FrP10: 8 Vector__XXX
+ SG_ ASSInhBtnLampOn_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ ASSInhIO_HS : 13|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ ASSStsLampOn_HS : 1|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ ASSWrnngLampOn_HS : 2|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ CCFltPrst_HS : 14|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ ECMClsDoorToAutoStR_HS : 5|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ ECMFasnSbltToAutoStR_HS : 4|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ ECMPressClBrkRmndr_HS : 7|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ ECMShftNtrlToAutoStR_HS : 15|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 977 ECM_HSC1_FrP12: 8 Vector__XXX
+ SG_ CrusAndSpdLmtrDrvrSS_HS : 19|12@0+ (0.0625,0) [0|255.938] ""  Instruments
+ SG_ EnEmsnRltdMalfA_HS : 4|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ EnEmsnRltdMalfIndReq_HS : 2|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ EnGPFLampOnSts_HS : 7|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ EnNonEmsnRltdMalfA_HS : 3|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FuelCsump_HS : 35|12@0+ (16,0) [0|65520] "microlitre"  Instruments
+
+BO_ 1217 ECM_HSC1_FrP14: 8 Vector__XXX
+ SG_ EnClntTem_HS : 23|8@0+ (1,-40) [-40|215] "degC"  Instruments
+ SG_ EnClntTemV_HS : 6|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1233 ECM_HSC1_FrP15: 8 Vector__XXX
+ SG_ EnOilPrsLowIO_HS : 5|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 251 ECM_HSC1_FrP27: 8 Vector__XXX
+ SG_ SpdAstSysStsECM_HS : 18|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ SpdAstSysTrgtSpd_HS : 30|15@0+ (0.015625,0) [0|511.984] ""  Instruments
+
+BO_ 560 EPB_HSC2_FrP00: 8 Vector__XXX
+ SG_ EPBSysAudWrnngReq_HS : 11|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ EPBSysDspMsgReq_HS : 4|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ EPBSysStsIndReq_HS : 17|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ EPBSysWrnngIndReq_HS : 1|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 328 EPS_HSC1_FrP00: 1 Vector__XXX
+ SG_ EPSFlrSts_HS : 7|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 1071 ESCL_HSC1_FrP00: 1 Vector__XXX
+ SG_ keep_network_ESCL_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ keep_network_ESCL_HS_UB : 1|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1127 ESCL_HSC1_FrP01: 4 Vector__XXX
+ SG_ ESCLFlrIndCmd_HS : 25|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 1059 ESCL_HSC1_FrS04: 1 Vector__XXX
+ SG_ wake_network_ESCL_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ wake_network_ESCL_HS_UB : 1|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1104 FICM_HSC1_FrP00: 1 Vector__XXX
+ SG_ keep_network_FICM_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ keep_network_FICM_HS_UB : 1|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 875 FICM_HSC1_FrP01: 8 Vector__XXX
+ SG_ ChmA_HS : 10|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FICMTemUntAdj_HS : 9|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 886 FICM_HSC1_FrP02: 8 Vector__XXX
+ SG_ FICMDistUnitAdjtReqA_HS : 62|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1291 FICM_HSC1_FrP05: 8 Vector__XXX
+ SG_ CalendarAdjReqA_HS : 39|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ CalendarDayAdj_HS : 20|5@0+ (1,0) [0|31] ""  Instruments
+ SG_ CalendarMonthAdj_HS : 11|4@0+ (1,0) [0|15] ""  Instruments
+ SG_ CalendarYearAdj_HS : 7|8@0+ (1,2000) [2000|2255] ""  Instruments
+ SG_ HourOfDayAdj_HS : 28|5@0+ (1,0) [0|23] ""  Instruments
+ SG_ MinuteOfHourAdj_HS : 37|6@0+ (1,0) [0|59] ""  Instruments
+ SG_ SecsOfMinuteAdj_HS : 45|6@0+ (1,0) [0|59] ""  Instruments
+ SG_ TimeAdjReqA_HS : 38|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ TimeDspFmtAdj_HS : 46|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 871 FICM_HSC1_FrP12: 8 Vector__XXX
+ SG_ FICMDistUntAdj_HS : 59|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FICMFuelCsumpUntAdj_HS : 61|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ FICMFuelCsumpUntAdjARA_HS : 62|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FICMOverSpdFnCrntSts_HS : 34|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FICMOvrSpdThrshldAdj_HS : 53|6@0+ (5,0) [0|315] ""  Instruments
+ SG_ FICMOvrSpdThrshldAdjtRA_HS : 63|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FICMTemUntAdjtReqA_HS : 31|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FICMTyrePressureUntAdj_HS : 33|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ FICMTyrePressureUntAdjtReqA_HS : 55|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FICMVehMntnceSts_HS : 36|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ MusSrcMd_HS : 19|4@0+ (1,0) [0|15] ""  Instruments
+ SG_ RdoFrqcVal_HS : 7|16@0+ (0.1,0) [0|6553.4] ""  Instruments
+
+BO_ 893 FICM_HSC1_FrP14: 8 Vector__XXX
+ SG_ NavDircn_HS : 23|6@0+ (1,0) [0|63] ""  Instruments
+ SG_ NavDist_HS : 7|15@0+ (1,0) [0|32767] ""  Instruments
+ SG_ NavDistUnit_HS : 8|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1095 FICM_HSC1_FrS00: 1 Vector__XXX
+ SG_ wake_network_FICM_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ wake_network_FICM_HS_UB : 1|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 217 IPK_BCM_HSC1_FrP05: 8 Instruments
+ SG_ ASSInhBtnA_HS : 41|1@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 498 IPK_BCM_HSC1_FrP07: 2 Instruments
+ SG_ SysBPM_HS : 5|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ SysBPMEnbd_HS : 6|1@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 499 IPK_GW_HSC1_FrP03: 8 Instruments
+ SG_ PfTrTapUpDwnEnbSwSta_HS : 13|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ PfTrTapUpDwnSecySwSta_HS : 9|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ PfTrTapUpDwnSwSta_HS : 11|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ PfTrTapUpDwnSwStsAlvRC_HS : 15|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ TrPfShftPtrnSw1A_HS : 5|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ TrPfShftPtrnSw4A_HS : 2|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ TrPfShftPtrnSwAlvRC_HS : 7|2@0+ (1,0) [0|3] ""  Vector__XXX
+
+BO_ 481 IPK_GW_HSC1_FrP04: 7 Instruments
+ SG_ CCSwStsAlvRC_HS : 17|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ CCSwStsCanclSwA_HS : 7|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ CCSwStsDisDecSwA_HS : 18|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ CCSwStsDistIncSwA_HS : 19|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ CCSwStsOnSwA_HS : 6|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ CCSwStsPV_HS : 15|8@0+ (1,0) [0|255] ""  Vector__XXX
+ SG_ CCSwStsRsmSwA_HS : 5|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ CCSwStsSetSwA_HS : 4|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ CCSwStsSpdDecSwA_HS : 2|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ CCSwStsSpdIncSwA_HS : 3|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ CCSwStsSwDataIntgty_HS : 1|2@0+ (1,0) [0|3] ""  Vector__XXX
+
+BO_ 1523 IPK_HSC1_FrP00: 1 Instruments
+ SG_ keep_network_IPK_HS : 0|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ keep_network_IPK_HS_UB : 1|1@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 1142 IPK_HSC1_FrP01: 8 Instruments
+ SG_ VINClstr_HS : 7|64@0+ (1,0) [0|0] ""  Vector__XXX
+
+BO_ 1046 IPK_HSC1_FrP03: 8 Instruments
+ SG_ AirbagWrnngIndF_HS : 48|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ Clstr10KmTick_HS : 31|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ DspMeasSys_HS : 29|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ FuelLvlPcnt_HS : 47|8@0+ (0.392156,0) [0|99.9998] "%"  Vector__XXX
+ SG_ FuelLvlPcntV_HS : 28|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ FuelTotCapct_HS : 27|12@0+ (0.125,0) [0|511.875] ""  Vector__XXX
+
+BO_ 858 IPK_HSC1_FrP04: 8 Instruments
+ SG_ AvgFuelCsump_HS : 63|8@0+ (0.1,0) [0|25.5] "L/100km"  Vector__XXX
+ SG_ AvgFuelCsumpV_HS : 24|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ChmCmdSndCndcPrd_HS : 7|8@0+ (10,0) [0|2550] ""  Vector__XXX
+ SG_ ChmCmdSndDutyCyc_HS : 15|8@0+ (0.392157,0) [0|100] ""  Vector__XXX
+ SG_ ChmCmdSndLoctnFL_HS : 16|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ChmCmdSndLoctnFR_HS : 17|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ChmCmdSndLoctnRL_HS : 18|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ChmCmdSndLoctnRR_HS : 19|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ChmCmdSndTone_HS : 23|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ ClstrDspdVehSpd_HS : 47|8@0+ (1,0) [0|254] "km/h"  Vector__XXX
+ SG_ IPCAccryA_HS : 48|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ IPCRunCrkA_HS : 49|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ IPCRunCrkF_HS : 50|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ IPCSSBA_HS : 51|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ IPCSSBAV_HS : 52|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ IPCSSBFltSts_HS : 55|3@0+ (1,0) [0|7] ""  Vector__XXX
+ SG_ LanggSetng_HS : 31|7@0+ (1,0) [0|127] ""  Vector__XXX
+
+BO_ 1134 IPK_HSC1_FrP05: 8 Instruments
+ SG_ OdoPriy_HS : 23|24@0+ (1,0) [0|16777200] "km"  Vector__XXX
+ SG_ SIAOdoPriy_HS : 47|24@0+ (1,0) [0|16777200] "km"  Vector__XXX
+
+BO_ 1345 IPK_HSC1_FrP06: 8 Instruments
+ SG_ CalendarDay_HS : 20|5@0+ (1,0) [0|31] ""  Vector__XXX
+ SG_ CalendarMonth_HS : 11|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ CalendarYear_HS : 7|8@0+ (1,2000) [2000|2255] ""  Vector__XXX
+ SG_ HourOfDay_HS : 28|5@0+ (1,0) [0|23] ""  Vector__XXX
+ SG_ MinuteOfHour_HS : 37|6@0+ (1,0) [0|59] ""  Vector__XXX
+ SG_ SecsOfMinute_HS : 45|6@0+ (1,0) [0|59] ""  Vector__XXX
+ SG_ TimeDspFmt_HS : 46|1@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 1123 IPK_HSC1_FrP07: 4 Instruments
+ SG_ IPCEcoDrvngSwA_HS : 26|1@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 874 IPK_HSC1_FrP08: 8 Instruments
+ SG_ ClstrDistUnt_HS : 39|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrFuelCsumpUnt_HS : 41|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ ClstrTemUnt_HS : 35|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ ClstrTyrePressureUnt_HS : 53|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ RmnDrvngDist_HS : 51|12@0+ (1,0) [0|4095] "km"  Vector__XXX
+
+BO_ 1047 IPK_HSC1_FrP09: 8 Instruments
+ SG_ ClstrDspdABSWrnng_HS : 41|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdAirbagWrnng_HS : 27|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdAltrWrnng_HS : 36|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdASpdLmtrWrnng_HS : 24|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdBrkSysWrnng_HS : 43|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdCCWrnng_HS : 11|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdClntTemWrnng_HS : 42|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdEleccParkngBW_HS : 10|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdEnDrvByWireW_HS : 9|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdEPSWrnng_HS : 57|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ ClstrDspdFuelLvlSgmt_HS : 63|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ ClstrDspdFuelSnsrWrnng_HS : 47|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdFuelSts_HS : 46|2@0+ (1,0) [0|3] ""  Vector__XXX
+ SG_ ClstrDspdHDCWrnng_HS : 39|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdInfoMsk_HS : 23|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdInvdKeyWrnng_HS : 28|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdMalfIndrLghtW_HS : 8|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdOilPrsLowW_HS : 37|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdPDCWrnng_HS : 20|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdSASUncalWrnng_HS : 26|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdSASWrnng_HS : 25|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdSCSWrnng_HS : 55|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdScurtKeyBatLW_HS : 29|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdSpStWrnng_HS : 32|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdTCSWrnng_HS : 40|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdTrWrnng_HS : 22|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdTyrePrsSts_HS : 35|2@0+ (1,0) [0|3] ""  Vector__XXX
+
+BO_ 1144 IPK_HSC1_FrP10: 8 Instruments
+ SG_ ClstrDspdFLTirePrs_HS : 39|7@0+ (4,0) [0|508] "kPa"  Vector__XXX
+ SG_ ClstrDspdFLTireSts_HS : 32|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdFRTirePrs_HS : 47|7@0+ (4,0) [0|508] "kPa"  Vector__XXX
+ SG_ ClstrDspdFRTireSts_HS : 40|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdRLTirePrs_HS : 55|7@0+ (4,0) [0|508] "kPa"  Vector__XXX
+ SG_ ClstrDspdRLTireSts_HS : 48|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ ClstrDspdRRTirePrs_HS : 63|7@0+ (4,0) [0|508] "kPa"  Vector__XXX
+ SG_ ClstrDspdRRTireSts_HS : 56|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ StabCtrlDsblSwA_HS : 26|1@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 1531 IPK_HSC1_FS00: 1 Instruments
+ SG_ wake_network_IPK_HS : 0|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ wake_network_IPK_HS_UB : 1|1@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 1087 IPK_HSC1_SecNWM: 3 Instruments
+ SG_ sm_network_mode_h1 : 7|8@0+ (1,0) [0|255] ""  Vector__XXX
+ SG_ sm_signal_config_id_h1 : 15|16@0+ (1,0) [0|0] ""  Vector__XXX
+
+BO_ 573 IPK_PDC_HSC1_FrP00: 8 Instruments
+ SG_ FLObsRng_HS : 47|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ FRObsRng_HS : 35|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ FrtMidLObsRng_HS : 31|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ FrtMidRObsRng_HS : 19|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ FrtObsDist_HS : 55|8@0+ (1,0) [0|255] "cm"  Vector__XXX
+ SG_ PDCCofignSts_HS : 42|3@0+ (1,0) [0|7] ""  Vector__XXX
+ SG_ PDCSysSts_HS : 7|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ RLObsRng_HS : 39|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ RrMidLObsRng_HS : 23|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ RrMidRObsRng_HS : 11|4@0+ (1,0) [0|15] ""  Vector__XXX
+ SG_ RrObsDist_HS : 63|8@0+ (1,0) [0|255] "cm"  Vector__XXX
+ SG_ RRObsRng_HS : 27|4@0+ (1,0) [0|15] ""  Vector__XXX
+
+BO_ 485 SAS_HSC1_FrP00: 8 Vector__XXX
+ SG_ StrgWhlAngSnsrCalSts_HS : 6|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ StrgWhlAngSnsrFlt_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 455 SCS_HSC1_FrP03: 7 Vector__XXX
+ SG_ AutoHoldSysSts_HS : 7|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 562 SCS_HSC1_FrP06: 8 Vector__XXX
+ SG_ HDCSysSts_HS : 55|3@0+ (1,0) [0|7] ""  Instruments
+
+BO_ 532 SCS_HSC1_FrP09: 6 Vector__XXX
+ SG_ BrkFludLvlLow_HS : 6|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BrkFludLvlLowV_HS : 7|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 840 SCS_HSC1_FrP11: 8 Vector__XXX
+ SG_ WhlGndVelLDrvn_HS : 5|14@0+ (0.03125,0) [0|511.969] "km/h"  Instruments
+ SG_ WhlGndVelLDrvnV_HS : 6|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ WhlGndVelRDrvn_HS : 21|14@0+ (0.03125,0) [0|511.969] "km/h"  Instruments
+ SG_ WhlGndVelRDrvnV_HS : 22|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 842 SCS_HSC1_FrP12: 8 Vector__XXX
+ SG_ WhlGndVelLNonDrvn_HS : 5|14@0+ (0.03125,0) [0|511.969] "km/h"  Instruments
+ SG_ WhlGndVelLNonDrvnV_HS : 6|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ WhlGndVelRNonDrvn_HS : 21|14@0+ (0.03125,0) [0|511.969] "km/h"  Instruments
+ SG_ WhlGndVelRNonDrvnV_HS : 22|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 381 SCS_HSC1_FrP13: 7 Vector__XXX
+ SG_ ABSIO_HS : 12|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ BrkSysRedBrkTlltReq_HS : 19|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ TCSOpngMd_HS : 7|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ TCSOpngSts_HS : 38|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ VSEMd_HS : 15|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ VSESts_HS : 4|3@0+ (1,0) [0|7] ""  Instruments
+
+BO_ 837 SCS_HSC1_FrP14: 8 Vector__XXX
+ SG_ AutoHoldMsg_HS : 15|3@0+ (1,0) [0|7] ""  Instruments
+
+BO_ 851 SCS_HSC1_FrP15: 8 Vector__XXX
+ SG_ DistRCAvgDrvn_HS : 20|13@0+ (0.125,0) [0|1023.88] "m"  Instruments
+ SG_ DistRCAvgDrvnV_HS : 22|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ VehSpdAvgDrvn_HS : 6|15@0+ (0.015625,0) [0|511.984] "km/h"  Instruments
+ SG_ VehSpdAvgDrvnV_HS : 7|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 355 SDM_HSC1_FrP00: 8 Vector__XXX
+ SG_ AirbagSysFltIndCmd_HS : 15|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ FasnDrvrSbltIndCmd_HS : 7|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ FasnFrtPsngSbltIndCmd_HS : 5|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ FasnSbltAudRmndr_HS : 29|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FasnSecRowLSbltIndCmd_HS : 21|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ FasnSecRowMidSbltIndC_HS : 19|2@0+ (1,0) [0|3] ""  Instruments
+ SG_ FasnSecRowRSbltIndCmd_HS : 17|2@0+ (1,0) [0|3] ""  Instruments
+
+BO_ 1225 TCM_HSC1_FrP09: 7 Vector__XXX
+ SG_ TrNonEmsnRltdMalfA_HS : 4|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1072 TPMS_HSC1_FrP00: 1 Vector__XXX
+ SG_ keep_network_TPMS_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ keep_network_TPMS_HS_UB : 1|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1149 TPMS_HSC1_FrP01: 8 Vector__XXX
+ SG_ FLTirePrs_HS : 62|7@0+ (4,0) [0|508] "Kpa"  Instruments
+ SG_ FLTirePrsV_HS : 63|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FLTireTem_HS : 54|7@0+ (2,-60) [-60|194] ""  Instruments
+ SG_ FLTireTemV_HS : 55|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FRTirePrs_HS : 46|7@0+ (4,0) [0|508] "Kpa"  Instruments
+ SG_ FRTirePrsV_HS : 47|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ FRTireTem_HS : 38|7@0+ (2,-60) [-60|194] ""  Instruments
+ SG_ FRTireTemV_HS : 39|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RLTirePrs_HS : 30|7@0+ (4,0) [0|508] "Kpa"  Instruments
+ SG_ RLTirePrsV_HS : 31|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RLTireTem_HS : 22|7@0+ (2,-60) [-60|194] ""  Instruments
+ SG_ RLTireTemV_HS : 23|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RRTirePrs_HS : 14|7@0+ (4,0) [0|508] "Kpa"  Instruments
+ SG_ RRTirePrsV_HS : 15|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ RRTireTem_HS : 6|7@0+ (2,-60) [-60|194] ""  Instruments
+ SG_ RRTireTemV_HS : 7|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1150 TPMS_HSC1_FrP02: 8 Vector__XXX
+ SG_ FLTireSts_HS : 7|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ FRTireSts_HS : 4|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ RLTireSts_HS : 15|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ RRTireSts_HS : 12|3@0+ (1,0) [0|7] ""  Instruments
+ SG_ TPMSAutoLoctnCm_HS : 1|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ TPMSF_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ TPMSIdficnLrnCm_HS : 9|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ TPMSTirePrsLowIO_HS : 8|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ TPMSWntrMdA_HS : 23|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1060 TPMS_HSC1_FrS00: 1 Vector__XXX
+ SG_ wake_network_TPMS_HS : 0|1@0+ (1,0) [0|1] ""  Instruments
+ SG_ wake_network_TPMS_HS_UB : 1|1@0+ (1,0) [0|1] ""  Instruments
+
+BO_ 1360 Fuel1: 8 Instruments
+ SG_ SensorFuel : 7|16@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ CompareFuel : 23|16@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ FarCompareFuel : 39|16@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ prmDisplayFuelU32 : 55|16@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 1361 Fuel2: 8 Instruments
+ SG_ gASI_FuelSensorADAverage : 7|16@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ gRefuelFlag : 23|1@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 1362 Avg1: 8 Instruments
+ SG_ gAFC_u32sumDist1 : 7|32@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ gAFC_u32sumDist2 : 39|32@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 1363 Avg2: 8 Instruments
+ SG_ e_sum_fuel : 7|32@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ e_sum2_fuel : 39|32@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 1364 Rte1: 8 Instruments
+ SG_ prmOdometerSum : 7|8@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ prmRecentFuelConsumption : 15|8@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ prmFuelSum : 23|16@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ prmRangeToEmpty : 39|32@0+ (1,0) [0|1] ""  Vector__XXX
+
+BO_ 1365 Cd1: 8 Instruments
+ SG_ FCDec : 39|16@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ InstantFuelCsumpt : 23|16@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ odoDec : 7|16@0+ (1,0) [0|1] ""  Vector__XXX
+
+
+BA_DEF_ SG_  "GenSigStartValue" INT 0 65535;
+BA_DEF_ SG_  "GenSigLongName" STRING ;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Periodic","Sporadic","Immediate","No";
+BA_DEF_ BO_  "GenMsgCycleTime" FLOAT 0 10000;
+BA_DEF_REL_ BU_SG_REL_  "SigMaxage" FLOAT 0 20000;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigLongName" "";
+BA_DEF_DEF_  "GenMsgSendType" "Periodic";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_REL_  "SigMaxage" 300;
+
+BA_ "GenMsgCycleTime" BO_ 1522 100;
+BA_ "GenMsgSendType" BO_ 1205 2;
+BA_ "GenMsgCycleTime" BO_ 497 20;
+BA_ "GenMsgCycleTime" BO_ 1344 1000;
+BA_ "GenMsgCycleTime" BO_ 795 100;
+BA_ "GenMsgSendType" BO_ 1055 2;
+BA_ "GenMsgCycleTime" BO_ 1139 200;
+BA_ "GenMsgCycleTime" BO_ 1146 200;
+BA_ "GenMsgCycleTime" BO_ 1130 10;
+BA_ "GenMsgCycleTime" BO_ 540 50;
+BA_ "GenMsgCycleTime" BO_ 541 50;
+BA_ "GenMsgCycleTime" BO_ 793 100;
+BA_ "GenMsgCycleTime" BO_ 814 100;
+BA_ "GenMsgCycleTime" BO_ 1303 1000;
+BA_ "GenMsgCycleTime" BO_ 845 100;
+BA_ "GenMsgSendType" BO_ 1976 2;
+BA_ "GenMsgSendType" BO_ 2015 2;
+BA_ "GenMsgSendType" BO_ 1888 2;
+BA_ "GenMsgSendType" BO_ 1896 2;
+BA_ "GenMsgCycleTime" BO_ 201 10;
+BA_ "GenMsgCycleTime" BO_ 404 25;
+BA_ "GenMsgCycleTime" BO_ 479 25;
+BA_ "GenMsgCycleTime" BO_ 707 50;
+BA_ "GenMsgCycleTime" BO_ 945 100;
+BA_ "GenMsgCycleTime" BO_ 977 100;
+BA_ "GenMsgCycleTime" BO_ 1217 500;
+BA_ "GenMsgCycleTime" BO_ 1233 500;
+BA_ "GenMsgCycleTime" BO_ 251 10;
+BA_ "GenMsgCycleTime" BO_ 560 20;
+BA_ "GenMsgCycleTime" BO_ 328 1000;
+BA_ "GenMsgCycleTime" BO_ 1071 100;
+BA_ "GenMsgCycleTime" BO_ 1127 50;
+BA_ "GenMsgSendType" BO_ 1059 2;
+BA_ "GenMsgCycleTime" BO_ 1104 100;
+BA_ "GenMsgCycleTime" BO_ 875 100;
+BA_ "GenMsgCycleTime" BO_ 886 100;
+BA_ "GenMsgCycleTime" BO_ 1291 500;
+BA_ "GenMsgCycleTime" BO_ 871 100;
+BA_ "GenMsgCycleTime" BO_ 893 100;
+BA_ "GenMsgSendType" BO_ 1095 2;
+BA_ "GenMsgCycleTime" BO_ 217 10;
+BA_ "GenMsgCycleTime" BO_ 498 20;
+BA_ "GenMsgCycleTime" BO_ 499 30;
+BA_ "GenMsgCycleTime" BO_ 481 30;
+BA_ "GenMsgCycleTime" BO_ 1523 100;
+BA_ "GenMsgCycleTime" BO_ 1142 200;
+BA_ "GenMsgCycleTime" BO_ 1046 200;
+BA_ "GenMsgCycleTime" BO_ 858 10;
+BA_ "GenMsgCycleTime" BO_ 1134 200;
+BA_ "GenMsgCycleTime" BO_ 1345 200;
+BA_ "GenMsgCycleTime" BO_ 1123 10;
+BA_ "GenMsgCycleTime" BO_ 874 100;
+BA_ "GenMsgCycleTime" BO_ 1047 200;
+BA_ "GenMsgCycleTime" BO_ 1144 200;
+BA_ "GenMsgSendType" BO_ 1531 2;
+BA_ "GenMsgSendType" BO_ 1087 2;
+BA_ "GenMsgCycleTime" BO_ 573 50;
+BA_ "GenMsgCycleTime" BO_ 485 10;
+BA_ "GenMsgCycleTime" BO_ 455 10;
+BA_ "GenMsgCycleTime" BO_ 562 10;
+BA_ "GenMsgCycleTime" BO_ 532 50;
+BA_ "GenMsgCycleTime" BO_ 840 50;
+BA_ "GenMsgCycleTime" BO_ 842 50;
+BA_ "GenMsgCycleTime" BO_ 381 100;
+BA_ "GenMsgCycleTime" BO_ 837 100;
+BA_ "GenMsgCycleTime" BO_ 851 100;
+BA_ "GenMsgCycleTime" BO_ 355 20;
+BA_ "GenMsgCycleTime" BO_ 1225 500;
+BA_ "GenMsgCycleTime" BO_ 1072 100;
+BA_ "GenMsgCycleTime" BO_ 1149 400;
+BA_ "GenMsgCycleTime" BO_ 1150 400;
+BA_ "GenMsgSendType" BO_ 1060 2;
+BA_ "GenMsgCycleTime" BO_ 1360 1000;
+BA_ "GenMsgCycleTime" BO_ 1361 1000;
+BA_ "GenMsgCycleTime" BO_ 1362 1000;
+BA_ "GenMsgCycleTime" BO_ 1363 1000;
+BA_ "GenMsgCycleTime" BO_ 1364 1000;
+BA_ "GenMsgCycleTime" BO_ 1365 500;
+
+BA_ "GenSigStartValue" SG_ 1522 keep_network_AC_HS 0;
+BA_ "GenSigStartValue" SG_ 1522 keep_network_AC_HS_UB 0;
+BA_ "GenSigStartValue" SG_ 1205 wake_network_AC_HS 0;
+BA_ "GenSigStartValue" SG_ 1205 wake_network_AC_HS_UB 0;
+BA_ "GenSigStartValue" SG_ 497 PwrMdMstrAccryA_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 497 PwrMdMstrRunCrkA_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 497 SysOpnlMd_HS 0;
+BA_ "GenSigStartValue" SG_ 497 SysPwrMdV_h1_HS 1;
+BA_ "GenSigStartValue" SG_ 497 SysPwrMd_h1_HS 0;
+BA_ "GenSigStartValue" SG_ 497 SysVol_HS 0;
+BA_ "GenSigStartValue" SG_ 497 SysVolMd_HS 0;
+BA_ "GenSigStartValue" SG_ 497 SysVolMdV_HS 0;
+BA_ "GenSigStartValue" SG_ 497 SysVolV_HS 0;
+BA_ "GenSigStartValue" SG_ 1344 VehOdoV_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1344 VehOdo_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 795 PwrMdMstrAccryWkupA_HS 0;
+BA_ "GenSigStartValue" SG_ 795 PwrMdMstrIgnA_HS 0;
+BA_ "GenSigStartValue" SG_ 1055 network_mode 0;
+BA_ "GenSigStartValue" SG_ 1055 signal_config_id 28673;
+BA_ "GenSigStartValue" SG_ 1139 VINBCM_H1_HS 255;
+BA_ "GenSigStartValue" SG_ 1146 AmbtLghtLvl_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1146 LghtSwPosSts_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1146 OdoSecy_HS 0;
+BA_ "GenSigStartValue" SG_ 1146 SIAOdoSecy_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 BCMEmgcSp_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 BCMPwrMdHwdSta_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 BCMPwrMdHwdStaV_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 BCMSSBA_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 BCMSSBAV_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 BntOpenSts_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 DipdBeamLghtOn_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 DrvrDoorOpenSts_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 FrtFogLghtOn_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 FrtPsngDoorOpenSts_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 LDircnIO_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 LdspcOpenSts_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 MainBeamLghtOn_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 RDircnIO_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 RRDoorOpenSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 RrFogLghtF_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 RrFogLghtOn_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 1130 VehLckngSta_H1_HS 7;
+BA_ "GenSigStartValue" SG_ 1130 VehSideLghtSts_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMGearShftParkNtrlESR_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMNoSmtKeyInVehRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMNoSmtKeyPressBrkTRR_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMNoSmtKeyPressClToRR_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMPressBrkRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMPressClRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMPutSmtKeyToBkupPosR_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMRunCrkF_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMShftParkRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMSSBFltSts_HS 0;
+BA_ "GenSigStartValue" SG_ 540 BCMTakeSmtKeyOutOfSR_HS 0;
+BA_ "GenSigStartValue" SG_ 540 DayTimeRunningLghtF_HS 0;
+BA_ "GenSigStartValue" SG_ 540 DrvrWndOpenRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 540 FrtSideLghtF_HS 0;
+BA_ "GenSigStartValue" SG_ 540 LBrkLghtF_HS 0;
+BA_ "GenSigStartValue" SG_ 540 LDipdBeamLghtF_HS 0;
+BA_ "GenSigStartValue" SG_ 540 LDircnIndLghtF_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 540 PEPSAntFlt_HS 0;
+BA_ "GenSigStartValue" SG_ 540 RBrkLghtF_HS 0;
+BA_ "GenSigStartValue" SG_ 540 RDipdBeamLghtF_HS 0;
+BA_ "GenSigStartValue" SG_ 540 RDircnIndLghtF_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 540 RevsLghtF_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 540 RrSideLghtF_HS 0;
+BA_ "GenSigStartValue" SG_ 540 ScurtAlrmSts_HS 0;
+BA_ "GenSigStartValue" SG_ 540 ScurtKeyBatLow_HS 0;
+BA_ "GenSigStartValue" SG_ 540 ScurtKeyInvd_HS 0;
+BA_ "GenSigStartValue" SG_ 540 ShifterLckRlseBrkReqA_HS 0;
+BA_ "GenSigStartValue" SG_ 540 SrfOpenRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 540 SSBEnOffRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 540 TakeKeyOutRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 541 BCMSyncSmtKeyRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 541 DrvrPWLInitnRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 541 SrfInitnRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 793 BatVol_HS 16383;
+BA_ "GenSigStartValue" SG_ 814 BatAgngSta_HS 0;
+BA_ "GenSigStartValue" SG_ 814 GenrSta_HS 0;
+BA_ "GenSigStartValue" SG_ 1303 BatSOC_HS 187;
+BA_ "GenSigStartValue" SG_ 1303 VehLdShedLvl_H1_HS 0;
+BA_ "GenSigStartValue" SG_ 845 EmgcCallFlrSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1976 DTCInfomationIPK_HS 0;
+BA_ "GenSigStartValue" SG_ 2015 DiagnosticFuncAddrReq 0;
+BA_ "GenSigStartValue" SG_ 1888 DiagnosticReqIPK 0;
+BA_ "GenSigStartValue" SG_ 1896 DiagnosticRespIPK 0;
+BA_ "GenSigStartValue" SG_ 201 CCA_HS 0;
+BA_ "GenSigStartValue" SG_ 201 CCEnbd_HS 0;
+BA_ "GenSigStartValue" SG_ 201 En12VoltStrMotCmddOn_HS 0;
+BA_ "GenSigStartValue" SG_ 201 EnRunA_HS 0;
+BA_ "GenSigStartValue" SG_ 201 EnSpd_HS 0;
+BA_ "GenSigStartValue" SG_ 201 EnSpdSts_HS 0;
+BA_ "GenSigStartValue" SG_ 404 DrvrShftCtrlTrgtGear_HS 0;
+BA_ "GenSigStartValue" SG_ 404 TrShftLvrPos_HS 0;
+BA_ "GenSigStartValue" SG_ 404 TrShftLvrPosV_HS 0;
+BA_ "GenSigStartValue" SG_ 404 TrShftPtrnASts_HS 0;
+BA_ "GenSigStartValue" SG_ 404 TrTapUpTapDwnMdSts_HS 0;
+BA_ "GenSigStartValue" SG_ 479 EnASSSta_HS 1;
+BA_ "GenSigStartValue" SG_ 707 EcoDrvngAIO_HS 0;
+BA_ "GenSigStartValue" SG_ 707 EcoDrvngDspStsGearSIS_HS 0;
+BA_ "GenSigStartValue" SG_ 707 EcoDrvngDspStsRcmndFG_HS 0;
+BA_ "GenSigStartValue" SG_ 707 ECODrvngSpdRutA_HS 0;
+BA_ "GenSigStartValue" SG_ 945 ASSInhBtnLampOn_HS 0;
+BA_ "GenSigStartValue" SG_ 945 ASSInhIO_HS 0;
+BA_ "GenSigStartValue" SG_ 945 ASSStsLampOn_HS 0;
+BA_ "GenSigStartValue" SG_ 945 ASSWrnngLampOn_HS 0;
+BA_ "GenSigStartValue" SG_ 945 CCFltPrst_HS 0;
+BA_ "GenSigStartValue" SG_ 945 ECMClsDoorToAutoStR_HS 0;
+BA_ "GenSigStartValue" SG_ 945 ECMFasnSbltToAutoStR_HS 0;
+BA_ "GenSigStartValue" SG_ 945 ECMPressClBrkRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 945 ECMShftNtrlToAutoStR_HS 0;
+BA_ "GenSigStartValue" SG_ 977 CrusAndSpdLmtrDrvrSS_HS 0;
+BA_ "GenSigStartValue" SG_ 977 EnEmsnRltdMalfA_HS 0;
+BA_ "GenSigStartValue" SG_ 977 EnEmsnRltdMalfIndReq_HS 0;
+BA_ "GenSigStartValue" SG_ 977 EnGPFLampOnSts_HS 0;
+BA_ "GenSigStartValue" SG_ 977 EnNonEmsnRltdMalfA_HS 0;
+BA_ "GenSigStartValue" SG_ 977 FuelCsump_HS 0;
+BA_ "GenSigStartValue" SG_ 1217 EnClntTem_HS 0;
+BA_ "GenSigStartValue" SG_ 1217 EnClntTemV_HS 0;
+BA_ "GenSigStartValue" SG_ 1233 EnOilPrsLowIO_HS 0;
+BA_ "GenSigStartValue" SG_ 251 SpdAstSysStsECM_HS 0;
+BA_ "GenSigStartValue" SG_ 251 SpdAstSysTrgtSpd_HS 0;
+BA_ "GenSigStartValue" SG_ 560 EPBSysAudWrnngReq_HS 0;
+BA_ "GenSigStartValue" SG_ 560 EPBSysDspMsgReq_HS 0;
+BA_ "GenSigStartValue" SG_ 560 EPBSysStsIndReq_HS 0;
+BA_ "GenSigStartValue" SG_ 560 EPBSysWrnngIndReq_HS 0;
+BA_ "GenSigStartValue" SG_ 328 EPSFlrSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1071 keep_network_ESCL_HS 0;
+BA_ "GenSigStartValue" SG_ 1071 keep_network_ESCL_HS_UB 0;
+BA_ "GenSigStartValue" SG_ 1127 ESCLFlrIndCmd_HS 0;
+BA_ "GenSigStartValue" SG_ 1059 wake_network_ESCL_HS 0;
+BA_ "GenSigStartValue" SG_ 1059 wake_network_ESCL_HS_UB 0;
+BA_ "GenSigStartValue" SG_ 1104 keep_network_FICM_HS 0;
+BA_ "GenSigStartValue" SG_ 1104 keep_network_FICM_HS_UB 0;
+BA_ "GenSigStartValue" SG_ 875 ChmA_HS 0;
+BA_ "GenSigStartValue" SG_ 875 FICMTemUntAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 886 FICMDistUnitAdjtReqA_HS 0;
+BA_ "GenSigStartValue" SG_ 1291 CalendarAdjReqA_HS 0;
+BA_ "GenSigStartValue" SG_ 1291 CalendarDayAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 1291 CalendarMonthAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 1291 CalendarYearAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 1291 HourOfDayAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 1291 MinuteOfHourAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 1291 SecsOfMinuteAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 1291 TimeAdjReqA_HS 0;
+BA_ "GenSigStartValue" SG_ 1291 TimeDspFmtAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 871 FICMDistUntAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 871 FICMFuelCsumpUntAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 871 FICMFuelCsumpUntAdjARA_HS 0;
+BA_ "GenSigStartValue" SG_ 871 FICMOverSpdFnCrntSts_HS 0;
+BA_ "GenSigStartValue" SG_ 871 FICMOvrSpdThrshldAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 871 FICMOvrSpdThrshldAdjtRA_HS 0;
+BA_ "GenSigStartValue" SG_ 871 FICMTemUntAdjtReqA_HS 0;
+BA_ "GenSigStartValue" SG_ 871 FICMTyrePressureUntAdj_HS 0;
+BA_ "GenSigStartValue" SG_ 871 FICMTyrePressureUntAdjtReqA_HS 0;
+BA_ "GenSigStartValue" SG_ 871 FICMVehMntnceSts_HS 0;
+BA_ "GenSigStartValue" SG_ 871 MusSrcMd_HS 15;
+BA_ "GenSigStartValue" SG_ 871 RdoFrqcVal_HS 65535;
+BA_ "GenSigStartValue" SG_ 893 NavDircn_HS 63;
+BA_ "GenSigStartValue" SG_ 893 NavDist_HS 32767;
+BA_ "GenSigStartValue" SG_ 893 NavDistUnit_HS 0;
+BA_ "GenSigStartValue" SG_ 1095 wake_network_FICM_HS 0;
+BA_ "GenSigStartValue" SG_ 1095 wake_network_FICM_HS_UB 0;
+BA_ "GenSigStartValue" SG_ 217 ASSInhBtnA_HS 0;
+BA_ "GenSigStartValue" SG_ 498 SysBPM_HS 0;
+BA_ "GenSigStartValue" SG_ 498 SysBPMEnbd_HS 0;
+BA_ "GenSigStartValue" SG_ 499 PfTrTapUpDwnEnbSwSta_HS 0;
+BA_ "GenSigStartValue" SG_ 499 PfTrTapUpDwnSecySwSta_HS 0;
+BA_ "GenSigStartValue" SG_ 499 PfTrTapUpDwnSwSta_HS 0;
+BA_ "GenSigStartValue" SG_ 499 PfTrTapUpDwnSwStsAlvRC_HS 0;
+BA_ "GenSigStartValue" SG_ 499 TrPfShftPtrnSw1A_HS 0;
+BA_ "GenSigStartValue" SG_ 499 TrPfShftPtrnSw4A_HS 0;
+BA_ "GenSigStartValue" SG_ 499 TrPfShftPtrnSwAlvRC_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsAlvRC_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsCanclSwA_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsDisDecSwA_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsDistIncSwA_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsOnSwA_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsPV_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsRsmSwA_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsSetSwA_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsSpdDecSwA_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsSpdIncSwA_HS 0;
+BA_ "GenSigStartValue" SG_ 481 CCSwStsSwDataIntgty_HS 0;
+BA_ "GenSigStartValue" SG_ 1523 keep_network_IPK_HS 0;
+BA_ "GenSigStartValue" SG_ 1523 keep_network_IPK_HS_UB 0;
+BA_ "GenSigStartValue" SG_ 1142 VINClstr_HS 0;
+BA_ "GenSigStartValue" SG_ 1046 AirbagWrnngIndF_HS 0;
+BA_ "GenSigStartValue" SG_ 1046 Clstr10KmTick_HS 0;
+BA_ "GenSigStartValue" SG_ 1046 DspMeasSys_HS 0;
+BA_ "GenSigStartValue" SG_ 1046 FuelLvlPcnt_HS 0;
+BA_ "GenSigStartValue" SG_ 1046 FuelLvlPcntV_HS 0;
+BA_ "GenSigStartValue" SG_ 1046 FuelTotCapct_HS 0;
+BA_ "GenSigStartValue" SG_ 858 AvgFuelCsump_HS 0;
+BA_ "GenSigStartValue" SG_ 858 AvgFuelCsumpV_HS 0;
+BA_ "GenSigStartValue" SG_ 858 ChmCmdSndCndcPrd_HS 0;
+BA_ "GenSigStartValue" SG_ 858 ChmCmdSndDutyCyc_HS 0;
+BA_ "GenSigStartValue" SG_ 858 ChmCmdSndLoctnFL_HS 0;
+BA_ "GenSigStartValue" SG_ 858 ChmCmdSndLoctnFR_HS 0;
+BA_ "GenSigStartValue" SG_ 858 ChmCmdSndLoctnRL_HS 0;
+BA_ "GenSigStartValue" SG_ 858 ChmCmdSndLoctnRR_HS 0;
+BA_ "GenSigStartValue" SG_ 858 ChmCmdSndTone_HS 0;
+BA_ "GenSigStartValue" SG_ 858 ClstrDspdVehSpd_HS 0;
+BA_ "GenSigStartValue" SG_ 858 IPCAccryA_HS 0;
+BA_ "GenSigStartValue" SG_ 858 IPCRunCrkA_HS 0;
+BA_ "GenSigStartValue" SG_ 858 IPCRunCrkF_HS 0;
+BA_ "GenSigStartValue" SG_ 858 IPCSSBA_HS 0;
+BA_ "GenSigStartValue" SG_ 858 IPCSSBAV_HS 0;
+BA_ "GenSigStartValue" SG_ 858 IPCSSBFltSts_HS 0;
+BA_ "GenSigStartValue" SG_ 858 LanggSetng_HS 0;
+BA_ "GenSigStartValue" SG_ 1134 OdoPriy_HS 0;
+BA_ "GenSigStartValue" SG_ 1134 SIAOdoPriy_HS 0;
+BA_ "GenSigStartValue" SG_ 1345 CalendarDay_HS 0;
+BA_ "GenSigStartValue" SG_ 1345 CalendarMonth_HS 0;
+BA_ "GenSigStartValue" SG_ 1345 CalendarYear_HS 0;
+BA_ "GenSigStartValue" SG_ 1345 HourOfDay_HS 0;
+BA_ "GenSigStartValue" SG_ 1345 MinuteOfHour_HS 0;
+BA_ "GenSigStartValue" SG_ 1345 SecsOfMinute_HS 0;
+BA_ "GenSigStartValue" SG_ 1345 TimeDspFmt_HS 0;
+BA_ "GenSigStartValue" SG_ 1123 IPCEcoDrvngSwA_HS 0;
+BA_ "GenSigStartValue" SG_ 874 ClstrDistUnt_HS 0;
+BA_ "GenSigStartValue" SG_ 874 ClstrFuelCsumpUnt_HS 0;
+BA_ "GenSigStartValue" SG_ 874 ClstrTemUnt_HS 0;
+BA_ "GenSigStartValue" SG_ 874 ClstrTyrePressureUnt_HS 0;
+BA_ "GenSigStartValue" SG_ 874 RmnDrvngDist_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdABSWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdAirbagWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdAltrWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdASpdLmtrWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdBrkSysWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdCCWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdClntTemWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdEleccParkngBW_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdEnDrvByWireW_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdEPSWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdFuelLvlSgmt_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdFuelSnsrWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdFuelSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdHDCWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdInfoMsk_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdInvdKeyWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdMalfIndrLghtW_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdOilPrsLowW_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdPDCWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdSASUncalWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdSASWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdSCSWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdScurtKeyBatLW_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdSpStWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdTCSWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdTrWrnng_HS 0;
+BA_ "GenSigStartValue" SG_ 1047 ClstrDspdTyrePrsSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1144 ClstrDspdFLTirePrs_HS 0;
+BA_ "GenSigStartValue" SG_ 1144 ClstrDspdFLTireSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1144 ClstrDspdFRTirePrs_HS 0;
+BA_ "GenSigStartValue" SG_ 1144 ClstrDspdFRTireSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1144 ClstrDspdRLTirePrs_HS 0;
+BA_ "GenSigStartValue" SG_ 1144 ClstrDspdRLTireSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1144 ClstrDspdRRTirePrs_HS 0;
+BA_ "GenSigStartValue" SG_ 1144 ClstrDspdRRTireSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1144 StabCtrlDsblSwA_HS 0;
+BA_ "GenSigStartValue" SG_ 1531 wake_network_IPK_HS 0;
+BA_ "GenSigStartValue" SG_ 1531 wake_network_IPK_HS_UB 0;
+BA_ "GenSigStartValue" SG_ 1087 sm_network_mode_h1 0;
+BA_ "GenSigStartValue" SG_ 1087 sm_signal_config_id_h1 28673;
+BA_ "GenSigStartValue" SG_ 573 FLObsRng_HS 0;
+BA_ "GenSigStartValue" SG_ 573 FRObsRng_HS 0;
+BA_ "GenSigStartValue" SG_ 573 FrtMidLObsRng_HS 0;
+BA_ "GenSigStartValue" SG_ 573 FrtMidRObsRng_HS 0;
+BA_ "GenSigStartValue" SG_ 573 FrtObsDist_HS 0;
+BA_ "GenSigStartValue" SG_ 573 PDCCofignSts_HS 0;
+BA_ "GenSigStartValue" SG_ 573 PDCSysSts_HS 0;
+BA_ "GenSigStartValue" SG_ 573 RLObsRng_HS 0;
+BA_ "GenSigStartValue" SG_ 573 RrMidLObsRng_HS 0;
+BA_ "GenSigStartValue" SG_ 573 RrMidRObsRng_HS 0;
+BA_ "GenSigStartValue" SG_ 573 RrObsDist_HS 0;
+BA_ "GenSigStartValue" SG_ 573 RRObsRng_HS 0;
+BA_ "GenSigStartValue" SG_ 485 StrgWhlAngSnsrCalSts_HS 0;
+BA_ "GenSigStartValue" SG_ 485 StrgWhlAngSnsrFlt_HS 0;
+BA_ "GenSigStartValue" SG_ 455 AutoHoldSysSts_HS 0;
+BA_ "GenSigStartValue" SG_ 562 HDCSysSts_HS 0;
+BA_ "GenSigStartValue" SG_ 532 BrkFludLvlLow_HS 0;
+BA_ "GenSigStartValue" SG_ 532 BrkFludLvlLowV_HS 0;
+BA_ "GenSigStartValue" SG_ 840 WhlGndVelLDrvn_HS 0;
+BA_ "GenSigStartValue" SG_ 840 WhlGndVelLDrvnV_HS 1;
+BA_ "GenSigStartValue" SG_ 840 WhlGndVelRDrvn_HS 0;
+BA_ "GenSigStartValue" SG_ 840 WhlGndVelRDrvnV_HS 1;
+BA_ "GenSigStartValue" SG_ 842 WhlGndVelLNonDrvn_HS 0;
+BA_ "GenSigStartValue" SG_ 842 WhlGndVelLNonDrvnV_HS 1;
+BA_ "GenSigStartValue" SG_ 842 WhlGndVelRNonDrvn_HS 0;
+BA_ "GenSigStartValue" SG_ 842 WhlGndVelRNonDrvnV_HS 1;
+BA_ "GenSigStartValue" SG_ 381 ABSIO_HS 0;
+BA_ "GenSigStartValue" SG_ 381 BrkSysRedBrkTlltReq_HS 0;
+BA_ "GenSigStartValue" SG_ 381 TCSOpngMd_HS 0;
+BA_ "GenSigStartValue" SG_ 381 TCSOpngSts_HS 0;
+BA_ "GenSigStartValue" SG_ 381 VSEMd_HS 0;
+BA_ "GenSigStartValue" SG_ 381 VSESts_HS 0;
+BA_ "GenSigStartValue" SG_ 837 AutoHoldMsg_HS 0;
+BA_ "GenSigStartValue" SG_ 851 DistRCAvgDrvn_HS 0;
+BA_ "GenSigStartValue" SG_ 851 DistRCAvgDrvnV_HS 0;
+BA_ "GenSigStartValue" SG_ 851 VehSpdAvgDrvn_HS 0;
+BA_ "GenSigStartValue" SG_ 851 VehSpdAvgDrvnV_HS 0;
+BA_ "GenSigStartValue" SG_ 355 AirbagSysFltIndCmd_HS 0;
+BA_ "GenSigStartValue" SG_ 355 FasnDrvrSbltIndCmd_HS 0;
+BA_ "GenSigStartValue" SG_ 355 FasnFrtPsngSbltIndCmd_HS 0;
+BA_ "GenSigStartValue" SG_ 355 FasnSbltAudRmndr_HS 0;
+BA_ "GenSigStartValue" SG_ 355 FasnSecRowLSbltIndCmd_HS 0;
+BA_ "GenSigStartValue" SG_ 355 FasnSecRowMidSbltIndC_HS 0;
+BA_ "GenSigStartValue" SG_ 355 FasnSecRowRSbltIndCmd_HS 0;
+BA_ "GenSigStartValue" SG_ 1225 TrNonEmsnRltdMalfA_HS 0;
+BA_ "GenSigStartValue" SG_ 1072 keep_network_TPMS_HS 0;
+BA_ "GenSigStartValue" SG_ 1072 keep_network_TPMS_HS_UB 0;
+BA_ "GenSigStartValue" SG_ 1149 FLTirePrs_HS 55;
+BA_ "GenSigStartValue" SG_ 1149 FLTirePrsV_HS 0;
+BA_ "GenSigStartValue" SG_ 1149 FLTireTem_HS 45;
+BA_ "GenSigStartValue" SG_ 1149 FLTireTemV_HS 0;
+BA_ "GenSigStartValue" SG_ 1149 FRTirePrs_HS 55;
+BA_ "GenSigStartValue" SG_ 1149 FRTirePrsV_HS 0;
+BA_ "GenSigStartValue" SG_ 1149 FRTireTem_HS 45;
+BA_ "GenSigStartValue" SG_ 1149 FRTireTemV_HS 0;
+BA_ "GenSigStartValue" SG_ 1149 RLTirePrs_HS 55;
+BA_ "GenSigStartValue" SG_ 1149 RLTirePrsV_HS 0;
+BA_ "GenSigStartValue" SG_ 1149 RLTireTem_HS 45;
+BA_ "GenSigStartValue" SG_ 1149 RLTireTemV_HS 0;
+BA_ "GenSigStartValue" SG_ 1149 RRTirePrs_HS 55;
+BA_ "GenSigStartValue" SG_ 1149 RRTirePrsV_HS 0;
+BA_ "GenSigStartValue" SG_ 1149 RRTireTem_HS 45;
+BA_ "GenSigStartValue" SG_ 1149 RRTireTemV_HS 0;
+BA_ "GenSigStartValue" SG_ 1150 FLTireSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1150 FRTireSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1150 RLTireSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1150 RRTireSts_HS 0;
+BA_ "GenSigStartValue" SG_ 1150 TPMSAutoLoctnCm_HS 1;
+BA_ "GenSigStartValue" SG_ 1150 TPMSF_HS 0;
+BA_ "GenSigStartValue" SG_ 1150 TPMSIdficnLrnCm_HS 1;
+BA_ "GenSigStartValue" SG_ 1150 TPMSTirePrsLowIO_HS 0;
+BA_ "GenSigStartValue" SG_ 1150 TPMSWntrMdA_HS 0;
+BA_ "GenSigStartValue" SG_ 1060 wake_network_TPMS_HS 0;
+BA_ "GenSigStartValue" SG_ 1060 wake_network_TPMS_HS_UB 0;
+BA_ "GenSigStartValue" SG_ 1360 SensorFuel 0;
+BA_ "GenSigStartValue" SG_ 1360 CompareFuel 0;
+BA_ "GenSigStartValue" SG_ 1360 FarCompareFuel 0;
+BA_ "GenSigStartValue" SG_ 1360 prmDisplayFuelU32 0;
+BA_ "GenSigStartValue" SG_ 1361 gASI_FuelSensorADAverage 0;
+BA_ "GenSigStartValue" SG_ 1361 gRefuelFlag 0;
+BA_ "GenSigStartValue" SG_ 1362 gAFC_u32sumDist1 0;
+BA_ "GenSigStartValue" SG_ 1362 gAFC_u32sumDist2 0;
+BA_ "GenSigStartValue" SG_ 1363 e_sum_fuel 0;
+BA_ "GenSigStartValue" SG_ 1363 e_sum2_fuel 0;
+BA_ "GenSigStartValue" SG_ 1364 prmOdometerSum 0;
+BA_ "GenSigStartValue" SG_ 1364 prmRecentFuelConsumption 0;
+BA_ "GenSigStartValue" SG_ 1364 prmFuelSum 0;
+BA_ "GenSigStartValue" SG_ 1364 prmRangeToEmpty 0;
+BA_ "GenSigStartValue" SG_ 1365 FCDec 0;
+BA_ "GenSigStartValue" SG_ 1365 InstantFuelCsumpt 0;
+BA_ "GenSigStartValue" SG_ 1365 odoDec 0;
+
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 497 PwrMdMstrAccryA_H1_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 497 PwrMdMstrRunCrkA_H1_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 497 SysOpnlMd_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 497 SysPwrMdV_h1_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 497 SysPwrMd_h1_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 497 SysVol_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 497 SysVolMd_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 497 SysVolMdV_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 497 SysVolV_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1344 VehOdoV_H1_HS 2000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1344 VehOdo_H1_HS 2000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1139 VINBCM_H1_HS 500;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1146 AmbtLghtLvl_H1_HS 500;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1146 LghtSwPosSts_H1_HS 500;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1146 OdoSecy_HS 500;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1146 SIAOdoSecy_HS 500;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 BCMEmgcSp_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 BCMPwrMdHwdSta_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 BCMPwrMdHwdStaV_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 BCMSSBA_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 BCMSSBAV_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 BntOpenSts_H1_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 DipdBeamLghtOn_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 DrvrDoorOpenSts_H1_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 FrtFogLghtOn_H1_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 FrtPsngDoorOpenSts_H1_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 LDircnIO_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 LdspcOpenSts_H1_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 MainBeamLghtOn_H1_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 RDircnIO_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 RRDoorOpenSts_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 RrFogLghtF_H1_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 RrFogLghtOn_H1_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 VehLckngSta_H1_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1130 VehSideLghtSts_H1_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMGearShftParkNtrlESR_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMNoSmtKeyInVehRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMNoSmtKeyPressBrkTRR_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMNoSmtKeyPressClToRR_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMPressBrkRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMPressClRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMPutSmtKeyToBkupPosR_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMRunCrkF_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMShftParkRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMSSBFltSts_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 BCMTakeSmtKeyOutOfSR_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 DayTimeRunningLghtF_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 DrvrWndOpenRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 FrtSideLghtF_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 LBrkLghtF_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 LDipdBeamLghtF_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 LDircnIndLghtF_H1_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 PEPSAntFlt_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 RBrkLghtF_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 RDipdBeamLghtF_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 RDircnIndLghtF_H1_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 RevsLghtF_H1_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 RrSideLghtF_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 ScurtAlrmSts_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 ScurtKeyBatLow_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 ScurtKeyInvd_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 ShifterLckRlseBrkReqA_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 SrfOpenRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 SSBEnOffRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 540 TakeKeyOutRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 541 BCMSyncSmtKeyRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 541 DrvrPWLInitnRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 541 SrfInitnRmndr_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1303 BatSOC_HS 2000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1303 VehLdShedLvl_H1_HS 2000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 201 CCA_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 201 CCEnbd_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 201 En12VoltStrMotCmddOn_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 201 EnRunA_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 201 EnSpd_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 201 EnSpdSts_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 404 DrvrShftCtrlTrgtGear_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 404 TrShftLvrPos_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 404 TrShftLvrPosV_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 404 TrShftPtrnASts_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 404 TrTapUpTapDwnMdSts_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 479 EnASSSta_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 707 EcoDrvngAIO_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 707 EcoDrvngDspStsGearSIS_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 707 EcoDrvngDspStsRcmndFG_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 707 ECODrvngSpdRutA_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1217 EnClntTem_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1217 EnClntTemV_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1233 EnOilPrsLowIO_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 251 SpdAstSysStsECM_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 251 SpdAstSysTrgtSpd_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 560 EPBSysAudWrnngReq_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 560 EPBSysDspMsgReq_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 560 EPBSysStsIndReq_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 560 EPBSysWrnngIndReq_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 328 EPSFlrSts_HS 2000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1127 ESCLFlrIndCmd_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1291 CalendarAdjReqA_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1291 CalendarDayAdj_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1291 CalendarMonthAdj_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1291 CalendarYearAdj_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1291 HourOfDayAdj_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1291 MinuteOfHourAdj_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1291 SecsOfMinuteAdj_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1291 TimeAdjReqA_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1291 TimeDspFmtAdj_HS 1000;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 485 StrgWhlAngSnsrCalSts_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 485 StrgWhlAngSnsrFlt_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 455 AutoHoldSysSts_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 562 HDCSysSts_HS 50;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 532 BrkFludLvlLow_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 532 BrkFludLvlLowV_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 840 WhlGndVelLDrvn_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 840 WhlGndVelLDrvnV_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 840 WhlGndVelRDrvn_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 840 WhlGndVelRDrvnV_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 842 WhlGndVelLNonDrvn_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 842 WhlGndVelLNonDrvnV_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 842 WhlGndVelRNonDrvn_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 842 WhlGndVelRNonDrvnV_HS 200;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 355 AirbagSysFltIndCmd_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 355 FasnDrvrSbltIndCmd_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 355 FasnFrtPsngSbltIndCmd_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 355 FasnSbltAudRmndr_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 355 FasnSecRowLSbltIndCmd_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 355 FasnSecRowMidSbltIndC_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 355 FasnSecRowRSbltIndCmd_HS 100;
+BA_REL_ "SigMaxage" BU_SG_REL_ Instruments SG_ 1225 TrNonEmsnRltdMalfA_HS 1000;
+
+VAL_ 1522 keep_network_AC_HS 0 "no keep network request" 1 "keep network request" ;
+VAL_ 1205 wake_network_AC_HS 0 "no wake-up network request" 1 "wake-up network request" ;
+VAL_ 497 PwrMdMstrAccryA_H1_HS 0 "Inactive" 1 "Active" ;
+VAL_ 497 PwrMdMstrRunCrkA_H1_HS 0 "Inactive" 1 "Active" ;
+VAL_ 497 SysOpnlMd_HS 0 "Normal Mode" 1 "Manufacturing Mode" 2 "Transit Mode" 3 "Show Room" 4 "Storage Mode" 5 "Diagnosic or Reprogramming(Reserve)" ;
+VAL_ 497 SysPwrMdV_h1_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 497 SysPwrMd_h1_HS 0 "Off" 1 "ACC" 2 "Run" 3 "Crank" ;
+VAL_ 497 SysVolMd_HS 0 "Normal" 1 "Low System Voltage" 2 "High System Voltage" 3 "Illegal System  Voltage" ;
+VAL_ 497 SysVolMdV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 497 SysVolV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1344 VehOdoV_H1_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 795 PwrMdMstrAccryWkupA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 795 PwrMdMstrIgnA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1055 network_mode 0 "start-up" 1 "shutdown" 2 "normal" ;
+VAL_ 1055 signal_config_id 8272 "config: NMC/OTS2/base" ;
+VAL_ 1146 AmbtLghtLvl_H1_HS 0 " Level 0 ( Day: position lamp and dipped beam off )" 1 "Level 1 ( Reserved for position lamp On Request )" 2 "Level 2 ( Dipped Beam On ) Request" 3 "Level 3  ( Reserved )" ;
+VAL_ 1146 LghtSwPosSts_H1_HS 0 "Switch is on 'Off' position" 1 "Switch is on 'Auto' position           " 2 "Side Lamp" 3 "Dipped Beam" 4 "Unknow position" 5 "reserved" 6 "reserved" 7 "reserved" ;
+VAL_ 1130 BCMEmgcSp_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1130 BCMPwrMdHwdSta_HS 0 "OFF" 1 "ACC " 2 "RUN" 3 "CRANK" ;
+VAL_ 1130 BCMPwrMdHwdStaV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1130 BCMSSBA_HS 0 "Inactive" 1 "Active " ;
+VAL_ 1130 BCMSSBAV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1130 BntOpenSts_H1_HS 0 "Bonnet Closed" 1 "Bonnet Open" 2 "Bonnet Switch Disconnect" 3 "Reserved" ;
+VAL_ 1130 DipdBeamLghtOn_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1130 DrvrDoorOpenSts_H1_HS 0 "Driver Door Closed" 1 "Driver Door Open(For latch switch can't detect door ajar status)" 2 "Driver Door Ajar" 3 "Driver Door Full Open" ;
+VAL_ 1130 FrtFogLghtOn_H1_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1130 FrtPsngDoorOpenSts_H1_HS 0 "Front Passenger Door Closed" 1 "Front Passenger Open(latch switch cann¡®t detect door ajar statu" 2 "Front Passenger Door Ajar" 3 "Front Passenger Door Full Open" ;
+VAL_ 1130 LDircnIO_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1130 LdspcOpenSts_H1_HS 0 "Load Space Closed" 1 "Load Space Open" 2 "Reserved" 3 "Reserved" ;
+VAL_ 1130 MainBeamLghtOn_H1_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1130 RDircnIO_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1130 RRDoorOpenSts_HS 0 "Rear left and right Door Closed" 1 "Rear left or right  Open(For latch switch cannot detect doorajar status)" 2 "Rear left or right  Door Ajar" 3 "Rear left or right  Door Full open" ;
+VAL_ 1130 RrFogLghtF_H1_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1130 RrFogLghtOn_H1_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1130 VehLckngSta_H1_HS 0 "Unlocked" 1 "Signal Position Entry Unlocked" 2 "Interior Locked" 3 "Exterior Locked" 4 "Super locked" 5 "Reserved" 6 "Reserved" 7 "Unknow" ;
+VAL_ 1130 VehSideLghtSts_H1_HS 0 "No side light on " 1 "Left side light on only" 2 "Right side light on only" 3 "All side light and license plate light on" ;
+VAL_ 540 BCMGearShftParkNtrlESR_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 BCMNoSmtKeyInVehRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 BCMNoSmtKeyPressBrkTRR_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 BCMNoSmtKeyPressClToRR_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 BCMPressBrkRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 BCMPressClRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 BCMPutSmtKeyToBkupPosR_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 BCMRunCrkF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 BCMShftParkRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 BCMSSBFltSts_HS 0 "No Fault" 1 "short to GND" 2 "short to Battery" 3 "Stuck" 4 "Open Circuit" 5 "switch failed" 6 "Reserved" 7 "Reserved" ;
+VAL_ 540 BCMTakeSmtKeyOutOfSR_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 DayTimeRunningLghtF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 DrvrWndOpenRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 FrtSideLghtF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 LBrkLghtF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 LDipdBeamLghtF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 LDircnIndLghtF_H1_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 PEPSAntFlt_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 RBrkLghtF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 RDipdBeamLghtF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 RDircnIndLghtF_H1_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 RevsLghtF_H1_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 RrSideLghtF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 ScurtAlrmSts_HS 0 "off" 1 "part alarm without volumetrics" 2 "full alarm without volumetrics" 3 "not used" 4 "not used" 5 "part alarm with volumetrics" 6 "full alarm with volumetrics" 7 "not used" ;
+VAL_ 540 ScurtKeyBatLow_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 ScurtKeyInvd_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 ShifterLckRlseBrkReqA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 SrfOpenRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 540 SSBEnOffRmndr_HS 0 "no warning request " 1 "Press Button Again To Turn Engine Off Reminder" 2 "Long Press Button To Turn Engine Off Reminder" 3 "Double Press Button Again To Turn Engine Off Reminder" ;
+VAL_ 540 TakeKeyOutRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 541 BCMSyncSmtKeyRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 541 DrvrPWLInitnRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 541 SrfInitnRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 814 BatAgngSta_HS 0 "Good" 1 "Little  Aging " 2 "Middle Aging" 3 "Replace reminding" 4 "reserved" 5 "reserved" 6 "reserved" 7 "reserved" ;
+VAL_ 814 GenrSta_HS 0 "generator is ok" 1 "generator lost communication" 2 "generator failed" 3 "generator running in default state" 4 "Reserved" 5 "Reserved" 6 "Reserved" 7 "Reserved" ;
+VAL_ 1303 BatSOC_HS 254 "reserved" 253 "reserved" 252 "reserved" 251 "reserved" ;
+VAL_ 1303 VehLdShedLvl_H1_HS 0 "No Power Risk" 1 "Low Power Risk" 2 "Middle Power Risk" 3 "High Power Risk" 4 "Power management direct current converter(PMDC)-broken" 5 "reserved" 6 "reserved" 7 "reserved" ;
+VAL_ 845 EmgcCallFlrSts_HS 0 "ECall Function No failure(Indication off)" 1 "ECall Function Light Level failure indication(Orange)" 2 "ECall Function Heavy Level failure indication(Red)" 3 "Invalid" ;
+VAL_ 201 CCA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 201 CCEnbd_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 201 En12VoltStrMotCmddOn_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 201 EnRunA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 201 EnSpdSts_HS 0 "Normal Operation" 1 "Degraded Operation" 2 "Reserved" 3 "Invalid" ;
+VAL_ 404 DrvrShftCtrlTrgtGear_HS 0 "Not Supported" 1 "First Gear" 2 "Second Gear" 3 "Third Gear" 4 "Fourth Gear" 5 "Fifth Gear" 6 "Sixth Gear" 7 "Seventh Gear" 8 "Eighth Gear" ;
+VAL_ 404 TrShftLvrPos_HS 0 "Between Ranges" 1 "Park Range" 2 "Reverse Range" 3 "Neutral Range" 4 "Forward Range A" 5 "Forward Range B" 6 "Forward Range C" 7 "Forward Range D" 8 "Forward Range E" 9 "Forward Range F" 10 "Forward Range G" 11 "Forward Range H" 15 "Lever Position Unknown" ;
+VAL_ 404 TrShftLvrPosV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 404 TrShftPtrnASts_HS 0 "Default Shift Pattern Active" 1 "Shift Pattern 1 Active" 2 "Shift Pattern 2 Active" 3 "Shift Pattern 3 Active" 4 "Shift Pattern 4 Active" 5 "PT Non-Protection Pattern Active" 6 "PT Protection Pattern Active" ;
+VAL_ 404 TrTapUpTapDwnMdSts_HS 0 "No Activation" 1 "Driver Shift Control Active" 2 "Electronic Range Select Active" ;
+VAL_ 479 EnASSSta_HS 0 "Engine Off" 1 "Engine Running" 2 "Engine Starting" 3 "Engine Stopping" ;
+VAL_ 707 EcoDrvngAIO_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 707 EcoDrvngDspStsGearSIS_HS 0 "No Shift" 1 "Gear Shift Up" 2 "Gear Shift Down" 3 "Reserved" ;
+VAL_ 707 EcoDrvngDspStsRcmndFG_HS 0 "None" 1 "First Gear" 2 "Second Gear" 3 "Third Gear" 4 "Fouth Gear" 5 "Fifth Gear" 6 "Sixth Gear" 7 "Seventh Gear" 8 "Eighth Gear" 9 "Unused and Reserved 1" 10 "Unused and Reserved 2" 11 "Unused and Reserved 3" 12 "Unused and Reserved 4" 13 "Unused and Reserved 5" 14 "Unused and Reserved 6" 15 "Unused and Reserved 7" ;
+VAL_ 707 ECODrvngSpdRutA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 945 ASSInhBtnLampOn_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 945 ASSInhIO_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 945 ASSStsLampOn_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 945 ASSWrnngLampOn_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 945 CCFltPrst_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 945 ECMClsDoorToAutoStR_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 945 ECMFasnSbltToAutoStR_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 945 ECMPressClBrkRmndr_HS 0 "No message" 1 "Press the clutch" 2 "Press the brake" 3 "Reserved" ;
+VAL_ 945 ECMShftNtrlToAutoStR_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 977 EnEmsnRltdMalfA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 977 EnEmsnRltdMalfIndReq_HS 0 "Continuous Indication" 1 "No Indication" 2 "Flashing 1 Hertz Indication" 3 "Flashing 2 Hertz Indication" 4 "Flashing 1/2 Hertz Indication" 5 "Reserved" 6 "Reserved" 7 "Reserved" ;
+VAL_ 977 EnGPFLampOnSts_HS 0 "off" 1 "GPF Regeneration Reminder" 2 "GPF Regeneration Active" 3 "GPF Full Reminder" ;
+VAL_ 977 EnNonEmsnRltdMalfA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1217 EnClntTemV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1233 EnOilPrsLowIO_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 251 SpdAstSysStsECM_HS 0 "Off" 1 "Active (Limiting)" 2 "Standby" 3 "Entry Conditions Incorrect" 4 "Overspeed" 5 "Fault" 6 "Active (Passive)" 7 "Reserved" ;
+VAL_ 560 EPBSysAudWrnngReq_HS 0 "Off" 1 "Warning #1" 2 "Warning #2" ;
+VAL_ 560 EPBSysDspMsgReq_HS 0 "Off" 1 "Message #1" 2 "Message #2" 3 "Message #3" 4 "Message #4" 5 "Message #5" 6 "Message #6" 7 "Message #7" ;
+VAL_ 560 EPBSysStsIndReq_HS 0 "No Indication" 1 "Continuous Indication" 2 "Flash Rate #1 Indication" 3 "Flash Rate #2 Indication" ;
+VAL_ 560 EPBSysWrnngIndReq_HS 0 "No Indication" 1 "Continuous Indication" 2 "Flash Rate #1 Indication" 3 "Flash Rate #2 Indication" ;
+VAL_ 328 EPSFlrSts_HS 0 "EPS No failure(Indication off)" 1 "EPS Light Level failure indication£¨Orange£©" 2 "EPS Heavy Level failure indication£¨Red£©" 3 "Invalid" ;
+VAL_ 1071 keep_network_ESCL_HS 0 "no keep network request" 1 "keep network request" ;
+VAL_ 1127 ESCLFlrIndCmd_HS 0 "No defect failure detected" 1 "Defect failure detected" 2 "Steering wheel is blocked" 3 "Functional limitation failure detected" ;
+VAL_ 1059 wake_network_ESCL_HS 0 "no wake-up network request" 1 "wake-up network request" ;
+VAL_ 1104 keep_network_FICM_HS 0 "no keep network request" 1 "keep network request" ;
+VAL_ 875 ChmA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 875 FICMTemUntAdj_HS 0 "Celsius Degree(¡æ)" 1 "Fahrenheit Degree(¨H)" 2 "Not Available" ;
+VAL_ 886 FICMDistUnitAdjtReqA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1291 CalendarAdjReqA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1291 CalendarMonthAdj_HS 0 "Unknown" 1 "January" 2 "February" 3 "March" 4 "April" 5 "May" 6 "June" 7 "July" 8 "August" 9 "September" 10 "October" 11 "November" 12 "December" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1291 TimeAdjReqA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1291 TimeDspFmtAdj_HS 0 "12 hour mode" 1 "24 hour mode" ;
+VAL_ 871 FICMDistUntAdj_HS 0 "km" 1 "miles" ;
+VAL_ 871 FICMFuelCsumpUntAdj_HS 0 "L/100km" 1 "mpg(UK)" 2 "mpg(US)" ;
+VAL_ 871 FICMFuelCsumpUntAdjARA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 871 FICMOverSpdFnCrntSts_HS 0 "Off" 1 "On" ;
+VAL_ 871 FICMOvrSpdThrshldAdjtRA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 871 FICMTemUntAdjtReqA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 871 FICMTyrePressureUntAdj_HS 0 "bar" 1 "kpa" 2 "Psi" ;
+VAL_ 871 FICMTyrePressureUntAdjtReqA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 871 FICMVehMntnceSts_HS 0 "Status OK" 1 "Suggest to Maintain" 2 "Maintain immediately" 3 "Reserved" ;
+VAL_ 871 MusSrcMd_HS 0 "OFF" 1 "AM" 2 "FM" 15 "invalid" ;
+VAL_ 871 RdoFrqcVal_HS 65535 "invalid" ;
+VAL_ 893 NavDircn_HS 0 "SelfCar Logo" 1 "turn Left" 2 "turn Right" 3 "Left Head" 4 "right Head" 5 "Left After" 6 "Right After" 7 "Back" 8 "Driver Straight" 9 "Arrive Middle Pointer" 10 "into Circle Zone" 11 "Out Cirle Zone" 12 "Arrive Srvice Zone" 13 "Arrive Toll Station" 14 "Arrive the Destination" 15 "into tube" 63 "invalid" ;
+VAL_ 893 NavDist_HS 32767 "invalid" ;
+VAL_ 893 NavDistUnit_HS 0 "m" 1 "0.1km" ;
+VAL_ 1095 wake_network_FICM_HS 0 "no wake-up network request" 1 "wake-up network request" ;
+VAL_ 217 ASSInhBtnA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 498 SysBPM_HS 0 "Off" 1 "ACC" 2 "Run" 3 "Crank" ;
+VAL_ 498 SysBPMEnbd_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 499 PfTrTapUpDwnEnbSwSta_HS 0 "No Activation" 1 "Driver Shift Control Enable Switch Active" 2 "Electronic Range Select Enable Switch Active" 3 "Illegal Enable Switch State Active" ;
+VAL_ 499 PfTrTapUpDwnSecySwSta_HS 0 "No Activation" 1 "Increment Switch Active" 2 "Decrement Switch Active" 3 "Illegal Up/Down Switch State Active" ;
+VAL_ 499 PfTrTapUpDwnSwSta_HS 0 "No Activation" 1 "Increment Switch Active" 2 "Decrement Switch Active" 3 "Illegal Up/Down Switch State Active" ;
+VAL_ 499 TrPfShftPtrnSw1A_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 499 TrPfShftPtrnSw4A_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 481 CCSwStsCanclSwA_HS 0 "False" 1 "True" ;
+VAL_ 481 CCSwStsDisDecSwA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 481 CCSwStsDistIncSwA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 481 CCSwStsOnSwA_HS 0 "False" 1 "True" ;
+VAL_ 481 CCSwStsRsmSwA_HS 0 "False" 1 "True" ;
+VAL_ 481 CCSwStsSetSwA_HS 0 "False" 1 "True" ;
+VAL_ 481 CCSwStsSpdDecSwA_HS 0 "False" 1 "True" ;
+VAL_ 481 CCSwStsSpdIncSwA_HS 0 "False" 1 "True" ;
+VAL_ 481 CCSwStsSwDataIntgty_HS 0 "Data Valid" 1 "Data Invalid" 2 "Failure Detected" 3 "Illegal Range" ;
+VAL_ 1523 keep_network_IPK_HS 0 "no keep network request" 1 "keep network request" ;
+VAL_ 1046 AirbagWrnngIndF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1046 Clstr10KmTick_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1046 DspMeasSys_HS 0 "kph" 1 "MPH" ;
+VAL_ 1046 FuelLvlPcntV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 858 AvgFuelCsumpV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 858 ChmCmdSndLoctnFL_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 858 ChmCmdSndLoctnFR_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 858 ChmCmdSndLoctnRL_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 858 ChmCmdSndLoctnRR_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 858 ChmCmdSndTone_HS 0 "Clack" 1 "Click" 2 "Beep (750 Hz)" 3 "Beep (2000 Hz)" 4 "Gong (750 Hz)" 5 "Gong (2000 Hz)" 6 "Reserved" 7 "Reserved" 8 "Reserved" 9 "Reserved" 10 "Reserved" 11 "Reserved" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 858 ClstrDspdVehSpd_HS 255 "Speed Signal Missing Error of SCS" ;
+VAL_ 858 IPCAccryA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 858 IPCRunCrkA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 858 IPCRunCrkF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 858 IPCSSBA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 858 IPCSSBAV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 858 IPCSSBFltSts_HS 0 "No Fault" 1 "short to GND" 2 "short to Battery" 3 "Stuck" 4 "Open Circuit" 5 "switch failed" 6 "Reserved" 7 "Reserved" ;
+VAL_ 858 LanggSetng_HS 0 "Simplified Chinese" 1 "UK English" 2 "NA English" 3 "Swedish" 4 "French" 5 "Spanish" 6 "Dutch" 7 "Portuguese" 8 "Norwegian" 9 "Finnish" 10 "Danish" 11 "Greek" 12 "Japanese" 13 "Arabic" 14 "German" 15 "Polish" 16 "Turkish" 17 "Korean" 18 "Traditional Chinese" 19 "Italian" 20 "Hungarian" 21 "Czech" 22 "Slovak" 23 "Russian" 24 "Thai" ;
+VAL_ 1345 CalendarMonth_HS 0 "Unknown" 1 "January" 2 "February" 3 "March" 4 "April" 5 "May" 6 "June" 7 "July" 8 "August" 9 "September" 10 "October" 11 "November" 12 "December" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1345 TimeDspFmt_HS 0 "12 hour mode" 1 "24 hour mode" ;
+VAL_ 1123 IPCEcoDrvngSwA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 874 ClstrDistUnt_HS 0 "km" 1 "miles" ;
+VAL_ 874 ClstrFuelCsumpUnt_HS 0 "L/100km" 1 "mpg(UK)" 2 "mpg(US)" 3 "km/L" ;
+VAL_ 874 ClstrTemUnt_HS 0 "Celsius Degree(¡æ)" 1 "Fahrenheit Degree(¨H)" 2 "Not Available" 3 "Reserved" ;
+VAL_ 874 ClstrTyrePressureUnt_HS 0 "bar" 1 "kpa" 2 "Psi" ;
+VAL_ 1047 ClstrDspdABSWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdAirbagWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdAltrWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdASpdLmtrWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdBrkSysWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdCCWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdClntTemWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdEleccParkngBW_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdEnDrvByWireW_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdEPSWrnng_HS 0 "No Warning" 1 "General Warning" 2 "Serious Warning" 3 "Reserved" ;
+VAL_ 1047 ClstrDspdFuelLvlSgmt_HS 0 "1st Segment Flash" 1 "1st Segment On" 2 "2nd Segment On" 3 "3th Segment On" 4 "4th Segment On" 5 "5th Segment On" 6 "6th Segment On" 7 "7th Segment On" 8 "8th Segment On" ;
+VAL_ 1047 ClstrDspdFuelSnsrWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdFuelSts_HS 0 "Fuel Status OK" 1 "Fuel Status Low" 2 "Fuel Status Critical" 3 "Reserved" ;
+VAL_ 1047 ClstrDspdHDCWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdInfoMsk_HS 0 "Don¡®t Use Data" 1 "Use Data" ;
+VAL_ 1047 ClstrDspdInvdKeyWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdMalfIndrLghtW_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdOilPrsLowW_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdPDCWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdSASUncalWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdSASWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdSCSWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdScurtKeyBatLW_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdSpStWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdTCSWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdTrWrnng_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1047 ClstrDspdTyrePrsSts_HS 0 "No Warning" 1 "Low Tyre" 2 "System Failure" ;
+VAL_ 1144 ClstrDspdFLTireSts_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1144 ClstrDspdFRTireSts_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1144 ClstrDspdRLTireSts_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1144 ClstrDspdRRTireSts_HS 0 "No Warning" 1 "Warning" ;
+VAL_ 1144 StabCtrlDsblSwA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1531 wake_network_IPK_HS 0 "no wake-up network request" 1 "wake-up network request" ;
+VAL_ 1087 sm_network_mode_h1 0 "start-up" 1 "shutdown" 2 "normal" ;
+VAL_ 573 FLObsRng_HS 0 "No Obstacle" 1 "Range 1" 2 "Range 2" 3 "Range 3" 4 "Range 4" 5 "Range 5" 6 "Range 6" 7 "Range 7" 8 "Range 8" 9 "Range 9" 10 "Range 10" 11 "Range 11" 12 "Range 12" 13 "Range 13" 14 "Range 14" 15 "Range 15" ;
+VAL_ 573 FRObsRng_HS 0 "No Obstacle" 1 "Range 1" 2 "Range 2" 3 "Range 3" 4 "Range 4" 5 "Range 5" 6 "Range 6" 7 "Range 7" 8 "Range 8" 9 "Range 9" 10 "Range 10" 11 "Range 11" 12 "Range 12" 13 "Range 13" 14 "Range 14" 15 "Range 15" ;
+VAL_ 573 FrtMidLObsRng_HS 0 "No Obstacle" 1 "Range 1" 2 "Range 2" 3 "Range 3" 4 "Range 4" 5 "Range 5" 6 "Range 6" 7 "Range 7" 8 "Range 8" 9 "Range 9" 10 "Range 10" 11 "Range 11" 12 "Range 12" 13 "Range 13" 14 "Range 14" 15 "Range 15" ;
+VAL_ 573 FrtMidRObsRng_HS 0 "No Obstacle" 1 "Range 1" 2 "Range 2" 3 "Range 3" 4 "Range 4" 5 "Range 5" 6 "Range 6" 7 "Range 7" 8 "Range 8" 9 "Range 9" 10 "Range 10" 11 "Range 11" 12 "Range 12" 13 "Range 13" 14 "Range 14" 15 "Range 15" ;
+VAL_ 573 PDCCofignSts_HS 0 "3 rear sensors" 1 "4 rear sensors" 2 "4 rear sensors and 2 front side sensors" 3 "4 rear sensors and 4 front sensors" 4 "2 rear sensors" 5 "Reserved" 6 "Reserved" 7 "Reserved" ;
+VAL_ 573 PDCSysSts_HS 0 "System OK" 1 "System initialization sucessful" 2 "System Failed" 3 "System Disabled" 4 "Front PDC Disabled" 5 "Front PDC Failed" 6 "Rear PDC Failed" 7 "Rear PDC Disabled" ;
+VAL_ 573 RLObsRng_HS 0 "No Obstacle" 1 "Range 1" 2 "Range 2" 3 "Range 3" 4 "Range 4" 5 "Range 5" 6 "Range 6" 7 "Range 7" 8 "Range 8" 9 "Range 9" 10 "Range 10" 11 "Range 11" 12 "Range 12" 13 "Range 13" 14 "Range 14" 15 "Range 15" ;
+VAL_ 573 RrMidLObsRng_HS 0 "No Obstacle" 1 "Range 1" 2 "Range 2" 3 "Range 3" 4 "Range 4" 5 "Range 5" 6 "Range 6" 7 "Range 7" 8 "Range 8" 9 "Range 9" 10 "Range 10" 11 "Range 11" 12 "Range 12" 13 "Range 13" 14 "Range 14" 15 "Range 15" ;
+VAL_ 573 RrMidRObsRng_HS 0 "No Obstacle" 1 "Range 1" 2 "Range 2" 3 "Range 3" 4 "Range 4" 5 "Range 5" 6 "Range 6" 7 "Range 7" 8 "Range 8" 9 "Range 9" 10 "Range 10" 11 "Range 11" 12 "Range 12" 13 "Range 13" 14 "Range 14" 15 "Range 15" ;
+VAL_ 573 RRObsRng_HS 0 "No Obstacle" 1 "Range 1" 2 "Range 2" 3 "Range 3" 4 "Range 4" 5 "Range 5" 6 "Range 6" 7 "Range 7" 8 "Range 8" 9 "Range 9" 10 "Range 10" 11 "Range 11" 12 "Range 12" 13 "Range 13" 14 "Range 14" 15 "Range 15" ;
+VAL_ 485 StrgWhlAngSnsrCalSts_HS 0 "Unkonw" 1 "Estimated" 2 "Calibrated" 3 "Unkonw" ;
+VAL_ 485 StrgWhlAngSnsrFlt_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 455 AutoHoldSysSts_HS 0 "Off" 1 "intervention" 2 "standby" 3 "error" ;
+VAL_ 562 HDCSysSts_HS 0 "Normal" 1 "Enabled" 2 "Active" 3 "Failed" 4 "Temporarily Inhibited" ;
+VAL_ 532 BrkFludLvlLow_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 532 BrkFludLvlLowV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 840 WhlGndVelLDrvnV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 840 WhlGndVelRDrvnV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 842 WhlGndVelLNonDrvnV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 842 WhlGndVelRNonDrvnV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 381 ABSIO_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 381 BrkSysRedBrkTlltReq_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 381 TCSOpngMd_HS 0 "Off" 1 "Normal" 2 "Off Road" ;
+VAL_ 381 TCSOpngSts_HS 0 "Inactive" 1 "Active" 2 "Fault" ;
+VAL_ 381 VSEMd_HS 0 "Off" 1 "Normal" 2 "Competitive" ;
+VAL_ 381 VSESts_HS 0 "Inactive" 1 "Active" 2 "Fault" 3 "Warming Up" 4 "Not Ready" ;
+VAL_ 837 AutoHoldMsg_HS 0 "reserved" 1 "Seat belt not fastend" 2 "Press brake pedal" 3 "Autohold standby" 4 "Autohold off" 5 "Autohold release" 6 "reserved" 7 "reserved" ;
+VAL_ 851 DistRCAvgDrvnV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 851 VehSpdAvgDrvnV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 355 AirbagSysFltIndCmd_HS 0 "drive lamp OFF" 1 "drive lamp ON  " 2 "drive lamp Flashing" 3 "reserved" ;
+VAL_ 355 FasnDrvrSbltIndCmd_HS 0 "drive lamp OFF" 1 "drive lamp ON  " 2 "drive lamp Flashing" 3 "Signal not available" ;
+VAL_ 355 FasnFrtPsngSbltIndCmd_HS 0 "drive lamp OFF" 1 "drive lamp ON  " 2 "drive lamp Flashing" 3 "Signal not available" ;
+VAL_ 355 FasnSbltAudRmndr_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 355 FasnSecRowLSbltIndCmd_HS 0 "Off Indication" 1 "On Indication" 2 "Flashing Indication" 3 "Reserved" ;
+VAL_ 355 FasnSecRowMidSbltIndC_HS 0 "Off Indication" 1 "On Indication" 2 "Flashing Indication" 3 "Reserved" ;
+VAL_ 355 FasnSecRowRSbltIndCmd_HS 0 "Off Indication" 1 "On Indication" 2 "Flashing Indication" 3 "Reserved" ;
+VAL_ 1225 TrNonEmsnRltdMalfA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1072 keep_network_TPMS_HS 0 "no keep network request" 1 "keep network request" ;
+VAL_ 1149 FLTirePrsV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1149 FLTireTemV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1149 FRTirePrsV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1149 FRTireTemV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1149 RLTirePrsV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1149 RLTireTemV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1149 RRTirePrsV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1149 RRTireTemV_HS 0 "Valid" 1 "Invalid" ;
+VAL_ 1150 FLTireSts_HS 0 "Normal" 1 "Unkown" 2 "Pressure Low" 3 "Quick leak" 4 "Pressure High" 5 "Temperature High" 6 "Axle Pressure imbalance" 7 "Battery Low" ;
+VAL_ 1150 FRTireSts_HS 0 "Normal" 1 "Unkown" 2 "Pressure Low" 3 "Quick leak" 4 "Pressure High" 5 "Temperature High" 6 "Axle Pressure imbalance" 7 "Battery Low" ;
+VAL_ 1150 RLTireSts_HS 0 "Normal" 1 "Unkown" 2 "Pressure Low" 3 "Quick leak" 4 "Pressure High" 5 "Temperature High" 6 "Axle Pressure imbalance" 7 "Battery Low" ;
+VAL_ 1150 RRTireSts_HS 0 "Normal" 1 "Unkown" 2 "Pressure Low" 3 "Quick leak" 4 "Pressure High" 5 "Temperature High" 6 "Axle Pressure imbalance" 7 "Battery Low" ;
+VAL_ 1150 TPMSAutoLoctnCm_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1150 TPMSF_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1150 TPMSIdficnLrnCm_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1150 TPMSTirePrsLowIO_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1150 TPMSWntrMdA_HS 0 "FALSE" 1 "TRUE" ;
+VAL_ 1060 wake_network_TPMS_HS 0 "no wake-up network request" 1 "wake-up network request" ;

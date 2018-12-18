@@ -1,0 +1,550 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\hsd.dbo -source=hsd.c -o .\obj\gh_00000js1.o -list=.\obj\hsd.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si
+Source File: hsd.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\HSD\hsd.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si
+                         112 --		-o .\obj\hsd.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\HSD\hsd.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:35 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : hsd.c
+                         128 --5: * Description : HSD module Application
+                         129 --6: * Author: Hejianjun
+                         130 --7: * Date: 2016-12-03
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "hsd_info.inc"
+                         134 --13: static BOOL hsd_InitSts = FALSE;
+                         135 --14: static  BOOL hsd_GNetAccryStatus = FALSE;
+                         136 --15: static  BOOL hsd_GNetRunCrankStatus =  FALSE;
+                         137 --17: static  U8 hsd_GCounter = 0;
+                         138 --18: /***************************************************
+                         139 --19: * Function: HSD_Init
+                         140 --20: * Description: HSD module initialized
+                         141 --21: * Parameters: none
+                         142 --22: * Returns: none
+                         143 --23: * $Create & Verlog:$
+                         144 --24: * Author:Hejianjun  Date:2016-12-01   Version:V1.3
+                         145 --25: ****************************************************/
+                         146 --26: void HSD_Init(void)
+                         147 	.text
+                         148 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036F..0::
+                         149 	.align	2
+                         150 	.global	_HSD_Init
+                         151 _HSD_Init:
+00000000 8007e100        152 	prepare	{r28,r29,r31},0
+00000004 3d0600000000*   153 	mov	.L34,r29
+0000000a 1de0            154 	mov	r29,r28
+                         155 --	    .bf
+                         156 .LDW01:
+                         157 --27: {
+                         158 --28:     hsd_GNetAccryStatus = FALSE;
+0000000c 5d070100        159 	st.b	zero,1[r29]
+                         160 --29:     hsd_GNetRunCrankStatus = FALSE;
+00000010 5d070200        161 	st.b	zero,2[r29]
+                         162 --30:     hsd_InitSts = FALSE;
+00000014 5d070000        163 	st.b	zero,0[r29]
+                         164 --31:     hsd_GCounter = 0;
+00000018 5d070300        165 	st.b	zero,3[r29]
+                         166 --32:     
+                         167 --33:     hsd_InitSts = IOM_GetModuleStatus();                                       /*get IOM module status */
+                         168 	jarl	_IOM_GetModuleStatus,lp
+                         168 <EXPANSION BEGIN>
+                         168 jarl22 _IOM_GetModuleStatus , lp 
+0000001c 80ff0000*       168 <EXPANSION END>
+00000020 5d570000        169 	st.b	r10,0[r29]
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si
+                         170 --34: }
+                         171 --line34
+                         172 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.1::
+                         173 .LDWlin1:
+00000024 0000            174 	nop
+                         175 --	    .ef
+                         176 .LDW11:
+00000026 4006ff00        177 	dispose	0,{r28,r29,r31},[lp]
+                         178 	.type	_HSD_Init,@function
+                         179 	.size	_HSD_Init,.-_HSD_Init
+                         180 	.align	2
+                         181 .LDW21:
+                         182 
+                         183 	.data
+                         184 .L34:
+                         185 	.type	.L34,@object
+                         186 	.size	.L34,0
+                         187 	.global	_hsd_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.
+                         188 _hsd_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.:
+                         189 	.type	_hsd_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.,@object
+                         190 	.size	_hsd_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.,1
+00000000 00              191 _hsd_InitSts:	.byte	0
+                         192 	.type	_hsd_InitSts,@object
+                         193 	.size	_hsd_InitSts,1
+                         194 	.global	_hsd_GNetAccryStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.
+                         195 _hsd_GNetAccryStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.:
+                         196 	.type	_hsd_GNetAccryStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.,@object
+                         197 	.size	_hsd_GNetAccryStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.,1
+00000001 00              198 _hsd_GNetAccryStatus:	.byte	0
+                         199 	.type	_hsd_GNetAccryStatus,@object
+                         200 	.size	_hsd_GNetAccryStatus,1
+                         201 	.global	_hsd_GNetRunCrankStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.
+                         202 _hsd_GNetRunCrankStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.:
+                         203 	.type	_hsd_GNetRunCrankStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.,@object
+                         204 	.size	_hsd_GNetRunCrankStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.,1
+00000002 00              205 _hsd_GNetRunCrankStatus:	.byte	0
+                         206 	.type	_hsd_GNetRunCrankStatus,@object
+                         207 	.size	_hsd_GNetRunCrankStatus,1
+                         208 	.global	_hsd_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.
+                         209 _hsd_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.:
+                         210 	.type	_hsd_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.,@object
+                         211 	.size	_hsd_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.,1
+00000003 00              212 _hsd_GCounter:	.byte	0
+                         213 	.type	_hsd_GCounter,@object
+                         214 	.size	_hsd_GCounter,1
+                         215 	.text
+                         216 
+                         217 
+                         218 --36: /***************************************************
+                         219 --37: * Function: HSD_Process_100ms
+                         220 --38: * Description: the process of the HSD module
+                         221 --39: * Parameters: none
+                         222 --40: * Returns: none
+                         223 --41: * $Create & Verlog:$
+                         224 --42: * Author:Hejianjun   Date:2016-12-01   Version:V1.3
+                         225 --43: ****************************************************/
+                         226 --44: void HSD_Process_100ms(void)
+                         227 	.align	2
+                         228 	.align	2
+                         229 	.global	_HSD_Process_100ms
+                         230 _HSD_Process_100ms:
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si
+0000002a 8207e170        231 	prepare	{r25,r26,r27,r28,r29,r31},1
+0000002e 3d0600000000*   232 	mov	_hsd_InitSts,r29
+00000034 3c0600000000*   233 	mov	_Hsd_Matrix,r28
+0000003a 3dd60200        234 	movea	2,r29,r26
+0000003e 3dce0100        235 	movea	1,r29,r25
+                         236 --	    .bf
+                         237 .LDW31:
+                         238 --45: {
+                         239 --46: 	U8 PwrSts;
+                         240 --47: 	U8 res;
+                         241 --49:     if (TRUE == hsd_InitSts)
+00000042 210600000000*   242 	mov	_hsd_InitSts,r1
+00000048 810f0100        243 	ld.bu	0[r1],r1
+0000004c 610a            244 	cmp	1,r1
+0000004e da2d*           245 	bne	.L63
+                         246 --50:     {
+                         247 --51: 	    res = PWR_GetPwrMode(&PwrSts);
+                         248 --line51
+                         249 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.2::
+                         250 .LDWlin2:
+00000050 23360300        251 	movea	3,sp,r6
+                         252 	jarl	_PWR_GetPwrMode,lp
+                         252 <EXPANSION BEGIN>
+                         252 jarl22 _PWR_GetPwrMode , lp 
+00000054 80ff0000*       252 <EXPANSION END>
+00000058 0ad8            253 	mov	r10,r27
+                         254 --52: 	    if (PWR_UNKNOWN != PwrSts)
+                         255 --line52
+                         256 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.3::
+                         257 .LDWlin3:
+0000005a a30f0300        258 	ld.bu	3[sp],r1
+0000005e 640a            259 	cmp	4,r1
+00000060 822d*           260 	be	.L68
+                         261 --53: 	    {
+                         262 --54: 	    #if (0 == PDC_SYNC_TEST)
+                         263 --55: 	    	{
+                         264 --56: 	        	IOM_SetOutPutLevel(INDEX_IOOUTPUT_IGNHSD, Hsd_Matrix[PwrSts].ign_HSD);
+                         265 --line56
+                         266 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.4::
+                         267 .LDWlin4:
+00000062 a30f0300        268 	ld.bu	3[sp],r1
+00000066 0532            269 	mov	5,r6
+00000068 c20a            270 	shl	2,r1
+0000006a 01f0            271 	mov	r1,ep
+0000006c dcf1            272 	add	r28,ep
+0000006e 6138            273 	sld.bu	1[ep],r7
+                         274 	jarl	_IOM_SetOutPutLevel,lp
+                         274 <EXPANSION BEGIN>
+                         274 jarl22 _IOM_SetOutPutLevel , lp 
+00000070 80ff0000*       274 <EXPANSION END>
+                         275 --57: 	        	IOM_SetOutPutLevel(INDEX_IOOUTPUT_ACCHSD, Hsd_Matrix[PwrSts].acc_HSD);
+                         276 --line57
+                         277 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.5::
+                         278 .LDWlin5:
+00000074 a30f0300        279 	ld.bu	3[sp],r1
+00000078 0632            280 	mov	6,r6
+0000007a c20a            281 	shl	2,r1
+0000007c 01f0            282 	mov	r1,ep
+0000007e dcf1            283 	add	r28,ep
+00000080 6038            284 	sld.bu	0[ep],r7
+                         285 	jarl	_IOM_SetOutPutLevel,lp
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si
+                         285 <EXPANSION BEGIN>
+                         285 jarl22 _IOM_SetOutPutLevel , lp 
+00000082 80ff0000*       285 <EXPANSION END>
+                         286 --58: 	    	}
+                         287 --59: #endif
+                         288 --60: 	        hsd_GNetAccryStatus = Hsd_Matrix[PwrSts].ipcArryA;
+                         289 --line60
+                         290 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.6::
+                         291 .LDWlin6:
+00000086 a30f0300        292 	ld.bu	3[sp],r1
+0000008a c20a            293 	shl	2,r1
+0000008c 01f0            294 	mov	r1,ep
+0000008e dcf1            295 	add	r28,ep
+00000090 6208            296 	sld.bu	2[ep],r1
+00000092 5d0f0100        297 	st.b	r1,1[r29]
+                         298 --61: 	        hsd_GNetRunCrankStatus = Hsd_Matrix[PwrSts].ipcRunCrkA;
+00000096 a30f0300        299 	ld.bu	3[sp],r1
+0000009a c20a            300 	shl	2,r1
+0000009c 01f0            301 	mov	r1,ep
+0000009e dcf1            302 	add	r28,ep
+000000a0 6308            303 	sld.bu	3[ep],r1
+000000a2 5d0f0200        304 	st.b	r1,2[r29]
+000000a6 d505*           305 	br	.L68
+                         306 .L63:
+                         307 --62: 	    }
+                         308 --63: 	    else
+                         309 --64: 	    {
+                         310 --65: 	    }
+                         311 --67:     }
+                         312 --68:     else
+                         313 --69:     {
+                         314 --70:         hsd_GNetAccryStatus = FALSE;
+                         315 --line70
+                         316 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.7::
+                         317 .LDWlin7:
+000000a8 5d070100        318 	st.b	zero,1[r29]
+                         319 --71:         hsd_GNetRunCrankStatus= FALSE;
+000000ac 5d070200        320 	st.b	zero,2[r29]
+                         321 .L68:
+                         322 --72:     }
+                         323 --73: 	
+                         324 --74: }
+000000b0 0000            325 	nop
+                         326 --	    .ef
+                         327 .LDW41:
+000000b2 4206ff70        328 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                         329 	.type	_HSD_Process_100ms,@function
+                         330 	.size	_HSD_Process_100ms,.-_HSD_Process_100ms
+                         331 	.align	2
+                         332 .LDW51:
+                         333 --_PwrSts	3[sp]	local
+                         334 --_res	r27	local
+                         335 
+                         336 	.data
+                         337 	.text
+                         338 
+                         339 
+                         340 --76: /***************************************************
+                         341 --77: * Function: hsd_outPutProcess_5ms
+                         342 --78: * Description: the output control of the IGN and ACC with the period of 5ms
+                         343 --79: * Parameters:  input: none
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si
+                         344 --80: * Returns: none
+                         345 --81: * $Create & Verlog:$
+                         346 --82: * Author:Hejianjun  Date:2016-12-03   Version:V1.3
+                         347 --83: ****************************************************/
+                         348 --84: static void hsd_outPutProcess_5ms(void)
+                         349 --85: {
+                         350 --86:     U8 PwrSts;
+                         351 --87:     U8 res;
+                         352 --89:     res = PWR_GetPwrMode(&PwrSts);
+                         353 --90:     if ((RET_OK== res)&&(PWR_UNKNOWN != PwrSts))
+                         354 --91:     {
+                         355 --92:         IOM_SetOutPutLevel(INDEX_IOOUTPUT_IGNHSD, Hsd_Matrix[PwrSts].ign_HSD);
+                         356 --93:         IOM_SetOutPutLevel(INDEX_IOOUTPUT_ACCHSD, Hsd_Matrix[PwrSts].acc_HSD);
+                         357 --94:         hsd_GNetAccryStatus = Hsd_Matrix[PwrSts].ipcArryA;
+                         358 --95:         hsd_GNetRunCrankStatus = Hsd_Matrix[PwrSts].ipcRunCrkA;
+                         359 --96:     }
+                         360 --97:     else
+                         361 --98:     {
+                         362 --99:     }
+                         363 --100: }
+                         364 --102: /***************************************************
+                         365 --103: * Function: hsd_FeedBackProcess_30ms
+                         366 --104: * Description: the ADC feedback output to check the output of ACC and IGN
+                         367 --105: * Parameters:  input: none
+                         368 --106: * Returns: none
+                         369 --107: * $Create & Verlog:$
+                         370 --108: * Author:Hejianjun  Date:2016-12-01   Version:V1.3
+                         371 --109: ****************************************************/
+                         372 --111: /***************************************************
+                         373 --112: * Function: HSD_SendNetSignal_5ms
+                         374 --113: * Description: the ADC feedback output to check the output of ACC and IGN
+                         375 --114: * Parameters:  input: none
+                         376 --115: * Returns: none
+                         377 --116: * $Create & Verlog:$
+                         378 --117: * Author:Hejianjun  Date:2016-12-01   Version:V1.3
+                         379 --118: ****************************************************/
+                         380 --119: void HSD_SendNetSignal_5ms(void)
+                         381 	.align	2
+                         382 	.align	2
+                         383 	.global	_HSD_SendNetSignal_5ms
+                         384 _HSD_SendNetSignal_5ms:
+000000b6 80076100        385 	prepare	{r29,r31},0
+000000ba 3d0600000000*   386 	mov	_hsd_GNetAccryStatus-1,r29
+                         387 --	    .bf
+                         388 .LDW61:
+                         389 --120: {
+                         390 --121:     v_wr_bool(IPCAccryA_handle, hsd_GNetAccryStatus);                     /*need update signal handle*/
+000000c0 270600000000*   391 	mov	_hsd_GNetAccryStatus,r7
+000000c6 873f0100        392 	ld.bu	0[r7],r7
+000000ca 2606bc323f00    393 	mov	4141756,r6
+                         394 	jarl	_v_wr_bool,lp
+                         394 <EXPANSION BEGIN>
+                         394 jarl22 _v_wr_bool , lp 
+000000d0 80ff0000*       394 <EXPANSION END>
+                         395 --122:     v_wr_bool(IPCRunCrkA_handle, hsd_GNetRunCrankStatus);              /*need update signal handle*/
+                         396 --line122
+                         397 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.8::
+                         398 .LDWlin8:
+000000d4 9d3f0300        399 	ld.bu	2[r29],r7
+000000d8 260604333f00    400 	mov	4141828,r6
+                         401 	jarl	_v_wr_bool,lp
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si
+                         401 <EXPANSION BEGIN>
+                         401 jarl22 _v_wr_bool , lp 
+000000de 80ff0000*       401 <EXPANSION END>
+                         402 --123: }
+                         403 --line123
+                         404 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd.9::
+                         405 .LDWlin9:
+000000e2 0000            406 	nop
+                         407 --	    .ef
+                         408 .LDW71:
+000000e4 40067f00        409 	dispose	0,{r29,r31},[lp]
+                         410 	.type	_HSD_SendNetSignal_5ms,@function
+                         411 	.size	_HSD_SendNetSignal_5ms,.-_HSD_SendNetSignal_5ms
+                         412 	.align	2
+                         413 .LDW81:
+                         414 
+                         415 	.data
+                         416 	.text
+                         417 
+                         418 
+                         419 --125: /***************************************************
+                         420 --126: * Function:  hsd_Diag_50ms
+                         421 --127: * Description: HSD DTC reserved(V2)
+                         422 --128: * Parameters: none
+                         423 --129: * Returns: none
+                         424 --130: * $Create & Verlog:$
+                         425 --131: * Author:Hejianjun  Date:2016-12-01   Version:V1.3
+                         426 --132: ****************************************************/
+                         427 --134: /***************************************************
+                         428 --135: * Function:  HSD_GetInitStatus
+                         429 --136: * Description: get the HSD module initialized status
+                         430 --137: * Parameters: none
+                         431 --138: * Returns: TRUE or FALSE
+                         432 --139: * $Create & Verlog:$
+                         433 --140: * Author:Hejianjun  Date:2016-12-01   Version:V1.3
+                         434 --141: ****************************************************/
+                         435 --142: BOOL HSD_GetInitStatus(void)
+                         436 	.align	2
+                         437 	.align	2
+                         438 	.global	_HSD_GetInitStatus
+                         439 _HSD_GetInitStatus:
+000000e8 210600000000*   440 	mov	_hsd_InitSts,r1
+                         441 --	    .bf
+                         442 .LDW91:
+                         443 --143: {
+                         444 --144:     return hsd_InitSts;
+000000ee 2a0600000000*   445 	mov	_hsd_InitSts,r10
+000000f4 8a570100        446 	ld.bu	0[r10],r10
+                         447 --	    .ef
+                         448 .LDW02:
+000000f8 7f00            449 	jmp	[lp]
+                         450 	.type	_HSD_GetInitStatus,@function
+                         451 	.size	_HSD_GetInitStatus,.-_HSD_GetInitStatus
+                         452 	.align	2
+                         453 .LDW12:
+                         454 
+                         455 	.data
+                         456 	.text
+                         457 
+                         458 --145: }
+                         459 	.align	2
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00000js1.si
+                         460 --_hsd_InitSts	_hsd_InitSts	static
+                         461 --_hsd_GNetAccryStatus	_hsd_GNetAccryStatus	static
+                         462 --_hsd_GNetRunCrankStatus	_hsd_GNetRunCrankStatus	static
+                         463 --_hsd_GCounter	_hsd_GCounter	static
+                         464 
+                         465 	.section ".rodata","a"
+                         466 	.global	_Hsd_Matrix
+00000000 00              467 _Hsd_Matrix:	.space	1
+00000001 00              468 	.space	1
+00000002 00              469 	.space	1
+00000003 00              470 	.space	1
+00000004 01              471 	.byte	1
+00000005 00              472 	.space	1
+00000006 01              473 	.byte	1
+00000007 00              474 	.space	1
+00000008 01010101        475 	.byte	1,1,1,1
+0000000c 00              476 	.space	1
+0000000d 00              477 	.space	1
+0000000e 00              478 	.space	1
+0000000f 00              479 	.space	1
+00000010 00              480 	.space	1
+00000011 00              481 	.space	1
+00000012 00              482 	.space	1
+00000013 00              483 	.space	1
+                         484 	.type	_Hsd_Matrix,@object
+                         485 	.size	_Hsd_Matrix,20
+                         486 	.data
+                         487 	.ghsnote version,14
+                         488 	.ghsnote tools,3
+                         489 	.ghsnote options,144
+                         490 	.text
+                         491 	.align	2
+                         492 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chsd...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036F..0::
+                         493 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

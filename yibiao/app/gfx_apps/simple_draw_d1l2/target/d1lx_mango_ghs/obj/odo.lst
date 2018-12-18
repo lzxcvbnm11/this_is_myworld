@@ -1,0 +1,2132 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\odo.dbo -source=odo.c -o .\obj\gh_000082g1.o -list=.\obj\odo.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+Source File: odo.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\ODO\odo.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                         112 --		-o .\obj\odo.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\ODO\odo.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:33 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : odo.c
+                         128 --5: * Description : odo module api
+                         129 --6: * Author: Xueping.Chen
+                         130 --7: * Date: 2016-12-07
+                         131 --8: ******************************************************************************/
+                         132 --9: #include "odo_info.inc"
+                         133 --12: static U16 odo_NetDistRCAvgDRVN;   /* 信号*/
+                         134 --13: static U8 odo_NetDistRCAvgDRVNV;  /* 判断信号有效性*/
+                         135 --14: static U8 odo_IncDis;                       /* 里程差*/
+                         136 --15: static U32 odo_Odo;                          /*从eeprom中读取的最大里程值*/
+                         137 --16: static U32 odo_Trip1 ;                       /* Trip1 */
+                         138 --17: static U32 odo_Trip2 ;                       /* Trip2 */
+                         139 --18: static U32 odo_NetSIAOdoPriy; /*V2 reserved*/
+                         140 --19: static U32 odo_SiaRemain; /*V2 reserved*/
+                         141 --20: static U32 odo_SIADisplay; /*V2 reserved*/
+                         142 --21: static U32 odo_OdoDisplay;  /* HMI显示的里程值*/
+                         143 --22: static U32 odo_NetOdoPriy;  /*里程米转公里*/
+                         144 --23: static U32 odo_NetOdoSecy;  /*bcm 发出的里程值*/
+                         145 --24: static U32 odo_NetVehOdo;  /*bcm 发出的里程值*/
+                         146 --25: static U8 odo_Index;    /*小标*/
+                         147 --26: static U32 odo_Write;    /*写入eeprom的里程值*/
+                         148 --27: static U8 odo_FltInValidCnt; /*V2 reserved*/
+                         149 --28: static U8 odo_FltFrmLstCnt; /*V2 reserved*/
+                         150 --29: static OdoFlt_ST odo_FltStatus[FLT_ODO_ALL];
+                         151 --30: static BOOL odo_InitSts = FALSE;    /* 初始化状态*/
+                         152 --31: static U32 SIAOdoPriy = 0;
+                         153 --32: static U8 insOdoOffestPrm;
+                         154 --33: static U8 insOdoIncFactorPlatformPrm;
+                         155 --34: static U8 insTripRollOverPrm;
+                         156 --35: static U8 insSIAModePrm; 
+                         157 --36: static U16 insSIADistPrm;  
+                         158 --37: static U16 insSIADistThresPrm;
+                         159 --40: /***************************************************
+                         160 --41: * Function: ODO_Init
+                         161 --42: * Description: the initializing of the odo module
+                         162 --43: * Parameters:  none
+                         163 --44: * Returns: none
+                         164 --45: * $Create & Verlog:$
+                         165 --46: * Author:Xueping.Chen  Date:2016-12-07   Version:V1.0
+                         166 --47: ****************************************************/
+                         167 --48: void ODO_Init(void)
+                         168 	.text
+                         169 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036D..0::
+                         170 	.align	2
+                         171 	.global	_ODO_Init
+                         172 _ODO_Init:
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+00000000 9607e170        173 	prepare	{r25,r26,r27,r28,r29,r31},11
+00000004 3d0600000000*   174 	mov	.L158,r29
+0000000a 3dd63b00        175 	movea	59,r29,r26
+                         176 --	    .bf
+                         177 .LDW01:
+                         178 --49: {
+                         179 --50:     U8 i = 0;
+0000000e 00e2            180 	mov	0,r28
+                         181 --51:     U8 res = 0;
+00000010 00ca            182 	mov	0,r25
+                         183 --52:     U8 tempIndex = 0;
+00000012 00da            184 	mov	0,r27
+                         185 --53:     U32 odoBuf[ODO_EEPROM_NUM];
+                         186 --54:     U32 odoValue = 0;
+00000014 63070100        187 	st.w	zero,0[sp]
+                         188 --55:     
+                         189 --56:     odo_InitSts = FALSE;
+00000018 2b0600000000*   190 	mov	_odo_InitSts,r11
+0000001e 4b070000        191 	st.b	zero,0[r11]
+                         192 --60:     for(i =0 ;i<5;i++)
+00000022 00e2            193 	mov	0,r28
+00000024 0000            194 	nop
+                         195 .L6:
+                         196 --61:     {
+                         197 --62:         odoBuf[i] = 0;
+00000026 1cf0            198 	mov	r28,ep
+00000028 c2f2            199 	shl	2,ep
+0000002a 23761800        200 	movea	24,sp,r14
+0000002e cef1            201 	add	r14,ep
+00000030 0105            202 	sst.w	zero,0[ep]
+00000032 41e2            203 	add	1,r28
+00000034 9c00            204 	zxb	r28
+00000036 65e2            205 	cmp	5,r28
+00000038 f1f5*           206 	bl	.L6
+                         207 --63:     }
+                         208 --65:     NZM_GetDataValue(INDEX_NZM_TRIP1,&odo_Trip1,sizeof(odo_Trip1));
+                         209 --line65
+                         210 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.1::
+                         211 .LDWlin1:
+0000003a 3d3e0400        212 	movea	4,r29,r7
+0000003e 0032            213 	mov	0,r6
+00000040 0442            214 	mov	4,r8
+                         215 	jarl	_NZM_GetDataValue,lp
+                         215 <EXPANSION BEGIN>
+                         215 jarl22 _NZM_GetDataValue , lp 
+00000042 80ff0000*       215 <EXPANSION END>
+                         216 --66:     NZM_GetDataValue(INDEX_NZM_TRIP2,&odo_Trip2,sizeof(odo_Trip2));
+                         217 --line66
+                         218 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.2::
+                         219 .LDWlin2:
+00000046 3d3e0800        220 	movea	8,r29,r7
+0000004a 0132            221 	mov	1,r6
+0000004c 0442            222 	mov	4,r8
+                         223 	jarl	_NZM_GetDataValue,lp
+                         223 <EXPANSION BEGIN>
+                         223 jarl22 _NZM_GetDataValue , lp 
+0000004e 80ff0000*       223 <EXPANSION END>
+                         224 --68:     tempIndex =0;
+                         225 --line68
+                         226 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.3::
+                         227 .LDWlin3:
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+00000052 00da            228 	mov	0,r27
+                         229 --69:     if (RET_OK == NZM_GetDataValue(INDEX_NZM_ODO,&odoValue,4)) 
+00000054 233e0000        230 	movea	0,sp,r7
+00000058 0432            231 	mov	4,r6
+0000005a 0442            232 	mov	4,r8
+                         233 	jarl	_NZM_GetDataValue,lp
+                         233 <EXPANSION BEGIN>
+                         233 jarl22 _NZM_GetDataValue , lp 
+0000005c 80ff0000*       233 <EXPANSION END>
+                         234 --70:     {
+                         235 --71: 	    /*eeprom存储的5个ODO 值*/
+                         236 --72:     }
+                         237 --73:     
+                         238 --74:     res = NVM_GetParas(INDEX_NVM_ODO0, &odoBuf[0], ODO_EEPROM_LEN);
+                         239 --line74
+                         240 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.4::
+                         241 .LDWlin4:
+00000060 233e1800        242 	movea	24,sp,r7
+00000064 20368a00        243 	movea	138,zero,r6
+00000068 0442            244 	mov	4,r8
+                         245 	jarl	_NVM_GetParas,lp
+                         245 <EXPANSION BEGIN>
+                         245 jarl22 _NVM_GetParas , lp 
+0000006a 80ff0000*       245 <EXPANSION END>
+0000006e 0ac8            246 	mov	r10,r25
+                         247 --75:     res = NVM_GetParas(INDEX_NVM_ODO1, &odoBuf[1], ODO_EEPROM_LEN);
+                         248 --line75
+                         249 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.5::
+                         250 .LDWlin5:
+00000070 233e1c00        251 	movea	28,sp,r7
+00000074 20368b00        252 	movea	139,zero,r6
+00000078 0442            253 	mov	4,r8
+                         254 	jarl	_NVM_GetParas,lp
+                         254 <EXPANSION BEGIN>
+                         254 jarl22 _NVM_GetParas , lp 
+0000007a 80ff0000*       254 <EXPANSION END>
+0000007e 0ac8            255 	mov	r10,r25
+                         256 --76:     res = NVM_GetParas(INDEX_NVM_ODO2, &odoBuf[2], ODO_EEPROM_LEN);
+                         257 --line76
+                         258 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.6::
+                         259 .LDWlin6:
+00000080 233e2000        260 	movea	32,sp,r7
+00000084 20368c00        261 	movea	140,zero,r6
+00000088 0442            262 	mov	4,r8
+                         263 	jarl	_NVM_GetParas,lp
+                         263 <EXPANSION BEGIN>
+                         263 jarl22 _NVM_GetParas , lp 
+0000008a 80ff0000*       263 <EXPANSION END>
+0000008e 0ac8            264 	mov	r10,r25
+                         265 --77:     res = NVM_GetParas(INDEX_NVM_ODO3, &odoBuf[3], ODO_EEPROM_LEN);
+                         266 --line77
+                         267 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.7::
+                         268 .LDWlin7:
+00000090 233e2400        269 	movea	36,sp,r7
+00000094 20368d00        270 	movea	141,zero,r6
+00000098 0442            271 	mov	4,r8
+                         272 	jarl	_NVM_GetParas,lp
+                         272 <EXPANSION BEGIN>
+                         272 jarl22 _NVM_GetParas , lp 
+0000009a 80ff0000*       272 <EXPANSION END>
+0000009e 0ac8            273 	mov	r10,r25
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                         274 --78:     res = NVM_GetParas(INDEX_NVM_ODO4, &odoBuf[4], ODO_EEPROM_LEN);
+                         275 --line78
+                         276 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.8::
+                         277 .LDWlin8:
+000000a0 233e2800        278 	movea	40,sp,r7
+000000a4 20368e00        279 	movea	142,zero,r6
+000000a8 0442            280 	mov	4,r8
+                         281 	jarl	_NVM_GetParas,lp
+                         281 <EXPANSION BEGIN>
+                         281 jarl22 _NVM_GetParas , lp 
+000000aa 80ff0000*       281 <EXPANSION END>
+000000ae 0ac8            282 	mov	r10,r25
+                         283 --79: 	
+                         284 --80:     for (i = 0; i < ODO_EEPROM_NUM; i++)
+                         285 --line80
+                         286 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.9::
+                         287 .LDWlin9:
+000000b0 00e2            288 	mov	0,r28
+000000b2 0000            289 	nop
+                         290 .L11:
+                         291 --81:     {
+                         292 --82:     	
+                         293 --83:         if (odoBuf[i] >= odoBuf[tempIndex])
+000000b4 1cf0            294 	mov	r28,ep
+000000b6 1b08            295 	mov	r27,r1
+000000b8 c2f2            296 	shl	2,ep
+000000ba 23761800        297 	movea	24,sp,r14
+000000be c20a            298 	shl	2,r1
+000000c0 cef1            299 	add	r14,ep
+000000c2 ce09            300 	add	r14,r1
+000000c4 210f0100        301 	ld.w	0[r1],r1
+000000c8 0075            302 	sld.w	0[ep],r14
+000000ca e171            303 	cmp	r1,r14
+000000cc a105*           304 	bl	.L14
+                         305 --84:         {
+                         306 --85:             tempIndex = i;
+                         307 --line85
+                         308 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.10::
+                         309 .LDWlin10:
+000000ce 1cd8            310 	mov	r28,r27
+                         311 .L14:
+                         312 --86:         }
+                         313 --87:         else
+                         314 --88:         {
+000000d0 41e2            315 	add	1,r28
+000000d2 9c00            316 	zxb	r28
+000000d4 65e2            317 	cmp	5,r28
+000000d6 f1ed*           318 	bl	.L11
+                         319 --89:         }
+                         320 --90:     }
+                         321 --91:     res = NVM_GetParas(INDEX_NVM_Y_SIAODOPRIY, &SIAOdoPriy, 3);
+                         322 --line91
+                         323 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.11::
+                         324 .LDWlin11:
+000000d8 270600000000*   325 	mov	_SIAOdoPriy,r7
+000000de 20368100        326 	movea	129,zero,r6
+000000e2 0342            327 	mov	3,r8
+                         328 	jarl	_NVM_GetParas,lp
+                         328 <EXPANSION BEGIN>
+                         328 jarl22 _NVM_GetParas , lp 
+000000e4 80ff0000*       328 <EXPANSION END>
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+000000e8 0ac8            329 	mov	r10,r25
+                         330 --92:     res = NVM_GetParas(INDEX_NVM_Y_LASTDISTANCECNT, &odo_NetDistRCAvgDRVN, 2);
+                         331 --line92
+                         332 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.12::
+                         333 .LDWlin12:
+000000ea 3d3e2c00        334 	movea	44,r29,r7
+000000ee 20368900        335 	movea	137,zero,r6
+000000f2 0242            336 	mov	2,r8
+                         337 	jarl	_NVM_GetParas,lp
+                         337 <EXPANSION BEGIN>
+                         337 jarl22 _NVM_GetParas , lp 
+000000f4 80ff0000*       337 <EXPANSION END>
+000000f8 0ac8            338 	mov	r10,r25
+                         339 --93:     if(odoValue >= odoBuf[tempIndex])
+                         340 --line93
+                         341 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.13::
+                         342 .LDWlin13:
+000000fa 1bf0            343 	mov	r27,ep
+000000fc c2f2            344 	shl	2,ep
+000000fe 23761800        345 	movea	24,sp,r14
+00000102 cef1            346 	add	r14,ep
+00000104 000d            347 	sld.w	0[ep],r1
+00000106 23770100        348 	ld.w	0[sp],r14
+0000010a e171            349 	cmp	r1,r14
+0000010c 910d*           350 	bl	.L17
+                         351 --94:     {
+                         352 --95:         odoBuf[tempIndex] = odoValue;
+                         353 --line95
+                         354 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.14::
+                         355 .LDWlin14:
+0000010e 230f0100        356 	ld.w	0[sp],r1
+00000112 1bf0            357 	mov	r27,ep
+00000114 c2f2            358 	shl	2,ep
+00000116 23761800        359 	movea	24,sp,r14
+0000011a cef1            360 	add	r14,ep
+0000011c 010d            361 	sst.w	r1,0[ep]
+                         362 .L17:
+                         363 --96:     }
+                         364 --97: 	else
+                         365 --98: 	{
+                         366 --99: 	}
+                         367 --100:     
+                         368 --101: 	
+                         369 --102:     odo_Odo = odoBuf[tempIndex];         /*从eeprom中读取的最大里程值*/
+0000011e 1bf0            370 	mov	r27,ep
+00000120 c2f2            371 	shl	2,ep
+00000122 23761800        372 	movea	24,sp,r14
+00000126 cef1            373 	add	r14,ep
+00000128 000d            374 	sld.w	0[ep],r1
+0000012a 7d0f0100        375 	st.w	r1,0[r29]
+                         376 --103:     odo_Write = odoBuf[tempIndex];      /*写入eeprom的里程值*/
+0000012e 1bf0            377 	mov	r27,ep
+00000130 c2f2            378 	shl	2,ep
+00000132 23761800        379 	movea	24,sp,r14
+00000136 cef1            380 	add	r14,ep
+00000138 000d            381 	sld.w	0[ep],r1
+0000013a 7d0f2900        382 	st.w	r1,40[r29]
+                         383 --104:     odo_Index = tempIndex;
+0000013e 5ddf3400        384 	st.b	r27,52[r29]
+                         385 --106:     odo_NetDistRCAvgDRVNV = VALID;
+00000142 5d073200        386 	st.b	zero,50[r29]
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                         387 --107:     
+                         388 --108:     insOdoOffestPrm = DIAG_GetOdoOffest();
+                         389 	jarl	_DIAG_GetOdoOffest,lp
+                         389 <EXPANSION BEGIN>
+                         389 jarl22 _DIAG_GetOdoOffest , lp 
+00000146 80ff0000*       389 <EXPANSION END>
+0000014a 5d573700        390 	st.b	r10,55[r29]
+                         391 --109:     insOdoIncFactorPlatformPrm = DIAG_GetOdoIncFactorPlatform();
+                         392 --line109
+                         393 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.15::
+                         394 .LDWlin15:
+                         395 	jarl	_DIAG_GetOdoIncFactorPlatform,lp
+                         395 <EXPANSION BEGIN>
+                         395 jarl22 _DIAG_GetOdoIncFactorPlatform , lp 
+0000014e 80ff0000*       395 <EXPANSION END>
+00000152 5d573800        396 	st.b	r10,56[r29]
+                         397 --110:     insTripRollOverPrm = DIAG_GetTripRollOver();
+                         398 --line110
+                         399 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.16::
+                         400 .LDWlin16:
+                         401 	jarl	_DIAG_GetTripRollOver,lp
+                         401 <EXPANSION BEGIN>
+                         401 jarl22 _DIAG_GetTripRollOver , lp 
+00000156 80ff0000*       401 <EXPANSION END>
+0000015a 5d573900        402 	st.b	r10,57[r29]
+                         403 --111:     insSIAModePrm = DIAG_GetSIAMode();  /*V2 reserved*/
+                         404 --line111
+                         405 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.17::
+                         406 .LDWlin17:
+                         407 	jarl	_DIAG_GetSIAMode,lp
+                         407 <EXPANSION BEGIN>
+                         407 jarl22 _DIAG_GetSIAMode , lp 
+0000015e 80ff0000*       407 <EXPANSION END>
+00000162 5d573a00        408 	st.b	r10,58[r29]
+                         409 --112:     insSIADistPrm = DIAG_GetSIADist();     /*V2 reserved*/
+                         410 --line112
+                         411 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.18::
+                         412 .LDWlin18:
+                         413 	jarl	_DIAG_GetSIADist,lp
+                         413 <EXPANSION BEGIN>
+                         413 jarl22 _DIAG_GetSIADist , lp 
+00000166 80ff0000*       413 <EXPANSION END>
+0000016a 7d572e00        414 	st.h	r10,46[r29]
+                         415 --113:     insSIADistThresPrm = DIAG_GetSIADistThres(); /*V2 reserved*/
+                         416 --line113
+                         417 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.19::
+                         418 .LDWlin19:
+                         419 	jarl	_DIAG_GetSIADistThres,lp
+                         419 <EXPANSION BEGIN>
+                         419 jarl22 _DIAG_GetSIADistThres , lp 
+0000016e 80ff0000*       419 <EXPANSION END>
+00000172 7d573000        420 	st.h	r10,48[r29]
+                         421 --115:     odo_NetSIAOdoPriy = SIAOdoPriy;
+                         422 --line115
+                         423 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.20::
+                         424 .LDWlin20:
+00000176 210600000000*   425 	mov	_SIAOdoPriy,r1
+0000017c 210f0100        426 	ld.w	0[r1],r1
+00000180 7d0f0d00        427 	st.w	r1,12[r29]
+                         428 --116:     odo_SiaRemain = insSIADistPrm - (odo_Odo - SIAOdoPriy);
+00000184 2e0600000000*   429 	mov	_SIAOdoPriy,r14
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+0000018a 3d0f0100        430 	ld.w	0[r29],r1
+0000018e 2e770100        431 	ld.w	0[r14],r14
+00000192 ae09            432 	sub	r14,r1
+00000194 fd772f00        433 	ld.hu	46[r29],r14
+00000198 a171            434 	sub	r1,r14
+0000019a 7d771100        435 	st.w	r14,16[r29]
+                         436 --117:     odo_NetOdoPriy = (odo_Write/1000);
+0000019e 3d0f2900        437 	ld.w	40[r29],r1
+000001a2 2076e803        438 	movea	1000,zero,r14
+000001a6 ee0ffe02        439 	divqu	r14,r1,zero
+000001aa 7d0f1d00        440 	st.w	r1,28[r29]
+                         441 --118:     odo_NetVehOdo = 0;
+000001ae 7d072500        442 	st.w	zero,36[r29]
+                         443 --119:     
+                         444 --120:     if(odo_NetOdoPriy < insOdoOffestPrm)
+000001b2 bd0f3700        445 	ld.bu	55[r29],r1
+000001b6 3d771d00        446 	ld.w	28[r29],r14
+000001ba e171            447 	cmp	r1,r14
+000001bc c905*           448 	bnl	.L18
+                         449 --121:     {
+                         450 --122:         odo_OdoDisplay = 0;
+                         451 --line122
+                         452 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.21::
+                         453 .LDWlin21:
+000001be 7d071900        454 	st.w	zero,24[r29]
+000001c2 850d*           455 	br	.L20
+                         456 .L18:
+                         457 --123:     }
+                         458 --124:     else
+                         459 --125:     {
+                         460 --126:         odo_OdoDisplay = odo_NetOdoPriy - insOdoOffestPrm;
+                         461 --line126
+                         462 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.22::
+                         463 .LDWlin22:
+000001c4 3d0f1d00        464 	ld.w	28[r29],r1
+000001c8 bd773700        465 	ld.bu	55[r29],r14
+000001cc ae09            466 	sub	r14,r1
+000001ce 7d0f1900        467 	st.w	r1,24[r29]
+                         468 .L20:
+                         469 --127:     }
+                         470 --128:     
+                         471 --129:     odo_SIADisplay = 0;
+000001d2 7d071500        472 	st.w	zero,20[r29]
+                         473 --130:     odo_NetOdoSecy =0;
+000001d6 7d072100        474 	st.w	zero,32[r29]
+                         475 --131:     odo_FltInValidCnt = 0;  
+000001da 5d073500        476 	st.b	zero,53[r29]
+                         477 --132:     odo_FltFrmLstCnt = 0;
+000001de 5d073600        478 	st.b	zero,54[r29]
+                         479 --134:     for( i = FLT_ODO_INVALID ; i < FLT_ODO_ALL ; i++)
+000001e2 00e2            480 	mov	0,r28
+000001e4 0000            481 	nop
+                         482 .L23:
+                         483 --135:     {
+                         484 --136:         odo_FltStatus[i].Flt = FALSE;
+000001e6 fcf60300        485 	mulhi	3,r28,ep
+000001ea daf1            486 	add	r26,ep
+000001ec 8003            487 	sst.b	zero,0[ep]
+                         488 --137:         odo_FltStatus[i].HealCnt = 0;
+000001ee fcf60300        489 	mulhi	3,r28,ep
+000001f2 daf1            490 	add	r26,ep
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+000001f4 8103            491 	sst.b	zero,1[ep]
+                         492 --138:         odo_FltStatus[i].LstCnt = 0;
+000001f6 fcf60300        493 	mulhi	3,r28,ep
+000001fa daf1            494 	add	r26,ep
+000001fc 8203            495 	sst.b	zero,2[ep]
+000001fe 41e2            496 	add	1,r28
+00000200 9c00            497 	zxb	r28
+00000202 63e2            498 	cmp	3,r28
+00000204 91f5*           499 	bl	.L23
+                         500 --139:     }
+                         501 --140:     
+                         502 --141:     odo_IncDis = 0;
+                         503 --line141
+                         504 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.23::
+                         505 .LDWlin23:
+00000206 5d073300        506 	st.b	zero,51[r29]
+                         507 --142:     odo_InitSts = TRUE;
+0000020a 2b0600000000*   508 	mov	_odo_InitSts,r11
+00000210 010a            509 	mov	1,r1
+00000212 4b0f0000        510 	st.b	r1,0[r11]
+                         511 --143: }
+00000216 0000            512 	nop
+                         513 --	    .ef
+                         514 .LDW11:
+00000218 5606ff70        515 	dispose	11,{r25,r26,r27,r28,r29,r31},[lp]
+                         516 	.type	_ODO_Init,@function
+                         517 	.size	_ODO_Init,.-_ODO_Init
+                         518 	.align	2
+                         519 .LDW21:
+                         520 --_i	r28	local
+                         521 --_res	r25	local
+                         522 --_tempIndex	r27	local
+                         523 --_odoBuf	24[sp]	local
+                         524 --_odoValue	0[sp]	local
+                         525 
+                         526 	.section ".bss","awb"
+                         527 	.align	4
+                         528 .L158:
+                         529 	.type	.L158,@object
+                         530 	.size	.L158,0
+                         531 	.global	_odo_Odo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         532 _odo_Odo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         533 	.type	_odo_Odo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         534 	.size	_odo_Odo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+00000000 00000000        535 _odo_Odo:	.space	4
+                         536 	.type	_odo_Odo,@object
+                         537 	.size	_odo_Odo,4
+                         538 	.global	_odo_Trip1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         539 _odo_Trip1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         540 	.type	_odo_Trip1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         541 	.size	_odo_Trip1..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+00000004 00000000        542 _odo_Trip1:	.space	4
+                         543 	.type	_odo_Trip1,@object
+                         544 	.size	_odo_Trip1,4
+                         545 	.global	_odo_Trip2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         546 _odo_Trip2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         547 	.type	_odo_Trip2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         548 	.size	_odo_Trip2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+00000008 00000000        549 _odo_Trip2:	.space	4
+                         550 	.type	_odo_Trip2,@object
+                         551 	.size	_odo_Trip2,4
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                         552 	.global	_odo_NetSIAOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         553 _odo_NetSIAOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         554 	.type	_odo_NetSIAOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         555 	.size	_odo_NetSIAOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+0000000c 00000000        556 _odo_NetSIAOdoPriy:	.space	4
+                         557 	.type	_odo_NetSIAOdoPriy,@object
+                         558 	.size	_odo_NetSIAOdoPriy,4
+                         559 	.global	_odo_SiaRemain..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         560 _odo_SiaRemain..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         561 	.type	_odo_SiaRemain..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         562 	.size	_odo_SiaRemain..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+00000010 00000000        563 _odo_SiaRemain:	.space	4
+                         564 	.type	_odo_SiaRemain,@object
+                         565 	.size	_odo_SiaRemain,4
+                         566 	.global	_odo_SIADisplay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         567 _odo_SIADisplay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         568 	.type	_odo_SIADisplay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         569 	.size	_odo_SIADisplay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+00000014 00000000        570 _odo_SIADisplay:	.space	4
+                         571 	.type	_odo_SIADisplay,@object
+                         572 	.size	_odo_SIADisplay,4
+                         573 	.global	_odo_OdoDisplay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         574 _odo_OdoDisplay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         575 	.type	_odo_OdoDisplay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         576 	.size	_odo_OdoDisplay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+00000018 00000000        577 _odo_OdoDisplay:	.space	4
+                         578 	.type	_odo_OdoDisplay,@object
+                         579 	.size	_odo_OdoDisplay,4
+                         580 	.global	_odo_NetOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         581 _odo_NetOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         582 	.type	_odo_NetOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         583 	.size	_odo_NetOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+0000001c 00000000        584 _odo_NetOdoPriy:	.space	4
+                         585 	.type	_odo_NetOdoPriy,@object
+                         586 	.size	_odo_NetOdoPriy,4
+                         587 	.global	_odo_NetOdoSecy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         588 _odo_NetOdoSecy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         589 	.type	_odo_NetOdoSecy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         590 	.size	_odo_NetOdoSecy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+00000020 00000000        591 _odo_NetOdoSecy:	.space	4
+                         592 	.type	_odo_NetOdoSecy,@object
+                         593 	.size	_odo_NetOdoSecy,4
+                         594 	.global	_odo_NetVehOdo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         595 _odo_NetVehOdo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         596 	.type	_odo_NetVehOdo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         597 	.size	_odo_NetVehOdo..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+00000024 00000000        598 _odo_NetVehOdo:	.space	4
+                         599 	.type	_odo_NetVehOdo,@object
+                         600 	.size	_odo_NetVehOdo,4
+                         601 	.global	_odo_Write..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         602 _odo_Write..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         603 	.type	_odo_Write..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         604 	.size	_odo_Write..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+00000028 00000000        605 _odo_Write:	.space	4
+                         606 	.type	_odo_Write,@object
+                         607 	.size	_odo_Write,4
+                         608 	.data
+                         609 	.align	4
+                         610 	.global	_SIAOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         611 _SIAOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         612 	.type	_SIAOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                         613 	.size	_SIAOdoPriy..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,4
+00000000 00000000        614 _SIAOdoPriy:	.byte	0,0,0,0
+                         615 	.type	_SIAOdoPriy,@object
+                         616 	.size	_SIAOdoPriy,4
+                         617 	.section ".bss","awb"
+                         618 	.global	_odo_NetDistRCAvgDRVN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         619 _odo_NetDistRCAvgDRVN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         620 	.type	_odo_NetDistRCAvgDRVN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         621 	.size	_odo_NetDistRCAvgDRVN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,2
+0000002c 0000            622 _odo_NetDistRCAvgDRVN:	.space	2
+                         623 	.type	_odo_NetDistRCAvgDRVN,@object
+                         624 	.size	_odo_NetDistRCAvgDRVN,2
+                         625 	.global	_insSIADistPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         626 _insSIADistPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         627 	.type	_insSIADistPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         628 	.size	_insSIADistPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,2
+0000002e 0000            629 _insSIADistPrm:	.space	2
+                         630 	.type	_insSIADistPrm,@object
+                         631 	.size	_insSIADistPrm,2
+                         632 	.global	_insSIADistThresPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         633 _insSIADistThresPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         634 	.type	_insSIADistThresPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         635 	.size	_insSIADistThresPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,2
+00000030 0000            636 _insSIADistThresPrm:	.space	2
+                         637 	.type	_insSIADistThresPrm,@object
+                         638 	.size	_insSIADistThresPrm,2
+                         639 	.global	_odo_NetDistRCAvgDRVNV..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         640 _odo_NetDistRCAvgDRVNV..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         641 	.type	_odo_NetDistRCAvgDRVNV..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         642 	.size	_odo_NetDistRCAvgDRVNV..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,1
+00000032 00              643 _odo_NetDistRCAvgDRVNV:	.space	1
+                         644 	.type	_odo_NetDistRCAvgDRVNV,@object
+                         645 	.size	_odo_NetDistRCAvgDRVNV,1
+                         646 	.global	_odo_IncDis..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         647 _odo_IncDis..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         648 	.type	_odo_IncDis..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         649 	.size	_odo_IncDis..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,1
+00000033 00              650 _odo_IncDis:	.space	1
+                         651 	.type	_odo_IncDis,@object
+                         652 	.size	_odo_IncDis,1
+                         653 	.global	_odo_Index..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         654 _odo_Index..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         655 	.type	_odo_Index..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         656 	.size	_odo_Index..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,1
+00000034 00              657 _odo_Index:	.space	1
+                         658 	.type	_odo_Index,@object
+                         659 	.size	_odo_Index,1
+                         660 	.global	_odo_FltInValidCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         661 _odo_FltInValidCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         662 	.type	_odo_FltInValidCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         663 	.size	_odo_FltInValidCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,1
+00000035 00              664 _odo_FltInValidCnt:	.space	1
+                         665 	.type	_odo_FltInValidCnt,@object
+                         666 	.size	_odo_FltInValidCnt,1
+                         667 	.global	_odo_FltFrmLstCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         668 _odo_FltFrmLstCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         669 	.type	_odo_FltFrmLstCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         670 	.size	_odo_FltFrmLstCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,1
+00000036 00              671 _odo_FltFrmLstCnt:	.space	1
+                         672 	.type	_odo_FltFrmLstCnt,@object
+                         673 	.size	_odo_FltFrmLstCnt,1
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                         674 	.data
+                         675 	.global	_odo_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         676 _odo_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         677 	.type	_odo_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         678 	.size	_odo_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,1
+00000004 00              679 _odo_InitSts:	.byte	0
+                         680 	.type	_odo_InitSts,@object
+                         681 	.size	_odo_InitSts,1
+                         682 	.section ".bss","awb"
+                         683 	.global	_insOdoOffestPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         684 _insOdoOffestPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         685 	.type	_insOdoOffestPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         686 	.size	_insOdoOffestPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,1
+00000037 00              687 _insOdoOffestPrm:	.space	1
+                         688 	.type	_insOdoOffestPrm,@object
+                         689 	.size	_insOdoOffestPrm,1
+                         690 	.global	_insOdoIncFactorPlatformPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         691 _insOdoIncFactorPlatformPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         692 	.type	_insOdoIncFactorPlatformPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         693 	.size	_insOdoIncFactorPlatformPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,1
+00000038 00              694 _insOdoIncFactorPlatformPrm:	.space	1
+                         695 	.type	_insOdoIncFactorPlatformPrm,@object
+                         696 	.size	_insOdoIncFactorPlatformPrm,1
+                         697 	.global	_insTripRollOverPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         698 _insTripRollOverPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         699 	.type	_insTripRollOverPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         700 	.size	_insTripRollOverPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,1
+00000039 00              701 _insTripRollOverPrm:	.space	1
+                         702 	.type	_insTripRollOverPrm,@object
+                         703 	.size	_insTripRollOverPrm,1
+                         704 	.global	_insSIAModePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         705 _insSIAModePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         706 	.type	_insSIAModePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         707 	.size	_insSIAModePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,1
+0000003a 00              708 _insSIAModePrm:	.space	1
+                         709 	.type	_insSIAModePrm,@object
+                         710 	.size	_insSIAModePrm,1
+                         711 	.global	_odo_FltStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         712 _odo_FltStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         713 	.type	_odo_FltStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@object
+                         714 	.size	_odo_FltStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,9
+0000003b 000000000000    715 _odo_FltStatus:	.space	9
+00000041 000000 
+                         716 	.type	_odo_FltStatus,@object
+                         717 	.size	_odo_FltStatus,9
+                         718 	.data
+                         719 	.text
+                         720 
+                         721 
+                         722 --145: /***************************************************
+                         723 --146: * Function: ODO_Process_100ms
+                         724 --147: * Description: the process of the odo module
+                         725 --148: * Parameters:  none
+                         726 --149: * Returns: none
+                         727 --150: * $Create & Verlog:$
+                         728 --151: * Author:Xueping.Chen    Date:2016-12-07   Version:V1.0
+                         729 --152: * Author:zxx                   Date:2017-06-29   Version:V2.0
+                         730 --153: *log1:add odo_OdoFltCheck_100ms  function
+                         731 --154: *log2:add odo_NetOdoSecy read  function
+                         732 --155: ****************************************************/
+                         733 --156: void ODO_Process_100ms(void)
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                         734 	.align	2
+                         735 	.align	2
+                         736 	.global	_ODO_Process_100ms
+                         737 _ODO_Process_100ms:
+0000021c 8207e100        738 	prepare	{r28,r29,r31},1
+00000220 3d0600000000*   739 	mov	_odo_Trip1,r29
+                         740 --	    .bf
+                         741 .LDW31:
+                         742 --157: {
+                         743 --158:     U8 res = 0;
+00000226 00e2            744 	mov	0,r28
+                         745 --159:     U8 pwrMode = PWR_OFF;
+00000228 43070100        746 	st.b	zero,1[sp]
+                         747 --161:     U8 tripFlag1 = FALSE;
+0000022c 43070200        748 	st.b	zero,2[sp]
+                         749 --162:     U8 tripFlag2 = FALSE;
+00000230 43070300        750 	st.b	zero,3[sp]
+                         751 --164:     if (TRUE == odo_InitSts)
+00000234 210600000000*   752 	mov	_odo_InitSts,r1
+0000023a 810f0100        753 	ld.bu	0[r1],r1
+0000023e 610a            754 	cmp	1,r1
+00000240 fa45*           755 	bne	.L362
+                         756 --165:     {    
+                         757 --166:         res = PWR_GetPwrMode(&pwrMode); 
+                         758 --line166
+                         759 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.24::
+                         760 .LDWlin24:
+00000242 23360100        761 	movea	1,sp,r6
+                         762 	jarl	_PWR_GetPwrMode,lp
+                         762 <EXPANSION BEGIN>
+                         762 jarl22 _PWR_GetPwrMode , lp 
+00000246 80ff0000*       762 <EXPANSION END>
+0000024a 0ae0            763 	mov	r10,r28
+                         764 --167:         
+                         765 --168:         COM_GetSignalValue_8(INDEX_COM_RS_DISTRCAVGDRVNV, &odo_NetDistRCAvgDRVNV);
+                         766 --line168
+                         767 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.25::
+                         768 .LDWlin25:
+0000024c 20365500        769 	movea	85,zero,r6
+00000250 3d3e2e00        770 	movea	46,r29,r7
+                         771 	jarl	_COM_GetSignalValue_8,lp
+                         771 <EXPANSION BEGIN>
+                         771 jarl22 _COM_GetSignalValue_8 , lp 
+00000254 80ff0000*       771 <EXPANSION END>
+                         772 --169:         v_rd_bytes(OdoSecy_handle,&odo_NetOdoSecy,0x03,0x00);  
+                         773 --line169
+                         774 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.26::
+                         775 .LDWlin26:
+00000258 3d3e1c00        776 	movea	28,r29,r7
+0000025c 0342            777 	mov	3,r8
+0000025e 260610153f00    778 	mov	4134160,r6
+00000264 004a            779 	mov	0,r9
+                         780 	jarl	_v_rd_bytes,lp
+                         780 <EXPANSION BEGIN>
+                         780 jarl22 _v_rd_bytes , lp 
+00000266 80ff0000*       780 <EXPANSION END>
+                         781 --170:         v_rd_bytes(VehOdo_handle,&odo_NetVehOdo,0x03,0x00);
+                         782 --line170
+                         783 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.27::
+                         784 .LDWlin27:
+0000026a 3d3e2000        785 	movea	32,r29,r7
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+0000026e 0342            786 	mov	3,r8
+00000270 2606a01e3f00    787 	mov	4136608,r6
+00000276 004a            788 	mov	0,r9
+                         789 	jarl	_v_rd_bytes,lp
+                         789 <EXPANSION BEGIN>
+                         789 jarl22 _v_rd_bytes , lp 
+00000278 80ff0000*       789 <EXPANSION END>
+                         790 --171:         
+                         791 --172: 		odo_OdoFltCheck_100ms(); 
+                         792 --line172
+                         793 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.28::
+                         794 .LDWlin28:
+                         795 	jarl	_odo_OdoFltCheck_100ms,lp
+                         795 <EXPANSION BEGIN>
+                         795 jarl22 _odo_OdoFltCheck_100ms , lp 
+0000027c 80ff9e00*       795 <EXPANSION END>
+                         796 --173:         
+                         797 --174:         if ((RET_OK == res)&&((PWR_RUN == pwrMode) ||(PWR_CRANK== pwrMode)) )
+                         798 --line174
+                         799 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.29::
+                         800 .LDWlin29:
+00000280 61e2            801 	cmp	1,r28
+00000282 ea25*           802 	bne	.L362
+00000284 a30f0100        803 	ld.bu	1[sp],r1
+00000288 620a            804 	cmp	2,r1
+0000028a d205*           805 	be	.L352
+0000028c a30f0100        806 	ld.bu	1[sp],r1
+00000290 630a            807 	cmp	3,r1
+00000292 ea1d*           808 	bne	.L362
+                         809 .L352:
+                         810 --175:         {
+                         811 --176:             odo_OdoProcess_100ms(); 
+                         812 --line176
+                         813 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.30::
+                         814 .LDWlin30:
+                         815 	jarl	_odo_OdoProcess_100ms,lp
+                         815 <EXPANSION BEGIN>
+                         815 jarl22 _odo_OdoProcess_100ms , lp 
+00000294 80fffc01*       815 <EXPANSION END>
+                         816 --177: 			
+                         817 --178:             res = TRIP_GetTripRstSts(RSTTYPE_TRIP_TRIP1, &tripFlag1);
+                         818 --line178
+                         819 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.31::
+                         820 .LDWlin31:
+00000298 0132            821 	mov	1,r6
+0000029a 233e0200        822 	movea	2,sp,r7
+                         823 	jarl	_TRIP_GetTripRstSts,lp
+                         823 <EXPANSION BEGIN>
+                         823 jarl22 _TRIP_GetTripRstSts , lp 
+0000029e 80ff0000*       823 <EXPANSION END>
+000002a2 0ae0            824 	mov	r10,r28
+                         825 --179:             if (TRUE == tripFlag1) /*修改*/
+                         826 --line179
+                         827 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.32::
+                         828 .LDWlin32:
+000002a4 830f0300        829 	ld.bu	2[sp],r1
+000002a8 610a            830 	cmp	1,r1
+000002aa ea05*           831 	bne	.L357
+                         832 --180:             {
+                         833 --181:                 odo_Trip1 = 0;
+                         834 --line181
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                         835 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.33::
+                         836 .LDWlin33:
+000002ac 2b0600000000*   837 	mov	_odo_Trip1,r11
+000002b2 6b070100        838 	st.w	zero,0[r11]
+                         839 .L357:
+                         840 --182:             }
+                         841 --183:             else
+                         842 --184:             {
+                         843 --185:             }
+                         844 --186: 			
+                         845 --187:             res = TRIP_GetTripRstSts(RSTTYPE_TRIP_TRIP2, &tripFlag2);
+000002b6 0232            846 	mov	2,r6
+000002b8 233e0300        847 	movea	3,sp,r7
+                         848 	jarl	_TRIP_GetTripRstSts,lp
+                         848 <EXPANSION BEGIN>
+                         848 jarl22 _TRIP_GetTripRstSts , lp 
+000002bc 80ff0000*       848 <EXPANSION END>
+000002c0 0ae0            849 	mov	r10,r28
+                         850 --188:             if (TRUE == tripFlag2)
+                         851 --line188
+                         852 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.34::
+                         853 .LDWlin34:
+000002c2 a30f0300        854 	ld.bu	3[sp],r1
+000002c6 610a            855 	cmp	1,r1
+000002c8 ba05*           856 	bne	.L362
+                         857 --189:             {
+                         858 --190:                 odo_Trip2 = 0;
+                         859 --line190
+                         860 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.35::
+                         861 .LDWlin35:
+000002ca 7d070500        862 	st.w	zero,4[r29]
+                         863 .L362:
+                         864 --191:             }
+                         865 --192:             else
+                         866 --193:             {
+                         867 --194:             }
+                         868 --195: 	    }
+                         869 --196:         else
+                         870 --197:         {
+                         871 --198:         }
+                         872 --199:         
+                         873 --200:     }
+                         874 --201:     else
+                         875 --202:     {
+                         876 --203:     }
+                         877 --205: }
+000002ce 0000            878 	nop
+                         879 --	    .ef
+                         880 .LDW41:
+000002d0 4206ff00        881 	dispose	1,{r28,r29,r31},[lp]
+                         882 	.type	_ODO_Process_100ms,@function
+                         883 	.size	_ODO_Process_100ms,.-_ODO_Process_100ms
+                         884 	.align	2
+                         885 .LDW51:
+                         886 --_res	r28	local
+                         887 --_pwrMode	1[sp]	local
+                         888 --_tripFlag1	2[sp]	local
+                         889 --_tripFlag2	3[sp]	local
+                         890 
+                         891 	.data
+                         892 	.text
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                         893 
+                         894 
+                         895 --207: /***************************************************
+                         896 --208: * Function: odo_SendNetSignal_100ms
+                         897 --209: * Description: send the net signals of the odo module
+                         898 --210: * Parameters:  none
+                         899 --211: * Returns: none
+                         900 --212: * $Create & Verlog:$
+                         901 --213: * Author:Xueping.Chen  Date:2016-12-07   Version:V1.0
+                         902 --214: ****************************************************/
+                         903 --215: void ODO_SendNetSignal_100ms(void)
+                         904 	.align	2
+                         905 	.align	2
+                         906 	.global	_ODO_SendNetSignal_100ms
+                         907 _ODO_SendNetSignal_100ms:
+000002d4 8207e100        908 	prepare	{r28,r29,r31},1
+000002d8 3d0600000000*   909 	mov	_odo_NetOdoPriy,r29
+000002de 1de0            910 	mov	r29,r28
+                         911 --	    .bf
+                         912 .LDW61:
+                         913 --216: {
+                         914 --217:     /*存储方式大小端不一致(1->65536)*/
+                         915 --218:     U32 odo_OdoPriy;
+                         916 --220:     odo_OdoPriy = (((odo_NetOdoPriy & 0x0000ff) << 16)
+000002e0 3d770100        917 	ld.w	0[r29],r14
+000002e4 406eff00        918 	movhi	hi(16711680),zero,r13
+000002e8 0e08            919 	mov	r14,r1
+000002ea 8100            920 	zxb	r1
+000002ec d00a            921 	shl	16,r1
+000002ee ce7600ff        922 	andi	65280,r14,r14
+000002f2 0171            923 	or	r1,r14
+000002f4 3d0f0100        924 	ld.w	0[r29],r1
+000002f8 4d09            925 	and	r13,r1
+000002fa 900a            926 	shr	16,r1
+000002fc 0e09            927 	or	r14,r1
+000002fe 630f0100        928 	st.w	r1,0[sp]
+                         929 --221:                                 | (odo_NetOdoPriy & 0x00ff00)
+                         930 --222:                                 | ((odo_NetOdoPriy & 0xff0000) >> 16));
+                         931 --223: 	
+                         932 --224:     v_wr_bytes(OdoPriy_handle,(U8*)&odo_OdoPriy , 3, 0);
+00000302 233e0000        933 	movea	0,sp,r7
+00000306 0342            934 	mov	3,r8
+00000308 260624343f00    935 	mov	4142116,r6
+0000030e 004a            936 	mov	0,r9
+                         937 	jarl	_v_wr_bytes,lp
+                         937 <EXPANSION BEGIN>
+                         937 jarl22 _v_wr_bytes , lp 
+00000310 80ff0000*       937 <EXPANSION END>
+                         938 --225:     /*v_wr_bytes(OdoPriy_handle,(U8*)&odo_NetOdoPriy , 3, 0);*/
+                         939 --226:     //v_wr_bytes(SIAOdoPriy_handle, &odo_NetSIAOdoPriy, 3, 0);
+                         940 --227: }
+                         941 --line227
+                         942 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.36::
+                         943 .LDWlin36:
+00000314 0000            944 	nop
+                         945 --	    .ef
+                         946 .LDW71:
+00000316 4206ff00        947 	dispose	1,{r28,r29,r31},[lp]
+                         948 	.type	_ODO_SendNetSignal_100ms,@function
+                         949 	.size	_ODO_SendNetSignal_100ms,.-_ODO_SendNetSignal_100ms
+                         950 	.align	2
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                         951 .LDW81:
+                         952 --_odo_OdoPriy	0[sp]	local
+                         953 
+                         954 	.data
+                         955 	.text
+                         956 
+                         957 
+                         958 --232: /***************************************************
+                         959 --233: * Function: odo_OdoFltCheck_100ms
+                         960 --234: * Description: the process of the odo module
+                         961 --235: * Parameters:  none
+                         962 --236: * Returns: none
+                         963 --237: * $Create & Verlog:$
+                         964 --239: * Author:zxx    Date:2017-06-29   Version:V2.0
+                         965 --240: *$fault detect
+                         966 --241: ****************************************************/
+                         967 --242: static void  odo_OdoFltCheck_100ms(void)
+                         968 	.align	2
+                         969 	.align	2
+                         970 	.global	_odo_OdoFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                         971 _odo_OdoFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                         972 _odo_OdoFltCheck_100ms:
+0000031a 8007e130        973 	prepare	{r26,r27,r28,r29,r31},0
+0000031e 3d0600000000*   974 	mov	.L596-1,r29
+00000324 3c0600000000*   975 	mov	_odo_FltStatus+3,r28
+0000032a 3dd60100        976 	movea	1,r29,r26
+0000032e 3b0600000000*   977 	mov	_v_flags,r27
+                         978 --	    .bf
+                         979 .LDW91:
+                         980 --243: {
+                         981 --244:   static U8 HealCnt = 0;
+                         982 --245:     
+                         983 --246:      if (TRUE == v_test_flag(OdoMonitor_handle))
+00000334 1b36c801        984 	addi	456,r27,r6
+                         985 	jarl	_v_test_flag,lp
+                         985 <EXPANSION BEGIN>
+                         985 jarl22 _v_test_flag , lp 
+00000338 80ff0000*       985 <EXPANSION END>
+0000033c 6152            986 	cmp	1,r10
+0000033e 9a25*           987 	bne	.L527
+                         988 --247:      {
+                         989 --248:      	v_clear_flag(OdoMonitor_handle);
+                         990 --line248
+                         991 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.37::
+                         992 .LDWlin37:
+00000340 1b36c801        993 	addi	456,r27,r6
+                         994 	jarl	_v_clear_flag,lp
+                         994 <EXPANSION BEGIN>
+                         994 jarl22 _v_clear_flag , lp 
+00000344 80ff0000*       994 <EXPANSION END>
+                         995 --249:         odo_OdoValidFltCheck_100ms();
+                         996 --line249
+                         997 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.38::
+                         998 .LDWlin38:
+                         999 	jarl	_odo_OdoValidFltCheck_100ms,lp
+                         999 <EXPANSION BEGIN>
+                         999 jarl22 _odo_OdoValidFltCheck_100ms , lp 
+00000348 80ff8e00*       999 <EXPANSION END>
+                        1000 --251:         if(TRUE == odo_FltStatus[FLT_ODO_FRAMELOST].Flt)
+                        1001 --line251
+                        1002 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.39::
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1003 .LDWlin39:
+0000034c 9c0f0100       1004 	ld.bu	0[r28],r1
+00000350 610a           1005 	cmp	1,r1
+00000352 8a15*          1006 	bne	.L529
+                        1007 --252:         {
+                        1008 --253:             odo_FltStatus[FLT_ODO_FRAMELOST].HealCnt ++;
+                        1009 --line253
+                        1010 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.40::
+                        1011 .LDWlin40:
+00000354 bc0f0100       1012 	ld.bu	1[r28],r1
+00000358 410a           1013 	add	1,r1
+0000035a 5c0f0100       1014 	st.b	r1,1[r28]
+                        1015 --254:             if(ODO_FRMLOST_FLTOFF_CNT <= odo_FltStatus[FLT_ODO_FRAMELOST].HealCnt)
+0000035e bc0f0100       1016 	ld.bu	1[r28],r1
+00000362 01069cff       1017 	addi	-100,r1,zero
+00000366 a90d*          1018 	bnl	.L534
+                        1019 --255:             {
+                        1020 --256:                 odo_FltStatus[FLT_ODO_FRAMELOST].Flt = FALSE;
+                        1021 --line256
+                        1022 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.41::
+                        1023 .LDWlin41:
+00000368 5c070000       1024 	st.b	zero,0[r28]
+                        1025 --257:                 odo_FltStatus[FLT_ODO_FRAMELOST].HealCnt = 0;
+0000036c 5c070100       1026 	st.b	zero,1[r28]
+00000370 d505*          1027 	br	.L534
+                        1028 .L529:
+                        1029 --258:             }
+                        1030 --259: 			else
+                        1031 --260: 			{
+                        1032 --261: 			}
+                        1033 --262:         }
+                        1034 --263:         else
+                        1035 --264:         {
+                        1036 --265:             odo_FltStatus[FLT_ODO_FRAMELOST].HealCnt = 0;
+                        1037 --line265
+                        1038 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.42::
+                        1039 .LDWlin42:
+00000372 5c070100       1040 	st.b	zero,1[r28]
+                        1041 --266:             odo_FltStatus[FLT_ODO_FRAMELOST].LstCnt = 0;
+00000376 5c070200       1042 	st.b	zero,2[r28]
+                        1043 .L534:
+                        1044 --267:         } 
+                        1045 --268: 		HealCnt = 0;
+0000037a 5d070100       1046 	st.b	zero,1[r29]
+0000037e 952d*          1047 	br	.L535
+                        1048 .L527:
+                        1049 --269:      }
+                        1050 --270:      else
+                        1051 --271:      {
+                        1052 --272: 	 		HealCnt ++;
+                        1053 --line272
+                        1054 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.43::
+                        1055 .LDWlin43:
+00000380 bd0f0100       1056 	ld.bu	1[r29],r1
+00000384 410a           1057 	add	1,r1
+00000386 5d0f0100       1058 	st.b	r1,1[r29]
+                        1059 --273: 			
+                        1060 --274: 			if(HealCnt >=3)
+0000038a bd0f0100       1061 	ld.bu	1[r29],r1
+0000038e 630a           1062 	cmp	3,r1
+00000390 d105*          1063 	bl	.L538
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1064 --275: 			{
+                        1065 --276:         		odo_FltStatus[FLT_ODO_FRAMELOST].HealCnt = 0;
+                        1066 --line276
+                        1067 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.44::
+                        1068 .LDWlin44:
+00000392 5c070100       1069 	st.b	zero,1[r28]
+                        1070 --277: 				HealCnt = 0;
+00000396 5d070100       1071 	st.b	zero,1[r29]
+                        1072 .L538:
+                        1073 --278: 			}
+                        1074 --279: 			else
+                        1075 --280: 			{
+                        1076 --281: 			}
+                        1077 --282: 			
+                        1078 --283:             if(FALSE == odo_FltStatus[FLT_ODO_FRAMELOST].Flt)
+0000039a 9c0f0100       1079 	ld.bu	0[r28],r1
+0000039e e009           1080 	cmp	zero,r1
+000003a0 9a15*          1081 	bne	.L539
+                        1082 --284:             {
+                        1083 --285:                 odo_FltStatus[FLT_ODO_FRAMELOST].LstCnt ++;
+                        1084 --line285
+                        1085 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.45::
+                        1086 .LDWlin45:
+000003a2 9c0f0300       1087 	ld.bu	2[r28],r1
+000003a6 410a           1088 	add	1,r1
+000003a8 5c0f0200       1089 	st.b	r1,2[r28]
+                        1090 --286:                 if(ODO_FRMLOST_FLTON_CNT <= odo_FltStatus[FLT_ODO_FRAMELOST].LstCnt)
+000003ac 9c0f0300       1091 	ld.bu	2[r28],r1
+000003b0 0106ecff       1092 	addi	-20,r1,zero
+000003b4 e90d*          1093 	bnl	.L535
+                        1094 --287:                 {
+                        1095 --288:                     odo_FltStatus[FLT_ODO_FRAMELOST].Flt = TRUE;
+                        1096 --line288
+                        1097 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.46::
+                        1098 .LDWlin46:
+000003b6 010a           1099 	mov	1,r1
+000003b8 5c0f0000       1100 	st.b	r1,0[r28]
+                        1101 --289:                     odo_FltStatus[FLT_ODO_FRAMELOST].LstCnt = 0;
+000003bc 5c070200       1102 	st.b	zero,2[r28]
+000003c0 850d*          1103 	br	.L535
+                        1104 .L539:
+                        1105 --290: 	
+                        1106 --291:                 }
+                        1107 --292:                 else
+                        1108 --293:                 {
+                        1109 --294:                 }
+                        1110 --295:             }
+                        1111 --296:             else
+                        1112 --297:             {
+                        1113 --298:             	 odo_FltStatus[FLT_ODO_FRAMELOST].LstCnt = 0;
+                        1114 --line298
+                        1115 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.47::
+                        1116 .LDWlin47:
+000003c2 5c070200       1117 	st.b	zero,2[r28]
+                        1118 --299: 				 
+                        1119 --300: 				 odo_FltStatus[FLT_ODO_FRAMELOST].HealCnt ++;
+000003c6 bc0f0100       1120 	ld.bu	1[r28],r1
+000003ca 410a           1121 	add	1,r1
+000003cc 5c0f0100       1122 	st.b	r1,1[r28]
+                        1123 .L535:
+                        1124 --301:             }
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1125 --302:    
+                        1126 --303:      }
+                        1127 --304: }
+000003d0 0000           1128 	nop
+                        1129 --	    .ef
+                        1130 .LDW02:
+000003d2 4006ff30       1131 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                        1132 	.type	_odo_OdoFltCheck_100ms,@function
+                        1133 	.size	_odo_OdoFltCheck_100ms,.-_odo_OdoFltCheck_100ms
+                        1134 	.type	_odo_OdoFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@function
+                        1135 	.size	_odo_OdoFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,.-_odo_OdoFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                        1136 	.align	2
+                        1137 .LDW12:
+                        1138 --_HealCnt	.L649	static
+                        1139 
+                        1140 	.data
+                        1141 .L596:
+                        1142 	.type	.L596,@object
+                        1143 	.size	.L596,0
+                        1144 .L649:
+                        1145 	.global	_HealCnt.odo_OdoFltCheck_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo..26
+                        1146 _HealCnt.odo_OdoFltCheck_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo..26:
+                        1147 	.type	_HealCnt.odo_OdoFltCheck_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo..26,@object
+                        1148 	.size	_HealCnt.odo_OdoFltCheck_100ms.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo..26,1
+00000005 00             1149 	.byte	0
+                        1150 	.type	.L649,@object
+                        1151 	.size	.L649,1
+                        1152 	.text
+                        1153 
+                        1154 
+                        1155 --307: /***************************************************
+                        1156 --308: * Function: odo_OdoValidFltCheck_100ms
+                        1157 --309: * Description: valid fault detect
+                        1158 --310: * Parameters:  none
+                        1159 --311: * Returns: none
+                        1160 --312: * $Create & Verlog:$
+                        1161 --313: * Author:zxx   Date:2017-06-29   Version:V2.0
+                        1162 --314: ****************************************************/
+                        1163 --315: static void  odo_OdoValidFltCheck_100ms(void)
+                        1164 	.align	2
+                        1165 	.align	2
+                        1166 	.global	_odo_OdoValidFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                        1167 _odo_OdoValidFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                        1168 _odo_OdoValidFltCheck_100ms:
+000003d6 210600000000*  1169 	mov	_odo_NetDistRCAvgDRVNV-2,r1
+000003dc 216e0b00       1170 	movea	11,r1,r13
+000003e0 01660200       1171 	addi	2,r1,r12
+                        1172 --	    .bf
+                        1173 .LDW22:
+                        1174 --316: {
+                        1175 --317:         if(FALSE == odo_FltStatus[FLT_ODO_INVALID].Flt)
+000003e4 a1770b00       1176 	ld.bu	11[r1],r14
+000003e8 e071           1177 	cmp	zero,r14
+000003ea 8a1d*          1178 	bne	.L677
+                        1179 --318:         {
+                        1180 --319:             if (INVALID == odo_NetDistRCAvgDRVNV)
+                        1181 --line319
+                        1182 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.48::
+                        1183 .LDWlin48:
+000003ec 81770300       1184 	ld.bu	2[r1],r14
+000003f0 6172           1185 	cmp	1,r14
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+000003f2 9a15*          1186 	bne	.L679
+                        1187 --320:             {
+                        1188 --321:                 odo_FltStatus[FLT_ODO_INVALID].LstCnt ++;
+                        1189 --line321
+                        1190 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.49::
+                        1191 .LDWlin49:
+000003f4 a1770d00       1192 	ld.bu	13[r1],r14
+000003f8 4172           1193 	add	1,r14
+000003fa 41770d00       1194 	st.b	r14,13[r1]
+                        1195 --322:                 if(ODO_INVALID_FLTON_CNT <= odo_FltStatus[FLT_ODO_INVALID].LstCnt)
+000003fe a1770d00       1196 	ld.bu	13[r1],r14
+00000402 0e06ceff       1197 	addi	-50,r14,zero
+00000406 f91d*          1198 	bnl	.L685
+                        1199 --323:                 {
+                        1200 --324:                     odo_FltStatus[FLT_ODO_INVALID].Flt = TRUE;
+                        1201 --line324
+                        1202 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.50::
+                        1203 .LDWlin50:
+00000408 0172           1204 	mov	1,r14
+0000040a 41770b00       1205 	st.b	r14,11[r1]
+                        1206 --325:                     odo_FltStatus[FLT_ODO_INVALID].LstCnt = 0;
+0000040e 41070d00       1207 	st.b	zero,13[r1]
+00000412 951d*          1208 	br	.L685
+                        1209 .L679:
+                        1210 --326:                 }
+                        1211 --327:                 else
+                        1212 --328:                 {
+                        1213 --329:                 }
+                        1214 --331:             }
+                        1215 --332:             else
+                        1216 --333:             {
+                        1217 --334:                 odo_FltStatus[FLT_ODO_INVALID].LstCnt = 0;
+                        1218 --line334
+                        1219 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.51::
+                        1220 .LDWlin51:
+00000414 41070d00       1221 	st.b	zero,13[r1]
+00000418 e515*          1222 	br	.L685
+                        1223 .L677:
+                        1224 --335:             }
+                        1225 --336:         }
+                        1226 --337:         else
+                        1227 --338:         {
+                        1228 --339:             if(VALID == odo_NetDistRCAvgDRVNV)
+                        1229 --line339
+                        1230 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.52::
+                        1231 .LDWlin52:
+0000041a 81770300       1232 	ld.bu	2[r1],r14
+0000041e e071           1233 	cmp	zero,r14
+00000420 8a15*          1234 	bne	.L686
+                        1235 --340:             {
+                        1236 --341:                 odo_FltStatus[FLT_ODO_INVALID].HealCnt ++;
+                        1237 --line341
+                        1238 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.53::
+                        1239 .LDWlin53:
+00000422 81770d00       1240 	ld.bu	12[r1],r14
+00000426 4172           1241 	add	1,r14
+00000428 41770c00       1242 	st.b	r14,12[r1]
+                        1243 --342:                 if(ODO_INVALID_FLTOFF_CNT <= odo_FltStatus[FLT_ODO_INVALID].HealCnt)
+0000042c 81770d00       1244 	ld.bu	12[r1],r14
+00000430 0e06ecff       1245 	addi	-20,r14,zero
+00000434 890d*          1246 	bnl	.L685
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1247 --343:                 {
+                        1248 --344:                     odo_FltStatus[FLT_ODO_INVALID].Flt = FALSE;
+                        1249 --line344
+                        1250 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.54::
+                        1251 .LDWlin54:
+00000436 41070b00       1252 	st.b	zero,11[r1]
+                        1253 --345:                     odo_FltStatus[FLT_ODO_INVALID].HealCnt = 0;
+0000043a 41070c00       1254 	st.b	zero,12[r1]
+0000043e b505*          1255 	br	.L685
+                        1256 .L686:
+                        1257 --346:                 }
+                        1258 --347:                 else
+                        1259 --348:                 {
+                        1260 --349:                 }
+                        1261 --350:              }
+                        1262 --351:             else
+                        1263 --352:             {
+                        1264 --353:             	 odo_FltStatus[FLT_ODO_INVALID].HealCnt = 0;
+                        1265 --line353
+                        1266 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.55::
+                        1267 .LDWlin55:
+00000440 41070c00       1268 	st.b	zero,12[r1]
+                        1269 .L685:
+                        1270 --354:             }
+                        1271 --355:           }
+                        1272 --356: }
+00000444 0000           1273 	nop
+                        1274 --	    .ef
+                        1275 .LDW32:
+00000446 7f00           1276 	jmp	[lp]
+                        1277 	.type	_odo_OdoValidFltCheck_100ms,@function
+                        1278 	.size	_odo_OdoValidFltCheck_100ms,.-_odo_OdoValidFltCheck_100ms
+                        1279 	.type	_odo_OdoValidFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@function
+                        1280 	.size	_odo_OdoValidFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,.-_odo_OdoValidFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                        1281 	.align	2
+                        1282 .LDW42:
+                        1283 
+                        1284 	.data
+                        1285 	.text
+                        1286 
+                        1287 
+                        1288 --357: /***************************************************
+                        1289 --358: * Function: odo_OdoIncreaseFltCheck_100ms
+                        1290 --359: * Description: valid fault detect
+                        1291 --360: * Parameters:  isLarger 
+                        1292 --361:                 TRUE:OdoIncrease is illegal
+                        1293 --362:                 TRUE:OdoIncrease is llegal
+                        1294 --363: * Returns: none
+                        1295 --364: * $Create & Verlog:$
+                        1296 --365: * Author:liuyingying   Date:2017-09-20   Version:V2.0
+                        1297 --366: ****************************************************/
+                        1298 --367: static void  odo_OdoIncreaseFltCheck_100ms(BOOL isLarger)
+                        1299 	.align	2
+                        1300 	.align	2
+                        1301 	.global	_odo_OdoIncreaseFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                        1302 _odo_OdoIncreaseFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                        1303 _odo_OdoIncreaseFltCheck_100ms:
+00000448 c60eff00       1304 	andi	255,r6,r1
+0000044c 3e0600000000*  1305 	mov	_odo_FltStatus+6,ep
+                        1306 --	    .bf
+                        1307 .LDW52:
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1308 --368: {
+                        1309 --369:     if(FALSE == odo_FltStatus[FLT_ODO_INCREASE].Flt)
+00000452 6070           1310 	sld.bu	0[ep],r14
+00000454 e071           1311 	cmp	zero,r14
+00000456 fa0d*          1312 	bne	.L790
+                        1313 --370:     {
+                        1314 --371:         if (TRUE == isLarger)
+                        1315 --line371
+                        1316 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.56::
+                        1317 .LDWlin56:
+00000458 610a           1318 	cmp	1,r1
+0000045a ba0d*          1319 	bne	.L792
+                        1320 --372:         {
+                        1321 --373:             odo_FltStatus[FLT_ODO_INCREASE].LstCnt ++;
+                        1322 --line373
+                        1323 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.57::
+                        1324 .LDWlin57:
+0000045c 6270           1325 	sld.bu	2[ep],r14
+0000045e 4172           1326 	add	1,r14
+00000460 8273           1327 	sst.b	r14,2[ep]
+                        1328 --374:             if(ODO_INCREASE_FLTON_CNT <= odo_FltStatus[FLT_ODO_INCREASE].LstCnt)
+00000462 6270           1329 	sld.bu	2[ep],r14
+00000464 6572           1330 	cmp	5,r14
+00000466 b115*          1331 	bl	.L798
+                        1332 --375:             {
+                        1333 --376:                 odo_FltStatus[FLT_ODO_INCREASE].Flt = TRUE;
+                        1334 --line376
+                        1335 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.58::
+                        1336 .LDWlin58:
+00000468 0172           1337 	mov	1,r14
+0000046a 8073           1338 	sst.b	r14,0[ep]
+                        1339 --377:                 odo_FltStatus[FLT_ODO_INCREASE].LstCnt = 0;
+0000046c 8203           1340 	sst.b	zero,2[ep]
+0000046e f50d*          1341 	br	.L798
+                        1342 .L792:
+                        1343 --378:             }
+                        1344 --379:             else
+                        1345 --380:             {
+                        1346 --381:             }
+                        1347 --383:         }
+                        1348 --384:         else
+                        1349 --385:         {
+                        1350 --386:             odo_FltStatus[FLT_ODO_INCREASE].LstCnt = 0;
+                        1351 --line386
+                        1352 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.59::
+                        1353 .LDWlin59:
+00000470 8203           1354 	sst.b	zero,2[ep]
+00000472 d50d*          1355 	br	.L798
+                        1356 .L790:
+                        1357 --387:         }
+                        1358 --388:     }
+                        1359 --389:     else
+                        1360 --390:     {
+                        1361 --391:         if(FALSE  == isLarger)
+                        1362 --line391
+                        1363 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.60::
+                        1364 .LDWlin60:
+00000474 e009           1365 	cmp	zero,r1
+00000476 aa0d*          1366 	bne	.L799
+                        1367 --392:         {
+                        1368 --393:             odo_FltStatus[FLT_ODO_INCREASE].HealCnt ++;
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1369 --line393
+                        1370 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.61::
+                        1371 .LDWlin61:
+00000478 6170           1372 	sld.bu	1[ep],r14
+0000047a 4172           1373 	add	1,r14
+0000047c 8173           1374 	sst.b	r14,1[ep]
+                        1375 --394:             if(ODO_INCREASE_FLTOFF_CNT <= odo_FltStatus[FLT_ODO_INCREASE].HealCnt)
+0000047e 6170           1376 	sld.bu	1[ep],r14
+00000480 6572           1377 	cmp	5,r14
+00000482 d105*          1378 	bl	.L798
+                        1379 --395:             {
+                        1380 --396:                 odo_FltStatus[FLT_ODO_INCREASE].Flt = FALSE;
+                        1381 --line396
+                        1382 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.62::
+                        1383 .LDWlin62:
+00000484 8003           1384 	sst.b	zero,0[ep]
+                        1385 --397:                 odo_FltStatus[FLT_ODO_INCREASE].HealCnt = 0;
+00000486 8103           1386 	sst.b	zero,1[ep]
+00000488 a505*          1387 	br	.L798
+                        1388 .L799:
+                        1389 --398:             }
+                        1390 --399:             else
+                        1391 --400:             {
+                        1392 --401:             }
+                        1393 --402:          }
+                        1394 --403:         else
+                        1395 --404:         {
+                        1396 --405:         	 odo_FltStatus[FLT_ODO_INCREASE].HealCnt = 0;
+                        1397 --line405
+                        1398 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.63::
+                        1399 .LDWlin63:
+0000048a 8103           1400 	sst.b	zero,1[ep]
+                        1401 .L798:
+                        1402 --406:         }
+                        1403 --407:       }
+                        1404 --408: }
+0000048c 0000           1405 	nop
+                        1406 --	    .ef
+                        1407 .LDW62:
+0000048e 7f00           1408 	jmp	[lp]
+                        1409 	.type	_odo_OdoIncreaseFltCheck_100ms,@function
+                        1410 	.size	_odo_OdoIncreaseFltCheck_100ms,.-_odo_OdoIncreaseFltCheck_100ms
+                        1411 	.type	_odo_OdoIncreaseFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@function
+                        1412 	.size	_odo_OdoIncreaseFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,.-_odo_OdoIncreaseFltCheck_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                        1413 	.align	2
+                        1414 .LDW72:
+                        1415 
+                        1416 --_isLarger	r1	param
+                        1417 
+                        1418 	.section ".bss","awb"
+                        1419 .L850:
+                        1420 	.type	.L850,@object
+                        1421 	.size	.L850,0
+                        1422 	.data
+                        1423 	.text
+                        1424 
+                        1425 
+                        1426 --410: /***************************************************
+                        1427 --411: * Function: odo_OdoProcess_100ms
+                        1428 --412: * Description: the process of the all odo
+                        1429 --413: * Parameters:  none
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1430 --414: * Returns: none
+                        1431 --415: * $Create & Verlog:$
+                        1432 --416: * Author:Xueping.Chen  Date:2016-12-07   Version:V1.0
+                        1433 --417: * Author:zxx                   Date:2017-06-29   Version:V2.0
+                        1434 --418: *log: when no fault happened will calculate odo value
+                        1435 --419: ****************************************************/
+                        1436 --420: static void odo_OdoProcess_100ms(void)
+                        1437 	.align	2
+                        1438 	.align	2
+                        1439 	.global	_odo_OdoProcess_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                        1440 _odo_OdoProcess_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.:
+                        1441 _odo_OdoProcess_100ms:
+00000490 8a07e170       1442 	prepare	{r25,r26,r27,r28,r29,r31},5
+00000494 3d0600000000*  1443 	mov	_odo_Odo,r29
+0000049a 1dd8           1444 	mov	r29,r27
+0000049c 3dd63400       1445 	movea	52,r29,r26
+000004a0 3dce3300       1446 	movea	51,r29,r25
+                        1447 --	    .bf
+                        1448 .LDW82:
+                        1449 --421: {
+                        1450 --422:     U16 curODO = 0;
+000004a4 63070200       1451 	st.h	zero,2[sp]
+                        1452 --423:     U16 curIncDis = 0;
+000004a8 00e2           1453 	mov	0,r28
+                        1454 --424:     U32 SetVal = 0;
+000004aa 63070500       1455 	st.w	zero,4[sp]
+                        1456 --425:     
+                        1457 --426:     COM_GetSignalValue_16(INDEX_COM_RS_DISTRCAVGDRVN, &curODO);
+000004ae 20365400       1458 	movea	84,zero,r6
+000004b2 233e0200       1459 	movea	2,sp,r7
+                        1460 	jarl	_COM_GetSignalValue_16,lp
+                        1460 <EXPANSION BEGIN>
+                        1460 jarl22 _COM_GetSignalValue_16 , lp 
+000004b6 80ff0000*      1460 <EXPANSION END>
+                        1461 --427: 	
+                        1462 --428: 	
+                        1463 --429:     if ((FALSE == odo_FltStatus[FLT_ODO_FRAMELOST].Flt) && (FALSE == odo_FltStatus[FLT_ODO_INVALID].Flt))
+                        1464 --line429
+                        1465 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.64::
+                        1466 .LDWlin64:
+000004ba 9d0f3f00       1467 	ld.bu	62[r29],r1
+000004be e009           1468 	cmp	zero,r1
+000004c0 ba35*          1469 	bne	.L909
+000004c2 bd0f3b00       1470 	ld.bu	59[r29],r1
+000004c6 e009           1471 	cmp	zero,r1
+000004c8 fa2d*          1472 	bne	.L909
+                        1473 --430:     {
+                        1474 --431:         curIncDis = curODO - odo_NetDistRCAvgDRVN; /**/
+                        1475 --line431
+                        1476 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.65::
+                        1477 .LDWlin65:
+000004ca e30f0300       1478 	ld.hu	2[sp],r1
+000004ce fd772d00       1479 	ld.hu	44[r29],r14
+000004d2 ae09           1480 	sub	r14,r1
+000004d4 c1e6ffff       1481 	andi	65535,r1,r28
+000004d8 dc00           1482 	zxh	r28
+                        1483 --432:         if (curIncDis >= insOdoIncFactorPlatformPrm)
+000004da 9d0f3900       1484 	ld.bu	56[r29],r1
+000004de e1e1           1485 	cmp	r1,r28
+000004e0 891d*          1486 	bnl	.L908
+                        1487 --433:         {
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1488 --434:             /*do nothing*/           
+                        1489 --435:         }
+                        1490 --436:         else
+                        1491 --437:         {
+                        1492 --438:             odo_IncDis = curIncDis;
+                        1493 --line438
+                        1494 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.66::
+                        1495 .LDWlin66:
+000004e2 5de73300       1496 	st.b	r28,51[r29]
+                        1497 --439:             odo_Odo += odo_IncDis;
+000004e6 3d0f0100       1498 	ld.w	0[r29],r1
+000004ea bd773300       1499 	ld.bu	51[r29],r14
+000004ee ce09           1500 	add	r14,r1
+000004f0 7d0f0100       1501 	st.w	r1,0[r29]
+                        1502 --441:             odo_Trip1 += odo_IncDis;
+000004f4 bd773300       1503 	ld.bu	51[r29],r14
+000004f8 3df60400       1504 	movea	4,r29,ep
+000004fc 000d           1505 	sld.w	0[ep],r1
+000004fe ce09           1506 	add	r14,r1
+00000500 010d           1507 	sst.w	r1,0[ep]
+                        1508 --442:             odo_Trip2 += odo_IncDis;      
+00000502 bd773300       1509 	ld.bu	51[r29],r14
+00000506 3df60800       1510 	movea	8,r29,ep
+0000050a 000d           1511 	sld.w	0[ep],r1
+0000050c ce09           1512 	add	r14,r1
+0000050e 010d           1513 	sst.w	r1,0[ep]
+                        1514 .L908:
+                        1515 --443:         } 
+                        1516 --445: 		
+                        1517 --446:         odo_NetDistRCAvgDRVN = curODO;
+00000510 e30f0300       1518 	ld.hu	2[sp],r1
+00000514 7d0f2c00       1519 	st.h	r1,44[r29]
+                        1520 --447:         odo_OdoIncreaseFltCheck_100ms((curIncDis>=insOdoIncFactorPlatformPrm)? TRUE:FALSE);
+00000518 9d0f3900       1521 	ld.bu	56[r29],r1
+0000051c e1e1           1522 	cmp	r1,r28
+0000051e e9370000       1523 	setfnl	r6
+                        1524 	jarl	_odo_OdoIncreaseFltCheck_100ms,lp
+                        1524 <EXPANSION BEGIN>
+                        1524 jarl22 _odo_OdoIncreaseFltCheck_100ms , lp 
+00000522 bfff26ff*      1524 <EXPANSION END>
+                        1525 .L909:
+                        1526 --448:     }
+                        1527 --449:     else
+                        1528 --450:     {
+                        1529 --451:     }
+                        1530 --453:     if ((odo_Odo - odo_Write )>= ODO_WRITE_THRESHHOLD)
+                        1531 --line453
+                        1532 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.67::
+                        1533 .LDWlin67:
+00000526 3d0f0100       1534 	ld.w	0[r29],r1
+0000052a 3d772900       1535 	ld.w	40[r29],r14
+0000052e ae09           1536 	sub	r14,r1
+00000530 010630f8       1537 	addi	-2000,r1,zero
+00000534 d91d*          1538 	bnl	.L915
+                        1539 --454:     {
+                        1540 --455:         odo_Write = odo_Odo;        
+                        1541 --line455
+                        1542 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.68::
+                        1543 .LDWlin68:
+00000536 3d0f0100       1544 	ld.w	0[r29],r1
+0000053a 7d0f2900       1545 	st.w	r1,40[r29]
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1546 --456: 		odo_Index++;
+0000053e 9d0f3500       1547 	ld.bu	52[r29],r1
+00000542 410a           1548 	add	1,r1
+00000544 5d0f3400       1549 	st.b	r1,52[r29]
+                        1550 --457: 		
+                        1551 --458:         if (odo_Index >= ODO_EEPROM_NUM)
+00000548 9d0f3500       1552 	ld.bu	52[r29],r1
+0000054c 650a           1553 	cmp	5,r1
+0000054e b105*          1554 	bl	.L914
+                        1555 --459:         {
+                        1556 --460:             odo_Index = 0;
+                        1557 --line460
+                        1558 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.69::
+                        1559 .LDWlin69:
+00000550 5d073400       1560 	st.b	zero,52[r29]
+                        1561 .L914:
+                        1562 --461:         }
+                        1563 --462:         else
+                        1564 --463:         {
+                        1565 --464:            
+                        1566 --465:         }        
+                        1567 --466: 		
+                        1568 --467:         SetVal =odo_Write;
+00000554 3d0f2900       1569 	ld.w	40[r29],r1
+00000558 630f0500       1570 	st.w	r1,4[sp]
+                        1571 --468:         NVM_SetParas(INDEX_NVM_ODO0+odo_Index, (PU8)&SetVal, 4);       
+0000055c 9d0f3500       1572 	ld.bu	52[r29],r1
+00000560 233e0400       1573 	movea	4,sp,r7
+00000564 0442           1574 	mov	4,r8
+00000566 01368a00       1575 	addi	138,r1,r6
+                        1576 	jarl	_NVM_SetParas,lp
+                        1576 <EXPANSION BEGIN>
+                        1576 jarl22 _NVM_SetParas , lp 
+0000056a 80ff0000*      1576 <EXPANSION END>
+                        1577 .L915:
+                        1578 --469:     }
+                        1579 --470:     else
+                        1580 --471:     {
+                        1581 --472:     }
+                        1582 --473: 	
+                        1583 --474:     odo_NetOdoPriy = (odo_Odo/1000);      /*m 2 Km*/
+                        1584 --line474
+                        1585 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.70::
+                        1586 .LDWlin70:
+0000056e 3d0f0100       1587 	ld.w	0[r29],r1
+00000572 2076e803       1588 	movea	1000,zero,r14
+00000576 ee0ffe02       1589 	divqu	r14,r1,zero
+0000057a 7d0f1d00       1590 	st.w	r1,28[r29]
+                        1591 --475:     if(odo_NetOdoPriy <insOdoOffestPrm)
+0000057e bd0f3700       1592 	ld.bu	55[r29],r1
+00000582 3d771d00       1593 	ld.w	28[r29],r14
+00000586 e171           1594 	cmp	r1,r14
+00000588 c905*          1595 	bnl	.L916
+                        1596 --476:     {
+                        1597 --477:         odo_OdoDisplay = 0;
+                        1598 --line477
+                        1599 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.71::
+                        1600 .LDWlin71:
+0000058a 7d071900       1601 	st.w	zero,24[r29]
+0000058e 850d*          1602 	br	.L918
+                        1603 .L916:
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1604 --478:     }
+                        1605 --479:     else
+                        1606 --480:     {
+                        1607 --481:         odo_OdoDisplay = odo_NetOdoPriy - insOdoOffestPrm;
+                        1608 --line481
+                        1609 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.72::
+                        1610 .LDWlin72:
+00000590 3d0f1d00       1611 	ld.w	28[r29],r1
+00000594 bd773700       1612 	ld.bu	55[r29],r14
+00000598 ae09           1613 	sub	r14,r1
+0000059a 7d0f1900       1614 	st.w	r1,24[r29]
+                        1615 .L918:
+                        1616 --482:     }
+                        1617 --483: }
+0000059e 0000           1618 	nop
+                        1619 --	    .ef
+                        1620 .LDW92:
+000005a0 4a06ff70       1621 	dispose	5,{r25,r26,r27,r28,r29,r31},[lp]
+                        1622 	.type	_odo_OdoProcess_100ms,@function
+                        1623 	.size	_odo_OdoProcess_100ms,.-_odo_OdoProcess_100ms
+                        1624 	.type	_odo_OdoProcess_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,@function
+                        1625 	.size	_odo_OdoProcess_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.,.-_odo_OdoProcess_100ms..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.
+                        1626 	.align	2
+                        1627 .LDW03:
+                        1628 --_curODO	2[sp]	local
+                        1629 --_curIncDis	r28	local
+                        1630 --_SetVal	4[sp]	local
+                        1631 
+                        1632 	.data
+                        1633 	.text
+                        1634 
+                        1635 
+                        1636 --485: /***************************************************
+                        1637 --486: * Function: ODO_GetODOValue
+                        1638 --487: * Description: get the value of the ODO relevant index
+                        1639 --488: * Parameters:  index : input   reference the ODOValueType_ENUM
+                        1640 --489:                           value : output   the value of the ODO relevant index
+                        1641 --490: * Returns: reference OdoRes_ENUM
+                        1642 --491: * $Create & Verlog:$
+                        1643 --492: * Author:Xueping.Chen  Date:2016-12-07   Version:V1.0
+                        1644 --493: * Author:zxx                   Date:2017-06-29   Version:V2.0
+                        1645 --494: *log: add  odo_NetOdoSecy value interface
+                        1646 --495: ****************************************************/
+                        1647 --496: U8 ODO_GetODOValue(U8 index, PU32 value)
+                        1648 	.align	2
+                        1649 	.align	2
+                        1650 	.global	_ODO_GetODOValue
+                        1651 _ODO_GetODOValue:
+000005a4 c666ff00       1652 	andi	255,r6,r12
+000005a8 07f0           1653 	mov	r7,ep
+000005aa 210600000000*  1654 	mov	_odo_Odo,r1
+                        1655 --	    .bf
+                        1656 .LDW13:
+                        1657 --497: {
+                        1658 --498:     U8 res = RET_FAIL;
+000005b0 0072           1659 	mov	0,r14
+                        1660 --500:     if (FALSE == odo_InitSts)
+000005b2 2d0600000000*  1661 	mov	_odo_InitSts,r13
+000005b8 8d6f0100       1662 	ld.bu	0[r13],r13
+000005bc e069           1663 	cmp	zero,r13
+000005be ba05*          1664 	bne	.L1074
+
+                                                                      Page 30
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1665 --501:     {
+                        1666 --502:         res = RET_FAIL;
+                        1667 --line502
+                        1668 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.73::
+                        1669 .LDWlin73:
+000005c0 0072           1670 	mov	0,r14
+000005c2 c545*          1671 	br	.L1076
+                        1672 .L1074:
+                        1673 --503:     }
+                        1674 --504:     else if ((NULL_PTR == value) || (INDEX_ODO_ALL <= index))
+                        1675 --line504
+                        1676 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.74::
+                        1677 .LDWlin74:
+000005c4 e0f1           1678 	cmp	zero,ep
+000005c6 b205*          1679 	be	.L1078
+000005c8 6862           1680 	cmp	8,r12
+000005ca b105*          1681 	bl	.L1077
+                        1682 .L1078:
+                        1683 --505:     {
+                        1684 --506:         res = RET_INVALID;
+                        1685 --line506
+                        1686 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.75::
+                        1687 .LDWlin75:
+000005cc 0272           1688 	mov	2,r14
+000005ce e53d*          1689 	br	.L1076
+                        1690 .L1077:
+                        1691 --507:     }
+                        1692 --508:     else
+                        1693 --509:     {
+                        1694 --510:         switch (index)
+                        1695 --line510
+                        1696 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.76::
+                        1697 .LDWlin76:
+000005d0 0c68           1698 	mov	r12,r13
+000005d2 676a           1699 	cmp	7,r13
+000005d4 9b3d*          1700 	bh	.L1091
+000005d6 0d58           1701 	mov	r13,r11
+000005d8 c25a           1702 	shl	2,r11
+000005da eb0600000000*  1703 	jmp	.L1163[r11]
+                        1704 .L1163:
+000005e0 80072000*      1705 	jr	.L1083
+000005e4 80073200*      1706 	jr	.L1085
+000005e8 80073600*      1707 	jr	.L1086
+000005ec 80073a00*      1708 	jr	.L1087
+000005f0 80071800*      1709 	jr	.L1084
+000005f4 80073a00*      1710 	jr	.L1088
+000005f8 80073e00*      1711 	jr	.L1089
+000005fc 80074200*      1712 	jr	.L1090
+                        1713 .L1083:
+                        1714 --511:         {
+                        1715 --512:             case INDEX_ODO_ODOVALUE:
+                        1716 --513:                *value = odo_OdoDisplay;
+                        1717 --line513
+                        1718 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.77::
+                        1719 .LDWlin77:
+00000600 210f1900       1720 	ld.w	24[r1],r1
+00000604 010d           1721 	sst.w	r1,0[ep]
+00000606 9525*          1722 	br	.L1081
+                        1723 .L1084:
+                        1724 --514:                 break;
+                        1725 --515:            case INDEX_ODO_METER:
+
+                                                                      Page 31
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1726 --516:                  *value = odo_Odo;
+                        1727 --line516
+                        1728 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.78::
+                        1729 .LDWlin78:
+00000608 210600000000*  1730 	mov	_odo_Odo,r1
+0000060e 210f0100       1731 	ld.w	0[r1],r1
+00000612 010d           1732 	sst.w	r1,0[ep]
+00000614 a51d*          1733 	br	.L1081
+                        1734 .L1085:
+                        1735 --517:                 break;
+                        1736 --518:              case INDEX_ODO_TRIP1:
+                        1737 --519:                 *value = odo_Trip1;
+                        1738 --line519
+                        1739 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.79::
+                        1740 .LDWlin79:
+00000616 210f0500       1741 	ld.w	4[r1],r1
+0000061a 010d           1742 	sst.w	r1,0[ep]
+0000061c e515*          1743 	br	.L1081
+                        1744 .L1086:
+                        1745 --520:                 break;
+                        1746 --521:              case INDEX_ODO_TRIP2:
+                        1747 --522:                 *value = odo_Trip2;
+                        1748 --line522
+                        1749 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.80::
+                        1750 .LDWlin80:
+0000061e 210f0900       1751 	ld.w	8[r1],r1
+00000622 010d           1752 	sst.w	r1,0[ep]
+00000624 a515*          1753 	br	.L1081
+                        1754 .L1087:
+                        1755 --523:                 break;
+                        1756 --524:              case INDEX_ODO_SIA:
+                        1757 --525:                 *value = odo_SIADisplay;
+                        1758 --line525
+                        1759 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.81::
+                        1760 .LDWlin81:
+00000626 210f1500       1761 	ld.w	20[r1],r1
+0000062a 010d           1762 	sst.w	r1,0[ep]
+0000062c e50d*          1763 	br	.L1081
+                        1764 .L1088:
+                        1765 --526:                 break;
+                        1766 --527:               case INDEX_ODO_SECY:                
+                        1767 --528:                 *value = odo_NetOdoSecy;
+                        1768 --line528
+                        1769 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.82::
+                        1770 .LDWlin82:
+0000062e 210f2100       1771 	ld.w	32[r1],r1
+00000632 010d           1772 	sst.w	r1,0[ep]
+00000634 a50d*          1773 	br	.L1081
+                        1774 .L1089:
+                        1775 --529:                 break;
+                        1776 --530:                 case INDEX_ODO_EED:              
+                        1777 --531:                 *value = odo_NetOdoPriy;
+                        1778 --line531
+                        1779 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.83::
+                        1780 .LDWlin83:
+00000636 210f1d00       1781 	ld.w	28[r1],r1
+0000063a 010d           1782 	sst.w	r1,0[ep]
+0000063c e505*          1783 	br	.L1081
+                        1784 .L1090:
+                        1785 --532:                 break;
+                        1786 --533:             case INDEX_ODO_VEHODO:              
+
+                                                                      Page 32
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1787 --534:                 *value = odo_NetVehOdo;
+                        1788 --line534
+                        1789 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.84::
+                        1790 .LDWlin84:
+0000063e 210f2500       1791 	ld.w	36[r1],r1
+00000642 010d           1792 	sst.w	r1,0[ep]
+00000644 a505*          1793 	br	.L1081
+                        1794 .L1091:
+                        1795 --line537
+                        1796 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.85::
+                        1797 .LDWlin85:
+00000646 0000           1798 	nop
+                        1799 .L1081:
+                        1800 --535:                 break;
+                        1801 --536:              default:
+                        1802 --537:                 break;
+                        1803 --538:         }
+                        1804 --539:         res = RET_OK;
+00000648 0172           1805 	mov	1,r14
+                        1806 .L1076:
+                        1807 --540:     }
+                        1808 --541:     return res;
+0000064a 0e50           1809 	mov	r14,r10
+                        1810 --	    .ef
+                        1811 .LDW23:
+0000064c 7f00           1812 	jmp	[lp]
+                        1813 	.type	_ODO_GetODOValue,@function
+                        1814 	.size	_ODO_GetODOValue,.-_ODO_GetODOValue
+                        1815 	.align	2
+                        1816 .LDW33:
+                        1817 --_res	r14	local
+                        1818 
+                        1819 --_index	r12	param
+                        1820 --_value	ep	param
+                        1821 
+                        1822 	.data
+                        1823 	.ghsnote jtable,2097156,.L1163,.L1163,.L1163,8
+                        1824 	.text
+                        1825 
+                        1826 --542: }
+                        1827 
+                        1828 --544: BOOL ODO_GetOdoIncreaseFlt(void)
+                        1829 	.align	2
+                        1830 	.align	2
+                        1831 	.global	_ODO_GetOdoIncreaseFlt
+                        1832 _ODO_GetOdoIncreaseFlt:
+                        1833 --	    .bf
+                        1834 .LDW43:
+                        1835 --545: {
+                        1836 --546:     return odo_FltStatus[FLT_ODO_INCREASE].Flt;
+0000064e 2a0600000000*  1837 	mov	_odo_FltStatus+6,r10
+00000654 8a570100       1838 	ld.bu	0[r10],r10
+                        1839 --	    .ef
+                        1840 .LDW53:
+00000658 7f00           1841 	jmp	[lp]
+                        1842 	.type	_ODO_GetOdoIncreaseFlt,@function
+                        1843 	.size	_ODO_GetOdoIncreaseFlt,.-_ODO_GetOdoIncreaseFlt
+                        1844 	.align	2
+                        1845 .LDW63:
+                        1846 
+                        1847 	.data
+
+                                                                      Page 33
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1848 	.text
+                        1849 
+                        1850 --547: }
+                        1851 
+                        1852 --549: BOOL ODO_GetOdoInvalidFlt(void)
+                        1853 	.align	2
+                        1854 	.align	2
+                        1855 	.global	_ODO_GetOdoInvalidFlt
+                        1856 _ODO_GetOdoInvalidFlt:
+0000065a 210600000000*  1857 	mov	_odo_FltStatus-3,r1
+00000660 016e0300       1858 	addi	3,r1,r13
+                        1859 --	    .bf
+                        1860 .LDW73:
+                        1861 --550: {
+                        1862 --551:     return (odo_FltStatus[FLT_ODO_INVALID].Flt|| odo_FltStatus[FLT_ODO_FRAMELOST].Flt);
+00000664 a1670300       1863 	ld.bu	3[r1],r12
+00000668 0172           1864 	mov	1,r14
+0000066a e061           1865 	cmp	zero,r12
+0000066c ea05*          1866 	bne	.L1286
+0000066e 81670700       1867 	ld.bu	6[r1],r12
+00000672 e061           1868 	cmp	zero,r12
+00000674 e0770473       1869 	cmove	0,r14,r14
+                        1870 .L1286:
+00000678 8e00           1871 	zxb	r14
+0000067a 0e50           1872 	mov	r14,r10
+                        1873 --	    .ef
+                        1874 .LDW83:
+                        1875 --line552
+                        1876 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo.86::
+                        1877 .LDWlin86:
+0000067c 7f00           1878 	jmp	[lp]
+                        1879 	.type	_ODO_GetOdoInvalidFlt,@function
+                        1880 	.size	_ODO_GetOdoInvalidFlt,.-_ODO_GetOdoInvalidFlt
+                        1881 	.align	2
+                        1882 .LDW93:
+                        1883 
+                        1884 	.data
+                        1885 	.text
+                        1886 
+                        1887 --552: }
+                        1888 	.align	2
+                        1889 --_v_flags	_v_flags	import
+                        1890 --_odo_NetDistRCAvgDRVN	_odo_NetDistRCAvgDRVN	static
+                        1891 --_odo_NetDistRCAvgDRVNV	_odo_NetDistRCAvgDRVNV	static
+                        1892 --_odo_IncDis	_odo_IncDis	static
+                        1893 --_odo_Odo	_odo_Odo	static
+                        1894 --_odo_Trip1	_odo_Trip1	static
+                        1895 --_odo_Trip2	_odo_Trip2	static
+                        1896 --_odo_NetSIAOdoPriy	_odo_NetSIAOdoPriy	static
+                        1897 --_odo_SiaRemain	_odo_SiaRemain	static
+                        1898 --_odo_SIADisplay	_odo_SIADisplay	static
+                        1899 --_odo_OdoDisplay	_odo_OdoDisplay	static
+                        1900 --_odo_NetOdoPriy	_odo_NetOdoPriy	static
+                        1901 --_odo_NetOdoSecy	_odo_NetOdoSecy	static
+                        1902 --_odo_NetVehOdo	_odo_NetVehOdo	static
+                        1903 --_odo_Index	_odo_Index	static
+                        1904 --_odo_Write	_odo_Write	static
+                        1905 --_odo_FltInValidCnt	_odo_FltInValidCnt	static
+                        1906 --_odo_FltFrmLstCnt	_odo_FltFrmLstCnt	static
+                        1907 --_odo_FltStatus	_odo_FltStatus	static
+                        1908 --_odo_InitSts	_odo_InitSts	static
+
+                                                                      Page 34
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000082g1.si
+                        1909 --_SIAOdoPriy	_SIAOdoPriy	static
+                        1910 --_insOdoOffestPrm	_insOdoOffestPrm	static
+                        1911 --_insOdoIncFactorPlatformPrm	_insOdoIncFactorPlatformPrm	static
+                        1912 --_insTripRollOverPrm	_insTripRollOverPrm	static
+                        1913 --_insSIAModePrm	_insSIAModePrm	static
+                        1914 --_insSIADistPrm	_insSIADistPrm	static
+                        1915 --_insSIADistThresPrm	_insSIADistThresPrm	static
+                        1916 
+                        1917 	.data
+                        1918 	.ghsnote version,14
+                        1919 	.ghsnote tools,3
+                        1920 	.ghsnote options,144
+                        1921 	.text
+                        1922 	.align	2
+                        1923 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Codo...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036D..0::
+                        1924 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

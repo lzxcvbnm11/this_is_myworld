@@ -1,0 +1,1852 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\FuelLevelAlgorithm_V2.dbo -source=FuelLevelAlgorithm_V2.c -o .\obj\gh_00002h41.o -list=.\obj\FuelLevelAlgorithm_V2.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+Source File: FuelLevelAlgorithm_V2.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\FL\FuelLevelAlgorithm_V2.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         112 --		-o .\obj\FuelLevelAlgorithm_V2.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\FL\FuelLevelAlgorithm_V2.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:22 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2:  * File: FuelLevelAlgorithm_V2.c
+                         126 --3:  *
+                         127 --4:  * Code generated for Simulink model 'FuelLevelAlgorithm_V2'.
+                         128 --5:  *
+                         129 --6:  * Model version                  : 1.310
+                         130 --7:  * Simulink Coder version         : 8.6 (R2014a) 27-Dec-2013
+                         131 --8:  * C/C++ source code generated on : Mon Dec 11 13:32:48 2017
+                         132 --9:  *
+                         133 --10:  * Target selection: ert.tlc
+                         134 --11:  * Embedded hardware selection: Generic->32-bit Embedded Processor
+                         135 --12:  * Code generation objectives: Unspecified
+                         136 --13:  * Validation result: Not run
+                         137 --14:  */
+                         138 --16: #include "FuelLevelAlgorithm_V2.h"
+                         139 --17: #include "FuelLevelAlgorithm_V2_private.h"
+                         140 --19: /* Exported block signals */
+                         141 --20: U16 gASI_FuelSensorADAverage;     /* '<Root>/gASI_FuelSensorADAverage' */
+                         142 --21: U16 gASI_VehicleSpeed;            /* '<Root>/gASI_VehicleSpeed' */
+                         143 --22: U16 gASI_EngineSpeed;             /* '<Root>/gASI_EngineSpeed' */
+                         144 --23: U16 prm_K_CompareFuel;            /* '<Root>/prm_K_CompareFuel' */
+                         145 --24: U16 prm_K_DisplayFuel;            /* '<Root>/prm_K_DisplayFuel' */
+                         146 --25: U8 gASI_VehicleSpeedV;            /* '<Root>/gASI_VehicleSpeedV' */
+                         147 --26: U8 gASI_EngineSpeedStatus;        /* '<Root>/gASI_EngineSpeedStatus' */
+                         148 --27: DBL prmDisplayFuel;                 /* '<Root>/Fuel Level Algorithm' */
+                         149 --28: U16 prmCompareFuel;               /* '<Root>/Data Type Conversion2' */
+                         150 --29: U16 prmDisplayFuelU32;            /* '<Root>/Data Type Conversion1' */
+                         151 --30: U8 gFuelLvlPct;                   /* '<Root>/Fuel Level Algorithm' */
+                         152 --31: U8 gFuelLvlPctV;                  /* '<Root>/Fuel Level Algorithm' */
+                         153 --32: BOOL gRefuelFlag;                 /* '<Root>/Fuel Level Algorithm' */
+                         154 --33: BOOL DTC_FuelSensorShortBattery;  /* '<Root>/Fuel Level Algorithm' */
+                         155 --34: BOOL DTC_FuelSensorShortGround;   /* '<Root>/Fuel Level Algorithm' */
+                         156 --36: /* Block signals (auto storage) */
+                         157 --37: B_FuelLevelAlgorithm_V2_T FuelLevelAlgorithm_V2_B;
+                         158 --39: /* Block states (auto storage) */
+                         159 --40: DW_FuelLevelAlgorithm_V2_T FuelLevelAlgorithm_V2_DW;
+                         160 --42: /* Real-time model */
+                         161 --43: RT_MODEL_FuelLevelAlgorithm_V_T FuelLevelAlgorithm_V2_M_;
+                         162 --44: RT_MODEL_FuelLevelAlgorithm_V_T *const FuelLevelAlgorithm_V2_M =
+                         163 --45:   &FuelLevelAlgorithm_V2_M_;
+                         164 --47: /* Forward declaration for local functions */
+                         165 --48: static DBL FuelLevelAlgorithm__Sensor2Fuel(DBL X);
+                         166 --50: /* Function for Chart: '<Root>/Fuel Level Algorithm' */
+                         167 --51: static DBL FuelLevelAlgorithm__Sensor2Fuel(DBL X)
+                         168 	.text
+                         169 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740362..0::
+                         170 	.align	2
+                         171 	.global	_FuelLevelAlgorithm__Sensor2Fuel..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.
+                         172 _FuelLevelAlgorithm__Sensor2Fuel..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.:
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         173 _FuelLevelAlgorithm__Sensor2Fuel:
+00000000 8607e170        174 	prepare	{r25,r26,r27,r28,r29,r31},3
+00000004 06e0            175 	mov	r6,r28
+00000006 07e8            176 	mov	r7,r29
+00000008 2d0600000000*   177 	mov	.L101,r13
+0000000e 2c0600000000*   178 	mov	.L102,r12
+                         179 --	    .bf
+                         180 .LDW01:
+                         181 --52: {
+                         182 --53:   DBL Y;
+                         183 --54:   DBL r;
+                         184 --55:   int32_T low_i;
+                         185 --56:   int32_T low_ip1;
+                         186 --57:   int32_T high_i;
+                         187 --58:   int32_T mid_i;
+                         188 --59:   static const U16 b[10] = { 48000U, 48000U, 44000U, 36000U, 24000U, 12000U,
+                         189 --60:     8000U, 5000U, 2000U, 2000U };
+                         190 --62:   static const int16_T x[10] = { 0, 400, 540, 820, 1230, 1650, 1790, 1890, 2000,
+                         191 --63:     4095 };
+                         192 --65:   /* MATLAB Function 'Sensor2Fuel': '<S1>:632' */
+                         193 --66:   /* '<S1>:632:4' */
+                         194 --67:   Y = (rtNaN);
+00000014 2e0600000000*   195 	mov	_rtNaN,r14
+0000001a ae0709500000    196 	ld.dw	0[r14],r10
+                         197 --68:   if ((X >= 0.0) && (X <= 4095.0)) {
+00000020 004a            198 	mov	0,r9
+00000022 0042            199 	mov	0,r8
+00000024 e8e73064        200 	cmpf.d	lt,r28,r8,0
+00000028 e0070004        201 	trfsr	0
+0000002c e2070301*       202 	be	.L4
+00000030 290600feaf40    203 	mov	1085275648,r9
+00000036 0042            204 	mov	0,r8
+00000038 fc473264        205 	cmpf.d	lt,r8,r28,1
+0000003c e0070204        206 	trfsr	1
+00000040 f275*           207 	be	.L4
+                         208 --69:     low_i = 1;
+                         209 --line69
+                         210 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.1::
+                         211 .LDWlin1:
+00000042 010a            212 	mov	1,r1
+                         213 --70:     low_ip1 = 2;
+00000044 0242            214 	mov	2,r8
+                         215 --71:     high_i = 10;
+00000046 0a4a            216 	mov	10,r9
+                         217 --72:     while (high_i > low_ip1) {
+00000048 f515*           218 	br	.L7
+                         219 .L9:
+                         220 --73:       mid_i = (low_i + high_i) >> 1;
+                         221 --line73
+                         222 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.2::
+                         223 .LDWlin2:
+0000004a 09d8            224 	mov	r9,r27
+0000004c c1d9            225 	add	r1,r27
+0000004e 1b70            226 	mov	r27,r14
+00000050 a172            227 	sar	1,r14
+                         228 --74:       if (X >= x[mid_i - 1]) {
+00000052 0ef0            229 	mov	r14,ep
+00000054 0cd6feff        230 	addi	-2,r12,r26
+00000058 c1f2            231 	shl	1,ep
+0000005a daf1            232 	add	r26,ep
+0000005c 00dc            233 	sld.h	0[ep],r27
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+0000005e e0df52d4        234 	cvtf.wd	r27,r26
+00000062 fae73464        235 	cmpf.d	lt,r28,r26,2
+00000066 e0070404        236 	trfsr	2
+0000006a d205*           237 	be	.L10
+                         238 --75:         low_i = mid_i;
+                         239 --line75
+                         240 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.3::
+                         241 .LDWlin3:
+0000006c 0e08            242 	mov	r14,r1
+                         243 --76:         low_ip1 = mid_i + 1;
+0000006e 0e460100        244 	addi	1,r14,r8
+00000072 a505*           245 	br	.L7
+                         246 .L10:
+                         247 --77:       } else {
+                         248 --78:         high_i = mid_i;
+                         249 --line78
+                         250 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.4::
+                         251 .LDWlin4:
+00000074 0e48            252 	mov	r14,r9
+                         253 .L7:
+00000076 e849            254 	cmp	r8,r9
+00000078 9fed*           255 	bgt	.L9
+                         256 --79:       }
+                         257 --80:     }
+                         258 --82:     r = (X - (DBL)x[low_i - 1]) / (DBL)(x[low_i] - x[low_i - 1]);
+                         259 --line82
+                         260 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.5::
+                         261 .LDWlin5:
+0000007a 01f0            262 	mov	r1,ep
+0000007c 0cfefeff        263 	addi	-2,r12,lp
+00000080 c1f2            264 	shl	1,ep
+00000082 dff1            265 	add	lp,ep
+00000084 00cc            266 	sld.h	0[ep],r25
+00000086 e0cf52f4        267 	cvtf.wd	r25,ep
+0000008a fee772d4        268 	subf.d	ep,r28,r26
+0000008e 01f0            269 	mov	r1,ep
+00000090 c1f2            270 	shl	1,ep
+00000092 a3074fd00000    271 	st.dw	r26,4[sp]
+00000098 1ed8            272 	mov	ep,r27
+0000009a ccf1            273 	add	r12,ep
+0000009c 00fc            274 	sld.h	0[ep],lp
+0000009e 0cf6feff        275 	addi	-2,r12,ep
+000000a2 dbf1            276 	add	r27,ep
+000000a4 00cc            277 	sld.h	0[ep],r25
+000000a6 9fc9            278 	subr	lp,r25
+000000a8 e0cf52f4        279 	cvtf.wd	r25,ep
+000000ac e6476039        280 	pushsp	r6-r7
+000000b0 a307c9300000    281 	ld.dw	12[sp],r6
+000000b6 fe377ed4        282 	divf.d	ep,r6,r26
+000000ba e6676039        283 	popsp	r6-r7
+                         284 --83:     if (b[low_i - 1] == b[low_i]) {
+000000be 01f0            285 	mov	r1,ep
+000000c0 c1f2            286 	shl	1,ep
+000000c2 0dfefeff        287 	addi	-2,r13,lp
+000000c6 1ec8            288 	mov	ep,r25
+000000c8 dff1            289 	add	lp,ep
+000000ca cdc9            290 	add	r13,r25
+000000cc f9cf0100        291 	ld.hu	0[r25],r25
+000000d0 70f8            292 	sld.hu	0[ep],lp
+000000d2 f9f9            293 	cmp	r25,lp
+000000d4 aa0d*           294 	bne	.L13
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         295 --84:       Y = b[low_i - 1];
+                         296 --line84
+                         297 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.6::
+                         298 .LDWlin6:
+000000d6 01f0            299 	mov	r1,ep
+000000d8 0dfefeff        300 	addi	-2,r13,lp
+000000dc c1f2            301 	shl	1,ep
+000000de dff1            302 	add	lp,ep
+000000e0 70c8            303 	sld.hu	0[ep],r25
+000000e2 f0cf5254        304 	cvtf.uwd	r25,r10
+000000e6 c525*           305 	br	.L4
+                         306 .L13:
+                         307 --85:     } else {
+                         308 --86:       Y = (1.0 - r) * (DBL)b[low_i - 1] + r * (DBL)b[low_i];
+                         309 --line86
+                         310 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.7::
+                         311 .LDWlin7:
+000000e8 40fef03f        312 	movhi	16368,zero,lp
+000000ec 00f2            313 	mov	0,ep
+000000ee faf77254        314 	subf.d	r26,ep,r10
+000000f2 01f0            315 	mov	r1,ep
+000000f4 0dfefeff        316 	addi	-2,r13,lp
+000000f8 c1f2            317 	shl	1,ep
+000000fa dff1            318 	add	lp,ep
+000000fc 70c8            319 	sld.hu	0[ep],r25
+000000fe f0cf52f4        320 	cvtf.uwd	r25,ep
+00000102 fe577454        321 	mulf.d	ep,r10,r10
+00000106 01f0            322 	mov	r1,ep
+00000108 c1f2            323 	shl	1,ep
+0000010a cdf1            324 	add	r13,ep
+0000010c 70c8            325 	sld.hu	0[ep],r25
+0000010e a3074f500000    326 	st.dw	r10,4[sp]
+00000114 f0cf52f4        327 	cvtf.uwd	r25,ep
+00000118 fed774f4        328 	mulf.d	ep,r26,ep
+0000011c e6476039        329 	pushsp	r6-r7
+00000120 a307c9300000    330 	ld.dw	12[sp],r6
+00000126 fe377054        331 	addf.d	ep,r6,r10
+0000012a e6676039        332 	popsp	r6-r7
+                         333 .L4:
+                         334 --87:     }
+                         335 --88:   }
+                         336 --90:   return Y;
+0000012e 0000            337 	nop
+                         338 --	    .ef
+                         339 .LDW11:
+00000130 4606ff70        340 	dispose	3,{r25,r26,r27,r28,r29,r31},[lp]
+                         341 	.type	_FuelLevelAlgorithm__Sensor2Fuel,@function
+                         342 	.size	_FuelLevelAlgorithm__Sensor2Fuel,.-_FuelLevelAlgorithm__Sensor2Fuel
+                         343 	.type	_FuelLevelAlgorithm__Sensor2Fuel..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.,@function
+                         344 	.size	_FuelLevelAlgorithm__Sensor2Fuel..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.,.-_FuelLevelAlgorithm__Sensor2Fuel..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.
+                         345 	.align	2
+                         346 .LDW21:
+                         347 --_b	.L101	static
+                         348 --_x	.L102	static
+                         349 --_Y	r10	local
+                         350 --_r	r26	local
+                         351 --_low_i	r1	local
+                         352 --_low_ip1	r8	local
+                         353 --_high_i	r9	local
+                         354 --_mid_i	r14	local
+                         355 
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         356 --_X	r28	param
+                         357 
+                         358 	.section ".bss","awb"
+                         359 .L58:
+                         360 	.type	.L58,@object
+                         361 	.size	.L58,0
+                         362 	.section ".rodata","a"
+                         363 	.align	2
+                         364 .L101:
+                         365 	.global	_b.FuelLevelAlgorithm__Sensor2Fuel.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2..0
+                         366 _b.FuelLevelAlgorithm__Sensor2Fuel.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2..0:
+                         367 	.type	_b.FuelLevelAlgorithm__Sensor2Fuel.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2..0,@object
+                         368 	.size	_b.FuelLevelAlgorithm__Sensor2Fuel.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2..0,20
+00000000 80bb80bb        369 	.byte	128,187,128,187
+00000004 e0aba08c        370 	.byte	224,171,160,140
+00000008 c05de02e        371 	.byte	192,93,224,46
+0000000c 401f8813        372 	.byte	64,31,136,19
+00000010 d007d007        373 	.byte	208,7,208,7
+                         374 	.type	.L101,@object
+                         375 	.size	.L101,20
+                         376 .L102:
+                         377 	.global	_x.FuelLevelAlgorithm__Sensor2Fuel.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2..1
+                         378 _x.FuelLevelAlgorithm__Sensor2Fuel.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2..1:
+                         379 	.type	_x.FuelLevelAlgorithm__Sensor2Fuel.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2..1,@object
+                         380 	.size	_x.FuelLevelAlgorithm__Sensor2Fuel.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2..1,20
+00000014 0000            381 	.space	2
+00000016 90011c02        382 	.byte	144,1,28,2
+0000001a 3403ce04        383 	.byte	52,3,206,4
+0000001e 7206fe06        384 	.byte	114,6,254,6
+00000022 6207d007        385 	.byte	98,7,208,7
+00000026 ff0f            386 	.byte	255,15
+                         387 	.type	.L102,@object
+                         388 	.size	.L102,20
+                         389 	.data
+                         390 	.text
+                         391 
+                         392 --91: }
+                         393 
+                         394 --93: /* Model step function */
+                         395 --94: void FuelLevelAlgorithm_V2_step(void)
+                         396 	.align	2
+                         397 	.align	2
+                         398 	.global	_FuelLevelAlgorithm_V2_step
+                         399 _FuelLevelAlgorithm_V2_step:
+00000134 8807e170        400 	prepare	{r25,r26,r27,r28,r29,r31},4
+00000138 3d0600000000*   401 	mov	_FuelLevelAlgorithm_V2_DW,r29
+0000013e 390600000000*   402 	mov	_FuelLevelAlgorithm_V2_P,r25
+                         403 --	    .bf
+                         404 .LDW31:
+                         405 --95: {
+                         406 --96:   int32_T u1;
+                         407 --97:   DBL u0;
+                         408 --98:   DBL u0_0;
+                         409 --100:  #if 1
+                         410 --101:     FL_Input();
+                         411 	jarl	_FL_Input,lp
+                         411 <EXPANSION BEGIN>
+                         411 jarl22 _FL_Input , lp 
+00000144 80ff0000*       411 <EXPANSION END>
+                         412 --103:   /* Chart: '<Root>/Fuel Level Algorithm' incorporates:
+                         413 --104:    *  Inport: '<Root>/gASI_EngineSpeed'
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         414 --105:    *  Inport: '<Root>/gASI_EngineSpeedStatus'
+                         415 --106:    *  Inport: '<Root>/gASI_FuelSensorADAverage'
+                         416 --107:    *  Inport: '<Root>/gASI_VehicleSpeed'
+                         417 --108:    *  Inport: '<Root>/gASI_VehicleSpeedV'
+                         418 --109:    *  Inport: '<Root>/prm_K_CompareFuel'
+                         419 --110:    *  Inport: '<Root>/prm_K_DisplayFuel'
+                         420 --111:    */
+                         421 --112:   /* Gateway: Fuel Level Algorithm */
+                         422 --113:   /* During: Fuel Level Algorithm */
+                         423 --114:   /* Entry Internal: Fuel Level Algorithm */
+                         424 --115:   /* Transition: '<S1>:586' */
+                         425 --116:   /*  Initialize  */
+                         426 --117:   if (FuelLevelAlgorithm_V2_DW.InitializeCount < 2) {
+                         427 --line117
+                         428 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.8::
+                         429 .LDWlin8:
+00000148 9d0f1500        430 	ld.bu	20[r29],r1
+0000014c 620a            431 	cmp	2,r1
+0000014e 8935*           432 	bnl	.L125
+                         433 --118:     /* Transition: '<S1>:629' */
+                         434 --119:     /* Transition: '<S1>:669' */
+                         435 --120:     FuelLevelAlgorithm_V2_B.CompareFuel = prm_K_CompareFuel;
+                         436 --line120
+                         437 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.9::
+                         438 .LDWlin9:
+00000150 210600000000*   439 	mov	_prm_K_CompareFuel,r1
+00000156 e10f0100        440 	ld.hu	0[r1],r1
+0000015a 2e0600000000*   441 	mov	_FuelLevelAlgorithm_V2_B,r14
+00000160 f00f5264        442 	cvtf.uwd	r1,r12
+00000164 ae070f600000    443 	st.dw	r12,0[r14]
+                         444 --121:     FuelLevelAlgorithm_V2_DW.FarCompareFuel = prm_K_CompareFuel;
+0000016a 210600000000*   445 	mov	_prm_K_CompareFuel,r1
+00000170 e10f0100        446 	ld.hu	0[r1],r1
+00000174 f00f5264        447 	cvtf.uwd	r1,r12
+00000178 bd078f600000    448 	st.dw	r12,8[r29]
+                         449 --122:     prmDisplayFuel = prm_K_DisplayFuel;
+0000017e 210600000000*   450 	mov	_prm_K_DisplayFuel,r1
+00000184 e10f0100        451 	ld.hu	0[r1],r1
+00000188 2e0600000000*   452 	mov	_prmDisplayFuel,r14
+0000018e f00f5264        453 	cvtf.uwd	r1,r12
+00000192 ae070f600000    454 	st.dw	r12,0[r14]
+                         455 --123:     FuelLevelAlgorithm_V2_DW.StopCount = 29U;
+00000198 200e1d00        456 	movea	29,zero,r1
+0000019c 5d0f1700        457 	st.b	r1,23[r29]
+                         458 --125:     /* 4x4+1x1+6x2 */
+                         459 --126:     FuelLevelAlgorithm_V2_DW.InitializeCount++;
+000001a0 9d0f1500        460 	ld.bu	20[r29],r1
+000001a4 410a            461 	add	1,r1
+000001a6 5d0f1400        462 	st.b	r1,20[r29]
+000001aa 8007f004*       463 	br	.L127
+                         464 .L125:
+                         465 --128:     /* Transition: '<S1>:648' */
+                         466 --129:     /* Transition: '<S1>:592' */
+                         467 --130:     /* Transition: '<S1>:617' */
+                         468 --131:     /* Transition: '<S1>:654' */
+                         469 --132:     /* Transition: '<S1>:656' */
+                         470 --133:     /* Transition: '<S1>:701' */
+                         471 --134:     /* Transition: '<S1>:671' */
+                         472 --135:   } else {
+                         473 --136:     /* Transition: '<S1>:614' */
+                         474 --137:     /* {
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         475 --138:        K_CompareFuel=CompareFuel;
+                         476 --139:        K_DisplayFuel=DisplayFuel;
+                         477 --140:        } */
+                         478 --141:     /* Transition: '<S1>:662' */
+                         479 --142:     /*  Sensor Diagnostic  */
+                         480 --143:     if (gASI_FuelSensorADAverage > FuelLevelAlgorithm_V2_P.K_MaxFuelSensorAD) {
+                         481 --line143
+                         482 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.10::
+                         483 .LDWlin10:
+000001ae 2e0600000000*   484 	mov	_gASI_FuelSensorADAverage,r14
+000001b4 f90f0100        485 	ld.hu	0[r25],r1
+000001b8 ee770100        486 	ld.hu	0[r14],r14
+000001bc e171            487 	cmp	r1,r14
+000001be a325*           488 	bnh	.L128
+                         489 --144:       /* Transition: '<S1>:635' */
+                         490 --145:       if (FuelLevelAlgorithm_V2_DW.ShortBatteryCount >=
+                         491 --line145
+                         492 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.11::
+                         493 .LDWlin11:
+000001c0 b90f0900        494 	ld.bu	9[r25],r1
+000001c4 bd771500        495 	ld.bu	21[r29],r14
+000001c8 e171            496 	cmp	r1,r14
+000001ca d115*           497 	bl	.L130
+                         498 --146:           FuelLevelAlgorithm_V2_P.K_FuelSensorDiagTime) {
+                         499 --147:         /* Transition: '<S1>:685' */
+                         500 --148:         /* Transition: '<S1>:609' */
+                         501 --149:         DTC_FuelSensorShortBattery = true;
+                         502 --line149
+                         503 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.12::
+                         504 .LDWlin12:
+000001cc 2b0600000000*   505 	mov	_DTC_FuelSensorShortBattery,r11
+000001d2 010a            506 	mov	1,r1
+000001d4 4b0f0000        507 	st.b	r1,0[r11]
+                         508 --150:         gFuelLvlPctV = 1U;
+000001d8 2b0600000000*   509 	mov	_gFuelLvlPctV,r11
+000001de 010a            510 	mov	1,r1
+000001e0 4b0f0000        511 	st.b	r1,0[r11]
+                         512 --151:         FuelLevelAlgorithm_V2_DW.StepFuel = 4.0;
+000001e4 406e1040        513 	movhi	16400,zero,r13
+000001e8 0062            514 	mov	0,r12
+000001ea bd070f600000    515 	st.dw	r12,0[r29]
+000001f0 8007aa04*       516 	br	.L127
+                         517 .L130:
+                         518 --152:       } else {
+                         519 --153:         /* Transition: '<S1>:597' */
+                         520 --154:         FuelLevelAlgorithm_V2_DW.ShortBatteryCount++;
+                         521 --line154
+                         522 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.13::
+                         523 .LDWlin13:
+000001f4 bd0f1500        524 	ld.bu	21[r29],r1
+000001f8 410a            525 	add	1,r1
+000001fa 5d0f1500        526 	st.b	r1,21[r29]
+000001fe 80079c04*       527 	br	.L127
+                         528 .L128:
+                         529 --156:         /* Transition: '<S1>:636' */
+                         530 --157:       }
+                         531 --159:       /* Transition: '<S1>:623' */
+                         532 --160:       /* Transition: '<S1>:617' */
+                         533 --161:       /* Transition: '<S1>:654' */
+                         534 --162:       /* Transition: '<S1>:656' */
+                         535 --163:       /* Transition: '<S1>:701' */
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         536 --164:       /* Transition: '<S1>:671' */
+                         537 --165:     } else {
+                         538 --166:       /* Transition: '<S1>:613' */
+                         539 --167:       if (gASI_FuelSensorADAverage < FuelLevelAlgorithm_V2_P.K_MinFuelSensorAD)
+                         540 --line167
+                         541 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.14::
+                         542 .LDWlin14:
+00000202 2e0600000000*   543 	mov	_gASI_FuelSensorADAverage,r14
+00000208 f90f0300        544 	ld.hu	2[r25],r1
+0000020c ee770100        545 	ld.hu	0[r14],r14
+00000210 e171            546 	cmp	r1,r14
+00000212 a925*           547 	bnl	.L134
+                         548 --168:       {
+                         549 --169:         /* Transition: '<S1>:703' */
+                         550 --170:         if (FuelLevelAlgorithm_V2_DW.ShortGroundCount >=
+                         551 --line170
+                         552 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.15::
+                         553 .LDWlin15:
+00000214 b90f0900        554 	ld.bu	9[r25],r1
+00000218 9d771700        555 	ld.bu	22[r29],r14
+0000021c e171            556 	cmp	r1,r14
+0000021e d115*           557 	bl	.L136
+                         558 --171:             FuelLevelAlgorithm_V2_P.K_FuelSensorDiagTime) {
+                         559 --172:           /* Transition: '<S1>:627' */
+                         560 --173:           /* Transition: '<S1>:674' */
+                         561 --174:           DTC_FuelSensorShortGround = true;
+                         562 --line174
+                         563 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.16::
+                         564 .LDWlin16:
+00000220 2b0600000000*   565 	mov	_DTC_FuelSensorShortGround,r11
+00000226 010a            566 	mov	1,r1
+00000228 4b0f0000        567 	st.b	r1,0[r11]
+                         568 --175:           gFuelLvlPctV = 1U;
+0000022c 2b0600000000*   569 	mov	_gFuelLvlPctV,r11
+00000232 010a            570 	mov	1,r1
+00000234 4b0f0000        571 	st.b	r1,0[r11]
+                         572 --176:           FuelLevelAlgorithm_V2_DW.StepFuel = 4.0;
+00000238 406e1040        573 	movhi	16400,zero,r13
+0000023c 0062            574 	mov	0,r12
+0000023e bd070f600000    575 	st.dw	r12,0[r29]
+00000244 80075604*       576 	br	.L127
+                         577 .L136:
+                         578 --177:         } else {
+                         579 --178:           /* Transition: '<S1>:691' */
+                         580 --179:           FuelLevelAlgorithm_V2_DW.ShortGroundCount++;
+                         581 --line179
+                         582 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.17::
+                         583 .LDWlin17:
+00000248 9d0f1700        584 	ld.bu	22[r29],r1
+0000024c 410a            585 	add	1,r1
+0000024e 5d0f1600        586 	st.b	r1,22[r29]
+00000252 80074804*       587 	br	.L127
+                         588 .L134:
+                         589 --181:           /* Transition: '<S1>:616' */
+                         590 --182:         }
+                         591 --184:         /* Transition: '<S1>:593' */
+                         592 --185:         /* Transition: '<S1>:654' */
+                         593 --186:         /* Transition: '<S1>:656' */
+                         594 --187:         /* Transition: '<S1>:701' */
+                         595 --188:         /* Transition: '<S1>:671' */
+                         596 --189:       } else {
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         597 --190:         /* Transition: '<S1>:672' */
+                         598 --191:         FuelLevelAlgorithm_V2_DW.ShortBatteryCount = 0U;
+                         599 --line191
+                         600 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.18::
+                         601 .LDWlin18:
+00000256 5d071500        602 	st.b	zero,21[r29]
+                         603 --192:         FuelLevelAlgorithm_V2_DW.ShortGroundCount = 0U;
+0000025a 5d071600        604 	st.b	zero,22[r29]
+                         605 --193:         DTC_FuelSensorShortBattery = false;
+0000025e 2b0600000000*   606 	mov	_DTC_FuelSensorShortBattery,r11
+00000264 4b070000        607 	st.b	zero,0[r11]
+                         608 --194:         DTC_FuelSensorShortGround = false;
+00000268 2b0600000000*   609 	mov	_DTC_FuelSensorShortGround,r11
+0000026e 4b070000        610 	st.b	zero,0[r11]
+                         611 --195:         gFuelLvlPctV = 0U;
+00000272 2b0600000000*   612 	mov	_gFuelLvlPctV,r11
+00000278 4b070000        613 	st.b	zero,0[r11]
+                         614 --196:         if (!((gASI_VehicleSpeed > 0) && (gRefuelFlag == 1))) {
+0000027c 210600000000*   615 	mov	_gASI_VehicleSpeed,r1
+00000282 e10f0100        616 	ld.hu	0[r1],r1
+00000286 e009            617 	cmp	zero,r1
+00000288 920d*           618 	be	.L141
+0000028a 210600000000*   619 	mov	_gRefuelFlag,r1
+00000290 810f0100        620 	ld.bu	0[r1],r1
+00000294 610a            621 	cmp	1,r1
+00000296 e207dd01*       622 	be	.L173
+                         623 .L141:
+                         624 --197:           /* Transition: '<S1>:638' */
+                         625 --198:           /*  Lookup  */
+                         626 --199:           FuelLevelAlgorithm_V2_DW.SensorFuel = (U16)
+                         627 --line199
+                         628 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.19::
+                         629 .LDWlin19:
+0000029a 210600000000*   630 	mov	_gASI_FuelSensorADAverage,r1
+000002a0 e10f0100        631 	ld.hu	0[r1],r1
+000002a4 f00f5234        632 	cvtf.uwd	r1,r6
+                         633 	jarl	_FuelLevelAlgorithm__Sensor2Fuel,lp
+                         633 <EXPANSION BEGIN>
+                         633 jarl22 _FuelLevelAlgorithm__Sensor2Fuel , lp 
+000002a8 bfff58fd*       633 <EXPANSION END>
+000002ac f157500c        634 	trncf.duw	r10,r1
+000002b0 c100            635 	zxh	r1
+000002b2 7d0f1000        636 	st.h	r1,16[r29]
+                         637 --200:             FuelLevelAlgorithm__Sensor2Fuel((DBL)gASI_FuelSensorADAverage);
+                         638 --201:           if (gASI_VehicleSpeed == 0) {
+                         639 --line201
+                         640 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.20::
+                         641 .LDWlin20:
+000002b6 210600000000*   642 	mov	_gASI_VehicleSpeed,r1
+000002bc e10f0100        643 	ld.hu	0[r1],r1
+000002c0 e009            644 	cmp	zero,r1
+000002c2 ea072501*       645 	bne	.L143
+                         646 --202:             /* Transition: '<S1>:601' */
+                         647 --203:             if (((FuelLevelAlgorithm_V2_DW.SensorFuel >
+                         648 --line203
+                         649 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.21::
+                         650 .LDWlin21:
+000002c6 fd0f1300        651 	ld.hu	18[r29],r1
+000002ca fd771100        652 	ld.hu	16[r29],r14
+000002ce e171            653 	cmp	r1,r14
+000002d0 8315*           654 	bnh	.L147
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+000002d2 fd0f1300        655 	ld.hu	18[r29],r1
+000002d6 2e0600000000*   656 	mov	_FuelLevelAlgorithm_V2_B,r14
+000002dc ae0709500000    657 	ld.dw	0[r14],r10
+000002e2 f00f5264        658 	cvtf.uwd	r1,r12
+000002e6 ea673064        659 	cmpf.d	lt,r12,r10,0
+000002ea e0070004        660 	trfsr	0
+000002ee ea15*           661 	bne	.L146
+                         662 .L147:
+000002f0 fd0f1300        663 	ld.hu	18[r29],r1
+000002f4 fd771100        664 	ld.hu	16[r29],r14
+000002f8 e171            665 	cmp	r1,r14
+000002fa f91d*           666 	bnl	.L145
+000002fc fd0f1300        667 	ld.hu	18[r29],r1
+00000300 2e0600000000*   668 	mov	_FuelLevelAlgorithm_V2_B,r14
+00000306 ae0709500000    669 	ld.dw	0[r14],r10
+0000030c f00f5264        670 	cvtf.uwd	r1,r12
+00000310 ec573264        671 	cmpf.d	lt,r10,r12,1
+00000314 e0070204        672 	trfsr	1
+00000318 8215*           673 	be	.L145
+                         674 .L146:
+                         675 --204:                   FuelLevelAlgorithm_V2_DW.MidFuel) &&
+                         676 --205:                  (FuelLevelAlgorithm_V2_DW.MidFuel >=
+                         677 --206:                   FuelLevelAlgorithm_V2_B.CompareFuel)) ||
+                         678 --207:                 ((FuelLevelAlgorithm_V2_DW.SensorFuel <
+                         679 --208:                   FuelLevelAlgorithm_V2_DW.MidFuel) &&
+                         680 --209:                  (FuelLevelAlgorithm_V2_DW.MidFuel <=
+                         681 --210:                   FuelLevelAlgorithm_V2_B.CompareFuel))) {
+                         682 --211:               /* Transition: '<S1>:696' */
+                         683 --212:               /* Transition: '<S1>:619' */
+                         684 --213:               u1 = FuelLevelAlgorithm_V2_DW.StopCount + 4;
+                         685 --line213
+                         686 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.22::
+                         687 .LDWlin22:
+0000031a bd0f1700        688 	ld.bu	23[r29],r1
+0000031e 01e60400        689 	addi	4,r1,r28
+                         690 --214:               if (u1 <= 28) {
+00000322 1c06e4ff        691 	addi	-28,r28,zero
+00000326 cf05*           692 	bgt	.L150
+                         693 --215:                 FuelLevelAlgorithm_V2_DW.StopCount = (U8)u1;
+                         694 --line215
+                         695 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.23::
+                         696 .LDWlin23:
+00000328 5de71700        697 	st.b	r28,23[r29]
+0000032c f545*           698 	br	.L153
+                         699 .L150:
+                         700 --216:               } else {
+                         701 --217:                 FuelLevelAlgorithm_V2_DW.StopCount = 28U;
+                         702 --line217
+                         703 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.24::
+                         704 .LDWlin24:
+0000032e 200e1c00        705 	movea	28,zero,r1
+00000332 5d0f1700        706 	st.b	r1,23[r29]
+00000336 a545*           707 	br	.L153
+                         708 .L145:
+                         709 --218:               }
+                         710 --220:               /* Transition: '<S1>:645' */
+                         711 --221:               /* Transition: '<S1>:621' */
+                         712 --222:             } else {
+                         713 --223:               /* Transition: '<S1>:664' */
+                         714 --224:               if (((FuelLevelAlgorithm_V2_DW.SensorFuel ==
+                         715 --line224
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         716 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.25::
+                         717 .LDWlin25:
+00000338 fd0f1300        718 	ld.hu	18[r29],r1
+0000033c fd771100        719 	ld.hu	16[r29],r14
+00000340 e171            720 	cmp	r1,r14
+00000342 8a15*           721 	bne	.L156
+00000344 fd0f1300        722 	ld.hu	18[r29],r1
+00000348 2e0600000000*   723 	mov	_FuelLevelAlgorithm_V2_B,r14
+0000034e ae0709500000    724 	ld.dw	0[r14],r10
+00000354 f00f5264        725 	cvtf.uwd	r1,r12
+00000358 ea673474        726 	cmpf.d	le,r12,r10,2
+0000035c e0070404        727 	trfsr	2
+00000360 ea15*           728 	bne	.L155
+                         729 .L156:
+00000362 fd0f1300        730 	ld.hu	18[r29],r1
+00000366 fd771100        731 	ld.hu	16[r29],r14
+0000036a e171            732 	cmp	r1,r14
+0000036c ca1d*           733 	bne	.L154
+0000036e fd0f1300        734 	ld.hu	18[r29],r1
+00000372 2e0600000000*   735 	mov	_FuelLevelAlgorithm_V2_B,r14
+00000378 ae0709500000    736 	ld.dw	0[r14],r10
+0000037e f00f5264        737 	cvtf.uwd	r1,r12
+00000382 ec573674        738 	cmpf.d	le,r10,r12,3
+00000386 e0070604        739 	trfsr	3
+0000038a d20d*           740 	be	.L154
+                         741 .L155:
+                         742 --225:                     FuelLevelAlgorithm_V2_DW.MidFuel) &&
+                         743 --226:                    (FuelLevelAlgorithm_V2_DW.MidFuel >
+                         744 --227:                     FuelLevelAlgorithm_V2_B.CompareFuel)) ||
+                         745 --228:                   ((FuelLevelAlgorithm_V2_DW.SensorFuel ==
+                         746 --229:                     FuelLevelAlgorithm_V2_DW.MidFuel) &&
+                         747 --230:                    (FuelLevelAlgorithm_V2_DW.MidFuel <
+                         748 --231:                     FuelLevelAlgorithm_V2_B.CompareFuel))) {
+                         749 --232:                 /* Transition: '<S1>:647' */
+                         750 --233:                 /* Transition: '<S1>:642' */
+                         751 --234:                 u1 = FuelLevelAlgorithm_V2_DW.StopCount - 1;
+                         752 --line234
+                         753 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.26::
+                         754 .LDWlin26:
+0000038c bd0f1700        755 	ld.bu	23[r29],r1
+00000390 01e6ffff        756 	addi	-1,r1,r28
+                         757 --235:                 if (0 >= u1) {
+00000394 e0e1            758 	cmp	zero,r28
+00000396 cf05*           759 	bgt	.L159
+                         760 --236:                   FuelLevelAlgorithm_V2_DW.StopCount = 0U;
+                         761 --line236
+                         762 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.27::
+                         763 .LDWlin27:
+00000398 5d071700        764 	st.b	zero,23[r29]
+0000039c f50d*           765 	br	.L153
+                         766 .L159:
+                         767 --237:                 } else {
+                         768 --238:                   FuelLevelAlgorithm_V2_DW.StopCount = (U8)u1;
+                         769 --line238
+                         770 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.28::
+                         771 .LDWlin28:
+0000039e 5de71700        772 	st.b	r28,23[r29]
+000003a2 c50d*           773 	br	.L153
+                         774 .L154:
+                         775 --239:                 }
+                         776 --241:                 /* Transition: '<S1>:621' */
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         777 --242:               } else {
+                         778 --243:                 /* Transition: '<S1>:649' */
+                         779 --244:                 u1 = FuelLevelAlgorithm_V2_DW.StopCount - 6;
+                         780 --line244
+                         781 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.29::
+                         782 .LDWlin29:
+000003a4 bd0f1700        783 	ld.bu	23[r29],r1
+000003a8 01e6faff        784 	addi	-6,r1,r28
+                         785 --245:                 if (0 >= u1) {
+000003ac e0e1            786 	cmp	zero,r28
+000003ae cf05*           787 	bgt	.L163
+                         788 --246:                   FuelLevelAlgorithm_V2_DW.StopCount = 0U;
+                         789 --line246
+                         790 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.30::
+                         791 .LDWlin30:
+000003b0 5d071700        792 	st.b	zero,23[r29]
+000003b4 b505*           793 	br	.L153
+                         794 .L163:
+                         795 --247:                 } else {
+                         796 --248:                   FuelLevelAlgorithm_V2_DW.StopCount = (U8)u1;
+                         797 --line248
+                         798 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.31::
+                         799 .LDWlin31:
+000003b6 5de71700        800 	st.b	r28,23[r29]
+                         801 .L153:
+                         802 --249:                 }
+                         803 --250:               }
+                         804 --251:             }
+                         805 --253:             /* Transition: '<S1>:588' */
+                         806 --254:             if (FuelLevelAlgorithm_V2_DW.StopCount == 0) {
+000003ba bd0f1700        807 	ld.bu	23[r29],r1
+000003be e009            808 	cmp	zero,r1
+000003c0 9a5d*           809 	bne	.L173
+                         810 --255:               /* Transition: '<S1>:677' */
+                         811 --256:               /* Transition: '<S1>:679' */
+                         812 --257:               FuelLevelAlgorithm_V2_B.CompareFuel =
+                         813 --line257
+                         814 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.32::
+                         815 .LDWlin32:
+000003c2 fd0f1300        816 	ld.hu	18[r29],r1
+000003c6 2b0600000000*   817 	mov	_FuelLevelAlgorithm_V2_B,r11
+000003cc f00f5264        818 	cvtf.uwd	r1,r12
+000003d0 ab070f600000    819 	st.dw	r12,0[r11]
+                         820 --258:                 FuelLevelAlgorithm_V2_DW.MidFuel;
+                         821 --259:               FuelLevelAlgorithm_V2_DW.FarCompareFuel =
+000003d6 fd0f1300        822 	ld.hu	18[r29],r1
+000003da f00f5264        823 	cvtf.uwd	r1,r12
+000003de bd078f600000    824 	st.dw	r12,8[r29]
+000003e4 f545*           825 	br	.L173
+                         826 .L143:
+                         827 --260:                 FuelLevelAlgorithm_V2_DW.MidFuel;
+                         828 --262:               /* Transition: '<S1>:690' */
+                         829 --263:               /* Transition: '<S1>:675' */
+                         830 --264:             } else {
+                         831 --265:               /* Transition: '<S1>:683' */
+                         832 --266:               /* Transition: '<S1>:675' */
+                         833 --267:             }
+                         834 --268:           } else {
+                         835 --269:             /* Transition: '<S1>:622' */
+                         836 --270:             u1 = FuelLevelAlgorithm_V2_DW.StopCount - 6;
+                         837 --line270
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         838 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.33::
+                         839 .LDWlin33:
+000003e6 bd0f1700        840 	ld.bu	23[r29],r1
+000003ea 01e6faff        841 	addi	-6,r1,r28
+                         842 --271:             if (0 >= u1) {
+000003ee e0e1            843 	cmp	zero,r28
+000003f0 cf05*           844 	bgt	.L170
+                         845 --272:               FuelLevelAlgorithm_V2_DW.StopCount = 0U;
+                         846 --line272
+                         847 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.34::
+                         848 .LDWlin34:
+000003f2 5d071700        849 	st.b	zero,23[r29]
+000003f6 b505*           850 	br	.L172
+                         851 .L170:
+                         852 --273:             } else {
+                         853 --274:               FuelLevelAlgorithm_V2_DW.StopCount = (U8)u1;
+                         854 --line274
+                         855 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.35::
+                         856 .LDWlin35:
+000003f8 5de71700        857 	st.b	r28,23[r29]
+                         858 .L172:
+                         859 --275:             }
+                         860 --277:             FuelLevelAlgorithm_V2_B.CompareFuel += ((DBL)
+000003fc fd0f1100        861 	ld.hu	16[r29],r1
+00000400 3b0600000000*   862 	mov	_FuelLevelAlgorithm_V2_B,r27
+00000406 bb0709500000    863 	ld.dw	0[r27],r10
+0000040c 2906e17a843f    864 	mov	1065646817,r9
+00000412 f00f5264        865 	cvtf.uwd	r1,r12
+00000416 b90f0700        866 	ld.bu	7[r25],r1
+0000041a 28067b14ae47    867 	mov	1202590843,r8
+00000420 ea677264        868 	subf.d	r10,r12,r12
+00000424 f00f5254        869 	cvtf.uwd	r1,r10
+00000428 e8577454        870 	mulf.d	r8,r10,r10
+0000042c ea677454        871 	mulf.d	r10,r12,r10
+00000430 bb0709600000    872 	ld.dw	0[r27],r12
+00000436 ea677064        873 	addf.d	r10,r12,r12
+0000043a bb070f600000    874 	st.dw	r12,0[r27]
+                         875 --278:               FuelLevelAlgorithm_V2_DW.SensorFuel -
+                         876 --279:               FuelLevelAlgorithm_V2_B.CompareFuel) * ((DBL)
+                         877 --280:               FuelLevelAlgorithm_V2_P.K_CompareFactor * 0.01);
+                         878 --281:             FuelLevelAlgorithm_V2_DW.FarCompareFuel += ((DBL)
+00000440 fd0f1100        879 	ld.hu	16[r29],r1
+00000444 bd0789500000    880 	ld.dw	8[r29],r10
+0000044a f00f5264        881 	cvtf.uwd	r1,r12
+0000044e ea677264        882 	subf.d	r10,r12,r12
+00000452 2b069999a93f    883 	mov	1068079513,r11
+00000458 2a069a999999    884 	mov	-1717986918,r10
+0000045e ea677454        885 	mulf.d	r10,r12,r10
+00000462 bd0789600000    886 	ld.dw	8[r29],r12
+00000468 ea677064        887 	addf.d	r10,r12,r12
+0000046c bd078f600000    888 	st.dw	r12,8[r29]
+                         889 .L173:
+                         890 --282:               FuelLevelAlgorithm_V2_DW.SensorFuel -
+                         891 --283:               FuelLevelAlgorithm_V2_DW.FarCompareFuel) * 0.05;
+                         892 --284:           }
+                         893 --285:         } else {
+                         894 --286:           /* Transition: '<S1>:673' */
+                         895 --287:           /* Transition: '<S1>:663' */
+                         896 --288:           /* Transition: '<S1>:699' */
+                         897 --289:           /* Transition: '<S1>:690' */
+                         898 --290:           /* Transition: '<S1>:675' */
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                         899 --291:         }
+                         900 --293:         /* Transition: '<S1>:595' */
+                         901 --294:         FuelLevelAlgorithm_V2_DW.MidFuel = FuelLevelAlgorithm_V2_DW.SensorFuel;
+00000472 fd0f1100        902 	ld.hu	16[r29],r1
+00000476 7d0f1200        903 	st.h	r1,18[r29]
+                         904 --296:         /*  Fast Mode for Refuel */
+                         905 --297:         if ((((gASI_VehicleSpeed == 0) || (gASI_VehicleSpeedV == 1)) &&
+0000047a 210600000000*   906 	mov	_gASI_VehicleSpeed,r1
+00000480 e10f0100        907 	ld.hu	0[r1],r1
+00000484 e009            908 	cmp	zero,r1
+00000486 820d*           909 	be	.L177
+00000488 210600000000*   910 	mov	_gASI_VehicleSpeedV,r1
+0000048e 810f0100        911 	ld.bu	0[r1],r1
+00000492 610a            912 	cmp	1,r1
+00000494 ea05*           913 	bne	.L176
+                         914 .L177:
+00000496 bd0f1700        915 	ld.bu	23[r29],r1
+0000049a 0106efff        916 	addi	-17,r1,zero
+0000049e 810d*           917 	bl	.L175
+                         918 .L176:
+000004a0 210600000000*   919 	mov	_gRefuelFlag,r1
+000004a6 810f0100        920 	ld.bu	0[r1],r1
+000004aa 610a            921 	cmp	1,r1
+000004ac fa6d*           922 	bne	.L174
+                         923 .L175:
+                         924 --298:              (FuelLevelAlgorithm_V2_DW.StopCount >= 17)) || (gRefuelFlag == 1))
+                         925 --299:         {
+                         926 --300:           /* Transition: '<S1>:695' */
+                         927 --301:           if (fabs((DBL)FuelLevelAlgorithm_V2_DW.SensorFuel - prmDisplayFuel)
+                         928 --line301
+                         929 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.36::
+                         930 .LDWlin36:
+000004ae fd0f1100        931 	ld.hu	16[r29],r1
+000004b2 2e0600000000*   932 	mov	_prmDisplayFuel,r14
+000004b8 ae0709500000    933 	ld.dw	0[r14],r10
+000004be f00f5264        934 	cvtf.uwd	r1,r12
+000004c2 990f0b00        935 	ld.bu	10[r25],r1
+000004c6 ea677264        936 	subf.d	r10,r12,r12
+000004ca f00f5254        937 	cvtf.uwd	r1,r10
+000004ce e0675864        938 	absf.d	r12,r12
+000004d2 ec573864        939 	cmpf.d	lt,r10,r12,4
+000004d6 e0070804        940 	trfsr	4
+000004da 821d*           941 	be	.L179
+                         942 --302:               <= FuelLevelAlgorithm_V2_P.K_LimitFuel) {
+                         943 --303:             /* Transition: '<S1>:607' */
+                         944 --304:             /* Transition: '<S1>:682' */
+                         945 --305:             FuelLevelAlgorithm_V2_B.CompareFuel =
+                         946 --line305
+                         947 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.37::
+                         948 .LDWlin37:
+000004dc fd0f1100        949 	ld.hu	16[r29],r1
+000004e0 2b0600000000*   950 	mov	_FuelLevelAlgorithm_V2_B,r11
+000004e6 f00f5264        951 	cvtf.uwd	r1,r12
+000004ea ab070f600000    952 	st.dw	r12,0[r11]
+                         953 --306:               FuelLevelAlgorithm_V2_DW.SensorFuel;
+                         954 --307:             FuelLevelAlgorithm_V2_DW.FarCompareFuel =
+000004f0 fd0f1100        955 	ld.hu	16[r29],r1
+000004f4 f00f5264        956 	cvtf.uwd	r1,r12
+000004f8 bd078f600000    957 	st.dw	r12,8[r29]
+                         958 --308:               FuelLevelAlgorithm_V2_DW.SensorFuel;
+                         959 --309:             gRefuelFlag = false;
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+000004fe 2b0600000000*   960 	mov	_gRefuelFlag,r11
+00000504 4b070000        961 	st.b	zero,0[r11]
+00000508 e545*           962 	br	.L185
+                         963 .L179:
+                         964 --311:             /* Transition: '<S1>:605' */
+                         965 --312:             /* Transition: '<S1>:596' */
+                         966 --313:           } else {
+                         967 --314:             /* Transition: '<S1>:694' */
+                         968 --315:             if (fabs((DBL)FuelLevelAlgorithm_V2_DW.SensorFuel -
+                         969 --line315
+                         970 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.38::
+                         971 .LDWlin38:
+0000050a fd0f1100        972 	ld.hu	16[r29],r1
+0000050e 2e0600000000*   973 	mov	_FuelLevelAlgorithm_V2_B,r14
+00000514 ae0709500000    974 	ld.dw	0[r14],r10
+0000051a f00f5264        975 	cvtf.uwd	r1,r12
+0000051e f90f0500        976 	ld.hu	4[r25],r1
+00000522 ea677264        977 	subf.d	r10,r12,r12
+00000526 f00f5254        978 	cvtf.uwd	r1,r10
+0000052a e0675864        979 	absf.d	r12,r12
+0000052e ea673a64        980 	cmpf.d	lt,r12,r10,5
+00000532 e0070a04        981 	trfsr	5
+00000536 f22d*           982 	be	.L185
+                         983 --316:                      FuelLevelAlgorithm_V2_B.CompareFuel) >=
+                         984 --317:                 FuelLevelAlgorithm_V2_P.K_Refuel) {
+                         985 --318:               /* Transition: '<S1>:689' */
+                         986 --319:               /* Transition: '<S1>:693' */
+                         987 --320:               prmDisplayFuel += ((DBL)FuelLevelAlgorithm_V2_DW.SensorFuel -
+                         988 --line320
+                         989 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.39::
+                         990 .LDWlin39:
+00000538 fd0f1100        991 	ld.hu	16[r29],r1
+0000053c 3b0600000000*   992 	mov	_prmDisplayFuel,r27
+00000542 bb0709500000    993 	ld.dw	0[r27],r10
+00000548 29069999b93f    994 	mov	1069128089,r9
+0000054e f00f5264        995 	cvtf.uwd	r1,r12
+00000552 990f0d00        996 	ld.bu	12[r25],r1
+00000556 28069a999999    997 	mov	-1717986918,r8
+0000055c ea677264        998 	subf.d	r10,r12,r12
+00000560 f00f5254        999 	cvtf.uwd	r1,r10
+00000564 e8577454       1000 	mulf.d	r8,r10,r10
+00000568 ea677454       1001 	mulf.d	r10,r12,r10
+0000056c bb0709600000   1002 	ld.dw	0[r27],r12
+00000572 ea677064       1003 	addf.d	r10,r12,r12
+00000576 bb070f600000   1004 	st.dw	r12,0[r27]
+                        1005 --321:                                  prmDisplayFuel) * ((DBL)
+                        1006 --322:                 FuelLevelAlgorithm_V2_P.K_RefuelFactor * 0.1);
+                        1007 --323:               gRefuelFlag = true;
+0000057c 2b0600000000*  1008 	mov	_gRefuelFlag,r11
+00000582 010a           1009 	mov	1,r1
+00000584 4b0f0000       1010 	st.b	r1,0[r11]
+00000588 e505*          1011 	br	.L185
+                        1012 .L174:
+                        1013 --325:               /* Transition: '<S1>:596' */
+                        1014 --326:             } else {
+                        1015 --327:               /* Transition: '<S1>:651' */
+                        1016 --328:             }
+                        1017 --329:           }
+                        1018 --330:         } else {
+                        1019 --331:           /* Transition: '<S1>:704' */
+                        1020 --332:           /* Transition: '<S1>:604' */
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                        1021 --333:           gRefuelFlag = false;
+                        1022 --line333
+                        1023 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.40::
+                        1024 .LDWlin40:
+0000058a 2b0600000000*  1025 	mov	_gRefuelFlag,r11
+00000590 4b070000       1026 	st.b	zero,0[r11]
+                        1027 .L185:
+                        1028 --335:           /* Transition: '<S1>:666' */
+                        1029 --336:           /* Transition: '<S1>:605' */
+                        1030 --337:           /* Transition: '<S1>:596' */
+                        1031 --338:         }
+                        1032 --340:         /* Transition: '<S1>:665' */
+                        1033 --341:         /*  Slow Mode for Injection  */
+                        1034 --342:         if (((gASI_EngineSpeed > 0) || (gASI_EngineSpeedStatus == 3)) &&
+00000594 210600000000*  1035 	mov	_gASI_EngineSpeed,r1
+0000059a e10f0100       1036 	ld.hu	0[r1],r1
+0000059e e009           1037 	cmp	zero,r1
+000005a0 8a0d*          1038 	bne	.L188
+000005a2 210600000000*  1039 	mov	_gASI_EngineSpeedStatus,r1
+000005a8 810f0100       1040 	ld.bu	0[r1],r1
+000005ac 630a           1041 	cmp	3,r1
+000005ae 9a75*          1042 	bne	.L186
+                        1043 .L188:
+000005b0 bd0789500000   1044 	ld.dw	8[r29],r10
+000005b6 2d06c0d4ea40   1045 	mov	1089131712,r13
+000005bc 0062           1046 	mov	0,r12
+000005be ea673c74       1047 	cmpf.d	le,r12,r10,6
+000005c2 e0070c04       1048 	trfsr	6
+000005c6 d265*          1049 	be	.L186
+                        1050 --343:             (FuelLevelAlgorithm_V2_DW.FarCompareFuel < 54950.0)) {
+                        1051 --344:           /* Transition: '<S1>:611' */
+                        1052 --345:           if (prmDisplayFuel > FuelLevelAlgorithm_V2_DW.FarCompareFuel) {
+                        1053 --line345
+                        1054 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.41::
+                        1055 .LDWlin41:
+000005c8 2e0600000000*  1056 	mov	_prmDisplayFuel,r14
+000005ce bd0789600000   1057 	ld.dw	8[r29],r12
+000005d4 ae0709500000   1058 	ld.dw	0[r14],r10
+000005da ec573e74       1059 	cmpf.d	le,r10,r12,7
+000005de e0070e04       1060 	trfsr	7
+000005e2 f245*          1061 	be	.L190
+                        1062 --346:             /* Transition: '<S1>:661' */
+                        1063 --347:             /* Transition: '<S1>:655' */
+                        1064 --348:             u0 = (prmDisplayFuel - FuelLevelAlgorithm_V2_DW.FarCompareFuel) *
+                        1065 --line348
+                        1066 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.42::
+                        1067 .LDWlin42:
+000005e4 2b0600000000*  1068 	mov	_prmDisplayFuel,r11
+000005ea ab0709600000   1069 	ld.dw	0[r11],r12
+000005f0 bd0789500000   1070 	ld.dw	8[r29],r10
+000005f6 ea677264       1071 	subf.d	r10,r12,r12
+000005fa 2b067493583f   1072 	mov	1062769524,r11
+00000600 2a06fa7e6abc   1073 	mov	-1133871366,r10
+00000606 ea6774d4       1074 	mulf.d	r10,r12,r26
+                        1075 --349:               0.0015;
+                        1076 --350:             if (!(u0 <= 4.0)) {
+0000060a 406e1040       1077 	movhi	16400,zero,r13
+0000060e 0062           1078 	mov	0,r12
+00000610 fa673064       1079 	cmpf.d	lt,r12,r26,0
+00000614 e0070004       1080 	trfsr	0
+00000618 ca05*          1081 	bne	.L192
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                        1082 --351:               u0 = 4.0;
+                        1083 --line351
+                        1084 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.43::
+                        1085 .LDWlin43:
+0000061a 40de1040       1086 	movhi	16400,zero,r27
+0000061e 00d2           1087 	mov	0,r26
+                        1088 .L192:
+                        1089 --352:             }
+                        1090 --354:             u0_0 = (DBL)FuelLevelAlgorithm_V2_P.K_MinStepFuel * 0.1;
+00000620 b90f0b00       1091 	ld.bu	11[r25],r1
+00000624 2b069999b93f   1092 	mov	1069128089,r11
+0000062a 2a069a999999   1093 	mov	-1717986918,r10
+00000630 f00f5264       1094 	cvtf.uwd	r1,r12
+00000634 ea677434       1095 	mulf.d	r10,r12,r6
+00000638 a3078f300000   1096 	st.dw	r6,8[sp]
+                        1097 --355:             if ((u0_0 >= u0) || rtIsNaN(u0)) {
+0000063e a30789600000   1098 	ld.dw	8[sp],r12
+00000644 fa673264       1099 	cmpf.d	lt,r12,r26,1
+00000648 e0070204       1100 	trfsr	1
+0000064c fa05*          1101 	bne	.L195
+0000064e 1a30           1102 	mov	r26,r6
+00000650 1b38           1103 	mov	r27,r7
+                        1104 	jarl	_rtIsNaN,lp
+                        1104 <EXPANSION BEGIN>
+                        1104 jarl22 _rtIsNaN , lp 
+00000652 80ff0000*      1104 <EXPANSION END>
+00000656 e051           1105 	cmp	zero,r10
+00000658 820d*          1106 	be	.L194
+                        1107 .L195:
+                        1108 --356:               FuelLevelAlgorithm_V2_DW.StepFuel = u0_0;
+                        1109 --line356
+                        1110 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.44::
+                        1111 .LDWlin44:
+0000065a a30789600000   1112 	ld.dw	8[sp],r12
+00000660 bd070f600000   1113 	st.dw	r12,0[r29]
+00000666 a51d*          1114 	br	.L127
+                        1115 .L194:
+                        1116 --357:             } else {
+                        1117 --358:               FuelLevelAlgorithm_V2_DW.StepFuel = u0;
+                        1118 --line358
+                        1119 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.45::
+                        1120 .LDWlin45:
+00000668 bd070fd00000   1121 	st.dw	r26,0[r29]
+0000066e e515*          1122 	br	.L127
+                        1123 .L190:
+                        1124 --359:             }
+                        1125 --361:             /* Transition: '<S1>:671' */
+                        1126 --362:           } else {
+                        1127 --363:             /* Transition: '<S1>:587' */
+                        1128 --364:             FuelLevelAlgorithm_V2_DW.StepFuel = (DBL)
+                        1129 --line364
+                        1130 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.46::
+                        1131 .LDWlin46:
+00000670 b90f0b00       1132 	ld.bu	11[r25],r1
+00000674 2b069999b93f   1133 	mov	1069128089,r11
+0000067a 2a069a999999   1134 	mov	-1717986918,r10
+00000680 f00f5264       1135 	cvtf.uwd	r1,r12
+00000684 ea677464       1136 	mulf.d	r10,r12,r12
+00000688 bd070f600000   1137 	st.dw	r12,0[r29]
+0000068e e505*          1138 	br	.L127
+                        1139 .L186:
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                        1140 --365:               FuelLevelAlgorithm_V2_P.K_MinStepFuel * 0.1;
+                        1141 --366:           }
+                        1142 --367:         } else {
+                        1143 --368:           /* Transition: '<S1>:608' */
+                        1144 --369:           /* Transition: '<S1>:653' */
+                        1145 --370:           FuelLevelAlgorithm_V2_DW.StepFuel = 0.0;
+                        1146 --line370
+                        1147 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.47::
+                        1148 .LDWlin47:
+00000690 006a           1149 	mov	0,r13
+00000692 0062           1150 	mov	0,r12
+00000694 bd070f600000   1151 	st.dw	r12,0[r29]
+                        1152 .L127:
+                        1153 --372:           /* Transition: '<S1>:701' */
+                        1154 --373:           /* Transition: '<S1>:671' */
+                        1155 --374:         }
+                        1156 --375:       }
+                        1157 --376:     }
+                        1158 --377:   }
+                        1159 --379:   /* Transition: '<S1>:659' */
+                        1160 --380:   prmDisplayFuel -= FuelLevelAlgorithm_V2_DW.StepFuel;
+0000069a 2b0600000000*  1161 	mov	_prmDisplayFuel,r11
+000006a0 ab0709600000   1162 	ld.dw	0[r11],r12
+000006a6 bd0709500000   1163 	ld.dw	0[r29],r10
+000006ac 2e0600000000*  1164 	mov	_prmDisplayFuel,r14
+000006b2 ea677264       1165 	subf.d	r10,r12,r12
+000006b6 ae070f600000   1166 	st.dw	r12,0[r14]
+                        1167 --381:   gFuelLvlPct = (U8)(fabs(prmDisplayFuel * 0.001 - (DBL)
+000006bc 2b0600000000*  1168 	mov	_prmDisplayFuel,r11
+000006c2 ab0709600000   1169 	ld.dw	0[r11],r12
+000006c8 99770700       1170 	ld.bu	6[r25],r14
+000006cc 2b064d62503f   1171 	mov	1062232653,r11
+000006d2 2a06fca9f1d2   1172 	mov	-755914244,r10
+000006d8 ea677464       1173 	mulf.d	r10,r12,r12
+000006dc f0775254       1174 	cvtf.uwd	r14,r10
+000006e0 b90f0d00       1175 	ld.bu	13[r25],r1
+000006e4 ea677264       1176 	subf.d	r10,r12,r12
+000006e8 2b0600e06f40   1177 	mov	1081073664,r11
+000006ee 0052           1178 	mov	0,r10
+000006f0 ae09           1179 	sub	r14,r1
+000006f2 e0675864       1180 	absf.d	r12,r12
+000006f6 ea677464       1181 	mulf.d	r10,r12,r12
+000006fa e00f5254       1182 	cvtf.wd	r1,r10
+000006fe ea677e64       1183 	divf.d	r10,r12,r12
+00000702 f167500c       1184 	trncf.duw	r12,r1
+00000706 2c0600000000*  1185 	mov	_gFuelLvlPct,r12
+0000070c 8100           1186 	zxb	r1
+0000070e 4c0f0000       1187 	st.b	r1,0[r12]
+                        1188 --382:     FuelLevelAlgorithm_V2_P.K_BottomFuel) * 255.0 / (DBL)
+                        1189 --383:     (FuelLevelAlgorithm_V2_P.K_TopFuel - FuelLevelAlgorithm_V2_P.K_BottomFuel));
+                        1190 --385:   /* End of Chart: '<Root>/Fuel Level Algorithm' */
+                        1191 --387:   /* DataTypeConversion: '<Root>/Data Type Conversion2' */
+                        1192 --388:   u0 = floor(FuelLevelAlgorithm_V2_B.CompareFuel);
+00000712 2c0600000000*  1193 	mov	_FuelLevelAlgorithm_V2_B,r12
+00000718 ac0709300000   1194 	ld.dw	0[r12],r6
+                        1195 	jarl	_floor,lp
+                        1195 <EXPANSION BEGIN>
+                        1195 jarl22 _floor , lp 
+0000071e 80ff0000*      1195 <EXPANSION END>
+00000722 0ad0           1196 	mov	r10,r26
+00000724 0bd8           1197 	mov	r11,r27
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                        1198 --389:   if (rtIsNaN(u0) || rtIsInf(u0)) {
+                        1199 --line389
+                        1200 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.48::
+                        1201 .LDWlin48:
+00000726 1a30           1202 	mov	r26,r6
+00000728 1b38           1203 	mov	r27,r7
+                        1204 	jarl	_rtIsNaN,lp
+                        1204 <EXPANSION BEGIN>
+                        1204 jarl22 _rtIsNaN , lp 
+0000072a 80ff0000*      1204 <EXPANSION END>
+0000072e e051           1205 	cmp	zero,r10
+00000730 fa05*          1206 	bne	.L201
+00000732 1a30           1207 	mov	r26,r6
+00000734 1b38           1208 	mov	r27,r7
+                        1209 	jarl	_rtIsInf,lp
+                        1209 <EXPANSION BEGIN>
+                        1209 jarl22 _rtIsInf , lp 
+00000736 80ff0000*      1209 <EXPANSION END>
+0000073a e051           1210 	cmp	zero,r10
+0000073c c205*          1211 	be	.L200
+                        1212 .L201:
+                        1213 --390:     u0 = 0.0;
+                        1214 --line390
+                        1215 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.49::
+                        1216 .LDWlin49:
+0000073e 00da           1217 	mov	0,r27
+00000740 00d2           1218 	mov	0,r26
+00000742 c50d*          1219 	br	.L203
+                        1220 .L200:
+                        1221 --391:   } else {
+                        1222 --392:     u0 = fmod(u0, 65536.0);
+                        1223 --line392
+                        1224 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.50::
+                        1225 .LDWlin50:
+00000744 1a30           1226 	mov	r26,r6
+00000746 1b38           1227 	mov	r27,r7
+00000748 404ef040       1228 	movhi	16624,zero,r9
+0000074c 0042           1229 	mov	0,r8
+                        1230 	jarl	_fmod,lp
+                        1230 <EXPANSION BEGIN>
+                        1230 jarl22 _fmod , lp 
+0000074e 80ff0000*      1230 <EXPANSION END>
+00000752 0a60           1231 	mov	r10,r12
+00000754 0b68           1232 	mov	r11,r13
+00000756 0cd0           1233 	mov	r12,r26
+00000758 0dd8           1234 	mov	r13,r27
+                        1235 .L203:
+                        1236 --393:   }
+                        1237 --395:   prmCompareFuel = (U16)(u0 < 0.0 ? (int32_T)(U16)-(int16_T)(U16)
+                        1238 --line395
+                        1239 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.51::
+                        1240 .LDWlin51:
+0000075a 006a           1241 	mov	0,r13
+0000075c 0062           1242 	mov	0,r12
+0000075e fa673474       1243 	cmpf.d	le,r12,r26,2
+00000762 e0070404       1244 	trfsr	2
+00000766 a20d*          1245 	be	.L204
+00000768 e1d75864       1246 	negf.d	r26,r12
+0000076c f167500c       1247 	trncf.duw	r12,r1
+00000770 c100           1248 	zxh	r1
+00000772 e100           1249 	sxh	r1
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+00000774 8009           1250 	subr	zero,r1
+00000776 c100           1251 	zxh	r1
+00000778 c505*          1252 	br	.L206
+                        1253 .L204:
+0000077a f1d7500c       1254 	trncf.duw	r26,r1
+0000077e c100           1255 	zxh	r1
+                        1256 .L206:
+00000780 2b0600000000*  1257 	mov	_prmCompareFuel,r11
+00000786 6b0f0000       1258 	st.h	r1,0[r11]
+                        1259 --396:     -u0 : (int32_T)(U16)u0);
+                        1260 --398:   /* End of DataTypeConversion: '<Root>/Data Type Conversion2' */
+                        1261 --400:   /* DataTypeConversion: '<Root>/Data Type Conversion1' */
+                        1262 --401:   u0 = floor(prmDisplayFuel);
+                        1263 --line401
+                        1264 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.52::
+                        1265 .LDWlin52:
+0000078a 2c0600000000*  1266 	mov	_prmDisplayFuel,r12
+00000790 ac0709300000   1267 	ld.dw	0[r12],r6
+                        1268 	jarl	_floor,lp
+                        1268 <EXPANSION BEGIN>
+                        1268 jarl22 _floor , lp 
+00000796 80ff0000*      1268 <EXPANSION END>
+0000079a 0ad0           1269 	mov	r10,r26
+0000079c 0bd8           1270 	mov	r11,r27
+                        1271 --402:   if (rtIsNaN(u0) || rtIsInf(u0)) {
+                        1272 --line402
+                        1273 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.53::
+                        1274 .LDWlin53:
+0000079e 1a30           1275 	mov	r26,r6
+000007a0 1b38           1276 	mov	r27,r7
+                        1277 	jarl	_rtIsNaN,lp
+                        1277 <EXPANSION BEGIN>
+                        1277 jarl22 _rtIsNaN , lp 
+000007a2 80ff0000*      1277 <EXPANSION END>
+000007a6 e051           1278 	cmp	zero,r10
+000007a8 fa05*          1279 	bne	.L208
+000007aa 1a30           1280 	mov	r26,r6
+000007ac 1b38           1281 	mov	r27,r7
+                        1282 	jarl	_rtIsInf,lp
+                        1282 <EXPANSION BEGIN>
+                        1282 jarl22 _rtIsInf , lp 
+000007ae 80ff0000*      1282 <EXPANSION END>
+000007b2 e051           1283 	cmp	zero,r10
+000007b4 c205*          1284 	be	.L207
+                        1285 .L208:
+                        1286 --403:     u0 = 0.0;
+                        1287 --line403
+                        1288 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.54::
+                        1289 .LDWlin54:
+000007b6 00da           1290 	mov	0,r27
+000007b8 00d2           1291 	mov	0,r26
+000007ba c50d*          1292 	br	.L210
+                        1293 .L207:
+                        1294 --404:   } else {
+                        1295 --405:     u0 = fmod(u0, 65536.0);
+                        1296 --line405
+                        1297 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.55::
+                        1298 .LDWlin55:
+000007bc 1a30           1299 	mov	r26,r6
+000007be 1b38           1300 	mov	r27,r7
+000007c0 404ef040       1301 	movhi	16624,zero,r9
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+000007c4 0042           1302 	mov	0,r8
+                        1303 	jarl	_fmod,lp
+                        1303 <EXPANSION BEGIN>
+                        1303 jarl22 _fmod , lp 
+000007c6 80ff0000*      1303 <EXPANSION END>
+000007ca 0a60           1304 	mov	r10,r12
+000007cc 0b68           1305 	mov	r11,r13
+000007ce 0cd0           1306 	mov	r12,r26
+000007d0 0dd8           1307 	mov	r13,r27
+                        1308 .L210:
+                        1309 --406:   }
+                        1310 --408:   prmDisplayFuelU32 = (U16)(u0 < 0.0 ? (int32_T)(U16)-(int16_T)
+                        1311 --line408
+                        1312 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.56::
+                        1313 .LDWlin56:
+000007d2 006a           1314 	mov	0,r13
+000007d4 0062           1315 	mov	0,r12
+000007d6 fa673674       1316 	cmpf.d	le,r12,r26,3
+000007da e0070604       1317 	trfsr	3
+000007de a20d*          1318 	be	.L211
+000007e0 e1d75864       1319 	negf.d	r26,r12
+000007e4 f167500c       1320 	trncf.duw	r12,r1
+000007e8 c100           1321 	zxh	r1
+000007ea e100           1322 	sxh	r1
+000007ec 8009           1323 	subr	zero,r1
+000007ee c100           1324 	zxh	r1
+000007f0 c505*          1325 	br	.L213
+                        1326 .L211:
+000007f2 f1d7500c       1327 	trncf.duw	r26,r1
+000007f6 c100           1328 	zxh	r1
+                        1329 .L213:
+000007f8 2b0600000000*  1330 	mov	_prmDisplayFuelU32,r11
+000007fe 6b0f0000       1331 	st.h	r1,0[r11]
+                        1332 --409:     (U16)-u0 : (int32_T)(U16)u0);
+                        1333 --411:  FL_Output();
+                        1334 --line411
+                        1335 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.57::
+                        1336 .LDWlin57:
+                        1337 	jarl	_FL_Output,lp
+                        1337 <EXPANSION BEGIN>
+                        1337 jarl22 _FL_Output , lp 
+00000802 80ff0000*      1337 <EXPANSION END>
+                        1338 --412:  //FL_Printf();
+                        1339 --413:   /* End of DataTypeConversion: '<Root>/Data Type Conversion1' */
+                        1340 --414:   #endif
+                        1341 --415: }
+                        1342 --line415
+                        1343 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.58::
+                        1344 .LDWlin58:
+00000806 0000           1345 	nop
+                        1346 --	    .ef
+                        1347 .LDW41:
+00000808 4806ff70       1348 	dispose	4,{r25,r26,r27,r28,r29,r31},[lp]
+                        1349 	.type	_FuelLevelAlgorithm_V2_step,@function
+                        1350 	.size	_FuelLevelAlgorithm_V2_step,.-_FuelLevelAlgorithm_V2_step
+                        1351 	.align	2
+                        1352 .LDW51:
+                        1353 --_u1	r28	local
+                        1354 --_u0	r26	local
+                        1355 --_u0_0	8[sp]	local
+                        1356 
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                        1357 	.section ".bss","awb"
+                        1358 .L442:
+                        1359 	.type	.L442,@object
+                        1360 	.size	.L442,0
+                        1361 	.data
+                        1362 	.text
+                        1363 
+                        1364 
+                        1365 --417: /* Model initialize function */
+                        1366 --418: void FuelLevelAlgorithm_V2_initialize(void)
+                        1367 	.align	2
+                        1368 	.align	2
+                        1369 	.global	_FuelLevelAlgorithm_V2_initialize
+                        1370 _FuelLevelAlgorithm_V2_initialize:
+0000080c 8007e130       1371 	prepare	{r26,r27,r28,r29,r31},0
+00000810 3d0600000000*  1372 	mov	_FuelLevelAlgorithm_V2_DW,r29
+00000816 3c0600000000*  1373 	mov	_prm_K_DisplayFuel,r28
+0000081c 3b0600000000*  1374 	mov	_prm_K_CompareFuel,r27
+00000822 3a0600000000*  1375 	mov	_prmDisplayFuel,r26
+                        1376 --	    .bf
+                        1377 .LDW61:
+                        1378 --419: {
+                        1379 --420:   /* Registration code */
+                        1380 --422:   /* initialize non-finites */
+                        1381 --423:   rt_InitInfAndNaN(sizeof(DBL));
+00000828 0832           1382 	mov	8,r6
+                        1383 	jarl	_rt_InitInfAndNaN,lp
+                        1383 <EXPANSION BEGIN>
+                        1383 jarl22 _rt_InitInfAndNaN , lp 
+0000082a 80ff0000*      1383 <EXPANSION END>
+                        1384 --425:   /* initialize error status */
+                        1385 --426:   rtmSetErrorStatus(FuelLevelAlgorithm_V2_M, (NULL));
+                        1386 --line426
+                        1387 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.59::
+                        1388 .LDWlin59:
+0000082e 3e0600000000*  1389 	mov	_FuelLevelAlgorithm_V2_M,ep
+00000834 00f5           1390 	sld.w	0[ep],ep
+00000836 0105           1391 	sst.w	zero,0[ep]
+                        1392 --428:   /* block I/O */
+                        1393 --429:   (void) memset(((void *) &FuelLevelAlgorithm_V2_B), 0,
+00000838 260600000000*  1394 	mov	_FuelLevelAlgorithm_V2_B,r6
+0000083e 003a           1395 	mov	0,r7
+00000840 0842           1396 	mov	8,r8
+                        1397 	jarl	_memset,lp
+                        1397 <EXPANSION BEGIN>
+                        1397 jarl22 _memset , lp 
+00000842 80ff0000*      1397 <EXPANSION END>
+                        1398 --430:                 sizeof(B_FuelLevelAlgorithm_V2_T));
+                        1399 --432:   /* exported global signals */
+                        1400 --433:   prmDisplayFuel = 0.0;
+                        1401 --line433
+                        1402 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.60::
+                        1403 .LDWlin60:
+00000846 7a070100       1404 	st.w	zero,0[r26]
+0000084a 7a070500       1405 	st.w	zero,4[r26]
+                        1406 --434:   prmCompareFuel = 0U;
+0000084e 2b0600000000*  1407 	mov	_prmCompareFuel,r11
+00000854 6b070000       1408 	st.h	zero,0[r11]
+                        1409 --435:   prmDisplayFuelU32 = 0U;
+00000858 2b0600000000*  1410 	mov	_prmDisplayFuelU32,r11
+0000085e 6b070000       1411 	st.h	zero,0[r11]
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                        1412 --436:   gFuelLvlPct = 0U;
+00000862 2b0600000000*  1413 	mov	_gFuelLvlPct,r11
+00000868 4b070000       1414 	st.b	zero,0[r11]
+                        1415 --437:   gFuelLvlPctV = 0U;
+0000086c 2b0600000000*  1416 	mov	_gFuelLvlPctV,r11
+00000872 4b070000       1417 	st.b	zero,0[r11]
+                        1418 --438:   gRefuelFlag = false;
+00000876 2b0600000000*  1419 	mov	_gRefuelFlag,r11
+0000087c 4b070000       1420 	st.b	zero,0[r11]
+                        1421 --439:   DTC_FuelSensorShortBattery = false;
+00000880 2b0600000000*  1422 	mov	_DTC_FuelSensorShortBattery,r11
+00000886 4b070000       1423 	st.b	zero,0[r11]
+                        1424 --440:   DTC_FuelSensorShortGround = false;
+0000088a 2b0600000000*  1425 	mov	_DTC_FuelSensorShortGround,r11
+00000890 4b070000       1426 	st.b	zero,0[r11]
+                        1427 --442:   /* states (dwork) */
+                        1428 --443:   (void) memset((void *)&FuelLevelAlgorithm_V2_DW, 0,
+00000894 1d30           1429 	mov	r29,r6
+00000896 003a           1430 	mov	0,r7
+00000898 20461800       1431 	movea	24,zero,r8
+                        1432 	jarl	_memset,lp
+                        1432 <EXPANSION BEGIN>
+                        1432 jarl22 _memset , lp 
+0000089c 80ff0000*      1432 <EXPANSION END>
+                        1433 --444:                 sizeof(DW_FuelLevelAlgorithm_V2_T));
+                        1434 --446:   /* external inputs */
+                        1435 --447:   gASI_FuelSensorADAverage = 0U;
+                        1436 --line447
+                        1437 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.61::
+                        1438 .LDWlin61:
+000008a0 2b0600000000*  1439 	mov	_gASI_FuelSensorADAverage,r11
+000008a6 6b070000       1440 	st.h	zero,0[r11]
+                        1441 --448:   gASI_VehicleSpeed = 0U;
+000008aa 2b0600000000*  1442 	mov	_gASI_VehicleSpeed,r11
+000008b0 6b070000       1443 	st.h	zero,0[r11]
+                        1444 --449:   gASI_EngineSpeed = 0U;
+000008b4 2b0600000000*  1445 	mov	_gASI_EngineSpeed,r11
+000008ba 6b070000       1446 	st.h	zero,0[r11]
+                        1447 --450:   prm_K_CompareFuel = 0U;
+000008be 7b070000       1448 	st.h	zero,0[r27]
+                        1449 --451:   prm_K_DisplayFuel = 0U;
+000008c2 7c070000       1450 	st.h	zero,0[r28]
+                        1451 --452:   gASI_VehicleSpeedV = 0U;
+000008c6 2b0600000000*  1452 	mov	_gASI_VehicleSpeedV,r11
+000008cc 4b070000       1453 	st.b	zero,0[r11]
+                        1454 --453:   gASI_EngineSpeedStatus = 0U;
+000008d0 2b0600000000*  1455 	mov	_gASI_EngineSpeedStatus,r11
+000008d6 4b070000       1456 	st.b	zero,0[r11]
+                        1457 --455:   /* InitializeConditions for Chart: '<Root>/Fuel Level Algorithm' */
+                        1458 --456:   FuelLevelAlgorithm_V2_DW.SensorFuel = 0U;
+000008da 7d071000       1459 	st.h	zero,16[r29]
+                        1460 --457:   FuelLevelAlgorithm_V2_DW.StepFuel = 0.0;
+000008de 7d070100       1461 	st.w	zero,0[r29]
+000008e2 7d070500       1462 	st.w	zero,4[r29]
+                        1463 --458:   FuelLevelAlgorithm_V2_DW.InitializeCount = 0U;
+000008e6 5d071400       1464 	st.b	zero,20[r29]
+                        1465 --459:   FuelLevelAlgorithm_V2_DW.ShortBatteryCount = 0U;
+000008ea 5d071500       1466 	st.b	zero,21[r29]
+                        1467 --460:   FuelLevelAlgorithm_V2_DW.ShortGroundCount = 0U;
+000008ee 5d071600       1468 	st.b	zero,22[r29]
+                        1469 --461:   FuelLevelAlgorithm_V2_DW.MidFuel = 0U;
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+000008f2 7d071200       1470 	st.h	zero,18[r29]
+                        1471 --462:   FuelLevelAlgorithm_V2_DW.StopCount = 0U;
+000008f6 5d071700       1472 	st.b	zero,23[r29]
+                        1473 --463:   FuelLevelAlgorithm_V2_DW.FarCompareFuel = 0.0;
+000008fa 7d070900       1474 	st.w	zero,8[r29]
+000008fe 7d070d00       1475 	st.w	zero,12[r29]
+                        1476 --464:   gFuelLvlPctV = 0U;
+00000902 2b0600000000*  1477 	mov	_gFuelLvlPctV,r11
+00000908 4b070000       1478 	st.b	zero,0[r11]
+                        1479 --465:   gRefuelFlag = false;
+0000090c 2b0600000000*  1480 	mov	_gRefuelFlag,r11
+00000912 4b070000       1481 	st.b	zero,0[r11]
+                        1482 --466:   DTC_FuelSensorShortBattery = false;
+00000916 2b0600000000*  1483 	mov	_DTC_FuelSensorShortBattery,r11
+0000091c 4b070000       1484 	st.b	zero,0[r11]
+                        1485 --467:   DTC_FuelSensorShortGround = false;
+00000920 2b0600000000*  1486 	mov	_DTC_FuelSensorShortGround,r11
+00000926 4b070000       1487 	st.b	zero,0[r11]
+                        1488 --468:   FuelLevelAlgorithm_V2_B.CompareFuel = 0.0;
+0000092a 2b0600000000*  1489 	mov	_FuelLevelAlgorithm_V2_B,r11
+00000930 6b070100       1490 	st.w	zero,0[r11]
+00000934 6b070500       1491 	st.w	zero,4[r11]
+                        1492 --469:   prmDisplayFuel = 0.0;
+00000938 7a070100       1493 	st.w	zero,0[r26]
+0000093c 7a070500       1494 	st.w	zero,4[r26]
+                        1495 --472:     #if 1
+                        1496 --473:     
+                        1497 --474:     if(RET_OK != NVM_GetParas(INDEX_NVM_K_COMPAREFUEL, &prm_K_CompareFuel, 2))
+00000940 1b38           1498 	mov	r27,r7
+00000942 20368200       1499 	movea	130,zero,r6
+00000946 0242           1500 	mov	2,r8
+                        1501 	jarl	_NVM_GetParas,lp
+                        1501 <EXPANSION BEGIN>
+                        1501 jarl22 _NVM_GetParas , lp 
+00000948 80ff0000*      1501 <EXPANSION END>
+0000094c 6152           1502 	cmp	1,r10
+0000094e a20d*          1503 	be	.L771
+                        1504 --475:     {
+                        1505 --476:         if(0xFF == prm_K_CompareFuel)  prm_K_CompareFuel = 2000;
+                        1506 --line476
+                        1507 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.62::
+                        1508 .LDWlin62:
+00000950 fb0f0100       1509 	ld.hu	0[r27],r1
+00000954 010601ff       1510 	addi	-255,r1,zero
+00000958 da05*          1511 	bne	.L771
+                        1512 --line476
+                        1513 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.63::
+                        1514 .LDWlin63:
+0000095a 200ed007       1515 	movea	2000,zero,r1
+0000095e 7b0f0000       1516 	st.h	r1,0[r27]
+                        1517 .L771:
+                        1518 --477:     }
+                        1519 --478:     if(RET_OK != NVM_GetParas(INDEX_NVM_K_DISPLAYFUEL, &prm_K_DisplayFuel, 2))
+00000962 1c38           1520 	mov	r28,r7
+00000964 20368300       1521 	movea	131,zero,r6
+00000968 0242           1522 	mov	2,r8
+                        1523 	jarl	_NVM_GetParas,lp
+                        1523 <EXPANSION BEGIN>
+                        1523 jarl22 _NVM_GetParas , lp 
+0000096a 80ff0000*      1523 <EXPANSION END>
+0000096e 6152           1524 	cmp	1,r10
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+00000970 a20d*          1525 	be	.L775
+                        1526 --479:     {
+                        1527 --480:         if(0xFF == prm_K_DisplayFuel) prm_K_DisplayFuel = 2000;
+                        1528 --line480
+                        1529 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.64::
+                        1530 .LDWlin64:
+00000972 fc0f0100       1531 	ld.hu	0[r28],r1
+00000976 010601ff       1532 	addi	-255,r1,zero
+0000097a da05*          1533 	bne	.L775
+                        1534 --line480
+                        1535 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2.65::
+                        1536 .LDWlin65:
+0000097c 200ed007       1537 	movea	2000,zero,r1
+00000980 7c0f0000       1538 	st.h	r1,0[r28]
+                        1539 .L775:
+                        1540 --481:     }
+                        1541 --482:    // prm_K_DisplayFuel = 2000;
+                        1542 --483:    // prm_K_CompareFuel = 2000;
+                        1543 --484:     #if 0
+                        1544 --485:     printf("FL_INIT:%d %d \r\n", prm_K_CompareFuel, prm_K_DisplayFuel);
+                        1545 --486:     #endif
+                        1546 --488:      
+                        1547 --489:     #endif
+                        1548 --490:     
+                        1549 --491: }
+00000984 0000           1550 	nop
+                        1551 --	    .ef
+                        1552 .LDW71:
+00000986 4006ff30       1553 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                        1554 	.type	_FuelLevelAlgorithm_V2_initialize,@function
+                        1555 	.size	_FuelLevelAlgorithm_V2_initialize,.-_FuelLevelAlgorithm_V2_initialize
+                        1556 	.align	2
+                        1557 .LDW81:
+                        1558 
+                        1559 	.section ".bss","awb"
+                        1560 .L870:
+                        1561 	.type	.L870,@object
+                        1562 	.size	.L870,0
+                        1563 	.data
+                        1564 	.text
+                        1565 
+                        1566 
+                        1567 --493: /* Model terminate function */
+                        1568 --494: void FuelLevelAlgorithm_V2_terminate(void)
+                        1569 	.align	2
+                        1570 	.align	2
+                        1571 	.global	_FuelLevelAlgorithm_V2_terminate
+                        1572 _FuelLevelAlgorithm_V2_terminate:
+                        1573 --	    .bf
+                        1574 .LDW91:
+                        1575 --495: {
+                        1576 --496:   /* (no terminate code required) */
+                        1577 --497: }
+0000098a 0000           1578 	nop
+                        1579 --	    .ef
+                        1580 .LDW02:
+0000098c 7f00           1581 	jmp	[lp]
+                        1582 	.type	_FuelLevelAlgorithm_V2_terminate,@function
+                        1583 	.size	_FuelLevelAlgorithm_V2_terminate,.-_FuelLevelAlgorithm_V2_terminate
+                        1584 	.align	2
+                        1585 .LDW12:
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                        1586 
+                        1587 	.section ".bss","awb"
+                        1588 .L1016:
+                        1589 	.type	.L1016,@object
+                        1590 	.size	.L1016,0
+                        1591 	.data
+                        1592 	.text
+                        1593 
+                        1594 	.align	2
+                        1595 --_rtNaN	_rtNaN	import
+                        1596 --_FuelLevelAlgorithm_V2_P	_FuelLevelAlgorithm_V2_P	import
+                        1597 
+                        1598 	.section ".rodata","a"
+                        1599 	.align	4
+                        1600 	.global	_FuelLevelAlgorithm_V2_M
+00000028 00000000*      1601 _FuelLevelAlgorithm_V2_M:	.word	_FuelLevelAlgorithm_V2_M_
+                        1602 	.type	_FuelLevelAlgorithm_V2_M,@object
+                        1603 	.size	_FuelLevelAlgorithm_V2_M,4
+                        1604 	.data
+                        1605 	.section ".bss","awb"
+                        1606 	.align	8
+                        1607 	.align	8
+                        1608 	.global	_prmDisplayFuel
+00000000 000000000000   1609 _prmDisplayFuel:	.space	8
+00000006 0000 
+                        1610 	.type	_prmDisplayFuel,@object
+                        1611 	.size	_prmDisplayFuel,8
+                        1612 	.align	8
+                        1613 	.global	_FuelLevelAlgorithm_V2_B
+00000008 000000000000   1614 _FuelLevelAlgorithm_V2_B:	.space	8
+0000000e 0000 
+                        1615 	.type	_FuelLevelAlgorithm_V2_B,@object
+                        1616 	.size	_FuelLevelAlgorithm_V2_B,8
+                        1617 	.align	8
+                        1618 	.global	_FuelLevelAlgorithm_V2_DW
+00000010 000000000000   1619 _FuelLevelAlgorithm_V2_DW:	.space	24
+00000016 000000000000 
+0000001c 000000000000 
+00000022 000000000000 
+                        1620 	.type	_FuelLevelAlgorithm_V2_DW,@object
+                        1621 	.size	_FuelLevelAlgorithm_V2_DW,24
+                        1622 	.align	4
+                        1623 	.global	_FuelLevelAlgorithm_V2_M_
+00000028 00000000       1624 _FuelLevelAlgorithm_V2_M_:	.space	4
+                        1625 	.type	_FuelLevelAlgorithm_V2_M_,@object
+                        1626 	.size	_FuelLevelAlgorithm_V2_M_,4
+                        1627 	.align	2
+                        1628 	.global	_gASI_FuelSensorADAverage
+0000002c 0000           1629 _gASI_FuelSensorADAverage:	.space	2
+                        1630 	.type	_gASI_FuelSensorADAverage,@object
+                        1631 	.size	_gASI_FuelSensorADAverage,2
+                        1632 	.align	2
+                        1633 	.global	_gASI_VehicleSpeed
+0000002e 0000           1634 _gASI_VehicleSpeed:	.space	2
+                        1635 	.type	_gASI_VehicleSpeed,@object
+                        1636 	.size	_gASI_VehicleSpeed,2
+                        1637 	.align	2
+                        1638 	.global	_gASI_EngineSpeed
+00000030 0000           1639 _gASI_EngineSpeed:	.space	2
+                        1640 	.type	_gASI_EngineSpeed,@object
+                        1641 	.size	_gASI_EngineSpeed,2
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002h41.si
+                        1642 	.align	2
+                        1643 	.global	_prm_K_CompareFuel
+00000032 0000           1644 _prm_K_CompareFuel:	.space	2
+                        1645 	.type	_prm_K_CompareFuel,@object
+                        1646 	.size	_prm_K_CompareFuel,2
+                        1647 	.align	2
+                        1648 	.global	_prm_K_DisplayFuel
+00000034 0000           1649 _prm_K_DisplayFuel:	.space	2
+                        1650 	.type	_prm_K_DisplayFuel,@object
+                        1651 	.size	_prm_K_DisplayFuel,2
+                        1652 	.align	2
+                        1653 	.global	_prmCompareFuel
+00000036 0000           1654 _prmCompareFuel:	.space	2
+                        1655 	.type	_prmCompareFuel,@object
+                        1656 	.size	_prmCompareFuel,2
+                        1657 	.align	2
+                        1658 	.global	_prmDisplayFuelU32
+00000038 0000           1659 _prmDisplayFuelU32:	.space	2
+                        1660 	.type	_prmDisplayFuelU32,@object
+                        1661 	.size	_prmDisplayFuelU32,2
+                        1662 	.global	_gASI_VehicleSpeedV
+0000003a 00             1663 _gASI_VehicleSpeedV:	.space	1
+                        1664 	.type	_gASI_VehicleSpeedV,@object
+                        1665 	.size	_gASI_VehicleSpeedV,1
+                        1666 	.global	_gASI_EngineSpeedStatus
+0000003b 00             1667 _gASI_EngineSpeedStatus:	.space	1
+                        1668 	.type	_gASI_EngineSpeedStatus,@object
+                        1669 	.size	_gASI_EngineSpeedStatus,1
+                        1670 	.global	_gFuelLvlPct
+0000003c 00             1671 _gFuelLvlPct:	.space	1
+                        1672 	.type	_gFuelLvlPct,@object
+                        1673 	.size	_gFuelLvlPct,1
+                        1674 	.global	_gFuelLvlPctV
+0000003d 00             1675 _gFuelLvlPctV:	.space	1
+                        1676 	.type	_gFuelLvlPctV,@object
+                        1677 	.size	_gFuelLvlPctV,1
+                        1678 	.global	_gRefuelFlag
+0000003e 00             1679 _gRefuelFlag:	.space	1
+                        1680 	.type	_gRefuelFlag,@object
+                        1681 	.size	_gRefuelFlag,1
+                        1682 	.global	_DTC_FuelSensorShortBattery
+0000003f 00             1683 _DTC_FuelSensorShortBattery:	.space	1
+                        1684 	.type	_DTC_FuelSensorShortBattery,@object
+                        1685 	.size	_DTC_FuelSensorShortBattery,1
+                        1686 	.global	_DTC_FuelSensorShortGround
+00000040 00             1687 _DTC_FuelSensorShortGround:	.space	1
+                        1688 	.type	_DTC_FuelSensorShortGround,@object
+                        1689 	.size	_DTC_FuelSensorShortGround,1
+                        1690 	.data
+                        1691 	.ghsnote version,14
+                        1692 	.ghsnote tools,3
+                        1693 	.ghsnote options,144
+                        1694 	.text
+                        1695 	.align	2
+                        1696 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CFuelLevelAlgorithm_V2...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740362..0::
+                        1697 .rh850_flags DOUBLE,REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,DOUBLE64,G3M

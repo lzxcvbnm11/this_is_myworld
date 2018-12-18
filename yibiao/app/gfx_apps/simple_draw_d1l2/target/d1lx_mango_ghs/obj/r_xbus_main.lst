@@ -1,0 +1,2615 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_xbus_main.dbo -source=r_xbus_main.c -o .\obj\gh_00005vo1.o -list=.\obj\r_xbus_main.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+Source File: r_xbus_main.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c ..\..\..\..\..\macro\gfxbus\xbus\src\r_xbus_main.c -o
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         112 --		.\obj\r_xbus_main.o
+                         113 --Source File:   ..\..\..\..\..\macro\gfxbus\xbus\src\r_xbus_main.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:58 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2: ****************************************************************************
+                         126 --3: PROJECT : VLIB Macro Driver  
+                         127 --4: FILE    : $Id: r_xbus_main.c 7402 2016-01-27 15:43:39Z florian.zimmermann $
+                         128 --5: ============================================================================ 
+                         129 --6: DESCRIPTION
+                         130 --7: Driver for the XBUS macro
+                         131 --8: ============================================================================
+                         132 --9:                             C O P Y R I G H T
+                         133 --10: ============================================================================
+                         134 --11:                        Copyright (c) 2013 - 2014
+                         135 --12:                                   by 
+                         136 --13:                        Renesas Electronics (Europe) GmbH. 
+                         137 --14:                            Arcadiastrasse 10
+                         138 --15:                           D-40472 Duesseldorf
+                         139 --16:                                Germany
+                         140 --17:                           All rights reserved.
+                         141 --18: ============================================================================
+                         142 --19: Purpose: only for testing, not for mass production
+                         143 --21: DISCLAIMER
+                         144 --23: LICENSEE has read, understood and accepted the terms and conditions defined in
+                         145 --24: the license agreement, especially the usage rights. In any case, it is
+                         146 --25: LICENSEE's responsibility to make sure that any user of the software complies
+                         147 --26: with the terms and conditions of the signed license agreement.
+                         148 --28: SAMPLE CODE is not part of the licensed software, as such it must not be used in
+                         149 --29: mass-production applications. It can only be used for evaluation and
+                         150 --30: demonstration purposes at customer's premises listed in the signed license
+                         151 --31: agreement.
+                         152 --33: ****************************************************************************
+                         153 --34: */
+                         154 --36: /*******************************************************************************
+                         155 --37:   Title: XBUS Main Module
+                         156 --39:   Implementation of the API and other global functions.
+                         157 --40: */
+                         158 --42: /*******************************************************************************
+                         159 --43:   Section: Includes
+                         160 --44: */
+                         161 --46: #include "r_typedefs.h"
+                         162 --47: #include "r_dev_api.h"
+                         163 --48: #include "r_config_xbus.h"
+                         164 --49: #include "r_xbus_api.h"
+                         165 --50: #define XBUS_MAIN_GLOBALS_
+                         166 --51: #include "r_xbus_main.h"
+                         167 --52: #include "r_xbus_regs.h"
+                         168 --53: #include "r_xbus_sys.h"
+                         169 --55: #ifdef USE_ROS
+                         170 --56: #include "r_os_api.h"
+                         171 --57: #endif
+                         172 --61: /*******************************************************************************
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         173 --62:   Section: Local Constants
+                         174 --63: */
+                         175 --64: /*
+                         176 --66:   Enum: loc_CacheCmd_t
+                         177 --68:   XBUS cache commands 
+                         178 --70:   0000 IDX_LD_TAG ON
+                         179 --71:   Read from TRAM/Status-FF/LRU-FF of specified index/way.
+                         180 --72:   Write to AXCTAGLO, AXCLRU registers.
+                         181 --73:   Case of TE=0: write tag under ECC=Off. AXCTAGECC holds previous value.
+                         182 --74:   Case of TE=1 & TC=0: write tag/checkbits before correction.
+                         183 --75:   Case of TE=1 & TC=1: write tag/checkbits after correction.
+                         184 --76:   
+                         185 --77:   0001B IDX_ST_TAG 
+                         186 --78:   Read AXCTAGLO, AXCLRU registers.
+                         187 --79:   Case of AXCTAGECC.TE=0: Tag check bits are generated automatically.
+                         188 --80:   Case of AXCTAGECC.TE=1: AXCTAGECC.TAGECC is used.
+                         189 --81:   Write to TRAM/Status-FF/LRU-FF of specified index/way.
+                         190 --82:   
+                         191 --83:   0010B IDX_LD_DATA 
+                         192 --84:   Read from DRAM of specified index/double word.
+                         193 --85:   Write to AXCDATALO/AXCDATAHI/AXCECC registers.
+                         194 --86:   Case of DE=0: write data under ECC=Off. AXCDATAECC holds previous value.
+                         195 --87:   Case of DE=1 & DC=0 : write data/checkbits before correction.
+                         196 --88:   Case of DE=1 & DC=1 : write data/checkbits after correction.
+                         197 --89:   Hardware automatically compensates corkscrew allocation.
+                         198 --90:   
+                         199 --91:   0011B IDX_ST_DATA 
+                         200 --92:   Read from AXCDATALO/AXCDATAHI/AXCECC registers.
+                         201 --93:   Case of AXCDATAECC.DE 0 : Data check bits are generated automatically.
+                         202 --94:   Case of AXCDATAECC.DE 1 : AXCDATAECC.DATAECC(0/1) are used.
+                         203 --95:   Write to DRAM of specified index/doubleword.
+                         204 --96:   Hardware automatically compensates corkscrew allocation.
+                         205 --97:   
+                         206 --98:   0100B IDX_WB_INV 
+                         207 --99:   Check status of specified index/way.
+                         208 --100:   Case of Valid=1 & Dirty=1 : Writeback & Invalidate specified entry.
+                         209 --101:   
+                         210 --102:   0101B FILL  
+                         211 --103:   Fill data to cache way specified by LRU.
+                         212 --105:   0110B HIT_WB_INV 
+                         213 --106:   Check status of specified address.
+                         214 --107:   Case of Hit & Dirty=1 : Writeback & Invalidate specified entry.
+                         215 --108:   Case of Hit & Dirty=0 : Invalidate specified entry
+                         216 --109:   Case of Miss : No operation.
+                         217 --110:   
+                         218 --111:   0111B CREATE_DIRTY 
+                         219 --112:   Create dirty status.
+                         220 --113:   Case of Hit : Set D=1
+                         221 --114:   Case of Miss : Write specified address to TRAM.
+                         222 --115:   Case of V=0 : Write 0 to DRAM
+                         223 --116:   Case of V=1 & D=1 : with writeback.
+                         224 --117:   
+                         225 --118:   1xxxB CLEAR 
+                         226 --119:   Clear target : All of (Valid, Dirty, LRU) bits.
+                         227 --120:   
+                         228 --121: */
+                         229 --123: typedef enum 
+                         230 --124: {
+                         231 --125:    IDX_LD_TAG      = 0x0u,  
+                         232 --126:    IDX_ST_TAG      = 0x1u,
+                         233 --127:    IDX_LD_DATA     = 0x2u,
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         234 --128:    IDX_ST_DATA     = 0x3u,
+                         235 --129:    IDX_WB_INV      = 0x4u,
+                         236 --130:    FILL            = 0x5u,
+                         237 --131:    HIT_WB_INV      = 0x6u,
+                         238 --132:    CREATE_DIRTY    = 0x7u,
+                         239 --133:    CLEAR           = 0x8u,
+                         240 --134: } loc_CacheCmd_t; 
+                         241 --135: /*******************************************************************************
+                         242 --136:   Constant: loc_XbusVersion
+                         243 --138:   A string containig the macro driver version information  
+                         244 --139: */
+                         245 --142: #define LOC_XBUS_VERSIONPREFIX    "@(#)XBUS Version "
+                         246 --143: #define LOC_XBUS_VERSIONPOSTFIX   " - "
+                         247 --146: #define LOC_XBUS_VERSION      { LOC_XBUS_VERSIONPREFIX  R_XSTR (R_XBUS_VERSION_HI) "." \
+                         248 --147:                                 R_XSTR(R_XBUS_VERSION_LO) LOC_XBUS_VERSIONPOSTFIX \
+                         249 --148:                                 __DATE__ R_SPACE __TIME__ }
+                         250 --152: /*******************************************************************************
+                         251 --153:   Section: Local Types 
+                         252 --154: */
+                         253 --156: typedef struct name
+                         254 --157: {
+                         255 --158:     uint32_t Start;
+                         256 --159:     uint32_t End;
+                         257 --160:     uint8_t  Mode; 
+                         258 --161: } locCacheArea_t;
+                         259 --163: /*******************************************************************************
+                         260 --164:   Section: Local Variables
+                         261 --165: */
+                         262 --167: /*******************************************************************************
+                         263 --168:   Variable: locXcLock
+                         264 --170:   Neccessay to aqurire a thread mutex  
+                         265 --171: */
+                         266 --172: #ifdef USE_ROS
+                         267 --173: static R_OS_ThreadMutex_t locXcLock;  
+                         268 --174: #endif
+                         269 --177: /*******************************************************************************
+                         270 --178:   Variable: locBaseAddr
+                         271 --180:   Base Address of the XBUS config registers. The value is defined in the 
+                         272 --181:   r_config_xbus.h file.    
+                         273 --182: */
+                         274 --183: static uint32_t locBaseAddr = 0; 
+                         275 --185: /*******************************************************************************
+                         276 --186:   Variable: loc_ErrorHandler
+                         277 --188:   A function pointer to a user callback (Applications error handler)  
+                         278 --189:   
+                         279 --190:   The value is assigned by the application using the driver 
+                         280 --191: */
+                         281 --193: static void (*loc_ErrorHandler )(uint32_t Unit, uint32_t Error) = 0u;
+                         282 --195: /*******************************************************************************
+                         283 --196:   Variable: CacheAreas
+                         284 --198:   Local storage for cache config  
+                         285 --199: */
+                         286 --200: static locCacheArea_t CacheAreas[4]; 
+                         287 --202: /*******************************************************************************
+                         288 --203:   Variable: locMaxIdx
+                         289 --205:   Amount of cache indexes (device dependant)   
+                         290 --206: */
+                         291 --207: static uint32_t locMaxIdx = 0;
+                         292 --208:  
+                         293 --209: /*******************************************************************************
+                         294 --210:   Section: local Functions
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         295 --211: */
+                         296 --212: void loc_WriteCmd(uint32_t CmdVal) ;
+                         297 --216: /*******************************************************************************
+                         298 --217:   Functions loc_WriteCmd
+                         299 --218:   
+                         300 --219:   Write the given command and waits for the execution to be finished. 
+                         301 --220: */
+                         302 --221: void loc_WriteCmd(uint32_t CmdVal) 
+                         303 	.text
+                         304 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740386..0::
+                         305 	.align	2
+                         306 	.global	_loc_WriteCmd
+                         307 _loc_WriteCmd:
+00000000 210600000000*   308 	mov	.L38,r1
+00000006 0660            309 	mov	r6,r12
+00000008 0158            310 	mov	r1,r11
+                         311 --	    .bf
+                         312 .LDW01:
+                         313 --222: {
+                         314 --223:     volatile uint32_t reg_val = CmdVal; 
+0000000a 0c70            315 	mov	r12,r14
+                         316 --224:     /* Write command */
+                         317 --225:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CACHECMD, reg_val); 
+0000000c 21f70100        318 	ld.w	0[r1],ep
+00000010 1175            319 	sst.w	r14,32[ep]
+                         320 --226:     reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_CACHECMD);  
+00000012 21f70100        321 	ld.w	0[r1],ep
+00000016 1075            322 	sld.w	32[ep],r14
+                         323 --227:     /* Wait for cmd complete */
+                         324 --228:     while (0 != (reg_val & 0x1u))
+00000018 c505*           325 	br	.L4
+                         326 .L6:
+                         327 --229:     {
+                         328 --230:         reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_CACHECMD);  
+                         329 --line230
+                         330 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.1::
+                         331 .LDWlin1:
+0000001a 21f70100        332 	ld.w	0[r1],ep
+0000001e 1075            333 	sld.w	32[ep],r14
+                         334 .L4:
+00000020 ce060100        335 	andi	1,r14,zero
+00000024 bafd*           336 	bne	.L6
+                         337 --231:     }
+                         338 --232: }
+                         339 --line232
+                         340 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.2::
+                         341 .LDWlin2:
+00000026 0000            342 	nop
+                         343 --	    .ef
+                         344 .LDW11:
+00000028 7f00            345 	jmp	[lp]
+                         346 	.type	_loc_WriteCmd,@function
+                         347 	.size	_loc_WriteCmd,.-_loc_WriteCmd
+                         348 	.align	2
+                         349 .LDW21:
+                         350 --_reg_val	r14	local
+                         351 
+                         352 --_CmdVal	r12	param
+                         353 
+                         354 	.data
+                         355 	.align	4
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         356 .L38:
+                         357 	.type	.L38,@object
+                         358 	.size	.L38,0
+                         359 	.global	_locBaseAddr..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.
+                         360 _locBaseAddr..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.:
+                         361 	.type	_locBaseAddr..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.,@object
+                         362 	.size	_locBaseAddr..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.,4
+00000000 00000000        363 _locBaseAddr:	.byte	0,0,0,0
+                         364 	.type	_locBaseAddr,@object
+                         365 	.size	_locBaseAddr,4
+                         366 	.global	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.
+                         367 _loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.:
+                         368 	.type	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.,@object
+                         369 	.size	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.,4
+00000004 00000000        370 _loc_ErrorHandler:	.byte	0,0,0,0
+                         371 	.type	_loc_ErrorHandler,@object
+                         372 	.size	_loc_ErrorHandler,4
+                         373 	.global	_locMaxIdx..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.
+                         374 _locMaxIdx..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.:
+                         375 	.type	_locMaxIdx..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.,@object
+                         376 	.size	_locMaxIdx..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.,4
+00000008 00000000        377 _locMaxIdx:	.byte	0,0,0,0
+                         378 	.type	_locMaxIdx,@object
+                         379 	.size	_locMaxIdx,4
+                         380 	.section ".bss","awb"
+                         381 	.align	4
+                         382 	.global	_CacheAreas..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.
+                         383 _CacheAreas..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.:
+                         384 	.type	_CacheAreas..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.,@object
+                         385 	.size	_CacheAreas..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.,48
+00000000 000000000000    386 _CacheAreas:	.space	48
+00000006 000000000000 
+0000000c 000000000000 
+00000012 000000000000 
+00000018 000000000000 
+0000001e 000000000000 
+00000024 000000000000 
+0000002a 000000000000 
+                         387 	.type	_CacheAreas,@object
+                         388 	.size	_CacheAreas,48
+                         389 	.data
+                         390 	.text
+                         391 
+                         392 
+                         393 --233: /*******************************************************************************
+                         394 --234:   Section: Global Functions
+                         395 --235: */
+                         396 --237: /*******************************************************************************
+                         397 --238:   Function: R_XBUS_CheckMacroParams
+                         398 --239:   
+                         399 --240:   See: <xbus_main.h>
+                         400 --241: */
+                         401 --242: r_xbus_Error_t R_XBUS_CheckMacroParams(uint32_t Unit)
+                         402 	.align	2
+                         403 	.align	2
+                         404 	.global	_R_XBUS_CheckMacroParams
+                         405 _R_XBUS_CheckMacroParams:
+0000002a 0608            406 	mov	r6,r1
+                         407 --	    .bf
+                         408 .LDW31:
+                         409 --243: {
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         410 --244:     /* Feel free to add any more usefull parameter checks */
+                         411 --245:     if (R_XBUS_MACRO_NUM <= Unit)
+0000002c 610a            412 	cmp	1,r1
+0000002e b105*           413 	bl	.L73
+                         414 --246:     {
+                         415 --247:         return  R_XBUS_ERR_RANGE; 
+                         416 --line247
+                         417 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.3::
+                         418 .LDWlin3:
+00000030 0252            419 	mov	2,r10
+00000032 a505*           420 	br	.L71
+                         421 .L73:
+                         422 --248:     }
+                         423 --249:     return R_XBUS_ERR_OK;  
+                         424 --line249
+                         425 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.4::
+                         426 .LDWlin4:
+00000034 0052            427 	mov	0,r10
+                         428 .L71:
+                         429 --	    .ef
+                         430 .LDW41:
+00000036 7f00            431 	jmp	[lp]
+                         432 	.type	_R_XBUS_CheckMacroParams,@function
+                         433 	.size	_R_XBUS_CheckMacroParams,.-_R_XBUS_CheckMacroParams
+                         434 	.align	2
+                         435 .LDW51:
+                         436 
+                         437 --_Unit	r1	param
+                         438 
+                         439 	.section ".bss","awb"
+                         440 .L92:
+                         441 	.type	.L92,@object
+                         442 	.size	.L92,0
+                         443 	.data
+                         444 	.text
+                         445 
+                         446 --250: }
+                         447 
+                         448 --252: /*******************************************************************************
+                         449 --253:   Function: R_XBUS_ErrorHandler
+                         450 --254:   
+                         451 --255:   See: <xbus_main.h>
+                         452 --256: */
+                         453 --258: void R_XBUS_ErrorHandler(uint32_t Unit, r_xbus_Error_t Error) 
+                         454 	.align	2
+                         455 	.align	2
+                         456 	.global	_R_XBUS_ErrorHandler
+                         457 _R_XBUS_ErrorHandler:
+00000038 8007e170        458 	prepare	{r25,r26,r27,r28,r29,r31},0
+0000003c 3d0600000000*   459 	mov	_loc_ErrorHandler,r29
+00000042 06e0            460 	mov	r6,r28
+00000044 07d8            461 	mov	r7,r27
+00000046 1dd0            462 	mov	r29,r26
+                         463 --	    .bf
+                         464 .LDW61:
+                         465 --259: {
+                         466 --260:     if (0 != loc_ErrorHandler) 
+00000048 3d0f0100        467 	ld.w	0[r29],r1
+0000004c e009            468 	cmp	zero,r1
+0000004e 820d*           469 	be	.L112
+                         470 --261:     {      /* we've got a registered error handler here ...*/
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         471 --262:         loc_ErrorHandler(Unit, (uint32_t) Error);      /* ... and we gonna use it!*/
+                         472 --line262
+                         473 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.5::
+                         474 .LDWlin5:
+00000050 3dcf0100        475 	ld.w	0[r29],r25
+00000054 1c30            476 	mov	r28,r6
+00000056 1b38            477 	mov	r27,r7
+00000058 f9c760f9        478 	jarl	[r25],lp
+0000005c d505*           479 	br	.L114
+                         480 .L112:
+                         481 --263:     } 
+                         482 --264:     else 
+                         483 --265:     {
+                         484 --266:         R_SYS_XBUS_ErrorHandler(Unit, Error); 
+                         485 --line266
+                         486 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.6::
+                         487 .LDWlin6:
+0000005e 1c30            488 	mov	r28,r6
+00000060 1b38            489 	mov	r27,r7
+                         490 	jarl	_R_SYS_XBUS_ErrorHandler,lp
+                         490 <EXPANSION BEGIN>
+                         490 jarl22 _R_SYS_XBUS_ErrorHandler , lp 
+00000062 80ff0000*       490 <EXPANSION END>
+                         491 .L114:
+                         492 --267:     }
+                         493 --268: }
+                         494 --line268
+                         495 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.7::
+                         496 .LDWlin7:
+00000066 0000            497 	nop
+                         498 --	    .ef
+                         499 .LDW71:
+00000068 4006ff70        500 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         501 	.type	_R_XBUS_ErrorHandler,@function
+                         502 	.size	_R_XBUS_ErrorHandler,.-_R_XBUS_ErrorHandler
+                         503 	.align	2
+                         504 .LDW81:
+                         505 
+                         506 --_Unit	r28	param
+                         507 --_Error	r27	param
+                         508 
+                         509 	.data
+                         510 	.text
+                         511 
+                         512 
+                         513 --270: /*******************************************************************************
+                         514 --271:   Section: Global API Functions
+                         515 --272:   
+                         516 --273:   See: <xbus_api.h>
+                         517 --274: */
+                         518 --276: /*******************************************************************************
+                         519 --277:   Function: R_XBUS_GetVersionStr
+                         520 --279:   See: <xbus_api.h> 
+                         521 --280: */
+                         522 --281: const int8_t * R_XBUS_GetVersionStr(void)
+                         523 	.align	2
+                         524 	.align	2
+                         525 	.global	_R_XBUS_GetVersionStr
+                         526 _R_XBUS_GetVersionStr:
+                         527 --	    .bf
+                         528 .LDW91:
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         529 --282: {
+                         530 --283:     static const int8_t version[] = LOC_XBUS_VERSION;
+                         531 --284:     return version;
+0000006c 2a0600000000*   532 	mov	.L193,r10
+                         533 --	    .ef
+                         534 .LDW02:
+00000072 7f00            535 	jmp	[lp]
+                         536 	.type	_R_XBUS_GetVersionStr,@function
+                         537 	.size	_R_XBUS_GetVersionStr,.-_R_XBUS_GetVersionStr
+                         538 	.align	2
+                         539 .LDW12:
+                         540 --_version	.L193	static
+                         541 
+                         542 	.section ".bss","awb"
+                         543 .L184:
+                         544 	.type	.L184,@object
+                         545 	.size	.L184,0
+                         546 	.section ".rodata","a"
+                         547 .L193:
+                         548 	.global	_version.R_XBUS_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main..4
+                         549 _version.R_XBUS_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main..4:
+                         550 	.type	_version.R_XBUS_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main..4,@object
+                         551 	.size	_version.R_XBUS_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main..4,44
+                         552 --	"@(#)XBUS Version 0.1 - Feb  2 2018 14:21:58"
+00000000 40282329        553 	.byte	64,40,35,41
+00000004 58425553        554 	.byte	88,66,85,83
+00000008 20566572        555 	.byte	32,86,101,114
+0000000c 73696f6e        556 	.byte	115,105,111,110
+00000010 20302e31        557 	.byte	32,48,46,49
+00000014 202d2046        558 	.byte	32,45,32,70
+00000018 65622020        559 	.byte	101,98,32,32
+0000001c 32203230        560 	.byte	50,32,50,48
+00000020 31382031        561 	.byte	49,56,32,49
+00000024 343a3231        562 	.byte	52,58,50,49
+00000028 3a353800        563 	.byte	58,53,56,0
+                         564 	.type	.L193,@object
+                         565 	.size	.L193,44
+                         566 	.data
+                         567 	.text
+                         568 
+                         569 --285: }
+                         570 
+                         571 --287: /*******************************************************************************
+                         572 --288:   Function: R_XBUS_GetMajorVersion
+                         573 --290:   See: <xbus_api.h> 
+                         574 --291: */
+                         575 --292: const uint16_t R_XBUS_GetMajorVersion(void) 
+                         576 	.align	2
+                         577 	.align	2
+                         578 	.global	_R_XBUS_GetMajorVersion
+                         579 _R_XBUS_GetMajorVersion:
+                         580 --	    .bf
+                         581 .LDW22:
+                         582 --293: {
+                         583 --294:     return (uint16_t)R_XBUS_VERSION_HI; 
+00000074 0052            584 	mov	0,r10
+                         585 --	    .ef
+                         586 .LDW32:
+00000076 7f00            587 	jmp	[lp]
+                         588 	.type	_R_XBUS_GetMajorVersion,@function
+                         589 	.size	_R_XBUS_GetMajorVersion,.-_R_XBUS_GetMajorVersion
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         590 	.align	2
+                         591 .LDW42:
+                         592 
+                         593 	.section ".bss","awb"
+                         594 .L216:
+                         595 	.type	.L216,@object
+                         596 	.size	.L216,0
+                         597 	.data
+                         598 	.text
+                         599 
+                         600 --295: }
+                         601 
+                         602 --297: /*******************************************************************************
+                         603 --298:   Function: R_XBUS_GetMinorVersion
+                         604 --300:   See: <xbus_api.h> 
+                         605 --301: */
+                         606 --302: const uint16_t R_XBUS_GetMinorVersion(void) 
+                         607 	.align	2
+                         608 	.align	2
+                         609 	.global	_R_XBUS_GetMinorVersion
+                         610 _R_XBUS_GetMinorVersion:
+                         611 --	    .bf
+                         612 .LDW52:
+                         613 --303: {
+                         614 --304:     return (uint16_t)R_XBUS_VERSION_LO; 
+00000078 0152            615 	mov	1,r10
+                         616 --	    .ef
+                         617 .LDW62:
+0000007a 7f00            618 	jmp	[lp]
+                         619 	.type	_R_XBUS_GetMinorVersion,@function
+                         620 	.size	_R_XBUS_GetMinorVersion,.-_R_XBUS_GetMinorVersion
+                         621 	.align	2
+                         622 .LDW72:
+                         623 
+                         624 	.section ".bss","awb"
+                         625 .L248:
+                         626 	.type	.L248,@object
+                         627 	.size	.L248,0
+                         628 	.data
+                         629 	.text
+                         630 
+                         631 --305: }
+                         632 
+                         633 --309: /*******************************************************************************
+                         634 --310:   Function: R_XBUS_Init
+                         635 --312:   See: <xbus_api.h> 
+                         636 --313: */
+                         637 --315:  r_xbus_Error_t R_XBUS_Init(uint32_t Unit) 
+                         638 	.align	2
+                         639 	.align	2
+                         640 	.global	_R_XBUS_Init
+                         641 _R_XBUS_Init:
+0000007c 8607e170        642 	prepare	{r25,r26,r27,r28,r29,r31},3
+00000080 63370900        643 	st.w	r6,8[sp]
+00000084 3c0600000000*   644 	mov	_locBaseAddr,r28
+                         645 --	    .bf
+                         646 .LDW82:
+                         647 --316:  {
+                         648 --317:     r_xbus_Error_t    err       = R_XBUS_ERR_OK;
+0000008a 63070100        649 	st.w	zero,0[sp]
+0000008e 005a            650 	mov	0,r11
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         651 --318:     volatile uint32_t reg_val   = 0; 
+00000090 00ea            652 	mov	0,r29
+                         653 --319:     loc_CacheCmd_t    cmd       = CLEAR; 
+00000092 08ca            654 	mov	8,r25
+                         655 --320:     uint32_t          i         = 0; 
+00000094 00d2            656 	mov	0,r26
+                         657 --321:     uint32_t          j         = 0; 
+00000096 00da            658 	mov	0,r27
+                         659 --322:     err = R_XBUS_CheckMacroParams(Unit); 
+00000098 23370900        660 	ld.w	8[sp],r6
+                         661 	jarl	_R_XBUS_CheckMacroParams,lp
+                         661 <EXPANSION BEGIN>
+                         661 jarl22 _R_XBUS_CheckMacroParams , lp 
+0000009c bfff8eff*       661 <EXPANSION END>
+000000a0 63570100        662 	st.w	r10,0[sp]
+                         663 --323:     if (R_XBUS_ERR_OK != err) 
+                         664 --line323
+                         665 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.8::
+                         666 .LDWlin8:
+000000a4 235f0100        667 	ld.w	0[sp],r11
+000000a8 e059            668 	cmp	zero,r11
+000000aa c205*           669 	be	.L262
+                         670 --324:     {
+                         671 --325:         return err; 
+                         672 --line325
+                         673 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.9::
+                         674 .LDWlin9:
+000000ac 23570100        675 	ld.w	0[sp],r10
+000000b0 c575*           676 	br	.L260
+                         677 .L262:
+                         678 --326:     }
+                         679 --327:     /* Get register base address */
+                         680 --328:     locBaseAddr = R_XBUS_SYS_BaseAddr(Unit); 
+                         681 --line328
+                         682 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.10::
+                         683 .LDWlin10:
+000000b2 23370900        684 	ld.w	8[sp],r6
+                         685 	jarl	_R_XBUS_SYS_BaseAddr,lp
+                         685 <EXPANSION BEGIN>
+                         685 jarl22 _R_XBUS_SYS_BaseAddr , lp 
+000000b6 80ff0000*       685 <EXPANSION END>
+000000ba 7c570100        686 	st.w	r10,0[r28]
+                         687 --329:     /* get max index (depending on the device) */
+                         688 --330:     locMaxIdx   = R_XBUS_SYS_GetMaxIdx(Unit); 
+                         689 --line330
+                         690 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.11::
+                         691 .LDWlin11:
+000000be 23370900        692 	ld.w	8[sp],r6
+                         693 	jarl	_R_XBUS_SYS_GetMaxIdx,lp
+                         693 <EXPANSION BEGIN>
+                         693 jarl22 _R_XBUS_SYS_GetMaxIdx , lp 
+000000c2 80ff0000*       693 <EXPANSION END>
+000000c6 2b0600000000*   694 	mov	_locMaxIdx,r11
+000000cc 6b570100        695 	st.w	r10,0[r11]
+                         696 --331:     
+                         697 --332:     /* check if we have a device with some cache  */
+                         698 --333:     if (0 == locMaxIdx) 
+                         699 --line333
+                         700 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.12::
+                         701 .LDWlin12:
+000000d0 210600000000*   702 	mov	_locMaxIdx,r1
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+000000d6 210f0100        703 	ld.w	0[r1],r1
+000000da e009            704 	cmp	zero,r1
+000000dc da05*           705 	bne	.L265
+                         706 --334:     {
+                         707 --335:         locBaseAddr = 0; 
+                         708 --line335
+                         709 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.13::
+                         710 .LDWlin13:
+000000de 7c070100        711 	st.w	zero,0[r28]
+                         712 --336:         return R_XBUS_ERR_NG;
+000000e2 0152            713 	mov	1,r10
+000000e4 a55d*           714 	br	.L260
+                         715 .L265:
+                         716 --337:     }
+                         717 --338:     
+                         718 --339:     /* 1. lock clear */
+                         719 --340:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_SYSERR, 0); 
+                         720 --line340
+                         721 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.14::
+                         722 .LDWlin14:
+000000e6 3cf70100        723 	ld.w	0[r28],ep
+000000ea 0705            724 	sst.w	zero,12[ep]
+                         725 --341:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_ERRCNT, 0); 
+000000ec 3cf70100        726 	ld.w	0[r28],ep
+000000f0 0905            727 	sst.w	zero,16[ep]
+                         728 --343:     reg_val = R_XBUS_READ_REG(32, locBaseAddr + R_XBUS_CFG); 
+000000f2 3cf70100        729 	ld.w	0[r28],ep
+000000f6 00ed            730 	sld.w	0[ep],r29
+                         731 --344:  
+                         732 --345:      reg_val  = 0; 
+000000f8 00ea            733 	mov	0,r29
+                         734 --346:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_TAGLO,   reg_val); 
+000000fa 3cf70100        735 	ld.w	0[r28],ep
+000000fe 13ed            736 	sst.w	r29,36[ep]
+                         737 --347:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_LRU,     reg_val); 
+00000100 3cf70100        738 	ld.w	0[r28],ep
+00000104 15ed            739 	sst.w	r29,40[ep]
+                         740 --348:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_DATALO,  reg_val); 
+00000106 3cf70100        741 	ld.w	0[r28],ep
+0000010a 17ed            742 	sst.w	r29,44[ep]
+                         743 --349:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_DATAHI,  reg_val); 
+0000010c 3cf70100        744 	ld.w	0[r28],ep
+00000110 19ed            745 	sst.w	r29,48[ep]
+                         746 --350:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_DATAECC, reg_val); 
+00000112 3cf70100        747 	ld.w	0[r28],ep
+00000116 1ded            748 	sst.w	r29,56[ep]
+                         749 --351:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_TAGECC,  reg_val); 
+00000118 3cf70100        750 	ld.w	0[r28],ep
+0000011c 1bed            751 	sst.w	r29,52[ep]
+                         752 --352:  
+                         753 --353:     /* 2. initialize  */
+                         754 --355:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_SYSERR, 0); 
+0000011e 3cf70100        755 	ld.w	0[r28],ep
+00000122 0705            756 	sst.w	zero,12[ep]
+                         757 --356:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_ERRCNT, 0); 
+00000124 3cf70100        758 	ld.w	0[r28],ep
+00000128 0905            759 	sst.w	zero,16[ep]
+                         760 --357:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_ERRADR, 0); 
+0000012a 3cf70100        761 	ld.w	0[r28],ep
+0000012e 0b05            762 	sst.w	zero,20[ep]
+                         763 --358:  
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         764 --359:     /* initialise Cache RAM */
+                         765 --360:     
+                         766 --361:     for (i = 0; i < locMaxIdx ; i++) 
+00000130 00d2            767 	mov	0,r26
+00000132 a525*           768 	br	.L271
+                         769 .L270:
+                         770 --362:     { 
+                         771 --363:         for (j = 0; j < (R_XBUS_CACHE_BLK_NB * R_XBUS_CACHE_WAY_NB); j++) 
+                         772 --line363
+                         773 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.15::
+                         774 .LDWlin15:
+00000134 00da            775 	mov	0,r27
+00000136 0000            776 	nop
+                         777 .L274:
+                         778 --364:         {
+                         779 --365:             cmd         = IDX_ST_TAG; 
+00000138 01ca            780 	mov	1,r25
+                         781 --366:             reg_val     = (uint32_t)cmd; 
+0000013a 19e8            782 	mov	r25,r29
+                         783 --367:             reg_val   <<= 1u;
+0000013c c1ea            784 	shl	1,r29
+                         785 --368:             /* Command activation */
+                         786 --369:             reg_val    |= 1u;
+0000013e 9dee0100        787 	ori	1,r29,r29
+                         788 --370:             /* add next index to the command */
+                         789 --371:             reg_val    |= (i<<5u); 
+00000142 1a08            790 	mov	r26,r1
+00000144 c50a            791 	shl	5,r1
+00000146 01e9            792 	or	r1,r29
+                         793 --372:             /* Block&way are bit 19-16 and not 15-12 */
+                         794 --373:              reg_val   |= (j<<16u); 
+00000148 1b08            795 	mov	r27,r1
+0000014a d00a            796 	shl	16,r1
+0000014c 01e9            797 	or	r1,r29
+                         798 --374:            
+                         799 --375:             /* Write command */
+                         800 --376:             loc_WriteCmd(reg_val); 
+0000014e 1d30            801 	mov	r29,r6
+                         802 	jarl	_loc_WriteCmd,lp
+                         802 <EXPANSION BEGIN>
+                         802 jarl22 _loc_WriteCmd , lp 
+00000150 bfffb0fe*       802 <EXPANSION END>
+                         803 --377:            
+                         804 --378:             /* clear command type */
+                         805 --379:             reg_val     &=(uint32_t) (~(uint32_t)0x0000001eu);  
+                         806 --line379
+                         807 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.16::
+                         808 .LDWlin16:
+00000154 200ee1ff        809 	movea	-31,zero,r1
+00000158 41e9            810 	and	r1,r29
+                         811 --380:             cmd         = IDX_ST_DATA; 
+0000015a 03ca            812 	mov	3,r25
+                         813 --381:             /* Set new command */
+                         814 --382:             reg_val     |= ((uint32_t)cmd <<1); 
+0000015c 1908            815 	mov	r25,r1
+0000015e c10a            816 	shl	1,r1
+00000160 01e9            817 	or	r1,r29
+                         818 --384:             /* Command activation */
+                         819 --385:             reg_val    |= 1u;
+00000162 9dee0100        820 	ori	1,r29,r29
+                         821 --386:     
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         822 --387:             /* Write command */
+                         823 --388:             loc_WriteCmd(reg_val); 
+00000166 1d30            824 	mov	r29,r6
+                         825 	jarl	_loc_WriteCmd,lp
+                         825 <EXPANSION BEGIN>
+                         825 jarl22 _loc_WriteCmd , lp 
+00000168 bfff98fe*       825 <EXPANSION END>
+                         826 --line363
+                         827 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.17::
+                         828 .LDWlin17:
+0000016c 41da            829 	add	1,r27
+0000016e 1b06f0ff        830 	addi	-16,r27,zero
+00000172 b9e5*           831 	bnl	.L274
+                         832 --line361
+                         833 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.18::
+                         834 .LDWlin18:
+00000174 41d2            835 	add	1,r26
+                         836 .L271:
+00000176 210600000000*   837 	mov	_locMaxIdx,r1
+0000017c 210f0100        838 	ld.w	0[r1],r1
+00000180 e1d1            839 	cmp	r1,r26
+00000182 91dd*           840 	bl	.L270
+                         841 --389:         }
+                         842 --390:     }
+                         843 --392:     
+                         844 --393:     /* init cache config, disable cache area  */
+                         845 --394:     /*  disable wait insertion */
+                         846 --395:     reg_val = 0x00000303;
+                         847 --line395
+                         848 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.19::
+                         849 .LDWlin19:
+00000184 20ee0303        850 	movea	771,zero,r29
+                         851 --396:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CFG, reg_val); 
+00000188 3cf70100        852 	ld.w	0[r28],ep
+0000018c 01ed            853 	sst.w	r29,0[ep]
+                         854 --397:  
+                         855 --398:     /* synchronise ... whatever */
+                         856 --399:     reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_REQSYNC);  
+0000018e 3cf70100        857 	ld.w	0[r28],ep
+00000192 0ced            858 	sld.w	24[ep],r29
+                         859 --400:     
+                         860 --401:     #ifdef USE_ROS
+                         861 --402:     R_OS_ThreadMutexInit(&locXcLock, 0);
+                         862 --403:     #endif
+                         863 --405:     return err;
+00000194 23570100        864 	ld.w	0[sp],r10
+                         865 .L260:
+                         866 --	    .ef
+                         867 .LDW92:
+00000198 4606ff70        868 	dispose	3,{r25,r26,r27,r28,r29,r31},[lp]
+                         869 	.type	_R_XBUS_Init,@function
+                         870 	.size	_R_XBUS_Init,.-_R_XBUS_Init
+                         871 	.align	2
+                         872 .LDW03:
+                         873 --_err	0[sp]	local
+                         874 --_reg_val	r29	local
+                         875 --_cmd	r25	local
+                         876 --_i	r26	local
+                         877 --_j	r27	local
+                         878 
+                         879 --_Unit	8[sp]	param
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         880 
+                         881 	.section ".bss","awb"
+                         882 .L394:
+                         883 	.type	.L394,@object
+                         884 	.size	.L394,0
+                         885 	.data
+                         886 	.text
+                         887 
+                         888 --406: }
+                         889 
+                         890 --409: /*******************************************************************************
+                         891 --410:   Function: R_XBUS_Invalidate
+                         892 --412:   See: <xbus_api.h> 
+                         893 --413: */
+                         894 --415:  r_xbus_Error_t R_XBUS_Invalidate(uint32_t Unit) 
+                         895 	.align	2
+                         896 	.align	2
+                         897 	.global	_R_XBUS_Invalidate
+                         898 _R_XBUS_Invalidate:
+0000019c 8807e170        899 	prepare	{r25,r26,r27,r28,r29,r31},4
+000001a0 63370d00        900 	st.w	r6,12[sp]
+                         901 --	    .bf
+                         902 .LDW13:
+                         903 --416:  {
+                         904 --417:     r_xbus_Error_t    err       = R_XBUS_ERR_OK;
+000001a4 63070500        905 	st.w	zero,4[sp]
+000001a8 005a            906 	mov	0,r11
+                         907 --418:     volatile uint32_t reg_val   = 0; 
+000001aa 00ea            908 	mov	0,r29
+                         909 --419:     volatile uint32_t tag_lo    = 0; 
+000001ac 00d2            910 	mov	0,r26
+                         911 --420:     loc_CacheCmd_t    cmd       = CLEAR; 
+000001ae 08ca            912 	mov	8,r25
+                         913 --421:     uint32_t          i         = 0; 
+000001b0 00e2            914 	mov	0,r28
+                         915 --422:     uint32_t          j         = 0; 
+000001b2 00da            916 	mov	0,r27
+                         917 --423:     err = R_XBUS_CheckMacroParams(Unit); 
+000001b4 23370d00        918 	ld.w	12[sp],r6
+                         919 	jarl	_R_XBUS_CheckMacroParams,lp
+                         919 <EXPANSION BEGIN>
+                         919 jarl22 _R_XBUS_CheckMacroParams , lp 
+000001b8 bfff72fe*       919 <EXPANSION END>
+000001bc 63570500        920 	st.w	r10,4[sp]
+                         921 --424:     if (R_XBUS_ERR_OK != err) 
+                         922 --line424
+                         923 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.20::
+                         924 .LDWlin20:
+000001c0 235f0500        925 	ld.w	4[sp],r11
+000001c4 e059            926 	cmp	zero,r11
+000001c6 c205*           927 	be	.L555
+                         928 --425:     {
+                         929 --426:         return err; 
+                         930 --line426
+                         931 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.21::
+                         932 .LDWlin21:
+000001c8 23570500        933 	ld.w	4[sp],r10
+000001cc 856d*           934 	br	.L553
+                         935 .L555:
+                         936 --427:     }
+                         937 --428:     /* Get register base address */
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                         938 --429:     locBaseAddr = R_XBUS_SYS_BaseAddr(Unit); 
+                         939 --line429
+                         940 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.22::
+                         941 .LDWlin22:
+000001ce 23370d00        942 	ld.w	12[sp],r6
+                         943 	jarl	_R_XBUS_SYS_BaseAddr,lp
+                         943 <EXPANSION BEGIN>
+                         943 jarl22 _R_XBUS_SYS_BaseAddr , lp 
+000001d2 80ff0000*       943 <EXPANSION END>
+000001d6 2b0600000000*   944 	mov	_locBaseAddr,r11
+000001dc 6b570100        945 	st.w	r10,0[r11]
+                         946 --430:     /* get max index (depending on the device) */
+                         947 --431:     locMaxIdx   = R_XBUS_SYS_GetMaxIdx(Unit); 
+                         948 --line431
+                         949 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.23::
+                         950 .LDWlin23:
+000001e0 23370d00        951 	ld.w	12[sp],r6
+                         952 	jarl	_R_XBUS_SYS_GetMaxIdx,lp
+                         952 <EXPANSION BEGIN>
+                         952 jarl22 _R_XBUS_SYS_GetMaxIdx , lp 
+000001e4 80ff0000*       952 <EXPANSION END>
+000001e8 2b0600000000*   953 	mov	_locMaxIdx,r11
+000001ee 6b570100        954 	st.w	r10,0[r11]
+                         955 --432:     
+                         956 --433:     /* check if we have a device with some cache  */
+                         957 --434:     if (0 == locMaxIdx) 
+                         958 --line434
+                         959 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.24::
+                         960 .LDWlin24:
+000001f2 210600000000*   961 	mov	_locMaxIdx,r1
+000001f8 210f0100        962 	ld.w	0[r1],r1
+000001fc e009            963 	cmp	zero,r1
+000001fe 8a0d*           964 	bne	.L558
+                         965 --435:     {
+                         966 --436:         locBaseAddr = 0; 
+                         967 --line436
+                         968 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.25::
+                         969 .LDWlin25:
+00000200 2b0600000000*   970 	mov	_locBaseAddr,r11
+00000206 6b070100        971 	st.w	zero,0[r11]
+                         972 --437:         return R_XBUS_ERR_NG;
+0000020a 0152            973 	mov	1,r10
+0000020c 854d*           974 	br	.L553
+                         975 .L558:
+                         976 --438:     }
+                         977 --439:     
+                         978 --440:     /* 1. lock clear */
+                         979 --441:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_SYSERR, 0); 
+                         980 --line441
+                         981 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.26::
+                         982 .LDWlin26:
+0000020e 3e0600000000*   983 	mov	_locBaseAddr,ep
+00000214 00f5            984 	sld.w	0[ep],ep
+00000216 0705            985 	sst.w	zero,12[ep]
+                         986 --442:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_ERRCNT, 0); 
+00000218 3e0600000000*   987 	mov	_locBaseAddr,ep
+0000021e 00f5            988 	sld.w	0[ep],ep
+00000220 0905            989 	sst.w	zero,16[ep]
+                         990 --444:     reg_val = R_XBUS_READ_REG(32, locBaseAddr + R_XBUS_CFG); 
+00000222 3e0600000000*   991 	mov	_locBaseAddr,ep
+00000228 00f5            992 	sld.w	0[ep],ep
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+0000022a 00ed            993 	sld.w	0[ep],r29
+                         994 --445:  
+                         995 --446:     reg_val  = 0; 
+0000022c 00ea            996 	mov	0,r29
+                         997 --447:  
+                         998 --448:     /* Invalidate (but don't write back) Cache RAM */
+                         999 --449:     
+                        1000 --450:     for (i = 0; i < locMaxIdx ; i++) 
+0000022e 00e2           1001 	mov	0,r28
+00000230 d52d*          1002 	br	.L564
+                        1003 .L563:
+                        1004 --451:     { 
+                        1005 --452:         for (j = 0; j < R_XBUS_CACHE_WAY_NB; j++) 
+                        1006 --line452
+                        1007 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.27::
+                        1008 .LDWlin27:
+00000232 00da           1009 	mov	0,r27
+00000234 0000           1010 	nop
+                        1011 .L567:
+                        1012 --453:         {
+                        1013 --454:             cmd         = IDX_LD_TAG; 
+00000236 00ca           1014 	mov	0,r25
+                        1015 --455:             reg_val     = (uint32_t)cmd; 
+00000238 19e8           1016 	mov	r25,r29
+                        1017 --456:             reg_val   <<= 1u;
+0000023a c1ea           1018 	shl	1,r29
+                        1019 --457:             /* Command activation */
+                        1020 --458:             reg_val    |= 1u;
+0000023c 9dee0100       1021 	ori	1,r29,r29
+                        1022 --459:             /* add next index to the command */
+                        1023 --460:             reg_val    |= (i<<5u); 
+00000240 1c08           1024 	mov	r28,r1
+00000242 c50a           1025 	shl	5,r1
+00000244 01e9           1026 	or	r1,r29
+                        1027 --461:             /* Block&way are bit 19-16 and not 15-12 */
+                        1028 --462:              reg_val   |= (j<<16u); 
+00000246 1b08           1029 	mov	r27,r1
+00000248 d00a           1030 	shl	16,r1
+0000024a 01e9           1031 	or	r1,r29
+                        1032 --463:            
+                        1033 --464:             /* Write command */
+                        1034 --465:             loc_WriteCmd(reg_val); 
+0000024c 1d30           1035 	mov	r29,r6
+                        1036 	jarl	_loc_WriteCmd,lp
+                        1036 <EXPANSION BEGIN>
+                        1036 jarl22 _loc_WriteCmd , lp 
+0000024e bfffb2fd*      1036 <EXPANSION END>
+                        1037 --466:            
+                        1038 --467:             tag_lo = R_XBUS_READ_REG(32, locBaseAddr + R_XBUS_TAGLO); 
+                        1039 --line467
+                        1040 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.28::
+                        1041 .LDWlin28:
+00000252 3e0600000000*  1042 	mov	_locBaseAddr,ep
+00000258 00f5           1043 	sld.w	0[ep],ep
+0000025a 12d5           1044 	sld.w	36[ep],r26
+                        1045 --468:             /* Clear valid bit */
+                        1046 --469:             tag_lo &= 0xFFFFFFFEu; 
+0000025c 1e0a           1047 	mov	-2,r1
+0000025e 41d1           1048 	and	r1,r26
+                        1049 --470:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_TAGLO, tag_lo); 
+00000260 3e0600000000*  1050 	mov	_locBaseAddr,ep
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+00000266 00f5           1051 	sld.w	0[ep],ep
+00000268 13d5           1052 	sst.w	r26,36[ep]
+                        1053 --471:             
+                        1054 --472:               /* clear command type */
+                        1055 --473:             reg_val     &=(uint32_t) (~(uint32_t)0x0000001eu);  
+0000026a 200ee1ff       1056 	movea	-31,zero,r1
+0000026e 41e9           1057 	and	r1,r29
+                        1058 --474:          
+                        1059 --475:             /* clear command type */
+                        1060 --476:             cmd         = IDX_ST_TAG; 
+00000270 01ca           1061 	mov	1,r25
+                        1062 --477:             /* Set new command */
+                        1063 --478:             reg_val     |= ((uint32_t)cmd <<1); 
+00000272 1908           1064 	mov	r25,r1
+00000274 c10a           1065 	shl	1,r1
+00000276 01e9           1066 	or	r1,r29
+                        1067 --479:              /* Command activation */
+                        1068 --480:             reg_val     |= 1u;
+00000278 9dee0100       1069 	ori	1,r29,r29
+                        1070 --482:             /* Write command */
+                        1071 --483:             loc_WriteCmd(reg_val); 
+0000027c 1d30           1072 	mov	r29,r6
+                        1073 	jarl	_loc_WriteCmd,lp
+                        1073 <EXPANSION BEGIN>
+                        1073 jarl22 _loc_WriteCmd , lp 
+0000027e bfff82fd*      1073 <EXPANSION END>
+                        1074 --line452
+                        1075 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.29::
+                        1076 .LDWlin29:
+00000282 41da           1077 	add	1,r27
+00000284 64da           1078 	cmp	4,r27
+00000286 81dd*          1079 	bl	.L567
+                        1080 --line450
+                        1081 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.30::
+                        1082 .LDWlin30:
+00000288 41e2           1083 	add	1,r28
+                        1084 .L564:
+0000028a 210600000000*  1085 	mov	_locMaxIdx,r1
+00000290 210f0100       1086 	ld.w	0[r1],r1
+00000294 e1e1           1087 	cmp	r1,r28
+00000296 e1cd*          1088 	bl	.L563
+                        1089 --484:         }
+                        1090 --485:     }
+                        1091 --486:     
+                        1092 --487:     #ifdef USE_ROS
+                        1093 --488:     R_OS_ThreadMutexInit(&locXcLock, 0);
+                        1094 --489:     #endif
+                        1095 --491:     return err;
+                        1096 --line491
+                        1097 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.31::
+                        1098 .LDWlin31:
+00000298 23570500       1099 	ld.w	4[sp],r10
+                        1100 .L553:
+                        1101 --	    .ef
+                        1102 .LDW23:
+0000029c 4806ff70       1103 	dispose	4,{r25,r26,r27,r28,r29,r31},[lp]
+                        1104 	.type	_R_XBUS_Invalidate,@function
+                        1105 	.size	_R_XBUS_Invalidate,.-_R_XBUS_Invalidate
+                        1106 	.align	2
+                        1107 .LDW33:
+                        1108 --_err	4[sp]	local
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1109 --_reg_val	r29	local
+                        1110 --_tag_lo	r26	local
+                        1111 --_cmd	r25	local
+                        1112 --_i	r28	local
+                        1113 --_j	r27	local
+                        1114 
+                        1115 --_Unit	12[sp]	param
+                        1116 
+                        1117 	.section ".bss","awb"
+                        1118 .L666:
+                        1119 	.type	.L666,@object
+                        1120 	.size	.L666,0
+                        1121 	.data
+                        1122 	.text
+                        1123 
+                        1124 --492: }
+                        1125 
+                        1126 --495: /*******************************************************************************
+                        1127 --496:   Function: R_XBUS_DeInit
+                        1128 --498:   See: <xbus_api.h> 
+                        1129 --499: */
+                        1130 --501:  r_xbus_Error_t R_XBUS_DeInit(uint32_t Unit)
+                        1131 	.align	2
+                        1132 	.align	2
+                        1133 	.global	_R_XBUS_DeInit
+                        1134 _R_XBUS_DeInit:
+000002a0 0668           1135 	mov	r6,r13
+000002a2 210600000000*  1136 	mov	_locBaseAddr,r1
+                        1137 --	    .bf
+                        1138 .LDW43:
+                        1139 --502:  {
+                        1140 --503:     r_xbus_Error_t err = R_XBUS_ERR_OK;
+000002a8 0072           1141 	mov	0,r14
+                        1142 --504:     locBaseAddr = 0; 
+000002aa 2b0600000000*  1143 	mov	_locBaseAddr,r11
+000002b0 6b070100       1144 	st.w	zero,0[r11]
+                        1145 --505:     return err;
+000002b4 0e50           1146 	mov	r14,r10
+                        1147 --	    .ef
+                        1148 .LDW53:
+000002b6 7f00           1149 	jmp	[lp]
+                        1150 	.type	_R_XBUS_DeInit,@function
+                        1151 	.size	_R_XBUS_DeInit,.-_R_XBUS_DeInit
+                        1152 	.align	2
+                        1153 .LDW63:
+                        1154 --_err	r14	local
+                        1155 
+                        1156 --_Unit	r13	param
+                        1157 
+                        1158 	.data
+                        1159 	.text
+                        1160 
+                        1161 --506: }
+                        1162 
+                        1163 --509: /*******************************************************************************
+                        1164 --510:   Function: R_XBUS_Config
+                        1165 --511: */
+                        1166 --513: r_xbus_Error_t R_XBUS_Config(uint32_t Unit, r_xbus_Cfg_t * Cfg)
+                        1167 	.align	2
+                        1168 	.align	2
+                        1169 	.global	_R_XBUS_Config
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1170 _R_XBUS_Config:
+000002b8 8807e170       1171 	prepare	{r25,r26,r27,r28,r29,r31},4
+000002bc 63370d00       1172 	st.w	r6,12[sp]
+000002c0 07d8           1173 	mov	r7,r27
+000002c2 3d0600000000*  1174 	mov	_CacheAreas,r29
+000002c8 390600000000*  1175 	mov	_locBaseAddr,r25
+                        1176 --	    .bf
+                        1177 .LDW73:
+                        1178 --514: {
+                        1179 --515:     /* Init X-BUS */
+                        1180 --516:     r_xbus_Error_t    err       = R_XBUS_ERR_OK;
+000002ce 63070900       1181 	st.w	zero,8[sp]
+000002d2 005a           1182 	mov	0,r11
+                        1183 --517:     volatile uint32_t reg_val   = 0; 
+000002d4 00e2           1184 	mov	0,r28
+                        1185 --518:     uint32_t          i,j;  
+                        1186 --519:     if (0 == locBaseAddr) 
+000002d6 390f0100       1187 	ld.w	0[r25],r1
+000002da e009           1188 	cmp	zero,r1
+000002dc 9a0d*          1189 	bne	.L847
+                        1190 --520:     {
+                        1191 --521:         /* You need to call init first */
+                        1192 --522:         R_XBUS_ErrorHandler(0, err); 
+                        1193 --line522
+                        1194 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.32::
+                        1195 .LDWlin32:
+000002de 233f0900       1196 	ld.w	8[sp],r7
+000002e2 0032           1197 	mov	0,r6
+                        1198 	jarl	_R_XBUS_ErrorHandler,lp
+                        1198 <EXPANSION BEGIN>
+                        1198 jarl22 _R_XBUS_ErrorHandler , lp 
+000002e4 bfff54fd*      1198 <EXPANSION END>
+                        1199 --523:         return R_XBUS_ERR_NOTLOCKED; 
+                        1200 --line523
+                        1201 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.33::
+                        1202 .LDWlin33:
+000002e8 0452           1203 	mov	4,r10
+000002ea 8007a801*      1204 	br	.L845
+                        1205 .L847:
+                        1206 --524:     }    
+                        1207 --525:     /* Set base & mask */
+                        1208 --526:     /* Cached */
+                        1209 --527:     reg_val = Cfg->AreaCfg[0].BaseAddr; 
+                        1210 --line527
+                        1211 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.34::
+                        1212 .LDWlin34:
+000002ee 3be70d00       1213 	ld.w	12[r27],r28
+                        1214 --528:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CABASE0, reg_val); 
+000002f2 39f70100       1215 	ld.w	0[r25],ep
+000002f6 21e5           1216 	sst.w	r28,64[ep]
+                        1217 --529:     reg_val =  Cfg->AreaCfg[0].AddrMask; 
+000002f8 3be71100       1218 	ld.w	16[r27],r28
+                        1219 --530:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CAMASK0, reg_val); 
+000002fc 39f70100       1220 	ld.w	0[r25],ep
+00000300 23e5           1221 	sst.w	r28,68[ep]
+                        1222 --531:     
+                        1223 --532:     reg_val =  Cfg->AreaCfg[1].BaseAddr; 
+00000302 3be71d00       1224 	ld.w	28[r27],r28
+                        1225 --533:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CABASE1, reg_val); 
+00000306 39f70100       1226 	ld.w	0[r25],ep
+0000030a 25e5           1227 	sst.w	r28,72[ep]
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1228 --534:     reg_val =  Cfg->AreaCfg[1].AddrMask; 
+0000030c 3be72100       1229 	ld.w	32[r27],r28
+                        1230 --535:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CAMASK1, reg_val); 
+00000310 39f70100       1231 	ld.w	0[r25],ep
+00000314 27e5           1232 	sst.w	r28,76[ep]
+                        1233 --536:     
+                        1234 --537:     /* buffered */
+                        1235 --538:     reg_val = Cfg->AreaCfg[2].BaseAddr; 
+00000316 3be72d00       1236 	ld.w	44[r27],r28
+                        1237 --539:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFBASE0, reg_val); 
+0000031a 39f70100       1238 	ld.w	0[r25],ep
+0000031e 31e5           1239 	sst.w	r28,96[ep]
+                        1240 --540:     reg_val =  Cfg->AreaCfg[2].AddrMask; 
+00000320 3be73100       1241 	ld.w	48[r27],r28
+                        1242 --541:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFMASK0, reg_val); 
+00000324 39f70100       1243 	ld.w	0[r25],ep
+00000328 33e5           1244 	sst.w	r28,100[ep]
+                        1245 --543:     reg_val =  Cfg->AreaCfg[3].BaseAddr; 
+0000032a 3be73d00       1246 	ld.w	60[r27],r28
+                        1247 --544:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFBASE1, reg_val); 
+0000032e 39f70100       1248 	ld.w	0[r25],ep
+00000332 35e5           1249 	sst.w	r28,104[ep]
+                        1250 --545:     reg_val =  Cfg->AreaCfg[3].AddrMask; 
+00000334 3be74100       1251 	ld.w	64[r27],r28
+                        1252 --546:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFMASK1, reg_val); 
+00000338 39f70100       1253 	ld.w	0[r25],ep
+0000033c 37e5           1254 	sst.w	r28,108[ep]
+                        1255 --547:     
+                        1256 --548:     for (i = 0; i < 4; i++)
+0000033e 00d2           1257 	mov	0,r26
+00000340 0000           1258 	nop
+                        1259 .L852:
+                        1260 --549:     {
+                        1261 --550:         /* Check if cache disabled */
+                        1262 --551:         CacheAreas[i].Mode  = Cfg->AreaCfg[i].Mode; 
+00000342 1af0           1263 	mov	r26,ep
+00000344 1a08           1264 	mov	r26,r1
+00000346 fe00           1265 	sxh	ep
+00000348 1b760400       1266 	addi	4,r27,r14
+0000034c fef60c00       1267 	mulhi	12,ep,ep
+00000350 c40a           1268 	shl	4,r1
+00000352 ce09           1269 	add	r14,r1
+00000354 210f0100       1270 	ld.w	0[r1],r1
+00000358 2b0600000000*  1271 	mov	_CacheAreas,r11
+0000035e cbf1           1272 	add	r11,ep
+00000360 880b           1273 	sst.b	r1,8[ep]
+                        1274 --552:         CacheAreas[i].Start = Cfg->AreaCfg[i].BaseAddr;
+00000362 1af0           1275 	mov	r26,ep
+00000364 1a08           1276 	mov	r26,r1
+00000366 fe00           1277 	sxh	ep
+00000368 1b760400       1278 	addi	4,r27,r14
+0000036c fef60c00       1279 	mulhi	12,ep,ep
+00000370 c40a           1280 	shl	4,r1
+00000372 ce09           1281 	add	r14,r1
+00000374 210f0900       1282 	ld.w	8[r1],r1
+00000378 2b0600000000*  1283 	mov	_CacheAreas,r11
+0000037e cbf1           1284 	add	r11,ep
+00000380 010d           1285 	sst.w	r1,0[ep]
+                        1286 --553:         CacheAreas[i].End   = Cfg->AreaCfg[i].BaseAddr;
+00000382 1af0           1287 	mov	r26,ep
+00000384 1a08           1288 	mov	r26,r1
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+00000386 fe00           1289 	sxh	ep
+00000388 1b760400       1290 	addi	4,r27,r14
+0000038c fef60c00       1291 	mulhi	12,ep,ep
+00000390 c40a           1292 	shl	4,r1
+00000392 ce09           1293 	add	r14,r1
+00000394 210f0900       1294 	ld.w	8[r1],r1
+00000398 2b0600000000*  1295 	mov	_CacheAreas,r11
+0000039e cbf1           1296 	add	r11,ep
+000003a0 030d           1297 	sst.w	r1,4[ep]
+                        1298 --554:         reg_val             = Cfg->AreaCfg[i].AddrMask; 
+000003a2 1af0           1299 	mov	r26,ep
+000003a4 c4f2           1300 	shl	4,ep
+000003a6 1b760400       1301 	addi	4,r27,r14
+000003aa cef1           1302 	add	r14,ep
+000003ac 06e5           1303 	sld.w	12[ep],r28
+                        1304 --555:         j                   = 0; 
+000003ae 63070100       1305 	st.w	zero,0[sp]
+000003b2 005a           1306 	mov	0,r11
+                        1307 --556:         while (((reg_val >> 20u) & 0x1u) > 0)
+000003b4 851d*          1308 	br	.L853
+                        1309 .L855:
+                        1310 --557:         {
+                        1311 --558:             /* The cache "mask" means the size equals to 
+                        1312 --559:             1MB per bit set in the R_XBUS_CAMASK0 register 
+                        1313 --560:             the first 0 (starting from bit 20) 
+                        1314 --561:             in the mask is the delimeter */
+                        1315 --562:             CacheAreas[i].End += ((1024u * 1024u) << j); 
+                        1316 --line562
+                        1317 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.35::
+                        1318 .LDWlin35:
+000003b6 1af0           1319 	mov	r26,ep
+000003b8 fe00           1320 	sxh	ep
+000003ba 235f0100       1321 	ld.w	0[sp],r11
+000003be 400e1000       1322 	movhi	hi(1048576),zero,r1
+000003c2 fef60c00       1323 	mulhi	12,ep,ep
+000003c6 2c0600000000*  1324 	mov	_CacheAreas,r12
+000003cc eb0fc270       1325 	shl	r11,r1,r14
+000003d0 ccf1           1326 	add	r12,ep
+000003d2 020d           1327 	sld.w	4[ep],r1
+000003d4 ce09           1328 	add	r14,r1
+000003d6 030d           1329 	sst.w	r1,4[ep]
+                        1330 --563:             reg_val          >>= 1u; 
+000003d8 81e2           1331 	shr	1,r28
+                        1332 --564:             j++;      
+000003da 235f0100       1333 	ld.w	0[sp],r11
+000003de 415a           1334 	add	1,r11
+000003e0 635f0100       1335 	st.w	r11,0[sp]
+                        1336 .L853:
+000003e4 1c08           1337 	mov	r28,r1
+000003e6 940a           1338 	shr	20,r1
+000003e8 810a           1339 	shr	1,r1
+000003ea e1e5*          1340 	bl	.L855
+                        1341 --line548
+                        1342 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.36::
+                        1343 .LDWlin36:
+000003ec 41d2           1344 	add	1,r26
+000003ee 64d2           1345 	cmp	4,r26
+000003f0 91ad*          1346 	bl	.L852
+                        1347 --565:         }        
+                        1348 --566:     }
+                        1349 --567:     /* Store the config */    
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1350 --568:     /* Start with the initial value for the CFG register */
+                        1351 --569:     reg_val = 0x00000303;
+                        1352 --line569
+                        1353 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.37::
+                        1354 .LDWlin37:
+000003f2 20e60303       1355 	movea	771,zero,r28
+                        1356 --571:     if (R_XBUS_AM_CACHE == Cfg->AreaCfg[0].Mode)
+000003f6 3b0f0500       1357 	ld.w	4[r27],r1
+000003fa 610a           1358 	cmp	1,r1
+000003fc ca05*          1359 	bne	.L856
+                        1360 --572:     {
+                        1361 --573:         reg_val |= 0x00000004u; 
+                        1362 --line573
+                        1363 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.38::
+                        1364 .LDWlin38:
+000003fe 9ce60400       1365 	ori	4,r28,r28
+00000402 b505*          1366 	br	.L858
+                        1367 .L856:
+                        1368 --574:     }
+                        1369 --575:     else 
+                        1370 --576:     {
+                        1371 --577:         reg_val &= (uint32_t)(~((uint32_t)0x00000004u)); 
+                        1372 --line577
+                        1373 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.39::
+                        1374 .LDWlin39:
+00000404 1b0a           1375 	mov	-5,r1
+00000406 41e1           1376 	and	r1,r28
+                        1377 .L858:
+                        1378 --578:     } 
+                        1379 --579:     if (R_XBUS_AM_CACHE == Cfg->AreaCfg[1].Mode)
+00000408 3b0f1500       1380 	ld.w	20[r27],r1
+0000040c 610a           1381 	cmp	1,r1
+0000040e ca05*          1382 	bne	.L859
+                        1383 --580:     {
+                        1384 --581:         reg_val |= 0x00000008u; 
+                        1385 --line581
+                        1386 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.40::
+                        1387 .LDWlin40:
+00000410 9ce60800       1388 	ori	8,r28,r28
+00000414 b505*          1389 	br	.L861
+                        1390 .L859:
+                        1391 --582:     }
+                        1392 --583:     else 
+                        1393 --584:     {
+                        1394 --585:         reg_val &= (uint32_t)(~((uint32_t)0x00000008u)); 
+                        1395 --line585
+                        1396 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.41::
+                        1397 .LDWlin41:
+00000416 170a           1398 	mov	-9,r1
+00000418 41e1           1399 	and	r1,r28
+                        1400 .L861:
+                        1401 --586:     } 
+                        1402 --589:     if (R_XBUS_AM_BUFF == Cfg->AreaCfg[2].Mode)
+0000041a 3b0f2500       1403 	ld.w	36[r27],r1
+0000041e 620a           1404 	cmp	2,r1
+00000420 ca05*          1405 	bne	.L862
+                        1406 --590:     {
+                        1407 --591:         reg_val |= 0x00000100u; 
+                        1408 --line591
+                        1409 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.42::
+                        1410 .LDWlin42:
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+00000422 9ce60001       1411 	ori	256,r28,r28
+00000426 c505*          1412 	br	.L864
+                        1413 .L862:
+                        1414 --592:     }
+                        1415 --593:     else 
+                        1416 --594:     {
+                        1417 --595:         reg_val &= (uint32_t)(~((uint32_t)0x00000100u)); 
+                        1418 --line595
+                        1419 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.43::
+                        1420 .LDWlin43:
+00000428 200efffe       1421 	movea	-257,zero,r1
+0000042c 41e1           1422 	and	r1,r28
+                        1423 .L864:
+                        1424 --596:     } 
+                        1425 --597:     if (R_XBUS_AM_BUFF == Cfg->AreaCfg[3].Mode)
+0000042e 3b0f3500       1426 	ld.w	52[r27],r1
+00000432 620a           1427 	cmp	2,r1
+00000434 ca05*          1428 	bne	.L865
+                        1429 --598:     {
+                        1430 --599:         reg_val |= 0x00000200u; 
+                        1431 --line599
+                        1432 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.44::
+                        1433 .LDWlin44:
+00000436 9ce60002       1434 	ori	512,r28,r28
+0000043a c505*          1435 	br	.L867
+                        1436 .L865:
+                        1437 --600:     }
+                        1438 --601:     else 
+                        1439 --602:     {
+                        1440 --603:         reg_val &= (uint32_t)(~((uint32_t)0x00000200u)); 
+                        1441 --line603
+                        1442 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.45::
+                        1443 .LDWlin45:
+0000043c 200efffd       1444 	movea	-513,zero,r1
+00000440 41e1           1445 	and	r1,r28
+                        1446 .L867:
+                        1447 --604:     } 
+                        1448 --605:     if (1 == Cfg->WaitInsertion) 
+00000442 9b0f0100       1449 	ld.bu	0[r27],r1
+00000446 610a           1450 	cmp	1,r1
+00000448 da05*          1451 	bne	.L868
+                        1452 --606:     {
+                        1453 --607:         reg_val |= 0x00020000u; 
+                        1454 --line607
+                        1455 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.46::
+                        1456 .LDWlin46:
+0000044a 400e0200       1457 	movhi	hi(131072),zero,r1
+0000044e 01e1           1458 	or	r1,r28
+00000450 d505*          1459 	br	.L870
+                        1460 .L868:
+                        1461 --608:     }
+                        1462 --609:     else 
+                        1463 --610:     {
+                        1464 --611:         reg_val &= ~(0x00020000u); 
+                        1465 --line611
+                        1466 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.47::
+                        1467 .LDWlin47:
+00000452 2106fffffdff   1468 	mov	-131073,r1
+00000458 41e1           1469 	and	r1,r28
+                        1470 .L870:
+                        1471 --612:         
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1472 --613:     }
+                        1473 --614:     if (1 == Cfg->SecRewrite) 
+0000045a bb0f0100       1474 	ld.bu	1[r27],r1
+0000045e 610a           1475 	cmp	1,r1
+00000460 da05*          1476 	bne	.L871
+                        1477 --615:     {
+                        1478 --616:         reg_val |= 0x00010000u; 
+                        1479 --line616
+                        1480 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.48::
+                        1481 .LDWlin48:
+00000462 400e0100       1482 	movhi	hi(65536),zero,r1
+00000466 01e1           1483 	or	r1,r28
+00000468 d505*          1484 	br	.L873
+                        1485 .L871:
+                        1486 --617:     }
+                        1487 --618:     else 
+                        1488 --619:     {
+                        1489 --620:         reg_val &= ~(0x00010000u); 
+                        1490 --line620
+                        1491 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.49::
+                        1492 .LDWlin49:
+0000046a 2106fffffeff   1493 	mov	-65537,r1
+00000470 41e1           1494 	and	r1,r28
+                        1495 .L873:
+                        1496 --621:         
+                        1497 --622:     }
+                        1498 --623:     /* Write config */
+                        1499 --624:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CFG, reg_val); 
+00000472 39f70100       1500 	ld.w	0[r25],ep
+00000476 01e5           1501 	sst.w	r28,0[ep]
+                        1502 --626:     /* Clear error registers */
+                        1503 --628:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_SYSERR, 0x0);
+00000478 39f70100       1504 	ld.w	0[r25],ep
+0000047c 0705           1505 	sst.w	zero,12[ep]
+                        1506 --629:     R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_ERRADR, 0x0);  
+0000047e 39f70100       1507 	ld.w	0[r25],ep
+00000482 0b05           1508 	sst.w	zero,20[ep]
+                        1509 --631:     /* Fill cache */
+                        1510 --632:     
+                        1511 --633:     reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_REQSYNC);   
+00000484 39f70100       1512 	ld.w	0[r25],ep
+00000488 0ce5           1513 	sld.w	24[ep],r28
+                        1514 --635:     loc_WriteCmd(reg_val); 
+0000048a 1c30           1515 	mov	r28,r6
+                        1516 	jarl	_loc_WriteCmd,lp
+                        1516 <EXPANSION BEGIN>
+                        1516 jarl22 _loc_WriteCmd , lp 
+0000048c bfff74fb*      1516 <EXPANSION END>
+                        1517 --636:     return R_XBUS_ERR_OK;
+                        1518 --line636
+                        1519 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.50::
+                        1520 .LDWlin50:
+00000490 0052           1521 	mov	0,r10
+                        1522 .L845:
+                        1523 --	    .ef
+                        1524 .LDW83:
+00000492 4806ff70       1525 	dispose	4,{r25,r26,r27,r28,r29,r31},[lp]
+                        1526 	.type	_R_XBUS_Config,@function
+                        1527 	.size	_R_XBUS_Config,.-_R_XBUS_Config
+                        1528 	.align	2
+                        1529 .LDW93:
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1530 --_err	8[sp]	local
+                        1531 --_reg_val	r28	local
+                        1532 --_i	r26	local
+                        1533 --_j	0[sp]	local
+                        1534 
+                        1535 --_Unit	12[sp]	param
+                        1536 --_Cfg	r27	param
+                        1537 
+                        1538 	.data
+                        1539 	.text
+                        1540 
+                        1541 --637: }
+                        1542 
+                        1543 --639: /*******************************************************************************
+                        1544 --640:   Function: R_XBUS_AreaConfig
+                        1545 --641: */
+                        1546 --643: r_xbus_Error_t R_XBUS_AreaConfig(uint32_t Unit, uint8_t Area, r_xbus_AreaCfg_t * Cfg)
+                        1547 	.align	2
+                        1548 	.align	2
+                        1549 	.global	_R_XBUS_AreaConfig
+                        1550 _R_XBUS_AreaConfig:
+00000496 8207e170       1551 	prepare	{r25,r26,r27,r28,r29,r31},1
+0000049a 63370100       1552 	st.w	r6,0[sp]
+0000049e c7ceff00       1553 	andi	255,r7,r25
+000004a2 08d8           1554 	mov	r8,r27
+000004a4 3c0600000000*  1555 	mov	_locBaseAddr,r28
+                        1556 --	    .bf
+                        1557 .LDW04:
+                        1558 --644: {
+                        1559 --645:     r_xbus_Error_t    err       = R_XBUS_ERR_OK;
+000004aa 00d2           1560 	mov	0,r26
+                        1561 --646:     volatile uint32_t reg_val   = 0; 
+000004ac 00ea           1562 	mov	0,r29
+                        1563 --648:     if (0 == locBaseAddr) 
+000004ae 3c0f0100       1564 	ld.w	0[r28],r1
+000004b2 e009           1565 	cmp	zero,r1
+000004b4 fa05*          1566 	bne	.L1201
+                        1567 --649:     {
+                        1568 --650:         /* You need to call init first */
+                        1569 --651:         R_XBUS_ErrorHandler(0, err); 
+                        1570 --line651
+                        1571 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.51::
+                        1572 .LDWlin51:
+000004b6 1a38           1573 	mov	r26,r7
+000004b8 0032           1574 	mov	0,r6
+                        1575 	jarl	_R_XBUS_ErrorHandler,lp
+                        1575 <EXPANSION BEGIN>
+                        1575 jarl22 _R_XBUS_ErrorHandler , lp 
+000004ba bfff7efb*      1575 <EXPANSION END>
+                        1576 --652:         return R_XBUS_ERR_NOTLOCKED; 
+                        1577 --line652
+                        1578 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.52::
+                        1579 .LDWlin52:
+000004be 0452           1580 	mov	4,r10
+000004c0 c57d*          1581 	br	.L1199
+                        1582 .L1201:
+                        1583 --653:     }    
+                        1584 --655:     if (0 == Area) 
+                        1585 --line655
+                        1586 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.53::
+                        1587 .LDWlin53:
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+000004c2 e0c9           1588 	cmp	zero,r25
+000004c4 ca3d*          1589 	bne	.L1204
+                        1590 --656:     {
+                        1591 --657:         if (R_XBUS_AM_CACHE == Cfg->Mode)
+                        1592 --line657
+                        1593 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.54::
+                        1594 .LDWlin54:
+000004c6 3b0f0100       1595 	ld.w	0[r27],r1
+000004ca 610a           1596 	cmp	1,r1
+000004cc 9a15*          1597 	bne	.L1206
+                        1598 --658:         {
+                        1599 --659:             reg_val = Cfg->BaseAddr; 
+                        1600 --line659
+                        1601 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.55::
+                        1602 .LDWlin55:
+000004ce 3bef0900       1603 	ld.w	8[r27],r29
+                        1604 --660:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CABASE0, reg_val); 
+000004d2 3cf70100       1605 	ld.w	0[r28],ep
+000004d6 21ed           1606 	sst.w	r29,64[ep]
+                        1607 --661:             reg_val = Cfg->AddrMask; 
+000004d8 3bef0d00       1608 	ld.w	12[r27],r29
+                        1609 --662:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CAMASK0, reg_val); 
+000004dc 3cf70100       1610 	ld.w	0[r28],ep
+000004e0 23ed           1611 	sst.w	r29,68[ep]
+                        1612 --663:             reg_val =  R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_CFG);  
+000004e2 3cf70100       1613 	ld.w	0[r28],ep
+000004e6 00ed           1614 	sld.w	0[ep],r29
+                        1615 --664:             reg_val |= 0x4u; 
+000004e8 9dee0400       1616 	ori	4,r29,r29
+000004ec c525*          1617 	br	.L1208
+                        1618 .L1206:
+                        1619 --665:         }
+                        1620 --666:         else if (R_XBUS_AM_BUFF == Cfg->Mode)
+                        1621 --line666
+                        1622 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.56::
+                        1623 .LDWlin56:
+000004ee 3b0f0100       1624 	ld.w	0[r27],r1
+000004f2 620a           1625 	cmp	2,r1
+000004f4 9a15*          1626 	bne	.L1209
+                        1627 --667:         {
+                        1628 --668:             reg_val = Cfg->BaseAddr; 
+                        1629 --line668
+                        1630 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.57::
+                        1631 .LDWlin57:
+000004f6 3bef0900       1632 	ld.w	8[r27],r29
+                        1633 --669:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFBASE0, reg_val); 
+000004fa 3cf70100       1634 	ld.w	0[r28],ep
+000004fe 31ed           1635 	sst.w	r29,96[ep]
+                        1636 --670:             reg_val = Cfg->AddrMask; 
+00000500 3bef0d00       1637 	ld.w	12[r27],r29
+                        1638 --671:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFMASK0, reg_val); 
+00000504 3cf70100       1639 	ld.w	0[r28],ep
+00000508 33ed           1640 	sst.w	r29,100[ep]
+                        1641 --672:             reg_val =  R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_CFG);  
+0000050a 3cf70100       1642 	ld.w	0[r28],ep
+0000050e 00ed           1643 	sld.w	0[ep],r29
+                        1644 --673:             reg_val |= 0x100u; 
+00000510 9dee0001       1645 	ori	256,r29,r29
+00000514 8515*          1646 	br	.L1208
+                        1647 .L1209:
+                        1648 --674:         }
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1649 --675:         else
+                        1650 --676:         {
+                        1651 --677:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CABASE0, 0); 
+                        1652 --line677
+                        1653 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.58::
+                        1654 .LDWlin58:
+00000516 3cf70100       1655 	ld.w	0[r28],ep
+0000051a 2105           1656 	sst.w	zero,64[ep]
+                        1657 --678:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CAMASK0, 0); 
+0000051c 3cf70100       1658 	ld.w	0[r28],ep
+00000520 2305           1659 	sst.w	zero,68[ep]
+                        1660 --679:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFBASE0, 0); 
+00000522 3cf70100       1661 	ld.w	0[r28],ep
+00000526 3105           1662 	sst.w	zero,96[ep]
+                        1663 --680:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFMASK0, 0); 
+00000528 3cf70100       1664 	ld.w	0[r28],ep
+0000052c 3305           1665 	sst.w	zero,100[ep]
+                        1666 --681:             reg_val &= (uint32_t)(~((uint32_t)0x104u)); 
+0000052e 200efbfe       1667 	movea	-261,zero,r1
+00000532 41e9           1668 	and	r1,r29
+                        1669 .L1208:
+                        1670 --682:         } 
+                        1671 --683:         R_XBUS_WRITE_REG(32,locBaseAddr + R_XBUS_CFG, reg_val);  
+00000534 3cf70100       1672 	ld.w	0[r28],ep
+00000538 01ed           1673 	sst.w	r29,0[ep]
+0000053a b53d*          1674 	br	.L1212
+                        1675 .L1204:
+                        1676 --684:     }
+                        1677 --685:     else 
+                        1678 --686:     {
+                        1679 --687:         if (R_XBUS_AM_CACHE == Cfg->Mode)
+                        1680 --line687
+                        1681 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.59::
+                        1682 .LDWlin59:
+0000053c 3b0f0100       1683 	ld.w	0[r27],r1
+00000540 610a           1684 	cmp	1,r1
+00000542 9a15*          1685 	bne	.L1213
+                        1686 --688:         {
+                        1687 --689:             reg_val = Cfg->BaseAddr; 
+                        1688 --line689
+                        1689 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.60::
+                        1690 .LDWlin60:
+00000544 3bef0900       1691 	ld.w	8[r27],r29
+                        1692 --690:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CABASE1, reg_val); 
+00000548 3cf70100       1693 	ld.w	0[r28],ep
+0000054c 25ed           1694 	sst.w	r29,72[ep]
+                        1695 --691:             reg_val = Cfg->AddrMask; 
+0000054e 3bef0d00       1696 	ld.w	12[r27],r29
+                        1697 --692:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CAMASK1, reg_val); 
+00000552 3cf70100       1698 	ld.w	0[r28],ep
+00000556 27ed           1699 	sst.w	r29,76[ep]
+                        1700 --693:             reg_val =  R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_CFG);  
+00000558 3cf70100       1701 	ld.w	0[r28],ep
+0000055c 00ed           1702 	sld.w	0[ep],r29
+                        1703 --694:             reg_val |= 0x8u; 
+0000055e 9dee0800       1704 	ori	8,r29,r29
+00000562 c525*          1705 	br	.L1215
+                        1706 .L1213:
+                        1707 --695:         }
+                        1708 --696:         else if (R_XBUS_AM_BUFF == Cfg->Mode)
+                        1709 --line696
+
+                                                                      Page 30
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1710 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.61::
+                        1711 .LDWlin61:
+00000564 3b0f0100       1712 	ld.w	0[r27],r1
+00000568 620a           1713 	cmp	2,r1
+0000056a 9a15*          1714 	bne	.L1216
+                        1715 --697:         {
+                        1716 --698:             reg_val = Cfg->BaseAddr; 
+                        1717 --line698
+                        1718 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.62::
+                        1719 .LDWlin62:
+0000056c 3bef0900       1720 	ld.w	8[r27],r29
+                        1721 --699:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFBASE1, reg_val); 
+00000570 3cf70100       1722 	ld.w	0[r28],ep
+00000574 35ed           1723 	sst.w	r29,104[ep]
+                        1724 --700:             reg_val = Cfg->AddrMask; 
+00000576 3bef0d00       1725 	ld.w	12[r27],r29
+                        1726 --701:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFMASK1, reg_val); 
+0000057a 3cf70100       1727 	ld.w	0[r28],ep
+0000057e 37ed           1728 	sst.w	r29,108[ep]
+                        1729 --702:             
+                        1730 --703:             reg_val =  R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_CFG);  
+00000580 3cf70100       1731 	ld.w	0[r28],ep
+00000584 00ed           1732 	sld.w	0[ep],r29
+                        1733 --704:             reg_val |= 0x200u; 
+00000586 9dee0002       1734 	ori	512,r29,r29
+0000058a 8515*          1735 	br	.L1215
+                        1736 .L1216:
+                        1737 --705:         }
+                        1738 --706:         else
+                        1739 --707:         {
+                        1740 --708:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CABASE1, 0); 
+                        1741 --line708
+                        1742 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.63::
+                        1743 .LDWlin63:
+0000058c 3cf70100       1744 	ld.w	0[r28],ep
+00000590 2505           1745 	sst.w	zero,72[ep]
+                        1746 --709:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_CAMASK1, 0); 
+00000592 3cf70100       1747 	ld.w	0[r28],ep
+00000596 2705           1748 	sst.w	zero,76[ep]
+                        1749 --710:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFBASE1, 0); 
+00000598 3cf70100       1750 	ld.w	0[r28],ep
+0000059c 3505           1751 	sst.w	zero,104[ep]
+                        1752 --711:             R_XBUS_WRITE_REG(32, locBaseAddr + R_XBUS_BFMASK1, 0); 
+0000059e 3cf70100       1753 	ld.w	0[r28],ep
+000005a2 3705           1754 	sst.w	zero,108[ep]
+                        1755 --712:             reg_val &= (uint32_t)(~((uint32_t)0x208u)); 
+000005a4 200ef7fd       1756 	movea	-521,zero,r1
+000005a8 41e9           1757 	and	r1,r29
+                        1758 .L1215:
+                        1759 --713:         } 
+                        1760 --714:         R_XBUS_WRITE_REG(32,locBaseAddr + R_XBUS_CFG, reg_val);  
+000005aa 3cf70100       1761 	ld.w	0[r28],ep
+000005ae 01ed           1762 	sst.w	r29,0[ep]
+                        1763 .L1212:
+                        1764 --715:     }
+                        1765 --716:     /* synchronise ... whatever */
+                        1766 --717:     reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_REQSYNC);  
+000005b0 3cf70100       1767 	ld.w	0[r28],ep
+000005b4 0ced           1768 	sld.w	24[ep],r29
+                        1769 --718:     return R_XBUS_ERR_OK;
+000005b6 0052           1770 	mov	0,r10
+
+                                                                      Page 31
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1771 .L1199:
+                        1772 --	    .ef
+                        1773 .LDW14:
+000005b8 4206ff70       1774 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                        1775 	.type	_R_XBUS_AreaConfig,@function
+                        1776 	.size	_R_XBUS_AreaConfig,.-_R_XBUS_AreaConfig
+                        1777 	.align	2
+                        1778 .LDW24:
+                        1779 --_err	r26	local
+                        1780 --_reg_val	r29	local
+                        1781 
+                        1782 --_Unit	0[sp]	param
+                        1783 --_Area	r25	param
+                        1784 --_Cfg	r27	param
+                        1785 
+                        1786 	.section ".bss","awb"
+                        1787 .L1334:
+                        1788 	.type	.L1334,@object
+                        1789 	.size	.L1334,0
+                        1790 	.data
+                        1791 	.text
+                        1792 
+                        1793 --719: }
+                        1794 
+                        1795 --721: /*******************************************************************************
+                        1796 --722:   Function: R_XBUS_Flush
+                        1797 --723: */
+                        1798 --725: void R_XBUS_Flush(uint32_t Unit, uint32_t FlushAddr, uint32_t FlushSize)
+                        1799 	.align	2
+                        1800 	.align	2
+                        1801 	.global	_R_XBUS_Flush
+                        1802 _R_XBUS_Flush:
+000005bc 8807e170       1803 	prepare	{r25,r26,r27,r28,r29,r31},4
+000005c0 63370d00       1804 	st.w	r6,12[sp]
+000005c4 07c8           1805 	mov	r7,r25
+000005c6 63470900       1806 	st.w	r8,8[sp]
+000005ca 3d0600000000*  1807 	mov	_CacheAreas,r29
+                        1808 --	    .bf
+                        1809 .LDW34:
+                        1810 --726: {
+                        1811 --727:     volatile uint32_t reg_val   = 0;
+000005d0 00e2           1812 	mov	0,r28
+                        1813 --728:     uint32_t idx, way, addr; 
+                        1814 --729:     
+                        1815 --730:     /* make sure we flush the relevant size even when
+                        1816 --731:      * the FlushAddr is no aligned to 32 bytes */
+                        1817 --732:     FlushSize += 32;
+000005d2 235f0900       1818 	ld.w	8[sp],r11
+000005d6 0b5e2000       1819 	addi	32,r11,r11
+000005da 635f0900       1820 	st.w	r11,8[sp]
+                        1821 --734:     if (0 == locBaseAddr) 
+000005de 210600000000*  1822 	mov	_locBaseAddr,r1
+000005e4 210f0100       1823 	ld.w	0[r1],r1
+000005e8 e009           1824 	cmp	zero,r1
+000005ea fa05*          1825 	bne	.L1489
+                        1826 --735:     {
+                        1827 --736:         /* You need to call init first */
+                        1828 --737:         R_XBUS_ErrorHandler(0, R_XBUS_ERR_NOTLOCKED); 
+                        1829 --line737
+                        1830 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.64::
+                        1831 .LDWlin64:
+
+                                                                      Page 32
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+000005ec 0032           1832 	mov	0,r6
+000005ee 043a           1833 	mov	4,r7
+                        1834 	jarl	_R_XBUS_ErrorHandler,lp
+                        1834 <EXPANSION BEGIN>
+                        1834 jarl22 _R_XBUS_ErrorHandler , lp 
+000005f0 bfff48fa*      1834 <EXPANSION END>
+                        1835 --738:         return; 
+                        1836 --line738
+                        1837 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.65::
+                        1838 .LDWlin65:
+000005f4 80074201*      1839 	br	.L1487
+                        1840 .L1489:
+                        1841 --739:     }    
+                        1842 --740:     #ifdef USE_ROS
+                        1843 --741:     R_OS_ThreadMutexLock(&locXcLock);
+                        1844 --742:     #endif
+                        1845 --744:     /* Synchronise cache domain */
+                        1846 --745:     reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_REQSYNC);   
+                        1847 --line745
+                        1848 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.66::
+                        1849 .LDWlin66:
+000005f8 3e0600000000*  1850 	mov	_locBaseAddr,ep
+000005fe 00f5           1851 	sld.w	0[ep],ep
+00000600 0ce5           1852 	sld.w	24[ep],r28
+                        1853 --746:     
+                        1854 --747:     /* Flush all cache? */
+                        1855 --748:     if (FlushAddr < (uint32_t)R_XBUS_AM_BUFF) 
+00000602 62ca           1856 	cmp	2,r25
+00000604 c925*          1857 	bnl	.L1492
+                        1858 --749:     {
+                        1859 --750:         /* Flush the buffer as well  */
+                        1860 --751:         if (0 == FlushAddr) 
+                        1861 --line751
+                        1862 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.67::
+                        1863 .LDWlin67:
+00000606 e0c9           1864 	cmp	zero,r25
+00000608 ea05*          1865 	bne	.L1494
+                        1866 --752:         {
+                        1867 --753:             reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_BUFFLUSH);   
+                        1868 --line753
+                        1869 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.68::
+                        1870 .LDWlin68:
+0000060a 3e0600000000*  1871 	mov	_locBaseAddr,ep
+00000610 00f5           1872 	sld.w	0[ep],ep
+00000612 0ee5           1873 	sld.w	28[ep],r28
+                        1874 .L1494:
+                        1875 --754:         }
+                        1876 --755:         /* Flush the cache  */
+                        1877 --756:         for (way = 0; way < R_XBUS_CACHE_WAY_NB; way++) 
+00000614 00d2           1878 	mov	0,r26
+00000616 0000           1879 	nop
+                        1880 .L1498:
+                        1881 --757:         {
+                        1882 --758:             for (idx = 0; idx < locMaxIdx; idx++)
+00000618 00da           1883 	mov	0,r27
+0000061a e50d*          1884 	br	.L1502
+                        1885 .L1501:
+                        1886 --759:             {
+                        1887 --760:                  /* Store (reset) command */
+                        1888 --761:                  reg_val     =  (uint8_t)((uint8_t)IDX_WB_INV << 1u); 
+                        1889 --line761
+
+                                                                      Page 33
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1890 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.69::
+                        1891 .LDWlin69:
+0000061c 08e2           1892 	mov	8,r28
+                        1893 --762:                  reg_val    |= 0x1u; /* 0100B IDX_WB_INV | VLD */
+0000061e 9ce60100       1894 	ori	1,r28,r28
+                        1895 --763:                 /* add way   */
+                        1896 --764:                  reg_val   |= (way << 16u); 
+00000622 1a08           1897 	mov	r26,r1
+00000624 d00a           1898 	shl	16,r1
+00000626 01e1           1899 	or	r1,r28
+                        1900 --765:                 /* add index to the command */
+                        1901 --766:                 reg_val    |= (idx << 5u); 
+00000628 1b08           1902 	mov	r27,r1
+0000062a c50a           1903 	shl	5,r1
+0000062c 01e1           1904 	or	r1,r28
+                        1905 --767:                
+                        1906 --768:                 /* Write command */
+                        1907 --769:                 loc_WriteCmd(reg_val); 
+0000062e 1c30           1908 	mov	r28,r6
+                        1909 	jarl	_loc_WriteCmd,lp
+                        1909 <EXPANSION BEGIN>
+                        1909 jarl22 _loc_WriteCmd , lp 
+00000630 bfffd0f9*      1909 <EXPANSION END>
+                        1910 --line758
+                        1911 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.70::
+                        1912 .LDWlin70:
+00000634 41da           1913 	add	1,r27
+                        1914 .L1502:
+00000636 210600000000*  1915 	mov	_locMaxIdx,r1
+0000063c 210f0100       1916 	ld.w	0[r1],r1
+00000640 e1d9           1917 	cmp	r1,r27
+00000642 d1ed*          1918 	bl	.L1501
+                        1919 --line756
+                        1920 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.71::
+                        1921 .LDWlin71:
+00000644 41d2           1922 	add	1,r26
+00000646 64d2           1923 	cmp	4,r26
+00000648 81ed*          1924 	bl	.L1498
+0000064a d575*          1925 	br	.L1503
+                        1926 .L1492:
+                        1927 --770:             }
+                        1928 --771:         } 
+                        1929 --772:     }
+                        1930 --773:     else if ((uint32_t)R_XBUS_AM_BUFF == FlushAddr)
+                        1931 --line773
+                        1932 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.72::
+                        1933 .LDWlin72:
+0000064c 62ca           1934 	cmp	2,r25
+0000064e fa05*          1935 	bne	.L1504
+                        1936 --774:     {
+                        1937 --775:         /* Just buffer flush */
+                        1938 --776:         reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_BUFFLUSH);   
+                        1939 --line776
+                        1940 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.73::
+                        1941 .LDWlin73:
+00000650 3e0600000000*  1942 	mov	_locBaseAddr,ep
+00000656 00f5           1943 	sld.w	0[ep],ep
+00000658 0ee5           1944 	sld.w	28[ep],r28
+0000065a d56d*          1945 	br	.L1503
+                        1946 .L1504:
+                        1947 --777:     }    
+
+                                                                      Page 34
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        1948 --778:     else /* check the cache areas */
+                        1949 --779:     {
+                        1950 --780:         
+                        1951 --781:         if (FlushAddr >= CacheAreas[3].Start)
+                        1952 --line781
+                        1953 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.74::
+                        1954 .LDWlin74:
+0000065c 3d0f2500       1955 	ld.w	36[r29],r1
+00000660 e1c9           1956 	cmp	r1,r25
+00000662 f10d*          1957 	bl	.L1507
+                        1958 --782:         {
+                        1959 --783:             /* address in range and buffered mode on? */
+                        1960 --784:             if ((FlushAddr < CacheAreas[3].End) && (R_XBUS_AM_BUFF == CacheAreas[3].Mode))
+                        1961 --line784
+                        1962 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.75::
+                        1963 .LDWlin75:
+00000664 3d0f2900       1964 	ld.w	40[r29],r1
+00000668 e1c9           1965 	cmp	r1,r25
+0000066a b90d*          1966 	bnl	.L1507
+0000066c 9d0f2d00       1967 	ld.bu	44[r29],r1
+00000670 620a           1968 	cmp	2,r1
+00000672 fa05*          1969 	bne	.L1507
+                        1970 --785:             {
+                        1971 --786:                 /* Buffered area flush */
+                        1972 --787:                 reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_BUFFLUSH);  
+                        1973 --line787
+                        1974 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.76::
+                        1975 .LDWlin76:
+00000674 3e0600000000*  1976 	mov	_locBaseAddr,ep
+0000067a 00f5           1977 	sld.w	0[ep],ep
+0000067c 0ee5           1978 	sld.w	28[ep],r28
+                        1979 --788:                 #ifdef USE_ROS
+                        1980 --789:                 R_OS_ThreadMutexUnlock(&locXcLock);
+                        1981 --790:                 #endif
+                        1982 --792:                 return; 
+0000067e c55d*          1983 	br	.L1487
+                        1984 .L1507:
+                        1985 --793:             } 
+                        1986 --794:         }    
+                        1987 --795:         if (FlushAddr >= CacheAreas[2].Start)
+                        1988 --line795
+                        1989 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.77::
+                        1990 .LDWlin77:
+00000680 3d0f1900       1991 	ld.w	24[r29],r1
+00000684 e1c9           1992 	cmp	r1,r25
+00000686 f10d*          1993 	bl	.L1513
+                        1994 --796:         {
+                        1995 --797:            /* address in range and buffered mode on? */
+                        1996 --798:             if ((FlushAddr < CacheAreas[2].End) && (R_XBUS_AM_BUFF == CacheAreas[2].Mode))
+                        1997 --line798
+                        1998 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.78::
+                        1999 .LDWlin78:
+00000688 3d0f1d00       2000 	ld.w	28[r29],r1
+0000068c e1c9           2001 	cmp	r1,r25
+0000068e b90d*          2002 	bnl	.L1513
+00000690 9d0f2100       2003 	ld.bu	32[r29],r1
+00000694 620a           2004 	cmp	2,r1
+00000696 fa05*          2005 	bne	.L1513
+                        2006 --799:             {
+                        2007 --800:                 /* Buffered area flush */
+                        2008 --801:                 reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_BUFFLUSH);
+
+                                                                      Page 35
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        2009 --line801
+                        2010 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.79::
+                        2011 .LDWlin79:
+00000698 3e0600000000*  2012 	mov	_locBaseAddr,ep
+0000069e 00f5           2013 	sld.w	0[ep],ep
+000006a0 0ee5           2014 	sld.w	28[ep],r28
+                        2015 --802:                 #ifdef USE_ROS
+                        2016 --803:                 R_OS_ThreadMutexUnlock(&locXcLock);
+                        2017 --804:                 #endif
+                        2018 --806:                 return; 
+000006a2 a54d*          2019 	br	.L1487
+                        2020 .L1513:
+                        2021 --807:   
+                        2022 --808:             } 
+                        2023 --809:         }    
+                        2024 --810:         if (FlushAddr >= CacheAreas[1].Start)
+                        2025 --line810
+                        2026 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.80::
+                        2027 .LDWlin80:
+000006a4 3d0f0d00       2028 	ld.w	12[r29],r1
+000006a8 e1c9           2029 	cmp	r1,r25
+000006aa 9125*          2030 	bl	.L1519
+                        2031 --811:         {
+                        2032 --812:             /* address in range and cached mode on? */
+                        2033 --813:             if ((FlushAddr < CacheAreas[1].End) && (R_XBUS_AM_CACHE == CacheAreas[1].Mode))
+                        2034 --line813
+                        2035 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.81::
+                        2036 .LDWlin81:
+000006ac 3d0f1100       2037 	ld.w	16[r29],r1
+000006b0 e1c9           2038 	cmp	r1,r25
+000006b2 d91d*          2039 	bnl	.L1519
+000006b4 9d0f1500       2040 	ld.bu	20[r29],r1
+000006b8 610a           2041 	cmp	1,r1
+000006ba 9a1d*          2042 	bne	.L1519
+                        2043 --814:             {
+                        2044 --815:                 addr = FlushAddr; 
+                        2045 --line815
+                        2046 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.82::
+                        2047 .LDWlin82:
+000006bc 19d8           2048 	mov	r25,r27
+                        2049 --816:                 while ((addr <= (FlushAddr + FlushSize)) && (addr < CacheAreas[1].End))
+000006be d50d*          2050 	br	.L1524
+                        2051 .L1526:
+                        2052 --817:                 {
+                        2053 --818:                     /* Flush from address*/
+                        2054 --819:                     reg_val   = (uint8_t)((uint8_t)HIT_WB_INV << 1u); 
+                        2055 --line819
+                        2056 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.83::
+                        2057 .LDWlin83:
+000006c0 0ce2           2058 	mov	12,r28
+                        2059 --820:                     reg_val  |=  0x1u; /* 0110B HIT_WB_INV | VLD */
+000006c2 9ce60100       2060 	ori	1,r28,r28
+                        2061 --821:                     reg_val  |= (addr & 0xFFFFFFE0u);
+000006c6 200ee0ff       2062 	movea	-32,zero,r1
+000006ca 5b09           2063 	and	r27,r1
+000006cc 01e1           2064 	or	r1,r28
+                        2065 --822:     
+                        2066 --823:                     /* Write command */
+                        2067 --824:                     loc_WriteCmd(reg_val); 
+000006ce 1c30           2068 	mov	r28,r6
+                        2069 	jarl	_loc_WriteCmd,lp
+
+                                                                      Page 36
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        2069 <EXPANSION BEGIN>
+                        2069 jarl22 _loc_WriteCmd , lp 
+000006d0 bfff30f9*      2069 <EXPANSION END>
+                        2070 --825:     
+                        2071 --826:                     /* the next 32 byte */
+                        2072 --827:                     addr += 32; 
+                        2073 --line827
+                        2074 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.84::
+                        2075 .LDWlin84:
+000006d4 1bde2000       2076 	addi	32,r27,r27
+                        2077 .L1524:
+000006d8 230f0900       2078 	ld.w	8[sp],r1
+000006dc d909           2079 	add	r25,r1
+000006de e1d9           2080 	cmp	r1,r27
+000006e0 db05*          2081 	bh	.L1525
+000006e2 3d0f1100       2082 	ld.w	16[r29],r1
+000006e6 e1d9           2083 	cmp	r1,r27
+000006e8 c1ed*          2084 	bl	.L1526
+                        2085 .L1525:
+                        2086 --828:                 }
+                        2087 --829:                 #ifdef USE_ROS
+                        2088 --830:                 R_OS_ThreadMutexUnlock(&locXcLock);
+                        2089 --831:                 #endif
+                        2090 --833:                 return; 
+                        2091 --line833
+                        2092 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.85::
+                        2093 .LDWlin85:
+000006ea e525*          2094 	br	.L1487
+                        2095 .L1519:
+                        2096 --834:             }    
+                        2097 --835:         }
+                        2098 --836:         if (FlushAddr >= CacheAreas[0].Start)
+                        2099 --line836
+                        2100 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.86::
+                        2101 .LDWlin86:
+000006ec 3d0f0100       2102 	ld.w	0[r29],r1
+000006f0 e1c9           2103 	cmp	r1,r25
+000006f2 9125*          2104 	bl	.L1503
+                        2105 --837:         {
+                        2106 --838:             /* address in range and cached mode on? */
+                        2107 --839:             if ((FlushAddr < CacheAreas[0].End) && (R_XBUS_AM_CACHE == CacheAreas[0].Mode))
+                        2108 --line839
+                        2109 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.87::
+                        2110 .LDWlin87:
+000006f4 3d0f0500       2111 	ld.w	4[r29],r1
+000006f8 e1c9           2112 	cmp	r1,r25
+000006fa d91d*          2113 	bnl	.L1503
+000006fc 9d0f0900       2114 	ld.bu	8[r29],r1
+00000700 610a           2115 	cmp	1,r1
+00000702 9a1d*          2116 	bne	.L1503
+                        2117 --840:             {
+                        2118 --841:                 addr = FlushAddr; 
+                        2119 --line841
+                        2120 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.88::
+                        2121 .LDWlin88:
+00000704 19d8           2122 	mov	r25,r27
+                        2123 --842:                 while ((addr <= (FlushAddr + FlushSize)) && (addr < CacheAreas[0].End))
+00000706 d50d*          2124 	br	.L1534
+                        2125 .L1536:
+                        2126 --843:                 {
+                        2127 --844:                     /* Flush from address*/
+
+                                                                      Page 37
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        2128 --845:                     reg_val   = (uint8_t)((uint8_t)HIT_WB_INV << 1u); 
+                        2129 --line845
+                        2130 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.89::
+                        2131 .LDWlin89:
+00000708 0ce2           2132 	mov	12,r28
+                        2133 --846:                     reg_val  |=  0x1u; /* 0110B HIT_WB_INV | VLD */
+0000070a 9ce60100       2134 	ori	1,r28,r28
+                        2135 --847:                     reg_val |= (addr & 0xFFFFFFE0u);
+0000070e 200ee0ff       2136 	movea	-32,zero,r1
+00000712 5b09           2137 	and	r27,r1
+00000714 01e1           2138 	or	r1,r28
+                        2139 --848:     
+                        2140 --849:                     /* Write command */
+                        2141 --850:                     loc_WriteCmd(reg_val); 
+00000716 1c30           2142 	mov	r28,r6
+                        2143 	jarl	_loc_WriteCmd,lp
+                        2143 <EXPANSION BEGIN>
+                        2143 jarl22 _loc_WriteCmd , lp 
+00000718 bfffe8f8*      2143 <EXPANSION END>
+                        2144 --851:     
+                        2145 --852:                     /* next 32 byte */
+                        2146 --853:                     addr += 32; 
+                        2147 --line853
+                        2148 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.90::
+                        2149 .LDWlin90:
+0000071c 1bde2000       2150 	addi	32,r27,r27
+                        2151 .L1534:
+00000720 230f0900       2152 	ld.w	8[sp],r1
+00000724 d909           2153 	add	r25,r1
+00000726 e1d9           2154 	cmp	r1,r27
+00000728 db05*          2155 	bh	.L1535
+0000072a 3d0f0500       2156 	ld.w	4[r29],r1
+0000072e e1d9           2157 	cmp	r1,r27
+00000730 c1ed*          2158 	bl	.L1536
+                        2159 .L1535:
+                        2160 --854:                 }
+                        2161 --855:                 #ifdef USE_ROS
+                        2162 --856:                 R_OS_ThreadMutexUnlock(&locXcLock);
+                        2163 --857:                 #endif
+                        2164 --859:                 return; 
+                        2165 --line859
+                        2166 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.91::
+                        2167 .LDWlin91:
+00000732 a505*          2168 	br	.L1487
+                        2169 .L1503:
+                        2170 --860:             }    
+                        2171 --861:         }
+                        2172 --862:     }
+                        2173 --863:     #ifdef USE_ROS
+                        2174 --864:     R_OS_ThreadMutexUnlock(&locXcLock);
+                        2175 --865:     #endif
+                        2176 --867:     
+                        2177 --868: }
+                        2178 --line868
+                        2179 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.92::
+                        2180 .LDWlin92:
+00000734 0000           2181 	nop
+                        2182 .L1487:
+                        2183 --	    .ef
+                        2184 .LDW44:
+00000736 4806ff70       2185 	dispose	4,{r25,r26,r27,r28,r29,r31},[lp]
+
+                                                                      Page 38
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        2186 	.type	_R_XBUS_Flush,@function
+                        2187 	.size	_R_XBUS_Flush,.-_R_XBUS_Flush
+                        2188 	.align	2
+                        2189 .LDW54:
+                        2190 --_reg_val	r28	local
+                        2191 --_idx	r27	local
+                        2192 --_way	r26	local
+                        2193 --_addr	r27	local
+                        2194 
+                        2195 --_Unit	12[sp]	param
+                        2196 --_FlushAddr	r25	param
+                        2197 --_FlushSize	8[sp]	param
+                        2198 
+                        2199 	.data
+                        2200 	.text
+                        2201 
+                        2202 
+                        2203 --870: /*******************************************************************************
+                        2204 --871:   Function: R_XBUS_SetMode
+                        2205 --872: */
+                        2206 --873: r_xbus_Error_t R_XBUS_SetMode(uint32_t Unit, uint8_t Area, r_xbus_AreaMode_t Mode) 
+                        2207 	.align	2
+                        2208 	.align	2
+                        2209 	.global	_R_XBUS_SetMode
+                        2210 _R_XBUS_SetMode:
+0000073a 8207e170       2211 	prepare	{r25,r26,r27,r28,r29,r31},1
+0000073e 63370100       2212 	st.w	r6,0[sp]
+00000742 c7ceff00       2213 	andi	255,r7,r25
+00000746 08e0           2214 	mov	r8,r28
+00000748 3b0600000000*  2215 	mov	_locBaseAddr,r27
+                        2216 --	    .bf
+                        2217 .LDW64:
+                        2218 --874: {
+                        2219 --875:     r_xbus_Error_t    err       = R_XBUS_ERR_OK;
+0000074e 00d2           2220 	mov	0,r26
+                        2221 --876:     volatile uint32_t reg_val   = 0; 
+00000750 00ea           2222 	mov	0,r29
+                        2223 --877:     if (0 == locBaseAddr) 
+00000752 3b0f0100       2224 	ld.w	0[r27],r1
+00000756 e009           2225 	cmp	zero,r1
+00000758 fa05*          2226 	bne	.L1927
+                        2227 --878:     {
+                        2228 --879:         /* You need to call init first */
+                        2229 --880:         R_XBUS_ErrorHandler(0, R_XBUS_ERR_NOTLOCKED); 
+                        2230 --line880
+                        2231 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.93::
+                        2232 .LDWlin93:
+0000075a 0032           2233 	mov	0,r6
+0000075c 043a           2234 	mov	4,r7
+                        2235 	jarl	_R_XBUS_ErrorHandler,lp
+                        2235 <EXPANSION BEGIN>
+                        2235 jarl22 _R_XBUS_ErrorHandler , lp 
+0000075e bfffdaf8*      2235 <EXPANSION END>
+                        2236 --881:         return R_XBUS_ERR_NOTLOCKED; 
+                        2237 --line881
+                        2238 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.94::
+                        2239 .LDWlin94:
+00000762 0452           2240 	mov	4,r10
+00000764 852d*          2241 	br	.L1925
+                        2242 .L1927:
+                        2243 --882:     }    
+
+                                                                      Page 39
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        2244 --884:     reg_val =  R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_CFG);  
+                        2245 --line884
+                        2246 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.95::
+                        2247 .LDWlin95:
+00000766 3bf70100       2248 	ld.w	0[r27],ep
+0000076a 00ed           2249 	sld.w	0[ep],r29
+                        2250 --885:     if (0 == Area) 
+0000076c e0c9           2251 	cmp	zero,r25
+0000076e fa0d*          2252 	bne	.L1930
+                        2253 --886:     {
+                        2254 --887:         if (R_XBUS_AM_CACHE == Mode)
+                        2255 --line887
+                        2256 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.96::
+                        2257 .LDWlin96:
+00000770 61e2           2258 	cmp	1,r28
+00000772 ca05*          2259 	bne	.L1932
+                        2260 --888:         {
+                        2261 --889:             reg_val |= 0x4u; 
+                        2262 --line889
+                        2263 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.97::
+                        2264 .LDWlin97:
+00000774 9dee0400       2265 	ori	4,r29,r29
+00000778 f515*          2266 	br	.L1938
+                        2267 .L1932:
+                        2268 --890:         }
+                        2269 --891:         else if (R_XBUS_AM_BUFF == Mode)
+                        2270 --line891
+                        2271 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.98::
+                        2272 .LDWlin98:
+0000077a 62e2           2273 	cmp	2,r28
+0000077c ca05*          2274 	bne	.L1935
+                        2275 --892:         {
+                        2276 --893:             reg_val |= 0x100u; 
+                        2277 --line893
+                        2278 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.99::
+                        2279 .LDWlin99:
+0000077e 9dee0001       2280 	ori	256,r29,r29
+00000782 a515*          2281 	br	.L1938
+                        2282 .L1935:
+                        2283 --894:         }
+                        2284 --895:         else 
+                        2285 --896:         {
+                        2286 --897:             reg_val &= (uint32_t)(~((uint32_t)0x104u)); 
+                        2287 --line897
+                        2288 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.100::
+                        2289 .LDWlin100:
+00000784 200efbfe       2290 	movea	-261,zero,r1
+00000788 41e9           2291 	and	r1,r29
+0000078a e50d*          2292 	br	.L1938
+                        2293 .L1930:
+                        2294 --898:         } 
+                        2295 --899:     }
+                        2296 --900:     else 
+                        2297 --901:     {
+                        2298 --902:         if (R_XBUS_AM_CACHE == Mode)
+                        2299 --line902
+                        2300 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.101::
+                        2301 .LDWlin101:
+0000078c 61e2           2302 	cmp	1,r28
+0000078e ca05*          2303 	bne	.L1939
+                        2304 --903:         {
+
+                                                                      Page 40
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        2305 --904:             reg_val |= 0x8u; 
+                        2306 --line904
+                        2307 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.102::
+                        2308 .LDWlin102:
+00000790 9dee0800       2309 	ori	8,r29,r29
+00000794 950d*          2310 	br	.L1938
+                        2311 .L1939:
+                        2312 --905:         }
+                        2313 --906:         else if (R_XBUS_AM_BUFF == Mode)
+                        2314 --line906
+                        2315 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.103::
+                        2316 .LDWlin103:
+00000796 62e2           2317 	cmp	2,r28
+00000798 ca05*          2318 	bne	.L1942
+                        2319 --907:         {
+                        2320 --908:             reg_val |= 0x200u; 
+                        2321 --line908
+                        2322 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.104::
+                        2323 .LDWlin104:
+0000079a 9dee0002       2324 	ori	512,r29,r29
+0000079e c505*          2325 	br	.L1938
+                        2326 .L1942:
+                        2327 --909:         }
+                        2328 --910:         else 
+                        2329 --911:         {
+                        2330 --912:             reg_val &= (uint32_t)(~((uint32_t)0x208u)); 
+                        2331 --line912
+                        2332 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main.105::
+                        2333 .LDWlin105:
+000007a0 200ef7fd       2334 	movea	-521,zero,r1
+000007a4 41e9           2335 	and	r1,r29
+                        2336 .L1938:
+                        2337 --913:         } 
+                        2338 --914:     }
+                        2339 --915:     R_XBUS_WRITE_REG(32,locBaseAddr + R_XBUS_CFG, reg_val);  
+000007a6 3bf70100       2340 	ld.w	0[r27],ep
+000007aa 01ed           2341 	sst.w	r29,0[ep]
+                        2342 --916:     /* synchronise ... whatever */
+                        2343 --917:     reg_val = R_XBUS_READ_REG(32,locBaseAddr + R_XBUS_REQSYNC);  
+000007ac 3bf70100       2344 	ld.w	0[r27],ep
+000007b0 0ced           2345 	sld.w	24[ep],r29
+                        2346 --918:     return err;
+000007b2 1a50           2347 	mov	r26,r10
+                        2348 .L1925:
+                        2349 --	    .ef
+                        2350 .LDW74:
+000007b4 4206ff70       2351 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                        2352 	.type	_R_XBUS_SetMode,@function
+                        2353 	.size	_R_XBUS_SetMode,.-_R_XBUS_SetMode
+                        2354 	.align	2
+                        2355 .LDW84:
+                        2356 --_err	r26	local
+                        2357 --_reg_val	r29	local
+                        2358 
+                        2359 --_Unit	0[sp]	param
+                        2360 --_Area	r25	param
+                        2361 --_Mode	r28	param
+                        2362 
+                        2363 	.section ".bss","awb"
+                        2364 .L1998:
+                        2365 	.type	.L1998,@object
+
+                                                                      Page 41
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005vo1.si
+                        2366 	.size	.L1998,0
+                        2367 	.data
+                        2368 	.text
+                        2369 
+                        2370 --920: }
+                        2371 
+                        2372 --922: /*******************************************************************************
+                        2373 --923:   Function: R_XBUS_SetErrorCallback
+                        2374 --924: */
+                        2375 --926: void R_XBUS_SetErrorCallback(void(*ErrorCallback )(uint32_t Unit, uint32_t Error)) 
+                        2376 	.align	2
+                        2377 	.align	2
+                        2378 	.global	_R_XBUS_SetErrorCallback
+                        2379 _R_XBUS_SetErrorCallback:
+000007b8 0670           2380 	mov	r6,r14
+000007ba 210600000000*  2381 	mov	_loc_ErrorHandler,r1
+                        2382 --	    .bf
+                        2383 .LDW94:
+                        2384 --927: {
+                        2385 --928:     loc_ErrorHandler = ErrorCallback;
+000007c0 2b0600000000*  2386 	mov	_loc_ErrorHandler,r11
+000007c6 6b770100       2387 	st.w	r14,0[r11]
+                        2388 --929: }
+000007ca 0000           2389 	nop
+                        2390 --	    .ef
+                        2391 .LDW05:
+000007cc 7f00           2392 	jmp	[lp]
+                        2393 	.type	_R_XBUS_SetErrorCallback,@function
+                        2394 	.size	_R_XBUS_SetErrorCallback,.-_R_XBUS_SetErrorCallback
+                        2395 	.align	2
+                        2396 .LDW15:
+                        2397 
+                        2398 --_ErrorCallback	r14	param
+                        2399 
+                        2400 	.data
+                        2401 	.text
+                        2402 
+                        2403 	.align	2
+                        2404 --_locBaseAddr	_locBaseAddr	static
+                        2405 --_loc_ErrorHandler	_loc_ErrorHandler	static
+                        2406 --_CacheAreas	_CacheAreas	static
+                        2407 --_locMaxIdx	_locMaxIdx	static
+                        2408 
+                        2409 	.data
+                        2410 	.ghsnote version,14
+                        2411 	.ghsnote tools,3
+                        2412 	.ghsnote options,144
+                        2413 	.text
+                        2414 	.align	2
+                        2415 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_xbus_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740386..0::
+                        2416 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

@@ -1,0 +1,695 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\rstc.dbo -source=rstc.c -o .\obj\gh_000024k1.o -list=.\obj\rstc.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+Source File: rstc.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\RSTC\rstc.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+                         112 --		-o .\obj\rstc.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\RSTC\rstc.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:24 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : rstc.c
+                         128 --5: * Description : RSTC module source file.
+                         129 --6: * Author: Qinhui.Shen
+                         130 --7: * Date: 2016-12-14
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "rstc_info.inc"
+                         134 --13: /*--------------- Global variable definition and initialization -----------------*/
+                         135 --14: static U8 Rstc_InitStatus = FALSE;
+                         136 --16: /*---------------------- Implementation of module ---------------------*/
+                         137 --18: /***************************************************
+                         138 --19: * Function: RSTC_Init.
+                         139 --20: * Description: RSTC Initialization.
+                         140 --21: * Parameters: none
+                         141 --22: * Returns: none
+                         142 --23: *
+                         143 --24: * $Create & Verlog:$
+                         144 --25: * Author:Qinhui.Shen  Date:2016-12-14   Version:V1.0
+                         145 --26: ****************************************************/
+                         146 --27: void RSTC_Init(void)
+                         147 	.text
+                         148 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740365..0::
+                         149 	.align	2
+                         150 	.global	_RSTC_Init
+                         151 _RSTC_Init:
+                         152 --	    .bf
+                         153 .LDW01:
+                         154 --28: {
+                         155 --29:     Rstc_InitStatus = TRUE;
+00000000 2b0600000000*   156 	mov	_Rstc_InitStatus,r11
+00000006 010a            157 	mov	1,r1
+00000008 4b0f0000        158 	st.b	r1,0[r11]
+                         159 --30: }
+0000000c 0000            160 	nop
+                         161 --	    .ef
+                         162 .LDW11:
+0000000e 7f00            163 	jmp	[lp]
+                         164 	.type	_RSTC_Init,@function
+                         165 	.size	_RSTC_Init,.-_RSTC_Init
+                         166 	.align	2
+                         167 .LDW21:
+                         168 
+                         169 	.data
+                         170 .L26:
+                         171 	.type	.L26,@object
+                         172 	.size	.L26,0
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+                         173 	.global	_Rstc_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.
+                         174 _Rstc_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.:
+                         175 	.type	_Rstc_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.,@object
+                         176 	.size	_Rstc_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.,1
+00000000 00              177 _Rstc_InitStatus:	.byte	0
+                         178 	.type	_Rstc_InitStatus,@object
+                         179 	.size	_Rstc_InitStatus,1
+                         180 	.text
+                         181 
+                         182 
+                         183 --32: /***************************************************
+                         184 --33: * Function: RSTC_GetInitStatus
+                         185 --34: * Description: get the RSTC module init status.
+                         186 --35: * Parameters: none
+                         187 --36: * Returns:
+                         188 --37: *            FALSE(0): init failure
+                         189 --38: *            TRUE(1): init success.
+                         190 --39: *
+                         191 --40: * $Create & Verlog:$
+                         192 --41: * Author:Qinhui.Shen  Date:2016-12-14  Version:V1.0
+                         193 --42: ****************************************************/
+                         194 --43: U8 RSTC_GetInitStatus(void)
+                         195 	.align	2
+                         196 	.align	2
+                         197 	.global	_RSTC_GetInitStatus
+                         198 _RSTC_GetInitStatus:
+00000010 210600000000*   199 	mov	_Rstc_InitStatus,r1
+                         200 --	    .bf
+                         201 .LDW31:
+                         202 --44: {
+                         203 --45:     return Rstc_InitStatus;
+00000016 2a0600000000*   204 	mov	_Rstc_InitStatus,r10
+0000001c 8a570100        205 	ld.bu	0[r10],r10
+                         206 --	    .ef
+                         207 .LDW41:
+00000020 7f00            208 	jmp	[lp]
+                         209 	.type	_RSTC_GetInitStatus,@function
+                         210 	.size	_RSTC_GetInitStatus,.-_RSTC_GetInitStatus
+                         211 	.align	2
+                         212 .LDW51:
+                         213 
+                         214 	.data
+                         215 	.text
+                         216 
+                         217 --46: }
+                         218 
+                         219 --48: /***************************************************
+                         220 --49: * Function: RSTC_GetRstFlag
+                         221 --50: * Description: read the RESF (reset factor register).
+                         222 --51: * Parameters:
+                         223 --52: *                output:
+                         224 --53: *                       flag - get the value of RESF.
+                         225 --54: * Returns:
+                         226 --55: *            RET_FAIL =  (0u),
+                         227 --56: *            RET_OK,
+                         228 --57: *            RET_INVALID,
+                         229 --58: *
+                         230 --59: * $Create & Verlog:$
+                         231 --60: * Author:Qinhui.Shen  Date:2016-12-14   Version:V1.0
+                         232 --61: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                         233 --62: *  $log: only a 'return'
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+                         234 --63: ****************************************************/
+                         235 --64: U8 RSTC_GetRstFlag(PU32 flag)
+                         236 	.align	2
+                         237 	.align	2
+                         238 	.global	_RSTC_GetRstFlag
+                         239 _RSTC_GetRstFlag:
+00000022 06f0            240 	mov	r6,ep
+                         241 --	    .bf
+                         242 .LDW61:
+                         243 --65: {
+                         244 --66:     U32 MasterVal = 0;
+00000024 0072            245 	mov	0,r14
+                         246 --67:     U32 RedundantVal = 0;
+00000026 006a            247 	mov	0,r13
+                         248 --68:     U8 res = RET_FAIL;
+00000028 000a            249 	mov	0,r1
+                         250 --70:      if (NULL_PTR == flag)
+0000002a e0f1            251 	cmp	zero,ep
+0000002c ba05*           252 	bne	.L69
+                         253 --71:     {
+                         254 --72:         res = RET_INVALID;
+                         255 --line72
+                         256 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.1::
+                         257 .LDWlin1:
+0000002e 020a            258 	mov	2,r1
+00000030 b50d*           259 	br	.L71
+                         260 .L69:
+                         261 --73:     }
+                         262 --74:     else
+                         263 --75:     {
+                         264 --76:         MasterVal = SYSRESF;
+                         265 --line76
+                         266 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.2::
+                         267 .LDWlin2:
+00000032 800709760ef0    268 	ld.w	4294444896[zero],r14
+                         269 --77:         RedundantVal = SYSRESFR;
+00000038 8007096e10f0    270 	ld.w	4294445152[zero],r13
+                         271 --78:         *flag = (MasterVal | RedundantVal);
+0000003e 0d60            272 	mov	r13,r12
+00000040 0e61            273 	or	r14,r12
+00000042 0165            274 	sst.w	r12,0[ep]
+                         275 --79:         res = RET_OK;
+00000044 010a            276 	mov	1,r1
+                         277 .L71:
+                         278 --80:     }
+                         279 --81:     return res;
+00000046 0150            280 	mov	r1,r10
+                         281 --	    .ef
+                         282 .LDW71:
+00000048 7f00            283 	jmp	[lp]
+                         284 	.type	_RSTC_GetRstFlag,@function
+                         285 	.size	_RSTC_GetRstFlag,.-_RSTC_GetRstFlag
+                         286 	.align	2
+                         287 .LDW81:
+                         288 --_MasterVal	r14	local
+                         289 --_RedundantVal	r13	local
+                         290 --_res	r1	local
+                         291 
+                         292 --_flag	ep	param
+                         293 
+                         294 	.section ".bss","awb"
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+                         295 .L106:
+                         296 	.type	.L106,@object
+                         297 	.size	.L106,0
+                         298 	.data
+                         299 	.text
+                         300 
+                         301 --82: }
+                         302 
+                         303 --84: /***************************************************
+                         304 --85: * Function: RSTC_ClrRstFlag
+                         305 --86: * Description: clear the RESF (reset factor register).
+                         306 --87: * Parameters:
+                         307 --88: *                Input:
+                         308 --89: *                       flag - specify the flag want to clear.
+                         309 --90: *                          NOTE:  if FLAG_RSTC_ALL, then clear all.
+                         310 --91: * Returns:
+                         311 --92: *            RET_FAIL =  (0u),
+                         312 --93: *            RET_OK,
+                         313 --94: *            RET_INVALID,
+                         314 --95: *
+                         315 --96: * $Create & Verlog:$
+                         316 --97: * Author:Qinhui.Shen  Date:2016-12-14   Version:V1.0
+                         317 --98: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                         318 --99: *  $log: only a 'return'
+                         319 --100: ****************************************************/
+                         320 --101: U8 RSTC_ClrRstFlag(RstcResetFlag_ENUM flag)
+                         321 	.align	2
+                         322 	.align	2
+                         323 	.global	_RSTC_ClrRstFlag
+                         324 _RSTC_ClrRstFlag:
+0000004a 0668            325 	mov	r6,r13
+0000004c 210600000000*   326 	mov	_Rstc_InitStatus,r1
+                         327 --	    .bf
+                         328 .LDW91:
+                         329 --102: {
+                         330 --103:     U8 res = RET_FAIL;
+00000052 0072            331 	mov	0,r14
+                         332 --105:     if (TRUE == Rstc_InitStatus)
+00000054 210600000000*   333 	mov	_Rstc_InitStatus,r1
+0000005a 810f0100        334 	ld.bu	0[r1],r1
+0000005e 610a            335 	cmp	1,r1
+00000060 ba05*           336 	bne	.L147
+                         337 --106:     {
+                         338 --107:         res = RET_FAIL;
+                         339 --line107
+                         340 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.3::
+                         341 .LDWlin3:
+00000062 0072            342 	mov	0,r14
+00000064 952d*           343 	br	.L149
+                         344 .L147:
+                         345 --108:     }
+                         346 --109:     else if (FLAG_RSTC_ALL < flag)
+                         347 --line109
+                         348 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.4::
+                         349 .LDWlin4:
+00000066 0d06f0ff        350 	addi	-16,r13,zero
+0000006a b705*           351 	ble	.L150
+                         352 --110:     {
+                         353 --111:         res =  RET_INVALID;
+                         354 --line111
+                         355 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.5::
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+                         356 .LDWlin5:
+0000006c 0272            357 	mov	2,r14
+0000006e c525*           358 	br	.L149
+                         359 .L150:
+                         360 --112:     }
+                         361 --113:     else
+                         362 --114:     {
+                         363 --115:         if (FLAG_RSTC_ALL == flag)
+                         364 --line115
+                         365 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.6::
+                         366 .LDWlin6:
+00000070 0d06f0ff        367 	addi	-16,r13,zero
+00000074 ca0d*           368 	bne	.L153
+                         369 --116:         {
+                         370 --117:             SYSRESFC = RSTC_RESF_MASK;
+                         371 --line117
+                         372 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.7::
+                         373 .LDWlin7:
+00000076 800e0fc7        374 	ori	50959,zero,r1
+0000007a 80078f0e0ef0    375 	st.w	r1,4294444904[zero]
+                         376 --118:             SYSRESFCR = RSTC_RESF_MASK;
+00000080 800e0fc7        377 	ori	50959,zero,r1
+00000084 80078f0e10f0    378 	st.w	r1,4294445160[zero]
+0000008a d515*           379 	br	.L155
+                         380 .L153:
+                         381 --119:         }
+                         382 --120:         else
+                         383 --121:         {
+                         384 --122:             SET_BIT(SYSRESFC, flag);
+                         385 --line122
+                         386 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.8::
+                         387 .LDWlin8:
+0000008c 010a            388 	mov	1,r1
+0000008e ed0fc260        389 	shl	r13,r1,r12
+00000092 8007890e0ef0    390 	ld.w	4294444904[zero],r1
+00000098 0c09            391 	or	r12,r1
+0000009a 80078f0e0ef0    392 	st.w	r1,4294444904[zero]
+                         393 --123:             SET_BIT(SYSRESFCR, flag);
+000000a0 010a            394 	mov	1,r1
+000000a2 ed0fc260        395 	shl	r13,r1,r12
+000000a6 8007890e10f0    396 	ld.w	4294445160[zero],r1
+000000ac 0c09            397 	or	r12,r1
+000000ae 80078f0e10f0    398 	st.w	r1,4294445160[zero]
+                         399 .L155:
+                         400 --124:         }
+                         401 --125:         res = RET_OK;
+000000b4 0172            402 	mov	1,r14
+                         403 .L149:
+                         404 --126:     }
+                         405 --127:     return res;
+000000b6 0e50            406 	mov	r14,r10
+                         407 --	    .ef
+                         408 .LDW02:
+000000b8 7f00            409 	jmp	[lp]
+                         410 	.type	_RSTC_ClrRstFlag,@function
+                         411 	.size	_RSTC_ClrRstFlag,.-_RSTC_ClrRstFlag
+                         412 	.align	2
+                         413 .LDW12:
+                         414 --_res	r14	local
+                         415 
+                         416 --_flag	r13	param
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+                         417 
+                         418 	.data
+                         419 	.text
+                         420 
+                         421 --128: }
+                         422 
+                         423 --130: /***************************************************
+                         424 --131: * Function: RSTC_SoftwareReset
+                         425 --132: * Description: generate a software reset SWRES
+                         426 --133: * Parameters:none
+                         427 --134: * Returns:none
+                         428 --135: *
+                         429 --136: * $Create & Verlog:$
+                         430 --137: * Author:Qinhui.Shen  Date:2016-12-14   Version:V1.0
+                         431 --138: ****************************************************/
+                         432 --139: void RSTC_SoftwareReset(void)
+                         433 	.align	2
+                         434 	.align	2
+                         435 	.global	_RSTC_SoftwareReset
+                         436 _RSTC_SoftwareReset:
+                         437 --	    .bf
+                         438 .LDW22:
+                         439 --140: {
+                         440 --141:     protected_write(SYSPROTCMD0, SYSPROTS0, SYSSWRESA, 0x01u); /* trigger enable (protected write) */
+000000ba 0000            441 	nop
+                         442 .L238:
+000000bc 200ea500        443 	movea	165,zero,r1
+000000c0 80070f0800f0    444 	st.w	r1,4294443008[zero]
+000000c6 010a            445 	mov	1,r1
+000000c8 80074f0814f0    446 	st.w	r1,4294445572[zero]
+000000ce 1e0a            447 	mov	-2,r1
+000000d0 80074f0814f0    448 	st.w	r1,4294445572[zero]
+000000d6 010a            449 	mov	1,r1
+000000d8 80074f0814f0    450 	st.w	r1,4294445572[zero]
+000000de 8007490800f0    451 	ld.w	4294443012[zero],r1
+000000e4 610a            452 	cmp	1,r1
+000000e6 b2ed*           453 	be	.L238
+                         454 --142: }
+                         455 --line142
+                         456 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.9::
+                         457 .LDWlin9:
+000000e8 0000            458 	nop
+                         459 --	    .ef
+                         460 .LDW32:
+000000ea 7f00            461 	jmp	[lp]
+                         462 	.type	_RSTC_SoftwareReset,@function
+                         463 	.size	_RSTC_SoftwareReset,.-_RSTC_SoftwareReset
+                         464 	.align	2
+                         465 .LDW42:
+                         466 
+                         467 	.section ".bss","awb"
+                         468 .L260:
+                         469 	.type	.L260,@object
+                         470 	.size	.L260,0
+                         471 	.data
+                         472 	.text
+                         473 
+                         474 
+                         475 --144: /***************************************************
+                         476 --145: * Function: RSTC_ModuleReset
+                         477 --146: * Description:  generate separate resets for various modules
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+                         478 --147: *                Input:
+                         479 --148: *                       module - specify the module want to reset.
+                         480 --149: * Returns:
+                         481 --150: *            RET_FAIL =  (0u),
+                         482 --151: *            RET_OK,
+                         483 --152: *            RET_INVALID,
+                         484 --153: * $Create & Verlog:$
+                         485 --154: * Author:Qinhui.Shen  Date:2016-12-14   Version:V1.0
+                         486 --155: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                         487 --156: *  $log: only a 'return'
+                         488 --157: ****************************************************/
+                         489 --158: U8 RSTC_ModuleReset(RstcModuleRst_ENUM module, U8 IsInactive)
+                         490 	.align	2
+                         491 	.align	2
+                         492 	.global	_RSTC_ModuleReset
+                         493 _RSTC_ModuleReset:
+000000ec 0660            494 	mov	r6,r12
+000000ee c75eff00        495 	andi	255,r7,r11
+000000f2 210600000000*   496 	mov	_Rstc_InitStatus,r1
+                         497 --	    .bf
+                         498 .LDW52:
+                         499 --159: {
+                         500 --160:     U32 val = 0;
+000000f8 0072            501 	mov	0,r14
+                         502 --161:     U8 res = RET_FAIL;
+000000fa 006a            503 	mov	0,r13
+                         504 --163:     if (TRUE == Rstc_InitStatus)
+000000fc 210600000000*   505 	mov	_Rstc_InitStatus,r1
+00000102 810f0100        506 	ld.bu	0[r1],r1
+00000106 610a            507 	cmp	1,r1
+00000108 ba05*           508 	bne	.L292
+                         509 --164:     {
+                         510 --165:         res = RET_FAIL;
+                         511 --line165
+                         512 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.10::
+                         513 .LDWlin10:
+0000010a 006a            514 	mov	0,r13
+0000010c b535*           515 	br	.L294
+                         516 .L292:
+                         517 --166:     }
+                         518 --167:     else if (MRES_RSTC_ALL < module)
+                         519 --line167
+                         520 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.11::
+                         521 .LDWlin11:
+0000010e 6e62            522 	cmp	14,r12
+00000110 b705*           523 	ble	.L295
+                         524 --168:     {
+                         525 --169:         res = RET_INVALID;
+                         526 --line169
+                         527 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.12::
+                         528 .LDWlin12:
+00000112 026a            529 	mov	2,r13
+00000114 f52d*           530 	br	.L294
+                         531 .L295:
+                         532 --170:     }
+                         533 --171:     else
+                         534 --172:     {
+                         535 --173:         if (MRES_RSTC_ALL == module)
+                         536 --line173
+                         537 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.13::
+                         538 .LDWlin13:
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+00000116 6e62            539 	cmp	14,r12
+00000118 8a0d*           540 	bne	.L298
+                         541 --174:         {
+                         542 --175:             if (IsInactive)
+                         543 --line175
+                         544 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.14::
+                         545 .LDWlin14:
+0000011a e059            546 	cmp	zero,r11
+0000011c c205*           547 	be	.L300
+                         548 --176:             {
+                         549 --177:                 val = 0x00003FFF;
+                         550 --line177
+                         551 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.15::
+                         552 .LDWlin15:
+0000011e 2076ff3f        553 	movea	16383,zero,r14
+00000122 a515*           554 	br	.L303
+                         555 .L300:
+                         556 --178:             }
+                         557 --179:             else
+                         558 --180:             {
+                         559 --181:                 val = 0x00000000;
+                         560 --line181
+                         561 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.16::
+                         562 .LDWlin16:
+00000124 0072            563 	mov	0,r14
+00000126 8515*           564 	br	.L303
+                         565 .L298:
+                         566 --182:             }
+                         567 --183:         }
+                         568 --184:         else
+                         569 --185:         {
+                         570 --186:             val = SYSMRSTC;
+                         571 --line186
+                         572 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.17::
+                         573 .LDWlin17:
+00000128 80070970e8f1    574 	ld.w	4294505472[zero],r14
+                         575 --187:             if (IsInactive)
+0000012e e059            576 	cmp	zero,r11
+00000130 e205*           577 	be	.L304
+                         578 --188:             {
+                         579 --189:                 SET_BIT(val, module);
+                         580 --line189
+                         581 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.18::
+                         582 .LDWlin18:
+00000132 010a            583 	mov	1,r1
+00000134 ec0fc208        584 	shl	r12,r1,r1
+00000138 0171            585 	or	r1,r14
+0000013a e505*           586 	br	.L303
+                         587 .L304:
+                         588 --190:             }
+                         589 --191:             else
+                         590 --192:             {
+                         591 --193:                 CLR_BIT(val, module);
+                         592 --line193
+                         593 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.19::
+                         594 .LDWlin19:
+0000013c 010a            595 	mov	1,r1
+0000013e ec0fc208        596 	shl	r12,r1,r1
+00000142 2108            597 	not	r1,r1
+00000144 4171            598 	and	r1,r14
+                         599 .L303:
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000024k1.si
+                         600 --194:             }
+                         601 --195:         }
+                         602 --196:         protected_write(SYSPROTCMDMRST, SYSPROTSMRST, SYSMRSTC, val); /* trigger enable (protected write) */
+00000146 0000            603 	nop
+                         604 .L309:
+00000148 200ea500        605 	movea	165,zero,r1
+0000014c 80070f08e9f1    606 	st.w	r1,4294505600[zero]
+00000152 80070f70e8f1    607 	st.w	r14,4294505472[zero]
+00000158 2e08            608 	not	r14,r1
+0000015a 80070f08e8f1    609 	st.w	r1,4294505472[zero]
+00000160 80070f70e8f1    610 	st.w	r14,4294505472[zero]
+00000166 80074908e9f1    611 	ld.w	4294505604[zero],r1
+0000016c 610a            612 	cmp	1,r1
+0000016e d2ed*           613 	be	.L309
+                         614 --197:         res = RET_OK;
+                         615 --line197
+                         616 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc.20::
+                         617 .LDWlin20:
+00000170 016a            618 	mov	1,r13
+                         619 .L294:
+                         620 --198:     }
+                         621 --199:     return res;
+00000172 0d50            622 	mov	r13,r10
+                         623 --	    .ef
+                         624 .LDW62:
+00000174 7f00            625 	jmp	[lp]
+                         626 	.type	_RSTC_ModuleReset,@function
+                         627 	.size	_RSTC_ModuleReset,.-_RSTC_ModuleReset
+                         628 	.align	2
+                         629 .LDW72:
+                         630 --_val	r14	local
+                         631 --_res	r13	local
+                         632 
+                         633 --_module	r12	param
+                         634 --_IsInactive	r11	param
+                         635 
+                         636 	.data
+                         637 	.text
+                         638 
+                         639 --200: }
+                         640 	.align	2
+                         641 --_Rstc_InitStatus	_Rstc_InitStatus	static
+                         642 
+                         643 	.data
+                         644 	.ghsnote version,14
+                         645 	.ghsnote tools,3
+                         646 	.ghsnote options,144
+                         647 	.text
+                         648 	.align	2
+                         649 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Crstc...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740365..0::
+                         650 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

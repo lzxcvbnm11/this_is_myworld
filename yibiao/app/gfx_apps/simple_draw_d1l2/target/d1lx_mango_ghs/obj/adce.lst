@@ -1,0 +1,1165 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\adce.dbo -source=adce.c -o .\obj\gh_00008281.o -list=.\obj\adce.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+Source File: adce.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\ADCE\adce.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         112 --		-o .\obj\adce.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\ADCE\adce.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:27 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : adce.c
+                         128 --5: * Description : Driver source file of ADCE.
+                         129 --6: * Author: Xiaojie.Zheng
+                         130 --7: * Date: 2016-12-14
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "adce_info.inc"
+                         134 --13: static BOOL adce_InitStatus;
+                         135 --15: /***************************************************
+                         136 --16: * Function: ADCE_Init
+                         137 --17: * Description: ADCE drive initialization
+                         138 --18: * Parameters: none
+                         139 --19: * Returns: none
+                         140 --20: * $Create & Verlog:$
+                         141 --21: * Author: Xiaojie.Zheng   Date:2016-12-14   Version:V1.0
+                         142 --22: ****************************************************/
+                         143 --23: void ADCE_Init(void)
+                         144 	.text
+                         145 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740368..0::
+                         146 	.align	2
+                         147 	.global	_ADCE_Init
+                         148 _ADCE_Init:
+                         149 --	    .bf
+                         150 .LDW01:
+                         151 --24: {  
+                         152 --25:    /*PORT_ISOPMC10 = 0xFFFF;*/
+                         153 --26:    /*PORT_ISOPM10 = 0xFFFF;*/
+                         154 --27:    /*C_ISO_ADCE clock divider register, C_ISO_ADCE = CLKJIT/4 = 20MHz*/
+                         155 --28: 	protected_write(SYSPROTCMDD1, SYSPROTSD1, SYSCKSC_IADCED_CTL, 0x00000002UL);
+00000000 0000            156 	nop
+                         157 .L6:
+00000002 200ea500        158 	movea	165,zero,r1
+00000006 80070f08e0f0    159 	st.w	r1,4294471680[zero]
+0000000c 020a            160 	mov	2,r1
+0000000e 80070f08a9f0    161 	st.w	r1,4294464640[zero]
+00000014 1d0a            162 	mov	-3,r1
+00000016 80070f08a9f0    163 	st.w	r1,4294464640[zero]
+0000001c 020a            164 	mov	2,r1
+0000001e 80070f08a9f0    165 	st.w	r1,4294464640[zero]
+00000024 80074908e0f0    166 	ld.w	4294471684[zero],r1
+0000002a 610a            167 	cmp	1,r1
+0000002c b2ed*           168 	be	.L6
+                         169 --29: 	while(SYSCKSC_IADCED_ACT != 0x00000002UL){}
+                         170 --line29
+                         171 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.1::
+                         172 .LDWlin1:
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+0000002e 0000            173 	nop
+                         174 .L7:
+00000030 80078908a9f0    175 	ld.w	4294464648[zero],r1
+00000036 620a            176 	cmp	2,r1
+00000038 cafd*           177 	bne	.L7
+                         178 --31: 	/*NOTE	ADC moudle was in reset status after power up reset, user should clear this status before use this moulde.*/
+                         179 --32: 	protected_write(SYSPROTCMDMRST, SYSPROTSMRST, SYSMRSTC, 0x00003FFFUL);
+                         180 --line32
+                         181 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.2::
+                         182 .LDWlin2:
+0000003a 0000            183 	nop
+                         184 .L12:
+0000003c 200ea500        185 	movea	165,zero,r1
+00000040 80070f08e9f1    186 	st.w	r1,4294505600[zero]
+00000046 200eff3f        187 	movea	16383,zero,r1
+0000004a 80070f08e8f1    188 	st.w	r1,4294505472[zero]
+00000050 200e00c0        189 	movea	-16384,zero,r1
+00000054 80070f08e8f1    190 	st.w	r1,4294505472[zero]
+0000005a 200eff3f        191 	movea	16383,zero,r1
+0000005e 80070f08e8f1    192 	st.w	r1,4294505472[zero]
+00000064 80074908e9f1    193 	ld.w	4294505604[zero],r1
+0000006a 610a            194 	cmp	1,r1
+0000006c 82ed*           195 	be	.L12
+                         196 --33:    /* Control the virtual channel
+                         197 --34:     ADCEnVCRj  - Virtual Channel Register j
+                         198 --35:     b31:b15            - Reserved set to 0
+                         199 --36:     b15          MPXE  - MPX Enable                                     - The use of MPX is prohibited.
+                         200 --37:     b14:b12      MPXV  - These bits are used to set the MPX value to be
+                         201 --38:                              transferred to an external analog multiplexer. - Unused. Set to 000'b. 
+                         202 --39:     b11:b10            - Reserved set to 0
+                         203 --40:     b 9         CNVCLS - A/D Conversion Type Select for Self-Diagnosis  - Unused. Set to 0'b.
+                         204 --41:     b 8          ADIE  - A/D Conversion End Interrupt Enable            - A scan group x end interrupt (NT_SGx)
+                         205 --42:                                                                               is not generated when A/D conversion
+                         206 --43:                                                                               for virtual channel j ends in SGx.
+                         207 --44:                                                                               Set to 0'b.
+                         208 --45:     b 7:b 6      ULS   - Upper Limit/Lower Limit Table Select           - Upper limit and lower limit are checked
+                         209 --46:                                                                               for ADCEnULLMTBR0.Unused. Set to 01'b.
+                         210 --47:     b 5:b 0      GCTRL - Physical Channel Select                        - Select ANI000 - ANI00F */
+                         211 --48:     
+                         212 --49:     ADCE0.VCR00.UINT32 = 0x000000D0UL;
+                         213 --line49
+                         214 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.3::
+                         215 .LDWlin3:
+0000006e 200ed000        216 	movea	208,zero,r1
+00000072 80070f0800e4    217 	st.w	r1,4294049792[zero]
+                         218 --50:     ADCE0.VCR01.UINT32 = 0x000000D1UL;
+00000078 200ed100        219 	movea	209,zero,r1
+0000007c 80074f0800e4    220 	st.w	r1,4294049796[zero]
+                         221 --51:     ADCE0.VCR02.UINT32 = 0x000000D2UL;
+00000082 200ed200        222 	movea	210,zero,r1
+00000086 80078f0800e4    223 	st.w	r1,4294049800[zero]
+                         224 --52:     ADCE0.VCR03.UINT32 = 0x000000D3UL;
+0000008c 200ed300        225 	movea	211,zero,r1
+00000090 8007cf0800e4    226 	st.w	r1,4294049804[zero]
+                         227 --53:     ADCE0.VCR04.UINT32 = 0x000000D4UL;
+00000096 200ed400        228 	movea	212,zero,r1
+0000009a 80070f0900e4    229 	st.w	r1,4294049808[zero]
+                         230 --54:     ADCE0.VCR05.UINT32 = 0x000000D5UL;
+000000a0 200ed500        231 	movea	213,zero,r1
+000000a4 80074f0900e4    232 	st.w	r1,4294049812[zero]
+                         233 --55:     ADCE0.VCR06.UINT32 = 0x000000D6UL;
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+000000aa 200ed600        234 	movea	214,zero,r1
+000000ae 80078f0900e4    235 	st.w	r1,4294049816[zero]
+                         236 --56:     ADCE0.VCR07.UINT32 = 0x000000D7UL;
+000000b4 200ed700        237 	movea	215,zero,r1
+000000b8 8007cf0900e4    238 	st.w	r1,4294049820[zero]
+                         239 --57:     ADCE0.VCR08.UINT32 = 0x000000D8UL;
+000000be 200ed800        240 	movea	216,zero,r1
+000000c2 80070f0a00e4    241 	st.w	r1,4294049824[zero]
+                         242 --58:     ADCE0.VCR09.UINT32 = 0x000000D9UL;
+000000c8 200ed900        243 	movea	217,zero,r1
+000000cc 80074f0a00e4    244 	st.w	r1,4294049828[zero]
+                         245 --59:     ADCE0.VCR10.UINT32 = 0x000000DAUL;
+000000d2 200eda00        246 	movea	218,zero,r1
+000000d6 80078f0a00e4    247 	st.w	r1,4294049832[zero]
+                         248 --60:     ADCE0.VCR11.UINT32 = 0x000000DBUL;
+000000dc 200edb00        249 	movea	219,zero,r1
+000000e0 8007cf0a00e4    250 	st.w	r1,4294049836[zero]
+                         251 --61:     ADCE0.VCR12.UINT32 = 0x000000DCUL;
+000000e6 200edc00        252 	movea	220,zero,r1
+000000ea 80070f0b00e4    253 	st.w	r1,4294049840[zero]
+                         254 --62:     ADCE0.VCR13.UINT32 = 0x000000DDUL;
+000000f0 200edd00        255 	movea	221,zero,r1
+000000f4 80074f0b00e4    256 	st.w	r1,4294049844[zero]
+                         257 --63:     ADCE0.VCR14.UINT32 = 0x000000DEUL;
+000000fa 200ede00        258 	movea	222,zero,r1
+000000fe 80078f0b00e4    259 	st.w	r1,4294049848[zero]
+                         260 --64:     ADCE0.VCR15.UINT32 = 0x000000DFUL;
+00000104 200edf00        261 	movea	223,zero,r1
+00000108 8007cf0b00e4    262 	st.w	r1,4294049852[zero]
+                         263 --66: 	/* Common control the ADCEn
+                         264 --67:     ADCEnADCR  - A/D Control Register
+                         265 --68:     b31:b 8            - Reserved set to 0
+                         266 --69:     b 7          DGON  - Self-Diagnostic Voltage Standby Control        - The self-diagnostic voltage circuit is
+                         267 --70:                                                                               turned off. Set to 0'b.
+                         268 --71:     b 6                - Reserved set to 0
+                         269 --72:     b 5          CRAC  - Alignment Control                              - The results of conversion to WDDR and
+                         270 --73:                                                                               ADCAnDRj are stored rightaligned.
+                         271 --74:                                                                               Set to 0'b.
+                         272 --75:     b 4          CTYP  - 12/10 Bit Select Mode                          - 12-bit mode. Set to 0'b.
+                         273 --76:     b 3:b 2            - Reserved set to 0
+                         274 --77:     b 1:b 0     SUSMTD - Suspend Mode Select                            - Synchronous suspend when a higher-priority
+                         275 --78:                                                                               SG or SVSTOP interrupt. Set to 0'b. */
+                         276 --79:     ADCE0.ADCR.UINT32 = 0x00000000UL;
+0000010e 80074f0006e4    277 	st.w	zero,4294050564[zero]
+                         278 --80:   
+                         279 --81:     /* Controls the sampling time for SG4 (PWM-Diag) and SG1 to SG3.
+                         280 --82:     ADCEnSMPCR - Sampling Control Register
+                         281 --83:     b31:b 8            - Reserved set to 0
+                         282 --84:     b 7:b 0      SMPT  - These bits are used to set the sampling time
+                         283 --85:                              (the number of cycles).                        - 18 cycles (ADCACLK = 8 MHz to 32 MHz) */
+                         284 --86:     ADCE0.SMPCR.UINT32 = 0x00000012UL;
+00000114 200e1200        285 	movea	18,zero,r1
+00000118 80070f0807e4    286 	st.w	r1,4294050688[zero]
+                         287 --87:     
+                         288 --88:     /* Set safety control.
+                         289 --89:     ADCEnSFTCR - Safety Control Register
+                         290 --90:     b31:b 5            - Reserved set to 0
+                         291 --91:     b 4         RDCLRE - Read & Clear Enable                            - ADCEnPWDDR/ADCAnDRj and ADCEnPWDDIR /
+                         292 --92:                                                                               ADCEnDIRj are not cleared when 
+                         293 --93:                                                                               ADCEnPWDDR/ADCAnDRj or ADCEnPWDDIR / 
+                         294 --94:                                                                               ADCEnDIRj is read. Set to 0'b.
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         295 --95:     b 3          ULEIE - A/D Error Interrupt (INT_ADE) Enable on
+                         296 --96:                              Upper/Lower Limit Error Detection              - Enabled. Set to 1'b.
+                         297 --97:     b 2          OWEIE - A/D Error Interrupt (INT_ADE) Enable on
+                         298 --98:                              Overwrite Error Detection                      - Enabled. Set to 1'b.
+                         299 --99:     b 1:b 0            - Reserved set to 0  */
+                         300 --100:     
+                         301 --101:     ADCE0.SFTCR.UINT32 = 0x0000000CUL;
+0000011e 0c0a            302 	mov	12,r1
+00000120 80074f0b06e4    303 	st.w	r1,4294050612[zero]
+                         304 --102:   
+                         305 --104:     /* Set the upper limit / lower limit error detection threshold.
+                         306 --105:     ADCEnULLMTBR0 - Upper Limit/Lower Limit Table Registers 0
+                         307 --106:     b31:b20      ULMTB    - Upper Limit Table                              - Upper limit = 0FFFH
+                         308 --107:     b19:b16               - Reserved set to 0
+                         309 --108:     b15:b 4      LLMTB    - Lower Limit Table                              - Lower limit = 0800H
+                         310 --109:     b 3:b 0               - Reserved set to 0 */
+                         311 --110:     
+                         312 --111:     ADCE0.ULLMTBR0.UINT32 = 0xFFF08000UL;
+00000126 21060080f0ff    313 	mov	-1015808,r1
+0000012c 80078f0b06e4    314 	st.w	r1,4294050616[zero]
+                         315 --112:     
+                         316 --113:     /* Set A/D conversion trigger (hardware trigger) of SGx
+                         317 --114:     ADCEnSGTSELx - Scan Group x Start Trigger Control Register x
+                         318 --115:     b31:b 9              - Reserved set to 0
+                         319 --116:     b 8          LLMTB   - T1SEL8                                         - Unused. Set to 0'b.
+                         320 --117:     b 7          LLMTB   - T1SEL7                                         - Unused. Set to 0'b.
+                         321 --118:     b 6          LLMTB   - T1SEL6                                         - Unused. Set to 0'b.
+                         322 --119:     b 5          LLMTB   - T1SEL5                                         - Unused. Set to 0'b.
+                         323 --120:     b 4          LLMTB   - T1SEL4                                         - Unused. Set to 0'b.
+                         324 --121:     b 3          LLMTB   - T1SEL3                                         - Unused. Set to 0'b.
+                         325 --122:     b 2          LLMTB   - T1SEL2                                         - Unused. Set to 0'b.
+                         326 --123:     b 1          LLMTB   - T1SEL1                                         - Unused. Set to 0'b.
+                         327 --124:     b 0          LLMTB   - T1SEL0                                         - Unused. Set to 0'b. */
+                         328 --125:     
+                         329 --126:     ADCE0.SGTSEL1.UINT32 = 0x00000000UL;
+00000132 8007cf0508e4    330 	st.w	zero,4294050908[zero]
+                         331 --127:     ADCE0.SGTSEL2.UINT32 = 0x00000000UL;
+00000138 8007cf0109e4    332 	st.w	zero,4294050972[zero]
+                         333 --128:     ADCE0.SGTSEL3.UINT32 = 0x00000000UL;
+0000013e 8007cf0509e4    334 	st.w	zero,4294051036[zero]
+                         335 --130:     /* Set A/D conversion trigger (hardware trigger) of SGx
+                         336 --131:     ADCEnSGCRx - Scan Group x Control Register
+                         337 --132:     b31:b 6            - Reserved set to 0
+                         338 --133:     b 5         SCANMD - Scan Mode                                      - Multicycle scan mode                             wyf
+                         339 --134:     b 4          ADIE  - Scan End Interrupt Enable                      - INT_SGx is output when the scan for
+                         340 --135:                                                                               SGx ends. Set to 1'b.
+                         341 --136:     b 3:b 2      SCT   - Channel Repeat Times Select                    - The selected number of channel repeat
+                         342 --137:                                                                               times is one. Set to 00'b.
+                         343 --138:     b 1                - Reserved set to 0
+                         344 --139:     b 0          TRGMD - Trigger Mode                                   - SGx_TRG start trigger or hold complete
+                         345 --140:                                                                               trigger A/B is selected for the trigger*/
+                         346 --141:                                                                               
+                         347 --142:    ADCE0.SGCR1.UINT32 = 0x00000000UL;
+00000144 80078f0408e4    348 	st.w	zero,4294050888[zero]
+                         349 --143:    ADCE0.SGCR2.UINT32 = 0x00000000UL;
+0000014a 80078f0009e4    350 	st.w	zero,4294050952[zero]
+                         351 --144:    ADCE0.SGCR3.UINT32 = 0x00000000UL;
+00000150 80078f0409e4    352 	st.w	zero,4294051016[zero]
+                         353 --146:     /* Set the start pointer of the virtual channel
+                         354 --147:     ADCEnSGVCSPx - Scan Group x Start Virtual Channel Pointer
+                         355 --148:     b31:b 6              - Reserved set to 0
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         356 --149:     b 5:b 0      VCSP    - Start Virtual Channel Pointer                  - set ADCA0VCR00      */
+                         357 --150:     
+                         358 --151:     ADCE0.SGVCSP1.UINT32 = 0x00000000UL;
+00000156 8007cf0408e4    359 	st.w	zero,4294050892[zero]
+                         360 --152:     ADCE0.SGVCSP2.UINT32 = 0x00000000UL;                                   /*多通道选择开始通道*/
+0000015c 8007cf0009e4    361 	st.w	zero,4294050956[zero]
+                         362 --153:     ADCE0.SGVCSP3.UINT32 = 0x00000000UL;
+00000162 8007cf0409e4    363 	st.w	zero,4294051020[zero]
+                         364 --154:    
+                         365 --155:     /* Set the end pointer of the virtual channel
+                         366 --156:     ADCEnSGVCEPx - Scan Group x End Virtual Channel Pointer
+                         367 --157:     b31:b 6              - Reserved set to 0
+                         368 --158:     b 5:b 0      VCEP    - End Virtual Channel Pointer                    - set ADCA0VCR0F      */
+                         369 --159:     
+                         370 --160:     ADCE0.SGVCEP1.UINT32 = 0x0000000FUL;
+00000168 0f0a            371 	mov	15,r1
+0000016a 80070f0d08e4    372 	st.w	r1,4294050896[zero]
+                         373 --161:     ADCE0.SGVCEP2.UINT32 = 0x00000001UL;									/*多通道选择结束通道*/
+00000170 010a            374 	mov	1,r1
+00000172 80070f0909e4    375 	st.w	r1,4294050960[zero]
+                         376 --162:     ADCE0.SGVCEP3.UINT32 = 0x00000002UL;
+00000178 020a            377 	mov	2,r1
+0000017a 80070f0d09e4    378 	st.w	r1,4294051024[zero]
+                         379 --163:    
+                         380 --164:     /* Set the scan number of times in the scan mode for a multi-cycle
+                         381 --165:     ADCEnSGMCYCRx - Scan Group x Multicycle Register
+                         382 --166:     b31:b 2               - Reserved set to 0
+                         383 --167:     b 1:b 0      MCYC     - Multicycle Number Specification                - Number of scans = 1 */
+                         384 --168:     
+                         385 --169:     ADCE0.SGMCYCR1.UINT32 = 0x00000000UL;
+00000180 80074f0508e4    386 	st.w	zero,4294050900[zero]
+                         387 --170:     ADCE0.SGMCYCR2.UINT32 = 0x00000000UL;
+00000186 80074f0109e4    388 	st.w	zero,4294050964[zero]
+                         389 --171:     ADCE0.SGMCYCR3.UINT32 = 0x00000000UL;
+0000018c 80074f0509e4    390 	st.w	zero,4294051028[zero]
+                         391 --173:     ADCE0.ADHALTR.UINT32 = 0x00000001UL;	
+00000192 010a            392 	mov	1,r1
+00000194 80070f0806e4    393 	st.w	r1,4294050560[zero]
+                         394 --174:     
+                         395 --175:     adce_InitStatus = TRUE;
+0000019a 2b0600000000*   396 	mov	_adce_InitStatus,r11
+000001a0 010a            397 	mov	1,r1
+000001a2 4b0f0000        398 	st.b	r1,0[r11]
+                         399 --176: }
+000001a6 0000            400 	nop
+                         401 --	    .ef
+                         402 .LDW11:
+000001a8 7f00            403 	jmp	[lp]
+                         404 	.type	_ADCE_Init,@function
+                         405 	.size	_ADCE_Init,.-_ADCE_Init
+                         406 	.align	2
+                         407 .LDW21:
+                         408 
+                         409 	.section ".bss","awb"
+                         410 .L126:
+                         411 	.type	.L126,@object
+                         412 	.size	.L126,0
+                         413 	.global	_adce_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.
+                         414 _adce_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.:
+                         415 	.type	_adce_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.,@object
+                         416 	.size	_adce_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.,1
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+00000000 00              417 _adce_InitStatus:	.space	1
+                         418 	.type	_adce_InitStatus,@object
+                         419 	.size	_adce_InitStatus,1
+                         420 	.data
+                         421 	.text
+                         422 
+                         423 
+                         424 --178: /***************************************************
+                         425 --179: * Function: ADCE_GetSingleValue
+                         426 --180: * Description: get single channel of ad Value
+                         427 --181: * Parameters: Channel:ad channel
+                         428 --182: 			  pResult :store the ad value
+                         429 --183: * Returns: FAIL/OK/INVALID
+                         430 --184: * $Create & Verlog:$
+                         431 --185: * Author: Xiaojie.Zheng   Date:2016-12-14   Version:V1.0
+                         432 --186: ****************************************************/
+                         433 --187: U8 ADCE_GetSingleValue(AdceChannel_ENUM Channel, PU16 pResult)
+                         434 	.align	2
+                         435 	.align	2
+                         436 	.global	_ADCE_GetSingleValue
+                         437 _ADCE_GetSingleValue:
+000001aa 0670            438 	mov	r6,r14
+000001ac 07f0            439 	mov	r7,ep
+                         440 --	    .bf
+                         441 .LDW31:
+                         442 --188: { 
+                         443 --189:     U8 adce_res = RET_OK;
+000001ae 010a            444 	mov	1,r1
+                         445 --190:     
+                         446 --191:     if (FALSE == adce_InitStatus)
+000001b0 2d0600000000*   447 	mov	_adce_InitStatus,r13
+000001b6 8d6f0100        448 	ld.bu	0[r13],r13
+000001ba e069            449 	cmp	zero,r13
+000001bc ca05*           450 	bne	.L293
+                         451 --192:     {
+                         452 --193:         adce_res = RET_FAIL;
+                         453 --line193
+                         454 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.4::
+                         455 .LDWlin4:
+000001be 000a            456 	mov	0,r1
+000001c0 80071201*       457 	br	.L295
+                         458 .L293:
+                         459 --194:     }
+                         460 --195:     else
+                         461 --196:     {
+                         462 --197:         if ((NULL_PTR == pResult) || (INDEX_ADCE_CH_ALL == Channel))
+                         463 --line197
+                         464 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.5::
+                         465 .LDWlin5:
+000001c4 e0f1            466 	cmp	zero,ep
+000001c6 c205*           467 	be	.L297
+000001c8 0e06f0ff        468 	addi	-16,r14,zero
+000001cc ca05*           469 	bne	.L296
+                         470 .L297:
+                         471 --198:         {
+                         472 --199:            adce_res = RET_INVALID;
+                         473 --line199
+                         474 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.6::
+                         475 .LDWlin6:
+000001ce 020a            476 	mov	2,r1
+000001d0 80070201*       477 	br	.L295
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         478 .L296:
+                         479 --200:         }
+                         480 --201:         else
+                         481 --202:         {
+                         482 --203:             while((ADCE0.SGSTR.UINT32 & 0x00000200) != 0); 
+                         483 --line203
+                         484 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.7::
+                         485 .LDWlin7:
+000001d4 0000            486 	nop
+                         487 .L300:
+000001d6 8007896806e4    488 	ld.w	4294050568[zero],r13
+000001dc 8a6a            489 	shr	10,r13
+000001de c1fd*           490 	bl	.L300
+                         491 --204:             switch (Channel)
+                         492 --line204
+                         493 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.8::
+                         494 .LDWlin8:
+000001e0 6f72            495 	cmp	15,r14
+000001e2 eb75*           496 	bh	.L321
+000001e4 0e60            497 	mov	r14,r12
+000001e6 c262            498 	shl	2,r12
+000001e8 ec0600000000*   499 	jmp	.L431[r12]
+                         500 .L431:
+000001ee 80074000*       501 	jr	.L305
+000001f2 80074600*       502 	jr	.L306
+000001f6 80074c00*       503 	jr	.L307
+000001fa 80075200*       504 	jr	.L308
+000001fe 80075800*       505 	jr	.L309
+00000202 80075e00*       506 	jr	.L310
+00000206 80076400*       507 	jr	.L311
+0000020a 80076a00*       508 	jr	.L312
+0000020e 80077000*       509 	jr	.L313
+00000212 80077600*       510 	jr	.L314
+00000216 80077c00*       511 	jr	.L315
+0000021a 80078200*       512 	jr	.L316
+0000021e 80078800*       513 	jr	.L317
+00000222 80078e00*       514 	jr	.L318
+00000226 80079400*       515 	jr	.L319
+0000022a 80079a00*       516 	jr	.L320
+                         517 .L305:
+                         518 --205:             {
+                         519 --206:                 case INDEX_ADCE_CH0:
+                         520 --207:                     *pResult = ADCE0.DIR00.UINT32;
+                         521 --line207
+                         522 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.9::
+                         523 .LDWlin9:
+0000022e 8007096804e4    524 	ld.w	4294050304[zero],r13
+00000234 806c            525 	sst.h	r13,0[ep]
+00000236 e54d*           526 	br	.L295
+                         527 .L306:
+                         528 --208:                     break;
+                         529 --209:                 case INDEX_ADCE_CH1:
+                         530 --210:                     *pResult = ADCE0.DIR01.UINT32;
+                         531 --line210
+                         532 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.10::
+                         533 .LDWlin10:
+00000238 8007496804e4    534 	ld.w	4294050308[zero],r13
+0000023e 806c            535 	sst.h	r13,0[ep]
+00000240 954d*           536 	br	.L295
+                         537 .L307:
+                         538 --211:                     break;			
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         539 --212:                 case INDEX_ADCE_CH2:
+                         540 --213:                     *pResult = ADCE0.DIR02.UINT32;
+                         541 --line213
+                         542 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.11::
+                         543 .LDWlin11:
+00000242 8007896804e4    544 	ld.w	4294050312[zero],r13
+00000248 806c            545 	sst.h	r13,0[ep]
+0000024a c545*           546 	br	.L295
+                         547 .L308:
+                         548 --214:                     break;
+                         549 --215:                 case INDEX_ADCE_CH3:
+                         550 --216:                     *pResult = ADCE0.DIR03.UINT32;
+                         551 --line216
+                         552 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.12::
+                         553 .LDWlin12:
+0000024c 8007c96804e4    554 	ld.w	4294050316[zero],r13
+00000252 806c            555 	sst.h	r13,0[ep]
+00000254 f53d*           556 	br	.L295
+                         557 .L309:
+                         558 --217:                     break;
+                         559 --218:                 case INDEX_ADCE_CH4:
+                         560 --219:                     *pResult = ADCE0.DIR04.UINT32;	
+                         561 --line219
+                         562 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.13::
+                         563 .LDWlin13:
+00000256 8007096904e4    564 	ld.w	4294050320[zero],r13
+0000025c 806c            565 	sst.h	r13,0[ep]
+0000025e a53d*           566 	br	.L295
+                         567 .L310:
+                         568 --220:                     break;
+                         569 --221:                 case INDEX_ADCE_CH5:
+                         570 --222:                     *pResult = ADCE0.DIR05.UINT32;
+                         571 --line222
+                         572 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.14::
+                         573 .LDWlin14:
+00000260 8007496904e4    574 	ld.w	4294050324[zero],r13
+00000266 806c            575 	sst.h	r13,0[ep]
+00000268 d535*           576 	br	.L295
+                         577 .L311:
+                         578 --223:                     break;
+                         579 --224:                 case INDEX_ADCE_CH6:
+                         580 --225:                     *pResult = ADCE0.DIR06.UINT32;	
+                         581 --line225
+                         582 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.15::
+                         583 .LDWlin15:
+0000026a 8007896904e4    584 	ld.w	4294050328[zero],r13
+00000270 806c            585 	sst.h	r13,0[ep]
+00000272 8535*           586 	br	.L295
+                         587 .L312:
+                         588 --226:                     break;
+                         589 --227:                 case INDEX_ADCE_CH7:
+                         590 --228:                     *pResult = ADCE0.DIR07.UINT32;
+                         591 --line228
+                         592 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.16::
+                         593 .LDWlin16:
+00000274 8007c96904e4    594 	ld.w	4294050332[zero],r13
+0000027a 806c            595 	sst.h	r13,0[ep]
+0000027c b52d*           596 	br	.L295
+                         597 .L313:
+                         598 --229:                     break;
+                         599 --230:                 case INDEX_ADCE_CH8:
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         600 --231:                     *pResult = ADCE0.DIR08.UINT32;
+                         601 --line231
+                         602 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.17::
+                         603 .LDWlin17:
+0000027e 8007096a04e4    604 	ld.w	4294050336[zero],r13
+00000284 806c            605 	sst.h	r13,0[ep]
+00000286 e525*           606 	br	.L295
+                         607 .L314:
+                         608 --232:                     break;
+                         609 --233:                 case INDEX_ADCE_CH9:
+                         610 --234:                     *pResult = ADCE0.DIR09.UINT32;
+                         611 --line234
+                         612 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.18::
+                         613 .LDWlin18:
+00000288 8007496a04e4    614 	ld.w	4294050340[zero],r13
+0000028e 806c            615 	sst.h	r13,0[ep]
+00000290 9525*           616 	br	.L295
+                         617 .L315:
+                         618 --235:                     break;
+                         619 --236:                 case INDEX_ADCE_CH10:
+                         620 --237:                     *pResult = ADCE0.DIR10.UINT32;
+                         621 --line237
+                         622 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.19::
+                         623 .LDWlin19:
+00000292 8007896a04e4    624 	ld.w	4294050344[zero],r13
+00000298 806c            625 	sst.h	r13,0[ep]
+0000029a c51d*           626 	br	.L295
+                         627 .L316:
+                         628 --238:                     break;
+                         629 --239:                 case INDEX_ADCE_CH11:
+                         630 --240:                     *pResult = ADCE0.DIR11.UINT32;
+                         631 --line240
+                         632 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.20::
+                         633 .LDWlin20:
+0000029c 8007c96a04e4    634 	ld.w	4294050348[zero],r13
+000002a2 806c            635 	sst.h	r13,0[ep]
+000002a4 f515*           636 	br	.L295
+                         637 .L317:
+                         638 --241:                     break;
+                         639 --242:                 case INDEX_ADCE_CH12:
+                         640 --243:                     *pResult = ADCE0.DIR12.UINT32;	
+                         641 --line243
+                         642 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.21::
+                         643 .LDWlin21:
+000002a6 8007096b04e4    644 	ld.w	4294050352[zero],r13
+000002ac 806c            645 	sst.h	r13,0[ep]
+000002ae a515*           646 	br	.L295
+                         647 .L318:
+                         648 --244:                     break;
+                         649 --245:                 case INDEX_ADCE_CH13:
+                         650 --246:                     *pResult = ADCE0.DIR13.UINT32;	
+                         651 --line246
+                         652 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.22::
+                         653 .LDWlin22:
+000002b0 8007496b04e4    654 	ld.w	4294050356[zero],r13
+000002b6 806c            655 	sst.h	r13,0[ep]
+000002b8 d50d*           656 	br	.L295
+                         657 .L319:
+                         658 --247:                     break;
+                         659 --248:                 case INDEX_ADCE_CH14:
+                         660 --249:                     *pResult = ADCE0.DIR14.UINT32;
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         661 --line249
+                         662 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.23::
+                         663 .LDWlin23:
+000002ba 8007896b04e4    664 	ld.w	4294050360[zero],r13
+000002c0 806c            665 	sst.h	r13,0[ep]
+000002c2 850d*           666 	br	.L295
+                         667 .L320:
+                         668 --250:                     break;
+                         669 --251:                 case INDEX_ADCE_CH15:
+                         670 --252:                     *pResult = ADCE0.DIR15.UINT32;	
+                         671 --line252
+                         672 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.24::
+                         673 .LDWlin24:
+000002c4 8007c96b04e4    674 	ld.w	4294050364[zero],r13
+000002ca 806c            675 	sst.h	r13,0[ep]
+000002cc b505*           676 	br	.L295
+                         677 .L321:
+                         678 --253:                     break;
+                         679 --254:                 default:
+                         680 --255:                     adce_res = RET_INVALID;
+                         681 --line255
+                         682 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.25::
+                         683 .LDWlin25:
+000002ce 020a            684 	mov	2,r1
+000002d0 0000            685 	nop
+                         686 .L295:
+                         687 --256:                     break;
+                         688 --257:             }
+                         689 --258:         }
+                         690 --259:     }
+                         691 --260: 	return adce_res;
+000002d2 0150            692 	mov	r1,r10
+                         693 --	    .ef
+                         694 .LDW41:
+000002d4 7f00            695 	jmp	[lp]
+                         696 	.type	_ADCE_GetSingleValue,@function
+                         697 	.size	_ADCE_GetSingleValue,.-_ADCE_GetSingleValue
+                         698 	.align	2
+                         699 .LDW51:
+                         700 --_adce_res	r1	local
+                         701 
+                         702 --_Channel	r14	param
+                         703 --_pResult	ep	param
+                         704 
+                         705 	.data
+                         706 	.ghsnote jtable,2097156,.L431,.L431,.L431,16
+                         707 	.text
+                         708 
+                         709 --261: }
+                         710 
+                         711 --263: /***************************************************
+                         712 --264: * Function: ADCE_GetMultiValue
+                         713 --265: * Description: get group of ad value
+                         714 --266: * Parameters: Channel:ad channel
+                         715 --267: 			  pResult :store the ad value
+                         716 --268: * Returns: FAIL/OK/INVALID
+                         717 --269: * $Create & Verlog:$
+                         718 --270: * Author: Xiaojie.Zheng   Date:2016-12-14   Version:V1.0
+                         719 --271: ****************************************************/
+                         720 --272: U8 ADCE_GetMultiValue(AdceGroup_ENUM Group, PU16 pResult)
+                         721 	.align	2
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         722 	.align	2
+                         723 	.global	_ADCE_GetMultiValue
+                         724 _ADCE_GetMultiValue:
+000002d6 0670            725 	mov	r6,r14
+000002d8 07f0            726 	mov	r7,ep
+                         727 --	    .bf
+                         728 .LDW61:
+                         729 --273: { 
+                         730 --274:     U8 adce_res = RET_FAIL;
+000002da 000a            731 	mov	0,r1
+                         732 --275: 	
+                         733 --276:     if (FALSE == adce_InitStatus)
+000002dc 2d0600000000*   734 	mov	_adce_InitStatus,r13
+000002e2 8d6f0100        735 	ld.bu	0[r13],r13
+000002e6 e069            736 	cmp	zero,r13
+000002e8 ca05*           737 	bne	.L577
+                         738 --277:     {
+                         739 --278:     	adce_res = RET_FAIL;
+                         740 --line278
+                         741 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.26::
+                         742 .LDWlin26:
+000002ea 000a            743 	mov	0,r1
+000002ec 80070601*       744 	br	.L579
+                         745 .L577:
+                         746 --279:     }
+                         747 --280:     else
+                         748 --281:     {
+                         749 --282:         if ((NULL_PTR == pResult) || (INDEX_ADCE_GROUP_ALL == Group))
+                         750 --line282
+                         751 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.27::
+                         752 .LDWlin27:
+000002f0 e0f1            753 	cmp	zero,ep
+000002f2 b205*           754 	be	.L581
+000002f4 6372            755 	cmp	3,r14
+000002f6 ba05*           756 	bne	.L580
+                         757 .L581:
+                         758 --283:         {
+                         759 --284:             adce_res = RET_INVALID;
+                         760 --line284
+                         761 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.28::
+                         762 .LDWlin28:
+000002f8 020a            763 	mov	2,r1
+000002fa c57d*           764 	br	.L579
+                         765 .L580:
+                         766 --285:         }
+                         767 --286:         else
+                         768 --287:         {
+                         769 --288:             if (INDEX_ADCE_GROUP1 == Group)
+                         770 --line288
+                         771 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.29::
+                         772 .LDWlin29:
+000002fc e071            773 	cmp	zero,r14
+000002fe ca4d*           774 	bne	.L584
+                         775 --289:             {
+                         776 --290:                 ADCE0.SGSTCR1.UINT32  = 0x00000001UL;
+                         777 --line290
+                         778 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.30::
+                         779 .LDWlin30:
+00000300 016a            780 	mov	1,r13
+00000302 80070f6c08e4    781 	st.w	r13,4294050880[zero]
+                         782 --291:                 while((ADCE0.SGSTR.UINT32 & 0x00000200) != 0);
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+00000308 0000            783 	nop
+                         784 .L586:
+0000030a 8007896806e4    785 	ld.w	4294050568[zero],r13
+00000310 8a6a            786 	shr	10,r13
+00000312 c1fd*           787 	bl	.L586
+                         788 --292:                 pResult[0] = ADCE0.DIR00.UINT32;
+                         789 --line292
+                         790 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.31::
+                         791 .LDWlin31:
+00000314 8007096804e4    792 	ld.w	4294050304[zero],r13
+0000031a 806c            793 	sst.h	r13,0[ep]
+                         794 --293:                 pResult[1] = ADCE0.DIR01.UINT32;
+0000031c 8007496804e4    795 	ld.w	4294050308[zero],r13
+00000322 816c            796 	sst.h	r13,2[ep]
+                         797 --294:                 pResult[2] = ADCE0.DIR02.UINT32;
+00000324 8007896804e4    798 	ld.w	4294050312[zero],r13
+0000032a 826c            799 	sst.h	r13,4[ep]
+                         800 --295:                 pResult[3] = ADCE0.DIR03.UINT32;
+0000032c 8007c96804e4    801 	ld.w	4294050316[zero],r13
+00000332 836c            802 	sst.h	r13,6[ep]
+                         803 --296:                 pResult[4] = ADCE0.DIR04.UINT32;
+00000334 8007096904e4    804 	ld.w	4294050320[zero],r13
+0000033a 846c            805 	sst.h	r13,8[ep]
+                         806 --297:                 pResult[5] = ADCE0.DIR05.UINT32;
+0000033c 8007496904e4    807 	ld.w	4294050324[zero],r13
+00000342 856c            808 	sst.h	r13,10[ep]
+                         809 --298:                 pResult[6] = ADCE0.DIR06.UINT32;
+00000344 8007896904e4    810 	ld.w	4294050328[zero],r13
+0000034a 866c            811 	sst.h	r13,12[ep]
+                         812 --299:                 pResult[7] = ADCE0.DIR07.UINT32;
+0000034c 8007c96904e4    813 	ld.w	4294050332[zero],r13
+00000352 876c            814 	sst.h	r13,14[ep]
+                         815 --300:                 pResult[8] = ADCE0.DIR08.UINT32;
+00000354 8007096a04e4    816 	ld.w	4294050336[zero],r13
+0000035a 886c            817 	sst.h	r13,16[ep]
+                         818 --301:                 pResult[9] = ADCE0.DIR09.UINT32;
+0000035c 8007496a04e4    819 	ld.w	4294050340[zero],r13
+00000362 896c            820 	sst.h	r13,18[ep]
+                         821 --302:                 pResult[10] = ADCE0.DIR10.UINT32;
+00000364 8007896a04e4    822 	ld.w	4294050344[zero],r13
+0000036a 8a6c            823 	sst.h	r13,20[ep]
+                         824 --303:                 pResult[11] = ADCE0.DIR11.UINT32;
+0000036c 8007c96a04e4    825 	ld.w	4294050348[zero],r13
+00000372 8b6c            826 	sst.h	r13,22[ep]
+                         827 --304:                 pResult[12] = ADCE0.DIR12.UINT32;
+00000374 8007096b04e4    828 	ld.w	4294050352[zero],r13
+0000037a 8c6c            829 	sst.h	r13,24[ep]
+                         830 --305:                 pResult[13] = ADCE0.DIR13.UINT32;
+0000037c 8007496b04e4    831 	ld.w	4294050356[zero],r13
+00000382 8d6c            832 	sst.h	r13,26[ep]
+                         833 --306:                 pResult[14] = ADCE0.DIR14.UINT32;
+00000384 8007896b04e4    834 	ld.w	4294050360[zero],r13
+0000038a 8e6c            835 	sst.h	r13,28[ep]
+                         836 --307:                 pResult[15] = ADCE0.DIR15.UINT32;
+0000038c 8007c96b04e4    837 	ld.w	4294050364[zero],r13
+00000392 8f6c            838 	sst.h	r13,30[ep]
+00000394 e52d*           839 	br	.L589
+                         840 .L584:
+                         841 --308:             }
+                         842 --309:             else if (INDEX_ADCE_GROUP2 == Group)
+                         843 --line309
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         844 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.32::
+                         845 .LDWlin32:
+00000396 6172            846 	cmp	1,r14
+00000398 ca15*           847 	bne	.L590
+                         848 --310:             {
+                         849 --311:                 ADCE0.SGSTCR2.UINT32  = 0x00000001UL;
+                         850 --line311
+                         851 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.33::
+                         852 .LDWlin33:
+0000039a 016a            853 	mov	1,r13
+0000039c 80070f6809e4    854 	st.w	r13,4294050944[zero]
+                         855 --312:                 while((ADCE0.SGSTR.UINT32 & 0x00000400) != 0);
+000003a2 0000            856 	nop
+                         857 .L592:
+000003a4 8007896806e4    858 	ld.w	4294050568[zero],r13
+000003aa 8b6a            859 	shr	11,r13
+000003ac c1fd*           860 	bl	.L592
+                         861 --313:                 pResult[0] = ADCE0.DIR00.UINT32;
+                         862 --line313
+                         863 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.34::
+                         864 .LDWlin34:
+000003ae 8007096804e4    865 	ld.w	4294050304[zero],r13
+000003b4 806c            866 	sst.h	r13,0[ep]
+                         867 --314:                 pResult[1] = ADCE0.DIR01.UINT32;
+000003b6 8007496804e4    868 	ld.w	4294050308[zero],r13
+000003bc 816c            869 	sst.h	r13,2[ep]
+000003be 951d*           870 	br	.L589
+                         871 .L590:
+                         872 --315:             }
+                         873 --316:             else if (INDEX_ADCE_GROUP3 == Group)
+                         874 --line316
+                         875 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.35::
+                         876 .LDWlin35:
+000003c0 6272            877 	cmp	2,r14
+000003c2 fa15*           878 	bne	.L589
+                         879 --317:             {
+                         880 --318:                 ADCE0.SGSTCR3.UINT32  = 0x00000001UL;
+                         881 --line318
+                         882 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.36::
+                         883 .LDWlin36:
+000003c4 016a            884 	mov	1,r13
+000003c6 80070f6c09e4    885 	st.w	r13,4294051008[zero]
+                         886 --319:                 while((ADCE0.SGSTR.UINT32 & 0x00000800) != 0);
+000003cc 0000            887 	nop
+                         888 .L598:
+000003ce 8007896806e4    889 	ld.w	4294050568[zero],r13
+000003d4 8c6a            890 	shr	12,r13
+000003d6 c1fd*           891 	bl	.L598
+                         892 --320:                 pResult[0] = ADCE0.DIR00.UINT32;
+                         893 --line320
+                         894 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.37::
+                         895 .LDWlin37:
+000003d8 8007096804e4    896 	ld.w	4294050304[zero],r13
+000003de 806c            897 	sst.h	r13,0[ep]
+                         898 --321:                 pResult[1] = ADCE0.DIR01.UINT32;
+000003e0 8007496804e4    899 	ld.w	4294050308[zero],r13
+000003e6 816c            900 	sst.h	r13,2[ep]
+                         901 --322:                 pResult[2] = ADCE0.DIR02.UINT32;
+000003e8 8007896804e4    902 	ld.w	4294050312[zero],r13
+000003ee 826c            903 	sst.h	r13,4[ep]
+                         904 .L589:
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         905 --323:             }
+                         906 --324:             else
+                         907 --325:             {
+                         908 --326:             /* Do Nothing */
+                         909 --327:             }
+                         910 --328:             adce_res = RET_OK;
+000003f0 010a            911 	mov	1,r1
+                         912 .L579:
+                         913 --329:         }
+                         914 --330:   }
+                         915 --331: 	return adce_res;
+000003f2 0150            916 	mov	r1,r10
+                         917 --	    .ef
+                         918 .LDW71:
+000003f4 7f00            919 	jmp	[lp]
+                         920 	.type	_ADCE_GetMultiValue,@function
+                         921 	.size	_ADCE_GetMultiValue,.-_ADCE_GetMultiValue
+                         922 	.align	2
+                         923 .LDW81:
+                         924 --_adce_res	r1	local
+                         925 
+                         926 --_Group	r14	param
+                         927 --_pResult	ep	param
+                         928 
+                         929 	.data
+                         930 	.text
+                         931 
+                         932 --332: }
+                         933 
+                         934 --334: /***************************************************
+                         935 --335: * Function: ADCE_GetInitStatus
+                         936 --336: * Description: get the ADCE module initialized status
+                         937 --337: * Parameters: none
+                         938 --338: * Returns: adce_InitStatus
+                         939 --339: * $Create & Verlog:$
+                         940 --340: * Author: Xiaojie.Zheng   Date:2016-12-14   Version:V1.0
+                         941 --341: ****************************************************/
+                         942 --342: U8 ADCE_GetInitStatus(void)
+                         943 	.align	2
+                         944 	.align	2
+                         945 	.global	_ADCE_GetInitStatus
+                         946 _ADCE_GetInitStatus:
+                         947 --	    .bf
+                         948 .LDW91:
+                         949 --343: {
+                         950 --344:     return adce_InitStatus;
+000003f6 2a0600000000*   951 	mov	_adce_InitStatus,r10
+000003fc 8a570100        952 	ld.bu	0[r10],r10
+                         953 --	    .ef
+                         954 .LDW02:
+00000400 7f00            955 	jmp	[lp]
+                         956 	.type	_ADCE_GetInitStatus,@function
+                         957 	.size	_ADCE_GetInitStatus,.-_ADCE_GetInitStatus
+                         958 	.align	2
+                         959 .LDW12:
+                         960 
+                         961 	.data
+                         962 	.text
+                         963 
+                         964 --345: }
+                         965 
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                         966 --347: /***************************************************
+                         967 --348: * Function: ADCE_StartConversion
+                         968 --349: * Description: Start ad Conversion
+                         969 --350: * Parameters: none
+                         970 --351: * Returns: FAIL/OK/INVALID
+                         971 --352: * $Create & Verlog:$
+                         972 --353: * Author: Xiaojie.Zheng   Date:2016-12-14   Version:V1.0
+                         973 --354: ****************************************************/
+                         974 --355: U8 ADCE_StartConversion(void)
+                         975 	.align	2
+                         976 	.align	2
+                         977 	.global	_ADCE_StartConversion
+                         978 _ADCE_StartConversion:
+                         979 --	    .bf
+                         980 .LDW22:
+                         981 --356: {	
+                         982 --357:     U8 res = RET_OK;
+00000402 010a            983 	mov	1,r1
+                         984 --358: 	
+                         985 --359:     if (TRUE == adce_InitStatus)
+00000404 2e0600000000*   986 	mov	_adce_InitStatus,r14
+0000040a 8e770100        987 	ld.bu	0[r14],r14
+0000040e 6172            988 	cmp	1,r14
+00000410 ea05*           989 	bne	.L853
+                         990 --360:     {
+                         991 --361:         ADCE0.SGSTCR1.UINT32  = 0x00000001UL;
+                         992 --line361
+                         993 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.38::
+                         994 .LDWlin38:
+00000412 0172            995 	mov	1,r14
+00000414 80070f7408e4    996 	st.w	r14,4294050880[zero]
+0000041a a505*           997 	br	.L855
+                         998 .L853:
+                         999 --362:     }
+                        1000 --363:     else
+                        1001 --364:     {
+                        1002 --365:         res = RET_FAIL;
+                        1003 --line365
+                        1004 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.39::
+                        1005 .LDWlin39:
+0000041c 000a           1006 	mov	0,r1
+                        1007 .L855:
+                        1008 --366:     }
+                        1009 --367: 	
+                        1010 --368:     return res;
+0000041e 0150           1011 	mov	r1,r10
+                        1012 --	    .ef
+                        1013 .LDW32:
+00000420 7f00           1014 	jmp	[lp]
+                        1015 	.type	_ADCE_StartConversion,@function
+                        1016 	.size	_ADCE_StartConversion,.-_ADCE_StartConversion
+                        1017 	.align	2
+                        1018 .LDW42:
+                        1019 --_res	r1	local
+                        1020 
+                        1021 	.data
+                        1022 	.text
+                        1023 
+                        1024 --369: }
+                        1025 
+                        1026 --371: /***************************************************
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                        1027 --372: * Function: ADCE_StopConversion
+                        1028 --373: * Description: Stop ad Conversion
+                        1029 --374: * Parameters: none
+                        1030 --375: * Returns: FAIL/OK/INVALID
+                        1031 --376: * $Create & Verlog:$
+                        1032 --377: * Author: Xiaojie.Zheng   Date:2016-12-14   Version:V1.0
+                        1033 --378: ****************************************************/
+                        1034 --379:  U8 ADCE_StopConversion(void)
+                        1035 	.align	2
+                        1036 	.align	2
+                        1037 	.global	_ADCE_StopConversion
+                        1038 _ADCE_StopConversion:
+                        1039 --	    .bf
+                        1040 .LDW52:
+                        1041 --380: {
+                        1042 --381:     U8 adce_res = RET_FAIL;
+00000422 000a           1043 	mov	0,r1
+                        1044 --382: 	
+                        1045 --383:     if (TRUE == adce_InitStatus)
+00000424 2e0600000000*  1046 	mov	_adce_InitStatus,r14
+0000042a 8e770100       1047 	ld.bu	0[r14],r14
+0000042e 6172           1048 	cmp	1,r14
+00000430 fa05*          1049 	bne	.L905
+                        1050 --384:     {
+                        1051 --385:         ADCE0.ADHALTR.UINT32 = 0x00000001;
+                        1052 --line385
+                        1053 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.40::
+                        1054 .LDWlin40:
+00000432 0172           1055 	mov	1,r14
+00000434 80070f7006e4   1056 	st.w	r14,4294050560[zero]
+                        1057 --386:         adce_res = RET_OK;
+0000043a 010a           1058 	mov	1,r1
+0000043c a505*          1059 	br	.L907
+                        1060 .L905:
+                        1061 --387:     }
+                        1062 --388:     else
+                        1063 --389:     {
+                        1064 --390:         adce_res = RET_FAIL;
+                        1065 --line390
+                        1066 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce.41::
+                        1067 .LDWlin41:
+0000043e 000a           1068 	mov	0,r1
+                        1069 .L907:
+                        1070 --391:     }
+                        1071 --392:     return adce_res;
+00000440 0150           1072 	mov	r1,r10
+                        1073 --	    .ef
+                        1074 .LDW62:
+00000442 7f00           1075 	jmp	[lp]
+                        1076 	.type	_ADCE_StopConversion,@function
+                        1077 	.size	_ADCE_StopConversion,.-_ADCE_StopConversion
+                        1078 	.align	2
+                        1079 .LDW72:
+                        1080 --_adce_res	r1	local
+                        1081 
+                        1082 	.data
+                        1083 	.text
+                        1084 
+                        1085 --393: }
+                        1086 	.align	2
+                        1087 --_adce_InitStatus	_adce_InitStatus	static
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008281.si
+                        1088 
+                        1089 	.data
+                        1090 	.ghsnote version,14
+                        1091 	.ghsnote tools,3
+                        1092 	.ghsnote options,144
+                        1093 	.text
+                        1094 	.align	2
+                        1095 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cadce...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740368..0::
+                        1096 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

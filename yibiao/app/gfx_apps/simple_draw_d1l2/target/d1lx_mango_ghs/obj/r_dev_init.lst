@@ -1,0 +1,1428 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_dev_init.dbo -source=r_dev_init.c -o .\obj\gh_00008t01.o -list=.\obj\r_dev_init.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+Source File: r_dev_init.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c ..\..\..\..\..\device\d1x_common\src\dev\r_dev_init.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         112 --		-o .\obj\r_dev_init.o
+                         113 --Source File:   ..\..\..\..\..\device\d1x_common\src\dev\r_dev_init.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:48 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2: ****************************************************************************
+                         126 --3: PROJECT : device driver for V-Lib
+                         127 --4: FILE    : $Id: r_dev_init.c 7402 2016-01-27 15:43:39Z florian.zimmermann $
+                         128 --5: ============================================================================
+                         129 --6: DESCRIPTION
+                         130 --7: r7f701412 interrupt service routines
+                         131 --8: ============================================================================
+                         132 --9:                             C O P Y R I G H T
+                         133 --10: ============================================================================
+                         134 --11:                        Copyright (c) 2013 - 2014
+                         135 --12:                                   by 
+                         136 --13:                        Renesas Electronics (Europe) GmbH.
+                         137 --14:                            Arcadiastrasse 10
+                         138 --15:                           D-40472 Duesseldorf
+                         139 --16:                                Germany
+                         140 --17:                           All rights reserved.
+                         141 --18: ============================================================================
+                         142 --19: Purpose: only for testing, not for mass production
+                         143 --21: DISCLAIMER
+                         144 --23: LICENSEE has read, understood and accepted the terms and conditions defined in
+                         145 --24: the license agreement, especially the usage rights. In any case, it is
+                         146 --25: LICENSEE's responsibility to make sure that any user of the software complies
+                         147 --26: with the terms and conditions of the signed license agreement.
+                         148 --28: SAMPLE CODE is not part of the licensed software, as such it must not be used in
+                         149 --29: mass-production applications. It can only be used for evaluation and
+                         150 --30: demonstration purposes at customer's premises listed in the signed license
+                         151 --31: agreement.
+                         152 --33: ****************************************************************************
+                         153 --34: */
+                         154 --37: /*******************************************************************************
+                         155 --38:   Title: device general (error handling, init/prepare) functions
+                         156 --40:   
+                         157 --41: */
+                         158 --43: /*******************************************************************************
+                         159 --44:   Section: Includes
+                         160 --45: */
+                         161 --47: #include "r_typedefs.h"
+                         162 --48: #include "r_dev_api.h"
+                         163 --50: #ifdef R_DBG_PRINT_MSG
+                         164 --51:    #include <stdio.h> 
+                         165 --52:    #include "r_dbg_api.h"
+                         166 --53: #endif
+                         167 --55: /*******************************************************************************
+                         168 --56:   Section: Local types 
+                         169 --57: */
+                         170 --59: typedef struct 
+                         171 --60: {
+                         172 --61:     r_dev_IntSel_t IntIc; 
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         173 --62:     uint8_t        Prio; 
+                         174 --63: } loc_IntCtrl_t;  
+                         175 --65: /*******************************************************************************
+                         176 --66:   Section: Local Constants 
+                         177 --67: */
+                         178 --69: /*******************************************************************************
+                         179 --70:   Constant: LOC_FCCTL0
+                         180 --71:   
+                         181 --72:   Addrees of the flash cache configuration register 
+                         182 --73: */
+                         183 --75: #define LOC_FCCTL0              0xffff6480u
+                         184 --77: /*******************************************************************************
+                         185 --78:   Constant: LOC_APFSGDPROT_INTC2
+                         186 --79:   
+                         187 --80:   Addresses of the APB Guard registers for the INTC and DMA   
+                         188 --81: */
+                         189 --82: #define LOC_APFSGDPROT_INTC2    0xFFC4C000u
+                         190 --83: #define LOC_APFSGDPROT_PDMA     0xFFC4C004u
+                         191 --85: /*******************************************************************************
+                         192 --86:   Constant: LOC_APFSGDPROT_INTC2
+                         193 --87:   
+                         194 --88:   Addresses of the PEG registers needed to enable RAM access for AXI Bus masters   
+                         195 --89: */
+                         196 --91: #define LOC_REG_PEGSP		    0XFFFEE60CUL
+                         197 --92: #define LOC_REG_PEGG0MK         0XFFFEE680UL
+                         198 --93: #define LOC_REG_PEGG0BA		    0XFFFEE684UL
+                         199 --96: /*******************************************************************************
+                         200 --97:   Constant: loc_IntCtrl
+                         201 --98:   
+                         202 --99:   Priority setting for all implemented/used/required interrupts  
+                         203 --100: */
+                         204 --101: static const loc_IntCtrl_t loc_IntCtrl[] = 
+                         205 --102: {
+                         206 --103:  /*  Index/name         Set Prio      */
+                         207 --104:  {R_DEV_INT_P1         , 7      },
+                         208 --105:  {R_DEV_INT_P2         , 7      },
+                         209 --106:  {R_DEV_INT_P3         , 7      },
+                         210 --107:  {R_DEV_INT_P4         , 7      },
+                         211 --108:  {R_DEV_INT_P5         , 7      },
+                         212 --109:  {R_DEV_INT_P6         , 7      },
+                         213 --110:  {R_DEV_INT_P7         , 7      },
+                         214 --111:  {R_DEV_INT_P8         , 7      },
+                         215 --112:  {R_DEV_INT_P9         , 7      },
+                         216 --113:  {R_DEV_INT_P10        , 7      },
+                         217 --114:  {R_DEV_INT_OSTM0      , 1      },
+                         218 --115:  {R_DEV_INT_TAUJ0I0    , 2      },
+                         219 --116:  {R_DEV_INT_TAUJ0I1    , 2      },
+                         220 --117:  {R_DEV_INT_TAUJ0I2    , 2      },
+                         221 --118:  {R_DEV_INT_TAUJ0I3    , 2      },
+                         222 --119:  {R_DEV_INT_DAVEHD0PAUSE , 2      },
+                         223 --120:  {R_DEV_INT_DAVEHD0SYNC  , 2      },
+                         224 --121:  {R_DEV_INT_DAVEHD0SP    , 2      },
+                         225 --123: {R_DEV_INT_VDCE0ERR            ,2},
+                         226 --124: {R_DEV_INT_VDCE0GR3VBLANK      ,2},
+                         227 --125: {R_DEV_INT_VDCE0S0VIVSYNC      ,2},
+                         228 --126: {R_DEV_INT_VDCE0S0LOVSYNC      ,2},
+                         229 --127: {R_DEV_INT_VDCE0GR3VLINE       ,2},
+                         230 --128: {R_DEV_INT_VDCE0S0VFIELD       ,2},
+                         231 --129: {R_DEV_INT_VDCE0S0WLINE        ,2},
+                         232 --130: {R_DEV_INT_VDCE0S1LOVSYNC      ,2},
+                         233 --131: {R_DEV_INT_VDCE0S1WLINE        ,2},
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         234 --132: {R_DEV_INT_VDCE0OIRVIVSYNC     ,2},
+                         235 --133: {R_DEV_INT_VDCE0OIRLOVSYNC     ,2},
+                         236 --134: {R_DEV_INT_VDCE0IRVLINE        ,2},
+                         237 --135: {R_DEV_INT_VDCE0IRWLINE        ,2},
+                         238 --137: {R_DEV_INT_VDCE1ERR            ,2},
+                         239 --138: {R_DEV_INT_VDCE1GR3VBLANK      ,2},
+                         240 --139: {R_DEV_INT_VDCE1S0VIVSYNC      ,2},
+                         241 --140: {R_DEV_INT_VDCE1S0LOVSYNC      ,2},
+                         242 --141: {R_DEV_INT_VDCE1GR3VLINE       ,2},
+                         243 --142: {R_DEV_INT_VDCE1S0VFIELD       ,2},
+                         244 --143: {R_DEV_INT_VDCE1S0WLINE        ,2},
+                         245 --144: {R_DEV_INT_VDCE1S1LOVSYNC      ,2},
+                         246 --145: {R_DEV_INT_VDCE1S1WLINE        ,2},
+                         247 --146:  {R_DEV_INT_IMRD0    , 2      }, 
+                         248 --147: /* delimiter, do not remove !!! */
+                         249 --148:  {R_DEV_INT_LAST       , 7      }
+                         250 --149: };
+                         251 --152: /*******************************************************************************
+                         252 --153:   Constant: loc_DevName
+                         253 --154:   
+                         254 --155:   Human readable device Names   
+                         255 --156: */
+                         256 --157: static const char *loc_DevName[] = 
+                         257 --158: {
+                         258 --159:     "CAN-FD Unknown device",
+                         259 --160:     "CAN-FD D1L1",         
+                         260 --161:     "CAN-FD D1L2",         
+                         261 --162:     "CAN-FD D1L2H",        
+                         262 --163:     "CAN-FD D1M1_3.75M",   
+                         263 --164:     "CAN-FD D1M1_5M",      
+                         264 --165:     "CAN-FD D1M1H_3.75M",  
+                         265 --166:     "CAN-FD D1M1H_5M",     
+                         266 --167:     "CAN-FD D1M2_3.75M",   
+                         267 --168:     "CAN-FD R7F701409",    
+                         268 --169:     "CAN-FD D1M2_5M",      
+                         269 --170:     "CAN-FD D1M2H_3.75M",  
+                         270 --171:     "CAN-FD D1M2H_5M"           
+                         271 --172: };                  
+                         272 --174: /*******************************************************************************
+                         273 --175:   Section: Local Variables
+                         274 --176: */
+                         275 --178: /*******************************************************************************
+                         276 --179:   Variable: loc_DevHasCanFD
+                         277 --181:   in case the device has CAH-FD (instead of a standard can, this flag is setting
+                         278 --182:    
+                         279 --183: */
+                         280 --185: static uint32_t loc_DevHasCanFD = 0; 
+                         281 --187: /*******************************************************************************
+                         282 --188:   Variable: loc_ErrorHandler
+                         283 --190:   A function pointer to a user callback (Applications error handler)  
+                         284 --191:   
+                         285 --192:   The value is assigned by the application using the driver 
+                         286 --193: */
+                         287 --195: static void (*loc_ErrorHandler )(uint32_t Unit, uint32_t Error) = 0;
+                         288 --197: /*******************************************************************************
+                         289 --198:   Section: Local functions
+                         290 --199: */
+                         291 --201: /*******************************************************************************
+                         292 --202:   Function: R_DEV_ErrorHandler
+                         293 --203:   
+                         294 --204:   see <r_dev_api.h> 
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         295 --205: */
+                         296 --207: void R_DEV_ErrorHandler(uint32_t Unit, uint32_t Error) 
+                         297 	.text
+                         298 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74037C..0::
+                         299 	.align	2
+                         300 	.global	_R_DEV_ErrorHandler
+                         301 _R_DEV_ErrorHandler:
+00000000 8007e170        302 	prepare	{r25,r26,r27,r28,r29,r31},0
+00000004 3d0600000000*   303 	mov	.L32,r29
+0000000a 06e0            304 	mov	r6,r28
+0000000c 07d8            305 	mov	r7,r27
+0000000e 3dd60400        306 	movea	4,r29,r26
+                         307 --	    .bf
+                         308 .LDW01:
+                         309 --208: {
+                         310 --209:     if (loc_ErrorHandler != 0) 
+00000012 3d0f0500        311 	ld.w	4[r29],r1
+00000016 e009            312 	cmp	zero,r1
+00000018 820d*           313 	be	.L4
+                         314 --210:     {      
+                         315 --211:         /* we've got a registered error handler here ...*/
+                         316 --212:         loc_ErrorHandler(Unit, Error);      
+                         317 --line212
+                         318 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.1::
+                         319 .LDWlin1:
+0000001a 3dcf0500        320 	ld.w	4[r29],r25
+0000001e 1c30            321 	mov	r28,r6
+00000020 1b38            322 	mov	r27,r7
+00000022 f9c760f9        323 	jarl	[r25],lp
+00000026 b505*           324 	br	.L6
+                         325 .L4:
+                         326 --213:     } 
+                         327 --214:     else 
+                         328 --215:     {
+                         329 --216:         for (;;) 
+                         330 --line216
+                         331 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.2::
+                         332 .LDWlin2:
+00000028 0000            333 	nop
+                         334 .L9:
+                         335 --217:         {                          /* we don't have a handler */
+0000002a 8505*           336 	br	.L9
+                         337 .L6:
+                         338 --218:         }                          /* so, let's wait here */
+                         339 --219:     }
+                         340 --220: }
+                         341 --line220
+                         342 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.3::
+                         343 .LDWlin3:
+0000002c 0000            344 	nop
+                         345 --	    .ef
+                         346 .LDW11:
+0000002e 4006ff70        347 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         348 	.type	_R_DEV_ErrorHandler,@function
+                         349 	.size	_R_DEV_ErrorHandler,.-_R_DEV_ErrorHandler
+                         350 	.align	2
+                         351 .LDW21:
+                         352 
+                         353 --_Unit	r28	param
+                         354 --_Error	r27	param
+                         355 
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         356 	.data
+                         357 	.align	4
+                         358 .L32:
+                         359 	.type	.L32,@object
+                         360 	.size	.L32,0
+                         361 	.global	_loc_DevHasCanFD..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.
+                         362 _loc_DevHasCanFD..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.:
+                         363 	.type	_loc_DevHasCanFD..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.,@object
+                         364 	.size	_loc_DevHasCanFD..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.,4
+00000000 00000000        365 _loc_DevHasCanFD:	.byte	0,0,0,0
+                         366 	.type	_loc_DevHasCanFD,@object
+                         367 	.size	_loc_DevHasCanFD,4
+                         368 	.global	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.
+                         369 _loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.:
+                         370 	.type	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.,@object
+                         371 	.size	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.,4
+00000004 00000000        372 _loc_ErrorHandler:	.byte	0,0,0,0
+                         373 	.type	_loc_ErrorHandler,@object
+                         374 	.size	_loc_ErrorHandler,4
+                         375 	.section ".rodata","a"
+                         376 	.align	4
+                         377 .L42:--	"CAN-FD D1M1H_5M"
+00000000 43414e2d        378 	.byte	67,65,78,45
+00000004 46442044        379 	.byte	70,68,32,68
+00000008 314d3148        380 	.byte	49,77,49,72
+0000000c 5f354d00        381 	.byte	95,53,77,0
+                         382 	.type	.L42,@object
+                         383 	.size	.L42,16
+                         384 .L43:--	"CAN-FD D1M2H_5M"
+00000010 43414e2d        385 	.byte	67,65,78,45
+00000014 46442044        386 	.byte	70,68,32,68
+00000018 314d3248        387 	.byte	49,77,50,72
+0000001c 5f354d00        388 	.byte	95,53,77,0
+                         389 	.type	.L43,@object
+                         390 	.size	.L43,16
+                         391 	.data
+                         392 	.global	_loc_DevName..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.
+                         393 _loc_DevName..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.:
+                         394 	.type	_loc_DevName..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.,@object
+                         395 	.size	_loc_DevName..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.,52
+00000008 00000000*       396 _loc_DevName:	.word	.L46
+0000000c 00000000*       397 	.word	.L44
+00000010 00000000*       398 	.word	.L45
+00000014 00000000*       399 	.word	.L49
+00000018 00000000*       400 	.word	.L47
+0000001c 00000000*       401 	.word	.L50
+00000020 00000000*       402 	.word	.L51
+00000024 00000000*       403 	.word	.L42
+00000028 00000000*       404 	.word	.L48
+0000002c 00000000*       405 	.word	.L52
+00000030 00000000*       406 	.word	.L53
+00000034 00000000*       407 	.word	.L54
+00000038 00000000*       408 	.word	.L43
+                         409 	.type	_loc_DevName,@object
+                         410 	.size	_loc_DevName,52
+                         411 	.section ".rodata","a"
+                         412 .L44:--	"CAN-FD D1L1"
+00000020 43414e2d        413 	.byte	67,65,78,45
+00000024 46442044        414 	.byte	70,68,32,68
+00000028 314c3100        415 	.byte	49,76,49,0
+                         416 	.type	.L44,@object
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         417 	.size	.L44,12
+                         418 .L45:--	"CAN-FD D1L2"
+0000002c 43414e2d        419 	.byte	67,65,78,45
+00000030 46442044        420 	.byte	70,68,32,68
+00000034 314c3200        421 	.byte	49,76,50,0
+                         422 	.type	.L45,@object
+                         423 	.size	.L45,12
+                         424 .L46:--	"CAN-FD Unknown device"
+00000038 43414e2d        425 	.byte	67,65,78,45
+0000003c 46442055        426 	.byte	70,68,32,85
+00000040 6e6b6e6f        427 	.byte	110,107,110,111
+00000044 776e2064        428 	.byte	119,110,32,100
+00000048 65766963        429 	.byte	101,118,105,99
+0000004c 6500            430 	.byte	101,0
+                         431 	.type	.L46,@object
+                         432 	.size	.L46,22
+                         433 .L47:--	"CAN-FD D1M1_3.75M"
+0000004e 43414e2d        434 	.byte	67,65,78,45
+00000052 46442044        435 	.byte	70,68,32,68
+00000056 314d315f        436 	.byte	49,77,49,95
+0000005a 332e3735        437 	.byte	51,46,55,53
+0000005e 4d00            438 	.byte	77,0
+                         439 	.type	.L47,@object
+                         440 	.size	.L47,18
+                         441 .L48:--	"CAN-FD D1M2_3.75M"
+00000060 43414e2d        442 	.byte	67,65,78,45
+00000064 46442044        443 	.byte	70,68,32,68
+00000068 314d325f        444 	.byte	49,77,50,95
+0000006c 332e3735        445 	.byte	51,46,55,53
+00000070 4d00            446 	.byte	77,0
+                         447 	.type	.L48,@object
+                         448 	.size	.L48,18
+                         449 .L49:--	"CAN-FD D1L2H"
+00000072 43414e2d        450 	.byte	67,65,78,45
+00000076 46442044        451 	.byte	70,68,32,68
+0000007a 314c3248        452 	.byte	49,76,50,72
+0000007e 00              453 	.byte	0
+                         454 	.type	.L49,@object
+                         455 	.size	.L49,13
+                         456 .L50:--	"CAN-FD D1M1_5M"
+0000007f 43414e2d        457 	.byte	67,65,78,45
+00000083 46442044        458 	.byte	70,68,32,68
+00000087 314d315f        459 	.byte	49,77,49,95
+0000008b 354d            460 	.byte	53,77
+0000008d 00              461 	.byte	0
+                         462 	.type	.L50,@object
+                         463 	.size	.L50,15
+                         464 .L51:--	"CAN-FD D1M1H_3.75M"
+0000008e 43414e2d        465 	.byte	67,65,78,45
+00000092 46442044        466 	.byte	70,68,32,68
+00000096 314d3148        467 	.byte	49,77,49,72
+0000009a 5f332e37        468 	.byte	95,51,46,55
+0000009e 354d            469 	.byte	53,77
+000000a0 00              470 	.byte	0
+                         471 	.type	.L51,@object
+                         472 	.size	.L51,19
+                         473 .L52:--	"CAN-FD R7F701409"
+000000a1 43414e2d        474 	.byte	67,65,78,45
+000000a5 46442052        475 	.byte	70,68,32,82
+000000a9 37463730        476 	.byte	55,70,55,48
+000000ad 31343039        477 	.byte	49,52,48,57
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+000000b1 00              478 	.byte	0
+                         479 	.type	.L52,@object
+                         480 	.size	.L52,17
+                         481 .L53:--	"CAN-FD D1M2_5M"
+000000b2 43414e2d        482 	.byte	67,65,78,45
+000000b6 46442044        483 	.byte	70,68,32,68
+000000ba 314d325f        484 	.byte	49,77,50,95
+000000be 354d            485 	.byte	53,77
+000000c0 00              486 	.byte	0
+                         487 	.type	.L53,@object
+                         488 	.size	.L53,15
+                         489 .L54:--	"CAN-FD D1M2H_3.75M"
+000000c1 43414e2d        490 	.byte	67,65,78,45
+000000c5 46442044        491 	.byte	70,68,32,68
+000000c9 314d3248        492 	.byte	49,77,50,72
+000000cd 5f332e37        493 	.byte	95,51,46,55
+000000d1 354d            494 	.byte	53,77
+000000d3 00              495 	.byte	0
+                         496 	.type	.L54,@object
+                         497 	.size	.L54,19
+                         498 	.global	_loc_IntCtrl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.
+                         499 _loc_IntCtrl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.:
+                         500 	.type	_loc_IntCtrl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.,@object
+                         501 	.size	_loc_IntCtrl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.,336
+000000d4 07000000        502 _loc_IntCtrl:	.byte	7,0,0,0
+000000d8 07              503 	.byte	7
+000000d9 000000          504 	.space	3
+000000dc 08000000        505 	.byte	8,0,0,0
+000000e0 07              506 	.byte	7
+000000e1 000000          507 	.space	3
+000000e4 09000000        508 	.byte	9,0,0,0
+000000e8 07              509 	.byte	7
+000000e9 000000          510 	.space	3
+000000ec 0a000000        511 	.byte	10,0,0,0
+000000f0 07              512 	.byte	7
+000000f1 000000          513 	.space	3
+000000f4 0b000000        514 	.byte	11,0,0,0
+000000f8 07              515 	.byte	7
+000000f9 000000          516 	.space	3
+000000fc 0c000000        517 	.byte	12,0,0,0
+00000100 07              518 	.byte	7
+00000101 000000          519 	.space	3
+00000104 0d000000        520 	.byte	13,0,0,0
+00000108 07              521 	.byte	7
+00000109 000000          522 	.space	3
+0000010c 0e000000        523 	.byte	14,0,0,0
+00000110 07              524 	.byte	7
+00000111 000000          525 	.space	3
+00000114 0f000000        526 	.byte	15,0,0,0
+00000118 07              527 	.byte	7
+00000119 000000          528 	.space	3
+0000011c 10000000        529 	.byte	16,0,0,0
+00000120 07              530 	.byte	7
+00000121 000000          531 	.space	3
+00000124 7d000000        532 	.byte	125,0,0,0
+00000128 01              533 	.byte	1
+00000129 000000          534 	.space	3
+0000012c 79000000        535 	.byte	121,0,0,0
+00000130 02              536 	.byte	2
+00000131 000000          537 	.space	3
+00000134 7a000000        538 	.byte	122,0,0,0
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+00000138 02              539 	.byte	2
+00000139 000000          540 	.space	3
+0000013c 7b000000        541 	.byte	123,0,0,0
+00000140 02              542 	.byte	2
+00000141 000000          543 	.space	3
+00000144 7c000000        544 	.byte	124,0,0,0
+00000148 02              545 	.byte	2
+00000149 000000          546 	.space	3
+0000014c c4000000        547 	.byte	196,0,0,0
+00000150 02              548 	.byte	2
+00000151 000000          549 	.space	3
+00000154 c5000000        550 	.byte	197,0,0,0
+00000158 02              551 	.byte	2
+00000159 000000          552 	.space	3
+0000015c c6000000        553 	.byte	198,0,0,0
+00000160 02              554 	.byte	2
+00000161 000000          555 	.space	3
+00000164 c7000000        556 	.byte	199,0,0,0
+00000168 02              557 	.byte	2
+00000169 000000          558 	.space	3
+0000016c c8000000        559 	.byte	200,0,0,0
+00000170 02              560 	.byte	2
+00000171 000000          561 	.space	3
+00000174 c9000000        562 	.byte	201,0,0,0
+00000178 02              563 	.byte	2
+00000179 000000          564 	.space	3
+0000017c ca000000        565 	.byte	202,0,0,0
+00000180 02              566 	.byte	2
+00000181 000000          567 	.space	3
+00000184 cb000000        568 	.byte	203,0,0,0
+00000188 02              569 	.byte	2
+00000189 000000          570 	.space	3
+0000018c cc000000        571 	.byte	204,0,0,0
+00000190 02              572 	.byte	2
+00000191 000000          573 	.space	3
+00000194 cd000000        574 	.byte	205,0,0,0
+00000198 02              575 	.byte	2
+00000199 000000          576 	.space	3
+0000019c ce000000        577 	.byte	206,0,0,0
+000001a0 02              578 	.byte	2
+000001a1 000000          579 	.space	3
+000001a4 cf000000        580 	.byte	207,0,0,0
+000001a8 02              581 	.byte	2
+000001a9 000000          582 	.space	3
+000001ac d0000000        583 	.byte	208,0,0,0
+000001b0 02              584 	.byte	2
+000001b1 000000          585 	.space	3
+000001b4 d1000000        586 	.byte	209,0,0,0
+000001b8 02              587 	.byte	2
+000001b9 000000          588 	.space	3
+000001bc d2000000        589 	.byte	210,0,0,0
+000001c0 02              590 	.byte	2
+000001c1 000000          591 	.space	3
+000001c4 d3000000        592 	.byte	211,0,0,0
+000001c8 02              593 	.byte	2
+000001c9 000000          594 	.space	3
+000001cc dd000000        595 	.byte	221,0,0,0
+000001d0 02              596 	.byte	2
+000001d1 000000          597 	.space	3
+000001d4 de000000        598 	.byte	222,0,0,0
+000001d8 02              599 	.byte	2
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+000001d9 000000          600 	.space	3
+000001dc df000000        601 	.byte	223,0,0,0
+000001e0 02              602 	.byte	2
+000001e1 000000          603 	.space	3
+000001e4 e0000000        604 	.byte	224,0,0,0
+000001e8 02              605 	.byte	2
+000001e9 000000          606 	.space	3
+000001ec e1000000        607 	.byte	225,0,0,0
+000001f0 02              608 	.byte	2
+000001f1 000000          609 	.space	3
+000001f4 e2000000        610 	.byte	226,0,0,0
+000001f8 02              611 	.byte	2
+000001f9 000000          612 	.space	3
+000001fc e3000000        613 	.byte	227,0,0,0
+00000200 02              614 	.byte	2
+00000201 000000          615 	.space	3
+00000204 e4000000        616 	.byte	228,0,0,0
+00000208 02              617 	.byte	2
+00000209 000000          618 	.space	3
+0000020c e5000000        619 	.byte	229,0,0,0
+00000210 02              620 	.byte	2
+00000211 000000          621 	.space	3
+00000214 f0000000        622 	.byte	240,0,0,0
+00000218 02              623 	.byte	2
+00000219 000000          624 	.space	3
+0000021c 00010000        625 	.byte	0,1,0,0
+00000220 07              626 	.byte	7
+00000221 000000          627 	.space	3
+                         628 	.type	_loc_IntCtrl,@object
+                         629 	.size	_loc_IntCtrl,336
+                         630 	.data
+                         631 	.text
+                         632 
+                         633 
+                         634 --222: /*******************************************************************************
+                         635 --223:   Section: Global functions
+                         636 --224: */
+                         637 --226: /*******************************************************************************
+                         638 --227:   Function: R_DEV_SetErrorCallback
+                         639 --229:   see <r_dev_api.h>
+                         640 --231: */
+                         641 --233: void R_DEV_SetErrorCallback(void(*ErrorCallback )(uint32_t Unit, uint32_t Error)) 
+                         642 	.align	2
+                         643 	.align	2
+                         644 	.global	_R_DEV_SetErrorCallback
+                         645 _R_DEV_SetErrorCallback:
+00000032 0670            646 	mov	r6,r14
+00000034 210600000000*   647 	mov	_loc_ErrorHandler,r1
+                         648 --	    .bf
+                         649 .LDW31:
+                         650 --234: {
+                         651 --236:     loc_ErrorHandler    = ErrorCallback;
+0000003a 2b0600000000*   652 	mov	_loc_ErrorHandler,r11
+00000040 6b770100        653 	st.w	r14,0[r11]
+                         654 --238: }
+00000044 0000            655 	nop
+                         656 --	    .ef
+                         657 .LDW41:
+00000046 7f00            658 	jmp	[lp]
+                         659 	.type	_R_DEV_SetErrorCallback,@function
+                         660 	.size	_R_DEV_SetErrorCallback,.-_R_DEV_SetErrorCallback
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         661 	.align	2
+                         662 .LDW51:
+                         663 
+                         664 --_ErrorCallback	r14	param
+                         665 
+                         666 	.data
+                         667 	.text
+                         668 
+                         669 
+                         670 --240: /******************************************************************************* 
+                         671 --241:   Function: R_DEV_Prepare
+                         672 --242:  
+                         673 --243:   see r_dev_api.h for details  
+                         674 --244: */ 
+                         675 --246: void R_DEV_Prepare(void)
+                         676 	.align	2
+                         677 	.align	2
+                         678 	.global	_R_DEV_Prepare
+                         679 _R_DEV_Prepare:
+00000048 8007e110        680 	prepare	{r27,r28,r29,r31},0
+0000004c 3b0600000000*   681 	mov	_loc_IntCtrl,r27
+                         682 --	    .bf
+                         683 .LDW61:
+                         684 --247: {
+                         685 --248:     uint16_t j      = 0u; 
+00000052 00ea            686 	mov	0,r29
+                         687 --249:     r_dev_IntSel_t i;  
+                         688 --250:     
+                         689 --251:     /* Disable the AT guard  */
+                         690 --252:     R_DEV_WRITE_REG(32,LOC_APFSGDPROT_INTC2, 0x07FFFFFF); 
+00000054 2106ffffff07    691 	mov	134217727,r1
+0000005a 80070f088089    692 	st.w	r1,4291084288[zero]
+                         693 --253:     R_DEV_WRITE_REG(32,LOC_APFSGDPROT_PDMA,  0x07FFFFFF); 
+00000060 2106ffffff07    694 	mov	134217727,r1
+00000066 80074f088089    695 	st.w	r1,4291084292[zero]
+                         696 --255:     /* PEG: Open LRAM access for all */
+                         697 --256:     R_DEV_WRITE_REG(32, LOC_REG_PEGSP,   0x00000001u);
+0000006c 010a            698 	mov	1,r1
+0000006e 8007cf08ccfd    699 	st.w	r1,4294895116[zero]
+                         700 --257:     R_DEV_WRITE_REG(32, LOC_REG_PEGG0MK, 0xFFFFF000u);
+00000074 200e00f0        701 	movea	-4096,zero,r1
+00000078 80070f08cdfd    702 	st.w	r1,4294895232[zero]
+                         703 --258:     R_DEV_WRITE_REG(32, LOC_REG_PEGG0BA, 0x000000F7u);
+0000007e 200ef700        704 	movea	247,zero,r1
+00000082 80074f08cdfd    705 	st.w	r1,4294895236[zero]
+                         706 --261:     /* Set Table mode for all interrupts */
+                         707 --262:     for (i = R_DEV_INT_FIRST; i < R_DEV_INT_LAST; i++ )
+00000088 00e2            708 	mov	0,r28
+0000008a 0000            709 	nop
+                         710 .L108:
+                         711 --263:     {
+                         712 --264:         R_DEV_IntSetMode(i, R_DEV_INT_TABLE); 
+0000008c 1c30            713 	mov	r28,r6
+0000008e 013a            714 	mov	1,r7
+                         715 	jarl	_R_DEV_IntSetMode,lp
+                         715 <EXPANSION BEGIN>
+                         715 jarl22 _R_DEV_IntSetMode , lp 
+00000090 80ff0000*       715 <EXPANSION END>
+                         716 --line262
+                         717 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.4::
+                         718 .LDWlin4:
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+00000094 41e2            719 	add	1,r28
+00000096 1c0600ff        720 	addi	-256,r28,zero
+0000009a 96fd*           721 	blt	.L108
+                         722 --265:     }
+                         723 --266:     
+                         724 --267:     /* Config prio */
+                         725 --268:     while (R_DEV_INT_LAST > loc_IntCtrl[j].IntIc)
+                         726 --line268
+                         727 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.5::
+                         728 .LDWlin5:
+0000009c d50d*           729 	br	.L109
+                         730 .L111:
+                         731 --269:     {
+                         732 --270:         R_DEV_IntSetPrio(loc_IntCtrl[j].IntIc, loc_IntCtrl[j].Prio); 
+                         733 --line270
+                         734 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.6::
+                         735 .LDWlin6:
+0000009e 1df0            736 	mov	r29,ep
+000000a0 c3f2            737 	shl	3,ep
+000000a2 1e08            738 	mov	ep,r1
+000000a4 dbf1            739 	add	r27,ep
+000000a6 0035            740 	sld.w	0[ep],r6
+000000a8 01f0            741 	mov	r1,ep
+000000aa dbf1            742 	add	r27,ep
+000000ac 6438            743 	sld.bu	4[ep],r7
+                         744 	jarl	_R_DEV_IntSetPrio,lp
+                         744 <EXPANSION BEGIN>
+                         744 jarl22 _R_DEV_IntSetPrio , lp 
+000000ae 80ff0000*       744 <EXPANSION END>
+                         745 --271:         j++; 
+                         746 --line271
+                         747 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.7::
+                         748 .LDWlin7:
+000000b2 41ea            749 	add	1,r29
+000000b4 dd00            750 	zxh	r29
+                         751 .L109:
+000000b6 1df0            752 	mov	r29,ep
+000000b8 c3f2            753 	shl	3,ep
+000000ba dbf1            754 	add	r27,ep
+000000bc 000d            755 	sld.w	0[ep],r1
+000000be 010600ff        756 	addi	-256,r1,zero
+000000c2 e6ed*           757 	blt	.L111
+                         758 --272:     }
+                         759 --273: }
+                         760 --line273
+                         761 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.8::
+                         762 .LDWlin8:
+000000c4 0000            763 	nop
+                         764 --	    .ef
+                         765 .LDW71:
+000000c6 4006ff10        766 	dispose	0,{r27,r28,r29,r31},[lp]
+                         767 	.type	_R_DEV_Prepare,@function
+                         768 	.size	_R_DEV_Prepare,.-_R_DEV_Prepare
+                         769 	.align	2
+                         770 .LDW81:
+                         771 --_j	r29	local
+                         772 --_i	r28	local
+                         773 
+                         774 	.section ".bss","awb"
+                         775 .L152:
+                         776 	.type	.L152,@object
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         777 	.size	.L152,0
+                         778 	.data
+                         779 	.text
+                         780 
+                         781 
+                         782 --275: /*******************************************************************************
+                         783 --276:   Function: R_DEV_EnableFlashCache
+                         784 --277:   
+                         785 --278:   see r_dev_api.h for details  
+                         786 --279: */
+                         787 --281: r_Error_t R_DEV_EnableFlashCache(uint8_t Enable)
+                         788 	.align	2
+                         789 	.align	2
+                         790 	.global	_R_DEV_EnableFlashCache
+                         791 _R_DEV_EnableFlashCache:
+000000ca c60eff00        792 	andi	255,r6,r1
+                         793 --	    .bf
+                         794 .LDW91:
+                         795 --282: {
+                         796 --283:     /* The code and data cache cannot be configured by SW */
+                         797 --284:     return R_ERR_OK; 
+000000ce 0052            798 	mov	0,r10
+                         799 --	    .ef
+                         800 .LDW02:
+000000d0 7f00            801 	jmp	[lp]
+                         802 	.type	_R_DEV_EnableFlashCache,@function
+                         803 	.size	_R_DEV_EnableFlashCache,.-_R_DEV_EnableFlashCache
+                         804 	.align	2
+                         805 .LDW12:
+                         806 
+                         807 --_Enable	r1	param
+                         808 
+                         809 	.section ".bss","awb"
+                         810 .L232:
+                         811 	.type	.L232,@object
+                         812 	.size	.L232,0
+                         813 	.data
+                         814 	.text
+                         815 
+                         816 --285: }
+                         817 
+                         818 --288: /*******************************************************************************
+                         819 --289:   Function: R_DEV_GetDev
+                         820 --290:   
+                         821 --291:   see r_dev_api.h for details  
+                         822 --293: */
+                         823 --295: r_dev_Device_t R_DEV_GetDev(void) 
+                         824 	.align	2
+                         825 	.align	2
+                         826 	.global	_R_DEV_GetDev
+                         827 _R_DEV_GetDev:
+000000d2 3e0600000000*   828 	mov	_loc_DevHasCanFD,ep
+                         829 --	    .bf
+                         830 .LDW22:
+                         831 --296: {
+                         832 --297:     uint32_t prdname2 = R_DEV_READ_REG(32,0xFFCD00D4u);
+000000d8 80074975019a    833 	ld.w	4291625172[zero],r14
+                         834 --298:     uint32_t prdname3 = R_DEV_READ_REG(32,0xFFCD00D8u) & 0xFu;
+000000de 8007890d019a    835 	ld.w	4291625176[zero],r1
+000000e4 c10e0f00        836 	andi	15,r1,r1
+                         837 --299:     /* Check for Can-FD */
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         838 --300:     if ((prdname2 & 0x02000000u) !=0 )
+000000e8 0e68            839 	mov	r14,r13
+000000ea 9a6a            840 	shr	26,r13
+000000ec 890d*           841 	bnl	.L246
+                         842 --301:     {
+                         843 --302:         /* Device has CAN-FD -> clear the bit ... */
+                         844 --303:         prdname2 &= 0xFDFFFFFFu; 
+                         845 --line303
+                         846 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.9::
+                         847 .LDWlin9:
+000000ee 2d06fffffffd    848 	mov	-33554433,r13
+000000f4 4d71            849 	and	r13,r14
+                         850 --304:         /* ...and store the info */
+                         851 --305:         loc_DevHasCanFD = 1; 
+000000f6 016a            852 	mov	1,r13
+000000f8 016d            853 	sst.w	r13,0[ep]
+000000fa a505*           854 	br	.L248
+                         855 .L246:
+                         856 --306:     }
+                         857 --307:     else 
+                         858 --308:     {
+                         859 --309:         loc_DevHasCanFD = 0; 
+                         860 --line309
+                         861 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.10::
+                         862 .LDWlin10:
+000000fc 0105            863 	sst.w	zero,0[ep]
+                         864 .L248:
+                         865 --310:     }
+                         866 --311:     
+                         867 --312:     if ((prdname2 & 0x01000000u) == 0)
+000000fe 0e68            868 	mov	r14,r13
+00000100 996a            869 	shr	25,r13
+00000102 c105*           870 	bl	.L249
+                         871 --313:     {
+                         872 --314:         return ((r_dev_Device_t)((uint32_t)R_DEV_R7F7014OFFS + prdname3));
+                         873 --line314
+                         874 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.11::
+                         875 .LDWlin11:
+00000104 01567805        876 	addi	1400,r1,r10
+00000108 b505*           877 	br	.L244
+                         878 .L249:
+                         879 --315:     }
+                         880 --316:     else 
+                         881 --317:     {
+                         882 --318:         return ((r_dev_Device_t)((uint32_t)R_DEV_R7F701410 + prdname3));
+                         883 --line318
+                         884 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.12::
+                         885 .LDWlin12:
+0000010a 01568205        886 	addi	1410,r1,r10
+                         887 .L244:
+                         888 --	    .ef
+                         889 .LDW32:
+0000010e 7f00            890 	jmp	[lp]
+                         891 	.type	_R_DEV_GetDev,@function
+                         892 	.size	_R_DEV_GetDev,.-_R_DEV_GetDev
+                         893 	.align	2
+                         894 .LDW42:
+                         895 --_prdname2	r14	local
+                         896 --_prdname3	r1	local
+                         897 
+                         898 	.section ".bss","awb"
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         899 .L280:
+                         900 	.type	.L280,@object
+                         901 	.size	.L280,0
+                         902 	.data
+                         903 	.text
+                         904 
+                         905 --319:     }    
+                         906 --320: } 
+                         907 
+                         908 --322: /*******************************************************************************
+                         909 --323:   Function: R_DEV_GetVersion
+                         910 --324:   
+                         911 --325:   see r_dev_api.h for details  
+                         912 --327: */
+                         913 --329: uint32_t R_DEV_GetVersion(void) 
+                         914 	.align	2
+                         915 	.align	2
+                         916 	.global	_R_DEV_GetVersion
+                         917 _R_DEV_GetVersion:
+00000110 8007e100        918 	prepare	{r28,r29,r31},0
+                         919 --	    .bf
+                         920 .LDW52:
+                         921 --330: {
+                         922 --331:     /* RH850/D1x product version register PRDVER
+                         923 --332:         PRDVER access is 32bit address is 0xFFCD00C8.
+                         924 --333:         PRDVER bits 27 to 16 show the device revision:
+                         925 --334:             
+                         926 --335:             RH850/D1x revision: 0xfRRR0040
+                         927 --336:                                    ^^^ bits 27 to 16 relevant for revision
+                         928 --337:             
+                         929 --338:             D1L1    V1.0 (#Yx1):  0xX100XXXX
+                         930 --339:             D1L1    V1.1 (#Yx2):  0xX200XXXX
+                         931 --340:             
+                         932 --341:             D1L2(H) V1.0 (#Yx1):  0xX100XXXX
+                         933 --342:             D1L2(H) V2.0 (#Yx2):  0xX200XXXX
+                         934 --343:             D1L2(H) V2.1 (#Yx3):  0xX300XXXX
+                         935 --344:             D1L2(H) V2.2 (#Yx4):  0xX400XXXX
+                         936 --345:             
+                         937 --346:             D1M1(H) V1.0 (#Yx1):  0xX100XXXX
+                         938 --347:             D1M1(H) V1.2 (#Yx2):  0xX200XXXX
+                         939 --348:             
+                         940 --349:             D1M2(H) V1.0 (#Yx1):  0xX100XXXX
+                         941 --350:             D1M2(H) V2.0 (#Yx2):  0xX200XXXX
+                         942 --351:             D1M2(H) V3.0 (#Yx3):  0xX300XXXX
+                         943 --352:             
+                         944 --353:         Devise version the function R_DEV_GetVersion() returns is
+                         945 --354:         mapped to the format 0xAABB,
+                         946 --355:         where AA is the mayor revision number
+                         947 --356:         and BB is the minor revision number.
+                         948 --357:             e.g. "0x0102" is the device revision "V1.2"
+                         949 --358:     */
+                         950 --359:     uint32_t        version;
+                         951 --360:     r_dev_Device_t  device;
+                         952 --362:     version = R_DEV_READ_REG(32,0xFFCD00C8u);
+00000114 800789ec019a    953 	ld.w	4291625160[zero],r29
+                         954 --363:     version = ((version >> 16uL) & 0x0FFFu);
+0000011a 1d08            955 	mov	r29,r1
+0000011c 900a            956 	shr	16,r1
+0000011e c10eff0f        957 	andi	4095,r1,r1
+00000122 01e8            958 	mov	r1,r29
+                         959 --364:     
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         960 --365:     device  =  R_DEV_GetDev();
+                         961 	jarl	_R_DEV_GetDev,lp
+                         961 <EXPANSION BEGIN>
+                         961 jarl22 _R_DEV_GetDev , lp 
+00000124 bfffaeff*       961 <EXPANSION END>
+00000128 0ae0            962 	mov	r10,r28
+                         963 --366:     /* D1L1 revision mapping */
+                         964 --367:     if ((device >= R_DEV_R7F701400) && (device <= R_DEV_R7F701401))    /* D1L1 */
+                         965 --line367
+                         966 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.13::
+                         967 .LDWlin13:
+0000012a 1c0688fa        968 	addi	-1400,r28,zero
+0000012e b615*           969 	blt	.L318
+00000130 1c0687fa        970 	addi	-1401,r28,zero
+00000134 8f15*           971 	bgt	.L318
+                         972 --368:     {
+                         973 --369:         if (version == 0x100)
+                         974 --line369
+                         975 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.14::
+                         976 .LDWlin14:
+00000136 1d0600ff        977 	addi	-256,r29,zero
+0000013a ca05*           978 	bne	.L321
+                         979 --370:         {
+                         980 --371:             version = R_DEV_REVISION_1V0;    /* V1.0 */
+                         981 --line371
+                         982 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.15::
+                         983 .LDWlin15:
+0000013c 20ee0001        984 	movea	256,zero,r29
+00000140 850d*           985 	br	.L323
+                         986 .L321:
+                         987 --372:         } else if (version == 0x200)
+                         988 --line372
+                         989 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.16::
+                         990 .LDWlin16:
+00000142 1d0600fe        991 	addi	-512,r29,zero
+00000146 ca05*           992 	bne	.L324
+                         993 --373:         {
+                         994 --374:             version = R_DEV_REVISION_1V1;    /* V1.1 */
+                         995 --line374
+                         996 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.17::
+                         997 .LDWlin17:
+00000148 20ee0101        998 	movea	257,zero,r29
+0000014c a505*           999 	br	.L323
+                        1000 .L324:
+                        1001 --375:         } else
+                        1002 --376:         {
+                        1003 --377:             version = R_DEV_UNKNOWN_DEVICE_REVISION;    /* error, version not supported */
+                        1004 --line377
+                        1005 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.18::
+                        1006 .LDWlin18:
+0000014e 00ea           1007 	mov	0,r29
+                        1008 .L323:
+                        1009 --378:         }
+                        1010 --379:         return version;
+00000150 1d50           1011 	mov	r29,r10
+00000152 c555*          1012 	br	.L316
+                        1013 .L318:
+                        1014 --380:     }
+                        1015 --381:     /* D1L2(H) revision mapping */
+                        1016 --382:     if ((device >= R_DEV_R7F701402) && (device <= R_DEV_R7F701403))    /* D1L2(H) */
+                        1017 --line382
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                        1018 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.19::
+                        1019 .LDWlin19:
+00000154 1c0686fa       1020 	addi	-1402,r28,zero
+00000158 f61d*          1021 	blt	.L328
+0000015a 1c0685fa       1022 	addi	-1403,r28,zero
+0000015e cf1d*          1023 	bgt	.L328
+                        1024 --383:     {
+                        1025 --384:         if (version == 0x100)
+                        1026 --line384
+                        1027 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.20::
+                        1028 .LDWlin20:
+00000160 1d0600ff       1029 	addi	-256,r29,zero
+00000164 ca05*          1030 	bne	.L331
+                        1031 --385:         {
+                        1032 --386:             version = R_DEV_REVISION_1V0;    /* V1.0 */
+                        1033 --line386
+                        1034 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.21::
+                        1035 .LDWlin21:
+00000166 20ee0001       1036 	movea	256,zero,r29
+0000016a c515*          1037 	br	.L333
+                        1038 .L331:
+                        1039 --387:         } else if (version == 0x200)
+                        1040 --line387
+                        1041 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.22::
+                        1042 .LDWlin22:
+0000016c 1d0600fe       1043 	addi	-512,r29,zero
+00000170 ca05*          1044 	bne	.L334
+                        1045 --388:         {
+                        1046 --389:             version = R_DEV_REVISION_2V0;    /* V2.0 */
+                        1047 --line389
+                        1048 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.23::
+                        1049 .LDWlin23:
+00000172 20ee0002       1050 	movea	512,zero,r29
+00000176 e50d*          1051 	br	.L333
+                        1052 .L334:
+                        1053 --390:         } else if (version == 0x300)
+                        1054 --line390
+                        1055 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.24::
+                        1056 .LDWlin24:
+00000178 1d0600fd       1057 	addi	-768,r29,zero
+0000017c ca05*          1058 	bne	.L337
+                        1059 --391:         {
+                        1060 --392:             version = R_DEV_REVISION_2V1;    /* V2.1 */
+                        1061 --line392
+                        1062 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.25::
+                        1063 .LDWlin25:
+0000017e 20ee0102       1064 	movea	513,zero,r29
+00000182 850d*          1065 	br	.L333
+                        1066 .L337:
+                        1067 --393:         } else if (version == 0x400)
+                        1068 --line393
+                        1069 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.26::
+                        1070 .LDWlin26:
+00000184 1d0600fc       1071 	addi	-1024,r29,zero
+00000188 ca05*          1072 	bne	.L340
+                        1073 --394:         {
+                        1074 --395:             version = R_DEV_REVISION_2V2;    /* V2.2 */
+                        1075 --line395
+                        1076 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.27::
+                        1077 .LDWlin27:
+0000018a 20ee0202       1078 	movea	514,zero,r29
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+0000018e a505*          1079 	br	.L333
+                        1080 .L340:
+                        1081 --396:         } else
+                        1082 --397:         {
+                        1083 --398:             version = R_DEV_UNKNOWN_DEVICE_REVISION;    /* error, version not supported */
+                        1084 --line398
+                        1085 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.28::
+                        1086 .LDWlin28:
+00000190 00ea           1087 	mov	0,r29
+                        1088 .L333:
+                        1089 --399:         }
+                        1090 --400:         return version;
+00000192 1d50           1091 	mov	r29,r10
+00000194 b535*          1092 	br	.L316
+                        1093 .L328:
+                        1094 --401:     }
+                        1095 --402:     /* D1M1(H) revision mapping */
+                        1096 --403:     if ((device >= R_DEV_R7F701404) && (device <= R_DEV_R7F701407))    /* D1M1(H) */
+                        1097 --line403
+                        1098 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.29::
+                        1099 .LDWlin29:
+00000196 1c0684fa       1100 	addi	-1404,r28,zero
+0000019a b615*          1101 	blt	.L344
+0000019c 1c0681fa       1102 	addi	-1407,r28,zero
+000001a0 8f15*          1103 	bgt	.L344
+                        1104 --404:     {
+                        1105 --405:         if (version == 0x100)
+                        1106 --line405
+                        1107 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.30::
+                        1108 .LDWlin30:
+000001a2 1d0600ff       1109 	addi	-256,r29,zero
+000001a6 ca05*          1110 	bne	.L347
+                        1111 --406:         {
+                        1112 --407:             version = R_DEV_REVISION_1V0;    /* V1.0 */
+                        1113 --line407
+                        1114 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.31::
+                        1115 .LDWlin31:
+000001a8 20ee0001       1116 	movea	256,zero,r29
+000001ac 850d*          1117 	br	.L349
+                        1118 .L347:
+                        1119 --408:         } else if (version == 0x200)
+                        1120 --line408
+                        1121 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.32::
+                        1122 .LDWlin32:
+000001ae 1d0600fe       1123 	addi	-512,r29,zero
+000001b2 ca05*          1124 	bne	.L350
+                        1125 --409:         {
+                        1126 --410:             version = R_DEV_REVISION_1V2;    /* V1.2 */
+                        1127 --line410
+                        1128 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.33::
+                        1129 .LDWlin33:
+000001b4 20ee0201       1130 	movea	258,zero,r29
+000001b8 a505*          1131 	br	.L349
+                        1132 .L350:
+                        1133 --411:         } else
+                        1134 --412:         {
+                        1135 --413:             version = R_DEV_UNKNOWN_DEVICE_REVISION;    /* error, version not supported */
+                        1136 --line413
+                        1137 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.34::
+                        1138 .LDWlin34:
+000001ba 00ea           1139 	mov	0,r29
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                        1140 .L349:
+                        1141 --414:         }
+                        1142 --415:         return version;
+000001bc 1d50           1143 	mov	r29,r10
+000001be e51d*          1144 	br	.L316
+                        1145 .L344:
+                        1146 --416:     }
+                        1147 --417:     /* D1M2(H) revision mapping */
+                        1148 --418:     if ((device >= R_DEV_R7F701408) && (device <= R_DEV_R7F701412))    /* D1M2(H) */
+                        1149 --line418
+                        1150 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.35::
+                        1151 .LDWlin35:
+000001c0 1c0680fa       1152 	addi	-1408,r28,zero
+000001c4 961d*          1153 	blt	.L354
+000001c6 1c067cfa       1154 	addi	-1412,r28,zero
+000001ca ef15*          1155 	bgt	.L354
+                        1156 --419:     {
+                        1157 --420:         if (version == 0x100)
+                        1158 --line420
+                        1159 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.36::
+                        1160 .LDWlin36:
+000001cc 1d0600ff       1161 	addi	-256,r29,zero
+000001d0 ca05*          1162 	bne	.L357
+                        1163 --421:         {
+                        1164 --422:             version = R_DEV_REVISION_1V0;    /* V1.0 */
+                        1165 --line422
+                        1166 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.37::
+                        1167 .LDWlin37:
+000001d2 20ee0001       1168 	movea	256,zero,r29
+000001d6 e50d*          1169 	br	.L359
+                        1170 .L357:
+                        1171 --423:         } else if (version == 0x200)
+                        1172 --line423
+                        1173 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.38::
+                        1174 .LDWlin38:
+000001d8 1d0600fe       1175 	addi	-512,r29,zero
+000001dc ca05*          1176 	bne	.L360
+                        1177 --424:         {
+                        1178 --425:             version = R_DEV_REVISION_2V0;    /* V2.0 */
+                        1179 --line425
+                        1180 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.39::
+                        1181 .LDWlin39:
+000001de 20ee0002       1182 	movea	512,zero,r29
+000001e2 850d*          1183 	br	.L359
+                        1184 .L360:
+                        1185 --426:         } else if (version == 0x300)
+                        1186 --line426
+                        1187 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.40::
+                        1188 .LDWlin40:
+000001e4 1d0600fd       1189 	addi	-768,r29,zero
+000001e8 ca05*          1190 	bne	.L363
+                        1191 --427:         {
+                        1192 --428:             version = R_DEV_REVISION_3V0;    /* V3.0 */
+                        1193 --line428
+                        1194 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.41::
+                        1195 .LDWlin41:
+000001ea 20ee0003       1196 	movea	768,zero,r29
+000001ee a505*          1197 	br	.L359
+                        1198 .L363:
+                        1199 --429:         } else
+                        1200 --430:         {
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                        1201 --431:             version = R_DEV_UNKNOWN_DEVICE_REVISION;    /* error, version not supported */
+                        1202 --line431
+                        1203 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.42::
+                        1204 .LDWlin42:
+000001f0 00ea           1205 	mov	0,r29
+                        1206 .L359:
+                        1207 --432:         }
+                        1208 --433:         return version;
+000001f2 1d50           1209 	mov	r29,r10
+000001f4 b505*          1210 	br	.L316
+                        1211 .L354:
+                        1212 --434:     }
+                        1213 --435:     
+                        1214 --436:     /* failure, version is not supported. */
+                        1215 --437:     version = R_DEV_UNKNOWN_DEVICE_REVISION;
+                        1216 --line437
+                        1217 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.43::
+                        1218 .LDWlin43:
+000001f6 00ea           1219 	mov	0,r29
+                        1220 --438:     return version;
+000001f8 1d50           1221 	mov	r29,r10
+                        1222 .L316:
+                        1223 --	    .ef
+                        1224 .LDW62:
+000001fa 4006ff00       1225 	dispose	0,{r28,r29,r31},[lp]
+                        1226 	.type	_R_DEV_GetVersion,@function
+                        1227 	.size	_R_DEV_GetVersion,.-_R_DEV_GetVersion
+                        1228 	.align	2
+                        1229 .LDW72:
+                        1230 --_version	r29	local
+                        1231 --_device	r28	local
+                        1232 
+                        1233 	.section ".bss","awb"
+                        1234 .L460:
+                        1235 	.type	.L460,@object
+                        1236 	.size	.L460,0
+                        1237 	.data
+                        1238 	.text
+                        1239 
+                        1240 --439: }
+                        1241 
+                        1242 --442: /*******************************************************************************
+                        1243 --443:   Function: R_DEV_GetDevName
+                        1244 --444:   
+                        1245 --445:   see r_dev_api.h for details  
+                        1246 --447: */
+                        1247 --449: const char *R_DEV_GetDevName(void) 
+                        1248 	.align	2
+                        1249 	.align	2
+                        1250 	.global	_R_DEV_GetDevName
+                        1251 _R_DEV_GetDevName:
+000001fe 8007e100       1252 	prepare	{r28,r29,r31},0
+00000202 3d0600000000*  1253 	mov	_loc_DevHasCanFD,r29
+                        1254 --	    .bf
+                        1255 .LDW82:
+                        1256 --450: {
+                        1257 --451:     uint32_t device = (uint32_t) R_DEV_GetDev(); 
+                        1258 	jarl	_R_DEV_GetDev,lp
+                        1258 <EXPANSION BEGIN>
+                        1258 jarl22 _R_DEV_GetDev , lp 
+00000208 bfffcafe*      1258 <EXPANSION END>
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+0000020c 0ae0           1259 	mov	r10,r28
+                        1260 --452:     const char * dev_name; 
+                        1261 --453:     
+                        1262 --454:     if (device > R_DEV_R7F7014OFFS)
+                        1263 --line454
+                        1264 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.44::
+                        1265 .LDWlin44:
+0000020e 1c0687fa       1266 	addi	-1401,r28,zero
+00000212 c905*          1267 	bnl	.L600
+                        1268 --455:     {
+                        1269 --456:        device -= R_DEV_R7F7014OFFS;
+                        1270 --line456
+                        1271 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.45::
+                        1272 .LDWlin45:
+00000214 1ce688fa       1273 	addi	-1400,r28,r28
+00000218 a505*          1274 	br	.L602
+                        1275 .L600:
+                        1276 --457:     }
+                        1277 --458:     else 
+                        1278 --459:     {
+                        1279 --460:         device = R_DEV_UNKNOWN_DEVICE; 
+                        1280 --line460
+                        1281 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.46::
+                        1282 .LDWlin46:
+0000021a 00e2           1283 	mov	0,r28
+                        1284 .L602:
+                        1285 --461:     }
+                        1286 --462:     dev_name = loc_DevName[device]; 
+0000021c 1cf0           1287 	mov	r28,ep
+0000021e c2f2           1288 	shl	2,ep
+00000220 3d6e0800       1289 	movea	8,r29,r13
+00000224 cdf1           1290 	add	r13,ep
+00000226 000d           1291 	sld.w	0[ep],r1
+                        1292 --463:     if (0 == loc_DevHasCanFD)
+00000228 2e0600000000*  1293 	mov	_loc_DevHasCanFD,r14
+0000022e 2e770100       1294 	ld.w	0[r14],r14
+00000232 e071           1295 	cmp	zero,r14
+00000234 aa05*          1296 	bne	.L603
+                        1297 --464:     {
+                        1298 --465:         /* skip leading CAN-FD in the string */
+                        1299 --466:         dev_name += 7; 
+                        1300 --line466
+                        1301 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init.47::
+                        1302 .LDWlin47:
+00000236 470a           1303 	add	7,r1
+                        1304 .L603:
+                        1305 --467:     }
+                        1306 --468:     return dev_name; 
+00000238 0150           1307 	mov	r1,r10
+                        1308 --	    .ef
+                        1309 .LDW92:
+0000023a 4006ff00       1310 	dispose	0,{r28,r29,r31},[lp]
+                        1311 	.type	_R_DEV_GetDevName,@function
+                        1312 	.size	_R_DEV_GetDevName,.-_R_DEV_GetDevName
+                        1313 	.align	2
+                        1314 .LDW03:
+                        1315 --_device	r28	local
+                        1316 --_dev_name	r1	local
+                        1317 
+                        1318 	.data
+                        1319 	.text
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                        1320 
+                        1321 --469: } 
+                        1322 	.align	2
+                        1323 --_loc_IntCtrl	_loc_IntCtrl	static
+                        1324 --_loc_DevName	_loc_DevName	static
+                        1325 --_loc_DevHasCanFD	_loc_DevHasCanFD	static
+                        1326 --_loc_ErrorHandler	_loc_ErrorHandler	static
+                        1327 
+                        1328 	.data
+                        1329 	.ghsnote version,14
+                        1330 	.ghsnote tools,3
+                        1331 	.ghsnote options,144
+                        1332 	.text
+                        1333 	.align	2
+                        1334 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_dev_init...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74037C..0::
+                        1335 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

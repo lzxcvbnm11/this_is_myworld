@@ -1,0 +1,1617 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\ostm.dbo -source=ostm.c -o .\obj\gh_00008b41.o -list=.\obj\ostm.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+Source File: ostm.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\OSTM\ostm.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         112 --		-o .\obj\ostm.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\OSTM\ostm.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:26 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : ostm.c
+                         128 --5: * Description : Driver source file of OSTM.
+                         129 --6: * Author: Xiaojie.Zheng
+                         130 --7: * Date: 2016-12-12
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "ostm_info.inc"
+                         134 --13: static BOOL ostm_InitStatus;
+                         135 --14:  U32 ostm_TickTime;
+                         136 --16: static U8 ostm_Task5MS_Count = 0;
+                         137 --17: static U8 ostm_Task20MS_Count = 0;
+                         138 --18: static U8 ostm_Task50MS_Count = 0;
+                         139 --19: static U8 ostm_Task100MS_Count = 0;
+                         140 --20: static U8 ostm_Task200MS_Count = 0;
+                         141 --21: static U16 ostm_Task1000MS_Count = 0;
+                         142 --22: static U8 ostm_5MS_Flag;
+                         143 --23: static U8 ostm_20MS_Flag;
+                         144 --24: static U8 ostm_50MS_Flag;
+                         145 --25: static U8 ostm_100MS_Flag;
+                         146 --26: static U8 ostm_200MS_Flag;
+                         147 --27: static U8 ostm_1000MS_Flag;
+                         148 --29: /************************************************/
+                         149 --30: static U8 ostm1_10ms_counter = 0;
+                         150 --31: static U8 ostm1_20ms_counter = 0;
+                         151 --32: static U8 ostm1_50ms_counter = 0;
+                         152 --33: static U8 ostm1_100ms_counter = 0;
+                         153 --34: static U8 ostm1_1000ms_counter = 0;
+                         154 --35: #if (1 == OSTM_EVT_EN)
+                         155 --36: extern STSMG_EventDataAll_ST Stsmg_EventVar;
+                         156 --37: #endif
+                         157 --39: extern evt_TickTockType_ST evt_TickType;
+                         158 --40: /***************************************************
+                         159 --41: * Function: OSTM_Init
+                         160 --42: * Description: OSTM drive initialization
+                         161 --43: * Parameters: none
+                         162 --44: * Returns: none
+                         163 --45: * $Create & Verlog:$
+                         164 --46: * Author: Xiaojie.Zheng   Date:2016-12-12   Version:V1.0
+                         165 --47: ****************************************************/
+                         166 --48: void OSTM_Init(void)                 /*默认为系统定时器0*/
+                         167 	.text
+                         168 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740366..0::
+                         169 	.align	2
+                         170 	.global	_OSTM_Init
+                         171 _OSTM_Init:
+00000000 210600000000*   172 	mov	.L82,r1
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         173 --	    .bf
+                         174 .LDW01:
+                         175 --49: {
+                         176 --50:    /*C_ISO_OSTM source clock selection register
+                         177 --51: 	bit32:0	reserved
+                         178 --52: 	bit1:0	Source clock selection for C_ISO_OSTM
+                         179 --53: 			00B: Disabled
+                         180 --54: 			01B: CLKJIT
+                         181 --55: 			10B: C_ISO_CPUCLK /4
+                         182 --56: 			11B: MainOsc fX
+                         183 --57: 	*/
+                         184 --58:     protected_write(SYSPROTCMDD1, SYSPROTSD1, SYSCKSC_IOSTMS_CTL, 0x03);
+00000006 0000            185 	nop
+                         186 .L6:
+00000008 2076a500        187 	movea	165,zero,r14
+0000000c 80070f70e0f0    188 	st.w	r14,4294471680[zero]
+00000012 0372            189 	mov	3,r14
+00000014 80070f70acf0    190 	st.w	r14,4294465024[zero]
+0000001a 1c72            191 	mov	-4,r14
+0000001c 80070f70acf0    192 	st.w	r14,4294465024[zero]
+00000022 0372            193 	mov	3,r14
+00000024 80070f70acf0    194 	st.w	r14,4294465024[zero]
+0000002a 80074970e0f0    195 	ld.w	4294471684[zero],r14
+00000030 6172            196 	cmp	1,r14
+00000032 b2ed*           197 	be	.L6
+                         198 --59:     while(SYSCKSC_IOSTMS_ACT == 0x0)
+                         199 --line59
+                         200 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.1::
+                         201 .LDWlin1:
+00000034 0000            202 	nop
+                         203 .L7:
+                         204 --60:     {/* Waiting for SYSCKSC_IOSTMS_ACT to set. */};
+00000036 80078970acf0    205 	ld.w	4294465032[zero],r14
+0000003c e071            206 	cmp	zero,r14
+0000003e c2fd*           207 	be	.L7
+                         208 --61:     /*OSTMnCMP — OSTMn Compare Register
+                         209 --62:     In interval timer mode: start value of the down-counter
+                         210 --63:     In free-run compare mode: compare value
+                         211 --64:     */
+                         212 --66:     OSTM1CMP =  0x09c40;                            /*1/8000000*8000 = 5ms*/
+                         213 --line66
+                         214 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.2::
+                         215 .LDWlin2:
+00000040 8076409c        216 	ori	40000,zero,r14
+00000044 80070f7020d8    217 	st.w	r14,4293660672[zero]
+                         218 --69:     /*OSTMnCTL — OSTMn Control Register
+                         219 --70:     1 	OSTMnMD1 	Specifies the operating mode for the counter:
+                         220 --71:     0: Interval timer mode
+                         221 --72:     1: Free-run compare mode            ---set
+                         222 --73:     0 	OSTMnMD0 	Controls the generation of OSTMTINT interrupt requests at the start of counting:
+                         223 --74:     0: Interrupts when counting starts are disabled.
+                         224 --75:     				                    ---set
+                         225 --76:     1: Interrupts when counting starts are enabled.
+                         226 --77:     */
+                         227 --79:     OSTM1CTL = 0x00;                     /*向上计数Free-run compare mode*/
+0000004a 80070d0220d8    228 	st.b	zero,4293660704[zero]
+                         229 --80:     PBGFSGD0BPROT0 = 0x07FFFFFFUL;
+00000050 2e06ffffff07    230 	mov	134217727,r14
+00000056 80070f708089    231 	st.w	r14,4291084288[zero]
+                         232 --83:     INTC2EIC126 = 0x47;
+0000005c 20764700        233 	movea	71,zero,r14
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+00000060 6077fcb0        234 	st.h	r14,lo(4294947068)[zero]
+                         235 --84:     ostm_TickTime = 0;
+00000064 2b0600000000*   236 	mov	_ostm_TickTime,r11
+0000006a 6b070100        237 	st.w	zero,0[r11]
+                         238 --86:     ostm_Task5MS_Count = 0;
+0000006e 41070200        239 	st.b	zero,2[r1]
+                         240 --87:     ostm_Task20MS_Count = 0;
+00000072 41070300        241 	st.b	zero,3[r1]
+                         242 --88:     ostm_Task50MS_Count = 0;
+00000076 41070400        243 	st.b	zero,4[r1]
+                         244 --89:     ostm_Task100MS_Count = 0;
+0000007a 41070500        245 	st.b	zero,5[r1]
+                         246 --90:     ostm_Task1000MS_Count = 0;
+0000007e 61070000        247 	st.h	zero,0[r1]
+                         248 --91: 	
+                         249 --92:     ostm_5MS_Flag = FALSE;
+00000082 2b0600000000*   250 	mov	_ostm_5MS_Flag,r11
+00000088 4b070000        251 	st.b	zero,0[r11]
+                         252 --93:     ostm_20MS_Flag = FALSE;
+0000008c 2b0600000000*   253 	mov	_ostm_20MS_Flag,r11
+00000092 4b070000        254 	st.b	zero,0[r11]
+                         255 --94:     ostm_50MS_Flag = FALSE;
+00000096 2b0600000000*   256 	mov	_ostm_50MS_Flag,r11
+0000009c 4b070000        257 	st.b	zero,0[r11]
+                         258 --95:     ostm_100MS_Flag = FALSE;
+000000a0 2b0600000000*   259 	mov	_ostm_100MS_Flag,r11
+000000a6 4b070000        260 	st.b	zero,0[r11]
+                         261 --96:     ostm_1000MS_Flag = FALSE;
+000000aa 2b0600000000*   262 	mov	_ostm_1000MS_Flag,r11
+000000b0 4b070000        263 	st.b	zero,0[r11]
+                         264 --98:     ostm1_10ms_counter = 0;
+000000b4 41070700        265 	st.b	zero,7[r1]
+                         266 --99:     ostm1_20ms_counter = 0;
+000000b8 41070800        267 	st.b	zero,8[r1]
+                         268 --100:     ostm1_50ms_counter = 0;
+000000bc 41070900        269 	st.b	zero,9[r1]
+                         270 --101:     ostm1_100ms_counter = 0;
+000000c0 41070a00        271 	st.b	zero,10[r1]
+                         272 --102:     ostm1_1000ms_counter = 0;
+000000c4 41070b00        273 	st.b	zero,11[r1]
+                         274 --104:     ostm_InitStatus = TRUE;
+000000c8 2b0600000000*   275 	mov	_ostm_InitStatus,r11
+000000ce 010a            276 	mov	1,r1
+000000d0 4b0f0000        277 	st.b	r1,0[r11]
+                         278 --105: }
+000000d4 0000            279 	nop
+                         280 --	    .ef
+                         281 .LDW11:
+000000d6 7f00            282 	jmp	[lp]
+                         283 	.type	_OSTM_Init,@function
+                         284 	.size	_OSTM_Init,.-_OSTM_Init
+                         285 	.align	2
+                         286 .LDW21:
+                         287 
+                         288 	.data
+                         289 	.align	2
+                         290 .L82:
+                         291 	.type	.L82,@object
+                         292 	.size	.L82,0
+                         293 	.global	_ostm_Task1000MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         294 _ostm_Task1000MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         295 	.type	_ostm_Task1000MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         296 	.size	_ostm_Task1000MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,2
+00000000 0000            297 _ostm_Task1000MS_Count:	.byte	0,0
+                         298 	.type	_ostm_Task1000MS_Count,@object
+                         299 	.size	_ostm_Task1000MS_Count,2
+                         300 	.section ".bss","awb"
+                         301 	.global	_ostm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         302 _ostm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         303 	.type	_ostm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         304 	.size	_ostm_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000000 00              305 _ostm_InitStatus:	.space	1
+                         306 	.type	_ostm_InitStatus,@object
+                         307 	.size	_ostm_InitStatus,1
+                         308 	.data
+                         309 	.global	_ostm_Task5MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         310 _ostm_Task5MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         311 	.type	_ostm_Task5MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         312 	.size	_ostm_Task5MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000002 00              313 _ostm_Task5MS_Count:	.byte	0
+                         314 	.type	_ostm_Task5MS_Count,@object
+                         315 	.size	_ostm_Task5MS_Count,1
+                         316 	.global	_ostm_Task20MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         317 _ostm_Task20MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         318 	.type	_ostm_Task20MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         319 	.size	_ostm_Task20MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000003 00              320 _ostm_Task20MS_Count:	.byte	0
+                         321 	.type	_ostm_Task20MS_Count,@object
+                         322 	.size	_ostm_Task20MS_Count,1
+                         323 	.global	_ostm_Task50MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         324 _ostm_Task50MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         325 	.type	_ostm_Task50MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         326 	.size	_ostm_Task50MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000004 00              327 _ostm_Task50MS_Count:	.byte	0
+                         328 	.type	_ostm_Task50MS_Count,@object
+                         329 	.size	_ostm_Task50MS_Count,1
+                         330 	.global	_ostm_Task100MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         331 _ostm_Task100MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         332 	.type	_ostm_Task100MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         333 	.size	_ostm_Task100MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000005 00              334 _ostm_Task100MS_Count:	.byte	0
+                         335 	.type	_ostm_Task100MS_Count,@object
+                         336 	.size	_ostm_Task100MS_Count,1
+                         337 	.global	_ostm_Task200MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         338 _ostm_Task200MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         339 	.type	_ostm_Task200MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         340 	.size	_ostm_Task200MS_Count..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000006 00              341 _ostm_Task200MS_Count:	.byte	0
+                         342 	.type	_ostm_Task200MS_Count,@object
+                         343 	.size	_ostm_Task200MS_Count,1
+                         344 	.section ".bss","awb"
+                         345 	.global	_ostm_5MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         346 _ostm_5MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         347 	.type	_ostm_5MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         348 	.size	_ostm_5MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000001 00              349 _ostm_5MS_Flag:	.space	1
+                         350 	.type	_ostm_5MS_Flag,@object
+                         351 	.size	_ostm_5MS_Flag,1
+                         352 	.global	_ostm_20MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         353 _ostm_20MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         354 	.type	_ostm_20MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         355 	.size	_ostm_20MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+00000002 00              356 _ostm_20MS_Flag:	.space	1
+                         357 	.type	_ostm_20MS_Flag,@object
+                         358 	.size	_ostm_20MS_Flag,1
+                         359 	.global	_ostm_50MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         360 _ostm_50MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         361 	.type	_ostm_50MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         362 	.size	_ostm_50MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000003 00              363 _ostm_50MS_Flag:	.space	1
+                         364 	.type	_ostm_50MS_Flag,@object
+                         365 	.size	_ostm_50MS_Flag,1
+                         366 	.global	_ostm_100MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         367 _ostm_100MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         368 	.type	_ostm_100MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         369 	.size	_ostm_100MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000004 00              370 _ostm_100MS_Flag:	.space	1
+                         371 	.type	_ostm_100MS_Flag,@object
+                         372 	.size	_ostm_100MS_Flag,1
+                         373 	.global	_ostm_200MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         374 _ostm_200MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         375 	.type	_ostm_200MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         376 	.size	_ostm_200MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000005 00              377 _ostm_200MS_Flag:	.space	1
+                         378 	.type	_ostm_200MS_Flag,@object
+                         379 	.size	_ostm_200MS_Flag,1
+                         380 	.global	_ostm_1000MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         381 _ostm_1000MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         382 	.type	_ostm_1000MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         383 	.size	_ostm_1000MS_Flag..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000006 00              384 _ostm_1000MS_Flag:	.space	1
+                         385 	.type	_ostm_1000MS_Flag,@object
+                         386 	.size	_ostm_1000MS_Flag,1
+                         387 	.data
+                         388 	.global	_ostm1_10ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         389 _ostm1_10ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         390 	.type	_ostm1_10ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         391 	.size	_ostm1_10ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000007 00              392 _ostm1_10ms_counter:	.byte	0
+                         393 	.type	_ostm1_10ms_counter,@object
+                         394 	.size	_ostm1_10ms_counter,1
+                         395 	.global	_ostm1_20ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         396 _ostm1_20ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         397 	.type	_ostm1_20ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         398 	.size	_ostm1_20ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000008 00              399 _ostm1_20ms_counter:	.byte	0
+                         400 	.type	_ostm1_20ms_counter,@object
+                         401 	.size	_ostm1_20ms_counter,1
+                         402 	.global	_ostm1_50ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         403 _ostm1_50ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         404 	.type	_ostm1_50ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         405 	.size	_ostm1_50ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+00000009 00              406 _ostm1_50ms_counter:	.byte	0
+                         407 	.type	_ostm1_50ms_counter,@object
+                         408 	.size	_ostm1_50ms_counter,1
+                         409 	.global	_ostm1_100ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+                         410 _ostm1_100ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         411 	.type	_ostm1_100ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         412 	.size	_ostm1_100ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+0000000a 00              413 _ostm1_100ms_counter:	.byte	0
+                         414 	.type	_ostm1_100ms_counter,@object
+                         415 	.size	_ostm1_100ms_counter,1
+                         416 	.global	_ostm1_1000ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         417 _ostm1_1000ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.:
+                         418 	.type	_ostm1_1000ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,@object
+                         419 	.size	_ostm1_1000ms_counter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.,1
+0000000b 00              420 _ostm1_1000ms_counter:	.byte	0
+                         421 	.type	_ostm1_1000ms_counter,@object
+                         422 	.size	_ostm1_1000ms_counter,1
+                         423 	.text
+                         424 
+                         425 
+                         426 --107: void OSTM_Start(void)
+                         427 	.align	2
+                         428 	.align	2
+                         429 	.global	_OSTM_Start
+                         430 _OSTM_Start:
+                         431 --	    .bf
+                         432 .LDW31:
+                         433 --108: {
+                         434 --109:     OSTM1TS = 0x01;
+000000d8 010a            435 	mov	1,r1
+000000da 80074d0920d8    436 	st.b	r1,4293660692[zero]
+                         437 --110: }
+000000e0 0000            438 	nop
+                         439 --	    .ef
+                         440 .LDW41:
+000000e2 7f00            441 	jmp	[lp]
+                         442 	.type	_OSTM_Start,@function
+                         443 	.size	_OSTM_Start,.-_OSTM_Start
+                         444 	.align	2
+                         445 .LDW51:
+                         446 
+                         447 	.section ".bss","awb"
+                         448 .L202:
+                         449 	.type	.L202,@object
+                         450 	.size	.L202,0
+                         451 	.data
+                         452 	.text
+                         453 
+                         454 
+                         455 --112: /***************************************************
+                         456 --113: * Function: OSTM_GetInitStatus
+                         457 --114: * Description: get the OSTM module initialized status
+                         458 --115: * Parameters: none
+                         459 --116: * Returns: ostm_InitStatus
+                         460 --117: * $Create & Verlog:$
+                         461 --118: * Author: Xiaojie.Zheng   Date:2016-12-12   Version:V1.0
+                         462 --119: ****************************************************/
+                         463 --120: U8 OSTM_GetInitStatus(void)
+                         464 	.align	2
+                         465 	.align	2
+                         466 	.global	_OSTM_GetInitStatus
+                         467 _OSTM_GetInitStatus:
+                         468 --	    .bf
+                         469 .LDW61:
+                         470 --121: {
+                         471 --122:     return ostm_InitStatus;
+000000e4 2a0600000000*   472 	mov	_ostm_InitStatus,r10
+000000ea 8a570100        473 	ld.bu	0[r10],r10
+                         474 --	    .ef
+                         475 .LDW71:
+000000ee 7f00            476 	jmp	[lp]
+                         477 	.type	_OSTM_GetInitStatus,@function
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         478 	.size	_OSTM_GetInitStatus,.-_OSTM_GetInitStatus
+                         479 	.align	2
+                         480 .LDW81:
+                         481 
+                         482 	.data
+                         483 	.text
+                         484 
+                         485 --123: }
+                         486 
+                         487 --125: /***************************************************
+                         488 --126: * Function: OSTM_GetTickTime
+                         489 --127: * Description:
+                         490 --128: * Parameters:  none
+                         491 --129: * Returns: none
+                         492 --130: * $Create & Verlog:$
+                         493 --131: * Author:Jianjun.He  Date:2016-12-09   Version:V1.0
+                         494 --132: ****************************************************/
+                         495 --133: U8 OSTM_GetTickTime(PU32 time)
+                         496 	.align	2
+                         497 	.align	2
+                         498 	.global	_OSTM_GetTickTime
+                         499 _OSTM_GetTickTime:
+000000f0 06f0            500 	mov	r6,ep
+                         501 --	    .bf
+                         502 .LDW91:
+                         503 --134: {
+                         504 --135:     U8 res =RET_OK;
+000000f2 010a            505 	mov	1,r1
+                         506 --136:     if (FALSE == ostm_InitStatus)
+000000f4 2e0600000000*   507 	mov	_ostm_InitStatus,r14
+000000fa 8e770100        508 	ld.bu	0[r14],r14
+000000fe e071            509 	cmp	zero,r14
+00000100 ba05*           510 	bne	.L245
+                         511 --137:     {
+                         512 --138:         res = RET_FAIL;
+                         513 --line138
+                         514 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.3::
+                         515 .LDWlin3:
+00000102 000a            516 	mov	0,r1
+00000104 b50d*           517 	br	.L247
+                         518 .L245:
+                         519 --139:     }
+                         520 --140:     else if (NULL_PTR == time)
+                         521 --line140
+                         522 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.4::
+                         523 .LDWlin4:
+00000106 e0f1            524 	cmp	zero,ep
+00000108 ba05*           525 	bne	.L248
+                         526 --141:     {
+                         527 --142:         res = RET_INVALID;
+                         528 --line142
+                         529 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.5::
+                         530 .LDWlin5:
+0000010a 020a            531 	mov	2,r1
+0000010c f505*           532 	br	.L247
+                         533 .L248:
+                         534 --143:     }
+                         535 --144:     else
+                         536 --145:     {
+                         537 --146:         *time = ostm_TickTime; /*sys_ticktime 在1ms 定时中断服务中自增*/
+                         538 --line146
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         539 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.6::
+                         540 .LDWlin6:
+0000010e 2e0600000000*   541 	mov	_ostm_TickTime,r14
+00000114 2e770100        542 	ld.w	0[r14],r14
+00000118 0175            543 	sst.w	r14,0[ep]
+                         544 .L247:
+                         545 --147:     }
+                         546 --148:     return  res;
+0000011a 0150            547 	mov	r1,r10
+                         548 --	    .ef
+                         549 .LDW02:
+0000011c 7f00            550 	jmp	[lp]
+                         551 	.type	_OSTM_GetTickTime,@function
+                         552 	.size	_OSTM_GetTickTime,.-_OSTM_GetTickTime
+                         553 	.align	2
+                         554 .LDW12:
+                         555 --_res	r1	local
+                         556 
+                         557 --_time	ep	param
+                         558 
+                         559 	.data
+                         560 	.text
+                         561 
+                         562 --149: }
+                         563 
+                         564 --150: /***************************************************
+                         565 --151: * Function: OSTM_GetSysTaskFlag
+                         566 --152: * Description:
+                         567 --153: * Parameters:  none
+                         568 --154: * Returns: none
+                         569 --155: * $Create & Verlog:$
+                         570 --156: * Author:Jianjun.He  Date:2016-12-09   Version:V1.0
+                         571 --157: ****************************************************/
+                         572 --158: U8 OSTM_GetSysTaskFlag(OSTMTaskType_ENUM ostmtask, PU8 flag)
+                         573 	.align	2
+                         574 	.align	2
+                         575 	.global	_OSTM_GetSysTaskFlag
+                         576 _OSTM_GetSysTaskFlag:
+0000011e 0668            577 	mov	r6,r13
+00000120 07f0            578 	mov	r7,ep
+00000122 210600000000*   579 	mov	_ostm_InitStatus,r1
+                         580 --	    .bf
+                         581 .LDW22:
+                         582 --159: {
+                         583 --160:     U8 res =RET_OK;
+00000128 0172            584 	mov	1,r14
+                         585 --161:     if (FALSE == ostm_InitStatus)
+0000012a 2c0600000000*   586 	mov	_ostm_InitStatus,r12
+00000130 8c670100        587 	ld.bu	0[r12],r12
+00000134 e061            588 	cmp	zero,r12
+00000136 ba05*           589 	bne	.L307
+                         590 --162:     {
+                         591 --163:         res = RET_FAIL;
+                         592 --line163
+                         593 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.7::
+                         594 .LDWlin7:
+00000138 0072            595 	mov	0,r14
+0000013a 8535*           596 	br	.L309
+                         597 .L307:
+                         598 --164:     }
+                         599 --165:     else if ((NULL_PTR == flag) || (INDEX_OSTM_ALL <= ostmtask))
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         600 --line165
+                         601 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.8::
+                         602 .LDWlin8:
+0000013c e0f1            603 	cmp	zero,ep
+0000013e b205*           604 	be	.L311
+00000140 6a6a            605 	cmp	10,r13
+00000142 b605*           606 	blt	.L310
+                         607 .L311:
+                         608 --166:     {
+                         609 --167:         res = RET_INVALID;
+                         610 --line167
+                         611 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.9::
+                         612 .LDWlin9:
+00000144 0272            613 	mov	2,r14
+00000146 a52d*           614 	br	.L309
+                         615 .L310:
+                         616 --168:     }
+                         617 --169:     else
+                         618 --170:     {
+                         619 --171:         switch (ostmtask)
+                         620 --line171
+                         621 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.10::
+                         622 .LDWlin10:
+00000148 656a            623 	cmp	5,r13
+0000014a 890d*           624 	bnl	.L387
+0000014c 616a            625 	cmp	1,r13
+0000014e c20d*           626 	be	.L316
+00000150 636a            627 	cmp	3,r13
+00000152 e20d*           628 	be	.L317
+00000154 646a            629 	cmp	4,r13
+00000156 8a25*           630 	bne	.L322
+00000158 f50d*           631 	br	.L318
+                         632 .L387:
+0000015a 666a            633 	cmp	6,r13
+0000015c 9115*           634 	bl	.L319
+0000015e c215*           635 	be	.L320
+00000160 686a            636 	cmp	8,r13
+00000162 aa1d*           637 	bne	.L322
+00000164 d515*           638 	br	.L321
+                         639 .L316:
+                         640 --172:         {
+                         641 --174:             case INDEX_OSTM_5MS:
+                         642 --175:                 *flag = ostm_5MS_Flag;
+                         643 --line175
+                         644 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.11::
+                         645 .LDWlin11:
+00000166 a10f0100        646 	ld.bu	1[r1],r1
+0000016a 800b            647 	sst.b	r1,0[ep]
+0000016c f515*           648 	br	.L309
+                         649 .L317:
+                         650 --176:                 break;
+                         651 --177:             case INDEX_OSTM_20MS:
+                         652 --178:                 *flag = ostm_20MS_Flag;
+                         653 --line178
+                         654 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.12::
+                         655 .LDWlin12:
+0000016e 810f0300        656 	ld.bu	2[r1],r1
+00000172 800b            657 	sst.b	r1,0[ep]
+00000174 b515*           658 	br	.L309
+                         659 .L318:
+                         660 --179:                 break;
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         661 --180:             case INDEX_OSTM_50MS:
+                         662 --181:                 *flag = ostm_50MS_Flag;
+                         663 --line181
+                         664 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.13::
+                         665 .LDWlin13:
+00000176 a10f0300        666 	ld.bu	3[r1],r1
+0000017a 800b            667 	sst.b	r1,0[ep]
+0000017c f50d*           668 	br	.L309
+                         669 .L319:
+                         670 --182:                 break;
+                         671 --183:             case INDEX_OSTM_100MS:
+                         672 --184:                 *flag = ostm_100MS_Flag;
+                         673 --line184
+                         674 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.14::
+                         675 .LDWlin14:
+0000017e 810f0500        676 	ld.bu	4[r1],r1
+00000182 800b            677 	sst.b	r1,0[ep]
+00000184 b50d*           678 	br	.L309
+                         679 .L320:
+                         680 --185:                 break;
+                         681 --186: 				
+                         682 --187:             case INDEX_OSTM_200MS:
+                         683 --188:                 *flag = ostm_200MS_Flag;
+                         684 --line188
+                         685 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.15::
+                         686 .LDWlin15:
+00000186 a10f0500        687 	ld.bu	5[r1],r1
+0000018a 800b            688 	sst.b	r1,0[ep]
+0000018c f505*           689 	br	.L309
+                         690 .L321:
+                         691 --189:                 break;
+                         692 --190:             case INDEX_OSTM_1000MS:
+                         693 --191:                 *flag = ostm_1000MS_Flag;
+                         694 --line191
+                         695 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.16::
+                         696 .LDWlin16:
+0000018e 810f0700        697 	ld.bu	6[r1],r1
+00000192 800b            698 	sst.b	r1,0[ep]
+00000194 b505*           699 	br	.L309
+                         700 .L322:
+                         701 --192:                 break;
+                         702 --193:             default:
+                         703 --194:                 res = RET_INVALID;
+                         704 --line194
+                         705 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.17::
+                         706 .LDWlin17:
+00000196 0272            707 	mov	2,r14
+00000198 0000            708 	nop
+                         709 .L309:
+                         710 --195:                 break;
+                         711 --196:         }
+                         712 --197:     }
+                         713 --198:     return  res;
+0000019a 0e50            714 	mov	r14,r10
+                         715 --	    .ef
+                         716 .LDW32:
+0000019c 7f00            717 	jmp	[lp]
+                         718 	.type	_OSTM_GetSysTaskFlag,@function
+                         719 	.size	_OSTM_GetSysTaskFlag,.-_OSTM_GetSysTaskFlag
+                         720 	.align	2
+                         721 .LDW42:
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         722 --_res	r14	local
+                         723 
+                         724 --_ostmtask	r13	param
+                         725 --_flag	ep	param
+                         726 
+                         727 	.data
+                         728 	.text
+                         729 
+                         730 --199: }
+                         731 
+                         732 --200: /***************************************************
+                         733 --201: * Function: OSTM_ClearSysTaskFlag
+                         734 --202: * Description:
+                         735 --203: * Parameters:  none
+                         736 --204: * Returns: none
+                         737 --205: * $Create & Verlog:$
+                         738 --206: * Author:Jianjun.He  Date:2016-12-09   Version:V1.0
+                         739 --207: ****************************************************/
+                         740 --208: U8 OSTM_ClrSysTaskFlag(OSTMTaskType_ENUM ostmtask)
+                         741 	.align	2
+                         742 	.align	2
+                         743 	.global	_OSTM_ClrSysTaskFlag
+                         744 _OSTM_ClrSysTaskFlag:
+0000019e 0668            745 	mov	r6,r13
+000001a0 210600000000*   746 	mov	_ostm_InitStatus,r1
+                         747 --	    .bf
+                         748 .LDW52:
+                         749 --209: {
+                         750 --210:     U8 res =RET_OK;
+000001a6 0172            751 	mov	1,r14
+                         752 --211:     if (FALSE == ostm_InitStatus)
+000001a8 2c0600000000*   753 	mov	_ostm_InitStatus,r12
+000001ae 8c670100        754 	ld.bu	0[r12],r12
+000001b2 e061            755 	cmp	zero,r12
+000001b4 ba05*           756 	bne	.L489
+                         757 --212:     {
+                         758 --213:         res = RET_FAIL;
+                         759 --line213
+                         760 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.18::
+                         761 .LDWlin18:
+000001b6 0072            762 	mov	0,r14
+000001b8 b525*           763 	br	.L491
+                         764 .L489:
+                         765 --214:     }
+                         766 --215:     else if (INDEX_OSTM_ALL <= ostmtask)
+                         767 --line215
+                         768 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.19::
+                         769 .LDWlin19:
+000001ba 6a6a            770 	cmp	10,r13
+000001bc b605*           771 	blt	.L492
+                         772 --216:     {
+                         773 --217:         res = RET_INVALID;
+                         774 --line217
+                         775 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.20::
+                         776 .LDWlin20:
+000001be 0272            777 	mov	2,r14
+000001c0 f51d*           778 	br	.L491
+                         779 .L492:
+                         780 --218:     }
+                         781 --219:     else
+                         782 --220:     {
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         783 --221:         switch (ostmtask)
+                         784 --line221
+                         785 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.21::
+                         786 .LDWlin21:
+000001c2 646a            787 	cmp	4,r13
+000001c4 e905*           788 	bnl	.L557
+000001c6 616a            789 	cmp	1,r13
+000001c8 a20d*           790 	be	.L497
+000001ca 636a            791 	cmp	3,r13
+000001cc fa15*           792 	bne	.L502
+000001ce a50d*           793 	br	.L498
+                         794 .L557:
+000001d0 656a            795 	cmp	5,r13
+000001d2 b10d*           796 	bl	.L499
+000001d4 d20d*           797 	be	.L500
+000001d6 686a            798 	cmp	8,r13
+000001d8 9a15*           799 	bne	.L502
+000001da d50d*           800 	br	.L501
+                         801 .L497:
+                         802 --222:         {
+                         803 --223:             case INDEX_OSTM_5MS:
+                         804 --224:                 ostm_5MS_Flag = FALSE;
+                         805 --line224
+                         806 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.22::
+                         807 .LDWlin22:
+000001dc 41070100        808 	st.b	zero,1[r1]
+000001e0 f50d*           809 	br	.L491
+                         810 .L498:
+                         811 --225:                 break;
+                         812 --226:             case INDEX_OSTM_20MS:
+                         813 --227:                 ostm_20MS_Flag = FALSE;
+                         814 --line227
+                         815 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.23::
+                         816 .LDWlin23:
+000001e2 41070200        817 	st.b	zero,2[r1]
+000001e6 c50d*           818 	br	.L491
+                         819 .L499:
+                         820 --228:                 break;
+                         821 --229:             case INDEX_OSTM_50MS:
+                         822 --230:                 ostm_50MS_Flag = FALSE;
+                         823 --line230
+                         824 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.24::
+                         825 .LDWlin24:
+000001e8 41070300        826 	st.b	zero,3[r1]
+000001ec 950d*           827 	br	.L491
+                         828 .L500:
+                         829 --231:                 break;
+                         830 --232:             case INDEX_OSTM_100MS:
+                         831 --233:                 ostm_100MS_Flag = FALSE;
+                         832 --line233
+                         833 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.25::
+                         834 .LDWlin25:
+000001ee 41070400        835 	st.b	zero,4[r1]
+000001f2 e505*           836 	br	.L491
+                         837 .L501:
+                         838 --234:                 break;
+                         839 --235:             case INDEX_OSTM_1000MS:
+                         840 --236:                 ostm_1000MS_Flag = FALSE;
+                         841 --line236
+                         842 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.26::
+                         843 .LDWlin26:
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+000001f4 41070600        844 	st.b	zero,6[r1]
+000001f8 b505*           845 	br	.L491
+                         846 .L502:
+                         847 --237:                 break;
+                         848 --238:             default:
+                         849 --239:                 res = RET_INVALID;
+                         850 --line239
+                         851 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.27::
+                         852 .LDWlin27:
+000001fa 0272            853 	mov	2,r14
+000001fc 0000            854 	nop
+                         855 .L491:
+                         856 --240:                 break;
+                         857 --241:         }
+                         858 --242:     }
+                         859 --243:     return  res;
+000001fe 0e50            860 	mov	r14,r10
+                         861 --	    .ef
+                         862 .LDW62:
+00000200 7f00            863 	jmp	[lp]
+                         864 	.type	_OSTM_ClrSysTaskFlag,@function
+                         865 	.size	_OSTM_ClrSysTaskFlag,.-_OSTM_ClrSysTaskFlag
+                         866 	.align	2
+                         867 .LDW72:
+                         868 --_res	r14	local
+                         869 
+                         870 --_ostmtask	r13	param
+                         871 
+                         872 	.data
+                         873 	.text
+                         874 
+                         875 --244: }
+                         876 
+                         877 --247: /***************************************************
+                         878 --248: * Function: OSTM_IsrHandler
+                         879 --249: * Description:
+                         880 --250: * Parameters:  none
+                         881 --251: * Returns: none
+                         882 --252: * $Create & Verlog:$
+                         883 --253: * Author:Jianjun.He  Date:2016-12-09   Version:V1.0
+                         884 --254: ****************************************************/
+                         885 --255: void OSTM0_IsrHandler(void)
+                         886 	.align	2
+                         887 	.align	2
+                         888 	.global	_OSTM0_IsrHandler
+                         889 _OSTM0_IsrHandler:
+00000202 8407e170        890 	prepare	{r25,r26,r27,r28,r29,r31},2
+00000206 3d0600000000*   891 	mov	_ostm_5MS_Flag-1,r29
+0000020c 3c0600000000*   892 	mov	_ostm_Task1000MS_Count,r28
+00000212 3b0600000000*   893 	mov	_ostm_Task200MS_Count,r27
+00000218 3a0600000000*   894 	mov	_ostm_Task100MS_Count,r26
+0000021e 390600000000*   895 	mov	_ostm_Task50MS_Count,r25
+                         896 --	    .bf
+                         897 .LDW82:
+                         898 --256: {
+                         899 --258: 	ostm_TickTime++;
+00000224 3e0600000000*   900 	mov	_ostm_TickTime,ep
+0000022a 000d            901 	sld.w	0[ep],r1
+0000022c 410a            902 	add	1,r1
+0000022e 010d            903 	sst.w	r1,0[ep]
+                         904 --259: 	
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         905 --260: 	ostm_Task5MS_Count++;
+00000230 210600000000*   906 	mov	_ostm_Task5MS_Count,r1
+00000236 810f0100        907 	ld.bu	0[r1],r1
+0000023a 2c0600000000*   908 	mov	_ostm_Task5MS_Count,r12
+00000240 410a            909 	add	1,r1
+00000242 4c0f0000        910 	st.b	r1,0[r12]
+                         911 --261: 	ostm_Task20MS_Count++;
+00000246 210600000000*   912 	mov	_ostm_Task20MS_Count,r1
+0000024c 810f0100        913 	ld.bu	0[r1],r1
+00000250 2c0600000000*   914 	mov	_ostm_Task20MS_Count,r12
+00000256 410a            915 	add	1,r1
+00000258 4c0f0000        916 	st.b	r1,0[r12]
+                         917 --262: 	ostm_Task50MS_Count++;
+0000025c 990f0100        918 	ld.bu	0[r25],r1
+00000260 410a            919 	add	1,r1
+00000262 590f0000        920 	st.b	r1,0[r25]
+                         921 --263: 	ostm_Task100MS_Count++;
+00000266 9a0f0100        922 	ld.bu	0[r26],r1
+0000026a 410a            923 	add	1,r1
+0000026c 5a0f0000        924 	st.b	r1,0[r26]
+                         925 --264: 	ostm_Task200MS_Count++;
+00000270 9b0f0100        926 	ld.bu	0[r27],r1
+00000274 410a            927 	add	1,r1
+00000276 5b0f0000        928 	st.b	r1,0[r27]
+                         929 --265: 	ostm_Task1000MS_Count++;
+0000027a fc0f0100        930 	ld.hu	0[r28],r1
+0000027e 410a            931 	add	1,r1
+00000280 7c0f0000        932 	st.h	r1,0[r28]
+                         933 --267: 	if (evt_TickType.cnt !=0) 
+00000284 210600000000*   934 	mov	_evt_TickType+2,r1
+0000028a e10f0100        935 	ld.hu	0[r1],r1
+0000028e e009            936 	cmp	zero,r1
+00000290 f205*           937 	be	.L646
+                         938 --268: 		evt_TickType.cnt --;
+                         939 --line268
+                         940 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.28::
+                         941 .LDWlin28:
+00000292 3e0600000000*   942 	mov	_evt_TickType,ep
+00000298 7108            943 	sld.hu	2[ep],r1
+0000029a 5f0a            944 	add	-1,r1
+0000029c 810c            945 	sst.h	r1,2[ep]
+                         946 .L646:
+                         947 --271:     if (TASK_5MS_CNT <= ostm_Task5MS_Count)
+0000029e 210600000000*   948 	mov	_ostm_Task5MS_Count,r1
+000002a4 810f0100        949 	ld.bu	0[r1],r1
+000002a8 650a            950 	cmp	5,r1
+000002aa e10d*           951 	bl	.L650
+                         952 --272:     {
+                         953 --273:         ostm_Task5MS_Count = 0;
+                         954 --line273
+                         955 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.29::
+                         956 .LDWlin29:
+000002ac 2b0600000000*   957 	mov	_ostm_Task5MS_Count,r11
+000002b2 4b070000        958 	st.b	zero,0[r11]
+                         959 --274:         ostm_5MS_Flag = TRUE;
+000002b6 2b0600000000*   960 	mov	_ostm_5MS_Flag,r11
+000002bc 010a            961 	mov	1,r1
+000002be 4b0f0000        962 	st.b	r1,0[r11]
+                         963 --275: 	    CHM_SignalOutPutProcess_5ms();
+                         964 	jarl	_CHM_SignalOutPutProcess_5ms,lp
+                         964 <EXPANSION BEGIN>
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                         964 jarl22 _CHM_SignalOutPutProcess_5ms , lp 
+000002c2 80ff0000*       964 <EXPANSION END>
+                         965 .L650:
+                         966 --276:     }
+                         967 --277: 	else
+                         968 --278: 	{
+                         969 --279: 	}
+                         970 --280: 	
+                         971 --281:     if (TASK_20MS_CNT <= ostm_Task20MS_Count)
+                         972 --line281
+                         973 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.30::
+                         974 .LDWlin30:
+000002c6 210600000000*   975 	mov	_ostm_Task20MS_Count,r1
+000002cc 810f0100        976 	ld.bu	0[r1],r1
+000002d0 0106ecff        977 	addi	-20,r1,zero
+000002d4 990d*           978 	bnl	.L653
+                         979 --282:     {
+                         980 --283:         ostm_Task20MS_Count = 0;
+                         981 --line283
+                         982 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.31::
+                         983 .LDWlin31:
+000002d6 2b0600000000*   984 	mov	_ostm_Task20MS_Count,r11
+000002dc 4b070000        985 	st.b	zero,0[r11]
+                         986 --284:         ostm_20MS_Flag = TRUE;
+000002e0 010a            987 	mov	1,r1
+000002e2 5d0f0200        988 	st.b	r1,2[r29]
+                         989 .L653:
+                         990 --285:     }
+                         991 --286: 	else
+                         992 --287: 	{
+                         993 --288: 	}
+                         994 --289: 	
+                         995 --290:     if (TASK_50MS_CNT <= ostm_Task50MS_Count)
+000002e6 990f0100        996 	ld.bu	0[r25],r1
+000002ea 0106ceff        997 	addi	-50,r1,zero
+000002ee e905*           998 	bnl	.L654
+                         999 --291:     {
+                        1000 --292:         ostm_Task50MS_Count = 0;
+                        1001 --line292
+                        1002 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.32::
+                        1003 .LDWlin32:
+000002f0 59070000       1004 	st.b	zero,0[r25]
+                        1005 --293:         ostm_50MS_Flag = TRUE;
+000002f4 010a           1006 	mov	1,r1
+000002f6 5d0f0300       1007 	st.b	r1,3[r29]
+                        1008 .L654:
+                        1009 --294:     }
+                        1010 --295:     if (TASK_100MS_CNT <= ostm_Task100MS_Count)
+000002fa 9a0f0100       1011 	ld.bu	0[r26],r1
+000002fe 01069cff       1012 	addi	-100,r1,zero
+00000302 e905*          1013 	bnl	.L658
+                        1014 --296:     {
+                        1015 --297:         ostm_Task100MS_Count = 0;
+                        1016 --line297
+                        1017 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.33::
+                        1018 .LDWlin33:
+00000304 5a070000       1019 	st.b	zero,0[r26]
+                        1020 --298:         ostm_100MS_Flag = TRUE;
+00000308 010a           1021 	mov	1,r1
+0000030a 5d0f0400       1022 	st.b	r1,4[r29]
+                        1023 .L658:
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                        1024 --299:     }
+                        1025 --300: 	else
+                        1026 --301: 	{
+                        1027 --302: 	}
+                        1028 --303: 	if (TASK_200MS_CNT <= ostm_Task200MS_Count)
+0000030e 9b0f0100       1029 	ld.bu	0[r27],r1
+00000312 010638ff       1030 	addi	-200,r1,zero
+00000316 e905*          1031 	bnl	.L661
+                        1032 --304:     {
+                        1033 --305:         ostm_Task200MS_Count = 0;
+                        1034 --line305
+                        1035 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.34::
+                        1036 .LDWlin34:
+00000318 5b070000       1037 	st.b	zero,0[r27]
+                        1038 --306:         ostm_200MS_Flag = TRUE;
+0000031c 010a           1039 	mov	1,r1
+0000031e 5d0f0500       1040 	st.b	r1,5[r29]
+                        1041 .L661:
+                        1042 --307:     }
+                        1043 --308: 	else
+                        1044 --309: 	{
+                        1045 --310: 	}
+                        1046 --311: 	
+                        1047 --312: 	
+                        1048 --313:     if (TASK_1000MS_CNT/*TASK_1000MS_CNT*/ <= ostm_Task1000MS_Count)
+00000322 fc0f0100       1049 	ld.hu	0[r28],r1
+00000326 010618fc       1050 	addi	-1000,r1,zero
+0000032a e905*          1051 	bnl	.L664
+                        1052 --314:     {
+                        1053 --315:         ostm_Task1000MS_Count = 0;
+                        1054 --line315
+                        1055 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.35::
+                        1056 .LDWlin35:
+0000032c 7c070000       1057 	st.h	zero,0[r28]
+                        1058 --316:         ostm_1000MS_Flag = TRUE;
+00000330 010a           1059 	mov	1,r1
+00000332 5d0f0600       1060 	st.b	r1,6[r29]
+                        1061 .L664:
+                        1062 --317:     }
+                        1063 --318: 	else
+                        1064 --319: 	{
+                        1065 --320: 	}
+                        1066 --321: 	
+                        1067 --323: }
+00000336 0000           1068 	nop
+                        1069 --	    .ef
+                        1070 .LDW92:
+00000338 4406ff70       1071 	dispose	2,{r25,r26,r27,r28,r29,r31},[lp]
+                        1072 	.type	_OSTM0_IsrHandler,@function
+                        1073 	.size	_OSTM0_IsrHandler,.-_OSTM0_IsrHandler
+                        1074 	.align	2
+                        1075 .LDW03:
+                        1076 
+                        1077 	.data
+                        1078 	.text
+                        1079 
+                        1080 
+                        1081 --328: /***************************************************
+                        1082 --329: * Function: OSTM_IsrHandler
+                        1083 --330: * Description: 5ms Timer Interupt Task
+                        1084 --331: * Parameters:  none
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                        1085 --332: * Returns: none
+                        1086 --333: * $Create & Verlog:$
+                        1087 --334: * Author:Jianjun.He  Date:2016-12-09   Version:V1.0
+                        1088 --335: ****************************************************/
+                        1089 --336: void OSTM1_IsrHandler(void)
+                        1090 	.align	2
+                        1091 	.align	2
+                        1092 	.global	_OSTM1_IsrHandler
+                        1093 _OSTM1_IsrHandler:
+0000033c 8607e170       1094 	prepare	{r25,r26,r27,r28,r29,r31},3
+00000340 3d0600000000*  1095 	mov	_ostm1_10ms_counter-3,r29
+00000346 3dde0700       1096 	movea	7,r29,r27
+0000034a 3dd60600       1097 	movea	6,r29,r26
+0000034e 3dce0500       1098 	movea	5,r29,r25
+                        1099 --	    .bf
+                        1100 .LDW13:
+                        1101 --337: {
+                        1102 --338:         U8 cansts = 0;
+00000352 43070200       1103 	st.b	zero,2[sp]
+                        1104 --339:         U8 linsts = 0;
+00000356 43070300       1105 	st.b	zero,3[sp]
+                        1106 --340:         U8 res = RET_OK;
+0000035a 01e2           1107 	mov	1,r28
+                        1108 --342:     res = BAT_GetBatFltSts(TYPE_BATDET_CAN,&cansts);
+0000035c 0332           1109 	mov	3,r6
+0000035e 233e0200       1110 	movea	2,sp,r7
+                        1111 	jarl	_BAT_GetBatFltSts,lp
+                        1111 <EXPANSION BEGIN>
+                        1111 jarl22 _BAT_GetBatFltSts , lp 
+00000362 80ff0000*      1111 <EXPANSION END>
+00000366 0ae0           1112 	mov	r10,r28
+                        1113 --343:     res = BAT_GetBatFltSts(TYPE_BATDET_LIN,&linsts);
+                        1114 --line343
+                        1115 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.36::
+                        1116 .LDWlin36:
+00000368 0232           1117 	mov	2,r6
+0000036a 233e0300       1118 	movea	3,sp,r7
+                        1119 	jarl	_BAT_GetBatFltSts,lp
+                        1119 <EXPANSION BEGIN>
+                        1119 jarl22 _BAT_GetBatFltSts , lp 
+0000036e 80ff0000*      1119 <EXPANSION END>
+00000372 0ae0           1120 	mov	r10,r28
+                        1121 --344:       /*CAN RX*/
+                        1122 --345: 	if(LEVEL_BAT_NORMAL == cansts)
+                        1123 --line345
+                        1124 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.37::
+                        1125 .LDWlin37:
+00000374 830f0300       1126 	ld.bu	2[sp],r1
+00000378 e009           1127 	cmp	zero,r1
+0000037a da05*          1128 	bne	.L835
+                        1129 --346: 	{
+                        1130 --347: 		v_input(v_config_handle);
+                        1131 --line347
+                        1132 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.38::
+                        1133 .LDWlin38:
+0000037c 40363f00       1134 	movhi	hi(4128768),zero,r6
+                        1135 	jarl	_v_input,lp
+                        1135 <EXPANSION BEGIN>
+                        1135 jarl22 _v_input , lp 
+00000380 80ff0000*      1135 <EXPANSION END>
+                        1136 .L835:
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                        1137 --348: 	}
+                        1138 --349: 	else
+                        1139 --350: 	{
+                        1140 --351: 	}
+                        1141 --353: /*5ms process start*************/
+                        1142 --354:     /*LIN2CAN转发*/
+                        1143 --355:     COM_Lin2CAN();
+                        1144 --line355
+                        1145 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.39::
+                        1146 .LDWlin39:
+                        1147 	jarl	_COM_Lin2CAN,lp
+                        1147 <EXPANSION BEGIN>
+                        1147 jarl22 _COM_Lin2CAN , lp 
+00000384 80ff0000*      1147 <EXPANSION END>
+                        1148 --356:     /*LIN TX*/
+                        1149 --358: 	ASS_SendNetSignal_5ms();
+                        1150 --line358
+                        1151 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.40::
+                        1152 .LDWlin40:
+                        1153 	jarl	_ASS_SendNetSignal_5ms,lp
+                        1153 <EXPANSION BEGIN>
+                        1153 jarl22 _ASS_SendNetSignal_5ms , lp 
+00000388 80ff0000*      1153 <EXPANSION END>
+                        1154 --359: 	SSB_SendNetSignal_5ms();
+                        1155 --line359
+                        1156 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.41::
+                        1157 .LDWlin41:
+                        1158 	jarl	_SSB_SendNetSignal_5ms,lp
+                        1158 <EXPANSION BEGIN>
+                        1158 jarl22 _SSB_SendNetSignal_5ms , lp 
+0000038c 80ff0000*      1158 <EXPANSION END>
+                        1159 --360: 	CHM_SendNetSignal_5ms();
+                        1160 --line360
+                        1161 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.42::
+                        1162 .LDWlin42:
+                        1163 	jarl	_CHM_SendNetSignal_5ms,lp
+                        1163 <EXPANSION BEGIN>
+                        1163 jarl22 _CHM_SendNetSignal_5ms , lp 
+00000390 80ff0000*      1163 <EXPANSION END>
+                        1164 --361: 	HSD_SendNetSignal_5ms();
+                        1165 --line361
+                        1166 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.43::
+                        1167 .LDWlin43:
+                        1168 	jarl	_HSD_SendNetSignal_5ms,lp
+                        1168 <EXPANSION BEGIN>
+                        1168 jarl22 _HSD_SendNetSignal_5ms , lp 
+00000394 80ff0000*      1168 <EXPANSION END>
+                        1169 --362: /*5ms process end***************/
+                        1170 --364: /*10ms process start************/
+                        1171 --365:     ostm1_10ms_counter ++;
+                        1172 --line365
+                        1173 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.44::
+                        1174 .LDWlin44:
+00000398 bd0f0300       1175 	ld.bu	3[r29],r1
+0000039c 410a           1176 	add	1,r1
+0000039e 5d0f0300       1177 	st.b	r1,3[r29]
+                        1178 --366: 	if(OSTM1_10MS_MAXCNT <= ostm1_10ms_counter)
+000003a2 bd0f0300       1179 	ld.bu	3[r29],r1
+000003a6 620a           1180 	cmp	2,r1
+000003a8 910d*          1181 	bl	.L838
+                        1182 --367: 	{
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                        1183 --368: 		ostm1_10ms_counter = 0;
+                        1184 --line368
+                        1185 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.45::
+                        1186 .LDWlin45:
+000003aa 5d070300       1187 	st.b	zero,3[r29]
+                        1188 --369: 		PWR_SendNetSignal_10ms();
+                        1189 	jarl	_PWR_SendNetSignal_10ms,lp
+                        1189 <EXPANSION BEGIN>
+                        1189 jarl22 _PWR_SendNetSignal_10ms , lp 
+000003ae 80ff0000*      1189 <EXPANSION END>
+                        1190 --370: 		CRUS_SendNetSignal_10ms();
+                        1191 --line370
+                        1192 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.46::
+                        1193 .LDWlin46:
+                        1194 	jarl	_CRUS_SendNetSignal_10ms,lp
+                        1194 <EXPANSION BEGIN>
+                        1194 jarl22 _CRUS_SendNetSignal_10ms , lp 
+000003b2 80ff0000*      1194 <EXPANSION END>
+                        1195 --371: 		TIP_SendNetSignal_10ms();
+                        1196 --line371
+                        1197 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.47::
+                        1198 .LDWlin47:
+                        1199 	jarl	_TIP_SendNetSignal_10ms,lp
+                        1199 <EXPANSION BEGIN>
+                        1199 jarl22 _TIP_SendNetSignal_10ms , lp 
+000003b6 80ff0000*      1199 <EXPANSION END>
+                        1200 .L838:
+                        1201 --372: 	}
+                        1202 --373: 	else
+                        1203 --374: 	{
+                        1204 --375: 	}
+                        1205 --377: /*10ms process end***************/
+                        1206 --378: 	ostm1_20ms_counter ++;
+                        1207 --line378
+                        1208 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.48::
+                        1209 .LDWlin48:
+000003ba 9d0f0500       1210 	ld.bu	4[r29],r1
+000003be 410a           1211 	add	1,r1
+000003c0 5d0f0400       1212 	st.b	r1,4[r29]
+                        1213 --379: 	if(OSTM1_20MS_MAXCNT <= ostm1_20ms_counter)
+000003c4 9d0f0500       1214 	ld.bu	4[r29],r1
+000003c8 640a           1215 	cmp	4,r1
+000003ca b105*          1216 	bl	.L839
+                        1217 --380: 	{	
+                        1218 --381: 		ostm1_20ms_counter = 0;
+                        1219 --line381
+                        1220 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.49::
+                        1221 .LDWlin49:
+000003cc 5d070400       1222 	st.b	zero,4[r29]
+                        1223 .L839:
+                        1224 --382: 		#if (1 == OSTM_EVT_EN)
+                        1225 --383: 			EVT_JudgeLeftDirLamp();
+                        1226 --384: 			EVT_JudgeRightDirLamp();
+                        1227 --385: 		#endif
+                        1228 --386: 	}
+                        1229 --388: /*50ms process start*************/
+                        1230 --389: 	ostm1_50ms_counter ++;
+000003d0 bd0f0500       1231 	ld.bu	5[r29],r1
+000003d4 410a           1232 	add	1,r1
+000003d6 5d0f0500       1233 	st.b	r1,5[r29]
+                        1234 --390: 	if(OSTM1_50MS_MAXCNT <= ostm1_50ms_counter)
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+000003da bd0f0500       1235 	ld.bu	5[r29],r1
+000003de 6a0a           1236 	cmp	10,r1
+000003e0 910d*          1237 	bl	.L843
+                        1238 --391: 	{
+                        1239 --392: 		ostm1_50ms_counter = 0;	
+                        1240 --line392
+                        1241 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.50::
+                        1242 .LDWlin50:
+000003e2 5d070500       1243 	st.b	zero,5[r29]
+                        1244 --394: 		WFM_SendNetSignal_50ms();
+                        1245 	jarl	_WFM_SendNetSignal_50ms,lp
+                        1245 <EXPANSION BEGIN>
+                        1245 jarl22 _WFM_SendNetSignal_50ms , lp 
+000003e6 80ff0000*      1245 <EXPANSION END>
+                        1246 --395: 		TPMS_SendUnitSignal_50ms();
+                        1247 --line395
+                        1248 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.51::
+                        1249 .LDWlin51:
+                        1250 	jarl	_TPMS_SendUnitSignal_50ms,lp
+                        1250 <EXPANSION BEGIN>
+                        1250 jarl22 _TPMS_SendUnitSignal_50ms , lp 
+000003ea 80ff0000*      1250 <EXPANSION END>
+                        1251 --396: 		ST_SendNetSignal_50ms();
+                        1252 --line396
+                        1253 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.52::
+                        1254 .LDWlin52:
+                        1255 	jarl	_ST_SendNetSignal_50ms,lp
+                        1255 <EXPANSION BEGIN>
+                        1255 jarl22 _ST_SendNetSignal_50ms , lp 
+000003ee 80ff0000*      1255 <EXPANSION END>
+                        1256 .L843:
+                        1257 --397: 	}
+                        1258 --398: 	else
+                        1259 --399: 	{
+                        1260 --400: 	}
+                        1261 --401: /*50ms process end***************/
+                        1262 --403: /*100ms process start************/
+                        1263 --404:     ostm1_100ms_counter ++;
+                        1264 --line404
+                        1265 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.53::
+                        1266 .LDWlin53:
+000003f2 9d0f0700       1267 	ld.bu	6[r29],r1
+000003f6 410a           1268 	add	1,r1
+000003f8 5d0f0600       1269 	st.b	r1,6[r29]
+                        1270 --405: 	if(OSTM1_100MS_MAXCNT <= ostm1_100ms_counter)
+000003fc 9d0f0700       1271 	ld.bu	6[r29],r1
+00000400 0106ecff       1272 	addi	-20,r1,zero
+00000404 d90d*          1273 	bnl	.L846
+                        1274 --406: 	{
+                        1275 --407: 		ostm1_100ms_counter = 0;
+                        1276 --line407
+                        1277 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.54::
+                        1278 .LDWlin54:
+00000406 5d070600       1279 	st.b	zero,6[r29]
+                        1280 --408: 		SCS_SendNetSignal_100ms();
+                        1281 	jarl	_SCS_SendNetSignal_100ms,lp
+                        1281 <EXPANSION BEGIN>
+                        1281 jarl22 _SCS_SendNetSignal_100ms , lp 
+0000040a 80ff0000*      1281 <EXPANSION END>
+                        1282 --409: 		TPMS_SendNetSignal_100ms();
+                        1283 --line409
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                        1284 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.55::
+                        1285 .LDWlin55:
+                        1286 	jarl	_TPMS_SendNetSignal_100ms,lp
+                        1286 <EXPANSION BEGIN>
+                        1286 jarl22 _TPMS_SendNetSignal_100ms , lp 
+0000040e 80ff0000*      1286 <EXPANSION END>
+                        1287 --410: 		ACC_SendNetSignal_100ms();        
+                        1288 --line410
+                        1289 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.56::
+                        1290 .LDWlin56:
+                        1291 	jarl	_ACC_SendNetSignal_100ms,lp
+                        1291 <EXPANSION BEGIN>
+                        1291 jarl22 _ACC_SendNetSignal_100ms , lp 
+00000412 80ff0000*      1291 <EXPANSION END>
+                        1292 --411: 		ODO_SendNetSignal_100ms();
+                        1293 --line411
+                        1294 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.57::
+                        1295 .LDWlin57:
+                        1296 	jarl	_ODO_SendNetSignal_100ms,lp
+                        1296 <EXPANSION BEGIN>
+                        1296 jarl22 _ODO_SendNetSignal_100ms , lp 
+00000416 80ff0000*      1296 <EXPANSION END>
+                        1297 --412: 		RTC_SendNetSignal_100ms();
+                        1298 --line412
+                        1299 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.58::
+                        1300 .LDWlin58:
+                        1301 	jarl	_RTC_SendNetSignal_100ms,lp
+                        1301 <EXPANSION BEGIN>
+                        1301 jarl22 _RTC_SendNetSignal_100ms , lp 
+0000041a 80ff0000*      1301 <EXPANSION END>
+                        1302 .L846:
+                        1303 --413: 	}
+                        1304 --414: 	else
+                        1305 --415: 	{
+                        1306 --416: 	}
+                        1307 --417: /*100ms process end************/
+                        1308 --419: /*1000ms process start*********/
+                        1309 --420: 	ostm1_1000ms_counter ++;
+                        1310 --line420
+                        1311 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.59::
+                        1312 .LDWlin59:
+0000041e bd0f0700       1313 	ld.bu	7[r29],r1
+00000422 410a           1314 	add	1,r1
+00000424 5d0f0700       1315 	st.b	r1,7[r29]
+                        1316 --421: 	if(OSTM1_1000MS_MAXCNT <= ostm1_1000ms_counter)
+00000428 bd0f0700       1317 	ld.bu	7[r29],r1
+0000042c 010638ff       1318 	addi	-200,r1,zero
+00000430 990d*          1319 	bnl	.L849
+                        1320 --422: 	{
+                        1321 --423: 		ostm1_1000ms_counter = 0;
+                        1322 --line423
+                        1323 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.60::
+                        1324 .LDWlin60:
+00000432 5d070700       1325 	st.b	zero,7[r29]
+                        1326 --424: 		FC_NetSignal_OutPut();
+                        1327 	jarl	_FC_NetSignal_OutPut,lp
+                        1327 <EXPANSION BEGIN>
+                        1327 jarl22 _FC_NetSignal_OutPut , lp 
+00000436 80ff0000*      1327 <EXPANSION END>
+                        1328 --425: 		FL_NetSignal_OutPut();
+                        1329 --line425
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                        1330 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.61::
+                        1331 .LDWlin61:
+                        1332 	jarl	_FL_NetSignal_OutPut,lp
+                        1332 <EXPANSION BEGIN>
+                        1332 jarl22 _FL_NetSignal_OutPut , lp 
+0000043a 80ff0000*      1332 <EXPANSION END>
+                        1333 --426: 		RANG_NetSignal_OutPut();
+                        1334 --line426
+                        1335 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.62::
+                        1336 .LDWlin62:
+                        1337 	jarl	_RANG_NetSignal_OutPut,lp
+                        1337 <EXPANSION BEGIN>
+                        1337 jarl22 _RANG_NetSignal_OutPut , lp 
+0000043e 80ff0000*      1337 <EXPANSION END>
+                        1338 .L849:
+                        1339 --427: 	}
+                        1340 --428: 	else
+                        1341 --429: 	{
+                        1342 --430: 	}
+                        1343 --431: /*1000ms process end*********/	
+                        1344 --432: 	
+                        1345 --433:   
+                        1346 --434: 	/*CAN TX*/
+                        1347 --435: 	if(LEVEL_BAT_NORMAL == cansts)
+                        1348 --line435
+                        1349 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.63::
+                        1350 .LDWlin63:
+00000442 830f0300       1351 	ld.bu	2[sp],r1
+00000446 e009           1352 	cmp	zero,r1
+00000448 da05*          1353 	bne	.L852
+                        1354 --436: 	{
+                        1355 --437: 		v_output(v_config_handle);	
+                        1356 --line437
+                        1357 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.64::
+                        1358 .LDWlin64:
+0000044a 40363f00       1359 	movhi	hi(4128768),zero,r6
+                        1360 	jarl	_v_output,lp
+                        1360 <EXPANSION BEGIN>
+                        1360 jarl22 _v_output , lp 
+0000044e 80ff0000*      1360 <EXPANSION END>
+                        1361 .L852:
+                        1362 --438: 	}
+                        1363 --439: 	else
+                        1364 --440: 	{
+                        1365 --441: 	}
+                        1366 --443:      /*LIN TX*/
+                        1367 --444:     	COM_CAN2Lin();
+                        1368 --line444
+                        1369 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.65::
+                        1370 .LDWlin65:
+                        1371 	jarl	_COM_CAN2Lin,lp
+                        1371 <EXPANSION BEGIN>
+                        1371 jarl22 _COM_CAN2Lin , lp 
+00000452 80ff0000*      1371 <EXPANSION END>
+                        1372 --445: 	if(LEVEL_BAT_NORMAL == linsts)
+                        1373 --line445
+                        1374 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.66::
+                        1375 .LDWlin66:
+00000456 a30f0300       1376 	ld.bu	3[sp],r1
+0000045a e009           1377 	cmp	zero,r1
+0000045c ea05*          1378 	bne	.L855
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                        1379 --446: 	{
+                        1380 --447: 		v_sb_tick(IPK_LIN3_handle);
+                        1381 --line447
+                        1382 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.67::
+                        1383 .LDWlin67:
+0000045e 260600000000*  1384 	mov	_v_controllers+88,r6
+                        1385 	jarl	_v_sb_tick,lp
+                        1385 <EXPANSION BEGIN>
+                        1385 jarl22 _v_sb_tick , lp 
+00000464 80ff0000*      1385 <EXPANSION END>
+                        1386 .L855:
+                        1387 --448: 	}
+                        1388 --449: 	else
+                        1389 --450: 	{
+                        1390 --451: 	}
+                        1391 --452: 	
+                        1392 --453: }
+                        1393 --line453
+                        1394 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm.68::
+                        1395 .LDWlin68:
+00000468 0000           1396 	nop
+                        1397 --	    .ef
+                        1398 .LDW23:
+0000046a 4606ff70       1399 	dispose	3,{r25,r26,r27,r28,r29,r31},[lp]
+                        1400 	.type	_OSTM1_IsrHandler,@function
+                        1401 	.size	_OSTM1_IsrHandler,.-_OSTM1_IsrHandler
+                        1402 	.align	2
+                        1403 .LDW33:
+                        1404 --_cansts	2[sp]	local
+                        1405 --_linsts	3[sp]	local
+                        1406 --_res	r28	local
+                        1407 
+                        1408 	.data
+                        1409 	.text
+                        1410 
+                        1411 	.align	2
+                        1412 --_v_controllers	_v_controllers	import
+                        1413 --_ostm_InitStatus	_ostm_InitStatus	static
+                        1414 --_ostm_Task5MS_Count	_ostm_Task5MS_Count	static
+                        1415 --_ostm_Task20MS_Count	_ostm_Task20MS_Count	static
+                        1416 --_ostm_Task50MS_Count	_ostm_Task50MS_Count	static
+                        1417 --_ostm_Task100MS_Count	_ostm_Task100MS_Count	static
+                        1418 --_ostm_Task200MS_Count	_ostm_Task200MS_Count	static
+                        1419 --_ostm_Task1000MS_Count	_ostm_Task1000MS_Count	static
+                        1420 --_ostm_5MS_Flag	_ostm_5MS_Flag	static
+                        1421 --_ostm_20MS_Flag	_ostm_20MS_Flag	static
+                        1422 --_ostm_50MS_Flag	_ostm_50MS_Flag	static
+                        1423 --_ostm_100MS_Flag	_ostm_100MS_Flag	static
+                        1424 --_ostm_200MS_Flag	_ostm_200MS_Flag	static
+                        1425 --_ostm_1000MS_Flag	_ostm_1000MS_Flag	static
+                        1426 --_ostm1_10ms_counter	_ostm1_10ms_counter	static
+                        1427 --_ostm1_20ms_counter	_ostm1_20ms_counter	static
+                        1428 --_ostm1_50ms_counter	_ostm1_50ms_counter	static
+                        1429 --_ostm1_100ms_counter	_ostm1_100ms_counter	static
+                        1430 --_ostm1_1000ms_counter	_ostm1_1000ms_counter	static
+                        1431 --_evt_TickType	_evt_TickType	import
+                        1432 
+                        1433 	.data
+                        1434 	.section ".bss","awb"
+00000007 00             1435 	.space	1
+                        1436 	.align	4
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008b41.si
+                        1437 	.align	4
+                        1438 	.global	_ostm_TickTime
+00000008 00000000       1439 _ostm_TickTime:	.space	4
+                        1440 	.type	_ostm_TickTime,@object
+                        1441 	.size	_ostm_TickTime,4
+                        1442 	.data
+                        1443 	.ghsnote version,14
+                        1444 	.ghsnote tools,3
+                        1445 	.ghsnote options,144
+                        1446 	.text
+                        1447 	.align	2
+                        1448 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Costm...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740366..0::
+                        1449 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

@@ -1,0 +1,754 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_bsp_gfx_disp_init.dbo -source=r_bsp_gfx_disp_init.c -o .\obj\gh_00007tc1.o -list=.\obj\r_bsp_gfx_disp_init.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+Source File: r_bsp_gfx_disp_init.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+                         112 --		..\..\..\..\..\bsp\board\d1lx_mango\src\gfx\r_bsp_gfx_disp_init.c
+                         113 --		-o .\obj\r_bsp_gfx_disp_init.o
+                         114 --Source File:   ..\..\..\..\..\bsp\board\d1lx_mango\src\gfx\r_bsp_gfx_disp_init.c
+                         115 --Directory:     
+                         116 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         117 --Compile Date:  Fri Feb 02 14:21:56 2018
+                         118 --Host OS:       Win32
+                         119 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         120 --Release:       Compiler v2013.5.5
+                         121 --Revision Date: Sat Oct 05 05:01:20 2013
+                         122 --Release Date:  Sat Oct 05 05:22:44 2013
+                         123 -- ecom  -g -w
+                         124 
+                         125 --1: /*
+                         126 --2: ****************************************************************************
+                         127 --3: PROJECT : BSP - GFX - CSI display init
+                         128 --4: FILE    : $Id: r_bsp_gfx_disp_init.c 7327 2016-01-22 10:29:57Z matthias.nippert $
+                         129 --5: ============================================================================
+                         130 --6: DESCRIPTION
+                         131 --7: BSP Implementation D1X MANGO Board
+                         132 --8: Init NEC display NL2432HC22-41K via CSI sequence.
+                         133 --9: ============================================================================
+                         134 --10:                             C O P Y R I G H T
+                         135 --11: ============================================================================
+                         136 --12:                            Copyright (c) 2014
+                         137 --13:                                   by
+                         138 --14:                     Renesas Electronics (Europe) GmbH.
+                         139 --15:                            Arcadiastrasse 10
+                         140 --16:                           D-40472 Duesseldorf
+                         141 --17:                                Germany
+                         142 --18:                           All rights reserved.
+                         143 --19: ============================================================================
+                         144 --20: Purpose: only for testing
+                         145 --22: DISCLAIMER
+                         146 --23: This software is supplied by Renesas Electronics Corporation and is only
+                         147 --24: intended for use with Renesas products. No other uses are authorized. This
+                         148 --25: software is owned by Renesas Electronics Corporation and is protected under
+                         149 --26: all applicable laws, including copyright laws.
+                         150 --27: THIS SOFTWARE IS PROVIDED "AS IS" AND RENESAS MAKES NO WARRANTIES REGARDING
+                         151 --28: THIS SOFTWARE, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT
+                         152 --29: LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+                         153 --30: AND NON-INFRINGEMENT. ALL SUCH WARRANTIES ARE EXPRESSLY DISCLAIMED.
+                         154 --31: TO THE MAXIMUM EXTENT PERMITTED NOT PROHIBITED BY LAW, NEITHER RENESAS
+                         155 --32: ELECTRONICS CORPORATION NOR ANY OF ITS AFFILIATED COMPANIES SHALL BE LIABLE
+                         156 --33: FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES FOR
+                         157 --34: ANY REASON RELATED TO THIS SOFTWARE, EVEN IF RENESAS OR ITS AFFILIATES HAVE
+                         158 --35: BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+                         159 --36: Renesas reserves the right, without notice, to make changes to this software
+                         160 --37: and to discontinue the availability of this software. By using this software,
+                         161 --38: you agree to the additional terms and conditions found by accessing the
+                         162 --39: following link:
+                         163 --40: http://www.renesas.com/disclaimer *
+                         164 --41: Copyright (C) 2011 Renesas Electronics Corporation. All rights reserved.
+                         165 --43: ****************************************************************************
+                         166 --44: */
+                         167 --46: #if 1    /* use CSISW (not CSIH) */
+                         168 --47: /*******************************************************************************
+                         169 --48:   Section: Includes
+                         170 --49: */
+                         171 --50: #include "r_typedefs.h"     /* Renesas basic types, e.g. uint32_t */
+                         172 --51: #include "r_dev_api.h"
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+                         173 --52: #include "r_gpio_api.h"
+                         174 --53: #include "r_tick_api.h"
+                         175 --54: #include "r_bsp_gfx_disp_init.h"    /* CSI init for NEC display */
+                         176 --55: #include "r_bsp_stdio_api.h"
+                         177 --56: #include "r_csisw_api.h"
+                         178 --58: #include "dspi_public.h"
+                         179 --60: void R_BSP_GFX_CSI_NecDisplay_Init(void);
+                         180 --61: void R_BSP_GFX_TFT_Port_Init(void);
+                         181 --62: void R_BSP_GFX_TFT_PortStb_Init(void);
+                         182 --64: /*******************************************************************************
+                         183 --65:   Section: Local Defines
+                         184 --66: */
+                         185 --68: /*  CSI pins used for the displays
+                         186 --69:     display NL2432HC22-41K (order code: Y-EB-EXT-QVGA-PT)
+                         187 --71:     CSI display connector on D1X MANGO
+                         188 --72:     VOnSCK      - P1_2   CN48_3  -> Software SPI (CSISW driver)
+                         189 --73:     VOnSO       - P1_0   CN48_1  -> Software SPI (CSISW driver)
+                         190 --74:     VOnCS       - P1_4   CN48_7 (emulated by GPIO)
+                         191 --75:     VOnRst      - P1_5   CN48_9 (emulated by GPIO)
+                         192 --76:     VOnLighEnab - P1_3   CN48_6  (emulated by GPIO, hold HI-Z means enabled)
+                         193 --77:     Connect the CSI connector (CN48) to the display NL2432HC22-41K
+                         194 --78:     (Y-EB-EXT-QVGA-PT QVGA display board).
+                         195 --80:     D1L2
+                         196 --82:     Note a change of pin for the D1L2 due to lower pin count, direct connection to
+                         197 --83:     adapter board required:
+                         198 --85:         CN48
+                         199 --86:     1   CSI_SO_CN48         P01_0                   CN7 1
+                         200 --87:     3   CSI_SCK_CN48        P01_2                   CN7 3
+                         201 --88:     5   VCC
+                         202 --89:     7   CSI_CSZ_CN48        P01_4        -> P11_0   CN8 1
+                         203 --90:     9   CSI_RESZ_CN48       P01_5        -> P11_1   CN8 2
+                         204 --92: #endif
+                         205 --95: */
+                         206 --97: #define CSISW_UNIT                          0
+                         207 --99: /* All other devices */
+                         208 --100: #define CSISW_GPIO_RESETZ_PORT              44
+                         209 --101: #define CSISW_GPIO_RESETZ_PIN               	1
+                         210 --103: #define CSISW_GPIO_CHIPSELZ_PORT          44
+                         211 --104: #define CSISW_GPIO_CHIPSELZ_PIN             2
+                         212 --106: #define CSISW_GPIO_SO_PORT              44
+                         213 --107: #define CSISW_GPIO_SO_PIN               	3
+                         214 --109: #define CSISW_GPIO_SCK_PORT              44
+                         215 --110: #define CSISW_GPIO_SCK_PIN               	4
+                         216 --112: /*******************************************************************************
+                         217 --113:   Section: Local Constants
+                         218 --114: */
+                         219 --116: /* D1L2 */
+                         220 --117: static const r_dev_PinConfig_t loc_CSISWPinD1L2Config[] =
+                         221 --118: /*  Port Pin Func      Dir      Feedback     Pull        OpenDrain   HiCurr   HiSpeed  InputType */
+                         222 --119: {
+                         223 --120:     /* GPIO reset, chip select, light enable (1st connector) */
+                         224 --121:     {CSISW_GPIO_CHIPSELZ_PORT,     CSISW_GPIO_CHIPSELZ_PIN,  0u, R_DEV_PIN_OUT,   0u, R_DEV_PIN_PULLNO, 0u, 0u, 0u, R_DEV_PIN_CMOS1},
+                         225 --122:     {CSISW_GPIO_RESETZ_PORT,   CSISW_GPIO_RESETZ_PIN,  0u, R_DEV_PIN_OUT, 0u, R_DEV_PIN_PULLNO, 0u, 0u, 0u, R_DEV_PIN_CMOS1},
+                         226 --124:     /* delimiter - do not remove */
+                         227 --125:     {0u, R_DEV_PIN_LAST,0u,R_DEV_PIN_OUT,0u,R_DEV_PIN_PULLNO,     0u,      0u,         0u,    R_DEV_PIN_CMOS1}
+                         228 --126: };
+                         229 --128: /*******************************************************************************
+                         230 --129:   Section: Global Functions
+                         231 --130: */
+                         232 --132: /*******************************************************************************
+                         233 --133:   Function: R_BSP_GFX_CSI_NecDisplay_Init
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+                         234 --135:   Init NEC display NL2432HC22-41K via CSI.
+                         235 --137:   Parameters:
+                         236 --138:   void
+                         237 --140:   Returns:
+                         238 --141:   void
+                         239 --142: */
+                         240 --143: void R_BSP_GFX_CSI_NecDisplay_Init(void) {
+                         241 	.text
+                         242 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740384..0::
+                         243 	.align	2
+                         244 	.global	_R_BSP_GFX_CSI_NecDisplay_Init
+                         245 _R_BSP_GFX_CSI_NecDisplay_Init:
+00000000 8207e110        246 	prepare	{r27,r28,r29,r31},1
+00000004 3c0600000000*   247 	mov	.L105,r28
+                         248 --	    .bf
+                         249 .LDW01:
+                         250 --144:     /* Initialization of the NEC display
+                         251 --145:        NL2432HC22-41K via CSI needs to be done. */
+                         252 --146:     uint32_t            tmp;
+                         253 --148:     r_dev_Device_t      device;
+                         254 --149:     uint8_t             use_adaptor_pins = R_FALSE;
+0000000a 00da            255 	mov	0,r27
+                         256 --151:     uint8_t reg[2];
+                         257 --152:     //uint8_t buff[64];
+                         258 --153:     //uint32_t            i;
+                         259 --155:     /* power on sequence for NL2432HC22-41K display */
+                         260 --156:         /* write reg, register number, write data, data value */
+                         261 --157:     static const uint8_t SendDispOn[] = {
+                         262 --158:                /* [240*320/RGB]/[Parallel 18bit][262K color] */
+                         263 --159:                0x01u, 0x26u,
+                         264 --160:                0x02u, 0x03u,
+                         265 --161:                0x03u, 0x09u,
+                         266 --162:                //0x04u, 0x1Bu,
+                         267 --163:                //0x05u, 0x28u,
+                         268 --164:                //0x0au, 0x1bu,
+                         269 --165:                0x0du, 0x18u,
+                         270 --166:                0x14u, 0x1cu,
+                         271 --167:                0x16u, 0x04u,
+                         272 --168:                0x17u, 0x10u,
+                         273 --169:                0x18u, 0x42u,
+                         274 --170:                0x19u, 0x15u,
+                         275 --171:                0x1au, 0x04u,
+                         276 --172:                0x1bu, 0x10u,
+                         277 --173:                0x1cu, 0x42u,
+                         278 --174:                0x1du, 0x15u,
+                         279 --175:                0x40u, 0xa8u,
+                         280 --176: 		 0x41u, 0x86u,
+                         281 --177:                0x42u, 0x01u,
+                         282 --178:                0x43u, 0xf8u,
+                         283 --179:                0x44u, 0x86u,
+                         284 --180: 		 0x45u, 0x01u,
+                         285 --181:     };
+                         286 --183: #if 0
+                         287 --184:     /* Assign Pins */
+                         288 --185:     /* SHARED FOR CSI CONNECTOR 1 + 2 */
+                         289 --186:     /*  CSISWSC (clock) VOnSCK on port CSISW_CLOCK_SC_PORT.CSISW_CLOCK_SC_PIN */
+                         290 --187:     /*  CSISWSO (data out)   VOnSO on port CSISW_DOUT_SO_PORT.CSISW_DOUT_SO_PIN */
+                         291 --188:     /* FOR CSI CONNECTOR 1 */
+                         292 --189:     /*  set port pin for reset for CSISW via GPIO
+                         293 --190:         first make sure the pin is set to inactive-level
+                         294 --191:         VOnRst on port CSISW_GPIO_RESETZ_PORT.CSISW_GPIO_RESETZ_PIN */
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+                         295 --192:     /*  set port pin for chip select for CSISW via GPIO
+                         296 --193:         first make sure the pin is set to inactive-level
+                         297 --194:         VOnCS on port pin CSISW_GPIO_CHIPSELZ_PORT.CSISW_GPIO_CHIPSELZ_PIN */
+                         298 --197:     /* get the device type and configure the pins */
+                         299 --198:     device = R_DEV_GetDev();
+                         300 --200:     if(R_DEV_R7F701402 >= device)
+                         301 --201:     {
+                         302 --202:         R_BSP_STDIO_Printf("\n\n****************************************************************************\n");
+                         303 --203:         R_BSP_STDIO_Printf("For the D1L1/D1L2 device connect the CSI connector of the display NL2432HC22-41K\n");
+                         304 --204:         R_BSP_STDIO_Printf("to the adaptor board directly as follows:\n");
+                         305 --205:         R_BSP_STDIO_Printf(" - P01_0 (CN7 1) on the adaptor board to QVGA display CSI connector pin 1\n");
+                         306 --206:         R_BSP_STDIO_Printf(" - P01_2 (CN7 3) on the adaptor board to QVGA display CSI connector pin 3\n");
+                         307 --207:         R_BSP_STDIO_Printf(" - P11_0 (CN8 1) on the adaptor board to QVGA display CSI connector pin 7\n");
+                         308 --208:         R_BSP_STDIO_Printf(" - P11_1 (CN8 2) on the adaptor board to QVGA display CSI connector pin 9\n\n");
+                         309 --210:         use_adaptor_pins = R_FALSE;
+                         310 --211:         R_DEV_PinInit (loc_CSISWPinConfig);
+                         311 --212:     }
+                         312 --213:     else
+                         313 --214:     {
+                         314 --215:         use_adaptor_pins = R_TRUE;
+                         315 --216:         R_DEV_PinInit (loc_CSISWPinD1L2Config);
+                         316 --217:     }
+                         317 --220:     /* D1L2 have reduced pinout so use adaptor board pins */
+                         318 --221:     if( R_FALSE != use_adaptor_pins )
+                         319 --222:     {
+                         320 --223:         R_GPIO_WritePin(CSISW_GPIO_RESETZ_D1L2_PORT, CSISW_GPIO_RESETZ_D1L2_PIN, 1);
+                         321 --224:         R_GPIO_WritePin(CSISW_GPIO_CHIPSELZ_D1L2_PORT, CSISW_GPIO_CHIPSELZ_D1L2_PIN, 1);
+                         322 --225:     }
+                         323 --226:     else
+                         324 --227:     {
+                         325 --228:         //R_GPIO_WritePin(CSISW_GPIO_RESETZ_PORT, CSISW_GPIO_RESETZ_PIN, 1);
+                         326 --229:         //R_GPIO_WritePin(CSISW_GPIO_CHIPSELZ_PORT, CSISW_GPIO_CHIPSELZ_PIN, 0);
+                         327 --230:     }
+                         328 --231: #endif
+                         329 --232: 	R_DEV_PinInit (loc_CSISWPinD1L2Config);
+0000000c 260600000000*   330 	mov	_loc_CSISWPinD1L2Config,r6
+                         331 	jarl	_R_DEV_PinInit,lp
+                         331 <EXPANSION BEGIN>
+                         331 jarl22 _R_DEV_PinInit , lp 
+00000012 80ff0000*       331 <EXPANSION END>
+                         332 --233:     /* Init CSISW */
+                         333 --234:     /*  Set master config */
+                         334 --235:     //R_CSISW_Init(CSISW_UNIT);
+                         335 --237:     //R_CSISW_Enable(CSISW_UNIT, R_CSISW_TX_ONLY);       /* only TX direction */
+                         336 --239:     /* reset display
+                         337 --240:         assert reset, wait 2ms
+                         338 --241:         reset, wait 2ms after reset deassertion
+                         339 --242:     */
+                         340 --244:     R_GPIO_WritePin(CSISW_GPIO_CHIPSELZ_PORT, CSISW_GPIO_CHIPSELZ_PIN, 1);
+                         341 --line244
+                         342 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.1::
+                         343 .LDWlin1:
+00000016 20362c00        344 	movea	44,zero,r6
+0000001a 023a            345 	mov	2,r7
+0000001c 0142            346 	mov	1,r8
+                         347 	jarl	_R_GPIO_WritePin,lp
+                         347 <EXPANSION BEGIN>
+                         347 jarl22 _R_GPIO_WritePin , lp 
+0000001e 80ff0000*       347 <EXPANSION END>
+                         348 --245: 	R_BSP_GFX_TFT_Port_Init();
+                         349 --line245
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+                         350 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.2::
+                         351 .LDWlin2:
+                         352 	jarl	_R_BSP_GFX_TFT_Port_Init,lp
+                         352 <EXPANSION BEGIN>
+                         352 jarl22 _R_BSP_GFX_TFT_Port_Init , lp 
+00000022 80ff7a00*       352 <EXPANSION END>
+                         353 --246:     //for ( i=0; i<64; i++) {
+                         354 --247:     //    buff[i] =0;
+                         355 --248:     //}
+                         356 --250:     //reg[0] =0X05 <<1;
+                         357 --251:     //reg[1] =0X55;
+                         358 --252:     //R_CSISW_Write(CSISW_UNIT, (void*)(&reg), 2u);
+                         359 --253:     //R_TICK_WaitMS(CSISW_UNIT, 5u);
+                         360 --255:     /* transmit display init sequence via CSI */
+                         361 --256:     //i =0;
+                         362 --257:     R_GPIO_WritePin(CSISW_GPIO_CHIPSELZ_PORT, CSISW_GPIO_CHIPSELZ_PIN, 0);
+                         363 --line257
+                         364 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.3::
+                         365 .LDWlin3:
+00000026 20362c00        366 	movea	44,zero,r6
+0000002a 023a            367 	mov	2,r7
+0000002c 0042            368 	mov	0,r8
+                         369 	jarl	_R_GPIO_WritePin,lp
+                         369 <EXPANSION BEGIN>
+                         369 jarl22 _R_GPIO_WritePin , lp 
+0000002e 80ff0000*       369 <EXPANSION END>
+                         370 --258:     R_TICK_WaitUS(0u, 250u);
+                         371 --line258
+                         372 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.4::
+                         373 .LDWlin4:
+00000032 0032            374 	mov	0,r6
+00000034 203efa00        375 	movea	250,zero,r7
+                         376 	jarl	_R_TICK_WaitUS,lp
+                         376 <EXPANSION BEGIN>
+                         376 jarl22 _R_TICK_WaitUS , lp 
+00000038 80ff0000*       376 <EXPANSION END>
+                         377 --260:    tmp =0;
+                         378 --line260
+                         379 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.5::
+                         380 .LDWlin5:
+0000003c 00ea            381 	mov	0,r29
+                         382 --261:    while (tmp < sizeof(SendDispOn)) {
+0000003e e51d*           383 	br	.L4
+                         384 .L6:
+                         385 --263:         reg[0] =SendDispOn[tmp++] <<1;
+                         386 --line263
+                         387 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.6::
+                         388 .LDWlin6:
+00000040 1df0            389 	mov	r29,ep
+00000042 dcf1            390 	add	r28,ep
+00000044 6008            391 	sld.bu	0[ep],r1
+00000046 41ea            392 	add	1,r29
+00000048 c10a            393 	shl	1,r1
+0000004a 430f0200        394 	st.b	r1,2[sp]
+                         395 --264:         reg[1] =SendDispOn[tmp++];
+0000004e 1df0            396 	mov	r29,ep
+00000050 dcf1            397 	add	r28,ep
+00000052 6008            398 	sld.bu	0[ep],r1
+00000054 41ea            399 	add	1,r29
+00000056 430f0300        400 	st.b	r1,3[sp]
+                         401 --265:         DSPI_SPIStart(HANDLE_DSPI_LCD);
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+0000005a 0232            402 	mov	2,r6
+                         403 	jarl	_DSPI_SPIStart,lp
+                         403 <EXPANSION BEGIN>
+                         403 jarl22 _DSPI_SPIStart , lp 
+0000005c 80ff0000*       403 <EXPANSION END>
+                         404 --266:         DSPI_WriteBytes(HANDLE_DSPI_LCD,reg,2u);
+                         405 --line266
+                         406 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.7::
+                         407 .LDWlin7:
+00000060 0232            408 	mov	2,r6
+00000062 233e0200        409 	movea	2,sp,r7
+00000066 0242            410 	mov	2,r8
+                         411 	jarl	_DSPI_WriteBytes,lp
+                         411 <EXPANSION BEGIN>
+                         411 jarl22 _DSPI_WriteBytes , lp 
+00000068 80ff0000*       411 <EXPANSION END>
+                         412 --267:         DSPI_SPIStop(HANDLE_DSPI_LCD);
+                         413 --line267
+                         414 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.8::
+                         415 .LDWlin8:
+0000006c 0232            416 	mov	2,r6
+                         417 	jarl	_DSPI_SPIStop,lp
+                         417 <EXPANSION BEGIN>
+                         417 jarl22 _DSPI_SPIStop , lp 
+0000006e 80ff0000*       417 <EXPANSION END>
+                         418 --269: 	 //R_CSISW_Write(CSISW_UNIT, (void*)(&reg), 2u);
+                         419 --270:         R_TICK_WaitMS(CSISW_UNIT, 5u);
+                         420 --line270
+                         421 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.9::
+                         422 .LDWlin9:
+00000072 0032            423 	mov	0,r6
+00000074 053a            424 	mov	5,r7
+                         425 	jarl	_R_TICK_WaitMS,lp
+                         425 <EXPANSION BEGIN>
+                         425 jarl22 _R_TICK_WaitMS , lp 
+00000076 80ff0000*       425 <EXPANSION END>
+                         426 .L4:
+                         427 --line261
+                         428 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.10::
+                         429 .LDWlin10:
+0000007a 1d06daff        430 	addi	-38,r29,zero
+0000007e 99e5*           431 	bnl	.L6
+                         432 --272:         //reg[0] |=0x01;
+                         433 --273:         //R_CSISW_Read(CSISW_UNIT, (void*)(&reg), buff+i++, 1u);
+                         434 --274:         //R_TICK_WaitMS(CSISW_UNIT, 5u);
+                         435 --275:     }
+                         436 --276:    
+                         437 --277:     R_TICK_WaitUS(0u, 250u);
+                         438 --line277
+                         439 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.11::
+                         440 .LDWlin11:
+00000080 0032            441 	mov	0,r6
+00000082 203efa00        442 	movea	250,zero,r7
+                         443 	jarl	_R_TICK_WaitUS,lp
+                         443 <EXPANSION BEGIN>
+                         443 jarl22 _R_TICK_WaitUS , lp 
+00000086 80ff0000*       443 <EXPANSION END>
+                         444 --278:     R_GPIO_WritePin(CSISW_GPIO_CHIPSELZ_PORT, CSISW_GPIO_CHIPSELZ_PIN, 1);
+                         445 --line278
+                         446 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.12::
+                         447 .LDWlin12:
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+0000008a 20362c00        448 	movea	44,zero,r6
+0000008e 023a            449 	mov	2,r7
+00000090 0142            450 	mov	1,r8
+                         451 	jarl	_R_GPIO_WritePin,lp
+                         451 <EXPANSION BEGIN>
+                         451 jarl22 _R_GPIO_WritePin , lp 
+00000092 80ff0000*       451 <EXPANSION END>
+                         452 --280: }
+                         453 --line280
+                         454 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.13::
+                         455 .LDWlin13:
+00000096 0000            456 	nop
+                         457 --	    .ef
+                         458 .LDW11:
+00000098 4206ff10        459 	dispose	1,{r27,r28,r29,r31},[lp]
+                         460 	.type	_R_BSP_GFX_CSI_NecDisplay_Init,@function
+                         461 	.size	_R_BSP_GFX_CSI_NecDisplay_Init,.-_R_BSP_GFX_CSI_NecDisplay_Init
+                         462 	.align	2
+                         463 .LDW21:
+                         464 --_SendDispOn	.L105	static
+                         465 --_tmp	r29	local
+                         466 --_use_adaptor_pins	r27	local
+                         467 --_reg	2[sp]	local
+                         468 
+                         469 	.section ".bss","awb"
+                         470 .L60:
+                         471 	.type	.L60,@object
+                         472 	.size	.L60,0
+                         473 	.section ".rodata","a"
+                         474 	.align	4
+                         475 	.global	_loc_CSISWPinD1L2Config..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.
+                         476 _loc_CSISWPinD1L2Config..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.:
+                         477 	.type	_loc_CSISWPinD1L2Config..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.,@object
+                         478 	.size	_loc_CSISWPinD1L2Config..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.,60
+00000000 2c02            479 _loc_CSISWPinD1L2Config:	.byte	44,2
+00000002 00              480 	.space	1
+00000003 00              481 	.space	1
+00000004 00000000        482 	.space	4
+00000008 00              483 	.space	1
+00000009 000000          484 	.space	3
+0000000c 00000000        485 	.space	4
+00000010 00              486 	.space	1
+00000011 00              487 	.space	1
+00000012 00              488 	.space	1
+00000013 01              489 	.byte	1
+00000014 2c01            490 	.byte	44,1
+00000016 00              491 	.space	1
+00000017 00              492 	.space	1
+00000018 00000000        493 	.space	4
+0000001c 00              494 	.space	1
+0000001d 000000          495 	.space	3
+00000020 00000000        496 	.space	4
+00000024 00              497 	.space	1
+00000025 00              498 	.space	1
+00000026 00              499 	.space	1
+00000027 01              500 	.byte	1
+00000028 00              501 	.space	1
+00000029 ff              502 	.byte	255
+0000002a 00              503 	.space	1
+0000002b 00              504 	.space	1
+0000002c 00000000        505 	.space	4
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+00000030 00              506 	.space	1
+00000031 000000          507 	.space	3
+00000034 00000000        508 	.space	4
+00000038 00              509 	.space	1
+00000039 00              510 	.space	1
+0000003a 00              511 	.space	1
+0000003b 01              512 	.byte	1
+                         513 	.type	_loc_CSISWPinD1L2Config,@object
+                         514 	.size	_loc_CSISWPinD1L2Config,60
+                         515 .L105:
+                         516 	.global	_SendDispOn.R_BSP_GFX_CSI_NecDisplay_Init.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init..1
+                         517 _SendDispOn.R_BSP_GFX_CSI_NecDisplay_Init.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init..1:
+                         518 	.type	_SendDispOn.R_BSP_GFX_CSI_NecDisplay_Init.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init..1,@object
+                         519 	.size	_SendDispOn.R_BSP_GFX_CSI_NecDisplay_Init.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init..1,38
+0000003c 01260203        520 	.byte	1,38,2,3
+00000040 03090d18        521 	.byte	3,9,13,24
+00000044 141c1604        522 	.byte	20,28,22,4
+00000048 17101842        523 	.byte	23,16,24,66
+0000004c 19151a04        524 	.byte	25,21,26,4
+00000050 1b101c42        525 	.byte	27,16,28,66
+00000054 1d1540a8        526 	.byte	29,21,64,168
+00000058 41864201        527 	.byte	65,134,66,1
+0000005c 43f84486        528 	.byte	67,248,68,134
+00000060 4501            529 	.byte	69,1
+                         530 	.type	.L105,@object
+                         531 	.size	.L105,38
+                         532 	.data
+                         533 	.text
+                         534 
+                         535 
+                         536 --282: void R_BSP_GFX_TFT_Port_Init(void) {
+                         537 	.align	2
+                         538 	.align	2
+                         539 	.global	_R_BSP_GFX_TFT_Port_Init
+                         540 _R_BSP_GFX_TFT_Port_Init:
+0000009c 80072100        541 	prepare	{r31},0
+                         542 --	    .bf
+                         543 .LDW31:
+                         544 --284:     R_GPIO_WritePin(CSISW_GPIO_RESETZ_PORT, CSISW_GPIO_RESETZ_PIN, 0);
+000000a0 20362c00        545 	movea	44,zero,r6
+000000a4 013a            546 	mov	1,r7
+000000a6 0042            547 	mov	0,r8
+                         548 	jarl	_R_GPIO_WritePin,lp
+                         548 <EXPANSION BEGIN>
+                         548 jarl22 _R_GPIO_WritePin , lp 
+000000a8 80ff0000*       548 <EXPANSION END>
+                         549 --285:     R_TICK_WaitUS(0u, 250u);
+                         550 --line285
+                         551 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.14::
+                         552 .LDWlin14:
+000000ac 0032            553 	mov	0,r6
+000000ae 203efa00        554 	movea	250,zero,r7
+                         555 	jarl	_R_TICK_WaitUS,lp
+                         555 <EXPANSION BEGIN>
+                         555 jarl22 _R_TICK_WaitUS , lp 
+000000b2 80ff0000*       555 <EXPANSION END>
+                         556 --286:     R_GPIO_WritePin(CSISW_GPIO_RESETZ_PORT, CSISW_GPIO_RESETZ_PIN, 1);
+                         557 --line286
+                         558 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.15::
+                         559 .LDWlin15:
+000000b6 20362c00        560 	movea	44,zero,r6
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+000000ba 013a            561 	mov	1,r7
+000000bc 0142            562 	mov	1,r8
+                         563 	jarl	_R_GPIO_WritePin,lp
+                         563 <EXPANSION BEGIN>
+                         563 jarl22 _R_GPIO_WritePin , lp 
+000000be 80ff0000*       563 <EXPANSION END>
+                         564 --287:     R_TICK_WaitUS(0u, 250u);
+                         565 --line287
+                         566 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.16::
+                         567 .LDWlin16:
+000000c2 0032            568 	mov	0,r6
+000000c4 203efa00        569 	movea	250,zero,r7
+                         570 	jarl	_R_TICK_WaitUS,lp
+                         570 <EXPANSION BEGIN>
+                         570 jarl22 _R_TICK_WaitUS , lp 
+000000c8 80ff0000*       570 <EXPANSION END>
+                         571 --288: }
+                         572 --line288
+                         573 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.17::
+                         574 .LDWlin17:
+000000cc 0000            575 	nop
+                         576 --	    .ef
+                         577 .LDW41:
+000000ce 40063f00        578 	dispose	0,{r31},[lp]
+                         579 	.type	_R_BSP_GFX_TFT_Port_Init,@function
+                         580 	.size	_R_BSP_GFX_TFT_Port_Init,.-_R_BSP_GFX_TFT_Port_Init
+                         581 	.align	2
+                         582 .LDW51:
+                         583 
+                         584 	.section ".bss","awb"
+                         585 .L144:
+                         586 	.type	.L144,@object
+                         587 	.size	.L144,0
+                         588 	.data
+                         589 	.text
+                         590 
+                         591 
+                         592 --290: void R_BSP_GFX_TFT_PortStb_Init(void) {
+                         593 	.align	2
+                         594 	.align	2
+                         595 	.global	_R_BSP_GFX_TFT_PortStb_Init
+                         596 _R_BSP_GFX_TFT_PortStb_Init:
+000000d2 80072100        597 	prepare	{r31},0
+                         598 --	    .bf
+                         599 .LDW61:
+                         600 --292:     R_GPIO_WritePin(CSISW_GPIO_SCK_PORT, CSISW_GPIO_SCK_PIN, 0);
+000000d6 20362c00        601 	movea	44,zero,r6
+000000da 043a            602 	mov	4,r7
+000000dc 0042            603 	mov	0,r8
+                         604 	jarl	_R_GPIO_WritePin,lp
+                         604 <EXPANSION BEGIN>
+                         604 jarl22 _R_GPIO_WritePin , lp 
+000000de 80ff0000*       604 <EXPANSION END>
+                         605 --293:     R_GPIO_WritePin(CSISW_GPIO_SO_PORT, CSISW_GPIO_SO_PIN, 0);
+                         606 --line293
+                         607 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.18::
+                         608 .LDWlin18:
+000000e2 20362c00        609 	movea	44,zero,r6
+000000e6 033a            610 	mov	3,r7
+000000e8 0042            611 	mov	0,r8
+                         612 	jarl	_R_GPIO_WritePin,lp
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007tc1.si
+                         612 <EXPANSION BEGIN>
+                         612 jarl22 _R_GPIO_WritePin , lp 
+000000ea 80ff0000*       612 <EXPANSION END>
+                         613 --294:     R_GPIO_WritePin(CSISW_GPIO_RESETZ_PORT, CSISW_GPIO_RESETZ_PIN, 0);
+                         614 --line294
+                         615 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.19::
+                         616 .LDWlin19:
+000000ee 20362c00        617 	movea	44,zero,r6
+000000f2 013a            618 	mov	1,r7
+000000f4 0042            619 	mov	0,r8
+                         620 	jarl	_R_GPIO_WritePin,lp
+                         620 <EXPANSION BEGIN>
+                         620 jarl22 _R_GPIO_WritePin , lp 
+000000f6 80ff0000*       620 <EXPANSION END>
+                         621 --295:     //R_TICK_WaitUS(0u, 250u);
+                         622 --296: }
+                         623 --line296
+                         624 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init.20::
+                         625 .LDWlin20:
+000000fa 0000            626 	nop
+                         627 --	    .ef
+                         628 .LDW71:
+000000fc 40063f00        629 	dispose	0,{r31},[lp]
+                         630 	.type	_R_BSP_GFX_TFT_PortStb_Init,@function
+                         631 	.size	_R_BSP_GFX_TFT_PortStb_Init,.-_R_BSP_GFX_TFT_PortStb_Init
+                         632 	.align	2
+                         633 .LDW81:
+                         634 
+                         635 	.section ".bss","awb"
+                         636 .L190:
+                         637 	.type	.L190,@object
+                         638 	.size	.L190,0
+                         639 	.data
+                         640 	.text
+                         641 
+                         642 	.align	2
+                         643 --_loc_CSISWPinD1L2Config	_loc_CSISWPinD1L2Config	static
+                         644 
+                         645 	.data
+                         646 	.ghsnote version,14
+                         647 	.ghsnote tools,3
+                         648 	.ghsnote options,144
+                         649 	.text
+                         650 	.align	2
+                         651 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_disp_init...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740384..0::
+                         652 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

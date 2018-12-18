@@ -1,0 +1,250 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                    Mentor Graphics Corporation                             */
+/*                        All rights reserved                                 */
+/*                                                                            */
+/* ************************************************************************** */
+/*                                                                            */
+/*  Description:   LIN Description file                                       */
+/*  Project:       ZS11                                                       */
+/*  Release:       EP2_V02                                                    */
+/*  Configuration: SGE                                                        */
+/*  Network:       IPC_LIN3                                                   */
+/*                                                                            */
+/* ************************************************************************** */
+
+
+
+LIN_description_file;
+LIN_protocol_version = "2.1";
+LIN_language_version = "2.1";
+LIN_speed =   19.200 kbps;
+Channel_name = "_L3";
+
+Nodes {
+	Master : Instruments,    5.000 ms,    0.100 ms;
+	Slaves: Park_Distance_Control;
+}
+
+Signals {
+	LowAcurcVehSpdAvg: 8, 0, Instruments, Park_Distance_Control;
+	MstrSysPwrMd: 2, 0, Instruments, Park_Distance_Control;
+	PDCCofignSts_L: 3, 0, Park_Distance_Control, Instruments;
+	PDCOverVolFlt_L: 1, 0, Park_Distance_Control, Instruments;
+	PDCRespEr_L: 1, 0, Park_Distance_Control, Instruments;
+	PDCRLSnsrFlt_L: 1, 0, Park_Distance_Control, Instruments;
+	PDCRrMidLSnsrFlt_L: 1, 0, Park_Distance_Control, Instruments;
+	PDCRrMidRSnsrFlt_L: 1, 0, Park_Distance_Control, Instruments;
+	PDCRRSnsrFlt_L: 1, 0, Park_Distance_Control, Instruments;
+	PDCSysSts_L: 4, 0, Park_Distance_Control, Instruments;
+	PDCUnderVolFlt_L: 1, 0, Park_Distance_Control, Instruments;
+	RLObsRng_L: 4, 0, Park_Distance_Control, Instruments;
+	RrMidLObsRng_L: 4, 0, Park_Distance_Control, Instruments;
+	RrMidRObsRng_L: 4, 0, Park_Distance_Control, Instruments;
+	RrObsDist_L: 8, 0, Park_Distance_Control, Instruments;
+	RRObsRng_L: 4, 0, Park_Distance_Control, Instruments;
+	RrPDCAudWrnng_L: 4, 0, Park_Distance_Control, Instruments;
+	TrShftLvrPosV_l5: 1, 0, Instruments, Park_Distance_Control;
+	TrShftLvrPos_l5: 4, 0, Instruments, Park_Distance_Control;
+}
+
+Diagnostic_signals {
+	MasterReqB0:8,0;
+	MasterReqB1:8,0;
+	MasterReqB2:8,0;
+	MasterReqB3:8,0;
+	MasterReqB4:8,0;
+	MasterReqB5:8,0;
+	MasterReqB6:8,0;
+	MasterReqB7:8,0;
+	SlaveRespB0:8,0;
+	SlaveRespB1:8,0;
+	SlaveRespB2:8,0;
+	SlaveRespB3:8,0;
+	SlaveRespB4:8,0;
+	SlaveRespB5:8,0;
+	SlaveRespB6:8,0;
+	SlaveRespB7:8,0;
+}
+Frames {
+	IPK_LIN3_FrP00 : 26, Instruments, 8	{
+		LowAcurcVehSpdAvg, 0;
+		TrShftLvrPosV_l5, 8;
+		TrShftLvrPos_l5, 9;
+		MstrSysPwrMd, 13;
+	}
+	PDC_LIN3_FrP00 : 27, Park_Distance_Control, 8	{
+		PDCRRSnsrFlt_L, 0;
+		PDCRLSnsrFlt_L, 1;
+		PDCRrMidLSnsrFlt_L, 2;
+		PDCRrMidRSnsrFlt_L, 3;
+		PDCOverVolFlt_L, 4;
+		PDCUnderVolFlt_L, 5;
+		RLObsRng_L, 16;
+		RRObsRng_L, 20;
+		RrMidLObsRng_L, 24;
+		RrMidRObsRng_L, 28;
+		RrObsDist_L, 40;
+		RrPDCAudWrnng_L, 52;
+		PDCSysSts_L, 56;
+		PDCCofignSts_L, 60;
+		PDCRespEr_L, 63;
+	}
+}
+
+Diagnostic_frames	{
+	MasterReq: 60	{	//pub: Master
+		MasterReqB0, 0;
+		MasterReqB1, 8;
+		MasterReqB2, 16;
+		MasterReqB3, 24;
+		MasterReqB4, 32;
+		MasterReqB5, 40;
+		MasterReqB6, 48;
+		MasterReqB7, 56;
+		}
+	SlaveResp: 61	{	//pub: any slave
+		SlaveRespB0, 0;
+		SlaveRespB1, 8;
+		SlaveRespB2, 16;
+		SlaveRespB3, 24;
+		SlaveRespB4, 32;
+		SlaveRespB5, 40;
+		SlaveRespB6, 48;
+		SlaveRespB7, 56;
+		}
+	}
+
+Node_attributes{
+	Park_Distance_Control {
+		LIN_protocol = 2.1;
+		configured_NAD = 0x01;
+		initial_NAD = 0x01;
+		product_id = 0x0005, 0x0000;
+		response_error = PDCRespEr_L;
+		P2_min = 50.000 ms;
+		ST_min = 0.000 ms;
+		configurable_frames {
+			IPK_LIN3_FrP00;
+			PDC_LIN3_FrP00;
+		}
+	}
+}
+Schedule_tables {
+	FM_Diagnostics_L3 {
+		MasterReq	delay   50.000 ms;
+		SlaveResp	delay   10.000 ms;
+	}
+	FM_Normal_L3 {
+		IPK_LIN3_FrP00	delay   40.000 ms;
+		PDC_LIN3_FrP00	delay   40.000 ms;
+	}
+}
+
+Signal_encoding_types {
+	BooleanCoding {
+		logical_value, 0, "FALSE";
+		logical_value, 1, "TRUE";
+	}
+	FrtObsDistET {
+		physical_value, 0, 255, 1, 0, "cm";
+	}
+	LowAcurcVehSpdAvgET {
+		physical_value, 0, 255, 2, 0, "km/h/bit";
+	}
+	ObsRngET {
+		logical_value, 0, "No Obstacle";
+		logical_value, 1, "Range 1";
+		logical_value, 2, "Range 2";
+		logical_value, 3, "Range 3";
+		logical_value, 4, "Range 4";
+		logical_value, 5, "Range 5";
+		logical_value, 6, "Range 6";
+		logical_value, 7, "Range 7";
+		logical_value, 8, "Range 8";
+		logical_value, 9, "Range 9";
+		logical_value, 10, "Range 10";
+		logical_value, 11, "Range 11";
+		logical_value, 12, "Range 12";
+		logical_value, 13, "Range 13";
+		logical_value, 14, "Range 14";
+		logical_value, 15, "Range 15";
+	}
+	PDCCofignStsET {
+		logical_value, 0, "3 rear sensors";
+		logical_value, 1, "4 rear sensors";
+		logical_value, 2, "4 rear sensors and 2 front side sensors";
+		logical_value, 3, "4 rear sensors and 4 front sensors";
+		logical_value, 4, "Reserved";
+		logical_value, 5, "Reserved";
+		logical_value, 6, "Reserved";
+		logical_value, 7, "Reserved";
+	}
+	PDCSysStsET {
+		logical_value, 0, "System OK";
+		logical_value, 1, "System initialization sucessful";
+		logical_value, 2, "System Failed";
+		logical_value, 3, "System Disabled";
+		logical_value, 4, "Front PDC Disabled";
+		logical_value, 5, "Front PDC Failed";
+		logical_value, 6, "Rear PDC Failed";
+		logical_value, 7, "Rear PDC Disabled";
+	}
+	PDCWrnng {
+		logical_value, 0, "No Obstacle";
+		logical_value, 1, "Range 1";
+		logical_value, 2, "Range 2";
+		logical_value, 3, "Range 3";
+		logical_value, 4, "Range 4";
+		logical_value, 5, "Range 5";
+		logical_value, 6, "Range 6";
+		logical_value, 7, "Range 7";
+		logical_value, 8, "Range 8";
+		logical_value, 9, "Range 9";
+		logical_value, 10, "Range 10";
+		logical_value, 11, "Range 11";
+		logical_value, 12, "Range 12";
+		logical_value, 13, "Range 13";
+		logical_value, 14, "Range 14";
+		logical_value, 15, "Range 15";
+	}
+	SysPwrMd {
+		logical_value, 0, "Off";
+		logical_value, 1, "ACC";
+		logical_value, 2, "Run";
+		logical_value, 3, "Crank";
+	}
+	TrShftLvrPosCoding {
+		logical_value, 0, "Between Ranges";
+		logical_value, 1, "Park Range";
+		logical_value, 2, "Reverse Range";
+		logical_value, 3, "Neutral Range";
+		logical_value, 4, "Forward Range A";
+		logical_value, 5, "Forward Range B";
+		logical_value, 6, "Forward Range C";
+		logical_value, 7, "Forward Range D";
+		logical_value, 8, "Forward Range E";
+		logical_value, 9, "Forward Range F";
+		logical_value, 15, "Lever Position Unknown";
+		logical_value, 10, "Forward Range G";
+		logical_value, 11, "Forward Range H";
+	}
+	ValidityCoding {
+		logical_value, 0, "Valid";
+		logical_value, 1, "Invalid";
+	}
+}
+
+Signal_representation {
+	BooleanCoding: PDCOverVolFlt_L, PDCRespEr_L, PDCRLSnsrFlt_L, PDCRrMidLSnsrFlt_L,
+		PDCRrMidRSnsrFlt_L, PDCRRSnsrFlt_L, PDCUnderVolFlt_L;
+	FrtObsDistET: RrObsDist_L;
+	LowAcurcVehSpdAvgET: LowAcurcVehSpdAvg;
+	ObsRngET: RLObsRng_L, RrMidLObsRng_L, RrMidRObsRng_L, RRObsRng_L;
+	PDCCofignStsET: PDCCofignSts_L;
+	PDCSysStsET: PDCSysSts_L;
+	PDCWrnng: RrPDCAudWrnng_L;
+	SysPwrMd: MstrSysPwrMd;
+	TrShftLvrPosCoding: TrShftLvrPos_l5;
+	ValidityCoding: TrShftLvrPosV_l5;
+}

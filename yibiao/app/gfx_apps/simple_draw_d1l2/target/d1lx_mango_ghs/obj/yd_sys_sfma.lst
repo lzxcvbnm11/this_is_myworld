@@ -1,0 +1,721 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\yd_sys_sfma.dbo -source=yd_sys_sfma.c -o .\obj\gh_00007o81.o -list=.\obj\yd_sys_sfma.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+Source File: yd_sys_sfma.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c ..\..\..\..\..\macro\flashc\sfma\lib\yd_sys_sfma.c -o
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                         112 --		.\obj\yd_sys_sfma.o
+                         113 --Source File:   ..\..\..\..\..\macro\flashc\sfma\lib\yd_sys_sfma.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:46 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2: ****************************************************************************
+                         126 --3: PROJECT : SFMA driver
+                         127 --4: FILE    : $Id: r_sys_sfma.c 7539 2016-02-04 13:01:47Z florian.zimmermann $
+                         128 --5: ============================================================================
+                         129 --6: DESCRIPTION
+                         130 --7: SFMA support functions for d1x
+                         131 --8: ============================================================================
+                         132 --9:                             C O P Y R I G H T
+                         133 --10: ============================================================================
+                         134 --11:                            Copyright (c) 2013 - 2014
+                         135 --12:                                   by
+                         136 --13:                        Renesas Electronics (Europe) GmbH.
+                         137 --14:                            Arcadiastrasse 10
+                         138 --15:                           D-40472 Duesseldorf
+                         139 --16:                                Germany
+                         140 --17:                           All rights reserved.
+                         141 --18: ============================================================================
+                         142 --19: Purpose: only for testing, not for mass production
+                         143 --21: DISCLAIMER
+                         144 --23: LICENSEE has read, understood and accepted the terms and conditions defined in
+                         145 --24: the license agreement, especially the usage rights. In any case, it is
+                         146 --25: LICENSEE's responsibility to make sure that any user of the software complies
+                         147 --26: with the terms and conditions of the signed license agreement.
+                         148 --28: SAMPLE CODE is not part of the licensed software, as such it must not be used in
+                         149 --29: mass-production applications. It can only be used for evaluation and
+                         150 --30: demonstration purposes at customer's premises listed in the signed license
+                         151 --31: agreement.
+                         152 --33: ****************************************************************************
+                         153 --34: */
+                         154 --37: /***************************************************************************
+                         155 --38:   Title: SFMA Driver support functions
+                         156 --40:   Implementation of the SFMA support functions for the D1x device.
+                         157 --42: */
+                         158 --44: /***************************************************************************
+                         159 --45:   Section: Includes
+                         160 --46: */
+                         161 --47: #include "r_typedefs.h"
+                         162 --48: #include "yd_sfma_api.h"
+                         163 --49: #include "r_sfma_api.h"
+                         164 --50: #include "yd_sfma_sys.h"
+                         165 --51: #include "yd_config_sfma.h"
+                         166 --52: #include "r_dev_api.h"
+                         167 --54: //#include "BSP_LowInit.h"
+                         168 --56: /***************************************************************************
+                         169 --57:   Section: Local Defines
+                         170 --58: */
+                         171 --60: /*******************************************************************************
+                         172 --61:   Constant: LOC_YD_SYS_SFMA_INTERNAL_BUS_CLOCK
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                         173 --63:   This constant is the internal bus clock.
+                         174 --64:   D1L2 + D1Mx:
+                         175 --65:     PLL1       => 480MHz
+                         176 --66:     SFMA clock => 480MHz / 3 = 160MHz
+                         177 --67:   D1L1:
+                         178 --68:     PLL1       => 480MHz
+                         179 --69:     SFMA clock => 480MHz / 6 = 80MHz
+                         180 --70: */
+                         181 --71: #define LOC_YD_SYS_SFMA_INTERNAL_BUS_CLOCK         (160 * 1000 * 1000)
+                         182 --72: #define LOC_YD_SYS_SFMA_INTERNAL_BUS_CLOCK_D1L1     (80 * 1000 * 1000)
+                         183 --74: /*******************************************************************************
+                         184 --75:   Constant: LOC_YD_SYS_SFMA_CKDLY
+                         185 --77:   The offset value of the CKDLY register from the base address.
+                         186 --78: */
+                         187 --79: #define LOC_YD_SYS_SFMA_CKDLY              (0x00000050uL)
+                         188 --81: /*******************************************************************************
+                         189 --82:   Constant: LOC_YD_SYS_SFMA_SPODLY
+                         190 --84:   The offset value of the SPODL register from the base address.
+                         191 --85: */
+                         192 --86: #define LOC_YD_SYS_SFMA_SPODLY             (0x00000068uL)
+                         193 --88: /*******************************************************************************
+                         194 --89:   Constant: LOC_YD_SYS_SFMA_CLOCK_ADJUSTED_LIMIT
+                         195 --91:   The limit value which needs the adjustment of the phase relationship.
+                         196 --92: */
+                         197 --93: #define LOC_YD_SYS_SFMA_CLOCK_ADJUSTED_LIMIT       (60 * 1000 * 1000)
+                         198 --95: /***************************************************************************
+                         199 --96:   Constant: LOC_YD_SYS_SFMA_DRCR
+                         200 --98:   The offset value of the DRCR register from the base address.
+                         201 --99: */
+                         202 --100: #define LOC_YD_SYS_SFMA_DRCR               (0x0c)
+                         203 --102: #define LOC_YD_SYS_SFMA_DREAR          	   (0x14)
+                         204 --104: /***************************************************************************
+                         205 --105:   Constant: LOC_YD_SYS_SFMA_CKDLY_MASK
+                         206 --107:   Mask for the CKDLY register.
+                         207 --108: */
+                         208 --109: #define LOC_YD_SYS_SFMA_CKDLY_MASK         (0xFFF8FFF8uL)
+                         209 --112: /***************************************************************************
+                         210 --113:   Constant: LOC_YD_SFMA_DEFAULT_CAL
+                         211 --115:   Default calibration for Serial flash memory.
+                         212 --117:     SPBCLK clock phase shift        3 (Upper 16bits)
+                         213 --118:     Sampling point phase shift      1 (Lower 16 bits)
+                         214 --119: */
+                         215 --121: #define SPBCLK_CLOCK_PHASE_SHIFT    (3u)
+                         216 --122: #define SAMPLING_POINT_PHASE_SHIFT  (1u)
+                         217 --123: #define LOC_YD_SFMA_DEFAULT_CAL        ((SPBCLK_CLOCK_PHASE_SHIFT << 16) | SAMPLING_POINT_PHASE_SHIFT)
+                         218 --125: /***************************************************************************
+                         219 --126:   Function: YD_SFMA_Sys_CalibSetting
+                         220 --128:   see: <yd_sfma_sys.h>
+                         221 --129: */
+                         222 --130: yd_sfma_Error_t YD_SFMA_Sys_CalibSetting(const uint32_t Unit,
+                         223 	.text
+                         224 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74037A..0::
+                         225 	.align	2
+                         226 	.global	_YD_SFMA_Sys_CalibSetting
+                         227 _YD_SFMA_Sys_CalibSetting:
+00000000 0658            228 	mov	r6,r11
+00000002 0768            229 	mov	r7,r13
+00000004 407600a5        230 	movhi	hi(-1526726656),zero,r14
+                         231 --	    .bf
+                         232 .LDW01:
+                         233 --131:                                        const yd_sfma_Config_t * const Config)
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                         234 --132: {
+                         235 --133:     uint32_t base;
+                         236 --134:     uint32_t regval;
+                         237 --135:     yd_sfma_Error_t sys_err = YD_SFMA_ERR_OK;
+00000008 000a            238 	mov	0,r1
+                         239 --137:     if (Config != R_NULL)
+0000000a e069            240 	cmp	zero,r13
+0000000c e225*           241 	be	.L4
+                         242 --138:     {
+                         243 --139:         base = YD_SFMA_BASE_ADD;
+                         244 --line139
+                         245 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.1::
+                         246 .LDWlin1:
+0000000e 40f6fff2        247 	movhi	hi(-218169344),zero,ep
+                         248 --141:         if (Config->SerialFlashMemoryMaxClock >= LOC_YD_SYS_SFMA_CLOCK_ADJUSTED_LIMIT)
+00000012 2d571500        249 	ld.w	20[r13],r10
+00000016 2c0600879303    250 	mov	60000000,r12
+0000001c ec51            251 	cmp	r12,r10
+0000001e 811d*           252 	bl	.L6
+                         253 --142:         {
+                         254 --143:             /* check for valid calibration values */
+                         255 --144:             if(0 == (LOC_YD_SYS_SFMA_CKDLY_MASK & Config->Calibration))
+                         256 --line144
+                         257 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.2::
+                         258 .LDWlin2:
+00000020 2d673100        259 	ld.w	48[r13],r12
+00000024 2a06f8fff8ff    260 	mov	-458760,r10
+0000002a 4a61            261 	and	r10,r12
+0000002c 8a0d*           262 	bne	.L8
+                         263 --145:             {
+                         264 --146:                 YD_SFMA_WRITE32((base+LOC_YD_SYS_SFMA_CKDLY),  0xa5000000u + Config->Calibration); /* Clock delay */
+                         265 --line146
+                         266 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.3::
+                         267 .LDWlin3:
+0000002e 2d673100        268 	ld.w	48[r13],r12
+00000032 4c6600a5        269 	movhi	42240,r12,r12
+00000036 2965            270 	sst.w	r12,80[ep]
+                         271 --147:                 YD_SFMA_WRITE32((base+LOC_YD_SYS_SFMA_SPODLY), 0xa5000000u); /* No Data delay */
+00000038 3575            272 	sst.w	r14,104[ep]
+0000003a 8515*           273 	br	.L12
+                         274 .L8:
+                         275 --148:             }
+                         276 --149:             else
+                         277 --150:             {
+                         278 --151:                 /* error use a default */
+                         279 --152:                 YD_SFMA_WRITE32((base+LOC_YD_SYS_SFMA_CKDLY),  0xa5000000u + LOC_YD_SFMA_DEFAULT_CAL); /* Clock delay */
+                         280 --line152
+                         281 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.4::
+                         282 .LDWlin4:
+0000003c 2a0601000300    283 	mov	196609,r10
+00000042 0e60            284 	mov	r14,r12
+00000044 ca61            285 	add	r10,r12
+00000046 2965            286 	sst.w	r12,80[ep]
+                         287 --153:                 YD_SFMA_WRITE32((base+LOC_YD_SYS_SFMA_SPODLY), 0xa5000000u); /* No Data delay */
+00000048 3575            288 	sst.w	r14,104[ep]
+                         289 --155:                 /* error calibration value */
+                         290 --156:                 sys_err = YD_SFMA_ERR_PARAM_INCORRECT;
+0000004a 020a            291 	mov	2,r1
+0000004c f505*           292 	br	.L12
+                         293 .L6:
+                         294 --157:             }
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                         295 --158:         }
+                         296 --159:         else
+                         297 --160:         {
+                         298 --161:             /* low frequency setting */
+                         299 --163:             /* clock delay */
+                         300 --164:             YD_SFMA_WRITE32((base+LOC_YD_SYS_SFMA_CKDLY),  0xa5000000u);
+                         301 --line164
+                         302 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.5::
+                         303 .LDWlin5:
+0000004e 2975            304 	sst.w	r14,80[ep]
+                         305 --166:             /* fixed 2ns delay  */
+                         306 --167:             YD_SFMA_WRITE32((base+LOC_YD_SYS_SFMA_SPODLY), 0xa5001111u);
+00000050 0e661111        307 	addi	4369,r14,r12
+00000054 3565            308 	sst.w	r12,104[ep]
+00000056 a505*           309 	br	.L12
+                         310 .L4:
+                         311 --168:         }
+                         312 --169:     }
+                         313 --170:     else
+                         314 --171:     {
+                         315 --172:         sys_err = YD_SFMA_ERR_PARAM_INCORRECT;
+                         316 --line172
+                         317 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.6::
+                         318 .LDWlin6:
+00000058 020a            319 	mov	2,r1
+                         320 .L12:
+                         321 --173:     }
+                         322 --175: 	regval = YD_SFMA_READ32(base + LOC_YD_SYS_SFMA_DREAR);
+0000005a 0a65            323 	sld.w	20[ep],r12
+                         324 --177:     return sys_err;
+0000005c 0150            325 	mov	r1,r10
+                         326 --	    .ef
+                         327 .LDW11:
+0000005e 7f00            328 	jmp	[lp]
+                         329 	.type	_YD_SFMA_Sys_CalibSetting,@function
+                         330 	.size	_YD_SFMA_Sys_CalibSetting,.-_YD_SFMA_Sys_CalibSetting
+                         331 	.align	2
+                         332 .LDW21:
+                         333 --_base	ep	local
+                         334 --_regval	r12	local
+                         335 --_sys_err	r1	local
+                         336 
+                         337 --_Unit	r11	param
+                         338 --_Config	r13	param
+                         339 
+                         340 	.section ".bss","awb"
+                         341 .L52:
+                         342 	.type	.L52,@object
+                         343 	.size	.L52,0
+                         344 	.data
+                         345 	.text
+                         346 
+                         347 --178: }
+                         348 
+                         349 --181: /***************************************************************************
+                         350 --182:   Function: YD_SFMA_Sys_Close
+                         351 --184:   see: <yd_sfma_sys.h>
+                         352 --185: */
+                         353 --186: yd_sfma_Error_t YD_SFMA_Sys_Close(const uint32_t Unit)
+                         354 	.align	2
+                         355 	.align	2
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                         356 	.global	_YD_SFMA_Sys_Close
+                         357 _YD_SFMA_Sys_Close:
+00000060 0668            358 	mov	r6,r13
+                         359 --	    .bf
+                         360 .LDW31:
+                         361 --187: {
+                         362 --188:     uint32_t base;
+                         363 --189:     yd_sfma_Error_t sys_err = YD_SFMA_ERR_OK;
+00000062 000a            364 	mov	0,r1
+                         365 --190:     uint32_t regval;
+                         366 --192:     if (Unit == 0)
+00000064 e069            367 	cmp	zero,r13
+00000066 9a0d*           368 	bne	.L108
+                         369 --193:     {
+                         370 --194:         /* terminate any transfers from external address space */
+                         371 --195:         base = YD_SFMA_BASE_ADD;
+                         372 --line195
+                         373 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.7::
+                         374 .LDWlin7:
+00000068 40f6fff2        375 	movhi	hi(-218169344),zero,ep
+                         376 --197:         regval = YD_SFMA_READ32(base + LOC_YD_SYS_SFMA_DRCR);
+0000006c 0675            377 	sld.w	12[ep],r14
+                         378 --198:         YD_SFMA_WRITE32((base + LOC_YD_SYS_SFMA_DRCR),   (regval | 0x01000000uL)); /* set negate */
+0000006e 40660001        379 	movhi	256,zero,r12
+00000072 0e61            380 	or	r14,r12
+00000074 0765            381 	sst.w	r12,12[ep]
+00000076 a505*           382 	br	.L110
+                         383 .L108:
+                         384 --199:     }
+                         385 --200:     else
+                         386 --201:     {
+                         387 --202:         sys_err = YD_SFMA_ERR_PARAM_INCORRECT;
+                         388 --line202
+                         389 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.8::
+                         390 .LDWlin8:
+00000078 020a            391 	mov	2,r1
+                         392 .L110:
+                         393 --203:     }
+                         394 --205:     return sys_err;
+0000007a 0150            395 	mov	r1,r10
+                         396 --	    .ef
+                         397 .LDW41:
+0000007c 7f00            398 	jmp	[lp]
+                         399 	.type	_YD_SFMA_Sys_Close,@function
+                         400 	.size	_YD_SFMA_Sys_Close,.-_YD_SFMA_Sys_Close
+                         401 	.align	2
+                         402 .LDW51:
+                         403 --_base	ep	local
+                         404 --_sys_err	r1	local
+                         405 --_regval	r14	local
+                         406 
+                         407 --_Unit	r13	param
+                         408 
+                         409 	.section ".bss","awb"
+                         410 .L132:
+                         411 	.type	.L132,@object
+                         412 	.size	.L132,0
+                         413 	.data
+                         414 	.text
+                         415 
+                         416 --206: }
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                         417 
+                         418 --209: /***************************************************************************
+                         419 --210:   Function: YD_SFMA_Sys_DDREnable
+                         420 --212:   see: <yd_sfma_sys.h>
+                         421 --213: */
+                         422 --214: uint8_t YD_SFMA_Sys_DDREnable(void)
+                         423 	.align	2
+                         424 	.align	2
+                         425 	.global	_YD_SFMA_Sys_DDREnable
+                         426 _YD_SFMA_Sys_DDREnable:
+                         427 --	    .bf
+                         428 .LDW61:
+                         429 --215: {
+                         430 --216:     uint32_t device;
+                         431 --217:     uint8_t  ret;
+                         432 --218:    #if 0
+                         433 --219:     device = u32g_BSP_LowInit_DevNumTyp;
+                         434 --220:     if (device == R_BSP_LowInit_DEV_R7F701401)
+                         435 --221:     {
+                         436 --222:         ret = R_FALSE;
+                         437 --223:     }
+                         438 --224:     else
+                         439 --225:     {
+                         440 --226:         ret = R_TRUE;
+                         441 --227:     }
+                         442 --228:     #else
+                         443 --229:      ret = R_TRUE;
+0000007e 010a            444 	mov	1,r1
+                         445 --230:     #endif
+                         446 --231:     return ret;
+00000080 0150            447 	mov	r1,r10
+                         448 --	    .ef
+                         449 .LDW71:
+00000082 7f00            450 	jmp	[lp]
+                         451 	.type	_YD_SFMA_Sys_DDREnable,@function
+                         452 	.size	_YD_SFMA_Sys_DDREnable,.-_YD_SFMA_Sys_DDREnable
+                         453 	.align	2
+                         454 .LDW81:
+                         455 --_ret	r1	local
+                         456 
+                         457 	.section ".bss","awb"
+                         458 .L186:
+                         459 	.type	.L186,@object
+                         460 	.size	.L186,0
+                         461 	.data
+                         462 	.text
+                         463 
+                         464 --232: }
+                         465 
+                         466 --234: /***************************************************************************
+                         467 --235:   Function: YD_SFMA_Sys_BusWidth8BitEnable
+                         468 --237:   see: <yd_sfma_sys.h>
+                         469 --238: */
+                         470 --239: uint8_t YD_SFMA_Sys_BusWidth8BitEnable(void)
+                         471 	.align	2
+                         472 	.align	2
+                         473 	.global	_YD_SFMA_Sys_BusWidth8BitEnable
+                         474 _YD_SFMA_Sys_BusWidth8BitEnable:
+                         475 --	    .bf
+                         476 .LDW91:
+                         477 --240: {
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                         478 --241:     uint32_t device;
+                         479 --242:     uint8_t  ret;
+                         480 --243: #if 0
+                         481 --244:     device = u32g_BSP_LowInit_DevNumTyp;
+                         482 --245:     if ((device == R_BSP_LowInit_DEV_R7F701401) ||
+                         483 --246:         (device == R_BSP_LowInit_DEV_R7F701402))
+                         484 --247:     {
+                         485 --248: 		ret = R_FALSE;
+                         486 --249:     }
+                         487 --250:     else
+                         488 --251:     {
+                         489 --252:     	ret = R_TRUE;
+                         490 --253:     }
+                         491 --254:     #else
+                         492 --255:     ret = R_FALSE;
+00000084 000a            493 	mov	0,r1
+                         494 --256:     #endif
+                         495 --258:     return ret;
+00000086 0150            496 	mov	r1,r10
+                         497 --	    .ef
+                         498 .LDW02:
+00000088 7f00            499 	jmp	[lp]
+                         500 	.type	_YD_SFMA_Sys_BusWidth8BitEnable,@function
+                         501 	.size	_YD_SFMA_Sys_BusWidth8BitEnable,.-_YD_SFMA_Sys_BusWidth8BitEnable
+                         502 	.align	2
+                         503 .LDW12:
+                         504 --_ret	r1	local
+                         505 
+                         506 	.section ".bss","awb"
+                         507 .L218:
+                         508 	.type	.L218,@object
+                         509 	.size	.L218,0
+                         510 	.data
+                         511 	.text
+                         512 
+                         513 --259: }
+                         514 
+                         515 --261: /***************************************************************************
+                         516 --262:   Function: YD_SFMA_Sys_SyncPeripheral
+                         517 --264:   see: <yd_sfma_sys.h>
+                         518 --265: */
+                         519 --266: void YD_SFMA_Sys_SyncPeripheral(void)
+                         520 	.align	2
+                         521 	.align	2
+                         522 	.global	_YD_SFMA_Sys_SyncPeripheral
+                         523 _YD_SFMA_Sys_SyncPeripheral:
+0000008a 80072100        524 	prepare	{r31},0
+                         525 --	    .bf
+                         526 .LDW22:
+                         527 --267: {
+                         528 --268:     R_DEV_SyncP();
+                         529 	jarl	_R_DEV_SyncP,lp
+                         529 <EXPANSION BEGIN>
+                         529 jarl22 _R_DEV_SyncP , lp 
+0000008e 80ff0000*       529 <EXPANSION END>
+                         530 --269: }
+                         531 --line269
+                         532 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.9::
+                         533 .LDWlin9:
+00000092 0000            534 	nop
+                         535 --	    .ef
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                         536 .LDW32:
+00000094 40063f00        537 	dispose	0,{r31},[lp]
+                         538 	.type	_YD_SFMA_Sys_SyncPeripheral,@function
+                         539 	.size	_YD_SFMA_Sys_SyncPeripheral,.-_YD_SFMA_Sys_SyncPeripheral
+                         540 	.align	2
+                         541 .LDW42:
+                         542 
+                         543 	.section ".bss","awb"
+                         544 .L250:
+                         545 	.type	.L250,@object
+                         546 	.size	.L250,0
+                         547 	.data
+                         548 	.text
+                         549 
+                         550 
+                         551 --272: /***************************************************************************
+                         552 --273:   Function: YD_SFMA_Sys_Relax
+                         553 --275:   see: <yd_sfma_sys.h>
+                         554 --276: */
+                         555 --277: yd_sfma_Error_t YD_SFMA_Sys_Relax(const uint32_t Unit)
+                         556 	.align	2
+                         557 	.align	2
+                         558 	.global	_YD_SFMA_Sys_Relax
+                         559 _YD_SFMA_Sys_Relax:
+00000098 0670            560 	mov	r6,r14
+                         561 --	    .bf
+                         562 .LDW52:
+                         563 --278: {
+                         564 --279:     yd_sfma_Error_t sys_err = YD_SFMA_ERR_OK;
+0000009a 000a            565 	mov	0,r1
+                         566 --281:     if (Unit >= YD_SFMA_MACRO_NUM)
+0000009c 6172            567 	cmp	1,r14
+0000009e a105*           568 	bl	.L267
+                         569 --282:     {
+                         570 --283:         sys_err = YD_SFMA_ERR_RANGE_UNIT;
+                         571 --line283
+                         572 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.10::
+                         573 .LDWlin10:
+000000a0 030a            574 	mov	3,r1
+                         575 .L267:
+                         576 --284:     }
+                         577 --286:     return sys_err;
+000000a2 0150            578 	mov	r1,r10
+                         579 --	    .ef
+                         580 .LDW62:
+000000a4 7f00            581 	jmp	[lp]
+                         582 	.type	_YD_SFMA_Sys_Relax,@function
+                         583 	.size	_YD_SFMA_Sys_Relax,.-_YD_SFMA_Sys_Relax
+                         584 	.align	2
+                         585 .LDW72:
+                         586 --_sys_err	r1	local
+                         587 
+                         588 --_Unit	r14	param
+                         589 
+                         590 	.section ".bss","awb"
+                         591 .L286:
+                         592 	.type	.L286,@object
+                         593 	.size	.L286,0
+                         594 	.data
+                         595 	.text
+                         596 
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                         597 --287: }
+                         598 
+                         599 --290: /***************************************************************************
+                         600 --291:   Function: YD_SFMA_Sys_GetCal
+                         601 --293:   see: <yd_sfma_sys.h>
+                         602 --294: */
+                         603 --295: uint32_t YD_SFMA_Sys_GetCal(const uint32_t Unit)
+                         604 	.align	2
+                         605 	.align	2
+                         606 	.global	_YD_SFMA_Sys_GetCal
+                         607 _YD_SFMA_Sys_GetCal:
+000000a6 0670            608 	mov	r6,r14
+                         609 --	    .bf
+                         610 .LDW82:
+                         611 --296: {
+                         612 --297:     uint32_t base;
+                         613 --298:     uint32_t regval;
+                         614 --300:     if (Unit == 0)
+000000a8 e071            615 	cmp	zero,r14
+000000aa da05*           616 	bne	.L309
+                         617 --301:     {
+                         618 --302:         /* get the base address */
+                         619 --303:         base = YD_SFMA_BASE_ADD;
+                         620 --line303
+                         621 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.11::
+                         622 .LDWlin11:
+000000ac 40f6fff2        623 	movhi	hi(-218169344),zero,ep
+                         624 --305:         regval = YD_SFMA_READ32(base + LOC_YD_SYS_SFMA_CKDLY);
+000000b0 280d            625 	sld.w	80[ep],r1
+000000b2 a505*           626 	br	.L311
+                         627 .L309:
+                         628 --306:     }
+                         629 --307:     else
+                         630 --308:     {
+                         631 --309:         /* error */
+                         632 --310:         regval = 0xFFFFFFFFuL;
+                         633 --line310
+                         634 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma.12::
+                         635 .LDWlin12:
+000000b4 1f0a            636 	mov	-1,r1
+                         637 .L311:
+                         638 --311:     }
+                         639 --313:     return regval;
+000000b6 0150            640 	mov	r1,r10
+                         641 --	    .ef
+                         642 .LDW92:
+000000b8 7f00            643 	jmp	[lp]
+                         644 	.type	_YD_SFMA_Sys_GetCal,@function
+                         645 	.size	_YD_SFMA_Sys_GetCal,.-_YD_SFMA_Sys_GetCal
+                         646 	.align	2
+                         647 .LDW03:
+                         648 --_base	ep	local
+                         649 --_regval	r1	local
+                         650 
+                         651 --_Unit	r14	param
+                         652 
+                         653 	.section ".bss","awb"
+                         654 .L336:
+                         655 	.type	.L336,@object
+                         656 	.size	.L336,0
+                         657 	.data
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007o81.si
+                         658 	.text
+                         659 
+                         660 --314: }
+                         661 	.align	2
+                         662 
+                         663 	.data
+                         664 	.ghsnote version,14
+                         665 	.ghsnote tools,3
+                         666 	.ghsnote options,144
+                         667 	.text
+                         668 	.align	2
+                         669 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cyd_sys_sfma...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74037A..0::
+                         670 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

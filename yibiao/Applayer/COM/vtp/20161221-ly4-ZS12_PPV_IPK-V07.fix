@@ -1,0 +1,2382 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                    Mentor Graphics Corporation                             */
+/*                        All rights reserved                                 */
+/*                                                                            */
+/* ************************************************************************** */
+/*                                                                            */
+/*  Description:   Fixed file for Volcano 7.2                                 */
+/*  Node:          Instruments                                                */
+/*                                                                            */
+/* ************************************************************************** */
+
+
+
+fixed_file;
+volcano version "7.20";
+
+volcano processing period 5 ms;
+	/*	IPK_CAN_HS/IPK_CAN_HS_Ctrl	*/
+network interface IPK_CAN_HS {
+	Baud rate 500 kHz;
+
+	supports mode FM_Normal_HS;
+	supports mode FM_Quiet_HS;
+	supports mode FM_Silent_HS;
+
+	transmit interrupt true;
+	receive interrupt true;
+}
+
+	/*	IPK_LIN3/IPK_LIN3_Ctrl	*/
+network interface IPK_LIN3 {
+	Baud rate 19.2 kHz;
+
+	supports mode FM_Diagnostics_L3;
+	supports mode FM_Normal_L3;
+
+	sub_bus master;
+	lin_version 2.1;
+}
+
+/*	Subscribed Signals	IPK_CAN_HS	*/
+signal ABSIO{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal AirbagSysFltIndCmd{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal AmbtLghtLvl{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal ASSInhBtnLampOn{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal ASSInhIO{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal ASSStsLampOn{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal ASSWrnngLampOn{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal AutoHoldMsg{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal AutoHoldSysSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal BatAgngSta{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal BatSOC{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal BatVol{
+	subscribed;
+	type unsigned;
+	size 14 bits;
+}
+
+signal BCMEmgcSp{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMGearShftParkNtrlESR{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMNoSmtKeyInVehRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMNoSmtKeyPressBrkTRR{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMNoSmtKeyPressClToRR{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMPressBrkRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMPressClRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMPutSmtKeyToBkupPosR{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMPwrMdHwdSta{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal BCMPwrMdHwdStaV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal BCMRunCrkF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMShftParkRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMSSBA{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal BCMSSBAV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal BCMSSBFltSts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal BCMSyncSmtKeyRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BCMTakeSmtKeyOutOfSR{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BntOpenSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal BrkFludLvlLow{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal BrkFludLvlLowV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal BrkSysRedBrkTlltReq{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal busoff_decrement_time{
+	subscribed;
+	type unsigned;
+	size 16 bits;
+}
+
+signal busoff_max{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal busoff_time{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal busoff_wait_time{
+	subscribed;
+	type unsigned;
+	size 16 bits;
+}
+
+signal CalendarAdjReqA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal CalendarDayAdj{
+	subscribed;
+	type unsigned;
+	size 5 bits;
+}
+
+signal CalendarMonthAdj{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+signal CalendarYearAdj{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal CCA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal CCEnbd{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal CCFltPrst{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal ChmA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal communication_timeout_time_slave{
+	subscribed;
+	type unsigned;
+	size 24 bits;
+}
+
+signal CrusAndSpdLmtrDrvrSS{
+	subscribed;
+	type unsigned;
+	size 12 bits;
+}
+
+signal DayTimeRunningLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal DiagnosticFuncAddrReq{
+	subscribed;
+	type bytes;
+	size 8 bytes;
+}
+
+signal DiagnosticReqIPK{
+	subscribed;
+	type bytes;
+	size 8 bytes;
+}
+
+signal DipdBeamLghtOn{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal DistRCAvgDrvn{
+	subscribed;
+	type unsigned;
+	size 13 bits;
+}
+
+signal DistRCAvgDrvnV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal DrvrDoorOpenSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal DrvrPWLInitnRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal DrvrShftCtrlTrgtGear{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+signal DrvrWndOpenRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal ECMClsDoorToAutoStR{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal ECMFasnSbltToAutoStR{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal ECMPressClBrkRmndr{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal ECMShftNtrlToAutoStR{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal EcoDrvngAIO{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal EcoDrvngDspStsGearSIS{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal EcoDrvngDspStsRcmndFG{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+signal ECODrvngSpdRutA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal EmgcCallFlrSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal En12VoltStrMotCmddOn{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal EnASSSta{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal EnClntTem{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal EnClntTemV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal EnEmsnRltdMalfA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal EnEmsnRltdMalfIndReq{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal EnNonEmsnRltdMalfA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal EnOilPrsLowIO{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal EnRunA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal EnSpd{
+	subscribed;
+	type unsigned;
+	size 16 bits;
+}
+
+signal EnSpdSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal EPBSysAudWrnngReq{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal EPBSysDspMsgReq{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal EPBSysStsIndReq{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal EPBSysWrnngIndReq{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal EPSFlrSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal ESCLFlrIndCmd{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal FasnDrvrSbltIndCmd{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal FasnFrtPsngSbltIndCmd{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal FasnSbltAudRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal FICMDistUnitAdjtReqA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal FICMFuelCsumpUntAdj{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal FICMFuelCsumpUntAdjARA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal FICMOverSpdFnCrntSts{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal FICMOvrSpdThrshldAdj{
+	subscribed;
+	type unsigned;
+	size 6 bits;
+}
+
+signal FICMOvrSpdThrshldAdjtRA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal FICMTemUntAdj{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal FICMTemUntAdjtReqA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal FICMTyrePressureUntAdjtReqA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal FICMVehMntnceSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal fixed_frame_normal_period{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal fixed_frame_startup_period{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal FLTirePrs{
+	subscribed;
+	type unsigned;
+	size 7 bits;
+}
+
+signal FLTirePrsV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal FLTireSts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal FLTireTem{
+	subscribed;
+	type unsigned;
+	size 7 bits;
+}
+
+signal FLTireTemV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal FrtFogLghtOn{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal FRTirePrs{
+	subscribed;
+	type unsigned;
+	size 7 bits;
+}
+
+signal FRTirePrsV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal FRTireSts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal FRTireTem{
+	subscribed;
+	type unsigned;
+	size 7 bits;
+}
+
+signal FRTireTemV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal FrtPsngDoorOpenSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal FrtSideLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal FuelCsump{
+	subscribed;
+	type unsigned;
+	size 12 bits;
+}
+
+signal GenrSta{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal HDCSysSts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal HourOfDayAdj{
+	subscribed;
+	type unsigned;
+	size 5 bits;
+}
+
+signal keep_network_AC{
+	subscribed;
+	type boolean;
+	size 1 bits;
+	update bit;
+}
+
+signal keep_network_ESCL{
+	subscribed;
+	type boolean;
+	size 1 bits;
+	update bit;
+}
+
+signal keep_network_FICM{
+	subscribed;
+	type boolean;
+	size 1 bits;
+	update bit;
+}
+
+signal keep_network_timeout_time_slave{
+	subscribed;
+	type unsigned;
+	size 16 bits;
+}
+
+signal keep_network_TPMS{
+	subscribed;
+	type boolean;
+	size 1 bits;
+	update bit;
+}
+
+signal keep_net_alive_time_master{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal LBrkLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal LDipdBeamLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal LDircnIndLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal LDircnIO{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal LdspcOpenSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal LghtSwPosSts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal local_signal_config_id{
+	subscribed;
+	type unsigned;
+	size 16 bits;
+}
+
+signal m{
+	subscribed;
+	type unsigned;
+	size 16 bits;
+}
+
+signal MainBeamLghtOn{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal master_timeout_time_sec_master{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal MinuteOfHourAdj{
+	subscribed;
+	type unsigned;
+	size 6 bits;
+}
+
+signal monitoring_timeout_time_master{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal MusSrcMd{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+signal n{
+	subscribed;
+	type unsigned;
+	size 16 bits;
+}
+
+signal NavDircn{
+	subscribed;
+	type unsigned;
+	size 6 bits;
+}
+
+signal NavDist{
+	subscribed;
+	type unsigned;
+	size 15 bits;
+}
+
+signal NavDistUnit{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal NCFRefNoIPK{
+	subscribed;
+	type bytes;
+	size 8 bytes;
+}
+
+signal network_mode{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal OdoSecy{
+	subscribed;
+	type bytes;
+	size 3 bytes;
+}
+
+signal PEPSAntFlt{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal PwrMdMstrAccryA{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal PwrMdMstrAccryWkupA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal PwrMdMstrIgnA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal PwrMdMstrRunCrkA{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal RBrkLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal RDipdBeamLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal RDircnIndLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal RDircnIO{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal RdoFrqcVal{
+	subscribed;
+	type unsigned;
+	size 16 bits;
+}
+
+signal remoteframe_timeout_time{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal RevsLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal RLTirePrs{
+	subscribed;
+	type unsigned;
+	size 7 bits;
+}
+
+signal RLTirePrsV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal RLTireSts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal RLTireTem{
+	subscribed;
+	type unsigned;
+	size 7 bits;
+}
+
+signal RLTireTemV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal RrFogLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal RrFogLghtOn{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal RrSideLghtF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal RRTirePrs{
+	subscribed;
+	type unsigned;
+	size 7 bits;
+}
+
+signal RRTirePrsV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal RRTireSts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal RRTireTem{
+	subscribed;
+	type unsigned;
+	size 7 bits;
+}
+
+signal RRTireTemV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ScurtAlrmSts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal ScurtKeyBatLow{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal ScurtKeyInvd{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal SecsOfMinuteAdj{
+	subscribed;
+	type unsigned;
+	size 6 bits;
+}
+
+signal ShifterLckRlseBrkReqA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal short_time_recovery_num{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal SIAOdoSecy{
+	subscribed;
+	type bytes;
+	size 3 bytes;
+}
+
+signal signal_config_id{
+	subscribed;
+	type unsigned;
+	size 16 bits;
+}
+
+signal SpdAstSysStsECM{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal SpdAstSysTrgtSpd{
+	subscribed;
+	type unsigned;
+	size 15 bits;
+}
+
+signal SrfInitnRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal SrfOpenRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal SSBEnOffRmndr{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal startup_time_sec_master{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal stay_in_busoff{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal stay_in_expulsion{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal StrgWhlAngSnsrCalSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal StrgWhlAngSnsrFlt{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal SysOpnlMd{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal SysPwrMd{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal SysPwrMdV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal SysVol{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal SysVolMd{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal SysVolMdV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal SysVolV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal TakeKeyOutRmndr{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal TCSOpngMd{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal TCSOpngSts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal TimeAdjReqA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal TimeDspFmtAdj{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal TPMSAutoLoctnCm{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal TPMSF{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal TPMSIdficnLrnCm{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal TPMSTirePrsLowIO{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal TPMSWntrMdA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal TrNonEmsnRltdMalfA{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal TrShftLvrPos{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+signal TrShftLvrPosV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal TrShftPtrnASts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal TrTapUpTapDwnMdSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal VehLckngSta{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal VehLdShedLvl{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal VehOdo{
+	subscribed;
+	type bytes;
+	size 3 bytes;
+}
+
+signal VehOdoV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal VehSideLghtSts{
+	subscribed;
+	type unsigned;
+	size 2 bits;
+}
+
+signal VehSpdAvgDrvn{
+	subscribed;
+	type unsigned;
+	size 15 bits;
+}
+
+signal VehSpdAvgDrvnV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal VINBCM{
+	subscribed;
+	type bytes;
+	size 8 bytes;
+}
+
+signal VSEMd{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal VSESts{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal wait_for_network_sleep_time_master{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal wait_for_network_sleep_time_slave{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal wakeup_network_signal_time_slave{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal wakeup_network_time_slave{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal wakeup_pending_time_master{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal wakeup_pending_time_sec_master{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal wakeup_pending_time_slave{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal wake_network_AC{
+	subscribed;
+	type boolean;
+	size 1 bits;
+	update bit;
+}
+
+signal wake_network_ESCL{
+	subscribed;
+	type boolean;
+	size 1 bits;
+	update bit;
+}
+
+signal wake_network_FICM{
+	subscribed;
+	type boolean;
+	size 1 bits;
+	update bit;
+}
+
+signal wake_network_signal_time_slave{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal wake_network_TPMS{
+	subscribed;
+	type boolean;
+	size 1 bits;
+	update bit;
+}
+
+signal WhlGndVelLDrvn{
+	subscribed;
+	type unsigned;
+	size 14 bits;
+}
+
+signal WhlGndVelLDrvnV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal WhlGndVelLNonDrvn{
+	subscribed;
+	type unsigned;
+	size 14 bits;
+}
+
+signal WhlGndVelLNonDrvnV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal WhlGndVelRDrvn{
+	subscribed;
+	type unsigned;
+	size 14 bits;
+}
+
+signal WhlGndVelRDrvnV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+signal WhlGndVelRNonDrvn{
+	subscribed;
+	type unsigned;
+	size 14 bits;
+}
+
+signal WhlGndVelRNonDrvnV{
+	subscribed;
+	type unsigned;
+	size 1 bits;
+}
+
+/*	Published Signals	IPK_CAN_HS	*/
+signal AirbagWrnngIndF{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal ASSInhBtnA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal AvgFuelCsump{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal AvgFuelCsumpV{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal CalendarDay{
+	published;
+	type unsigned;
+	size 5 bits;
+}
+
+signal CalendarMonth{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal CalendarYear{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal CCSwStsAlvRC{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal CCSwStsCanclSwA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal CCSwStsDisDecSwA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal CCSwStsDistIncSwA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal CCSwStsOnSwA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal CCSwStsPV{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal CCSwStsRsmSwA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal CCSwStsSetSwA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal CCSwStsSpdDecSwA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal CCSwStsSpdIncSwA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal CCSwStsSwDataIntgty{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal ChmCmdSndCndcPrd{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal ChmCmdSndDutyCyc{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal ChmCmdSndLoctnFL{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal ChmCmdSndLoctnFR{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal ChmCmdSndLoctnRL{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal ChmCmdSndLoctnRR{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal ChmCmdSndTone{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal Clstr10KmTick{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal ClstrDistUnt{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdABSWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdAirbagWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdAltrWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdASpdLmtrWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdBrkSysWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdCCWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdClntTemWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdEnDrvByWireW{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdEPSWrnng{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal ClstrDspdFLTirePrs{
+	published;
+	type unsigned;
+	size 7 bits;
+}
+
+signal ClstrDspdFLTireSts{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdFRTirePrs{
+	published;
+	type unsigned;
+	size 7 bits;
+}
+
+signal ClstrDspdFRTireSts{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdFuelLvlSgmt{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal ClstrDspdFuelSnsrWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdFuelSts{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal ClstrDspdInfoMsk{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdInvdKeyWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdMalfIndrLghtW{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdOilPrsLowW{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdPDCWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdRLTirePrs{
+	published;
+	type unsigned;
+	size 7 bits;
+}
+
+signal ClstrDspdRLTireSts{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdRRTirePrs{
+	published;
+	type unsigned;
+	size 7 bits;
+}
+
+signal ClstrDspdRRTireSts{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdSASUncalWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdSASWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdSCSWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdScurtKeyBatLW{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdSpStWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdTCSWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdTrWrnng{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal ClstrDspdTyrePrsSts{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal ClstrDspdVehSpd{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal ClstrFuelCsumpUnt{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal ClstrTemUnt{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal ClstrTyrePressureUnt{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal DiagnosticRespIPK{
+	published;
+	type bytes;
+	size 8 bytes;
+}
+
+signal DspMeasSys{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal DTCInfomationIPK{
+	published;
+	type bytes;
+	size 7 bytes;
+}
+
+signal FLObsRng{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal FRObsRng{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal FrtMidLObsRng{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal FrtMidRObsRng{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal FrtObsDist{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal FuelLvlPcnt{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal FuelLvlPcntV{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal FuelTotCapct{
+	published;
+	type unsigned;
+	size 12 bits;
+}
+
+signal HourOfDay{
+	published;
+	type unsigned;
+	size 5 bits;
+}
+
+signal IPCAccryA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal IPCEcoDrvngSwA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal IPCRunCrkA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal IPCRunCrkF{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal IPCSSBA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal IPCSSBAV{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal IPCSSBFltSts{
+	published;
+	type unsigned;
+	size 3 bits;
+}
+
+signal keep_network_IPK{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal LanggSetng{
+	published;
+	type unsigned;
+	size 7 bits;
+}
+
+signal MinuteOfHour{
+	published;
+	type unsigned;
+	size 6 bits;
+}
+
+signal OdoPriy{
+	published;
+	type bytes;
+	size 3 bytes;
+}
+
+signal PDCCofignSts{
+	published;
+	type unsigned;
+	size 3 bits;
+}
+
+signal PDCSysSts{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal PfTrTapUpDwnEnbSwSta{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal PfTrTapUpDwnSecySwSta{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal PfTrTapUpDwnSwSta{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal PfTrTapUpDwnSwStsAlvRC{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal RLObsRng{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal RmnDrvngDist{
+	published;
+	type unsigned;
+	size 12 bits;
+}
+
+signal RrMidLObsRng{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal RrMidRObsRng{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal RrObsDist{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal RRObsRng{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+signal SecsOfMinute{
+	published;
+	type unsigned;
+	size 6 bits;
+}
+
+signal SIAOdoPriy{
+	published;
+	type bytes;
+	size 3 bytes;
+}
+
+signal sm_network_mode_h1{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal sm_signal_config_id_h1{
+	published;
+	type unsigned;
+	size 16 bits;
+}
+
+signal StabCtrlDsblSwA{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal SysBPM{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal SysBPMEnbd{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal TimeDspFmt{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal TrPfShftPtrnSw1A{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal TrPfShftPtrnSw4A{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+signal TrPfShftPtrnSwAlvRC{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal VINClstr{
+	published;
+	type bytes;
+	size 8 bytes;
+}
+
+signal wake_network_IPK{
+	published;
+	type boolean;
+	size 1 bits;
+}
+
+/*	Subscribed Signals	IPK_LIN3	*/
+signal PDCCofignSts_L{
+	subscribed;
+	type unsigned;
+	size 3 bits;
+}
+
+signal PDCOverVolFlt_L{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal PDCRespEr_L{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal PDCRLSnsrFlt_L{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal PDCRrMidLSnsrFlt_L{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal PDCRrMidRSnsrFlt_L{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal PDCRRSnsrFlt_L{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal PDCSysSts_L{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+signal PDCUnderVolFlt_L{
+	subscribed;
+	type boolean;
+	size 1 bits;
+}
+
+signal RLObsRng_L{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+signal RrMidLObsRng_L{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+signal RrMidRObsRng_L{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+signal RrObsDist_L{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal RRObsRng_L{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+signal RrPDCAudWrnng_L{
+	subscribed;
+	type unsigned;
+	size 4 bits;
+}
+
+/*	Application controlled subscribed LIN diagnostic Signals 	IPK_LIN3	*/
+signal SlaveRespB0{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal SlaveRespB1{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal SlaveRespB2{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal SlaveRespB3{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal SlaveRespB4{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal SlaveRespB5{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal SlaveRespB6{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+signal SlaveRespB7{
+	subscribed;
+	type unsigned;
+	size 8 bits;
+}
+
+/*	Published Signals	IPK_LIN3	*/
+signal LowAcurcVehSpdAvg{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal MstrSysPwrMd{
+	published;
+	type unsigned;
+	size 2 bits;
+}
+
+signal TrShftLvrPosV_l5{
+	published;
+	type unsigned;
+	size 1 bits;
+}
+
+signal TrShftLvrPos_l5{
+	published;
+	type unsigned;
+	size 4 bits;
+}
+
+/*	Application controlled published LIN diagnostic Signals 	IPK_LIN3	*/
+signal MasterReqB0{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal MasterReqB1{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal MasterReqB2{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal MasterReqB3{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal MasterReqB4{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal MasterReqB5{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal MasterReqB6{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+signal MasterReqB7{
+	published;
+	type unsigned;
+	size 8 bits;
+}
+
+/*	Immediate Signal Groups	*/
+immediate frame DIAG_PhysResp_IPK {
+	transmitted;
+	contains signal DiagnosticRespIPK;
+	}
+immediate frame IPK_HSC1_SecNWM {
+	transmitted;
+	contains signal sm_network_mode_h1;
+	contains signal sm_signal_config_id_h1;
+	}
+immediate frame BCM_HSC1_FrI01 {
+	received;
+	contains signal network_mode;
+	contains signal signal_config_id;
+	}
+immediate frame DIAG_FuncReq_HSC1 {
+	received;
+	contains signal DiagnosticFuncAddrReq;
+	}
+immediate frame DIAG_PhysReq_IPK {
+	received;
+	contains signal DiagnosticReqIPK;
+	}
+immediate frame "slave_rx_remote_frame"{
+	received;
+}
+immediate frame "slave_tx_remote_frame"{
+	transmitted;
+}

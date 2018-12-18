@@ -1,0 +1,1330 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\sys.dbo -source=sys.c -o .\obj\gh_000047k1.o -list=.\obj\sys.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+Source File: sys.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\SYS\sys.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                         112 --		-o .\obj\sys.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\SYS\sys.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:19 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : sys.c
+                         128 --5: * Description :the private datas of the sys module.
+                         129 --6: * Author: Jianjun.He
+                         130 --7: * Date: 2016-12-09
+                         131 --8: ******************************************************************************/
+                         132 --9: /* Files for including */
+                         133 --10: #include "sys_info.inc"
+                         134 --13: static U8 sys_WorkModeSts;                                        /* RUN  STANDBY  DEEPSTOP 三种工作模式*/
+                         135 --14: static BOOL sys_InitSts = FALSE;                                /* 模块的初始化状态*/
+                         136 --19: /***************************************************
+                         137 --20: * Function: SYS_Init
+                         138 --21: * Description: the initialized of the mom module
+                         139 --22: * Parameters:  none
+                         140 --23: * Returns: none
+                         141 --24: * $Create & Verlog:$
+                         142 --25: * Author:Jianjun.He  Date:2016-12-01   Version:V1.0
+                         143 --26: ****************************************************/
+                         144 --27: void SYS_Init(void)
+                         145 	.text
+                         146 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740360..0::
+                         147 	.align	2
+                         148 	.global	_SYS_Init
+                         149 _SYS_Init:
+00000000 80072100        150 	prepare	{r31},0
+                         151 --	    .bf
+                         152 .LDW01:
+                         153 --28: {
+                         154 --29:     sys_WorkModeSts =STATUS_SYS_RUN;
+00000004 2b0600000000*   155 	mov	_sys_WorkModeSts,r11
+0000000a 4b070000        156 	st.b	zero,0[r11]
+                         157 --30:     sys_InitProcess();                                   /*在STBC init 函数中开启所需的中断唤醒源*/
+                         158 	jarl	_sys_InitProcess,lp
+                         158 <EXPANSION BEGIN>
+                         158 jarl22 _sys_InitProcess , lp 
+0000000e 80ff9a02*       158 <EXPANSION END>
+                         159 --31: 	sys_InitSts = TRUE;
+                         160 --line31
+                         161 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.1::
+                         162 .LDWlin1:
+00000012 2b0600000000*   163 	mov	_sys_InitSts,r11
+00000018 010a            164 	mov	1,r1
+0000001a 4b0f0000        165 	st.b	r1,0[r11]
+                         166 --32: }
+0000001e 0000            167 	nop
+                         168 --	    .ef
+                         169 .LDW11:
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+00000020 40063f00        170 	dispose	0,{r31},[lp]
+                         171 	.type	_SYS_Init,@function
+                         172 	.size	_SYS_Init,.-_SYS_Init
+                         173 	.align	2
+                         174 .LDW21:
+                         175 
+                         176 	.data
+                         177 .L30:
+                         178 	.type	.L30,@object
+                         179 	.size	.L30,0
+                         180 	.section ".rodata","a"
+                         181 	.align	4
+                         182 	.global	_SysProc1000ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                         183 _SysProc1000ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                         184 	.type	_SysProc1000ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@object
+                         185 	.size	_SysProc1000ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,8
+00000000 00000000*       186 _SysProc1000ms_Tabl:	.word	_FuelLevelAlgorithm_V2_step
+00000004 00000000*       187 	.word	_RangeToEmptyAlgorithm_V2_step
+                         188 	.type	_SysProc1000ms_Tabl,@object
+                         189 	.size	_SysProc1000ms_Tabl,8
+                         190 	.global	_SysProc200ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                         191 _SysProc200ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                         192 	.type	_SysProc200ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@object
+                         193 	.size	_SysProc200ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,4
+00000008 00000000*       194 _SysProc200ms_Tabl:	.word	_avgFuelCsump_V2_step
+                         195 	.type	_SysProc200ms_Tabl,@object
+                         196 	.size	_SysProc200ms_Tabl,4
+                         197 	.section ".bss","awb"
+                         198 	.global	_sys_WorkModeSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                         199 _sys_WorkModeSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                         200 	.type	_sys_WorkModeSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@object
+                         201 	.size	_sys_WorkModeSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,1
+00000000 00              202 _sys_WorkModeSts:	.space	1
+                         203 	.type	_sys_WorkModeSts,@object
+                         204 	.size	_sys_WorkModeSts,1
+                         205 	.data
+                         206 	.global	_sys_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                         207 _sys_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                         208 	.type	_sys_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@object
+                         209 	.size	_sys_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,1
+00000000 00              210 _sys_InitSts:	.byte	0
+                         211 	.type	_sys_InitSts,@object
+                         212 	.size	_sys_InitSts,1
+                         213 	.section ".rodata","a"
+                         214 	.global	_SysProc5ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                         215 _SysProc5ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                         216 	.type	_SysProc5ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@object
+                         217 	.size	_SysProc5ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,32
+0000000c 00000000*       218 _SysProc5ms_Tabl:	.word	_ADM_Process_5ms
+00000010 00000000*       219 	.word	_MOM_Process_5ms
+00000014 00000000*       220 	.word	_COM_Process_5ms
+00000018 00000000*       221 	.word	_NWD_Process_5ms
+0000001c 00000000*       222 	.word	_BAT_Process_5ms
+00000020 00000000*       223 	.word	_MSG_Process_5ms
+00000024 00000000*       224 	.word	_CHM_Process_5ms
+00000028 00000000*       225 	.word	_IDLE_Process_5ms
+                         226 	.type	_SysProc5ms_Tabl,@object
+                         227 	.size	_SysProc5ms_Tabl,32
+                         228 	.global	_SysProc20ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                         229 _SysProc20ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                         230 	.type	_SysProc20ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@object
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                         231 	.size	_SysProc20ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,40
+0000002c 00000000*       232 _SysProc20ms_Tabl:	.word	_SSB_Process_20ms
+00000030 00000000*       233 	.word	_s_tpm_task
+00000034 00000000*       234 	.word	_s_dsm_task
+00000038 00000000*       235 	.word	_PWR_Process_20ms
+0000003c 00000000*       236 	.word	_CRUS_Process_20ms
+00000040 00000000*       237 	.word	_TIP_Process_20ms
+00000044 00000000*       238 	.word	_SLF_Process_20ms
+00000048 00000000*       239 	.word	_WFM_Process_20ms
+0000004c 00000000*       240 	.word	_TRIP_Process_20ms
+00000050 00000000*       241 	.word	_STSMG_Process_20ms
+                         242 	.type	_SysProc20ms_Tabl,@object
+                         243 	.size	_SysProc20ms_Tabl,40
+                         244 	.global	_SysProc50ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                         245 _SysProc50ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                         246 	.type	_SysProc50ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@object
+                         247 	.size	_SysProc50ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,40
+00000054 00000000*       248 _SysProc50ms_Tabl:	.word	_NVM_Process_50ms
+00000058 00000000*       249 	.word	_SCS_Process_50ms
+0000005c 00000000*       250 	.word	_TPMS_Process_50ms
+00000060 00000000*       251 	.word	_f_fm_task
+00000064 00000000*       252 	.word	_ST_Process_50ms
+00000068 00000000*       253 	.word	_FTR_Process_50ms
+0000006c 00000000*       254 	.word	_NZM_Update_50ms
+00000070 00000000*       255 	.word	_DM_Process_50ms
+00000074 00000000*       256 	.word	_hmi_gfx_loop
+00000078 00000000*       257 	.word	_LED_Process_50ms
+                         258 	.type	_SysProc50ms_Tabl,@object
+                         259 	.size	_SysProc50ms_Tabl,40
+                         260 	.global	_SysProc100ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                         261 _SysProc100ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                         262 	.type	_SysProc100ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@object
+                         263 	.size	_SysProc100ms_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,44
+0000007c 00000000*       264 _SysProc100ms_Tabl:	.word	_PWMM_Process_100ms
+00000080 00000000*       265 	.word	_IOM_Process_100ms
+00000084 00000000*       266 	.word	_LRM_Process_100ms
+00000088 00000000*       267 	.word	_PWR_Process_100ms
+0000008c 00000000*       268 	.word	_ACC_Process_100ms
+00000090 00000000*       269 	.word	_ODO_Process_100ms
+00000094 00000000*       270 	.word	_RTC_Process_100ms
+00000098 00000000*       271 	.word	_ILLU_Process_100ms
+0000009c 00000000*       272 	.word	_ASS_Process_100ms
+000000a0 00000000*       273 	.word	_HSD_Process_100ms
+000000a4 00000000*       274 	.word	_BAT_BcmBat_Process_100ms
+                         275 	.type	_SysProc100ms_Tabl,@object
+                         276 	.size	_SysProc100ms_Tabl,44
+                         277 	.global	_SysInit_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                         278 _SysInit_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                         279 	.type	_SysInit_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@object
+                         280 	.size	_SysInit_Tabl..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,184
+000000a8 00000000*       281 _SysInit_Tabl:	.word	_NZM_Init
+000000ac 00000000*       282 	.word	_OSTM_Init
+000000b0 00000000*       283 	.word	_ADCE_Init
+000000b4 00000000*       284 	.word	_PWM_Init
+000000b8 00000000*       285 	.word	_TAUB_Init
+000000bc 00000000*       286 	.word	_RSTC_Init
+000000c0 00000000*       287 	.word	_ISM_Init
+000000c4 00000000*       288 	.word	_EED_Init
+000000c8 00000000*       289 	.word	_ADM_Init
+000000cc 00000000*       290 	.word	_IOM_Init
+000000d0 00000000*       291 	.word	_LRM_Init
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+000000d4 00000000*       292 	.word	_MOM_Init
+000000d8 00000000*       293 	.word	_BPM_Init
+000000dc 00000000*       294 	.word	_PWMM_Init
+000000e0 00000000*       295 	.word	_COM_Init
+000000e4 00000000*       296 	.word	_NVM_Init
+000000e8 00000000*       297 	.word	_DIAG_Init
+000000ec 00000000*       298 	.word	_TPMS_Init
+000000f0 00000000*       299 	.word	_SLF_Init
+000000f4 00000000*       300 	.word	_BAT_Init
+000000f8 00000000*       301 	.word	_PWR_Init
+000000fc 00000000*       302 	.word	_NWD_Init
+00000100 00000000*       303 	.word	_ASS_Init
+00000104 00000000*       304 	.word	_SSB_Init
+00000108 00000000*       305 	.word	_HSD_Init
+0000010c 00000000*       306 	.word	_ILLU_Init
+00000110 00000000*       307 	.word	_TIP_Init
+00000114 00000000*       308 	.word	_ST_Init
+00000118 00000000*       309 	.word	_ACC_Init
+0000011c 00000000*       310 	.word	_CRUS_Init
+00000120 00000000*       311 	.word	_WFM_Init
+00000124 00000000*       312 	.word	_EVT_Init
+00000128 00000000*       313 	.word	_STSMG_Init
+0000012c 00000000*       314 	.word	_CHM_Init
+00000130 00000000*       315 	.word	_LED_Init
+00000134 00000000*       316 	.word	_MSG_Init
+00000138 00000000*       317 	.word	_RTC_Init
+0000013c 00000000*       318 	.word	_RST_Init
+00000140 00000000*       319 	.word	_SCS_Init
+00000144 00000000*       320 	.word	_ODO_Init
+00000148 00000000*       321 	.word	_FuelLevelAlgorithm_V2_initialize
+0000014c 00000000*       322 	.word	_avgFuelCsump_V2_initialize
+00000150 00000000*       323 	.word	_RangeToEmptyAlgorithm_V2_initialize
+00000154 00000000*       324 	.word	_FTR_Init
+00000158 00000000*       325 	.word	_DM_Init
+0000015c 00000000*       326 	.word	_IDLE_Init
+                         327 	.type	_SysInit_Tabl,@object
+                         328 	.size	_SysInit_Tabl,184
+                         329 	.data
+                         330 	.text
+                         331 
+                         332 
+                         333 --33: #if 0
+                         334 --34: void SYS_SetInitStatus(U8 state)
+                         335 --35: {
+                         336 --36: 	sys_InitSts = state;
+                         337 --37: }
+                         338 --38: U8 SYS_GetInitStatus(void)
+                         339 --39: {
+                         340 --40: 	return sys_InitSts;
+                         341 --41: }
+                         342 --42: #endif
+                         343 --43: /***************************************************
+                         344 --44: * Function: SYS_ProcessManage
+                         345 --45: * Description: the process of the SYS module
+                         346 --46: * Parameters:  none
+                         347 --47: * Returns: none
+                         348 --48: * $Create & Verlog:$
+                         349 --49: * Author:Jianjun.He  Date:2016-12-09   Version:V1.0
+                         350 --50: ****************************************************/
+                         351 --51: extern void RANG_OutputBeforeSleep(void);
+                         352 --52: void SYS_ProcessManage(void)
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                         353 	.align	2
+                         354 	.align	2
+                         355 	.global	_SYS_ProcessManage
+                         356 _SYS_ProcessManage:
+00000024 9407e170        357 	prepare	{r25,r26,r27,r28,r29,r31},10
+                         358 --	    .bf
+                         359 .LDW31:
+                         360 --53: {
+                         361 --54: 	U8 i = 0;
+00000028 00ea            362 	mov	0,r29
+                         363 --55: 	U8 pwrSts = PWR_OFF;
+0000002a 43070b00        364 	st.b	zero,11[sp]
+0000002e 005a            365 	mov	0,r11
+                         366 --57: 	U8 sys_5MS_Flag    = FALSE;
+00000030 43070300        367 	st.b	zero,3[sp]
+                         368 --58: 	U8 sys_20MS_Flag   = FALSE;
+00000034 43070400        369 	st.b	zero,4[sp]
+                         370 --59: 	U8 sys_50MS_Flag   = FALSE;
+00000038 43070500        371 	st.b	zero,5[sp]
+                         372 --60: 	U8 sys_100MS_Flag  = FALSE;
+0000003c 43070600        373 	st.b	zero,6[sp]
+                         374 --61: 	U8 sys_200MS_Flag  = FALSE;
+00000040 43070700        375 	st.b	zero,7[sp]
+                         376 --62: 	U8 sys_1000MS_Flag = FALSE;
+00000044 43070800        377 	st.b	zero,8[sp]
+                         378 --64: 	BOOL sys_5MS_ret    = FALSE;
+00000048 00e2            379 	mov	0,r28
+                         380 --65: 	BOOL sys_20MS_ret   = FALSE;
+0000004a 00da            381 	mov	0,r27
+                         382 --66: 	BOOL sys_50MS_ret   = FALSE;
+0000004c 00d2            383 	mov	0,r26
+                         384 --67: 	BOOL sys_100MS_ret  = FALSE;
+0000004e 00ca            385 	mov	0,r25
+                         386 --68: 	BOOL sys_200MS_ret  = FALSE;
+00000050 43070900        387 	st.b	zero,9[sp]
+00000054 005a            388 	mov	0,r11
+                         389 --69: 	BOOL sys_1000MS_ret = FALSE;
+00000056 43070a00        390 	st.b	zero,10[sp]
+0000005a 005a            391 	mov	0,r11
+                         392 --71: 	static U32 RangeCnt = 0;
+                         393 --72: 	static BOOL enter_standbymode_flag = FALSE;
+                         394 --73: 	EedWorkStatus_ENUM eedsts = STATUS_EED_UNKNOWN;
+0000005c 63070d00        395 	st.w	zero,12[sp]
+                         396 --75: 	sys_5MS_ret = OSTM_GetSysTaskFlag(INDEX_OSTM_5MS,&sys_5MS_Flag);
+00000060 0132            397 	mov	1,r6
+00000062 233e0300        398 	movea	3,sp,r7
+                         399 	jarl	_OSTM_GetSysTaskFlag,lp
+                         399 <EXPANSION BEGIN>
+                         399 jarl22 _OSTM_GetSysTaskFlag , lp 
+00000066 80ff0000*       399 <EXPANSION END>
+0000006a 0ae0            400 	mov	r10,r28
+                         401 --76: 	sys_20MS_ret = OSTM_GetSysTaskFlag(INDEX_OSTM_20MS,&sys_20MS_Flag);
+                         402 --line76
+                         403 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.2::
+                         404 .LDWlin2:
+0000006c 0332            405 	mov	3,r6
+0000006e 233e0400        406 	movea	4,sp,r7
+                         407 	jarl	_OSTM_GetSysTaskFlag,lp
+                         407 <EXPANSION BEGIN>
+                         407 jarl22 _OSTM_GetSysTaskFlag , lp 
+00000072 80ff0000*       407 <EXPANSION END>
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+00000076 0ad8            408 	mov	r10,r27
+                         409 --77: 	sys_50MS_ret = OSTM_GetSysTaskFlag(INDEX_OSTM_50MS,&sys_50MS_Flag);
+                         410 --line77
+                         411 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.3::
+                         412 .LDWlin3:
+00000078 0432            413 	mov	4,r6
+0000007a 233e0500        414 	movea	5,sp,r7
+                         415 	jarl	_OSTM_GetSysTaskFlag,lp
+                         415 <EXPANSION BEGIN>
+                         415 jarl22 _OSTM_GetSysTaskFlag , lp 
+0000007e 80ff0000*       415 <EXPANSION END>
+00000082 0ad0            416 	mov	r10,r26
+                         417 --78: 	sys_100MS_ret = OSTM_GetSysTaskFlag(INDEX_OSTM_100MS,&sys_100MS_Flag);
+                         418 --line78
+                         419 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.4::
+                         420 .LDWlin4:
+00000084 0532            421 	mov	5,r6
+00000086 233e0600        422 	movea	6,sp,r7
+                         423 	jarl	_OSTM_GetSysTaskFlag,lp
+                         423 <EXPANSION BEGIN>
+                         423 jarl22 _OSTM_GetSysTaskFlag , lp 
+0000008a 80ff0000*       423 <EXPANSION END>
+0000008e 0ac8            424 	mov	r10,r25
+                         425 --79: 	sys_200MS_ret = OSTM_GetSysTaskFlag(INDEX_OSTM_200MS,&sys_200MS_Flag);
+                         426 --line79
+                         427 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.5::
+                         428 .LDWlin5:
+00000090 0632            429 	mov	6,r6
+00000092 233e0700        430 	movea	7,sp,r7
+                         431 	jarl	_OSTM_GetSysTaskFlag,lp
+                         431 <EXPANSION BEGIN>
+                         431 jarl22 _OSTM_GetSysTaskFlag , lp 
+00000096 80ff0000*       431 <EXPANSION END>
+0000009a 43570900        432 	st.b	r10,9[sp]
+                         433 --80: 	sys_1000MS_ret = OSTM_GetSysTaskFlag(INDEX_OSTM_1000MS,&sys_1000MS_Flag);
+                         434 --line80
+                         435 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.6::
+                         436 .LDWlin6:
+0000009e 0832            437 	mov	8,r6
+000000a0 233e0800        438 	movea	8,sp,r7
+                         439 	jarl	_OSTM_GetSysTaskFlag,lp
+                         439 <EXPANSION BEGIN>
+                         439 jarl22 _OSTM_GetSysTaskFlag , lp 
+000000a4 80ff0000*       439 <EXPANSION END>
+000000a8 43570a00        440 	st.b	r10,10[sp]
+                         441 --82: 	if ((RET_OK == sys_5MS_ret) && (TRUE == sys_5MS_Flag))
+                         442 --line82
+                         443 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.7::
+                         444 .LDWlin7:
+000000ac 61e2            445 	cmp	1,r28
+000000ae 8a25*           446 	bne	.L65
+000000b0 a30f0300        447 	ld.bu	3[sp],r1
+000000b4 610a            448 	cmp	1,r1
+000000b6 ca1d*           449 	bne	.L65
+                         450 --83: 	{                                                                                                                                /*100 ms ? Process*/
+                         451 --84: 		if (RET_OK == OSTM_ClrSysTaskFlag(INDEX_OSTM_5MS))  /*??BASETIME_25MS */
+                         452 --line84
+                         453 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.8::
+                         454 .LDWlin8:
+000000b8 0132            455 	mov	1,r6
+                         456 	jarl	_OSTM_ClrSysTaskFlag,lp
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                         456 <EXPANSION BEGIN>
+                         456 jarl22 _OSTM_ClrSysTaskFlag , lp 
+000000ba 80ff0000*       456 <EXPANSION END>
+                         457 --85: 		{
+                         458 --86: 			/*do nothing*/
+                         459 --87: 		}
+                         460 --88: 		else
+                         461 --89: 		{
+                         462 --90: 			/*do nothing*/
+                         463 --91: 		}
+                         464 --93: 		for ( i = 0 ; i < INDEX_SYS5MSPROCESS_ALL ; i++)
+                         465 --line93
+                         466 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.9::
+                         467 .LDWlin9:
+000000be 00ea            468 	mov	0,r29
+000000c0 0000            469 	nop
+                         470 .L61:
+                         471 --94: 		{
+                         472 --95: 			if (NULL_PTR != SysProc5ms_Tabl[i])
+000000c2 1df0            473 	mov	r29,ep
+000000c4 c2f2            474 	shl	2,ep
+000000c6 2e0600000000*   475 	mov	_SysProc5ms_Tabl,r14
+000000cc cef1            476 	add	r14,ep
+000000ce 000d            477 	sld.w	0[ep],r1
+000000d0 e009            478 	cmp	zero,r1
+000000d2 a20d*           479 	be	.L64
+                         480 --96: 			{
+                         481 --97: 			    SysProc5ms_Tabl[i]();
+                         482 --line97
+                         483 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.10::
+                         484 .LDWlin10:
+000000d4 1df0            485 	mov	r29,ep
+000000d6 c2f2            486 	shl	2,ep
+000000d8 2e0600000000*   487 	mov	_SysProc5ms_Tabl,r14
+000000de cef1            488 	add	r14,ep
+000000e0 0065            489 	sld.w	0[ep],r12
+000000e2 ecc760f9        490 	jarl	[r12],lp
+                         491 .L64:
+                         492 --98: 			}
+                         493 --99: 			else
+                         494 --100: 			{
+                         495 --line93
+                         496 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.11::
+                         497 .LDWlin11:
+000000e6 41ea            498 	add	1,r29
+000000e8 9d00            499 	zxb	r29
+000000ea 68ea            500 	cmp	8,r29
+000000ec b1ed*           501 	bl	.L61
+                         502 .L65:
+                         503 --101: 			}
+                         504 --102: 		}
+                         505 --103: 	}
+                         506 --104: 	else
+                         507 --105: 	{
+                         508 --106: 	}
+                         509 --107: 	
+                         510 --108:     if ((RET_OK == sys_20MS_ret) && (TRUE == sys_20MS_Flag))
+                         511 --line108
+                         512 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.12::
+                         513 .LDWlin12:
+000000ee 61da            514 	cmp	1,r27
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+000000f0 8a25*           515 	bne	.L78
+000000f2 830f0500        516 	ld.bu	4[sp],r1
+000000f6 610a            517 	cmp	1,r1
+000000f8 ca1d*           518 	bne	.L78
+                         519 --109:     {                                                                                                                                /*100 ms ? Process*/
+                         520 --110:         if (RET_OK == OSTM_ClrSysTaskFlag(INDEX_OSTM_20MS))  /*??BASETIME_25MS */
+                         521 --line110
+                         522 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.13::
+                         523 .LDWlin13:
+000000fa 0332            524 	mov	3,r6
+                         525 	jarl	_OSTM_ClrSysTaskFlag,lp
+                         525 <EXPANSION BEGIN>
+                         525 jarl22 _OSTM_ClrSysTaskFlag , lp 
+000000fc 80ff0000*       525 <EXPANSION END>
+                         526 --111:         {
+                         527 --112:            	/*do nothing*/
+                         528 --113:     	}
+                         529 --114:      	else
+                         530 --115: 		{
+                         531 --116: 		 	/*do nothing*/
+                         532 --117: 		}
+                         533 --119:         for ( i = 0 ; i < INDEX_SYS20MSPROCESS_ALL ; i++)
+                         534 --line119
+                         535 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.14::
+                         536 .LDWlin14:
+00000100 00ea            537 	mov	0,r29
+00000102 0000            538 	nop
+                         539 .L74:
+                         540 --120:         {
+                         541 --121:             if (NULL_PTR != SysProc20ms_Tabl[i])
+00000104 1df0            542 	mov	r29,ep
+00000106 c2f2            543 	shl	2,ep
+00000108 2e0600000000*   544 	mov	_SysProc20ms_Tabl,r14
+0000010e cef1            545 	add	r14,ep
+00000110 000d            546 	sld.w	0[ep],r1
+00000112 e009            547 	cmp	zero,r1
+00000114 a20d*           548 	be	.L77
+                         549 --122:             {
+                         550 --123:                 SysProc20ms_Tabl[i]();
+                         551 --line123
+                         552 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.15::
+                         553 .LDWlin15:
+00000116 1df0            554 	mov	r29,ep
+00000118 c2f2            555 	shl	2,ep
+0000011a 2e0600000000*   556 	mov	_SysProc20ms_Tabl,r14
+00000120 cef1            557 	add	r14,ep
+00000122 0065            558 	sld.w	0[ep],r12
+00000124 ecc760f9        559 	jarl	[r12],lp
+                         560 .L77:
+                         561 --124:             }
+                         562 --125: 			else
+                         563 --126: 			{
+                         564 --line119
+                         565 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.16::
+                         566 .LDWlin16:
+00000128 41ea            567 	add	1,r29
+0000012a 9d00            568 	zxb	r29
+0000012c 6aea            569 	cmp	10,r29
+0000012e b1ed*           570 	bl	.L74
+                         571 .L78:
+                         572 --127: 			}
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                         573 --128:         }
+                         574 --129:     }
+                         575 --130: 	else
+                         576 --131: 	{
+                         577 --132: 	}
+                         578 --133: 	
+                         579 --134:     if ((RET_OK == sys_50MS_ret) && (TRUE == sys_50MS_Flag))
+                         580 --line134
+                         581 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.17::
+                         582 .LDWlin17:
+00000130 61d2            583 	cmp	1,r26
+00000132 8a25*           584 	bne	.L91
+00000134 a30f0500        585 	ld.bu	5[sp],r1
+00000138 610a            586 	cmp	1,r1
+0000013a ca1d*           587 	bne	.L91
+                         588 --135:     {                                                                                                                                /*100 ms ? Process*/
+                         589 --136:         if (RET_OK == OSTM_ClrSysTaskFlag(INDEX_OSTM_50MS))  /*??BASETIME_25MS */
+                         590 --line136
+                         591 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.18::
+                         592 .LDWlin18:
+0000013c 0432            593 	mov	4,r6
+                         594 	jarl	_OSTM_ClrSysTaskFlag,lp
+                         594 <EXPANSION BEGIN>
+                         594 jarl22 _OSTM_ClrSysTaskFlag , lp 
+0000013e 80ff0000*       594 <EXPANSION END>
+                         595 --137:         {
+                         596 --138:            	/*do nothing*/
+                         597 --139:     	}
+                         598 --140:      	else
+                         599 --141: 		{
+                         600 --142: 		 	/*do nothing*/
+                         601 --143: 		}
+                         602 --145:         for ( i = 0 ; i < INDEX_SYS50MSPROCESS_ALL ; i++)
+                         603 --line145
+                         604 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.19::
+                         605 .LDWlin19:
+00000142 00ea            606 	mov	0,r29
+00000144 0000            607 	nop
+                         608 .L87:
+                         609 --146:         {
+                         610 --147:             if (NULL_PTR != SysProc50ms_Tabl[i])
+00000146 1df0            611 	mov	r29,ep
+00000148 c2f2            612 	shl	2,ep
+0000014a 2b0600000000*   613 	mov	_SysProc50ms_Tabl,r11
+00000150 cbf1            614 	add	r11,ep
+00000152 000d            615 	sld.w	0[ep],r1
+00000154 e009            616 	cmp	zero,r1
+00000156 a20d*           617 	be	.L90
+                         618 --148:             {
+                         619 --149:                 SysProc50ms_Tabl[i]();
+                         620 --line149
+                         621 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.20::
+                         622 .LDWlin20:
+00000158 1df0            623 	mov	r29,ep
+0000015a c2f2            624 	shl	2,ep
+0000015c 2b0600000000*   625 	mov	_SysProc50ms_Tabl,r11
+00000162 cbf1            626 	add	r11,ep
+00000164 006d            627 	sld.w	0[ep],r13
+00000166 edc760f9        628 	jarl	[r13],lp
+                         629 .L90:
+                         630 --150:             }
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                         631 --151: 			else
+                         632 --152: 			{
+                         633 --line145
+                         634 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.21::
+                         635 .LDWlin21:
+0000016a 41ea            636 	add	1,r29
+0000016c 9d00            637 	zxb	r29
+0000016e 6aea            638 	cmp	10,r29
+00000170 b1ed*           639 	bl	.L87
+                         640 .L91:
+                         641 --153: 			}
+                         642 --154:         }
+                         643 --155:     }
+                         644 --156: 	else
+                         645 --157: 	{
+                         646 --158: 	}
+                         647 --160:     if ((RET_OK == sys_100MS_ret) && (TRUE == sys_100MS_Flag))
+                         648 --line160
+                         649 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.22::
+                         650 .LDWlin22:
+00000172 61ca            651 	cmp	1,r25
+00000174 ea45*           652 	bne	.L116
+00000176 830f0700        653 	ld.bu	6[sp],r1
+0000017a 610a            654 	cmp	1,r1
+0000017c aa45*           655 	bne	.L116
+                         656 --161:     {                                                                                                                             /*50 ms ? Process*/
+                         657 --162:         if (RET_OK == OSTM_ClrSysTaskFlag(INDEX_OSTM_100MS))
+                         658 --line162
+                         659 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.23::
+                         660 .LDWlin23:
+0000017e 0532            661 	mov	5,r6
+                         662 	jarl	_OSTM_ClrSysTaskFlag,lp
+                         662 <EXPANSION BEGIN>
+                         662 jarl22 _OSTM_ClrSysTaskFlag , lp 
+00000180 80ff0000*       662 <EXPANSION END>
+                         663 --163: 		{
+                         664 --164:            	/*do nothing*/
+                         665 --165:     	}
+                         666 --166:      	else
+                         667 --167: 		{
+                         668 --168: 		 	/*do nothing*/
+                         669 --169: 		}
+                         670 --171:         for ( i = 0 ; i < INDEX_SYS100MSPROCESS_ALL ; i++)
+                         671 --line171
+                         672 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.24::
+                         673 .LDWlin24:
+00000184 00ea            674 	mov	0,r29
+00000186 0000            675 	nop
+                         676 .L100:
+                         677 --172:         {
+                         678 --173:             if (NULL_PTR != SysProc100ms_Tabl[i])
+00000188 1df0            679 	mov	r29,ep
+0000018a c2f2            680 	shl	2,ep
+0000018c 2b0600000000*   681 	mov	_SysProc100ms_Tabl,r11
+00000192 cbf1            682 	add	r11,ep
+00000194 000d            683 	sld.w	0[ep],r1
+00000196 e009            684 	cmp	zero,r1
+00000198 a20d*           685 	be	.L103
+                         686 --174:             {
+                         687 --175:                 SysProc100ms_Tabl[i]();
+                         688 --line175
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                         689 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.25::
+                         690 .LDWlin25:
+0000019a 1df0            691 	mov	r29,ep
+0000019c c2f2            692 	shl	2,ep
+0000019e 2b0600000000*   693 	mov	_SysProc100ms_Tabl,r11
+000001a4 cbf1            694 	add	r11,ep
+000001a6 006d            695 	sld.w	0[ep],r13
+000001a8 edc760f9        696 	jarl	[r13],lp
+                         697 .L103:
+                         698 --176:             }
+                         699 --177: 		 	else
+                         700 --178: 		    {
+                         701 --line171
+                         702 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.26::
+                         703 .LDWlin26:
+000001ac 41ea            704 	add	1,r29
+000001ae 9d00            705 	zxb	r29
+000001b0 6bea            706 	cmp	11,r29
+000001b2 b1ed*           707 	bl	.L100
+                         708 --179: 		        /*do nothing*/
+                         709 --180: 		    }
+                         710 --181:         }
+                         711 --183: 		
+                         712 --184: 	#if 1
+                         713 --185: 		
+                         714 --186: 			if (FALSE != COM_GetNetWorkSleepSts())
+                         715 --line186
+                         716 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.27::
+                         717 .LDWlin27:
+                         718 	jarl	_COM_GetNetWorkSleepSts,lp
+                         718 <EXPANSION BEGIN>
+                         718 jarl22 _COM_GetNetWorkSleepSts , lp 
+000001b4 80ff0000*       718 <EXPANSION END>
+000001b8 e051            719 	cmp	zero,r10
+000001ba b225*           720 	be	.L116
+                         721 --187: 			{
+                         722 --188: 				sys_Process_BeforeDeepSleep();	
+                         723 --line188
+                         724 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.28::
+                         725 .LDWlin28:
+                         726 	jarl	_sys_Process_BeforeDeepSleep,lp
+                         726 <EXPANSION BEGIN>
+                         726 jarl22 _sys_Process_BeforeDeepSleep , lp 
+000001bc 80ff2201*       726 <EXPANSION END>
+                         727 --189: 			
+                         728 --190: 				
+                         729 --191: 				if (RET_OK == EED_GetEEPROMStatus(&eedsts))
+                         730 --line191
+                         731 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.29::
+                         732 .LDWlin29:
+000001c0 23360c00        733 	movea	12,sp,r6
+                         734 	jarl	_EED_GetEEPROMStatus,lp
+                         734 <EXPANSION BEGIN>
+                         734 jarl22 _EED_GetEEPROMStatus , lp 
+000001c4 80ff0000*       734 <EXPANSION END>
+000001c8 6152            735 	cmp	1,r10
+000001ca ba1d*           736 	bne	.L116
+                         737 --192: 				{
+                         738 --193: 				
+                         739 --194: 					if ( STATUS_EED_IDLE == eedsts )			
+                         740 --line194
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                         741 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.30::
+                         742 .LDWlin30:
+000001cc 230f0d00        743 	ld.w	12[sp],r1
+000001d0 610a            744 	cmp	1,r1
+000001d2 fa15*           745 	bne	.L116
+                         746 --195: 					{
+                         747 --196: 						RangeCnt++;
+                         748 --line196
+                         749 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.31::
+                         750 .LDWlin31:
+000001d4 2c0600000000*   751 	mov	.L568,r12
+000001da 2c0f0100        752 	ld.w	0[r12],r1
+000001de 410a            753 	add	1,r1
+000001e0 6c0f0100        754 	st.w	r1,0[r12]
+                         755 --197: 						if(RangeCnt >= 0x2)
+000001e4 210600000000*   756 	mov	.L568,r1
+000001ea 210f0100        757 	ld.w	0[r1],r1
+000001ee 620a            758 	cmp	2,r1
+000001f0 810d*           759 	bl	.L116
+                         760 --198: 						{
+                         761 --199: 							RangeCnt = 0;
+                         762 --line199
+                         763 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.32::
+                         764 .LDWlin32:
+000001f2 2b0600000000*   765 	mov	.L568,r11
+000001f8 6b070100        766 	st.w	zero,0[r11]
+                         767 --200: 							STBC_EnterDeepStop();
+                         768 	jarl	_STBC_EnterDeepStop,lp
+                         768 <EXPANSION BEGIN>
+                         768 jarl22 _STBC_EnterDeepStop , lp 
+000001fc 80ff0000*       768 <EXPANSION END>
+                         769 .L116:
+                         770 --201: 						}
+                         771 --202: 						else
+                         772 --203: 						{
+                         773 --204: 						}
+                         774 --205: 					
+                         775 --206: 					}
+                         776 --207: 					else
+                         777 --208: 					{
+                         778 --209: 					}
+                         779 --210: 				}
+                         780 --211: 				else
+                         781 --212: 				{
+                         782 --213: 				}
+                         783 --214: 			}
+                         784 --215: 			else
+                         785 --216: 			{
+                         786 --217: 				/*do nothing*/
+                         787 --218: 			}
+                         788 --219: 		
+                         789 --220: 	#endif
+                         790 --221: 		
+                         791 --222:     }
+                         792 --223: 	else
+                         793 --224: 	{
+                         794 --225: 	}
+                         795 --227: 	 if ((RET_OK == sys_200MS_ret) && (TRUE == sys_200MS_Flag))
+                         796 --line227
+                         797 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.33::
+                         798 .LDWlin33:
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+00000200 a35f0900        799 	ld.bu	9[sp],r11
+00000204 615a            800 	cmp	1,r11
+00000206 8a25*           801 	bne	.L129
+00000208 a30f0700        802 	ld.bu	7[sp],r1
+0000020c 610a            803 	cmp	1,r1
+0000020e ca1d*           804 	bne	.L129
+                         805 --228:     {                                                                                                                             /*50 ms ? Process*/
+                         806 --229:         if (RET_OK == OSTM_ClrSysTaskFlag(INDEX_OSTM_200MS))
+                         807 --line229
+                         808 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.34::
+                         809 .LDWlin34:
+00000210 0632            810 	mov	6,r6
+                         811 	jarl	_OSTM_ClrSysTaskFlag,lp
+                         811 <EXPANSION BEGIN>
+                         811 jarl22 _OSTM_ClrSysTaskFlag , lp 
+00000212 80ff0000*       811 <EXPANSION END>
+                         812 --230: 		{
+                         813 --231:            	/*do nothing*/
+                         814 --232:     	}
+                         815 --233:      	else
+                         816 --234: 		{
+                         817 --235: 		 	/*do nothing*/
+                         818 --236: 		}
+                         819 --238:         for ( i = 0 ; i < INDEX_SYS200MSPROCESS_ALL ; i++)
+                         820 --line238
+                         821 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.35::
+                         822 .LDWlin35:
+00000216 00ea            823 	mov	0,r29
+00000218 0000            824 	nop
+                         825 .L125:
+                         826 --239:         {
+                         827 --240:             if (NULL_PTR != SysProc200ms_Tabl[i])
+0000021a 1df0            828 	mov	r29,ep
+0000021c c2f2            829 	shl	2,ep
+0000021e 2b0600000000*   830 	mov	_SysProc200ms_Tabl,r11
+00000224 cbf1            831 	add	r11,ep
+00000226 000d            832 	sld.w	0[ep],r1
+00000228 e009            833 	cmp	zero,r1
+0000022a a20d*           834 	be	.L128
+                         835 --241:             {
+                         836 --242:                 SysProc200ms_Tabl[i]();
+                         837 --line242
+                         838 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.36::
+                         839 .LDWlin36:
+0000022c 1df0            840 	mov	r29,ep
+0000022e c2f2            841 	shl	2,ep
+00000230 2b0600000000*   842 	mov	_SysProc200ms_Tabl,r11
+00000236 cbf1            843 	add	r11,ep
+00000238 006d            844 	sld.w	0[ep],r13
+0000023a edc760f9        845 	jarl	[r13],lp
+                         846 .L128:
+                         847 --243:             }
+                         848 --244: 		 	else
+                         849 --245: 		    {
+                         850 --line238
+                         851 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.37::
+                         852 .LDWlin37:
+0000023e 41ea            853 	add	1,r29
+00000240 9d00            854 	zxb	r29
+00000242 61ea            855 	cmp	1,r29
+00000244 b1ed*           856 	bl	.L125
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                         857 .L129:
+                         858 --246: 		        /*do nothing*/
+                         859 --247: 		    }
+                         860 --248:         }
+                         861 --249:     }
+                         862 --250: 	else
+                         863 --251: 	{
+                         864 --252: 	}
+                         865 --253: 	
+                         866 --255:     if ((RET_OK == sys_1000MS_ret) && (TRUE == sys_1000MS_Flag))
+                         867 --line255
+                         868 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.38::
+                         869 .LDWlin38:
+00000246 835f0b00        870 	ld.bu	10[sp],r11
+0000024a 615a            871 	cmp	1,r11
+0000024c 8a25*           872 	bne	.L142
+0000024e 830f0900        873 	ld.bu	8[sp],r1
+00000252 610a            874 	cmp	1,r1
+00000254 ca1d*           875 	bne	.L142
+                         876 --256:     {
+                         877 --257: 		if (RET_OK == OSTM_ClrSysTaskFlag(INDEX_OSTM_1000MS))
+                         878 --line257
+                         879 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.39::
+                         880 .LDWlin39:
+00000256 0832            881 	mov	8,r6
+                         882 	jarl	_OSTM_ClrSysTaskFlag,lp
+                         882 <EXPANSION BEGIN>
+                         882 jarl22 _OSTM_ClrSysTaskFlag , lp 
+00000258 80ff0000*       882 <EXPANSION END>
+                         883 --258: 		{
+                         884 --259: 		}
+                         885 --260: 		else
+                         886 --261: 		{
+                         887 --262: 		/*do nothing*/
+                         888 --263: 		}
+                         889 --265:         for ( i = 0 ; i < INDEX_SYS1000MSPROCESS_ALL ; i++)
+                         890 --line265
+                         891 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.40::
+                         892 .LDWlin40:
+0000025c 00ea            893 	mov	0,r29
+0000025e 0000            894 	nop
+                         895 .L138:
+                         896 --266:         {
+                         897 --267:             if (NULL_PTR != SysProc1000ms_Tabl[i])
+00000260 1df0            898 	mov	r29,ep
+00000262 c2f2            899 	shl	2,ep
+00000264 2b0600000000*   900 	mov	_SysProc1000ms_Tabl,r11
+0000026a cbf1            901 	add	r11,ep
+0000026c 000d            902 	sld.w	0[ep],r1
+0000026e e009            903 	cmp	zero,r1
+00000270 a20d*           904 	be	.L141
+                         905 --268:             {
+                         906 --269:                 SysProc1000ms_Tabl[i]();
+                         907 --line269
+                         908 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.41::
+                         909 .LDWlin41:
+00000272 1df0            910 	mov	r29,ep
+00000274 c2f2            911 	shl	2,ep
+00000276 2b0600000000*   912 	mov	_SysProc1000ms_Tabl,r11
+0000027c cbf1            913 	add	r11,ep
+0000027e 006d            914 	sld.w	0[ep],r13
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+00000280 edc760f9        915 	jarl	[r13],lp
+                         916 .L141:
+                         917 --270:             }
+                         918 --271: 		  	else
+                         919 --272: 	        {
+                         920 --line265
+                         921 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.42::
+                         922 .LDWlin42:
+00000284 41ea            923 	add	1,r29
+00000286 9d00            924 	zxb	r29
+00000288 62ea            925 	cmp	2,r29
+0000028a b1ed*           926 	bl	.L138
+                         927 .L142:
+                         928 --273: 	            /*do nothing*/
+                         929 --274: 	        }
+                         930 --275:         }		         
+                         931 --277: 	#if 0
+                         932 --279: 		if (FALSE != COM_GetNetWorkSleepSts())
+                         933 --280: 		{
+                         934 --281: 		    sys_Process_BeforeDeepSleep();  
+                         935 --282: 		
+                         936 --283: 			
+                         937 --284: 			if (RET_OK == EED_GetEEPROMStatus(&eedsts))
+                         938 --285: 			{
+                         939 --286: 			
+                         940 --287: 				if ( STATUS_EED_IDLE == eedsts )			
+                         941 --288: 				{
+                         942 --289: 					//RangeCnt++;
+                         943 --290: 					//if(RangeCnt >= 0x2)
+                         944 --291: 					//{
+                         945 --292: 						RangeCnt = 0;
+                         946 --293: 						STBC_EnterDeepStop();
+                         947 --294: 					//}
+                         948 --295: 					//else
+                         949 --296: 					//{
+                         950 --297: 					//}
+                         951 --298: 				
+                         952 --299: 				}
+                         953 --300: 				else
+                         954 --301: 				{
+                         955 --302: 				}
+                         956 --303: 			}
+                         957 --304: 			else
+                         958 --305: 			{
+                         959 --306: 			}
+                         960 --307: 		}
+                         961 --308: 		else
+                         962 --309: 		{
+                         963 --310: 			/*do nothing*/
+                         964 --311: 		}
+                         965 --313: 	#endif
+                         966 --314:  	}
+                         967 --315: 	else
+                         968 --316: 	{
+                         969 --317: 	}
+                         970 --319: }
+                         971 --line319
+                         972 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.43::
+                         973 .LDWlin43:
+0000028c 0000            974 	nop
+                         975 --	    .ef
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                         976 .LDW41:
+0000028e 5406ff70        977 	dispose	10,{r25,r26,r27,r28,r29,r31},[lp]
+                         978 	.type	_SYS_ProcessManage,@function
+                         979 	.size	_SYS_ProcessManage,.-_SYS_ProcessManage
+                         980 	.align	2
+                         981 .LDW51:
+                         982 --_RangeCnt	.L568	static
+                         983 --_i	r29	local
+                         984 --_pwrSts	11[sp]	local
+                         985 --_sys_5MS_Flag	3[sp]	local
+                         986 --_sys_20MS_Flag	4[sp]	local
+                         987 --_sys_50MS_Flag	5[sp]	local
+                         988 --_sys_100MS_Flag	6[sp]	local
+                         989 --_sys_200MS_Flag	7[sp]	local
+                         990 --_sys_1000MS_Flag	8[sp]	local
+                         991 --_sys_5MS_ret	r28	local
+                         992 --_sys_20MS_ret	r27	local
+                         993 --_sys_50MS_ret	r26	local
+                         994 --_sys_100MS_ret	r25	local
+                         995 --_sys_200MS_ret	9[sp]	local
+                         996 --_sys_1000MS_ret	10[sp]	local
+                         997 --_eedsts	12[sp]	local
+                         998 
+                         999 	.section ".bss","awb"
+                        1000 .L383:
+                        1001 	.type	.L383,@object
+                        1002 	.size	.L383,0
+                        1003 	.data
+00000001 000000         1004 	.space	3
+                        1005 	.align	4
+                        1006 .L568:
+                        1007 	.global	_RangeCnt.SYS_ProcessManage.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys..9
+                        1008 _RangeCnt.SYS_ProcessManage.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys..9:
+                        1009 	.type	_RangeCnt.SYS_ProcessManage.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys..9,@object
+                        1010 	.size	_RangeCnt.SYS_ProcessManage.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys..9,4
+00000004 00000000       1011 	.byte	0,0,0,0
+                        1012 	.type	.L568,@object
+                        1013 	.size	.L568,4
+                        1014 	.text
+                        1015 
+                        1016 
+                        1017 --321: /***************************************************
+                        1018 --322: * Function: SYS_GetNormalWorkMode
+                        1019 --323: * Description: Whether the  system in normal  mode
+                        1020 --324: * Parameters:  none
+                        1021 --325: * Returns: none
+                        1022 --326: * $Create & Verlog:$
+                        1023 --327: * Author:liuyingying  Date:2017-07-05   Version:V2.0
+                        1024 --328: ****************************************************/
+                        1025 --329: BOOL SYS_GetNormalWorkMode(void)
+                        1026 	.align	2
+                        1027 	.align	2
+                        1028 	.global	_SYS_GetNormalWorkMode
+                        1029 _SYS_GetNormalWorkMode:
+                        1030 --	    .bf
+                        1031 .LDW61:
+                        1032 --330: {
+                        1033 --331:     if(STATUS_SYS_RUN == sys_WorkModeSts)
+00000292 210600000000*  1034 	mov	_sys_WorkModeSts,r1
+00000298 810f0100       1035 	ld.bu	0[r1],r1
+0000029c e009           1036 	cmp	zero,r1
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+0000029e ba05*          1037 	bne	.L657
+                        1038 --332:     {
+                        1039 --333:         return TRUE;
+                        1040 --line333
+                        1041 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.44::
+                        1042 .LDWlin44:
+000002a0 0152           1043 	mov	1,r10
+000002a2 a505*          1044 	br	.L655
+                        1045 .L657:
+                        1046 --334:     }
+                        1047 --335:     else
+                        1048 --336:     {
+                        1049 --337:         return FALSE;
+                        1050 --line337
+                        1051 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.45::
+                        1052 .LDWlin45:
+000002a4 0052           1053 	mov	0,r10
+                        1054 .L655:
+                        1055 --	    .ef
+                        1056 .LDW71:
+000002a6 7f00           1057 	jmp	[lp]
+                        1058 	.type	_SYS_GetNormalWorkMode,@function
+                        1059 	.size	_SYS_GetNormalWorkMode,.-_SYS_GetNormalWorkMode
+                        1060 	.align	2
+                        1061 .LDW81:
+                        1062 
+                        1063 	.data
+                        1064 	.text
+                        1065 
+                        1066 --338:     }
+                        1067 --339: }
+                        1068 
+                        1069 --341: /***************************************************
+                        1070 --342: * Function: sys_InitProcess
+                        1071 --343: * Description:the initialized of the SYS
+                        1072 --344: * Parameters:  none
+                        1073 --345: * Returns: none
+                        1074 --346: * $Create & Verlog:$
+                        1075 --347: * Author:Jianjun.He  Date:2016-12-09   Version:V1.0
+                        1076 --348: ****************************************************/
+                        1077 --349: static void sys_InitProcess(void)
+                        1078 	.align	2
+                        1079 	.align	2
+                        1080 	.global	_sys_InitProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                        1081 _sys_InitProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                        1082 _sys_InitProcess:
+000002a8 8007e110       1083 	prepare	{r27,r28,r29,r31},0
+000002ac 3c0600000000*  1084 	mov	_SysInit_Tabl,r28
+                        1085 --	    .bf
+                        1086 .LDW91:
+                        1087 --350: {
+                        1088 --351:     U8 i;
+                        1089 --352:     for ( i = 0 ; i < INDEX_SYSINIT_ALL; i++)
+000002b2 00ea           1090 	mov	0,r29
+000002b4 0000           1091 	nop
+                        1092 .L705:
+                        1093 --353:     {
+                        1094 --354:         if (NULL_PTR != SysInit_Tabl[i])
+000002b6 1df0           1095 	mov	r29,ep
+000002b8 c2f2           1096 	shl	2,ep
+000002ba dcf1           1097 	add	r28,ep
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+000002bc 000d           1098 	sld.w	0[ep],r1
+000002be e009           1099 	cmp	zero,r1
+000002c0 f205*          1100 	be	.L708
+                        1101 --355:         {
+                        1102 --356:             SysInit_Tabl[i]();            /*调用所有的初始化函数*/
+                        1103 --line356
+                        1104 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.46::
+                        1105 .LDWlin46:
+000002c2 1df0           1106 	mov	r29,ep
+000002c4 c2f2           1107 	shl	2,ep
+000002c6 dcf1           1108 	add	r28,ep
+000002c8 00dd           1109 	sld.w	0[ep],r27
+000002ca fbc760f9       1110 	jarl	[r27],lp
+                        1111 .L708:
+                        1112 --357:         }
+                        1113 --358:         else
+                        1114 --359:         {
+                        1115 --line352
+                        1116 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.47::
+                        1117 .LDWlin47:
+000002ce 41ea           1118 	add	1,r29
+000002d0 9d00           1119 	zxb	r29
+000002d2 1d06d2ff       1120 	addi	-46,r29,zero
+000002d6 89f5*          1121 	bnl	.L705
+                        1122 --360:             /* do nothing */
+                        1123 --361:         }
+                        1124 --362:     }
+                        1125 --363: }
+                        1126 --line363
+                        1127 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.48::
+                        1128 .LDWlin48:
+000002d8 0000           1129 	nop
+                        1130 --	    .ef
+                        1131 .LDW02:
+000002da 4006ff10       1132 	dispose	0,{r27,r28,r29,r31},[lp]
+                        1133 	.type	_sys_InitProcess,@function
+                        1134 	.size	_sys_InitProcess,.-_sys_InitProcess
+                        1135 	.type	_sys_InitProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@function
+                        1136 	.size	_sys_InitProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,.-_sys_InitProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                        1137 	.align	2
+                        1138 .LDW12:
+                        1139 --_i	r29	local
+                        1140 
+                        1141 	.section ".bss","awb"
+                        1142 .L740:
+                        1143 	.type	.L740,@object
+                        1144 	.size	.L740,0
+                        1145 	.data
+                        1146 	.text
+                        1147 
+                        1148 
+                        1149 --365: static void sys_Process_BeforeDeepSleep(void)
+                        1150 	.align	2
+                        1151 	.align	2
+                        1152 	.global	_sys_Process_BeforeDeepSleep..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                        1153 _sys_Process_BeforeDeepSleep..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.:
+                        1154 _sys_Process_BeforeDeepSleep:
+000002de 80072100       1155 	prepare	{r31},0
+                        1156 --	    .bf
+                        1157 .LDW22:
+                        1158 --366: {
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000047k1.si
+                        1159 --367:      RANG_OutputBeforeSleep();
+                        1160 	jarl	_RANG_OutputBeforeSleep,lp
+                        1160 <EXPANSION BEGIN>
+                        1160 jarl22 _RANG_OutputBeforeSleep , lp 
+000002e2 80ff0000*      1160 <EXPANSION END>
+                        1161 --368: }
+                        1162 --line368
+                        1163 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.49::
+                        1164 .LDWlin49:
+000002e6 0000           1165 	nop
+                        1166 --	    .ef
+                        1167 .LDW32:
+000002e8 40063f00       1168 	dispose	0,{r31},[lp]
+                        1169 	.type	_sys_Process_BeforeDeepSleep,@function
+                        1170 	.size	_sys_Process_BeforeDeepSleep,.-_sys_Process_BeforeDeepSleep
+                        1171 	.type	_sys_Process_BeforeDeepSleep..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,@function
+                        1172 	.size	_sys_Process_BeforeDeepSleep..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.,.-_sys_Process_BeforeDeepSleep..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys.
+                        1173 	.align	2
+                        1174 .LDW42:
+                        1175 
+                        1176 	.section ".bss","awb"
+                        1177 .L794:
+                        1178 	.type	.L794,@object
+                        1179 	.size	.L794,0
+                        1180 	.data
+                        1181 	.text
+                        1182 
+                        1183 	.align	2
+                        1184 --_SysInit_Tabl	_SysInit_Tabl	static
+                        1185 --_SysProc5ms_Tabl	_SysProc5ms_Tabl	static
+                        1186 --_SysProc20ms_Tabl	_SysProc20ms_Tabl	static
+                        1187 --_SysProc50ms_Tabl	_SysProc50ms_Tabl	static
+                        1188 --_SysProc100ms_Tabl	_SysProc100ms_Tabl	static
+                        1189 --_SysProc200ms_Tabl	_SysProc200ms_Tabl	static
+                        1190 --_SysProc1000ms_Tabl	_SysProc1000ms_Tabl	static
+                        1191 --_sys_WorkModeSts	_sys_WorkModeSts	static
+                        1192 --_sys_InitSts	_sys_InitSts	static
+                        1193 
+                        1194 	.data
+                        1195 	.ghsnote version,14
+                        1196 	.ghsnote tools,3
+                        1197 	.ghsnote options,144
+                        1198 	.text
+                        1199 	.align	2
+                        1200 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Csys...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740360..0::
+                        1201 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

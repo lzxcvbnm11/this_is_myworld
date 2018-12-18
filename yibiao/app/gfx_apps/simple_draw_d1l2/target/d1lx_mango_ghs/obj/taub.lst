@@ -1,0 +1,829 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\taub.dbo -source=taub.c -o .\obj\gh_00008jc1.o -list=.\obj\taub.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+Source File: taub.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\TAUB\taub.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+                         112 --		-o .\obj\taub.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\TAUB\taub.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:24 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1:  /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : taub.c
+                         128 --5: * Description : Driver source file of TAUB.
+                         129 --6: * Author: Xiaojie.Zheng
+                         130 --7: * Date: 2016-12-12
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "taub_info.inc"
+                         134 --13: static BOOL taub_InitStatus;
+                         135 --15: /***************************************************
+                         136 --16: * Function: TAUB_Init
+                         137 --17: * Description: TAUB drive initialization
+                         138 --18: * Parameters: none
+                         139 --19: * Returns: none
+                         140 --20: * $Create & Verlog:$
+                         141 --21: * Author: Xiaojie.Zheng   Date:2016-12-12   Version:V1.0
+                         142 --22: ****************************************************/
+                         143 --23: void TAUB_Init(void)                 
+                         144 	.text
+                         145 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740364..0::
+                         146 	.align	2
+                         147 	.global	_TAUB_Init
+                         148 _TAUB_Init:
+                         149 --	    .bf
+                         150 .LDW01:
+                         151 --24: {
+                         152 --25:    taub_InitStatus = TRUE;
+00000000 2b0600000000*   153 	mov	_taub_InitStatus,r11
+00000006 010a            154 	mov	1,r1
+00000008 4b0f0000        155 	st.b	r1,0[r11]
+                         156 --26: }
+0000000c 0000            157 	nop
+                         158 --	    .ef
+                         159 .LDW11:
+0000000e 7f00            160 	jmp	[lp]
+                         161 	.type	_TAUB_Init,@function
+                         162 	.size	_TAUB_Init,.-_TAUB_Init
+                         163 	.align	2
+                         164 .LDW21:
+                         165 
+                         166 	.section ".bss","awb"
+                         167 .L26:
+                         168 	.type	.L26,@object
+                         169 	.size	.L26,0
+                         170 	.global	_taub_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.
+                         171 _taub_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.:
+                         172 	.type	_taub_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.,@object
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+                         173 	.size	_taub_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.,1
+00000000 00              174 _taub_InitStatus:	.space	1
+                         175 	.type	_taub_InitStatus,@object
+                         176 	.size	_taub_InitStatus,1
+                         177 	.data
+                         178 	.text
+                         179 
+                         180 
+                         181 --28: /***************************************************
+                         182 --29: * Function: TAUB_GetInitStatus
+                         183 --30: * Description: get the TAUB module initialized status
+                         184 --31: * Parameters: none
+                         185 --32: * Returns: taub_InitStatus
+                         186 --33: * $Create & Verlog:$
+                         187 --34: * Author: Xiaojie.Zheng   Date:2016-12-12   Version:V1.0
+                         188 --35: ****************************************************/
+                         189 --36: U8 TAUB_GetInitStatus(void)
+                         190 	.align	2
+                         191 	.align	2
+                         192 	.global	_TAUB_GetInitStatus
+                         193 _TAUB_GetInitStatus:
+                         194 --	    .bf
+                         195 .LDW31:
+                         196 --37: {
+                         197 --38:     return taub_InitStatus;
+00000010 2a0600000000*   198 	mov	_taub_InitStatus,r10
+00000016 8a570100        199 	ld.bu	0[r10],r10
+                         200 --	    .ef
+                         201 .LDW41:
+0000001a 7f00            202 	jmp	[lp]
+                         203 	.type	_TAUB_GetInitStatus,@function
+                         204 	.size	_TAUB_GetInitStatus,.-_TAUB_GetInitStatus
+                         205 	.align	2
+                         206 .LDW51:
+                         207 
+                         208 	.data
+                         209 	.text
+                         210 
+                         211 --39: }
+                         212 
+                         213 --41: /***************************************************
+                         214 --42: * Function: TAUB_Start
+                         215 --43: * Description: TAUB_Start
+                         216 --44: * Parameters: model:Timer module selection
+                         217 --45: * Returns: fail/ok/invalid
+                         218 --46: * $Create & Verlog:$
+                         219 --47: * Author: Xiaojie.Zheng   Date:2016-12-12   Version:V1.0
+                         220 --48: ****************************************************/
+                         221 --49: U8 TAUB_Start(TAUBSelect_ENUM model)
+                         222 	.align	2
+                         223 	.align	2
+                         224 	.global	_TAUB_Start
+                         225 _TAUB_Start:
+0000001c 0670            226 	mov	r6,r14
+                         227 --	    .bf
+                         228 .LDW61:
+                         229 --50: {
+                         230 --51: 	U8 res;
+                         231 --52:         
+                         232 --53: 	if (FALSE == taub_InitStatus)
+0000001e 210600000000*   233 	mov	_taub_InitStatus,r1
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+00000024 810f0100        234 	ld.bu	0[r1],r1
+00000028 e009            235 	cmp	zero,r1
+0000002a ba05*           236 	bne	.L69
+                         237 --54: 	{
+                         238 --55: 		res =  RET_FAIL;
+                         239 --line55
+                         240 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.1::
+                         241 .LDWlin1:
+0000002c 000a            242 	mov	0,r1
+0000002e e52d*           243 	br	.L71
+                         244 .L69:
+                         245 --56: 	}
+                         246 --57: 	else
+                         247 --58: 	{
+                         248 --59: 		if (TYPE_TAUB_0 == model)
+                         249 --line59
+                         250 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.2::
+                         251 .LDWlin2:
+00000030 e071            252 	cmp	zero,r14
+00000032 fa05*           253 	bne	.L72
+                         254 --60: 	    {
+                         255 --61:             TAUB0TS = 0x0001u;                       /* start TAUB0 channel 0 */
+                         256 --line61
+                         257 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.3::
+                         258 .LDWlin3:
+00000034 010a            259 	mov	1,r1
+00000036 a0074d0c03c6    260 	st.h	r1,4293067204[zero]
+                         261 --62:             res =  RET_OK;
+0000003c 010a            262 	mov	1,r1
+0000003e e525*           263 	br	.L71
+                         264 .L72:
+                         265 --63: 	    }
+                         266 --64: 	    else if (TYPE_TAUB_1 == model)
+                         267 --line64
+                         268 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.4::
+                         269 .LDWlin4:
+00000040 6172            270 	cmp	1,r14
+00000042 fa05*           271 	bne	.L75
+                         272 --65: 	    {
+                         273 --66:             TAUB1TS = 0x0001u;                       /* start TAUB1 channel 0 */
+                         274 --line66
+                         275 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.5::
+                         276 .LDWlin5:
+00000044 010a            277 	mov	1,r1
+00000046 a0074d0c23c6    278 	st.h	r1,4293071300[zero]
+                         279 --67:             res =  RET_OK;
+0000004c 010a            280 	mov	1,r1
+0000004e e51d*           281 	br	.L71
+                         282 .L75:
+                         283 --68: 	    }
+                         284 --69: 	   else if (TYPE_TAUB_2 == model)
+                         285 --line69
+                         286 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.6::
+                         287 .LDWlin6:
+00000050 6272            288 	cmp	2,r14
+00000052 ba1d*           289 	bne	.L78
+                         290 --70:             {
+                         291 --71:                 TAUB2TOE07 = 1;
+                         292 --line71
+                         293 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.7::
+                         294 .LDWlin7:
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+00000054 a007c70d40c6    295 	ld.hu	4293075036[zero],r1
+0000005a 810e8000        296 	ori	128,r1,r1
+0000005e a007cd0d40c6    297 	st.h	r1,4293075036[zero]
+                         298 --72:                 TAUB2TS06 = 1;/* start TAUB2 channel 7 */
+00000064 a007470c43c6    299 	ld.hu	4293075396[zero],r1
+0000006a 810e4000        300 	ori	64,r1,r1
+0000006e a0074d0c43c6    301 	st.h	r1,4293075396[zero]
+                         302 --73:     	        TAUB2TS07 = 1;
+00000074 a007470c43c6    303 	ld.hu	4293075396[zero],r1
+0000007a 810e8000        304 	ori	128,r1,r1
+0000007e a0074d0c43c6    305 	st.h	r1,4293075396[zero]
+                         306 --74:                 res = RET_OK;
+00000084 010a            307 	mov	1,r1
+00000086 a505*           308 	br	.L71
+                         309 .L78:
+                         310 --75:             }
+                         311 --76:             else
+                         312 --77:             {
+                         313 --78:                 res =  RET_INVALID;
+                         314 --line78
+                         315 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.8::
+                         316 .LDWlin8:
+00000088 020a            317 	mov	2,r1
+                         318 .L71:
+                         319 --79:             }	
+                         320 --80: 	}
+                         321 --81: 	return res;
+0000008a 0150            322 	mov	r1,r10
+                         323 --	    .ef
+                         324 .LDW71:
+0000008c 7f00            325 	jmp	[lp]
+                         326 	.type	_TAUB_Start,@function
+                         327 	.size	_TAUB_Start,.-_TAUB_Start
+                         328 	.align	2
+                         329 .LDW81:
+                         330 --_res	r1	local
+                         331 
+                         332 --_model	r14	param
+                         333 
+                         334 	.data
+                         335 	.text
+                         336 
+                         337 --82: }
+                         338 
+                         339 --83: /***************************************************
+                         340 --84: * Function: TAUB_Stop
+                         341 --85: * Description: TAUB_Stop
+                         342 --86: * Parameters: model:Timer module selection
+                         343 --87: * Returns: fail/ok/invalid
+                         344 --88: * $Create & Verlog:$
+                         345 --89: * Author: Xiaojie.Zheng   Date:2016-12-12   Version:V1.0
+                         346 --90: ****************************************************/
+                         347 --91: U8 TAUB_Stop(TAUBSelect_ENUM model)
+                         348 	.align	2
+                         349 	.align	2
+                         350 	.global	_TAUB_Stop
+                         351 _TAUB_Stop:
+0000008e 0670            352 	mov	r6,r14
+                         353 --	    .bf
+                         354 .LDW91:
+                         355 --92: {
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+                         356 --93:     U8 res = RET_FAIL;
+00000090 000a            357 	mov	0,r1
+                         358 --94:     
+                         359 --95:     if (FALSE == taub_InitStatus)
+00000092 2d0600000000*   360 	mov	_taub_InitStatus,r13
+00000098 8d6f0100        361 	ld.bu	0[r13],r13
+0000009c e069            362 	cmp	zero,r13
+0000009e ba05*           363 	bne	.L171
+                         364 --96:     {
+                         365 --97:         res = RET_FAIL;
+                         366 --line97
+                         367 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.9::
+                         368 .LDWlin9:
+000000a0 000a            369 	mov	0,r1
+000000a2 b525*           370 	br	.L173
+                         371 .L171:
+                         372 --98:     }
+                         373 --99:     else
+                         374 --100:     {
+                         375 --101:         if (TYPE_TAUB_0 == model)
+                         376 --line101
+                         377 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.10::
+                         378 .LDWlin10:
+000000a4 e071            379 	cmp	zero,r14
+000000a6 fa05*           380 	bne	.L174
+                         381 --102:         {
+                         382 --103:             TAUB0TT=0x0001u;                       /* stop TAUB0 channel 0 */
+                         383 --line103
+                         384 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.11::
+                         385 .LDWlin11:
+000000a8 016a            386 	mov	1,r13
+000000aa a0078d6c03c6    387 	st.h	r13,4293067208[zero]
+                         388 --104:             res =  RET_OK;
+000000b0 010a            389 	mov	1,r1
+000000b2 b51d*           390 	br	.L173
+                         391 .L174:
+                         392 --105:         }
+                         393 --106:         else if (TYPE_TAUB_1 == model)
+                         394 --line106
+                         395 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.12::
+                         396 .LDWlin12:
+000000b4 6172            397 	cmp	1,r14
+000000b6 fa05*           398 	bne	.L177
+                         399 --107:         {
+                         400 --108:             TAUB1TT=0x0001u;                       /* stop TAUB1 channel 0 */
+                         401 --line108
+                         402 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.13::
+                         403 .LDWlin13:
+000000b8 016a            404 	mov	1,r13
+000000ba a0078d6c23c6    405 	st.h	r13,4293071304[zero]
+                         406 --109:             res =  RET_OK;
+000000c0 010a            407 	mov	1,r1
+000000c2 b515*           408 	br	.L173
+                         409 .L177:
+                         410 --110:         }
+                         411 --111:         else if (TYPE_TAUB_2 == model)
+                         412 --line111
+                         413 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.14::
+                         414 .LDWlin14:
+000000c4 6272            415 	cmp	2,r14
+000000c6 8a15*           416 	bne	.L180
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+                         417 --112:         {
+                         418 --113:             TAUB2TOE07 = 0;
+                         419 --line113
+                         420 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.15::
+                         421 .LDWlin15:
+000000c8 a007c76d40c6    422 	ld.hu	4293075036[zero],r13
+000000ce cd6e7fff        423 	andi	65407,r13,r13
+000000d2 a007cd6d40c6    424 	st.h	r13,4293075036[zero]
+                         425 --114:             TAUB2TT = 0x00C0u;                       /* stop TAUB2 channel 0 */
+000000d8 206ec000        426 	movea	192,zero,r13
+000000dc a0078d6c43c6    427 	st.h	r13,4293075400[zero]
+                         428 --115:             res = RET_OK;
+000000e2 010a            429 	mov	1,r1
+000000e4 a505*           430 	br	.L173
+                         431 .L180:
+                         432 --116:         }
+                         433 --117:         else
+                         434 --118:         {
+                         435 --119:             res = RET_INVALID;
+                         436 --line119
+                         437 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.16::
+                         438 .LDWlin16:
+000000e6 020a            439 	mov	2,r1
+                         440 .L173:
+                         441 --120:         }	
+                         442 --121:     }
+                         443 --122:     return  res;
+000000e8 0150            444 	mov	r1,r10
+                         445 --	    .ef
+                         446 .LDW02:
+000000ea 7f00            447 	jmp	[lp]
+                         448 	.type	_TAUB_Stop,@function
+                         449 	.size	_TAUB_Stop,.-_TAUB_Stop
+                         450 	.align	2
+                         451 .LDW12:
+                         452 --_res	r1	local
+                         453 
+                         454 --_model	r14	param
+                         455 
+                         456 	.data
+                         457 	.text
+                         458 
+                         459 --123: }
+                         460 
+                         461 --125: /***************************************************
+                         462 --126: * Function: TAUB_SetParam
+                         463 --127: * Description: Set the param of the taub
+                         464 --128: * Parameters: model:Timer module selection
+                         465 --129: 			  InitVal:Timer initial value
+                         466 --130: 			  Period:Timer cycle
+                         467 --131: * Returns: fail/ok/invalid
+                         468 --132: * $Create & Verlog:$
+                         469 --133: * Author: Xiaojie.Zheng   Date:2016-12-12   Version:V1.0
+                         470 --134: ****************************************************/
+                         471 --135: U8 TAUB_SetParam(TAUBSelect_ENUM model, U32 Cycle, U32 Duty)
+                         472 	.align	2
+                         473 	.align	2
+                         474 	.global	_TAUB_SetParam
+                         475 _TAUB_SetParam:
+000000ec 0670            476 	mov	r6,r14
+000000ee 0768            477 	mov	r7,r13
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+000000f0 0860            478 	mov	r8,r12
+                         479 --	    .bf
+                         480 .LDW22:
+                         481 --136: {
+                         482 --137:     U8 res = RET_FAIL;
+000000f2 000a            483 	mov	0,r1
+                         484 --138:  
+                         485 --139:     if (FALSE == taub_InitStatus)
+000000f4 2b0600000000*   486 	mov	_taub_InitStatus,r11
+000000fa 8b5f0100        487 	ld.bu	0[r11],r11
+000000fe e059            488 	cmp	zero,r11
+00000100 ca05*           489 	bne	.L283
+                         490 --140:     {
+                         491 --141:     	res = RET_FAIL;
+                         492 --line141
+                         493 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.17::
+                         494 .LDWlin17:
+00000102 000a            495 	mov	0,r1
+00000104 8007d001*       496 	br	.L285
+                         497 .L283:
+                         498 --142:     }
+                         499 --143:     else
+                         500 --144:     {
+                         501 --145:         //CLR_BIT(PORT_ISOPFCE17, 5);
+                         502 --146:         //SET_BIT(PORT_ISOPFC17, 5);
+                         503 --147:         //CLR_BIT(PORT_ISOPM17,5);
+                         504 --148:         //SET_BIT(PORT_ISOPMC17, 5);
+                         505 --150:         
+                         506 --151:         if (TYPE_TAUB_2 == model)
+                         507 --line151
+                         508 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.18::
+                         509 .LDWlin18:
+00000108 6272            510 	cmp	2,r14
+0000010a ea07c901*       511 	bne	.L286
+                         512 --152:         {
+                         513 --153:             //INTC2EIMK42              = 1U;
+                         514 --154:             //INTC2EITB42              = 0U;
+                         515 --156:             //INTC2EIMK43              = 1U;
+                         516 --157:             //INTC2EITB43             = 0U;
+                         517 --159:             SYS.PROTCMDD1.UINT32 =0XA5;
+                         518 --line159
+                         519 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.19::
+                         520 .LDWlin19:
+0000010e 205ea500        521 	movea	165,zero,r11
+00000112 80070f58e0f0    522 	st.w	r11,4294471680[zero]
+                         523 --160:             SYS.CKSC_ICLKFIXS_CTL.UINT32 =0x00000001;
+00000118 015a            524 	mov	1,r11
+0000011a 80070f5caef0    525 	st.w	r11,4294465344[zero]
+                         526 --161:             SYS.CKSC_ICLKFIXS_CTL.UINT32 =~(0x00000001);
+00000120 1e5a            527 	mov	-2,r11
+00000122 80070f5caef0    528 	st.w	r11,4294465344[zero]
+                         529 --162:             SYS.CKSC_ICLKFIXS_CTL.UINT32 =0x00000001;
+00000128 015a            530 	mov	1,r11
+0000012a 80070f5caef0    531 	st.w	r11,4294465344[zero]
+                         532 --163:             while ((SYS.CKSC_ICLKFIXS_ACT.UINT32 & 0x00000001) != 0x1);
+00000130 0000            533 	nop
+                         534 .L288:
+00000132 8007895caef0    535 	ld.w	4294465352[zero],r11
+00000138 815a            536 	shr	1,r11
+0000013a c9fd*           537 	bnl	.L288
+                         538 --166:             SYSPROTCMDD1 =0XA5;
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+                         539 --line166
+                         540 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.20::
+                         541 .LDWlin20:
+0000013c 205ea500        542 	movea	165,zero,r11
+00000140 80070f58e0f0    543 	st.w	r11,4294471680[zero]
+                         544 --167:             SYSCKSC_ITAUB2S_CTL =0x00000002;
+00000146 025a            545 	mov	2,r11
+00000148 80070f58abf0    546 	st.w	r11,4294464896[zero]
+                         547 --168:             SYSCKSC_ITAUB2S_CTL =~(0x00000002);
+0000014e 1d5a            548 	mov	-3,r11
+00000150 80070f58abf0    549 	st.w	r11,4294464896[zero]
+                         550 --169:             SYSCKSC_ITAUB2S_CTL =0x00000002;
+00000156 025a            551 	mov	2,r11
+00000158 80070f58abf0    552 	st.w	r11,4294464896[zero]
+                         553 --170:             //protected_write(SYSPROTCMDD1,SYSPROTSD1,SYSCKSC_ITAUB2S_CTL,0x02u); /* TAUB0 clock = CLKFIX/1 = 80 MHz)*/
+                         554 --171:             while(0x02u !=  SYSCKSC_ITAUB2S_ACT)
+0000015e 0000            555 	nop
+                         556 .L291:
+                         557 --172:             {
+00000160 80078958abf0    558 	ld.w	4294464904[zero],r11
+00000166 625a            559 	cmp	2,r11
+00000168 cafd*           560 	bne	.L291
+                         561 --174:             }
+                         562 --175:             
+                         563 --176:             TAUB2TT |= 0x0040u;    
+                         564 --line176
+                         565 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.21::
+                         566 .LDWlin21:
+0000016a a007875c43c6    567 	ld.hu	4293075400[zero],r11
+00000170 8b5e4000        568 	ori	64,r11,r11
+00000174 a0078d5c43c6    569 	st.h	r11,4293075400[zero]
+                         570 --177:             TAUB2TPS = 3;            /* specify clock frequency of CK0...CK3  (CK0 -> 80 MHz/8(2 ^ Period))*/
+0000017a 035a            571 	mov	3,r11
+0000017c a0070d5c44c6    572 	st.h	r11,4293075520[zero]
+                         573 --178:             /* Enable the channel output
+                         574 --179:             TAUBnTOE   - TAUBn Channel Output Enable Register
+                         575 --180:             b15:b 0      TAUBnTOEm - Enables/disables the independent
+                         576 --181:                                      channel output function.         - Enables the independent timer output function. */
+                         577 --182:             TAUB2CDR6 = Cycle;          /*TAUBn channel data register m*/
+00000182 a0078d6940c6    578 	st.h	r13,4293074968[zero]
+                         579 --183:             TAUB2CDR7 = Duty;          
+00000188 a007cd6140c6    580 	st.h	r12,4293074972[zero]
+                         581 --185:             /*
+                         582 --186:             Bit Position Bit Name Function
+                         583 --187:             15, 14 TAUBnCKS[1:0] Operation Clock Selection
+                         584 --188:                 00: Prescaler output = CK0
+                         585 --189:                 01: Prescaler output = CK1
+                         586 --190:                 10: Prescaler output = CK2
+                         587 --191:                 11: Prescaler output = CK3
+                         588 --192:                 The value of the TAUBnCKS[1:0] bits of the master and slave channel(s) must be identical.
+                         589 --193:             
+                         590 --194:             13 Reserved When read, the value after reset is returned. When writing to this bit, write the value after reset.
+                         591 --195:             12 TAUBnCCS0 Write 0B.
+                         592 --196:             11 TAUBnMAS Write 1B.
+                         593 --197:             10 to 8 TAUBnSTS[2:0] Write 000B.
+                         594 --198:             7, 6 TAUBnCOS[1:0] Write 00B.
+                         595 --199:             5 Reserved When read, the value after reset is returned. When writing to this bit, write the value after reset.
+                         596 --200:             4 to 1 TAUBnMD[4:1] Write 0000B.
+                         597 --201:             0 TAUBnMD0 Write 1B.
+                         598 --202:             */
+                         599 --203:             TAUB2CMOR6 = 0X0801;          /*TAUBn channel mode OS register m*/
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+0000018e 205e0108        600 	movea	2049,zero,r11
+00000192 a0078d5944c6    601 	st.h	r11,4293075480[zero]
+                         602 --205:             /*        
+                         603 --206:             Bit Position Bit Name Function
+                         604 --207:             7 to 2 Reserved When read, the value after reset is returned. When writing to these bits, write
+                         605 --208:             the value after reset.
+                         606 --209:             1, 0 TAUBnTIS[1:0] 00: Not used, so set to 00.
+                         607 --210:             */
+                         608 --211:             TAUB2CMUR6 = 0X00;          /*TAUBn channel mode user register m*/
+00000198 80078d0541c6    609 	st.b	zero,4293075160[zero]
+                         610 --213:             /* The simultaneous rewrite registers (TAUBnTOM, TAUBnTOC, TAUBnTOL, TAUBnTDE , TAUBnTDM , TAUBnTDL
+                         611 --214:                TAUBnTRE, TAUBnTRO, TAUBnTRC, TAUBnTME) cannot be used with the PWM output Function.
+                         612 --215:                Therefore, these registers must be set to 0. */
+                         613 --216:             TAUB2TOM06          = 0;                    /*TAUBn channel output mode register*/
+0000019e a007875c44c6    614 	ld.hu	4293075528[zero],r11
+000001a4 cb5ebfff        615 	andi	65471,r11,r11
+000001a8 a0078d5c44c6    616 	st.h	r11,4293075528[zero]
+                         617 --217:             TAUB2TOC06          = 0;                    /*TAUBn channel output configuration register*/
+000001ae a007c75c44c6    618 	ld.hu	4293075532[zero],r11
+000001b4 cb5ebfff        619 	andi	65471,r11,r11
+000001b8 a007cd5c44c6    620 	st.h	r11,4293075532[zero]
+                         621 --218:             TAUB2TOL06           = 1;                   /*TAUBn channel output active level register*/
+000001be a007075c40c6    622 	ld.hu	4293075008[zero],r11
+000001c4 8b5e4000        623 	ori	64,r11,r11
+000001c8 a0070d5c40c6    624 	st.h	r11,4293075008[zero]
+                         625 --219:             TAUB2TDE06           = 0;                   /*TAUBn channel dead time output enable register*/
+000001ce a007075d44c6    626 	ld.hu	4293075536[zero],r11
+000001d4 cb5ebfff        627 	andi	65471,r11,r11
+000001d8 a0070d5d44c6    628 	st.h	r11,4293075536[zero]
+                         629 --220:             TAUB2TDL06           = 0;                   /*TAUBn channel dead time output level register*/
+000001de a007475d40c6    630 	ld.hu	4293075028[zero],r11
+000001e4 cb5ebfff        631 	andi	65471,r11,r11
+000001e8 a0074d5d40c6    632 	st.h	r11,4293075028[zero]
+                         633 --222:             /* The simultaneous rewrite registers (TAUBnRDE, TAUBnRDS, TAUBnRDM, and TAUBnRDC)
+                         634 --223:             Both the master and slave channels should have the same simultaneous rewrite settings.
+                         635 --224:             Unused with the sample programs. Therefore, these registers set to 0. */
+                         636 --226:             TAUB2RDE06 = 1;            /*TAUBn channel reload data enable register*/
+000001ee a007075e44c6    637 	ld.hu	4293075552[zero],r11
+000001f4 8b5e4000        638 	ori	64,r11,r11
+000001f8 a0070d5e44c6    639 	st.h	r11,4293075552[zero]
+                         640 --227:             TAUB2RDS06 = 0;            /*TAUBn channel reload data control CH select register*/
+000001fe a007875e44c6    641 	ld.hu	4293075560[zero],r11
+00000204 cb5ebfff        642 	andi	65471,r11,r11
+00000208 a0078d5e44c6    643 	st.h	r11,4293075560[zero]
+                         644 --228:             TAUB2RDM06 = 0;           /*TAUBn channel reload data mode register*/
+0000020e a007475e44c6    645 	ld.hu	4293075556[zero],r11
+00000214 cb5ebfff        646 	andi	65471,r11,r11
+00000218 a0074d5e44c6    647 	st.h	r11,4293075556[zero]
+                         648 --229:             TAUB2RDC06 = 0;            /*TAUBn channel reload data control register*/
+0000021e a007c75e44c6    649 	ld.hu	4293075564[zero],r11
+00000224 cb5ebfff        650 	andi	65471,r11,r11
+00000228 a007cd5e44c6    651 	st.h	r11,4293075564[zero]
+                         652 --232:             /*
+                         653 --233:             Bit Position Bit Name Function
+                         654 --234:                 15, 14 TAUBnCKS[1:0] Operation Clock Selection
+                         655 --235:                 00: Prescaler output = CK0
+                         656 --236:                 01: Prescaler output = CK1
+                         657 --237:                 10: Prescaler output = CK2
+                         658 --238:                 11: Prescaler output = CK3
+                         659 --239:                 The value of the TAUBnCKS[1:0] bits of the master and slave channel(s) must be identical.
+                         660 --240:             13 Reserved When read, the value after reset is returned. When writing to this bit, write the value after reset.
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+                         661 --241:             12 TAUBnCCS0 Write 0B.
+                         662 --242:             11 TAUBnMAS Write 0B.
+                         663 --243:             10 to 8 TAUBnSTS[2:0] Write 100B.
+                         664 --244:             7, 6 TAUBnCOS[1:0] Write 00B.
+                         665 --245:             5 Reserved When read, the value after reset is returned. When writing to this bit, write the value after reset.
+                         666 --246:             4 to 1 TAUBnMD[4:1] Write 0100B.
+                         667 --247:             0 TAUBnMD0 Write 1B.
+                         668 --248:             */
+                         669 --249:             TAUB2CMOR7 = 0X0409;          /*TAUBn channel mode OS register m*/
+0000022e 205e0904        670 	movea	1033,zero,r11
+00000232 a007cd5944c6    671 	st.h	r11,4293075484[zero]
+                         672 --251:             /*
+                         673 --252:             Bit Position Bit Name Function
+                         674 --253:             7 to 2 Reserved When read, the value after reset is returned. When writing to these bits, write the value after reset.
+                         675 --254:             1, 0 TAUBnTIS[1:0] 00: Not used, so set to 00.
+                         676 --255:             */
+                         677 --256:             TAUB2CMUR7 = 0X00;          /*TAUBn channel mode user register m*/ 
+00000238 8007cd0541c6    678 	st.b	zero,4293075164[zero]
+                         679 --258:             /* The simultaneous rewrite registers (TAUBnTOM, TAUBnTOC, TAUBnTOL, TAUBnTDE , TAUBnTDM , TAUBnTDL
+                         680 --259:                TAUBnTRE, TAUBnTRO, TAUBnTRC, TAUBnTME) cannot be used with the PWM output Function.
+                         681 --260:                Therefore, these registers must be set to 0. */
+                         682 --261:             TAUB2TOM07          = 1;       /*TAUBn channel reload data enable register*/
+0000023e a007875c44c6    683 	ld.hu	4293075528[zero],r11
+00000244 8b5e8000        684 	ori	128,r11,r11
+00000248 a0078d5c44c6    685 	st.h	r11,4293075528[zero]
+                         686 --262:             TAUB2TOC07          = 0;        /*TAUBn channel output configuration register*/
+0000024e a007c75c44c6    687 	ld.hu	4293075532[zero],r11
+00000254 cb5e7fff        688 	andi	65407,r11,r11
+00000258 a007cd5c44c6    689 	st.h	r11,4293075532[zero]
+                         690 --263:             TAUB2TOL07           = 1;       /*TAUBn channel output active level register*/
+0000025e a007075c40c6    691 	ld.hu	4293075008[zero],r11
+00000264 8b5e8000        692 	ori	128,r11,r11
+00000268 a0070d5c40c6    693 	st.h	r11,4293075008[zero]
+                         694 --264:             TAUB2TDE07           = 0;       /*TAUBn channel dead time output enable register*/
+0000026e a007075d44c6    695 	ld.hu	4293075536[zero],r11
+00000274 cb5e7fff        696 	andi	65407,r11,r11
+00000278 a0070d5d44c6    697 	st.h	r11,4293075536[zero]
+                         698 --265:             TAUB2TDL07           = 0;       /*TAUBn channel dead time output level register*/
+0000027e a007475d40c6    699 	ld.hu	4293075028[zero],r11
+00000284 cb5e7fff        700 	andi	65407,r11,r11
+00000288 a0074d5d40c6    701 	st.h	r11,4293075028[zero]
+                         702 --268:             /*
+                         703 --269:             Bit Name Setting
+                         704 --270:             TAUBnRDE.TAUBnRDEm 1: Enables simultaneous rewrite
+                         705 --271:             TAUBnRDS.TAUBnRDSm 0: Selects master channel for simultaneous rewrite triggers.
+                         706 --272:             1: Selects upper channel outside the channel group for simultaneous rewrite
+                         707 --273:             triggers.
+                         708 --274:             TAUBnRDM.TAUBnRDMm 0: The simultaneous rewrite trigger signal is generated when the master
+                         709 --275:             channel starts counting
+                         710 --276:             TAUBnRDC.TAUBnRDCm 0: Does not use the channel to generate the simultaneous rewrite trigger.
+                         711 --277:             */
+                         712 --278:             TAUB2RDE07 = 1;          /*TAUBn channel reload data enable register*/
+0000028e a007075e44c6    713 	ld.hu	4293075552[zero],r11
+00000294 8b5e8000        714 	ori	128,r11,r11
+00000298 a0070d5e44c6    715 	st.h	r11,4293075552[zero]
+                         716 --279:             TAUB2RDS07 = 0;          /*TAUBn channel reload data control CH select register*/
+0000029e a007875e44c6    717 	ld.hu	4293075560[zero],r11
+000002a4 cb5e7fff        718 	andi	65407,r11,r11
+000002a8 a0078d5e44c6    719 	st.h	r11,4293075560[zero]
+                         720 --280:             TAUB2RDM07 = 0;         /*TAUBn channel reload data mode register*/
+000002ae a007475e44c6    721 	ld.hu	4293075556[zero],r11
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008jc1.si
+000002b4 cb5e7fff        722 	andi	65407,r11,r11
+000002b8 a0074d5e44c6    723 	st.h	r11,4293075556[zero]
+                         724 --281:             TAUB2RDC07 = 0;          /*TAUBn channel reload data control register*/
+000002be a007c75e44c6    725 	ld.hu	4293075564[zero],r11
+000002c4 cb5e7fff        726 	andi	65407,r11,r11
+000002c8 a007cd5e44c6    727 	st.h	r11,4293075564[zero]
+                         728 --283:                 /* Enables the counter for each channel
+                         729 --284:                 TAUB2TS    - TAUBn Channel Start Trigger Register
+                         730 --285:                 b15:b 0      TAUBnTSm  - Enables the counter operation of channel m.  - Enables the ch.6,7 counter   */
+                         731 --286:             //TAUB2TS06               = 1;      /*TAUBn channel start trigger register*/
+                         732 --287:             //TAUB2TS07               = 1;      /*TAUBn channel start trigger register*/
+                         733 --289:             //TAUB2TOE07 = 1;    /*TAUBn channel output enable register*/
+                         734 --290:             res = RET_OK;
+000002ce 010a            735 	mov	1,r1
+000002d0 a505*           736 	br	.L285
+                         737 .L286:
+                         738 --291:         }
+                         739 --292:         else
+                         740 --293:         {
+                         741 --294:             res =  RET_INVALID;
+                         742 --line294
+                         743 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub.22::
+                         744 .LDWlin22:
+000002d2 020a            745 	mov	2,r1
+                         746 .L285:
+                         747 --295:         }
+                         748 --296:     }
+                         749 --297:     return res;
+000002d4 0150            750 	mov	r1,r10
+                         751 --	    .ef
+                         752 .LDW32:
+000002d6 7f00            753 	jmp	[lp]
+                         754 	.type	_TAUB_SetParam,@function
+                         755 	.size	_TAUB_SetParam,.-_TAUB_SetParam
+                         756 	.align	2
+                         757 .LDW42:
+                         758 --_res	r1	local
+                         759 
+                         760 --_model	r14	param
+                         761 --_Cycle	r13	param
+                         762 --_Duty	r12	param
+                         763 
+                         764 	.data
+                         765 	.text
+                         766 
+                         767 --298: }
+                         768 	.align	2
+                         769 --_taub_InitStatus	_taub_InitStatus	static
+                         770 
+                         771 	.data
+                         772 	.ghsnote version,14
+                         773 	.ghsnote tools,3
+                         774 	.ghsnote options,144
+                         775 	.text
+                         776 	.align	2
+                         777 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Ctaub...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740364..0::
+                         778 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

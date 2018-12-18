@@ -1,0 +1,994 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\lrm.dbo -source=lrm.c -o .\obj\gh_00003gk1.o -list=.\obj\lrm.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+Source File: lrm.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\middleware\LRM\lrm.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                         112 --		-o .\obj\lrm.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\middleware\LRM\lrm.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:28 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : lrm.c
+                         128 --5: * Description : LRM module middleware
+                         129 --6: * Author: Xueping.Chen
+                         130 --7: * Date: 2016-11-26
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "lrm_info.inc"
+                         134 --13: static BOOL lrm_InitSts = FALSE;                                                         /* LRM初始化默认值为FALSE */
+                         135 --14: static LRMState_UN lrm_LEDState;                                                    /* LRM LED状态*/
+                         136 --15: static LrmWorkStatus_ENUM lrm_WorkStatus = STATUS_LRM_Z_State;  /* LRM工作状态默认为高阻状态*/
+                         137 --18: /***************************************************
+                         138 --19: * Function: LRM_Init
+                         139 --20: * Description: LRM module initialized
+                         140 --21: * Parameters: none
+                         141 --22: * Returns: none
+                         142 --23: * $Create & Verlog:$
+                         143 --24: * Author:Xueping.Chen  Date:2016-11-26   Version:V1.0
+                         144 --25: ****************************************************/
+                         145 --26: void LRM_Init(void)
+                         146 	.text
+                         147 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740368..0::
+                         148 	.align	2
+                         149 	.global	_LRM_Init
+                         150 _LRM_Init:
+00000000 8007e100        151 	prepare	{r28,r29,r31},0
+00000004 3d0600000000*   152 	mov	.L42,r29
+                         153 --	    .bf
+                         154 .LDW01:
+                         155 --27: {
+                         156 --28:     U8 i = 0;
+0000000a 00e2            157 	mov	0,r28
+                         158 --29:     lrm_InitSts = DIO_GetInitStatus();
+                         159 	jarl	_DIO_GetInitStatus,lp
+                         159 <EXPANSION BEGIN>
+                         159 jarl22 _DIO_GetInitStatus , lp 
+0000000c 80ff0000*       159 <EXPANSION END>
+00000010 5d570400        160 	st.b	r10,4[r29]
+                         161 --30:     lrm_WorkStatus = STATUS_LRM_Z_State;
+                         162 --line30
+                         163 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.1::
+                         164 .LDWlin1:
+00000014 7d070100        165 	st.w	zero,0[r29]
+                         166 --31:     lrm_ControlSts(STATUS_LRM_Z_State);   
+00000018 0032            167 	mov	0,r6
+                         168 	jarl	_lrm_ControlSts,lp
+                         168 <EXPANSION BEGIN>
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                         168 jarl22 _lrm_ControlSts , lp 
+0000001a 80ff5400*       168 <EXPANSION END>
+                         169 --33:     for(i = 0; i < LRM_LAMP_ALL; i++)
+                         170 --line33
+                         171 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.2::
+                         172 .LDWlin2:
+0000001e 00e2            173 	mov	0,r28
+00000020 0000            174 	nop
+                         175 .L6:
+                         176 --34:     {
+                         177 --35:        lrm_LEDState.LRM_value[i] = 0;
+00000022 3e0600000000*   178 	mov	_lrm_LEDState,ep
+00000028 dcf1            179 	add	r28,ep
+0000002a 8003            180 	sst.b	zero,0[ep]
+0000002c 41e2            181 	add	1,r28
+0000002e 9c00            182 	zxb	r28
+00000030 66e2            183 	cmp	6,r28
+00000032 81fd*           184 	bl	.L6
+                         185 --36:     }
+                         186 --37: }
+                         187 --line37
+                         188 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.3::
+                         189 .LDWlin3:
+00000034 0000            190 	nop
+                         191 --	    .ef
+                         192 .LDW11:
+00000036 4006ff00        193 	dispose	0,{r28,r29,r31},[lp]
+                         194 	.type	_LRM_Init,@function
+                         195 	.size	_LRM_Init,.-_LRM_Init
+                         196 	.align	2
+                         197 .LDW21:
+                         198 --_i	r28	local
+                         199 
+                         200 	.data
+                         201 	.align	4
+                         202 .L42:
+                         203 	.type	.L42,@object
+                         204 	.size	.L42,0
+                         205 	.global	_lrm_WorkStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.
+                         206 _lrm_WorkStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.:
+                         207 	.type	_lrm_WorkStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.,@object
+                         208 	.size	_lrm_WorkStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.,4
+00000000 00000000        209 _lrm_WorkStatus:	.byte	0,0,0,0
+                         210 	.type	_lrm_WorkStatus,@object
+                         211 	.size	_lrm_WorkStatus,4
+                         212 	.section ".bss","awb"
+                         213 	.global	_lrm_LEDState..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.
+                         214 _lrm_LEDState..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.:
+                         215 	.type	_lrm_LEDState..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.,@object
+                         216 	.size	_lrm_LEDState..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.,6
+00000000 000000000000    217 _lrm_LEDState:	.space	6
+                         218 	.type	_lrm_LEDState,@object
+                         219 	.size	_lrm_LEDState,6
+                         220 	.data
+                         221 	.global	_lrm_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.
+                         222 _lrm_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.:
+                         223 	.type	_lrm_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.,@object
+                         224 	.size	_lrm_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.,1
+00000004 00              225 _lrm_InitSts:	.byte	0
+                         226 	.type	_lrm_InitSts,@object
+                         227 	.size	_lrm_InitSts,1
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                         228 	.text
+                         229 
+                         230 
+                         231 --39: /***************************************************
+                         232 --40: * Function: LRM_Process_100ms
+                         233 --41: * Description: the process of the LRM module
+                         234 --42: * Parameters: none
+                         235 --43: * Returns: none
+                         236 --44: * $Create & Verlog:$
+                         237 --45: * Author:Xueping.Chen  Date:2016-11-26   Version:V1.0
+                         238 --46: ****************************************************/
+                         239 --47: void LRM_Process_100ms(void)
+                         240 	.align	2
+                         241 	.align	2
+                         242 	.global	_LRM_Process_100ms
+                         243 _LRM_Process_100ms:
+0000003a 8007e100        244 	prepare	{r28,r29,r31},0
+0000003e 3d0600000000*   245 	mov	_lrm_LEDState,r29
+00000044 1de0            246 	mov	r29,r28
+                         247 --	    .bf
+                         248 .LDW31:
+                         249 --48: {
+                         250 --49:     LRMState_UN lrm_Status;
+                         251 --50:     
+                         252 --51:     if (TRUE == lrm_InitSts)
+00000046 210600000000*   253 	mov	_lrm_InitSts,r1
+0000004c 810f0100        254 	ld.bu	0[r1],r1
+00000050 610a            255 	cmp	1,r1
+00000052 ba0d*           256 	bne	.L88
+                         257 --52:     {
+                         258 --53:         if (RET_OK == LED_GetLampStatus(&lrm_LEDState, LRM_LAMP_ALL))
+                         259 --line53
+                         260 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.4::
+                         261 .LDWlin4:
+00000054 1c30            262 	mov	r28,r6
+00000056 063a            263 	mov	6,r7
+                         264 	jarl	_LED_GetLampStatus,lp
+                         264 <EXPANSION BEGIN>
+                         264 jarl22 _LED_GetLampStatus , lp 
+00000058 80ff0000*       264 <EXPANSION END>
+0000005c 6152            265 	cmp	1,r10
+0000005e da05*           266 	bne	.L88
+                         267 --54:         {
+                         268 --55:             //lrm_ControlSts(STATUS_LRM_DataShift);
+                         269 --56:             lrm_ShiftData(lrm_LEDState.LRM_value, LRM_LAMP_ALL);
+                         270 --line56
+                         271 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.5::
+                         272 .LDWlin5:
+00000060 1c30            273 	mov	r28,r6
+00000062 063a            274 	mov	6,r7
+                         275 	jarl	_lrm_ShiftData,lp
+                         275 <EXPANSION BEGIN>
+                         275 jarl22 _lrm_ShiftData , lp 
+00000064 80ff9a00*       275 <EXPANSION END>
+                         276 .L88:
+                         277 --57:             //lrm_ControlSts(STATUS_LRM_DataOut);
+                         278 --58:         }
+                         279 --59:         else
+                         280 --60:         {
+                         281 --61:         }
+                         282 --62:     }
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                         283 --63:     else
+                         284 --64:     {
+                         285 --65:         /*do nothing*/
+                         286 --66:     }
+                         287 --67: }
+                         288 --line67
+                         289 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.6::
+                         290 .LDWlin6:
+00000068 0000            291 	nop
+                         292 --	    .ef
+                         293 .LDW41:
+0000006a 4006ff00        294 	dispose	0,{r28,r29,r31},[lp]
+                         295 	.type	_LRM_Process_100ms,@function
+                         296 	.size	_LRM_Process_100ms,.-_LRM_Process_100ms
+                         297 	.align	2
+                         298 .LDW51:
+                         299 
+                         300 	.data
+                         301 	.text
+                         302 
+                         303 
+                         304 --69: /***************************************************
+                         305 --70: * Function: lrm_ControlSts
+                         306 --71: * Description: set the working mode of the LRM module(74HC595)
+                         307 --72: * Parameters: mode : input  the working mode
+                         308 --73: * Returns: TRUE or False
+                         309 --74: * $Create & Verlog:$
+                         310 --75: * Author:Xueping.Chen  Date:2016-11-26   Version:V1.0
+                         311 --76: ****************************************************/
+                         312 --77: static U8 lrm_ControlSts(U8 mode)
+                         313 	.align	2
+                         314 	.align	2
+                         315 	.global	_lrm_ControlSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.
+                         316 _lrm_ControlSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.:
+                         317 _lrm_ControlSts:
+0000006e 82076100        318 	prepare	{r29,r31},1
+00000072 c6eeff00        319 	andi	255,r6,r29
+                         320 --	    .bf
+                         321 .LDW61:
+                         322 --78: {
+                         323 --79:     U8 value = 0;
+00000076 43070300        324 	st.b	zero,3[sp]
+                         325 --81:     switch (mode)
+0000007a 1d08            326 	mov	r29,r1
+0000007c 610a            327 	cmp	1,r1
+0000007e e105*           328 	bl	.L134
+00000080 a23d*           329 	be	.L137
+00000082 630a            330 	cmp	3,r1
+00000084 b10d*           331 	bl	.L135
+00000086 8b3d*           332 	bh	.L138
+00000088 f51d*           333 	br	.L136
+                         334 .L134:
+                         335 --82:     {
+                         336 --83:         case STATUS_LRM_Z_State:
+                         337 --84:     		/*根据74HC595的真值表来设置(pin79,pin80,pin81)*/
+                         338 --85:     		DIO_SetIOSts(INDEX_74HC595_G, STATUS_IOM_HIGH, &value);/*PIN81 -> ALL_G*/
+                         339 --line85
+                         340 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.7::
+                         341 .LDWlin7:
+0000008a 20361500        342 	movea	21,zero,r6
+0000008e 013a            343 	mov	1,r7
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+00000090 23460300        344 	movea	3,sp,r8
+                         345 	jarl	_DIO_SetIOSts,lp
+                         345 <EXPANSION BEGIN>
+                         345 jarl22 _DIO_SetIOSts , lp 
+00000094 80ff0000*       345 <EXPANSION END>
+                         346 --line86
+                         347 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.8::
+                         348 .LDWlin8:
+00000098 8535*           349 	br	.L132
+                         350 .L135:
+                         351 --86:     		break;
+                         352 --87:     	case STATUS_LRM_DataShift:
+                         353 --88:     		/*根据74HC595的真值表来设置(pin79,pin80,pin81)*/
+                         354 --89:     		DIO_SetIOSts(INDEX_74HC595_SCK, STATUS_IOM_LOW, &value); /*PIN79 -> SCK*/
+                         355 --line89
+                         356 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.9::
+                         357 .LDWlin9:
+0000009a 20361300        358 	movea	19,zero,r6
+0000009e 003a            359 	mov	0,r7
+000000a0 23460300        360 	movea	3,sp,r8
+                         361 	jarl	_DIO_SetIOSts,lp
+                         361 <EXPANSION BEGIN>
+                         361 jarl22 _DIO_SetIOSts , lp 
+000000a4 80ff0000*       361 <EXPANSION END>
+                         362 --90:     		DIO_SetIOSts(INDEX_74HC595_G, STATUS_IOM_LOW, &value); /*PIN81 -> ALL_G*/
+                         363 --line90
+                         364 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.10::
+                         365 .LDWlin10:
+000000a8 20361500        366 	movea	21,zero,r6
+000000ac 003a            367 	mov	0,r7
+000000ae 23460300        368 	movea	3,sp,r8
+                         369 	jarl	_DIO_SetIOSts,lp
+                         369 <EXPANSION BEGIN>
+                         369 jarl22 _DIO_SetIOSts , lp 
+000000b2 80ff0000*       369 <EXPANSION END>
+                         370 --91:     		DIO_SetIOSts(INDEX_74HC595_SCK, STATUS_IOM_HIGH, &value); /*PIN79 -> SCK*/
+                         371 --line91
+                         372 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.11::
+                         373 .LDWlin11:
+000000b6 20361300        374 	movea	19,zero,r6
+000000ba 013a            375 	mov	1,r7
+000000bc 23460300        376 	movea	3,sp,r8
+                         377 	jarl	_DIO_SetIOSts,lp
+                         377 <EXPANSION BEGIN>
+                         377 jarl22 _DIO_SetIOSts , lp 
+000000c0 80ff0000*       377 <EXPANSION END>
+                         378 --line92
+                         379 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.12::
+                         380 .LDWlin12:
+000000c4 a51d*           381 	br	.L132
+                         382 .L136:
+                         383 --92:     		break;
+                         384 --93:     	case STATUS_LRM_DataOut:
+                         385 --94:     		/*根据74HC595的真值表来设置(pin79,pin80,pin81)*/
+                         386 --95:     		DIO_SetIOSts(INDEX_74HC595_RCK, STATUS_IOM_HIGH, &value); /*PIN80 -> RCK*/
+                         387 --line95
+                         388 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.13::
+                         389 .LDWlin13:
+000000c6 20361400        390 	movea	20,zero,r6
+000000ca 013a            391 	mov	1,r7
+000000cc 23460300        392 	movea	3,sp,r8
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                         393 	jarl	_DIO_SetIOSts,lp
+                         393 <EXPANSION BEGIN>
+                         393 jarl22 _DIO_SetIOSts , lp 
+000000d0 80ff0000*       393 <EXPANSION END>
+                         394 --96:              R_TICK_WaitUS(0,10);
+                         395 --line96
+                         396 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.14::
+                         397 .LDWlin14:
+000000d4 0032            398 	mov	0,r6
+000000d6 0a3a            399 	mov	10,r7
+                         400 	jarl	_R_TICK_WaitUS,lp
+                         400 <EXPANSION BEGIN>
+                         400 jarl22 _R_TICK_WaitUS , lp 
+000000d8 80ff0000*       400 <EXPANSION END>
+                         401 --97:     		DIO_SetIOSts(INDEX_74HC595_RCK, STATUS_IOM_LOW, &value); /*PIN80 -> RCK*/
+                         402 --line97
+                         403 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.15::
+                         404 .LDWlin15:
+000000dc 20361400        405 	movea	20,zero,r6
+000000e0 003a            406 	mov	0,r7
+000000e2 23460300        407 	movea	3,sp,r8
+                         408 	jarl	_DIO_SetIOSts,lp
+                         408 <EXPANSION BEGIN>
+                         408 jarl22 _DIO_SetIOSts , lp 
+000000e6 80ff0000*       408 <EXPANSION END>
+                         409 --98:              R_TICK_WaitUS(0,10);
+                         410 --line98
+                         411 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.16::
+                         412 .LDWlin16:
+000000ea 0032            413 	mov	0,r6
+000000ec 0a3a            414 	mov	10,r7
+                         415 	jarl	_R_TICK_WaitUS,lp
+                         415 <EXPANSION BEGIN>
+                         415 jarl22 _R_TICK_WaitUS , lp 
+000000ee 80ff0000*       415 <EXPANSION END>
+                         416 --line99
+                         417 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.17::
+                         418 .LDWlin17:
+000000f2 b505*           419 	br	.L132
+                         420 .L137:
+                         421 --line101
+                         422 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.18::
+                         423 .LDWlin18:
+000000f4 a505*           424 	br	.L132
+                         425 .L138:
+                         426 --line103
+                         427 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.19::
+                         428 .LDWlin19:
+000000f6 0000            429 	nop
+                         430 .L132:
+                         431 --99:     		break;
+                         432 --100:       case STATUS_LRM_DataClr:
+                         433 --101:                   break;
+                         434 --102:     	default:
+                         435 --103:     		break;
+                         436 --104:     }
+                         437 --105:    
+                         438 --106:     return TRUE;
+000000f8 0152            439 	mov	1,r10
+                         440 --	    .ef
+                         441 .LDW71:
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+000000fa 42067f00        442 	dispose	1,{r29,r31},[lp]
+                         443 	.type	_lrm_ControlSts,@function
+                         444 	.size	_lrm_ControlSts,.-_lrm_ControlSts
+                         445 	.type	_lrm_ControlSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.,@function
+                         446 	.size	_lrm_ControlSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.,.-_lrm_ControlSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.
+                         447 	.align	2
+                         448 .LDW81:
+                         449 --_value	3[sp]	local
+                         450 
+                         451 --_mode	r29	param
+                         452 
+                         453 	.section ".bss","awb"
+                         454 .L182:
+                         455 	.type	.L182,@object
+                         456 	.size	.L182,0
+                         457 	.data
+                         458 	.text
+                         459 
+                         460 --107: }
+                         461 
+                         462 --111: /***************************************************
+                         463 --112: * Function: lrm_ShiftData
+                         464 --113: * Description: send the data to the data register
+                         465 --114: * Parameters: value : the data
+                         466 --115: 			  size : the bytes of the data
+                         467 --116: * Returns: TRUE or FALSE
+                         468 --117: * $Create & Verlog:$
+                         469 --118: * Author:Xueping.Chen  Date:2016-11-26   Version:V1.0
+                         470 --119: ****************************************************/
+                         471 --120: static U8 lrm_ShiftData(PU8 value, U8 size)
+                         472 	.align	2
+                         473 	.align	2
+                         474 	.global	_lrm_ShiftData..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.
+                         475 _lrm_ShiftData..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.:
+                         476 _lrm_ShiftData:
+000000fe 8407e170        477 	prepare	{r25,r26,r27,r28,r29,r31},2
+00000102 63370500        478 	st.w	r6,4[sp]
+00000106 c75eff00        479 	andi	255,r7,r11
+0000010a 435f0300        480 	st.b	r11,3[sp]
+                         481 --	    .bf
+                         482 .LDW91:
+                         483 --121: {
+                         484 --122:     U8 k = 0;
+0000010e 00e2            485 	mov	0,r28
+                         486 --123:     U8 m = 0;
+00000110 00ea            487 	mov	0,r29
+                         488 --124:     U8 val = 0;
+00000112 00da            489 	mov	0,r27
+                         490 --125:     U8 level = 0;
+00000114 43070200        491 	st.b	zero,2[sp]
+                         492 --126:     U8 res = RET_FAIL;
+00000118 00d2            493 	mov	0,r26
+                         494 --127:     LrmClkType_ST clktype;
+                         495 --128:     clktype.PullUp = TRUE;
+0000011a 200e00ff        496 	movea	-256,zero,r1
+0000011e 5909            497 	and	r25,r1
+00000120 810e0100        498 	ori	1,r1,r1
+00000124 c1ceffff        499 	andi	65535,r1,r25
+                         500 --129:     clktype.Period = 0;
+00000128 1908            501 	mov	r25,r1
+0000012a 8100            502 	zxb	r1
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+0000012c c1ceffff        503 	andi	65535,r1,r25
+                         504 --131:     if ((NULL_PTR == value) || (LRM_LAMP_ALL != size))
+00000130 230f0500        505 	ld.w	4[sp],r1
+00000134 e009            506 	cmp	zero,r1
+00000136 d205*           507 	be	.L249
+00000138 a35f0300        508 	ld.bu	3[sp],r11
+0000013c 665a            509 	cmp	6,r11
+0000013e b205*           510 	be	.L248
+                         511 .L249:
+                         512 --132:     {
+                         513 --133:         res = RET_INVALID;
+                         514 --line133
+                         515 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.20::
+                         516 .LDWlin20:
+00000140 02d2            517 	mov	2,r26
+00000142 c565*           518 	br	.L251
+                         519 .L248:
+                         520 --134:     }
+                         521 --135:     else
+                         522 --136:     {
+                         523 --137:         DIO_SetIOSts(INDEX_DIO_PIN80, STATUS_IOM_LOW, &value); /*PIN80 -> RCK*/
+                         524 --line137
+                         525 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.21::
+                         526 .LDWlin21:
+00000144 23460400        527 	movea	4,sp,r8
+00000148 20361400        528 	movea	20,zero,r6
+0000014c 003a            529 	mov	0,r7
+                         530 	jarl	_DIO_SetIOSts,lp
+                         530 <EXPANSION BEGIN>
+                         530 jarl22 _DIO_SetIOSts , lp 
+0000014e 80ff0000*       530 <EXPANSION END>
+                         531 --138:         DIO_SetIOSts(INDEX_74HC595_SCK, STATUS_IOM_HIGH, &value); /*PIN79 -> SCK*/
+                         532 --line138
+                         533 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.22::
+                         534 .LDWlin22:
+00000152 23460400        535 	movea	4,sp,r8
+00000156 20361300        536 	movea	19,zero,r6
+0000015a 013a            537 	mov	1,r7
+                         538 	jarl	_DIO_SetIOSts,lp
+                         538 <EXPANSION BEGIN>
+                         538 jarl22 _DIO_SetIOSts , lp 
+0000015c 80ff0000*       538 <EXPANSION END>
+                         539 --139:         R_TICK_WaitUS(0,10);
+                         540 --line139
+                         541 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.23::
+                         542 .LDWlin23:
+00000160 0032            543 	mov	0,r6
+00000162 0a3a            544 	mov	10,r7
+                         545 	jarl	_R_TICK_WaitUS,lp
+                         545 <EXPANSION BEGIN>
+                         545 jarl22 _R_TICK_WaitUS , lp 
+00000164 80ff0000*       545 <EXPANSION END>
+                         546 --141:         for (m = 0; m < size; m++)
+                         547 --line141
+                         548 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.24::
+                         549 .LDWlin24:
+00000168 00ea            550 	mov	0,r29
+0000016a d53d*           551 	br	.L255
+                         552 .L254:
+                         553 --142:         {
+                         554 --143:             val = lrm_LEDState.LRM_value[size - m - 1];
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                         555 --line143
+                         556 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.25::
+                         557 .LDWlin25:
+0000016c a30f0300        558 	ld.bu	3[sp],r1
+00000170 3e0600000000*   559 	mov	_lrm_LEDState-1,ep
+00000176 bd09            560 	sub	r29,r1
+00000178 c1f1            561 	add	r1,ep
+0000017a 60d8            562 	sld.bu	0[ep],r27
+                         563 --144:             for (k = 0; k < 8; k++)
+0000017c 00e2            564 	mov	0,r28
+0000017e 0000            565 	nop
+                         566 .L258:
+                         567 --145:             {
+                         568 --146:                 DIO_SetIOSts(INDEX_74HC595_SCK, STATUS_IOM_LOW, &value); /*PIN79 -> SCK*/
+00000180 23460400        569 	movea	4,sp,r8
+00000184 20361300        570 	movea	19,zero,r6
+00000188 003a            571 	mov	0,r7
+                         572 	jarl	_DIO_SetIOSts,lp
+                         572 <EXPANSION BEGIN>
+                         572 jarl22 _DIO_SetIOSts , lp 
+0000018a 80ff0000*       572 <EXPANSION END>
+                         573 --148:                 if (val  & 0x80)
+                         574 --line148
+                         575 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.26::
+                         576 .LDWlin26:
+0000018e db068000        577 	andi	128,r27,zero
+00000192 920d*           578 	be	.L259
+                         579 --149:                 {
+                         580 --150:                     DIO_SetIOSts(INDEX_74HC595_SEG, STATUS_IOM_HIGH, &level); /*PIN71 -> SER*/
+                         581 --line150
+                         582 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.27::
+                         583 .LDWlin27:
+00000194 20361600        584 	movea	22,zero,r6
+00000198 013a            585 	mov	1,r7
+0000019a 23460200        586 	movea	2,sp,r8
+                         587 	jarl	_DIO_SetIOSts,lp
+                         587 <EXPANSION BEGIN>
+                         587 jarl22 _DIO_SetIOSts , lp 
+0000019e 80ff0000*       587 <EXPANSION END>
+000001a2 850d*           588 	br	.L261
+                         589 .L259:
+                         590 --151:                 }
+                         591 --152:                 else
+                         592 --153:                 {
+                         593 --154:                     DIO_SetIOSts(INDEX_74HC595_SEG, STATUS_IOM_LOW, &level); /*PIN71 -> SER*/
+                         594 --line154
+                         595 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.28::
+                         596 .LDWlin28:
+000001a4 20361600        597 	movea	22,zero,r6
+000001a8 003a            598 	mov	0,r7
+000001aa 23460200        599 	movea	2,sp,r8
+                         600 	jarl	_DIO_SetIOSts,lp
+                         600 <EXPANSION BEGIN>
+                         600 jarl22 _DIO_SetIOSts , lp 
+000001ae 80ff0000*       600 <EXPANSION END>
+                         601 .L261:
+                         602 --155:                 }
+                         603 --157:                 R_TICK_WaitUS(0,10);
+                         604 --line157
+                         605 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.29::
+                         606 .LDWlin29:
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+000001b2 0032            607 	mov	0,r6
+000001b4 0a3a            608 	mov	10,r7
+                         609 	jarl	_R_TICK_WaitUS,lp
+                         609 <EXPANSION BEGIN>
+                         609 jarl22 _R_TICK_WaitUS , lp 
+000001b6 80ff0000*       609 <EXPANSION END>
+                         610 --158:                 DIO_SetIOSts(INDEX_74HC595_SCK, STATUS_IOM_HIGH, &value); /*PIN79 -> SCK*/
+                         611 --line158
+                         612 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.30::
+                         613 .LDWlin30:
+000001ba 23460400        614 	movea	4,sp,r8
+000001be 20361300        615 	movea	19,zero,r6
+000001c2 013a            616 	mov	1,r7
+                         617 	jarl	_DIO_SetIOSts,lp
+                         617 <EXPANSION BEGIN>
+                         617 jarl22 _DIO_SetIOSts , lp 
+000001c4 80ff0000*       617 <EXPANSION END>
+                         618 --159:                 R_TICK_WaitUS(0,10);
+                         619 --line159
+                         620 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.31::
+                         621 .LDWlin31:
+000001c8 0032            622 	mov	0,r6
+000001ca 0a3a            623 	mov	10,r7
+                         624 	jarl	_R_TICK_WaitUS,lp
+                         624 <EXPANSION BEGIN>
+                         624 jarl22 _R_TICK_WaitUS , lp 
+000001cc 80ff0000*       624 <EXPANSION END>
+                         625 --160:                 val = (val << 1);
+                         626 --line160
+                         627 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.32::
+                         628 .LDWlin32:
+000001d0 1b08            629 	mov	r27,r1
+000001d2 c10a            630 	shl	1,r1
+000001d4 8100            631 	zxb	r1
+000001d6 01d8            632 	mov	r1,r27
+000001d8 41e2            633 	add	1,r28
+000001da 9c00            634 	zxb	r28
+000001dc 68e2            635 	cmp	8,r28
+000001de 91d5*           636 	bl	.L258
+                         637 --line141
+                         638 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.33::
+                         639 .LDWlin33:
+000001e0 41ea            640 	add	1,r29
+000001e2 9d00            641 	zxb	r29
+                         642 .L255:
+000001e4 a35f0300        643 	ld.bu	3[sp],r11
+000001e8 ebe9            644 	cmp	r11,r29
+000001ea 91c5*           645 	bl	.L254
+                         646 --161:             }
+                         647 --163:         }
+                         648 --164: 	  lrm_ControlSts(STATUS_LRM_DataOut);
+                         649 --line164
+                         650 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.34::
+                         651 .LDWlin34:
+000001ec 0332            652 	mov	3,r6
+                         653 	jarl	_lrm_ControlSts,lp
+                         653 <EXPANSION BEGIN>
+                         653 jarl22 _lrm_ControlSts , lp 
+000001ee bfff80fe*       653 <EXPANSION END>
+                         654 --165:         DIO_SetIOSts(INDEX_74HC595_G, STATUS_IOM_LOW, &value); /*PIN81 -> ALL_G*/
+                         655 --line165
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                         656 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.35::
+                         657 .LDWlin35:
+000001f2 23460400        658 	movea	4,sp,r8
+000001f6 20361500        659 	movea	21,zero,r6
+000001fa 003a            660 	mov	0,r7
+                         661 	jarl	_DIO_SetIOSts,lp
+                         661 <EXPANSION BEGIN>
+                         661 jarl22 _DIO_SetIOSts , lp 
+000001fc 80ff0000*       661 <EXPANSION END>
+                         662 --166:         R_TICK_WaitUS(0,10);
+                         663 --line166
+                         664 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.36::
+                         665 .LDWlin36:
+00000200 0032            666 	mov	0,r6
+00000202 0a3a            667 	mov	10,r7
+                         668 	jarl	_R_TICK_WaitUS,lp
+                         668 <EXPANSION BEGIN>
+                         668 jarl22 _R_TICK_WaitUS , lp 
+00000204 80ff0000*       668 <EXPANSION END>
+                         669 --168:         res = RET_OK;
+                         670 --line168
+                         671 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.37::
+                         672 .LDWlin37:
+00000208 01d2            673 	mov	1,r26
+                         674 .L251:
+                         675 --169:     }
+                         676 --170:     return res;
+0000020a 1a50            677 	mov	r26,r10
+                         678 --	    .ef
+                         679 .LDW02:
+0000020c 4406ff70        680 	dispose	2,{r25,r26,r27,r28,r29,r31},[lp]
+                         681 	.type	_lrm_ShiftData,@function
+                         682 	.size	_lrm_ShiftData,.-_lrm_ShiftData
+                         683 	.type	_lrm_ShiftData..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.,@function
+                         684 	.size	_lrm_ShiftData..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.,.-_lrm_ShiftData..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.
+                         685 	.align	2
+                         686 .LDW12:
+                         687 --_k	r28	local
+                         688 --_m	r29	local
+                         689 --_val	r27	local
+                         690 --_level	2[sp]	local
+                         691 --_res	r26	local
+                         692 --_clktype	r25	local
+                         693 
+                         694 --_value	4[sp]	param
+                         695 --_size	3[sp]	param
+                         696 
+                         697 	.data
+                         698 	.text
+                         699 
+                         700 --171: }
+                         701 
+                         702 --173: /***************************************************
+                         703 --174: * Function: lrm_ClockGen
+                         704 --175: * Description:  Edge trigger signal of the LRM module
+                         705 --176: * Parameters:  ClkType : the condition of the edge trigger signal
+                         706 --177: * Returns: TRUE or FALSE
+                         707 --178: * $Create & Verlog:$
+                         708 --179: * Author:Xueping.Chen  Date:2016-11-26   Version:V1.0
+                         709 --180: ****************************************************/
+                         710 --181: static U8 lrm_ClockGen(LrmClkType_ST ClkType)
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                         711 --182: {
+                         712 --183:     U8 value = 0;
+                         713 --184:     U8 res = FALSE;
+                         714 --186:     if (TRUE == ClkType.PullUp)
+                         715 --187:     {
+                         716 --188:         DIO_SetIOSts(INDEX_74HC595_SCK, STATUS_IOM_LOW, &value); /*PIN79 -> SCK*/
+                         717 --189:         DIO_GPIO_Dlayus(10);
+                         718 --190:         DIO_SetIOSts(INDEX_74HC595_SCK, STATUS_IOM_HIGH, &value); /*PIN79 -> SCK*/
+                         719 --191:         DIO_GPIO_Dlayus(10);
+                         720 --192:     }
+                         721 --193:     else
+                         722 --194:     {
+                         723 --195:         DIO_SetIOSts(INDEX_74HC595_SCK, STATUS_IOM_HIGH, &value); /*PIN79 -> SCK*/
+                         724 --196:         DIO_GPIO_Dlayus(10);
+                         725 --197:         DIO_SetIOSts(INDEX_74HC595_SCK, STATUS_IOM_LOW, &value); /*PIN79 -> SCK*/
+                         726 --198:         DIO_GPIO_Dlayus(10);
+                         727 --199:     }
+                         728 --200:     res = TRUE;
+                         729 --201:     return res;
+                         730 --202: }
+                         731 --204: /***************************************************
+                         732 --205: * Function: LRM_SetLampOnEnable
+                         733 --206: * Description: the control of the all the lampOn
+                         734 --207: * Parameters: Enable : enable or disable
+                         735 --208: * Returns: TRUE or FALSE
+                         736 --209: * $Create & Verlog:$
+                         737 --210: * Author:Xueping.Chen  Date:2016-11-26   Version:V1.0
+                         738 --211: ****************************************************/
+                         739 --212: U8 LRM_SetLampOnEnable(BOOL Enable)
+                         740 	.align	2
+                         741 	.align	2
+                         742 	.global	_LRM_SetLampOnEnable
+                         743 _LRM_SetLampOnEnable:
+00000210 8207e100        744 	prepare	{r28,r29,r31},1
+00000214 c6e6ff00        745 	andi	255,r6,r28
+00000218 210600000000*   746 	mov	_lrm_InitSts,r1
+                         747 --	    .bf
+                         748 .LDW22:
+                         749 --213: {
+                         750 --214:     U8 status = RET_FAIL;
+0000021e 00ea            751 	mov	0,r29
+                         752 --215:     U8 res = 0;
+00000220 43070300        753 	st.b	zero,3[sp]
+                         754 --217:     if (FALSE == lrm_InitSts)
+00000224 210600000000*   755 	mov	_lrm_InitSts,r1
+0000022a 810f0100        756 	ld.bu	0[r1],r1
+0000022e e009            757 	cmp	zero,r1
+00000230 ba05*           758 	bne	.L463
+                         759 --218:     {
+                         760 --219:         status = RET_FAIL;
+                         761 --line219
+                         762 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.38::
+                         763 .LDWlin38:
+00000232 00ea            764 	mov	0,r29
+00000234 8515*           765 	br	.L465
+                         766 .L463:
+                         767 --220:     }
+                         768 --222:     else
+                         769 --223:     {
+                         770 --224:         status = DIO_SetIOSts(INDEX_POWER_LED, Enable, &res);
+                         771 --line224
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                         772 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.39::
+                         773 .LDWlin39:
+00000236 1c38            774 	mov	r28,r7
+00000238 0a32            775 	mov	10,r6
+0000023a 23460300        776 	movea	3,sp,r8
+                         777 	jarl	_DIO_SetIOSts,lp
+                         777 <EXPANSION BEGIN>
+                         777 jarl22 _DIO_SetIOSts , lp 
+0000023e 80ff0000*       777 <EXPANSION END>
+00000242 0ae8            778 	mov	r10,r29
+                         779 --225:         status = DIO_SetIOSts(INDEX_POWER_POINTER, Enable, &res);
+                         780 --line225
+                         781 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.40::
+                         782 .LDWlin40:
+00000244 1c38            783 	mov	r28,r7
+00000246 20361200        784 	movea	18,zero,r6
+0000024a 23460300        785 	movea	3,sp,r8
+                         786 	jarl	_DIO_SetIOSts,lp
+                         786 <EXPANSION BEGIN>
+                         786 jarl22 _DIO_SetIOSts , lp 
+0000024e 80ff0000*       786 <EXPANSION END>
+00000252 0ae8            787 	mov	r10,r29
+                         788 .L465:
+                         789 --226:     }
+                         790 --227:     return status;
+                         791 --line227
+                         792 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm.41::
+                         793 .LDWlin41:
+00000254 1d50            794 	mov	r29,r10
+                         795 --	    .ef
+                         796 .LDW32:
+00000256 4206ff00        797 	dispose	1,{r28,r29,r31},[lp]
+                         798 	.type	_LRM_SetLampOnEnable,@function
+                         799 	.size	_LRM_SetLampOnEnable,.-_LRM_SetLampOnEnable
+                         800 	.align	2
+                         801 .LDW42:
+                         802 --_status	r29	local
+                         803 --_res	3[sp]	local
+                         804 
+                         805 --_Enable	r28	param
+                         806 
+                         807 	.data
+                         808 	.text
+                         809 
+                         810 --228: }
+                         811 
+                         812 --230: /***************************************************
+                         813 --231: * Function: LRM_GetInitStatus
+                         814 --232: * Description: Get the status of the LRM module initialized
+                         815 --233: * Parameters: none
+                         816 --234: * Returns: TRUE or FALSE
+                         817 --235: * $Create & Verlog:$
+                         818 --236: * Author:Xueping.Chen  Date:2016-11-26   Version:V1.0
+                         819 --237: ****************************************************/
+                         820 --238: U8 LRM_GetInitStatus(void)
+                         821 	.align	2
+                         822 	.align	2
+                         823 	.global	_LRM_GetInitStatus
+                         824 _LRM_GetInitStatus:
+0000025a 210600000000*   825 	mov	_lrm_InitSts,r1
+                         826 --	    .bf
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003gk1.si
+                         827 .LDW52:
+                         828 --239: {
+                         829 --240:     return lrm_InitSts;
+00000260 2a0600000000*   830 	mov	_lrm_InitSts,r10
+00000266 8a570100        831 	ld.bu	0[r10],r10
+                         832 --	    .ef
+                         833 .LDW62:
+0000026a 7f00            834 	jmp	[lp]
+                         835 	.type	_LRM_GetInitStatus,@function
+                         836 	.size	_LRM_GetInitStatus,.-_LRM_GetInitStatus
+                         837 	.align	2
+                         838 .LDW72:
+                         839 
+                         840 	.data
+                         841 	.text
+                         842 
+                         843 --241: }
+                         844 	.align	2
+                         845 --_lrm_InitSts	_lrm_InitSts	static
+                         846 --_lrm_LEDState	_lrm_LEDState	static
+                         847 --_lrm_WorkStatus	_lrm_WorkStatus	static
+                         848 
+                         849 	.data
+                         850 	.ghsnote version,14
+                         851 	.ghsnote tools,3
+                         852 	.ghsnote options,144
+                         853 	.text
+                         854 	.align	2
+                         855 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Clrm...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740368..0::
+                         856 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

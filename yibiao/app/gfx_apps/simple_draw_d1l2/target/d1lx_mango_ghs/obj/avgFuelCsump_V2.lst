@@ -1,0 +1,2698 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\avgFuelCsump_V2.dbo -source=avgFuelCsump_V2.c -o .\obj\gh_000022s1.o -list=.\obj\avgFuelCsump_V2.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+Source File: avgFuelCsump_V2.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\FC\avgFuelCsump_V2.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         112 --		-o .\obj\avgFuelCsump_V2.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\FC\avgFuelCsump_V2.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:36 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2:  * File: avgFuelCsump_V2.c
+                         126 --3:  *
+                         127 --4:  * Code generated for Simulink model 'avgFuelCsump_V2'.
+                         128 --5:  *
+                         129 --6:  * Model version                  : 1.182
+                         130 --7:  * Simulink Coder version         : 8.6 (R2014a) 27-Dec-2013
+                         131 --8:  * C/C++ source code generated on : Thu Dec 28 09:11:53 2017
+                         132 --9:  *
+                         133 --10:  * Target selection: ert.tlc
+                         134 --11:  * Embedded hardware selection: Generic->32-bit Embedded Processor
+                         135 --12:  * Code generation objectives: Unspecified
+                         136 --13:  * Validation result: Not run
+                         137 --14:  */
+                         138 --16: #include "avgFuelCsump_V2.h"
+                         139 --17: #include "avgFuelCsump_V2_private.h"
+                         140 --19: /* Named constants for Chart: '<Root>/avg1' */
+                         141 --20: #define avgFuelCsump_IN_NO_ACTIVE_CHILD ((U8)0U)
+                         142 --21: #define avgFuelCsump_IN_StartFromEEPROM ((U8)1U)
+                         143 --22: #define avgFuelCsump_V2_IN_Uncount     ((U8)1U)
+                         144 --23: #define avgFuelCsump_V2_IN_count       ((U8)2U)
+                         145 --24: #define avgFuelCsump_V2_IN_defult      ((U8)1U)
+                         146 --25: #define avgFuelCsump_V2_IN_initialize  ((U8)2U)
+                         147 --26: #define avgFuelCsump_V_IN_StartFromZero ((U8)2U)
+                         148 --28: /* Exported block signals */
+                         149 --29: U8 gASI_sysPwrMd;                 /* '<Root>/gAFC_u8sysPwrMd' */
+                         150 --30: U16 gASI_fuelCsump;               /* '<Root>/gAFC_u16fuelCsump' */
+                         151 --31: BOOL local_avgFuelCsumpRstReq;    /* '<Root>/local_bAvgFuelCsumpRstReq' */
+                         152 --32: BOOL local_over2hourFlag;         /* '<Root>/local_bOver2hourFlag' */
+                         153 --33: U16 gASI_vehicleSpeed;            /* '<Root>/gAFC_u16vehicleSpeed' */
+                         154 --34: BOOL local_bAvgFuelCsumpRstReq2;  /* '<Root>/local_bAvgFuelCsumpRstReq2' */
+                         155 --35: U32 gAFC_u32sumDist1;             /* '<Root>/gAFC_u32sumDist1' */
+                         156 --36: U32 gAFC_u32sumDist2;             /* '<Root>/gAFC_u32sumDist2' */
+                         157 --37: U8 gAFC_u8avgFuelCsump2;          /* '<Root>/avg2' */
+                         158 --38: U8 gAFC_u8avgFuelCsump;           /* '<Root>/avg1' */
+                         159 --39: BOOL gAFC_u8avgFuelCsumpV2;       /* '<Root>/avg2' */
+                         160 --40: BOOL gAFC_u8avgFuelCsumpV;        /* '<Root>/avg1' */
+                         161 --42: /* Exported block states */
+                         162 --43: U32 e_sum_fuel;                   /* '<Root>/Data Store Memory1' */
+                         163 --44: U32 e_sum2_fuel;                  /* '<Root>/Data Store Memory3' */
+                         164 --46: /* Block states (auto storage) */
+                         165 --47: DW_avgFuelCsump_V2_T avgFuelCsump_V2_DW;
+                         166 --49: /* Real-time model */
+                         167 --50: RT_MODEL_avgFuelCsump_V2_T avgFuelCsump_V2_M_;
+                         168 --51: RT_MODEL_avgFuelCsump_V2_T *const avgFuelCsump_V2_M = &avgFuelCsump_V2_M_;
+                         169 --53: /* Model step function */
+                         170 --54: void avgFuelCsump_V2_step(void)
+                         171 	.text
+                         172 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740370..0::
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         173 	.align	2
+                         174 	.global	_avgFuelCsump_V2_step
+                         175 _avgFuelCsump_V2_step:
+00000000 8807e170        176 	prepare	{r25,r26,r27,r28,r29,r31},4
+00000004 3d0600000000*   177 	mov	.L920,r29
+0000000a 3c0600000000*   178 	mov	_avgFuelCsump_V2_DW,r28
+00000010 390600000000*   179 	mov	_gASI_fuelCsump,r25
+                         180 --	    .bf
+                         181 .LDW01:
+                         182 --55: {
+                         183 --56:   int32_T tmp;
+                         184 --57:   U32 qY;
+                         185 --58:   U32 qY_0;
+                         186 --59:     #if 1
+                         187 --60:   /* Chart: '<Root>/avg1' incorporates:
+                         188 --61:    *  Inport: '<Root>/gAFC_u16fuelCsump'
+                         189 --62:    *  Inport: '<Root>/gAFC_u16vehicleSpeed'
+                         190 --63:    *  Inport: '<Root>/gAFC_u32sumDist1'
+                         191 --64:    *  Inport: '<Root>/gAFC_u8sysPwrMd'
+                         192 --65:    *  Inport: '<Root>/local_bAvgFuelCsumpRstReq'
+                         193 --66:    *  Inport: '<Root>/local_bOver2hourFlag'
+                         194 --67:    */
+                         195 --68:   /* Gateway: avg1 */
+                         196 --69:   /* During: avg1 */
+                         197 --70:   FC_Input();
+                         198 	jarl	_FC_Input,lp
+                         198 <EXPANSION BEGIN>
+                         198 jarl22 _FC_Input , lp 
+00000016 80ff0000*       198 <EXPANSION END>
+                         199 --71:   if (avgFuelCsump_V2_DW.is_active_c3_avgFuelCsump_V2 == 0U) {
+                         200 --line71
+                         201 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.1::
+                         202 .LDWlin1:
+0000001a bc0f1700        203 	ld.bu	23[r28],r1
+0000001e e009            204 	cmp	zero,r1
+00000020 ea07f901*       205 	bne	.L4
+                         206 --72:     /* Entry: avg1 */
+                         207 --73:     avgFuelCsump_V2_DW.is_active_c3_avgFuelCsump_V2 = 1U;
+                         208 --line73
+                         209 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.2::
+                         210 .LDWlin2:
+00000024 010a            211 	mov	1,r1
+00000026 5c0f1700        212 	st.b	r1,23[r28]
+                         213 --75:     /* Entry Internal: avg1 */
+                         214 --76:     avgFuelCsump_V2_DW.is_active_flagCalculate_c = 1U;
+0000002a 010a            215 	mov	1,r1
+0000002c 5c0f1900        216 	st.b	r1,25[r28]
+                         217 --78:     /* Entry Internal 'flagCalculate': '<S1>:373' */
+                         218 --79:     avgFuelCsump_V2_DW.is_active_InitializeFlag_o = 1U;
+00000030 010a            219 	mov	1,r1
+00000032 5c0f1b00        220 	st.b	r1,27[r28]
+                         221 --81:     /* Entry Internal 'InitializeFlag': '<S1>:374' */
+                         222 --82:     /* Transition: '<S1>:375' */
+                         223 --83:     avgFuelCsump_V2_DW.is_InitializeFlag_b = avgFuelCsump_V2_IN_defult;
+00000036 010a            224 	mov	1,r1
+00000038 5c0f1a00        225 	st.b	r1,26[r28]
+                         226 --84:     avgFuelCsump_V2_DW.is_active_countFlag_h = 1U;
+0000003c 010a            227 	mov	1,r1
+0000003e 5c0f1e00        228 	st.b	r1,30[r28]
+                         229 --86:     /* Entry Internal 'countFlag': '<S1>:389' */
+                         230 --87:     /* Transition: '<S1>:390' */
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         231 --88:     avgFuelCsump_V2_DW.is_countFlag_g = avgFuelCsump_V2_IN_count;
+00000042 020a            232 	mov	2,r1
+00000044 5c0f1d00        233 	st.b	r1,29[r28]
+                         234 --90:     /* Entry 'count': '<S1>:394' */
+                         235 --91:     avgFuelCsump_V2_DW.countFlag_o = true;
+00000048 010a            236 	mov	1,r1
+0000004a 5c0f2800        237 	st.b	r1,40[r28]
+                         238 --92:     avgFuelCsump_V2_DW.is_active_fuelCalculate_j = 1U;
+0000004e 010a            239 	mov	1,r1
+00000050 5c0f1800        240 	st.b	r1,24[r28]
+                         241 --94:     /* Entry Internal 'fuelCalculate': '<S1>:408' */
+                         242 --95:     /* Transition: '<S1>:419' */
+                         243 --96:     if (gASI_sysPwrMd >= 2) {
+00000054 210600000000*   244 	mov	_gASI_sysPwrMd,r1
+0000005a 810f0100        245 	ld.bu	0[r1],r1
+0000005e 620a            246 	cmp	2,r1
+00000060 915d*           247 	bl	.L6
+                         248 --97:       /* Transition: '<S1>:420' */
+                         249 --98:       if (avgFuelCsump_V2_DW.countFlag_o && (avgFuelCsump_V2_DW.pmCount_l >=
+                         250 --line98
+                         251 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.3::
+                         252 .LDWlin3:
+00000062 9c0f2900        253 	ld.bu	40[r28],r1
+00000066 e009            254 	cmp	zero,r1
+00000068 d245*           255 	be	.L24
+0000006a 210600000000*   256 	mov	_avgFuelCsump_V2_P+4,r1
+00000070 810f0100        257 	ld.bu	0[r1],r1
+00000074 bc772100        258 	ld.bu	33[r28],r14
+00000078 e171            259 	cmp	r1,r14
+0000007a c13d*           260 	bl	.L24
+                         261 --99:            avgFuelCsump_V2_P.pmCountThreshold)) {
+                         262 --100:         /* Transition: '<S1>:421' */
+                         263 --101:         /* Transition: '<S1>:424' */
+                         264 --102:         if (gASI_fuelCsump >= avgFuelCsump_V2_DW.last_fuel_o) {
+                         265 --line102
+                         266 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.4::
+                         267 .LDWlin4:
+0000007c fc0f0b00        268 	ld.hu	10[r28],r1
+00000080 f9770100        269 	ld.hu	0[r25],r14
+00000084 e171            270 	cmp	r1,r14
+00000086 e115*           271 	bl	.L11
+                         272 --103:           /* Transition: '<S1>:425' */
+                         273 --104:           /* Transition: '<S1>:427' */
+                         274 --105:           qY_0 = avgFuelCsump_V2_DW.sum_fuel_o + gASI_fuelCsump;
+                         275 --line105
+                         276 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.5::
+                         277 .LDWlin5:
+00000088 3c770500        278 	ld.w	4[r28],r14
+0000008c f90f0100        279 	ld.hu	0[r25],r1
+00000090 01e8            280 	mov	r1,r29
+00000092 cee9            281 	add	r14,r29
+                         282 --106:           if (qY_0 < avgFuelCsump_V2_DW.sum_fuel_o) {
+00000094 3c0f0500        283 	ld.w	4[r28],r1
+00000098 e1e9            284 	cmp	r1,r29
+0000009a a905*           285 	bnl	.L13
+                         286 --107:             qY_0 = MAX_uint32_T;
+                         287 --line107
+                         288 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.6::
+                         289 .LDWlin6:
+0000009c 1fea            290 	mov	-1,r29
+                         291 .L13:
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         292 --108:           }
+                         293 --110:           qY = qY_0 - avgFuelCsump_V2_DW.last_fuel_o;
+0000009e fc0f0b00        294 	ld.hu	10[r28],r1
+000000a2 1dd8            295 	mov	r29,r27
+000000a4 a1d9            296 	sub	r1,r27
+                         297 --111:           if (qY > qY_0) {
+000000a6 fdd9            298 	cmp	r29,r27
+000000a8 a305*           299 	bnh	.L15
+                         300 --112:             qY = 0U;
+                         301 --line112
+                         302 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.7::
+                         303 .LDWlin7:
+000000aa 00da            304 	mov	0,r27
+                         305 .L15:
+                         306 --113:           }
+                         307 --115:           avgFuelCsump_V2_DW.sum_fuel_o = qY;
+000000ac 7cdf0500        308 	st.w	r27,4[r28]
+000000b0 a51d*           309 	br	.L17
+                         310 .L11:
+                         311 --117:           /* Transition: '<S1>:431' */
+                         312 --118:         } else {
+                         313 --119:           /* Transition: '<S1>:426' */
+                         314 --120:           qY_0 = avgFuelCsump_V2_DW.sum_fuel_o + 4095U;
+                         315 --line120
+                         316 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.8::
+                         317 .LDWlin8:
+000000b2 3cef0500        318 	ld.w	4[r28],r29
+000000b6 1deeff0f        319 	addi	4095,r29,r29
+                         320 --121:           if (qY_0 < avgFuelCsump_V2_DW.sum_fuel_o) {
+000000ba 3c0f0500        321 	ld.w	4[r28],r1
+000000be e1e9            322 	cmp	r1,r29
+000000c0 a905*           323 	bnl	.L18
+                         324 --122:             qY_0 = MAX_uint32_T;
+                         325 --line122
+                         326 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.9::
+                         327 .LDWlin9:
+000000c2 1fea            328 	mov	-1,r29
+                         329 .L18:
+                         330 --123:           }
+                         331 --125:           qY = qY_0 - avgFuelCsump_V2_DW.last_fuel_o;
+000000c4 fc0f0b00        332 	ld.hu	10[r28],r1
+000000c8 1dd8            333 	mov	r29,r27
+000000ca a1d9            334 	sub	r1,r27
+                         335 --126:           if (qY > qY_0) {
+000000cc fdd9            336 	cmp	r29,r27
+000000ce a305*           337 	bnh	.L20
+                         338 --127:             qY = 0U;
+                         339 --line127
+                         340 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.10::
+                         341 .LDWlin10:
+000000d0 00da            342 	mov	0,r27
+                         343 .L20:
+                         344 --128:           }
+                         345 --130:           qY_0 = qY + gASI_fuelCsump;
+000000d2 f90f0100        346 	ld.hu	0[r25],r1
+000000d6 01e8            347 	mov	r1,r29
+000000d8 dbe9            348 	add	r27,r29
+                         349 --131:           if (qY_0 < qY) {
+000000da fbe9            350 	cmp	r27,r29
+000000dc a905*           351 	bnl	.L22
+                         352 --132:             qY_0 = MAX_uint32_T;
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         353 --line132
+                         354 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.11::
+                         355 .LDWlin11:
+000000de 1fea            356 	mov	-1,r29
+                         357 .L22:
+                         358 --133:           }
+                         359 --135:           avgFuelCsump_V2_DW.sum_fuel_o = qY_0;
+000000e0 7cef0500        360 	st.w	r29,4[r28]
+                         361 .L17:
+                         362 --136:         }
+                         363 --138:         /* Transition: '<S1>:430' */
+                         364 --139:         e_sum_fuel = avgFuelCsump_V2_DW.sum_fuel_o;
+000000e4 3c0f0500        365 	ld.w	4[r28],r1
+000000e8 2b0600000000*   366 	mov	_e_sum_fuel,r11
+000000ee 6b0f0100        367 	st.w	r1,0[r11]
+                         368 .L24:
+                         369 --140:       } else {
+                         370 --141:         /* Transition: '<S1>:423' */
+                         371 --142:       }
+                         372 --144:       /* Transition: '<S1>:429' */
+                         373 --145:       tmp = avgFuelCsump_V2_DW.pmCount_l + 1;
+000000f2 bc0f2100        374 	ld.bu	33[r28],r1
+000000f6 01d60100        375 	addi	1,r1,r26
+                         376 --146:       if (tmp > 255) {
+000000fa 1a0601ff        377 	addi	-255,r26,zero
+000000fe b705*           378 	ble	.L25
+                         379 --147:         tmp = 255;
+                         380 --line147
+                         381 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.12::
+                         382 .LDWlin12:
+00000100 20d6ff00        383 	movea	255,zero,r26
+                         384 .L25:
+                         385 --148:       }
+                         386 --150:       avgFuelCsump_V2_DW.pmCount_l = (U8)tmp;
+00000104 5cd72100        387 	st.b	r26,33[r28]
+                         388 --151:       avgFuelCsump_V2_DW.last_fuel_o = gASI_fuelCsump;
+00000108 f90f0100        389 	ld.hu	0[r25],r1
+0000010c 7c0f0a00        390 	st.h	r1,10[r28]
+00000110 b505*           391 	br	.L27
+                         392 .L6:
+                         393 --152:     } else {
+                         394 --153:       /* Transition: '<S1>:422' */
+                         395 --154:       avgFuelCsump_V2_DW.pmCount_l = 0U;
+                         396 --line154
+                         397 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.13::
+                         398 .LDWlin13:
+00000112 5c072100        399 	st.b	zero,33[r28]
+                         400 .L27:
+                         401 --155:     }
+                         402 --157:     /* Transition: '<S1>:432' */
+                         403 --158:     avgFuelCsump_V2_DW.is_active_validityCalculate_o = 1U;
+00000116 010a            404 	mov	1,r1
+00000118 5c0f2000        405 	st.b	r1,32[r28]
+                         406 --160:     /* Entry Internal 'validityCalculate': '<S1>:395' */
+                         407 --161:     /* Transition: '<S1>:401' */
+                         408 --162:     if (gAFC_u32sumDist1 <= avgFuelCsump_V2_P.distThreshold) {
+0000011c 210600000000*   409 	mov	_avgFuelCsump_V2_P,r1
+00000122 2e0600000000*   410 	mov	_gAFC_u32sumDist1,r14
+00000128 e10f0100        411 	ld.hu	0[r1],r1
+0000012c 2e770100        412 	ld.w	0[r14],r14
+00000130 e171            413 	cmp	r1,r14
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+00000132 8b0d*           414 	bh	.L28
+                         415 --163:       /* Transition: '<S1>:402' */
+                         416 --164:       /* Transition: '<S1>:404' */
+                         417 --165:       gAFC_u8avgFuelCsumpV = true;
+                         418 --line165
+                         419 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.14::
+                         420 .LDWlin14:
+00000134 2b0600000000*   421 	mov	_gAFC_u8avgFuelCsumpV,r11
+0000013a 010a            422 	mov	1,r1
+0000013c 4b0f0000        423 	st.b	r1,0[r11]
+00000140 e505*           424 	br	.L30
+                         425 .L28:
+                         426 --167:       /* Transition: '<S1>:406' */
+                         427 --168:     } else {
+                         428 --169:       /* Transition: '<S1>:403' */
+                         429 --170:       gAFC_u8avgFuelCsumpV = false;
+                         430 --line170
+                         431 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.15::
+                         432 .LDWlin15:
+00000142 2b0600000000*   433 	mov	_gAFC_u8avgFuelCsumpV,r11
+00000148 4b070000        434 	st.b	zero,0[r11]
+                         435 .L30:
+                         436 --171:     }
+                         437 --173:     /* Transition: '<S1>:407' */
+                         438 --174:     avgFuelCsump_V2_DW.is_active_avgFuelCalculate_b = 1U;
+0000014c 010a            439 	mov	1,r1
+0000014e 5c0f1f00        440 	st.b	r1,31[r28]
+                         441 --176:     /* Entry Internal 'avgFuelCalculate': '<S1>:330' */
+                         442 --177:     /* Transition: '<S1>:338' */
+                         443 --178:     if ((gAFC_u32sumDist1 > 0U) && (gAFC_u8avgFuelCsumpV == 0)) {
+00000152 210600000000*   444 	mov	_gAFC_u32sumDist1,r1
+00000158 210f0100        445 	ld.w	0[r1],r1
+0000015c e009            446 	cmp	zero,r1
+0000015e e3070d04*       447 	bnh	.L52
+00000162 210600000000*   448 	mov	_gAFC_u8avgFuelCsumpV,r1
+00000168 810f0100        449 	ld.bu	0[r1],r1
+0000016c e009            450 	cmp	zero,r1
+0000016e ea07fd03*       451 	bne	.L52
+                         452 --179:       /* Transition: '<S1>:339' */
+                         453 --180:       if (avgFuelCsump_V2_DW.sum_fuel_o > 33554431U) {
+                         454 --line180
+                         455 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.16::
+                         456 .LDWlin16:
+00000172 3c0f0500        457 	ld.w	4[r28],r1
+00000176 2b06ffffff01    458 	mov	33554431,r11
+0000017c eb09            459 	cmp	r11,r1
+0000017e b305*           460 	bnh	.L34
+                         461 --181:         qY_0 = MAX_uint32_T;
+                         462 --line181
+                         463 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.17::
+                         464 .LDWlin17:
+00000180 1fea            465 	mov	-1,r29
+00000182 d505*           466 	br	.L36
+                         467 .L34:
+                         468 --182:       } else {
+                         469 --183:         qY_0 = avgFuelCsump_V2_DW.sum_fuel_o << 7;
+                         470 --line183
+                         471 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.18::
+                         472 .LDWlin18:
+00000184 3c0f0500        473 	ld.w	4[r28],r1
+00000188 01e8            474 	mov	r1,r29
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+0000018a c7ea            475 	shl	7,r29
+                         476 .L36:
+                         477 --184:       }
+                         478 --186:       if ((gAFC_u32sumDist1 == 0U ? MAX_uint32_T : qY_0 / gAFC_u32sumDist1) <
+0000018c 210600000000*   479 	mov	_gAFC_u32sumDist1,r1
+00000192 210f0100        480 	ld.w	0[r1],r1
+00000196 e009            481 	cmp	zero,r1
+00000198 ba05*           482 	bne	.L39
+0000019a 1f0a            483 	mov	-1,r1
+0000019c 950d*           484 	br	.L41
+                         485 .L39:
+0000019e 2e0600000000*   486 	mov	_gAFC_u32sumDist1,r14
+000001a4 2e770100        487 	ld.w	0[r14],r14
+000001a8 1d08            488 	mov	r29,r1
+000001aa ee0ffe02        489 	divqu	r14,r1,zero
+                         490 .L41:
+000001ae 010601ff        491 	addi	-255,r1,zero
+000001b2 a12d*           492 	bl	.L37
+                         493 --187:           255U) {
+                         494 --188:         /* Transition: '<S1>:340' */
+                         495 --189:         /* Transition: '<S1>:343' */
+                         496 --190:         if (avgFuelCsump_V2_DW.sum_fuel_o > 33554431U) {
+                         497 --line190
+                         498 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.19::
+                         499 .LDWlin19:
+000001b4 3c0f0500        500 	ld.w	4[r28],r1
+000001b8 2b06ffffff01    501 	mov	33554431,r11
+000001be eb09            502 	cmp	r11,r1
+000001c0 b305*           503 	bnh	.L42
+                         504 --191:           qY_0 = MAX_uint32_T;
+                         505 --line191
+                         506 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.20::
+                         507 .LDWlin20:
+000001c2 1fea            508 	mov	-1,r29
+000001c4 d505*           509 	br	.L44
+                         510 .L42:
+                         511 --192:         } else {
+                         512 --193:           qY_0 = avgFuelCsump_V2_DW.sum_fuel_o << 7;
+                         513 --line193
+                         514 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.21::
+                         515 .LDWlin21:
+000001c6 3c0f0500        516 	ld.w	4[r28],r1
+000001ca 01e8            517 	mov	r1,r29
+000001cc c7ea            518 	shl	7,r29
+                         519 .L44:
+                         520 --194:         }
+                         521 --196:         qY_0 = gAFC_u32sumDist1 == 0U ? MAX_uint32_T : qY_0 / gAFC_u32sumDist1;
+000001ce 210600000000*   522 	mov	_gAFC_u32sumDist1,r1
+000001d4 210f0100        523 	ld.w	0[r1],r1
+000001d8 e009            524 	cmp	zero,r1
+000001da ffef04eb        525 	cmove	-1,r29,r29
+000001de 820d*           526 	be	.L531
+000001e0 210600000000*   527 	mov	_gAFC_u32sumDist1,r1
+000001e6 210f0100        528 	ld.w	0[r1],r1
+000001ea e1effe02        529 	divqu	r1,r29,zero
+                         530 .L531:
+                         531 --197:         if (qY_0 > 255U) {
+                         532 --line197
+                         533 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.22::
+                         534 .LDWlin22:
+000001ee 1d0600ff        535 	addi	-256,r29,zero
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+000001f2 b905*           536 	bnl	.L48
+                         537 --198:           qY_0 = 255U;
+                         538 --line198
+                         539 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.23::
+                         540 .LDWlin23:
+000001f4 20eeff00        541 	movea	255,zero,r29
+                         542 .L48:
+                         543 --199:         }
+                         544 --201:         gAFC_u8avgFuelCsump = (U8)qY_0;
+000001f8 2b0600000000*   545 	mov	_gAFC_u8avgFuelCsump,r11
+000001fe 4bef0000        546 	st.b	r29,0[r11]
+00000202 80076803*       547 	br	.L52
+                         548 .L37:
+                         549 --203:         /* Transition: '<S1>:346' */
+                         550 --204:       } else {
+                         551 --205:         /* Transition: '<S1>:342' */
+                         552 --206:         gAFC_u8avgFuelCsump = MAX_uint8_T;
+                         553 --line206
+                         554 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.24::
+                         555 .LDWlin24:
+00000206 200eff00        556 	movea	255,zero,r1
+0000020a 2b0600000000*   557 	mov	_gAFC_u8avgFuelCsump,r11
+00000210 4b0f0000        558 	st.b	r1,0[r11]
+00000214 80075603*       559 	br	.L52
+                         560 .L4:
+                         561 --207:       }
+                         562 --209:       /* Transition: '<S1>:345' */
+                         563 --210:     } else {
+                         564 --211:       /* Transition: '<S1>:341' */
+                         565 --212:       /* {avgFuelCsump=68;} */
+                         566 --213:     }
+                         567 --215:     /* Transition: '<S1>:347' */
+                         568 --216:   } else {
+                         569 --217:     /* During 'flagCalculate': '<S1>:373' */
+                         570 --218:     /* During 'InitializeFlag': '<S1>:374' */
+                         571 --219:     if (avgFuelCsump_V2_DW.is_InitializeFlag_b == avgFuelCsump_V2_IN_defult) {
+                         572 --line219
+                         573 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.25::
+                         574 .LDWlin25:
+00000218 9c0f1b00        575 	ld.bu	26[r28],r1
+0000021c 610a            576 	cmp	1,r1
+0000021e ea070901*       577 	bne	.L53
+                         578 --220:       /* During 'defult': '<S1>:386' */
+                         579 --221:       if ((gASI_sysPwrMd >= 2) && (!avgFuelCsump_V2_DW.initializeHappened_j)) {
+                         580 --line221
+                         581 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.26::
+                         582 .LDWlin26:
+00000222 210600000000*   583 	mov	_gASI_sysPwrMd,r1
+00000228 810f0100        584 	ld.bu	0[r1],r1
+0000022c 620a            585 	cmp	2,r1
+0000022e d12d*           586 	bl	.L55
+00000230 9c0f2700        587 	ld.bu	38[r28],r1
+00000234 e009            588 	cmp	zero,r1
+00000236 9a2d*           589 	bne	.L55
+                         590 --222:         /* Transition: '<S1>:376' */
+                         591 --223:         avgFuelCsump_V2_DW.initializeHappened_j = true;
+                         592 --line223
+                         593 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.27::
+                         594 .LDWlin27:
+00000238 010a            595 	mov	1,r1
+0000023a 5c0f2600        596 	st.b	r1,38[r28]
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         597 --224:         avgFuelCsump_V2_DW.is_InitializeFlag_b = avgFuelCsump_V2_IN_initialize;
+0000023e 020a            598 	mov	2,r1
+00000240 5c0f1a00        599 	st.b	r1,26[r28]
+                         600 --226:         /* Entry 'initialize': '<S1>:379' */
+                         601 --227:         avgFuelCsump_V2_DW.initializing_e = true;
+00000244 010a            602 	mov	1,r1
+00000246 5c0f2900        603 	st.b	r1,41[r28]
+                         604 --229:         /* Entry Internal 'initialize': '<S1>:379' */
+                         605 --230:         /* Transition: '<S1>:381' */
+                         606 --231:         if ((local_over2hourFlag == 0) && (local_avgFuelCsumpRstReq == 0)) {
+0000024a 210600000000*   607 	mov	_local_over2hourFlag,r1
+00000250 810f0100        608 	ld.bu	0[r1],r1
+00000254 e009            609 	cmp	zero,r1
+00000256 ba15*           610 	bne	.L58
+00000258 210600000000*   611 	mov	_local_avgFuelCsumpRstReq,r1
+0000025e 810f0100        612 	ld.bu	0[r1],r1
+00000262 e009            613 	cmp	zero,r1
+00000264 ca0d*           614 	bne	.L58
+                         615 --232:           /* Transition: '<S1>:382' */
+                         616 --233:           avgFuelCsump_V2_DW.is_initialize_k = avgFuelCsump_IN_StartFromEEPROM;
+                         617 --line233
+                         618 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.28::
+                         619 .LDWlin28:
+00000266 010a            620 	mov	1,r1
+00000268 5c0f1c00        621 	st.b	r1,28[r28]
+                         622 --235:           /* Entry 'StartFromEEPROM': '<S1>:385' */
+                         623 --236:           avgFuelCsump_V2_DW.sum_fuel_o = e_sum_fuel;
+0000026c 210600000000*   624 	mov	_e_sum_fuel,r1
+00000272 210f0100        625 	ld.w	0[r1],r1
+00000276 7c0f0500        626 	st.w	r1,4[r28]
+0000027a 9565*           627 	br	.L78
+                         628 .L58:
+                         629 --237:         } else {
+                         630 --238:           /* Transition: '<S1>:383' */
+                         631 --239:           avgFuelCsump_V2_DW.is_initialize_k = avgFuelCsump_V_IN_StartFromZero;
+                         632 --line239
+                         633 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.29::
+                         634 .LDWlin29:
+0000027c 020a            635 	mov	2,r1
+0000027e 5c0f1c00        636 	st.b	r1,28[r28]
+                         637 --241:           /* Entry 'StartFromZero': '<S1>:384' */
+                         638 --242:           avgFuelCsump_V2_DW.sum_fuel_o = 0U;
+00000282 7c070500        639 	st.w	zero,4[r28]
+00000286 b55d*           640 	br	.L78
+                         641 .L55:
+                         642 --243:         }
+                         643 --244:       } else if ((local_avgFuelCsumpRstReq == 1) &&
+                         644 --line244
+                         645 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.30::
+                         646 .LDWlin30:
+00000288 210600000000*   647 	mov	_local_avgFuelCsumpRstReq,r1
+0000028e 810f0100        648 	ld.bu	0[r1],r1
+00000292 610a            649 	cmp	1,r1
+00000294 da2d*           650 	bne	.L63
+00000296 bc0f2700        651 	ld.bu	39[r28],r1
+0000029a e009            652 	cmp	zero,r1
+0000029c 9a2d*           653 	bne	.L63
+                         654 --245:                  (!avgFuelCsump_V2_DW.resetHappened_p)) {
+                         655 --246:         /* Transition: '<S1>:378' */
+                         656 --247:         avgFuelCsump_V2_DW.resetHappened_p = true;
+                         657 --line247
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         658 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.31::
+                         659 .LDWlin31:
+0000029e 010a            660 	mov	1,r1
+000002a0 5c0f2700        661 	st.b	r1,39[r28]
+                         662 --248:         avgFuelCsump_V2_DW.is_InitializeFlag_b = avgFuelCsump_V2_IN_initialize;
+000002a4 020a            663 	mov	2,r1
+000002a6 5c0f1a00        664 	st.b	r1,26[r28]
+                         665 --250:         /* Entry 'initialize': '<S1>:379' */
+                         666 --251:         avgFuelCsump_V2_DW.initializing_e = true;
+000002aa 010a            667 	mov	1,r1
+000002ac 5c0f2900        668 	st.b	r1,41[r28]
+                         669 --253:         /* Entry Internal 'initialize': '<S1>:379' */
+                         670 --254:         /* Transition: '<S1>:381' */
+                         671 --255:         if ((local_over2hourFlag == 0) && (local_avgFuelCsumpRstReq == 0)) {
+000002b0 210600000000*   672 	mov	_local_over2hourFlag,r1
+000002b6 810f0100        673 	ld.bu	0[r1],r1
+000002ba e009            674 	cmp	zero,r1
+000002bc ba15*           675 	bne	.L66
+000002be 210600000000*   676 	mov	_local_avgFuelCsumpRstReq,r1
+000002c4 810f0100        677 	ld.bu	0[r1],r1
+000002c8 e009            678 	cmp	zero,r1
+000002ca ca0d*           679 	bne	.L66
+                         680 --256:           /* Transition: '<S1>:382' */
+                         681 --257:           avgFuelCsump_V2_DW.is_initialize_k = avgFuelCsump_IN_StartFromEEPROM;
+                         682 --line257
+                         683 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.32::
+                         684 .LDWlin32:
+000002cc 010a            685 	mov	1,r1
+000002ce 5c0f1c00        686 	st.b	r1,28[r28]
+                         687 --259:           /* Entry 'StartFromEEPROM': '<S1>:385' */
+                         688 --260:           avgFuelCsump_V2_DW.sum_fuel_o = e_sum_fuel;
+000002d2 210600000000*   689 	mov	_e_sum_fuel,r1
+000002d8 210f0100        690 	ld.w	0[r1],r1
+000002dc 7c0f0500        691 	st.w	r1,4[r28]
+000002e0 e52d*           692 	br	.L78
+                         693 .L66:
+                         694 --261:         } else {
+                         695 --262:           /* Transition: '<S1>:383' */
+                         696 --263:           avgFuelCsump_V2_DW.is_initialize_k = avgFuelCsump_V_IN_StartFromZero;
+                         697 --line263
+                         698 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.33::
+                         699 .LDWlin33:
+000002e2 020a            700 	mov	2,r1
+000002e4 5c0f1c00        701 	st.b	r1,28[r28]
+                         702 --265:           /* Entry 'StartFromZero': '<S1>:384' */
+                         703 --266:           avgFuelCsump_V2_DW.sum_fuel_o = 0U;
+000002e8 7c070500        704 	st.w	zero,4[r28]
+000002ec 852d*           705 	br	.L78
+                         706 .L63:
+                         707 --267:         }
+                         708 --268:       } else if ((local_avgFuelCsumpRstReq == 0) &&
+                         709 --line268
+                         710 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.34::
+                         711 .LDWlin34:
+000002ee 210600000000*   712 	mov	_local_avgFuelCsumpRstReq,r1
+000002f4 810f0100        713 	ld.bu	0[r1],r1
+000002f8 e009            714 	cmp	zero,r1
+000002fa 8a0d*           715 	bne	.L71
+000002fc bc0f2700        716 	ld.bu	39[r28],r1
+00000300 e009            717 	cmp	zero,r1
+00000302 c205*           718 	be	.L71
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         719 --269:                  avgFuelCsump_V2_DW.resetHappened_p) {
+                         720 --270:         /* Transition: '<S1>:388' */
+                         721 --271:         avgFuelCsump_V2_DW.resetHappened_p = false;
+                         722 --line271
+                         723 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.35::
+                         724 .LDWlin35:
+00000304 5c072700        725 	st.b	zero,39[r28]
+00000308 a51d*           726 	br	.L78
+                         727 .L71:
+                         728 --272:       } else {
+                         729 --273:         if ((gASI_sysPwrMd == 0) && avgFuelCsump_V2_DW.initializeHappened_j) {
+                         730 --line273
+                         731 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.36::
+                         732 .LDWlin36:
+0000030a 210600000000*   733 	mov	_gASI_sysPwrMd,r1
+00000310 810f0100        734 	ld.bu	0[r1],r1
+00000314 e009            735 	cmp	zero,r1
+00000316 ba15*           736 	bne	.L78
+00000318 9c0f2700        737 	ld.bu	38[r28],r1
+0000031c e009            738 	cmp	zero,r1
+0000031e f20d*           739 	be	.L78
+                         740 --274:           /* Transition: '<S1>:387' */
+                         741 --275:           avgFuelCsump_V2_DW.initializeHappened_j = false;
+                         742 --line275
+                         743 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.37::
+                         744 .LDWlin37:
+00000320 5c072600        745 	st.b	zero,38[r28]
+00000324 c50d*           746 	br	.L78
+                         747 .L53:
+                         748 --276:         }
+                         749 --277:       }
+                         750 --278:     } else {
+                         751 --279:       /* During 'initialize': '<S1>:379' */
+                         752 --280:       /* Transition: '<S1>:377' */
+                         753 --281:       /* Exit Internal 'initialize': '<S1>:379' */
+                         754 --282:       avgFuelCsump_V2_DW.is_initialize_k = avgFuelCsump_IN_NO_ACTIVE_CHILD;
+                         755 --line282
+                         756 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.38::
+                         757 .LDWlin38:
+00000326 5c071c00        758 	st.b	zero,28[r28]
+                         759 --284:       /* Exit 'initialize': '<S1>:379' */
+                         760 --285:       avgFuelCsump_V2_DW.initializing_e = false;
+0000032a 5c072900        761 	st.b	zero,41[r28]
+                         762 --286:       avgFuelCsump_V2_DW.last_fuel_o = gASI_fuelCsump;
+0000032e f90f0100        763 	ld.hu	0[r25],r1
+00000332 7c0f0a00        764 	st.h	r1,10[r28]
+                         765 --287:       avgFuelCsump_V2_DW.is_InitializeFlag_b = avgFuelCsump_V2_IN_defult;
+00000336 010a            766 	mov	1,r1
+00000338 5c0f1a00        767 	st.b	r1,26[r28]
+                         768 .L78:
+                         769 --288:     }
+                         770 --290:     /* During 'countFlag': '<S1>:389' */
+                         771 --291:     if (avgFuelCsump_V2_DW.is_countFlag_g == avgFuelCsump_V2_IN_Uncount) {
+0000033c bc0f1d00        772 	ld.bu	29[r28],r1
+00000340 610a            773 	cmp	1,r1
+00000342 ca1d*           774 	bne	.L79
+                         775 --292:       /* During 'Uncount': '<S1>:393' */
+                         776 --293:       if ((gASI_vehicleSpeed > avgFuelCsump_V2_P.vehSpdThreshold) ||
+                         777 --line293
+                         778 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.39::
+                         779 .LDWlin39:
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+00000344 210600000000*   780 	mov	_avgFuelCsump_V2_P+2,r1
+0000034a 2e0600000000*   781 	mov	_gASI_vehicleSpeed,r14
+00000350 e10f0100        782 	ld.hu	0[r1],r1
+00000354 ee770100        783 	ld.hu	0[r14],r14
+00000358 e171            784 	cmp	r1,r14
+0000035a 9b0d*           785 	bh	.L82
+0000035c 3c0f0500        786 	ld.w	4[r28],r1
+00000360 e009            787 	cmp	zero,r1
+00000362 d22d*           788 	be	.L85
+00000364 bc0f2900        789 	ld.bu	41[r28],r1
+00000368 e009            790 	cmp	zero,r1
+0000036a 9a2d*           791 	bne	.L85
+                         792 .L82:
+                         793 --294:           ((avgFuelCsump_V2_DW.sum_fuel_o != 0U) &&
+                         794 --295:            (!avgFuelCsump_V2_DW.initializing_e))) {
+                         795 --296:         /* Transition: '<S1>:392' */
+                         796 --297:         avgFuelCsump_V2_DW.is_countFlag_g = avgFuelCsump_V2_IN_count;
+                         797 --line297
+                         798 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.40::
+                         799 .LDWlin40:
+0000036c 020a            800 	mov	2,r1
+0000036e 5c0f1d00        801 	st.b	r1,29[r28]
+                         802 --299:         /* Entry 'count': '<S1>:394' */
+                         803 --300:         avgFuelCsump_V2_DW.countFlag_o = true;
+00000372 010a            804 	mov	1,r1
+00000374 5c0f2800        805 	st.b	r1,40[r28]
+00000378 a525*           806 	br	.L85
+                         807 .L79:
+                         808 --301:       }
+                         809 --302:     } else {
+                         810 --303:       /* During 'count': '<S1>:394' */
+                         811 --304:       if (((gASI_vehicleSpeed < avgFuelCsump_V2_P.vehSpdThreshold) &&
+                         812 --line304
+                         813 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.41::
+                         814 .LDWlin41:
+0000037a 210600000000*   815 	mov	_avgFuelCsump_V2_P+2,r1
+00000380 2e0600000000*   816 	mov	_gASI_vehicleSpeed,r14
+00000386 e10f0100        817 	ld.hu	0[r1],r1
+0000038a ee770100        818 	ld.hu	0[r14],r14
+0000038e e171            819 	cmp	r1,r14
+00000390 d90d*           820 	bnl	.L88
+00000392 9c0f2700        821 	ld.bu	38[r28],r1
+00000396 e009            822 	cmp	zero,r1
+00000398 da05*           823 	bne	.L89
+0000039a bc0f2700        824 	ld.bu	39[r28],r1
+0000039e e009            825 	cmp	zero,r1
+000003a0 d205*           826 	be	.L88
+                         827 .L89:
+000003a2 3c0f0500        828 	ld.w	4[r28],r1
+000003a6 e009            829 	cmp	zero,r1
+000003a8 d205*           830 	be	.L87
+                         831 .L88:
+000003aa bc0f2900        832 	ld.bu	41[r28],r1
+000003ae e009            833 	cmp	zero,r1
+000003b0 e205*           834 	be	.L85
+                         835 .L87:
+                         836 --305:            (avgFuelCsump_V2_DW.initializeHappened_j ||
+                         837 --306:             avgFuelCsump_V2_DW.resetHappened_p) &&
+                         838 --307:            (avgFuelCsump_V2_DW.sum_fuel_o == 0U)) ||
+                         839 --308:           avgFuelCsump_V2_DW.initializing_e) {
+                         840 --309:         /* Transition: '<S1>:391' */
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         841 --310:         avgFuelCsump_V2_DW.is_countFlag_g = avgFuelCsump_V2_IN_Uncount;
+                         842 --line310
+                         843 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.42::
+                         844 .LDWlin42:
+000003b2 010a            845 	mov	1,r1
+000003b4 5c0f1d00        846 	st.b	r1,29[r28]
+                         847 --312:         /* Entry 'Uncount': '<S1>:393' */
+                         848 --313:         avgFuelCsump_V2_DW.countFlag_o = false;
+000003b8 5c072800        849 	st.b	zero,40[r28]
+                         850 .L85:
+                         851 --314:       }
+                         852 --315:     }
+                         853 --317:     /* During 'fuelCalculate': '<S1>:408' */
+                         854 --318:     /* Transition: '<S1>:428' */
+                         855 --319:     /* Entry Internal 'fuelCalculate': '<S1>:408' */
+                         856 --320:     /* Transition: '<S1>:419' */
+                         857 --321:     if (gASI_sysPwrMd >= 2) {
+000003bc 210600000000*   858 	mov	_gASI_sysPwrMd,r1
+000003c2 810f0100        859 	ld.bu	0[r1],r1
+000003c6 620a            860 	cmp	2,r1
+000003c8 915d*           861 	bl	.L92
+                         862 --322:       /* Transition: '<S1>:420' */
+                         863 --323:       if (avgFuelCsump_V2_DW.countFlag_o && (avgFuelCsump_V2_DW.pmCount_l >=
+                         864 --line323
+                         865 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.43::
+                         866 .LDWlin43:
+000003ca 9c0f2900        867 	ld.bu	40[r28],r1
+000003ce e009            868 	cmp	zero,r1
+000003d0 d245*           869 	be	.L110
+000003d2 210600000000*   870 	mov	_avgFuelCsump_V2_P+4,r1
+000003d8 810f0100        871 	ld.bu	0[r1],r1
+000003dc bc772100        872 	ld.bu	33[r28],r14
+000003e0 e171            873 	cmp	r1,r14
+000003e2 c13d*           874 	bl	.L110
+                         875 --324:            avgFuelCsump_V2_P.pmCountThreshold)) {
+                         876 --325:         /* Transition: '<S1>:421' */
+                         877 --326:         /* Transition: '<S1>:424' */
+                         878 --327:         if (gASI_fuelCsump >= avgFuelCsump_V2_DW.last_fuel_o) {
+                         879 --line327
+                         880 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.44::
+                         881 .LDWlin44:
+000003e4 fc0f0b00        882 	ld.hu	10[r28],r1
+000003e8 f9770100        883 	ld.hu	0[r25],r14
+000003ec e171            884 	cmp	r1,r14
+000003ee e115*           885 	bl	.L97
+                         886 --328:           /* Transition: '<S1>:425' */
+                         887 --329:           /* Transition: '<S1>:427' */
+                         888 --330:           qY_0 = avgFuelCsump_V2_DW.sum_fuel_o + gASI_fuelCsump;
+                         889 --line330
+                         890 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.45::
+                         891 .LDWlin45:
+000003f0 3c770500        892 	ld.w	4[r28],r14
+000003f4 f90f0100        893 	ld.hu	0[r25],r1
+000003f8 01e8            894 	mov	r1,r29
+000003fa cee9            895 	add	r14,r29
+                         896 --331:           if (qY_0 < avgFuelCsump_V2_DW.sum_fuel_o) {
+000003fc 3c0f0500        897 	ld.w	4[r28],r1
+00000400 e1e9            898 	cmp	r1,r29
+00000402 a905*           899 	bnl	.L99
+                         900 --332:             qY_0 = MAX_uint32_T;
+                         901 --line332
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         902 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.46::
+                         903 .LDWlin46:
+00000404 1fea            904 	mov	-1,r29
+                         905 .L99:
+                         906 --333:           }
+                         907 --335:           qY = qY_0 - avgFuelCsump_V2_DW.last_fuel_o;
+00000406 fc0f0b00        908 	ld.hu	10[r28],r1
+0000040a 1dd8            909 	mov	r29,r27
+0000040c a1d9            910 	sub	r1,r27
+                         911 --336:           if (qY > qY_0) {
+0000040e fdd9            912 	cmp	r29,r27
+00000410 a305*           913 	bnh	.L101
+                         914 --337:             qY = 0U;
+                         915 --line337
+                         916 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.47::
+                         917 .LDWlin47:
+00000412 00da            918 	mov	0,r27
+                         919 .L101:
+                         920 --338:           }
+                         921 --340:           avgFuelCsump_V2_DW.sum_fuel_o = qY;
+00000414 7cdf0500        922 	st.w	r27,4[r28]
+00000418 a51d*           923 	br	.L103
+                         924 .L97:
+                         925 --342:           /* Transition: '<S1>:431' */
+                         926 --343:         } else {
+                         927 --344:           /* Transition: '<S1>:426' */
+                         928 --345:           qY_0 = avgFuelCsump_V2_DW.sum_fuel_o + 4095U;
+                         929 --line345
+                         930 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.48::
+                         931 .LDWlin48:
+0000041a 3cef0500        932 	ld.w	4[r28],r29
+0000041e 1deeff0f        933 	addi	4095,r29,r29
+                         934 --346:           if (qY_0 < avgFuelCsump_V2_DW.sum_fuel_o) {
+00000422 3c0f0500        935 	ld.w	4[r28],r1
+00000426 e1e9            936 	cmp	r1,r29
+00000428 a905*           937 	bnl	.L104
+                         938 --347:             qY_0 = MAX_uint32_T;
+                         939 --line347
+                         940 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.49::
+                         941 .LDWlin49:
+0000042a 1fea            942 	mov	-1,r29
+                         943 .L104:
+                         944 --348:           }
+                         945 --350:           qY = qY_0 - avgFuelCsump_V2_DW.last_fuel_o;
+0000042c fc0f0b00        946 	ld.hu	10[r28],r1
+00000430 1dd8            947 	mov	r29,r27
+00000432 a1d9            948 	sub	r1,r27
+                         949 --351:           if (qY > qY_0) {
+00000434 fdd9            950 	cmp	r29,r27
+00000436 a305*           951 	bnh	.L106
+                         952 --352:             qY = 0U;
+                         953 --line352
+                         954 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.50::
+                         955 .LDWlin50:
+00000438 00da            956 	mov	0,r27
+                         957 .L106:
+                         958 --353:           }
+                         959 --355:           qY_0 = qY + gASI_fuelCsump;
+0000043a f90f0100        960 	ld.hu	0[r25],r1
+0000043e 01e8            961 	mov	r1,r29
+00000440 dbe9            962 	add	r27,r29
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                         963 --356:           if (qY_0 < qY) {
+00000442 fbe9            964 	cmp	r27,r29
+00000444 a905*           965 	bnl	.L108
+                         966 --357:             qY_0 = MAX_uint32_T;
+                         967 --line357
+                         968 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.51::
+                         969 .LDWlin51:
+00000446 1fea            970 	mov	-1,r29
+                         971 .L108:
+                         972 --358:           }
+                         973 --360:           avgFuelCsump_V2_DW.sum_fuel_o = qY_0;
+00000448 7cef0500        974 	st.w	r29,4[r28]
+                         975 .L103:
+                         976 --361:         }
+                         977 --363:         /* Transition: '<S1>:430' */
+                         978 --364:         e_sum_fuel = avgFuelCsump_V2_DW.sum_fuel_o;
+0000044c 3c0f0500        979 	ld.w	4[r28],r1
+00000450 2b0600000000*   980 	mov	_e_sum_fuel,r11
+00000456 6b0f0100        981 	st.w	r1,0[r11]
+                         982 .L110:
+                         983 --365:       } else {
+                         984 --366:         /* Transition: '<S1>:423' */
+                         985 --367:       }
+                         986 --369:       /* Transition: '<S1>:429' */
+                         987 --370:       tmp = avgFuelCsump_V2_DW.pmCount_l + 1;
+0000045a bc0f2100        988 	ld.bu	33[r28],r1
+0000045e 01d60100        989 	addi	1,r1,r26
+                         990 --371:       if (tmp > 255) {
+00000462 1a0601ff        991 	addi	-255,r26,zero
+00000466 b705*           992 	ble	.L111
+                         993 --372:         tmp = 255;
+                         994 --line372
+                         995 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.52::
+                         996 .LDWlin52:
+00000468 20d6ff00        997 	movea	255,zero,r26
+                         998 .L111:
+                         999 --373:       }
+                        1000 --375:       avgFuelCsump_V2_DW.pmCount_l = (U8)tmp;
+0000046c 5cd72100       1001 	st.b	r26,33[r28]
+                        1002 --376:       avgFuelCsump_V2_DW.last_fuel_o = gASI_fuelCsump;
+00000470 f90f0100       1003 	ld.hu	0[r25],r1
+00000474 7c0f0a00       1004 	st.h	r1,10[r28]
+00000478 b505*          1005 	br	.L113
+                        1006 .L92:
+                        1007 --377:     } else {
+                        1008 --378:       /* Transition: '<S1>:422' */
+                        1009 --379:       avgFuelCsump_V2_DW.pmCount_l = 0U;
+                        1010 --line379
+                        1011 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.53::
+                        1012 .LDWlin53:
+0000047a 5c072100       1013 	st.b	zero,33[r28]
+                        1014 .L113:
+                        1015 --380:     }
+                        1016 --382:     /* Transition: '<S1>:432' */
+                        1017 --383:     /* During 'validityCalculate': '<S1>:395' */
+                        1018 --384:     /* Transition: '<S1>:405' */
+                        1019 --385:     /* Entry Internal 'validityCalculate': '<S1>:395' */
+                        1020 --386:     /* Transition: '<S1>:401' */
+                        1021 --387:     if (gAFC_u32sumDist1 <= avgFuelCsump_V2_P.distThreshold) {
+0000047e 210600000000*  1022 	mov	_avgFuelCsump_V2_P,r1
+00000484 2e0600000000*  1023 	mov	_gAFC_u32sumDist1,r14
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+0000048a e10f0100       1024 	ld.hu	0[r1],r1
+0000048e 2e770100       1025 	ld.w	0[r14],r14
+00000492 e171           1026 	cmp	r1,r14
+00000494 8b0d*          1027 	bh	.L114
+                        1028 --388:       /* Transition: '<S1>:402' */
+                        1029 --389:       /* Transition: '<S1>:404' */
+                        1030 --390:       gAFC_u8avgFuelCsumpV = true;
+                        1031 --line390
+                        1032 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.54::
+                        1033 .LDWlin54:
+00000496 2b0600000000*  1034 	mov	_gAFC_u8avgFuelCsumpV,r11
+0000049c 010a           1035 	mov	1,r1
+0000049e 4b0f0000       1036 	st.b	r1,0[r11]
+000004a2 e505*          1037 	br	.L116
+                        1038 .L114:
+                        1039 --392:       /* Transition: '<S1>:406' */
+                        1040 --393:     } else {
+                        1041 --394:       /* Transition: '<S1>:403' */
+                        1042 --395:       gAFC_u8avgFuelCsumpV = false;
+                        1043 --line395
+                        1044 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.55::
+                        1045 .LDWlin55:
+000004a4 2b0600000000*  1046 	mov	_gAFC_u8avgFuelCsumpV,r11
+000004aa 4b070000       1047 	st.b	zero,0[r11]
+                        1048 .L116:
+                        1049 --396:     }
+                        1050 --398:     /* Transition: '<S1>:407' */
+                        1051 --399:     /* During 'avgFuelCalculate': '<S1>:330' */
+                        1052 --400:     /* Transition: '<S1>:344' */
+                        1053 --401:     /* Entry Internal 'avgFuelCalculate': '<S1>:330' */
+                        1054 --402:     /* Transition: '<S1>:338' */
+                        1055 --403:     if ((gAFC_u32sumDist1 > 0U) && (gAFC_u8avgFuelCsumpV == 0)) {
+000004ae 210600000000*  1056 	mov	_gAFC_u32sumDist1,r1
+000004b4 210f0100       1057 	ld.w	0[r1],r1
+000004b8 e009           1058 	cmp	zero,r1
+000004ba 835d*          1059 	bnh	.L52
+000004bc 210600000000*  1060 	mov	_gAFC_u8avgFuelCsumpV,r1
+000004c2 810f0100       1061 	ld.bu	0[r1],r1
+000004c6 e009           1062 	cmp	zero,r1
+000004c8 9a55*          1063 	bne	.L52
+                        1064 --404:       /* Transition: '<S1>:339' */
+                        1065 --405:       if (avgFuelCsump_V2_DW.sum_fuel_o > 33554431U) {
+                        1066 --line405
+                        1067 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.56::
+                        1068 .LDWlin56:
+000004ca 3c0f0500       1069 	ld.w	4[r28],r1
+000004ce 2b06ffffff01   1070 	mov	33554431,r11
+000004d4 eb09           1071 	cmp	r11,r1
+000004d6 b305*          1072 	bnh	.L120
+                        1073 --406:         qY_0 = MAX_uint32_T;
+                        1074 --line406
+                        1075 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.57::
+                        1076 .LDWlin57:
+000004d8 1fea           1077 	mov	-1,r29
+000004da d505*          1078 	br	.L122
+                        1079 .L120:
+                        1080 --407:       } else {
+                        1081 --408:         qY_0 = avgFuelCsump_V2_DW.sum_fuel_o << 7;
+                        1082 --line408
+                        1083 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.58::
+                        1084 .LDWlin58:
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+000004dc 3c0f0500       1085 	ld.w	4[r28],r1
+000004e0 01e8           1086 	mov	r1,r29
+000004e2 c7ea           1087 	shl	7,r29
+                        1088 .L122:
+                        1089 --409:       }
+                        1090 --411:       if ((gAFC_u32sumDist1 == 0U ? MAX_uint32_T : qY_0 / gAFC_u32sumDist1) <
+000004e4 210600000000*  1091 	mov	_gAFC_u32sumDist1,r1
+000004ea 210f0100       1092 	ld.w	0[r1],r1
+000004ee e009           1093 	cmp	zero,r1
+000004f0 ba05*          1094 	bne	.L125
+000004f2 1f0a           1095 	mov	-1,r1
+000004f4 950d*          1096 	br	.L127
+                        1097 .L125:
+000004f6 2e0600000000*  1098 	mov	_gAFC_u32sumDist1,r14
+000004fc 2e770100       1099 	ld.w	0[r14],r14
+00000500 1d08           1100 	mov	r29,r1
+00000502 ee0ffe02       1101 	divqu	r14,r1,zero
+                        1102 .L127:
+00000506 010601ff       1103 	addi	-255,r1,zero
+0000050a 912d*          1104 	bl	.L123
+                        1105 --412:           255U) {
+                        1106 --413:         /* Transition: '<S1>:340' */
+                        1107 --414:         /* Transition: '<S1>:343' */
+                        1108 --415:         if (avgFuelCsump_V2_DW.sum_fuel_o > 33554431U) {
+                        1109 --line415
+                        1110 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.59::
+                        1111 .LDWlin59:
+0000050c 3c0f0500       1112 	ld.w	4[r28],r1
+00000510 2b06ffffff01   1113 	mov	33554431,r11
+00000516 eb09           1114 	cmp	r11,r1
+00000518 b305*          1115 	bnh	.L128
+                        1116 --416:           qY_0 = MAX_uint32_T;
+                        1117 --line416
+                        1118 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.60::
+                        1119 .LDWlin60:
+0000051a 1fea           1120 	mov	-1,r29
+0000051c d505*          1121 	br	.L130
+                        1122 .L128:
+                        1123 --417:         } else {
+                        1124 --418:           qY_0 = avgFuelCsump_V2_DW.sum_fuel_o << 7;
+                        1125 --line418
+                        1126 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.61::
+                        1127 .LDWlin61:
+0000051e 3c0f0500       1128 	ld.w	4[r28],r1
+00000522 01e8           1129 	mov	r1,r29
+00000524 c7ea           1130 	shl	7,r29
+                        1131 .L130:
+                        1132 --419:         }
+                        1133 --421:         qY_0 = gAFC_u32sumDist1 == 0U ? MAX_uint32_T : qY_0 / gAFC_u32sumDist1;
+00000526 210600000000*  1134 	mov	_gAFC_u32sumDist1,r1
+0000052c 210f0100       1135 	ld.w	0[r1],r1
+00000530 e009           1136 	cmp	zero,r1
+00000532 ffef04eb       1137 	cmove	-1,r29,r29
+00000536 820d*          1138 	be	.L554
+00000538 210600000000*  1139 	mov	_gAFC_u32sumDist1,r1
+0000053e 210f0100       1140 	ld.w	0[r1],r1
+00000542 e1effe02       1141 	divqu	r1,r29,zero
+                        1142 .L554:
+                        1143 --422:         if (qY_0 > 255U) {
+                        1144 --line422
+                        1145 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.62::
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        1146 .LDWlin62:
+00000546 1d0600ff       1147 	addi	-256,r29,zero
+0000054a b905*          1148 	bnl	.L134
+                        1149 --423:           qY_0 = 255U;
+                        1150 --line423
+                        1151 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.63::
+                        1152 .LDWlin63:
+0000054c 20eeff00       1153 	movea	255,zero,r29
+                        1154 .L134:
+                        1155 --424:         }
+                        1156 --426:         gAFC_u8avgFuelCsump = (U8)qY_0;
+00000550 2b0600000000*  1157 	mov	_gAFC_u8avgFuelCsump,r11
+00000556 4bef0000       1158 	st.b	r29,0[r11]
+0000055a 850d*          1159 	br	.L52
+                        1160 .L123:
+                        1161 --428:         /* Transition: '<S1>:346' */
+                        1162 --429:       } else {
+                        1163 --430:         /* Transition: '<S1>:342' */
+                        1164 --431:         gAFC_u8avgFuelCsump = MAX_uint8_T;
+                        1165 --line431
+                        1166 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.64::
+                        1167 .LDWlin64:
+0000055c 200eff00       1168 	movea	255,zero,r1
+00000560 2b0600000000*  1169 	mov	_gAFC_u8avgFuelCsump,r11
+00000566 4b0f0000       1170 	st.b	r1,0[r11]
+                        1171 .L52:
+                        1172 --432:       }
+                        1173 --434:       /* Transition: '<S1>:345' */
+                        1174 --435:     } else {
+                        1175 --436:       /* Transition: '<S1>:341' */
+                        1176 --437:       /* {avgFuelCsump=68;} */
+                        1177 --438:     }
+                        1178 --440:     /* Transition: '<S1>:347' */
+                        1179 --441:   }
+                        1180 --443:   /* End of Chart: '<Root>/avg1' */
+                        1181 --445:   /* Chart: '<Root>/avg2' incorporates:
+                        1182 --446:    *  Constant: '<Root>/Constant'
+                        1183 --447:    *  Inport: '<Root>/gAFC_u16fuelCsump'
+                        1184 --448:    *  Inport: '<Root>/gAFC_u16vehicleSpeed'
+                        1185 --449:    *  Inport: '<Root>/gAFC_u32sumDist2'
+                        1186 --450:    *  Inport: '<Root>/gAFC_u8sysPwrMd'
+                        1187 --451:    *  Inport: '<Root>/local_bAvgFuelCsumpRstReq2'
+                        1188 --452:    */
+                        1189 --453:   /* Gateway: avg2 */
+                        1190 --454:   /* During: avg2 */
+                        1191 --455:   if (avgFuelCsump_V2_DW.is_active_c1_avgFuelCsump_V2 == 0U) {
+0000056a 9c0f0d00       1192 	ld.bu	12[r28],r1
+0000056e e009           1193 	cmp	zero,r1
+00000570 ea07f901*      1194 	bne	.L138
+                        1195 --456:     /* Entry: avg2 */
+                        1196 --457:     avgFuelCsump_V2_DW.is_active_c1_avgFuelCsump_V2 = 1U;
+                        1197 --line457
+                        1198 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.65::
+                        1199 .LDWlin65:
+00000574 010a           1200 	mov	1,r1
+00000576 5c0f0c00       1201 	st.b	r1,12[r28]
+                        1202 --459:     /* Entry Internal: avg2 */
+                        1203 --460:     avgFuelCsump_V2_DW.is_active_flagCalculate = 1U;
+0000057a 010a           1204 	mov	1,r1
+0000057c 5c0f0e00       1205 	st.b	r1,14[r28]
+                        1206 --462:     /* Entry Internal 'flagCalculate': '<S2>:373' */
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        1207 --463:     avgFuelCsump_V2_DW.is_active_InitializeFlag = 1U;
+00000580 010a           1208 	mov	1,r1
+00000582 5c0f1000       1209 	st.b	r1,16[r28]
+                        1210 --465:     /* Entry Internal 'InitializeFlag': '<S2>:374' */
+                        1211 --466:     /* Transition: '<S2>:375' */
+                        1212 --467:     avgFuelCsump_V2_DW.is_InitializeFlag = avgFuelCsump_V2_IN_defult;
+00000586 010a           1213 	mov	1,r1
+00000588 5c0f0f00       1214 	st.b	r1,15[r28]
+                        1215 --468:     avgFuelCsump_V2_DW.is_active_countFlag = 1U;
+0000058c 010a           1216 	mov	1,r1
+0000058e 5c0f1300       1217 	st.b	r1,19[r28]
+                        1218 --470:     /* Entry Internal 'countFlag': '<S2>:389' */
+                        1219 --471:     /* Transition: '<S2>:390' */
+                        1220 --472:     avgFuelCsump_V2_DW.is_countFlag = avgFuelCsump_V2_IN_count;
+00000592 020a           1221 	mov	2,r1
+00000594 5c0f1200       1222 	st.b	r1,18[r28]
+                        1223 --474:     /* Entry 'count': '<S2>:394' */
+                        1224 --475:     avgFuelCsump_V2_DW.countFlag = true;
+00000598 010a           1225 	mov	1,r1
+0000059a 5c0f2400       1226 	st.b	r1,36[r28]
+                        1227 --476:     avgFuelCsump_V2_DW.is_active_fuelCalculate = 1U;
+0000059e 010a           1228 	mov	1,r1
+000005a0 5c0f0d00       1229 	st.b	r1,13[r28]
+                        1230 --478:     /* Entry Internal 'fuelCalculate': '<S2>:408' */
+                        1231 --479:     /* Transition: '<S2>:419' */
+                        1232 --480:     if (gASI_sysPwrMd >= 2) {
+000005a4 210600000000*  1233 	mov	_gASI_sysPwrMd,r1
+000005aa 810f0100       1234 	ld.bu	0[r1],r1
+000005ae 620a           1235 	cmp	2,r1
+000005b0 915d*          1236 	bl	.L140
+                        1237 --481:       /* Transition: '<S2>:420' */
+                        1238 --482:       if (avgFuelCsump_V2_DW.countFlag && (avgFuelCsump_V2_DW.pmCount >=
+                        1239 --line482
+                        1240 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.66::
+                        1241 .LDWlin66:
+000005b2 9c0f2500       1242 	ld.bu	36[r28],r1
+000005b6 e009           1243 	cmp	zero,r1
+000005b8 d245*          1244 	be	.L158
+000005ba 210600000000*  1245 	mov	_avgFuelCsump_V2_P+4,r1
+000005c0 810f0100       1246 	ld.bu	0[r1],r1
+000005c4 9c771700       1247 	ld.bu	22[r28],r14
+000005c8 e171           1248 	cmp	r1,r14
+000005ca c13d*          1249 	bl	.L158
+                        1250 --483:            avgFuelCsump_V2_P.pmCountThreshold)) {
+                        1251 --484:         /* Transition: '<S2>:421' */
+                        1252 --485:         /* Transition: '<S2>:424' */
+                        1253 --486:         if (gASI_fuelCsump >= avgFuelCsump_V2_DW.last_fuel) {
+                        1254 --line486
+                        1255 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.67::
+                        1256 .LDWlin67:
+000005cc fc0f0900       1257 	ld.hu	8[r28],r1
+000005d0 f9770100       1258 	ld.hu	0[r25],r14
+000005d4 e171           1259 	cmp	r1,r14
+000005d6 e115*          1260 	bl	.L145
+                        1261 --487:           /* Transition: '<S2>:425' */
+                        1262 --488:           /* Transition: '<S2>:427' */
+                        1263 --489:           qY_0 = avgFuelCsump_V2_DW.sum_fuel + gASI_fuelCsump;
+                        1264 --line489
+                        1265 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.68::
+                        1266 .LDWlin68:
+000005d8 3c770100       1267 	ld.w	0[r28],r14
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+000005dc f90f0100       1268 	ld.hu	0[r25],r1
+000005e0 01e8           1269 	mov	r1,r29
+000005e2 cee9           1270 	add	r14,r29
+                        1271 --490:           if (qY_0 < avgFuelCsump_V2_DW.sum_fuel) {
+000005e4 3c0f0100       1272 	ld.w	0[r28],r1
+000005e8 e1e9           1273 	cmp	r1,r29
+000005ea a905*          1274 	bnl	.L147
+                        1275 --491:             qY_0 = MAX_uint32_T;
+                        1276 --line491
+                        1277 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.69::
+                        1278 .LDWlin69:
+000005ec 1fea           1279 	mov	-1,r29
+                        1280 .L147:
+                        1281 --492:           }
+                        1282 --494:           qY = qY_0 - avgFuelCsump_V2_DW.last_fuel;
+000005ee fc0f0900       1283 	ld.hu	8[r28],r1
+000005f2 1dd8           1284 	mov	r29,r27
+000005f4 a1d9           1285 	sub	r1,r27
+                        1286 --495:           if (qY > qY_0) {
+000005f6 fdd9           1287 	cmp	r29,r27
+000005f8 a305*          1288 	bnh	.L149
+                        1289 --496:             qY = 0U;
+                        1290 --line496
+                        1291 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.70::
+                        1292 .LDWlin70:
+000005fa 00da           1293 	mov	0,r27
+                        1294 .L149:
+                        1295 --497:           }
+                        1296 --499:           avgFuelCsump_V2_DW.sum_fuel = qY;
+000005fc 7cdf0100       1297 	st.w	r27,0[r28]
+00000600 a51d*          1298 	br	.L151
+                        1299 .L145:
+                        1300 --501:           /* Transition: '<S2>:431' */
+                        1301 --502:         } else {
+                        1302 --503:           /* Transition: '<S2>:426' */
+                        1303 --504:           qY_0 = avgFuelCsump_V2_DW.sum_fuel + 4095U;
+                        1304 --line504
+                        1305 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.71::
+                        1306 .LDWlin71:
+00000602 3cef0100       1307 	ld.w	0[r28],r29
+00000606 1deeff0f       1308 	addi	4095,r29,r29
+                        1309 --505:           if (qY_0 < avgFuelCsump_V2_DW.sum_fuel) {
+0000060a 3c0f0100       1310 	ld.w	0[r28],r1
+0000060e e1e9           1311 	cmp	r1,r29
+00000610 a905*          1312 	bnl	.L152
+                        1313 --506:             qY_0 = MAX_uint32_T;
+                        1314 --line506
+                        1315 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.72::
+                        1316 .LDWlin72:
+00000612 1fea           1317 	mov	-1,r29
+                        1318 .L152:
+                        1319 --507:           }
+                        1320 --509:           qY = qY_0 - avgFuelCsump_V2_DW.last_fuel;
+00000614 fc0f0900       1321 	ld.hu	8[r28],r1
+00000618 1dd8           1322 	mov	r29,r27
+0000061a a1d9           1323 	sub	r1,r27
+                        1324 --510:           if (qY > qY_0) {
+0000061c fdd9           1325 	cmp	r29,r27
+0000061e a305*          1326 	bnh	.L154
+                        1327 --511:             qY = 0U;
+                        1328 --line511
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        1329 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.73::
+                        1330 .LDWlin73:
+00000620 00da           1331 	mov	0,r27
+                        1332 .L154:
+                        1333 --512:           }
+                        1334 --514:           qY_0 = qY + gASI_fuelCsump;
+00000622 f90f0100       1335 	ld.hu	0[r25],r1
+00000626 01e8           1336 	mov	r1,r29
+00000628 dbe9           1337 	add	r27,r29
+                        1338 --515:           if (qY_0 < qY) {
+0000062a fbe9           1339 	cmp	r27,r29
+0000062c a905*          1340 	bnl	.L156
+                        1341 --516:             qY_0 = MAX_uint32_T;
+                        1342 --line516
+                        1343 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.74::
+                        1344 .LDWlin74:
+0000062e 1fea           1345 	mov	-1,r29
+                        1346 .L156:
+                        1347 --517:           }
+                        1348 --519:           avgFuelCsump_V2_DW.sum_fuel = qY_0;
+00000630 7cef0100       1349 	st.w	r29,0[r28]
+                        1350 .L151:
+                        1351 --520:         }
+                        1352 --522:         /* Transition: '<S2>:430' */
+                        1353 --523:         e_sum2_fuel = avgFuelCsump_V2_DW.sum_fuel;
+00000634 3c0f0100       1354 	ld.w	0[r28],r1
+00000638 2b0600000000*  1355 	mov	_e_sum2_fuel,r11
+0000063e 6b0f0100       1356 	st.w	r1,0[r11]
+                        1357 .L158:
+                        1358 --524:       } else {
+                        1359 --525:         /* Transition: '<S2>:423' */
+                        1360 --526:       }
+                        1361 --528:       /* Transition: '<S2>:429' */
+                        1362 --529:       tmp = avgFuelCsump_V2_DW.pmCount + 1;
+00000642 9c0f1700       1363 	ld.bu	22[r28],r1
+00000646 01d60100       1364 	addi	1,r1,r26
+                        1365 --530:       if (tmp > 255) {
+0000064a 1a0601ff       1366 	addi	-255,r26,zero
+0000064e b705*          1367 	ble	.L159
+                        1368 --531:         tmp = 255;
+                        1369 --line531
+                        1370 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.75::
+                        1371 .LDWlin75:
+00000650 20d6ff00       1372 	movea	255,zero,r26
+                        1373 .L159:
+                        1374 --532:       }
+                        1375 --534:       avgFuelCsump_V2_DW.pmCount = (U8)tmp;
+00000654 5cd71600       1376 	st.b	r26,22[r28]
+                        1377 --535:       avgFuelCsump_V2_DW.last_fuel = gASI_fuelCsump;
+00000658 f90f0100       1378 	ld.hu	0[r25],r1
+0000065c 7c0f0800       1379 	st.h	r1,8[r28]
+00000660 b505*          1380 	br	.L161
+                        1381 .L140:
+                        1382 --536:     } else {
+                        1383 --537:       /* Transition: '<S2>:422' */
+                        1384 --538:       avgFuelCsump_V2_DW.pmCount = 0U;
+                        1385 --line538
+                        1386 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.76::
+                        1387 .LDWlin76:
+00000662 5c071600       1388 	st.b	zero,22[r28]
+                        1389 .L161:
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        1390 --539:     }
+                        1391 --541:     /* Transition: '<S2>:432' */
+                        1392 --542:     avgFuelCsump_V2_DW.is_active_validityCalculate = 1U;
+00000666 010a           1393 	mov	1,r1
+00000668 5c0f1500       1394 	st.b	r1,21[r28]
+                        1395 --544:     /* Entry Internal 'validityCalculate': '<S2>:395' */
+                        1396 --545:     /* Transition: '<S2>:401' */
+                        1397 --546:     if (gAFC_u32sumDist2 <= avgFuelCsump_V2_P.distThreshold) {
+0000066c 210600000000*  1398 	mov	_avgFuelCsump_V2_P,r1
+00000672 2e0600000000*  1399 	mov	_gAFC_u32sumDist2,r14
+00000678 e10f0100       1400 	ld.hu	0[r1],r1
+0000067c 2e770100       1401 	ld.w	0[r14],r14
+00000680 e171           1402 	cmp	r1,r14
+00000682 8b0d*          1403 	bh	.L162
+                        1404 --547:       /* Transition: '<S2>:402' */
+                        1405 --548:       /* Transition: '<S2>:404' */
+                        1406 --549:       gAFC_u8avgFuelCsumpV2 = true;
+                        1407 --line549
+                        1408 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.77::
+                        1409 .LDWlin77:
+00000684 2b0600000000*  1410 	mov	_gAFC_u8avgFuelCsumpV2,r11
+0000068a 010a           1411 	mov	1,r1
+0000068c 4b0f0000       1412 	st.b	r1,0[r11]
+00000690 e505*          1413 	br	.L164
+                        1414 .L162:
+                        1415 --551:       /* Transition: '<S2>:406' */
+                        1416 --552:     } else {
+                        1417 --553:       /* Transition: '<S2>:403' */
+                        1418 --554:       gAFC_u8avgFuelCsumpV2 = false;
+                        1419 --line554
+                        1420 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.78::
+                        1421 .LDWlin78:
+00000692 2b0600000000*  1422 	mov	_gAFC_u8avgFuelCsumpV2,r11
+00000698 4b070000       1423 	st.b	zero,0[r11]
+                        1424 .L164:
+                        1425 --555:     }
+                        1426 --557:     /* Transition: '<S2>:407' */
+                        1427 --558:     avgFuelCsump_V2_DW.is_active_avgFuelCalculate = 1U;
+0000069c 010a           1428 	mov	1,r1
+0000069e 5c0f1400       1429 	st.b	r1,20[r28]
+                        1430 --560:     /* Entry Internal 'avgFuelCalculate': '<S2>:330' */
+                        1431 --561:     /* Transition: '<S2>:338' */
+                        1432 --562:     if ((gAFC_u32sumDist2 > 0U) && (gAFC_u8avgFuelCsumpV2 == 0)) {
+000006a2 210600000000*  1433 	mov	_gAFC_u32sumDist2,r1
+000006a8 210f0100       1434 	ld.w	0[r1],r1
+000006ac e009           1435 	cmp	zero,r1
+000006ae e3070d04*      1436 	bnh	.L186
+000006b2 210600000000*  1437 	mov	_gAFC_u8avgFuelCsumpV2,r1
+000006b8 810f0100       1438 	ld.bu	0[r1],r1
+000006bc e009           1439 	cmp	zero,r1
+000006be ea07fd03*      1440 	bne	.L186
+                        1441 --563:       /* Transition: '<S2>:339' */
+                        1442 --564:       if (avgFuelCsump_V2_DW.sum_fuel > 33554431U) {
+                        1443 --line564
+                        1444 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.79::
+                        1445 .LDWlin79:
+000006c2 3c0f0100       1446 	ld.w	0[r28],r1
+000006c6 2b06ffffff01   1447 	mov	33554431,r11
+000006cc eb09           1448 	cmp	r11,r1
+000006ce b305*          1449 	bnh	.L168
+                        1450 --565:         qY_0 = MAX_uint32_T;
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        1451 --line565
+                        1452 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.80::
+                        1453 .LDWlin80:
+000006d0 1fea           1454 	mov	-1,r29
+000006d2 d505*          1455 	br	.L170
+                        1456 .L168:
+                        1457 --566:       } else {
+                        1458 --567:         qY_0 = avgFuelCsump_V2_DW.sum_fuel << 7;
+                        1459 --line567
+                        1460 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.81::
+                        1461 .LDWlin81:
+000006d4 3c0f0100       1462 	ld.w	0[r28],r1
+000006d8 01e8           1463 	mov	r1,r29
+000006da c7ea           1464 	shl	7,r29
+                        1465 .L170:
+                        1466 --568:       }
+                        1467 --570:       if ((gAFC_u32sumDist2 == 0U ? MAX_uint32_T : qY_0 / gAFC_u32sumDist2) <
+000006dc 210600000000*  1468 	mov	_gAFC_u32sumDist2,r1
+000006e2 210f0100       1469 	ld.w	0[r1],r1
+000006e6 e009           1470 	cmp	zero,r1
+000006e8 ba05*          1471 	bne	.L173
+000006ea 1f0a           1472 	mov	-1,r1
+000006ec 950d*          1473 	br	.L175
+                        1474 .L173:
+000006ee 2e0600000000*  1475 	mov	_gAFC_u32sumDist2,r14
+000006f4 2e770100       1476 	ld.w	0[r14],r14
+000006f8 1d08           1477 	mov	r29,r1
+000006fa ee0ffe02       1478 	divqu	r14,r1,zero
+                        1479 .L175:
+000006fe 010601ff       1480 	addi	-255,r1,zero
+00000702 a12d*          1481 	bl	.L171
+                        1482 --571:           255U) {
+                        1483 --572:         /* Transition: '<S2>:340' */
+                        1484 --573:         /* Transition: '<S2>:343' */
+                        1485 --574:         if (avgFuelCsump_V2_DW.sum_fuel > 33554431U) {
+                        1486 --line574
+                        1487 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.82::
+                        1488 .LDWlin82:
+00000704 3c0f0100       1489 	ld.w	0[r28],r1
+00000708 2b06ffffff01   1490 	mov	33554431,r11
+0000070e eb09           1491 	cmp	r11,r1
+00000710 b305*          1492 	bnh	.L176
+                        1493 --575:           qY_0 = MAX_uint32_T;
+                        1494 --line575
+                        1495 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.83::
+                        1496 .LDWlin83:
+00000712 1fea           1497 	mov	-1,r29
+00000714 d505*          1498 	br	.L178
+                        1499 .L176:
+                        1500 --576:         } else {
+                        1501 --577:           qY_0 = avgFuelCsump_V2_DW.sum_fuel << 7;
+                        1502 --line577
+                        1503 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.84::
+                        1504 .LDWlin84:
+00000716 3c0f0100       1505 	ld.w	0[r28],r1
+0000071a 01e8           1506 	mov	r1,r29
+0000071c c7ea           1507 	shl	7,r29
+                        1508 .L178:
+                        1509 --578:         }
+                        1510 --580:         qY_0 = gAFC_u32sumDist2 == 0U ? MAX_uint32_T : qY_0 / gAFC_u32sumDist2;
+0000071e 210600000000*  1511 	mov	_gAFC_u32sumDist2,r1
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+00000724 210f0100       1512 	ld.w	0[r1],r1
+00000728 e009           1513 	cmp	zero,r1
+0000072a ffef04eb       1514 	cmove	-1,r29,r29
+0000072e 820d*          1515 	be	.L572
+00000730 210600000000*  1516 	mov	_gAFC_u32sumDist2,r1
+00000736 210f0100       1517 	ld.w	0[r1],r1
+0000073a e1effe02       1518 	divqu	r1,r29,zero
+                        1519 .L572:
+                        1520 --581:         if (qY_0 > 255U) {
+                        1521 --line581
+                        1522 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.85::
+                        1523 .LDWlin85:
+0000073e 1d0600ff       1524 	addi	-256,r29,zero
+00000742 b905*          1525 	bnl	.L182
+                        1526 --582:           qY_0 = 255U;
+                        1527 --line582
+                        1528 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.86::
+                        1529 .LDWlin86:
+00000744 20eeff00       1530 	movea	255,zero,r29
+                        1531 .L182:
+                        1532 --583:         }
+                        1533 --585:         gAFC_u8avgFuelCsump2 = (U8)qY_0;
+00000748 2b0600000000*  1534 	mov	_gAFC_u8avgFuelCsump2,r11
+0000074e 4bef0000       1535 	st.b	r29,0[r11]
+00000752 80076803*      1536 	br	.L186
+                        1537 .L171:
+                        1538 --587:         /* Transition: '<S2>:346' */
+                        1539 --588:       } else {
+                        1540 --589:         /* Transition: '<S2>:342' */
+                        1541 --590:         gAFC_u8avgFuelCsump2 = MAX_uint8_T;
+                        1542 --line590
+                        1543 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.87::
+                        1544 .LDWlin87:
+00000756 200eff00       1545 	movea	255,zero,r1
+0000075a 2b0600000000*  1546 	mov	_gAFC_u8avgFuelCsump2,r11
+00000760 4b0f0000       1547 	st.b	r1,0[r11]
+00000764 80075603*      1548 	br	.L186
+                        1549 .L138:
+                        1550 --591:       }
+                        1551 --593:       /* Transition: '<S2>:345' */
+                        1552 --594:     } else {
+                        1553 --595:       /* Transition: '<S2>:341' */
+                        1554 --596:       /* {avgFuelCsump=68;} */
+                        1555 --597:     }
+                        1556 --599:     /* Transition: '<S2>:347' */
+                        1557 --600:   } else {
+                        1558 --601:     /* During 'flagCalculate': '<S2>:373' */
+                        1559 --602:     /* During 'InitializeFlag': '<S2>:374' */
+                        1560 --603:     if (avgFuelCsump_V2_DW.is_InitializeFlag == avgFuelCsump_V2_IN_defult) {
+                        1561 --line603
+                        1562 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.88::
+                        1563 .LDWlin88:
+00000768 bc0f0f00       1564 	ld.bu	15[r28],r1
+0000076c 610a           1565 	cmp	1,r1
+0000076e ea070901*      1566 	bne	.L187
+                        1567 --604:       /* During 'defult': '<S2>:386' */
+                        1568 --605:       if ((gASI_sysPwrMd >= 2) && (!avgFuelCsump_V2_DW.initializeHappened)) {
+                        1569 --line605
+                        1570 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.89::
+                        1571 .LDWlin89:
+00000772 210600000000*  1572 	mov	_gASI_sysPwrMd,r1
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+00000778 810f0100       1573 	ld.bu	0[r1],r1
+0000077c 620a           1574 	cmp	2,r1
+0000077e d12d*          1575 	bl	.L189
+00000780 9c0f2300       1576 	ld.bu	34[r28],r1
+00000784 e009           1577 	cmp	zero,r1
+00000786 9a2d*          1578 	bne	.L189
+                        1579 --606:         /* Transition: '<S2>:376' */
+                        1580 --607:         avgFuelCsump_V2_DW.initializeHappened = true;
+                        1581 --line607
+                        1582 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.90::
+                        1583 .LDWlin90:
+00000788 010a           1584 	mov	1,r1
+0000078a 5c0f2200       1585 	st.b	r1,34[r28]
+                        1586 --608:         avgFuelCsump_V2_DW.is_InitializeFlag = avgFuelCsump_V2_IN_initialize;
+0000078e 020a           1587 	mov	2,r1
+00000790 5c0f0f00       1588 	st.b	r1,15[r28]
+                        1589 --610:         /* Entry 'initialize': '<S2>:379' */
+                        1590 --611:         avgFuelCsump_V2_DW.initializing = true;
+00000794 010a           1591 	mov	1,r1
+00000796 5c0f2500       1592 	st.b	r1,37[r28]
+                        1593 --613:         /* Entry Internal 'initialize': '<S2>:379' */
+                        1594 --614:         /* Transition: '<S2>:381' */
+                        1595 --615:         if ((avgFuelCsump_V2_P.Constant_Value == 0) &&
+0000079a 210600000000*  1596 	mov	_avgFuelCsump_V2_P+16,r1
+000007a0 810f0100       1597 	ld.bu	0[r1],r1
+000007a4 e009           1598 	cmp	zero,r1
+000007a6 ba15*          1599 	bne	.L192
+000007a8 210600000000*  1600 	mov	_local_bAvgFuelCsumpRstReq2,r1
+000007ae 810f0100       1601 	ld.bu	0[r1],r1
+000007b2 e009           1602 	cmp	zero,r1
+000007b4 ca0d*          1603 	bne	.L192
+                        1604 --616:             (local_bAvgFuelCsumpRstReq2 == 0)) {
+                        1605 --617:           /* Transition: '<S2>:382' */
+                        1606 --618:           avgFuelCsump_V2_DW.is_initialize = avgFuelCsump_IN_StartFromEEPROM;
+                        1607 --line618
+                        1608 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.91::
+                        1609 .LDWlin91:
+000007b6 010a           1610 	mov	1,r1
+000007b8 5c0f1100       1611 	st.b	r1,17[r28]
+                        1612 --620:           /* Entry 'StartFromEEPROM': '<S2>:385' */
+                        1613 --621:           avgFuelCsump_V2_DW.sum_fuel = e_sum2_fuel;
+000007bc 210600000000*  1614 	mov	_e_sum2_fuel,r1
+000007c2 210f0100       1615 	ld.w	0[r1],r1
+000007c6 7c0f0100       1616 	st.w	r1,0[r28]
+000007ca 9565*          1617 	br	.L212
+                        1618 .L192:
+                        1619 --622:         } else {
+                        1620 --623:           /* Transition: '<S2>:383' */
+                        1621 --624:           avgFuelCsump_V2_DW.is_initialize = avgFuelCsump_V_IN_StartFromZero;
+                        1622 --line624
+                        1623 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.92::
+                        1624 .LDWlin92:
+000007cc 020a           1625 	mov	2,r1
+000007ce 5c0f1100       1626 	st.b	r1,17[r28]
+                        1627 --626:           /* Entry 'StartFromZero': '<S2>:384' */
+                        1628 --627:           avgFuelCsump_V2_DW.sum_fuel = 0U;
+000007d2 7c070100       1629 	st.w	zero,0[r28]
+000007d6 b55d*          1630 	br	.L212
+                        1631 .L189:
+                        1632 --628:         }
+                        1633 --629:       } else if ((local_bAvgFuelCsumpRstReq2 == 1) &&
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        1634 --line629
+                        1635 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.93::
+                        1636 .LDWlin93:
+000007d8 210600000000*  1637 	mov	_local_bAvgFuelCsumpRstReq2,r1
+000007de 810f0100       1638 	ld.bu	0[r1],r1
+000007e2 610a           1639 	cmp	1,r1
+000007e4 da2d*          1640 	bne	.L197
+000007e6 bc0f2300       1641 	ld.bu	35[r28],r1
+000007ea e009           1642 	cmp	zero,r1
+000007ec 9a2d*          1643 	bne	.L197
+                        1644 --630:                  (!avgFuelCsump_V2_DW.resetHappened)) {
+                        1645 --631:         /* Transition: '<S2>:378' */
+                        1646 --632:         avgFuelCsump_V2_DW.resetHappened = true;
+                        1647 --line632
+                        1648 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.94::
+                        1649 .LDWlin94:
+000007ee 010a           1650 	mov	1,r1
+000007f0 5c0f2300       1651 	st.b	r1,35[r28]
+                        1652 --633:         avgFuelCsump_V2_DW.is_InitializeFlag = avgFuelCsump_V2_IN_initialize;
+000007f4 020a           1653 	mov	2,r1
+000007f6 5c0f0f00       1654 	st.b	r1,15[r28]
+                        1655 --635:         /* Entry 'initialize': '<S2>:379' */
+                        1656 --636:         avgFuelCsump_V2_DW.initializing = true;
+000007fa 010a           1657 	mov	1,r1
+000007fc 5c0f2500       1658 	st.b	r1,37[r28]
+                        1659 --638:         /* Entry Internal 'initialize': '<S2>:379' */
+                        1660 --639:         /* Transition: '<S2>:381' */
+                        1661 --640:         if ((avgFuelCsump_V2_P.Constant_Value == 0) &&
+00000800 210600000000*  1662 	mov	_avgFuelCsump_V2_P+16,r1
+00000806 810f0100       1663 	ld.bu	0[r1],r1
+0000080a e009           1664 	cmp	zero,r1
+0000080c ba15*          1665 	bne	.L200
+0000080e 210600000000*  1666 	mov	_local_bAvgFuelCsumpRstReq2,r1
+00000814 810f0100       1667 	ld.bu	0[r1],r1
+00000818 e009           1668 	cmp	zero,r1
+0000081a ca0d*          1669 	bne	.L200
+                        1670 --641:             (local_bAvgFuelCsumpRstReq2 == 0)) {
+                        1671 --642:           /* Transition: '<S2>:382' */
+                        1672 --643:           avgFuelCsump_V2_DW.is_initialize = avgFuelCsump_IN_StartFromEEPROM;
+                        1673 --line643
+                        1674 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.95::
+                        1675 .LDWlin95:
+0000081c 010a           1676 	mov	1,r1
+0000081e 5c0f1100       1677 	st.b	r1,17[r28]
+                        1678 --645:           /* Entry 'StartFromEEPROM': '<S2>:385' */
+                        1679 --646:           avgFuelCsump_V2_DW.sum_fuel = e_sum2_fuel;
+00000822 210600000000*  1680 	mov	_e_sum2_fuel,r1
+00000828 210f0100       1681 	ld.w	0[r1],r1
+0000082c 7c0f0100       1682 	st.w	r1,0[r28]
+00000830 e52d*          1683 	br	.L212
+                        1684 .L200:
+                        1685 --647:         } else {
+                        1686 --648:           /* Transition: '<S2>:383' */
+                        1687 --649:           avgFuelCsump_V2_DW.is_initialize = avgFuelCsump_V_IN_StartFromZero;
+                        1688 --line649
+                        1689 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.96::
+                        1690 .LDWlin96:
+00000832 020a           1691 	mov	2,r1
+00000834 5c0f1100       1692 	st.b	r1,17[r28]
+                        1693 --651:           /* Entry 'StartFromZero': '<S2>:384' */
+                        1694 --652:           avgFuelCsump_V2_DW.sum_fuel = 0U;
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+00000838 7c070100       1695 	st.w	zero,0[r28]
+0000083c 852d*          1696 	br	.L212
+                        1697 .L197:
+                        1698 --653:         }
+                        1699 --654:       } else if ((local_bAvgFuelCsumpRstReq2 == 0) &&
+                        1700 --line654
+                        1701 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.97::
+                        1702 .LDWlin97:
+0000083e 210600000000*  1703 	mov	_local_bAvgFuelCsumpRstReq2,r1
+00000844 810f0100       1704 	ld.bu	0[r1],r1
+00000848 e009           1705 	cmp	zero,r1
+0000084a 8a0d*          1706 	bne	.L205
+0000084c bc0f2300       1707 	ld.bu	35[r28],r1
+00000850 e009           1708 	cmp	zero,r1
+00000852 c205*          1709 	be	.L205
+                        1710 --655:                  avgFuelCsump_V2_DW.resetHappened) {
+                        1711 --656:         /* Transition: '<S2>:388' */
+                        1712 --657:         avgFuelCsump_V2_DW.resetHappened = false;
+                        1713 --line657
+                        1714 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.98::
+                        1715 .LDWlin98:
+00000854 5c072300       1716 	st.b	zero,35[r28]
+00000858 a51d*          1717 	br	.L212
+                        1718 .L205:
+                        1719 --658:       } else {
+                        1720 --659:         if ((gASI_sysPwrMd == 0) && avgFuelCsump_V2_DW.initializeHappened) {
+                        1721 --line659
+                        1722 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.99::
+                        1723 .LDWlin99:
+0000085a 210600000000*  1724 	mov	_gASI_sysPwrMd,r1
+00000860 810f0100       1725 	ld.bu	0[r1],r1
+00000864 e009           1726 	cmp	zero,r1
+00000866 ba15*          1727 	bne	.L212
+00000868 9c0f2300       1728 	ld.bu	34[r28],r1
+0000086c e009           1729 	cmp	zero,r1
+0000086e f20d*          1730 	be	.L212
+                        1731 --660:           /* Transition: '<S2>:387' */
+                        1732 --661:           avgFuelCsump_V2_DW.initializeHappened = false;
+                        1733 --line661
+                        1734 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.100::
+                        1735 .LDWlin100:
+00000870 5c072200       1736 	st.b	zero,34[r28]
+00000874 c50d*          1737 	br	.L212
+                        1738 .L187:
+                        1739 --662:         }
+                        1740 --663:       }
+                        1741 --664:     } else {
+                        1742 --665:       /* During 'initialize': '<S2>:379' */
+                        1743 --666:       /* Transition: '<S2>:377' */
+                        1744 --667:       /* Exit Internal 'initialize': '<S2>:379' */
+                        1745 --668:       avgFuelCsump_V2_DW.is_initialize = avgFuelCsump_IN_NO_ACTIVE_CHILD;
+                        1746 --line668
+                        1747 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.101::
+                        1748 .LDWlin101:
+00000876 5c071100       1749 	st.b	zero,17[r28]
+                        1750 --670:       /* Exit 'initialize': '<S2>:379' */
+                        1751 --671:       avgFuelCsump_V2_DW.initializing = false;
+0000087a 5c072500       1752 	st.b	zero,37[r28]
+                        1753 --672:       avgFuelCsump_V2_DW.last_fuel = gASI_fuelCsump;
+0000087e f90f0100       1754 	ld.hu	0[r25],r1
+00000882 7c0f0800       1755 	st.h	r1,8[r28]
+
+                                                                      Page 30
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        1756 --673:       avgFuelCsump_V2_DW.is_InitializeFlag = avgFuelCsump_V2_IN_defult;
+00000886 010a           1757 	mov	1,r1
+00000888 5c0f0f00       1758 	st.b	r1,15[r28]
+                        1759 .L212:
+                        1760 --674:     }
+                        1761 --676:     /* During 'countFlag': '<S2>:389' */
+                        1762 --677:     if (avgFuelCsump_V2_DW.is_countFlag == avgFuelCsump_V2_IN_Uncount) {
+0000088c 9c0f1300       1763 	ld.bu	18[r28],r1
+00000890 610a           1764 	cmp	1,r1
+00000892 ca1d*          1765 	bne	.L213
+                        1766 --678:       /* During 'Uncount': '<S2>:393' */
+                        1767 --679:       if ((gASI_vehicleSpeed > avgFuelCsump_V2_P.vehSpdThreshold) ||
+                        1768 --line679
+                        1769 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.102::
+                        1770 .LDWlin102:
+00000894 210600000000*  1771 	mov	_avgFuelCsump_V2_P+2,r1
+0000089a 2e0600000000*  1772 	mov	_gASI_vehicleSpeed,r14
+000008a0 e10f0100       1773 	ld.hu	0[r1],r1
+000008a4 ee770100       1774 	ld.hu	0[r14],r14
+000008a8 e171           1775 	cmp	r1,r14
+000008aa 9b0d*          1776 	bh	.L216
+000008ac 3c0f0100       1777 	ld.w	0[r28],r1
+000008b0 e009           1778 	cmp	zero,r1
+000008b2 d22d*          1779 	be	.L219
+000008b4 bc0f2500       1780 	ld.bu	37[r28],r1
+000008b8 e009           1781 	cmp	zero,r1
+000008ba 9a2d*          1782 	bne	.L219
+                        1783 .L216:
+                        1784 --680:           ((avgFuelCsump_V2_DW.sum_fuel != 0U) &&
+                        1785 --681:            (!avgFuelCsump_V2_DW.initializing))) {
+                        1786 --682:         /* Transition: '<S2>:392' */
+                        1787 --683:         avgFuelCsump_V2_DW.is_countFlag = avgFuelCsump_V2_IN_count;
+                        1788 --line683
+                        1789 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.103::
+                        1790 .LDWlin103:
+000008bc 020a           1791 	mov	2,r1
+000008be 5c0f1200       1792 	st.b	r1,18[r28]
+                        1793 --685:         /* Entry 'count': '<S2>:394' */
+                        1794 --686:         avgFuelCsump_V2_DW.countFlag = true;
+000008c2 010a           1795 	mov	1,r1
+000008c4 5c0f2400       1796 	st.b	r1,36[r28]
+000008c8 a525*          1797 	br	.L219
+                        1798 .L213:
+                        1799 --687:       }
+                        1800 --688:     } else {
+                        1801 --689:       /* During 'count': '<S2>:394' */
+                        1802 --690:       if (((gASI_vehicleSpeed < avgFuelCsump_V2_P.vehSpdThreshold) &&
+                        1803 --line690
+                        1804 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.104::
+                        1805 .LDWlin104:
+000008ca 210600000000*  1806 	mov	_avgFuelCsump_V2_P+2,r1
+000008d0 2e0600000000*  1807 	mov	_gASI_vehicleSpeed,r14
+000008d6 e10f0100       1808 	ld.hu	0[r1],r1
+000008da ee770100       1809 	ld.hu	0[r14],r14
+000008de e171           1810 	cmp	r1,r14
+000008e0 d90d*          1811 	bnl	.L222
+000008e2 9c0f2300       1812 	ld.bu	34[r28],r1
+000008e6 e009           1813 	cmp	zero,r1
+000008e8 da05*          1814 	bne	.L223
+000008ea bc0f2300       1815 	ld.bu	35[r28],r1
+000008ee e009           1816 	cmp	zero,r1
+
+                                                                      Page 31
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+000008f0 d205*          1817 	be	.L222
+                        1818 .L223:
+000008f2 3c0f0100       1819 	ld.w	0[r28],r1
+000008f6 e009           1820 	cmp	zero,r1
+000008f8 d205*          1821 	be	.L221
+                        1822 .L222:
+000008fa bc0f2500       1823 	ld.bu	37[r28],r1
+000008fe e009           1824 	cmp	zero,r1
+00000900 e205*          1825 	be	.L219
+                        1826 .L221:
+                        1827 --691:            (avgFuelCsump_V2_DW.initializeHappened ||
+                        1828 --692:             avgFuelCsump_V2_DW.resetHappened) && (avgFuelCsump_V2_DW.sum_fuel ==
+                        1829 --693:             0U)) || avgFuelCsump_V2_DW.initializing) {
+                        1830 --694:         /* Transition: '<S2>:391' */
+                        1831 --695:         avgFuelCsump_V2_DW.is_countFlag = avgFuelCsump_V2_IN_Uncount;
+                        1832 --line695
+                        1833 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.105::
+                        1834 .LDWlin105:
+00000902 010a           1835 	mov	1,r1
+00000904 5c0f1200       1836 	st.b	r1,18[r28]
+                        1837 --697:         /* Entry 'Uncount': '<S2>:393' */
+                        1838 --698:         avgFuelCsump_V2_DW.countFlag = false;
+00000908 5c072400       1839 	st.b	zero,36[r28]
+                        1840 .L219:
+                        1841 --699:       }
+                        1842 --700:     }
+                        1843 --702:     /* During 'fuelCalculate': '<S2>:408' */
+                        1844 --703:     /* Transition: '<S2>:428' */
+                        1845 --704:     /* Entry Internal 'fuelCalculate': '<S2>:408' */
+                        1846 --705:     /* Transition: '<S2>:419' */
+                        1847 --706:     if (gASI_sysPwrMd >= 2) {
+0000090c 210600000000*  1848 	mov	_gASI_sysPwrMd,r1
+00000912 810f0100       1849 	ld.bu	0[r1],r1
+00000916 620a           1850 	cmp	2,r1
+00000918 915d*          1851 	bl	.L226
+                        1852 --707:       /* Transition: '<S2>:420' */
+                        1853 --708:       if (avgFuelCsump_V2_DW.countFlag && (avgFuelCsump_V2_DW.pmCount >=
+                        1854 --line708
+                        1855 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.106::
+                        1856 .LDWlin106:
+0000091a 9c0f2500       1857 	ld.bu	36[r28],r1
+0000091e e009           1858 	cmp	zero,r1
+00000920 d245*          1859 	be	.L244
+00000922 210600000000*  1860 	mov	_avgFuelCsump_V2_P+4,r1
+00000928 810f0100       1861 	ld.bu	0[r1],r1
+0000092c 9c771700       1862 	ld.bu	22[r28],r14
+00000930 e171           1863 	cmp	r1,r14
+00000932 c13d*          1864 	bl	.L244
+                        1865 --709:            avgFuelCsump_V2_P.pmCountThreshold)) {
+                        1866 --710:         /* Transition: '<S2>:421' */
+                        1867 --711:         /* Transition: '<S2>:424' */
+                        1868 --712:         if (gASI_fuelCsump >= avgFuelCsump_V2_DW.last_fuel) {
+                        1869 --line712
+                        1870 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.107::
+                        1871 .LDWlin107:
+00000934 fc0f0900       1872 	ld.hu	8[r28],r1
+00000938 f9770100       1873 	ld.hu	0[r25],r14
+0000093c e171           1874 	cmp	r1,r14
+0000093e e115*          1875 	bl	.L231
+                        1876 --713:           /* Transition: '<S2>:425' */
+                        1877 --714:           /* Transition: '<S2>:427' */
+
+                                                                      Page 32
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        1878 --715:           qY_0 = avgFuelCsump_V2_DW.sum_fuel + gASI_fuelCsump;
+                        1879 --line715
+                        1880 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.108::
+                        1881 .LDWlin108:
+00000940 3c770100       1882 	ld.w	0[r28],r14
+00000944 f90f0100       1883 	ld.hu	0[r25],r1
+00000948 01e8           1884 	mov	r1,r29
+0000094a cee9           1885 	add	r14,r29
+                        1886 --716:           if (qY_0 < avgFuelCsump_V2_DW.sum_fuel) {
+0000094c 3c0f0100       1887 	ld.w	0[r28],r1
+00000950 e1e9           1888 	cmp	r1,r29
+00000952 a905*          1889 	bnl	.L233
+                        1890 --717:             qY_0 = MAX_uint32_T;
+                        1891 --line717
+                        1892 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.109::
+                        1893 .LDWlin109:
+00000954 1fea           1894 	mov	-1,r29
+                        1895 .L233:
+                        1896 --718:           }
+                        1897 --720:           qY = qY_0 - avgFuelCsump_V2_DW.last_fuel;
+00000956 fc0f0900       1898 	ld.hu	8[r28],r1
+0000095a 1dd8           1899 	mov	r29,r27
+0000095c a1d9           1900 	sub	r1,r27
+                        1901 --721:           if (qY > qY_0) {
+0000095e fdd9           1902 	cmp	r29,r27
+00000960 a305*          1903 	bnh	.L235
+                        1904 --722:             qY = 0U;
+                        1905 --line722
+                        1906 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.110::
+                        1907 .LDWlin110:
+00000962 00da           1908 	mov	0,r27
+                        1909 .L235:
+                        1910 --723:           }
+                        1911 --725:           avgFuelCsump_V2_DW.sum_fuel = qY;
+00000964 7cdf0100       1912 	st.w	r27,0[r28]
+00000968 a51d*          1913 	br	.L237
+                        1914 .L231:
+                        1915 --727:           /* Transition: '<S2>:431' */
+                        1916 --728:         } else {
+                        1917 --729:           /* Transition: '<S2>:426' */
+                        1918 --730:           qY_0 = avgFuelCsump_V2_DW.sum_fuel + 4095U;
+                        1919 --line730
+                        1920 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.111::
+                        1921 .LDWlin111:
+0000096a 3cef0100       1922 	ld.w	0[r28],r29
+0000096e 1deeff0f       1923 	addi	4095,r29,r29
+                        1924 --731:           if (qY_0 < avgFuelCsump_V2_DW.sum_fuel) {
+00000972 3c0f0100       1925 	ld.w	0[r28],r1
+00000976 e1e9           1926 	cmp	r1,r29
+00000978 a905*          1927 	bnl	.L238
+                        1928 --732:             qY_0 = MAX_uint32_T;
+                        1929 --line732
+                        1930 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.112::
+                        1931 .LDWlin112:
+0000097a 1fea           1932 	mov	-1,r29
+                        1933 .L238:
+                        1934 --733:           }
+                        1935 --735:           qY = qY_0 - avgFuelCsump_V2_DW.last_fuel;
+0000097c fc0f0900       1936 	ld.hu	8[r28],r1
+00000980 1dd8           1937 	mov	r29,r27
+00000982 a1d9           1938 	sub	r1,r27
+
+                                                                      Page 33
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        1939 --736:           if (qY > qY_0) {
+00000984 fdd9           1940 	cmp	r29,r27
+00000986 a305*          1941 	bnh	.L240
+                        1942 --737:             qY = 0U;
+                        1943 --line737
+                        1944 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.113::
+                        1945 .LDWlin113:
+00000988 00da           1946 	mov	0,r27
+                        1947 .L240:
+                        1948 --738:           }
+                        1949 --740:           qY_0 = qY + gASI_fuelCsump;
+0000098a f90f0100       1950 	ld.hu	0[r25],r1
+0000098e 01e8           1951 	mov	r1,r29
+00000990 dbe9           1952 	add	r27,r29
+                        1953 --741:           if (qY_0 < qY) {
+00000992 fbe9           1954 	cmp	r27,r29
+00000994 a905*          1955 	bnl	.L242
+                        1956 --742:             qY_0 = MAX_uint32_T;
+                        1957 --line742
+                        1958 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.114::
+                        1959 .LDWlin114:
+00000996 1fea           1960 	mov	-1,r29
+                        1961 .L242:
+                        1962 --743:           }
+                        1963 --745:           avgFuelCsump_V2_DW.sum_fuel = qY_0;
+00000998 7cef0100       1964 	st.w	r29,0[r28]
+                        1965 .L237:
+                        1966 --746:         }
+                        1967 --748:         /* Transition: '<S2>:430' */
+                        1968 --749:         e_sum2_fuel = avgFuelCsump_V2_DW.sum_fuel;
+0000099c 3c0f0100       1969 	ld.w	0[r28],r1
+000009a0 2b0600000000*  1970 	mov	_e_sum2_fuel,r11
+000009a6 6b0f0100       1971 	st.w	r1,0[r11]
+                        1972 .L244:
+                        1973 --750:       } else {
+                        1974 --751:         /* Transition: '<S2>:423' */
+                        1975 --752:       }
+                        1976 --754:       /* Transition: '<S2>:429' */
+                        1977 --755:       tmp = avgFuelCsump_V2_DW.pmCount + 1;
+000009aa 9c0f1700       1978 	ld.bu	22[r28],r1
+000009ae 01d60100       1979 	addi	1,r1,r26
+                        1980 --756:       if (tmp > 255) {
+000009b2 1a0601ff       1981 	addi	-255,r26,zero
+000009b6 b705*          1982 	ble	.L245
+                        1983 --757:         tmp = 255;
+                        1984 --line757
+                        1985 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.115::
+                        1986 .LDWlin115:
+000009b8 20d6ff00       1987 	movea	255,zero,r26
+                        1988 .L245:
+                        1989 --758:       }
+                        1990 --760:       avgFuelCsump_V2_DW.pmCount = (U8)tmp;
+000009bc 5cd71600       1991 	st.b	r26,22[r28]
+                        1992 --761:       avgFuelCsump_V2_DW.last_fuel = gASI_fuelCsump;
+000009c0 f90f0100       1993 	ld.hu	0[r25],r1
+000009c4 7c0f0800       1994 	st.h	r1,8[r28]
+000009c8 b505*          1995 	br	.L247
+                        1996 .L226:
+                        1997 --762:     } else {
+                        1998 --763:       /* Transition: '<S2>:422' */
+                        1999 --764:       avgFuelCsump_V2_DW.pmCount = 0U;
+
+                                                                      Page 34
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        2000 --line764
+                        2001 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.116::
+                        2002 .LDWlin116:
+000009ca 5c071600       2003 	st.b	zero,22[r28]
+                        2004 .L247:
+                        2005 --765:     }
+                        2006 --767:     /* Transition: '<S2>:432' */
+                        2007 --768:     /* During 'validityCalculate': '<S2>:395' */
+                        2008 --769:     /* Transition: '<S2>:405' */
+                        2009 --770:     /* Entry Internal 'validityCalculate': '<S2>:395' */
+                        2010 --771:     /* Transition: '<S2>:401' */
+                        2011 --772:     if (gAFC_u32sumDist2 <= avgFuelCsump_V2_P.distThreshold) {
+000009ce 210600000000*  2012 	mov	_avgFuelCsump_V2_P,r1
+000009d4 2e0600000000*  2013 	mov	_gAFC_u32sumDist2,r14
+000009da e10f0100       2014 	ld.hu	0[r1],r1
+000009de 2e770100       2015 	ld.w	0[r14],r14
+000009e2 e171           2016 	cmp	r1,r14
+000009e4 8b0d*          2017 	bh	.L248
+                        2018 --773:       /* Transition: '<S2>:402' */
+                        2019 --774:       /* Transition: '<S2>:404' */
+                        2020 --775:       gAFC_u8avgFuelCsumpV2 = true;
+                        2021 --line775
+                        2022 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.117::
+                        2023 .LDWlin117:
+000009e6 2b0600000000*  2024 	mov	_gAFC_u8avgFuelCsumpV2,r11
+000009ec 010a           2025 	mov	1,r1
+000009ee 4b0f0000       2026 	st.b	r1,0[r11]
+000009f2 e505*          2027 	br	.L250
+                        2028 .L248:
+                        2029 --777:       /* Transition: '<S2>:406' */
+                        2030 --778:     } else {
+                        2031 --779:       /* Transition: '<S2>:403' */
+                        2032 --780:       gAFC_u8avgFuelCsumpV2 = false;
+                        2033 --line780
+                        2034 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.118::
+                        2035 .LDWlin118:
+000009f4 2b0600000000*  2036 	mov	_gAFC_u8avgFuelCsumpV2,r11
+000009fa 4b070000       2037 	st.b	zero,0[r11]
+                        2038 .L250:
+                        2039 --781:     }
+                        2040 --783:     /* Transition: '<S2>:407' */
+                        2041 --784:     /* During 'avgFuelCalculate': '<S2>:330' */
+                        2042 --785:     /* Transition: '<S2>:344' */
+                        2043 --786:     /* Entry Internal 'avgFuelCalculate': '<S2>:330' */
+                        2044 --787:     /* Transition: '<S2>:338' */
+                        2045 --788:     if ((gAFC_u32sumDist2 > 0U) && (gAFC_u8avgFuelCsumpV2 == 0)) {
+000009fe 210600000000*  2046 	mov	_gAFC_u32sumDist2,r1
+00000a04 210f0100       2047 	ld.w	0[r1],r1
+00000a08 e009           2048 	cmp	zero,r1
+00000a0a 835d*          2049 	bnh	.L186
+00000a0c 210600000000*  2050 	mov	_gAFC_u8avgFuelCsumpV2,r1
+00000a12 810f0100       2051 	ld.bu	0[r1],r1
+00000a16 e009           2052 	cmp	zero,r1
+00000a18 9a55*          2053 	bne	.L186
+                        2054 --789:       /* Transition: '<S2>:339' */
+                        2055 --790:       if (avgFuelCsump_V2_DW.sum_fuel > 33554431U) {
+                        2056 --line790
+                        2057 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.119::
+                        2058 .LDWlin119:
+00000a1a 3c0f0100       2059 	ld.w	0[r28],r1
+00000a1e 2b06ffffff01   2060 	mov	33554431,r11
+
+                                                                      Page 35
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+00000a24 eb09           2061 	cmp	r11,r1
+00000a26 b305*          2062 	bnh	.L254
+                        2063 --791:         qY_0 = MAX_uint32_T;
+                        2064 --line791
+                        2065 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.120::
+                        2066 .LDWlin120:
+00000a28 1fea           2067 	mov	-1,r29
+00000a2a d505*          2068 	br	.L256
+                        2069 .L254:
+                        2070 --792:       } else {
+                        2071 --793:         qY_0 = avgFuelCsump_V2_DW.sum_fuel << 7;
+                        2072 --line793
+                        2073 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.121::
+                        2074 .LDWlin121:
+00000a2c 3c0f0100       2075 	ld.w	0[r28],r1
+00000a30 01e8           2076 	mov	r1,r29
+00000a32 c7ea           2077 	shl	7,r29
+                        2078 .L256:
+                        2079 --794:       }
+                        2080 --796:       if ((gAFC_u32sumDist2 == 0U ? MAX_uint32_T : qY_0 / gAFC_u32sumDist2) <
+00000a34 210600000000*  2081 	mov	_gAFC_u32sumDist2,r1
+00000a3a 210f0100       2082 	ld.w	0[r1],r1
+00000a3e e009           2083 	cmp	zero,r1
+00000a40 ba05*          2084 	bne	.L259
+00000a42 1f0a           2085 	mov	-1,r1
+00000a44 950d*          2086 	br	.L261
+                        2087 .L259:
+00000a46 2e0600000000*  2088 	mov	_gAFC_u32sumDist2,r14
+00000a4c 2e770100       2089 	ld.w	0[r14],r14
+00000a50 1d08           2090 	mov	r29,r1
+00000a52 ee0ffe02       2091 	divqu	r14,r1,zero
+                        2092 .L261:
+00000a56 010601ff       2093 	addi	-255,r1,zero
+00000a5a 912d*          2094 	bl	.L257
+                        2095 --797:           255U) {
+                        2096 --798:         /* Transition: '<S2>:340' */
+                        2097 --799:         /* Transition: '<S2>:343' */
+                        2098 --800:         if (avgFuelCsump_V2_DW.sum_fuel > 33554431U) {
+                        2099 --line800
+                        2100 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.122::
+                        2101 .LDWlin122:
+00000a5c 3c0f0100       2102 	ld.w	0[r28],r1
+00000a60 2b06ffffff01   2103 	mov	33554431,r11
+00000a66 eb09           2104 	cmp	r11,r1
+00000a68 b305*          2105 	bnh	.L262
+                        2106 --801:           qY_0 = MAX_uint32_T;
+                        2107 --line801
+                        2108 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.123::
+                        2109 .LDWlin123:
+00000a6a 1fea           2110 	mov	-1,r29
+00000a6c d505*          2111 	br	.L264
+                        2112 .L262:
+                        2113 --802:         } else {
+                        2114 --803:           qY_0 = avgFuelCsump_V2_DW.sum_fuel << 7;
+                        2115 --line803
+                        2116 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.124::
+                        2117 .LDWlin124:
+00000a6e 3c0f0100       2118 	ld.w	0[r28],r1
+00000a72 01e8           2119 	mov	r1,r29
+00000a74 c7ea           2120 	shl	7,r29
+                        2121 .L264:
+
+                                                                      Page 36
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        2122 --804:         }
+                        2123 --806:         qY_0 = gAFC_u32sumDist2 == 0U ? MAX_uint32_T : qY_0 / gAFC_u32sumDist2;
+00000a76 210600000000*  2124 	mov	_gAFC_u32sumDist2,r1
+00000a7c 210f0100       2125 	ld.w	0[r1],r1
+00000a80 e009           2126 	cmp	zero,r1
+00000a82 ffef04eb       2127 	cmove	-1,r29,r29
+00000a86 820d*          2128 	be	.L595
+00000a88 210600000000*  2129 	mov	_gAFC_u32sumDist2,r1
+00000a8e 210f0100       2130 	ld.w	0[r1],r1
+00000a92 e1effe02       2131 	divqu	r1,r29,zero
+                        2132 .L595:
+                        2133 --807:         if (qY_0 > 255U) {
+                        2134 --line807
+                        2135 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.125::
+                        2136 .LDWlin125:
+00000a96 1d0600ff       2137 	addi	-256,r29,zero
+00000a9a b905*          2138 	bnl	.L268
+                        2139 --808:           qY_0 = 255U;
+                        2140 --line808
+                        2141 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.126::
+                        2142 .LDWlin126:
+00000a9c 20eeff00       2143 	movea	255,zero,r29
+                        2144 .L268:
+                        2145 --809:         }
+                        2146 --811:         gAFC_u8avgFuelCsump2 = (U8)qY_0;
+00000aa0 2b0600000000*  2147 	mov	_gAFC_u8avgFuelCsump2,r11
+00000aa6 4bef0000       2148 	st.b	r29,0[r11]
+00000aaa 850d*          2149 	br	.L186
+                        2150 .L257:
+                        2151 --813:         /* Transition: '<S2>:346' */
+                        2152 --814:       } else {
+                        2153 --815:         /* Transition: '<S2>:342' */
+                        2154 --816:         gAFC_u8avgFuelCsump2 = MAX_uint8_T;
+                        2155 --line816
+                        2156 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.127::
+                        2157 .LDWlin127:
+00000aac 200eff00       2158 	movea	255,zero,r1
+00000ab0 2b0600000000*  2159 	mov	_gAFC_u8avgFuelCsump2,r11
+00000ab6 4b0f0000       2160 	st.b	r1,0[r11]
+                        2161 .L186:
+                        2162 --817:       }
+                        2163 --819:       /* Transition: '<S2>:345' */
+                        2164 --820:     } else {
+                        2165 --821:       /* Transition: '<S2>:341' */
+                        2166 --822:       /* {avgFuelCsump=68;} */
+                        2167 --823:     }
+                        2168 --825:     /* Transition: '<S2>:347' */
+                        2169 --826:   }
+                        2170 --827:     FC_Output();
+                        2171 	jarl	_FC_Output,lp
+                        2171 <EXPANSION BEGIN>
+                        2171 jarl22 _FC_Output , lp 
+00000aba 80ff0000*      2171 <EXPANSION END>
+                        2172 --828:   /* End of Chart: '<Root>/avg2' */
+                        2173 --829:   #endif
+                        2174 --830: }
+                        2175 --line830
+                        2176 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.128::
+                        2177 .LDWlin128:
+00000abe 0000           2178 	nop
+                        2179 --	    .ef
+
+                                                                      Page 37
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        2180 .LDW11:
+00000ac0 4806ff70       2181 	dispose	4,{r25,r26,r27,r28,r29,r31},[lp]
+                        2182 	.type	_avgFuelCsump_V2_step,@function
+                        2183 	.size	_avgFuelCsump_V2_step,.-_avgFuelCsump_V2_step
+                        2184 	.align	2
+                        2185 .LDW21:
+                        2186 --_tmp	r26	local
+                        2187 --_qY	r27	local
+                        2188 --_qY_0	r29	local
+                        2189 
+                        2190 	.section ".bss","awb"
+                        2191 .L920:
+                        2192 	.type	.L920,@object
+                        2193 	.size	.L920,0
+                        2194 	.data
+                        2195 	.text
+                        2196 
+                        2197 
+                        2198 --832: /* Model initialize function */
+                        2199 --833: void avgFuelCsump_V2_initialize(void)
+                        2200 	.align	2
+                        2201 	.align	2
+                        2202 	.global	_avgFuelCsump_V2_initialize
+                        2203 _avgFuelCsump_V2_initialize:
+00000ac4 8207e170       2204 	prepare	{r25,r26,r27,r28,r29,r31},1
+00000ac8 3d0600000000*  2205 	mov	_avgFuelCsump_V2_DW,r29
+00000ace 3c0600000000*  2206 	mov	_e_sum2_fuel,r28
+00000ad4 3b0600000000*  2207 	mov	_e_sum_fuel,r27
+00000ada 3a0600000000*  2208 	mov	_gAFC_u8avgFuelCsump2,r26
+00000ae0 390600000000*  2209 	mov	_gAFC_u8avgFuelCsump,r25
+                        2210 --	    .bf
+                        2211 .LDW31:
+                        2212 --834: {
+                        2213 --835:   /* Registration code */
+                        2214 --837:   /* initialize error status */
+                        2215 --838:   rtmSetErrorStatus(avgFuelCsump_V2_M, (NULL));
+00000ae6 3e0600000000*  2216 	mov	_avgFuelCsump_V2_M,ep
+00000aec 00f5           2217 	sld.w	0[ep],ep
+00000aee 0105           2218 	sst.w	zero,0[ep]
+                        2219 --840:   /* block I/O */
+                        2220 --842:   /* exported global signals */
+                        2221 --843:   gAFC_u8avgFuelCsump2 = 0U;
+00000af0 5a070000       2222 	st.b	zero,0[r26]
+                        2223 --844:   gAFC_u8avgFuelCsump = 0U;
+00000af4 59070000       2224 	st.b	zero,0[r25]
+                        2225 --845:   gAFC_u8avgFuelCsumpV2 = false;
+00000af8 2b0600000000*  2226 	mov	_gAFC_u8avgFuelCsumpV2,r11
+00000afe 4b070000       2227 	st.b	zero,0[r11]
+                        2228 --846:   gAFC_u8avgFuelCsumpV = false;
+00000b02 2b0600000000*  2229 	mov	_gAFC_u8avgFuelCsumpV,r11
+00000b08 4b070000       2230 	st.b	zero,0[r11]
+                        2231 --848:   /* states (dwork) */
+                        2232 --849:   (void) memset((void *)&avgFuelCsump_V2_DW, 0,
+00000b0c 1d30           2233 	mov	r29,r6
+00000b0e 003a           2234 	mov	0,r7
+00000b10 20462c00       2235 	movea	44,zero,r8
+                        2236 	jarl	_memset,lp
+                        2236 <EXPANSION BEGIN>
+                        2236 jarl22 _memset , lp 
+00000b14 80ff0000*      2236 <EXPANSION END>
+                        2237 --850:                 sizeof(DW_avgFuelCsump_V2_T));
+
+                                                                      Page 38
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        2238 --852:   /* exported global states */
+                        2239 --853:   e_sum_fuel = 0U;
+                        2240 --line853
+                        2241 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.129::
+                        2242 .LDWlin129:
+00000b18 7b070100       2243 	st.w	zero,0[r27]
+                        2244 --854:   e_sum2_fuel = 0U;
+00000b1c 7c070100       2245 	st.w	zero,0[r28]
+                        2246 --856:   /* external inputs */
+                        2247 --857:   gASI_sysPwrMd = 0U;
+00000b20 2b0600000000*  2248 	mov	_gASI_sysPwrMd,r11
+00000b26 4b070000       2249 	st.b	zero,0[r11]
+                        2250 --858:   gASI_fuelCsump = 0U;
+00000b2a 2b0600000000*  2251 	mov	_gASI_fuelCsump,r11
+00000b30 6b070000       2252 	st.h	zero,0[r11]
+                        2253 --859:   local_avgFuelCsumpRstReq = false;
+00000b34 2b0600000000*  2254 	mov	_local_avgFuelCsumpRstReq,r11
+00000b3a 4b070000       2255 	st.b	zero,0[r11]
+                        2256 --860:   local_over2hourFlag = false;
+00000b3e 2b0600000000*  2257 	mov	_local_over2hourFlag,r11
+00000b44 4b070000       2258 	st.b	zero,0[r11]
+                        2259 --861:   gASI_vehicleSpeed = 0U;
+00000b48 2b0600000000*  2260 	mov	_gASI_vehicleSpeed,r11
+00000b4e 6b070000       2261 	st.h	zero,0[r11]
+                        2262 --862:   local_bAvgFuelCsumpRstReq2 = false;
+00000b52 2b0600000000*  2263 	mov	_local_bAvgFuelCsumpRstReq2,r11
+00000b58 4b070000       2264 	st.b	zero,0[r11]
+                        2265 --863:   gAFC_u32sumDist1 = 0U;
+00000b5c 2b0600000000*  2266 	mov	_gAFC_u32sumDist1,r11
+00000b62 6b070100       2267 	st.w	zero,0[r11]
+                        2268 --864:   gAFC_u32sumDist2 = 0U;
+00000b66 2b0600000000*  2269 	mov	_gAFC_u32sumDist2,r11
+00000b6c 6b070100       2270 	st.w	zero,0[r11]
+                        2271 --866:   /* Start for DataStoreMemory: '<Root>/Data Store Memory1' */
+                        2272 --867:   e_sum_fuel = avgFuelCsump_V2_P.DataStoreMemory1_InitialValue;
+00000b70 210600000000*  2273 	mov	_avgFuelCsump_V2_P+8,r1
+00000b76 210f0100       2274 	ld.w	0[r1],r1
+00000b7a 7b0f0100       2275 	st.w	r1,0[r27]
+                        2276 --869:   /* Start for DataStoreMemory: '<Root>/Data Store Memory3' */
+                        2277 --870:   e_sum2_fuel = avgFuelCsump_V2_P.DataStoreMemory3_InitialValue;
+00000b7e 210600000000*  2278 	mov	_avgFuelCsump_V2_P+12,r1
+00000b84 210f0100       2279 	ld.w	0[r1],r1
+00000b88 7c0f0100       2280 	st.w	r1,0[r28]
+                        2281 --872:   /* InitializeConditions for Chart: '<Root>/avg1' */
+                        2282 --873:   avgFuelCsump_V2_DW.is_active_avgFuelCalculate_b = 0U;
+00000b8c 5d071f00       2283 	st.b	zero,31[r29]
+                        2284 --874:   avgFuelCsump_V2_DW.is_active_flagCalculate_c = 0U;
+00000b90 5d071900       2285 	st.b	zero,25[r29]
+                        2286 --875:   avgFuelCsump_V2_DW.is_active_InitializeFlag_o = 0U;
+00000b94 5d071b00       2287 	st.b	zero,27[r29]
+                        2288 --876:   avgFuelCsump_V2_DW.is_InitializeFlag_b = avgFuelCsump_IN_NO_ACTIVE_CHILD;
+00000b98 5d071a00       2289 	st.b	zero,26[r29]
+                        2290 --877:   avgFuelCsump_V2_DW.is_initialize_k = avgFuelCsump_IN_NO_ACTIVE_CHILD;
+00000b9c 5d071c00       2291 	st.b	zero,28[r29]
+                        2292 --878:   avgFuelCsump_V2_DW.is_active_countFlag_h = 0U;
+00000ba0 5d071e00       2293 	st.b	zero,30[r29]
+                        2294 --879:   avgFuelCsump_V2_DW.is_countFlag_g = avgFuelCsump_IN_NO_ACTIVE_CHILD;
+00000ba4 5d071d00       2295 	st.b	zero,29[r29]
+                        2296 --880:   avgFuelCsump_V2_DW.is_active_fuelCalculate_j = 0U;
+00000ba8 5d071800       2297 	st.b	zero,24[r29]
+                        2298 --881:   avgFuelCsump_V2_DW.is_active_validityCalculate_o = 0U;
+
+                                                                      Page 39
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+00000bac 5d072000       2299 	st.b	zero,32[r29]
+                        2300 --882:   avgFuelCsump_V2_DW.is_active_c3_avgFuelCsump_V2 = 0U;
+00000bb0 5d071700       2301 	st.b	zero,23[r29]
+                        2302 --883:   avgFuelCsump_V2_DW.initializeHappened_j = false;
+00000bb4 5d072600       2303 	st.b	zero,38[r29]
+                        2304 --884:   avgFuelCsump_V2_DW.last_fuel_o = 0U;
+00000bb8 7d070a00       2305 	st.h	zero,10[r29]
+                        2306 --885:   avgFuelCsump_V2_DW.sum_fuel_o = 0U;
+00000bbc 7d070500       2307 	st.w	zero,4[r29]
+                        2308 --886:   avgFuelCsump_V2_DW.resetHappened_p = false;
+00000bc0 5d072700       2309 	st.b	zero,39[r29]
+                        2310 --887:   avgFuelCsump_V2_DW.countFlag_o = false;
+00000bc4 5d072800       2311 	st.b	zero,40[r29]
+                        2312 --888:   avgFuelCsump_V2_DW.initializing_e = false;
+00000bc8 5d072900       2313 	st.b	zero,41[r29]
+                        2314 --889:   avgFuelCsump_V2_DW.pmCount_l = 0U;
+00000bcc 5d072100       2315 	st.b	zero,33[r29]
+                        2316 --890:   gAFC_u8avgFuelCsump = 0U;
+00000bd0 59070000       2317 	st.b	zero,0[r25]
+                        2318 --892:   /* InitializeConditions for Chart: '<Root>/avg2' */
+                        2319 --893:   avgFuelCsump_V2_DW.is_active_avgFuelCalculate = 0U;
+00000bd4 5d071400       2320 	st.b	zero,20[r29]
+                        2321 --894:   avgFuelCsump_V2_DW.is_active_flagCalculate = 0U;
+00000bd8 5d070e00       2322 	st.b	zero,14[r29]
+                        2323 --895:   avgFuelCsump_V2_DW.is_active_InitializeFlag = 0U;
+00000bdc 5d071000       2324 	st.b	zero,16[r29]
+                        2325 --896:   avgFuelCsump_V2_DW.is_InitializeFlag = avgFuelCsump_IN_NO_ACTIVE_CHILD;
+00000be0 5d070f00       2326 	st.b	zero,15[r29]
+                        2327 --897:   avgFuelCsump_V2_DW.is_initialize = avgFuelCsump_IN_NO_ACTIVE_CHILD;
+00000be4 5d071100       2328 	st.b	zero,17[r29]
+                        2329 --898:   avgFuelCsump_V2_DW.is_active_countFlag = 0U;
+00000be8 5d071300       2330 	st.b	zero,19[r29]
+                        2331 --899:   avgFuelCsump_V2_DW.is_countFlag = avgFuelCsump_IN_NO_ACTIVE_CHILD;
+00000bec 5d071200       2332 	st.b	zero,18[r29]
+                        2333 --900:   avgFuelCsump_V2_DW.is_active_fuelCalculate = 0U;
+00000bf0 5d070d00       2334 	st.b	zero,13[r29]
+                        2335 --901:   avgFuelCsump_V2_DW.is_active_validityCalculate = 0U;
+00000bf4 5d071500       2336 	st.b	zero,21[r29]
+                        2337 --902:   avgFuelCsump_V2_DW.is_active_c1_avgFuelCsump_V2 = 0U;
+00000bf8 5d070c00       2338 	st.b	zero,12[r29]
+                        2339 --903:   avgFuelCsump_V2_DW.initializeHappened = false;
+00000bfc 5d072200       2340 	st.b	zero,34[r29]
+                        2341 --904:   avgFuelCsump_V2_DW.last_fuel = 0U;
+00000c00 7d070800       2342 	st.h	zero,8[r29]
+                        2343 --905:   avgFuelCsump_V2_DW.sum_fuel = 0U;
+00000c04 7d070100       2344 	st.w	zero,0[r29]
+                        2345 --906:   avgFuelCsump_V2_DW.resetHappened = false;
+00000c08 5d072300       2346 	st.b	zero,35[r29]
+                        2347 --907:   avgFuelCsump_V2_DW.countFlag = false;
+00000c0c 5d072400       2348 	st.b	zero,36[r29]
+                        2349 --908:   avgFuelCsump_V2_DW.initializing = false;
+00000c10 5d072500       2350 	st.b	zero,37[r29]
+                        2351 --909:   avgFuelCsump_V2_DW.pmCount = 0U;
+00000c14 5d071600       2352 	st.b	zero,22[r29]
+                        2353 --910:   gAFC_u8avgFuelCsump2 = 0U;
+00000c18 5a070000       2354 	st.b	zero,0[r26]
+                        2355 --912:     NVM_GetParas(INDEX_NVM_ESUM_FUEL,&e_sum_fuel,4);
+00000c1c 1b38           2356 	mov	r27,r7
+00000c1e 20369000       2357 	movea	144,zero,r6
+00000c22 0442           2358 	mov	4,r8
+                        2359 	jarl	_NVM_GetParas,lp
+
+                                                                      Page 40
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        2359 <EXPANSION BEGIN>
+                        2359 jarl22 _NVM_GetParas , lp 
+00000c24 80ff0000*      2359 <EXPANSION END>
+                        2360 --913:     if(0xffffffff == e_sum_fuel)
+                        2361 --line913
+                        2362 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.130::
+                        2363 .LDWlin130:
+00000c28 3b0f0100       2364 	ld.w	0[r27],r1
+00000c2c 7f0a           2365 	cmp	-1,r1
+00000c2e ba05*          2366 	bne	.L1886
+                        2367 --914:     {
+                        2368 --915:         e_sum_fuel = 0;
+                        2369 --line915
+                        2370 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.131::
+                        2371 .LDWlin131:
+00000c30 7b070100       2372 	st.w	zero,0[r27]
+                        2373 .L1886:
+                        2374 --916:     }
+                        2375 --917:     
+                        2376 --918:     NVM_GetParas(INDEX_NVM_ESUM2_FUEL,&e_sum2_fuel,4);
+00000c34 1c38           2377 	mov	r28,r7
+00000c36 20369100       2378 	movea	145,zero,r6
+00000c3a 0442           2379 	mov	4,r8
+                        2380 	jarl	_NVM_GetParas,lp
+                        2380 <EXPANSION BEGIN>
+                        2380 jarl22 _NVM_GetParas , lp 
+00000c3c 80ff0000*      2380 <EXPANSION END>
+                        2381 --919:     if(0xffffffff == e_sum2_fuel)
+                        2382 --line919
+                        2383 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.132::
+                        2384 .LDWlin132:
+00000c40 3c0f0100       2385 	ld.w	0[r28],r1
+00000c44 7f0a           2386 	cmp	-1,r1
+00000c46 ba05*          2387 	bne	.L1888
+                        2388 --920:     {
+                        2389 --921:         e_sum2_fuel = 0;
+                        2390 --line921
+                        2391 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2.133::
+                        2392 .LDWlin133:
+00000c48 7c070100       2393 	st.w	zero,0[r28]
+                        2394 .L1888:
+                        2395 --922:     }
+                        2396 --923:         #if 0
+                        2397 --924:     printf("FCC_IN:%d %d \r\n", e_sum_fuel, e_sum2_fuel);
+                        2398 --925: #endif
+                        2399 --928: }
+00000c4c 0000           2400 	nop
+                        2401 --	    .ef
+                        2402 .LDW41:
+00000c4e 4206ff70       2403 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                        2404 	.type	_avgFuelCsump_V2_initialize,@function
+                        2405 	.size	_avgFuelCsump_V2_initialize,.-_avgFuelCsump_V2_initialize
+                        2406 	.align	2
+                        2407 .LDW51:
+                        2408 
+                        2409 	.section ".bss","awb"
+                        2410 .L2032:
+                        2411 	.type	.L2032,@object
+                        2412 	.size	.L2032,0
+                        2413 	.data
+                        2414 	.text
+
+                                                                      Page 41
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        2415 
+                        2416 
+                        2417 --930: /* Model terminate function */
+                        2418 --931: void avgFuelCsump_V2_terminate(void)
+                        2419 	.align	2
+                        2420 	.align	2
+                        2421 	.global	_avgFuelCsump_V2_terminate
+                        2422 _avgFuelCsump_V2_terminate:
+                        2423 --	    .bf
+                        2424 .LDW61:
+                        2425 --932: {
+                        2426 --933:   /* (no terminate code required) */
+                        2427 --934: }
+00000c52 0000           2428 	nop
+                        2429 --	    .ef
+                        2430 .LDW71:
+00000c54 7f00           2431 	jmp	[lp]
+                        2432 	.type	_avgFuelCsump_V2_terminate,@function
+                        2433 	.size	_avgFuelCsump_V2_terminate,.-_avgFuelCsump_V2_terminate
+                        2434 	.align	2
+                        2435 .LDW81:
+                        2436 
+                        2437 	.section ".bss","awb"
+                        2438 .L2248:
+                        2439 	.type	.L2248,@object
+                        2440 	.size	.L2248,0
+                        2441 	.data
+                        2442 	.text
+                        2443 
+                        2444 	.align	2
+                        2445 --_avgFuelCsump_V2_P	_avgFuelCsump_V2_P	import
+                        2446 
+                        2447 	.section ".rodata","a"
+                        2448 	.align	4
+                        2449 	.global	_avgFuelCsump_V2_M
+00000000 00000000*      2450 _avgFuelCsump_V2_M:	.word	_avgFuelCsump_V2_M_
+                        2451 	.type	_avgFuelCsump_V2_M,@object
+                        2452 	.size	_avgFuelCsump_V2_M,4
+                        2453 	.data
+                        2454 	.section ".bss","awb"
+                        2455 	.align	4
+                        2456 	.align	4
+                        2457 	.global	_gAFC_u32sumDist1
+00000000 00000000       2458 _gAFC_u32sumDist1:	.space	4
+                        2459 	.type	_gAFC_u32sumDist1,@object
+                        2460 	.size	_gAFC_u32sumDist1,4
+                        2461 	.align	4
+                        2462 	.global	_gAFC_u32sumDist2
+00000004 00000000       2463 _gAFC_u32sumDist2:	.space	4
+                        2464 	.type	_gAFC_u32sumDist2,@object
+                        2465 	.size	_gAFC_u32sumDist2,4
+                        2466 	.align	4
+                        2467 	.global	_e_sum_fuel
+00000008 00000000       2468 _e_sum_fuel:	.space	4
+                        2469 	.type	_e_sum_fuel,@object
+                        2470 	.size	_e_sum_fuel,4
+                        2471 	.align	4
+                        2472 	.global	_e_sum2_fuel
+0000000c 00000000       2473 _e_sum2_fuel:	.space	4
+                        2474 	.type	_e_sum2_fuel,@object
+                        2475 	.size	_e_sum2_fuel,4
+
+                                                                      Page 42
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        2476 	.align	4
+                        2477 	.global	_avgFuelCsump_V2_DW
+00000010 000000000000   2478 _avgFuelCsump_V2_DW:	.space	44
+00000016 000000000000 
+0000001c 000000000000 
+00000022 000000000000 
+00000028 000000000000 
+0000002e 000000000000 
+00000034 000000000000 
+0000003a 0000 
+                        2479 	.type	_avgFuelCsump_V2_DW,@object
+                        2480 	.size	_avgFuelCsump_V2_DW,44
+                        2481 	.align	4
+                        2482 	.global	_avgFuelCsump_V2_M_
+0000003c 00000000       2483 _avgFuelCsump_V2_M_:	.space	4
+                        2484 	.type	_avgFuelCsump_V2_M_,@object
+                        2485 	.size	_avgFuelCsump_V2_M_,4
+                        2486 	.align	2
+                        2487 	.global	_gASI_fuelCsump
+00000040 0000           2488 _gASI_fuelCsump:	.space	2
+                        2489 	.type	_gASI_fuelCsump,@object
+                        2490 	.size	_gASI_fuelCsump,2
+                        2491 	.align	2
+                        2492 	.global	_gASI_vehicleSpeed
+00000042 0000           2493 _gASI_vehicleSpeed:	.space	2
+                        2494 	.type	_gASI_vehicleSpeed,@object
+                        2495 	.size	_gASI_vehicleSpeed,2
+                        2496 	.global	_gASI_sysPwrMd
+00000044 00             2497 _gASI_sysPwrMd:	.space	1
+                        2498 	.type	_gASI_sysPwrMd,@object
+                        2499 	.size	_gASI_sysPwrMd,1
+                        2500 	.global	_local_avgFuelCsumpRstReq
+00000045 00             2501 _local_avgFuelCsumpRstReq:	.space	1
+                        2502 	.type	_local_avgFuelCsumpRstReq,@object
+                        2503 	.size	_local_avgFuelCsumpRstReq,1
+                        2504 	.global	_local_over2hourFlag
+00000046 00             2505 _local_over2hourFlag:	.space	1
+                        2506 	.type	_local_over2hourFlag,@object
+                        2507 	.size	_local_over2hourFlag,1
+                        2508 	.global	_local_bAvgFuelCsumpRstReq2
+00000047 00             2509 _local_bAvgFuelCsumpRstReq2:	.space	1
+                        2510 	.type	_local_bAvgFuelCsumpRstReq2,@object
+                        2511 	.size	_local_bAvgFuelCsumpRstReq2,1
+                        2512 	.global	_gAFC_u8avgFuelCsump2
+00000048 00             2513 _gAFC_u8avgFuelCsump2:	.space	1
+                        2514 	.type	_gAFC_u8avgFuelCsump2,@object
+                        2515 	.size	_gAFC_u8avgFuelCsump2,1
+                        2516 	.global	_gAFC_u8avgFuelCsump
+00000049 00             2517 _gAFC_u8avgFuelCsump:	.space	1
+                        2518 	.type	_gAFC_u8avgFuelCsump,@object
+                        2519 	.size	_gAFC_u8avgFuelCsump,1
+                        2520 	.global	_gAFC_u8avgFuelCsumpV2
+0000004a 00             2521 _gAFC_u8avgFuelCsumpV2:	.space	1
+                        2522 	.type	_gAFC_u8avgFuelCsumpV2,@object
+                        2523 	.size	_gAFC_u8avgFuelCsumpV2,1
+                        2524 	.global	_gAFC_u8avgFuelCsumpV
+0000004b 00             2525 _gAFC_u8avgFuelCsumpV:	.space	1
+                        2526 	.type	_gAFC_u8avgFuelCsumpV,@object
+                        2527 	.size	_gAFC_u8avgFuelCsumpV,1
+                        2528 	.data
+                        2529 	.ghsnote version,14
+
+                                                                      Page 43
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000022s1.si
+                        2530 	.ghsnote tools,3
+                        2531 	.ghsnote options,144
+                        2532 	.text
+                        2533 	.align	2
+                        2534 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5CavgFuelCsump_V2...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740370..0::
+                        2535 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

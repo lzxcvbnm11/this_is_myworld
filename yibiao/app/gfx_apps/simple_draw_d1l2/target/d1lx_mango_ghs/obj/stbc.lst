@@ -1,0 +1,1001 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\stbc.dbo -source=stbc.c -o .\obj\gh_00001v41.o -list=.\obj\stbc.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+Source File: stbc.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\STBC\stbc.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                         112 --		-o .\obj\stbc.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\STBC\stbc.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:24 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : stbc.c
+                         128 --5: * Description : STBC module source file.
+                         129 --6: * Author: Qinhui.Shen
+                         130 --7: * Date: 2016-12-14
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "stbc_info.inc"
+                         134 --13: /*--------------- Global variable definition and initialization -----------------*/
+                         135 --14: static U8 Stbc_InitStatus = FALSE;
+                         136 --15: static U8 Stbc_IsFirstCfg = FALSE;
+                         137 --16: static U32 Stbc_SourceMask;
+                         138 --17: static StbcWakeUpSource_ENUM  source = 0;
+                         139 --18: /*---------------------- Implementation of module ---------------------*/
+                         140 --20: /***************************************************
+                         141 --21: * Function: STBC_Init.
+                         142 --22: * Description: STBC Initialization.
+                         143 --23: * Parameters: none
+                         144 --24: * Returns: none
+                         145 --25: *
+                         146 --26: * $Create & Verlog:$
+                         147 --27: * Author:Qinhui.Shen  Date:2016-12-14   Version:V1.0
+                         148 --28: ****************************************************/
+                         149 --29: void STBC_Init(void)
+                         150 	.text
+                         151 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740364..0::
+                         152 	.align	2
+                         153 	.global	_STBC_Init
+                         154 _STBC_Init:
+00000000 210600000000*   155 	mov	.L50,r1
+                         156 --	    .bf
+                         157 .LDW01:
+                         158 --30: {
+                         159 --32:    
+                         160 --33:     Stbc_IsFirstCfg = FALSE;
+00000006 41070500        161 	st.b	zero,5[r1]
+                         162 --35:     FCLA0CTL6 = 0x00;
+0000000a 80078d018086    163 	st.b	zero,4290986008[zero]
+                         164 --36:     FCLA0CTL7 = 0x00;
+00000010 8007cd018086    165 	st.b	zero,4290986012[zero]
+                         166 --37:     FCLA1CTL1 = 0x00;
+00000016 80074d008286    167 	st.b	zero,4290986244[zero]
+                         168 --38:     SYSWUFMSK0 = 0xFFFFFFFFUL;
+0000001c 1f72            169 	mov	-1,r14
+0000001e 80074f7008f0    170 	st.w	r14,4294444036[zero]
+                         171 --39:     SYSWUFC0 = 0xFFFFFFFFUL;
+00000024 1f72            172 	mov	-1,r14
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+00000026 80078f7008f0    173 	st.w	r14,4294444040[zero]
+                         174 --40:     protected_write(SYSPROTCMD0, SYSPROTS0, SYSIOHOLD, 0x0000);
+0000002c 0000            175 	nop
+                         176 .L6:
+0000002e 2076a500        177 	movea	165,zero,r14
+00000032 80070f7000f0    178 	st.w	r14,4294443008[zero]
+00000038 80070f0016f0    179 	st.w	zero,4294445824[zero]
+0000003e 1f72            180 	mov	-1,r14
+00000040 80070f7016f0    181 	st.w	r14,4294445824[zero]
+00000046 80070f0016f0    182 	st.w	zero,4294445824[zero]
+0000004c 8007497000f0    183 	ld.w	4294443012[zero],r14
+00000052 6172            184 	cmp	1,r14
+00000054 d2ed*           185 	be	.L6
+                         186 --42:     Stbc_InitStatus = TRUE;
+                         187 --line42
+                         188 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.1::
+                         189 .LDWlin1:
+00000056 0172            190 	mov	1,r14
+00000058 41770400        191 	st.b	r14,4[r1]
+                         192 --43: }
+0000005c 0000            193 	nop
+                         194 --	    .ef
+                         195 .LDW11:
+0000005e 7f00            196 	jmp	[lp]
+                         197 	.type	_STBC_Init,@function
+                         198 	.size	_STBC_Init,.-_STBC_Init
+                         199 	.align	2
+                         200 .LDW21:
+                         201 
+                         202 	.data
+                         203 	.align	4
+                         204 .L50:
+                         205 	.type	.L50,@object
+                         206 	.size	.L50,0
+                         207 	.section ".bss","awb"
+                         208 	.align	4
+                         209 	.global	_Stbc_SourceMask..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.
+                         210 _Stbc_SourceMask..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.:
+                         211 	.type	_Stbc_SourceMask..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.,@object
+                         212 	.size	_Stbc_SourceMask..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.,4
+00000000 00000000        213 _Stbc_SourceMask:	.space	4
+                         214 	.type	_Stbc_SourceMask,@object
+                         215 	.size	_Stbc_SourceMask,4
+                         216 	.data
+                         217 	.global	_source..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.
+                         218 _source..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.:
+                         219 	.type	_source..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.,@object
+                         220 	.size	_source..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.,4
+00000000 00000000        221 _source:	.byte	0,0,0,0
+                         222 	.type	_source,@object
+                         223 	.size	_source,4
+                         224 	.global	_Stbc_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.
+                         225 _Stbc_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.:
+                         226 	.type	_Stbc_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.,@object
+                         227 	.size	_Stbc_InitStatus..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.,1
+00000004 00              228 _Stbc_InitStatus:	.byte	0
+                         229 	.type	_Stbc_InitStatus,@object
+                         230 	.size	_Stbc_InitStatus,1
+                         231 	.global	_Stbc_IsFirstCfg..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.
+                         232 _Stbc_IsFirstCfg..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.:
+                         233 	.type	_Stbc_IsFirstCfg..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.,@object
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                         234 	.size	_Stbc_IsFirstCfg..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.,1
+00000005 00              235 _Stbc_IsFirstCfg:	.byte	0
+                         236 	.type	_Stbc_IsFirstCfg,@object
+                         237 	.size	_Stbc_IsFirstCfg,1
+                         238 	.text
+                         239 
+                         240 
+                         241 --45: /***************************************************
+                         242 --46: * Function: STBC_GetInitStatus
+                         243 --47: * Description: get the STBC module init status.
+                         244 --48: * Parameters: none
+                         245 --49: * Returns:
+                         246 --50: *            FALSE(0): init failure
+                         247 --51: *            TRUE(1): init success.
+                         248 --52: *
+                         249 --53: * $Create & Verlog:$
+                         250 --54: * Author:Qinhui.Shen  Date:2016-12-14  Version:V1.0
+                         251 --55: ****************************************************/
+                         252 --56: U8 STBC_GetInitStatus(void)
+                         253 	.align	2
+                         254 	.align	2
+                         255 	.global	_STBC_GetInitStatus
+                         256 _STBC_GetInitStatus:
+00000060 210600000000*   257 	mov	_Stbc_InitStatus,r1
+                         258 --	    .bf
+                         259 .LDW31:
+                         260 --57: {
+                         261 --58:     return Stbc_InitStatus;
+00000066 2a0600000000*   262 	mov	_Stbc_InitStatus,r10
+0000006c 8a570100        263 	ld.bu	0[r10],r10
+                         264 --	    .ef
+                         265 .LDW41:
+00000070 7f00            266 	jmp	[lp]
+                         267 	.type	_STBC_GetInitStatus,@function
+                         268 	.size	_STBC_GetInitStatus,.-_STBC_GetInitStatus
+                         269 	.align	2
+                         270 .LDW51:
+                         271 
+                         272 	.data
+                         273 	.text
+                         274 
+                         275 --59: }
+                         276 
+                         277 --61: /***************************************************
+                         278 --62: * Function: STBC_EnterDeepStop
+                         279 --63: * Description: enter DEEPSTOP mode.
+                         280 --64: * Parameters:none
+                         281 --65: * Returns:none
+                         282 --66: *
+                         283 --67: * $Create & Verlog:$
+                         284 --68: * Author:Qinhui.Shen  Date:2016-12-14   Version:V1.0
+                         285 --69: ****************************************************/
+                         286 --70: void STBC_EnterDeepStop(void)
+                         287 	.align	2
+                         288 	.align	2
+                         289 	.global	_STBC_EnterDeepStop
+                         290 _STBC_EnterDeepStop:
+00000072 82076100        291 	prepare	{r29,r31},1
+00000076 3d06008061ff    292 	mov	-10387456,r29
+                         293 --	    .bf
+                         294 .LDW61:
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                         295 --71: {
+                         296 --72:     U8 res;
+                         297 --73:     
+                         298 --74:     PWM_Control(CMD_PWM_STOP, CH_PWMM_TFT);
+0000007c 0032            299 	mov	0,r6
+0000007e 003a            300 	mov	0,r7
+                         301 	jarl	_PWM_Control,lp
+                         301 <EXPANSION BEGIN>
+                         301 jarl22 _PWM_Control , lp 
+00000080 80ff0000*       301 <EXPANSION END>
+                         302 --75:     PWM_Control(CMD_PWM_STOP, CH_PWMM_PANEL);
+                         303 --line75
+                         304 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.2::
+                         305 .LDWlin2:
+00000084 0032            306 	mov	0,r6
+00000086 013a            307 	mov	1,r7
+                         308 	jarl	_PWM_Control,lp
+                         308 <EXPANSION BEGIN>
+                         308 jarl22 _PWM_Control , lp 
+00000088 80ff0000*       308 <EXPANSION END>
+                         309 --76:     PWM_Control(CMD_PWM_STOP, CH_PWMM_POINTER);
+                         310 --line76
+                         311 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.3::
+                         312 .LDWlin3:
+0000008c 0032            313 	mov	0,r6
+0000008e 023a            314 	mov	2,r7
+                         315 	jarl	_PWM_Control,lp
+                         315 <EXPANSION BEGIN>
+                         315 jarl22 _PWM_Control , lp 
+00000090 80ff0000*       315 <EXPANSION END>
+                         316 --77:     PWM_Control(CMD_PWM_STOP, CH_PWMM_INDICATOR);
+                         317 --line77
+                         318 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.4::
+                         319 .LDWlin4:
+00000094 0032            320 	mov	0,r6
+00000096 033a            321 	mov	3,r7
+                         322 	jarl	_PWM_Control,lp
+                         322 <EXPANSION BEGIN>
+                         322 jarl22 _PWM_Control , lp 
+00000098 80ff0000*       322 <EXPANSION END>
+                         323 --79:     DIO_SetIOSts(INDEX_DIO_PIN16, STATUS_IOM_LOW, &res);
+                         324 --line79
+                         325 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.5::
+                         326 .LDWlin5:
+0000009c 0932            327 	mov	9,r6
+0000009e 003a            328 	mov	0,r7
+000000a0 23460300        329 	movea	3,sp,r8
+                         330 	jarl	_DIO_SetIOSts,lp
+                         330 <EXPANSION BEGIN>
+                         330 jarl22 _DIO_SetIOSts , lp 
+000000a4 80ff0000*       330 <EXPANSION END>
+                         331 --80:     DIO_SetIOSts(INDEX_DIO_PIN10, STATUS_IOM_LOW, &res);
+                         332 --line80
+                         333 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.6::
+                         334 .LDWlin6:
+000000a8 0832            335 	mov	8,r6
+000000aa 003a            336 	mov	0,r7
+000000ac 23460300        337 	movea	3,sp,r8
+                         338 	jarl	_DIO_SetIOSts,lp
+                         338 <EXPANSION BEGIN>
+                         338 jarl22 _DIO_SetIOSts , lp 
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+000000b0 80ff0000*       338 <EXPANSION END>
+                         339 --81:     DIO_SetIOSts(INDEX_DIO_PIN86, STATUS_IOM_LOW, &res);
+                         340 --line81
+                         341 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.7::
+                         342 .LDWlin7:
+000000b4 0a32            343 	mov	10,r6
+000000b6 003a            344 	mov	0,r7
+000000b8 23460300        345 	movea	3,sp,r8
+                         346 	jarl	_DIO_SetIOSts,lp
+                         346 <EXPANSION BEGIN>
+                         346 jarl22 _DIO_SetIOSts , lp 
+000000bc 80ff0000*       346 <EXPANSION END>
+                         347 --82:     DIO_SetIOSts(INDEX_DIO_PIN87, STATUS_IOM_LOW, &res);
+                         348 --line82
+                         349 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.8::
+                         350 .LDWlin8:
+000000c0 0b32            351 	mov	11,r6
+000000c2 003a            352 	mov	0,r7
+000000c4 23460300        353 	movea	3,sp,r8
+                         354 	jarl	_DIO_SetIOSts,lp
+                         354 <EXPANSION BEGIN>
+                         354 jarl22 _DIO_SetIOSts , lp 
+000000c8 80ff0000*       354 <EXPANSION END>
+                         355 --83:     DIO_SetIOSts(INDEX_DIO_PIN88, STATUS_IOM_LOW, &res);
+                         356 --line83
+                         357 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.9::
+                         358 .LDWlin9:
+000000cc 0c32            359 	mov	12,r6
+000000ce 003a            360 	mov	0,r7
+000000d0 23460300        361 	movea	3,sp,r8
+                         362 	jarl	_DIO_SetIOSts,lp
+                         362 <EXPANSION BEGIN>
+                         362 jarl22 _DIO_SetIOSts , lp 
+000000d4 80ff0000*       362 <EXPANSION END>
+                         363 --84:     DIO_SetIOSts(INDEX_DIO_PIN89, STATUS_IOM_LOW, &res);
+                         364 --line84
+                         365 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.10::
+                         366 .LDWlin10:
+000000d8 0d32            367 	mov	13,r6
+000000da 003a            368 	mov	0,r7
+000000dc 23460300        369 	movea	3,sp,r8
+                         370 	jarl	_DIO_SetIOSts,lp
+                         370 <EXPANSION BEGIN>
+                         370 jarl22 _DIO_SetIOSts , lp 
+000000e0 80ff0000*       370 <EXPANSION END>
+                         371 --85:     DIO_SetIOSts(INDEX_DIO_PIN90, STATUS_IOM_LOW, &res);
+                         372 --line85
+                         373 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.11::
+                         374 .LDWlin11:
+000000e4 0e32            375 	mov	14,r6
+000000e6 003a            376 	mov	0,r7
+000000e8 23460300        377 	movea	3,sp,r8
+                         378 	jarl	_DIO_SetIOSts,lp
+                         378 <EXPANSION BEGIN>
+                         378 jarl22 _DIO_SetIOSts , lp 
+000000ec 80ff0000*       378 <EXPANSION END>
+                         379 --86:     DIO_SetIOSts(INDEX_DIO_PIN92, STATUS_IOM_LOW, &res);
+                         380 --line86
+                         381 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.12::
+                         382 .LDWlin12:
+000000f0 20361000        383 	movea	16,zero,r6
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+000000f4 003a            384 	mov	0,r7
+000000f6 23460300        385 	movea	3,sp,r8
+                         386 	jarl	_DIO_SetIOSts,lp
+                         386 <EXPANSION BEGIN>
+                         386 jarl22 _DIO_SetIOSts , lp 
+000000fa 80ff0000*       386 <EXPANSION END>
+                         387 --87:     DIO_SetIOSts(INDEX_DIO_PIN142, STATUS_IOM_HIGH, &res);
+                         388 --line87
+                         389 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.13::
+                         390 .LDWlin13:
+000000fe 20361100        391 	movea	17,zero,r6
+00000102 013a            392 	mov	1,r7
+00000104 23460300        393 	movea	3,sp,r8
+                         394 	jarl	_DIO_SetIOSts,lp
+                         394 <EXPANSION BEGIN>
+                         394 jarl22 _DIO_SetIOSts , lp 
+00000108 80ff0000*       394 <EXPANSION END>
+                         395 --88:     DIO_SetIOSts(INDEX_DIO_PIN79, STATUS_IOM_LOW, &res);
+                         396 --line88
+                         397 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.14::
+                         398 .LDWlin14:
+0000010c 20361300        399 	movea	19,zero,r6
+00000110 003a            400 	mov	0,r7
+00000112 23460300        401 	movea	3,sp,r8
+                         402 	jarl	_DIO_SetIOSts,lp
+                         402 <EXPANSION BEGIN>
+                         402 jarl22 _DIO_SetIOSts , lp 
+00000116 80ff0000*       402 <EXPANSION END>
+                         403 --89:     DIO_SetIOSts(INDEX_DIO_PIN80, STATUS_IOM_LOW, &res);
+                         404 --line89
+                         405 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.15::
+                         406 .LDWlin15:
+0000011a 20361400        407 	movea	20,zero,r6
+0000011e 003a            408 	mov	0,r7
+00000120 23460300        409 	movea	3,sp,r8
+                         410 	jarl	_DIO_SetIOSts,lp
+                         410 <EXPANSION BEGIN>
+                         410 jarl22 _DIO_SetIOSts , lp 
+00000124 80ff0000*       410 <EXPANSION END>
+                         411 --90:     DIO_SetIOSts(INDEX_DIO_PIN81, STATUS_IOM_LOW, &res);
+                         412 --line90
+                         413 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.16::
+                         414 .LDWlin16:
+00000128 20361500        415 	movea	21,zero,r6
+0000012c 003a            416 	mov	0,r7
+0000012e 23460300        417 	movea	3,sp,r8
+                         418 	jarl	_DIO_SetIOSts,lp
+                         418 <EXPANSION BEGIN>
+                         418 jarl22 _DIO_SetIOSts , lp 
+00000132 80ff0000*       418 <EXPANSION END>
+                         419 --91:     DIO_SetIOSts(INDEX_DIO_PIN82, STATUS_IOM_LOW, &res);
+                         420 --line91
+                         421 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.17::
+                         422 .LDWlin17:
+00000136 20361600        423 	movea	22,zero,r6
+0000013a 003a            424 	mov	0,r7
+0000013c 23460300        425 	movea	3,sp,r8
+                         426 	jarl	_DIO_SetIOSts,lp
+                         426 <EXPANSION BEGIN>
+                         426 jarl22 _DIO_SetIOSts , lp 
+00000140 80ff0000*       426 <EXPANSION END>
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                         427 --93: 	R_BSP_GFX_TFT_PortStb_Init();
+                         428 --line93
+                         429 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.18::
+                         430 .LDWlin18:
+                         431 	jarl	_R_BSP_GFX_TFT_PortStb_Init,lp
+                         431 <EXPANSION BEGIN>
+                         431 jarl22 _R_BSP_GFX_TFT_PortStb_Init , lp 
+00000144 80ff0000*       431 <EXPANSION END>
+                         432 --94: 	
+                         433 --95:     /* set the IO buffer used to hold state*/
+                         434 --96:     protected_write(SYSPROTCMD0, SYSPROTS0, SYSIOHOLD, 0x007E);
+                         435 --line96
+                         436 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.19::
+                         437 .LDWlin19:
+00000148 0000            438 	nop
+                         439 .L135:
+0000014a 200ea500        440 	movea	165,zero,r1
+0000014e 80070f0800f0    441 	st.w	r1,4294443008[zero]
+00000154 200e7e00        442 	movea	126,zero,r1
+00000158 80070f0816f0    443 	st.w	r1,4294445824[zero]
+0000015e 200e81ff        444 	movea	-127,zero,r1
+00000162 80070f0816f0    445 	st.w	r1,4294445824[zero]
+00000168 200e7e00        446 	movea	126,zero,r1
+0000016c 80070f0816f0    447 	st.w	r1,4294445824[zero]
+00000172 8007490800f0    448 	ld.w	4294443012[zero],r1
+00000178 610a            449 	cmp	1,r1
+0000017a 82ed*           450 	be	.L135
+                         451 --98:     SET_BIT(PORT_AWOPFCE0, 0);
+                         452 --line98
+                         453 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.20::
+                         454 .LDWlin20:
+0000017c fd0f1d00        455 	ld.hu	28[r29],r1
+00000180 810e0100        456 	ori	1,r1,r1
+00000184 7d0f1c00        457 	st.h	r1,28[r29]
+                         458 --99:     SET_BIT(PORT_AWOPFC0, 0);
+00000188 fd0f1900        459 	ld.hu	24[r29],r1
+0000018c 810e0100        460 	ori	1,r1,r1
+00000190 7d0f1800        461 	st.h	r1,24[r29]
+                         462 --100:     SET_BIT(PORT_AWOPM0,0);
+00000194 fd0f1100        463 	ld.hu	16[r29],r1
+00000198 810e0100        464 	ori	1,r1,r1
+0000019c 7d0f1000        465 	st.h	r1,16[r29]
+                         466 --101:     SET_BIT(PORT_AWOPMC0, 0);
+000001a0 fd0f1500        467 	ld.hu	20[r29],r1
+000001a4 810e0100        468 	ori	1,r1,r1
+000001a8 7d0f1400        469 	st.h	r1,20[r29]
+                         470 --102:     CLR_BIT(PORT_AWOPIBC0, 0);
+000001ac 5d666000        471 	movhi	hi(6307840),r29,r12
+000001b0 ec0f0140        472 	ld.hu	16384[r12],r1
+000001b4 2c0600c0c1ff    473 	mov	-4079616,r12
+000001ba c10efeff        474 	andi	65534,r1,r1
+000001be 6c0f0000        475 	st.h	r1,0[r12]
+                         476 --103:     CLR_BIT(PORT_AWOPIPC0, 0);
+000001c2 5d666000        477 	movhi	hi(6307848),r29,r12
+000001c6 ec0f0940        478 	ld.hu	16392[r12],r1
+000001ca 2c0608c0c1ff    479 	mov	-4079608,r12
+000001d0 c10efeff        480 	andi	65534,r1,r1
+000001d4 6c0f0000        481 	st.h	r1,0[r12]
+                         482 --105:     SET_BIT(PORT_AWOPFCE0, 5);
+000001d8 fd0f1d00        483 	ld.hu	28[r29],r1
+000001dc 810e2000        484 	ori	32,r1,r1
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+000001e0 7d0f1c00        485 	st.h	r1,28[r29]
+                         486 --106:     SET_BIT(PORT_AWOPFC0, 5);
+000001e4 fd0f1900        487 	ld.hu	24[r29],r1
+000001e8 810e2000        488 	ori	32,r1,r1
+000001ec 7d0f1800        489 	st.h	r1,24[r29]
+                         490 --107:     SET_BIT(PORT_AWOPM0,5);
+000001f0 fd0f1100        491 	ld.hu	16[r29],r1
+000001f4 810e2000        492 	ori	32,r1,r1
+000001f8 7d0f1000        493 	st.h	r1,16[r29]
+                         494 --108:     SET_BIT(PORT_AWOPMC0, 5);
+000001fc fd0f1500        495 	ld.hu	20[r29],r1
+00000200 810e2000        496 	ori	32,r1,r1
+00000204 7d0f1400        497 	st.h	r1,20[r29]
+                         498 --110:     CLR_BIT(PORT_AWOPFCE0, 7);
+00000208 fd0f1d00        499 	ld.hu	28[r29],r1
+0000020c c10e7fff        500 	andi	65407,r1,r1
+00000210 7d0f1c00        501 	st.h	r1,28[r29]
+                         502 --111:     CLR_BIT(PORT_AWOPFC0, 7);
+00000214 fd0f1900        503 	ld.hu	24[r29],r1
+00000218 c10e7fff        504 	andi	65407,r1,r1
+0000021c 7d0f1800        505 	st.h	r1,24[r29]
+                         506 --113:     SET_BIT(PORT_AWOPM0,7);
+00000220 fd0f1100        507 	ld.hu	16[r29],r1
+00000224 810e8000        508 	ori	128,r1,r1
+00000228 7d0f1000        509 	st.h	r1,16[r29]
+                         510 --114:     SET_BIT(PORT_AWOPMC0, 7);
+0000022c fd0f1500        511 	ld.hu	20[r29],r1
+00000230 810e8000        512 	ori	128,r1,r1
+00000234 7d0f1400        513 	st.h	r1,20[r29]
+                         514 --115:     
+                         515 --116:     FCLA0CTL6 = 0x04;
+00000238 040a            516 	mov	4,r1
+0000023a 80078d098086    517 	st.b	r1,4290986008[zero]
+                         518 --117:     FCLA0CTL7 = 0x02;
+00000240 020a            519 	mov	2,r1
+00000242 8007cd098086    520 	st.b	r1,4290986012[zero]
+                         521 --118:     FCLA1CTL1 = 0x02;
+00000248 020a            522 	mov	2,r1
+0000024a 80074d088286    523 	st.b	r1,4290986244[zero]
+                         524 --122:     INTC1EIC11 = 0x004F;
+00000250 200e4f00        525 	movea	79,zero,r1
+00000254 a0076d09d4fd    526 	st.h	r1,4294896150[zero]
+                         527 --125:     /* Set interrupt flags */
+                         528 --126:     INTC1EIC11 &= 0xEF7F;
+0000025a a0076709d4fd    529 	ld.hu	4294896150[zero],r1
+00000260 c10e7fef        530 	andi	61311,r1,r1
+00000264 a0076d09d4fd    531 	st.h	r1,4294896150[zero]
+                         532 --129:     /* Clear all the wakeup factor
+                         533 --130:     WUFC0     - Wake-Up Factor Registers
+                         534 --131:     b31:b0      WUFy         - Indicates the generation of a wake-up event.  */
+                         535 --132:     SYSWUFC0 = 0xFFFFFFFFUL;
+0000026a 1f0a            536 	mov	-1,r1
+0000026c 80078f0808f0    537 	st.w	r1,4294444040[zero]
+                         538 --134:     /* Masked the interrupt of the unused wakeup factor, and Unmasked the interrupt of the wakeup factor.
+                         539 --135:     WUFMSK0   - Wake-Up Factor Mask Registers
+                         540 --136:     b31:b0      WUFMSKy      - Enables/disables a wake-up event. */
+                         541 --137:     SYSWUFMSK0 = 0xFFFFFB3FUL;// Stbc_SourceMask;        /* mask/unmask wakeup factor. */
+00000272 200e3ffb        542 	movea	-1217,zero,r1
+00000276 80074f0808f0    543 	st.w	r1,4294444036[zero]
+                         544 --139:     /*  PLL unused in this sample, so do not need the processes below*/
+                         545 --143:     /* clear RESF and RESFR*/
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                         546 --144:     SYSRESFC = SYSRESF;
+0000027c 8007090e0ef0    547 	ld.w	4294444896[zero],r1
+00000282 80078f0e0ef0    548 	st.w	r1,4294444904[zero]
+                         549 --145:     SYSRESFCR = SYSRESFR;
+00000288 8007090e10f0    550 	ld.w	4294445152[zero],r1
+0000028e 80078f0e10f0    551 	st.w	r1,4294445160[zero]
+                         552 --147:     /* Shift to DEEPSTOP mode
+                         553 --148:     STBC0PSC  - Power Save Control Register
+                         554 --149:     b31:b2                   - Reserved set to 0
+                         555 --150:     b 1         STBC0DISTRG  - DEEPSTOP mode is entered. Set to 1
+                         556 --151:     b 0                      - Reserved set to 0 */
+                         557 --153: 	ADCE0.ADHALTR.UINT32 = 0x00000001UL;
+00000294 010a            558 	mov	1,r1
+00000296 80070f0806e4    559 	st.w	r1,4294050560[zero]
+                         560 --154: 	
+                         561 --155:     protected_write(SYSPROTCMD0, SYSPROTS0, SYSSTBC0PSC, 0x00000002);
+0000029c 0000            562 	nop
+                         563 .L138:
+0000029e 200ea500        564 	movea	165,zero,r1
+000002a2 80070f0800f0    565 	st.w	r1,4294443008[zero]
+000002a8 020a            566 	mov	2,r1
+000002aa 80070f0802f0    567 	st.w	r1,4294443264[zero]
+000002b0 1d0a            568 	mov	-3,r1
+000002b2 80070f0802f0    569 	st.w	r1,4294443264[zero]
+000002b8 020a            570 	mov	2,r1
+000002ba 80070f0802f0    571 	st.w	r1,4294443264[zero]
+000002c0 8007490800f0    572 	ld.w	4294443012[zero],r1
+000002c6 610a            573 	cmp	1,r1
+000002c8 b2ed*           574 	be	.L138
+                         575 --156:     while (SYSSTBC0PSC != 0x00000002 )
+                         576 --line156
+                         577 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.21::
+                         578 .LDWlin21:
+000002ca 0000            579 	nop
+                         580 .L139:
+                         581 --157:     {
+000002cc 8007090802f0    582 	ld.w	4294443264[zero],r1
+000002d2 620a            583 	cmp	2,r1
+000002d4 cafd*           584 	bne	.L139
+                         585 --158:         /* Waiting for shift to DEEPSTOP mode. */
+                         586 --159:     }
+                         587 --160:  
+                         588 --161:     while (1)
+                         589 --line161
+                         590 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.22::
+                         591 .LDWlin22:
+000002d6 0000            592 	nop
+                         593 .L144:
+                         594 --162:     {
+000002d8 8505*           595 	br	.L144
+                         596 --	    .ef
+                         597 .LDW71:
+                         598 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.23::
+                         599 .LDWlin23:
+                         600 	.type	_STBC_EnterDeepStop,@function
+                         601 	.size	_STBC_EnterDeepStop,.-_STBC_EnterDeepStop
+                         602 	.align	2
+                         603 .LDW81:
+                         604 --_res	3[sp]	local
+                         605 
+                         606 	.section ".bss","awb"
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                         607 .L264:
+                         608 	.type	.L264,@object
+                         609 	.size	.L264,0
+                         610 	.data
+                         611 	.text
+                         612 
+                         613 --163:         /* Waiting for shift to DEEPSTOP mode. */
+                         614 --164:     }
+                         615 --165: }
+                         616 
+                         617 --167: /***************************************************
+                         618 --168: * Function: STBC_WakeupType
+                         619 --169: * Description: get the wake-up source type.
+                         620 --170: * Parameters:none
+                         621 --171: * Returns:
+                         622 --172: *        wake-up source type(StbcWakeUpSource_ENUM),
+                         623 --173: *        if none then return INDEX_STBC_WKPSOURCE_ALL.
+                         624 --174: *
+                         625 --175: * $Create & Verlog:$
+                         626 --176: * Author:Qinhui.Shen  Date:2016-12-14   Version:V1.0
+                         627 --177: ****************************************************/
+                         628 --178: StbcWakeUpSource_ENUM STBC_WakeupType(void)
+                         629 	.align	2
+                         630 	.align	2
+                         631 	.global	_STBC_WakeupType
+                         632 _STBC_WakeupType:
+                         633 --	    .bf
+                         634 .LDW91:
+                         635 --179: {
+                         636 --180:     U32 val = 0;
+000002da 0072            637 	mov	0,r14
+                         638 --181:     U8 k = 0;
+000002dc 000a            639 	mov	0,r1
+                         640 --182:     StbcWakeUpSource_ENUM retval = INDEX_STBC_WKPSOURCE_ALL;
+000002de 206e1300        641 	movea	19,zero,r13
+                         642 --184:     val = (SYSWUF0 & (~SYSWUFMSK0));
+000002e2 8007496008f0    643 	ld.w	4294444036[zero],r12
+000002e8 8007095808f0    644 	ld.w	4294444032[zero],r11
+000002ee 2c60            645 	not	r12,r12
+000002f0 0c70            646 	mov	r12,r14
+000002f2 4b71            647 	and	r11,r14
+                         648 --186:     for (k = 0; k < INDEX_STBC_WKPSOURCE_ALL; k++)
+000002f4 000a            649 	mov	0,r1
+000002f6 0000            650 	nop
+                         651 .L448:
+                         652 --187:     {
+                         653 --188:         if (GET_BIT(val, k))
+000002f8 0162            654 	mov	1,r12
+000002fa e167c260        655 	shl	r1,r12,r12
+000002fe 4e61            656 	and	r14,r12
+00000300 b205*           657 	be	.L453
+                         658 --189:         {
+                         659 --190:             retval = (StbcWakeUpSource_ENUM)k;
+                         660 --line190
+                         661 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.24::
+                         662 .LDWlin24:
+00000302 0168            663 	mov	r1,r13
+                         664 --191:             break;
+00000304 e505*           665 	br	.L451
+                         666 .L453:
+                         667 --192:         }
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                         668 --193:         else
+                         669 --194:         {
+                         670 --line186
+                         671 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.25::
+                         672 .LDWlin25:
+00000306 410a            673 	add	1,r1
+00000308 8100            674 	zxb	r1
+0000030a 0106edff        675 	addi	-19,r1,zero
+0000030e d9f5*           676 	bnl	.L448
+                         677 .L451:
+                         678 --195:             /* Do Nothing. */
+                         679 --196:         }
+                         680 --197:     }
+                         681 --198:     source = retval;
+                         682 --line198
+                         683 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.26::
+                         684 .LDWlin26:
+00000310 2b0600000000*   685 	mov	_source,r11
+00000316 6b6f0100        686 	st.w	r13,0[r11]
+                         687 --199:     return retval;
+0000031a 0d50            688 	mov	r13,r10
+                         689 --	    .ef
+                         690 .LDW02:
+0000031c 7f00            691 	jmp	[lp]
+                         692 	.type	_STBC_WakeupType,@function
+                         693 	.size	_STBC_WakeupType,.-_STBC_WakeupType
+                         694 	.align	2
+                         695 .LDW12:
+                         696 --_val	r14	local
+                         697 --_k	r1	local
+                         698 --_retval	r13	local
+                         699 
+                         700 	.section ".bss","awb"
+                         701 .L496:
+                         702 	.type	.L496,@object
+                         703 	.size	.L496,0
+                         704 	.data
+                         705 	.text
+                         706 
+                         707 --200: }
+                         708 
+                         709 --203: /***************************************************
+                         710 --204: * Function: STBC_WakeUpChannel
+                         711 --205: * Description:
+                         712 --206: * Parameters:
+                         713 --207: *                input:
+                         714 --208: *                       index - specify which wake-up source will unmask.
+                         715 --209: *                       NOTE: if INDEX_STBC_WKPSOURCE_ALL, then unmask all.
+                         716 --210: * Returns:
+                         717 --211: *            RET_FAIL =  (0u),
+                         718 --212: *            RET_OK,
+                         719 --213: *            RET_INVALID,
+                         720 --214: *
+                         721 --215: * $Create & Verlog:$
+                         722 --216: * Author:Qinhui.Shen  Date:2016-12-14   Version:V1.0
+                         723 --217: * Author:Qinhui.Shen  Date:2016-12-18   Version:V1.1
+                         724 --218: *  $log: only a 'return'
+                         725 --219: ****************************************************/
+                         726 --220: U8 STBC_WakeUpChannel(StbcWakeUpSource_ENUM  index)
+                         727 	.align	2
+                         728 	.align	2
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                         729 	.global	_STBC_WakeUpChannel
+                         730 _STBC_WakeUpChannel:
+0000031e 210600000000*   731 	mov	_Stbc_InitStatus,r1
+00000324 0670            732 	mov	r6,r14
+00000326 215e0100        733 	movea	1,r1,r11
+0000032a 3e0600000000*   734 	mov	_Stbc_SourceMask,ep
+                         735 --	    .bf
+                         736 .LDW22:
+                         737 --221: {
+                         738 --222:     U8 retVal = RET_OK;
+00000330 016a            739 	mov	1,r13
+                         740 --224:     if (FALSE == Stbc_InitStatus)
+00000332 2c0600000000*   741 	mov	_Stbc_InitStatus,r12
+00000338 8c670100        742 	ld.bu	0[r12],r12
+0000033c e061            743 	cmp	zero,r12
+0000033e ba05*           744 	bne	.L546
+                         745 --225:     {
+                         746 --226:         retVal = RET_FAIL;
+                         747 --line226
+                         748 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.27::
+                         749 .LDWlin27:
+00000340 006a            750 	mov	0,r13
+00000342 852d*           751 	br	.L548
+                         752 .L546:
+                         753 --227:     }
+                         754 --228:     else if (INDEX_STBC_WKPSOURCE_ALL < index)
+                         755 --line228
+                         756 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.28::
+                         757 .LDWlin28:
+00000344 0e06edff        758 	addi	-19,r14,zero
+00000348 b705*           759 	ble	.L549
+                         760 --229:     {
+                         761 --230:         retVal = RET_INVALID;
+                         762 --line230
+                         763 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.29::
+                         764 .LDWlin29:
+0000034a 026a            765 	mov	2,r13
+0000034c b525*           766 	br	.L548
+                         767 .L549:
+                         768 --231:     }
+                         769 --232:     else if (INDEX_STBC_WKPSOURCE_ALL == index)
+                         770 --line232
+                         771 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.30::
+                         772 .LDWlin30:
+0000034e 0e06edff        773 	addi	-19,r14,zero
+00000352 8a0d*           774 	bne	.L552
+                         775 --233:     {
+                         776 --234:         Stbc_IsFirstCfg = TRUE;
+                         777 --line234
+                         778 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.31::
+                         779 .LDWlin31:
+00000354 0162            780 	mov	1,r12
+00000356 41670100        781 	st.b	r12,1[r1]
+                         782 --235:         Stbc_SourceMask = STBC_UNMASK_ALL;
+0000035a 4066f8ff        783 	movhi	hi(-524288),zero,r12
+0000035e 0165            784 	sst.w	r12,0[ep]
+00000360 951d*           785 	br	.L548
+                         786 .L552:
+                         787 --236:     }
+                         788 --237:     else
+                         789 --238:     {
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                         790 --239:         if (FALSE == Stbc_IsFirstCfg)
+                         791 --line239
+                         792 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.32::
+                         793 .LDWlin32:
+00000362 a1670100        794 	ld.bu	1[r1],r12
+00000366 e061            795 	cmp	zero,r12
+00000368 ea0d*           796 	bne	.L555
+                         797 --240:         {
+                         798 --241:             Stbc_IsFirstCfg = TRUE;
+                         799 --line241
+                         800 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.33::
+                         801 .LDWlin33:
+0000036a 0162            802 	mov	1,r12
+0000036c 41670100        803 	st.b	r12,1[r1]
+                         804 --242:             Stbc_SourceMask = 0xFFFFFFFFUL;
+00000370 1f62            805 	mov	-1,r12
+00000372 0165            806 	sst.w	r12,0[ep]
+                         807 --243:             CLR_BIT(Stbc_SourceMask, index);
+00000374 0162            808 	mov	1,r12
+00000376 ee67c260        809 	shl	r14,r12,r12
+0000037a 2c50            810 	not	r12,r10
+0000037c 0065            811 	sld.w	0[ep],r12
+0000037e 4a61            812 	and	r10,r12
+00000380 0165            813 	sst.w	r12,0[ep]
+00000382 850d*           814 	br	.L548
+                         815 .L555:
+                         816 --244:         }
+                         817 --245:         else
+                         818 --246:         {
+                         819 --247:             CLR_BIT(Stbc_SourceMask, index);
+                         820 --line247
+                         821 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc.34::
+                         822 .LDWlin34:
+00000384 0162            823 	mov	1,r12
+00000386 ee67c260        824 	shl	r14,r12,r12
+0000038a 2c50            825 	not	r12,r10
+0000038c 0065            826 	sld.w	0[ep],r12
+0000038e 4a61            827 	and	r10,r12
+00000390 0165            828 	sst.w	r12,0[ep]
+                         829 .L548:
+                         830 --248:         }
+                         831 --249:     }
+                         832 --251:     return retVal;
+00000392 0d50            833 	mov	r13,r10
+                         834 --	    .ef
+                         835 .LDW32:
+00000394 7f00            836 	jmp	[lp]
+                         837 	.type	_STBC_WakeUpChannel,@function
+                         838 	.size	_STBC_WakeUpChannel,.-_STBC_WakeUpChannel
+                         839 	.align	2
+                         840 .LDW42:
+                         841 --_retVal	r13	local
+                         842 
+                         843 --_index	r14	param
+                         844 
+                         845 	.data
+                         846 	.text
+                         847 
+                         848 --252: }
+                         849 
+                         850 --255: StbcWakeUpSource_ENUM STBC_GetWakeUpType(void)
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001v41.si
+                         851 	.align	2
+                         852 	.align	2
+                         853 	.global	_STBC_GetWakeUpType
+                         854 _STBC_GetWakeUpType:
+00000396 210600000000*   855 	mov	_source,r1
+                         856 --	    .bf
+                         857 .LDW52:
+                         858 --256: {
+                         859 --257:     return source;
+0000039c 2a0600000000*   860 	mov	_source,r10
+000003a2 2a570100        861 	ld.w	0[r10],r10
+                         862 --	    .ef
+                         863 .LDW62:
+000003a6 7f00            864 	jmp	[lp]
+                         865 	.type	_STBC_GetWakeUpType,@function
+                         866 	.size	_STBC_GetWakeUpType,.-_STBC_GetWakeUpType
+                         867 	.align	2
+                         868 .LDW72:
+                         869 
+                         870 	.data
+                         871 	.text
+                         872 
+                         873 --258: }
+                         874 	.align	2
+                         875 --_Stbc_InitStatus	_Stbc_InitStatus	static
+                         876 --_Stbc_IsFirstCfg	_Stbc_IsFirstCfg	static
+                         877 --_Stbc_SourceMask	_Stbc_SourceMask	static
+                         878 --_source	_source	static
+                         879 
+                         880 	.data
+                         881 	.ghsnote version,14
+                         882 	.ghsnote tools,3
+                         883 	.ghsnote options,144
+                         884 	.text
+                         885 	.align	2
+                         886 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cstbc...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740364..0::
+                         887 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

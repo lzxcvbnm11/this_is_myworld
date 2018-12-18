@@ -1,0 +1,1935 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\illu.dbo -source=illu.c -o .\obj\gh_00002ls1.o -list=.\obj\illu.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+Source File: illu.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\ILLU\illu.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                         112 --		-o .\obj\illu.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\ILLU\illu.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:34 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : illu.c
+                         128 --5: * Description : illu module middleware
+                         129 --6: * Author: Xueping.Chen
+                         130 --7: * Date: 2016-12-05
+                         131 --8: ******************************************************************************/
+                         132 --9: #include "illu_info.inc"
+                         133 --12: /***************************************************
+                         134 --13: * Function: ILLU_Init
+                         135 --14: * Description: the initializing of the illu module
+                         136 --15: * Parameters:  none
+                         137 --16: * Returns: none
+                         138 --17: * $Create & Verlog:$
+                         139 --18: * Author:Xueping.Chen  Date:2016-12-05   Version:V1.0
+                         140 --19: ****************************************************/
+                         141 --20: void ILLU_Init(void)
+                         142 	.text
+                         143 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036E..0::
+                         144 	.align	2
+                         145 	.global	_ILLU_Init
+                         146 _ILLU_Init:
+00000000 8807e170        147 	prepare	{r25,r26,r27,r28,r29,r31},4
+00000004 3d0600000000*   148 	mov	.L90,r29
+0000000a 3a0600000000*   149 	mov	_illu_CntValue,r26
+00000010 390600000000*   150 	mov	_insStandbyTPrm,r25
+00000016 1dd8            151 	mov	r29,r27
+                         152 --	    .bf
+                         153 .LDW01:
+                         154 --21: {
+                         155 --22:     U8 i  = 0;
+00000018 00e2            156 	mov	0,r28
+                         157 --24:     insStandbyTPrm = DIAG_GetStandbyT();
+                         158 	jarl	_DIAG_GetStandbyT,lp
+                         158 <EXPANSION BEGIN>
+                         158 jarl22 _DIAG_GetStandbyT , lp 
+0000001a 80ff0000*       158 <EXPANSION END>
+0000001e 59570000        159 	st.b	r10,0[r25]
+                         160 --26:     insTachoSpeedoIllCharPrm.data= DIAG_GetTachoSpeedoIllChar();
+                         161 --line26
+                         162 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.1::
+                         163 .LDWlin1:
+                         164 	jarl	_DIAG_GetTachoSpeedoIllChar,lp
+                         164 <EXPANSION BEGIN>
+                         164 jarl22 _DIAG_GetTachoSpeedoIllChar , lp 
+00000022 80ff0000*       164 <EXPANSION END>
+00000026 7d570d00        165 	st.w	r10,12[r29]
+                         166 --27:     insTachoSpeedoPointerIllCharPrm.data= DIAG_GetTachoSpeedoPointerIllChar();
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                         167 --line27
+                         168 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.2::
+                         169 .LDWlin2:
+                         170 	jarl	_DIAG_GetTachoSpeedoPointerIllChar,lp
+                         170 <EXPANSION BEGIN>
+                         170 jarl22 _DIAG_GetTachoSpeedoPointerIllChar , lp 
+0000002a 80ff0000*       170 <EXPANSION END>
+0000002e 7d571100        171 	st.w	r10,16[r29]
+                         172 --28:     insSegLCDWhiteIllCharPrm.data= DIAG_GetSegLCDWhiteIllChar();
+                         173 --line28
+                         174 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.3::
+                         175 .LDWlin3:
+                         176 	jarl	_DIAG_GetSegLCDWhiteIllChar,lp
+                         176 <EXPANSION BEGIN>
+                         176 jarl22 _DIAG_GetSegLCDWhiteIllChar , lp 
+00000032 80ff0000*       176 <EXPANSION END>
+00000036 7d571500        177 	st.w	r10,20[r29]
+                         178 --29:     insWarnIllCharPrm.data= DIAG_GetWarnIllChar();
+                         179 --line29
+                         180 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.4::
+                         181 .LDWlin4:
+                         182 	jarl	_DIAG_GetWarnIllChar,lp
+                         182 <EXPANSION BEGIN>
+                         182 jarl22 _DIAG_GetWarnIllChar , lp 
+0000003a 80ff0000*       182 <EXPANSION END>
+0000003e 7d571900        183 	st.w	r10,24[r29]
+                         184 --30:     insTachoSpeedoWhiteIllAFactorPrm = DIAG_GetTachoSpeedoWhiteIllAFactor();
+                         185 --line30
+                         186 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.5::
+                         187 .LDWlin5:
+                         188 	jarl	_DIAG_GetTachoSpeedoWhiteIllAFactor,lp
+                         188 <EXPANSION BEGIN>
+                         188 jarl22 _DIAG_GetTachoSpeedoWhiteIllAFactor , lp 
+00000042 80ff0000*       188 <EXPANSION END>
+00000046 7d571d00        189 	st.w	r10,28[r29]
+                         190 --31:     insMenuIllumAdEnPrm = DIAG_GetMenuIllumAdEn();
+                         191 --line31
+                         192 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.6::
+                         193 .LDWlin6:
+                         194 	jarl	_DIAG_GetMenuIllumAdEn,lp
+                         194 <EXPANSION BEGIN>
+                         194 jarl22 _DIAG_GetMenuIllumAdEn , lp 
+0000004a 80ff0000*       194 <EXPANSION END>
+0000004e 5d572400        195 	st.b	r10,36[r29]
+                         196 --32:    
+                         197 --33:     IsUIControlEn = FALSE;
+                         198 --line33
+                         199 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.7::
+                         200 .LDWlin7:
+00000052 5d072500        201 	st.b	zero,37[r29]
+                         202 --34:     NodeMissingEn = FALSE;
+00000056 5d072300        203 	st.b	zero,35[r29]
+                         204 --36:     illu_IsDay = TRUE;
+0000005a 2b0600000000*   205 	mov	_illu_IsDay,r11
+00000060 010a            206 	mov	1,r1
+00000062 4b0f0000        207 	st.b	r1,0[r11]
+                         208 --38:     illu_Event.isBeamLight = 0;
+00000066 9d0f2300        209 	ld.bu	34[r29],r1
+0000006a c10eef00        210 	andi	239,r1,r1
+0000006e 5d0f2200        211 	st.b	r1,34[r29]
+                         212 --39:     illu_Event.isKeyForgot= 0;
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+00000072 9d0f2300        213 	ld.bu	34[r29],r1
+00000076 c10ef700        214 	andi	247,r1,r1
+0000007a 5d0f2200        215 	st.b	r1,34[r29]
+                         216 --40:     illu_Event.isSideLight= 0;
+0000007e 9d0f2300        217 	ld.bu	34[r29],r1
+00000082 c10efe00        218 	andi	254,r1,r1
+00000086 5d0f2200        219 	st.b	r1,34[r29]
+                         220 --41:     illu_Event.isDone = 0;
+0000008a 9d0f2300        221 	ld.bu	34[r29],r1
+0000008e c10edf00        222 	andi	223,r1,r1
+00000092 5d0f2200        223 	st.b	r1,34[r29]
+                         224 --42:     illu_Event.isDoorFirstOpen= 1;
+00000096 9d0f2300        225 	ld.bu	34[r29],r1
+0000009a 810e4000        226 	ori	64,r1,r1
+0000009e 5d0f2200        227 	st.b	r1,34[r29]
+                         228 --43:     illu_Event.isWelcome = 0;
+000000a2 9d0f2300        229 	ld.bu	34[r29],r1
+000000a6 c10ef900        230 	andi	249,r1,r1
+000000aa 5d0f2200        231 	st.b	r1,34[r29]
+                         232 --45:     Illu_CHANNEL_EN[CHANNEL_ILLU_TFT]     = FALSE;
+000000ae 5d070400        233 	st.b	zero,4[r29]
+                         234 --46:     Illu_CHANNEL_EN[CHANNEL_ILLU_PANEL]   = FALSE;
+000000b2 5d070500        235 	st.b	zero,5[r29]
+                         236 --47:     Illu_CHANNEL_EN[CHANNEL_ILLU_POINTER] = FALSE;
+000000b6 5d070600        237 	st.b	zero,6[r29]
+                         238 --49:     illu_PWR_EN = FALSE;
+000000ba 2b0600000000*   239 	mov	_illu_PWR_EN,r11
+000000c0 4b070000        240 	st.b	zero,0[r11]
+                         241 --51:     illu_CntValue = (U16) (S_TO_MS(insStandbyTPrm) / ILLU_PROCESS_PERIOD);                      /*将时间转换为计数*/
+000000c4 990f0100        242 	ld.bu	0[r25],r1
+000000c8 20766400        243 	movea	100,zero,r14
+000000cc e10ee803        244 	mulhi	1000,r1,r1
+000000d0 ee0ffc02        245 	divq	r14,r1,zero
+000000d4 7a0f0000        246 	st.h	r1,0[r26]
+                         247 --52:     illu_GCounter = illu_CntValue;
+000000d8 fa0f0100        248 	ld.hu	0[r26],r1
+000000dc 7d0f2000        249 	st.h	r1,32[r29]
+                         250 --54:     for (i = 0; i < CHANNEL_ILLU_INDICATOR; i++)
+000000e0 00e2            251 	mov	0,r28
+000000e2 0000            252 	nop
+                         253 .L6:
+                         254 --55:     {
+                         255 --56:         illu_BackLight_Duty[i] = FALSE;
+000000e4 1cf0            256 	mov	r28,ep
+000000e6 dbf1            257 	add	r27,ep
+000000e8 8003            258 	sst.b	zero,0[ep]
+000000ea 41e2            259 	add	1,r28
+000000ec 9c00            260 	zxb	r28
+000000ee 63e2            261 	cmp	3,r28
+000000f0 a1fd*           262 	bl	.L6
+                         263 --57:     }
+                         264 --59:     illu_BackLight_Duty[CHANNEL_ILLU_INDICATOR] = (U8)(insTachoSpeedoWhiteIllAFactorPrm * ILLU_ST_BACKLIGHT_DEFAULT);
+                         265 --line59
+                         266 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.8::
+                         267 .LDWlin8:
+000000f2 3d0f1d00        268 	ld.w	28[r29],r1
+000000f6 40767a43        269 	movhi	hi(1132068864),zero,r14
+000000fa ee0f640c        270 	mulf.s	r14,r1,r1
+000000fe f10f400c        271 	trncf.suw	r1,r1
+00000102 8100            272 	zxb	r1
+00000104 5d0f0300        273 	st.b	r1,3[r29]
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                         274 --60:     illu_InitSts = ((IOM_GetModuleStatus()) && (PWMM_GetInitStatus()));
+00000108 63070100        275 	st.w	zero,0[sp]
+                         276 	jarl	_IOM_GetModuleStatus,lp
+                         276 <EXPANSION BEGIN>
+                         276 jarl22 _IOM_GetModuleStatus , lp 
+0000010c 80ff0000*       276 <EXPANSION END>
+00000110 e051            277 	cmp	zero,r10
+00000112 820d*           278 	be	.L8
+                         279 	jarl	_PWMM_GetInitStatus,lp
+                         279 <EXPANSION BEGIN>
+                         279 jarl22 _PWMM_GetInitStatus , lp 
+00000114 80ff0000*       279 <EXPANSION END>
+00000118 e051            280 	cmp	zero,r10
+0000011a c205*           281 	be	.L8
+0000011c 015a            282 	mov	1,r11
+0000011e 635f0100        283 	st.w	r11,0[sp]
+                         284 .L8:
+00000122 235f0100        285 	ld.w	0[sp],r11
+00000126 2c0600000000*   286 	mov	_illu_InitSts,r12
+0000012c 4c5f0000        287 	st.b	r11,0[r12]
+                         288 --61: }
+                         289 --line61
+                         290 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.9::
+                         291 .LDWlin9:
+00000130 0000            292 	nop
+                         293 --	    .ef
+                         294 .LDW11:
+00000132 4806ff70        295 	dispose	4,{r25,r26,r27,r28,r29,r31},[lp]
+                         296 	.type	_ILLU_Init,@function
+                         297 	.size	_ILLU_Init,.-_ILLU_Init
+                         298 	.align	2
+                         299 .LDW21:
+                         300 --_i	r28	local
+                         301 
+                         302 	.section ".bss","awb"
+                         303 	.align	4
+                         304 .L90:
+                         305 	.type	.L90,@object
+                         306 	.size	.L90,0
+                         307 	.global	_illu_BackLight_Duty..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         308 _illu_BackLight_Duty..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         309 	.type	_illu_BackLight_Duty..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         310 	.size	_illu_BackLight_Duty..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,4
+00000000 00000000        311 _illu_BackLight_Duty:	.space	4
+                         312 	.type	_illu_BackLight_Duty,@object
+                         313 	.size	_illu_BackLight_Duty,4
+                         314 	.global	_Illu_CHANNEL_EN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         315 _Illu_CHANNEL_EN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         316 	.type	_Illu_CHANNEL_EN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         317 	.size	_Illu_CHANNEL_EN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,4
+00000004 00000000        318 _Illu_CHANNEL_EN:	.space	4
+                         319 	.type	_Illu_CHANNEL_EN,@object
+                         320 	.size	_Illu_CHANNEL_EN,4
+                         321 	.global	_CurUILevel..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         322 _CurUILevel..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         323 	.type	_CurUILevel..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         324 	.size	_CurUILevel..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,4
+00000008 00000000        325 _CurUILevel:	.space	4
+                         326 	.type	_CurUILevel,@object
+                         327 	.size	_CurUILevel,4
+                         328 	.global	_insTachoSpeedoIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                         329 _insTachoSpeedoIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         330 	.type	_insTachoSpeedoIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         331 	.size	_insTachoSpeedoIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,4
+0000000c 00000000        332 _insTachoSpeedoIllCharPrm:	.space	4
+                         333 	.type	_insTachoSpeedoIllCharPrm,@object
+                         334 	.size	_insTachoSpeedoIllCharPrm,4
+                         335 	.global	_insTachoSpeedoPointerIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         336 _insTachoSpeedoPointerIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         337 	.type	_insTachoSpeedoPointerIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         338 	.size	_insTachoSpeedoPointerIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,4
+00000010 00000000        339 _insTachoSpeedoPointerIllCharPrm:	.space	4
+                         340 	.type	_insTachoSpeedoPointerIllCharPrm,@object
+                         341 	.size	_insTachoSpeedoPointerIllCharPrm,4
+                         342 	.global	_insSegLCDWhiteIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         343 _insSegLCDWhiteIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         344 	.type	_insSegLCDWhiteIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         345 	.size	_insSegLCDWhiteIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,4
+00000014 00000000        346 _insSegLCDWhiteIllCharPrm:	.space	4
+                         347 	.type	_insSegLCDWhiteIllCharPrm,@object
+                         348 	.size	_insSegLCDWhiteIllCharPrm,4
+                         349 	.global	_insWarnIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         350 _insWarnIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         351 	.type	_insWarnIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         352 	.size	_insWarnIllCharPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,4
+00000018 00000000        353 _insWarnIllCharPrm:	.space	4
+                         354 	.type	_insWarnIllCharPrm,@object
+                         355 	.size	_insWarnIllCharPrm,4
+                         356 	.global	_insTachoSpeedoWhiteIllAFactorPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         357 _insTachoSpeedoWhiteIllAFactorPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         358 	.type	_insTachoSpeedoWhiteIllAFactorPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         359 	.size	_insTachoSpeedoWhiteIllAFactorPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,4
+0000001c 00000000        360 _insTachoSpeedoWhiteIllAFactorPrm:	.space	4
+                         361 	.type	_insTachoSpeedoWhiteIllAFactorPrm,@object
+                         362 	.size	_insTachoSpeedoWhiteIllAFactorPrm,4
+                         363 	.global	_illu_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         364 _illu_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         365 	.type	_illu_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         366 	.size	_illu_GCounter..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,2
+00000020 0000            367 _illu_GCounter:	.space	2
+                         368 	.type	_illu_GCounter,@object
+                         369 	.size	_illu_GCounter,2
+                         370 	.data
+                         371 	.align	4
+                         372 	.global	_illu_CntValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         373 _illu_CntValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         374 	.type	_illu_CntValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         375 	.size	_illu_CntValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,2
+00000000 0000            376 _illu_CntValue:	.byte	0,0
+                         377 	.type	_illu_CntValue,@object
+                         378 	.size	_illu_CntValue,2
+                         379 	.global	_illu_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         380 _illu_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         381 	.type	_illu_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         382 	.size	_illu_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,1
+00000002 00              383 _illu_InitSts:	.byte	0
+                         384 	.type	_illu_InitSts,@object
+                         385 	.size	_illu_InitSts,1
+                         386 	.global	_illu_IsDay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         387 _illu_IsDay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         388 	.type	_illu_IsDay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         389 	.size	_illu_IsDay..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,1
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+00000003 01              390 _illu_IsDay:	.byte	1
+                         391 	.type	_illu_IsDay,@object
+                         392 	.size	_illu_IsDay,1
+                         393 	.section ".bss","awb"
+                         394 	.global	_illu_Event..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         395 _illu_Event..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         396 	.type	_illu_Event..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         397 	.size	_illu_Event..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,1
+00000022 00              398 _illu_Event:	.space	1
+                         399 	.type	_illu_Event,@object
+                         400 	.size	_illu_Event,1
+                         401 	.data
+                         402 	.global	_illu_PWR_EN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         403 _illu_PWR_EN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         404 	.type	_illu_PWR_EN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         405 	.size	_illu_PWR_EN..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,1
+00000004 00              406 _illu_PWR_EN:	.byte	0
+                         407 	.type	_illu_PWR_EN,@object
+                         408 	.size	_illu_PWR_EN,1
+                         409 	.section ".bss","awb"
+                         410 	.global	_NodeMissingEn..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         411 _NodeMissingEn..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         412 	.type	_NodeMissingEn..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         413 	.size	_NodeMissingEn..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,1
+00000023 00              414 _NodeMissingEn:	.space	1
+                         415 	.type	_NodeMissingEn,@object
+                         416 	.size	_NodeMissingEn,1
+                         417 	.data
+                         418 	.global	_insStandbyTPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         419 _insStandbyTPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         420 	.type	_insStandbyTPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         421 	.size	_insStandbyTPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,1
+00000005 00              422 _insStandbyTPrm:	.byte	0
+                         423 	.type	_insStandbyTPrm,@object
+                         424 	.size	_insStandbyTPrm,1
+                         425 	.section ".bss","awb"
+                         426 	.global	_insMenuIllumAdEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         427 _insMenuIllumAdEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         428 	.type	_insMenuIllumAdEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         429 	.size	_insMenuIllumAdEnPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,1
+00000024 00              430 _insMenuIllumAdEnPrm:	.space	1
+                         431 	.type	_insMenuIllumAdEnPrm,@object
+                         432 	.size	_insMenuIllumAdEnPrm,1
+                         433 	.global	_IsUIControlEn..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         434 _IsUIControlEn..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         435 	.type	_IsUIControlEn..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         436 	.size	_IsUIControlEn..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,1
+00000025 00              437 _IsUIControlEn:	.space	1
+                         438 	.type	_IsUIControlEn,@object
+                         439 	.size	_IsUIControlEn,1
+                         440 	.data
+00000006 0000            441 	.space	2
+                         442 	.global	_illu_pLightTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                         443 _illu_pLightTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         444 	.type	_illu_pLightTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@object
+                         445 	.size	_illu_pLightTab..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,16
+00000008 00000000*       446 _illu_pLightTab:	.word	_insSegLCDWhiteIllCharPrm
+0000000c 00000000*       447 	.word	_insTachoSpeedoIllCharPrm
+00000010 00000000*       448 	.word	_insTachoSpeedoPointerIllCharPrm
+00000014 00000000*       449 	.word	_insWarnIllCharPrm
+                         450 	.type	_illu_pLightTab,@object
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                         451 	.size	_illu_pLightTab,16
+                         452 	.text
+                         453 
+                         454 
+                         455 --63: /***************************************************
+                         456 --64: * Function: ILLU_Process_100ms
+                         457 --65: * Description: the process of the illu module
+                         458 --66: * Parameters:  none
+                         459 --67: * Returns: none
+                         460 --68: * $Create & Verlog:$
+                         461 --69: * Author:Xueping.Chen  Date:2016-12-05   Version:V1.0
+                         462 --70: ****************************************************/
+                         463 --71: void ILLU_Process_100ms(void)
+                         464 	.align	2
+                         465 	.align	2
+                         466 	.global	_ILLU_Process_100ms
+                         467 _ILLU_Process_100ms:
+00000136 8807e170        468 	prepare	{r25,r26,r27,r28,r29,r31},4
+0000013a 3d0600000000*   469 	mov	_illu_BackLight_Duty,r29
+00000140 1dd8            470 	mov	r29,r27
+00000142 3dd60400        471 	movea	4,r29,r26
+                         472 --	    .bf
+                         473 .LDW31:
+                         474 --72: {
+                         475 --73:     U8 res = RET_FAIL;
+00000146 00ca            476 	mov	0,r25
+                         477 --74:     U8 pwrMode = 0;
+00000148 43070000        478 	st.b	zero,0[sp]
+                         479 --76:     U8 batsts;
+                         480 --77:     U8 selfChk = 0;
+0000014c 43070200        481 	st.b	zero,2[sp]
+                         482 --79:     U8 stsvalue = 0;
+00000150 43070300        483 	st.b	zero,3[sp]
+                         484 --80:     U8 BrighressValue;
+                         485 --81: 	
+                         486 --82:     IlluPWMCh_ENUM index;
+                         487 --83:     IlluPWMCh_ENUM i = CHANNEL_ILLU_TFT;
+00000154 00e2            488 	mov	0,r28
+                         489 --85:     if (TRUE == illu_InitSts)
+00000156 210600000000*   490 	mov	_illu_InitSts,r1
+0000015c 810f0100        491 	ld.bu	0[r1],r1
+00000160 610a            492 	cmp	1,r1
+00000162 ea076101*       493 	bne	.L243
+                         494 --86:     {
+                         495 --87:     	res = BAT_GetBatFltSts(TYPE_BATDET_TD,&batsts);
+                         496 --line87
+                         497 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.10::
+                         498 .LDWlin10:
+00000166 0032            499 	mov	0,r6
+00000168 233e0100        500 	movea	1,sp,r7
+                         501 	jarl	_BAT_GetBatFltSts,lp
+                         501 <EXPANSION BEGIN>
+                         501 jarl22 _BAT_GetBatFltSts , lp 
+0000016c 80ff0000*       501 <EXPANSION END>
+00000170 0ac8            502 	mov	r10,r25
+                         503 --88: 		if (res == RET_OK) 
+                         504 --line88
+                         505 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.11::
+                         506 .LDWlin11:
+00000172 61ca            507 	cmp	1,r25
+00000174 ea074f01*       508 	bne	.L243
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                         509 --89: 		{
+                         510 --90: 			switch (batsts)
+                         511 --line90
+                         512 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.12::
+                         513 .LDWlin12:
+00000178 a30f0100        514 	ld.bu	1[sp],r1
+0000017c 5f0a            515 	add	-1,r1
+0000017e 610a            516 	cmp	1,r1
+00000180 ab05*           517 	bh	.L210
+                         518 --line95
+                         519 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.13::
+                         520 .LDWlin13:
+00000182 b565*           521 	br	.L207
+                         522 .L210:
+                         523 --91: 			{
+                         524 --92: 				case FLT_BAT_VOL_HIGH:
+                         525 --93: 				case FLT_BAT_VOL_LOW:
+                         526 --94:                     
+                         527 --95: 					break;
+                         528 --97: 				case FLT_BAT_NO:
+                         529 --98: 				default:
+                         530 --99: 			        res = PWR_GetPwrMode(&pwrMode);
+                         531 --line99
+                         532 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.14::
+                         533 .LDWlin14:
+00000184 23360000        534 	movea	0,sp,r6
+                         535 	jarl	_PWR_GetPwrMode,lp
+                         535 <EXPANSION BEGIN>
+                         535 jarl22 _PWR_GetPwrMode , lp 
+00000188 80ff0000*       535 <EXPANSION END>
+0000018c 0ac8            536 	mov	r10,r25
+                         537 --100: 			        if (RET_OK == res)
+                         538 --line100
+                         539 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.15::
+                         540 .LDWlin15:
+0000018e 61ca            541 	cmp	1,r25
+00000190 ea4d*           542 	bne	.L224
+                         543 --101: 			        {
+                         544 --102: 					    COM_GetSignalValue_8(INDEX_COM_RS_VEHSIDELGHTSTS, &stsvalue);
+                         545 --line102
+                         546 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.16::
+                         547 .LDWlin16:
+00000192 20364b00        548 	movea	75,zero,r6
+00000196 233e0300        549 	movea	3,sp,r7
+                         550 	jarl	_COM_GetSignalValue_8,lp
+                         550 <EXPANSION BEGIN>
+                         550 jarl22 _COM_GetSignalValue_8 , lp 
+0000019a 80ff0000*       550 <EXPANSION END>
+                         551 --103: 					    if (stsvalue == LIGHTOFF_ALL)
+                         552 --line103
+                         553 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.17::
+                         554 .LDWlin17:
+0000019e a30f0300        555 	ld.bu	3[sp],r1
+000001a2 e009            556 	cmp	zero,r1
+000001a4 8a0d*           557 	bne	.L213
+                         558 --104: 					    {
+                         559 --105: 					        illu_IsDay = TRUE;
+                         560 --line105
+                         561 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.18::
+                         562 .LDWlin18:
+000001a6 2b0600000000*   563 	mov	_illu_IsDay,r11
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+000001ac 010a            564 	mov	1,r1
+000001ae 4b0f0000        565 	st.b	r1,0[r11]
+000001b2 e505*           566 	br	.L215
+                         567 .L213:
+                         568 --106: 					    }
+                         569 --107: 					    else
+                         570 --108: 					    {
+                         571 --109: 					        illu_IsDay = FALSE;
+                         572 --line109
+                         573 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.19::
+                         574 .LDWlin19:
+000001b4 2b0600000000*   575 	mov	_illu_IsDay,r11
+000001ba 4b070000        576 	st.b	zero,0[r11]
+                         577 .L215:
+                         578 --110: 					    }					    
+                         579 --112: 			            switch (pwrMode)
+000001be 830f0100        580 	ld.bu	0[sp],r1
+000001c2 610a            581 	cmp	1,r1
+000001c4 cb05*           582 	bh	.L219
+                         583 --113: 			            {
+                         584 --114: 			                case PWR_OFF:
+                         585 --115: 			                case PWR_ACC:
+                         586 --116: 			                    illu_PwrNotKL15_Process();
+                         587 --line116
+                         588 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.20::
+                         589 .LDWlin20:
+                         590 	jarl	_illu_PwrNotKL15_Process,lp
+                         590 <EXPANSION BEGIN>
+                         590 jarl22 _illu_PwrNotKL15_Process , lp 
+000001c6 80ff0201*       590 <EXPANSION END>
+                         591 --line117
+                         592 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.21::
+                         593 .LDWlin21:
+000001ca 8515*           594 	br	.L216
+                         595 .L219:
+                         596 --117: 			                    break;
+                         597 --118: 			                default:
+                         598 --119: 			                    illu_Event.isDoorFirstOpen= 0;
+                         599 --line119
+                         600 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.22::
+                         601 .LDWlin22:
+000001cc 9d0f2300        602 	ld.bu	34[r29],r1
+000001d0 c10ebf00        603 	andi	191,r1,r1
+000001d4 5d0f2200        604 	st.b	r1,34[r29]
+                         605 --120: 			                    illu_Event.isWelcome = 0;
+000001d8 9d0f2300        606 	ld.bu	34[r29],r1
+000001dc c10ef900        607 	andi	249,r1,r1
+000001e0 5d0f2200        608 	st.b	r1,34[r29]
+                         609 --122: 			                    illu_NormalProcess();
+                         610 	jarl	_illu_NormalProcess,lp
+                         610 <EXPANSION BEGIN>
+                         610 jarl22 _illu_NormalProcess , lp 
+000001e4 80ff1202*       610 <EXPANSION END>
+                         611 --line123
+                         612 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.23::
+                         613 .LDWlin23:
+000001e8 0000            614 	nop
+                         615 .L216:
+                         616 --123: 			                    break;
+                         617 --124: 			            }
+                         618 --126: 			            Illu_CHANNEL_EN[CHANNEL_ILLU_INDICATOR] =TRUE;
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+000001ea 010a            619 	mov	1,r1
+000001ec 5d0f0700        620 	st.b	r1,7[r29]
+                         621 --128:                          illu_CalIlluBackLightDuty();
+                         622 	jarl	_illu_CalIlluBackLightDuty,lp
+                         622 <EXPANSION BEGIN>
+                         622 jarl22 _illu_CalIlluBackLightDuty , lp 
+000001f0 80ff7602*       622 <EXPANSION END>
+                         623 --130: 						res = PWR_GetChkStatus(&selfChk);
+                         624 --line130
+                         625 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.24::
+                         626 .LDWlin24:
+000001f4 23360200        627 	movea	2,sp,r6
+                         628 	jarl	_PWR_GetChkStatus,lp
+                         628 <EXPANSION BEGIN>
+                         628 jarl22 _PWR_GetChkStatus , lp 
+000001f8 80ff0000*       628 <EXPANSION END>
+000001fc 0ac8            629 	mov	r10,r25
+                         630 --131: 						switch(selfChk)
+                         631 --line131
+                         632 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.25::
+                         633 .LDWlin25:
+000001fe 830f0300        634 	ld.bu	2[sp],r1
+00000202 610a            635 	cmp	1,r1
+00000204 ba15*           636 	bne	.L223
+                         637 --132: 						{
+                         638 --133: 							case STATUS_SLFCHK_ING:
+                         639 --134:                                illu_BackLight_Duty[CHANNEL_ILLU_INDICATOR] 
+                         640 --line134
+                         641 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.26::
+                         642 .LDWlin26:
+00000206 9d0f1900        643 	ld.bu	24[r29],r1
+0000020a 2b069999d93f    644 	mov	1071225241,r11
+00000210 2a069a999999    645 	mov	-1717986918,r10
+00000216 f00f5264        646 	cvtf.uwd	r1,r12
+0000021a ec577464        647 	mulf.d	r12,r10,r12
+0000021e f167500c        648 	trncf.duw	r12,r1
+00000222 8100            649 	zxb	r1
+00000224 5d0f0300        650 	st.b	r1,3[r29]
+00000228 a505*           651 	br	.L224
+                         652 .L223:
+                         653 --line140
+                         654 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.27::
+                         655 .LDWlin27:
+0000022a 0000            656 	nop
+                         657 .L224:
+                         658 --135:                                =(U8)(0.4 * insWarnIllCharPrm.prm.BYTE[0]);
+                         659 --136: 								break;								
+                         660 --137: 							case STATUS_SLFCHK_NOT_READY: 
+                         661 --138: 							case STATUS_SLFCHK_FINISH:
+                         662 --139: 							default:
+                         663 --140: 								break;
+                         664 --141: 						}
+                         665 --142: 		        	}
+                         666 --143: 					else
+                         667 --144: 					{
+                         668 --145: 					}
+                         669 --146: 					
+                         670 --147:                     if (FALSE ==illu_PWR_EN)
+0000022c 210600000000*   671 	mov	_illu_PWR_EN,r1
+00000232 810f0100        672 	ld.bu	0[r1],r1
+00000236 e009            673 	cmp	zero,r1
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+00000238 fa05*           674 	bne	.L227
+                         675 --148:                     {
+                         676 --149:                         illu_PWR_EN =TRUE;
+                         677 --line149
+                         678 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.28::
+                         679 .LDWlin28:
+0000023a 2b0600000000*   680 	mov	_illu_PWR_EN,r11
+00000240 010a            681 	mov	1,r1
+00000242 4b0f0000        682 	st.b	r1,0[r11]
+                         683 .L227:
+                         684 --150:                     }
+                         685 --151: 					else
+                         686 --152: 					{
+00000246 0000            687 	nop
+                         688 .L207:
+                         689 --153: 					}
+                         690 --154: 					break;
+                         691 --155: 			}
+                         692 --157:             if((TRUE == COM_GetNetWorkSleepSts())
+                         693 	jarl	_COM_GetNetWorkSleepSts,lp
+                         693 <EXPANSION BEGIN>
+                         693 jarl22 _COM_GetNetWorkSleepSts , lp 
+00000248 80ff0000*       693 <EXPANSION END>
+0000024c 6152            694 	cmp	1,r10
+0000024e 920d*           695 	be	.L229
+00000250 a30f0100        696 	ld.bu	1[sp],r1
+00000254 610a            697 	cmp	1,r1
+00000256 d205*           698 	be	.L229
+00000258 a30f0100        699 	ld.bu	1[sp],r1
+0000025c 620a            700 	cmp	2,r1
+0000025e 9a15*           701 	bne	.L235
+                         702 .L229:
+                         703 --158:                 || (FLT_BAT_VOL_HIGH == batsts)
+                         704 --159:                 || (FLT_BAT_VOL_LOW == batsts))
+                         705 --160:             {
+                         706 --161:                 illu_PWR_EN = FALSE;
+                         707 --line161
+                         708 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.29::
+                         709 .LDWlin29:
+00000260 2b0600000000*   710 	mov	_illu_PWR_EN,r11
+00000266 4b070000        711 	st.b	zero,0[r11]
+                         712 --162:                 for (i =CHANNEL_ILLU_TFT; i < CHANNEL_ILLU_ALL; i++)
+0000026a 00e2            713 	mov	0,r28
+0000026c 0000            714 	nop
+                         715 .L234:
+                         716 --163:                 {                    
+                         717 --164:                     Illu_CHANNEL_EN[i] = FALSE;
+0000026e 1cf0            718 	mov	r28,ep
+00000270 daf1            719 	add	r26,ep
+00000272 8003            720 	sst.b	zero,0[ep]
+                         721 --165:                     illu_BackLight_Duty[i] = 0;
+00000274 1cf0            722 	mov	r28,ep
+00000276 dbf1            723 	add	r27,ep
+00000278 8003            724 	sst.b	zero,0[ep]
+0000027a 41e2            725 	add	1,r28
+0000027c 64e2            726 	cmp	4,r28
+0000027e 86fd*           727 	blt	.L234
+                         728 .L235:
+                         729 --166:                 }
+                         730 --167:             }
+                         731 --168: 			else
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                         732 --169: 			{
+                         733 --170: 			}
+                         734 --171: 			
+                         735 --172:             if (TRUE == illu_PWR_EN)
+                         736 --line172
+                         737 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.30::
+                         738 .LDWlin30:
+00000280 210600000000*   739 	mov	_illu_PWR_EN,r1
+00000286 810f0100        740 	ld.bu	0[r1],r1
+0000028a 610a            741 	cmp	1,r1
+0000028c ea05*           742 	bne	.L236
+                         743 --173:             {
+                         744 --174:                 IOM_SetOutPutLevel(INDEX_IOOUTPUT_LEDENABLE, STATUS_IOM_HIGH);
+                         745 --line174
+                         746 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.31::
+                         747 .LDWlin31:
+0000028e 0232            748 	mov	2,r6
+00000290 013a            749 	mov	1,r7
+                         750 	jarl	_IOM_SetOutPutLevel,lp
+                         750 <EXPANSION BEGIN>
+                         750 jarl22 _IOM_SetOutPutLevel , lp 
+00000292 80ff0000*       750 <EXPANSION END>
+00000296 d505*           751 	br	.L238
+                         752 .L236:
+                         753 --175:             }
+                         754 --176:             else
+                         755 --177:             {
+                         756 --178:                 IOM_SetOutPutLevel(INDEX_IOOUTPUT_LEDENABLE, STATUS_IOM_LOW);        
+                         757 --line178
+                         758 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.32::
+                         759 .LDWlin32:
+00000298 0232            760 	mov	2,r6
+0000029a 003a            761 	mov	0,r7
+                         762 	jarl	_IOM_SetOutPutLevel,lp
+                         762 <EXPANSION BEGIN>
+                         762 jarl22 _IOM_SetOutPutLevel , lp 
+0000029c 80ff0000*       762 <EXPANSION END>
+                         763 .L238:
+                         764 --179:             }
+                         765 --180: 			
+                         766 --181: 	      	for (i =CHANNEL_ILLU_TFT; i < CHANNEL_ILLU_ALL; i++)
+                         767 --line181
+                         768 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.33::
+                         769 .LDWlin33:
+000002a0 00e2            770 	mov	0,r28
+000002a2 0000            771 	nop
+                         772 .L241:
+                         773 --182:             {
+                         774 --183:             	PWMM_SetOutPutEnable(i, Illu_CHANNEL_EN[i]);
+000002a4 1cf0            775 	mov	r28,ep
+000002a6 daf1            776 	add	r26,ep
+000002a8 6038            777 	sld.bu	0[ep],r7
+000002aa 1c30            778 	mov	r28,r6
+                         779 	jarl	_PWMM_SetOutPutEnable,lp
+                         779 <EXPANSION BEGIN>
+                         779 jarl22 _PWMM_SetOutPutEnable , lp 
+000002ac 80ff0000*       779 <EXPANSION END>
+                         780 --184: 		 		PWMM_SetValue(i,illu_BackLight_Duty[i]);
+                         781 --line184
+                         782 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.34::
+                         783 .LDWlin34:
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+000002b0 1cf0            784 	mov	r28,ep
+000002b2 dbf1            785 	add	r27,ep
+000002b4 6038            786 	sld.bu	0[ep],r7
+000002b6 1c30            787 	mov	r28,r6
+                         788 	jarl	_PWMM_SetValue,lp
+                         788 <EXPANSION BEGIN>
+                         788 jarl22 _PWMM_SetValue , lp 
+000002b8 80ff0000*       788 <EXPANSION END>
+                         789 --line181
+                         790 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.35::
+                         791 .LDWlin35:
+000002bc 41e2            792 	add	1,r28
+000002be 64e2            793 	cmp	4,r28
+000002c0 a6f5*           794 	blt	.L241
+                         795 .L243:
+                         796 --185:             }
+                         797 --186: 		}		
+                         798 --187: 		else
+                         799 --188:         {
+                         800 --189:         	/*do nothing*/
+                         801 --190:         }
+                         802 --191:     }
+                         803 --192:    else
+                         804 --193: 	{
+                         805 --194: 		/*do nothing*/
+                         806 --195: 	}
+                         807 --196: }
+                         808 --line196
+                         809 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.36::
+                         810 .LDWlin36:
+000002c2 0000            811 	nop
+                         812 --	    .ef
+                         813 .LDW41:
+000002c4 4806ff70        814 	dispose	4,{r25,r26,r27,r28,r29,r31},[lp]
+                         815 	.type	_ILLU_Process_100ms,@function
+                         816 	.size	_ILLU_Process_100ms,.-_ILLU_Process_100ms
+                         817 	.align	2
+                         818 .LDW51:
+                         819 --_res	r25	local
+                         820 --_pwrMode	0[sp]	local
+                         821 --_batsts	1[sp]	local
+                         822 --_selfChk	2[sp]	local
+                         823 --_stsvalue	3[sp]	local
+                         824 --_i	r28	local
+                         825 
+                         826 	.data
+                         827 	.text
+                         828 
+                         829 
+                         830 --198: /***************************************************
+                         831 --199: * Function: illu_PwrNotKL15_Process
+                         832 --200: * Description: the process of the illu module in PwrNotKL15
+                         833 --201: * Parameters:  none
+                         834 --202: * Returns: none
+                         835 --203: * $Create & Verlog:$
+                         836 --204: * Author:Xueping.Chen  Date:2016-12-05   Version:V1.0
+                         837 --205: ****************************************************/
+                         838 --206: static void illu_PwrNotKL15_Process(void)
+                         839 	.align	2
+                         840 	.align	2
+                         841 	.global	_illu_PwrNotKL15_Process..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                         842 _illu_PwrNotKL15_Process..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                         843 _illu_PwrNotKL15_Process:
+000002c8 8807e170        844 	prepare	{r25,r26,r27,r28,r29,r31},4
+000002cc 3d0600000000*   845 	mov	_Illu_CHANNEL_EN,r29
+000002d2 1dd0            846 	mov	r29,r26
+000002d4 3dce1e00        847 	movea	30,r29,r25
+000002d8 3b0600000000*   848 	mov	.L760,r27
+                         849 --	    .bf
+                         850 .LDW61:
+                         851 --207: {
+                         852 --208:     U8 res = RET_FAIL;
+000002de 00e2            853 	mov	0,r28
+                         854 --209:     U8 pwrMode = 0;
+000002e0 43070200        855 	st.b	zero,2[sp]
+                         856 --210: 	
+                         857 --211:     U8 NetDoorOpenSts = 0;
+000002e4 43070300        858 	st.b	zero,3[sp]
+                         859 --212: 	
+                         860 --213:     static U8 Illu_tftDlayCnt =0;
+                         861 --214: 	
+                         862 --215:     MSG_EVENT_ENUM Cur_MsgEvt;
+                         863 --217:     res = PWR_GetPwrMode(&pwrMode);
+000002e8 23360200        864 	movea	2,sp,r6
+                         865 	jarl	_PWR_GetPwrMode,lp
+                         865 <EXPANSION BEGIN>
+                         865 jarl22 _PWR_GetPwrMode , lp 
+000002ec 80ff0000*       865 <EXPANSION END>
+000002f0 0ae0            866 	mov	r10,r28
+                         867 --218:     if (RET_OK == res)
+                         868 --line218
+                         869 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.37::
+                         870 .LDWlin37:
+000002f2 61e2            871 	cmp	1,r28
+000002f4 ea7d*           872 	bne	.L586
+                         873 --219:     {
+                         874 --221: 	COM_GetSignalValue_8(INDEX_COM_RS_DRVRDOOROPENSTS, &NetDoorOpenSts);
+                         875 --line221
+                         876 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.38::
+                         877 .LDWlin38:
+000002f6 20361700        878 	movea	23,zero,r6
+000002fa 233e0300        879 	movea	3,sp,r7
+                         880 	jarl	_COM_GetSignalValue_8,lp
+                         880 <EXPANSION BEGIN>
+                         880 jarl22 _COM_GetSignalValue_8 , lp 
+000002fe 80ff0000*       880 <EXPANSION END>
+                         881 --223:         Illu_CHANNEL_EN[CHANNEL_ILLU_TFT]     = FALSE;
+                         882 --line223
+                         883 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.39::
+                         884 .LDWlin39:
+00000302 5d070000        885 	st.b	zero,0[r29]
+                         886 --224:         Illu_CHANNEL_EN[CHANNEL_ILLU_PANEL]   = FALSE;
+00000306 5d070100        887 	st.b	zero,1[r29]
+                         888 --225:         Illu_CHANNEL_EN[CHANNEL_ILLU_POINTER] = FALSE;
+0000030a 5d070200        889 	st.b	zero,2[r29]
+                         890 --226: 		
+                         891 --227:         /*EVENT JUDGE - WELCOME*/
+                         892 --228:         if (PWR_OFF ==pwrMode &&FALSE != NetDoorOpenSts &&illu_Event.isDoorFirstOpen)
+0000030e 830f0300        893 	ld.bu	2[sp],r1
+00000312 e009            894 	cmp	zero,r1
+00000314 9a1d*           895 	bne	.L592
+00000316 a30f0300        896 	ld.bu	3[sp],r1
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+0000031a e009            897 	cmp	zero,r1
+0000031c d215*           898 	be	.L592
+0000031e 9d0f1f00        899 	ld.bu	30[r29],r1
+00000322 870a            900 	shr	7,r1
+00000324 9915*           901 	bnl	.L592
+                         902 --229:         {
+                         903 --230:             illu_Event.isDoorFirstOpen =0;
+                         904 --line230
+                         905 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.40::
+                         906 .LDWlin40:
+00000326 9d0f1f00        907 	ld.bu	30[r29],r1
+0000032a c10ebf00        908 	andi	191,r1,r1
+0000032e 5d0f1e00        909 	st.b	r1,30[r29]
+                         910 --231:             illu_Event.isWelcome =1;
+00000332 9d0f1f00        911 	ld.bu	30[r29],r1
+00000336 c10ef900        912 	andi	249,r1,r1
+0000033a 810e0200        913 	ori	2,r1,r1
+0000033e 5d0f1e00        914 	st.b	r1,30[r29]
+                         915 --232: 	    	illu_GCounter =0;
+00000342 7d071c00        916 	st.h	zero,28[r29]
+                         917 .L592:
+                         918 --234: 	#if 0
+                         919 --235: 			if((TRUE == insMenuIllumAdEnPrm) && (FALSE ==illu_IsDay))
+                         920 --236: 			{
+                         921 --237: 				IsUIControlEn = TRUE;
+                         922 --238: 			}
+                         923 --239: 			else
+                         924 --240: 			{
+                         925 --241: 				IsUIControlEn = FALSE;
+                         926 --242: 			}
+                         927 --244: 	#endif	
+                         928 --245: 	
+                         929 --246:         }
+                         930 --247:         else
+                         931 --248:         {
+                         932 --249:         	/*do nothing*/
+                         933 --250:         }
+                         934 --253: 		if((TRUE == insMenuIllumAdEnPrm) && (FALSE ==illu_IsDay))
+00000346 9d0f2100        935 	ld.bu	32[r29],r1
+0000034a 610a            936 	cmp	1,r1
+0000034c ca0d*           937 	bne	.L593
+0000034e 210600000000*   938 	mov	_illu_IsDay,r1
+00000354 810f0100        939 	ld.bu	0[r1],r1
+00000358 e009            940 	cmp	zero,r1
+0000035a da05*           941 	bne	.L593
+                         942 --254: 		{
+                         943 --255: 			IsUIControlEn = TRUE;
+                         944 --line255
+                         945 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.41::
+                         946 .LDWlin41:
+0000035c 010a            947 	mov	1,r1
+0000035e 5d0f2100        948 	st.b	r1,33[r29]
+00000362 b505*           949 	br	.L596
+                         950 .L593:
+                         951 --256: 		}
+                         952 --257: 		else
+                         953 --258: 		{
+                         954 --259: 			IsUIControlEn = FALSE;
+                         955 --line259
+                         956 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.42::
+                         957 .LDWlin42:
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+00000364 5d072100        958 	st.b	zero,33[r29]
+                         959 .L596:
+                         960 --260: 		}
+                         961 --262: 		
+                         962 --264: 	if (illu_GCounter < illu_CntValue)
+00000368 210600000000*   963 	mov	_illu_CntValue,r1
+0000036e e10f0100        964 	ld.hu	0[r1],r1
+00000372 fd771d00        965 	ld.hu	28[r29],r14
+00000376 e171            966 	cmp	r1,r14
+00000378 b91d*           967 	bnl	.L597
+                         968 --265: 	{
+                         969 --266: 		illu_GCounter ++;
+                         970 --line266
+                         971 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.43::
+                         972 .LDWlin43:
+0000037a fd0f1d00        973 	ld.hu	28[r29],r1
+0000037e 410a            974 	add	1,r1
+00000380 7d0f1c00        975 	st.h	r1,28[r29]
+                         976 --267: 		
+                         977 --268: 		if (FALSE != NetDoorOpenSts)
+00000384 a30f0300        978 	ld.bu	3[sp],r1
+00000388 e009            979 	cmp	zero,r1
+0000038a d205*           980 	be	.L599
+                         981 --269: 		{
+                         982 --270: 			Illu_tftDlayCnt =2;
+                         983 --line270
+                         984 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.44::
+                         985 .LDWlin44:
+0000038c 020a            986 	mov	2,r1
+0000038e 5b0f0000        987 	st.b	r1,0[r27]
+00000392 f505*           988 	br	.L601
+                         989 .L599:
+                         990 --271: 			//Illu_CHANNEL_EN[CHANNEL_ILLU_TFT] = TRUE;
+                         991 --272: 		}
+                         992 --273: 		else
+                         993 --274: 		{
+                         994 --275: 			illu_Event.isWelcome =0;
+                         995 --line275
+                         996 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.45::
+                         997 .LDWlin45:
+00000394 9d0f1f00        998 	ld.bu	30[r29],r1
+00000398 c10ef900        999 	andi	249,r1,r1
+0000039c 5d0f1e00       1000 	st.b	r1,30[r29]
+                        1001 .L601:
+                        1002 --276: 		}
+                        1003 --278: 		Illu_CHANNEL_EN[CHANNEL_ILLU_PANEL]   = TRUE;
+000003a0 010a           1004 	mov	1,r1
+000003a2 5d0f0100       1005 	st.b	r1,1[r29]
+                        1006 --279: 		Illu_CHANNEL_EN[CHANNEL_ILLU_POINTER] = TRUE;
+000003a6 010a           1007 	mov	1,r1
+000003a8 5d0f0200       1008 	st.b	r1,2[r29]
+000003ac f505*          1009 	br	.L602
+                        1010 .L597:
+                        1011 --280: 	}
+                        1012 --281: 	else
+                        1013 --282: 	{
+                        1014 --283: 		illu_Event.isWelcome =0;
+                        1015 --line283
+                        1016 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.46::
+                        1017 .LDWlin46:
+000003ae 9d0f1f00       1018 	ld.bu	30[r29],r1
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+000003b2 c10ef900       1019 	andi	249,r1,r1
+000003b6 5d0f1e00       1020 	st.b	r1,30[r29]
+                        1021 .L602:
+                        1022 --284: 	}
+                        1023 --286: 	if (Illu_tftDlayCnt >0) 
+000003ba 9b0f0100       1024 	ld.bu	0[r27],r1
+000003be e009           1025 	cmp	zero,r1
+000003c0 920d*          1026 	be	.L605
+                        1027 --287: 	{
+                        1028 --288: 		Illu_tftDlayCnt--;
+                        1029 --line288
+                        1030 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.47::
+                        1031 .LDWlin47:
+000003c2 9b0f0100       1032 	ld.bu	0[r27],r1
+000003c6 5f0a           1033 	add	-1,r1
+000003c8 5b0f0000       1034 	st.b	r1,0[r27]
+                        1035 --289: 		Illu_CHANNEL_EN[CHANNEL_ILLU_TFT] = TRUE;
+000003cc 010a           1036 	mov	1,r1
+000003ce 5d0f0000       1037 	st.b	r1,0[r29]
+                        1038 .L605:
+                        1039 --290: 	}
+                        1040 --291: 	else
+                        1041 --292: 	{
+                        1042 --293: 	}
+                        1043 --294: 	
+                        1044 --296:  	res = MSG_GetPopIndex(&Cur_MsgEvt);	
+000003d2 23360400       1045 	movea	4,sp,r6
+                        1046 	jarl	_MSG_GetPopIndex,lp
+                        1046 <EXPANSION BEGIN>
+                        1046 jarl22 _MSG_GetPopIndex , lp 
+000003d6 80ff0000*      1046 <EXPANSION END>
+000003da 0ae0           1047 	mov	r10,r28
+                        1048 --297:     if (INDEX_MSG_NULL !=Cur_MsgEvt)
+                        1049 --line297
+                        1050 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.48::
+                        1051 .LDWlin48:
+000003dc 230f0500       1052 	ld.w	4[sp],r1
+000003e0 e009           1053 	cmp	zero,r1
+000003e2 d205*          1054 	be	.L606
+                        1055 --298:     {
+                        1056 --299:         Illu_CHANNEL_EN[CHANNEL_ILLU_TFT] =TRUE;
+                        1057 --line299
+                        1058 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.49::
+                        1059 .LDWlin49:
+000003e4 010a           1060 	mov	1,r1
+000003e6 5d0f0000       1061 	st.b	r1,0[r29]
+000003ea b505*          1062 	br	.L586
+                        1063 .L606:
+                        1064 --300:     }
+                        1065 --301:     else
+                        1066 --302:     {
+                        1067 --303:     	NetDoorOpenSts =0;
+                        1068 --line303
+                        1069 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.50::
+                        1070 .LDWlin50:
+000003ec 43070300       1071 	st.b	zero,3[sp]
+                        1072 .L586:
+                        1073 --304:     }
+                        1074 --305: 		
+                        1075 --306:   }
+                        1076 --307: }
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+000003f0 0000           1077 	nop
+                        1078 --	    .ef
+                        1079 .LDW71:
+000003f2 4806ff70       1080 	dispose	4,{r25,r26,r27,r28,r29,r31},[lp]
+                        1081 	.type	_illu_PwrNotKL15_Process,@function
+                        1082 	.size	_illu_PwrNotKL15_Process,.-_illu_PwrNotKL15_Process
+                        1083 	.type	_illu_PwrNotKL15_Process..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@function
+                        1084 	.size	_illu_PwrNotKL15_Process..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,.-_illu_PwrNotKL15_Process..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                        1085 	.align	2
+                        1086 .LDW81:
+                        1087 --_Illu_tftDlayCnt	.L760	static
+                        1088 --_res	r28	local
+                        1089 --_pwrMode	2[sp]	local
+                        1090 --_NetDoorOpenSts	3[sp]	local
+                        1091 --_Cur_MsgEvt	4[sp]	local
+                        1092 
+                        1093 	.data
+                        1094 .L760:
+                        1095 	.global	_Illu_tftDlayCnt.illu_PwrNotKL15_Process.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu..19
+                        1096 _Illu_tftDlayCnt.illu_PwrNotKL15_Process.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu..19:
+                        1097 	.type	_Illu_tftDlayCnt.illu_PwrNotKL15_Process.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu..19,@object
+                        1098 	.size	_Illu_tftDlayCnt.illu_PwrNotKL15_Process.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu..19,1
+00000018 00             1099 	.byte	0
+                        1100 	.type	.L760,@object
+                        1101 	.size	.L760,1
+                        1102 	.text
+                        1103 
+                        1104 
+                        1105 --309: /***************************************************
+                        1106 --310: * Function: illu_NormalProcess
+                        1107 --311: * Description: the normal process of setting the illu
+                        1108 --312: * Parameters:  none
+                        1109 --313: * Returns: none
+                        1110 --314: * $Create & Verlog:$
+                        1111 --315: * Author:Xueping.Chen  Date:2016-12-05   Version:V1.0
+                        1112 --316: ****************************************************/
+                        1113 --317: static void illu_NormalProcess(void)
+                        1114 	.align	2
+                        1115 	.align	2
+                        1116 	.global	_illu_NormalProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                        1117 _illu_NormalProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                        1118 _illu_NormalProcess:
+000003f6 8207e130       1119 	prepare	{r26,r27,r28,r29,r31},1
+000003fa 3d0600000000*  1120 	mov	_Illu_CHANNEL_EN,r29
+00000400 1de0           1121 	mov	r29,r28
+00000402 3dde2100       1122 	movea	33,r29,r27
+00000406 3dd61f00       1123 	movea	31,r29,r26
+                        1124 --	    .bf
+                        1125 .LDW91:
+                        1126 --318: {
+                        1127 --319:     U8 sts = 0;
+0000040a 43070300       1128 	st.b	zero,3[sp]
+                        1129 --321:     NWD_GetNodeMissing(INDEX_BCM_NODE, &sts);
+0000040e 0432           1130 	mov	4,r6
+00000410 233e0300       1131 	movea	3,sp,r7
+                        1132 	jarl	_NWD_GetNodeMissing,lp
+                        1132 <EXPANSION BEGIN>
+                        1132 jarl22 _NWD_GetNodeMissing , lp 
+00000414 80ff0000*      1132 <EXPANSION END>
+                        1133 --323:     Illu_CHANNEL_EN[CHANNEL_ILLU_TFT]     = TRUE;
+                        1134 --line323
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                        1135 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.51::
+                        1136 .LDWlin51:
+00000418 010a           1137 	mov	1,r1
+0000041a 5d0f0000       1138 	st.b	r1,0[r29]
+                        1139 --324:     Illu_CHANNEL_EN[CHANNEL_ILLU_PANEL]   = TRUE;
+0000041e 010a           1140 	mov	1,r1
+00000420 5d0f0100       1141 	st.b	r1,1[r29]
+                        1142 --325:     Illu_CHANNEL_EN[CHANNEL_ILLU_POINTER] = TRUE;
+00000424 010a           1143 	mov	1,r1
+00000426 5d0f0200       1144 	st.b	r1,2[r29]
+                        1145 --327:     if(TRUE == sts)
+0000042a a30f0300       1146 	ld.bu	3[sp],r1
+0000042e 610a           1147 	cmp	1,r1
+00000430 da05*          1148 	bne	.L800
+                        1149 --328:     {
+                        1150 --329:     	NodeMissingEn = TRUE;
+                        1151 --line329
+                        1152 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.52::
+                        1153 .LDWlin52:
+00000432 010a           1154 	mov	1,r1
+00000434 5d0f1f00       1155 	st.b	r1,31[r29]
+00000438 b505*          1156 	br	.L802
+                        1157 .L800:
+                        1158 --330:     }
+                        1159 --331:     else
+                        1160 --332:     {
+                        1161 --333:     	NodeMissingEn = FALSE;
+                        1162 --line333
+                        1163 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.53::
+                        1164 .LDWlin53:
+0000043a 5d071f00       1165 	st.b	zero,31[r29]
+                        1166 .L802:
+                        1167 --334:     }
+                        1168 --337:     if((TRUE == insMenuIllumAdEnPrm) && (FALSE ==illu_IsDay))
+0000043e 9d0f2100       1169 	ld.bu	32[r29],r1
+00000442 610a           1170 	cmp	1,r1
+00000444 ca0d*          1171 	bne	.L803
+00000446 210600000000*  1172 	mov	_illu_IsDay,r1
+0000044c 810f0100       1173 	ld.bu	0[r1],r1
+00000450 e009           1174 	cmp	zero,r1
+00000452 da05*          1175 	bne	.L803
+                        1176 --338:     {
+                        1177 --339:     	IsUIControlEn = TRUE;
+                        1178 --line339
+                        1179 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.54::
+                        1180 .LDWlin54:
+00000454 010a           1181 	mov	1,r1
+00000456 5d0f2100       1182 	st.b	r1,33[r29]
+0000045a b505*          1183 	br	.L806
+                        1184 .L803:
+                        1185 --340:     }
+                        1186 --341:     else
+                        1187 --342:     {
+                        1188 --343:     	IsUIControlEn = FALSE;
+                        1189 --line343
+                        1190 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.55::
+                        1191 .LDWlin55:
+0000045c 5d072100       1192 	st.b	zero,33[r29]
+                        1193 .L806:
+                        1194 --344:     }
+                        1195 --346:     return;
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+00000460 0000           1196 	nop
+                        1197 --	    .ef
+                        1198 .LDW02:
+00000462 4206ff30       1199 	dispose	1,{r26,r27,r28,r29,r31},[lp]
+                        1200 	.type	_illu_NormalProcess,@function
+                        1201 	.size	_illu_NormalProcess,.-_illu_NormalProcess
+                        1202 	.type	_illu_NormalProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@function
+                        1203 	.size	_illu_NormalProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,.-_illu_NormalProcess..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                        1204 	.align	2
+                        1205 .LDW12:
+                        1206 --_sts	3[sp]	local
+                        1207 
+                        1208 	.data
+                        1209 	.text
+                        1210 
+                        1211 --347: }
+                        1212 
+                        1213 --349: /***************************************************
+                        1214 --350: * Function: illu_CalIlluBackLightDuty
+                        1215 --351: * Description: calculate duty 
+                        1216 --352: * Returns: TRUE or FALSE
+                        1217 --353: * $Create & Verlog:$
+                        1218 --354: * Author:liuyingying  Date:2017-10-17   Version:V2.0
+                        1219 --355: ****************************************************/
+                        1220 --356: static void illu_CalIlluBackLightDuty(void)
+                        1221 	.align	2
+                        1222 	.align	2
+                        1223 	.global	_illu_CalIlluBackLightDuty..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                        1224 _illu_CalIlluBackLightDuty..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.:
+                        1225 _illu_CalIlluBackLightDuty:
+00000466 210600000000*  1226 	mov	_illu_BackLight_Duty,r1
+0000046c 0160           1227 	mov	r1,r12
+0000046e 2b0600000000*  1228 	mov	_illu_pLightTab,r11
+00000474 2a06cdcccc3e   1229 	mov	1053609165,r10
+                        1230 --	    .bf
+                        1231 .LDW22:
+                        1232 --357: {
+                        1233 --359:     U8 BrighressValue;
+                        1234 --360:     U8 i = 0;
+0000047a 0072           1235 	mov	0,r14
+                        1236 --361: 	float Factor = 0.4;
+0000047c 0a68           1237 	mov	r10,r13
+                        1238 --363:     for(i = CHANNEL_ILLU_TFT; i < CHANNEL_ILLU_ALL; i ++)
+0000047e 0072           1239 	mov	0,r14
+00000480 0000           1240 	nop
+                        1241 .L899:
+                        1242 --364:     {
+                        1243 --365:     	if(CHANNEL_ILLU_PANEL== i)
+00000482 6172           1244 	cmp	1,r14
+00000484 8a15*          1245 	bne	.L900
+                        1246 --366:     		{
+                        1247 --367: 				Factor = (insTachoSpeedoWhiteIllAFactorPrm*TACHO_WHITE_FACTOR);
+                        1248 --line367
+                        1249 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.56::
+                        1250 .LDWlin56:
+00000486 214f1d00       1251 	ld.w	28[r1],r9
+0000048a 27064d62703f   1252 	mov	1064329805,r7
+00000490 2606fca9f1d2   1253 	mov	-755914244,r6
+00000496 e24f5244       1254 	cvtf.sd	r9,r8
+0000049a e6477444       1255 	mulf.d	r6,r8,r8
+0000049e e347526c       1256 	cvtf.ds	r8,r13
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+000004a2 a505*          1257 	br	.L902
+                        1258 .L900:
+                        1259 --368:     		}
+                        1260 --369: 		else
+                        1261 --370: 			{
+                        1262 --371: 				Factor = TACHO_WHITE_FACTOR *100;
+                        1263 --line371
+                        1264 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.57::
+                        1265 .LDWlin57:
+000004a4 0a68           1266 	mov	r10,r13
+                        1267 .L902:
+                        1268 --372: 			}
+                        1269 --373:        
+                        1270 --374: 						if(FALSE == NodeMissingEn)
+000004a6 a14f2300       1271 	ld.bu	35[r1],r9
+000004aa e049           1272 	cmp	zero,r9
+000004ac ba6d*          1273 	bne	.L903
+                        1274 --375: 						{
+                        1275 --376: 							if(TRUE == illu_IsDay)
+                        1276 --line376
+                        1277 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.58::
+                        1278 .LDWlin58:
+000004ae 290600000000*  1279 	mov	_illu_IsDay,r9
+000004b4 894f0100       1280 	ld.bu	0[r9],r9
+000004b8 614a           1281 	cmp	1,r9
+000004ba aa15*          1282 	bne	.L905
+                        1283 --377: 							{
+                        1284 --378: 							    illu_BackLight_Duty[i] =(U8)(Factor * illu_pLightTab[i]->BYTE[0]);
+                        1285 --line378
+                        1286 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.59::
+                        1287 .LDWlin59:
+000004bc 0e48           1288 	mov	r14,r9
+000004be 0ef0           1289 	mov	r14,ep
+000004c0 cc49           1290 	add	r12,r9
+000004c2 c2f2           1291 	shl	2,ep
+000004c4 cbf1           1292 	add	r11,ep
+000004c6 00f5           1293 	sld.w	0[ep],ep
+000004c8 6040           1294 	sld.bu	0[ep],r8
+000004ca f0474244       1295 	cvtf.uws	r8,r8
+000004ce e86f6444       1296 	mulf.s	r8,r13,r8
+000004d2 f1474044       1297 	trncf.suw	r8,r8
+000004d6 8800           1298 	zxb	r8
+000004d8 49470000       1299 	st.b	r8,0[r9]
+000004dc b565*          1300 	br	.L917
+                        1301 .L905:
+                        1302 --379: 							}
+                        1303 --380: 							else
+                        1304 --381: 							{
+                        1305 --382: 								if(TRUE == IsUIControlEn)
+                        1306 --line382
+                        1307 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.60::
+                        1308 .LDWlin60:
+000004de a14f2500       1309 	ld.bu	37[r1],r9
+000004e2 614a           1310 	cmp	1,r9
+000004e4 ea3d*          1311 	bne	.L908
+                        1312 --383: 								{
+                        1313 --384: 									switch(CurUILevel)
+                        1314 --line384
+                        1315 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.61::
+                        1316 .LDWlin61:
+000004e6 214f0900       1317 	ld.w	8[r1],r9
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+000004ea 614a           1318 	cmp	1,r9
+000004ec 913d*          1319 	bl	.L915
+000004ee d205*          1320 	be	.L912
+000004f0 634a           1321 	cmp	3,r9
+000004f2 c115*          1322 	bl	.L913
+000004f4 db35*          1323 	bh	.L915
+000004f6 b525*          1324 	br	.L914
+                        1325 .L912:
+                        1326 --385: 									{
+                        1327 --386: 										case BRIGHTNESS_ILLU_NIGLEVEL1:
+                        1328 --387: 											illu_BackLight_Duty[i] =(U8)(Factor * illu_pLightTab[i]->BYTE[3]);
+                        1329 --line387
+                        1330 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.62::
+                        1331 .LDWlin62:
+000004f8 0e48           1332 	mov	r14,r9
+000004fa 0ef0           1333 	mov	r14,ep
+000004fc cc49           1334 	add	r12,r9
+000004fe c2f2           1335 	shl	2,ep
+00000500 cbf1           1336 	add	r11,ep
+00000502 00f5           1337 	sld.w	0[ep],ep
+00000504 6340           1338 	sld.bu	3[ep],r8
+00000506 f0474244       1339 	cvtf.uws	r8,r8
+0000050a e86f6444       1340 	mulf.s	r8,r13,r8
+0000050e f1474044       1341 	trncf.suw	r8,r8
+00000512 8800           1342 	zxb	r8
+00000514 49470000       1343 	st.b	r8,0[r9]
+00000518 d545*          1344 	br	.L917
+                        1345 .L913:
+                        1346 --388: 											break;
+                        1347 --390: 										case BRIGHTNESS_ILLU_NIGLEVEL2:
+                        1348 --391: 											illu_BackLight_Duty[i] =(U8)(Factor * illu_pLightTab[i]->BYTE[2]);
+                        1349 --line391
+                        1350 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.63::
+                        1351 .LDWlin63:
+0000051a 0e48           1352 	mov	r14,r9
+0000051c 0ef0           1353 	mov	r14,ep
+0000051e cc49           1354 	add	r12,r9
+00000520 c2f2           1355 	shl	2,ep
+00000522 cbf1           1356 	add	r11,ep
+00000524 00f5           1357 	sld.w	0[ep],ep
+00000526 6240           1358 	sld.bu	2[ep],r8
+00000528 f0474244       1359 	cvtf.uws	r8,r8
+0000052c e86f6444       1360 	mulf.s	r8,r13,r8
+00000530 f1474044       1361 	trncf.suw	r8,r8
+00000534 8800           1362 	zxb	r8
+00000536 49470000       1363 	st.b	r8,0[r9]
+0000053a c535*          1364 	br	.L917
+                        1365 .L914:
+                        1366 --392: 											break;
+                        1367 --394: 										case BRIGHTNESS_ILLU_NIGLEVEL3:
+                        1368 --395: 											illu_BackLight_Duty[i] =(U8)(Factor * illu_pLightTab[i]->BYTE[1]);
+                        1369 --line395
+                        1370 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.64::
+                        1371 .LDWlin64:
+0000053c 0e48           1372 	mov	r14,r9
+0000053e 0ef0           1373 	mov	r14,ep
+00000540 cc49           1374 	add	r12,r9
+00000542 c2f2           1375 	shl	2,ep
+00000544 cbf1           1376 	add	r11,ep
+00000546 00f5           1377 	sld.w	0[ep],ep
+00000548 6140           1378 	sld.bu	1[ep],r8
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+0000054a f0474244       1379 	cvtf.uws	r8,r8
+0000054e e86f6444       1380 	mulf.s	r8,r13,r8
+00000552 f1474044       1381 	trncf.suw	r8,r8
+00000556 8800           1382 	zxb	r8
+00000558 49470000       1383 	st.b	r8,0[r9]
+0000055c b525*          1384 	br	.L917
+                        1385 .L915:
+                        1386 --line400
+                        1387 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.65::
+                        1388 .LDWlin65:
+0000055e a525*          1389 	br	.L917
+                        1390 .L908:
+                        1391 --396: 											break;
+                        1392 --398: 										case BRIGHTNESS_ILLU_DAYLEVEL:
+                        1393 --399: 										default :
+                        1394 --400: 											break;
+                        1395 --401: 									}
+                        1396 --402: 								}
+                        1397 --403: 								else
+                        1398 --404: 								{
+                        1399 --405: 								    illu_BackLight_Duty[i] =(U8)(Factor * illu_pLightTab[i]->BYTE[2]);
+                        1400 --line405
+                        1401 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.66::
+                        1402 .LDWlin66:
+00000560 0e48           1403 	mov	r14,r9
+00000562 0ef0           1404 	mov	r14,ep
+00000564 cc49           1405 	add	r12,r9
+00000566 c2f2           1406 	shl	2,ep
+00000568 cbf1           1407 	add	r11,ep
+0000056a 00f5           1408 	sld.w	0[ep],ep
+0000056c 6240           1409 	sld.bu	2[ep],r8
+0000056e f0474244       1410 	cvtf.uws	r8,r8
+00000572 e86f6444       1411 	mulf.s	r8,r13,r8
+00000576 f1474044       1412 	trncf.suw	r8,r8
+0000057a 8800           1413 	zxb	r8
+0000057c 49470000       1414 	st.b	r8,0[r9]
+00000580 9515*          1415 	br	.L917
+                        1416 .L903:
+                        1417 --406: 								}
+                        1418 --407: 							}
+                        1419 --408: 						}
+                        1420 --409: 						else/*Node Missing*/
+                        1421 --410: 						{
+                        1422 --411: 			            	illu_BackLight_Duty[i] =(U8)((Factor * 
+                        1423 --line411
+                        1424 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.67::
+                        1425 .LDWlin67:
+00000582 0ef0           1426 	mov	r14,ep
+00000584 c2f2           1427 	shl	2,ep
+00000586 cbf1           1428 	add	r11,ep
+00000588 0e48           1429 	mov	r14,r9
+0000058a 00f5           1430 	sld.w	0[ep],ep
+0000058c cc49           1431 	add	r12,r9
+0000058e 6140           1432 	sld.bu	1[ep],r8
+00000590 f0474244       1433 	cvtf.uws	r8,r8
+00000594 e86f6444       1434 	mulf.s	r8,r13,r8
+00000598 f1474044       1435 	trncf.suw	r8,r8
+0000059c 8800           1436 	zxb	r8
+0000059e 49470000       1437 	st.b	r8,0[r9]
+                        1438 .L917:
+000005a2 4172           1439 	add	1,r14
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+000005a4 8e00           1440 	zxb	r14
+000005a6 6472           1441 	cmp	4,r14
+000005a8 f107dbfe*      1442 	bl	.L899
+                        1443 --412: 			            	illu_pLightTab[i]->BYTE[1])/** ILLU_ST_BACKLIGHT_DEFAULT*/) ;
+                        1444 --413: 						}
+                        1445 --414:     }
+                        1446 --416: 	 for(i = CHANNEL_ILLU_TFT; i < CHANNEL_ILLU_ALL; i ++)
+                        1447 --line416
+                        1448 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.68::
+                        1449 .LDWlin68:
+000005ac 0072           1450 	mov	0,r14
+000005ae 0000           1451 	nop
+                        1452 .L920:
+                        1453 --417:  	 {
+                        1454 --418:  		if(ILLU_DUTY_MAX < illu_BackLight_Duty[i])
+000005b0 0ef0           1455 	mov	r14,ep
+000005b2 ccf1           1456 	add	r12,ep
+000005b4 6048           1457 	sld.bu	0[ep],r9
+000005b6 09069bff       1458 	addi	-101,r9,zero
+000005ba e905*          1459 	bnl	.L923
+                        1460 --419: 		{
+                        1461 --420: 			illu_BackLight_Duty[i] = ILLU_DUTY_MAX;
+                        1462 --line420
+                        1463 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.69::
+                        1464 .LDWlin69:
+000005bc 0ef0           1465 	mov	r14,ep
+000005be ccf1           1466 	add	r12,ep
+000005c0 204e6400       1467 	movea	100,zero,r9
+000005c4 804b           1468 	sst.b	r9,0[ep]
+                        1469 .L923:
+                        1470 --421: 		}
+                        1471 --422: 		else
+                        1472 --423: 		{
+000005c6 4172           1473 	add	1,r14
+000005c8 8e00           1474 	zxb	r14
+000005ca 6472           1475 	cmp	4,r14
+000005cc a1f5*          1476 	bl	.L920
+                        1477 --424: 		}
+                        1478 --425:  	 }
+                        1479 --426: }
+                        1480 --line426
+                        1481 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.70::
+                        1482 .LDWlin70:
+000005ce 0000           1483 	nop
+                        1484 --	    .ef
+                        1485 .LDW32:
+000005d0 7f00           1486 	jmp	[lp]
+                        1487 	.type	_illu_CalIlluBackLightDuty,@function
+                        1488 	.size	_illu_CalIlluBackLightDuty,.-_illu_CalIlluBackLightDuty
+                        1489 	.type	_illu_CalIlluBackLightDuty..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,@function
+                        1490 	.size	_illu_CalIlluBackLightDuty..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.,.-_illu_CalIlluBackLightDuty..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.
+                        1491 	.align	2
+                        1492 .LDW42:
+                        1493 --_i	r14	local
+                        1494 --_Factor	r13	local
+                        1495 
+                        1496 	.data
+                        1497 	.text
+                        1498 
+                        1499 
+                        1500 --428: /***************************************************
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                        1501 --429: * Function: ILLU_SetILLULevel
+                        1502 --430: * Description: set the level of the illu
+                        1503 --431: * Parameters:  channel : input   the channel of the illu pwm
+                        1504 --432:                           level : input   the level of the illu
+                        1505 --433: * Returns: TRUE or FALSE
+                        1506 --434: * $Create & Verlog:$
+                        1507 --435: * Author:Xueping.Chen  Date:2016-12-05   Version:V1.0
+                        1508 --436: ****************************************************/
+                        1509 --437: U8 ILLU_SetILLULevel(IlluPWMCh_ENUM channel, IlluLevel_ENUM Level)
+                        1510 	.align	2
+                        1511 	.align	2
+                        1512 	.global	_ILLU_SetILLULevel
+                        1513 _ILLU_SetILLULevel:
+000005d2 0670           1514 	mov	r6,r14
+000005d4 0708           1515 	mov	r7,r1
+                        1516 --	    .bf
+                        1517 .LDW52:
+                        1518 --438: {
+                        1519 --439: 	
+                        1520 --440:     if (FALSE == illu_InitSts)
+000005d6 2d0600000000*  1521 	mov	_illu_InitSts,r13
+000005dc 8d6f0100       1522 	ld.bu	0[r13],r13
+000005e0 e069           1523 	cmp	zero,r13
+000005e2 ba05*          1524 	bne	.L1101
+                        1525 --441:     {
+                        1526 --442:     	return RET_FAIL;
+                        1527 --line442
+                        1528 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.71::
+                        1529 .LDWlin71:
+000005e4 0052           1530 	mov	0,r10
+000005e6 d50d*          1531 	br	.L1099
+                        1532 .L1101:
+                        1533 --443:     }
+                        1534 --445:    else if ((channel >= CHANNEL_ILLU_ALL) || (Level >= BRIGHTNESS_ILLU_ALL))
+                        1535 --line445
+                        1536 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.72::
+                        1537 .LDWlin72:
+000005e8 6472           1538 	cmp	4,r14
+000005ea be05*          1539 	bge	.L1106
+000005ec 650a           1540 	cmp	5,r1
+000005ee b605*          1541 	blt	.L1105
+                        1542 .L1106:
+                        1543 --446:     {
+                        1544 --447:     	return RET_INVALID;
+                        1545 --line447
+                        1546 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.73::
+                        1547 .LDWlin73:
+000005f0 0252           1548 	mov	2,r10
+000005f2 f505*          1549 	br	.L1099
+                        1550 .L1105:
+                        1551 --448:     }
+                        1552 --449:     else
+                        1553 --450:     {
+                        1554 --451: 	    CurUILevel = Level;
+                        1555 --line451
+                        1556 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.74::
+                        1557 .LDWlin74:
+000005f4 2b0600000000*  1558 	mov	_CurUILevel,r11
+000005fa 6b0f0100       1559 	st.w	r1,0[r11]
+                        1560 --452: 	    return RET_OK;
+000005fe 0152           1561 	mov	1,r10
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                        1562 .L1099:
+                        1563 --	    .ef
+                        1564 .LDW62:
+00000600 7f00           1565 	jmp	[lp]
+                        1566 	.type	_ILLU_SetILLULevel,@function
+                        1567 	.size	_ILLU_SetILLULevel,.-_ILLU_SetILLULevel
+                        1568 	.align	2
+                        1569 .LDW72:
+                        1570 
+                        1571 --_channel	r14	param
+                        1572 --_Level	r1	param
+                        1573 
+                        1574 	.data
+                        1575 	.text
+                        1576 
+                        1577 --453:     }
+                        1578 --454: }
+                        1579 
+                        1580 --456: U8 ILLU_GetILLULevel(PU8 pLevel)
+                        1581 	.align	2
+                        1582 	.align	2
+                        1583 	.global	_ILLU_GetILLULevel
+                        1584 _ILLU_GetILLULevel:
+00000602 06f0           1585 	mov	r6,ep
+                        1586 --	    .bf
+                        1587 .LDW82:
+                        1588 --457: {
+                        1589 --459:     if(FALSE  == illu_InitSts)
+00000604 210600000000*  1590 	mov	_illu_InitSts,r1
+0000060a 810f0100       1591 	ld.bu	0[r1],r1
+0000060e e009           1592 	cmp	zero,r1
+00000610 ba05*          1593 	bne	.L1171
+                        1594 --460:     {         
+                        1595 --461:         return RET_FAIL;
+                        1596 --line461
+                        1597 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.75::
+                        1598 .LDWlin75:
+00000612 0052           1599 	mov	0,r10
+00000614 c50d*          1600 	br	.L1169
+                        1601 .L1171:
+                        1602 --462:     }
+                        1603 --463:     
+                        1604 --464:     else if(NULL_PTR == pLevel)
+                        1605 --line464
+                        1606 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.76::
+                        1607 .LDWlin76:
+00000616 e0f1           1608 	cmp	zero,ep
+00000618 ba05*          1609 	bne	.L1174
+                        1610 --465:     {            
+                        1611 --466:         return RET_INVALID;
+                        1612 --line466
+                        1613 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.77::
+                        1614 .LDWlin77:
+0000061a 0252           1615 	mov	2,r10
+0000061c 850d*          1616 	br	.L1169
+                        1617 .L1174:
+                        1618 --467:     }
+                        1619 --468:     
+                        1620 --469:     *pLevel = CurUILevel;
+                        1621 --line469
+                        1622 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu.78::
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                        1623 .LDWlin78:
+0000061e 210600000000*  1624 	mov	_CurUILevel,r1
+00000624 210f0100       1625 	ld.w	0[r1],r1
+00000628 800b           1626 	sst.b	r1,0[ep]
+                        1627 --470:     return RET_OK;
+0000062a 0152           1628 	mov	1,r10
+                        1629 .L1169:
+                        1630 --	    .ef
+                        1631 .LDW92:
+0000062c 7f00           1632 	jmp	[lp]
+                        1633 	.type	_ILLU_GetILLULevel,@function
+                        1634 	.size	_ILLU_GetILLULevel,.-_ILLU_GetILLULevel
+                        1635 	.align	2
+                        1636 .LDW03:
+                        1637 
+                        1638 --_pLevel	ep	param
+                        1639 
+                        1640 	.data
+                        1641 	.text
+                        1642 
+                        1643 --471: }
+                        1644 
+                        1645 --472: /***************************************************
+                        1646 --473: * Function: ILLU_GetWelComeSts
+                        1647 --474: * Description: get door open status
+                        1648 --475: * Parameters:  void
+                        1649 --476: * Returns: TRUE or FALSE
+                        1650 --477: * $Create & Verlog:$
+                        1651 --478: * Author:Xueping.Chen  Date:2016-12-05   Version:V1.0
+                        1652 --479: ****************************************************/
+                        1653 --480: BOOL ILLU_GetWelComeSts(void)
+                        1654 	.align	2
+                        1655 	.align	2
+                        1656 	.global	_ILLU_GetWelComeSts
+                        1657 _ILLU_GetWelComeSts:
+                        1658 --	    .bf
+                        1659 .LDW13:
+                        1660 --481: {
+                        1661 --482:     return illu_Event.isWelcome;
+0000062e 210600000000*  1662 	mov	_illu_Event,r1
+00000634 810f0100       1663 	ld.bu	0[r1],r1
+00000638 dd0a           1664 	shl	29,r1
+0000063a 9e0a           1665 	shr	30,r1
+0000063c 0150           1666 	mov	r1,r10
+                        1667 --	    .ef
+                        1668 .LDW23:
+0000063e 7f00           1669 	jmp	[lp]
+                        1670 	.type	_ILLU_GetWelComeSts,@function
+                        1671 	.size	_ILLU_GetWelComeSts,.-_ILLU_GetWelComeSts
+                        1672 	.align	2
+                        1673 .LDW33:
+                        1674 
+                        1675 	.data
+                        1676 	.text
+                        1677 
+                        1678 --483: }
+                        1679 
+                        1680 --485: BOOL ILLU_GetMenuEnable(void)
+                        1681 	.align	2
+                        1682 	.align	2
+                        1683 	.global	_ILLU_GetMenuEnable
+
+                                                                      Page 30
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                        1684 _ILLU_GetMenuEnable:
+                        1685 --	    .bf
+                        1686 .LDW43:
+                        1687 --486: {
+                        1688 --487: 	return IsUIControlEn;
+00000640 2a0600000000*  1689 	mov	_IsUIControlEn,r10
+00000646 8a570100       1690 	ld.bu	0[r10],r10
+                        1691 --	    .ef
+                        1692 .LDW53:
+0000064a 7f00           1693 	jmp	[lp]
+                        1694 	.type	_ILLU_GetMenuEnable,@function
+                        1695 	.size	_ILLU_GetMenuEnable,.-_ILLU_GetMenuEnable
+                        1696 	.align	2
+                        1697 .LDW63:
+                        1698 
+                        1699 	.data
+                        1700 	.text
+                        1701 
+                        1702 --488: }
+                        1703 
+                        1704 --490: BOOL ILLU_GetLcdOnSts(void)
+                        1705 	.align	2
+                        1706 	.align	2
+                        1707 	.global	_ILLU_GetLcdOnSts
+                        1708 _ILLU_GetLcdOnSts:
+                        1709 --	    .bf
+                        1710 .LDW73:
+                        1711 --491: {
+                        1712 --492: 	return Illu_CHANNEL_EN[CHANNEL_ILLU_TFT];
+0000064c 2a0600000000*  1713 	mov	_Illu_CHANNEL_EN,r10
+00000652 8a570100       1714 	ld.bu	0[r10],r10
+                        1715 --	    .ef
+                        1716 .LDW83:
+00000656 7f00           1717 	jmp	[lp]
+                        1718 	.type	_ILLU_GetLcdOnSts,@function
+                        1719 	.size	_ILLU_GetLcdOnSts,.-_ILLU_GetLcdOnSts
+                        1720 	.align	2
+                        1721 .LDW93:
+                        1722 
+                        1723 	.data
+                        1724 	.text
+                        1725 
+                        1726 --493: }
+                        1727 	.align	2
+                        1728 --_illu_InitSts	_illu_InitSts	static
+                        1729 --_illu_GCounter	_illu_GCounter	static
+                        1730 --_illu_IsDay	_illu_IsDay	static
+                        1731 --_illu_CntValue	_illu_CntValue	static
+                        1732 --_illu_Event	_illu_Event	static
+                        1733 --_illu_PWR_EN	_illu_PWR_EN	static
+                        1734 --_illu_BackLight_Duty	_illu_BackLight_Duty	static
+                        1735 --_Illu_CHANNEL_EN	_Illu_CHANNEL_EN	static
+                        1736 --_CurUILevel	_CurUILevel	static
+                        1737 --_NodeMissingEn	_NodeMissingEn	static
+                        1738 --_insStandbyTPrm	_insStandbyTPrm	static
+                        1739 --_insTachoSpeedoIllCharPrm	_insTachoSpeedoIllCharPrm	static
+                        1740 --_insTachoSpeedoPointerIllCharPrm	_insTachoSpeedoPointerIllCharPrm	static
+                        1741 --_insSegLCDWhiteIllCharPrm	_insSegLCDWhiteIllCharPrm	static
+                        1742 --_insWarnIllCharPrm	_insWarnIllCharPrm	static
+                        1743 --_insTachoSpeedoWhiteIllAFactorPrm	_insTachoSpeedoWhiteIllAFactorPrm	static
+                        1744 --_insMenuIllumAdEnPrm	_insMenuIllumAdEnPrm	static
+
+                                                                      Page 31
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002ls1.si
+                        1745 --_IsUIControlEn	_IsUIControlEn	static
+                        1746 --_illu_pLightTab	_illu_pLightTab	static
+                        1747 
+                        1748 	.data
+                        1749 	.ghsnote version,14
+                        1750 	.ghsnote tools,3
+                        1751 	.ghsnote options,144
+                        1752 	.text
+                        1753 	.align	2
+                        1754 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cillu...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036E..0::
+                        1755 .rh850_flags DOUBLE,FLOAT,REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,DOUBLE64,G3M

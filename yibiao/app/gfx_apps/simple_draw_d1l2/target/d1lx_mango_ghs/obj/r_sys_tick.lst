@@ -1,0 +1,938 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_sys_tick.dbo -source=r_sys_tick.c -o .\obj\gh_000040c1.o -list=.\obj\r_sys_tick.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+Source File: r_sys_tick.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                         112 --		..\..\..\..\..\device\d1x_common\src\tick\r_sys_tick.c -o
+                         113 --		.\obj\r_sys_tick.o
+                         114 --Source File:   ..\..\..\..\..\device\d1x_common\src\tick\r_sys_tick.c
+                         115 --Directory:     
+                         116 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         117 --Compile Date:  Fri Feb 02 14:22:00 2018
+                         118 --Host OS:       Win32
+                         119 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         120 --Release:       Compiler v2013.5.5
+                         121 --Revision Date: Sat Oct 05 05:01:20 2013
+                         122 --Release Date:  Sat Oct 05 05:22:44 2013
+                         123 -- ecom  -g -w
+                         124 
+                         125 --1: /*
+                         126 --2: ****************************************************************************
+                         127 --3: PROJECT : VLIB
+                         128 --4: FILE ID : $Id: r_sys_tick.c 7402 2016-01-27 15:43:39Z florian.zimmermann $
+                         129 --5: AUTHOR  : $Author: florian.zimmermann $
+                         130 --6: ============================================================================ 
+                         131 --7: DESCRIPTION
+                         132 --8: TICK driver - device dependent part for D1x
+                         133 --9: ============================================================================
+                         134 --10:                             C O P Y R I G H T
+                         135 --11: ============================================================================
+                         136 --12:                        Copyright (c) 2013 - 2014
+                         137 --13:                                   by 
+                         138 --14:                        Renesas Electronics (Europe) GmbH. 
+                         139 --15:                            Arcadiastrasse 10
+                         140 --16:                           D-40472 Duesseldorf
+                         141 --17:                                Germany
+                         142 --18:                           All rights reserved.
+                         143 --19: ============================================================================
+                         144 --20: Purpose: only for testing, not for mass production
+                         145 --22: DISCLAIMER
+                         146 --24: LICENSEE has read, understood and accepted the terms and conditions defined in
+                         147 --25: the license agreement, especially the usage rights. In any case, it is
+                         148 --26: LICENSEE's responsibility to make sure that any user of the software complies
+                         149 --27: with the terms and conditions of the signed license agreement.
+                         150 --29: SAMPLE CODE is not part of the licensed software, as such it must not be used in
+                         151 --30: mass-production applications. It can only be used for evaluation and
+                         152 --31: demonstration purposes at customer's premises listed in the signed license
+                         153 --32: agreement.
+                         154 --34: ****************************************************************************
+                         155 --35: */
+                         156 --37: #include "r_typedefs.h"
+                         157 --38: #include "r_tick_api.h"
+                         158 --39: #include "r_tick_sys.h"
+                         159 --40: #include "r_config_tick.h"
+                         160 --41: #include "r_ostm_api.h"
+                         161 --42: #include "r_dev_api.h"
+                         162 --44: #pragma ghs startnomisra
+                         163 --45: #include "v800_ghs.h"   /* __GETSR() */
+                         164 --46: #pragma ghs endnomisra
+                         165 --48: #if defined (R_DBG_PRINT_DEV_REGS) || defined (R_DBG_PRINT_MSG)
+                         166 --49:    #include <stdio.h> 
+                         167 --50:    #include "r_dbg_api.h"
+                         168 --51: #endif
+                         169 --53: /*******************************************************************************
+                         170 --54:   Section: Local Variables 
+                         171 --55: */
+                         172 --56: static uint32_t loc_CmpVal[R_TICK_MACRO_NUM]; 
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                         173 --58: /*******************************************************************************
+                         174 --59:   Section: Local Functions 
+                         175 --60: */
+                         176 --61: static void loc_OstmTimeTick(void);
+                         177 --62: static uint32_t loc_CheckInt(uint32_t Unit);
+                         178 --64: /*******************************************************************************
+                         179 --65:   Function: loc_IsrTimeTick
+                         180 --67:   ISR for Time Tick via OSTM
+                         181 --68:   
+                         182 --69:   Parameters:
+                         183 --70:   void
+                         184 --72:   Returns:
+                         185 --73:   none
+                         186 --74: */
+                         187 --75: static void loc_OstmTimeTick(void)
+                         188 	.text
+                         189 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740388..0::
+                         190 	.align	2
+                         191 	.global	_loc_OstmTimeTick..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.
+                         192 _loc_OstmTimeTick..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.:
+                         193 _loc_OstmTimeTick:
+00000000 80072100        194 	prepare	{r31},0
+                         195 --	    .bf
+                         196 .LDW01:
+                         197 --76: {
+                         198 --77:     R_TICK_Isr(0);
+00000004 0032            199 	mov	0,r6
+                         200 	jarl	_R_TICK_Isr,lp
+                         200 <EXPANSION BEGIN>
+                         200 jarl22 _R_TICK_Isr , lp 
+00000006 80ff0000*       200 <EXPANSION END>
+                         201 --78: }
+                         202 --line78
+                         203 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.1::
+                         204 .LDWlin1:
+0000000a 0000            205 	nop
+                         206 --	    .ef
+                         207 .LDW11:
+0000000c 40063f00        208 	dispose	0,{r31},[lp]
+                         209 	.type	_loc_OstmTimeTick,@function
+                         210 	.size	_loc_OstmTimeTick,.-_loc_OstmTimeTick
+                         211 	.type	_loc_OstmTimeTick..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.,@function
+                         212 	.size	_loc_OstmTimeTick..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.,.-_loc_OstmTimeTick..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.
+                         213 	.align	2
+                         214 .LDW21:
+                         215 
+                         216 	.section ".bss","awb"
+                         217 .L26:
+                         218 	.type	.L26,@object
+                         219 	.size	.L26,0
+                         220 	.data
+                         221 	.text
+                         222 
+                         223 
+                         224 --80: /*******************************************************************************
+                         225 --81:   Function: loc_CheckInt
+                         226 --83:   For time measurements when the DI bit is set.
+                         227 --84:   The return value is used to locally increment timeMS by 1.
+                         228 --85:   
+                         229 --86:   Parameters:
+                         230 --87:   Unit       - Instance number
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                         231 --88:   
+                         232 --89:   Returns:
+                         233 --90:   uint32_t
+                         234 --91: */
+                         235 --93: static uint32_t loc_CheckInt(uint32_t Unit) 
+                         236 	.align	2
+                         237 	.align	2
+                         238 	.global	_loc_CheckInt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.
+                         239 _loc_CheckInt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.:
+                         240 _loc_CheckInt:
+00000010 8007e130        241 	prepare	{r26,r27,r28,r29,r31},0
+00000014 06e8            242 	mov	r6,r29
+                         243 --	    .bf
+                         244 .LDW31:
+                         245 --94: {
+                         246 --95:     if (0 == Unit)
+00000016 e0e9            247 	cmp	zero,r29
+00000018 aa15*           248 	bne	.L43
+                         249 --96:     { 
+                         250 --	    .bs
+                         251 .LDW41:
+                         252 --97:         uint32_t locSR = __GETSR();
+                         253 --line97
+                         254 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.2::
+                         255 .LDWlin2:
+                         256 	stsr	5,r28 -- PSW
+                         256 <EXPANSION BEGIN>
+                         256 stsr 5 , r28 , 0
+0000001a e5e74000        256 <EXPANSION END>
+                         257 --98:         uint32_t locID = (locSR & (1uL << 5u));
+0000001e dcde2000        258 	andi	32,r28,r27
+                         259 --99:         
+                         260 --100:         /* Interrupts are disabled, we have to take care of the overflow ourselves */
+                         261 --101:         if (locID != 0)
+00000022 e0d9            262 	cmp	zero,r27
+00000024 8215*           263 	be	.L52
+                         264 --102:         {
+                         265 --	    .bs
+                         266 .LDW51:
+                         267 --103:             uint8_t int_flag = R_DEV_IntGetFlag((r_dev_IntSel_t)(R_DEV_INT_OSTM0 + Unit));
+                         268 --line103
+                         269 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.3::
+                         270 .LDWlin3:
+00000026 1d367d00        271 	addi	125,r29,r6
+                         272 	jarl	_R_DEV_IntGetFlag,lp
+                         272 <EXPANSION BEGIN>
+                         272 jarl22 _R_DEV_IntGetFlag , lp 
+0000002a 80ff0000*       272 <EXPANSION END>
+0000002e 0ad0            273 	mov	r10,r26
+                         274 --104:             /* A timer interrupt is pending? Handle it! */
+                         275 --105:             if (int_flag != 0)
+                         276 --line105
+                         277 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.4::
+                         278 .LDWlin4:
+00000030 e0d1            279 	cmp	zero,r26
+00000032 b205*           280 	be	.L47
+                         281 --106:             {
+                         282 --107:                 return 1;
+                         283 --line107
+                         284 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.5::
+                         285 .LDWlin5:
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+00000034 0152            286 	mov	1,r10
+00000036 850d*           287 	br	.L41
+                         288 .L47:
+                         289 --108:             }
+                         290 --109:             else
+                         291 --110:             {
+                         292 --111:                 return 0;
+                         293 --line111
+                         294 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.6::
+                         295 .LDWlin6:
+00000038 0052            296 	mov	0,r10
+0000003a e505*           297 	br	.L41
+                         298 --	    .es
+                         299 .LDW61:
+                         300 --	    .es
+                         301 .LDW71:
+                         302 .L43:
+                         303 --112:             }
+                         304 --113:         }
+                         305 --114:     }
+                         306 --115:     else 
+                         307 --116:     {
+                         308 --117:         R_DEV_ERROR(Unit, R_DEV_ERR_UNIT, "Only one tick instance supported at the moment!");  
+                         309 --line117
+                         310 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.7::
+                         311 .LDWlin7:
+0000003c 1d30            312 	mov	r29,r6
+0000003e 023a            313 	mov	2,r7
+                         314 	jarl	_R_DEV_ErrorHandler,lp
+                         314 <EXPANSION BEGIN>
+                         314 jarl22 _R_DEV_ErrorHandler , lp 
+00000040 80ff0000*       314 <EXPANSION END>
+                         315 .L52:
+                         316 --118:     }
+                         317 --119:     
+                         318 --120:     return 0;
+                         319 --line120
+                         320 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.8::
+                         321 .LDWlin8:
+00000044 0052            322 	mov	0,r10
+                         323 .L41:
+                         324 --	    .ef
+                         325 .LDW81:
+00000046 4006ff30        326 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                         327 	.type	_loc_CheckInt,@function
+                         328 	.size	_loc_CheckInt,.-_loc_CheckInt
+                         329 	.type	_loc_CheckInt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.,@function
+                         330 	.size	_loc_CheckInt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.,.-_loc_CheckInt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.
+                         331 	.align	2
+                         332 .LDW91:
+                         333 --_locSR	r28	local
+                         334 --_locID	r27	local
+                         335 --_int_flag	r26	local
+                         336 
+                         337 --_Unit	r29	param
+                         338 
+                         339 	.section ".bss","awb"
+                         340 .L92:
+                         341 	.type	.L92,@object
+                         342 	.size	.L92,0
+                         343 	.data
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                         344 	.text
+                         345 
+                         346 --121: }
+                         347 
+                         348 --125: /* Select used OSTM unit */
+                         349 --126: #define LOC_OSTM_UNIT 0u 
+                         350 --128: /*******************************************************************************
+                         351 --129:   Title: TICK Support Functions
+                         352 --131:   Implementation of the TICK support functions for the D1x device 
+                         353 --132: */
+                         354 --135: /*******************************************************************************
+                         355 --136:   Function: R_SYS_TICK_HardwareInit
+                         356 --137: */
+                         357 --138: r_tick_Error_t R_SYS_TICK_HardwareInit(uint32_t Unit) 
+                         358 	.align	2
+                         359 	.align	2
+                         360 	.align	2
+                         361 	.global	_R_SYS_TICK_HardwareInit
+                         362 _R_SYS_TICK_HardwareInit:
+0000004a 86076100        363 	prepare	{r29,r31},3
+0000004e 06e8            364 	mov	r6,r29
+                         365 --	    .bf
+                         366 .LDW02:
+                         367 --139: {
+                         368 --140:     
+                         369 --141:     r_ostm_Parameter_t ostm;
+                         370 --142:     if (0 == Unit)
+00000050 e0e9            371 	cmp	zero,r29
+00000052 ba35*           372 	bne	.L136
+                         373 --143:     { 
+                         374 --144:         ostm.Mode       = R_OSTM_INTERVAL; 
+                         375 --line144
+                         376 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.9::
+                         377 .LDWlin9:
+00000054 63070100        378 	st.w	zero,0[sp]
+                         379 --145:         /*set compare value for a 1ms interrupt */
+                         380 --146:         ostm.CmpVal     = R_OSTM_GetClock(LOC_OSTM_UNIT) / 1000; 
+00000058 0032            381 	mov	0,r6
+                         382 	jarl	_R_OSTM_GetClock,lp
+                         382 <EXPANSION BEGIN>
+                         382 jarl22 _R_OSTM_GetClock , lp 
+0000005a 80ff0000*       382 <EXPANSION END>
+0000005e 0a08            383 	mov	r10,r1
+00000060 2076e803        384 	movea	1000,zero,r14
+00000064 ee0ffe02        385 	divqu	r14,r1,zero
+00000068 630f0500        386 	st.w	r1,4[sp]
+                         387 --147:         /*set compare value for a 5ms interrupt */
+                         388 --148:         //ostm.CmpVal     = R_OSTM_GetClock(LOC_OSTM_UNIT) / 5000; 
+                         389 --149:         if (0u == ostm.CmpVal) 
+                         390 --line149
+                         391 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.10::
+                         392 .LDWlin10:
+0000006c 230f0500        393 	ld.w	4[sp],r1
+00000070 e009            394 	cmp	zero,r1
+00000072 ba05*           395 	bne	.L138
+                         396 --150:         {
+                         397 --151:             /*ERROR */
+                         398 --152:             for ( ; ; ){} 
+                         399 --line152
+                         400 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.11::
+                         401 .LDWlin11:
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+00000074 0000            402 	nop
+                         403 .L142:
+00000076 8505*           404 	br	.L142
+                         405 .L138:
+                         406 --153:         }
+                         407 --154:         loc_CmpVal[0]   = ostm.CmpVal; 
+                         408 --line154
+                         409 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.12::
+                         410 .LDWlin12:
+00000078 230f0500        411 	ld.w	4[sp],r1
+0000007c 2b0600000000*   412 	mov	_loc_CmpVal,r11
+00000082 6b0f0100        413 	st.w	r1,0[r11]
+                         414 --155:         ostm.IntCtl     = R_OSTM_START_INT_DISABLE; 
+00000086 63070900        415 	st.w	zero,8[sp]
+                         416 --156:         
+                         417 --157:         while (R_OSTM_Init(LOC_OSTM_UNIT, &ostm) != R_OSTM_ERR_OK) 
+0000008a 0000            418 	nop
+                         419 .L144:
+                         420 --158:         {
+0000008c 0032            421 	mov	0,r6
+0000008e 233e0000        422 	movea	0,sp,r7
+                         423 	jarl	_R_OSTM_Init,lp
+                         423 <EXPANSION BEGIN>
+                         423 jarl22 _R_OSTM_Init , lp 
+00000092 80ff0000*       423 <EXPANSION END>
+00000096 e051            424 	cmp	zero,r10
+00000098 aafd*           425 	bne	.L144
+                         426 --159:             /* error init OSTM*/
+                         427 --160:         }
+                         428 --161:         R_OSTM_SetIsrCallback(LOC_OSTM_UNIT, R_OSTM_INT_TINT, &loc_OstmTimeTick);
+                         429 --line161
+                         430 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.13::
+                         431 .LDWlin13:
+0000009a 280600000000*   432 	mov	_loc_OstmTimeTick,r8
+000000a0 0032            433 	mov	0,r6
+000000a2 003a            434 	mov	0,r7
+                         435 	jarl	_R_OSTM_SetIsrCallback,lp
+                         435 <EXPANSION BEGIN>
+                         435 jarl22 _R_OSTM_SetIsrCallback , lp 
+000000a4 80ff0000*       435 <EXPANSION END>
+                         436 --162:         R_OSTM_EnableInt(LOC_OSTM_UNIT, R_OSTM_INT_TINT);
+                         437 --line162
+                         438 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.14::
+                         439 .LDWlin14:
+000000a8 0032            440 	mov	0,r6
+000000aa 003a            441 	mov	0,r7
+                         442 	jarl	_R_OSTM_EnableInt,lp
+                         442 <EXPANSION BEGIN>
+                         442 jarl22 _R_OSTM_EnableInt , lp 
+000000ac 80ff0000*       442 <EXPANSION END>
+                         443 --163:         /* Start OSTM */
+                         444 --164:         R_OSTM_Start(LOC_OSTM_UNIT);
+                         445 --line164
+                         446 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.15::
+                         447 .LDWlin15:
+000000b0 0032            448 	mov	0,r6
+                         449 	jarl	_R_OSTM_Start,lp
+                         449 <EXPANSION BEGIN>
+                         449 jarl22 _R_OSTM_Start , lp 
+000000b2 80ff0000*       449 <EXPANSION END>
+000000b6 d505*           450 	br	.L147
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                         451 .L136:
+                         452 --165:     }
+                         453 --166:     else 
+                         454 --167:     {
+                         455 --168:         R_DEV_ERROR(Unit, R_DEV_ERR_UNIT, "Only one tick instance supported at the moment!");  
+                         456 --line168
+                         457 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.16::
+                         458 .LDWlin16:
+000000b8 1d30            459 	mov	r29,r6
+000000ba 023a            460 	mov	2,r7
+                         461 	jarl	_R_DEV_ErrorHandler,lp
+                         461 <EXPANSION BEGIN>
+                         461 jarl22 _R_DEV_ErrorHandler , lp 
+000000bc 80ff0000*       461 <EXPANSION END>
+                         462 .L147:
+                         463 --169:     }    
+                         464 --170:     return R_TICK_ERR_OK;
+                         465 --line170
+                         466 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.17::
+                         467 .LDWlin17:
+000000c0 0052            468 	mov	0,r10
+                         469 --	    .ef
+                         470 .LDW12:
+000000c2 46067f00        471 	dispose	3,{r29,r31},[lp]
+                         472 	.type	_R_SYS_TICK_HardwareInit,@function
+                         473 	.size	_R_SYS_TICK_HardwareInit,.-_R_SYS_TICK_HardwareInit
+                         474 	.align	2
+                         475 .LDW22:
+                         476 --_ostm	0[sp]	local
+                         477 
+                         478 --_Unit	r29	param
+                         479 
+                         480 	.section ".bss","awb"
+                         481 	.align	4
+                         482 .L196:
+                         483 	.type	.L196,@object
+                         484 	.size	.L196,0
+                         485 	.global	_loc_CmpVal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.
+                         486 _loc_CmpVal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.:
+                         487 	.type	_loc_CmpVal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.,@object
+                         488 	.size	_loc_CmpVal..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.,4
+00000000 00000000        489 _loc_CmpVal:	.space	4
+                         490 	.type	_loc_CmpVal,@object
+                         491 	.size	_loc_CmpVal,4
+                         492 	.data
+                         493 	.text
+                         494 
+                         495 --171: }
+                         496 
+                         497 --174: /*******************************************************************************
+                         498 --175:   Function: R_SYS_TICK_HardwareDeInit
+                         499 --176: */
+                         500 --177: r_tick_Error_t R_SYS_TICK_HardwareDeInit(uint32_t Unit) 
+                         501 	.align	2
+                         502 	.align	2
+                         503 	.global	_R_SYS_TICK_HardwareDeInit
+                         504 _R_SYS_TICK_HardwareDeInit:
+000000c6 80076100        505 	prepare	{r29,r31},0
+000000ca 06e8            506 	mov	r6,r29
+                         507 --	    .bf
+                         508 .LDW32:
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                         509 --178: {
+                         510 --179:     
+                         511 --180:     if (0 == Unit)
+000000cc e0e9            512 	cmp	zero,r29
+000000ce 9a0d*           513 	bne	.L252
+                         514 --181:     { 
+                         515 --182:         /* disable OSTM */
+                         516 --183:         R_OSTM_Stop(LOC_OSTM_UNIT);
+                         517 --line183
+                         518 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.18::
+                         519 .LDWlin18:
+000000d0 0032            520 	mov	0,r6
+                         521 	jarl	_R_OSTM_Stop,lp
+                         521 <EXPANSION BEGIN>
+                         521 jarl22 _R_OSTM_Stop , lp 
+000000d2 80ff0000*       521 <EXPANSION END>
+                         522 --184:         R_OSTM_DisableInt(LOC_OSTM_UNIT, R_OSTM_INT_TINT);
+                         523 --line184
+                         524 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.19::
+                         525 .LDWlin19:
+000000d6 0032            526 	mov	0,r6
+000000d8 003a            527 	mov	0,r7
+                         528 	jarl	_R_OSTM_DisableInt,lp
+                         528 <EXPANSION BEGIN>
+                         528 jarl22 _R_OSTM_DisableInt , lp 
+000000da 80ff0000*       528 <EXPANSION END>
+000000de d505*           529 	br	.L254
+                         530 .L252:
+                         531 --185:     }
+                         532 --186:     else 
+                         533 --187:     {
+                         534 --188:         R_DEV_ERROR(Unit, R_DEV_ERR_UNIT, "Only one tick instance supported at the moment!");  
+                         535 --line188
+                         536 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.20::
+                         537 .LDWlin20:
+000000e0 1d30            538 	mov	r29,r6
+000000e2 023a            539 	mov	2,r7
+                         540 	jarl	_R_DEV_ErrorHandler,lp
+                         540 <EXPANSION BEGIN>
+                         540 jarl22 _R_DEV_ErrorHandler , lp 
+000000e4 80ff0000*       540 <EXPANSION END>
+                         541 .L254:
+                         542 --189:     }    
+                         543 --190:     return R_TICK_ERR_OK;
+                         544 --line190
+                         545 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.21::
+                         546 .LDWlin21:
+000000e8 0052            547 	mov	0,r10
+                         548 --	    .ef
+                         549 .LDW42:
+000000ea 40067f00        550 	dispose	0,{r29,r31},[lp]
+                         551 	.type	_R_SYS_TICK_HardwareDeInit,@function
+                         552 	.size	_R_SYS_TICK_HardwareDeInit,.-_R_SYS_TICK_HardwareDeInit
+                         553 	.align	2
+                         554 .LDW52:
+                         555 
+                         556 --_Unit	r29	param
+                         557 
+                         558 	.section ".bss","awb"
+                         559 .L272:
+                         560 	.type	.L272,@object
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                         561 	.size	.L272,0
+                         562 	.data
+                         563 	.text
+                         564 
+                         565 --191: }
+                         566 
+                         567 --194: /*******************************************************************************
+                         568 --195:   Function: R_TICK_EnableInt
+                         569 --196: */
+                         570 --197: void R_SYS_TICK_EnableInt(uint32_t Unit) 
+                         571 	.align	2
+                         572 	.align	2
+                         573 	.global	_R_SYS_TICK_EnableInt
+                         574 _R_SYS_TICK_EnableInt:
+000000ee 80076100        575 	prepare	{r29,r31},0
+000000f2 06e8            576 	mov	r6,r29
+                         577 --	    .bf
+                         578 .LDW62:
+                         579 --198: {
+                         580 --199:     if (0 == Unit)
+000000f4 e0e9            581 	cmp	zero,r29
+000000f6 ea05*           582 	bne	.L298
+                         583 --200:     { 
+                         584 --201:         R_OSTM_EnableInt(LOC_OSTM_UNIT, R_OSTM_INT_TINT);
+                         585 --line201
+                         586 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.22::
+                         587 .LDWlin22:
+000000f8 0032            588 	mov	0,r6
+000000fa 003a            589 	mov	0,r7
+                         590 	jarl	_R_OSTM_EnableInt,lp
+                         590 <EXPANSION BEGIN>
+                         590 jarl22 _R_OSTM_EnableInt , lp 
+000000fc 80ff0000*       590 <EXPANSION END>
+00000100 d505*           591 	br	.L300
+                         592 .L298:
+                         593 --202:     }
+                         594 --203:     else 
+                         595 --204:     {
+                         596 --205:         R_DEV_ERROR(Unit, R_DEV_ERR_UNIT, "Only one tick instance supported at the moment!");  
+                         597 --line205
+                         598 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.23::
+                         599 .LDWlin23:
+00000102 1d30            600 	mov	r29,r6
+00000104 023a            601 	mov	2,r7
+                         602 	jarl	_R_DEV_ErrorHandler,lp
+                         602 <EXPANSION BEGIN>
+                         602 jarl22 _R_DEV_ErrorHandler , lp 
+00000106 80ff0000*       602 <EXPANSION END>
+                         603 .L300:
+                         604 --206:     }    
+                         605 --207:     
+                         606 --208: }
+                         607 --line208
+                         608 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.24::
+                         609 .LDWlin24:
+0000010a 0000            610 	nop
+                         611 --	    .ef
+                         612 .LDW72:
+0000010c 40067f00        613 	dispose	0,{r29,r31},[lp]
+                         614 	.type	_R_SYS_TICK_EnableInt,@function
+                         615 	.size	_R_SYS_TICK_EnableInt,.-_R_SYS_TICK_EnableInt
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                         616 	.align	2
+                         617 .LDW82:
+                         618 
+                         619 --_Unit	r29	param
+                         620 
+                         621 	.section ".bss","awb"
+                         622 .L318:
+                         623 	.type	.L318,@object
+                         624 	.size	.L318,0
+                         625 	.data
+                         626 	.text
+                         627 
+                         628 
+                         629 --211: /*******************************************************************************
+                         630 --212:   Function: R_TICK_DisableInt
+                         631 --213: */
+                         632 --214: void R_SYS_TICK_DisableInt(uint32_t Unit) 
+                         633 	.align	2
+                         634 	.align	2
+                         635 	.global	_R_SYS_TICK_DisableInt
+                         636 _R_SYS_TICK_DisableInt:
+00000110 80076100        637 	prepare	{r29,r31},0
+00000114 06e8            638 	mov	r6,r29
+                         639 --	    .bf
+                         640 .LDW92:
+                         641 --215: {
+                         642 --216:     if (0 == Unit)
+00000116 e0e9            643 	cmp	zero,r29
+00000118 ea05*           644 	bne	.L341
+                         645 --217:     { 
+                         646 --218:         R_OSTM_DisableInt(LOC_OSTM_UNIT, R_OSTM_INT_TINT);
+                         647 --line218
+                         648 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.25::
+                         649 .LDWlin25:
+0000011a 0032            650 	mov	0,r6
+0000011c 003a            651 	mov	0,r7
+                         652 	jarl	_R_OSTM_DisableInt,lp
+                         652 <EXPANSION BEGIN>
+                         652 jarl22 _R_OSTM_DisableInt , lp 
+0000011e 80ff0000*       652 <EXPANSION END>
+00000122 d505*           653 	br	.L343
+                         654 .L341:
+                         655 --219:     }
+                         656 --220:     else 
+                         657 --221:     {
+                         658 --222:         R_DEV_ERROR(Unit, R_DEV_ERR_UNIT, "Only one tick instance supported at the moment!");  
+                         659 --line222
+                         660 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.26::
+                         661 .LDWlin26:
+00000124 1d30            662 	mov	r29,r6
+00000126 023a            663 	mov	2,r7
+                         664 	jarl	_R_DEV_ErrorHandler,lp
+                         664 <EXPANSION BEGIN>
+                         664 jarl22 _R_DEV_ErrorHandler , lp 
+00000128 80ff0000*       664 <EXPANSION END>
+                         665 .L343:
+                         666 --223:     }    
+                         667 --224:     
+                         668 --225: }
+                         669 --line225
+                         670 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.27::
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                         671 .LDWlin27:
+0000012c 0000            672 	nop
+                         673 --	    .ef
+                         674 .LDW03:
+0000012e 40067f00        675 	dispose	0,{r29,r31},[lp]
+                         676 	.type	_R_SYS_TICK_DisableInt,@function
+                         677 	.size	_R_SYS_TICK_DisableInt,.-_R_SYS_TICK_DisableInt
+                         678 	.align	2
+                         679 .LDW13:
+                         680 
+                         681 --_Unit	r29	param
+                         682 
+                         683 	.section ".bss","awb"
+                         684 .L366:
+                         685 	.type	.L366,@object
+                         686 	.size	.L366,0
+                         687 	.data
+                         688 	.text
+                         689 
+                         690 
+                         691 --228: /*******************************************************************************
+                         692 --229:   Function: R_SYS_TICK_GetTimeUS
+                         693 --230: */
+                         694 --232:  uint32_t R_SYS_TICK_GetTimeUS(uint32_t Unit, uint32_t TimeMS)
+                         695 	.align	2
+                         696 	.align	2
+                         697 	.global	_R_SYS_TICK_GetTimeUS
+                         698 _R_SYS_TICK_GetTimeUS:
+00000132 8007e170        699 	prepare	{r25,r26,r27,r28,r29,r31},0
+00000136 3d0600000000*   700 	mov	_loc_CmpVal,r29
+0000013c 06d8            701 	mov	r6,r27
+0000013e 07d0            702 	mov	r7,r26
+00000140 1dc8            703 	mov	r29,r25
+                         704 --	    .bf
+                         705 .LDW23:
+                         706 --233:  {
+                         707 --234:     uint32_t timeUs;
+                         708 --235:     if (0 == Unit)
+00000142 e0d9            709 	cmp	zero,r27
+00000144 9a35*           710 	bne	.L389
+                         711 --236:     { 
+                         712 --237:         /* CmpVal is the amount of ticks required for 1ms */
+                         713 --238:         /* CmpVal = Freq/1000 =>  Freq = CmpVal * 1000   */
+                         714 --239:         /* time   = counter / Freq */
+                         715 --240:         /* time   = counter / (CmpVal * 1000)  */
+                         716 --241:         /* we are counting down */
+                         717 --242:         /* time   = (CmpVal - CntVal)/ (CmpVal * 1000) */
+                         718 --243:         /* timeUs = ((CmpVal - CntVal)*1000000)/ (CmpVal * 1000) */
+                         719 --244:         /* Finally we get: */
+                         720 --245:         timeUs = ((loc_CmpVal[0] - R_OSTM_GetCounterValue(LOC_OSTM_UNIT)) *1000)/loc_CmpVal[0]; 
+                         721 --line245
+                         722 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.28::
+                         723 .LDWlin28:
+00000146 0032            724 	mov	0,r6
+                         725 	jarl	_R_OSTM_GetCounterValue,lp
+                         725 <EXPANSION BEGIN>
+                         725 jarl22 _R_OSTM_GetCounterValue , lp 
+00000148 80ff0000*       725 <EXPANSION END>
+0000014c 3d0f0100        726 	ld.w	0[r29],r1
+00000150 2076e803        727 	movea	1000,zero,r14
+00000154 aa09            728 	sub	r10,r1
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+00000156 ee0f2202        729 	mulu	r14,r1,zero
+0000015a 01e0            730 	mov	r1,r28
+0000015c 3d0f0100        731 	ld.w	0[r29],r1
+00000160 e1e7fe02        732 	divqu	r1,r28,zero
+                         733 --246:         timeUs = ((TimeMS * 1000) + timeUs);
+                         734 --line246
+                         735 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.29::
+                         736 .LDWlin29:
+00000164 200ee803        737 	movea	1000,zero,r1
+00000168 fa0f2202        738 	mulu	r26,r1,zero
+0000016c c1e1            739 	add	r1,r28
+                         740 --248:         /* Check if pending interrupt while interrutps are MASKED or DISABLED */
+                         741 --249:         /* The callee <R_TICK_GetTimeUS> samples timeMS beforehand.
+                         742 --250:            But it has a built-in retry mechanism in case a time overflow occurred after sampling within this call here.
+                         743 --251:            This interrupt check is placed as far away from the sampling point of the callee as possible 
+                         744 --252:            in order to catch not yet processed timer overruns */
+                         745 --253:         if (loc_CheckInt(Unit) != 0)
+0000016e 1b30            746 	mov	r27,r6
+                         747 	jarl	_loc_CheckInt,lp
+                         747 <EXPANSION BEGIN>
+                         747 jarl22 _loc_CheckInt , lp 
+00000170 bfffa0fe*       747 <EXPANSION END>
+00000174 e051            748 	cmp	zero,r10
+00000176 c21d*           749 	be	.L393
+                         750 --254:         {
+                         751 --255:             timeUs = ((loc_CmpVal[0] - R_OSTM_GetCounterValue(LOC_OSTM_UNIT)) *1000)/loc_CmpVal[0]; 
+                         752 --line255
+                         753 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.30::
+                         754 .LDWlin30:
+00000178 0032            755 	mov	0,r6
+                         756 	jarl	_R_OSTM_GetCounterValue,lp
+                         756 <EXPANSION BEGIN>
+                         756 jarl22 _R_OSTM_GetCounterValue , lp 
+0000017a 80ff0000*       756 <EXPANSION END>
+0000017e 3d0f0100        757 	ld.w	0[r29],r1
+00000182 2076e803        758 	movea	1000,zero,r14
+00000186 aa09            759 	sub	r10,r1
+00000188 ee0f2202        760 	mulu	r14,r1,zero
+0000018c 01e0            761 	mov	r1,r28
+0000018e 3d0f0100        762 	ld.w	0[r29],r1
+00000192 e1e7fe02        763 	divqu	r1,r28,zero
+                         764 --256:             timeUs = (( (TimeMS+1) * 1000) + timeUs);
+                         765 --line256
+                         766 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.31::
+                         767 .LDWlin31:
+00000196 1a760100        768 	addi	1,r26,r14
+0000019a 200ee803        769 	movea	1000,zero,r1
+0000019e ee0f2202        770 	mulu	r14,r1,zero
+000001a2 c1e1            771 	add	r1,r28
+000001a4 d505*           772 	br	.L393
+                         773 .L389:
+                         774 --257:         }
+                         775 --258:     }
+                         776 --259:     else 
+                         777 --260:     {
+                         778 --261:         R_DEV_ERROR(Unit, R_DEV_ERR_UNIT, "Only one tick instance supported at the moment!");  
+                         779 --line261
+                         780 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.32::
+                         781 .LDWlin32:
+000001a6 1b30            782 	mov	r27,r6
+000001a8 023a            783 	mov	2,r7
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000040c1.si
+                         784 	jarl	_R_DEV_ErrorHandler,lp
+                         784 <EXPANSION BEGIN>
+                         784 jarl22 _R_DEV_ErrorHandler , lp 
+000001aa 80ff0000*       784 <EXPANSION END>
+                         785 .L393:
+                         786 --262:     }    
+                         787 --264:     return (uint32_t) timeUs;
+                         788 --line264
+                         789 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick.33::
+                         790 .LDWlin33:
+000001ae 1c50            791 	mov	r28,r10
+                         792 --	    .ef
+                         793 .LDW33:
+000001b0 4006ff70        794 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         795 	.type	_R_SYS_TICK_GetTimeUS,@function
+                         796 	.size	_R_SYS_TICK_GetTimeUS,.-_R_SYS_TICK_GetTimeUS
+                         797 	.align	2
+                         798 .LDW43:
+                         799 --_timeUs	r28	local
+                         800 
+                         801 --_Unit	r27	param
+                         802 --_TimeMS	r26	param
+                         803 
+                         804 	.data
+                         805 	.text
+                         806 
+                         807 --265: }
+                         808 	.align	2
+                         809 --_loc_CmpVal	_loc_CmpVal	static
+                         810 
+                         811 	.data
+                         812 	.ghsnote version,14
+                         813 	.ghsnote tools,3
+                         814 	.ghsnote options,144
+                         815 	.text
+                         816 	.align	2
+                         817 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_sys_tick...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740388..0::
+                         818 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

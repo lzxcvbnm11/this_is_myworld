@@ -1,0 +1,1446 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\ssb.dbo -source=ssb.c -o .\obj\gh_00002401.o -list=.\obj\ssb.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+Source File: ssb.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\SSB\ssb.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         112 --		-o .\obj\ssb.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Applayer\SSB\ssb.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:31 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : ssb.c
+                         128 --5: * Description : SSB module Application
+                         129 --6: * Author: Hejianjun
+                         130 --7: * Date: 2016-12-03
+                         131 --8: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "ssb_info.inc"
+                         134 --13: static BOOL ssb_InitSts = FALSE;       /*初始化*/
+                         135 --14: static U32 ssb_PressEndTime = 0;    /*SSB按键状态发生变化的TICK时间,用于判断BCM的SSB按键状态和IPK按键的状态一致性允许的时间误差*/
+                         136 --15: static U32 ssb_PressStartTime = 0;  /*IPK接收到ICM发来的BCMSSBA发生变化的时间*/
+                         137 --16: static U16 ssb_AdcValue = 0;                                                                   /* SSB AD 通道的采样值*/
+                         138 --17: static SSBKeyStatus_ENUM ssb_Status = STATUS_SSB_RELEASE;       /*存储SSB按键的ADC去抖动后的采样值*/
+                         139 --18: static SSBData_ST ssb_NetValue;                                                            /*存储SSB按键发送到网络端的取值*/
+                         140 --19: static SSBFaultType_ENUM ssb_NetFaultSts = 0;                                 /*SSB 按键错误状态类型*/
+                         141 --20: static U8 ssb_FaultCnt = 0;                                                                      /* 检测SSB 的错误计数*/
+                         142 --21: static BOOL ssb_BCMSSBA = FALSE;                                                       /* 从网络上获取的BCM SSB按键的状态*/
+                         143 --22: static U8 ssb_BCMSSBAV = 0;                                                                  /* 从网络上获取的BCM SSB按键是否有效*/
+                         144 --23: static BOOL ssb_BstatusChange = FALSE;                                            /*SSB按键状态监测到变化时赋值为TRUE*/
+                         145 --24: static U8 PmSSBMismatchCouterPrm;                                                /*定义SSB按键不匹配的错误计数器的值*/
+                         146 --25: static U16 PEPSSenseSSBWithinTimePrm;                                           /* 定义了从ICM接受到的SSB信号和IPK检测到的SSB状态匹配允许的时间差*/
+                         147 --26: static U8 PmSSBStuckSWTimePrm;
+                         148 --27: /***********************************/
+                         149 --28: static SSBFlt_ST  ssbFlt;
+                         150 --29: static U16 SSBStuckCnt = 0;
+                         151 --30: static U16 SSBStuckMaxCnt = 0;
+                         152 --31: /***************************************************
+                         153 --32: * Function: SSB_Init
+                         154 --33: * Description: SSB module initialized
+                         155 --34: * Parameters: none
+                         156 --35: * Returns: none
+                         157 --36: * $Create & Verlog:$
+                         158 --37: * Author:Hejianjun         Date:2016-12-01      Version:V1.3
+                         159 --38: * Author:chensongming  Date:2017-06-26      Version:V2.0
+                         160 --39: ****************************************************/
+                         161 --40: void SSB_Init(void)
+                         162 	.text
+                         163 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036C..0::
+                         164 	.align	2
+                         165 	.global	_SSB_Init
+                         166 _SSB_Init:
+00000000 8207e170        167 	prepare	{r25,r26,r27,r28,r29,r31},1
+00000004 3d0600000000*   168 	mov	.L64,r29
+0000000a 3b0600000000*   169 	mov	_PmSSBStuckSWTimePrm,r27
+00000010 3c0600000000*   170 	mov	_ssbFlt,r28
+00000016 3a0600000000*   171 	mov	_ssb_NetValue,r26
+                         172 --	    .bf
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         173 .LDW01:
+                         174 --41: {
+                         175 --42:     U8 res = RET_FAIL;
+0000001c 00ca            176 	mov	0,r25
+                         177 --43:     ssb_InitSts = FALSE;
+0000001e 5d071600        178 	st.b	zero,22[r29]
+                         179 --44:     ssb_AdcValue = 0u;
+00000022 7d071000        180 	st.h	zero,16[r29]
+                         181 --45:     ssb_Status = STATUS_SSB_RELEASE;
+00000026 7d070900        182 	st.w	zero,8[r29]
+                         183 --46:     ssb_NetValue.status = INACTIVE;
+0000002a 5a070000        184 	st.b	zero,0[r26]
+                         185 --47:     ssb_NetValue.valid = INVALID;
+0000002e 010a            186 	mov	1,r1
+00000030 5a0f0100        187 	st.b	r1,1[r26]
+                         188 --48:     ssb_NetFaultSts = FAULT_SSB_NO;
+00000034 7d070d00        189 	st.w	zero,12[r29]
+                         190 --49:     ssb_BCMSSBA = INACTIVE;
+00000038 5d071800        191 	st.b	zero,24[r29]
+                         192 --50:     ssb_BCMSSBAV = INVALID;
+0000003c 010a            193 	mov	1,r1
+0000003e 5d0f1900        194 	st.b	r1,25[r29]
+                         195 --51:     ssb_BstatusChange = FALSE;
+00000042 5d071a00        196 	st.b	zero,26[r29]
+                         197 --52:     ssb_FaultCnt = 0u;
+00000046 5d071700        198 	st.b	zero,23[r29]
+                         199 --53:     ssbFlt.MisMatch = FALSE;
+0000004a 9c0f0100        200 	ld.bu	0[r28],r1
+0000004e c10efe00        201 	andi	254,r1,r1
+00000052 5c0f0000        202 	st.b	r1,0[r28]
+                         203 --54:     ssbFlt.Stuck = FALSE;
+00000056 9c0f0100        204 	ld.bu	0[r28],r1
+0000005a c10efd00        205 	andi	253,r1,r1
+0000005e 5c0f0000        206 	st.b	r1,0[r28]
+                         207 --56:     PmSSBMismatchCouterPrm = DIAG_GetSSBMismatchCouter();
+                         208 	jarl	_DIAG_GetSSBMismatchCouter,lp
+                         208 <EXPANSION BEGIN>
+                         208 jarl22 _DIAG_GetSSBMismatchCouter , lp 
+00000062 80ff0000*       208 <EXPANSION END>
+00000066 2b0600000000*   209 	mov	_PmSSBMismatchCouterPrm,r11
+0000006c 4b570000        210 	st.b	r10,0[r11]
+                         211 --57:     PEPSSenseSSBWithinTimePrm = DIAG_GetPEPSSenseSSBWithinTime();
+                         212 --line57
+                         213 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.1::
+                         214 .LDWlin1:
+                         215 	jarl	_DIAG_GetPEPSSenseSSBWithinTime,lp
+                         215 <EXPANSION BEGIN>
+                         215 jarl22 _DIAG_GetPEPSSenseSSBWithinTime , lp 
+00000070 80ff0000*       215 <EXPANSION END>
+00000074 2b0600000000*   216 	mov	_PEPSSenseSSBWithinTimePrm,r11
+0000007a 6b570000        217 	st.h	r10,0[r11]
+                         218 --59:     PmSSBStuckSWTimePrm = DIAG_GetSSBStuckSWTime();
+                         219 --line59
+                         220 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.2::
+                         221 .LDWlin2:
+                         222 	jarl	_DIAG_GetSSBStuckSWTime,lp
+                         222 <EXPANSION BEGIN>
+                         222 jarl22 _DIAG_GetSSBStuckSWTime , lp 
+0000007e 80ff0000*       222 <EXPANSION END>
+00000082 5b570000        223 	st.b	r10,0[r27]
+                         224 --61:     SSBStuckMaxCnt = ((PmSSBStuckSWTimePrm*1000)/SSB_PROCESS_PERIOD);
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         225 --line61
+                         226 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.3::
+                         227 .LDWlin3:
+00000086 9b0f0100        228 	ld.bu	0[r27],r1
+0000008a 20761400        229 	movea	20,zero,r14
+0000008e e10ee803        230 	mulhi	1000,r1,r1
+00000092 ee0ffc02        231 	divq	r14,r1,zero
+00000096 7d0f1400        232 	st.h	r1,20[r29]
+                         233 --63: 	ssb_PressStartTime = R_TICK_GetTimeMS(0);
+0000009a 0032            234 	mov	0,r6
+                         235 	jarl	_R_TICK_GetTimeMS,lp
+                         235 <EXPANSION BEGIN>
+                         235 jarl22 _R_TICK_GetTimeMS , lp 
+0000009c 80ff0000*       235 <EXPANSION END>
+000000a0 7d570500        236 	st.w	r10,4[r29]
+                         237 --64:     ssb_PressEndTime = R_TICK_GetTimeMS(0);
+                         238 --line64
+                         239 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.4::
+                         240 .LDWlin4:
+000000a4 0032            241 	mov	0,r6
+                         242 	jarl	_R_TICK_GetTimeMS,lp
+                         242 <EXPANSION BEGIN>
+                         242 jarl22 _R_TICK_GetTimeMS , lp 
+000000a6 80ff0000*       242 <EXPANSION END>
+000000aa 7d570100        243 	st.w	r10,0[r29]
+                         244 --65:     
+                         245 --66:     ssb_InitSts  = ADM_GetInitStatus();
+                         246 --line66
+                         247 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.5::
+                         248 .LDWlin5:
+                         249 	jarl	_ADM_GetInitStatus,lp
+                         249 <EXPANSION BEGIN>
+                         249 jarl22 _ADM_GetInitStatus , lp 
+000000ae 80ff0000*       249 <EXPANSION END>
+000000b2 5d571600        250 	st.b	r10,22[r29]
+                         251 --67: }
+                         252 --line67
+                         253 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.6::
+                         254 .LDWlin6:
+000000b6 0000            255 	nop
+                         256 --	    .ef
+                         257 .LDW11:
+000000b8 4206ff70        258 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                         259 	.type	_SSB_Init,@function
+                         260 	.size	_SSB_Init,.-_SSB_Init
+                         261 	.align	2
+                         262 .LDW21:
+                         263 --_res	r25	local
+                         264 
+                         265 	.data
+                         266 	.align	4
+                         267 .L64:
+                         268 	.type	.L64,@object
+                         269 	.size	.L64,0
+                         270 	.global	_ssb_PressEndTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         271 _ssb_PressEndTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         272 	.type	_ssb_PressEndTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         273 	.size	_ssb_PressEndTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,4
+00000000 00000000        274 _ssb_PressEndTime:	.byte	0,0,0,0
+                         275 	.type	_ssb_PressEndTime,@object
+                         276 	.size	_ssb_PressEndTime,4
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         277 	.global	_ssb_PressStartTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         278 _ssb_PressStartTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         279 	.type	_ssb_PressStartTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         280 	.size	_ssb_PressStartTime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,4
+00000004 00000000        281 _ssb_PressStartTime:	.byte	0,0,0,0
+                         282 	.type	_ssb_PressStartTime,@object
+                         283 	.size	_ssb_PressStartTime,4
+                         284 	.global	_ssb_Status..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         285 _ssb_Status..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         286 	.type	_ssb_Status..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         287 	.size	_ssb_Status..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,4
+00000008 00000000        288 _ssb_Status:	.byte	0,0,0,0
+                         289 	.type	_ssb_Status,@object
+                         290 	.size	_ssb_Status,4
+                         291 	.global	_ssb_NetFaultSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         292 _ssb_NetFaultSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         293 	.type	_ssb_NetFaultSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         294 	.size	_ssb_NetFaultSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,4
+0000000c 00000000        295 _ssb_NetFaultSts:	.byte	0,0,0,0
+                         296 	.type	_ssb_NetFaultSts,@object
+                         297 	.size	_ssb_NetFaultSts,4
+                         298 	.global	_ssb_AdcValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         299 _ssb_AdcValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         300 	.type	_ssb_AdcValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         301 	.size	_ssb_AdcValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,2
+00000010 0000            302 _ssb_AdcValue:	.byte	0,0
+                         303 	.type	_ssb_AdcValue,@object
+                         304 	.size	_ssb_AdcValue,2
+                         305 	.section ".bss","awb"
+                         306 	.align	2
+                         307 	.global	_ssb_NetValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         308 _ssb_NetValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         309 	.type	_ssb_NetValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         310 	.size	_ssb_NetValue..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,2
+00000000 0000            311 _ssb_NetValue:	.space	2
+                         312 	.type	_ssb_NetValue,@object
+                         313 	.size	_ssb_NetValue,2
+                         314 	.global	_PEPSSenseSSBWithinTimePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         315 _PEPSSenseSSBWithinTimePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         316 	.type	_PEPSSenseSSBWithinTimePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         317 	.size	_PEPSSenseSSBWithinTimePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,2
+00000002 0000            318 _PEPSSenseSSBWithinTimePrm:	.space	2
+                         319 	.type	_PEPSSenseSSBWithinTimePrm,@object
+                         320 	.size	_PEPSSenseSSBWithinTimePrm,2
+                         321 	.data
+                         322 	.global	_SSBStuckCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         323 _SSBStuckCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         324 	.type	_SSBStuckCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         325 	.size	_SSBStuckCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,2
+00000012 0000            326 _SSBStuckCnt:	.byte	0,0
+                         327 	.type	_SSBStuckCnt,@object
+                         328 	.size	_SSBStuckCnt,2
+                         329 	.global	_SSBStuckMaxCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         330 _SSBStuckMaxCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         331 	.type	_SSBStuckMaxCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         332 	.size	_SSBStuckMaxCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,2
+00000014 0000            333 _SSBStuckMaxCnt:	.byte	0,0
+                         334 	.type	_SSBStuckMaxCnt,@object
+                         335 	.size	_SSBStuckMaxCnt,2
+                         336 	.global	_ssb_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         337 _ssb_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         338 	.type	_ssb_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         339 	.size	_ssb_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,1
+00000016 00              340 _ssb_InitSts:	.byte	0
+                         341 	.type	_ssb_InitSts,@object
+                         342 	.size	_ssb_InitSts,1
+                         343 	.global	_ssb_FaultCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         344 _ssb_FaultCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         345 	.type	_ssb_FaultCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         346 	.size	_ssb_FaultCnt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,1
+00000017 00              347 _ssb_FaultCnt:	.byte	0
+                         348 	.type	_ssb_FaultCnt,@object
+                         349 	.size	_ssb_FaultCnt,1
+                         350 	.global	_ssb_BCMSSBA..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         351 _ssb_BCMSSBA..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         352 	.type	_ssb_BCMSSBA..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         353 	.size	_ssb_BCMSSBA..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,1
+00000018 00              354 _ssb_BCMSSBA:	.byte	0
+                         355 	.type	_ssb_BCMSSBA,@object
+                         356 	.size	_ssb_BCMSSBA,1
+                         357 	.global	_ssb_BCMSSBAV..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         358 _ssb_BCMSSBAV..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         359 	.type	_ssb_BCMSSBAV..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         360 	.size	_ssb_BCMSSBAV..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,1
+00000019 00              361 _ssb_BCMSSBAV:	.byte	0
+                         362 	.type	_ssb_BCMSSBAV,@object
+                         363 	.size	_ssb_BCMSSBAV,1
+                         364 	.global	_ssb_BstatusChange..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         365 _ssb_BstatusChange..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         366 	.type	_ssb_BstatusChange..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         367 	.size	_ssb_BstatusChange..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,1
+0000001a 00              368 _ssb_BstatusChange:	.byte	0
+                         369 	.type	_ssb_BstatusChange,@object
+                         370 	.size	_ssb_BstatusChange,1
+                         371 	.section ".bss","awb"
+                         372 	.global	_PmSSBMismatchCouterPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         373 _PmSSBMismatchCouterPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         374 	.type	_PmSSBMismatchCouterPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         375 	.size	_PmSSBMismatchCouterPrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,1
+00000004 00              376 _PmSSBMismatchCouterPrm:	.space	1
+                         377 	.type	_PmSSBMismatchCouterPrm,@object
+                         378 	.size	_PmSSBMismatchCouterPrm,1
+                         379 	.global	_PmSSBStuckSWTimePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         380 _PmSSBStuckSWTimePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         381 	.type	_PmSSBStuckSWTimePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         382 	.size	_PmSSBStuckSWTimePrm..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,1
+00000005 00              383 _PmSSBStuckSWTimePrm:	.space	1
+                         384 	.type	_PmSSBStuckSWTimePrm,@object
+                         385 	.size	_PmSSBStuckSWTimePrm,1
+                         386 	.global	_ssbFlt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         387 _ssbFlt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         388 	.type	_ssbFlt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@object
+                         389 	.size	_ssbFlt..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,1
+00000006 00              390 _ssbFlt:	.space	1
+                         391 	.type	_ssbFlt,@object
+                         392 	.size	_ssbFlt,1
+                         393 	.data
+                         394 	.text
+                         395 
+                         396 
+                         397 --69: /***************************************************
+                         398 --70: * Function: SSB_Process_20ms
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         399 --71: * Description: SSB module process
+                         400 --72: * Parameters:  input: none
+                         401 --73: * Returns: none
+                         402 --74: * $Create & Verlog:$
+                         403 --75: * Author:Hejianjun  Date:2016-12-03   Version:V1.3
+                         404 --76: ****************************************************/
+                         405 --77: void SSB_Process_20ms(void)
+                         406 	.align	2
+                         407 	.align	2
+                         408 	.global	_SSB_Process_20ms
+                         409 _SSB_Process_20ms:
+000000bc 80072100        410 	prepare	{r31},0
+000000c0 210600000000*   411 	mov	_ssb_InitSts-2,r1
+                         412 --	    .bf
+                         413 .LDW31:
+                         414 --78: {
+                         415 --79:     if (TRUE == ssb_InitSts)
+000000c6 210600000000*   416 	mov	_ssb_InitSts,r1
+000000cc 810f0100        417 	ld.bu	0[r1],r1
+000000d0 610a            418 	cmp	1,r1
+000000d2 da05*           419 	bne	.L140
+                         420 --80:     {
+                         421 --81:         ssb_ValidCheck();
+                         422 --line81
+                         423 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.7::
+                         424 .LDWlin7:
+                         425 	jarl	_ssb_ValidCheck,lp
+                         425 <EXPANSION BEGIN>
+                         425 jarl22 _ssb_ValidCheck , lp 
+000000d4 80ff0e00*       425 <EXPANSION END>
+                         426 --82:         ssb_faultDetect();
+                         427 --line82
+                         428 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.8::
+                         429 .LDWlin8:
+                         430 	jarl	_ssb_faultDetect,lp
+                         430 <EXPANSION BEGIN>
+                         430 jarl22 _ssb_faultDetect , lp 
+000000d8 80ff5a01*       430 <EXPANSION END>
+                         431 .L140:
+                         432 --83:     }
+                         433 --84:     else
+                         434 --85:     {
+                         435 --86:         /* do nothing */
+                         436 --87:     }
+                         437 --88: }
+                         438 --line88
+                         439 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.9::
+                         440 .LDWlin9:
+000000dc 0000            441 	nop
+                         442 --	    .ef
+                         443 .LDW41:
+000000de 40063f00        444 	dispose	0,{r31},[lp]
+                         445 	.type	_SSB_Process_20ms,@function
+                         446 	.size	_SSB_Process_20ms,.-_SSB_Process_20ms
+                         447 	.align	2
+                         448 .LDW51:
+                         449 
+                         450 	.data
+                         451 	.text
+                         452 
+                         453 
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         454 --90: /***************************************************
+                         455 --91: * Function: ssb_ValidCheck
+                         456 --92: * Description: check status of SSB button
+                         457 --93: * Parameters:  input: none
+                         458 --94: * Returns: none
+                         459 --95: * $Create & Verlog:$
+                         460 --96: * Author:Hejianjun  Date:2016-12-01   Version:V1.3
+                         461 --97: * Author:chensongming  Date:2017-06-27   Version:V2.0
+                         462 --98: *log ssb stuck detect
+                         463 --99: ****************************************************/
+                         464 --100: static void ssb_ValidCheck(void)
+                         465 	.align	2
+                         466 	.align	2
+                         467 	.global	_ssb_ValidCheck..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         468 _ssb_ValidCheck..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         469 _ssb_ValidCheck:
+000000e2 8807e170        470 	prepare	{r25,r26,r27,r28,r29,r31},4
+000000e6 3d0600000000*   471 	mov	_ssb_Status,r29
+000000ec 3c0600000000*   472 	mov	_ssb_NetValue,r28
+000000f2 3b0600000000*   473 	mov	_ssbFlt,r27
+                         474 --	    .bf
+                         475 .LDW61:
+                         476 --101: {
+                         477 --102:     U8 res;
+                         478 --103:     U16 AdcValue = 0;
+000000f8 63070200        479 	st.h	zero,2[sp]
+                         480 --104:     U8 resOstm = RET_FAIL;
+000000fc 00ca            481 	mov	0,r25
+                         482 --105:     SSBKeyStatus_ENUM ssb_StatusTemp;
+                         483 --107:     res = ADM_GetDebounceValue(INDEX_ADM_SSB, &AdcValue);
+000000fe 0832            484 	mov	8,r6
+00000100 233e0200        485 	movea	2,sp,r7
+                         486 	jarl	_ADM_GetDebounceValue,lp
+                         486 <EXPANSION BEGIN>
+                         486 jarl22 _ADM_GetDebounceValue , lp 
+00000104 80ff0000*       486 <EXPANSION END>
+00000108 0ad0            487 	mov	r10,r26
+                         488 --108:     if (RET_OK == res)
+                         489 --line108
+                         490 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.10::
+                         491 .LDWlin10:
+0000010a 61d2            492 	cmp	1,r26
+0000010c ea072101*       493 	bne	.L219
+                         494 --109:     {
+                         495 --110:         ssb_AdcValue = AdcValue;
+                         496 --line110
+                         497 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.11::
+                         498 .LDWlin11:
+00000110 e30f0300        499 	ld.hu	2[sp],r1
+00000114 7d0f0800        500 	st.h	r1,8[r29]
+                         501 --111:         
+                         502 --112:         if ((SSB_SHORT2GND_RANGELOWER <= AdcValue) &&  (SSB_SHORT2GND_RANGEUPPER >= AdcValue))            /* short to GND*/
+00000118 e30f0300        503 	ld.hu	2[sp],r1
+0000011c 01060bfe        504 	addi	-501,r1,zero
+00000120 b10d*           505 	bl	.L182
+                         506 --113:         {
+                         507 --114:             ssb_NetFaultSts = FAULT_SSB_SHORT2GND;
+                         508 --line114
+                         509 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.12::
+                         510 .LDWlin12:
+00000122 010a            511 	mov	1,r1
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+00000124 7d0f0500        512 	st.w	r1,4[r29]
+                         513 --115:             ssb_NetValue.status = INACTIVE;
+00000128 5c070000        514 	st.b	zero,0[r28]
+                         515 --116:             ssb_NetValue.valid = INVALID;
+0000012c 010a            516 	mov	1,r1
+0000012e 5c0f0100        517 	st.b	r1,1[r28]
+                         518 --117:             ssb_StatusTemp = STATUS_SSB_SHORT2GND ;
+00000132 020a            519 	mov	2,r1
+00000134 d54d*           520 	br	.L185
+                         521 .L182:
+                         522 --118:         }
+                         523 --119:         else if ((SSB_PRESS_RANGELOWER <= AdcValue) &&  (SSB_PRESS_RANGEUPPER >= AdcValue))                      /* press */
+                         524 --line119
+                         525 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.13::
+                         526 .LDWlin13:
+00000136 e30f0300        527 	ld.hu	2[sp],r1
+0000013a 010644fd        528 	addi	-700,r1,zero
+0000013e f915*           529 	bnl	.L186
+00000140 e30f0300        530 	ld.hu	2[sp],r1
+00000144 010617fc        531 	addi	-1001,r1,zero
+00000148 a115*           532 	bl	.L186
+                         533 --120:         {
+                         534 --121:             if(FALSE == ssbFlt.Stuck)
+                         535 --line121
+                         536 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.14::
+                         537 .LDWlin14:
+0000014a 9b0f0100        538 	ld.bu	0[r27],r1
+0000014e 820a            539 	shr	2,r1
+00000150 c10d*           540 	bl	.L194
+                         541 --122:             {
+                         542 --123:                 if(FAULT_SSB_SWITCHFAILED !=ssb_NetFaultSts)
+                         543 --line123
+                         544 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.15::
+                         545 .LDWlin15:
+00000152 3d0f0500        546 	ld.w	4[r29],r1
+00000156 650a            547 	cmp	5,r1
+00000158 d205*           548 	be	.L193
+                         549 --124:                 {
+                         550 --125:                     ssb_NetFaultSts = FAULT_SSB_NO; 
+                         551 --line125
+                         552 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.16::
+                         553 .LDWlin16:
+0000015a 7d070500        554 	st.w	zero,4[r29]
+                         555 --126:                     ssb_NetValue.valid = VALID;
+0000015e 5c070100        556 	st.b	zero,1[r28]
+                         557 .L193:
+                         558 --127:                 }
+                         559 --128: 				else
+                         560 --129: 				{
+                         561 --130: 				}
+                         562 --131:                 ssb_NetValue.status = ACTIVE;
+00000162 010a            563 	mov	1,r1
+00000164 5c0f0000        564 	st.b	r1,0[r28]
+                         565 .L194:
+                         566 --132:             }
+                         567 --133:             else
+                         568 --134:             {
+                         569 --135:                 /* do nothing */
+                         570 --136:             }        
+                         571 --137:             ssb_StatusTemp = STATUS_SSB_PRESS;
+00000168 010a            572 	mov	1,r1
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+0000016a a535*           573 	br	.L185
+                         574 .L186:
+                         575 --138:         } 
+                         576 --139:         else if ((SSB_RELEASE_RANGELOWER <= AdcValue) &&  (SSB_RELEASE_RANGEUPPER >= AdcValue))              /* release */
+                         577 --line139
+                         578 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.17::
+                         579 .LDWlin17:
+0000016c e30f0300        580 	ld.hu	2[sp],r1
+00000170 010624f9        581 	addi	-1756,r1,zero
+00000174 891d*           582 	bnl	.L196
+00000176 e30f0300        583 	ld.hu	2[sp],r1
+0000017a 0106c4f7        584 	addi	-2108,r1,zero
+0000017e b115*           585 	bl	.L196
+                         586 --140:         {
+                         587 --141:             if(FAULT_SSB_SWITCHFAILED !=ssb_NetFaultSts)
+                         588 --line141
+                         589 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.18::
+                         590 .LDWlin18:
+00000180 3d0f0500        591 	ld.w	4[r29],r1
+00000184 650a            592 	cmp	5,r1
+00000186 d205*           593 	be	.L201
+                         594 --142:             {
+                         595 --143:                 ssb_NetFaultSts = FAULT_SSB_NO;
+                         596 --line143
+                         597 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.19::
+                         598 .LDWlin19:
+00000188 7d070500        599 	st.w	zero,4[r29]
+                         600 --144:                 ssb_NetValue.valid = VALID;
+0000018c 5c070100        601 	st.b	zero,1[r28]
+                         602 .L201:
+                         603 --145:             }
+                         604 --146: 			else
+                         605 --147: 			{
+                         606 --148: 			}
+                         607 --149:                 
+                         608 --150:             ssb_NetValue.status = INACTIVE;
+00000190 5c070000        609 	st.b	zero,0[r28]
+                         610 --151:             ssb_StatusTemp = STATUS_SSB_RELEASE;
+00000194 000a            611 	mov	0,r1
+                         612 --152:             ssbFlt.Stuck = FALSE;
+00000196 9b770100        613 	ld.bu	0[r27],r14
+0000019a ce76fd00        614 	andi	253,r14,r14
+0000019e 5b770000        615 	st.b	r14,0[r27]
+000001a2 e515*           616 	br	.L185
+                         617 .L196:
+                         618 --153:         }
+                         619 --154:         else if ((SSB_SHORT2BAT_RANGELOWER <= AdcValue) &&  (SSB_SHORT2BAT_RANGEUPPER >= AdcValue))      /* short to VCC */
+                         620 --line154
+                         621 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.20::
+                         622 .LDWlin20:
+000001a4 e30f0300        623 	ld.hu	2[sp],r1
+000001a8 0106e3f1        624 	addi	-3613,r1,zero
+000001ac 8915*           625 	bnl	.L203
+000001ae e30f0300        626 	ld.hu	2[sp],r1
+000001b2 0106ffef        627 	addi	-4097,r1,zero
+000001b6 b10d*           628 	bl	.L203
+                         629 --155:         {
+                         630 --156:             ssb_NetFaultSts = FAULT_SSB_SHORT2BAT;
+                         631 --line156
+                         632 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.21::
+                         633 .LDWlin21:
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+000001b8 020a            634 	mov	2,r1
+000001ba 7d0f0500        635 	st.w	r1,4[r29]
+                         636 --157:             ssb_NetValue.status = INACTIVE;
+000001be 5c070000        637 	st.b	zero,0[r28]
+                         638 --158:             ssb_NetValue.valid = INVALID;
+000001c2 010a            639 	mov	1,r1
+000001c4 5c0f0100        640 	st.b	r1,1[r28]
+                         641 --159:             ssb_StatusTemp = STATUS_SSB_SHORT2BAT;
+000001c8 030a            642 	mov	3,r1
+000001ca a505*           643 	br	.L185
+                         644 .L203:
+                         645 --160:         }
+                         646 --161:         else                                                                                                                                                                                         /* out of range*/
+                         647 --162:         {
+                         648 --163:             ssb_StatusTemp = STATUS_SSB_OUTOFRANGE;                                                                                                                       /* 其它状态维持*/
+                         649 --line163
+                         650 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.22::
+                         651 .LDWlin22:
+000001cc 040a            652 	mov	4,r1
+                         653 .L185:
+                         654 --164:         }
+                         655 --165:     	
+                         656 --166:         if (FAULT_SSB_NO == ssb_NetFaultSts)    /* 只有release press 情况执行*/
+000001ce 3d770500        657 	ld.w	4[r29],r14
+000001d2 e071            658 	cmp	zero,r14
+000001d4 ca2d*           659 	bne	.L219
+                         660 --167:         {
+                         661 --168:             if (ssb_Status != ssb_StatusTemp)        /*发生跳变*/
+                         662 --line168
+                         663 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.23::
+                         664 .LDWlin23:
+000001d6 3d770100        665 	ld.w	0[r29],r14
+000001da e171            666 	cmp	r1,r14
+000001dc 920d*           667 	be	.L209
+                         668 --169:             {
+                         669 --170:                 ssb_Status = ssb_StatusTemp;
+                         670 --line170
+                         671 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.24::
+                         672 .LDWlin24:
+000001de 7d0f0100        673 	st.w	r1,0[r29]
+                         674 --171:                 ssb_BstatusChange = TRUE;
+000001e2 0172            675 	mov	1,r14
+000001e4 5d771200        676 	st.b	r14,18[r29]
+                         677 --172:                 SSBStuckCnt = 0;
+000001e8 7d070a00        678 	st.h	zero,10[r29]
+000001ec 8525*           679 	br	.L219
+                         680 .L209:
+                         681 --173:             }
+                         682 --174:             else
+                         683 --175:             {
+                         684 --176:                 if(STATUS_SSB_PRESS == ssb_Status)
+                         685 --line176
+                         686 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.25::
+                         687 .LDWlin25:
+000001ee 3d770100        688 	ld.w	0[r29],r14
+000001f2 6172            689 	cmp	1,r14
+000001f4 ca1d*           690 	bne	.L219
+                         691 --177:                 {
+                         692 --178:                     
+                         693 --179:                     if(SSBStuckMaxCnt <= SSBStuckCnt)
+                         694 --line179
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         695 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.26::
+                         696 .LDWlin26:
+000001f6 fd770b00        697 	ld.hu	10[r29],r14
+000001fa fd6f0d00        698 	ld.hu	12[r29],r13
+000001fe ee69            699 	cmp	r14,r13
+00000200 9b15*           700 	bh	.L214
+                         701 --180:                     {
+                         702 --181:                         ssbFlt.Stuck = TRUE;
+                         703 --line181
+                         704 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.27::
+                         705 .LDWlin27:
+00000202 9b770100        706 	ld.bu	0[r27],r14
+00000206 8e760200        707 	ori	2,r14,r14
+0000020a 5b770000        708 	st.b	r14,0[r27]
+                         709 --182:                         ssb_NetFaultSts = FAULT_SSB_STUCK;
+0000020e 0372            710 	mov	3,r14
+00000210 7d770500        711 	st.w	r14,4[r29]
+                         712 --183:                         ssb_NetValue.status = ACTIVE;
+00000214 0172            713 	mov	1,r14
+00000216 5c770000        714 	st.b	r14,0[r28]
+                         715 --184:                         ssb_NetValue.valid = INVALID;
+0000021a 0172            716 	mov	1,r14
+0000021c 5c770100        717 	st.b	r14,1[r28]
+00000220 e505*           718 	br	.L219
+                         719 .L214:
+                         720 --185:                     }
+                         721 --186:                     else
+                         722 --187:                     {
+                         723 --188:                         SSBStuckCnt ++;
+                         724 --line188
+                         725 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.28::
+                         726 .LDWlin28:
+00000222 fd770b00        727 	ld.hu	10[r29],r14
+00000226 4172            728 	add	1,r14
+00000228 7d770a00        729 	st.h	r14,10[r29]
+                         730 .L219:
+                         731 --189:                     }
+                         732 --190:                 }
+                         733 --191:                 else
+                         734 --192:                 {
+                         735 --193:                     /* do nothing */
+                         736 --194:                 }
+                         737 --195:                 
+                         738 --196:             }
+                         739 --197:         }
+                         740 --198: 		else
+                         741 --199: 		{
+                         742 --200: 		}
+                         743 --201:     }
+                         744 --202:     else
+                         745 --203:     {
+                         746 --204:         /* do nothing */
+                         747 --205:     }
+                         748 --206: }
+0000022c 0000            749 	nop
+                         750 --	    .ef
+                         751 .LDW71:
+0000022e 4806ff70        752 	dispose	4,{r25,r26,r27,r28,r29,r31},[lp]
+                         753 	.type	_ssb_ValidCheck,@function
+                         754 	.size	_ssb_ValidCheck,.-_ssb_ValidCheck
+                         755 	.type	_ssb_ValidCheck..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@function
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         756 	.size	_ssb_ValidCheck..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,.-_ssb_ValidCheck..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         757 	.align	2
+                         758 .LDW81:
+                         759 --_res	r26	local
+                         760 --_AdcValue	2[sp]	local
+                         761 --_resOstm	r25	local
+                         762 --_ssb_StatusTemp	r1	local
+                         763 
+                         764 	.data
+                         765 	.text
+                         766 
+                         767 
+                         768 --209: /***************************************************
+                         769 --210: * Function: ssb_faultDetect
+                         770 --211: * Description: SSB fault detect Function
+                         771 --212: * Parameters:  input: none
+                         772 --213: * Returns: none
+                         773 --214: * $Create & Verlog:$
+                         774 --215: * Author:Hejianjun  Date:2016-12-01   Version:V1.3
+                         775 --216: * Author:chensongming  Date:2017-06-27   Version:V2.0
+                         776 --217: *log:ssb mismatch detect
+                         777 --218: ****************************************************/
+                         778 --219: static void ssb_faultDetect(void)
+                         779 	.align	2
+                         780 	.align	2
+                         781 	.global	_ssb_faultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         782 _ssb_faultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.:
+                         783 _ssb_faultDetect:
+00000232 8a07e170        784 	prepare	{r25,r26,r27,r28,r29,r31},5
+00000236 3d0600000000*   785 	mov	_ssb_PressEndTime,r29
+0000023c 3c0600000000*   786 	mov	_ssb_NetValue,r28
+00000242 3b0600000000*   787 	mov	_ssbFlt,r27
+                         788 --	    .bf
+                         789 .LDW91:
+                         790 --220: {
+                         791 --221:     U8 ssb_NetBCMSSBA;
+                         792 --222:     U8 res = RET_FAIL;
+00000248 00ca            793 	mov	0,r25
+                         794 --223:     static U8 ssbNochgCnt = 0;
+                         795 --224:     static U8 ssb_hwSts = INACTIVE;
+                         796 --225:     BOOL Flg = FALSE;
+0000024a 00d2            797 	mov	0,r26
+                         798 --226:     
+                         799 --227:     COM_GetSignalValue_8(INDEX_COM_RS_BCMSSBA, &ssb_NetBCMSSBA);
+0000024c 0532            800 	mov	5,r6
+0000024e 233e0300        801 	movea	3,sp,r7
+                         802 	jarl	_COM_GetSignalValue_8,lp
+                         802 <EXPANSION BEGIN>
+                         802 jarl22 _COM_GetSignalValue_8 , lp 
+00000252 80ff0000*       802 <EXPANSION END>
+                         803 --228:     COM_GetSignalValue_8(INDEX_COM_RS_BCMSSBAV, &ssb_BCMSSBAV);
+                         804 --line228
+                         805 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.29::
+                         806 .LDWlin29:
+00000256 0632            807 	mov	6,r6
+00000258 3d3e1900        808 	movea	25,r29,r7
+                         809 	jarl	_COM_GetSignalValue_8,lp
+                         809 <EXPANSION BEGIN>
+                         809 jarl22 _COM_GetSignalValue_8 , lp 
+0000025c 80ff0000*       809 <EXPANSION END>
+                         810 --229:     
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         811 --230:     if (VALID == ssb_BCMSSBAV)
+                         812 --line230
+                         813 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.30::
+                         814 .LDWlin30:
+00000260 bd0f1900        815 	ld.bu	25[r29],r1
+00000264 e009            816 	cmp	zero,r1
+00000266 ea6d*           817 	bne	.L499
+                         818 --231:     {
+                         819 --232:         if ((ssb_NetBCMSSBA != ssb_BCMSSBA) &&(ACTIVE == ssb_NetBCMSSBA))
+                         820 --line232
+                         821 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.31::
+                         822 .LDWlin31:
+00000268 9d0f1900        823 	ld.bu	24[r29],r1
+0000026c a3770300        824 	ld.bu	3[sp],r14
+00000270 e171            825 	cmp	r1,r14
+00000272 b20d*           826 	be	.L480
+00000274 a30f0300        827 	ld.bu	3[sp],r1
+00000278 610a            828 	cmp	1,r1
+0000027a fa05*           829 	bne	.L480
+                         830 --233:         {
+                         831 --234:             ssb_PressStartTime = R_TICK_GetTimeMS(0);
+                         832 --line234
+                         833 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.32::
+                         834 .LDWlin32:
+0000027c 0032            835 	mov	0,r6
+                         836 	jarl	_R_TICK_GetTimeMS,lp
+                         836 <EXPANSION BEGIN>
+                         836 jarl22 _R_TICK_GetTimeMS , lp 
+0000027e 80ff0000*       836 <EXPANSION END>
+00000282 7d570500        837 	st.w	r10,4[r29]
+                         838 --235:             Flg= TRUE;
+                         839 --line235
+                         840 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.33::
+                         841 .LDWlin33:
+00000286 01d2            842 	mov	1,r26
+                         843 .L480:
+                         844 --236:         }        
+                         845 --237:         else
+                         846 --238:         {
+                         847 --239:                  /*do nothing*/
+                         848 --240:         }
+                         849 --241:         ssb_BCMSSBA = ssb_NetBCMSSBA;
+00000288 a30f0300        850 	ld.bu	3[sp],r1
+0000028c 5d0f1800        851 	st.b	r1,24[r29]
+                         852 --242:         
+                         853 --243:         if(ssb_hwSts != ssb_NetValue.status)
+00000290 9c0f0100        854 	ld.bu	0[r28],r1
+00000294 bd771b00        855 	ld.bu	27[r29],r14
+00000298 e171            856 	cmp	r1,r14
+0000029a e205*           857 	be	.L483
+                         858 --244:         {
+                         859 --245:             ssb_PressEndTime = R_TICK_GetTimeMS(0);
+                         860 --line245
+                         861 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.34::
+                         862 .LDWlin34:
+0000029c 0032            863 	mov	0,r6
+                         864 	jarl	_R_TICK_GetTimeMS,lp
+                         864 <EXPANSION BEGIN>
+                         864 jarl22 _R_TICK_GetTimeMS , lp 
+0000029e 80ff0000*       864 <EXPANSION END>
+000002a2 7d570100        865 	st.w	r10,0[r29]
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         866 .L483:
+                         867 --246:         }
+                         868 --247: 		else
+                         869 --248: 		{
+                         870 --249: 		}
+                         871 --250:         
+                         872 --251:         ssb_hwSts = ssb_NetValue.status;
+                         873 --line251
+                         874 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.35::
+                         875 .LDWlin35:
+000002a6 9c0f0100        876 	ld.bu	0[r28],r1
+000002aa 5d0f1b00        877 	st.b	r1,27[r29]
+                         878 --253:        if(TRUE == Flg)
+000002ae 61d2            879 	cmp	1,r26
+000002b0 9a4d*           880 	bne	.L499
+                         881 --254:        {
+                         882 --255:         	if (((PEPSSenseSSBWithinTimePrm) <= (ABS_SUB(ssb_PressStartTime, ssb_PressEndTime))))
+                         883 --line255
+                         884 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.36::
+                         885 .LDWlin36:
+000002b2 3d0f0100        886 	ld.w	0[r29],r1
+000002b6 3d770500        887 	ld.w	4[r29],r14
+000002ba e171            888 	cmp	r1,r14
+000002bc f305*           889 	bnh	.L488
+000002be 3d0f0500        890 	ld.w	4[r29],r1
+000002c2 3d770100        891 	ld.w	0[r29],r14
+000002c6 ae09            892 	sub	r14,r1
+000002c8 e505*           893 	br	.L490
+                         894 .L488:
+000002ca 3d0f0100        895 	ld.w	0[r29],r1
+000002ce 3d770500        896 	ld.w	4[r29],r14
+000002d2 ae09            897 	sub	r14,r1
+                         898 .L490:
+000002d4 2e0600000000*   899 	mov	_PEPSSenseSSBWithinTimePrm,r14
+000002da ee770100        900 	ld.hu	0[r14],r14
+000002de e171            901 	cmp	r1,r14
+000002e0 db25*           902 	bh	.L486
+                         903 --256: 	        {
+                         904 --257: 	            if (PmSSBMismatchCouterPrm > ssb_FaultCnt)
+                         905 --line257
+                         906 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.37::
+                         907 .LDWlin37:
+000002e2 2e0600000000*   908 	mov	_PmSSBMismatchCouterPrm,r14
+000002e8 bd0f1700        909 	ld.bu	23[r29],r1
+000002ec 8e770100        910 	ld.bu	0[r14],r14
+000002f0 e171            911 	cmp	r1,r14
+000002f2 832d*           912 	bnh	.L499
+                         913 --258: 	            {
+                         914 --259: 	                ssb_FaultCnt++;
+                         915 --line259
+                         916 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.38::
+                         917 .LDWlin38:
+000002f4 bd0f1700        918 	ld.bu	23[r29],r1
+000002f8 410a            919 	add	1,r1
+000002fa 5d0f1700        920 	st.b	r1,23[r29]
+                         921 --260: 	                if(PmSSBMismatchCouterPrm ==ssb_FaultCnt )
+000002fe 2e0600000000*   922 	mov	_PmSSBMismatchCouterPrm,r14
+00000304 bd0f1700        923 	ld.bu	23[r29],r1
+00000308 8e770100        924 	ld.bu	0[r14],r14
+0000030c e171            925 	cmp	r1,r14
+0000030e aa1d*           926 	bne	.L499
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         927 --261: 	                {
+                         928 --262: 	                    ssbFlt.MisMatch = TRUE;
+                         929 --line262
+                         930 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.39::
+                         931 .LDWlin39:
+00000310 9b0f0100        932 	ld.bu	0[r27],r1
+00000314 810e0100        933 	ori	1,r1,r1
+00000318 5b0f0000        934 	st.b	r1,0[r27]
+                         935 --263: 	                    ssb_NetValue.valid = INVALID;
+0000031c 010a            936 	mov	1,r1
+0000031e 5c0f0100        937 	st.b	r1,1[r28]
+                         938 --264: 	                    ssb_NetFaultSts = FAULT_SSB_SWITCHFAILED;
+00000322 050a            939 	mov	5,r1
+00000324 7d0f0d00        940 	st.w	r1,12[r29]
+00000328 d50d*           941 	br	.L499
+                         942 .L486:
+                         943 --265: 	                }
+                         944 --266: 	                else
+                         945 --267: 	                {
+                         946 --268: 	                    /*do nothing*/
+                         947 --269: 	                }
+                         948 --270: 	            }
+                         949 --271: 	            else
+                         950 --272: 	            {
+                         951 --273: 	                    /*do nothing*/
+                         952 --274: 	            }
+                         953 --275: 	       }
+                         954 --276:         else
+                         955 --277:        	{
+                         956 --278:             ssb_FaultCnt = 0;
+                         957 --line278
+                         958 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.40::
+                         959 .LDWlin40:
+0000032a 5d071700        960 	st.b	zero,23[r29]
+                         961 --279:             ssb_NetValue.valid = VALID;
+0000032e 5c070100        962 	st.b	zero,1[r28]
+                         963 --280:             ssb_NetFaultSts = FAULT_SSB_NO;
+00000332 7d070d00        964 	st.w	zero,12[r29]
+                         965 --281:             ssbFlt.MisMatch = FALSE;
+00000336 9b0f0100        966 	ld.bu	0[r27],r1
+0000033a c10efe00        967 	andi	254,r1,r1
+0000033e 5b0f0000        968 	st.b	r1,0[r27]
+                         969 .L499:
+                         970 --282:         }
+                         971 --283:       }
+                         972 --284: 	  else
+                         973 --285: 	  {
+                         974 --286: 	  }
+                         975 --287:        
+                         976 --289:     }
+                         977 --290: 	else
+                         978 --291: 	{
+                         979 --292: 	}
+                         980 --293: }
+00000342 0000            981 	nop
+                         982 --	    .ef
+                         983 .LDW02:
+00000344 4a06ff70        984 	dispose	5,{r25,r26,r27,r28,r29,r31},[lp]
+                         985 	.type	_ssb_faultDetect,@function
+                         986 	.size	_ssb_faultDetect,.-_ssb_faultDetect
+                         987 	.type	_ssb_faultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,@function
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                         988 	.size	_ssb_faultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.,.-_ssb_faultDetect..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.
+                         989 	.align	2
+                         990 .LDW12:
+                         991 --_ssb_hwSts	.L640	static
+                         992 --_ssb_NetBCMSSBA	3[sp]	local
+                         993 --_res	r25	local
+                         994 --_Flg	r26	local
+                         995 
+                         996 	.data
+                         997 .L640:
+                         998 	.global	_ssb_hwSts.ssb_faultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb..17
+                         999 _ssb_hwSts.ssb_faultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb..17:
+                        1000 	.type	_ssb_hwSts.ssb_faultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb..17,@object
+                        1001 	.size	_ssb_hwSts.ssb_faultDetect.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb..17,1
+0000001b 00             1002 	.byte	0
+                        1003 	.type	.L640,@object
+                        1004 	.size	.L640,1
+                        1005 	.text
+                        1006 
+                        1007 
+                        1008 --296: /***************************************************
+                        1009 --297: * Function: SSB_SendNetSignal_5ms
+                        1010 --298: * Description: send net signal with the period of 5ms
+                        1011 --299: * Parameters:  input: none
+                        1012 --300: * Returns: none
+                        1013 --301: * $Create & Verlog:$
+                        1014 --302: * Author:Hejianjun  Date:2016-12-01   Version:V1.3
+                        1015 --303: ****************************************************/
+                        1016 --304: void SSB_SendNetSignal_5ms(void)
+                        1017 	.align	2
+                        1018 	.align	2
+                        1019 	.global	_SSB_SendNetSignal_5ms
+                        1020 _SSB_SendNetSignal_5ms:
+00000348 8007e100       1021 	prepare	{r28,r29,r31},0
+0000034c 3d0600000000*  1022 	mov	_ssb_NetValue,r29
+00000352 1de0           1023 	mov	r29,r28
+                        1024 --	    .bf
+                        1025 .LDW22:
+                        1026 --305: {
+                        1027 --306:     v_wr_bool(IPCSSBA_handle, ssb_NetValue.status);              /*need update signal handle*/
+00000354 9d3f0100       1028 	ld.bu	0[r29],r7
+00000358 26064c333f00   1029 	mov	4141900,r6
+                        1030 	jarl	_v_wr_bool,lp
+                        1030 <EXPANSION BEGIN>
+                        1030 jarl22 _v_wr_bool , lp 
+0000035e 80ff0000*      1030 <EXPANSION END>
+                        1031 --307:     v_wr_bool(IPCSSBAV_handle, ssb_NetValue.valid);               /*need update signal handle*/
+                        1032 --line307
+                        1033 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.41::
+                        1034 .LDWlin41:
+00000362 bd3f0100       1035 	ld.bu	1[r29],r7
+00000366 260670333f00   1036 	mov	4141936,r6
+                        1037 	jarl	_v_wr_bool,lp
+                        1037 <EXPANSION BEGIN>
+                        1037 jarl22 _v_wr_bool , lp 
+0000036c 80ff0000*      1037 <EXPANSION END>
+                        1038 --308:     v_wr_8(IPCSSBFltSts_handle, ssb_NetFaultSts);               /*need update signal handle*/
+                        1039 --line308
+                        1040 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.42::
+                        1041 .LDWlin42:
+00000370 270600000000*  1042 	mov	_ssb_NetFaultSts,r7
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+00000376 873f0100       1043 	ld.bu	0[r7],r7
+0000037a 260694333f00   1044 	mov	4141972,r6
+                        1045 	jarl	_v_wr_8,lp
+                        1045 <EXPANSION BEGIN>
+                        1045 jarl22 _v_wr_8 , lp 
+00000380 80ff0000*      1045 <EXPANSION END>
+                        1046 --309: }
+                        1047 --line309
+                        1048 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.43::
+                        1049 .LDWlin43:
+00000384 0000           1050 	nop
+                        1051 --	    .ef
+                        1052 .LDW32:
+00000386 4006ff00       1053 	dispose	0,{r28,r29,r31},[lp]
+                        1054 	.type	_SSB_SendNetSignal_5ms,@function
+                        1055 	.size	_SSB_SendNetSignal_5ms,.-_SSB_SendNetSignal_5ms
+                        1056 	.align	2
+                        1057 .LDW42:
+                        1058 
+                        1059 	.data
+                        1060 	.text
+                        1061 
+                        1062 
+                        1063 --311: /***************************************************
+                        1064 --312: * Function: SSB_GetInitStatus
+                        1065 --313: * Description: feedback SSB module status
+                        1066 --314: * Parameters:  input: none
+                        1067 --315: * Returns: ssb_InitSts
+                        1068 --316: * $Create & Verlog:$
+                        1069 --317: * Author:Hejianjun  Date:2016-12-01   Version:V1.3
+                        1070 --318: ****************************************************/
+                        1071 --319: U8 SSB_GetInitStatus(void)
+                        1072 	.align	2
+                        1073 	.align	2
+                        1074 	.global	_SSB_GetInitStatus
+                        1075 _SSB_GetInitStatus:
+0000038a 210600000000*  1076 	mov	_ssb_InitSts-2,r1
+                        1077 --	    .bf
+                        1078 .LDW52:
+                        1079 --320: {
+                        1080 --321:     return ssb_InitSts;
+00000390 2a0600000000*  1081 	mov	_ssb_InitSts,r10
+00000396 8a570100       1082 	ld.bu	0[r10],r10
+                        1083 --	    .ef
+                        1084 .LDW62:
+0000039a 7f00           1085 	jmp	[lp]
+                        1086 	.type	_SSB_GetInitStatus,@function
+                        1087 	.size	_SSB_GetInitStatus,.-_SSB_GetInitStatus
+                        1088 	.align	2
+                        1089 .LDW72:
+                        1090 
+                        1091 	.data
+                        1092 	.text
+                        1093 
+                        1094 --322: }
+                        1095 
+                        1096 --324: /***************************************************
+                        1097 --325: * Function: SSB_GetSSBValue
+                        1098 --326: * Description:external module get status of SSB button
+                        1099 --327: * Parameters:  input: none
+                        1100 --328: * Returns: RET_FAIL
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                        1101 --329:                     RET_INVALID
+                        1102 --330:                     RET_OK
+                        1103 --331: * $Create & Verlog:$
+                        1104 --332: * Author:Hejianjun  Date:2016-12-01   Version:V1.3
+                        1105 --333: ****************************************************/
+                        1106 --334: U8 SSB_GetSSBValue(SSBData_ST *value)
+                        1107 	.align	2
+                        1108 	.align	2
+                        1109 	.global	_SSB_GetSSBValue
+                        1110 _SSB_GetSSBValue:
+0000039c 06f0           1111 	mov	r6,ep
+0000039e 210600000000*  1112 	mov	_ssb_InitSts-2,r1
+                        1113 --	    .bf
+                        1114 .LDW82:
+                        1115 --335: {
+                        1116 --336:     U8 res;
+                        1117 --337:     if (NULL_PTR == value)
+000003a4 e0f1           1118 	cmp	zero,ep
+000003a6 ba05*          1119 	bne	.L757
+                        1120 --338:     {
+                        1121 --339:         res = RET_INVALID;
+                        1122 --line339
+                        1123 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.44::
+                        1124 .LDWlin44:
+000003a8 020a           1125 	mov	2,r1
+000003aa c525*          1126 	br	.L759
+                        1127 .L757:
+                        1128 --340:     }
+                        1129 --341:     else
+                        1130 --342:     {
+                        1131 --343:         if (TRUE == ssb_InitSts)
+                        1132 --line343
+                        1133 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.45::
+                        1134 .LDWlin45:
+000003ac 2e0600000000*  1135 	mov	_ssb_InitSts,r14
+000003b2 8e770100       1136 	ld.bu	0[r14],r14
+000003b6 6172           1137 	cmp	1,r14
+000003b8 ca1d*          1138 	bne	.L760
+                        1139 --344:         {
+                        1140 --345:             if (PmSSBMismatchCouterPrm > ssb_FaultCnt)
+                        1141 --line345
+                        1142 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.46::
+                        1143 .LDWlin46:
+000003ba 2d0600000000*  1144 	mov	_PmSSBMismatchCouterPrm,r13
+000003c0 a1770300       1145 	ld.bu	3[r1],r14
+000003c4 8d6f0100       1146 	ld.bu	0[r13],r13
+000003c8 ee69           1147 	cmp	r14,r13
+000003ca b30d*          1148 	bnh	.L762
+                        1149 --346:             {
+                        1150 --347:                 *value = ssb_NetValue;
+                        1151 --line347
+                        1152 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.47::
+                        1153 .LDWlin47:
+000003cc 210600000000*  1154 	mov	_ssb_NetValue,r1
+000003d2 81770100       1155 	ld.bu	0[r1],r14
+000003d6 a10f0100       1156 	ld.bu	1[r1],r1
+000003da 8073           1157 	sst.b	r14,0[ep]
+000003dc 810b           1158 	sst.b	r1,1[ep]
+000003de f505*          1159 	br	.L764
+                        1160 .L762:
+                        1161 --348:             }
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                        1162 --349:             else
+                        1163 --350:             {
+                        1164 --351:                 value->status = ssb_BCMSSBA;
+                        1165 --line351
+                        1166 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.48::
+                        1167 .LDWlin48:
+000003e0 81770500       1168 	ld.bu	4[r1],r14
+000003e4 8073           1169 	sst.b	r14,0[ep]
+                        1170 --352:                 value->valid = ssb_BCMSSBAV;
+000003e6 a10f0500       1171 	ld.bu	5[r1],r1
+000003ea 810b           1172 	sst.b	r1,1[ep]
+                        1173 .L764:
+                        1174 --353:             }
+                        1175 --354:              res = RET_OK;
+000003ec 010a           1176 	mov	1,r1
+000003ee a505*          1177 	br	.L759
+                        1178 .L760:
+                        1179 --355:         }
+                        1180 --356:         else
+                        1181 --357:         {
+                        1182 --358:             res = RET_FAIL;
+                        1183 --line358
+                        1184 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.49::
+                        1185 .LDWlin49:
+000003f0 000a           1186 	mov	0,r1
+                        1187 .L759:
+                        1188 --359:         }
+                        1189 --360:     }
+                        1190 --361:     return res;
+000003f2 0150           1191 	mov	r1,r10
+                        1192 --	    .ef
+                        1193 .LDW92:
+000003f4 7f00           1194 	jmp	[lp]
+                        1195 	.type	_SSB_GetSSBValue,@function
+                        1196 	.size	_SSB_GetSSBValue,.-_SSB_GetSSBValue
+                        1197 	.align	2
+                        1198 .LDW03:
+                        1199 --_res	r1	local
+                        1200 
+                        1201 --_value	ep	param
+                        1202 
+                        1203 	.data
+                        1204 	.text
+                        1205 
+                        1206 --362: }
+                        1207 
+                        1208 --364: /***************************************************
+                        1209 --365: * Function: SSB_GetSSBFltSts
+                        1210 --366: * Description:external module get status of SSB button
+                        1211 --367: * Parameters:  input: none
+                        1212 --368: * Returns: RET_FAIL
+                        1213 --369:                     RET_INVALID
+                        1214 --370:                     RET_OK
+                        1215 --371: * $Create & Verlog:$
+                        1216 --372: * Author:chensongming  Date:2017-06-26  Version:V2.0
+                        1217 --373: ****************************************************/
+                        1218 --374: U8 SSB_GetSSBFltSts(SSBFlt_ST *pstatus)
+                        1219 	.align	2
+                        1220 	.align	2
+                        1221 	.global	_SSB_GetSSBFltSts
+                        1222 _SSB_GetSSBFltSts:
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+000003f6 06f0           1223 	mov	r6,ep
+                        1224 --	    .bf
+                        1225 .LDW13:
+                        1226 --375: {
+                        1227 --376:     U8 res = RET_FAIL;
+000003f8 000a           1228 	mov	0,r1
+                        1229 --377:     if (NULL_PTR == pstatus)
+000003fa e0f1           1230 	cmp	zero,ep
+000003fc ba05*          1231 	bne	.L834
+                        1232 --378:     {
+                        1233 --379:         res = RET_INVALID;
+                        1234 --line379
+                        1235 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.50::
+                        1236 .LDWlin50:
+000003fe 020a           1237 	mov	2,r1
+00000400 9515*          1238 	br	.L836
+                        1239 .L834:
+                        1240 --380:     }
+                        1241 --381:     else
+                        1242 --382:     {
+                        1243 --383:         if (TRUE == ssb_InitSts)
+                        1244 --line383
+                        1245 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.51::
+                        1246 .LDWlin51:
+00000402 2e0600000000*  1247 	mov	_ssb_InitSts,r14
+00000408 8e770100       1248 	ld.bu	0[r14],r14
+0000040c 6172           1249 	cmp	1,r14
+0000040e 9a0d*          1250 	bne	.L837
+                        1251 --384:         {
+                        1252 --385:             *pstatus = ssbFlt;
+                        1253 --line385
+                        1254 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.52::
+                        1255 .LDWlin52:
+00000410 2e0600000000*  1256 	mov	_ssbFlt,r14
+00000416 8e770100       1257 	ld.bu	0[r14],r14
+0000041a 8073           1258 	sst.b	r14,0[ep]
+                        1259 --386: 			res = RET_OK;
+0000041c 010a           1260 	mov	1,r1
+0000041e a505*          1261 	br	.L836
+                        1262 .L837:
+                        1263 --387:         }
+                        1264 --388:         else
+                        1265 --389:         {
+                        1266 --390:             res = RET_FAIL;
+                        1267 --line390
+                        1268 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb.53::
+                        1269 .LDWlin53:
+00000420 000a           1270 	mov	0,r1
+                        1271 .L836:
+                        1272 --391:         }
+                        1273 --392:     }
+                        1274 --393:     return res;
+00000422 0150           1275 	mov	r1,r10
+                        1276 --	    .ef
+                        1277 .LDW23:
+00000424 7f00           1278 	jmp	[lp]
+                        1279 	.type	_SSB_GetSSBFltSts,@function
+                        1280 	.size	_SSB_GetSSBFltSts,.-_SSB_GetSSBFltSts
+                        1281 	.align	2
+                        1282 .LDW33:
+                        1283 --_res	r1	local
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00002401.si
+                        1284 
+                        1285 --_pstatus	ep	param
+                        1286 
+                        1287 	.data
+                        1288 	.text
+                        1289 
+                        1290 --394: }
+                        1291 	.align	2
+                        1292 --_ssb_InitSts	_ssb_InitSts	static
+                        1293 --_ssb_PressEndTime	_ssb_PressEndTime	static
+                        1294 --_ssb_PressStartTime	_ssb_PressStartTime	static
+                        1295 --_ssb_AdcValue	_ssb_AdcValue	static
+                        1296 --_ssb_Status	_ssb_Status	static
+                        1297 --_ssb_NetValue	_ssb_NetValue	static
+                        1298 --_ssb_NetFaultSts	_ssb_NetFaultSts	static
+                        1299 --_ssb_FaultCnt	_ssb_FaultCnt	static
+                        1300 --_ssb_BCMSSBA	_ssb_BCMSSBA	static
+                        1301 --_ssb_BCMSSBAV	_ssb_BCMSSBAV	static
+                        1302 --_ssb_BstatusChange	_ssb_BstatusChange	static
+                        1303 --_PmSSBMismatchCouterPrm	_PmSSBMismatchCouterPrm	static
+                        1304 --_PEPSSenseSSBWithinTimePrm	_PEPSSenseSSBWithinTimePrm	static
+                        1305 --_PmSSBStuckSWTimePrm	_PmSSBStuckSWTimePrm	static
+                        1306 --_ssbFlt	_ssbFlt	static
+                        1307 --_SSBStuckCnt	_SSBStuckCnt	static
+                        1308 --_SSBStuckMaxCnt	_SSBStuckMaxCnt	static
+                        1309 
+                        1310 	.data
+                        1311 	.ghsnote version,14
+                        1312 	.ghsnote tools,3
+                        1313 	.ghsnote options,144
+                        1314 	.text
+                        1315 	.align	2
+                        1316 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cssb...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74036C..0::
+                        1317 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

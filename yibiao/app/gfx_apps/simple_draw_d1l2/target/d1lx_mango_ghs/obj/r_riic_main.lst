@@ -1,0 +1,1855 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_riic_main.dbo -source=r_riic_main.c -o .\obj\gh_00008c01.o -list=.\obj\r_riic_main.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+Source File: r_riic_main.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c ..\..\..\..\..\macro\i2c\riic\src\r_riic_main.c -o
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         112 --		.\obj\r_riic_main.o
+                         113 --Source File:   ..\..\..\..\..\macro\i2c\riic\src\r_riic_main.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:58 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2: ****************************************************************************
+                         126 --3: PROJECT : RIIC driver
+                         127 --4: FILE    : $Id: r_riic_main.c 6367 2015-10-20 08:25:02Z florian.zimmermann $
+                         128 --5: ============================================================================ 
+                         129 --6: DESCRIPTION
+                         130 --7: Driver for RIIC macro
+                         131 --9: ============================================================================
+                         132 --10:                             C O P Y R I G H T                                    
+                         133 --11: ============================================================================
+                         134 --12:                            Copyright (c) 2014
+                         135 --13:                                   by 
+                         136 --14:                        Renesas Electronics (Europe) GmbH. 
+                         137 --15:                            Arcadiastrasse 10
+                         138 --16:                           D-40472 Duesseldorf
+                         139 --17:                                Germany
+                         140 --18:                           All rights reserved.
+                         141 --19: ============================================================================
+                         142 --20: Purpose: only for testing
+                         143 --22: DISCLAIMER                                                                   
+                         144 --23: This software is supplied by Renesas Electronics Corporation and is only     
+                         145 --24: intended for use with Renesas products. No other uses are authorized. This   
+                         146 --25: software is owned by Renesas Electronics Corporation and is protected under  
+                         147 --26: all applicable laws, including copyright laws.                               
+                         148 --27: THIS SOFTWARE IS PROVIDED "AS IS" AND RENESAS MAKES NO WARRANTIES REGARDING  
+                         149 --28: THIS SOFTWARE, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT      
+                         150 --29: LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE   
+                         151 --30: AND NON-INFRINGEMENT. ALL SUCH WARRANTIES ARE EXPRESSLY DISCLAIMED.          
+                         152 --31: TO THE MAXIMUM EXTENT PERMITTED NOT PROHIBITED BY LAW, NEITHER RENESAS       
+                         153 --32: ELECTRONICS CORPORATION NOR ANY OF ITS AFFILIATED COMPANIES SHALL BE LIABLE  
+                         154 --33: FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES FOR   
+                         155 --34: ANY REASON RELATED TO THIS SOFTWARE, EVEN IF RENESAS OR ITS AFFILIATES HAVE  
+                         156 --35: BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.                             
+                         157 --36: Renesas reserves the right, without notice, to make changes to this software 
+                         158 --37: and to discontinue the availability of this software. By using this software,
+                         159 --38: you agree to the additional terms and conditions found by accessing the      
+                         160 --39: following link:                                                              
+                         161 --40: http://www.renesas.com/disclaimer *                                          
+                         162 --41: Copyright (C) 2011 Renesas Electronics Corporation. All rights reserved.     
+                         163 --43: ****************************************************************************
+                         164 --45: ****************************************************************************
+                         165 --46: */
+                         166 --48: /*******************************************************************************
+                         167 --49:   Title: Main Module
+                         168 --51:   Implementation of the API and other global functions.
+                         169 --52: */
+                         170 --54: /*******************************************************************************
+                         171 --55:   Section: Includes
+                         172 --56: */
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         173 --58: #include "r_typedefs.h"
+                         174 --59: #include "r_cdi_api.h"
+                         175 --60: #include "r_config_riic.h"
+                         176 --61: #include "r_riic_regs.h"
+                         177 --62: #include "r_riic_api.h"
+                         178 --63: #define RIIC_MAIN_GLOBALS
+                         179 --64: #include "r_riic_main.h"
+                         180 --65: #include "r_riic_sys.h"
+                         181 --66: #include "r_dev_api.h"
+                         182 --68: #if defined (R_DBG_PRINT_DEV_REGS) || defined (R_DBG_PRINT_MSG)
+                         183 --69:    #include <stdio.h> 
+                         184 --70:    #include "r_dbg_api.h"
+                         185 --71: #endif
+                         186 --73: /*******************************************************************************
+                         187 --74:   Section: Local Defines
+                         188 --75: */
+                         189 --77: /*******************************************************************************
+                         190 --78:   Section: Local Variables
+                         191 --79: */
+                         192 --81: /*******************************************************************************
+                         193 --82:   Section: Local Functions
+                         194 --83: */
+                         195 --85: /*******************************************************************************
+                         196 --86:   Section: Global Functions
+                         197 --87: */
+                         198 --89: /*******************************************************************************
+                         199 --90:   Section: Global API Functions
+                         200 --91:   
+                         201 --92:   For API documentation see riic_api.h
+                         202 --93: */
+                         203 --95: /*******************************************************************************
+                         204 --96:   Function: R_RIIC_Init
+                         205 --97: */
+                         206 --99: r_riic_Error_t R_RIIC_Init(uint32_t Unit, r_riic_Parameter_t *Config) 
+                         207 	.text
+                         208 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740386..0::
+                         209 	.align	2
+                         210 	.global	_R_RIIC_Init
+                         211 _R_RIIC_Init:
+00000000 8007e130        212 	prepare	{r26,r27,r28,r29,r31},0
+00000004 06d8            213 	mov	r6,r27
+00000006 07d0            214 	mov	r7,r26
+                         215 --	    .bf
+                         216 .LDW01:
+                         217 --100: {
+                         218 --101:     uint32_t    base;
+                         219 --102:     uint32_t    clk_in;
+                         220 --103:     uint32_t    clk_phi;
+                         221 --104:     uint32_t    div;
+                         222 --105:     uint32_t    value;
+                         223 --106:     
+                         224 --107:     base = R_SYS_RIIC_BaseAddr(Unit);
+00000008 1b30            225 	mov	r27,r6
+                         226 	jarl	_R_SYS_RIIC_BaseAddr,lp
+                         226 <EXPANSION BEGIN>
+                         226 jarl22 _R_SYS_RIIC_BaseAddr , lp 
+0000000a 80ff0000*       226 <EXPANSION END>
+0000000e 0ae8            227 	mov	r10,r29
+                         228 --108:     r_riic_Dev[Unit].BaseAddr = base;
+                         229 --line108
+                         230 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.1::
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         231 .LDWlin1:
+00000010 1bf0            232 	mov	r27,ep
+00000012 c2f2            233 	shl	2,ep
+00000014 2e0600000000*   234 	mov	_r_riic_Dev,r14
+0000001a cef1            235 	add	r14,ep
+0000001c 01ed            236 	sst.w	r29,0[ep]
+                         237 --109:     
+                         238 --110:     /*Complete the intialisation in the device level */
+                         239 --111:     R_SYS_RIIC_Init(Unit);
+0000001e 1b30            240 	mov	r27,r6
+                         241 	jarl	_R_SYS_RIIC_Init,lp
+                         241 <EXPANSION BEGIN>
+                         241 jarl22 _R_SYS_RIIC_Init , lp 
+00000020 80ff0000*       241 <EXPANSION END>
+                         242 --112:     
+                         243 --113:     clk_in = 0;
+                         244 --line113
+                         245 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.2::
+                         246 .LDWlin2:
+00000024 00e2            247 	mov	0,r28
+                         248 --114:     clk_in = R_SYS_RIIC_SysGetClockHz(Unit);
+00000026 1b30            249 	mov	r27,r6
+                         250 	jarl	_R_SYS_RIIC_SysGetClockHz,lp
+                         250 <EXPANSION BEGIN>
+                         250 jarl22 _R_SYS_RIIC_SysGetClockHz , lp 
+00000028 80ff0000*       250 <EXPANSION END>
+0000002c 0ae0            251 	mov	r10,r28
+                         252 --115:     if (clk_in == 0) {
+                         253 --line115
+                         254 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.3::
+                         255 .LDWlin3:
+0000002e e0e1            256 	cmp	zero,r28
+00000030 ba05*           257 	bne	.L4
+                         258 --116:         return R_RIIC_ERR_NG;
+                         259 --line116
+                         260 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.4::
+                         261 .LDWlin4:
+00000032 0152            262 	mov	1,r10
+00000034 b555*           263 	br	.L2
+                         264 .L4:
+                         265 --117:     }
+                         266 --118:     
+                         267 --119:     {
+                         268 --120:         /* IIC Reset */
+                         269 --121:         R_RIIC_WRITE_REG(8, (base + R_RIIC_CR1), 0x1F);                /* ICE = 0 */
+                         270 --line121
+                         271 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.5::
+                         272 .LDWlin5:
+00000036 200e1f00        273 	movea	31,zero,r1
+0000003a 5d0f0000        274 	st.b	r1,0[r29]
+                         275 --122:         R_RIIC_WRITE_REG(8, (base + R_RIIC_CR1), 0x5F);                /* ICE = 0, IICRST = 1 */
+0000003e 200e5f00        276 	movea	95,zero,r1
+00000042 5d0f0000        277 	st.b	r1,0[r29]
+                         278 --123:         R_RIIC_WRITE_REG(8, (base + R_RIIC_CR1), 0xDF);                /* ICE = 1, IICRST = 1 */
+00000046 200edf00        279 	movea	223,zero,r1
+0000004a 5d0f0000        280 	st.b	r1,0[r29]
+                         281 --124:     
+                         282 --125:         /* Slave address setup */
+                         283 --126:         R_RIIC_WRITE_REG(16, (base + R_RIIC_SAR0), 0x0000);            /* 7bit address, Slave address="0000000" */
+0000004e 7d072800        284 	st.h	zero,40[r29]
+                         285 --127:         R_RIIC_WRITE_REG(8, (base + R_RIIC_SER), 0x01);                /* SAR0 = 1 */
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+00000052 010a            286 	mov	1,r1
+00000054 5d0f1800        287 	st.b	r1,24[r29]
+                         288 --128:         
+                         289 --129:         /* Clock setup */
+                         290 --130:         /* PCLK: clk_in -> baudrate: Config.baudrate */
+                         291 --131:         
+                         292 --132:         /* calculate CKS to generate IIC_PHI_CLK to be
+                         293 --133:             IIC_PHI_CLK ~= 40..50x Baud rate (Transfer Rate)
+                         294 --134:              e.g. 100kHz Baudrate
+                         295 --135:               -> try to generate IIC_PHI_CLK of approximatly 4..5MHz
+                         296 --136:               
+                         297 --137:            This is a approximation, not 100% accurate setup of baudrate.
+                         298 --138:         */
+                         299 --139:         
+                         300 --140:         div = 0;
+00000058 006a            301 	mov	0,r13
+                         302 --141:         clk_phi = clk_in / (uint32_t)(1ul << div);
+0000005a 010a            303 	mov	1,r1
+0000005c ed0fc208        304 	shl	r13,r1,r1
+00000060 1c70            305 	mov	r28,r14
+00000062 e177fe02        306 	divqu	r1,r14,zero
+                         307 --142:         while(clk_phi > (Config->Baudrate * 50u)) 
+00000066 850d*           308 	br	.L7
+                         309 .L9:
+                         310 --143:         {
+                         311 --144:             div += 1;
+                         312 --line144
+                         313 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.6::
+                         314 .LDWlin6:
+00000068 416a            315 	add	1,r13
+                         316 --145:             clk_phi = clk_in / (uint32_t)(1ul << div);
+0000006a 010a            317 	mov	1,r1
+0000006c ed0fc208        318 	shl	r13,r1,r1
+00000070 1c70            319 	mov	r28,r14
+00000072 e177fe02        320 	divqu	r1,r14,zero
+                         321 .L7:
+00000076 3a0f0100        322 	ld.w	0[r26],r1
+0000007a f20f4602        323 	mulu	50,r1,zero
+0000007e e171            324 	cmp	r1,r14
+00000080 cbf5*           325 	bh	.L9
+                         326 --146:         }
+                         327 --147:         
+                         328 --148:         value = ((div<<4u) | 0x08u);  /* MR1 register; CKS (bit6-4) PCLK/(1<<div), (bit4 always "1") */
+                         329 --line148
+                         330 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.7::
+                         331 .LDWlin7:
+00000082 0d60            332 	mov	r13,r12
+00000084 c462            333 	shl	4,r12
+00000086 8c0e0800        334 	ori	8,r12,r1
+                         335 --149:         R_RIIC_WRITE_REG(8, (base + R_RIIC_MR1), value);
+0000008a 5d0f0800        336 	st.b	r1,8[r29]
+                         337 --150:         
+                         338 --151:         value = ((clk_phi / Config->Baudrate / 2u) - 1u);    /* Half-Time is high-level period */
+0000008e 3a5f0100        339 	ld.w	0[r26],r11
+00000092 0e60            340 	mov	r14,r12
+00000094 eb67fe02        341 	divqu	r11,r12,zero
+00000098 8162            342 	shr	1,r12
+0000009a 0c0effff        343 	addi	-1,r12,r1
+                         344 --152:         value |= 0xE0u;
+0000009e 810ee000        345 	ori	224,r1,r1
+                         346 --153:         R_RIIC_WRITE_REG(8, (base + R_RIIC_BRH), value);
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+000000a2 5d0f3800        347 	st.b	r1,56[r29]
+                         348 --154:         value = (clk_phi / Config->Baudrate / 2u);    /* Half-Time is low-level period, */
+000000a6 3a5f0100        349 	ld.w	0[r26],r11
+000000aa 0e60            350 	mov	r14,r12
+000000ac eb67fe02        351 	divqu	r11,r12,zero
+000000b0 0c08            352 	mov	r12,r1
+000000b2 810a            353 	shr	1,r1
+                         354 --155:         value = (((value * 1200u) / 1000u) - 1u);          /* but also it is approx. 20% longer than high-level*/
+000000b4 2066b004        355 	movea	1200,zero,r12
+000000b8 205ee803        356 	movea	1000,zero,r11
+000000bc e1672202        357 	mulu	r1,r12,zero
+000000c0 eb67fe02        358 	divqu	r11,r12,zero
+000000c4 5f62            359 	add	-1,r12
+000000c6 0c08            360 	mov	r12,r1
+                         361 --156:         value |= 0xE0u;
+000000c8 810ee000        362 	ori	224,r1,r1
+                         363 --157:         R_RIIC_WRITE_REG(8, (base + R_RIIC_BRL), value);
+000000cc 5d0f3400        364 	st.b	r1,52[r29]
+                         365 --158:         
+                         366 --159:         R_RIIC_WRITE_REG(8, (base + R_RIIC_CR1), 0x9Fu);                /* ICE = 1, IICRST = 0 */
+000000d0 20669f00        367 	movea	159,zero,r12
+000000d4 5d670000        368 	st.b	r12,0[r29]
+                         369 --160:     }
+                         370 --161:     
+                         371 --162:     return R_RIIC_ERR_OK;
+000000d8 0052            372 	mov	0,r10
+                         373 .L2:
+                         374 --	    .ef
+                         375 .LDW11:
+000000da 4006ff30        376 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                         377 	.type	_R_RIIC_Init,@function
+                         378 	.size	_R_RIIC_Init,.-_R_RIIC_Init
+                         379 	.align	2
+                         380 .LDW21:
+                         381 --_base	r29	local
+                         382 --_clk_in	r28	local
+                         383 --_clk_phi	r14	local
+                         384 --_div	r13	local
+                         385 --_value	r1	local
+                         386 
+                         387 --_Unit	r27	param
+                         388 --_Config	r26	param
+                         389 
+                         390 	.section ".bss","awb"
+                         391 .L82:
+                         392 	.type	.L82,@object
+                         393 	.size	.L82,0
+                         394 	.data
+                         395 	.text
+                         396 
+                         397 --163: }
+                         398 
+                         399 --166: /*******************************************************************************
+                         400 --167:   Function: R_RIIC_DeInit
+                         401 --168: */
+                         402 --170: r_riic_Error_t R_RIIC_DeInit(uint32_t Unit) 
+                         403 	.align	2
+                         404 	.align	2
+                         405 	.global	_R_RIIC_DeInit
+                         406 _R_RIIC_DeInit:
+000000de 80076100        407 	prepare	{r29,r31},0
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+000000e2 06e8            408 	mov	r6,r29
+                         409 --	    .bf
+                         410 .LDW31:
+                         411 --171: {
+                         412 --172:     /*Complete the de-intialisation in the device level */  
+                         413 --173:     R_SYS_RIIC_DeInit(Unit);
+000000e4 1d30            414 	mov	r29,r6
+                         415 	jarl	_R_SYS_RIIC_DeInit,lp
+                         415 <EXPANSION BEGIN>
+                         415 jarl22 _R_SYS_RIIC_DeInit , lp 
+000000e6 80ff0000*       415 <EXPANSION END>
+                         416 --174:     
+                         417 --175:     return R_RIIC_ERR_OK;
+                         418 --line175
+                         419 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.8::
+                         420 .LDWlin8:
+000000ea 0052            421 	mov	0,r10
+                         422 --	    .ef
+                         423 .LDW41:
+000000ec 40067f00        424 	dispose	0,{r29,r31},[lp]
+                         425 	.type	_R_RIIC_DeInit,@function
+                         426 	.size	_R_RIIC_DeInit,.-_R_RIIC_DeInit
+                         427 	.align	2
+                         428 .LDW51:
+                         429 
+                         430 --_Unit	r29	param
+                         431 
+                         432 	.section ".bss","awb"
+                         433 .L202:
+                         434 	.type	.L202,@object
+                         435 	.size	.L202,0
+                         436 	.data
+                         437 	.text
+                         438 
+                         439 --176: }
+                         440 
+                         441 --179: /*******************************************************************************
+                         442 --180:   Function: R_RIIC_data_receive
+                         443 --181: */
+                         444 --182: void R_RIIC_data_receive(uint32_t Unit, uint8_t* rx_buffer)
+                         445 	.align	2
+                         446 	.align	2
+                         447 	.global	_R_RIIC_data_receive
+                         448 _R_RIIC_data_receive:
+000000f0 0670            449 	mov	r6,r14
+000000f2 07f0            450 	mov	r7,ep
+                         451 --	    .bf
+                         452 .LDW61:
+                         453 --183: {
+                         454 --184:     uint32_t    base;
+                         455 --185:     
+                         456 --186:     base   = r_riic_Dev[Unit].BaseAddr;
+000000f4 0e68            457 	mov	r14,r13
+000000f6 c26a            458 	shl	2,r13
+000000f8 2c0600000000*   459 	mov	_r_riic_Dev,r12
+000000fe cc69            460 	add	r12,r13
+00000100 2d0f0100        461 	ld.w	0[r13],r1
+                         462 --187:     
+                         463 --188:     while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_RDRF) == 0u) 
+00000104 0000            464 	nop
+                         465 .L219:
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         466 --189:     {
+00000106 816f2500        467 	ld.bu	36[r1],r13
+0000010a 866a            468 	shr	6,r13
+0000010c d9fd*           469 	bnl	.L219
+                         470 --190:     }
+                         471 --191:     /* receive data read */
+                         472 --192:     *rx_buffer = R_RIIC_READ_REG(8, (base + R_RIIC_DRR));
+                         473 --line192
+                         474 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.9::
+                         475 .LDWlin9:
+0000010e 816f4100        476 	ld.bu	64[r1],r13
+00000112 806b            477 	sst.b	r13,0[ep]
+                         478 --193: }
+00000114 0000            479 	nop
+                         480 --	    .ef
+                         481 .LDW71:
+00000116 7f00            482 	jmp	[lp]
+                         483 	.type	_R_RIIC_data_receive,@function
+                         484 	.size	_R_RIIC_data_receive,.-_R_RIIC_data_receive
+                         485 	.align	2
+                         486 .LDW81:
+                         487 --_base	r1	local
+                         488 
+                         489 --_Unit	r14	param
+                         490 --_rx_buffer	ep	param
+                         491 
+                         492 	.section ".bss","awb"
+                         493 .L240:
+                         494 	.type	.L240,@object
+                         495 	.size	.L240,0
+                         496 	.data
+                         497 	.text
+                         498 
+                         499 
+                         500 --196: /*******************************************************************************
+                         501 --197:   Function: R_RIIC_data_send
+                         502 --198: */
+                         503 --199: r_riic_Error_t R_RIIC_data_send(uint32_t Unit, uint8_t* TxData) 
+                         504 	.align	2
+                         505 	.align	2
+                         506 	.global	_R_RIIC_data_send
+                         507 _R_RIIC_data_send:
+00000118 0670            508 	mov	r6,r14
+0000011a 0768            509 	mov	r7,r13
+                         510 --	    .bf
+                         511 .LDW91:
+                         512 --200: {
+                         513 --201:     uint32_t    base;
+                         514 --202:     r_riic_Error_t  ack;
+                         515 --203:     
+                         516 --204:     base = r_riic_Dev[Unit].BaseAddr;
+0000011c 0e08            517 	mov	r14,r1
+0000011e c20a            518 	shl	2,r1
+00000120 2c0600000000*   519 	mov	_r_riic_Dev,r12
+00000126 cc09            520 	add	r12,r1
+00000128 21f70100        521 	ld.w	0[r1],ep
+                         522 --205:     
+                         523 --206:     while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_TDRE) == 0u) 
+0000012c 0000            524 	nop
+                         525 .L266:
+                         526 --207:     {
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+0000012e 9e0f2500        527 	ld.bu	36[ep],r1
+00000132 880a            528 	shr	8,r1
+00000134 d9fd*           529 	bnl	.L266
+                         530 --208:         /* Waiting TDRE empty */
+                         531 --209:     }
+                         532 --210:     
+                         533 --211:     R_RIIC_WRITE_REG(8, (base + R_RIIC_DRT), *TxData);            /* send data */
+                         534 --line211
+                         535 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.10::
+                         536 .LDWlin10:
+00000136 8d0f0100        537 	ld.bu	0[r13],r1
+0000013a bc0b            538 	sst.b	r1,60[ep]
+                         539 --212:     
+                         540 --213:     while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_TEND) == 0u) 
+0000013c 0000            541 	nop
+                         542 .L269:
+                         543 --214:     {
+0000013e 9e0f2500        544 	ld.bu	36[ep],r1
+00000142 870a            545 	shr	7,r1
+00000144 d9fd*           546 	bnl	.L269
+                         547 --215:         /* Waiting send end */
+                         548 --216:     }
+                         549 --217:     
+                         550 --218:     if((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_NACKF) == 0u) 
+                         551 --line218
+                         552 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.11::
+                         553 .LDWlin11:
+00000146 9e0f2500        554 	ld.bu	36[ep],r1
+0000014a 850a            555 	shr	5,r1
+0000014c b105*           556 	bl	.L272
+                         557 --219:     {
+                         558 --220:         ack = R_RIIC_ERR_OK;
+                         559 --line220
+                         560 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.12::
+                         561 .LDWlin12:
+0000014e 000a            562 	mov	0,r1
+00000150 a505*           563 	br	.L274
+                         564 .L272:
+                         565 --221:     }
+                         566 --222:     else
+                         567 --223:     {
+                         568 --224:         ack = R_RIIC_ERR_NG;
+                         569 --line224
+                         570 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.13::
+                         571 .LDWlin13:
+00000152 010a            572 	mov	1,r1
+                         573 .L274:
+                         574 --225:     }
+                         575 --226:     return(ack);
+00000154 0150            576 	mov	r1,r10
+                         577 --	    .ef
+                         578 .LDW02:
+00000156 7f00            579 	jmp	[lp]
+                         580 	.type	_R_RIIC_data_send,@function
+                         581 	.size	_R_RIIC_data_send,.-_R_RIIC_data_send
+                         582 	.align	2
+                         583 .LDW12:
+                         584 --_base	ep	local
+                         585 --_ack	r1	local
+                         586 
+                         587 --_Unit	r14	param
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         588 --_TxData	r13	param
+                         589 
+                         590 	.section ".bss","awb"
+                         591 .L314:
+                         592 	.type	.L314,@object
+                         593 	.size	.L314,0
+                         594 	.data
+                         595 	.text
+                         596 
+                         597 --227: }
+                         598 
+                         599 --230: /******************************************************************************
+                         600 --231: * Function Name : R_RIIC_Master_start_condition
+                         601 --232: * Description   : Start condition
+                         602 --233: * Arguments     : none
+                         603 --234: * Return Value  : none
+                         604 --235: ******************************************************************************/
+                         605 --236: void R_RIIC_Master_start_condition(uint32_t Unit)
+                         606 	.align	2
+                         607 	.align	2
+                         608 	.global	_R_RIIC_Master_start_condition
+                         609 _R_RIIC_Master_start_condition:
+00000158 0660            610 	mov	r6,r12
+                         611 --	    .bf
+                         612 .LDW22:
+                         613 --237: {
+                         614 --238:     uint8_t  bbsy_flg;
+                         615 --239:     uint8_t  mst_trs_flg;
+                         616 --240:     uint32_t base;
+                         617 --241:     uint32_t tmp;
+                         618 --242:     
+                         619 --243:     base = r_riic_Dev[Unit].BaseAddr;
+0000015a 0c08            620 	mov	r12,r1
+0000015c c20a            621 	shl	2,r1
+0000015e 2e0600000000*   622 	mov	_r_riic_Dev,r14
+00000164 ce09            623 	add	r14,r1
+00000166 21f70100        624 	ld.w	0[r1],ep
+                         625 --244:     
+                         626 --245:     bbsy_flg = (R_RIIC_READ_REG(8, (base + R_RIIC_CR2)) & 0x80u);    
+0000016a 6408            627 	sld.bu	4[ep],r1
+0000016c c1768000        628 	andi	128,r1,r14
+00000170 8e00            629 	zxb	r14
+                         630 --246:     while(bbsy_flg != 0x00)
+00000172 d505*           631 	br	.L355
+                         632 .L357:
+                         633 --247:     {
+                         634 --248:         /* Waiting BBSY = 0 */
+                         635 --249:         bbsy_flg = (R_RIIC_READ_REG(8, (base + R_RIIC_CR2)) & 0x80u);
+                         636 --line249
+                         637 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.14::
+                         638 .LDWlin14:
+00000174 6408            639 	sld.bu	4[ep],r1
+00000176 c1768000        640 	andi	128,r1,r14
+0000017a 8e00            641 	zxb	r14
+                         642 .L355:
+0000017c e071            643 	cmp	zero,r14
+0000017e bafd*           644 	bne	.L357
+                         645 --250:     }
+                         646 --252:     tmp = R_RIIC_READ_REG(8, (base + R_RIIC_CR2));
+                         647 --line252
+                         648 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.15::
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         649 .LDWlin15:
+00000180 6468            650 	sld.bu	4[ep],r13
+                         651 --253:     R_RIIC_WRITE_REG(8, (base + R_RIIC_CR2), (tmp | 0x02u));        /* start condition ST = 1 */   
+00000182 8d0e0200        652 	ori	2,r13,r1
+00000186 840b            653 	sst.b	r1,4[ep]
+                         654 --255:     if((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_START) == 0u) 
+00000188 9e0f2500        655 	ld.bu	36[ep],r1
+0000018c 830a            656 	shr	3,r1
+                         657 .L358:
+                         658 --256:     {
+                         659 --257:         /* Waiting start condition */
+                         660 --258:     }
+                         661 --260:     /* check master send mode */
+                         662 --261:     mst_trs_flg = (R_RIIC_READ_REG(8, (base + R_RIIC_CR2)) & 0x60u);
+0000018e 6458            663 	sld.bu	4[ep],r11
+00000190 cb0e6000        664 	andi	96,r11,r1
+00000194 8100            665 	zxb	r1
+                         666 --262:     while(mst_trs_flg != 0x60u)
+00000196 d505*           667 	br	.L360
+                         668 .L362:
+                         669 --263:     {
+                         670 --264:         mst_trs_flg = (R_RIIC_READ_REG(8, (base + R_RIIC_CR2)) & 0x60u);
+                         671 --line264
+                         672 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.16::
+                         673 .LDWlin16:
+00000198 6458            674 	sld.bu	4[ep],r11
+0000019a cb0e6000        675 	andi	96,r11,r1
+0000019e 8100            676 	zxb	r1
+                         677 .L360:
+000001a0 0106a0ff        678 	addi	-96,r1,zero
+000001a4 aafd*           679 	bne	.L362
+                         680 --265:     }
+                         681 --266: }
+                         682 --line266
+                         683 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.17::
+                         684 .LDWlin17:
+000001a6 0000            685 	nop
+                         686 --	    .ef
+                         687 .LDW32:
+000001a8 7f00            688 	jmp	[lp]
+                         689 	.type	_R_RIIC_Master_start_condition,@function
+                         690 	.size	_R_RIIC_Master_start_condition,.-_R_RIIC_Master_start_condition
+                         691 	.align	2
+                         692 .LDW42:
+                         693 --_bbsy_flg	r14	local
+                         694 --_mst_trs_flg	r1	local
+                         695 --_base	ep	local
+                         696 --_tmp	r13	local
+                         697 
+                         698 --_Unit	r12	param
+                         699 
+                         700 	.section ".bss","awb"
+                         701 .L404:
+                         702 	.type	.L404,@object
+                         703 	.size	.L404,0
+                         704 	.data
+                         705 	.text
+                         706 
+                         707 
+                         708 --269: /******************************************************************************
+                         709 --270: * Function Name : R_RIIC_Master_stop_condition
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         710 --271: * Description   : Stop condition
+                         711 --272: * Arguments     : uint8_t* RxBuffer : received data
+                         712 --273: * Return Value  : none
+                         713 --274: ******************************************************************************/
+                         714 --275: void R_RIIC_Master_stop_condition(uint32_t Unit, uint8_t* RxBuffer)
+                         715 	.align	2
+                         716 	.align	2
+                         717 	.global	_R_RIIC_Master_stop_condition
+                         718 _R_RIIC_Master_stop_condition:
+000001aa 0670            719 	mov	r6,r14
+000001ac 0768            720 	mov	r7,r13
+                         721 --	    .bf
+                         722 .LDW52:
+                         723 --276: {
+                         724 --277:     uint8_t dummy;
+                         725 --278:     uint32_t base;
+                         726 --279:     
+                         727 --280:     base = r_riic_Dev[Unit].BaseAddr;
+000001ae 0e08            728 	mov	r14,r1
+000001b0 c20a            729 	shl	2,r1
+000001b2 2c0600000000*   730 	mov	_r_riic_Dev,r12
+000001b8 cc09            731 	add	r12,r1
+000001ba 21f70100        732 	ld.w	0[r1],ep
+                         733 --281:     
+                         734 --282:     dummy = R_RIIC_READ_REG(8, (base + R_RIIC_SR2));    /* dummy read */
+000001be 9e0f2500        735 	ld.bu	36[ep],r1
+                         736 --283:     dummy &= ~R_RIIC_SR2_STOP;
+000001c2 c10ef700        737 	andi	247,r1,r1
+000001c6 8100            738 	zxb	r1
+                         739 --284:     R_RIIC_WRITE_REG(8, (base + R_RIIC_SR2), dummy);    /* STOP flg clear */
+000001c8 a40b            740 	sst.b	r1,36[ep]
+                         741 --286:     dummy = R_RIIC_READ_REG(8, (base + R_RIIC_SR2));    /* dummy read */
+000001ca 9e0f2500        742 	ld.bu	36[ep],r1
+                         743 --287:     dummy &= ~R_RIIC_SR2_TEND;
+000001ce c10ebf00        744 	andi	191,r1,r1
+000001d2 8100            745 	zxb	r1
+                         746 --288:     R_RIIC_WRITE_REG(8, (base + R_RIIC_SR2), dummy);    /* TEND flg clear */
+000001d4 a40b            747 	sst.b	r1,36[ep]
+                         748 --289:     
+                         749 --290:     dummy = R_RIIC_READ_REG(8, (base + R_RIIC_CR2));    /* dummy read */
+000001d6 6408            750 	sld.bu	4[ep],r1
+                         751 --291:     dummy |= 0x08u;
+000001d8 810e0800        752 	ori	8,r1,r1
+                         753 --292:     R_RIIC_WRITE_REG(8, (base + R_RIIC_CR2), dummy);    /* stop condition SP = 1 */
+000001dc 840b            754 	sst.b	r1,4[ep]
+                         755 --293:     
+                         756 --294:     * RxBuffer = R_RIIC_READ_REG(8, (base + R_RIIC_DRR));  /* last data read for recieve mode */
+000001de 9e674100        757 	ld.bu	64[ep],r12
+000001e2 4d670000        758 	st.b	r12,0[r13]
+                         759 --295:     
+                         760 --296:     dummy = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));    /* dummy read */
+000001e6 9e0f1100        761 	ld.bu	16[ep],r1
+                         762 --297:     dummy |= 0x10u;
+000001ea 810e1000        763 	ori	16,r1,r1
+                         764 --298:     R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), dummy);    /* ACKWP set */
+000001ee 900b            765 	sst.b	r1,16[ep]
+                         766 --299:     
+                         767 --300:     dummy = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));    /* dummy read */
+000001f0 9e0f1100        768 	ld.bu	16[ep],r1
+                         769 --301:     dummy |= 0x18u;
+000001f4 810e1800        770 	ori	24,r1,r1
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         771 --302:     R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), dummy);    /* NACK set */
+000001f8 900b            772 	sst.b	r1,16[ep]
+                         773 --303:     
+                         774 --304:     dummy = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));    /* dummy read */
+000001fa 9e0f1100        775 	ld.bu	16[ep],r1
+                         776 --305:     dummy &= 0xBFu;
+000001fe c10ebf00        777 	andi	191,r1,r1
+00000202 8100            778 	zxb	r1
+                         779 --306:     R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), dummy);    /* WAIT clear */
+00000204 900b            780 	sst.b	r1,16[ep]
+                         781 --307:     
+                         782 --308:     while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_STOP) == 0u) 
+00000206 0000            783 	nop
+                         784 .L460:
+                         785 --309:     {
+00000208 9e672500        786 	ld.bu	36[ep],r12
+0000020c 8462            787 	shr	4,r12
+0000020e d9fd*           788 	bnl	.L460
+                         789 --310:         /* Waiting Stop condition */
+                         790 --311:     }
+                         791 --312:     
+                         792 --313:     dummy = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));    /* dummy read */
+                         793 --line313
+                         794 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.18::
+                         795 .LDWlin18:
+00000210 9e0f1100        796 	ld.bu	16[ep],r1
+                         797 --314:     dummy |= 0x10u;
+00000214 810e1000        798 	ori	16,r1,r1
+                         799 --315:     R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), dummy);    /* ACKWP set */
+00000218 900b            800 	sst.b	r1,16[ep]
+                         801 --316:     
+                         802 --317:     dummy = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));    /* dummy read */
+0000021a 9e0f1100        803 	ld.bu	16[ep],r1
+                         804 --318:     dummy &= 0xD7u;
+0000021e c10ed700        805 	andi	215,r1,r1
+00000222 8100            806 	zxb	r1
+                         807 --319:     R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), dummy);    /* DRFS,ACKBT clear */
+00000224 900b            808 	sst.b	r1,16[ep]
+                         809 --320:     
+                         810 --321:     dummy = R_RIIC_READ_REG(8, (base + R_RIIC_SR2));    /* dummy read */
+00000226 9e0f2500        811 	ld.bu	36[ep],r1
+                         812 --322:     dummy &= ~R_RIIC_SR2_NACKF;
+0000022a c10eef00        813 	andi	239,r1,r1
+0000022e 8100            814 	zxb	r1
+                         815 --323:     R_RIIC_WRITE_REG(8, (base + R_RIIC_SR2), dummy);    /* NACKF flg clear */
+00000230 a40b            816 	sst.b	r1,36[ep]
+                         817 --324:     dummy &= ~R_RIIC_SR2_STOP;
+00000232 c10ef700        818 	andi	247,r1,r1
+00000236 8100            819 	zxb	r1
+                         820 --325:     R_RIIC_WRITE_REG(8, (base + R_RIIC_SR2), dummy);    /* STOP flg clear */
+00000238 a40b            821 	sst.b	r1,36[ep]
+                         822 --326: }
+0000023a 0000            823 	nop
+                         824 --	    .ef
+                         825 .LDW62:
+0000023c 7f00            826 	jmp	[lp]
+                         827 	.type	_R_RIIC_Master_stop_condition,@function
+                         828 	.size	_R_RIIC_Master_stop_condition,.-_R_RIIC_Master_stop_condition
+                         829 	.align	2
+                         830 .LDW72:
+                         831 --_dummy	r1	local
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         832 --_base	ep	local
+                         833 
+                         834 --_Unit	r14	param
+                         835 --_RxBuffer	r13	param
+                         836 
+                         837 	.section ".bss","awb"
+                         838 .L538:
+                         839 	.type	.L538,@object
+                         840 	.size	.L538,0
+                         841 	.data
+                         842 	.text
+                         843 
+                         844 
+                         845 --329: /******************************************************************************
+                         846 --330: * Function Name : R_RIIC_Slave_address_send
+                         847 --331: * Description   : Sending Slave address at Master mode
+                         848 --332: * Arguments     : uint8_t *data    :Send data
+                         849 --333: * Return Value  : ACK OK    :R_RIIC_ERR_OK
+                         850 --334:                 : ACK NG    :R_RIIC_ERR_NG
+                         851 --335: ******************************************************************************/
+                         852 --336: r_riic_Error_t R_RIIC_Slave_address_send(uint32_t Unit, uint8_t *TxData)
+                         853 	.align	2
+                         854 	.align	2
+                         855 	.global	_R_RIIC_Slave_address_send
+                         856 _R_RIIC_Slave_address_send:
+0000023e 8007e110        857 	prepare	{r27,r28,r29,r31},0
+00000242 06e0            858 	mov	r6,r28
+00000244 07d8            859 	mov	r7,r27
+                         860 --	    .bf
+                         861 .LDW82:
+                         862 --337: {
+                         863 --338:     r_riic_Error_t ack;
+                         864 --340:     ack = R_RIIC_data_send(Unit, TxData);        /* slave device address */
+00000246 1c30            865 	mov	r28,r6
+00000248 1b38            866 	mov	r27,r7
+                         867 	jarl	_R_RIIC_data_send,lp
+                         867 <EXPANSION BEGIN>
+                         867 jarl22 _R_RIIC_data_send , lp 
+0000024a bfffcefe*       867 <EXPANSION END>
+0000024e 0ae8            868 	mov	r10,r29
+                         869 --341:     if (ack == R_RIIC_ERR_OK) 
+                         870 --line341
+                         871 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.19::
+                         872 .LDWlin19:
+00000250 e0e9            873 	cmp	zero,r29
+00000252 ba05*           874 	bne	.L651
+                         875 --342:     {
+                         876 --343:         return(ack);
+                         877 --line343
+                         878 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.20::
+                         879 .LDWlin20:
+00000254 1d50            880 	mov	r29,r10
+00000256 a505*           881 	br	.L649
+                         882 .L651:
+                         883 --344:     }
+                         884 --346:     return(ack);
+                         885 --line346
+                         886 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.21::
+                         887 .LDWlin21:
+00000258 1d50            888 	mov	r29,r10
+                         889 .L649:
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         890 --	    .ef
+                         891 .LDW92:
+0000025a 4006ff10        892 	dispose	0,{r27,r28,r29,r31},[lp]
+                         893 	.type	_R_RIIC_Slave_address_send,@function
+                         894 	.size	_R_RIIC_Slave_address_send,.-_R_RIIC_Slave_address_send
+                         895 	.align	2
+                         896 .LDW03:
+                         897 --_ack	r29	local
+                         898 
+                         899 --_Unit	r28	param
+                         900 --_TxData	r27	param
+                         901 
+                         902 	.section ".bss","awb"
+                         903 .L670:
+                         904 	.type	.L670,@object
+                         905 	.size	.L670,0
+                         906 	.data
+                         907 	.text
+                         908 
+                         909 --347: }
+                         910 
+                         911 --350: /*******************************************************************************
+                         912 --351:   Function: R_RIIC_transmit_to_slave
+                         913 --353:   Write a series of values to a IIC slave.
+                         914 --355:   IIC slave address is assumed to by first data value in tdata.
+                         915 --356:   Function generates a complete Start-Condition, Slave-Address-Send,
+                         916 --357:   Data-Send and End-Condition cycle.
+                         917 --359:   Parameters:
+                         918 --360:   Unit         - Instance number
+                         919 --361:   tdata        - array with data to be send
+                         920 --362:   size         - number of data to be send (size of tdata array)
+                         921 --364:   Returns:
+                         922 --365:   see: <r_riic_Error_t>
+                         923 --366: */
+                         924 --367: r_riic_Error_t R_RIIC_transmit_to_slave(uint32_t Unit, uint8_t *Tdata, uint32_t Size)
+                         925 	.align	2
+                         926 	.align	2
+                         927 	.global	_R_RIIC_transmit_to_slave
+                         928 _R_RIIC_transmit_to_slave:
+0000025e 8207e170        929 	prepare	{r25,r26,r27,r28,r29,r31},1
+00000262 06d8            930 	mov	r6,r27
+00000264 07d0            931 	mov	r7,r26
+00000266 08c8            932 	mov	r8,r25
+                         933 --	    .bf
+                         934 .LDW13:
+                         935 --368: {
+                         936 --369:     uint8_t data;
+                         937 --370:     uint8_t i;
+                         938 --371:     r_riic_Error_t ack;
+                         939 --372:     
+                         940 --373:     if (Size <= 1)
+00000268 61ca            941 	cmp	1,r25
+0000026a bb05*           942 	bh	.L693
+                         943 --374:     {
+                         944 --375:         return R_RIIC_ERR_NG;
+                         945 --line375
+                         946 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.22::
+                         947 .LDWlin22:
+0000026c 0152            948 	mov	1,r10
+0000026e d525*           949 	br	.L691
+                         950 .L693:
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                         951 --376:     }
+                         952 --377:     
+                         953 --378:     /* transmit in master mode */
+                         954 --379:     R_RIIC_Master_start_condition(Unit);
+                         955 --line379
+                         956 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.23::
+                         957 .LDWlin23:
+00000270 1b30            958 	mov	r27,r6
+                         959 	jarl	_R_RIIC_Master_start_condition,lp
+                         959 <EXPANSION BEGIN>
+                         959 jarl22 _R_RIIC_Master_start_condition , lp 
+00000272 bfffe6fe*       959 <EXPANSION END>
+                         960 --380:     data = Tdata[0];   /* Slave Address */
+                         961 --line380
+                         962 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.24::
+                         963 .LDWlin24:
+00000276 9a0f0100        964 	ld.bu	0[r26],r1
+0000027a 430f0300        965 	st.b	r1,3[sp]
+                         966 --381:     ack = R_RIIC_Slave_address_send(Unit, &data);
+0000027e 1b30            967 	mov	r27,r6
+00000280 233e0300        968 	movea	3,sp,r7
+                         969 	jarl	_R_RIIC_Slave_address_send,lp
+                         969 <EXPANSION BEGIN>
+                         969 jarl22 _R_RIIC_Slave_address_send , lp 
+00000284 bfffbaff*       969 <EXPANSION END>
+00000288 0ae0            970 	mov	r10,r28
+                         971 --382:     for (i = 1; i < Size; i++)
+                         972 --line382
+                         973 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.25::
+                         974 .LDWlin25:
+0000028a 01ea            975 	mov	1,r29
+0000028c e50d*           976 	br	.L699
+                         977 .L698:
+                         978 --383:     {
+                         979 --384:         data = Tdata[i];    /* data n for slave
+                         980 --line384
+                         981 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.26::
+                         982 .LDWlin26:
+0000028e 1df0            983 	mov	r29,ep
+00000290 daf1            984 	add	r26,ep
+00000292 6008            985 	sld.bu	0[ep],r1
+00000294 430f0300        986 	st.b	r1,3[sp]
+                         987 --385:                             (n=1 -> register name
+                         988 --386:                              n>=2 -> register value) */
+                         989 --387:         ack += R_RIIC_data_send(Unit, &data);
+00000298 1b30            990 	mov	r27,r6
+0000029a 233e0300        991 	movea	3,sp,r7
+                         992 	jarl	_R_RIIC_data_send,lp
+                         992 <EXPANSION BEGIN>
+                         992 jarl22 _R_RIIC_data_send , lp 
+0000029e bfff7afe*       992 <EXPANSION END>
+000002a2 cae1            993 	add	r10,r28
+                         994 --line382
+                         995 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.27::
+                         996 .LDWlin27:
+000002a4 41ea            997 	add	1,r29
+000002a6 9d00            998 	zxb	r29
+                         999 .L699:
+000002a8 f9e9           1000 	cmp	r25,r29
+000002aa a1f5*          1001 	bl	.L698
+                        1002 --388:     }
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                        1003 --389:     R_RIIC_Master_stop_condition(Unit, &data);
+                        1004 --line389
+                        1005 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.28::
+                        1006 .LDWlin28:
+000002ac 1b30           1007 	mov	r27,r6
+000002ae 233e0300       1008 	movea	3,sp,r7
+                        1009 	jarl	_R_RIIC_Master_stop_condition,lp
+                        1009 <EXPANSION BEGIN>
+                        1009 jarl22 _R_RIIC_Master_stop_condition , lp 
+000002b2 bffff8fe*      1009 <EXPANSION END>
+                        1010 --390:     
+                        1011 --391:     return ack;
+                        1012 --line391
+                        1013 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.29::
+                        1014 .LDWlin29:
+000002b6 1c50           1015 	mov	r28,r10
+                        1016 .L691:
+                        1017 --	    .ef
+                        1018 .LDW23:
+000002b8 4206ff70       1019 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                        1020 	.type	_R_RIIC_transmit_to_slave,@function
+                        1021 	.size	_R_RIIC_transmit_to_slave,.-_R_RIIC_transmit_to_slave
+                        1022 	.align	2
+                        1023 .LDW33:
+                        1024 --_data	3[sp]	local
+                        1025 --_i	r29	local
+                        1026 --_ack	r28	local
+                        1027 
+                        1028 --_Unit	r27	param
+                        1029 --_Tdata	r26	param
+                        1030 --_Size	r25	param
+                        1031 
+                        1032 	.section ".bss","awb"
+                        1033 .L736:
+                        1034 	.type	.L736,@object
+                        1035 	.size	.L736,0
+                        1036 	.data
+                        1037 	.text
+                        1038 
+                        1039 --392: }
+                        1040 
+                        1041 --395: /*******************************************************************************
+                        1042 --396:   Function: R_RIIC_receive_from_slave16b
+                        1043 --398:   Read 1 or 2 bytes from IIC slave with a 16bit address.
+                        1044 --399:   (note: not all devices may support this format)
+                        1045 --401:     <slave address 7bit> <internal address 16 bit> <read 2 bytes>
+                        1046 --403:   Parameters:
+                        1047 --404:   Unit              - Instance number
+                        1048 --405:   SlaveAddress      - slave address 7bit
+                        1049 --406:   InternalAddress   - the device's internal addtess (16bit)
+                        1050 --407:   Rdata             - buffer to store data read from slave
+                        1051 --408:   size              - number of data bytes to be read
+                        1052 --410:   Returns:
+                        1053 --411:   see: <r_riic_Error_t>
+                        1054 --412: */
+                        1055 --413: r_riic_Error_t R_RIIC_receive_from_slave16b(uint32_t Unit, uint8_t SlaveAddress, uint16_t InternalAddress, uint8_t *Rdata, uint32_t Size)
+                        1056 	.align	2
+                        1057 	.align	2
+                        1058 	.global	_R_RIIC_receive_from_slave16b
+                        1059 _R_RIIC_receive_from_slave16b:
+000002bc 8407e170       1060 	prepare	{r25,r26,r27,r28,r29,r31},2
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+000002c0 634f0500       1061 	st.w	r9,4[sp]
+000002c4 c866ffff       1062 	andi	65535,r8,r12
+000002c8 63670200       1063 	st.h	r12,2[sp]
+000002cc c75eff00       1064 	andi	255,r7,r11
+000002d0 435f0100       1065 	st.b	r11,1[sp]
+000002d4 06d8           1066 	mov	r6,r27
+                        1067 --	    .bf
+                        1068 .LDW43:
+                        1069 --414: {
+                        1070 --415:     uint8_t index;
+                        1071 --416:     uint8_t data;
+                        1072 --417:     uint8_t tmp;
+                        1073 --418:     r_riic_Error_t ack;
+                        1074 --419:     uint32_t base;
+                        1075 --420:  
+                        1076 --421:     /* only 1 or 2 byte can be read */
+                        1077 --422:     if ((Size == 0) || (Size > 2))
+000002d6 230f2100       1078 	ld.w	32[sp],r1
+000002da e009           1079 	cmp	zero,r1
+000002dc d205*          1080 	be	.L787
+000002de 230f2100       1081 	ld.w	32[sp],r1
+000002e2 620a           1082 	cmp	2,r1
+000002e4 c305*          1083 	bnh	.L786
+                        1084 .L787:
+                        1085 --423:     {
+                        1086 --424:         return R_RIIC_ERR_NG;
+                        1087 --line424
+                        1088 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.30::
+                        1089 .LDWlin30:
+000002e6 0152           1090 	mov	1,r10
+000002e8 80072201*      1091 	br	.L784
+                        1092 .L786:
+                        1093 --425:     }
+                        1094 --426:  
+                        1095 --427:     /* index for the read data buffer pointer */
+                        1096 --428:     index = 0;
+                        1097 --line428
+                        1098 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.31::
+                        1099 .LDWlin31:
+000002ec 00e2           1100 	mov	0,r28
+                        1101 --429:    
+                        1102 --430:     /* transmit in master mode */
+                        1103 --431:     R_RIIC_Master_start_condition(Unit);
+000002ee 1b30           1104 	mov	r27,r6
+                        1105 	jarl	_R_RIIC_Master_start_condition,lp
+                        1105 <EXPANSION BEGIN>
+                        1105 jarl22 _R_RIIC_Master_start_condition , lp 
+000002f0 bfff68fe*      1105 <EXPANSION END>
+                        1106 --432:     
+                        1107 --433:     /* send the slave address */
+                        1108 --434:     data = SlaveAddress;   
+                        1109 --line434
+                        1110 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.32::
+                        1111 .LDWlin32:
+000002f4 a35f0100       1112 	ld.bu	1[sp],r11
+000002f8 435f0000       1113 	st.b	r11,0[sp]
+                        1114 --435:     ack = R_RIIC_Slave_address_send(Unit, &data);
+000002fc 1b30           1115 	mov	r27,r6
+000002fe 233e0000       1116 	movea	0,sp,r7
+                        1117 	jarl	_R_RIIC_Slave_address_send,lp
+                        1117 <EXPANSION BEGIN>
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                        1117 jarl22 _R_RIIC_Slave_address_send , lp 
+00000302 bfff3cff*      1117 <EXPANSION END>
+00000306 0ac8           1118 	mov	r10,r25
+                        1119 --436:    
+                        1120 --437:     /* send the MSB internal address */
+                        1121 --438:     data = (InternalAddress >> 8u) & 0xFFu;
+                        1122 --line438
+                        1123 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.33::
+                        1124 .LDWlin33:
+00000308 e30f0300       1125 	ld.hu	2[sp],r1
+0000030c a80a           1126 	sar	8,r1
+0000030e 8100           1127 	zxb	r1
+00000310 430f0000       1128 	st.b	r1,0[sp]
+                        1129 --439:     R_RIIC_data_send(Unit, &data);
+00000314 1b30           1130 	mov	r27,r6
+00000316 233e0000       1131 	movea	0,sp,r7
+                        1132 	jarl	_R_RIIC_data_send,lp
+                        1132 <EXPANSION BEGIN>
+                        1132 jarl22 _R_RIIC_data_send , lp 
+0000031a bffffefd*      1132 <EXPANSION END>
+                        1133 --440:     
+                        1134 --441:     /* send the LSB internal address */
+                        1135 --442:     data = InternalAddress & 0xFFu;
+                        1136 --line442
+                        1137 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.34::
+                        1138 .LDWlin34:
+0000031e e35f0300       1139 	ld.hu	2[sp],r11
+00000322 0b08           1140 	mov	r11,r1
+00000324 8100           1141 	zxb	r1
+00000326 430f0000       1142 	st.b	r1,0[sp]
+                        1143 --443:     R_RIIC_data_send(Unit, &data);
+0000032a 1b30           1144 	mov	r27,r6
+0000032c 233e0000       1145 	movea	0,sp,r7
+                        1146 	jarl	_R_RIIC_data_send,lp
+                        1146 <EXPANSION BEGIN>
+                        1146 jarl22 _R_RIIC_data_send , lp 
+00000330 bfffe8fd*      1146 <EXPANSION END>
+                        1147 --445:     /* repeated start condition */
+                        1148 --446:     R_RIIC_Master_stop_condition(Unit, &data);
+                        1149 --line446
+                        1150 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.35::
+                        1151 .LDWlin35:
+00000334 1b30           1152 	mov	r27,r6
+00000336 233e0000       1153 	movea	0,sp,r7
+                        1154 	jarl	_R_RIIC_Master_stop_condition,lp
+                        1154 <EXPANSION BEGIN>
+                        1154 jarl22 _R_RIIC_Master_stop_condition , lp 
+0000033a bfff70fe*      1154 <EXPANSION END>
+                        1155 --448:     /* transmit in master mode */
+                        1156 --449:     R_RIIC_Master_start_condition(Unit);
+                        1157 --line449
+                        1158 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.36::
+                        1159 .LDWlin36:
+0000033e 1b30           1160 	mov	r27,r6
+                        1161 	jarl	_R_RIIC_Master_start_condition,lp
+                        1161 <EXPANSION BEGIN>
+                        1161 jarl22 _R_RIIC_Master_start_condition , lp 
+00000340 bfff18fe*      1161 <EXPANSION END>
+                        1162 --451:     data = SlaveAddress + 1;   /* Slave Address + 1 for read */
+                        1163 --line451
+                        1164 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.37::
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                        1165 .LDWlin37:
+00000344 a35f0100       1166 	ld.bu	1[sp],r11
+00000348 0b0e0100       1167 	addi	1,r11,r1
+0000034c 430f0000       1168 	st.b	r1,0[sp]
+                        1169 --452:    
+                        1170 --453:     base = r_riic_Dev[Unit].BaseAddr;
+00000350 1bf0           1171 	mov	r27,ep
+00000352 c2f2           1172 	shl	2,ep
+00000354 2e0600000000*  1173 	mov	_r_riic_Dev,r14
+0000035a cef1           1174 	add	r14,ep
+0000035c 00ed           1175 	sld.w	0[ep],r29
+                        1176 --454:     
+                        1177 --455:     while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_TDRE) == 0u) 
+0000035e 0000           1178 	nop
+                        1179 .L790:
+                        1180 --456:     {
+00000360 9d0f2500       1181 	ld.bu	36[r29],r1
+00000364 880a           1182 	shr	8,r1
+00000366 d9fd*          1183 	bnl	.L790
+                        1184 --457:         /* Waiting TDRE empty */
+                        1185 --458:     }
+                        1186 --459:     
+                        1187 --460:     R_RIIC_WRITE_REG(8, (base + R_RIIC_DRT), data);      /* send data */
+                        1188 --line460
+                        1189 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.38::
+                        1190 .LDWlin38:
+00000368 830f0100       1191 	ld.bu	0[sp],r1
+0000036c 5d0f3c00       1192 	st.b	r1,60[r29]
+                        1193 --461:     
+                        1194 --462:     while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_RDRF) == 0u) 
+00000370 0000           1195 	nop
+                        1196 .L793:
+                        1197 --463:     {
+00000372 9d0f2500       1198 	ld.bu	36[r29],r1
+00000376 860a           1199 	shr	6,r1
+00000378 d9fd*          1200 	bnl	.L793
+                        1201 --464:         /* Waiting receive */
+                        1202 --465:     }
+                        1203 --466:     
+                        1204 --467:     if((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_NACKF) == 0u) 
+                        1205 --line467
+                        1206 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.39::
+                        1207 .LDWlin39:
+0000037a 9d0f2500       1208 	ld.bu	36[r29],r1
+0000037e 850a           1209 	shr	5,r1
+00000380 b105*          1210 	bl	.L796
+                        1211 --468:     {
+                        1212 --469:         ack = R_RIIC_ERR_OK;
+                        1213 --line469
+                        1214 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.40::
+                        1215 .LDWlin40:
+00000382 00ca           1216 	mov	0,r25
+00000384 a505*          1217 	br	.L798
+                        1218 .L796:
+                        1219 --470:     }
+                        1220 --471:     else
+                        1221 --472:     {
+                        1222 --473:         ack = R_RIIC_ERR_NG;
+                        1223 --line473
+                        1224 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.41::
+                        1225 .LDWlin41:
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+00000386 01ca           1226 	mov	1,r25
+                        1227 .L798:
+                        1228 --474:     }
+                        1229 --476:     if(ack == R_RIIC_ERR_OK)
+00000388 e0c9           1230 	cmp	zero,r25
+0000038a aa3d*          1231 	bne	.L799
+                        1232 --477:     {
+                        1233 --478:         /* set wait = 1 */
+                        1234 --479:         tmp = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));
+                        1235 --line479
+                        1236 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.42::
+                        1237 .LDWlin42:
+0000038c 9dd71100       1238 	ld.bu	16[r29],r26
+                        1239 --480:         R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), (tmp | 0x40u));  
+00000390 9a0e4000       1240 	ori	64,r26,r1
+00000394 5d0f1000       1241 	st.b	r1,16[r29]
+                        1242 --482:         /* dummy read */
+                        1243 --483:         R_RIIC_READ_REG(8, (base + R_RIIC_DRR));    
+00000398 9d0f4100       1244 	ld.bu	64[r29],r1
+                        1245 --485:         while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_RDRF) == 0u) 
+0000039c 0000           1246 	nop
+                        1247 .L801:
+                        1248 --486:         {
+0000039e 9d0f2500       1249 	ld.bu	36[r29],r1
+000003a2 860a           1250 	shr	6,r1
+000003a4 d9fd*          1251 	bnl	.L801
+                        1252 --487:         }
+                        1253 --488:         
+                        1254 --489:         /* do an extra read byte if required */ 
+                        1255 --490:         if(2 == Size)
+                        1256 --line490
+                        1257 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.43::
+                        1258 .LDWlin43:
+000003a6 230f2100       1259 	ld.w	32[sp],r1
+000003aa 620a           1260 	cmp	2,r1
+000003ac fa0d*          1261 	bne	.L804
+                        1262 --491:         {    
+                        1263 --492:             /* receive data read */
+                        1264 --493:             Rdata[index] = R_RIIC_READ_REG(8, (base + R_RIIC_DRR));        
+                        1265 --line493
+                        1266 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.44::
+                        1267 .LDWlin44:
+000003ae 235f0500       1268 	ld.w	4[sp],r11
+000003b2 9d0f4100       1269 	ld.bu	64[r29],r1
+000003b6 1cf0           1270 	mov	r28,ep
+000003b8 cbf1           1271 	add	r11,ep
+000003ba 800b           1272 	sst.b	r1,0[ep]
+                        1273 --494:             index++; 
+000003bc 41e2           1274 	add	1,r28
+000003be 9c00           1275 	zxb	r28
+                        1276 --495:             while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_RDRF) == 0u) 
+000003c0 0000           1277 	nop
+                        1278 .L806:
+                        1279 --496:             {
+000003c2 9d0f2500       1280 	ld.bu	36[r29],r1
+000003c6 860a           1281 	shr	6,r1
+000003c8 d9fd*          1282 	bnl	.L806
+                        1283 .L804:
+                        1284 --497:             }
+                        1285 --498:         }
+                        1286 --500:         /* set RDRFS=1 */
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                        1287 --501:         tmp = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));
+                        1288 --line501
+                        1289 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.45::
+                        1290 .LDWlin45:
+000003ca 9dd71100       1291 	ld.bu	16[r29],r26
+                        1292 --502:         R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), (tmp | 0x20u));  
+000003ce 9a0e2000       1293 	ori	32,r26,r1
+000003d2 5d0f1000       1294 	st.b	r1,16[r29]
+                        1295 --504:         /* set ACKBT=1 */
+                        1296 --505:         tmp = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));
+000003d6 9dd71100       1297 	ld.bu	16[r29],r26
+                        1298 --506:         R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), (tmp | 0x08u));  
+000003da 9a0e0800       1299 	ori	8,r26,r1
+000003de 5d0f1000       1300 	st.b	r1,16[r29]
+                        1301 --508:         /* receive data read */
+                        1302 --509:         Rdata[index] = R_RIIC_READ_REG(8, (base + R_RIIC_DRR));
+000003e2 235f0500       1303 	ld.w	4[sp],r11
+000003e6 9d0f4100       1304 	ld.bu	64[r29],r1
+000003ea 1cf0           1305 	mov	r28,ep
+000003ec cbf1           1306 	add	r11,ep
+000003ee 800b           1307 	sst.b	r1,0[ep]
+                        1308 --510:         index++; 
+000003f0 41e2           1309 	add	1,r28
+000003f2 9c00           1310 	zxb	r28
+                        1311 --511:         
+                        1312 --512:         while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_RDRF) == 0u) 
+000003f4 0000           1313 	nop
+                        1314 .L809:
+                        1315 --513:         {
+000003f6 9d0f2500       1316 	ld.bu	36[r29],r1
+000003fa 860a           1317 	shr	6,r1
+000003fc d9fd*          1318 	bnl	.L809
+                        1319 .L799:
+                        1320 --514:         }
+                        1321 --515:     }
+                        1322 --517:     R_RIIC_Master_stop_condition(Unit, &data);
+                        1323 --line517
+                        1324 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.46::
+                        1325 .LDWlin46:
+000003fe 1b30           1326 	mov	r27,r6
+00000400 233e0000       1327 	movea	0,sp,r7
+                        1328 	jarl	_R_RIIC_Master_stop_condition,lp
+                        1328 <EXPANSION BEGIN>
+                        1328 jarl22 _R_RIIC_Master_stop_condition , lp 
+00000404 bfffa6fd*      1328 <EXPANSION END>
+                        1329 --518:    
+                        1330 --519:     return ack;
+                        1331 --line519
+                        1332 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.47::
+                        1333 .LDWlin47:
+00000408 1950           1334 	mov	r25,r10
+                        1335 .L784:
+                        1336 --	    .ef
+                        1337 .LDW53:
+0000040a 4406ff70       1338 	dispose	2,{r25,r26,r27,r28,r29,r31},[lp]
+                        1339 	.type	_R_RIIC_receive_from_slave16b,@function
+                        1340 	.size	_R_RIIC_receive_from_slave16b,.-_R_RIIC_receive_from_slave16b
+                        1341 	.align	2
+                        1342 .LDW63:
+                        1343 --_index	r28	local
+                        1344 --_data	0[sp]	local
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                        1345 --_tmp	r26	local
+                        1346 --_ack	r25	local
+                        1347 --_base	r29	local
+                        1348 
+                        1349 --_Unit	r27	param
+                        1350 --_SlaveAddress	1[sp]	param
+                        1351 --_InternalAddress	2[sp]	param
+                        1352 --_Rdata	4[sp]	param
+                        1353 --_Size	32[sp]	param
+                        1354 
+                        1355 	.section ".bss","awb"
+                        1356 .L937:
+                        1357 	.type	.L937,@object
+                        1358 	.size	.L937,0
+                        1359 	.data
+                        1360 	.text
+                        1361 
+                        1362 --520: }
+                        1363 
+                        1364 --523: /*******************************************************************************
+                        1365 --524:   Function: R_RIIC_receive_from_slave8b
+                        1366 --526:   Read 1 or 2 bytes from IIC slave with a 8bit address.
+                        1367 --527:   (note: not all devices may support this format)
+                        1368 --529:     <slave address 7bit> <internal address 8 bit> <read 2 bytes>
+                        1369 --531:   Parameters:
+                        1370 --532:   Unit              - Instance number
+                        1371 --533:   SlaveAddress      - slave address 7bit
+                        1372 --534:   InternalAddress   - the device's internal addtess (8bit)
+                        1373 --535:   Rdata             - buffer to store data read from slave
+                        1374 --536:   size              - number of data bytes to be read
+                        1375 --538:   Returns:
+                        1376 --539:   see: <r_riic_Error_t>
+                        1377 --540: */
+                        1378 --541: r_riic_Error_t R_RIIC_receive_from_slave8b(uint32_t Unit, uint8_t SlaveAddress, uint8_t InternalAddress, uint8_t *Rdata, uint32_t Size)
+                        1379 	.align	2
+                        1380 	.align	2
+                        1381 	.global	_R_RIIC_receive_from_slave8b
+                        1382 _R_RIIC_receive_from_slave8b:
+0000040e 8407e170       1383 	prepare	{r25,r26,r27,r28,r29,r31},2
+00000412 634f0500       1384 	st.w	r9,4[sp]
+00000416 c866ff00       1385 	andi	255,r8,r12
+0000041a 43670300       1386 	st.b	r12,3[sp]
+0000041e c75eff00       1387 	andi	255,r7,r11
+00000422 435f0200       1388 	st.b	r11,2[sp]
+00000426 06d0           1389 	mov	r6,r26
+                        1390 --	    .bf
+                        1391 .LDW73:
+                        1392 --542: {
+                        1393 --543:     uint8_t index;    
+                        1394 --544:     uint8_t data;
+                        1395 --545:     uint8_t tmp;
+                        1396 --546:     r_riic_Error_t ack;
+                        1397 --547:     uint32_t base;
+                        1398 --548:  
+                        1399 --549:     /* only 1 or 2 byte can be read */
+                        1400 --550:     if ((Size == 0) || (Size > 2))
+00000428 230f2100       1401 	ld.w	32[sp],r1
+0000042c e009           1402 	cmp	zero,r1
+0000042e d205*          1403 	be	.L1085
+00000430 230f2100       1404 	ld.w	32[sp],r1
+00000434 620a           1405 	cmp	2,r1
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+00000436 c305*          1406 	bnh	.L1084
+                        1407 .L1085:
+                        1408 --551:     {
+                        1409 --552:         return R_RIIC_ERR_NG;
+                        1410 --line552
+                        1411 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.48::
+                        1412 .LDWlin48:
+00000438 0152           1413 	mov	1,r10
+0000043a 80070801*      1414 	br	.L1082
+                        1415 .L1084:
+                        1416 --553:     }
+                        1417 --554:     
+                        1418 --555:     /* index for the read data buffer pointer */
+                        1419 --556:     index = 0;
+                        1420 --line556
+                        1421 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.49::
+                        1422 .LDWlin49:
+0000043e 00e2           1423 	mov	0,r28
+                        1424 --557:     
+                        1425 --558:     /* transmit in master mode */
+                        1426 --559:     R_RIIC_Master_start_condition(Unit);
+00000440 1a30           1427 	mov	r26,r6
+                        1428 	jarl	_R_RIIC_Master_start_condition,lp
+                        1428 <EXPANSION BEGIN>
+                        1428 jarl22 _R_RIIC_Master_start_condition , lp 
+00000442 bfff16fd*      1428 <EXPANSION END>
+                        1429 --560:     
+                        1430 --561:     /* send the slave address */
+                        1431 --562:     data = SlaveAddress;   
+                        1432 --line562
+                        1433 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.50::
+                        1434 .LDWlin50:
+00000446 835f0300       1435 	ld.bu	2[sp],r11
+0000044a 435f0100       1436 	st.b	r11,1[sp]
+                        1437 --563:     ack = R_RIIC_Slave_address_send(Unit, &data);
+0000044e 1a30           1438 	mov	r26,r6
+00000450 233e0100       1439 	movea	1,sp,r7
+                        1440 	jarl	_R_RIIC_Slave_address_send,lp
+                        1440 <EXPANSION BEGIN>
+                        1440 jarl22 _R_RIIC_Slave_address_send , lp 
+00000454 bfffeafd*      1440 <EXPANSION END>
+00000458 0ac8           1441 	mov	r10,r25
+                        1442 --564:     
+                        1443 --565:     /* send the MSB internal address */
+                        1444 --566:     data = InternalAddress & 0xFFu;
+                        1445 --line566
+                        1446 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.51::
+                        1447 .LDWlin51:
+0000045a a35f0300       1448 	ld.bu	3[sp],r11
+0000045e 435f0100       1449 	st.b	r11,1[sp]
+                        1450 --567:     R_RIIC_data_send(Unit, &data);
+00000462 1a30           1451 	mov	r26,r6
+00000464 233e0100       1452 	movea	1,sp,r7
+                        1453 	jarl	_R_RIIC_data_send,lp
+                        1453 <EXPANSION BEGIN>
+                        1453 jarl22 _R_RIIC_data_send , lp 
+00000468 bfffb0fc*      1453 <EXPANSION END>
+                        1454 --568:     
+                        1455 --569:     /* repeated start condition */
+                        1456 --570:     R_RIIC_Master_stop_condition(Unit, &data);
+                        1457 --line570
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                        1458 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.52::
+                        1459 .LDWlin52:
+0000046c 1a30           1460 	mov	r26,r6
+0000046e 233e0100       1461 	movea	1,sp,r7
+                        1462 	jarl	_R_RIIC_Master_stop_condition,lp
+                        1462 <EXPANSION BEGIN>
+                        1462 jarl22 _R_RIIC_Master_stop_condition , lp 
+00000472 bfff38fd*      1462 <EXPANSION END>
+                        1463 --572:     /* transmit in master mode */
+                        1464 --573:     R_RIIC_Master_start_condition(Unit);
+                        1465 --line573
+                        1466 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.53::
+                        1467 .LDWlin53:
+00000476 1a30           1468 	mov	r26,r6
+                        1469 	jarl	_R_RIIC_Master_start_condition,lp
+                        1469 <EXPANSION BEGIN>
+                        1469 jarl22 _R_RIIC_Master_start_condition , lp 
+00000478 bfffe0fc*      1469 <EXPANSION END>
+                        1470 --575:     data = SlaveAddress + 1;   /* Slave Address + 1 for read */
+                        1471 --line575
+                        1472 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.54::
+                        1473 .LDWlin54:
+0000047c 835f0300       1474 	ld.bu	2[sp],r11
+00000480 0b0e0100       1475 	addi	1,r11,r1
+00000484 430f0100       1476 	st.b	r1,1[sp]
+                        1477 --576:    
+                        1478 --577:     base = r_riic_Dev[Unit].BaseAddr;
+00000488 1af0           1479 	mov	r26,ep
+0000048a c2f2           1480 	shl	2,ep
+0000048c 2e0600000000*  1481 	mov	_r_riic_Dev,r14
+00000492 cef1           1482 	add	r14,ep
+00000494 00ed           1483 	sld.w	0[ep],r29
+                        1484 --578:     
+                        1485 --579:     while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_TDRE) == 0u) 
+00000496 0000           1486 	nop
+                        1487 .L1088:
+                        1488 --580:     {
+00000498 9d0f2500       1489 	ld.bu	36[r29],r1
+0000049c 880a           1490 	shr	8,r1
+0000049e d9fd*          1491 	bnl	.L1088
+                        1492 --581:         /* Waiting TDRE empty */
+                        1493 --582:     }
+                        1494 --583:     
+                        1495 --584:     R_RIIC_WRITE_REG(8, (base + R_RIIC_DRT), data);      /* send data */
+                        1496 --line584
+                        1497 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.55::
+                        1498 .LDWlin55:
+000004a0 a30f0100       1499 	ld.bu	1[sp],r1
+000004a4 5d0f3c00       1500 	st.b	r1,60[r29]
+                        1501 --585:     
+                        1502 --586:     while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_RDRF) == 0u) 
+000004a8 0000           1503 	nop
+                        1504 .L1091:
+                        1505 --587:     {
+000004aa 9d0f2500       1506 	ld.bu	36[r29],r1
+000004ae 860a           1507 	shr	6,r1
+000004b0 d9fd*          1508 	bnl	.L1091
+                        1509 --588:         /* Waiting receive */
+                        1510 --589:     }
+                        1511 --590:     
+                        1512 --591:     if((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_NACKF) == 0u) 
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                        1513 --line591
+                        1514 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.56::
+                        1515 .LDWlin56:
+000004b2 9d0f2500       1516 	ld.bu	36[r29],r1
+000004b6 850a           1517 	shr	5,r1
+000004b8 b105*          1518 	bl	.L1094
+                        1519 --592:     {
+                        1520 --593:         ack = R_RIIC_ERR_OK;
+                        1521 --line593
+                        1522 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.57::
+                        1523 .LDWlin57:
+000004ba 00ca           1524 	mov	0,r25
+000004bc a505*          1525 	br	.L1096
+                        1526 .L1094:
+                        1527 --594:     }
+                        1528 --595:     else
+                        1529 --596:     {
+                        1530 --597:         ack = R_RIIC_ERR_NG;
+                        1531 --line597
+                        1532 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.58::
+                        1533 .LDWlin58:
+000004be 01ca           1534 	mov	1,r25
+                        1535 .L1096:
+                        1536 --598:     }
+                        1537 --600:     if(ack == R_RIIC_ERR_OK)
+000004c0 e0c9           1538 	cmp	zero,r25
+000004c2 aa3d*          1539 	bne	.L1097
+                        1540 --601:     {
+                        1541 --602:         /* set wait = 1 */
+                        1542 --603:         tmp = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));
+                        1543 --line603
+                        1544 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.59::
+                        1545 .LDWlin59:
+000004c4 9ddf1100       1546 	ld.bu	16[r29],r27
+                        1547 --604:         R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), (tmp | 0x40u));  
+000004c8 9b0e4000       1548 	ori	64,r27,r1
+000004cc 5d0f1000       1549 	st.b	r1,16[r29]
+                        1550 --606:         /* dummy read */
+                        1551 --607:         R_RIIC_READ_REG(8, (base + R_RIIC_DRR));    
+000004d0 9d0f4100       1552 	ld.bu	64[r29],r1
+                        1553 --609:         while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_RDRF) == 0u) 
+000004d4 0000           1554 	nop
+                        1555 .L1099:
+                        1556 --610:         {
+000004d6 9d0f2500       1557 	ld.bu	36[r29],r1
+000004da 860a           1558 	shr	6,r1
+000004dc d9fd*          1559 	bnl	.L1099
+                        1560 --611:         }
+                        1561 --612:         
+                        1562 --613:         /* do an extra read byte if required */ 
+                        1563 --614:         if(2 == Size)
+                        1564 --line614
+                        1565 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.60::
+                        1566 .LDWlin60:
+000004de 230f2100       1567 	ld.w	32[sp],r1
+000004e2 620a           1568 	cmp	2,r1
+000004e4 fa0d*          1569 	bne	.L1102
+                        1570 --615:         {    
+                        1571 --616:             /* receive data read */
+                        1572 --617:             Rdata[index] = R_RIIC_READ_REG(8, (base + R_RIIC_DRR));        
+                        1573 --line617
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+                        1574 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.61::
+                        1575 .LDWlin61:
+000004e6 235f0500       1576 	ld.w	4[sp],r11
+000004ea 9d0f4100       1577 	ld.bu	64[r29],r1
+000004ee 1cf0           1578 	mov	r28,ep
+000004f0 cbf1           1579 	add	r11,ep
+000004f2 800b           1580 	sst.b	r1,0[ep]
+                        1581 --618:             index++; 
+000004f4 41e2           1582 	add	1,r28
+000004f6 9c00           1583 	zxb	r28
+                        1584 --619:  
+                        1585 --620:             while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_RDRF) == 0u) 
+000004f8 0000           1586 	nop
+                        1587 .L1104:
+                        1588 --621:             {
+000004fa 9d0f2500       1589 	ld.bu	36[r29],r1
+000004fe 860a           1590 	shr	6,r1
+00000500 d9fd*          1591 	bnl	.L1104
+                        1592 .L1102:
+                        1593 --622:             }
+                        1594 --623:         }
+                        1595 --625:         /* set RDRFS=1 */
+                        1596 --626:         tmp = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));
+                        1597 --line626
+                        1598 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.62::
+                        1599 .LDWlin62:
+00000502 9ddf1100       1600 	ld.bu	16[r29],r27
+                        1601 --627:         R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), (tmp | 0x20u));  
+00000506 9b0e2000       1602 	ori	32,r27,r1
+0000050a 5d0f1000       1603 	st.b	r1,16[r29]
+                        1604 --629:         /* set ACKBT=1 */
+                        1605 --630:         tmp = R_RIIC_READ_REG(8, (base + R_RIIC_MR3));
+0000050e 9ddf1100       1606 	ld.bu	16[r29],r27
+                        1607 --631:         R_RIIC_WRITE_REG(8, (base + R_RIIC_MR3), (tmp | 0x08u));  
+00000512 9b0e0800       1608 	ori	8,r27,r1
+00000516 5d0f1000       1609 	st.b	r1,16[r29]
+                        1610 --633:         /* receive data read */
+                        1611 --634:         Rdata[index] = R_RIIC_READ_REG(8, (base + R_RIIC_DRR));
+0000051a 235f0500       1612 	ld.w	4[sp],r11
+0000051e 9d0f4100       1613 	ld.bu	64[r29],r1
+00000522 1cf0           1614 	mov	r28,ep
+00000524 cbf1           1615 	add	r11,ep
+00000526 800b           1616 	sst.b	r1,0[ep]
+                        1617 --635:         index++; 
+00000528 41e2           1618 	add	1,r28
+0000052a 9c00           1619 	zxb	r28
+                        1620 --636:        
+                        1621 --637:         while((R_RIIC_READ_REG(8, (base + R_RIIC_SR2)) & R_RIIC_SR2_RDRF) == 0u) 
+0000052c 0000           1622 	nop
+                        1623 .L1107:
+                        1624 --638:         {
+0000052e 9d0f2500       1625 	ld.bu	36[r29],r1
+00000532 860a           1626 	shr	6,r1
+00000534 d9fd*          1627 	bnl	.L1107
+                        1628 .L1097:
+                        1629 --639:         }
+                        1630 --640:     }
+                        1631 --642:     R_RIIC_Master_stop_condition(Unit, &data);
+                        1632 --line642
+                        1633 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.63::
+                        1634 .LDWlin63:
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008c01.si
+00000536 1a30           1635 	mov	r26,r6
+00000538 233e0100       1636 	movea	1,sp,r7
+                        1637 	jarl	_R_RIIC_Master_stop_condition,lp
+                        1637 <EXPANSION BEGIN>
+                        1637 jarl22 _R_RIIC_Master_stop_condition , lp 
+0000053c bfff6efc*      1637 <EXPANSION END>
+                        1638 --643:    
+                        1639 --644:     return ack;
+                        1640 --line644
+                        1641 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main.64::
+                        1642 .LDWlin64:
+00000540 1950           1643 	mov	r25,r10
+                        1644 .L1082:
+                        1645 --	    .ef
+                        1646 .LDW83:
+00000542 4406ff70       1647 	dispose	2,{r25,r26,r27,r28,r29,r31},[lp]
+                        1648 	.type	_R_RIIC_receive_from_slave8b,@function
+                        1649 	.size	_R_RIIC_receive_from_slave8b,.-_R_RIIC_receive_from_slave8b
+                        1650 	.align	2
+                        1651 .LDW93:
+                        1652 --_index	r28	local
+                        1653 --_data	1[sp]	local
+                        1654 --_tmp	r27	local
+                        1655 --_ack	r25	local
+                        1656 --_base	r29	local
+                        1657 
+                        1658 --_Unit	r26	param
+                        1659 --_SlaveAddress	2[sp]	param
+                        1660 --_InternalAddress	3[sp]	param
+                        1661 --_Rdata	4[sp]	param
+                        1662 --_Size	32[sp]	param
+                        1663 
+                        1664 	.section ".bss","awb"
+                        1665 .L1237:
+                        1666 	.type	.L1237,@object
+                        1667 	.size	.L1237,0
+                        1668 	.data
+                        1669 	.text
+                        1670 
+                        1671 --645: }
+                        1672 	.align	2
+                        1673 
+                        1674 	.data
+                        1675 	.section ".bss","awb"
+                        1676 	.align	4
+                        1677 	.align	4
+                        1678 	.global	_r_riic_Dev
+00000000 000000000000   1679 _r_riic_Dev:	.space	8
+00000006 0000 
+                        1680 	.type	_r_riic_Dev,@object
+                        1681 	.size	_r_riic_Dev,8
+                        1682 	.data
+                        1683 	.ghsnote version,14
+                        1684 	.ghsnote tools,3
+                        1685 	.ghsnote options,144
+                        1686 	.text
+                        1687 	.align	2
+                        1688 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_riic_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740386..0::
+                        1689 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

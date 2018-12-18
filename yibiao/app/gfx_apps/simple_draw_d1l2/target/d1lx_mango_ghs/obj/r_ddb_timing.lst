@@ -1,0 +1,1627 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_ddb_timing.dbo -source=r_ddb_timing.c -o .\obj\gh_00008t01.o -list=.\obj\r_ddb_timing.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+Source File: r_ddb_timing.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c ..\..\..\..\..\macro\vo\ddb\src\r_ddb_timing.c -o
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         112 --		.\obj\r_ddb_timing.o
+                         113 --Source File:   ..\..\..\..\..\macro\vo\ddb\src\r_ddb_timing.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:22:03 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2: ****************************************************************************
+                         126 --3: PROJECT : DDB (Display DataBase) driver
+                         127 --4: AUTHOR  : Michael Golczewski
+                         128 --5: FILE    : $Id: r_ddb_timing.c 7791 2016-02-24 09:20:46Z oliver.achten $
+                         129 --6: ============================================================================
+                         130 --7: DESCRIPTION
+                         131 --8: database for display timings (ddb)
+                         132 --9: ============================================================================
+                         133 --10:                             C O P Y R I G H T
+                         134 --11: ============================================================================
+                         135 --12:                        Copyright (c) 2013 - 2014
+                         136 --13:                                   by
+                         137 --14:                        Renesas Electronics (Europe) GmbH.
+                         138 --15:                            Arcadiastrasse 10
+                         139 --16:                           D-40472 Duesseldorf
+                         140 --17:                                Germany
+                         141 --18:                           All rights reserved.
+                         142 --19: ============================================================================
+                         143 --22: DISCLAIMER
+                         144 --24: LICENSEE has read, understood and accepted the terms and conditions defined in
+                         145 --25: the license agreement, especially the usage rights. In any case, it is
+                         146 --26: LICENSEE's responsibility to make sure that any user of the software complies
+                         147 --27: with the terms and conditions of the signed license agreement.
+                         148 --29: SAMPLE CODE is provided on an 'as is' base and is not part of the licensed software.
+                         149 --30: It can only be used, copied or modified as defined in the signed license agreement.
+                         150 --31: For the sake of clarity, LICENSEE uses this software on his own risk.
+                         151 --32: ****************************************************************************
+                         152 --33: */
+                         153 --35: /*******************************************************************************
+                         154 --36:   Title: Main Module
+                         155 --38:   Implementation of the API and other global functions.
+                         156 --39: */
+                         157 --42: /*******************************************************************************
+                         158 --43:   Section: Includes
+                         159 --44: */
+                         160 --46: #include <string.h>         /* strcmp */
+                         161 --47: #include "r_typedefs.h"     /* Renesas basic types, e.g. uint32_t */
+                         162 --48: #include "r_ddb_api.h"      /* display database with display timings */
+                         163 --51: /*******************************************************************************
+                         164 --52:   Section: Local Defines
+                         165 --53: */
+                         166 --55: #define LOC_DISPLAY_MODE_NUM  (sizeof(loc_DisplayMode) / sizeof(r_ddb_Timing_t))
+                         167 --58: /*******************************************************************************
+                         168 --59:   Section: Local variables
+                         169 --60: */
+                         170 --62: static const r_ddb_Timing_t loc_DisplayMode[] = {
+                         171 --64: /* Display / VO timings */
+                         172 --66:     /* The list is grouped as follows:          */
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         173 --67:     /*  + VESA Display Timings                  */
+                         174 --68:     /*  + Vendor Specific Timings               */
+                         175 --69:     /*  + Test Specific Timings                 */
+                         176 --70:     /*  + Camera Specific Timings               */
+                         177 --71:     /*                                          */
+                         178 --72:     /*  The Timings are sorted by Resolution,   */
+                         179 --73:     /*  then byPixel Clock                      */
+                         180 --75:     /* Information for creating custom timings  */
+                         181 --76:     /*                                          */
+                         182 --77:     /* Some HDMI/DVI monitors require the       */
+                         183 --78:     /* frequencies to be in a specific range.   */
+                         184 --79:     /*                                          */
+                         185 --80:     /* EIZO FlexScan EV2336W                    */
+                         186 --81:     /*      H: 31 - 68 kHz, V: 59 - 61 Hz       */
+                         187 --82:     /* NEC MultiSync LCD1970NX                  */
+                         188 --83:     /*      H: 31 - 81 kHz, V: 56 - 75 Hz       */
+                         189 --84:     /* NEC MultiSync EA224WMI                   */
+                         190 --85:     /*      H: 31 - 83 kHz, V: 56 - 75 Hz       */
+                         191 --86:     /*                                          */
+                         192 --89: /* CEA Display Timings (for HDTV / HDMI) */
+                         193 --91: 	{"CEA_1920x1080_60Hz",
+                         194 --92: 	1920, 1080,
+                         195 --93: 	{2080, 160, 48, 32},
+                         196 --94: 	{1111, 31, 3, 5},
+                         197 --95:     ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         198 --96:     |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         199 --97: 	138500000},
+                         200 --99: /* VESA Display Timings (for VGA / HDMI) */
+                         201 --101:     /* VESA 640x480 60Hz (59.94Hz)*/
+                         202 --102:     {"VESA_640x480_60Hz",
+                         203 --103:       640u, 480u,
+                         204 --104:       {800u, 160u, 16u, 96u},
+                         205 --105:       {525u,  45u, 10u, 2u},
+                         206 --106:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         207 --107:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         208 --108:       25175000u},
+                         209 --110:     /* VESA 800x600 60Hz (60.31Hz)*/
+                         210 --111:     {"VESA_800x600_60Hz",
+                         211 --112:       800u, 600u,
+                         212 --113:       {1056u, 256u, 0u, 128u},
+                         213 --114:       {628u,  28u, 0u, 4u},
+                         214 --115:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         215 --116:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         216 --117:       40000000u},
+                         217 --119:     /* VESA 1024x768 60Hz (60.00Hz)*/
+                         218 --120:     {"VESA_1024x768_60Hz",
+                         219 --121:       1024u, 768u,
+                         220 --122:       {1344u, 320u, 24u, 136u},
+                         221 --123:       {806u,  38u, 3u, 6u},
+                         222 --124:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         223 --125:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         224 --126:       65000000u},
+                         225 --128:     /* VESA 1024x768 75Hz (75.00Hz)*/
+                         226 --129:     {"VESA_1024x768_75Hz",
+                         227 --130:       1024u, 768u,
+                         228 --131:       {1312u, 288u, 16u, 96u},
+                         229 --132:       {800u,  32u, 1u, 3u},
+                         230 --133:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         231 --134:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         232 --135:       78800000u},
+                         233 --137:     /* VESA 1280x800 60Hz (59.998Hz)*/
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         234 --138:     {"VESA_1280x800_60Hz",
+                         235 --139:       1280, 800u,
+                         236 --140:       {1680u, 400u, 64u, 136u},
+                         237 --141:       {828u,  28u, 1u, 3u},
+                         238 --142:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         239 --143:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         240 --144:       83460000u},
+                         241 --146:     /* VESA 1280x1024 60Hz (60.02Hz)*/
+                         242 --147:     /* This is a VESA timing which will not work with default D1ML PLL configuration! */
+                         243 --148:     /* To use this VESA timing, make sure that your PLL2 has a working frequency of (108MHz*4) 432MHz instead of (120MHz*4) 480MHz ! */
+                         244 --149:     {"VESA_1280x1024_60Hz",
+                         245 --150:       1280, 1024u,
+                         246 --151:       {1688u, 408u, 48u, 112u},
+                         247 --152:       {1066u,  42u, 1u, 3u},
+                         248 --153:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         249 --154:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         250 --155:      108000000u},
+                         251 --157: /* Vendor Specific Display Timings */
+                         252 --159:     /* Renesas NL2432HC22-41K display, touchscreen, 18bit colour, 8.9cm, QVGA portrait
+                         253 --160:         (used on RAPP V3.xx) (60.28Hz)*/
+                         254 --161:     {"NEC_QVGA_TOUCH_240x320",
+                         255 --162:      240u, 320u,
+                         256 --163:      {(240+10+10+20), (10+10+20), 10u, 10u},
+                         257 --164:      {(320+ 4+ 2+ 2),  (4+ 2+ 2),  4u,  2u},
+                         258 --165:      R_DDB_DISP_FLAG_DESYNC_ACTHI,
+                         259 --166:      5880000u},
+                         260 --168:     /* Hitachi TX09D70VM1CDA display
+                         261 --169:         (used on RAPP V1.xx and V2.xx) (60.00Hz)*/
+                         262 --170:     {"HITACHI_QVGA_TFT_240x320",
+                         263 --171:      240u, 320u,
+                         264 --172:      {273u, 33u, 11u, 5u},
+                         265 --173:      {327u,  7u,  2u, 1u},
+                         266 --174:      ((uint32_t)R_DDB_DISP_FLAG_VOEN | (uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         267 --175:      5356260u},
+                         268 --177:     /* Truly TFT1N6257-E display, touchscreen, 18bit colour, 85mm, QVGA portrait */
+                         269 --178:     {"TRULY_QVGA_TOUCH_240x320",
+                         270 --179:      240u, 320u,
+                         271 --180:      {(240+10+10+20), (10+10+20), 10u, 10u},
+                         272 --181:      {(320+ 4+ 2+ 2),  (4+ 2+ 2),  4u,  2u},
+                         273 --182:      R_DDB_DISP_FLAG_DESYNC_ACTHI,
+                         274 --183:      5640000u},
+                         275 --185:     /* source for driving SHARP display, for TCON test purpose */
+                         276 --186:     {"TCON_SHARP_240x320",
+                         277 --187:      240u,320u,
+                         278 --188:      {283u,43u,31u,5u},
+                         279 --189:      {330u,10u,2u,2u},
+                         280 --190:      ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         281 --191:        | (uint32_t)R_DDB_DISP_FLAG_HSYNC_ACTHI
+                         282 --192:        | (uint32_t)R_DDB_DISP_FLAG_VSYNC_ACTHI),
+                         283 --193:      7000000u},
+                         284 --195:     /* NL3224BC35-20 18bit colour Renesas QVGA display module 14cm */
+                         285 --196:     {"NEC_320x240",
+                         286 --197:       320u, 240u,
+                         287 --198:       {404u, 84u, 7u, 36u},
+                         288 --199:       {262u, 22u, 1u,  9u},
+                         289 --200:       R_DDB_DISP_FLAG_NONE,
+                         290 --201:       7056000u},
+                         291 --203:     /* Toppoly (TPO) TD022SREC6 display */
+                         292 --204:     {"TOPPOLY_240x320",
+                         293 --205:       240u, 320u,
+                         294 --206:       {280u, (280-240), (280-270), (10-0)},
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         295 --207:       {328u, (328-320), (328-324), (2-0)},
+                         296 --208:       R_DDB_DISP_FLAG_NEGCLK,
+                         297 --209:       7056000u},
+                         298 --212:     {"SHARP_480x272_LQ0",  /* Sharp 480x272-LQ043T3DX02*/
+                         299 --213:      480u,272u,
+                         300 --214:      {525u,  45u, 2u, 41u},
+                         301 --215:      {286u,  14u, 2u, 10u},
+                         302 --216:      R_DDB_DISP_FLAG_NONE,
+                         303 --217:      9000000u},
+                         304 --219:     /* Sharp display 480x272 LQ042T5DZ01 */
+                         305 --220:     {"SHARP_480x272",
+                         306 --221:       480u, 272u,
+                         307 --222:       {(480+120), 120u, 2u, (120-116-2)},
+                         308 --223:       {(272+ 40),  40u, 2u, ( 40- 31-2)},
+                         309 --224:       R_DDB_DISP_FLAG_NONE,
+                         310 --225:       9700000u},
+                         311 --227:     /* GM India Displays */
+                         312 --228:     {"SHARP_480x272_LCY0",  /* Sharp 480x272-LQ042T5DZ01_LCY09013A */
+                         313 --229:      480u,272u,
+                         314 --230:      {598u, 118u, 2u, 5u},
+                         315 --231:      {305u,  33u, 2u, 5u},
+                         316 --232:      R_DDB_DISP_FLAG_NONE,
+                         317 --233:      9700000u},
+                         318 --236:     /* NL6448BC26-09 fixed mode */
+                         319 --237:     {"NEC_640x480_FIX",
+                         320 --238:      640u, 480u,
+                         321 --239:      {800u, 160u, 16u, 96u},
+                         322 --240:      {525u,  45u, 12u, 2u},
+                         323 --241:      R_DDB_DISP_FLAG_NONE,
+                         324 --242:      25175000u},
+                         325 --244:     /* NL6448BC26-09 DE mode */
+                         326 --245:     {"NEC_640x480_DE",
+                         327 --246:      640u, 480u,
+                         328 --247:      {800u, 160u, 16u, 96u},
+                         329 --248:      {525u,  45u, 12u, 2u},
+                         330 --249:      ((uint32_t)R_DDB_DISP_FLAG_VOEN | (uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         331 --250:      25175000u},
+                         332 --252:     {"HITACHI_WVGA_TFT_800x480",
+                         333 --253:      800u,480u,
+                         334 --254:      {1056u,47u,40u,3u},
+                         335 --255:      {525u,15u,11u,2u},
+                         336 --256:      ((uint32_t)R_DDB_DISP_FLAG_VOEN | (uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         337 --257:      25264000u},
+                         338 --259:     /* NL8048BC19-02 24bit colour Renesas WVGA display module */
+                         339 --260:     {"NEC_WVGA_TFT_800x480",
+                         340 --261:      800u,480u,
+                         341 --262:      {1024u,1024-800u,40u,3u},
+                         342 --263:      {525u,525-480u,11u,2u},
+                         343 --264:      ((uint32_t)R_DDB_DISP_FLAG_VOEN | (uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         344 --265:      30000000u},
+                         345 --267:     /* Truly_800480-50_E WVGA 24bit colour (61,58Hz) */
+                         346 --268:     {"TRULY_WVGA_TFT_800x480",
+                         347 --269:      800u,480u,
+                         348 --270:      {928u,928-800u,40u,48u},
+                         349 --271:      {525u,525-480u,13u,3u},
+                         350 --272:      ((uint32_t)R_DDB_DISP_FLAG_VOEN | (uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         351 --273:      30000000u},
+                         352 --275:     /* Sharp 800x480 (WVGA) 60Hz (62,16Hz)*/
+                         353 --276:     {"SHARP_LCY-13003C-16",
+                         354 --277:      800, 480,
+                         355 --278:      {(800+229), 229, 110, 5},
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         356 --279:      {(480+40), 40, 4, 1},
+                         357 --280:      R_DDB_DISP_FLAG_DESYNC_ACTHI,
+                         358 --281:      33260000},
+                         359 --283:     /* Sharp 800x480 (WVGA) 30Hz (31,08Hz)*/
+                         360 --284:     {"SHARP_LCY-13003C-16_30Hz",
+                         361 --285:      800, 480,
+                         362 --286:      {(800+229), 229, 110, 5},
+                         363 --287:      {(480+40), 40, 4, 1},
+                         364 --288:      R_DDB_DISP_FLAG_DESYNC_ACTHI,
+                         365 --289:      33260000/2},
+                         366 --291:     /* P9491LTPS - 4.3" TPG110 (60,06Hz)*/
+                         367 --292:     {"TPO_800x480",
+                         368 --293:      800u, 480u,
+                         369 --294:      {1056u, 256u, 40u, 5u},
+                         370 --295:      { 525u,  45u, 10u, 5u},
+                         371 --296:      R_DDB_DISP_FLAG_NONE,
+                         372 --297:      33300000u},
+                         373 --299:     /* NL10276BC13-01C 24bit colour Renesas XGA display module
+                         374 --300:        with reduced clock for usage on SCIT board */
+                         375 --301:     {"NEC_XGA_24BIT_SLOW",
+                         376 --302:       1024u, 768u,
+                         377 --303:       {1344u, 320u, 22u, 37u},
+                         378 --304:       {806u, 38u, 18u,  3u},
+                         379 --305:       ((uint32_t)R_DDB_DISP_FLAG_VOEN | (uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         380 --306:       20000000u},
+                         381 --308:     /* NL10276BC13-01C 24bit colour Renesas XGA display module */
+                         382 --309:     {"NEC_XGA_24BIT",
+                         383 --310:       1024u, 768u,
+                         384 --311:       {1344u, 320u, 22u, 37u},
+                         385 --312:       {806u, 38u, 18u,  3u},
+                         386 --313:       ((uint32_t)R_DDB_DISP_FLAG_VOEN | (uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         387 --314:       65000000u},
+                         388 --316:      /* Digital TV Renesas WSXGAP MultiSync EA221WM */
+                         389 --317:     {"NEC_WSXGAP_DVI",
+                         390 --318:       1680u, 1050u,
+                         391 --319:       {1840u, 160u, 48u, 32u},
+                         392 --320:       {1080u, 30u, 3u,  6u},
+                         393 --321:       ((uint32_t)R_DDB_DISP_FLAG_VOEN | (uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         394 --322:       119000000u},
+                         395 --325: /* Display Timings for Test Purposes (e.g. Non-Standard or Non-vendor) */
+                         396 --327: /* WIDE 1920x720 HDMI display, unknown vendor, syncs also on NEC EA224WMi monitor */
+                         397 --329: 	{"WIDE_1920x720_60Hz",
+                         398 --330: 	1920, 720,
+                         399 --331: 	{2000, 80, 20, 30},
+                         400 --332: 	{730, 10, 3, 3},
+                         401 --333: 	((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         402 --334: 	|(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         403 --335: 	87600000},
+                         404 --337: /* 1920x720 timing, works on NEC EA224WMi & EIZO monitors */
+                         405 --339: 	{"1920x720_60Hz",
+                         406 --340: 	1920, 720,
+                         407 --341:     {2392, 472, 32, 408},
+                         408 --342:     {757, 37, 15, 7},
+                         409 --343: 	((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         410 --344: 	|(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         411 --345:     110000000},
+                         412 --347:      /* 400 x 120 @60fps */
+                         413 --348:     {"400x120_60FPS",
+                         414 --349:      400u, 120u,
+                         415 --350:      {480u, 80u, 30u, 10u},
+                         416 --351:      {144u, 24u, 10u, 2u},
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         417 --352:      R_DDB_DISP_FLAG_DESYNC_ACTHI,
+                         418 --353:      4150000u},
+                         419 --355:     /* minimal setting for test purpose */
+                         420 --356:     {"DISP_MIN",
+                         421 --357:       320u,240u,
+                         422 --358:       {420u,100u, 22u, 2u},
+                         423 --359:       {280u, 40u, 18u,  1u},
+                         424 --360:       R_DDB_DISP_FLAG_NONE,
+                         425 --361:       7056000u},
+                         426 --363:     /* 640x480 30Hz (non VESA - half fps) */
+                         427 --364:     {"640x480_30Hz",
+                         428 --365:       640u, 480u,
+                         429 --366:       {800u, 160u, 16u, 96u},
+                         430 --367:       {525u,  45u, 10u, 2u},
+                         431 --368:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         432 --369:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         433 --370:       25175000u/2},
+                         434 --372:     /*1024x768 40Hz (non VESA - 2/3 fps) */
+                         435 --373:     {"1024x768_40Hz",
+                         436 --374:       1024u, 768u,
+                         437 --375:       {1344u, 320u, 24u, 136u},
+                         438 --376:       {806u,  38u, 3u, 6u},
+                         439 --377:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         440 --378:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         441 --379:       43300000u},
+                         442 --381:     /* 800x480 60Hz (59.94Hz) (Close to VESA - Derived from VESA 800x600 and 640x480 60Hz) */
+                         443 --382:     {"800x480_60Hz",
+                         444 --383:       800u, 480u,
+                         445 --384:       {1056u, 256u, 0u, 128u},
+                         446 --385:       {525u,  45u, 10u, 2u},
+                         447 --386:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         448 --387:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         449 --388:       33264000u},
+                         450 --390:     /* 1280x480 60Hz (Close to VESA - Derived from VESA 1280x800 60Hz) */
+                         451 --391:     {"1280x480_60Hz",
+                         452 --392:       1280, 480u,
+                         453 --393:       {1680u, 400u, 64u, 136u},
+                         454 --394:       {528u,  48u,  10u, 2u},
+                         455 --395:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         456 --396:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         457 --397:       53222400u},
+                         458 --399:     {"1280x480_75Hz",
+                         459 --400:       1280, 480u,
+                         460 --401:       {1610u, 400u, 64u, 136u},
+                         461 --402:       {528u,  48u,  10u, 2u},
+                         462 --403:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         463 --404:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         464 --405:       65000000u},
+                         465 --407:     {"TES_1280x720",
+                         466 --408:      1280u, 720u,
+                         467 --409:      {1648u, 368u, 72u, 80u},
+                         468 --410:      {750u, 30u, 3u,  5u},
+                         469 --411:      ((uint32_t)R_DDB_DISP_FLAG_VOEN | (uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         470 --412:      74200000u},
+                         471 --414:     /* 1280x768 60Hz */
+                         472 --415:     {"TFT_1280x768_60Hz",
+                         473 --416:       1280u, 768u,
+                         474 --417:       {1664u, 384u, 64u, 128u},
+                         475 --418:       {798u, 30u, 3u, 7u},
+                         476 --419:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         477 --420:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         478 --421:       79500000u},
+                         479 --423:     {"TES_1280x1024",
+                         480 --424:      1280u, 1024u,
+                         481 --425:      {844*2u, (844*2)-1280 , 22u, 37u},
+                         482 --426:      {1066u, 1066-1024u, 18u, 3u},
+                         483 --427:      ((uint32_t)R_DDB_DISP_FLAG_VOEN | (uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         484 --428:      108000000u},
+                         485 --430:     /* 1280x1024 60Hz PLL:120MHz -
+                         486 --431:        This is a VESA timing, adapted such that it work with a PLL that cannot be set to 108MHz but 120MHz only */
+                         487 --432:     /* To use the REAL VESA "1280x1024_60Hz" timing, make sure that your PLL has a working frequency of a multiple of 108MHz! */
+                         488 --433:     {"1280x1024_60Hz_PLL120MHz",
+                         489 --434:       1280, 1024u,
+                         490 --435:       {1876u, 596u, 48u, 112u},
+                         491 --436:       {1066u,  42u, 1u, 3u},
+                         492 --437:       ((uint32_t)R_DDB_DISP_FLAG_VOEN
+                         493 --438:       |(uint32_t)R_DDB_DISP_FLAG_DESYNC_ACTHI),
+                         494 --439:      120000000u},
+                         495 --442:     /* pseudo display with size 4096x4096u, for test purpose */
+                         496 --443:     {"DISP_PSEUDO_4kx4k",
+                         497 --444:       4096u, 4096u,
+                         498 --445:       {4096+1024u, 1024u, 128u, 256u},
+                         499 --446:       {4096+1024u, 1024u, 128u, 256u},
+                         500 --447:       R_DDB_DISP_FLAG_NONE,
+                         501 --448:       50000000u},
+                         502 --450: /* Camera / VI timings */
+                         503 --452:     /* Sony EVI-R51 camera, ITU656 (YUV interlaced) */
+                         504 --453:     {"VI_CAMERA_SONY_EVI-R51",
+                         505 --454:      704u, 288u,
+                         506 --455:      {704u, 0u, 0u, 0u},
+                         507 --456:      {288u, 0u, 0u, 0u},
+                         508 --457:      R_DDB_DISP_FLAG_NONE,
+                         509 --458:      27000000u},
+                         510 --460:     /* HIMAX8277 display, touchscreen, 18bit colour, 8.9cm, QVGA portrait
+                         511 --461:         (used on RAPP V3.xx) (60.28Hz)*/
+                         512 --462:     {"HIMAX_QVGA_240x320",
+                         513 --463:     240u, 320u,
+                         514 --464:      {288u, 48u, 10u, 10u},
+                         515 --465:      {340u,  20u, 10u, 10u},
+                         516 --466:      R_DDB_DISP_FLAG_DESYNC_ACTHI,
+                         517 --467:      5880000},
+                         518 --468: };
+                         519 --472: /*******************************************************************************
+                         520 --473:   Section: Global functions
+                         521 --474: */
+                         522 --476: /*******************************************************************************
+                         523 --477:   Function: R_DDB_GetDisplayTiming
+                         524 --478: */
+                         525 --479: r_ddb_Timing_t *R_DDB_GetDisplayTiming(const char *DisplayId)
+                         526 	.text
+                         527 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_ddb_timing...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74038B..0::
+                         528 	.align	2
+                         529 	.global	_R_DDB_GetDisplayTiming
+                         530 _R_DDB_GetDisplayTiming:
+00000000 8007e130        531 	prepare	{r26,r27,r28,r29,r31},0
+00000004 06d0            532 	mov	r6,r26
+00000006 3b0600000000*   533 	mov	_loc_DisplayMode,r27
+                         534 --	    .bf
+                         535 .LDW01:
+                         536 --480: {
+                         537 --481:     uint32_t i;
+                         538 --482:     int32_t  x;
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         539 --484:     for(i = 0u; i < LOC_DISPLAY_MODE_NUM; i++)
+0000000c 00ea            540 	mov	0,r29
+0000000e 0000            541 	nop
+                         542 .L6:
+                         543 --485:     {
+                         544 --486:         x = strcmp(loc_DisplayMode[i].Name, DisplayId);
+00000010 1df0            545 	mov	r29,ep
+00000012 fe00            546 	sxh	ep
+00000014 fef63400        547 	mulhi	52,ep,ep
+00000018 1a38            548 	mov	r26,r7
+0000001a dbf1            549 	add	r27,ep
+0000001c 0035            550 	sld.w	0[ep],r6
+                         551 	jarl	_strcmp,lp
+                         551 <EXPANSION BEGIN>
+                         551 jarl22 _strcmp , lp 
+0000001e 80ff0000*       551 <EXPANSION END>
+00000022 0ae0            552 	mov	r10,r28
+                         553 --487:         if (x == 0)
+                         554 --line487
+                         555 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_ddb_timing.1::
+                         556 .LDWlin1:
+00000024 e0e1            557 	cmp	zero,r28
+00000026 8a0d*           558 	bne	.L7
+                         559 --488:         {
+                         560 --489:             return (r_ddb_Timing_t*) &loc_DisplayMode[i];
+                         561 --line489
+                         562 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_ddb_timing.2::
+                         563 .LDWlin2:
+00000028 1d08            564 	mov	r29,r1
+0000002a e100            565 	sxh	r1
+0000002c e10e3400        566 	mulhi	52,r1,r1
+00000030 0150            567 	mov	r1,r10
+00000032 db51            568 	add	r27,r10
+00000034 e505*           569 	br	.L2
+                         570 .L7:
+                         571 --line484
+                         572 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_ddb_timing.3::
+                         573 .LDWlin3:
+00000036 41ea            574 	add	1,r29
+00000038 1d06d5ff        575 	addi	-43,r29,zero
+0000003c a9ed*           576 	bnl	.L6
+                         577 --490:         }
+                         578 --491:     }
+                         579 --492:     return 0;
+                         580 --line492
+                         581 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_ddb_timing.4::
+                         582 .LDWlin4:
+0000003e 0052            583 	mov	0,r10
+                         584 .L2:
+                         585 --	    .ef
+                         586 .LDW11:
+00000040 4006ff30        587 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                         588 	.type	_R_DDB_GetDisplayTiming,@function
+                         589 	.size	_R_DDB_GetDisplayTiming,.-_R_DDB_GetDisplayTiming
+                         590 	.align	2
+                         591 .LDW21:
+                         592 --_i	r29	local
+                         593 --_x	r28	local
+                         594 
+                         595 --_DisplayId	r26	param
+                         596 
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         597 	.section ".bss","awb"
+                         598 .L38:
+                         599 	.type	.L38,@object
+                         600 	.size	.L38,0
+                         601 	.section ".rodata","a"
+                         602 	.align	4
+                         603 .L51:--	"TOPPOLY_240x320"
+00000000 544f5050        604 	.byte	84,79,80,80
+00000004 4f4c595f        605 	.byte	79,76,89,95
+00000008 32343078        606 	.byte	50,52,48,120
+0000000c 33323000        607 	.byte	51,50,48,0
+                         608 	.type	.L51,@object
+                         609 	.size	.L51,16
+                         610 .L52:--	"NEC_640x480_FIX"
+00000010 4e45435f        611 	.byte	78,69,67,95
+00000014 36343078        612 	.byte	54,52,48,120
+00000018 3438305f        613 	.byte	52,56,48,95
+0000001c 46495800        614 	.byte	70,73,88,0
+                         615 	.type	.L52,@object
+                         616 	.size	.L52,16
+                         617 .L53:--	"VESA_1280x1024_60Hz"
+00000020 56455341        618 	.byte	86,69,83,65
+00000024 5f313238        619 	.byte	95,49,50,56
+00000028 30783130        620 	.byte	48,120,49,48
+0000002c 32345f36        621 	.byte	50,52,95,54
+00000030 30487a00        622 	.byte	48,72,122,0
+                         623 	.type	.L53,@object
+                         624 	.size	.L53,20
+                         625 .L54:--	"NEC_320x240"
+00000034 4e45435f        626 	.byte	78,69,67,95
+00000038 33323078        627 	.byte	51,50,48,120
+0000003c 32343000        628 	.byte	50,52,48,0
+                         629 	.type	.L54,@object
+                         630 	.size	.L54,12
+                         631 .L55:--	"SHARP_LCY-13003C-16"
+00000040 53484152        632 	.byte	83,72,65,82
+00000044 505f4c43        633 	.byte	80,95,76,67
+00000048 592d3133        634 	.byte	89,45,49,51
+0000004c 30303343        635 	.byte	48,48,51,67
+00000050 2d313600        636 	.byte	45,49,54,0
+                         637 	.type	.L55,@object
+                         638 	.size	.L55,20
+                         639 .L56:--	"TPO_800x480"
+00000054 54504f5f        640 	.byte	84,80,79,95
+00000058 38303078        641 	.byte	56,48,48,120
+0000005c 34383000        642 	.byte	52,56,48,0
+                         643 	.type	.L56,@object
+                         644 	.size	.L56,12
+                         645 .L57:--	"VESA_640x480_60Hz"
+00000060 56455341        646 	.byte	86,69,83,65
+00000064 5f363430        647 	.byte	95,54,52,48
+00000068 78343830        648 	.byte	120,52,56,48
+0000006c 5f363048        649 	.byte	95,54,48,72
+00000070 7a00            650 	.byte	122,0
+                         651 	.type	.L57,@object
+                         652 	.size	.L57,18
+                         653 .L58:--	"VESA_800x600_60Hz"
+00000072 56455341        654 	.byte	86,69,83,65
+00000076 5f383030        655 	.byte	95,56,48,48
+0000007a 78363030        656 	.byte	120,54,48,48
+0000007e 5f363048        657 	.byte	95,54,48,72
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+00000082 7a00            658 	.byte	122,0
+                         659 	.type	.L58,@object
+                         660 	.size	.L58,18
+                         661 .L59:--	"SHARP_480x272_LQ0"
+00000084 53484152        662 	.byte	83,72,65,82
+00000088 505f3438        663 	.byte	80,95,52,56
+0000008c 30783237        664 	.byte	48,120,50,55
+00000090 325f4c51        665 	.byte	50,95,76,81
+00000094 3000            666 	.byte	48,0
+                         667 	.type	.L59,@object
+                         668 	.size	.L59,18
+                         669 .L60:--	"SHARP_480x272"
+00000096 53484152        670 	.byte	83,72,65,82
+0000009a 505f3438        671 	.byte	80,95,52,56
+0000009e 30783237        672 	.byte	48,120,50,55
+000000a2 3200            673 	.byte	50,0
+                         674 	.type	.L60,@object
+                         675 	.size	.L60,14
+                         676 .L61:--	"NEC_XGA_24BIT"
+000000a4 4e45435f        677 	.byte	78,69,67,95
+000000a8 5847415f        678 	.byte	88,71,65,95
+000000ac 32344249        679 	.byte	50,52,66,73
+000000b0 5400            680 	.byte	84,0
+                         681 	.type	.L61,@object
+                         682 	.size	.L61,14
+                         683 .L62:--	"1920x720_60Hz"
+000000b2 31393230        684 	.byte	49,57,50,48
+000000b6 78373230        685 	.byte	120,55,50,48
+000000ba 5f363048        686 	.byte	95,54,48,72
+000000be 7a00            687 	.byte	122,0
+                         688 	.type	.L62,@object
+                         689 	.size	.L62,14
+                         690 .L63:--	"400x120_60FPS"
+000000c0 34303078        691 	.byte	52,48,48,120
+000000c4 3132305f        692 	.byte	49,50,48,95
+000000c8 36304650        693 	.byte	54,48,70,80
+000000cc 5300            694 	.byte	83,0
+                         695 	.type	.L63,@object
+                         696 	.size	.L63,14
+                         697 .L64:--	"1024x768_40Hz"
+000000ce 31303234        698 	.byte	49,48,50,52
+000000d2 78373638        699 	.byte	120,55,54,56
+000000d6 5f343048        700 	.byte	95,52,48,72
+000000da 7a00            701 	.byte	122,0
+                         702 	.type	.L64,@object
+                         703 	.size	.L64,14
+                         704 .L65:--	"1280x480_60Hz"
+000000dc 31323830        705 	.byte	49,50,56,48
+000000e0 78343830        706 	.byte	120,52,56,48
+000000e4 5f363048        707 	.byte	95,54,48,72
+000000e8 7a00            708 	.byte	122,0
+                         709 	.type	.L65,@object
+                         710 	.size	.L65,14
+                         711 .L66:--	"1280x480_75Hz"
+000000ea 31323830        712 	.byte	49,50,56,48
+000000ee 78343830        713 	.byte	120,52,56,48
+000000f2 5f373548        714 	.byte	95,55,53,72
+000000f6 7a00            715 	.byte	122,0
+                         716 	.type	.L66,@object
+                         717 	.size	.L66,14
+                         718 .L67:--	"TFT_1280x768_60Hz"
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+000000f8 5446545f        719 	.byte	84,70,84,95
+000000fc 31323830        720 	.byte	49,50,56,48
+00000100 78373638        721 	.byte	120,55,54,56
+00000104 5f363048        722 	.byte	95,54,48,72
+00000108 7a00            723 	.byte	122,0
+                         724 	.type	.L67,@object
+                         725 	.size	.L67,18
+                         726 .L68:--	"TES_1280x1024"
+0000010a 5445535f        727 	.byte	84,69,83,95
+0000010e 31323830        728 	.byte	49,50,56,48
+00000112 78313032        729 	.byte	120,49,48,50
+00000116 3400            730 	.byte	52,0
+                         731 	.type	.L68,@object
+                         732 	.size	.L68,14
+                         733 .L69:--	"DISP_PSEUDO_4kx4k"
+00000118 44495350        734 	.byte	68,73,83,80
+0000011c 5f505345        735 	.byte	95,80,83,69
+00000120 55444f5f        736 	.byte	85,68,79,95
+00000124 346b7834        737 	.byte	52,107,120,52
+00000128 6b00            738 	.byte	107,0
+                         739 	.type	.L69,@object
+                         740 	.size	.L69,18
+                         741 .L70:--	"CEA_1920x1080_60Hz"
+0000012a 4345415f        742 	.byte	67,69,65,95
+0000012e 31393230        743 	.byte	49,57,50,48
+00000132 78313038        744 	.byte	120,49,48,56
+00000136 305f3630        745 	.byte	48,95,54,48
+0000013a 487a            746 	.byte	72,122
+0000013c 00              747 	.byte	0
+                         748 	.type	.L70,@object
+                         749 	.size	.L70,19
+                         750 .L71:--	"VESA_1024x768_60Hz"
+0000013d 56455341        751 	.byte	86,69,83,65
+00000141 5f313032        752 	.byte	95,49,48,50
+00000145 34783736        753 	.byte	52,120,55,54
+00000149 385f3630        754 	.byte	56,95,54,48
+0000014d 487a            755 	.byte	72,122
+0000014f 00              756 	.byte	0
+                         757 	.type	.L71,@object
+                         758 	.size	.L71,19
+                         759 .L72:--	"VESA_1024x768_75Hz"
+00000150 56455341        760 	.byte	86,69,83,65
+00000154 5f313032        761 	.byte	95,49,48,50
+00000158 34783736        762 	.byte	52,120,55,54
+0000015c 385f3735        763 	.byte	56,95,55,53
+00000160 487a            764 	.byte	72,122
+00000162 00              765 	.byte	0
+                         766 	.type	.L72,@object
+                         767 	.size	.L72,19
+                         768 .L73:--	"VESA_1280x800_60Hz"
+00000163 56455341        769 	.byte	86,69,83,65
+00000167 5f313238        770 	.byte	95,49,50,56
+0000016b 30783830        771 	.byte	48,120,56,48
+0000016f 305f3630        772 	.byte	48,95,54,48
+00000173 487a            773 	.byte	72,122
+00000175 00              774 	.byte	0
+                         775 	.type	.L73,@object
+                         776 	.size	.L73,19
+                         777 .L74:--	"NEC_QVGA_TOUCH_240x320"
+00000176 4e45435f        778 	.byte	78,69,67,95
+0000017a 51564741        779 	.byte	81,86,71,65
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+0000017e 5f544f55        780 	.byte	95,84,79,85
+00000182 43485f32        781 	.byte	67,72,95,50
+00000186 34307833        782 	.byte	52,48,120,51
+0000018a 3230            783 	.byte	50,48
+0000018c 00              784 	.byte	0
+                         785 	.type	.L74,@object
+                         786 	.size	.L74,23
+                         787 .L75:--	"HITACHI_QVGA_TFT_240x320"
+0000018d 48495441        788 	.byte	72,73,84,65
+00000191 4348495f        789 	.byte	67,72,73,95
+00000195 51564741        790 	.byte	81,86,71,65
+00000199 5f544654        791 	.byte	95,84,70,84
+0000019d 5f323430        792 	.byte	95,50,52,48
+000001a1 78333230        793 	.byte	120,51,50,48
+000001a5 00              794 	.byte	0
+                         795 	.type	.L75,@object
+                         796 	.size	.L75,25
+                         797 .L76:--	"TRULY_QVGA_TOUCH_240x320"
+000001a6 5452554c        798 	.byte	84,82,85,76
+000001aa 595f5156        799 	.byte	89,95,81,86
+000001ae 47415f54        800 	.byte	71,65,95,84
+000001b2 4f554348        801 	.byte	79,85,67,72
+000001b6 5f323430        802 	.byte	95,50,52,48
+000001ba 78333230        803 	.byte	120,51,50,48
+000001be 00              804 	.byte	0
+                         805 	.type	.L76,@object
+                         806 	.size	.L76,25
+                         807 .L77:--	"TCON_SHARP_240x320"
+000001bf 54434f4e        808 	.byte	84,67,79,78
+000001c3 5f534841        809 	.byte	95,83,72,65
+000001c7 52505f32        810 	.byte	82,80,95,50
+000001cb 34307833        811 	.byte	52,48,120,51
+000001cf 3230            812 	.byte	50,48
+000001d1 00              813 	.byte	0
+                         814 	.type	.L77,@object
+                         815 	.size	.L77,19
+                         816 .L78:--	"SHARP_480x272_LCY0"
+000001d2 53484152        817 	.byte	83,72,65,82
+000001d6 505f3438        818 	.byte	80,95,52,56
+000001da 30783237        819 	.byte	48,120,50,55
+000001de 325f4c43        820 	.byte	50,95,76,67
+000001e2 5930            821 	.byte	89,48
+000001e4 00              822 	.byte	0
+                         823 	.type	.L78,@object
+                         824 	.size	.L78,19
+                         825 .L79:--	"NEC_640x480_DE"
+000001e5 4e45435f        826 	.byte	78,69,67,95
+000001e9 36343078        827 	.byte	54,52,48,120
+000001ed 3438305f        828 	.byte	52,56,48,95
+000001f1 4445            829 	.byte	68,69
+000001f3 00              830 	.byte	0
+                         831 	.type	.L79,@object
+                         832 	.size	.L79,15
+                         833 .L80:--	"HITACHI_WVGA_TFT_800x480"
+000001f4 48495441        834 	.byte	72,73,84,65
+000001f8 4348495f        835 	.byte	67,72,73,95
+000001fc 57564741        836 	.byte	87,86,71,65
+00000200 5f544654        837 	.byte	95,84,70,84
+00000204 5f383030        838 	.byte	95,56,48,48
+00000208 78343830        839 	.byte	120,52,56,48
+0000020c 00              840 	.byte	0
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         841 	.type	.L80,@object
+                         842 	.size	.L80,25
+                         843 .L81:--	"NEC_WVGA_TFT_800x480"
+0000020d 4e45435f        844 	.byte	78,69,67,95
+00000211 57564741        845 	.byte	87,86,71,65
+00000215 5f544654        846 	.byte	95,84,70,84
+00000219 5f383030        847 	.byte	95,56,48,48
+0000021d 78343830        848 	.byte	120,52,56,48
+00000221 00              849 	.byte	0
+                         850 	.type	.L81,@object
+                         851 	.size	.L81,21
+                         852 .L82:--	"TRULY_WVGA_TFT_800x480"
+00000222 5452554c        853 	.byte	84,82,85,76
+00000226 595f5756        854 	.byte	89,95,87,86
+0000022a 47415f54        855 	.byte	71,65,95,84
+0000022e 46545f38        856 	.byte	70,84,95,56
+00000232 30307834        857 	.byte	48,48,120,52
+00000236 3830            858 	.byte	56,48
+00000238 00              859 	.byte	0
+                         860 	.type	.L82,@object
+                         861 	.size	.L82,23
+                         862 .L83:--	"SHARP_LCY-13003C-16_30Hz"
+00000239 53484152        863 	.byte	83,72,65,82
+0000023d 505f4c43        864 	.byte	80,95,76,67
+00000241 592d3133        865 	.byte	89,45,49,51
+00000245 30303343        866 	.byte	48,48,51,67
+00000249 2d31365f        867 	.byte	45,49,54,95
+0000024d 3330487a        868 	.byte	51,48,72,122
+00000251 00              869 	.byte	0
+                         870 	.type	.L83,@object
+                         871 	.size	.L83,25
+                         872 .L84:--	"NEC_XGA_24BIT_SLOW"
+00000252 4e45435f        873 	.byte	78,69,67,95
+00000256 5847415f        874 	.byte	88,71,65,95
+0000025a 32344249        875 	.byte	50,52,66,73
+0000025e 545f534c        876 	.byte	84,95,83,76
+00000262 4f57            877 	.byte	79,87
+00000264 00              878 	.byte	0
+                         879 	.type	.L84,@object
+                         880 	.size	.L84,19
+                         881 .L85:--	"NEC_WSXGAP_DVI"
+00000265 4e45435f        882 	.byte	78,69,67,95
+00000269 57535847        883 	.byte	87,83,88,71
+0000026d 41505f44        884 	.byte	65,80,95,68
+00000271 5649            885 	.byte	86,73
+00000273 00              886 	.byte	0
+                         887 	.type	.L85,@object
+                         888 	.size	.L85,15
+                         889 .L86:--	"WIDE_1920x720_60Hz"
+00000274 57494445        890 	.byte	87,73,68,69
+00000278 5f313932        891 	.byte	95,49,57,50
+0000027c 30783732        892 	.byte	48,120,55,50
+00000280 305f3630        893 	.byte	48,95,54,48
+00000284 487a            894 	.byte	72,122
+00000286 00              895 	.byte	0
+                         896 	.type	.L86,@object
+                         897 	.size	.L86,19
+                         898 .L87:--	"DISP_MIN"
+00000287 44495350        899 	.byte	68,73,83,80
+0000028b 5f4d494e        900 	.byte	95,77,73,78
+0000028f 00              901 	.byte	0
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+                         902 	.type	.L87,@object
+                         903 	.size	.L87,9
+                         904 .L88:--	"640x480_30Hz"
+00000290 36343078        905 	.byte	54,52,48,120
+00000294 3438305f        906 	.byte	52,56,48,95
+00000298 3330487a        907 	.byte	51,48,72,122
+0000029c 00              908 	.byte	0
+                         909 	.type	.L88,@object
+                         910 	.size	.L88,13
+                         911 .L89:--	"800x480_60Hz"
+0000029d 38303078        912 	.byte	56,48,48,120
+000002a1 3438305f        913 	.byte	52,56,48,95
+000002a5 3630487a        914 	.byte	54,48,72,122
+000002a9 00              915 	.byte	0
+                         916 	.type	.L89,@object
+                         917 	.size	.L89,13
+                         918 .L90:--	"TES_1280x720"
+000002aa 5445535f        919 	.byte	84,69,83,95
+000002ae 31323830        920 	.byte	49,50,56,48
+000002b2 78373230        921 	.byte	120,55,50,48
+000002b6 00              922 	.byte	0
+                         923 	.type	.L90,@object
+                         924 	.size	.L90,13
+                         925 .L91:--	"1280x1024_60Hz_PLL120MHz"
+000002b7 31323830        926 	.byte	49,50,56,48
+000002bb 78313032        927 	.byte	120,49,48,50
+000002bf 345f3630        928 	.byte	52,95,54,48
+000002c3 487a5f50        929 	.byte	72,122,95,80
+000002c7 4c4c3132        930 	.byte	76,76,49,50
+000002cb 304d487a        931 	.byte	48,77,72,122
+000002cf 00              932 	.byte	0
+                         933 	.type	.L91,@object
+                         934 	.size	.L91,25
+                         935 .L92:--	"VI_CAMERA_SONY_EVI-R51"
+000002d0 56495f43        936 	.byte	86,73,95,67
+000002d4 414d4552        937 	.byte	65,77,69,82
+000002d8 415f534f        938 	.byte	65,95,83,79
+000002dc 4e595f45        939 	.byte	78,89,95,69
+000002e0 56492d52        940 	.byte	86,73,45,82
+000002e4 3531            941 	.byte	53,49
+000002e6 00              942 	.byte	0
+                         943 	.type	.L92,@object
+                         944 	.size	.L92,23
+                         945 .L93:--	"HIMAX_QVGA_240x320"
+000002e7 48494d41        946 	.byte	72,73,77,65
+000002eb 585f5156        947 	.byte	88,95,81,86
+000002ef 47415f32        948 	.byte	71,65,95,50
+000002f3 34307833        949 	.byte	52,48,120,51
+000002f7 3230            950 	.byte	50,48
+000002f9 00              951 	.byte	0
+                         952 	.type	.L93,@object
+                         953 	.size	.L93,19
+000002fa 0000            954 	.space	2
+                         955 	.global	_loc_DisplayMode..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_ddb_timing.
+                         956 _loc_DisplayMode..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_ddb_timing.:
+                         957 	.type	_loc_DisplayMode..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_ddb_timing.,@object
+                         958 	.size	_loc_DisplayMode..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_ddb_timing.,2236
+000002fc 00000000*       959 _loc_DisplayMode:	.word	.L70
+00000300 80070000        960 	.byte	128,7,0,0
+00000304 38040000        961 	.byte	56,4,0,0
+00000308 20080000        962 	.byte	32,8,0,0
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+0000030c a0000000        963 	.byte	160,0,0,0
+00000310 30000000        964 	.byte	48,0,0,0
+00000314 20000000        965 	.byte	32,0,0,0
+00000318 57040000        966 	.byte	87,4,0,0
+0000031c 1f000000        967 	.byte	31,0,0,0
+00000320 03000000        968 	.byte	3,0,0,0
+00000324 05000000        969 	.byte	5,0,0,0
+00000328 21000000        970 	.byte	33,0,0,0
+0000032c a0574108        971 	.byte	160,87,65,8
+00000330 00000000*       972 	.word	.L57
+00000334 80020000        973 	.byte	128,2,0,0
+00000338 e0010000        974 	.byte	224,1,0,0
+0000033c 20030000        975 	.byte	32,3,0,0
+00000340 a0000000        976 	.byte	160,0,0,0
+00000344 10000000        977 	.byte	16,0,0,0
+00000348 60000000        978 	.byte	96,0,0,0
+0000034c 0d020000        979 	.byte	13,2,0,0
+00000350 2d000000        980 	.byte	45,0,0,0
+00000354 0a000000        981 	.byte	10,0,0,0
+00000358 02000000        982 	.byte	2,0,0,0
+0000035c 21000000        983 	.byte	33,0,0,0
+00000360 d8238001        984 	.byte	216,35,128,1
+00000364 00000000*       985 	.word	.L58
+00000368 20030000        986 	.byte	32,3,0,0
+0000036c 58020000        987 	.byte	88,2,0,0
+00000370 20040000        988 	.byte	32,4,0,0
+00000374 00010000        989 	.byte	0,1,0,0
+00000378 00000000        990 	.space	4
+0000037c 80000000        991 	.byte	128,0,0,0
+00000380 74020000        992 	.byte	116,2,0,0
+00000384 1c000000        993 	.byte	28,0,0,0
+00000388 00000000        994 	.space	4
+0000038c 04000000        995 	.byte	4,0,0,0
+00000390 21000000        996 	.byte	33,0,0,0
+00000394 005a6202        997 	.byte	0,90,98,2
+00000398 00000000*       998 	.word	.L71
+0000039c 00040000        999 	.byte	0,4,0,0
+000003a0 00030000       1000 	.byte	0,3,0,0
+000003a4 40050000       1001 	.byte	64,5,0,0
+000003a8 40010000       1002 	.byte	64,1,0,0
+000003ac 18000000       1003 	.byte	24,0,0,0
+000003b0 88000000       1004 	.byte	136,0,0,0
+000003b4 26030000       1005 	.byte	38,3,0,0
+000003b8 26000000       1006 	.byte	38,0,0,0
+000003bc 03000000       1007 	.byte	3,0,0,0
+000003c0 06000000       1008 	.byte	6,0,0,0
+000003c4 21000000       1009 	.byte	33,0,0,0
+000003c8 40d2df03       1010 	.byte	64,210,223,3
+000003cc 00000000*      1011 	.word	.L72
+000003d0 00040000       1012 	.byte	0,4,0,0
+000003d4 00030000       1013 	.byte	0,3,0,0
+000003d8 20050000       1014 	.byte	32,5,0,0
+000003dc 20010000       1015 	.byte	32,1,0,0
+000003e0 10000000       1016 	.byte	16,0,0,0
+000003e4 60000000       1017 	.byte	96,0,0,0
+000003e8 20030000       1018 	.byte	32,3,0,0
+000003ec 20000000       1019 	.byte	32,0,0,0
+000003f0 01000000       1020 	.byte	1,0,0,0
+000003f4 03000000       1021 	.byte	3,0,0,0
+000003f8 21000000       1022 	.byte	33,0,0,0
+000003fc 8064b204       1023 	.byte	128,100,178,4
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+00000400 00000000*      1024 	.word	.L73
+00000404 00050000       1025 	.byte	0,5,0,0
+00000408 20030000       1026 	.byte	32,3,0,0
+0000040c 90060000       1027 	.byte	144,6,0,0
+00000410 90010000       1028 	.byte	144,1,0,0
+00000414 40000000       1029 	.byte	64,0,0,0
+00000418 88000000       1030 	.byte	136,0,0,0
+0000041c 3c030000       1031 	.byte	60,3,0,0
+00000420 1c000000       1032 	.byte	28,0,0,0
+00000424 01000000       1033 	.byte	1,0,0,0
+00000428 03000000       1034 	.byte	3,0,0,0
+0000042c 21000000       1035 	.byte	33,0,0,0
+00000430 a07ff904       1036 	.byte	160,127,249,4
+00000434 00000000*      1037 	.word	.L53
+00000438 00050000       1038 	.byte	0,5,0,0
+0000043c 00040000       1039 	.byte	0,4,0,0
+00000440 98060000       1040 	.byte	152,6,0,0
+00000444 98010000       1041 	.byte	152,1,0,0
+00000448 30000000       1042 	.byte	48,0,0,0
+0000044c 70000000       1043 	.byte	112,0,0,0
+00000450 2a040000       1044 	.byte	42,4,0,0
+00000454 2a000000       1045 	.byte	42,0,0,0
+00000458 01000000       1046 	.byte	1,0,0,0
+0000045c 03000000       1047 	.byte	3,0,0,0
+00000460 21000000       1048 	.byte	33,0,0,0
+00000464 00f36f06       1049 	.byte	0,243,111,6
+00000468 00000000*      1050 	.word	.L74
+0000046c f0000000       1051 	.byte	240,0,0,0
+00000470 40010000       1052 	.byte	64,1,0,0
+00000474 18010000       1053 	.byte	24,1,0,0
+00000478 28000000       1054 	.byte	40,0,0,0
+0000047c 0a000000       1055 	.byte	10,0,0,0
+00000480 0a000000       1056 	.byte	10,0,0,0
+00000484 48010000       1057 	.byte	72,1,0,0
+00000488 08000000       1058 	.byte	8,0,0,0
+0000048c 04000000       1059 	.byte	4,0,0,0
+00000490 02000000       1060 	.byte	2,0,0,0
+00000494 20000000       1061 	.byte	32,0,0,0
+00000498 c0b85900       1062 	.byte	192,184,89,0
+0000049c 00000000*      1063 	.word	.L75
+000004a0 f0000000       1064 	.byte	240,0,0,0
+000004a4 40010000       1065 	.byte	64,1,0,0
+000004a8 11010000       1066 	.byte	17,1,0,0
+000004ac 21000000       1067 	.byte	33,0,0,0
+000004b0 0b000000       1068 	.byte	11,0,0,0
+000004b4 05000000       1069 	.byte	5,0,0,0
+000004b8 47010000       1070 	.byte	71,1,0,0
+000004bc 07000000       1071 	.byte	7,0,0,0
+000004c0 02000000       1072 	.byte	2,0,0,0
+000004c4 01000000       1073 	.byte	1,0,0,0
+000004c8 21000000       1074 	.byte	33,0,0,0
+000004cc e4ba5100       1075 	.byte	228,186,81,0
+000004d0 00000000*      1076 	.word	.L76
+000004d4 f0000000       1077 	.byte	240,0,0,0
+000004d8 40010000       1078 	.byte	64,1,0,0
+000004dc 18010000       1079 	.byte	24,1,0,0
+000004e0 28000000       1080 	.byte	40,0,0,0
+000004e4 0a000000       1081 	.byte	10,0,0,0
+000004e8 0a000000       1082 	.byte	10,0,0,0
+000004ec 48010000       1083 	.byte	72,1,0,0
+000004f0 08000000       1084 	.byte	8,0,0,0
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+000004f4 04000000       1085 	.byte	4,0,0,0
+000004f8 02000000       1086 	.byte	2,0,0,0
+000004fc 20000000       1087 	.byte	32,0,0,0
+00000500 400f5600       1088 	.byte	64,15,86,0
+00000504 00000000*      1089 	.word	.L77
+00000508 f0000000       1090 	.byte	240,0,0,0
+0000050c 40010000       1091 	.byte	64,1,0,0
+00000510 1b010000       1092 	.byte	27,1,0,0
+00000514 2b000000       1093 	.byte	43,0,0,0
+00000518 1f000000       1094 	.byte	31,0,0,0
+0000051c 05000000       1095 	.byte	5,0,0,0
+00000520 4a010000       1096 	.byte	74,1,0,0
+00000524 0a000000       1097 	.byte	10,0,0,0
+00000528 02000000       1098 	.byte	2,0,0,0
+0000052c 02000000       1099 	.byte	2,0,0,0
+00000530 19000000       1100 	.byte	25,0,0,0
+00000534 c0cf6a00       1101 	.byte	192,207,106,0
+00000538 00000000*      1102 	.word	.L54
+0000053c 40010000       1103 	.byte	64,1,0,0
+00000540 f0000000       1104 	.byte	240,0,0,0
+00000544 94010000       1105 	.byte	148,1,0,0
+00000548 54000000       1106 	.byte	84,0,0,0
+0000054c 07000000       1107 	.byte	7,0,0,0
+00000550 24000000       1108 	.byte	36,0,0,0
+00000554 06010000       1109 	.byte	6,1,0,0
+00000558 16000000       1110 	.byte	22,0,0,0
+0000055c 01000000       1111 	.byte	1,0,0,0
+00000560 09000000       1112 	.byte	9,0,0,0
+00000564 00000000       1113 	.space	4
+00000568 80aa6b00       1114 	.byte	128,170,107,0
+0000056c 00000000*      1115 	.word	.L51
+00000570 f0000000       1116 	.byte	240,0,0,0
+00000574 40010000       1117 	.byte	64,1,0,0
+00000578 18010000       1118 	.byte	24,1,0,0
+0000057c 28000000       1119 	.byte	40,0,0,0
+00000580 0a000000       1120 	.byte	10,0,0,0
+00000584 0a000000       1121 	.byte	10,0,0,0
+00000588 48010000       1122 	.byte	72,1,0,0
+0000058c 08000000       1123 	.byte	8,0,0,0
+00000590 04000000       1124 	.byte	4,0,0,0
+00000594 02000000       1125 	.byte	2,0,0,0
+00000598 04000000       1126 	.byte	4,0,0,0
+0000059c 80aa6b00       1127 	.byte	128,170,107,0
+000005a0 00000000*      1128 	.word	.L59
+000005a4 e0010000       1129 	.byte	224,1,0,0
+000005a8 10010000       1130 	.byte	16,1,0,0
+000005ac 0d020000       1131 	.byte	13,2,0,0
+000005b0 2d000000       1132 	.byte	45,0,0,0
+000005b4 02000000       1133 	.byte	2,0,0,0
+000005b8 29000000       1134 	.byte	41,0,0,0
+000005bc 1e010000       1135 	.byte	30,1,0,0
+000005c0 0e000000       1136 	.byte	14,0,0,0
+000005c4 02000000       1137 	.byte	2,0,0,0
+000005c8 0a000000       1138 	.byte	10,0,0,0
+000005cc 00000000       1139 	.space	4
+000005d0 40548900       1140 	.byte	64,84,137,0
+000005d4 00000000*      1141 	.word	.L60
+000005d8 e0010000       1142 	.byte	224,1,0,0
+000005dc 10010000       1143 	.byte	16,1,0,0
+000005e0 58020000       1144 	.byte	88,2,0,0
+000005e4 78000000       1145 	.byte	120,0,0,0
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+000005e8 02000000       1146 	.byte	2,0,0,0
+000005ec 02000000       1147 	.byte	2,0,0,0
+000005f0 38010000       1148 	.byte	56,1,0,0
+000005f4 28000000       1149 	.byte	40,0,0,0
+000005f8 02000000       1150 	.byte	2,0,0,0
+000005fc 07000000       1151 	.byte	7,0,0,0
+00000600 00000000       1152 	.space	4
+00000604 a0029400       1153 	.byte	160,2,148,0
+00000608 00000000*      1154 	.word	.L78
+0000060c e0010000       1155 	.byte	224,1,0,0
+00000610 10010000       1156 	.byte	16,1,0,0
+00000614 56020000       1157 	.byte	86,2,0,0
+00000618 76000000       1158 	.byte	118,0,0,0
+0000061c 02000000       1159 	.byte	2,0,0,0
+00000620 05000000       1160 	.byte	5,0,0,0
+00000624 31010000       1161 	.byte	49,1,0,0
+00000628 21000000       1162 	.byte	33,0,0,0
+0000062c 02000000       1163 	.byte	2,0,0,0
+00000630 05000000       1164 	.byte	5,0,0,0
+00000634 00000000       1165 	.space	4
+00000638 a0029400       1166 	.byte	160,2,148,0
+0000063c 00000000*      1167 	.word	.L52
+00000640 80020000       1168 	.byte	128,2,0,0
+00000644 e0010000       1169 	.byte	224,1,0,0
+00000648 20030000       1170 	.byte	32,3,0,0
+0000064c a0000000       1171 	.byte	160,0,0,0
+00000650 10000000       1172 	.byte	16,0,0,0
+00000654 60000000       1173 	.byte	96,0,0,0
+00000658 0d020000       1174 	.byte	13,2,0,0
+0000065c 2d000000       1175 	.byte	45,0,0,0
+00000660 0c000000       1176 	.byte	12,0,0,0
+00000664 02000000       1177 	.byte	2,0,0,0
+00000668 00000000       1178 	.space	4
+0000066c d8238001       1179 	.byte	216,35,128,1
+00000670 00000000*      1180 	.word	.L79
+00000674 80020000       1181 	.byte	128,2,0,0
+00000678 e0010000       1182 	.byte	224,1,0,0
+0000067c 20030000       1183 	.byte	32,3,0,0
+00000680 a0000000       1184 	.byte	160,0,0,0
+00000684 10000000       1185 	.byte	16,0,0,0
+00000688 60000000       1186 	.byte	96,0,0,0
+0000068c 0d020000       1187 	.byte	13,2,0,0
+00000690 2d000000       1188 	.byte	45,0,0,0
+00000694 0c000000       1189 	.byte	12,0,0,0
+00000698 02000000       1190 	.byte	2,0,0,0
+0000069c 21000000       1191 	.byte	33,0,0,0
+000006a0 d8238001       1192 	.byte	216,35,128,1
+000006a4 00000000*      1193 	.word	.L80
+000006a8 20030000       1194 	.byte	32,3,0,0
+000006ac e0010000       1195 	.byte	224,1,0,0
+000006b0 20040000       1196 	.byte	32,4,0,0
+000006b4 2f000000       1197 	.byte	47,0,0,0
+000006b8 28000000       1198 	.byte	40,0,0,0
+000006bc 03000000       1199 	.byte	3,0,0,0
+000006c0 0d020000       1200 	.byte	13,2,0,0
+000006c4 0f000000       1201 	.byte	15,0,0,0
+000006c8 0b000000       1202 	.byte	11,0,0,0
+000006cc 02000000       1203 	.byte	2,0,0,0
+000006d0 21000000       1204 	.byte	33,0,0,0
+000006d4 807f8101       1205 	.byte	128,127,129,1
+000006d8 00000000*      1206 	.word	.L81
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+000006dc 20030000       1207 	.byte	32,3,0,0
+000006e0 e0010000       1208 	.byte	224,1,0,0
+000006e4 00040000       1209 	.byte	0,4,0,0
+000006e8 e0000000       1210 	.byte	224,0,0,0
+000006ec 28000000       1211 	.byte	40,0,0,0
+000006f0 03000000       1212 	.byte	3,0,0,0
+000006f4 0d020000       1213 	.byte	13,2,0,0
+000006f8 2d000000       1214 	.byte	45,0,0,0
+000006fc 0b000000       1215 	.byte	11,0,0,0
+00000700 02000000       1216 	.byte	2,0,0,0
+00000704 21000000       1217 	.byte	33,0,0,0
+00000708 80c3c901       1218 	.byte	128,195,201,1
+0000070c 00000000*      1219 	.word	.L82
+00000710 20030000       1220 	.byte	32,3,0,0
+00000714 e0010000       1221 	.byte	224,1,0,0
+00000718 a0030000       1222 	.byte	160,3,0,0
+0000071c 80000000       1223 	.byte	128,0,0,0
+00000720 28000000       1224 	.byte	40,0,0,0
+00000724 30000000       1225 	.byte	48,0,0,0
+00000728 0d020000       1226 	.byte	13,2,0,0
+0000072c 2d000000       1227 	.byte	45,0,0,0
+00000730 0d000000       1228 	.byte	13,0,0,0
+00000734 03000000       1229 	.byte	3,0,0,0
+00000738 21000000       1230 	.byte	33,0,0,0
+0000073c 80c3c901       1231 	.byte	128,195,201,1
+00000740 00000000*      1232 	.word	.L55
+00000744 20030000       1233 	.byte	32,3,0,0
+00000748 e0010000       1234 	.byte	224,1,0,0
+0000074c 05040000       1235 	.byte	5,4,0,0
+00000750 e5000000       1236 	.byte	229,0,0,0
+00000754 6e000000       1237 	.byte	110,0,0,0
+00000758 05000000       1238 	.byte	5,0,0,0
+0000075c 08020000       1239 	.byte	8,2,0,0
+00000760 28000000       1240 	.byte	40,0,0,0
+00000764 04000000       1241 	.byte	4,0,0,0
+00000768 01000000       1242 	.byte	1,0,0,0
+0000076c 20000000       1243 	.byte	32,0,0,0
+00000770 e081fb01       1244 	.byte	224,129,251,1
+00000774 00000000*      1245 	.word	.L83
+00000778 20030000       1246 	.byte	32,3,0,0
+0000077c e0010000       1247 	.byte	224,1,0,0
+00000780 05040000       1248 	.byte	5,4,0,0
+00000784 e5000000       1249 	.byte	229,0,0,0
+00000788 6e000000       1250 	.byte	110,0,0,0
+0000078c 05000000       1251 	.byte	5,0,0,0
+00000790 08020000       1252 	.byte	8,2,0,0
+00000794 28000000       1253 	.byte	40,0,0,0
+00000798 04000000       1254 	.byte	4,0,0,0
+0000079c 01000000       1255 	.byte	1,0,0,0
+000007a0 20000000       1256 	.byte	32,0,0,0
+000007a4 f0c0fd00       1257 	.byte	240,192,253,0
+000007a8 00000000*      1258 	.word	.L56
+000007ac 20030000       1259 	.byte	32,3,0,0
+000007b0 e0010000       1260 	.byte	224,1,0,0
+000007b4 20040000       1261 	.byte	32,4,0,0
+000007b8 00010000       1262 	.byte	0,1,0,0
+000007bc 28000000       1263 	.byte	40,0,0,0
+000007c0 05000000       1264 	.byte	5,0,0,0
+000007c4 0d020000       1265 	.byte	13,2,0,0
+000007c8 2d000000       1266 	.byte	45,0,0,0
+000007cc 0a000000       1267 	.byte	10,0,0,0
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+000007d0 05000000       1268 	.byte	5,0,0,0
+000007d4 00000000       1269 	.space	4
+000007d8 201efc01       1270 	.byte	32,30,252,1
+000007dc 00000000*      1271 	.word	.L84
+000007e0 00040000       1272 	.byte	0,4,0,0
+000007e4 00030000       1273 	.byte	0,3,0,0
+000007e8 40050000       1274 	.byte	64,5,0,0
+000007ec 40010000       1275 	.byte	64,1,0,0
+000007f0 16000000       1276 	.byte	22,0,0,0
+000007f4 25000000       1277 	.byte	37,0,0,0
+000007f8 26030000       1278 	.byte	38,3,0,0
+000007fc 26000000       1279 	.byte	38,0,0,0
+00000800 12000000       1280 	.byte	18,0,0,0
+00000804 03000000       1281 	.byte	3,0,0,0
+00000808 21000000       1282 	.byte	33,0,0,0
+0000080c 002d3101       1283 	.byte	0,45,49,1
+00000810 00000000*      1284 	.word	.L61
+00000814 00040000       1285 	.byte	0,4,0,0
+00000818 00030000       1286 	.byte	0,3,0,0
+0000081c 40050000       1287 	.byte	64,5,0,0
+00000820 40010000       1288 	.byte	64,1,0,0
+00000824 16000000       1289 	.byte	22,0,0,0
+00000828 25000000       1290 	.byte	37,0,0,0
+0000082c 26030000       1291 	.byte	38,3,0,0
+00000830 26000000       1292 	.byte	38,0,0,0
+00000834 12000000       1293 	.byte	18,0,0,0
+00000838 03000000       1294 	.byte	3,0,0,0
+0000083c 21000000       1295 	.byte	33,0,0,0
+00000840 40d2df03       1296 	.byte	64,210,223,3
+00000844 00000000*      1297 	.word	.L85
+00000848 90060000       1298 	.byte	144,6,0,0
+0000084c 1a040000       1299 	.byte	26,4,0,0
+00000850 30070000       1300 	.byte	48,7,0,0
+00000854 a0000000       1301 	.byte	160,0,0,0
+00000858 30000000       1302 	.byte	48,0,0,0
+0000085c 20000000       1303 	.byte	32,0,0,0
+00000860 38040000       1304 	.byte	56,4,0,0
+00000864 1e000000       1305 	.byte	30,0,0,0
+00000868 03000000       1306 	.byte	3,0,0,0
+0000086c 06000000       1307 	.byte	6,0,0,0
+00000870 21000000       1308 	.byte	33,0,0,0
+00000874 c0cb1707       1309 	.byte	192,203,23,7
+00000878 00000000*      1310 	.word	.L86
+0000087c 80070000       1311 	.byte	128,7,0,0
+00000880 d0020000       1312 	.byte	208,2,0,0
+00000884 d0070000       1313 	.byte	208,7,0,0
+00000888 50000000       1314 	.byte	80,0,0,0
+0000088c 14000000       1315 	.byte	20,0,0,0
+00000890 1e000000       1316 	.byte	30,0,0,0
+00000894 da020000       1317 	.byte	218,2,0,0
+00000898 0a000000       1318 	.byte	10,0,0,0
+0000089c 03000000       1319 	.byte	3,0,0,0
+000008a0 03000000       1320 	.byte	3,0,0,0
+000008a4 21000000       1321 	.byte	33,0,0,0
+000008a8 80ab3805       1322 	.byte	128,171,56,5
+000008ac 00000000*      1323 	.word	.L62
+000008b0 80070000       1324 	.byte	128,7,0,0
+000008b4 d0020000       1325 	.byte	208,2,0,0
+000008b8 58090000       1326 	.byte	88,9,0,0
+000008bc d8010000       1327 	.byte	216,1,0,0
+000008c0 20000000       1328 	.byte	32,0,0,0
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+000008c4 98010000       1329 	.byte	152,1,0,0
+000008c8 f5020000       1330 	.byte	245,2,0,0
+000008cc 25000000       1331 	.byte	37,0,0,0
+000008d0 0f000000       1332 	.byte	15,0,0,0
+000008d4 07000000       1333 	.byte	7,0,0,0
+000008d8 21000000       1334 	.byte	33,0,0,0
+000008dc 80778e06       1335 	.byte	128,119,142,6
+000008e0 00000000*      1336 	.word	.L63
+000008e4 90010000       1337 	.byte	144,1,0,0
+000008e8 78000000       1338 	.byte	120,0,0,0
+000008ec e0010000       1339 	.byte	224,1,0,0
+000008f0 50000000       1340 	.byte	80,0,0,0
+000008f4 1e000000       1341 	.byte	30,0,0,0
+000008f8 0a000000       1342 	.byte	10,0,0,0
+000008fc 90000000       1343 	.byte	144,0,0,0
+00000900 18000000       1344 	.byte	24,0,0,0
+00000904 0a000000       1345 	.byte	10,0,0,0
+00000908 02000000       1346 	.byte	2,0,0,0
+0000090c 20000000       1347 	.byte	32,0,0,0
+00000910 f0523f00       1348 	.byte	240,82,63,0
+00000914 00000000*      1349 	.word	.L87
+00000918 40010000       1350 	.byte	64,1,0,0
+0000091c f0000000       1351 	.byte	240,0,0,0
+00000920 a4010000       1352 	.byte	164,1,0,0
+00000924 64000000       1353 	.byte	100,0,0,0
+00000928 16000000       1354 	.byte	22,0,0,0
+0000092c 02000000       1355 	.byte	2,0,0,0
+00000930 18010000       1356 	.byte	24,1,0,0
+00000934 28000000       1357 	.byte	40,0,0,0
+00000938 12000000       1358 	.byte	18,0,0,0
+0000093c 01000000       1359 	.byte	1,0,0,0
+00000940 00000000       1360 	.space	4
+00000944 80aa6b00       1361 	.byte	128,170,107,0
+00000948 00000000*      1362 	.word	.L88
+0000094c 80020000       1363 	.byte	128,2,0,0
+00000950 e0010000       1364 	.byte	224,1,0,0
+00000954 20030000       1365 	.byte	32,3,0,0
+00000958 a0000000       1366 	.byte	160,0,0,0
+0000095c 10000000       1367 	.byte	16,0,0,0
+00000960 60000000       1368 	.byte	96,0,0,0
+00000964 0d020000       1369 	.byte	13,2,0,0
+00000968 2d000000       1370 	.byte	45,0,0,0
+0000096c 0a000000       1371 	.byte	10,0,0,0
+00000970 02000000       1372 	.byte	2,0,0,0
+00000974 21000000       1373 	.byte	33,0,0,0
+00000978 ec11c000       1374 	.byte	236,17,192,0
+0000097c 00000000*      1375 	.word	.L64
+00000980 00040000       1376 	.byte	0,4,0,0
+00000984 00030000       1377 	.byte	0,3,0,0
+00000988 40050000       1378 	.byte	64,5,0,0
+0000098c 40010000       1379 	.byte	64,1,0,0
+00000990 18000000       1380 	.byte	24,0,0,0
+00000994 88000000       1381 	.byte	136,0,0,0
+00000998 26030000       1382 	.byte	38,3,0,0
+0000099c 26000000       1383 	.byte	38,0,0,0
+000009a0 03000000       1384 	.byte	3,0,0,0
+000009a4 06000000       1385 	.byte	6,0,0,0
+000009a8 21000000       1386 	.byte	33,0,0,0
+000009ac a0b49402       1387 	.byte	160,180,148,2
+000009b0 00000000*      1388 	.word	.L89
+000009b4 20030000       1389 	.byte	32,3,0,0
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+000009b8 e0010000       1390 	.byte	224,1,0,0
+000009bc 20040000       1391 	.byte	32,4,0,0
+000009c0 00010000       1392 	.byte	0,1,0,0
+000009c4 00000000       1393 	.space	4
+000009c8 80000000       1394 	.byte	128,0,0,0
+000009cc 0d020000       1395 	.byte	13,2,0,0
+000009d0 2d000000       1396 	.byte	45,0,0,0
+000009d4 0a000000       1397 	.byte	10,0,0,0
+000009d8 02000000       1398 	.byte	2,0,0,0
+000009dc 21000000       1399 	.byte	33,0,0,0
+000009e0 8091fb01       1400 	.byte	128,145,251,1
+000009e4 00000000*      1401 	.word	.L65
+000009e8 00050000       1402 	.byte	0,5,0,0
+000009ec e0010000       1403 	.byte	224,1,0,0
+000009f0 90060000       1404 	.byte	144,6,0,0
+000009f4 90010000       1405 	.byte	144,1,0,0
+000009f8 40000000       1406 	.byte	64,0,0,0
+000009fc 88000000       1407 	.byte	136,0,0,0
+00000a00 10020000       1408 	.byte	16,2,0,0
+00000a04 30000000       1409 	.byte	48,0,0,0
+00000a08 0a000000       1410 	.byte	10,0,0,0
+00000a0c 02000000       1411 	.byte	2,0,0,0
+00000a10 21000000       1412 	.byte	33,0,0,0
+00000a14 001c2c03       1413 	.byte	0,28,44,3
+00000a18 00000000*      1414 	.word	.L66
+00000a1c 00050000       1415 	.byte	0,5,0,0
+00000a20 e0010000       1416 	.byte	224,1,0,0
+00000a24 4a060000       1417 	.byte	74,6,0,0
+00000a28 90010000       1418 	.byte	144,1,0,0
+00000a2c 40000000       1419 	.byte	64,0,0,0
+00000a30 88000000       1420 	.byte	136,0,0,0
+00000a34 10020000       1421 	.byte	16,2,0,0
+00000a38 30000000       1422 	.byte	48,0,0,0
+00000a3c 0a000000       1423 	.byte	10,0,0,0
+00000a40 02000000       1424 	.byte	2,0,0,0
+00000a44 21000000       1425 	.byte	33,0,0,0
+00000a48 40d2df03       1426 	.byte	64,210,223,3
+00000a4c 00000000*      1427 	.word	.L90
+00000a50 00050000       1428 	.byte	0,5,0,0
+00000a54 d0020000       1429 	.byte	208,2,0,0
+00000a58 70060000       1430 	.byte	112,6,0,0
+00000a5c 70010000       1431 	.byte	112,1,0,0
+00000a60 48000000       1432 	.byte	72,0,0,0
+00000a64 50000000       1433 	.byte	80,0,0,0
+00000a68 ee020000       1434 	.byte	238,2,0,0
+00000a6c 1e000000       1435 	.byte	30,0,0,0
+00000a70 03000000       1436 	.byte	3,0,0,0
+00000a74 05000000       1437 	.byte	5,0,0,0
+00000a78 21000000       1438 	.byte	33,0,0,0
+00000a7c c0336c04       1439 	.byte	192,51,108,4
+00000a80 00000000*      1440 	.word	.L67
+00000a84 00050000       1441 	.byte	0,5,0,0
+00000a88 00030000       1442 	.byte	0,3,0,0
+00000a8c 80060000       1443 	.byte	128,6,0,0
+00000a90 80010000       1444 	.byte	128,1,0,0
+00000a94 40000000       1445 	.byte	64,0,0,0
+00000a98 80000000       1446 	.byte	128,0,0,0
+00000a9c 1e030000       1447 	.byte	30,3,0,0
+00000aa0 1e000000       1448 	.byte	30,0,0,0
+00000aa4 03000000       1449 	.byte	3,0,0,0
+00000aa8 07000000       1450 	.byte	7,0,0,0
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+00000aac 21000000       1451 	.byte	33,0,0,0
+00000ab0 e012bd04       1452 	.byte	224,18,189,4
+00000ab4 00000000*      1453 	.word	.L68
+00000ab8 00050000       1454 	.byte	0,5,0,0
+00000abc 00040000       1455 	.byte	0,4,0,0
+00000ac0 98060000       1456 	.byte	152,6,0,0
+00000ac4 98010000       1457 	.byte	152,1,0,0
+00000ac8 16000000       1458 	.byte	22,0,0,0
+00000acc 25000000       1459 	.byte	37,0,0,0
+00000ad0 2a040000       1460 	.byte	42,4,0,0
+00000ad4 2a000000       1461 	.byte	42,0,0,0
+00000ad8 12000000       1462 	.byte	18,0,0,0
+00000adc 03000000       1463 	.byte	3,0,0,0
+00000ae0 21000000       1464 	.byte	33,0,0,0
+00000ae4 00f36f06       1465 	.byte	0,243,111,6
+00000ae8 00000000*      1466 	.word	.L91
+00000aec 00050000       1467 	.byte	0,5,0,0
+00000af0 00040000       1468 	.byte	0,4,0,0
+00000af4 54070000       1469 	.byte	84,7,0,0
+00000af8 54020000       1470 	.byte	84,2,0,0
+00000afc 30000000       1471 	.byte	48,0,0,0
+00000b00 70000000       1472 	.byte	112,0,0,0
+00000b04 2a040000       1473 	.byte	42,4,0,0
+00000b08 2a000000       1474 	.byte	42,0,0,0
+00000b0c 01000000       1475 	.byte	1,0,0,0
+00000b10 03000000       1476 	.byte	3,0,0,0
+00000b14 21000000       1477 	.byte	33,0,0,0
+00000b18 000e2707       1478 	.byte	0,14,39,7
+00000b1c 00000000*      1479 	.word	.L69
+00000b20 00100000       1480 	.byte	0,16,0,0
+00000b24 00100000       1481 	.byte	0,16,0,0
+00000b28 00140000       1482 	.byte	0,20,0,0
+00000b2c 00040000       1483 	.byte	0,4,0,0
+00000b30 80000000       1484 	.byte	128,0,0,0
+00000b34 00010000       1485 	.byte	0,1,0,0
+00000b38 00140000       1486 	.byte	0,20,0,0
+00000b3c 00040000       1487 	.byte	0,4,0,0
+00000b40 80000000       1488 	.byte	128,0,0,0
+00000b44 00010000       1489 	.byte	0,1,0,0
+00000b48 00000000       1490 	.space	4
+00000b4c 80f0fa02       1491 	.byte	128,240,250,2
+00000b50 00000000*      1492 	.word	.L92
+00000b54 c0020000       1493 	.byte	192,2,0,0
+00000b58 20010000       1494 	.byte	32,1,0,0
+00000b5c c0020000       1495 	.byte	192,2,0,0
+00000b60 00000000       1496 	.space	4
+00000b64 00000000       1497 	.space	4
+00000b68 00000000       1498 	.space	4
+00000b6c 20010000       1499 	.byte	32,1,0,0
+00000b70 00000000       1500 	.space	4
+00000b74 00000000       1501 	.space	4
+00000b78 00000000       1502 	.space	4
+00000b7c 00000000       1503 	.space	4
+00000b80 c0fc9b01       1504 	.byte	192,252,155,1
+00000b84 00000000*      1505 	.word	.L93
+00000b88 f0000000       1506 	.byte	240,0,0,0
+00000b8c 40010000       1507 	.byte	64,1,0,0
+00000b90 20010000       1508 	.byte	32,1,0,0
+00000b94 30000000       1509 	.byte	48,0,0,0
+00000b98 0a000000       1510 	.byte	10,0,0,0
+00000b9c 0a000000       1511 	.byte	10,0,0,0
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t01.si
+00000ba0 54010000       1512 	.byte	84,1,0,0
+00000ba4 14000000       1513 	.byte	20,0,0,0
+00000ba8 0a000000       1514 	.byte	10,0,0,0
+00000bac 0a000000       1515 	.byte	10,0,0,0
+00000bb0 20000000       1516 	.byte	32,0,0,0
+00000bb4 c0b85900       1517 	.byte	192,184,89,0
+                        1518 	.type	_loc_DisplayMode,@object
+                        1519 	.size	_loc_DisplayMode,2236
+                        1520 	.data
+                        1521 	.text
+                        1522 
+                        1523 --493: }
+                        1524 	.align	2
+                        1525 --_loc_DisplayMode	_loc_DisplayMode	static
+                        1526 
+                        1527 	.data
+                        1528 	.ghsnote version,14
+                        1529 	.ghsnote tools,3
+                        1530 	.ghsnote options,144
+                        1531 	.text
+                        1532 	.align	2
+                        1533 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_ddb_timing...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74038B..0::
+                        1534 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

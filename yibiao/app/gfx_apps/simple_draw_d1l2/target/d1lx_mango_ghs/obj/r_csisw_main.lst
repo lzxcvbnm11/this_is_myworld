@@ -1,0 +1,1567 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_csisw_main.dbo -source=r_csisw_main.c -o .\obj\gh_00001301.o -list=.\obj\r_csisw_main.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+Source File: r_csisw_main.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c ..\..\..\..\..\macro\csi\csisw\src\r_csisw_main.c -o
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         112 --		.\obj\r_csisw_main.o
+                         113 --Source File:   ..\..\..\..\..\macro\csi\csisw\src\r_csisw_main.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:57 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2: ****************************************************************************
+                         126 --3: PROJECT : VLIB Macro Driver
+                         127 --4: FILE    : $Id: r_csisw_main.c 7181 2016-01-07 18:23:41Z tobyas.hennig $
+                         128 --5: ============================================================================
+                         129 --6: DESCRIPTION
+                         130 --7: Driver for the CSISW macro
+                         131 --8: ============================================================================
+                         132 --9:                             C O P Y R I G H T
+                         133 --10: ============================================================================
+                         134 --11:                            Copyright (c) 2014
+                         135 --12:                                   by
+                         136 --13:                        Renesas Electronics (Europe) GmbH.
+                         137 --14:                            Arcadiastrasse 10
+                         138 --15:                           D-40472 Duesseldorf
+                         139 --16:                                Germany
+                         140 --17:                           All rights reserved.
+                         141 --18: ============================================================================
+                         142 --19: Purpose: only for testing
+                         143 --21: DISCLAIMER
+                         144 --22: This software is supplied by Renesas Electronics Corporation and is only
+                         145 --23: intended for use with Renesas products. No other uses are authorized. This
+                         146 --24: software is owned by Renesas Electronics Corporation and is protected under
+                         147 --25: all applicable laws, including copyright laws.
+                         148 --26: THIS SOFTWARE IS PROVIDED "AS IS" AND RENESAS MAKES NO WARRANTIES REGARDING
+                         149 --27: THIS SOFTWARE, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT
+                         150 --28: LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+                         151 --29: AND NON-INFRINGEMENT. ALL SUCH WARRANTIES ARE EXPRESSLY DISCLAIMED.
+                         152 --30: TO THE MAXIMUM EXTENT PERMITTED NOT PROHIBITED BY LAW, NEITHER RENESAS
+                         153 --31: ELECTRONICS CORPORATION NOR ANY OF ITS AFFILIATED COMPANIES SHALL BE LIABLE
+                         154 --32: FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES FOR
+                         155 --33: ANY REASON RELATED TO THIS SOFTWARE, EVEN IF RENESAS OR ITS AFFILIATES HAVE
+                         156 --34: BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+                         157 --35: Renesas reserves the right, without notice, to make changes to this software
+                         158 --36: and to discontinue the availability of this software. By using this software,
+                         159 --37: you agree to the additional terms and conditions found by accessing the
+                         160 --38: following link:
+                         161 --39: http://www.renesas.com/disclaimer *
+                         162 --40: Copyright (C) 2011 Renesas Electronics Corporation. All rights reserved.
+                         163 --42: ****************************************************************************
+                         164 --43: */
+                         165 --45: /*******************************************************************************
+                         166 --46:   Title: CSISW Main Module
+                         167 --48:   Implementation of the API and other global functions.
+                         168 --49: */
+                         169 --51: /*******************************************************************************
+                         170 --52:   Section: Includes
+                         171 --53: */
+                         172 --55: #include "r_typedefs.h"
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         173 --56: #include "r_config_csisw.h"
+                         174 --57: #include "r_csisw_api.h"
+                         175 --58: #define CSISW_MAIN_GLOBALS_
+                         176 --59: #include "r_csisw_main.h"
+                         177 --60: #include "r_csisw_sys.h"
+                         178 --63: /*******************************************************************************
+                         179 --64:   Section: Local Constants
+                         180 --65: */
+                         181 --67: /*******************************************************************************
+                         182 --68:   Constant: loc_CsiswVersion
+                         183 --70:   A string containig the macro driver version information
+                         184 --71: */
+                         185 --75: #define LOC_CSISW_VERSIONPREFIX    "@(#)CSISW Version "
+                         186 --76: #define LOC_CSISW_VERSIONPOSTFIX   " - "
+                         187 --79: #define LOC_CSISW_VERSION      { LOC_CSISW_VERSIONPREFIX  R_XSTR (R_CSISW_VERSION_HI) "." \
+                         188 --80:                                 R_XSTR(R_CSISW_VERSION_LO) LOC_CSISW_VERSIONPOSTFIX \
+                         189 --81:                                 __DATE__ R_SPACE __TIME__ }
+                         190 --83: /*******************************************************************************
+                         191 --84:   Section: Local Variables
+                         192 --85: */
+                         193 --87: /*******************************************************************************
+                         194 --88:   Variable: loc_ErrorHandler
+                         195 --90:   A function pointer to a user callback (Applications error handler)
+                         196 --92:   The value is assigned by the application using the driver
+                         197 --93: */
+                         198 --95: static void (*loc_ErrorHandler )(uint32_t Unit, uint32_t Error) = 0u;
+                         199 --98: /*******************************************************************************
+                         200 --99:   Section: Local Functions
+                         201 --100: */
+                         202 --101: static uint8_t loc_Csisw_MasterTransferByte(uint32_t Unit, uint8_t byte_out);
+                         203 --102: static uint8_t loc_Csisw_MasterReadByte(uint32_t Unit);
+                         204 --103: void R_CSISW_SetErrorCallback(void(*ErrorCallback )(uint32_t Unit, uint32_t Error));
+                         205 --105: /*******************************************************************************
+                         206 --106:   Function: loc_Csisw_MasterTransferByte
+                         207 --108:   Simultaneously transmit and receive a byte on the SPI.
+                         208 --110:   Polarity and phase are assumed to be both 0:
+                         209 --111:    o input data is captured on rising edge of SCLK
+                         210 --112:    o output data is propagated on falling edge of SCLK
+                         211 --114:   Parameters:
+                         212 --115:   Unit          - Macro instance number
+                         213 --116:   byte_out      - byte to be written
+                         214 --118:   Returns:
+                         215 --119:   byte_in       - received byte.
+                         216 --120: */
+                         217 --121: static uint8_t loc_Csisw_MasterReadByte(uint32_t Unit)
+                         218 	.text
+                         219 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740385..0::
+                         220 	.align	2
+                         221 	.global	_loc_Csisw_MasterReadByte..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.
+                         222 _loc_Csisw_MasterReadByte..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.:
+                         223 _loc_Csisw_MasterReadByte:
+00000000 8007e170        224 	prepare	{r25,r26,r27,r28,r29,r31},0
+00000004 06d0            225 	mov	r6,r26
+00000006 3d0600000000*   226 	mov	.L48,r29
+0000000c 390600000000*   227 	mov	_r_csisw_Dev,r25
+                         228 --	    .bf
+                         229 .LDW01:
+                         230 --122: {
+                         231 --123:     uint8_t byte_in = 0;
+00000012 00e2            232 	mov	0,r28
+                         233 --124:     uint8_t bit;
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         234 --126:     for (bit = 0; bit < 8; bit++)
+00000014 00da            235 	mov	0,r27
+00000016 0000            236 	nop
+                         237 .L6:
+                         238 --127:     {
+                         239 --128:         /* Pull the clock line low. */
+                         240 --129:         R_CSISW_SYS_SetPin(Unit, R_CSISW_CLK_PIN, R_CSISW_LEVEL_INACTIVE);
+00000018 1a30            241 	mov	r26,r6
+0000001a 003a            242 	mov	0,r7
+0000001c 0042            243 	mov	0,r8
+                         244 	jarl	_R_CSISW_SYS_SetPin,lp
+                         244 <EXPANSION BEGIN>
+                         244 jarl22 _R_CSISW_SYS_SetPin , lp 
+0000001e 80ff0000*       244 <EXPANSION END>
+                         245 --131:         /* Shift-out a bit to the MOSI line. */
+                         246 --132:         //if (0 != (byte_out & 0x80u))
+                         247 --133:         //{
+                         248 --134:         //    R_CSISW_SYS_SetPin(Unit, R_CSISW_TXD_PIN, R_CSISW_LEVEL_ACTIVE);
+                         249 --135:         //} else {
+                         250 --136:         //    R_CSISW_SYS_SetPin(Unit, R_CSISW_TXD_PIN, R_CSISW_LEVEL_INACTIVE);
+                         251 --137:         //}
+                         252 --138:         //byte_out <<= 1;
+                         253 --140:         /* Delay for at least the peer's setup time. */
+                         254 --141:         /*  -> CLK low time */
+                         255 --142:         R_CSISW_SYS_Delay(Unit, ((1000000 / r_csisw_Dev[Unit].Baudrate)/2));
+                         256 --line142
+                         257 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.1::
+                         258 .LDWlin1:
+00000022 1af0            259 	mov	r26,ep
+00000024 fe00            260 	sxh	ep
+00000026 fef60c00        261 	mulhi	12,ep,ep
+0000002a 1a30            262 	mov	r26,r6
+0000002c 210640420f00    263 	mov	1000000,r1
+00000032 d9f1            264 	add	r25,ep
+00000034 0475            265 	sld.w	8[ep],r14
+00000036 ee0ffe02        266 	divqu	r14,r1,zero
+0000003a 810a            267 	shr	1,r1
+0000003c 0138            268 	mov	r1,r7
+                         269 	jarl	_R_CSISW_SYS_Delay,lp
+                         269 <EXPANSION BEGIN>
+                         269 jarl22 _R_CSISW_SYS_Delay , lp 
+0000003e 80ff0000*       269 <EXPANSION END>
+                         270 --145:         /* Pull the clock line high. */
+                         271 --146:         R_CSISW_SYS_SetPin(Unit, R_CSISW_CLK_PIN, R_CSISW_LEVEL_ACTIVE);
+                         272 --line146
+                         273 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.2::
+                         274 .LDWlin2:
+00000042 1a30            275 	mov	r26,r6
+00000044 003a            276 	mov	0,r7
+00000046 0142            277 	mov	1,r8
+                         278 	jarl	_R_CSISW_SYS_SetPin,lp
+                         278 <EXPANSION BEGIN>
+                         278 jarl22 _R_CSISW_SYS_SetPin , lp 
+00000048 80ff0000*       278 <EXPANSION END>
+                         279 --148:         /* Delay for at least the peer's hold time. */
+                         280 --149:         /*  -> CLK high time */
+                         281 --150:         R_CSISW_SYS_Delay(Unit, ((1000000 / r_csisw_Dev[Unit].Baudrate)/2));
+                         282 --line150
+                         283 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.3::
+                         284 .LDWlin3:
+0000004c 1af0            285 	mov	r26,ep
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+0000004e fe00            286 	sxh	ep
+00000050 fef60c00        287 	mulhi	12,ep,ep
+00000054 1a30            288 	mov	r26,r6
+00000056 210640420f00    289 	mov	1000000,r1
+0000005c d9f1            290 	add	r25,ep
+0000005e 0475            291 	sld.w	8[ep],r14
+00000060 ee0ffe02        292 	divqu	r14,r1,zero
+00000064 810a            293 	shr	1,r1
+00000066 0138            294 	mov	r1,r7
+                         295 	jarl	_R_CSISW_SYS_Delay,lp
+                         295 <EXPANSION BEGIN>
+                         295 jarl22 _R_CSISW_SYS_Delay , lp 
+00000068 80ff0000*       295 <EXPANSION END>
+                         296 --152:         /* Shift-in a bit from the MISO line. */
+                         297 --153:         byte_in <<= 1;
+                         298 --line153
+                         299 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.4::
+                         300 .LDWlin4:
+0000006c c1e2            301 	shl	1,r28
+0000006e 9c00            302 	zxb	r28
+                         303 --154:         if (R_CSISW_SYS_GetPin(Unit, R_CSISW_RXD_PIN) == R_CSISW_LEVEL_ACTIVE)
+00000070 1a30            304 	mov	r26,r6
+00000072 023a            305 	mov	2,r7
+                         306 	jarl	_R_CSISW_SYS_GetPin,lp
+                         306 <EXPANSION BEGIN>
+                         306 jarl22 _R_CSISW_SYS_GetPin , lp 
+00000074 80ff0000*       306 <EXPANSION END>
+00000078 6152            307 	cmp	1,r10
+0000007a ba05*           308 	bne	.L7
+                         309 --155:         {
+                         310 --156:             byte_in |= 1u;
+                         311 --line156
+                         312 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.5::
+                         313 .LDWlin5:
+0000007c 9ce60100        314 	ori	1,r28,r28
+                         315 .L7:
+00000080 41da            316 	add	1,r27
+00000082 9b00            317 	zxb	r27
+00000084 68da            318 	cmp	8,r27
+00000086 91cd*           319 	bl	.L6
+                         320 --157:         }
+                         321 --161:     }
+                         322 --163:     return byte_in;
+                         323 --line163
+                         324 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.6::
+                         325 .LDWlin6:
+00000088 1c50            326 	mov	r28,r10
+                         327 --	    .ef
+                         328 .LDW11:
+0000008a 4006ff70        329 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         330 	.type	_loc_Csisw_MasterReadByte,@function
+                         331 	.size	_loc_Csisw_MasterReadByte,.-_loc_Csisw_MasterReadByte
+                         332 	.type	_loc_Csisw_MasterReadByte..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.,@function
+                         333 	.size	_loc_Csisw_MasterReadByte..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.,.-_loc_Csisw_MasterReadByte..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.
+                         334 	.align	2
+                         335 .LDW21:
+                         336 --_byte_in	r28	local
+                         337 --_bit	r27	local
+                         338 
+                         339 --_Unit	r26	param
+                         340 
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         341 	.section ".bss","awb"
+                         342 .L48:
+                         343 	.type	.L48,@object
+                         344 	.size	.L48,0
+                         345 	.data
+                         346 	.align	4
+                         347 	.global	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.
+                         348 _loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.:
+                         349 	.type	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.,@object
+                         350 	.size	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.,4
+00000000 00000000        351 _loc_ErrorHandler:	.byte	0,0,0,0
+                         352 	.type	_loc_ErrorHandler,@object
+                         353 	.size	_loc_ErrorHandler,4
+                         354 	.text
+                         355 
+                         356 --164: }
+                         357 
+                         358 --167: /*******************************************************************************
+                         359 --168:   Function: loc_Csisw_MasterTransferByte
+                         360 --170:   Simultaneously transmit and receive a byte on the SPI.
+                         361 --172:   Polarity and phase are assumed to be both 0:
+                         362 --173:    o input data is captured on rising edge of SCLK
+                         363 --174:    o output data is propagated on falling edge of SCLK
+                         364 --176:   Parameters:
+                         365 --177:   Unit          - Macro instance number
+                         366 --178:   byte_out      - byte to be written
+                         367 --180:   Returns:
+                         368 --181:   byte_in       - received byte.
+                         369 --182: */
+                         370 --183: static uint8_t loc_Csisw_MasterTransferByte(uint32_t Unit, uint8_t byte_out)
+                         371 	.align	2
+                         372 	.align	2
+                         373 	.global	_loc_Csisw_MasterTransferByte..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.
+                         374 _loc_Csisw_MasterTransferByte..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.:
+                         375 _loc_Csisw_MasterTransferByte:
+0000008e 8007e170        376 	prepare	{r25,r26,r27,r28,r29,r31},0
+00000092 06e8            377 	mov	r6,r29
+00000094 c7deff00        378 	andi	255,r7,r27
+00000098 390600000000*   379 	mov	_r_csisw_Dev,r25
+                         380 --	    .bf
+                         381 .LDW31:
+                         382 --184: {
+                         383 --185:     uint8_t byte_in = 0;
+0000009e 00d2            384 	mov	0,r26
+                         385 --186:     uint8_t bit;
+                         386 --188:     for (bit = 0; bit < 8; bit++)
+000000a0 00e2            387 	mov	0,r28
+000000a2 0000            388 	nop
+                         389 .L100:
+                         390 --189:     {
+                         391 --190:         /* Pull the clock line low. */
+                         392 --191:         R_CSISW_SYS_SetPin(Unit, R_CSISW_CLK_PIN, R_CSISW_LEVEL_INACTIVE);
+000000a4 1d30            393 	mov	r29,r6
+000000a6 003a            394 	mov	0,r7
+000000a8 0042            395 	mov	0,r8
+                         396 	jarl	_R_CSISW_SYS_SetPin,lp
+                         396 <EXPANSION BEGIN>
+                         396 jarl22 _R_CSISW_SYS_SetPin , lp 
+000000aa 80ff0000*       396 <EXPANSION END>
+                         397 --193:         /* Shift-out a bit to the MOSI line. */
+                         398 --194:         if (0 != (byte_out & 0x80u))
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         399 --line194
+                         400 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.7::
+                         401 .LDWlin7:
+000000ae db068000        402 	andi	128,r27,zero
+000000b2 f205*           403 	be	.L101
+                         404 --195:         {
+                         405 --196:             R_CSISW_SYS_SetPin(Unit, R_CSISW_TXD_PIN, R_CSISW_LEVEL_ACTIVE);
+                         406 --line196
+                         407 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.8::
+                         408 .LDWlin8:
+000000b4 1d30            409 	mov	r29,r6
+000000b6 013a            410 	mov	1,r7
+000000b8 0142            411 	mov	1,r8
+                         412 	jarl	_R_CSISW_SYS_SetPin,lp
+                         412 <EXPANSION BEGIN>
+                         412 jarl22 _R_CSISW_SYS_SetPin , lp 
+000000ba 80ff0000*       412 <EXPANSION END>
+000000be e505*           413 	br	.L103
+                         414 .L101:
+                         415 --197:         } else {
+                         416 --198:             R_CSISW_SYS_SetPin(Unit, R_CSISW_TXD_PIN, R_CSISW_LEVEL_INACTIVE);
+                         417 --line198
+                         418 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.9::
+                         419 .LDWlin9:
+000000c0 1d30            420 	mov	r29,r6
+000000c2 013a            421 	mov	1,r7
+000000c4 0042            422 	mov	0,r8
+                         423 	jarl	_R_CSISW_SYS_SetPin,lp
+                         423 <EXPANSION BEGIN>
+                         423 jarl22 _R_CSISW_SYS_SetPin , lp 
+000000c6 80ff0000*       423 <EXPANSION END>
+                         424 .L103:
+                         425 --199:         }
+                         426 --200:         byte_out <<= 1;
+                         427 --line200
+                         428 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.10::
+                         429 .LDWlin10:
+000000ca c1da            430 	shl	1,r27
+000000cc 9b00            431 	zxb	r27
+                         432 --202:         /* Delay for at least the peer's setup time. */
+                         433 --203:         /*  -> CLK low time */
+                         434 --204:         R_CSISW_SYS_Delay(Unit, ((1000000 / r_csisw_Dev[Unit].Baudrate)/2));
+000000ce 1df0            435 	mov	r29,ep
+000000d0 fe00            436 	sxh	ep
+000000d2 fef60c00        437 	mulhi	12,ep,ep
+000000d6 1d30            438 	mov	r29,r6
+000000d8 210640420f00    439 	mov	1000000,r1
+000000de d9f1            440 	add	r25,ep
+000000e0 0475            441 	sld.w	8[ep],r14
+000000e2 ee0ffe02        442 	divqu	r14,r1,zero
+000000e6 810a            443 	shr	1,r1
+000000e8 0138            444 	mov	r1,r7
+                         445 	jarl	_R_CSISW_SYS_Delay,lp
+                         445 <EXPANSION BEGIN>
+                         445 jarl22 _R_CSISW_SYS_Delay , lp 
+000000ea 80ff0000*       445 <EXPANSION END>
+                         446 --207:         /* Shift-in a bit from the MISO line. */
+                         447 --208:         //byte_in <<= 1;
+                         448 --209:         //if (R_CSISW_SYS_GetPin(Unit, R_CSISW_RXD_PIN) == R_CSISW_LEVEL_ACTIVE)
+                         449 --210:         //{
+                         450 --211:         //    byte_in |= 1u;
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         451 --212:         //}
+                         452 --214:         /* Pull the clock line high. */
+                         453 --215:         R_CSISW_SYS_SetPin(Unit, R_CSISW_CLK_PIN, R_CSISW_LEVEL_ACTIVE);
+                         454 --line215
+                         455 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.11::
+                         456 .LDWlin11:
+000000ee 1d30            457 	mov	r29,r6
+000000f0 003a            458 	mov	0,r7
+000000f2 0142            459 	mov	1,r8
+                         460 	jarl	_R_CSISW_SYS_SetPin,lp
+                         460 <EXPANSION BEGIN>
+                         460 jarl22 _R_CSISW_SYS_SetPin , lp 
+000000f4 80ff0000*       460 <EXPANSION END>
+                         461 --217:         /* Delay for at least the peer's hold time. */
+                         462 --218:         /*  -> CLK high time */
+                         463 --219:         R_CSISW_SYS_Delay(Unit, ((1000000 / r_csisw_Dev[Unit].Baudrate)/2));
+                         464 --line219
+                         465 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.12::
+                         466 .LDWlin12:
+000000f8 1df0            467 	mov	r29,ep
+000000fa fe00            468 	sxh	ep
+000000fc fef60c00        469 	mulhi	12,ep,ep
+00000100 1d30            470 	mov	r29,r6
+00000102 210640420f00    471 	mov	1000000,r1
+00000108 d9f1            472 	add	r25,ep
+0000010a 0475            473 	sld.w	8[ep],r14
+0000010c ee0ffe02        474 	divqu	r14,r1,zero
+00000110 810a            475 	shr	1,r1
+00000112 0138            476 	mov	r1,r7
+                         477 	jarl	_R_CSISW_SYS_Delay,lp
+                         477 <EXPANSION BEGIN>
+                         477 jarl22 _R_CSISW_SYS_Delay , lp 
+00000114 80ff0000*       477 <EXPANSION END>
+                         478 --line188
+                         479 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.13::
+                         480 .LDWlin13:
+00000118 41e2            481 	add	1,r28
+0000011a 9c00            482 	zxb	r28
+0000011c 68e2            483 	cmp	8,r28
+0000011e b1c5*           484 	bl	.L100
+                         485 --220:     }
+                         486 --222:     return byte_in;
+                         487 --line222
+                         488 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.14::
+                         489 .LDWlin14:
+00000120 1a50            490 	mov	r26,r10
+                         491 --	    .ef
+                         492 .LDW41:
+00000122 4006ff70        493 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         494 	.type	_loc_Csisw_MasterTransferByte,@function
+                         495 	.size	_loc_Csisw_MasterTransferByte,.-_loc_Csisw_MasterTransferByte
+                         496 	.type	_loc_Csisw_MasterTransferByte..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.,@function
+                         497 	.size	_loc_Csisw_MasterTransferByte..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.,.-_loc_Csisw_MasterTransferByte..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.
+                         498 	.align	2
+                         499 .LDW51:
+                         500 --_byte_in	r26	local
+                         501 --_bit	r28	local
+                         502 
+                         503 --_Unit	r29	param
+                         504 --_byte_out	r27	param
+                         505 
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         506 	.section ".bss","awb"
+                         507 .L146:
+                         508 	.type	.L146,@object
+                         509 	.size	.L146,0
+                         510 	.data
+                         511 	.text
+                         512 
+                         513 --223: }
+                         514 
+                         515 --226: /*******************************************************************************
+                         516 --227:   Section: Global Functions
+                         517 --228: */
+                         518 --230: /*******************************************************************************
+                         519 --231:   Function: R_CSISW_CheckMacroParams
+                         520 --233:   See: <csisw_main.h>
+                         521 --234: */
+                         522 --235: r_csisw_Error_t R_CSISW_CheckMacroParams(uint32_t Unit)
+                         523 	.align	2
+                         524 	.align	2
+                         525 	.global	_R_CSISW_CheckMacroParams
+                         526 _R_CSISW_CheckMacroParams:
+00000126 0608            527 	mov	r6,r1
+                         528 --	    .bf
+                         529 .LDW61:
+                         530 --236: {
+                         531 --237:     /* Feel free to add any more usefull parameter checks */
+                         532 --238:     if (R_CSISW_MACRO_NUM <= Unit)
+00000128 610a            533 	cmp	1,r1
+0000012a b105*           534 	bl	.L199
+                         535 --239:     {
+                         536 --240:         return  R_CSISW_ERR_RANGE;
+                         537 --line240
+                         538 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.15::
+                         539 .LDWlin15:
+0000012c 0252            540 	mov	2,r10
+0000012e a505*           541 	br	.L197
+                         542 .L199:
+                         543 --241:     }
+                         544 --242:     return R_CSISW_ERR_OK;
+                         545 --line242
+                         546 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.16::
+                         547 .LDWlin16:
+00000130 0052            548 	mov	0,r10
+                         549 .L197:
+                         550 --	    .ef
+                         551 .LDW71:
+00000132 7f00            552 	jmp	[lp]
+                         553 	.type	_R_CSISW_CheckMacroParams,@function
+                         554 	.size	_R_CSISW_CheckMacroParams,.-_R_CSISW_CheckMacroParams
+                         555 	.align	2
+                         556 .LDW81:
+                         557 
+                         558 --_Unit	r1	param
+                         559 
+                         560 	.section ".bss","awb"
+                         561 .L220:
+                         562 	.type	.L220,@object
+                         563 	.size	.L220,0
+                         564 	.data
+                         565 	.text
+                         566 
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         567 --243: }
+                         568 
+                         569 --245: /*******************************************************************************
+                         570 --246:   Function: R_CSISW_ErrorHandler
+                         571 --248:   See: <csisw_main.h>
+                         572 --249: */
+                         573 --251: void R_CSISW_ErrorHandler(uint32_t Unit, r_csisw_Error_t Error)
+                         574 	.align	2
+                         575 	.align	2
+                         576 	.global	_R_CSISW_ErrorHandler
+                         577 _R_CSISW_ErrorHandler:
+00000134 8007e170        578 	prepare	{r25,r26,r27,r28,r29,r31},0
+00000138 3d0600000000*   579 	mov	_loc_ErrorHandler,r29
+0000013e 06e0            580 	mov	r6,r28
+00000140 07d8            581 	mov	r7,r27
+00000142 1dd0            582 	mov	r29,r26
+                         583 --	    .bf
+                         584 .LDW91:
+                         585 --252: {
+                         586 --253:     if (0 != loc_ErrorHandler)
+00000144 3d0f0100        587 	ld.w	0[r29],r1
+00000148 e009            588 	cmp	zero,r1
+0000014a 820d*           589 	be	.L240
+                         590 --254:     {      /* we've got a registered error handler here ...*/
+                         591 --255:         loc_ErrorHandler(Unit, (uint32_t) Error);      /* ... and we gonna use it!*/
+                         592 --line255
+                         593 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.17::
+                         594 .LDWlin17:
+0000014c 3dcf0100        595 	ld.w	0[r29],r25
+00000150 1c30            596 	mov	r28,r6
+00000152 1b38            597 	mov	r27,r7
+00000154 f9c760f9        598 	jarl	[r25],lp
+00000158 b505*           599 	br	.L242
+                         600 .L240:
+                         601 --256:     }
+                         602 --257:     else
+                         603 --258:     {
+                         604 --259:         for(;;)
+                         605 --line259
+                         606 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.18::
+                         607 .LDWlin18:
+0000015a 0000            608 	nop
+                         609 .L245:
+                         610 --260:         {        /* we don't have a handler */
+0000015c 8505*           611 	br	.L245
+                         612 .L242:
+                         613 --261:         }        /* so, let's wait here */
+                         614 --262:     }
+                         615 --263: }
+                         616 --line263
+                         617 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.19::
+                         618 .LDWlin19:
+0000015e 0000            619 	nop
+                         620 --	    .ef
+                         621 .LDW02:
+00000160 4006ff70        622 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         623 	.type	_R_CSISW_ErrorHandler,@function
+                         624 	.size	_R_CSISW_ErrorHandler,.-_R_CSISW_ErrorHandler
+                         625 	.align	2
+                         626 .LDW12:
+                         627 
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         628 --_Unit	r28	param
+                         629 --_Error	r27	param
+                         630 
+                         631 	.data
+                         632 	.text
+                         633 
+                         634 
+                         635 --265: /*******************************************************************************
+                         636 --266:   Section: Global API Functions
+                         637 --268:   See: <csisw_api.h>
+                         638 --269: */
+                         639 --271: /*******************************************************************************
+                         640 --272:   Function: R_CSISW_GetVersionStr
+                         641 --274:   See: <csisw_api.h>
+                         642 --275: */
+                         643 --276: const int8_t * R_CSISW_GetVersionStr(void)
+                         644 	.align	2
+                         645 	.align	2
+                         646 	.global	_R_CSISW_GetVersionStr
+                         647 _R_CSISW_GetVersionStr:
+                         648 --	    .bf
+                         649 .LDW22:
+                         650 --277: {
+                         651 --278:     static const int8_t version[] = LOC_CSISW_VERSION;
+                         652 --279:     return version;
+00000164 2a0600000000*   653 	mov	.L321,r10
+                         654 --	    .ef
+                         655 .LDW32:
+0000016a 7f00            656 	jmp	[lp]
+                         657 	.type	_R_CSISW_GetVersionStr,@function
+                         658 	.size	_R_CSISW_GetVersionStr,.-_R_CSISW_GetVersionStr
+                         659 	.align	2
+                         660 .LDW42:
+                         661 --_version	.L321	static
+                         662 
+                         663 	.section ".bss","awb"
+                         664 .L312:
+                         665 	.type	.L312,@object
+                         666 	.size	.L312,0
+                         667 	.section ".rodata","a"
+                         668 .L321:
+                         669 	.global	_version.R_CSISW_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main..1
+                         670 _version.R_CSISW_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main..1:
+                         671 	.type	_version.R_CSISW_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main..1,@object
+                         672 	.size	_version.R_CSISW_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main..1,45
+                         673 --	"@(#)CSISW Version 0.1 - Feb  2 2018 14:21:57"
+00000000 40282329        674 	.byte	64,40,35,41
+00000004 43534953        675 	.byte	67,83,73,83
+00000008 57205665        676 	.byte	87,32,86,101
+0000000c 7273696f        677 	.byte	114,115,105,111
+00000010 6e20302e        678 	.byte	110,32,48,46
+00000014 31202d20        679 	.byte	49,32,45,32
+00000018 46656220        680 	.byte	70,101,98,32
+0000001c 20322032        681 	.byte	32,50,32,50
+00000020 30313820        682 	.byte	48,49,56,32
+00000024 31343a32        683 	.byte	49,52,58,50
+00000028 313a3537        684 	.byte	49,58,53,55
+0000002c 00              685 	.byte	0
+                         686 	.type	.L321,@object
+                         687 	.size	.L321,45
+                         688 	.data
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         689 	.text
+                         690 
+                         691 --280: }
+                         692 
+                         693 --282: /*******************************************************************************
+                         694 --283:   Function: R_CSISW_GetMajorVersion
+                         695 --285:   See: <csisw_api.h>
+                         696 --286: */
+                         697 --287: const uint16_t R_CSISW_GetMajorVersion(void)
+                         698 	.align	2
+                         699 	.align	2
+                         700 	.global	_R_CSISW_GetMajorVersion
+                         701 _R_CSISW_GetMajorVersion:
+                         702 --	    .bf
+                         703 .LDW52:
+                         704 --288: {
+                         705 --289:     return (uint16_t)R_CSISW_VERSION_HI;
+0000016c 0052            706 	mov	0,r10
+                         707 --	    .ef
+                         708 .LDW62:
+0000016e 7f00            709 	jmp	[lp]
+                         710 	.type	_R_CSISW_GetMajorVersion,@function
+                         711 	.size	_R_CSISW_GetMajorVersion,.-_R_CSISW_GetMajorVersion
+                         712 	.align	2
+                         713 .LDW72:
+                         714 
+                         715 	.section ".bss","awb"
+                         716 .L344:
+                         717 	.type	.L344,@object
+                         718 	.size	.L344,0
+                         719 	.data
+                         720 	.text
+                         721 
+                         722 --290: }
+                         723 
+                         724 --292: /*******************************************************************************
+                         725 --293:   Function: R_CSISW_GetMinorVersion
+                         726 --295:   See: <csisw_api.h>
+                         727 --296: */
+                         728 --297: const uint16_t R_CSISW_GetMinorVersion(void)
+                         729 	.align	2
+                         730 	.align	2
+                         731 	.global	_R_CSISW_GetMinorVersion
+                         732 _R_CSISW_GetMinorVersion:
+                         733 --	    .bf
+                         734 .LDW82:
+                         735 --298: {
+                         736 --299:     return (uint16_t)R_CSISW_VERSION_LO;
+00000170 0152            737 	mov	1,r10
+                         738 --	    .ef
+                         739 .LDW92:
+00000172 7f00            740 	jmp	[lp]
+                         741 	.type	_R_CSISW_GetMinorVersion,@function
+                         742 	.size	_R_CSISW_GetMinorVersion,.-_R_CSISW_GetMinorVersion
+                         743 	.align	2
+                         744 .LDW03:
+                         745 
+                         746 	.section ".bss","awb"
+                         747 .L376:
+                         748 	.type	.L376,@object
+                         749 	.size	.L376,0
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         750 	.data
+                         751 	.text
+                         752 
+                         753 --300: }
+                         754 
+                         755 --304: /*******************************************************************************
+                         756 --305:   Function: R_CSISW_Init
+                         757 --307:   See: <csisw_api.h>
+                         758 --308: */
+                         759 --310: r_csisw_Error_t R_CSISW_Init(uint32_t Unit)
+                         760 	.align	2
+                         761 	.align	2
+                         762 	.global	_R_CSISW_Init
+                         763 _R_CSISW_Init:
+00000174 8007e110        764 	prepare	{r27,r28,r29,r31},0
+00000178 06e0            765 	mov	r6,r28
+0000017a 3b0600000000*   766 	mov	_r_csisw_Dev,r27
+                         767 --	    .bf
+                         768 .LDW13:
+                         769 --311: {
+                         770 --312:     r_csisw_Error_t err;
+                         771 --313:     err = R_CSISW_CheckMacroParams(Unit);
+00000180 1c30            772 	mov	r28,r6
+                         773 	jarl	_R_CSISW_CheckMacroParams,lp
+                         773 <EXPANSION BEGIN>
+                         773 jarl22 _R_CSISW_CheckMacroParams , lp 
+00000182 bfffa4ff*       773 <EXPANSION END>
+00000186 0ae8            774 	mov	r10,r29
+                         775 --314:     if (R_CSISW_ERR_OK != err)
+                         776 --line314
+                         777 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.20::
+                         778 .LDWlin20:
+00000188 e0e9            779 	cmp	zero,r29
+0000018a b205*           780 	be	.L390
+                         781 --315:     {
+                         782 --316:         return err;
+                         783 --line316
+                         784 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.21::
+                         785 .LDWlin21:
+0000018c 1d50            786 	mov	r29,r10
+0000018e a52d*           787 	br	.L388
+                         788 .L390:
+                         789 --317:     }
+                         790 --319:     if (0 == r_csisw_Dev[Unit].BaseAddr)
+                         791 --line319
+                         792 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.22::
+                         793 .LDWlin22:
+00000190 1cf0            794 	mov	r28,ep
+00000192 fe00            795 	sxh	ep
+00000194 fef60c00        796 	mulhi	12,ep,ep
+00000198 dbf1            797 	add	r27,ep
+0000019a 000d            798 	sld.w	0[ep],r1
+0000019c e009            799 	cmp	zero,r1
+0000019e 8a25*           800 	bne	.L393
+                         801 --320:     {
+                         802 --321:         r_csisw_Dev[Unit].BaseAddr = 1;
+                         803 --line321
+                         804 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.23::
+                         805 .LDWlin23:
+000001a0 1cf0            806 	mov	r28,ep
+000001a2 fe00            807 	sxh	ep
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+000001a4 fef60c00        808 	mulhi	12,ep,ep
+000001a8 010a            809 	mov	1,r1
+000001aa dbf1            810 	add	r27,ep
+000001ac 010d            811 	sst.w	r1,0[ep]
+                         812 --322:         err = R_CSISW_SYS_HardwareInit(Unit);
+000001ae 1c30            813 	mov	r28,r6
+                         814 	jarl	_R_CSISW_SYS_HardwareInit,lp
+                         814 <EXPANSION BEGIN>
+                         814 jarl22 _R_CSISW_SYS_HardwareInit , lp 
+000001b0 80ff0000*       814 <EXPANSION END>
+000001b4 0ae8            815 	mov	r10,r29
+                         816 --323:         r_csisw_Dev[Unit].Baudrate = 100000;    /* fix to 1000kHz */
+                         817 --line323
+                         818 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.24::
+                         819 .LDWlin24:
+000001b6 1cf0            820 	mov	r28,ep
+000001b8 fe00            821 	sxh	ep
+000001ba fef60c00        822 	mulhi	12,ep,ep
+000001be 2106a0860100    823 	mov	100000,r1
+000001c4 dbf1            824 	add	r27,ep
+000001c6 050d            825 	sst.w	r1,8[ep]
+                         826 --325:         /* set initial (default) pin state */
+                         827 --326:         R_CSISW_SYS_SetPin(Unit, R_CSISW_CLK_PIN, R_CSISW_LEVEL_ACTIVE);
+000001c8 1c30            828 	mov	r28,r6
+000001ca 003a            829 	mov	0,r7
+000001cc 0142            830 	mov	1,r8
+                         831 	jarl	_R_CSISW_SYS_SetPin,lp
+                         831 <EXPANSION BEGIN>
+                         831 jarl22 _R_CSISW_SYS_SetPin , lp 
+000001ce 80ff0000*       831 <EXPANSION END>
+                         832 --327:         R_CSISW_SYS_SetPin(Unit, R_CSISW_SS0_PIN, R_CSISW_LEVEL_ACTIVE);
+                         833 --line327
+                         834 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.25::
+                         835 .LDWlin25:
+000001d2 1c30            836 	mov	r28,r6
+000001d4 033a            837 	mov	3,r7
+000001d6 0142            838 	mov	1,r8
+                         839 	jarl	_R_CSISW_SYS_SetPin,lp
+                         839 <EXPANSION BEGIN>
+                         839 jarl22 _R_CSISW_SYS_SetPin , lp 
+000001d8 80ff0000*       839 <EXPANSION END>
+000001dc a505*           840 	br	.L395
+                         841 .L393:
+                         842 --328:     }
+                         843 --329:     else
+                         844 --330:     {
+                         845 --331:         /* please, no double-init*/
+                         846 --332:         err = R_CSISW_ERR_LOCKED;
+                         847 --line332
+                         848 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.26::
+                         849 .LDWlin26:
+000001de 03ea            850 	mov	3,r29
+                         851 .L395:
+                         852 --333:     }
+                         853 --334:     return err;
+000001e0 1d50            854 	mov	r29,r10
+                         855 .L388:
+                         856 --	    .ef
+                         857 .LDW23:
+000001e2 4006ff10        858 	dispose	0,{r27,r28,r29,r31},[lp]
+                         859 	.type	_R_CSISW_Init,@function
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         860 	.size	_R_CSISW_Init,.-_R_CSISW_Init
+                         861 	.align	2
+                         862 .LDW33:
+                         863 --_err	r29	local
+                         864 
+                         865 --_Unit	r28	param
+                         866 
+                         867 	.section ".bss","awb"
+                         868 .L428:
+                         869 	.type	.L428,@object
+                         870 	.size	.L428,0
+                         871 	.data
+                         872 	.text
+                         873 
+                         874 --335: }
+                         875 
+                         876 --338: /*******************************************************************************
+                         877 --339:   Function: R_CSISW_Enable
+                         878 --341:   See: <csisw_api.h>
+                         879 --342: */
+                         880 --344: r_csisw_Error_t R_CSISW_Enable(uint32_t Unit, r_csisw_TxRxMode_t TxRxMode)
+                         881 	.align	2
+                         882 	.align	2
+                         883 	.global	_R_CSISW_Enable
+                         884 _R_CSISW_Enable:
+000001e6 8007e110        885 	prepare	{r27,r28,r29,r31},0
+000001ea 06e0            886 	mov	r6,r28
+000001ec 07d8            887 	mov	r7,r27
+                         888 --	    .bf
+                         889 .LDW43:
+                         890 --345: {
+                         891 --346:     r_csisw_Error_t err;
+                         892 --347:     err = R_CSISW_CheckMacroParams(Unit);
+000001ee 1c30            893 	mov	r28,r6
+                         894 	jarl	_R_CSISW_CheckMacroParams,lp
+                         894 <EXPANSION BEGIN>
+                         894 jarl22 _R_CSISW_CheckMacroParams , lp 
+000001f0 bfff36ff*       894 <EXPANSION END>
+000001f4 0ae8            895 	mov	r10,r29
+                         896 --348:     if (R_CSISW_ERR_OK != err)
+                         897 --line348
+                         898 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.27::
+                         899 .LDWlin27:
+000001f6 e0e9            900 	cmp	zero,r29
+000001f8 b205*           901 	be	.L472
+                         902 --349:     {
+                         903 --350:         return err;
+                         904 --line350
+                         905 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.28::
+                         906 .LDWlin28:
+000001fa 1d50            907 	mov	r29,r10
+000001fc a505*           908 	br	.L470
+                         909 .L472:
+                         910 --351:     }
+                         911 --353:     /* do nothing */
+                         912 --355:     return err;
+                         913 --line355
+                         914 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.29::
+                         915 .LDWlin29:
+000001fe 1d50            916 	mov	r29,r10
+                         917 .L470:
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         918 --	    .ef
+                         919 .LDW53:
+00000200 4006ff10        920 	dispose	0,{r27,r28,r29,r31},[lp]
+                         921 	.type	_R_CSISW_Enable,@function
+                         922 	.size	_R_CSISW_Enable,.-_R_CSISW_Enable
+                         923 	.align	2
+                         924 .LDW63:
+                         925 --_err	r29	local
+                         926 
+                         927 --_Unit	r28	param
+                         928 --_TxRxMode	r27	param
+                         929 
+                         930 	.section ".bss","awb"
+                         931 .L494:
+                         932 	.type	.L494,@object
+                         933 	.size	.L494,0
+                         934 	.data
+                         935 	.text
+                         936 
+                         937 --356: }
+                         938 
+                         939 --359: /*******************************************************************************
+                         940 --360:   Function: R_CSISW_Read
+                         941 --362:   See: <csisw_api.h>
+                         942 --363: */
+                         943 --365: r_csisw_Error_t R_CSISW_Read(uint32_t Unit, void * Regaddr, uint8_t *Buffer, uint32_t Num)
+                         944 	.align	2
+                         945 	.align	2
+                         946 	.global	_R_CSISW_Read
+                         947 _R_CSISW_Read:
+00000204 8407e170        948 	prepare	{r25,r26,r27,r28,r29,r31},2
+00000208 06e8            949 	mov	r6,r29
+0000020a 07c8            950 	mov	r7,r25
+0000020c 63470100        951 	st.w	r8,0[sp]
+00000210 634f0500        952 	st.w	r9,4[sp]
+00000214 3a0600000000*   953 	mov	_r_csisw_Dev,r26
+                         954 --	    .bf
+                         955 .LDW73:
+                         956 --366: {
+                         957 --367:     uint32_t i;
+                         958 --368:     r_csisw_Error_t err;
+                         959 --369:     err = R_CSISW_CheckMacroParams(Unit);
+0000021a 1d30            960 	mov	r29,r6
+                         961 	jarl	_R_CSISW_CheckMacroParams,lp
+                         961 <EXPANSION BEGIN>
+                         961 jarl22 _R_CSISW_CheckMacroParams , lp 
+0000021c bfff0aff*       961 <EXPANSION END>
+00000220 0ad8            962 	mov	r10,r27
+                         963 --370:     if (R_CSISW_ERR_OK != err)
+                         964 --line370
+                         965 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.30::
+                         966 .LDWlin30:
+00000222 e0d9            967 	cmp	zero,r27
+00000224 b205*           968 	be	.L517
+                         969 --371:     {
+                         970 --372:         return err;
+                         971 --line372
+                         972 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.31::
+                         973 .LDWlin31:
+00000226 1b50            974 	mov	r27,r10
+00000228 a54d*           975 	br	.L515
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                         976 .L517:
+                         977 --373:     }
+                         978 --375:     R_CSISW_SYS_SetPin(Unit, R_CSISW_CLK_PIN, R_CSISW_LEVEL_ACTIVE);
+                         979 --line375
+                         980 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.32::
+                         981 .LDWlin32:
+0000022a 1d30            982 	mov	r29,r6
+0000022c 003a            983 	mov	0,r7
+0000022e 0142            984 	mov	1,r8
+                         985 	jarl	_R_CSISW_SYS_SetPin,lp
+                         985 <EXPANSION BEGIN>
+                         985 jarl22 _R_CSISW_SYS_SetPin , lp 
+00000230 80ff0000*       985 <EXPANSION END>
+                         986 --376:     R_CSISW_SYS_SetPin(Unit, R_CSISW_SS0_PIN, R_CSISW_LEVEL_ACTIVE);
+                         987 --line376
+                         988 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.33::
+                         989 .LDWlin33:
+00000234 1d30            990 	mov	r29,r6
+00000236 033a            991 	mov	3,r7
+00000238 0142            992 	mov	1,r8
+                         993 	jarl	_R_CSISW_SYS_SetPin,lp
+                         993 <EXPANSION BEGIN>
+                         993 jarl22 _R_CSISW_SYS_SetPin , lp 
+0000023a 80ff0000*       993 <EXPANSION END>
+                         994 --377:     R_CSISW_SYS_Delay(Unit, ((1000000 / r_csisw_Dev[Unit].Baudrate)/2));
+                         995 --line377
+                         996 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.34::
+                         997 .LDWlin34:
+0000023e 1df0            998 	mov	r29,ep
+00000240 fe00            999 	sxh	ep
+00000242 fef60c00       1000 	mulhi	12,ep,ep
+00000246 1d30           1001 	mov	r29,r6
+00000248 210640420f00   1002 	mov	1000000,r1
+0000024e daf1           1003 	add	r26,ep
+00000250 0475           1004 	sld.w	8[ep],r14
+00000252 ee0ffe02       1005 	divqu	r14,r1,zero
+00000256 810a           1006 	shr	1,r1
+00000258 0138           1007 	mov	r1,r7
+                        1008 	jarl	_R_CSISW_SYS_Delay,lp
+                        1008 <EXPANSION BEGIN>
+                        1008 jarl22 _R_CSISW_SYS_Delay , lp 
+0000025a 80ff0000*      1008 <EXPANSION END>
+                        1009 --379:     R_CSISW_SYS_SetPin(Unit, R_CSISW_SS0_PIN, R_CSISW_LEVEL_INACTIVE);
+                        1010 --line379
+                        1011 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.35::
+                        1012 .LDWlin35:
+0000025e 1d30           1013 	mov	r29,r6
+00000260 033a           1014 	mov	3,r7
+00000262 0042           1015 	mov	0,r8
+                        1016 	jarl	_R_CSISW_SYS_SetPin,lp
+                        1016 <EXPANSION BEGIN>
+                        1016 jarl22 _R_CSISW_SYS_SetPin , lp 
+00000264 80ff0000*      1016 <EXPANSION END>
+                        1017 --380:     R_CSISW_SYS_Delay(Unit, ((1000000 / r_csisw_Dev[Unit].Baudrate)/2));
+                        1018 --line380
+                        1019 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.36::
+                        1020 .LDWlin36:
+00000268 1df0           1021 	mov	r29,ep
+0000026a fe00           1022 	sxh	ep
+0000026c fef60c00       1023 	mulhi	12,ep,ep
+00000270 1d30           1024 	mov	r29,r6
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+00000272 210640420f00   1025 	mov	1000000,r1
+00000278 daf1           1026 	add	r26,ep
+0000027a 0475           1027 	sld.w	8[ep],r14
+0000027c ee0ffe02       1028 	divqu	r14,r1,zero
+00000280 810a           1029 	shr	1,r1
+00000282 0138           1030 	mov	r1,r7
+                        1031 	jarl	_R_CSISW_SYS_Delay,lp
+                        1031 <EXPANSION BEGIN>
+                        1031 jarl22 _R_CSISW_SYS_Delay , lp 
+00000284 80ff0000*      1031 <EXPANSION END>
+                        1032 --382:     for (i=0; i<Num; i++)
+                        1033 --line382
+                        1034 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.37::
+                        1035 .LDWlin37:
+00000288 00e2           1036 	mov	0,r28
+0000028a f50d*          1037 	br	.L523
+                        1038 .L522:
+                        1039 --383:     {
+                        1040 --384:         loc_Csisw_MasterTransferByte(Unit, ((uint8_t*)(Regaddr))[i]);
+                        1041 --line384
+                        1042 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.38::
+                        1043 .LDWlin38:
+0000028c 1cf0           1044 	mov	r28,ep
+0000028e d9f1           1045 	add	r25,ep
+00000290 6038           1046 	sld.bu	0[ep],r7
+00000292 1d30           1047 	mov	r29,r6
+                        1048 	jarl	_loc_Csisw_MasterTransferByte,lp
+                        1048 <EXPANSION BEGIN>
+                        1048 jarl22 _loc_Csisw_MasterTransferByte , lp 
+00000294 bffffafd*      1048 <EXPANSION END>
+                        1049 --385:         *Buffer= loc_Csisw_MasterReadByte(Unit);
+                        1050 --line385
+                        1051 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.39::
+                        1052 .LDWlin39:
+00000298 1d30           1053 	mov	r29,r6
+                        1054 	jarl	_loc_Csisw_MasterReadByte,lp
+                        1054 <EXPANSION BEGIN>
+                        1054 jarl22 _loc_Csisw_MasterReadByte , lp 
+0000029a bfff66fd*      1054 <EXPANSION END>
+0000029e 235f0100       1055 	ld.w	0[sp],r11
+000002a2 4b570000       1056 	st.b	r10,0[r11]
+                        1057 --line382
+                        1058 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.40::
+                        1059 .LDWlin40:
+000002a6 41e2           1060 	add	1,r28
+                        1061 .L523:
+000002a8 235f0500       1062 	ld.w	4[sp],r11
+000002ac ebe1           1063 	cmp	r11,r28
+000002ae f1ed*          1064 	bl	.L522
+                        1065 --386:     }
+                        1066 --388:     R_CSISW_SYS_SetPin(Unit, R_CSISW_SS0_PIN, R_CSISW_LEVEL_ACTIVE);
+                        1067 --line388
+                        1068 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.41::
+                        1069 .LDWlin41:
+000002b0 1d30           1070 	mov	r29,r6
+000002b2 033a           1071 	mov	3,r7
+000002b4 0142           1072 	mov	1,r8
+                        1073 	jarl	_R_CSISW_SYS_SetPin,lp
+                        1073 <EXPANSION BEGIN>
+                        1073 jarl22 _R_CSISW_SYS_SetPin , lp 
+000002b6 80ff0000*      1073 <EXPANSION END>
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                        1074 --390:     return err;
+                        1075 --line390
+                        1076 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.42::
+                        1077 .LDWlin42:
+000002ba 1b50           1078 	mov	r27,r10
+                        1079 .L515:
+                        1080 --	    .ef
+                        1081 .LDW83:
+000002bc 4406ff70       1082 	dispose	2,{r25,r26,r27,r28,r29,r31},[lp]
+                        1083 	.type	_R_CSISW_Read,@function
+                        1084 	.size	_R_CSISW_Read,.-_R_CSISW_Read
+                        1085 	.align	2
+                        1086 .LDW93:
+                        1087 --_i	r28	local
+                        1088 --_err	r27	local
+                        1089 
+                        1090 --_Unit	r29	param
+                        1091 --_Regaddr	r25	param
+                        1092 --_Buffer	0[sp]	param
+                        1093 --_Num	4[sp]	param
+                        1094 
+                        1095 	.section ".bss","awb"
+                        1096 .L566:
+                        1097 	.type	.L566,@object
+                        1098 	.size	.L566,0
+                        1099 	.data
+                        1100 	.text
+                        1101 
+                        1102 --391: }
+                        1103 
+                        1104 --394: /*******************************************************************************
+                        1105 --395:   Function: R_CSISW_Write
+                        1106 --397:   See: <csisw_api.h>
+                        1107 --398: */
+                        1108 --400: r_csisw_Error_t R_CSISW_Write(uint32_t Unit, void *Buffer, uint32_t Num)
+                        1109 	.align	2
+                        1110 	.align	2
+                        1111 	.global	_R_CSISW_Write
+                        1112 _R_CSISW_Write:
+000002c0 8007e170       1113 	prepare	{r25,r26,r27,r28,r29,r31},0
+000002c4 06e8           1114 	mov	r6,r29
+000002c6 07d0           1115 	mov	r7,r26
+000002c8 08c8           1116 	mov	r8,r25
+                        1117 --	    .bf
+                        1118 .LDW04:
+                        1119 --401: {
+                        1120 --402:     uint32_t i;
+                        1121 --403:     r_csisw_Error_t err;
+                        1122 --404:     err = R_CSISW_CheckMacroParams(Unit);
+000002ca 1d30           1123 	mov	r29,r6
+                        1124 	jarl	_R_CSISW_CheckMacroParams,lp
+                        1124 <EXPANSION BEGIN>
+                        1124 jarl22 _R_CSISW_CheckMacroParams , lp 
+000002cc bfff5afe*      1124 <EXPANSION END>
+000002d0 0ad8           1125 	mov	r10,r27
+                        1126 --405:     if (R_CSISW_ERR_OK != err)
+                        1127 --line405
+                        1128 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.43::
+                        1129 .LDWlin43:
+000002d2 e0d9           1130 	cmp	zero,r27
+000002d4 b205*          1131 	be	.L625
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                        1132 --406:     {
+                        1133 --407:         return err;
+                        1134 --line407
+                        1135 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.44::
+                        1136 .LDWlin44:
+000002d6 1b50           1137 	mov	r27,r10
+000002d8 f52d*          1138 	br	.L623
+                        1139 .L625:
+                        1140 --408:     }
+                        1141 --410:     R_CSISW_SYS_SetPin(Unit, R_CSISW_CLK_PIN, R_CSISW_LEVEL_ACTIVE);
+                        1142 --line410
+                        1143 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.45::
+                        1144 .LDWlin45:
+000002da 1d30           1145 	mov	r29,r6
+000002dc 003a           1146 	mov	0,r7
+000002de 0142           1147 	mov	1,r8
+                        1148 	jarl	_R_CSISW_SYS_SetPin,lp
+                        1148 <EXPANSION BEGIN>
+                        1148 jarl22 _R_CSISW_SYS_SetPin , lp 
+000002e0 80ff0000*      1148 <EXPANSION END>
+                        1149 --411:     R_CSISW_SYS_SetPin(Unit, R_CSISW_SS0_PIN, R_CSISW_LEVEL_INACTIVE);
+                        1150 --line411
+                        1151 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.46::
+                        1152 .LDWlin46:
+000002e4 1d30           1153 	mov	r29,r6
+000002e6 033a           1154 	mov	3,r7
+000002e8 0042           1155 	mov	0,r8
+                        1156 	jarl	_R_CSISW_SYS_SetPin,lp
+                        1156 <EXPANSION BEGIN>
+                        1156 jarl22 _R_CSISW_SYS_SetPin , lp 
+000002ea 80ff0000*      1156 <EXPANSION END>
+                        1157 --412:     R_CSISW_SYS_Delay(Unit, ((1000000 / r_csisw_Dev[Unit].Baudrate)/2));
+                        1158 --line412
+                        1159 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.47::
+                        1160 .LDWlin47:
+000002ee 1df0           1161 	mov	r29,ep
+000002f0 fe00           1162 	sxh	ep
+000002f2 fef60c00       1163 	mulhi	12,ep,ep
+000002f6 1d30           1164 	mov	r29,r6
+000002f8 2e0600000000*  1165 	mov	_r_csisw_Dev,r14
+000002fe 210640420f00   1166 	mov	1000000,r1
+00000304 cef1           1167 	add	r14,ep
+00000306 0475           1168 	sld.w	8[ep],r14
+00000308 ee0ffe02       1169 	divqu	r14,r1,zero
+0000030c 810a           1170 	shr	1,r1
+0000030e 0138           1171 	mov	r1,r7
+                        1172 	jarl	_R_CSISW_SYS_Delay,lp
+                        1172 <EXPANSION BEGIN>
+                        1172 jarl22 _R_CSISW_SYS_Delay , lp 
+00000310 80ff0000*      1172 <EXPANSION END>
+                        1173 --414:     for (i=0; i<Num; i++)
+                        1174 --line414
+                        1175 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.48::
+                        1176 .LDWlin48:
+00000314 00e2           1177 	mov	0,r28
+00000316 850d*          1178 	br	.L631
+                        1179 .L630:
+                        1180 --415:     {
+                        1181 --416:         loc_Csisw_MasterTransferByte(Unit, ((uint8_t*)(Buffer))[i]);
+                        1182 --line416
+                        1183 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.49::
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                        1184 .LDWlin49:
+00000318 1cf0           1185 	mov	r28,ep
+0000031a daf1           1186 	add	r26,ep
+0000031c 6038           1187 	sld.bu	0[ep],r7
+0000031e 1d30           1188 	mov	r29,r6
+                        1189 	jarl	_loc_Csisw_MasterTransferByte,lp
+                        1189 <EXPANSION BEGIN>
+                        1189 jarl22 _loc_Csisw_MasterTransferByte , lp 
+00000320 bfff6efd*      1189 <EXPANSION END>
+                        1190 --line414
+                        1191 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.50::
+                        1192 .LDWlin50:
+00000324 41e2           1193 	add	1,r28
+                        1194 .L631:
+00000326 f9e1           1195 	cmp	r25,r28
+00000328 81fd*          1196 	bl	.L630
+                        1197 --417:     }
+                        1198 --419:     R_CSISW_SYS_SetPin(Unit, R_CSISW_SS0_PIN, R_CSISW_LEVEL_ACTIVE);
+                        1199 --line419
+                        1200 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.51::
+                        1201 .LDWlin51:
+0000032a 1d30           1202 	mov	r29,r6
+0000032c 033a           1203 	mov	3,r7
+0000032e 0142           1204 	mov	1,r8
+                        1205 	jarl	_R_CSISW_SYS_SetPin,lp
+                        1205 <EXPANSION BEGIN>
+                        1205 jarl22 _R_CSISW_SYS_SetPin , lp 
+00000330 80ff0000*      1205 <EXPANSION END>
+                        1206 --421:     return err;
+                        1207 --line421
+                        1208 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.52::
+                        1209 .LDWlin52:
+00000334 1b50           1210 	mov	r27,r10
+                        1211 .L623:
+                        1212 --	    .ef
+                        1213 .LDW14:
+00000336 4006ff70       1214 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                        1215 	.type	_R_CSISW_Write,@function
+                        1216 	.size	_R_CSISW_Write,.-_R_CSISW_Write
+                        1217 	.align	2
+                        1218 .LDW24:
+                        1219 --_i	r28	local
+                        1220 --_err	r27	local
+                        1221 
+                        1222 --_Unit	r29	param
+                        1223 --_Buffer	r26	param
+                        1224 --_Num	r25	param
+                        1225 
+                        1226 	.section ".bss","awb"
+                        1227 .L672:
+                        1228 	.type	.L672,@object
+                        1229 	.size	.L672,0
+                        1230 	.data
+                        1231 	.text
+                        1232 
+                        1233 --422: }
+                        1234 
+                        1235 --425: /*******************************************************************************
+                        1236 --426:   Function: R_CSISW_DeInit
+                        1237 --428:   See: <csisw_api.h>
+                        1238 --429: */
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                        1239 --431: r_csisw_Error_t R_CSISW_DeInit(uint32_t Unit)
+                        1240 	.align	2
+                        1241 	.align	2
+                        1242 	.global	_R_CSISW_DeInit
+                        1243 _R_CSISW_DeInit:
+0000033a 8007e110       1244 	prepare	{r27,r28,r29,r31},0
+0000033e 06e0           1245 	mov	r6,r28
+00000340 3b0600000000*  1246 	mov	_r_csisw_Dev,r27
+                        1247 --	    .bf
+                        1248 .LDW34:
+                        1249 --432:  {
+                        1250 --433:     r_csisw_Error_t err;
+                        1251 --435:     err = R_CSISW_CheckMacroParams(Unit);
+00000346 1c30           1252 	mov	r28,r6
+                        1253 	jarl	_R_CSISW_CheckMacroParams,lp
+                        1253 <EXPANSION BEGIN>
+                        1253 jarl22 _R_CSISW_CheckMacroParams , lp 
+00000348 bfffdefd*      1253 <EXPANSION END>
+0000034c 0ae8           1254 	mov	r10,r29
+                        1255 --437:     if (R_CSISW_ERR_OK  != err)
+                        1256 --line437
+                        1257 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.53::
+                        1258 .LDWlin53:
+0000034e e0e9           1259 	cmp	zero,r29
+00000350 b205*          1260 	be	.L722
+                        1261 --438:     {
+                        1262 --439:         return err;
+                        1263 --line439
+                        1264 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.54::
+                        1265 .LDWlin54:
+00000352 1d50           1266 	mov	r29,r10
+00000354 e515*          1267 	br	.L720
+                        1268 .L722:
+                        1269 --440:     }
+                        1270 --441:     if (0 != r_csisw_Dev[Unit].BaseAddr)
+                        1271 --line441
+                        1272 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.55::
+                        1273 .LDWlin55:
+00000356 1cf0           1274 	mov	r28,ep
+00000358 fe00           1275 	sxh	ep
+0000035a fef60c00       1276 	mulhi	12,ep,ep
+0000035e dbf1           1277 	add	r27,ep
+00000360 000d           1278 	sld.w	0[ep],r1
+00000362 e009           1279 	cmp	zero,r1
+00000364 c20d*          1280 	be	.L725
+                        1281 --442:     {
+                        1282 --444:         r_csisw_Dev[Unit].BaseAddr = 0;
+                        1283 --line444
+                        1284 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.56::
+                        1285 .LDWlin56:
+00000366 1cf0           1286 	mov	r28,ep
+00000368 fe00           1287 	sxh	ep
+0000036a fef60c00       1288 	mulhi	12,ep,ep
+0000036e dbf1           1289 	add	r27,ep
+00000370 0105           1290 	sst.w	zero,0[ep]
+                        1291 --445:         err = R_CSISW_SYS_HardwareDeInit(Unit);
+00000372 1c30           1292 	mov	r28,r6
+                        1293 	jarl	_R_CSISW_SYS_HardwareDeInit,lp
+                        1293 <EXPANSION BEGIN>
+                        1293 jarl22 _R_CSISW_SYS_HardwareDeInit , lp 
+00000374 80ff0000*      1293 <EXPANSION END>
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+00000378 0ae8           1294 	mov	r10,r29
+0000037a a505*          1295 	br	.L727
+                        1296 .L725:
+                        1297 --446:     }
+                        1298 --447:     else
+                        1299 --448:     {
+                        1300 --449:         /* nothing to do at this point of time  */
+                        1301 --450:         err = R_CSISW_ERR_NOTLOCKED;
+                        1302 --line450
+                        1303 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main.57::
+                        1304 .LDWlin57:
+0000037c 04ea           1305 	mov	4,r29
+                        1306 .L727:
+                        1307 --451:     }
+                        1308 --452:     return err;
+0000037e 1d50           1309 	mov	r29,r10
+                        1310 .L720:
+                        1311 --	    .ef
+                        1312 .LDW44:
+00000380 4006ff10       1313 	dispose	0,{r27,r28,r29,r31},[lp]
+                        1314 	.type	_R_CSISW_DeInit,@function
+                        1315 	.size	_R_CSISW_DeInit,.-_R_CSISW_DeInit
+                        1316 	.align	2
+                        1317 .LDW54:
+                        1318 --_err	r29	local
+                        1319 
+                        1320 --_Unit	r28	param
+                        1321 
+                        1322 	.section ".bss","awb"
+                        1323 .L758:
+                        1324 	.type	.L758,@object
+                        1325 	.size	.L758,0
+                        1326 	.data
+                        1327 	.text
+                        1328 
+                        1329 --453: }
+                        1330 
+                        1331 --456: /*******************************************************************************
+                        1332 --457:   Function: R_CSISW_SetErrorCallback
+                        1333 --458: */
+                        1334 --460: void R_CSISW_SetErrorCallback(void(*ErrorCallback )(uint32_t Unit, uint32_t Error))
+                        1335 	.align	2
+                        1336 	.align	2
+                        1337 	.global	_R_CSISW_SetErrorCallback
+                        1338 _R_CSISW_SetErrorCallback:
+00000384 0670           1339 	mov	r6,r14
+00000386 210600000000*  1340 	mov	_loc_ErrorHandler,r1
+                        1341 --	    .bf
+                        1342 .LDW64:
+                        1343 --461: {
+                        1344 --462:     loc_ErrorHandler = ErrorCallback;
+0000038c 2b0600000000*  1345 	mov	_loc_ErrorHandler,r11
+00000392 6b770100       1346 	st.w	r14,0[r11]
+                        1347 --463: }
+00000396 0000           1348 	nop
+                        1349 --	    .ef
+                        1350 .LDW74:
+00000398 7f00           1351 	jmp	[lp]
+                        1352 	.type	_R_CSISW_SetErrorCallback,@function
+                        1353 	.size	_R_CSISW_SetErrorCallback,.-_R_CSISW_SetErrorCallback
+                        1354 	.align	2
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00001301.si
+                        1355 .LDW84:
+                        1356 
+                        1357 --_ErrorCallback	r14	param
+                        1358 
+                        1359 	.data
+                        1360 	.text
+                        1361 
+                        1362 	.align	2
+                        1363 --_loc_ErrorHandler	_loc_ErrorHandler	static
+                        1364 
+                        1365 	.data
+                        1366 	.section ".bss","awb"
+                        1367 	.align	4
+                        1368 	.align	4
+                        1369 	.global	_r_csisw_Dev
+00000000 000000000000   1370 _r_csisw_Dev:	.space	12
+00000006 000000000000 
+                        1371 	.type	_r_csisw_Dev,@object
+                        1372 	.size	_r_csisw_Dev,12
+                        1373 	.data
+                        1374 	.ghsnote version,14
+                        1375 	.ghsnote tools,3
+                        1376 	.ghsnote options,144
+                        1377 	.text
+                        1378 	.align	2
+                        1379 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_csisw_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740385..0::
+                        1380 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

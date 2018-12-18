@@ -1,0 +1,726 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_gfxbus_main.dbo -source=r_gfxbus_main.c -o .\obj\gh_000053k1.o -list=.\obj\r_gfxbus_main.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+Source File: r_gfxbus_main.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c ..\..\..\..\..\macro\gfxbus\src\r_gfxbus_main.c -o
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+                         112 --		.\obj\r_gfxbus_main.o
+                         113 --Source File:   ..\..\..\..\..\macro\gfxbus\src\r_gfxbus_main.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:58 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*
+                         125 --2: ****************************************************************************
+                         126 --3: PROJECT : VLIB Macro Driver  
+                         127 --4: FILE    : $Id: r_gfxbus_main.c 7402 2016-01-27 15:43:39Z florian.zimmermann $
+                         128 --5: ============================================================================ 
+                         129 --6: DESCRIPTION
+                         130 --7: Driver for the GFXBUS macro
+                         131 --8: ============================================================================
+                         132 --9:                             C O P Y R I G H T
+                         133 --10: ============================================================================
+                         134 --11:                        Copyright (c) 2015
+                         135 --12:                                   by 
+                         136 --13:                        Renesas Electronics (Europe) GmbH. 
+                         137 --14:                            Arcadiastrasse 10
+                         138 --15:                           D-40472 Duesseldorf
+                         139 --16:                                Germany
+                         140 --17:                           All rights reserved.
+                         141 --18: ============================================================================
+                         142 --19: Purpose: only for testing, not for mass production
+                         143 --21: DISCLAIMER
+                         144 --23: LICENSEE has read, understood and accepted the terms and conditions defined in
+                         145 --24: the license agreement, especially the usage rights. In any case, it is
+                         146 --25: LICENSEE's responsibility to make sure that any user of the software complies
+                         147 --26: with the terms and conditions of the signed license agreement.
+                         148 --28: SAMPLE CODE is not part of the licensed software, as such it must not be used in
+                         149 --29: mass-production applications. It can only be used for evaluation and
+                         150 --30: demonstration purposes at customer's premises listed in the signed license
+                         151 --31: agreement.
+                         152 --33: ****************************************************************************
+                         153 --34: */
+                         154 --36: /*******************************************************************************
+                         155 --37:   Title: GFXBUS Main Module
+                         156 --39:   Implementation of the API and other global functions.
+                         157 --40: */
+                         158 --42: /*******************************************************************************
+                         159 --43:   Section: Includes
+                         160 --44: */
+                         161 --46: #include "r_typedefs.h"
+                         162 --47: #include "r_gfxbus_api.h"
+                         163 --48: #include "r_gfxbus_sys.h"
+                         164 --49: #include "r_gfxbus_main.h"
+                         165 --52: /*******************************************************************************
+                         166 --53:   Section: Local Constants
+                         167 --54: */
+                         168 --56: /*******************************************************************************
+                         169 --57:   Constant: loc_GfxBusVersion
+                         170 --59:   A string containig the macro driver version information  
+                         171 --60: */
+                         172 --62: #define LOC_GFXBUS_VERSIONPREFIX    "@(#)GFXBUS Version "
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+                         173 --63: #define LOC_GFXBUS_VERSIONPOSTFIX   " - "
+                         174 --66: #define LOC_GFXBUS_VERSION      { LOC_GFXBUS_VERSIONPREFIX  R_XSTR (R_GFXBUS_VERSION_HI) "." \
+                         175 --67:                                 R_XSTR(R_GFXBUS_VERSION_LO) LOC_GFXBUS_VERSIONPOSTFIX \
+                         176 --68:                                 __DATE__ R_SPACE __TIME__ }
+                         177 --69: /*******************************************************************************
+                         178 --70:   Section: Local Variables
+                         179 --71: */
+                         180 --73: /*******************************************************************************
+                         181 --74:   Variable: loc_ErrorHandler
+                         182 --76:   A function pointer to a user callback (Applications error handler)  
+                         183 --77:   
+                         184 --78:   The value is assigned by the application using the driver 
+                         185 --79: */
+                         186 --81: static void (*loc_ErrorHandler )(uint32_t Unit, uint32_t Error) = 0u;
+                         187 --84: /*******************************************************************************
+                         188 --85:   Section: Global Functions
+                         189 --86: */
+                         190 --88: /*******************************************************************************
+                         191 --89:   Function: R_GFXBUS_ErrorHandler
+                         192 --90:   
+                         193 --91:   See: <gfxbus_main.h>
+                         194 --92: */
+                         195 --94: void R_GFXBUS_ErrorHandler(uint32_t Unit, r_gfxbus_Error_t Error) 
+                         196 	.text
+                         197 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740386..0::
+                         198 	.align	2
+                         199 	.global	_R_GFXBUS_ErrorHandler
+                         200 _R_GFXBUS_ErrorHandler:
+00000000 8007e170        201 	prepare	{r25,r26,r27,r28,r29,r31},0
+00000004 3d0600000000*   202 	mov	.L32,r29
+0000000a 06e0            203 	mov	r6,r28
+0000000c 07d8            204 	mov	r7,r27
+0000000e 1dd0            205 	mov	r29,r26
+                         206 --	    .bf
+                         207 .LDW01:
+                         208 --95: {
+                         209 --96:     if (0 != loc_ErrorHandler) 
+00000010 3d0f0100        210 	ld.w	0[r29],r1
+00000014 e009            211 	cmp	zero,r1
+00000016 820d*           212 	be	.L4
+                         213 --97:     {      /* we've got a registered error handler here ...*/
+                         214 --98:         loc_ErrorHandler(Unit, (uint32_t) Error);      /* ... and we gonna use it!*/
+                         215 --line98
+                         216 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.1::
+                         217 .LDWlin1:
+00000018 3dcf0100        218 	ld.w	0[r29],r25
+0000001c 1c30            219 	mov	r28,r6
+0000001e 1b38            220 	mov	r27,r7
+00000020 f9c760f9        221 	jarl	[r25],lp
+00000024 b505*           222 	br	.L6
+                         223 .L4:
+                         224 --99:     } 
+                         225 --100:     else 
+                         226 --101:     {
+                         227 --102:         for(;;) 
+                         228 --line102
+                         229 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.2::
+                         230 .LDWlin2:
+00000026 0000            231 	nop
+                         232 .L9:
+                         233 --103:         {        /* we don't have a handler */
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+00000028 8505*           234 	br	.L9
+                         235 .L6:
+                         236 --104:         }        /* so, let's wait here */
+                         237 --105:     }
+                         238 --106: }
+                         239 --line106
+                         240 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.3::
+                         241 .LDWlin3:
+0000002a 0000            242 	nop
+                         243 --	    .ef
+                         244 .LDW11:
+0000002c 4006ff70        245 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         246 	.type	_R_GFXBUS_ErrorHandler,@function
+                         247 	.size	_R_GFXBUS_ErrorHandler,.-_R_GFXBUS_ErrorHandler
+                         248 	.align	2
+                         249 .LDW21:
+                         250 
+                         251 --_Unit	r28	param
+                         252 --_Error	r27	param
+                         253 
+                         254 	.data
+                         255 	.align	4
+                         256 .L32:
+                         257 	.type	.L32,@object
+                         258 	.size	.L32,0
+                         259 	.global	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.
+                         260 _loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.:
+                         261 	.type	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.,@object
+                         262 	.size	_loc_ErrorHandler..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.,4
+00000000 00000000        263 _loc_ErrorHandler:	.byte	0,0,0,0
+                         264 	.type	_loc_ErrorHandler,@object
+                         265 	.size	_loc_ErrorHandler,4
+                         266 	.text
+                         267 
+                         268 
+                         269 --108: /*******************************************************************************
+                         270 --109:   Section: Global API Functions
+                         271 --110:   
+                         272 --111:   See: <gfxbus_api.h>
+                         273 --112: */
+                         274 --114: /*******************************************************************************
+                         275 --115:   Function: R_GFXBUS_GetVersionStr
+                         276 --117:   See: <gfxbus_api.h> 
+                         277 --118: */
+                         278 --119: const int8_t * R_GFXBUS_GetVersionStr(void)
+                         279 	.align	2
+                         280 	.align	2
+                         281 	.global	_R_GFXBUS_GetVersionStr
+                         282 _R_GFXBUS_GetVersionStr:
+                         283 --	    .bf
+                         284 .LDW31:
+                         285 --120: {
+                         286 --121:     static const int8_t version[] = LOC_GFXBUS_VERSION;
+                         287 --122:     return version;
+00000030 2a0600000000*   288 	mov	.L81,r10
+                         289 --	    .ef
+                         290 .LDW41:
+00000036 7f00            291 	jmp	[lp]
+                         292 	.type	_R_GFXBUS_GetVersionStr,@function
+                         293 	.size	_R_GFXBUS_GetVersionStr,.-_R_GFXBUS_GetVersionStr
+                         294 	.align	2
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+                         295 .LDW51:
+                         296 --_version	.L81	static
+                         297 
+                         298 	.section ".bss","awb"
+                         299 .L72:
+                         300 	.type	.L72,@object
+                         301 	.size	.L72,0
+                         302 	.section ".rodata","a"
+                         303 .L81:
+                         304 	.global	_version.R_GFXBUS_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main..1
+                         305 _version.R_GFXBUS_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main..1:
+                         306 	.type	_version.R_GFXBUS_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main..1,@object
+                         307 	.size	_version.R_GFXBUS_GetVersionStr.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main..1,46
+                         308 --	"@(#)GFXBUS Version 0.1 - Feb  2 2018 14:21:58"
+00000000 40282329        309 	.byte	64,40,35,41
+00000004 47465842        310 	.byte	71,70,88,66
+00000008 55532056        311 	.byte	85,83,32,86
+0000000c 65727369        312 	.byte	101,114,115,105
+00000010 6f6e2030        313 	.byte	111,110,32,48
+00000014 2e31202d        314 	.byte	46,49,32,45
+00000018 20466562        315 	.byte	32,70,101,98
+0000001c 20203220        316 	.byte	32,32,50,32
+00000020 32303138        317 	.byte	50,48,49,56
+00000024 2031343a        318 	.byte	32,49,52,58
+00000028 32313a35        319 	.byte	50,49,58,53
+0000002c 3800            320 	.byte	56,0
+                         321 	.type	.L81,@object
+                         322 	.size	.L81,46
+                         323 	.data
+                         324 	.text
+                         325 
+                         326 --123: }
+                         327 
+                         328 --125: /*******************************************************************************
+                         329 --126:   Function: R_GFXBUS_GetMajorVersion
+                         330 --128:   See: <gfxbus_api.h> 
+                         331 --129: */
+                         332 --130: const uint16_t R_GFXBUS_GetMajorVersion(void) 
+                         333 	.align	2
+                         334 	.align	2
+                         335 	.global	_R_GFXBUS_GetMajorVersion
+                         336 _R_GFXBUS_GetMajorVersion:
+                         337 --	    .bf
+                         338 .LDW61:
+                         339 --131: {
+                         340 --132:     return (uint16_t)R_GFXBUS_VERSION_HI; 
+00000038 0052            341 	mov	0,r10
+                         342 --	    .ef
+                         343 .LDW71:
+0000003a 7f00            344 	jmp	[lp]
+                         345 	.type	_R_GFXBUS_GetMajorVersion,@function
+                         346 	.size	_R_GFXBUS_GetMajorVersion,.-_R_GFXBUS_GetMajorVersion
+                         347 	.align	2
+                         348 .LDW81:
+                         349 
+                         350 	.section ".bss","awb"
+                         351 .L104:
+                         352 	.type	.L104,@object
+                         353 	.size	.L104,0
+                         354 	.data
+                         355 	.text
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+                         356 
+                         357 --133: }
+                         358 
+                         359 --135: /*******************************************************************************
+                         360 --136:   Function: R_GFXBUS_GetMinorVersion
+                         361 --138:   See: <gfxbus_api.h> 
+                         362 --139: */
+                         363 --140: const uint16_t R_GFXBUS_GetMinorVersion(void) 
+                         364 	.align	2
+                         365 	.align	2
+                         366 	.global	_R_GFXBUS_GetMinorVersion
+                         367 _R_GFXBUS_GetMinorVersion:
+                         368 --	    .bf
+                         369 .LDW91:
+                         370 --141: {
+                         371 --142:     return (uint16_t)R_GFXBUS_VERSION_LO; 
+0000003c 0152            372 	mov	1,r10
+                         373 --	    .ef
+                         374 .LDW02:
+0000003e 7f00            375 	jmp	[lp]
+                         376 	.type	_R_GFXBUS_GetMinorVersion,@function
+                         377 	.size	_R_GFXBUS_GetMinorVersion,.-_R_GFXBUS_GetMinorVersion
+                         378 	.align	2
+                         379 .LDW12:
+                         380 
+                         381 	.section ".bss","awb"
+                         382 .L136:
+                         383 	.type	.L136,@object
+                         384 	.size	.L136,0
+                         385 	.data
+                         386 	.text
+                         387 
+                         388 --143: }
+                         389 
+                         390 --147: /*******************************************************************************
+                         391 --148:   Function: R_GFXBUS_Init
+                         392 --150:   See: <gfxbus_api.h> 
+                         393 --151: */
+                         394 --153:  int32_t R_GFXBUS_Init(uint32_t Unit) 
+                         395 	.align	2
+                         396 	.align	2
+                         397 	.global	_R_GFXBUS_Init
+                         398 _R_GFXBUS_Init:
+00000040 8007e100        399 	prepare	{r28,r29,r31},0
+00000044 06e0            400 	mov	r6,r28
+                         401 --	    .bf
+                         402 .LDW22:
+                         403 --154:  {
+                         404 --155:     int32_t err;
+                         405 --156:     err = R_GFXBUS_SYS_Init(Unit);
+00000046 1c30            406 	mov	r28,r6
+                         407 	jarl	_R_GFXBUS_SYS_Init,lp
+                         407 <EXPANSION BEGIN>
+                         407 jarl22 _R_GFXBUS_SYS_Init , lp 
+00000048 80ff0000*       407 <EXPANSION END>
+0000004c 0ae8            408 	mov	r10,r29
+                         409 --157:     return err;
+                         410 --line157
+                         411 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.4::
+                         412 .LDWlin4:
+0000004e 1d50            413 	mov	r29,r10
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+                         414 --	    .ef
+                         415 .LDW32:
+00000050 4006ff00        416 	dispose	0,{r28,r29,r31},[lp]
+                         417 	.type	_R_GFXBUS_Init,@function
+                         418 	.size	_R_GFXBUS_Init,.-_R_GFXBUS_Init
+                         419 	.align	2
+                         420 .LDW42:
+                         421 --_err	r29	local
+                         422 
+                         423 --_Unit	r28	param
+                         424 
+                         425 	.section ".bss","awb"
+                         426 .L170:
+                         427 	.type	.L170,@object
+                         428 	.size	.L170,0
+                         429 	.data
+                         430 	.text
+                         431 
+                         432 --158: }
+                         433 
+                         434 --160: /*******************************************************************************
+                         435 --161:   Function: R_GFXBUS_Config
+                         436 --163:   See: <gfxbus_api.h> 
+                         437 --164: */
+                         438 --166:  r_gfxbus_Error_t R_GFXBUS_Config(uint32_t Unit, r_gfxbus_Cfg_t * Cfg) 
+                         439 	.align	2
+                         440 	.align	2
+                         441 	.global	_R_GFXBUS_Config
+                         442 _R_GFXBUS_Config:
+00000054 8007e110        443 	prepare	{r27,r28,r29,r31},0
+00000058 06e0            444 	mov	r6,r28
+0000005a 07d8            445 	mov	r7,r27
+                         446 --	    .bf
+                         447 .LDW52:
+                         448 --167:  {
+                         449 --168:     r_gfxbus_Error_t err;
+                         450 --169:     err = R_GFXBUS_SYS_Config(Unit, Cfg);
+0000005c 1c30            451 	mov	r28,r6
+0000005e 1b38            452 	mov	r27,r7
+                         453 	jarl	_R_GFXBUS_SYS_Config,lp
+                         453 <EXPANSION BEGIN>
+                         453 jarl22 _R_GFXBUS_SYS_Config , lp 
+00000060 80ff0000*       453 <EXPANSION END>
+00000064 0ae8            454 	mov	r10,r29
+                         455 --170:     return err;
+                         456 --line170
+                         457 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.5::
+                         458 .LDWlin5:
+00000066 1d50            459 	mov	r29,r10
+                         460 --	    .ef
+                         461 .LDW62:
+00000068 4006ff10        462 	dispose	0,{r27,r28,r29,r31},[lp]
+                         463 	.type	_R_GFXBUS_Config,@function
+                         464 	.size	_R_GFXBUS_Config,.-_R_GFXBUS_Config
+                         465 	.align	2
+                         466 .LDW72:
+                         467 --_err	r29	local
+                         468 
+                         469 --_Unit	r28	param
+                         470 --_Cfg	r27	param
+                         471 
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+                         472 	.section ".bss","awb"
+                         473 .L202:
+                         474 	.type	.L202,@object
+                         475 	.size	.L202,0
+                         476 	.data
+                         477 	.text
+                         478 
+                         479 --171: }
+                         480 
+                         481 --173: /*******************************************************************************
+                         482 --174:   Function: R_GFXBUS_SetMode
+                         483 --176:   See: <gfxbus_api.h> 
+                         484 --177: */
+                         485 --179: r_gfxbus_Error_t R_GFXBUS_SetMode(uint32_t Unit, uint8_t Area, r_gfxbus_AreaMode_t Mode)
+                         486 	.align	2
+                         487 	.align	2
+                         488 	.global	_R_GFXBUS_SetMode
+                         489 _R_GFXBUS_SetMode:
+0000006c 8007e130        490 	prepare	{r26,r27,r28,r29,r31},0
+00000070 06e0            491 	mov	r6,r28
+00000072 c7deff00        492 	andi	255,r7,r27
+00000076 08d0            493 	mov	r8,r26
+                         494 --	    .bf
+                         495 .LDW82:
+                         496 --180: {
+                         497 --181:     r_gfxbus_Error_t err;
+                         498 --182:     err = R_GFXBUS_SYS_SetMode(Unit, Area, Mode);
+00000078 1c30            499 	mov	r28,r6
+0000007a 1b38            500 	mov	r27,r7
+0000007c 1a40            501 	mov	r26,r8
+                         502 	jarl	_R_GFXBUS_SYS_SetMode,lp
+                         502 <EXPANSION BEGIN>
+                         502 jarl22 _R_GFXBUS_SYS_SetMode , lp 
+0000007e 80ff0000*       502 <EXPANSION END>
+00000082 0ae8            503 	mov	r10,r29
+                         504 --183:     return err;
+                         505 --line183
+                         506 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.6::
+                         507 .LDWlin6:
+00000084 1d50            508 	mov	r29,r10
+                         509 --	    .ef
+                         510 .LDW92:
+00000086 4006ff30        511 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                         512 	.type	_R_GFXBUS_SetMode,@function
+                         513 	.size	_R_GFXBUS_SetMode,.-_R_GFXBUS_SetMode
+                         514 	.align	2
+                         515 .LDW03:
+                         516 --_err	r29	local
+                         517 
+                         518 --_Unit	r28	param
+                         519 --_Area	r27	param
+                         520 --_Mode	r26	param
+                         521 
+                         522 	.section ".bss","awb"
+                         523 .L234:
+                         524 	.type	.L234,@object
+                         525 	.size	.L234,0
+                         526 	.data
+                         527 	.text
+                         528 
+                         529 --184: }
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+                         530 
+                         531 --186: /*******************************************************************************
+                         532 --187:   Function: R_GFXBUS_Flush
+                         533 --189:   See: <gfxbus_api.h> 
+                         534 --190: */
+                         535 --192: void R_GFXBUS_Flush(uint32_t Unit, uint32_t Flush, uint32_t Size) 
+                         536 	.align	2
+                         537 	.align	2
+                         538 	.global	_R_GFXBUS_Flush
+                         539 _R_GFXBUS_Flush:
+0000008a 8007e110        540 	prepare	{r27,r28,r29,r31},0
+0000008e 06e8            541 	mov	r6,r29
+00000090 07e0            542 	mov	r7,r28
+00000092 08d8            543 	mov	r8,r27
+                         544 --	    .bf
+                         545 .LDW13:
+                         546 --193: {
+                         547 --194:   
+                         548 --195:     R_GFXBUS_SYS_Flush(Unit, Flush, Size);
+00000094 1d30            549 	mov	r29,r6
+00000096 1c38            550 	mov	r28,r7
+00000098 1b40            551 	mov	r27,r8
+                         552 	jarl	_R_GFXBUS_SYS_Flush,lp
+                         552 <EXPANSION BEGIN>
+                         552 jarl22 _R_GFXBUS_SYS_Flush , lp 
+0000009a 80ff0000*       552 <EXPANSION END>
+                         553 --196: }
+                         554 --line196
+                         555 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.7::
+                         556 .LDWlin7:
+0000009e 0000            557 	nop
+                         558 --	    .ef
+                         559 .LDW23:
+000000a0 4006ff10        560 	dispose	0,{r27,r28,r29,r31},[lp]
+                         561 	.type	_R_GFXBUS_Flush,@function
+                         562 	.size	_R_GFXBUS_Flush,.-_R_GFXBUS_Flush
+                         563 	.align	2
+                         564 .LDW33:
+                         565 
+                         566 --_Unit	r29	param
+                         567 --_Flush	r28	param
+                         568 --_Size	r27	param
+                         569 
+                         570 	.section ".bss","awb"
+                         571 .L266:
+                         572 	.type	.L266,@object
+                         573 	.size	.L266,0
+                         574 	.data
+                         575 	.text
+                         576 
+                         577 
+                         578 --198: /*******************************************************************************
+                         579 --199:   Function: R_GFXBUS_DeInit
+                         580 --201:   See: <gfxbus_api.h> 
+                         581 --202: */
+                         582 --204:  int32_t R_GFXBUS_DeInit(uint32_t Unit)
+                         583 	.align	2
+                         584 	.align	2
+                         585 	.global	_R_GFXBUS_DeInit
+                         586 _R_GFXBUS_DeInit:
+000000a4 8007e100        587 	prepare	{r28,r29,r31},0
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+000000a8 06e0            588 	mov	r6,r28
+                         589 --	    .bf
+                         590 .LDW43:
+                         591 --205:  {
+                         592 --206:     int32_t err;
+                         593 --207:     err = R_GFXBUS_SYS_DeInit(Unit);
+000000aa 1c30            594 	mov	r28,r6
+                         595 	jarl	_R_GFXBUS_SYS_DeInit,lp
+                         595 <EXPANSION BEGIN>
+                         595 jarl22 _R_GFXBUS_SYS_DeInit , lp 
+000000ac 80ff0000*       595 <EXPANSION END>
+000000b0 0ae8            596 	mov	r10,r29
+                         597 --208:     return err;
+                         598 --line208
+                         599 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main.8::
+                         600 .LDWlin8:
+000000b2 1d50            601 	mov	r29,r10
+                         602 --	    .ef
+                         603 .LDW53:
+000000b4 4006ff00        604 	dispose	0,{r28,r29,r31},[lp]
+                         605 	.type	_R_GFXBUS_DeInit,@function
+                         606 	.size	_R_GFXBUS_DeInit,.-_R_GFXBUS_DeInit
+                         607 	.align	2
+                         608 .LDW63:
+                         609 --_err	r29	local
+                         610 
+                         611 --_Unit	r28	param
+                         612 
+                         613 	.section ".bss","awb"
+                         614 .L298:
+                         615 	.type	.L298,@object
+                         616 	.size	.L298,0
+                         617 	.data
+                         618 	.text
+                         619 
+                         620 --209: }
+                         621 
+                         622 --212: /*******************************************************************************
+                         623 --213:   Function: R_GFXBUS_SetErrorCallback
+                         624 --214: */
+                         625 --216: void R_GFXBUS_SetErrorCallback(void(*ErrorCallback )(uint32_t Unit, uint32_t Error)) 
+                         626 	.align	2
+                         627 	.align	2
+                         628 	.global	_R_GFXBUS_SetErrorCallback
+                         629 _R_GFXBUS_SetErrorCallback:
+000000b8 0670            630 	mov	r6,r14
+000000ba 210600000000*   631 	mov	_loc_ErrorHandler,r1
+                         632 --	    .bf
+                         633 .LDW73:
+                         634 --217: {
+                         635 --218:     loc_ErrorHandler = ErrorCallback;
+000000c0 2b0600000000*   636 	mov	_loc_ErrorHandler,r11
+000000c6 6b770100        637 	st.w	r14,0[r11]
+                         638 --219: }
+000000ca 0000            639 	nop
+                         640 --	    .ef
+                         641 .LDW83:
+000000cc 7f00            642 	jmp	[lp]
+                         643 	.type	_R_GFXBUS_SetErrorCallback,@function
+                         644 	.size	_R_GFXBUS_SetErrorCallback,.-_R_GFXBUS_SetErrorCallback
+                         645 	.align	2
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_000053k1.si
+                         646 .LDW93:
+                         647 
+                         648 --_ErrorCallback	r14	param
+                         649 
+                         650 	.data
+                         651 	.text
+                         652 
+                         653 	.align	2
+                         654 --_loc_ErrorHandler	_loc_ErrorHandler	static
+                         655 
+                         656 	.data
+                         657 	.ghsnote version,14
+                         658 	.ghsnote tools,3
+                         659 	.ghsnote options,144
+                         660 	.text
+                         661 	.align	2
+                         662 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_gfxbus_main...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740386..0::
+                         663 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

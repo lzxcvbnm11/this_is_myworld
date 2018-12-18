@@ -1,0 +1,1050 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\pwm.dbo -source=pwm.c -o .\obj\gh_00005pk1.o -list=.\obj\pwm.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+Source File: pwm.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\PWM\pwm.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+                         112 --		-o .\obj\pwm.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\PWM\pwm.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:24 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --2: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --3: *
+                         127 --4: * File Name : pwm.C
+                         128 --5: * Description :pwm module driver.
+                         129 --6: * Author: Xueping.Chen
+                         130 --7: * Date: 2016-12-13
+                         131 --8: ******************************************************************************/
+                         132 --9: /*delete the interrupt -2016.12.29*/
+                         133 --10: /* Files for including */
+                         134 --11: #include "pwmm_public.h"
+                         135 --12: #include "pwm_info.inc"
+                         136 --15: static BOOL pwm_InitSts = FALSE;
+                         137 --18: /***************************************************
+                         138 --19: * Function: PWM_Init
+                         139 --20: * Description: pwm initialized
+                         140 --21: * Parameters: none
+                         141 --22: * Returns: none
+                         142 --23: * $Create & Verlog:$
+                         143 --24: * Author:Xueping.Chen  Date:2016-12-13   Version:V1.0
+                         144 --25: ****************************************************/
+                         145 --26: void PWM_Init(void)
+                         146 	.text
+                         147 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740365..0::
+                         148 	.align	2
+                         149 	.global	_PWM_Init
+                         150 _PWM_Init:
+00000000 210600000000*   151 	mov	.L64,r1
+00000006 3e06400061ff    152 	mov	-10420160,ep
+0000000c 0170            153 	mov	r1,r14
+                         154 --	    .bf
+                         155 .LDW01:
+                         156 --27: {
+                         157 --28:     pwm_InitSts = FALSE;
+0000000e 41070000        158 	st.b	zero,0[r1]
+                         159 --29:     /*The INTC2 registers are not accessible per default as these registers are guarded by
+                         160 --30:             the PBUS Guard PBG0B. Before accessing any of these registers the PBG0B protection
+                         161 --31:             register FSGD0BPROT0 has to be set to 07FF FFFFH.*/
+                         162 --32:             
+                         163 --33:     PBGFSGD0BPROT0 = 0x07FFFFFFUL;  
+00000012 2d06ffffff07    164 	mov	134217727,r13
+00000018 80070f688089    165 	st.w	r13,4291084288[zero]
+                         166 --35:     
+                         167 --36:     /* PWGA42O (P42_0:CN1C-80pin) */
+                         168 --37:     /*PFCAE42_0 = 0, PFCE42_0 = 0, PFC42_0 = 1, PM42_0 = 0 PMC42_0 = 1, alternative function 2*/
+                         169 --38:     PORT_ISOPCR16_4 = 0x00000041;
+0000001e 206e4100        170 	movea	65,zero,r13
+00000022 7e6fd123        171 	st.w	r13,9168[ep]
+                         172 --39:     PORT_ISOPCR16_5 = 0x00000041;
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+00000026 206e4100        173 	movea	65,zero,r13
+0000002a 7e6fd523        174 	st.w	r13,9172[ep]
+                         175 --40:     PORT_ISOPCR16_6 = 0x00000041;
+0000002e 206e4100        176 	movea	65,zero,r13
+00000032 7e6fd923        177 	st.w	r13,9176[ep]
+                         178 --41:     PORT_ISOPCR16_7 = 0x00000041;
+00000036 206e4100        179 	movea	65,zero,r13
+0000003a 7e6fdd23        180 	st.w	r13,9180[ep]
+                         181 --42:     /* Setting of the clock cycle of PWMCLKm.
+                         182 --43:     PWBAnBRSm    - PWBAnBRSm Register
+                         183 --44:     b15:b11                   - Reserved set to 0
+                         184 --45:     b10:b 0        PWBAnBRSm  - Register for setting the clock cycle of PWMCLKm.      - PWMCLKm = PCLK / 2 * 16  */
+                         185 --46:     /*the pwmclk0 may be need to adjudtment*/
+                         186 --47:     PWBA0.BRS0.UINT16 = 0x0010U;                /* PWMCLK0 = PCLK / ( 2 * 16 ) = 2.5MHz , (PCLK = 80MHz) */
+0000003e 206e1000        187 	movea	16,zero,r13
+00000042 a0070d68b0c8    188 	st.h	r13,4293154816[zero]
+                         189 --50:     /* Sets the setting condition for PWGA_TOUTn output.
+                         190 --51:     PWGAnCSDR    - PWM Output Set Condition Register
+                         191 --52:     b15:b12                   - Reserved set to 0
+                         192 --53:     b11:b 0        PWGAnCSDR  - Setting condition for PWM output. */
+                         193 --54:                                 /* PWM period = ( 1 / PWMCLK0 ) * (4095+1) = 0.0016384s (TRGOUT0) , (PWMCLK0 = 2.5MHz) */
+                         194 --55:                                 /* High Level = (PWGAnCRDR - PWGAnCSDR) * ( 1 / PWMCLK0 )                              */
+                         195 --56:     PWGA20.CSDR.UINT16 = 0x0FFFU / 2U;
+00000048 206eff07        196 	movea	2047,zero,r13
+0000004c a0070d68a8c8    197 	st.h	r13,4293153792[zero]
+                         198 --57:     PWGA21.CSDR.UINT16 = 0x0FFFU / 2U;
+00000052 206eff07        199 	movea	2047,zero,r13
+00000056 a0070d68aac8    200 	st.h	r13,4293154048[zero]
+                         201 --58:     PWGA22.CSDR.UINT16 = 0x0FFFU / 2U;
+0000005c 206eff07        202 	movea	2047,zero,r13
+00000060 a0070d68acc8    203 	st.h	r13,4293154304[zero]
+                         204 --59:     PWGA23.CSDR.UINT16 = 0x0FFFU / 2U;
+00000066 206eff07        205 	movea	2047,zero,r13
+0000006a a0070d68aec8    206 	st.h	r13,4293154560[zero]
+                         207 --60:     /* Sets the reset condition for PWGA_TOUTn output.
+                         208 --61:     PWGAnCRDR    - PWM Output Set Condition Register
+                         209 --62:     b15:b12                   - Reserved set to 0
+                         210 --63:     b11:b 0        PWGAnCRDR  - Reset condition for PWM output. */
+                         211 --64:     PWGA20.CRDR.UINT16 = 0x0FFFU;
+00000070 206eff0f        212 	movea	4095,zero,r13
+00000074 a0074d68a8c8    213 	st.h	r13,4293153796[zero]
+                         214 --65:     PWGA21.CRDR.UINT16 = 0x0FFFU;
+0000007a 206eff0f        215 	movea	4095,zero,r13
+0000007e a0074d68aac8    216 	st.h	r13,4293154052[zero]
+                         217 --66:     PWGA22.CRDR.UINT16 = 0x0FFFU;
+00000084 206eff0f        218 	movea	4095,zero,r13
+00000088 a0074d68acc8    219 	st.h	r13,4293154308[zero]
+                         220 --67:     PWGA23.CRDR.UINT16 = 0x0FFFU;
+0000008e 206eff0f        221 	movea	4095,zero,r13
+00000092 a0074d68aec8    222 	st.h	r13,4293154564[zero]
+                         223 --68:     /* Select the count clock from PWBA.
+                         224 --69:     PWGAnCTL     - PWGA Control Register
+                         225 --70:     b 7:b 6                   - Reserved set to 0
+                         226 --71:     b 0            PWGAnCKS   - Count Clock Enable Input PWMCLK3 to PWMCLK0 Select    - Uses PWMCLK0 as count clock */
+                         227 --72:     PWGA20.CTL.UINT8 = 0x00U;
+00000098 80070d02a8c8    228 	st.b	zero,4293153824[zero]
+                         229 --73:     PWGA21.CTL.UINT8 = 0x00U;
+0000009e 80070d02aac8    230 	st.b	zero,4293154080[zero]
+                         231 --74:     PWGA22.CTL.UINT8 = 0x00U;
+000000a4 80070d02acc8    232 	st.b	zero,4293154336[zero]
+                         233 --75:     PWGA23.CTL.UINT8 = 0x00U;
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+000000aa 80070d02aec8    234 	st.b	zero,4293154592[zero]
+                         235 --76:     pwm_InitSts = TRUE;
+000000b0 016a            236 	mov	1,r13
+000000b2 416f0000        237 	st.b	r13,0[r1]
+                         238 --77: }
+000000b6 0000            239 	nop
+                         240 --	    .ef
+                         241 .LDW11:
+000000b8 7f00            242 	jmp	[lp]
+                         243 	.type	_PWM_Init,@function
+                         244 	.size	_PWM_Init,.-_PWM_Init
+                         245 	.align	2
+                         246 .LDW21:
+                         247 
+                         248 	.data
+                         249 .L64:
+                         250 	.type	.L64,@object
+                         251 	.size	.L64,0
+                         252 	.global	_pwm_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.
+                         253 _pwm_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.:
+                         254 	.type	_pwm_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.,@object
+                         255 	.size	_pwm_InitSts..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.,1
+00000000 00              256 _pwm_InitSts:	.byte	0
+                         257 	.type	_pwm_InitSts,@object
+                         258 	.size	_pwm_InitSts,1
+                         259 	.text
+                         260 
+                         261 
+                         262 --79: /***************************************************
+                         263 --80: * Function: PWM_GetInitStatus
+                         264 --81: * Description: get the status of the pwm initializing
+                         265 --82: * Parameters: none
+                         266 --83: * Returns: TRUE or FALSE
+                         267 --84: * $Create & Verlog:$
+                         268 --85: * Author:Xueping.Chen  Date:2016-12-13   Version:V1.0
+                         269 --86: ****************************************************/
+                         270 --87: U8 PWM_GetInitStatus(void)
+                         271 	.align	2
+                         272 	.align	2
+                         273 	.global	_PWM_GetInitStatus
+                         274 _PWM_GetInitStatus:
+000000ba 210600000000*   275 	mov	_pwm_InitSts,r1
+                         276 --	    .bf
+                         277 .LDW31:
+                         278 --88: {
+                         279 --89:     return pwm_InitSts;
+000000c0 2a0600000000*   280 	mov	_pwm_InitSts,r10
+000000c6 8a570100        281 	ld.bu	0[r10],r10
+                         282 --	    .ef
+                         283 .LDW41:
+000000ca 7f00            284 	jmp	[lp]
+                         285 	.type	_PWM_GetInitStatus,@function
+                         286 	.size	_PWM_GetInitStatus,.-_PWM_GetInitStatus
+                         287 	.align	2
+                         288 .LDW51:
+                         289 
+                         290 	.data
+                         291 	.text
+                         292 
+                         293 --90: }
+                         294 
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+                         295 --92: /***************************************************
+                         296 --93: * Function: PWM_SetParas
+                         297 --94: * Description: set the cycle and duty of the pwm
+                         298 --95: * Parameters: channel : input  the channel of the pwm
+                         299 --96:                          cycle : input       the period of the pwm
+                         300 --97:                          duty : input        the duty of the pwm
+                         301 --98: * Returns:  reference PwmRes_ENUM
+                         302 --99: * $Create & Verlog:$
+                         303 --100: * Author:Xueping.Chen  Date:2016-12-13   Version:V1.0
+                         304 --101: ****************************************************/
+                         305 --102: U8 PWM_SetParas(U8 Channel, U8 Cycle , U8 Duty)
+                         306 	.align	2
+                         307 	.align	2
+                         308 	.global	_PWM_SetParas
+                         309 _PWM_SetParas:
+000000cc c666ff00        310 	andi	255,r6,r12
+000000d0 c75eff00        311 	andi	255,r7,r11
+000000d4 c876ff00        312 	andi	255,r8,r14
+000000d8 210600000000*   313 	mov	_pwm_InitSts,r1
+                         314 --	    .bf
+                         315 .LDW61:
+                         316 --103: {
+                         317 --104:     U8 res = RET_FAIL;
+000000de 006a            318 	mov	0,r13
+                         319 --106: 	if (PWM_DUTY_MAX < Duty)
+000000e0 0e069bff        320 	addi	-101,r14,zero
+000000e4 b905*           321 	bnl	.L165
+                         322 --107: 		Duty =PWM_DUTY_MAX;
+                         323 --line107
+                         324 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.1::
+                         325 .LDWlin1:
+000000e6 20766400        326 	movea	100,zero,r14
+                         327 .L165:
+                         328 --108: 	
+                         329 --109:     /*周期暂时固定一个周期，这个周期到时需要调试确定*/
+                         330 --110:     if (FALSE == pwm_InitSts)
+000000ea 210600000000*   331 	mov	_pwm_InitSts,r1
+000000f0 810f0100        332 	ld.bu	0[r1],r1
+000000f4 e009            333 	cmp	zero,r1
+000000f6 ca05*           334 	bne	.L167
+                         335 --111:     {
+                         336 --112:         res = RET_FAIL;
+                         337 --line112
+                         338 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.2::
+                         339 .LDWlin2:
+000000f8 006a            340 	mov	0,r13
+000000fa 80070201*       341 	br	.L169
+                         342 .L167:
+                         343 --113:     }
+                         344 --114:     else if (CH_PWMM_ALL <= Channel)
+                         345 --line114
+                         346 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.3::
+                         347 .LDWlin3:
+000000fe 6462            348 	cmp	4,r12
+00000100 b105*           349 	bl	.L170
+                         350 --115:     {
+                         351 --116:         res = RET_INVALID;
+                         352 --line116
+                         353 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.4::
+                         354 .LDWlin4:
+00000102 026a            355 	mov	2,r13
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+00000104 c57d*           356 	br	.L169
+                         357 .L170:
+                         358 --117:     }
+                         359 --118:     else if (CH_PWMM_TFT == Channel)  /*TFT PWM channel*/
+                         360 --line118
+                         361 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.5::
+                         362 .LDWlin5:
+00000106 e061            363 	cmp	zero,r12
+00000108 ea1d*           364 	bne	.L173
+                         365 --119:     {  
+                         366 --120:         if ((PWGA20.RSF.UINT8 & 0x01U) == 0x00U)
+                         367 --line120
+                         368 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.6::
+                         369 .LDWlin6:
+0000010a a0070509a8c8    370 	ld.bu	4293153808[zero],r1
+00000110 810a            371 	shr	1,r1
+00000112 c115*           372 	bl	.L177
+                         373 --121:         {
+                         374 --122:             PWGA20.CSDR.UINT16 = (0x0FFFU * (PWM_DUTY_MAX - Duty))/ PWM_DUTY_MAX; 
+                         375 --line122
+                         376 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.7::
+                         377 .LDWlin7:
+00000114 200e6400        378 	movea	100,zero,r1
+00000118 2056ff0f        379 	movea	4095,zero,r10
+0000011c ae09            380 	sub	r14,r1
+0000011e ea0f2202        381 	mulu	r10,r1,zero
+00000122 20566400        382 	movea	100,zero,r10
+00000126 ea0ffe02        383 	divqu	r10,r1,zero
+0000012a a0070d08a8c8    384 	st.h	r1,4293153792[zero]
+                         385 --123:             PWGA20.CRDR.UINT16 = 0x0FFFU;
+00000130 200eff0f        386 	movea	4095,zero,r1
+00000134 a0074d08a8c8    387 	st.h	r1,4293153796[zero]
+                         388 .L177:
+                         389 --124:         }
+                         390 --125:         else
+                         391 --126:         {
+                         392 --127:         }
+                         393 --128:         PWGA20.RDT.UINT8 = 0x01U;
+0000013a 010a            394 	mov	1,r1
+0000013c 8007cd08a8c8    395 	st.b	r1,4293153804[zero]
+00000142 d55d*           396 	br	.L169
+                         397 .L173:
+                         398 --129:     }
+                         399 --130:     else if (CH_PWMM_POINTER == Channel) /*POINT PWM channel*/
+                         400 --line130
+                         401 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.8::
+                         402 .LDWlin8:
+00000144 6262            403 	cmp	2,r12
+00000146 ea1d*           404 	bne	.L179
+                         405 --131:     {
+                         406 --133: 	 if ((PWGA22.RSF.UINT8 & 0x01U) == 0x00U )
+                         407 --line133
+                         408 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.9::
+                         409 .LDWlin9:
+00000148 a0070509acc8    410 	ld.bu	4293154320[zero],r1
+0000014e 810a            411 	shr	1,r1
+00000150 c115*           412 	bl	.L183
+                         413 --134:         {
+                         414 --135:             PWGA22.CSDR.UINT16 = (0x0FFFU * (PWM_DUTY_MAX - Duty))/ PWM_DUTY_MAX;
+                         415 --line135
+                         416 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.10::
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+                         417 .LDWlin10:
+00000152 200e6400        418 	movea	100,zero,r1
+00000156 2056ff0f        419 	movea	4095,zero,r10
+0000015a ae09            420 	sub	r14,r1
+0000015c ea0f2202        421 	mulu	r10,r1,zero
+00000160 20566400        422 	movea	100,zero,r10
+00000164 ea0ffe02        423 	divqu	r10,r1,zero
+00000168 a0070d08acc8    424 	st.h	r1,4293154304[zero]
+                         425 --136:             PWGA22.CRDR.UINT16 = 0x0FFFU;
+0000016e 200eff0f        426 	movea	4095,zero,r1
+00000172 a0074d08acc8    427 	st.h	r1,4293154308[zero]
+                         428 .L183:
+                         429 --137:         }
+                         430 --138:         else
+                         431 --139:         {
+                         432 --140:         }
+                         433 --141:         PWGA22.RDT.UINT8 = 0x01U;
+00000178 010a            434 	mov	1,r1
+0000017a 8007cd08acc8    435 	st.b	r1,4293154316[zero]
+00000180 e53d*           436 	br	.L169
+                         437 .L179:
+                         438 --142: 		
+                         439 --143:         
+                         440 --144:     }
+                         441 --145:     else if (CH_PWMM_PANEL == Channel)/*PANEL  PWM channel*/
+                         442 --line145
+                         443 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.11::
+                         444 .LDWlin11:
+00000182 6162            445 	cmp	1,r12
+00000184 ea1d*           446 	bne	.L185
+                         447 --146:     {
+                         448 --147:         if ((PWGA21.RSF.UINT8 & 0x01U) == 0x00U)
+                         449 --line147
+                         450 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.12::
+                         451 .LDWlin12:
+00000186 a0070509aac8    452 	ld.bu	4293154064[zero],r1
+0000018c 810a            453 	shr	1,r1
+0000018e c115*           454 	bl	.L189
+                         455 --148:         {
+                         456 --149:             PWGA21.CSDR.UINT16 = (0x0FFFU * (PWM_DUTY_MAX - Duty))/ PWM_DUTY_MAX;
+                         457 --line149
+                         458 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.13::
+                         459 .LDWlin13:
+00000190 200e6400        460 	movea	100,zero,r1
+00000194 2056ff0f        461 	movea	4095,zero,r10
+00000198 ae09            462 	sub	r14,r1
+0000019a ea0f2202        463 	mulu	r10,r1,zero
+0000019e 20566400        464 	movea	100,zero,r10
+000001a2 ea0ffe02        465 	divqu	r10,r1,zero
+000001a6 a0070d08aac8    466 	st.h	r1,4293154048[zero]
+                         467 --150:             PWGA21.CRDR.UINT16 = 0x0FFFU;
+000001ac 200eff0f        468 	movea	4095,zero,r1
+000001b0 a0074d08aac8    469 	st.h	r1,4293154052[zero]
+                         470 .L189:
+                         471 --151:         }
+                         472 --152:         else
+                         473 --153:         {
+                         474 --154:         }
+                         475 --155:         PWGA21.RDT.UINT8 = 0x01U;
+000001b6 010a            476 	mov	1,r1
+000001b8 8007cd08aac8    477 	st.b	r1,4293154060[zero]
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+000001be f51d*           478 	br	.L169
+                         479 .L185:
+                         480 --156:     }
+                         481 --157:     else if (CH_PWMM_INDICATOR == Channel)/*INDICATOR  PWM channel*/
+                         482 --line157
+                         483 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.14::
+                         484 .LDWlin14:
+000001c0 6362            485 	cmp	3,r12
+000001c2 da1d*           486 	bne	.L169
+                         487 --158:     {
+                         488 --159:         if ((PWGA23.RSF.UINT8 & 0x01U) == 0x00U )
+                         489 --line159
+                         490 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.15::
+                         491 .LDWlin15:
+000001c4 a0070509aec8    492 	ld.bu	4293154576[zero],r1
+000001ca 810a            493 	shr	1,r1
+000001cc c115*           494 	bl	.L195
+                         495 --160:         {
+                         496 --161:             PWGA23.CSDR.UINT16 = (0x0FFFU * (PWM_DUTY_MAX - Duty))/ PWM_DUTY_MAX;
+                         497 --line161
+                         498 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.16::
+                         499 .LDWlin16:
+000001ce 200e6400        500 	movea	100,zero,r1
+000001d2 2056ff0f        501 	movea	4095,zero,r10
+000001d6 ae09            502 	sub	r14,r1
+000001d8 ea0f2202        503 	mulu	r10,r1,zero
+000001dc 20566400        504 	movea	100,zero,r10
+000001e0 ea0ffe02        505 	divqu	r10,r1,zero
+000001e4 a0070d08aec8    506 	st.h	r1,4293154560[zero]
+                         507 --162:             PWGA23.CRDR.UINT16 = 0x0FFFU;
+000001ea 200eff0f        508 	movea	4095,zero,r1
+000001ee a0074d08aec8    509 	st.h	r1,4293154564[zero]
+                         510 .L195:
+                         511 --163:         }
+                         512 --164:         else
+                         513 --165:         {
+                         514 --166:         }
+                         515 --167:         PWGA23.RDT.UINT8 = 0x01U;
+000001f4 010a            516 	mov	1,r1
+000001f6 8007cd08aec8    517 	st.b	r1,4293154572[zero]
+                         518 .L169:
+                         519 --168:     }
+                         520 --169:     else
+                         521 --170:     {
+                         522 --171:     }
+                         523 --172:     res = RET_OK;
+000001fc 016a            524 	mov	1,r13
+                         525 --173:     return res;
+000001fe 0d50            526 	mov	r13,r10
+                         527 --	    .ef
+                         528 .LDW71:
+00000200 7f00            529 	jmp	[lp]
+                         530 	.type	_PWM_SetParas,@function
+                         531 	.size	_PWM_SetParas,.-_PWM_SetParas
+                         532 	.align	2
+                         533 .LDW81:
+                         534 --_res	r13	local
+                         535 
+                         536 --_Channel	r12	param
+                         537 --_Cycle	r11	param
+                         538 --_Duty	r14	param
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+                         539 
+                         540 	.data
+                         541 	.text
+                         542 
+                         543 --174: }
+                         544 
+                         545 --176: /***************************************************
+                         546 --177: * Function: PWM_Control
+                         547 --178: * Description: open or close the pwm channel
+                         548 --179: * Parameters:  operation : input    open or close operation
+                         549 --180:                           channel : input  the channel of the pwm
+                         550 --181: * Returns:  reference PwmRes_ENUM
+                         551 --182: * $Create & Verlog:$
+                         552 --183: * Author:Xueping.Chen  Date:2016-12-13   Version:V1.0
+                         553 --184: ****************************************************/
+                         554 --185: U8 PWM_Control(U8 operation, U8 Channel)
+                         555 	.align	2
+                         556 	.align	2
+                         557 	.global	_PWM_Control
+                         558 _PWM_Control:
+00000202 c65eff00        559 	andi	255,r6,r11
+00000206 c766ff00        560 	andi	255,r7,r12
+0000020a 210600000000*   561 	mov	_pwm_InitSts,r1
+00000210 2e06ffffff07    562 	mov	134217727,r14
+                         563 --	    .bf
+                         564 .LDW91:
+                         565 --186: {
+                         566 --187:     U8 res = RET_OK;
+00000216 016a            567 	mov	1,r13
+                         568 --189:     if (FALSE == pwm_InitSts)
+00000218 210600000000*   569 	mov	_pwm_InitSts,r1
+0000021e 810f0100        570 	ld.bu	0[r1],r1
+00000222 e009            571 	cmp	zero,r1
+00000224 ca05*           572 	bne	.L369
+                         573 --190:     {
+                         574 --191:         res = RET_FAIL;
+                         575 --line191
+                         576 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.17::
+                         577 .LDWlin17:
+00000226 006a            578 	mov	0,r13
+00000228 80077c01*       579 	br	.L371
+                         580 .L369:
+                         581 --192:     }
+                         582 --193:     else if ((CMD_PWM_ALL <= operation) || (CH_PWMM_ALL <= Channel))
+                         583 --line193
+                         584 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.18::
+                         585 .LDWlin18:
+0000022c 625a            586 	cmp	2,r11
+0000022e b905*           587 	bnl	.L373
+00000230 6462            588 	cmp	4,r12
+00000232 c105*           589 	bl	.L372
+                         590 .L373:
+                         591 --194:     {
+                         592 --195:         res = RET_INVALID;
+                         593 --line195
+                         594 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.19::
+                         595 .LDWlin19:
+00000234 026a            596 	mov	2,r13
+00000236 80076e01*       597 	br	.L371
+                         598 .L372:
+                         599 --196:     }
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+                         600 --197:     else
+                         601 --198:     {
+                         602 --199:         if ((CMD_PWM_START == operation))
+                         603 --line199
+                         604 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.20::
+                         605 .LDWlin20:
+0000023a 615a            606 	cmp	1,r11
+0000023c fa65*           607 	bne	.L376
+                         608 --200:         {  
+                         609 --201:             switch (Channel)
+                         610 --line201
+                         611 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.21::
+                         612 .LDWlin21:
+0000023e 0c08            613 	mov	r12,r1
+00000240 610a            614 	cmp	1,r1
+00000242 e105*           615 	bl	.L380
+00000244 c235*           616 	be	.L388
+00000246 630a            617 	cmp	3,r1
+00000248 b11d*           618 	bl	.L384
+0000024a fb5d*           619 	bh	.L396
+0000024c f545*           620 	br	.L392
+                         621 .L380:
+                         622 --202:             {
+                         623 --203:                 case CH_PWMM_TFT:
+                         624 --204:                     /*The INTC2 registers are not accessible per default as these registers are guarded by
+                         625 --205:                     the PBUS Guard PBG0B. Before accessing any of these registers the PBG0B protection
+                         626 --206:                     register FSGD0BPROT0 has to be set to 07FF FFFFH.*/
+                         627 --207:                     PBGFSGD0BPROT0 = 0x07FFFFFFUL;	
+                         628 --line207
+                         629 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.22::
+                         630 .LDWlin22:
+0000024e 80070f708089    631 	st.w	r14,4291084288[zero]
+                         632 --208:                     //INTC2EIC161 = 0x0047; 		/* demask PWGA0 interrupt and enable reference table jump method */
+                         633 --210:                     /* Start for PWMCLKm.
+                         634 --211:                     PWBAnTS      - PWBAnTS Register
+                         635 --212:                     b 7:b 4                   - Reserved set to 0
+                         636 --213:                     b 3            PWBAnTS3   - Start trigger bit for PWMCLK3                         - Unused. set to 0'b
+                         637 --214:                     b 2            PWBAnTS2   - Start trigger bit for PWMCLK2                         - Unused. set to 0'b
+                         638 --215:                     b 1            PWBAnTS1   - Start trigger bit for PWMCLK1                         - Unused. set to 0'b
+                         639 --216:                     b 0            PWBAnTS0   - Start trigger bit for PWMCLK0                         - Starts the output of PWMCLK0. */
+                         640 --217:                     PWBA0.TS.UINT8 = 0x01U;
+00000254 010a            641 	mov	1,r1
+00000256 80074d09b0c8    642 	st.b	r1,4293154836[zero]
+                         643 --218:                     while( (PWBA0.TE.UINT8 & 0x01U) != 0x01U )
+0000025c 0000            644 	nop
+                         645 .L381:
+                         646 --219:                     {
+0000025e a0070509b0c8    647 	ld.bu	4293154832[zero],r1
+00000264 810a            648 	shr	1,r1
+00000266 c9fd*           649 	bnl	.L381
+                         650 --220:                     /* Waiting for PWBA0TE to set. */
+                         651 --221:                     }
+                         652 --224:                     /* Start for respective channels simultaneously.
+                         653 --225:                     PWBAnTS      - PWBAnTS Register
+                         654 --226:                     b31:b 0        SLPWGA     - Trigger start and stop to multiple channels
+                         655 --227:                                     simultaneously.                                       - Starts the corresponding ch.0 */
+                         656 --228:                     SELBSLPWGA0 |= 0x00100000UL;
+                         657 --line228
+                         658 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.23::
+                         659 .LDWlin23:
+00000268 80070908b2c8    660 	ld.w	4293155072[zero],r1
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+0000026e 40561000        661 	movhi	hi(1048576),zero,r10
+00000272 0a09            662 	or	r10,r1
+00000274 80070f08b2c8    663 	st.w	r1,4293155072[zero]
+0000027a 80072a01*       664 	br	.L371
+                         665 .L384:
+                         666 --229:                     break;
+                         667 --230: 					
+                         668 --231:                 case CH_PWMM_POINTER:
+                         669 --232:                     /*The INTC2 registers are not accessible per default as these registers are guarded by
+                         670 --233:                     the PBUS Guard PBG0B. Before accessing any of these registers the PBG0B protection
+                         671 --234:                     register FSGD0BPROT0 has to be set to 07FF FFFFH.*/
+                         672 --235:                     PBGFSGD0BPROT0 = 0x07FFFFFFUL;	
+                         673 --line235
+                         674 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.24::
+                         675 .LDWlin24:
+0000027e 80070f708089    676 	st.w	r14,4291084288[zero]
+                         677 --236:                     //INTC2EIC162 = 0x0047; 		/* demask PWGA0 interrupt and enable reference table jump method */
+                         678 --238:                     /* Start for PWMCLKm.
+                         679 --239:                     PWBAnTS      - PWBAnTS Register
+                         680 --240:                     b 7:b 4                   - Reserved set to 0
+                         681 --241:                     b 3            PWBAnTS3   - Start trigger bit for PWMCLK3                         - Unused. set to 0'b
+                         682 --242:                     b 2            PWBAnTS2   - Start trigger bit for PWMCLK2                         - Unused. set to 0'b
+                         683 --243:                     b 1            PWBAnTS1   - Start trigger bit for PWMCLK1                         - Unused. set to 0'b
+                         684 --244:                     b 0            PWBAnTS0   - Start trigger bit for PWMCLK0                         - Starts the output of PWMCLK0. */
+                         685 --245:                     PWBA0.TS.UINT8 = 0x01U;
+00000284 010a            686 	mov	1,r1
+00000286 80074d09b0c8    687 	st.b	r1,4293154836[zero]
+                         688 --246:                     while( (PWBA0.TE.UINT8 & 0x01U) != 0x01U )
+0000028c 0000            689 	nop
+                         690 .L385:
+                         691 --247:                     {
+0000028e a0070509b0c8    692 	ld.bu	4293154832[zero],r1
+00000294 810a            693 	shr	1,r1
+00000296 c9fd*           694 	bnl	.L385
+                         695 --248:                     /* Waiting for PWBA0TE to set. */
+                         696 --249:                     }
+                         697 --252:                     /* Start for respective channels simultaneously.
+                         698 --253:                     PWBAnTS      - PWBAnTS Register
+                         699 --254:                     b31:b 0        SLPWGA     - Trigger start and stop to multiple channels
+                         700 --255:                                     simultaneously.                                       - Starts the corresponding ch.0 */
+                         701 --256:                     SELBSLPWGA0 |= 0x00200000UL;
+                         702 --line256
+                         703 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.25::
+                         704 .LDWlin25:
+00000298 80070908b2c8    705 	ld.w	4293155072[zero],r1
+0000029e 40562000        706 	movhi	hi(2097152),zero,r10
+000002a2 0a09            707 	or	r10,r1
+000002a4 80070f08b2c8    708 	st.w	r1,4293155072[zero]
+000002aa d57d*           709 	br	.L371
+                         710 .L388:
+                         711 --257:                     break;
+                         712 --258: 					
+                         713 --259:                 case CH_PWMM_PANEL:
+                         714 --260:                     /*The INTC2 registers are not accessible per default as these registers are guarded by
+                         715 --261:                     the PBUS Guard PBG0B. Before accessing any of these registers the PBG0B protection
+                         716 --262:                     register FSGD0BPROT0 has to be set to 07FF FFFFH.*/
+                         717 --263:                     PBGFSGD0BPROT0 = 0x07FFFFFFUL;	
+                         718 --line263
+                         719 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.26::
+                         720 .LDWlin26:
+000002ac 80070f708089    721 	st.w	r14,4291084288[zero]
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+                         722 --264:                     //INTC2EIC163 = 0x0047; 		/* demask PWGA0 interrupt and enable reference table jump method */
+                         723 --266:                     /* Start for PWMCLKm.
+                         724 --267:                     PWBAnTS      - PWBAnTS Register
+                         725 --268:                     b 7:b 4                   - Reserved set to 0
+                         726 --269:                     b 3            PWBAnTS3   - Start trigger bit for PWMCLK3                         - Unused. set to 0'b
+                         727 --270:                     b 2            PWBAnTS2   - Start trigger bit for PWMCLK2                         - Unused. set to 0'b
+                         728 --271:                     b 1            PWBAnTS1   - Start trigger bit for PWMCLK1                         - Unused. set to 0'b
+                         729 --272:                     b 0            PWBAnTS0   - Start trigger bit for PWMCLK0                         - Starts the output of PWMCLK0. */
+                         730 --273:                     PWBA0.TS.UINT8 = 0x01U;
+000002b2 010a            731 	mov	1,r1
+000002b4 80074d09b0c8    732 	st.b	r1,4293154836[zero]
+                         733 --274:                     while( (PWBA0.TE.UINT8 & 0x01U) != 0x01U )
+000002ba 0000            734 	nop
+                         735 .L389:
+                         736 --275:                     {
+000002bc a0070509b0c8    737 	ld.bu	4293154832[zero],r1
+000002c2 810a            738 	shr	1,r1
+000002c4 c9fd*           739 	bnl	.L389
+                         740 --276:                     /* Waiting for PWBA0TE to set. */
+                         741 --277:                     }
+                         742 --280:                     /* Start for respective channels simultaneously.
+                         743 --281:                     PWBAnTS      - PWBAnTS Register
+                         744 --282:                     b31:b 0        SLPWGA     - Trigger start and stop to multiple channels
+                         745 --283:                                     simultaneously.                                       - Starts the corresponding ch.0 */
+                         746 --284:                     SELBSLPWGA0 |= 0x00400000UL;
+                         747 --line284
+                         748 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.27::
+                         749 .LDWlin27:
+000002c6 80070908b2c8    750 	ld.w	4293155072[zero],r1
+000002cc 40564000        751 	movhi	hi(4194304),zero,r10
+000002d0 0a09            752 	or	r10,r1
+000002d2 80070f08b2c8    753 	st.w	r1,4293155072[zero]
+000002d8 e565*           754 	br	.L371
+                         755 .L392:
+                         756 --285:                     break;
+                         757 --286: 					
+                         758 --287:                  case CH_PWMM_INDICATOR:
+                         759 --288:                     /*The INTC2 registers are not accessible per default as these registers are guarded by
+                         760 --289:                     the PBUS Guard PBG0B. Before accessing any of these registers the PBG0B protection
+                         761 --290:                     register FSGD0BPROT0 has to be set to 07FF FFFFH.*/
+                         762 --291:                     PBGFSGD0BPROT0 = 0x07FFFFFFUL;	
+                         763 --line291
+                         764 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.28::
+                         765 .LDWlin28:
+000002da 80070f708089    766 	st.w	r14,4291084288[zero]
+                         767 --292:                     //INTC2EIC164 = 0x0047; 		/* demask PWGA0 interrupt and enable reference table jump method */
+                         768 --294:                     /* Start for PWMCLKm.
+                         769 --295:                     PWBAnTS      - PWBAnTS Register
+                         770 --296:                     b 7:b 4                   - Reserved set to 0
+                         771 --297:                     b 3            PWBAnTS3   - Start trigger bit for PWMCLK3                         - Unused. set to 0'b
+                         772 --298:                     b 2            PWBAnTS2   - Start trigger bit for PWMCLK2                         - Unused. set to 0'b
+                         773 --299:                     b 1            PWBAnTS1   - Start trigger bit for PWMCLK1                         - Unused. set to 0'b
+                         774 --300:                     b 0            PWBAnTS0   - Start trigger bit for PWMCLK0                         - Starts the output of PWMCLK0. */
+                         775 --301:                     PWBA0.TS.UINT8 = 0x01U;
+000002e0 010a            776 	mov	1,r1
+000002e2 80074d09b0c8    777 	st.b	r1,4293154836[zero]
+                         778 --302:                     while( (PWBA0.TE.UINT8 & 0x01U) != 0x01U )
+000002e8 0000            779 	nop
+                         780 .L393:
+                         781 --303:                     {
+000002ea a0070509b0c8    782 	ld.bu	4293154832[zero],r1
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+000002f0 810a            783 	shr	1,r1
+000002f2 c9fd*           784 	bnl	.L393
+                         785 --304:                     /* Waiting for PWBA0TE to set. */
+                         786 --305:                     }
+                         787 --308:                     /* Start for respective channels simultaneously.
+                         788 --309:                     PWBAnTS      - PWBAnTS Register
+                         789 --310:                     b31:b 0        SLPWGA     - Trigger start and stop to multiple channels
+                         790 --311:                                     simultaneously.                                       - Starts the corresponding ch.0 */
+                         791 --312:                     SELBSLPWGA0 |= 0x00800000UL;
+                         792 --line312
+                         793 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.29::
+                         794 .LDWlin29:
+000002f4 80070908b2c8    795 	ld.w	4293155072[zero],r1
+000002fa 40568000        796 	movhi	hi(8388608),zero,r10
+000002fe 0a09            797 	or	r10,r1
+00000300 80070f08b2c8    798 	st.w	r1,4293155072[zero]
+00000306 f54d*           799 	br	.L371
+                         800 .L396:
+                         801 --line316
+                         802 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.30::
+                         803 .LDWlin30:
+00000308 e54d*           804 	br	.L371
+                         805 .L376:
+                         806 --313:                     break;
+                         807 --314: 					
+                         808 --315:                  default:
+                         809 --316:                     break;      
+                         810 --317:             }
+                         811 --318:         }
+                         812 --319:         else
+                         813 --320:         {
+                         814 --321:             switch (Channel)
+                         815 --line321
+                         816 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.31::
+                         817 .LDWlin31:
+0000030a 0c08            818 	mov	r12,r1
+0000030c 610a            819 	cmp	1,r1
+0000030e e105*           820 	bl	.L400
+00000310 f225*           821 	be	.L402
+00000312 630a            822 	cmp	3,r1
+00000314 c115*           823 	bl	.L401
+00000316 eb45*           824 	bh	.L404
+00000318 c535*           825 	br	.L403
+                         826 .L400:
+                         827 --322:             {
+                         828 --323:                 case CH_PWMM_TFT:
+                         829 --324:                     /*The INTC2 registers are not accessible per default as these registers are guarded by
+                         830 --325:                     the PBUS Guard PBG0B. Before accessing any of these registers the PBG0B protection
+                         831 --326:                     register FSGD0BPROT0 has to be set to 07FF FFFFH.*/
+                         832 --327:                     PBGFSGD0BPROT0 = 0x07FFFFFFUL;	
+                         833 --line327
+                         834 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.32::
+                         835 .LDWlin32:
+0000031a 80070f708089    836 	st.w	r14,4291084288[zero]
+                         837 --328:                                   
+                         838 --331:                     /* Stop for respective channels simultaneously.
+                         839 --332:                     PWBAnTS      - PWBAnTS Register
+                         840 --333:                     b31:b 0        SLPWGA     - Trigger start and stop to multiple channels
+                         841 --334:                                     simultaneously.                                       - Stops the corresponding ch.0 */
+                         842 --335:                     
+                         843 --336:                     SELBSLPWGA0 &= 0xFFEFFFFFUL;
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+00000320 80070908b2c8    844 	ld.w	4293155072[zero],r1
+00000326 2a06ffffefff    845 	mov	-1048577,r10
+0000032c 4a09            846 	and	r10,r1
+0000032e 80070f08b2c8    847 	st.w	r1,4293155072[zero]
+                         848 --339:                     /* Control operations of PWSA.
+                         849 --340:                     PWSAnCTL     - PWSAnCTL Register
+                         850 --341:                     b 7:b 6                   - Reserved set to 0
+                         851 --342:                     b 0            PWSAnENBL  - Operation Permission Control                          - Operation is disabled. */
+                         852 --343:                     PWSA0.CTL.UINT8 = 0x00U;
+00000334 80070d00b4c8    853 	st.b	zero,4293155328[zero]
+0000033a d535*           854 	br	.L371
+                         855 .L401:
+                         856 --344:                     break;
+                         857 --345: 					
+                         858 --346:                 case CH_PWMM_POINTER:
+                         859 --347:                     /*The INTC2 registers are not accessible per default as these registers are guarded by
+                         860 --348:                     the PBUS Guard PBG0B. Before accessing any of these registers the PBG0B protection
+                         861 --349:                     register FSGD0BPROT0 has to be set to 07FF FFFFH.*/
+                         862 --350:                     PBGFSGD0BPROT0 = 0x07FFFFFFUL;	
+                         863 --line350
+                         864 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.33::
+                         865 .LDWlin33:
+0000033c 80070f708089    866 	st.w	r14,4291084288[zero]
+                         867 --351:                     
+                         868 --354:                     /* Stop for respective channels simultaneously.
+                         869 --355:                     PWBAnTS      - PWBAnTS Register
+                         870 --356:                     b31:b 0        SLPWGA     - Trigger start and stop to multiple channels
+                         871 --357:                                     simultaneously.                                       - Stops the corresponding ch.0 */
+                         872 --358:                     //SELBSLPWGA0 &= 0xFFFFFFFEUL;
+                         873 --359:                     SELBSLPWGA0 &= 0xFFDFFFFEUL;
+00000342 80070908b2c8    874 	ld.w	4293155072[zero],r1
+00000348 2a06feffdfff    875 	mov	-2097154,r10
+0000034e 4a09            876 	and	r10,r1
+00000350 80070f08b2c8    877 	st.w	r1,4293155072[zero]
+                         878 --361:                    
+                         879 --363:                     /* Control operations of PWSA.
+                         880 --364:                     PWSAnCTL     - PWSAnCTL Register
+                         881 --365:                     b 7:b 6                   - Reserved set to 0
+                         882 --366:                     b 0            PWSAnENBL  - Operation Permission Control                          - Operation is disabled. */
+                         883 --367:                     PWSA0.CTL.UINT8 = 0x00U;
+00000356 80070d00b4c8    884 	st.b	zero,4293155328[zero]
+0000035c c525*           885 	br	.L371
+                         886 .L402:
+                         887 --368:                     break;
+                         888 --369: 					
+                         889 --370:                 case CH_PWMM_PANEL:
+                         890 --371:                     /*The INTC2 registers are not accessible per default as these registers are guarded by
+                         891 --372:                     the PBUS Guard PBG0B. Before accessing any of these registers the PBG0B protection
+                         892 --373:                     register FSGD0BPROT0 has to be set to 07FF FFFFH.*/
+                         893 --374:                     PBGFSGD0BPROT0 = 0x07FFFFFFUL;	
+                         894 --line374
+                         895 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.34::
+                         896 .LDWlin34:
+0000035e 80070f708089    897 	st.w	r14,4291084288[zero]
+                         898 --375:                  
+                         899 --377:                     /* Stop for respective channels simultaneously.
+                         900 --378:                     PWBAnTS      - PWBAnTS Register
+                         901 --379:                     b31:b 0        SLPWGA     - Trigger start and stop to multiple channels
+                         902 --380:                                     simultaneously.                                       - Stops the corresponding ch.0 */
+                         903 --381:                    
+                         904 --382:                     SELBSLPWGA0 &= 0xFFBFFFFEUL;
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+00000364 80070908b2c8    905 	ld.w	4293155072[zero],r1
+0000036a 2a06feffbfff    906 	mov	-4194306,r10
+00000370 4a09            907 	and	r10,r1
+00000372 80070f08b2c8    908 	st.w	r1,4293155072[zero]
+                         909 --385:                     /* Control operations of PWSA.
+                         910 --386:                     PWSAnCTL     - PWSAnCTL Register
+                         911 --387:                     b 7:b 6                   - Reserved set to 0
+                         912 --388:                     b 0            PWSAnENBL  - Operation Permission Control                          - Operation is disabled. */
+                         913 --389:                     PWSA0.CTL.UINT8 = 0x00U;
+00000378 80070d00b4c8    914 	st.b	zero,4293155328[zero]
+0000037e b515*           915 	br	.L371
+                         916 .L403:
+                         917 --390:                     break;
+                         918 --391: 					
+                         919 --392:                  case CH_PWMM_INDICATOR:
+                         920 --393:                     /*The INTC2 registers are not accessible per default as these registers are guarded by
+                         921 --394:                     the PBUS Guard PBG0B. Before accessing any of these registers the PBG0B protection
+                         922 --395:                     register FSGD0BPROT0 has to be set to 07FF FFFFH.*/
+                         923 --396:                     PBGFSGD0BPROT0 = 0x07FFFFFFUL;	
+                         924 --line396
+                         925 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.35::
+                         926 .LDWlin35:
+00000380 80070f708089    927 	st.w	r14,4291084288[zero]
+                         928 --397:                    
+                         929 --400:                     /* Stop for respective channels simultaneously.
+                         930 --401:                     PWBAnTS      - PWBAnTS Register
+                         931 --402:                     b31:b 0        SLPWGA     - Trigger start and stop to multiple channels
+                         932 --403:                                     simultaneously.                                       - Stops the corresponding ch.0 */
+                         933 --404:                     //SELBSLPWGA0 &= 0xFFFFFFFEUL;
+                         934 --405:                     SELBSLPWGA0 &= 0xFF7FFFFEUL;
+00000386 80070908b2c8    935 	ld.w	4293155072[zero],r1
+0000038c 2a06feff7fff    936 	mov	-8388610,r10
+00000392 4a09            937 	and	r10,r1
+00000394 80070f08b2c8    938 	st.w	r1,4293155072[zero]
+                         939 --408:                     /* Control operations of PWSA.
+                         940 --409:                     PWSAnCTL     - PWSAnCTL Register
+                         941 --410:                     b 7:b 6                   - Reserved set to 0
+                         942 --411:                     b 0            PWSAnENBL  - Operation Permission Control                          - Operation is disabled. */
+                         943 --412:                     PWSA0.CTL.UINT8 = 0x00U;
+0000039a 80070d00b4c8    944 	st.b	zero,4293155328[zero]
+000003a0 a505*           945 	br	.L371
+                         946 .L404:
+                         947 --line416
+                         948 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm.36::
+                         949 .LDWlin36:
+000003a2 0000            950 	nop
+                         951 .L371:
+                         952 --413:                     break;
+                         953 --414: 					
+                         954 --415:                  default:
+                         955 --416:                     break;
+                         956 --417:             }     
+                         957 --418:         }
+                         958 --419:     }
+                         959 --420:     return res;
+000003a4 0d50            960 	mov	r13,r10
+                         961 --	    .ef
+                         962 .LDW02:
+000003a6 7f00            963 	jmp	[lp]
+                         964 	.type	_PWM_Control,@function
+                         965 	.size	_PWM_Control,.-_PWM_Control
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00005pk1.si
+                         966 	.align	2
+                         967 .LDW12:
+                         968 --_res	r13	local
+                         969 
+                         970 --_operation	r11	param
+                         971 --_Channel	r12	param
+                         972 
+                         973 	.data
+                         974 	.text
+                         975 
+                         976 --421: }
+                         977 	.align	2
+                         978 --_pwm_InitSts	_pwm_InitSts	static
+                         979 
+                         980 	.data
+                         981 	.ghsnote version,14
+                         982 	.ghsnote tools,3
+                         983 	.ghsnote options,144
+                         984 	.text
+                         985 	.align	2
+                         986 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cpwm...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740365..0::
+                         987 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

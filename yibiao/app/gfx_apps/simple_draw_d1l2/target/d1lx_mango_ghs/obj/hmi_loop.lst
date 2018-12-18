@@ -1,0 +1,971 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\hmi_loop.dbo -source=hmi_loop.c -o .\obj\gh_00007js1.o -list=.\obj\hmi_loop.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+Source File: hmi_loop.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\src\QD_HMI\hmi_loop.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+                         112 --		-o .\obj\hmi_loop.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\src\QD_HMI\hmi_loop.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:13 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --1: /*****************************************************************************
+                         125 --3: File Name        :  hmi_loop.c
+                         126 --4: Organization    :  Zhuli Electronics Co.Ltd in Shanghai (www.shzldz.com)
+                         127 --5: ******************************************************************************/
+                         128 --6: #if 0
+                         129 --7: void hmi_Loop(void);
+                         130 --8: #endif
+                         131 --9: #include "hmi_all_struct_include.h"
+                         132 --11: /*#define MS_PER_SEC  1000*/
+                         133 --12: void add_tick_res_manager(void);
+                         134 --13: typedef enum
+                         135 --14: {
+                         136 --15: 	HMI_CUR_DIRTY,
+                         137 --16: 	HMI_BCK_DIRTY,
+                         138 --17: 	HMI_2BUFFER_DIRTY,
+                         139 --18: 	/***COUNT**/
+                         140 --19: 	HMI_BUFFER_DIRTY_CNT
+                         141 --20: }HMI_BUFFER_DIRTY_STR;
+                         142 --21: #ifdef	HMI_GRAPHIC_RGL
+                         143 --22: HMI_RECT_STR dirty_zone[HMI_BUFFER_DIRTY_CNT][HMI_ALL_DIRTY_FIFO_LEN]={{HMI_INVALID_COOR,HMI_INVALID_COOR,0,0}};
+                         144 --23: #endif
+                         145 --25: void hmi_swap_dirty_buffer(HMI_RECT_STR *buffer1 ,HMI_RECT_STR *buffer2)
+                         146 	.text
+                         147 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740359..0::
+                         148 	.align	2
+                         149 	.global	_hmi_swap_dirty_buffer
+                         150 _hmi_swap_dirty_buffer:
+00000000 0670            151 	mov	r6,r14
+00000002 0768            152 	mov	r7,r13
+                         153 --	    .bf
+                         154 .LDW01:
+                         155 --26: {
+                         156 --27: 	HMI_RECT_STR *	swap_buffer	=NULL;
+00000004 000a            157 	mov	0,r1
+                         158 --28: 	swap_buffer		= buffer1;
+00000006 0e08            159 	mov	r14,r1
+                         160 --29: 	buffer1			= buffer2;
+00000008 0d70            161 	mov	r13,r14
+                         162 --30: 	buffer2			= swap_buffer;
+0000000a 0168            163 	mov	r1,r13
+                         164 --31: }
+0000000c 0000            165 	nop
+                         166 --	    .ef
+                         167 .LDW11:
+0000000e 7f00            168 	jmp	[lp]
+                         169 	.type	_hmi_swap_dirty_buffer,@function
+                         170 	.size	_hmi_swap_dirty_buffer,.-_hmi_swap_dirty_buffer
+                         171 	.align	2
+                         172 .LDW21:
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+                         173 --_swap_buffer	r1	local
+                         174 
+                         175 --_buffer1	r14	param
+                         176 --_buffer2	r13	param
+                         177 
+                         178 	.section ".bss","awb"
+                         179 .L32:
+                         180 	.type	.L32,@object
+                         181 	.size	.L32,0
+                         182 	.data
+                         183 	.text
+                         184 
+                         185 
+                         186 --33: void hmi_gfx_update(HMI_TIME dt)
+                         187 	.align	2
+                         188 	.align	2
+                         189 	.global	_hmi_gfx_update
+                         190 _hmi_gfx_update:
+00000010 80076100        191 	prepare	{r29,r31},0
+00000014 06e8            192 	mov	r6,r29
+                         193 --	    .bf
+                         194 .LDW31:
+                         195 --34: {
+                         196 --35: #ifdef HMI_TOUCH_PANEL
+                         197 --36: 	TOUCH_BUTTON_STR hmi_cur_touch[HMI_SOFTKEY_LEN]={{HMI_NO_TOUCH_KEY,HMI_KEY_STATUS_IDLE_OSD},
+                         198 --37: 												 {HMI_NO_TOUCH_KEY,HMI_KEY_STATUS_IDLE_OSD}};	
+                         199 --38: #endif
+                         200 --42: #ifdef HMI_GRAPHIC_RGL
+                         201 --43: 	//add_tick_res_manager();//removed by pxguo 160827
+                         202 --44: #endif
+                         203 --46: 	/*dt=dt/MS_PER_SEC;*/
+                         204 --47: #ifdef HMI_SOFT_TIMER
+                         205 --48: 	hmi_tick_manager(dt);
+                         206 --49: #endif
+                         207 --51: #ifdef HMI_TOUCH_PANEL		
+                         208 --52: 	hmi_touch_panel(dt,hmi_cur_touch);	
+                         209 --53: #endif
+                         210 --55: #ifdef HMI_8_DIRECT
+                         211 --56: 	/*hmi_8direct(dt);*/
+                         212 --57: #endif
+                         213 --59: #ifdef HMI_MEMORY_MANAGER 
+                         214 --60: 	/*continue to load resource*/
+                         215 --61: #endif
+                         216 --63: #ifdef HMI_TOUCH_PANEL
+                         217 --64: 	#ifndef HMI_GRAPHIC_ST7513
+                         218 --65: 	hmi_user_process(dt,hmi_cur_touch);
+                         219 --66: 	#else
+                         220 --67: 	hmi_user_process(dt,NULL);
+                         221 --68: 	#endif
+                         222 --69: #else
+                         223 --70: 	hmi_user_process(dt,NULL);
+00000016 1d30            224 	mov	r29,r6
+00000018 003a            225 	mov	0,r7
+                         226 	jarl	_hmi_user_process,lp
+                         226 <EXPANSION BEGIN>
+                         226 jarl22 _hmi_user_process , lp 
+0000001a 80ff0000*       226 <EXPANSION END>
+                         227 --71: #endif
+                         228 --73: #if HMI_ALL_EVENT_NUMBER>0
+                         229 --74: 	hmi_action_manager(dt);
+                         230 --75: #endif
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+                         231 --77: }
+                         232 --line77
+                         233 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.1::
+                         234 .LDWlin1:
+0000001e 0000            235 	nop
+                         236 --	    .ef
+                         237 .LDW41:
+00000020 40067f00        238 	dispose	0,{r29,r31},[lp]
+                         239 	.type	_hmi_gfx_update,@function
+                         240 	.size	_hmi_gfx_update,.-_hmi_gfx_update
+                         241 	.align	2
+                         242 .LDW51:
+                         243 
+                         244 --_dt	r29	param
+                         245 
+                         246 	.section ".bss","awb"
+                         247 .L74:
+                         248 	.type	.L74,@object
+                         249 	.size	.L74,0
+                         250 	.data
+                         251 	.text
+                         252 
+                         253 
+                         254 --81: void hmi_clear_all_dirty_zone( HMI_BUFFER_DIRTY_STR index_buffer)
+                         255 	.align	2
+                         256 	.align	2
+                         257 	.align	2
+                         258 	.global	_hmi_clear_all_dirty_zone
+                         259 _hmi_clear_all_dirty_zone:
+00000024 0660            260 	mov	r6,r12
+00000026 210600000000*   261 	mov	.L154,r1
+0000002c 2d0600000000*   262 	mov	_dirty_zone,r13
+                         263 --	    .bf
+                         264 .LDW61:
+                         265 --82: {
+                         266 --83: 	UINT8			i	= 0;
+00000032 0072            267 	mov	0,r14
+                         268 --84: 	
+                         269 --85: 	for(i=0;i < HMI_LAYER_MAX_CNT;i++)
+00000034 0072            270 	mov	0,r14
+00000036 0000            271 	nop
+                         272 .L93:
+                         273 --86: 	{
+                         274 --87: 		dirty_zone[index_buffer][i].x	= HMI_INVALID_COOR;
+00000038 0c58            275 	mov	r12,r11
+0000003a eb00            276 	sxh	r11
+0000003c eb5e2400        277 	mulhi	36,r11,r11
+00000040 ce59            278 	add	r14,r11
+00000042 c35a            279 	shl	3,r11
+00000044 0bf0            280 	mov	r11,ep
+00000046 cdf1            281 	add	r13,ep
+00000048 205e9cff        282 	movea	-100,zero,r11
+0000004c 805c            283 	sst.h	r11,0[ep]
+                         284 --88: 		dirty_zone[index_buffer][i].y	= HMI_INVALID_COOR;
+0000004e 0c58            285 	mov	r12,r11
+00000050 eb00            286 	sxh	r11
+00000052 eb5e2400        287 	mulhi	36,r11,r11
+00000056 ce59            288 	add	r14,r11
+00000058 c35a            289 	shl	3,r11
+0000005a 0bf0            290 	mov	r11,ep
+0000005c cdf1            291 	add	r13,ep
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+0000005e 205e9cff        292 	movea	-100,zero,r11
+00000062 815c            293 	sst.h	r11,2[ep]
+                         294 --89: 		dirty_zone[index_buffer][i].w	= 0;
+00000064 0c58            295 	mov	r12,r11
+00000066 eb00            296 	sxh	r11
+00000068 eb5e2400        297 	mulhi	36,r11,r11
+0000006c ce59            298 	add	r14,r11
+0000006e c35a            299 	shl	3,r11
+00000070 0bf0            300 	mov	r11,ep
+00000072 cdf1            301 	add	r13,ep
+00000074 8204            302 	sst.h	zero,4[ep]
+                         303 --90: 		dirty_zone[index_buffer][i].h	= 0;
+00000076 0c58            304 	mov	r12,r11
+00000078 eb00            305 	sxh	r11
+0000007a eb5e2400        306 	mulhi	36,r11,r11
+0000007e ce59            307 	add	r14,r11
+00000080 c35a            308 	shl	3,r11
+00000082 0bf0            309 	mov	r11,ep
+00000084 cdf1            310 	add	r13,ep
+00000086 8304            311 	sst.h	zero,6[ep]
+                         312 --91: 		dirty_zone[HMI_2BUFFER_DIRTY][i].x	= HMI_INVALID_COOR;
+00000088 0ef0            313 	mov	r14,ep
+0000008a 0d564002        314 	addi	576,r13,r10
+0000008e c3f2            315 	shl	3,ep
+00000090 205e9cff        316 	movea	-100,zero,r11
+00000094 caf1            317 	add	r10,ep
+00000096 805c            318 	sst.h	r11,0[ep]
+                         319 --92: 		dirty_zone[HMI_2BUFFER_DIRTY][i].y	= HMI_INVALID_COOR;
+00000098 0ef0            320 	mov	r14,ep
+0000009a 0d564002        321 	addi	576,r13,r10
+0000009e c3f2            322 	shl	3,ep
+000000a0 205e9cff        323 	movea	-100,zero,r11
+000000a4 caf1            324 	add	r10,ep
+000000a6 815c            325 	sst.h	r11,2[ep]
+                         326 --93: 		dirty_zone[HMI_2BUFFER_DIRTY][i].w	= 0;
+000000a8 0ef0            327 	mov	r14,ep
+000000aa 0d564002        328 	addi	576,r13,r10
+000000ae c3f2            329 	shl	3,ep
+000000b0 caf1            330 	add	r10,ep
+000000b2 8204            331 	sst.h	zero,4[ep]
+                         332 --94: 		dirty_zone[HMI_2BUFFER_DIRTY][i].h	= 0;
+000000b4 0ef0            333 	mov	r14,ep
+000000b6 0d564002        334 	addi	576,r13,r10
+000000ba c3f2            335 	shl	3,ep
+000000bc caf1            336 	add	r10,ep
+000000be 8304            337 	sst.h	zero,6[ep]
+000000c0 4172            338 	add	1,r14
+000000c2 8e00            339 	zxb	r14
+000000c4 6472            340 	cmp	4,r14
+000000c6 91bd*           341 	bl	.L93
+                         342 --95: 	}
+                         343 --96: 	for(i = HMI_LAYER_MAX_CNT;i < HMI_ALL_DIRTY_FIFO_LEN;i += HMI_DIRTY_FIFO_LEN)
+                         344 --line96
+                         345 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.2::
+                         346 .LDWlin2:
+000000c8 0472            347 	mov	4,r14
+000000ca 0000            348 	nop
+                         349 .L96:
+                         350 --97: 	{
+                         351 --98: 		dirty_zone[index_buffer][i].x	= HMI_INVALID_COOR;
+000000cc 0c58            352 	mov	r12,r11
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+000000ce eb00            353 	sxh	r11
+000000d0 eb5e2400        354 	mulhi	36,r11,r11
+000000d4 ce59            355 	add	r14,r11
+000000d6 c35a            356 	shl	3,r11
+000000d8 0bf0            357 	mov	r11,ep
+000000da cdf1            358 	add	r13,ep
+000000dc 205e9cff        359 	movea	-100,zero,r11
+000000e0 805c            360 	sst.h	r11,0[ep]
+                         361 --99: 		dirty_zone[index_buffer][i].y	= HMI_INVALID_COOR;
+000000e2 0c58            362 	mov	r12,r11
+000000e4 eb00            363 	sxh	r11
+000000e6 eb5e2400        364 	mulhi	36,r11,r11
+000000ea ce59            365 	add	r14,r11
+000000ec c35a            366 	shl	3,r11
+000000ee 0bf0            367 	mov	r11,ep
+000000f0 cdf1            368 	add	r13,ep
+000000f2 205e9cff        369 	movea	-100,zero,r11
+000000f6 815c            370 	sst.h	r11,2[ep]
+                         371 --100: 		dirty_zone[index_buffer][i].w	= 0;
+000000f8 0c58            372 	mov	r12,r11
+000000fa eb00            373 	sxh	r11
+000000fc eb5e2400        374 	mulhi	36,r11,r11
+00000100 ce59            375 	add	r14,r11
+00000102 c35a            376 	shl	3,r11
+00000104 0bf0            377 	mov	r11,ep
+00000106 cdf1            378 	add	r13,ep
+00000108 8204            379 	sst.h	zero,4[ep]
+                         380 --101: 		dirty_zone[index_buffer][i].h	= 0;
+0000010a 0c58            381 	mov	r12,r11
+0000010c eb00            382 	sxh	r11
+0000010e eb5e2400        383 	mulhi	36,r11,r11
+00000112 ce59            384 	add	r14,r11
+00000114 c35a            385 	shl	3,r11
+00000116 0bf0            386 	mov	r11,ep
+00000118 cdf1            387 	add	r13,ep
+0000011a 8304            388 	sst.h	zero,6[ep]
+                         389 --102: 		dirty_zone[HMI_2BUFFER_DIRTY][i].x	= HMI_INVALID_COOR;
+0000011c 0ef0            390 	mov	r14,ep
+0000011e 0d564002        391 	addi	576,r13,r10
+00000122 c3f2            392 	shl	3,ep
+00000124 205e9cff        393 	movea	-100,zero,r11
+00000128 caf1            394 	add	r10,ep
+0000012a 805c            395 	sst.h	r11,0[ep]
+                         396 --103: 		dirty_zone[HMI_2BUFFER_DIRTY][i].y	= HMI_INVALID_COOR;
+0000012c 0ef0            397 	mov	r14,ep
+0000012e 0d564002        398 	addi	576,r13,r10
+00000132 c3f2            399 	shl	3,ep
+00000134 205e9cff        400 	movea	-100,zero,r11
+00000138 caf1            401 	add	r10,ep
+0000013a 815c            402 	sst.h	r11,2[ep]
+                         403 --104: 		dirty_zone[HMI_2BUFFER_DIRTY][i].w	= 0;
+0000013c 0ef0            404 	mov	r14,ep
+0000013e 0d564002        405 	addi	576,r13,r10
+00000142 c3f2            406 	shl	3,ep
+00000144 caf1            407 	add	r10,ep
+00000146 8204            408 	sst.h	zero,4[ep]
+                         409 --105: 		dirty_zone[HMI_2BUFFER_DIRTY][i].h	= 0;
+00000148 0ef0            410 	mov	r14,ep
+0000014a 0d564002        411 	addi	576,r13,r10
+0000014e c3f2            412 	shl	3,ep
+00000150 caf1            413 	add	r10,ep
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+00000152 8304            414 	sst.h	zero,6[ep]
+00000154 4872            415 	add	8,r14
+00000156 8e00            416 	zxb	r14
+00000158 0e06dcff        417 	addi	-36,r14,zero
+0000015c 89bd*           418 	bnl	.L96
+                         419 --106: 	}
+                         420 --107: }
+                         421 --line107
+                         422 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.3::
+                         423 .LDWlin3:
+0000015e 0000            424 	nop
+                         425 --	    .ef
+                         426 .LDW71:
+00000160 7f00            427 	jmp	[lp]
+                         428 	.type	_hmi_clear_all_dirty_zone,@function
+                         429 	.size	_hmi_clear_all_dirty_zone,.-_hmi_clear_all_dirty_zone
+                         430 	.align	2
+                         431 .LDW81:
+                         432 --_i	r14	local
+                         433 
+                         434 --_index_buffer	r12	param
+                         435 
+                         436 	.data
+                         437 .L154:
+                         438 	.type	.L154,@object
+                         439 	.size	.L154,0
+                         440 	.text
+                         441 
+                         442 
+                         443 --109: void hmi_gfx_render(void)
+                         444 	.align	2
+                         445 	.align	2
+                         446 	.global	_hmi_gfx_render
+                         447 _hmi_gfx_render:
+00000162 8207e170        448 	prepare	{r25,r26,r27,r28,r29,r31},1
+00000166 3d0600000000*   449 	mov	.L312,r29
+0000016c 3b0600000000*   450 	mov	_dirty_zone,r27
+00000172 390600000000*   451 	mov	_hmi_gfx_status,r25
+                         452 --	    .bf
+                         453 .LDW91:
+                         454 --110: {
+                         455 --111: 	#if (defined(HMI_GRAPHIC_AGG)||defined(HMI_GRAPHIC_ST)||defined(HMI_GRAPHIC_ST7513))
+                         456 --112: 	HMI_RECT_STR dirty_zone[1]={HMI_INVALID_COOR,HMI_INVALID_COOR,0,0};
+                         457 --113: 	#elif defined(HMI_GRAPHIC_RGL)
+                         458 --114: 	UINT8			i			= 0;
+00000178 00e2            459 	mov	0,r28
+                         460 --115: 	BOOLEAN			dirty		= FALSE;
+0000017a 00d2            461 	mov	0,r26
+                         462 --116: 	static HMI_BUFFER_DIRTY_STR index_free	= HMI_CUR_DIRTY;
+                         463 --117: 	static HMI_BUFFER_DIRTY_STR index_bck	= HMI_BCK_DIRTY;	
+                         464 --118: 	#endif	
+                         465 --120: 			static U32 tickCnt = 0;
+                         466 --121: 	static U32 calCnt = 0;
+                         467 --122: 	static U32 maxTime = 0;
+                         468 --123: 	
+                         469 --124: 	if((HMI_GFX_GET_STATUS(HMI_SEND_EVENT))&&
+0000017c 390f0100        470 	ld.w	0[r25],r1
+00000180 810a            471 	shr	1,r1
+00000182 b95d*           472 	bnl	.L243
+00000184 210600000000*   473 	mov	_hmi_driver_woking_status_flag,r1
+0000018a 810f0100        474 	ld.bu	0[r1],r1
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+0000018e e009            475 	cmp	zero,r1
+00000190 ca55*           476 	bne	.L243
+                         477 --125: 		(hmi_driver_woking_status_flag == HMI_FRAMEBUFFER_FREE))
+                         478 --126: 	{				
+                         479 --127: 		
+                         480 --128: 	#if defined(HMI_GRAPHIC_AGG)
+                         481 --129: 		#if HMI_PAGES_NUMBER>0				
+                         482 --130: 		hmi_engine_get_multi_dirty_zone_page(dirty_zone);
+                         483 --131: 		if((dirty_zone[0].w > 0)&&(dirty_zone[0].h > 0))
+                         484 --132: 		{			
+                         485 --133: 			hmi_engine_draw_page(dirty_zone);			
+                         486 --134: 		}
+                         487 --135: 		#endif
+                         488 --136: 	
+                         489 --137: 	#elif defined( HMI_GRAPHIC_RGL ) 
+                         490 --138: 		#if HMI_PAGES_NUMBER>0	
+                         491 --139: 		hmi_clear_all_dirty_zone(index_free);		
+                         492 --line139
+                         493 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.4::
+                         494 .LDWlin4:
+00000192 3d370100        495 	ld.w	0[r29],r6
+                         496 	jarl	_hmi_clear_all_dirty_zone,lp
+                         496 <EXPANSION BEGIN>
+                         496 jarl22 _hmi_clear_all_dirty_zone , lp 
+00000196 bfff8efe*       496 <EXPANSION END>
+                         497 --140: 		hmi_engine_get_multi_dirty_zone_page(dirty_zone[index_free]);
+                         498 --line140
+                         499 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.5::
+                         500 .LDWlin5:
+0000019a 3d0f0000        501 	ld.h	0[r29],r1
+0000019e e10e2001        502 	mulhi	288,r1,r1
+000001a2 db09            503 	add	r27,r1
+000001a4 0130            504 	mov	r1,r6
+                         505 	jarl	_hmi_engine_get_multi_dirty_zone_page,lp
+                         505 <EXPANSION BEGIN>
+                         505 jarl22 _hmi_engine_get_multi_dirty_zone_page , lp 
+000001a6 80ff0000*       505 <EXPANSION END>
+                         506 --141: 		for(i=0;i < HMI_LAYER_MAX_CNT;i++)
+                         507 --line141
+                         508 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.6::
+                         509 .LDWlin6:
+000001aa 00e2            510 	mov	0,r28
+000001ac 0000            511 	nop
+                         512 .L248:
+                         513 --142: 		{
+                         514 --143: 			#if(HMI_BUFFER_NUMBER==HMI_TWO_BUFFER)
+                         515 --144: 			if((dirty_zone[index_free][i].w > 0)&&(dirty_zone[index_free][i].h > 0))
+                         516 --145: 			{
+                         517 --146: 				dirty			= TRUE;
+                         518 --147: 				hmi_add_2buffer_dirty_zone(dirty_zone[index_free],dirty_zone[index_bck],
+                         519 --148: 									dirty_zone[HMI_2BUFFER_DIRTY],i);
+                         520 --149: 			}
+                         521 --150: 			else
+                         522 --151: 			{
+                         523 --152: 				hmi_copy_last_dirty_zone(dirty_zone[index_bck],dirty_zone[index_free],i);
+                         524 --153: 			}
+                         525 --154: 			#else
+                         526 --155: 			if((dirty_zone[index_free][i].w > 0)&&(dirty_zone[index_free][i].h > 0))
+000001ae 3d0f0000        527 	ld.h	0[r29],r1
+000001b2 e10e2400        528 	mulhi	36,r1,r1
+000001b6 dc09            529 	add	r28,r1
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+000001b8 c30a            530 	shl	3,r1
+000001ba 01f0            531 	mov	r1,ep
+000001bc dbf1            532 	add	r27,ep
+000001be 7208            533 	sld.hu	4[ep],r1
+000001c0 e009            534 	cmp	zero,r1
+000001c2 821d*           535 	be	.L249
+000001c4 3d0f0000        536 	ld.h	0[r29],r1
+000001c8 e10e2400        537 	mulhi	36,r1,r1
+000001cc dc09            538 	add	r28,r1
+000001ce c30a            539 	shl	3,r1
+000001d0 01f0            540 	mov	r1,ep
+000001d2 dbf1            541 	add	r27,ep
+000001d4 7308            542 	sld.hu	6[ep],r1
+000001d6 e009            543 	cmp	zero,r1
+000001d8 d20d*           544 	be	.L249
+                         545 --156: 			{
+                         546 --157: 				dirty			= TRUE;
+                         547 --line157
+                         548 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.7::
+                         549 .LDWlin7:
+000001da 01d2            550 	mov	1,r26
+                         551 --158: 				hmi_copy_last_dirty_zone(dirty_zone[index_free],dirty_zone[HMI_2BUFFER_DIRTY],i);
+000001dc 3d0f0000        552 	ld.h	0[r29],r1
+000001e0 1b3e4002        553 	addi	576,r27,r7
+000001e4 1c40            554 	mov	r28,r8
+000001e6 e10e2001        555 	mulhi	288,r1,r1
+000001ea db09            556 	add	r27,r1
+000001ec 0130            557 	mov	r1,r6
+                         558 	jarl	_hmi_copy_last_dirty_zone,lp
+                         558 <EXPANSION BEGIN>
+                         558 jarl22 _hmi_copy_last_dirty_zone , lp 
+000001ee 80ff0000*       558 <EXPANSION END>
+                         559 .L249:
+                         560 --line141
+                         561 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.8::
+                         562 .LDWlin8:
+000001f2 41e2            563 	add	1,r28
+000001f4 9c00            564 	zxb	r28
+000001f6 64e2            565 	cmp	4,r28
+000001f8 b1dd*           566 	bl	.L248
+                         567 --159: 			}
+                         568 --160: 			#endif
+                         569 --161: 		}
+                         570 --162: 		if(dirty)
+                         571 --line162
+                         572 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.9::
+                         573 .LDWlin9:
+000001fa e0d1            574 	cmp	zero,r26
+000001fc c22d*           575 	be	.L254
+                         576 --163: 		{	
+                         577 --164: 		
+                         578 --165: 			hmi_engine_create_rgl_window( );
+                         579 --line165
+                         580 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.10::
+                         581 .LDWlin10:
+                         582 	jarl	_hmi_engine_create_rgl_window,lp
+                         582 <EXPANSION BEGIN>
+                         582 jarl22 _hmi_engine_create_rgl_window , lp 
+000001fe 80ff0000*       582 <EXPANSION END>
+                         583 --166: 			/* get new free buffer for every dirty layer  and clear dirty layer first*/
+                         584 --167: 			hmi_driver_set_render_buffer(dirty_zone[HMI_2BUFFER_DIRTY]);
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+                         585 --line167
+                         586 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.11::
+                         587 .LDWlin11:
+00000202 1b364002        588 	addi	576,r27,r6
+                         589 	jarl	_hmi_driver_set_render_buffer,lp
+                         589 <EXPANSION BEGIN>
+                         589 jarl22 _hmi_driver_set_render_buffer , lp 
+00000206 80ff0000*       589 <EXPANSION END>
+                         590 --168: 			hmi_clear_dirty_layer(dirty_zone[HMI_2BUFFER_DIRTY]);
+                         591 --line168
+                         592 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.12::
+                         593 .LDWlin12:
+0000020a 1b364002        594 	addi	576,r27,r6
+                         595 	jarl	_hmi_clear_dirty_layer,lp
+                         595 <EXPANSION BEGIN>
+                         595 jarl22 _hmi_clear_dirty_layer , lp 
+0000020e 80ff0000*       595 <EXPANSION END>
+                         596 --169: 			/*draw at new free buffer*/
+                         597 --170: 			hmi_engine_draw_page(dirty_zone[HMI_2BUFFER_DIRTY]);
+                         598 --line170
+                         599 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.13::
+                         600 .LDWlin13:
+00000212 1b364002        601 	addi	576,r27,r6
+                         602 	jarl	_hmi_engine_draw_page,lp
+                         602 <EXPANSION BEGIN>
+                         602 jarl22 _hmi_engine_draw_page , lp 
+00000216 80ff0000*       602 <EXPANSION END>
+                         603 --171: 			HMI_GFX_CLEAR_STATUS(HMI_SEND_EVENT);
+                         604 --line171
+                         605 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.14::
+                         606 .LDWlin14:
+0000021a 390f0100        607 	ld.w	0[r25],r1
+0000021e 1e72            608 	mov	-2,r14
+00000220 4e09            609 	and	r14,r1
+00000222 790f0100        610 	st.w	r1,0[r25]
+                         611 --172: 			HMI_GFX_CLEAR_STATUS(HMI_RGL_PROP_EVENT);
+00000226 390f0100        612 	ld.w	0[r25],r1
+0000022a 2e06ffffffef    613 	mov	-268435457,r14
+00000230 4e09            614 	and	r14,r1
+00000232 790f0100        615 	st.w	r1,0[r25]
+00000236 f50d*           616 	br	.L254
+                         617 .L243:
+                         618 --173: 			#if(HMI_BUFFER_NUMBER==HMI_TWO_BUFFER)
+                         619 --174: 			index_free	= (HMI_BUFFER_DIRTY_STR)(HMI_BCK_DIRTY - index_free);
+                         620 --175: 			index_bck	= (HMI_BUFFER_DIRTY_STR)(HMI_BCK_DIRTY - index_bck);
+                         621 --176: 			#endif
+                         622 --177: 		}
+                         623 --178: 		#endif
+                         624 --179: 	#elif defined( HMI_GRAPHIC_ST7513 ) 
+                         625 --180: 		#if HMI_PAGES_NUMBER>0	
+                         626 --181: 		hmi_engine_get_dirty_zone_page(dirty_zone);
+                         627 --182: 		if((dirty_zone[0].w > 0)&&(dirty_zone[0].h > 0))
+                         628 --183: 		{			
+                         629 --184: 			hmi_engine_draw_page(dirty_zone);			
+                         630 --185: 		}
+                         631 --186: 				
+                         632 --187: 		#endif
+                         633 --188: 	#elif defined(HMI_GRAPHIC_TWLIB)
+                         634 --189: 		#if HMI_PAGES_NUMBER>0	
+                         635 --190: 			#if HMI_RENDER_ALL_EXCEPT_BCK==NO
+                         636 --191: 			hmi_not_render_mode();/*find not used win*/
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+                         637 --192: 			hmi_clr_used_flag();/*clr used flag*/
+                         638 --193: 			hmi_engine_draw_page();/*find not used win*/
+                         639 --194: 			hmi_clear_no_used_win();/*clear not used win*/
+                         640 --195: 			hmi_clr_refrence_flag();/*clr refrence flag*/
+                         641 --196: 			hmi_render_mode();/*render mode*/
+                         642 --197: 			hmi_engine_draw_page();
+                         643 --198: 			hmi_off_no_used_win(); 
+                         644 --199: 			#else
+                         645 --200: 			hmi_engine_draw_page();
+                         646 --201: 			#endif
+                         647 --202: 		#endif
+                         648 --203: 	#else
+                         649 --204: 	#endif
+                         650 --205: 		//hmi_driver_woking_status_flag=HMI_FRAMEBUFFER_FREE;/*frame buffer free flag*/
+                         651 --206: 	}
+                         652 --207: 	else
+                         653 --208: 	{
+                         654 --209: 		#ifdef HMI_GRAPHIC_RGL
+                         655 --210: 		if(HMI_GFX_GET_STATUS(HMI_RGL_PROP_EVENT))
+                         656 --line210
+                         657 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.15::
+                         658 .LDWlin15:
+00000238 390f0100        659 	ld.w	0[r25],r1
+0000023c 9d0a            660 	shr	29,r1
+0000023e b90d*           661 	bnl	.L254
+                         662 --211: 		{
+                         663 --212: 			hmi_engine_draw_page_prop();
+                         664 --line212
+                         665 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.16::
+                         666 .LDWlin16:
+                         667 	jarl	_hmi_engine_draw_page_prop,lp
+                         667 <EXPANSION BEGIN>
+                         667 jarl22 _hmi_engine_draw_page_prop , lp 
+00000240 80ff0000*       667 <EXPANSION END>
+                         668 --213: 			HMI_GFX_CLEAR_STATUS(HMI_RGL_PROP_EVENT);
+                         669 --line213
+                         670 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.17::
+                         671 .LDWlin17:
+00000244 390f0100        672 	ld.w	0[r25],r1
+00000248 2e06ffffffef    673 	mov	-268435457,r14
+0000024e 4e09            674 	and	r14,r1
+00000250 790f0100        675 	st.w	r1,0[r25]
+                         676 .L254:
+                         677 --214: 		}
+                         678 --215: 		#endif
+                         679 --216: 	}
+                         680 --217: }
+00000254 0000            681 	nop
+                         682 --	    .ef
+                         683 .LDW02:
+00000256 4206ff70        684 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                         685 	.type	_hmi_gfx_render,@function
+                         686 	.size	_hmi_gfx_render,.-_hmi_gfx_render
+                         687 	.align	2
+                         688 .LDW12:
+                         689 --_index_free	.L369	static
+                         690 --_i	r28	local
+                         691 --_dirty	r26	local
+                         692 
+                         693 	.data
+                         694 	.align	4
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+                         695 .L312:
+                         696 	.type	.L312,@object
+                         697 	.size	.L312,0
+                         698 .L369:
+                         699 	.global	_index_free.hmi_gfx_render.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop..0
+                         700 _index_free.hmi_gfx_render.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop..0:
+                         701 	.type	_index_free.hmi_gfx_render.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop..0,@object
+                         702 	.size	_index_free.hmi_gfx_render.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop..0,4
+00000000 00000000        703 	.byte	0,0,0,0
+                         704 	.type	.L369,@object
+                         705 	.size	.L369,4
+                         706 	.text
+                         707 
+                         708 
+                         709 --220: void hmi_gfx_loop(HMI_TIME dt)
+                         710 	.align	2
+                         711 	.align	2
+                         712 	.global	_hmi_gfx_loop
+                         713 _hmi_gfx_loop:
+0000025a 8007e110        714 	prepare	{r27,r28,r29,r31},0
+0000025e 3d0600000000*   715 	mov	.L414,r29
+00000264 06e0            716 	mov	r6,r28
+00000266 1dd8            717 	mov	r29,r27
+                         718 --	    .bf
+                         719 .LDW22:
+                         720 --221: {
+                         721 --222: 	//static U32 tickCnt = 0;
+                         722 --223: 	//static U32 calCnt = 0;
+                         723 --224: 	//static U32 maxTime = 0;
+                         724 --225:     static BOOL isRender = FALSE;
+                         725 --226:     isRender =(!isRender);
+00000268 9d0f0100        726 	ld.bu	0[r29],r1
+0000026c e009            727 	cmp	zero,r1
+0000026e e20f0000        728 	setfe	r1
+00000272 5d0f0000        729 	st.b	r1,0[r29]
+                         730 --227:    // if(FALSE == isRender)
+                         731 --228:     {		
+                         732 --229:     	hmi_gfx_update(dt);		
+00000276 1c30            733 	mov	r28,r6
+                         734 	jarl	_hmi_gfx_update,lp
+                         734 <EXPANSION BEGIN>
+                         734 jarl22 _hmi_gfx_update , lp 
+00000278 bfff98fd*       734 <EXPANSION END>
+                         735 --230:     }
+                         736 --231:     //else
+                         737 --232:     {       
+                         738 --233:     	hmi_gfx_render();
+                         739 --line233
+                         740 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.18::
+                         741 .LDWlin18:
+                         742 	jarl	_hmi_gfx_render,lp
+                         742 <EXPANSION BEGIN>
+                         742 jarl22 _hmi_gfx_render , lp 
+0000027c bfffe6fe*       742 <EXPANSION END>
+                         743 --234:     }
+                         744 --236: }
+                         745 --line236
+                         746 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop.19::
+                         747 .LDWlin19:
+00000280 0000            748 	nop
+                         749 --	    .ef
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+                         750 .LDW32:
+00000282 4006ff10        751 	dispose	0,{r27,r28,r29,r31},[lp]
+                         752 	.type	_hmi_gfx_loop,@function
+                         753 	.size	_hmi_gfx_loop,.-_hmi_gfx_loop
+                         754 	.align	2
+                         755 .LDW42:
+                         756 --_isRender	.L429	static
+                         757 
+                         758 --_dt	r28	param
+                         759 
+                         760 	.data
+                         761 .L414:
+                         762 	.type	.L414,@object
+                         763 	.size	.L414,0
+                         764 .L429:
+                         765 	.global	_isRender.hmi_gfx_loop.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop..1
+                         766 _isRender.hmi_gfx_loop.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop..1:
+                         767 	.type	_isRender.hmi_gfx_loop.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop..1,@object
+                         768 	.size	_isRender.hmi_gfx_loop.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop..1,1
+00000004 00              769 	.byte	0
+                         770 	.type	.L429,@object
+                         771 	.size	.L429,1
+                         772 	.text
+                         773 
+                         774 	.align	2
+                         775 --_hmi_driver_woking_status_flag	_hmi_driver_woking_status_flag	import
+                         776 --_hmi_gfx_status	_hmi_gfx_status	import
+                         777 
+                         778 	.data
+00000005 00              779 	.space	1
+                         780 	.global	_dirty_zone
+00000006 9cff9cff        781 _dirty_zone:	.byte	156,255,156,255
+0000000a 0000            782 	.space	2
+0000000c 0000            783 	.space	2
+0000000e 000000000000    784 	.space	280
+00000014 000000000000 
+0000001a 000000000000 
+00000020 000000000000 
+00000026 000000000000 
+0000002c 000000000000 
+00000032 000000000000 
+00000038 000000000000 
+0000003e 000000000000 
+00000044 000000000000 
+0000004a 000000000000 
+00000050 000000000000 
+00000056 000000000000 
+0000005c 000000000000 
+00000062 000000000000 
+00000068 000000000000 
+0000006e 000000000000 
+00000074 000000000000 
+0000007a 000000000000 
+00000080 000000000000 
+00000086 000000000000 
+0000008c 000000000000 
+00000092 000000000000 
+00000098 000000000000 
+0000009e 000000000000 
+000000a4 000000000000 
+000000aa 000000000000 
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+000000b0 000000000000 
+000000b6 000000000000 
+000000bc 000000000000 
+000000c2 000000000000 
+000000c8 000000000000 
+000000ce 000000000000 
+000000d4 000000000000 
+000000da 000000000000 
+000000e0 000000000000 
+000000e6 000000000000 
+000000ec 000000000000 
+000000f2 000000000000 
+000000f8 000000000000 
+000000fe 000000000000 
+00000104 000000000000 
+0000010a 00000000 
+00000126 000000000000    785 	.space	576
+0000012c 000000000000 
+00000132 000000000000 
+00000138 000000000000 
+0000013e 000000000000 
+00000144 000000000000 
+0000014a 000000000000 
+00000150 000000000000 
+00000156 000000000000 
+0000015c 000000000000 
+00000162 000000000000 
+00000168 000000000000 
+0000016e 000000000000 
+00000174 000000000000 
+0000017a 000000000000 
+00000180 000000000000 
+00000186 000000000000 
+0000018c 000000000000 
+00000192 000000000000 
+00000198 000000000000 
+0000019e 000000000000 
+000001a4 000000000000 
+000001aa 000000000000 
+000001b0 000000000000 
+000001b6 000000000000 
+000001bc 000000000000 
+000001c2 000000000000 
+000001c8 000000000000 
+000001ce 000000000000 
+000001d4 000000000000 
+000001da 000000000000 
+000001e0 000000000000 
+000001e6 000000000000 
+000001ec 000000000000 
+000001f2 000000000000 
+000001f8 000000000000 
+000001fe 000000000000 
+00000204 000000000000 
+0000020a 000000000000 
+00000210 000000000000 
+00000216 000000000000 
+0000021c 000000000000 
+00000222 00000000 
+                         786 	.type	_dirty_zone,@object
+                         787 	.size	_dirty_zone,864
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00007js1.si
+                         788 	.ghsnote version,14
+                         789 	.ghsnote tools,3
+                         790 	.ghsnote options,144
+                         791 	.text
+                         792 	.align	2
+                         793 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Chmi_loop...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740359..0::
+                         794 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

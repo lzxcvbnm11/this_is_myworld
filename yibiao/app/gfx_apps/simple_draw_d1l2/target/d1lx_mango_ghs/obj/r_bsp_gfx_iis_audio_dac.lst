@@ -1,0 +1,840 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_bsp_gfx_iis_audio_dac.dbo -source=r_bsp_gfx_iis_audio_dac.c -o .\obj\gh_00006g01.o -list=.\obj\r_bsp_gfx_iis_audio_dac.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+Source File: r_bsp_gfx_iis_audio_dac.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+                         112 --		..\..\..\..\..\bsp\board\d1lx_mango\src\gfx\r_bsp_gfx_iis_audio_dac.c
+                         113 --		-o .\obj\r_bsp_gfx_iis_audio_dac.o
+                         114 --Source File:   ..\..\..\..\..\bsp\board\d1lx_mango\src\gfx\r_bsp_gfx_iis_audio_dac.c
+                         115 --Directory:     
+                         116 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         117 --Compile Date:  Fri Feb 02 14:21:56 2018
+                         118 --Host OS:       Win32
+                         119 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         120 --Release:       Compiler v2013.5.5
+                         121 --Revision Date: Sat Oct 05 05:01:20 2013
+                         122 --Release Date:  Sat Oct 05 05:22:44 2013
+                         123 -- ecom  -g -w
+                         124 
+                         125 --1: /*
+                         126 --2: ****************************************************************************
+                         127 --3: PROJECT : BSP - GFX - IIS audio DAC init
+                         128 --4: FILE    : $Id: r_bsp_gfx_iis_audio_dac.c 6782 2015-11-20 15:26:44Z florian.zimmermann $
+                         129 --5: ============================================================================
+                         130 --6: DESCRIPTION
+                         131 --7: BSP Implementation - D1M2 MANGO Board
+                         132 --8: Init the IIS audio Digital Analog Converter
+                         133 --9: ============================================================================
+                         134 --10:                             C O P Y R I G H T
+                         135 --11: ============================================================================
+                         136 --12:                            Copyright (c) 2014
+                         137 --13:                                   by
+                         138 --14:                     Renesas Electronics (Europe) GmbH. 
+                         139 --15:                            Arcadiastrasse 10
+                         140 --16:                           D-40472 Duesseldorf
+                         141 --17:                                Germany
+                         142 --18:                           All rights reserved.
+                         143 --19: ============================================================================
+                         144 --20: Purpose: only for testing
+                         145 --22: DISCLAIMER                                                                   
+                         146 --23: This software is supplied by Renesas Electronics Corporation and is only     
+                         147 --24: intended for use with Renesas products. No other uses are authorized. This   
+                         148 --25: software is owned by Renesas Electronics Corporation and is protected under  
+                         149 --26: all applicable laws, including copyright laws.                               
+                         150 --27: THIS SOFTWARE IS PROVIDED "AS IS" AND RENESAS MAKES NO WARRANTIES REGARDING  
+                         151 --28: THIS SOFTWARE, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT      
+                         152 --29: LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE   
+                         153 --30: AND NON-INFRINGEMENT. ALL SUCH WARRANTIES ARE EXPRESSLY DISCLAIMED.          
+                         154 --31: TO THE MAXIMUM EXTENT PERMITTED NOT PROHIBITED BY LAW, NEITHER RENESAS       
+                         155 --32: ELECTRONICS CORPORATION NOR ANY OF ITS AFFILIATED COMPANIES SHALL BE LIABLE  
+                         156 --33: FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES FOR   
+                         157 --34: ANY REASON RELATED TO THIS SOFTWARE, EVEN IF RENESAS OR ITS AFFILIATES HAVE  
+                         158 --35: BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.                             
+                         159 --36: Renesas reserves the right, without notice, to make changes to this software 
+                         160 --37: and to discontinue the availability of this software. By using this software,
+                         161 --38: you agree to the additional terms and conditions found by accessing the      
+                         162 --39: following link:                                                              
+                         163 --40: http://www.renesas.com/disclaimer *                                          
+                         164 --41: Copyright (C) 2011 Renesas Electronics Corporation. All rights reserved.     
+                         165 --43: ****************************************************************************
+                         166 --44: */
+                         167 --46: #ifdef USE_RIIC    /* ignore this file, when RIIC driver not available */
+                         168 --48: /***********************************************************
+                         169 --49:   Section: Includes
+                         170 --50: */
+                         171 --52: #include "r_typedefs.h"     /* Renesas basic types, e.g. uint32_t */
+                         172 --53: #include "r_dev_api.h"
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+                         173 --54: #include "r_gpio_api.h"
+                         174 --55: #include "r_tick_api.h"
+                         175 --56: #include "r_riic_api.h"
+                         176 --57: #include "r_bsp_stdio_api.h"
+                         177 --58: #include "r_bsp_gfx_iis_audio_dac.h"
+                         178 --60: /***********************************************************
+                         179 --61:   Section: Local Defines
+                         180 --62: */
+                         181 --64: /***********************************************************
+                         182 --65:   Section: Local Functions
+                         183 --66: */
+                         184 --68: static const r_dev_PinConfig_t loc_RiicPinConfigL1L2[] = 
+                         185 --69: /*  Port Pin Func      Dir      Feedback     Pull        OpenDrain   HiCurr   HiSpeed  InputType */
+                         186 --70: {
+                         187 --71:     /* RIIC unit 0 (on P44); SDA and SCL (data and clock) */
+                         188 --72:     {44u, 2u, 2u, R_DEV_PIN_OUT, 1u, R_DEV_PIN_PULLNO, 1u, 0u, 0u, R_DEV_PIN_SCHMITT4},
+                         189 --73:     {44u, 3u, 2u, R_DEV_PIN_OUT, 1u, R_DEV_PIN_PULLNO, 1u, 0u, 0u, R_DEV_PIN_SCHMITT4},
+                         190 --74:     
+                         191 --75: #if 0
+                         192 --76:     /* RIIC unit 1 (on P44); SDA and SCL (data and clock) */
+                         193 --77:     /*  -> unit 1 is not used for Audio DAC. */
+                         194 --78:     {44u, 10u, 4u, R_DEV_PIN_OUT, 1u, R_DEV_PIN_PULLNO, 1u, 0u, 0u, R_DEV_PIN_SCHMITT4},
+                         195 --79:     {44u, 11u, 4u, R_DEV_PIN_OUT, 1u, R_DEV_PIN_PULLNO, 1u, 0u, 0u, R_DEV_PIN_SCHMITT4},
+                         196 --80: #endif
+                         197 --81:     
+                         198 --82:     /* delimiter - do not remove */
+                         199 --83:     {0u, R_DEV_PIN_LAST,0u,R_DEV_PIN_OUT,0u,R_DEV_PIN_PULLNO,     0u,      0u,         0u,    R_DEV_PIN_CMOS1}  
+                         200 --84: };
+                         201 --86: static const r_dev_PinConfig_t loc_RiicPinConfigL2H[] = 
+                         202 --87: /*  Port Pin Func      Dir      Feedback     Pull        OpenDrain   HiCurr   HiSpeed  InputType */
+                         203 --88: {
+                         204 --89:     /* RIIC unit 0 (on P3); SDA and SCL (data and clock) */
+                         205 --90:     {3u, 0u, 1u, R_DEV_PIN_OUT, 1u, R_DEV_PIN_PULLNO, 1u, 0u, 0u, R_DEV_PIN_SCHMITT4},
+                         206 --91:     {3u, 1u, 1u, R_DEV_PIN_OUT, 1u, R_DEV_PIN_PULLNO, 1u, 0u, 0u, R_DEV_PIN_SCHMITT4},
+                         207 --92:     
+                         208 --93: #if 0
+                         209 --94:     /* RIIC unit 1 (on P44); SDA and SCL (data and clock) */
+                         210 --95:     /*  -> unit 1 is not used for Audio DAC. */
+                         211 --96:     {44u, 10u, 4u, R_DEV_PIN_OUT, 1u, R_DEV_PIN_PULLNO, 1u, 0u, 0u, R_DEV_PIN_SCHMITT4},
+                         212 --97:     {44u, 11u, 4u, R_DEV_PIN_OUT, 1u, R_DEV_PIN_PULLNO, 1u, 0u, 0u, R_DEV_PIN_SCHMITT4},
+                         213 --98: #endif
+                         214 --99:     
+                         215 --100:     /* delimiter - do not remove */
+                         216 --101:     {0u, R_DEV_PIN_LAST,0u,R_DEV_PIN_OUT,0u,R_DEV_PIN_PULLNO,     0u,      0u,         0u,    R_DEV_PIN_CMOS1}  
+                         217 --102: };
+                         218 --104: /***********************************************************
+                         219 --105:   Section: Global Functions
+                         220 --106: */
+                         221 --108: /***********************************************************
+                         222 --109:   Function: R_BSP_GFX_IIS_AudioDac_Init
+                         223 --110:   Init the IIS Audio Digital Analog converter
+                         224 --112:   Parameters:
+                         225 --113:   void
+                         226 --115:   Returns:
+                         227 --116:   void
+                         228 --117: */
+                         229 --118: void R_BSP_GFX_IIS_AudioDac_Init(void)
+                         230 	.text
+                         231 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740384..0::
+                         232 	.align	2
+                         233 	.global	_R_BSP_GFX_IIS_AudioDac_Init
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+                         234 _R_BSP_GFX_IIS_AudioDac_Init:
+00000000 8c07e130        235 	prepare	{r26,r27,r28,r29,r31},6
+                         236 --	    .bf
+                         237 .LDW01:
+                         238 --119: {
+                         239 --120:     /* Initialization of the IIS Audio DAC "LM49450SQ" */
+                         240 --121:     /* Apply the init sequence to the IIS Audio DAC by IIC bus.
+                         241 --122:     
+                         242 --123:         Accessibility to IIS Audio DAC by IIC bus requires
+                         243 --124:         the Jumper settings on D1M2 Mango Board.
+                         244 --125:           a) Set JP47 1-2
+                         245 --126:           b) Set JP47 3-4
+                         246 --127:         
+                         247 --128:         Note: IIC bus used for IIS Audio DAC is always
+                         248 --129:                 RIIC unit 0 on port pins P3_0 and P3_1.
+                         249 --130:     */
+                         250 --131:     
+                         251 --132:     uint32_t            RiicUnit = 0;
+00000004 00e2            252 	mov	0,r28
+                         253 --133:     r_riic_Parameter_t  Config;
+                         254 --134:     uint8_t             i;
+                         255 --135:     uint8_t             data;
+                         256 --136:     r_riic_Error_t      ack;
+                         257 --137:     r_dev_Device_t      Device;
+                         258 --138:     
+                         259 --139:     /* the init sequence for the "LM49450SQ" */
+                         260 --140:     uint8_t iis_chip_data[5][3] =
+00000006 3e0600000000*   261 	mov	.L191,ep
+0000000c 230e0900        262 	movea	9,sp,r1
+00000010 1e760f00        263 	addi	15,ep,r14
+                         264 .L110:
+00000014 6068            265 	sld.bu	0[ep],r13
+00000016 41f2            266 	add	1,ep
+00000018 416f0000        267 	st.b	r13,0[r1]
+0000001c 410a            268 	add	1,r1
+0000001e fe71            269 	cmp	ep,r14
+00000020 aafd*           270 	bne	.L110
+                         271 --141:     {
+                         272 --142:         {0xfa, 0, 0x21},    /* oversampling rate 32 (DAC_MODE = 3) */
+                         273 --143:         {0xfa, 1, 0x03},    /* MCLK divider ratio 2 */
+                         274 --144:         {0xfa, 2, 0x87},    /* charge pump osc freq. 67.5 (=MCLK/67.5) */
+                         275 --145:         {0xfa, 8, 0x1F},    /* Volume 1f = max (+24dB) / 0 = min (-53dB) */
+                         276 --146:         {0xfa, 3, 0x70}     /* word size 0x70 = 32 / 0x00 = 16 / 0x40 = 24 */
+                         277 --147:     };
+                         278 --148:     
+                         279 --149:     Device = R_DEV_GetDev();
+                         280 --line149
+                         281 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.1::
+                         282 .LDWlin1:
+                         283 	jarl	_R_DEV_GetDev,lp
+                         283 <EXPANSION BEGIN>
+                         283 jarl22 _R_DEV_GetDev , lp 
+00000022 80ff0000*       283 <EXPANSION END>
+00000026 0ad8            284 	mov	r10,r27
+                         285 --150:     
+                         286 --151:     R_BSP_STDIO_Printf("Init Audio DAC device LM49450SQ\n");
+                         287 --line151
+                         288 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.2::
+                         289 .LDWlin2:
+00000028 260600000000*   290 	mov	.L192,r6
+                         291 	jarl	_R_BSP_STDIO_Printf,lp
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+                         291 <EXPANSION BEGIN>
+                         291 jarl22 _R_BSP_STDIO_Printf , lp 
+0000002e 80ff0000*       291 <EXPANSION END>
+                         292 --152:     R_BSP_STDIO_Printf("On D1x Mango Main Board:\n");
+                         293 --line152
+                         294 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.3::
+                         295 .LDWlin3:
+00000032 260600000000*   296 	mov	.L189,r6
+                         297 	jarl	_R_BSP_STDIO_Printf,lp
+                         297 <EXPANSION BEGIN>
+                         297 jarl22 _R_BSP_STDIO_Printf , lp 
+00000038 80ff0000*       297 <EXPANSION END>
+                         298 --153:     R_BSP_STDIO_Printf(" Set Jumper JP47 1-2 and JP47 3-4 for IIC access to Audio DAC.\n");
+                         299 --line153
+                         300 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.4::
+                         301 .LDWlin4:
+0000003c 260600000000*   302 	mov	.L188,r6
+                         303 	jarl	_R_BSP_STDIO_Printf,lp
+                         303 <EXPANSION BEGIN>
+                         303 jarl22 _R_BSP_STDIO_Printf , lp 
+00000042 80ff0000*       303 <EXPANSION END>
+                         304 --154:     
+                         305 --155:     /* Set IIC pins*/
+                         306 --156:     if ((Device >= R_DEV_R7F701401) && (Device <= R_DEV_R7F701402))
+                         307 --line156
+                         308 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.5::
+                         309 .LDWlin5:
+00000046 1b0687fa        310 	addi	-1401,r27,zero
+0000004a c615*           311 	blt	.L4
+0000004c 1b0686fa        312 	addi	-1402,r27,zero
+00000050 9f15*           313 	bgt	.L4
+                         314 --157:     {
+                         315 --158:         R_BSP_STDIO_Printf("On D1L1 / D1L2 Adapter Board:\n");
+                         316 --line158
+                         317 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.6::
+                         318 .LDWlin6:
+00000052 260600000000*   319 	mov	.L193,r6
+                         320 	jarl	_R_BSP_STDIO_Printf,lp
+                         320 <EXPANSION BEGIN>
+                         320 jarl22 _R_BSP_STDIO_Printf , lp 
+00000058 80ff0000*       320 <EXPANSION END>
+                         321 --159:         R_BSP_STDIO_Printf(" Set Jumper JP27 1-2 and JP28 1-2 for IIC #0 on P44 instead of P3.\n");
+                         322 --line159
+                         323 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.7::
+                         324 .LDWlin7:
+0000005c 260600000000*   325 	mov	.L196,r6
+                         326 	jarl	_R_BSP_STDIO_Printf,lp
+                         326 <EXPANSION BEGIN>
+                         326 jarl22 _R_BSP_STDIO_Printf , lp 
+00000062 80ff0000*       326 <EXPANSION END>
+                         327 --160:         R_DEV_PinInit(loc_RiicPinConfigL1L2);
+                         328 --line160
+                         329 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.8::
+                         330 .LDWlin8:
+00000066 260600000000*   331 	mov	_loc_RiicPinConfigL1L2,r6
+                         332 	jarl	_R_DEV_PinInit,lp
+                         332 <EXPANSION BEGIN>
+                         332 jarl22 _R_DEV_PinInit , lp 
+0000006c 80ff0000*       332 <EXPANSION END>
+00000070 8515*           333 	br	.L7
+                         334 .L4:
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+                         335 --161:     } else {
+                         336 --162:         R_BSP_STDIO_Printf("On D1L2H Adapter Board:\n");
+                         337 --line162
+                         338 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.9::
+                         339 .LDWlin9:
+00000072 260600000000*   340 	mov	.L194,r6
+                         341 	jarl	_R_BSP_STDIO_Printf,lp
+                         341 <EXPANSION BEGIN>
+                         341 jarl22 _R_BSP_STDIO_Printf , lp 
+00000078 80ff0000*       341 <EXPANSION END>
+                         342 --163:         R_BSP_STDIO_Printf(" IIC #0 use port P3.\n");
+                         343 --line163
+                         344 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.10::
+                         345 .LDWlin10:
+0000007c 260600000000*   346 	mov	.L190,r6
+                         347 	jarl	_R_BSP_STDIO_Printf,lp
+                         347 <EXPANSION BEGIN>
+                         347 jarl22 _R_BSP_STDIO_Printf , lp 
+00000082 80ff0000*       347 <EXPANSION END>
+                         348 --164:         R_DEV_PinInit(loc_RiicPinConfigL2H);
+                         349 --line164
+                         350 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.11::
+                         351 .LDWlin11:
+00000086 260600000000*   352 	mov	_loc_RiicPinConfigL2H,r6
+                         353 	jarl	_R_DEV_PinInit,lp
+                         353 <EXPANSION BEGIN>
+                         353 jarl22 _R_DEV_PinInit , lp 
+0000008c 80ff0000*       353 <EXPANSION END>
+                         354 .L7:
+                         355 --165:     }
+                         356 --166:     R_TICK_WaitMS(0u, 100u);
+                         357 --line166
+                         358 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.12::
+                         359 .LDWlin12:
+00000090 0032            360 	mov	0,r6
+00000092 203e6400        361 	movea	100,zero,r7
+                         362 	jarl	_R_TICK_WaitMS,lp
+                         362 <EXPANSION BEGIN>
+                         362 jarl22 _R_TICK_WaitMS , lp 
+00000096 80ff0000*       362 <EXPANSION END>
+                         363 --167:     
+                         364 --168:     /* setup IIC */
+                         365 --169:     Config.Baudrate = (100u * 1000u);   /* 100 kHz */
+                         366 --line169
+                         367 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.13::
+                         368 .LDWlin13:
+0000009a 2106a0860100    369 	mov	100000,r1
+000000a0 630f0500        370 	st.w	r1,4[sp]
+                         371 --170:     R_RIIC_Init(RiicUnit, &Config);
+000000a4 1c30            372 	mov	r28,r6
+000000a6 233e0400        373 	movea	4,sp,r7
+                         374 	jarl	_R_RIIC_Init,lp
+                         374 <EXPANSION BEGIN>
+                         374 jarl22 _R_RIIC_Init , lp 
+000000aa 80ff0000*       374 <EXPANSION END>
+                         375 --171:     
+                         376 --172:     /* check for ACK flag; means check if this slave address is used
+                         377 --173:         -> if not, the Audio DAC device (LM49450SQ) could not be detected by IIC */
+                         378 --174:     R_RIIC_Master_start_condition(RiicUnit);
+                         379 --line174
+                         380 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.14::
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+                         381 .LDWlin14:
+000000ae 1c30            382 	mov	r28,r6
+                         383 	jarl	_R_RIIC_Master_start_condition,lp
+                         383 <EXPANSION BEGIN>
+                         383 jarl22 _R_RIIC_Master_start_condition , lp 
+000000b0 80ff0000*       383 <EXPANSION END>
+                         384 --175:     data = iis_chip_data[0][0];   /* Slave Address */
+                         385 --line175
+                         386 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.15::
+                         387 .LDWlin15:
+000000b4 a30f0900        388 	ld.bu	9[sp],r1
+000000b8 430f0300        389 	st.b	r1,3[sp]
+                         390 --176:     ack = R_RIIC_Slave_address_send(RiicUnit, &data);
+000000bc 1c30            391 	mov	r28,r6
+000000be 233e0300        392 	movea	3,sp,r7
+                         393 	jarl	_R_RIIC_Slave_address_send,lp
+                         393 <EXPANSION BEGIN>
+                         393 jarl22 _R_RIIC_Slave_address_send , lp 
+000000c2 80ff0000*       393 <EXPANSION END>
+000000c6 0ad0            394 	mov	r10,r26
+                         395 --177:     R_RIIC_Master_stop_condition(RiicUnit, &data);
+                         396 --line177
+                         397 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.16::
+                         398 .LDWlin16:
+000000c8 1c30            399 	mov	r28,r6
+000000ca 233e0300        400 	movea	3,sp,r7
+                         401 	jarl	_R_RIIC_Master_stop_condition,lp
+                         401 <EXPANSION BEGIN>
+                         401 jarl22 _R_RIIC_Master_stop_condition , lp 
+000000ce 80ff0000*       401 <EXPANSION END>
+                         402 --178:     R_TICK_WaitMS(0u, 2u);
+                         403 --line178
+                         404 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.17::
+                         405 .LDWlin17:
+000000d2 0032            406 	mov	0,r6
+000000d4 023a            407 	mov	2,r7
+                         408 	jarl	_R_TICK_WaitMS,lp
+                         408 <EXPANSION BEGIN>
+                         408 jarl22 _R_TICK_WaitMS , lp 
+000000d6 80ff0000*       408 <EXPANSION END>
+                         409 --179:     
+                         410 --180:     if (ack == R_RIIC_ERR_OK)
+                         411 --line180
+                         412 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.18::
+                         413 .LDWlin18:
+000000da e0d1            414 	cmp	zero,r26
+000000dc ea15*           415 	bne	.L8
+                         416 --181:     {
+                         417 --182:         /* Audio DAC could be found via IIC */
+                         418 --184:         /* send init sequence via IIC */
+                         419 --185:         for(i=0; i<5; i++)
+                         420 --line185
+                         421 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.19::
+                         422 .LDWlin19:
+000000de 00ea            423 	mov	0,r29
+000000e0 0000            424 	nop
+                         425 .L12:
+                         426 --186:         {
+                         427 --187:             R_RIIC_transmit_to_slave(RiicUnit, iis_chip_data[i], 3);   /* Transmit */
+000000e2 fd0e0300        428 	mulhi	3,r29,r1
+000000e6 23760900        429 	movea	9,sp,r14
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+000000ea 1c30            430 	mov	r28,r6
+000000ec 0342            431 	mov	3,r8
+000000ee ce09            432 	add	r14,r1
+000000f0 0138            433 	mov	r1,r7
+                         434 	jarl	_R_RIIC_transmit_to_slave,lp
+                         434 <EXPANSION BEGIN>
+                         434 jarl22 _R_RIIC_transmit_to_slave , lp 
+000000f2 80ff0000*       434 <EXPANSION END>
+                         435 --188:             R_TICK_WaitMS(0u, 2u);
+                         436 --line188
+                         437 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.20::
+                         438 .LDWlin20:
+000000f6 0032            439 	mov	0,r6
+000000f8 023a            440 	mov	2,r7
+                         441 	jarl	_R_TICK_WaitMS,lp
+                         441 <EXPANSION BEGIN>
+                         441 jarl22 _R_TICK_WaitMS , lp 
+000000fa 80ff0000*       441 <EXPANSION END>
+                         442 --line185
+                         443 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.21::
+                         444 .LDWlin21:
+000000fe 41ea            445 	add	1,r29
+00000100 9d00            446 	zxb	r29
+00000102 65ea            447 	cmp	5,r29
+00000104 f1ed*           448 	bl	.L12
+00000106 e505*           449 	br	.L13
+                         450 .L8:
+                         451 --189:         }
+                         452 --190:     } else {
+                         453 --191:         /* Audio DAC could NOT be found via IIC
+                         454 --192:             Possible reasons can be:
+                         455 --193:              o Jumper setting missing
+                         456 --194:                 -> Set JP47 1-2 and JP47 3-4 (and ensure B1VCC is 3.3V, e.g. JP5 3-4 set).
+                         457 --195:              o invalid ACK issue of Audio DAC (LM49450SQ)
+                         458 --196:                 -> Audio-DAC (LM49450SQ) ACK level (low) is electricaly not ok! (~0.5xVCC)
+                         459 --197:                    Workaround is to configure I2C port input characteristic to Schmitt4 (w/ max. Vil = 0.5VCC)
+                         460 --198:                    This workaround might not work on all boards. (depending of their exact ACK low level)
+                         461 --199:                    On such boards the I2C config of Audio-DAC is skipped.
+                         462 --200:         */
+                         463 --201:         R_BSP_STDIO_Printf("\nWarning: Audio DAC init failed!\n\n");
+                         464 --line201
+                         465 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.22::
+                         466 .LDWlin22:
+00000108 260600000000*   467 	mov	.L195,r6
+                         468 	jarl	_R_BSP_STDIO_Printf,lp
+                         468 <EXPANSION BEGIN>
+                         468 jarl22 _R_BSP_STDIO_Printf , lp 
+0000010e 80ff0000*       468 <EXPANSION END>
+                         469 .L13:
+                         470 --202:     }
+                         471 --203:     
+                         472 --204:     R_RIIC_DeInit(RiicUnit);
+                         473 --line204
+                         474 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.23::
+                         475 .LDWlin23:
+00000112 1c30            476 	mov	r28,r6
+                         477 	jarl	_R_RIIC_DeInit,lp
+                         477 <EXPANSION BEGIN>
+                         477 jarl22 _R_RIIC_DeInit , lp 
+00000114 80ff0000*       477 <EXPANSION END>
+                         478 --205: }
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+                         479 --line205
+                         480 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.24::
+                         481 .LDWlin24:
+00000118 0000            482 	nop
+                         483 --	    .ef
+                         484 .LDW11:
+0000011a 4c06ff30        485 	dispose	6,{r26,r27,r28,r29,r31},[lp]
+                         486 	.type	_R_BSP_GFX_IIS_AudioDac_Init,@function
+                         487 	.size	_R_BSP_GFX_IIS_AudioDac_Init,.-_R_BSP_GFX_IIS_AudioDac_Init
+                         488 	.align	2
+                         489 .LDW21:
+                         490 --_RiicUnit	r28	local
+                         491 --_Config	4[sp]	local
+                         492 --_i	r29	local
+                         493 --_data	3[sp]	local
+                         494 --_ack	r26	local
+                         495 --_Device	r27	local
+                         496 --_iis_chip_data	9[sp]	local
+                         497 --.L101	.L191	static
+                         498 --.L102	.L192	static
+                         499 --.L103	.L189	static
+                         500 --.L104	.L188	static
+                         501 --.L105	.L193	static
+                         502 --.L106	.L196	static
+                         503 --.L107	.L194	static
+                         504 --.L108	.L190	static
+                         505 --.L109	.L195	static
+                         506 
+                         507 	.section ".bss","awb"
+                         508 .L100:
+                         509 	.type	.L100,@object
+                         510 	.size	.L100,0
+                         511 	.section ".rodata","a"
+                         512 	.align	4
+                         513 	.global	_loc_RiicPinConfigL1L2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.
+                         514 _loc_RiicPinConfigL1L2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.:
+                         515 	.type	_loc_RiicPinConfigL1L2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.,@object
+                         516 	.size	_loc_RiicPinConfigL1L2..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.,60
+00000000 2c02            517 _loc_RiicPinConfigL1L2:	.byte	44,2
+00000002 02              518 	.byte	2
+00000003 00              519 	.space	1
+00000004 00000000        520 	.space	4
+00000008 01              521 	.byte	1
+00000009 000000          522 	.space	3
+0000000c 00000000        523 	.space	4
+00000010 01              524 	.byte	1
+00000011 00              525 	.space	1
+00000012 00              526 	.space	1
+00000013 04              527 	.byte	4
+00000014 2c03            528 	.byte	44,3
+00000016 02              529 	.byte	2
+00000017 00              530 	.space	1
+00000018 00000000        531 	.space	4
+0000001c 01              532 	.byte	1
+0000001d 000000          533 	.space	3
+00000020 00000000        534 	.space	4
+00000024 01              535 	.byte	1
+00000025 00              536 	.space	1
+00000026 00              537 	.space	1
+00000027 04              538 	.byte	4
+00000028 00              539 	.space	1
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+00000029 ff              540 	.byte	255
+0000002a 00              541 	.space	1
+0000002b 00              542 	.space	1
+0000002c 00000000        543 	.space	4
+00000030 00              544 	.space	1
+00000031 000000          545 	.space	3
+00000034 00000000        546 	.space	4
+00000038 00              547 	.space	1
+00000039 00              548 	.space	1
+0000003a 00              549 	.space	1
+0000003b 01              550 	.byte	1
+                         551 	.type	_loc_RiicPinConfigL1L2,@object
+                         552 	.size	_loc_RiicPinConfigL1L2,60
+                         553 	.global	_loc_RiicPinConfigL2H..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.
+                         554 _loc_RiicPinConfigL2H..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.:
+                         555 	.type	_loc_RiicPinConfigL2H..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.,@object
+                         556 	.size	_loc_RiicPinConfigL2H..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac.,60
+0000003c 03              557 _loc_RiicPinConfigL2H:	.byte	3
+0000003d 00              558 	.space	1
+0000003e 01              559 	.byte	1
+0000003f 00              560 	.space	1
+00000040 00000000        561 	.space	4
+00000044 01              562 	.byte	1
+00000045 000000          563 	.space	3
+00000048 00000000        564 	.space	4
+0000004c 01              565 	.byte	1
+0000004d 00              566 	.space	1
+0000004e 00              567 	.space	1
+0000004f 04              568 	.byte	4
+00000050 0301            569 	.byte	3,1
+00000052 01              570 	.byte	1
+00000053 00              571 	.space	1
+00000054 00000000        572 	.space	4
+00000058 01              573 	.byte	1
+00000059 000000          574 	.space	3
+0000005c 00000000        575 	.space	4
+00000060 01              576 	.byte	1
+00000061 00              577 	.space	1
+00000062 00              578 	.space	1
+00000063 04              579 	.byte	4
+00000064 00              580 	.space	1
+00000065 ff              581 	.byte	255
+00000066 00              582 	.space	1
+00000067 00              583 	.space	1
+00000068 00000000        584 	.space	4
+0000006c 00              585 	.space	1
+0000006d 000000          586 	.space	3
+00000070 00000000        587 	.space	4
+00000074 00              588 	.space	1
+00000075 00              589 	.space	1
+00000076 00              590 	.space	1
+00000077 01              591 	.byte	1
+                         592 	.type	_loc_RiicPinConfigL2H,@object
+                         593 	.size	_loc_RiicPinConfigL2H,60
+                         594 .L188:--	" Set Jumper JP47 1-2 and JP47 3-4 for IIC access to Audio DAC.\n"
+00000078 20536574        595 	.byte	32,83,101,116
+0000007c 204a756d        596 	.byte	32,74,117,109
+00000080 70657220        597 	.byte	112,101,114,32
+00000084 4a503437        598 	.byte	74,80,52,55
+00000088 20312d32        599 	.byte	32,49,45,50
+0000008c 20616e64        600 	.byte	32,97,110,100
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+00000090 204a5034        601 	.byte	32,74,80,52
+00000094 3720332d        602 	.byte	55,32,51,45
+00000098 3420666f        603 	.byte	52,32,102,111
+0000009c 72204949        604 	.byte	114,32,73,73
+000000a0 43206163        605 	.byte	67,32,97,99
+000000a4 63657373        606 	.byte	99,101,115,115
+000000a8 20746f20        607 	.byte	32,116,111,32
+000000ac 41756469        608 	.byte	65,117,100,105
+000000b0 6f204441        609 	.byte	111,32,68,65
+000000b4 432e0a00        610 	.byte	67,46,10,0
+                         611 	.type	.L188,@object
+                         612 	.size	.L188,64
+                         613 .L189:--	"On D1x Mango Main Board:\n"
+000000b8 4f6e2044        614 	.byte	79,110,32,68
+000000bc 3178204d        615 	.byte	49,120,32,77
+000000c0 616e676f        616 	.byte	97,110,103,111
+000000c4 204d6169        617 	.byte	32,77,97,105
+000000c8 6e20426f        618 	.byte	110,32,66,111
+000000cc 6172643a        619 	.byte	97,114,100,58
+000000d0 0a00            620 	.byte	10,0
+                         621 	.type	.L189,@object
+                         622 	.size	.L189,26
+                         623 .L190:--	" IIC #0 use port P3.\n"
+000000d2 20494943        624 	.byte	32,73,73,67
+000000d6 20233020        625 	.byte	32,35,48,32
+000000da 75736520        626 	.byte	117,115,101,32
+000000de 706f7274        627 	.byte	112,111,114,116
+000000e2 2050332e        628 	.byte	32,80,51,46
+000000e6 0a00            629 	.byte	10,0
+                         630 	.type	.L190,@object
+                         631 	.size	.L190,22
+000000e8 fa              632 .L191:	.byte	250
+000000e9 00              633 	.space	1
+000000ea 21              634 	.byte	33
+000000eb fa01            635 	.byte	250,1
+000000ed 03              636 	.byte	3
+000000ee fa02            637 	.byte	250,2
+000000f0 87              638 	.byte	135
+000000f1 fa08            639 	.byte	250,8
+000000f3 1f              640 	.byte	31
+000000f4 fa03            641 	.byte	250,3
+000000f6 70              642 	.byte	112
+                         643 	.type	.L191,@object
+                         644 	.size	.L191,15
+                         645 .L192:--	"Init Audio DAC device LM49450SQ\n"
+000000f7 496e6974        646 	.byte	73,110,105,116
+000000fb 20417564        647 	.byte	32,65,117,100
+000000ff 696f2044        648 	.byte	105,111,32,68
+00000103 41432064        649 	.byte	65,67,32,100
+00000107 65766963        650 	.byte	101,118,105,99
+0000010b 65204c4d        651 	.byte	101,32,76,77
+0000010f 34393435        652 	.byte	52,57,52,53
+00000113 3053510a        653 	.byte	48,83,81,10
+00000117 00              654 	.byte	0
+                         655 	.type	.L192,@object
+                         656 	.size	.L192,33
+                         657 .L193:--	"On D1L1 / D1L2 Adapter Board:\n"
+00000118 4f6e2044        658 	.byte	79,110,32,68
+0000011c 314c3120        659 	.byte	49,76,49,32
+00000120 2f204431        660 	.byte	47,32,68,49
+00000124 4c322041        661 	.byte	76,50,32,65
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+00000128 64617074        662 	.byte	100,97,112,116
+0000012c 65722042        663 	.byte	101,114,32,66
+00000130 6f617264        664 	.byte	111,97,114,100
+00000134 3a0a            665 	.byte	58,10
+00000136 00              666 	.byte	0
+                         667 	.type	.L193,@object
+                         668 	.size	.L193,31
+                         669 .L194:--	"On D1L2H Adapter Board:\n"
+00000137 4f6e2044        670 	.byte	79,110,32,68
+0000013b 314c3248        671 	.byte	49,76,50,72
+0000013f 20416461        672 	.byte	32,65,100,97
+00000143 70746572        673 	.byte	112,116,101,114
+00000147 20426f61        674 	.byte	32,66,111,97
+0000014b 72643a0a        675 	.byte	114,100,58,10
+0000014f 00              676 	.byte	0
+                         677 	.type	.L194,@object
+                         678 	.size	.L194,25
+                         679 .L195:--	"\nWarning: Audio DAC init failed!\n\n"
+00000150 0a576172        680 	.byte	10,87,97,114
+00000154 6e696e67        681 	.byte	110,105,110,103
+00000158 3a204175        682 	.byte	58,32,65,117
+0000015c 64696f20        683 	.byte	100,105,111,32
+00000160 44414320        684 	.byte	68,65,67,32
+00000164 696e6974        685 	.byte	105,110,105,116
+00000168 20666169        686 	.byte	32,102,97,105
+0000016c 6c656421        687 	.byte	108,101,100,33
+00000170 0a0a            688 	.byte	10,10
+00000172 00              689 	.byte	0
+                         690 	.type	.L195,@object
+                         691 	.size	.L195,35
+                         692 .L196:--	" Set Jumper JP27 1-2 and JP28 1-2 for IIC #0 on P44 instead of P3.\n"
+00000173 20536574        693 	.byte	32,83,101,116
+00000177 204a756d        694 	.byte	32,74,117,109
+0000017b 70657220        695 	.byte	112,101,114,32
+0000017f 4a503237        696 	.byte	74,80,50,55
+00000183 20312d32        697 	.byte	32,49,45,50
+00000187 20616e64        698 	.byte	32,97,110,100
+0000018b 204a5032        699 	.byte	32,74,80,50
+0000018f 3820312d        700 	.byte	56,32,49,45
+00000193 3220666f        701 	.byte	50,32,102,111
+00000197 72204949        702 	.byte	114,32,73,73
+0000019b 43202330        703 	.byte	67,32,35,48
+0000019f 206f6e20        704 	.byte	32,111,110,32
+000001a3 50343420        705 	.byte	80,52,52,32
+000001a7 696e7374        706 	.byte	105,110,115,116
+000001ab 65616420        707 	.byte	101,97,100,32
+000001af 6f662050        708 	.byte	111,102,32,80
+000001b3 332e0a00        709 	.byte	51,46,10,0
+                         710 	.type	.L196,@object
+                         711 	.size	.L196,68
+                         712 	.data
+                         713 	.text
+                         714 
+                         715 	.align	2
+                         716 --_loc_RiicPinConfigL1L2	_loc_RiicPinConfigL1L2	static
+                         717 --_loc_RiicPinConfigL2H	_loc_RiicPinConfigL2H	static
+                         718 
+                         719 	.data
+                         720 	.ghsnote version,14
+                         721 	.ghsnote tools,3
+                         722 	.ghsnote options,144
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00006g01.si
+                         723 	.text
+                         724 	.align	2
+                         725 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_gfx_iis_audio_dac...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740384..0::
+                         726 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

@@ -1,0 +1,960 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\r_bsp_sys_hmi.dbo -source=r_bsp_sys_hmi.c -o .\obj\gh_00003h41.o -list=.\obj\r_bsp_sys_hmi.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+Source File: r_bsp_sys_hmi.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD
+                           2 --		-ID:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\macro\flashc\sfma\lib
+                           3 --		-I../../../../../Device -I../../../../../Driver/ADCE
+                           4 --		-I../../../../../Driver/CLOCK -I../../../../../Driver/DIO
+                           5 --		-I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt
+                           6 --		-I../../../../../Driver/ISM -I../../../../../Driver/OSTM
+                           7 --		-I../../../../../Driver/PWM -I../../../../../Driver/RSTC
+                           8 --		-I../../../../../Driver/RTCA -I../../../../../Driver/STBC
+                           9 --		-I../../../../../Driver/TAUB -I../../../../../Driver/WDT
+                          10 --		-I../../../../../middleware\ADM -I../../../../../middleware\BPM
+                          11 --		-I../../../../../middleware\EED -I../../../../../middleware\IOM
+                          12 --		-I../../../../../middleware\LRM -I../../../../../middleware\MOM
+                          13 --		-I../../../../../middleware\PWMM -I../../../../../Common
+                          14 --		-I../../../../../Applayer\DSM -I../../../../../Applayer\FM
+                          15 --		-I../../../../../Applayer\TPM -I../../../../../Applayer\ACC
+                          16 --		-I../../../../../Applayer\ASS -I../../../../../Applayer\BAT
+                          17 --		-I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp
+                          18 --		-I../../../../../Applayer\COM\vtp\lib
+                          19 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          20 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          21 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          22 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          23 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          24 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          25 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          26 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          27 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          28 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          29 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          30 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          31 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          32 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          33 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          34 --		-I../../../../../Applayer\NZM
+                          35 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          36 --		-I../../../../../bsp/board//config
+                          37 --		-I../../../../../bsp/board//src/gfx
+                          38 --		-I../../../../../bsp/board//src/hmi
+                          39 --		-I../../../../../bsp/board//src/stdio
+                          40 --		-I../../../../../bsp/board/d1lx_mango/config
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          44 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          45 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          46 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          47 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          48 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          49 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          50 --		-I../../../../../device/d1lx/lib
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+                          51 --		-I../../../../../device/d1lx/macro_cfg
+                          52 --		-I../../../../../device/d1lx/src/dev
+                          53 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          54 --		-I../../../../../device/d1x_common/macro_cfg
+                          55 --		-I../../../../../device/d1x_common/src/csisw
+                          56 --		-I../../../../../device/d1x_common/src/ddb
+                          57 --		-I../../../../../device/d1x_common/src/dev
+                          58 --		-I../../../../../device/d1x_common/src/gfxbus
+                          59 --		-I../../../../../device/d1x_common/src/gpio
+                          60 --		-I../../../../../device/d1x_common/src/ostm
+                          61 --		-I../../../../../device/d1x_common/src/pbg
+                          62 --		-I../../../../../device/d1x_common/src/riic
+                          63 --		-I../../../../../device/d1x_common/src/sfma
+                          64 --		-I../../../../../device/d1x_common/src/spea
+                          65 --		-I../../../../../device/d1x_common/src/tauj
+                          66 --		-I../../../../../device/d1x_common/src/tick
+                          67 --		-I../../../../../device/d1x_common/src/vdce
+                          68 --		-I../../../../../device/d1x_common/src/wm
+                          69 --		-I../../../../../device/d1x_common/src/xbus
+                          70 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          71 --		-I../../../../../macro/bus/pbg/src
+                          72 --		-I../../../../../macro/csi/csisw/lib
+                          73 --		-I../../../../../macro/csi/csisw/src
+                          74 --		-I../../../../../macro/drw2d/lib
+                          75 --		-I../../../../../macro/drw2d/platform/cpu
+                          76 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          77 --		-I../../../../../macro/drw2d/src
+                          78 --		-I../../../../../macro/flashc/sfcdb/lib
+                          79 --		-I../../../../../macro/flashc/sfcdb/src
+                          80 --		-I../../../../../macro/flashc/sfma/lib
+                          81 --		-I../../../../../macro/flashc/sfma/src
+                          82 --		-I../../../../../macro/gfxbus/lib
+                          83 --		-I../../../../../macro/gfxbus/src
+                          84 --		-I../../../../../macro/gfxbus/xbus/lib
+                          85 --		-I../../../../../macro/gfxbus/xbus/src
+                          86 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          87 --		-I../../../../../macro/i2c/riic/lib
+                          88 --		-I../../../../../macro/i2c/riic/src
+                          89 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          90 --		-I../../../../../macro/timer/ostm/lib
+                          91 --		-I../../../../../macro/timer/ostm/src
+                          92 --		-I../../../../../macro/timer/tauj/lib
+                          93 --		-I../../../../../macro/timer/tauj/src
+                          94 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          95 --		-I../../../../../macro/vo/ddb/lib
+                          96 --		-I../../../../../macro/vo/ddb/src
+                          97 --		-I../../../../../macro/vo/spea/lib
+                          98 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          99 --		-I../../../../../macro/wm/src
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         101 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         102 --		-G --no_commons --no_implicit_include --prototype_errors
+                         103 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         104 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         105 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         106 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         107 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         108 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         109 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         110 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         111 --		-filetype.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+                         112 --		..\..\..\..\..\bsp\board\d1lx_mango\src\hmi\r_bsp_sys_hmi.c -o
+                         113 --		.\obj\r_bsp_sys_hmi.o
+                         114 --Source File:   ..\..\..\..\..\bsp\board\d1lx_mango\src\hmi\r_bsp_sys_hmi.c
+                         115 --Directory:     
+                         116 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         117 --Compile Date:  Fri Feb 02 14:21:56 2018
+                         118 --Host OS:       Win32
+                         119 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         120 --Release:       Compiler v2013.5.5
+                         121 --Revision Date: Sat Oct 05 05:01:20 2013
+                         122 --Release Date:  Sat Oct 05 05:22:44 2013
+                         123 -- ecom  -g -w
+                         124 
+                         125 --1: /*
+                         126 --2: ****************************************************************************
+                         127 --3: PROJECT : BSP - HMI (SYS)
+                         128 --4: FILE    : $Id: r_bsp_sys_hmi.c 7262 2016-01-15 13:34:37Z michael.golczewski $
+                         129 --5: ============================================================================
+                         130 --6: DESCRIPTION
+                         131 --7: BSP Implementation D1Lx MANGO Board
+                         132 --8: ============================================================================
+                         133 --9:                             C O P Y R I G H T
+                         134 --10: ============================================================================
+                         135 --11:                            Copyright (c) 2015
+                         136 --12:                                   by
+                         137 --13:                     Renesas Electronics (Europe) GmbH. 
+                         138 --14:                            Arcadiastrasse 10
+                         139 --15:                           D-40472 Duesseldorf
+                         140 --16:                                Germany
+                         141 --17:                           All rights reserved.
+                         142 --18: ============================================================================
+                         143 --19: Purpose: only for testing
+                         144 --21: DISCLAIMER                                                                   
+                         145 --22: This software is supplied by Renesas Electronics Corporation and is only     
+                         146 --23: intended for use with Renesas products. No other uses are authorized. This   
+                         147 --24: software is owned by Renesas Electronics Corporation and is protected under  
+                         148 --25: all applicable laws, including copyright laws.                               
+                         149 --26: THIS SOFTWARE IS PROVIDED "AS IS" AND RENESAS MAKES NO WARRANTIES REGARDING  
+                         150 --27: THIS SOFTWARE, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT      
+                         151 --28: LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE   
+                         152 --29: AND NON-INFRINGEMENT. ALL SUCH WARRANTIES ARE EXPRESSLY DISCLAIMED.          
+                         153 --30: TO THE MAXIMUM EXTENT PERMITTED NOT PROHIBITED BY LAW, NEITHER RENESAS       
+                         154 --31: ELECTRONICS CORPORATION NOR ANY OF ITS AFFILIATED COMPANIES SHALL BE LIABLE  
+                         155 --32: FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES FOR   
+                         156 --33: ANY REASON RELATED TO THIS SOFTWARE, EVEN IF RENESAS OR ITS AFFILIATES HAVE  
+                         157 --34: BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.                             
+                         158 --35: Renesas reserves the right, without notice, to make changes to this software 
+                         159 --36: and to discontinue the availability of this software. By using this software,
+                         160 --37: you agree to the additional terms and conditions found by accessing the      
+                         161 --38: following link:                                                              
+                         162 --39: http://www.renesas.com/disclaimer *                                          
+                         163 --40: Copyright (C) 2011 Renesas Electronics Corporation. All rights reserved.     
+                         164 --42: ****************************************************************************
+                         165 --43: */
+                         166 --45: /*
+                         167 --46:   Section: BSP SYS HMI description 
+                         168 --47:   
+                         169 --48:   This is the board specific HMI implementation for the BSP. 
+                         170 --49:         
+                         171 --50: */
+                         172 --53: /*******************************************************************************
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+                         173 --54:   Section: Includes
+                         174 --55: */
+                         175 --57: #include "r_typedefs.h"     /* Renesas basic types, e.g. uint32_t */
+                         176 --59: #include "r_tick_api.h"
+                         177 --60: #include "r_dev_api.h"
+                         178 --61: #include "r_gpio_api.h"
+                         179 --63: #include "r_bsp_hmi_api.h"
+                         180 --64: #include "r_bsp_hmi_sys.h"
+                         181 --65: #include "r_bsp_hmi_knob.h" /* BSP HMI Knob and Button */
+                         182 --66: #include "r_bsp_board_config.h"
+                         183 --69: /*******************************************************************************
+                         184 --70:   Section: Local Defines
+                         185 --71: */
+                         186 --73: /*******************************************************************************
+                         187 --74:   Defines for port assignment of LEDs
+                         188 --75:   
+                         189 --76:   The 16 LEDs are connected to the following
+                         190 --77:   output port pins on MANGO board.
+                         191 --78:     LED0 port   P16_0
+                         192 --79:     LED1 port   P16_1
+                         193 --80:     [...]
+                         194 --81:     LED11 port  P16_11
+                         195 --82:     LED12 port  P17_0
+                         196 --83:     [...]
+                         197 --84:     LED15 port  P17_3
+                         198 --86:   This requires the Jumper settings (CN19 + CN20) on the MANGO board  
+                         199 --87:     Set Jumper CN19 1-2     to connect LED0  to P16_0
+                         200 --88:     Set Jumper CN19 3-4     to connect LED1  to P16_1
+                         201 --89:     [...]
+                         202 --90:     Set Jumper CN20 1-2     to connect LED8  to P16_8
+                         203 --91:     [...]
+                         204 --92:     Set Jumper CN20 15-16   to connect LED15 to P17_3
+                         205 --93:     
+                         206 --94: */
+                         207 --95: #define LOC_LED0_PORT    16u
+                         208 --96: #define LOC_LED0_PIN      0u
+                         209 --97: #define LOC_LED1_PORT    16u
+                         210 --98: #define LOC_LED1_PIN      1u
+                         211 --99: #define LOC_LED2_PORT    16u
+                         212 --100: #define LOC_LED2_PIN      2u
+                         213 --101: #define LOC_LED3_PORT    16u
+                         214 --102: #define LOC_LED3_PIN      3u
+                         215 --103: #define LOC_LED4_PORT    16u
+                         216 --104: #define LOC_LED4_PIN      4u
+                         217 --105: #define LOC_LED5_PORT    16u
+                         218 --106: #define LOC_LED5_PIN      5u
+                         219 --107: #define LOC_LED6_PORT    16u
+                         220 --108: #define LOC_LED6_PIN      6u
+                         221 --109: #define LOC_LED7_PORT    16u
+                         222 --110: #define LOC_LED7_PIN      7u
+                         223 --111: #define LOC_LED8_PORT    16u
+                         224 --112: #define LOC_LED8_PIN      8u
+                         225 --113: #define LOC_LED9_PORT    16u
+                         226 --114: #define LOC_LED9_PIN      9u
+                         227 --115: #define LOC_LED10_PORT   16u
+                         228 --116: #define LOC_LED10_PIN    10u
+                         229 --117: #define LOC_LED11_PORT   16u
+                         230 --118: #define LOC_LED11_PIN    11u
+                         231 --119: #define LOC_LED12_PORT   17u
+                         232 --120: #define LOC_LED12_PIN     0u
+                         233 --121: #define LOC_LED13_PORT   17u
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+                         234 --122: #define LOC_LED13_PIN     1u
+                         235 --123: #define LOC_LED14_PORT   17u
+                         236 --124: #define LOC_LED14_PIN     2u
+                         237 --125: #define LOC_LED15_PORT   17u
+                         238 --126: #define LOC_LED15_PIN     3u
+                         239 --128: /*******************************************************************************
+                         240 --129:   Section: Local Constants
+                         241 --130: */
+                         242 --132: static const r_dev_PinConfig_t loc_PinConfig[] = 
+                         243 --133: /*      Port                Pin                Func      Dir      Feedback     Pull        OpenDrain   HiCurr   HiSpeed  InputType */
+                         244 --134: {
+                         245 --135:     /* LED */
+                         246 --136:     {LOC_LED0_PORT,       LOC_LED0_PIN,        0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         247 --137:     {LOC_LED1_PORT,       LOC_LED1_PIN,        0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         248 --138:     {LOC_LED2_PORT,       LOC_LED2_PIN,        0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         249 --139:     {LOC_LED3_PORT,       LOC_LED3_PIN,        0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         250 --140:     {LOC_LED4_PORT,       LOC_LED4_PIN,        0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         251 --141:     {LOC_LED5_PORT,       LOC_LED5_PIN,        0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         252 --142:     {LOC_LED6_PORT,       LOC_LED6_PIN,        0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         253 --143:     {LOC_LED7_PORT,       LOC_LED7_PIN,        0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         254 --144:     {LOC_LED8_PORT,       LOC_LED8_PIN,        0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         255 --145:     {LOC_LED9_PORT,       LOC_LED9_PIN,        0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         256 --146:     {LOC_LED10_PORT,      LOC_LED10_PIN,       0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         257 --147:     {LOC_LED11_PORT,      LOC_LED11_PIN,       0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         258 --148:     {LOC_LED12_PORT,      LOC_LED12_PIN,       0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         259 --149:     {LOC_LED13_PORT,      LOC_LED13_PIN,       0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         260 --150:     {LOC_LED14_PORT,      LOC_LED14_PIN,       0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         261 --151:     {LOC_LED15_PORT,      LOC_LED15_PIN,       0u, R_DEV_PIN_OUT,    0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1}, 
+                         262 --152:     /* Button */
+                         263 --153:     {BSP_BTN_LEFT_PORT,   BSP_BTN_LEFT_PIN,    4u, R_DEV_PIN_IN,     0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         264 --154:     {BSP_BTN_UP_PORT,     BSP_BTN_UP_PIN,      1u, R_DEV_PIN_IN,     0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         265 --155: #if USE_FOUT_INSTEAD_BSP_BTN_DOWN != 1
+                         266 --156:     {BSP_BTN_DOWN_PORT,   BSP_BTN_DOWN_PIN,    1u, R_DEV_PIN_IN,     0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         267 --157: #endif  /* USE_FOUT_INSTEAD_BSP_BTN_DOWN */
+                         268 --158: #if USE_FOUT_INSTEAD_BSP_BTN_RIGHT != 1
+                         269 --159:     {BSP_BTN_RIGHT_PORT,  BSP_BTN_RIGHT_PIN,   1u, R_DEV_PIN_IN,     0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         270 --160: #endif  /* USE_FOUT_INSTEAD_BSP_BTN_RIGHT */
+                         271 --161:     {BSP_BTN_CENTER_PORT, BSP_BTN_CENTER_PIN,  1u, R_DEV_PIN_IN,     0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         272 --162:     /* Knob */
+                         273 --163:     {BSP_KNOB_PRESS_PORT, BSP_KNOB_PRESS_PIN,  4u, R_DEV_PIN_IN,     0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         274 --164:     {BSP_KNOB_DIR_A_PORT, BSP_KNOB_DIR_A_PIN,  1u, R_DEV_PIN_IN,     0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         275 --165:     {BSP_KNOB_DIR_B_PORT, BSP_KNOB_DIR_B_PIN,  1u, R_DEV_PIN_IN,     0u,  R_DEV_PIN_PULLNO,     0u,      0u,         0u,   R_DEV_PIN_CMOS1},  
+                         276 --166:     /* delimiter - do not remove */
+                         277 --167:     {0u, R_DEV_PIN_LAST,0u,R_DEV_PIN_OUT,0u,R_DEV_PIN_PULLNO,     0u,      0u,         0u,    R_DEV_PIN_CMOS1}  
+                         278 --168: };
+                         279 --170: /*******************************************************************************
+                         280 --171:   Section: Local Variables 
+                         281 --172: */
+                         282 --174: static uint8_t loc_Brightness[BSP_MAX_LED];
+                         283 --176: /*******************************************************************************
+                         284 --177:   Section: Local Functions
+                         285 --178: */
+                         286 --182: /*******************************************************************************
+                         287 --183:   Section: Global BSP HMI SYS Functions
+                         288 --185: */
+                         289 --187: /*******************************************************************************
+                         290 --188:   Function: R_BSP_HMI_Init
+                         291 --189:   
+                         292 --190:   See: r_bsp_hmi_sys.h for details    
+                         293 --191: */
+                         294 --192: void R_BSP_SYS_HMI_Init(void) 
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+                         295 	.text
+                         296 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740384..0::
+                         297 	.align	2
+                         298 	.global	_R_BSP_SYS_HMI_Init
+                         299 _R_BSP_SYS_HMI_Init:
+00000000 80076100        300 	prepare	{r29,r31},0
+                         301 --	    .bf
+                         302 .LDW01:
+                         303 --193: {
+                         304 --194:     uint8_t lednr;
+                         305 --195:     R_DEV_PinInit (loc_PinConfig); 
+00000004 260600000000*   306 	mov	_loc_PinConfig,r6
+                         307 	jarl	_R_DEV_PinInit,lp
+                         307 <EXPANSION BEGIN>
+                         307 jarl22 _R_DEV_PinInit , lp 
+0000000a 80ff0000*       307 <EXPANSION END>
+                         308 --196:     
+                         309 --197:     /* LED 0..15 set default state (on)*/
+                         310 --198:     for (lednr=0; lednr<16; lednr++)
+                         311 --line198
+                         312 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.1::
+                         313 .LDWlin1:
+0000000e 00ea            314 	mov	0,r29
+00000010 0000            315 	nop
+                         316 .L6:
+                         317 --199:     {
+                         318 --200:         R_BSP_SYS_HMI_SetLed(lednr, 100u);
+00000012 1d30            319 	mov	r29,r6
+00000014 203e6400        320 	movea	100,zero,r7
+                         321 	jarl	_R_BSP_SYS_HMI_SetLed,lp
+                         321 <EXPANSION BEGIN>
+                         321 jarl22 _R_BSP_SYS_HMI_SetLed , lp 
+00000018 80ff1c00*       321 <EXPANSION END>
+                         322 --line198
+                         323 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.2::
+                         324 .LDWlin2:
+0000001c 41ea            325 	add	1,r29
+0000001e 9d00            326 	zxb	r29
+00000020 1d06f0ff        327 	addi	-16,r29,zero
+00000024 f9f5*           328 	bnl	.L6
+                         329 --201:     }
+                         330 --202:     
+                         331 --203:     /* Init Rotary - Knob */
+                         332 --204:     R_BSP_HMI_InitRotaryKnob();
+                         333 --line204
+                         334 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.3::
+                         335 .LDWlin3:
+                         336 	jarl	_R_BSP_HMI_InitRotaryKnob,lp
+                         336 <EXPANSION BEGIN>
+                         336 jarl22 _R_BSP_HMI_InitRotaryKnob , lp 
+00000026 80ff0000*       336 <EXPANSION END>
+                         337 --205:     
+                         338 --206:     /* Init Buttons */
+                         339 --207:     R_BSP_HMI_InitButton();
+                         340 --line207
+                         341 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.4::
+                         342 .LDWlin4:
+                         343 	jarl	_R_BSP_HMI_InitButton,lp
+                         343 <EXPANSION BEGIN>
+                         343 jarl22 _R_BSP_HMI_InitButton , lp 
+0000002a 80ff0000*       343 <EXPANSION END>
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+                         344 --208: }
+                         345 --line208
+                         346 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.5::
+                         347 .LDWlin5:
+0000002e 0000            348 	nop
+                         349 --	    .ef
+                         350 .LDW11:
+00000030 40067f00        351 	dispose	0,{r29,r31},[lp]
+                         352 	.type	_R_BSP_SYS_HMI_Init,@function
+                         353 	.size	_R_BSP_SYS_HMI_Init,.-_R_BSP_SYS_HMI_Init
+                         354 	.align	2
+                         355 .LDW21:
+                         356 --_lednr	r29	local
+                         357 
+                         358 	.section ".bss","awb"
+                         359 .L40:
+                         360 	.type	.L40,@object
+                         361 	.size	.L40,0
+                         362 	.global	_loc_Brightness..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.
+                         363 _loc_Brightness..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.:
+                         364 	.type	_loc_Brightness..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.,@object
+                         365 	.size	_loc_Brightness..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.,16
+00000000 000000000000    366 _loc_Brightness:	.space	16
+00000006 000000000000 
+0000000c 00000000 
+                         367 	.type	_loc_Brightness,@object
+                         368 	.size	_loc_Brightness,16
+                         369 	.section ".rodata","a"
+                         370 	.align	4
+                         371 	.global	_loc_PinConfig..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.
+                         372 _loc_PinConfig..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.:
+                         373 	.type	_loc_PinConfig..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.,@object
+                         374 	.size	_loc_PinConfig..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.,480
+00000000 10              375 _loc_PinConfig:	.byte	16
+00000001 00              376 	.space	1
+00000002 00              377 	.space	1
+00000003 00              378 	.space	1
+00000004 00000000        379 	.space	4
+00000008 00              380 	.space	1
+00000009 000000          381 	.space	3
+0000000c 00000000        382 	.space	4
+00000010 00              383 	.space	1
+00000011 00              384 	.space	1
+00000012 00              385 	.space	1
+00000013 01              386 	.byte	1
+00000014 1001            387 	.byte	16,1
+00000016 00              388 	.space	1
+00000017 00              389 	.space	1
+00000018 00000000        390 	.space	4
+0000001c 00              391 	.space	1
+0000001d 000000          392 	.space	3
+00000020 00000000        393 	.space	4
+00000024 00              394 	.space	1
+00000025 00              395 	.space	1
+00000026 00              396 	.space	1
+00000027 01              397 	.byte	1
+00000028 1002            398 	.byte	16,2
+0000002a 00              399 	.space	1
+0000002b 00              400 	.space	1
+0000002c 00000000        401 	.space	4
+00000030 00              402 	.space	1
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+00000031 000000          403 	.space	3
+00000034 00000000        404 	.space	4
+00000038 00              405 	.space	1
+00000039 00              406 	.space	1
+0000003a 00              407 	.space	1
+0000003b 01              408 	.byte	1
+0000003c 1003            409 	.byte	16,3
+0000003e 00              410 	.space	1
+0000003f 00              411 	.space	1
+00000040 00000000        412 	.space	4
+00000044 00              413 	.space	1
+00000045 000000          414 	.space	3
+00000048 00000000        415 	.space	4
+0000004c 00              416 	.space	1
+0000004d 00              417 	.space	1
+0000004e 00              418 	.space	1
+0000004f 01              419 	.byte	1
+00000050 1004            420 	.byte	16,4
+00000052 00              421 	.space	1
+00000053 00              422 	.space	1
+00000054 00000000        423 	.space	4
+00000058 00              424 	.space	1
+00000059 000000          425 	.space	3
+0000005c 00000000        426 	.space	4
+00000060 00              427 	.space	1
+00000061 00              428 	.space	1
+00000062 00              429 	.space	1
+00000063 01              430 	.byte	1
+00000064 1005            431 	.byte	16,5
+00000066 00              432 	.space	1
+00000067 00              433 	.space	1
+00000068 00000000        434 	.space	4
+0000006c 00              435 	.space	1
+0000006d 000000          436 	.space	3
+00000070 00000000        437 	.space	4
+00000074 00              438 	.space	1
+00000075 00              439 	.space	1
+00000076 00              440 	.space	1
+00000077 01              441 	.byte	1
+00000078 1006            442 	.byte	16,6
+0000007a 00              443 	.space	1
+0000007b 00              444 	.space	1
+0000007c 00000000        445 	.space	4
+00000080 00              446 	.space	1
+00000081 000000          447 	.space	3
+00000084 00000000        448 	.space	4
+00000088 00              449 	.space	1
+00000089 00              450 	.space	1
+0000008a 00              451 	.space	1
+0000008b 01              452 	.byte	1
+0000008c 1007            453 	.byte	16,7
+0000008e 00              454 	.space	1
+0000008f 00              455 	.space	1
+00000090 00000000        456 	.space	4
+00000094 00              457 	.space	1
+00000095 000000          458 	.space	3
+00000098 00000000        459 	.space	4
+0000009c 00              460 	.space	1
+0000009d 00              461 	.space	1
+0000009e 00              462 	.space	1
+0000009f 01              463 	.byte	1
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+000000a0 1008            464 	.byte	16,8
+000000a2 00              465 	.space	1
+000000a3 00              466 	.space	1
+000000a4 00000000        467 	.space	4
+000000a8 00              468 	.space	1
+000000a9 000000          469 	.space	3
+000000ac 00000000        470 	.space	4
+000000b0 00              471 	.space	1
+000000b1 00              472 	.space	1
+000000b2 00              473 	.space	1
+000000b3 01              474 	.byte	1
+000000b4 1009            475 	.byte	16,9
+000000b6 00              476 	.space	1
+000000b7 00              477 	.space	1
+000000b8 00000000        478 	.space	4
+000000bc 00              479 	.space	1
+000000bd 000000          480 	.space	3
+000000c0 00000000        481 	.space	4
+000000c4 00              482 	.space	1
+000000c5 00              483 	.space	1
+000000c6 00              484 	.space	1
+000000c7 01              485 	.byte	1
+000000c8 100a            486 	.byte	16,10
+000000ca 00              487 	.space	1
+000000cb 00              488 	.space	1
+000000cc 00000000        489 	.space	4
+000000d0 00              490 	.space	1
+000000d1 000000          491 	.space	3
+000000d4 00000000        492 	.space	4
+000000d8 00              493 	.space	1
+000000d9 00              494 	.space	1
+000000da 00              495 	.space	1
+000000db 01              496 	.byte	1
+000000dc 100b            497 	.byte	16,11
+000000de 00              498 	.space	1
+000000df 00              499 	.space	1
+000000e0 00000000        500 	.space	4
+000000e4 00              501 	.space	1
+000000e5 000000          502 	.space	3
+000000e8 00000000        503 	.space	4
+000000ec 00              504 	.space	1
+000000ed 00              505 	.space	1
+000000ee 00              506 	.space	1
+000000ef 01              507 	.byte	1
+000000f0 11              508 	.byte	17
+000000f1 00              509 	.space	1
+000000f2 00              510 	.space	1
+000000f3 00              511 	.space	1
+000000f4 00000000        512 	.space	4
+000000f8 00              513 	.space	1
+000000f9 000000          514 	.space	3
+000000fc 00000000        515 	.space	4
+00000100 00              516 	.space	1
+00000101 00              517 	.space	1
+00000102 00              518 	.space	1
+00000103 01              519 	.byte	1
+00000104 1101            520 	.byte	17,1
+00000106 00              521 	.space	1
+00000107 00              522 	.space	1
+00000108 00000000        523 	.space	4
+0000010c 00              524 	.space	1
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+0000010d 000000          525 	.space	3
+00000110 00000000        526 	.space	4
+00000114 00              527 	.space	1
+00000115 00              528 	.space	1
+00000116 00              529 	.space	1
+00000117 01              530 	.byte	1
+00000118 1102            531 	.byte	17,2
+0000011a 00              532 	.space	1
+0000011b 00              533 	.space	1
+0000011c 00000000        534 	.space	4
+00000120 00              535 	.space	1
+00000121 000000          536 	.space	3
+00000124 00000000        537 	.space	4
+00000128 00              538 	.space	1
+00000129 00              539 	.space	1
+0000012a 00              540 	.space	1
+0000012b 01              541 	.byte	1
+0000012c 1103            542 	.byte	17,3
+0000012e 00              543 	.space	1
+0000012f 00              544 	.space	1
+00000130 00000000        545 	.space	4
+00000134 00              546 	.space	1
+00000135 000000          547 	.space	3
+00000138 00000000        548 	.space	4
+0000013c 00              549 	.space	1
+0000013d 00              550 	.space	1
+0000013e 00              551 	.space	1
+0000013f 01              552 	.byte	1
+00000140 00              553 	.space	1
+00000141 0504            554 	.byte	5,4
+00000143 00              555 	.space	1
+00000144 01000000        556 	.byte	1,0,0,0
+00000148 00              557 	.space	1
+00000149 000000          558 	.space	3
+0000014c 00000000        559 	.space	4
+00000150 00              560 	.space	1
+00000151 00              561 	.space	1
+00000152 00              562 	.space	1
+00000153 01              563 	.byte	1
+00000154 00              564 	.space	1
+00000155 0301            565 	.byte	3,1
+00000157 00              566 	.space	1
+00000158 01000000        567 	.byte	1,0,0,0
+0000015c 00              568 	.space	1
+0000015d 000000          569 	.space	3
+00000160 00000000        570 	.space	4
+00000164 00              571 	.space	1
+00000165 00              572 	.space	1
+00000166 00              573 	.space	1
+00000167 01              574 	.byte	1
+00000168 00              575 	.space	1
+00000169 0601            576 	.byte	6,1
+0000016b 00              577 	.space	1
+0000016c 01000000        578 	.byte	1,0,0,0
+00000170 00              579 	.space	1
+00000171 000000          580 	.space	3
+00000174 00000000        581 	.space	4
+00000178 00              582 	.space	1
+00000179 00              583 	.space	1
+0000017a 00              584 	.space	1
+0000017b 01              585 	.byte	1
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+0000017c 00              586 	.space	1
+0000017d 0701            587 	.byte	7,1
+0000017f 00              588 	.space	1
+00000180 01000000        589 	.byte	1,0,0,0
+00000184 00              590 	.space	1
+00000185 000000          591 	.space	3
+00000188 00000000        592 	.space	4
+0000018c 00              593 	.space	1
+0000018d 00              594 	.space	1
+0000018e 00              595 	.space	1
+0000018f 01              596 	.byte	1
+00000190 00              597 	.space	1
+00000191 00              598 	.space	1
+00000192 04              599 	.byte	4
+00000193 00              600 	.space	1
+00000194 01000000        601 	.byte	1,0,0,0
+00000198 00              602 	.space	1
+00000199 000000          603 	.space	3
+0000019c 00000000        604 	.space	4
+000001a0 00              605 	.space	1
+000001a1 00              606 	.space	1
+000001a2 00              607 	.space	1
+000001a3 01              608 	.byte	1
+000001a4 00              609 	.space	1
+000001a5 0101            610 	.byte	1,1
+000001a7 00              611 	.space	1
+000001a8 01000000        612 	.byte	1,0,0,0
+000001ac 00              613 	.space	1
+000001ad 000000          614 	.space	3
+000001b0 00000000        615 	.space	4
+000001b4 00              616 	.space	1
+000001b5 00              617 	.space	1
+000001b6 00              618 	.space	1
+000001b7 01              619 	.byte	1
+000001b8 00              620 	.space	1
+000001b9 0201            621 	.byte	2,1
+000001bb 00              622 	.space	1
+000001bc 01000000        623 	.byte	1,0,0,0
+000001c0 00              624 	.space	1
+000001c1 000000          625 	.space	3
+000001c4 00000000        626 	.space	4
+000001c8 00              627 	.space	1
+000001c9 00              628 	.space	1
+000001ca 00              629 	.space	1
+000001cb 01              630 	.byte	1
+000001cc 00              631 	.space	1
+000001cd ff              632 	.byte	255
+000001ce 00              633 	.space	1
+000001cf 00              634 	.space	1
+000001d0 00000000        635 	.space	4
+000001d4 00              636 	.space	1
+000001d5 000000          637 	.space	3
+000001d8 00000000        638 	.space	4
+000001dc 00              639 	.space	1
+000001dd 00              640 	.space	1
+000001de 00              641 	.space	1
+000001df 01              642 	.byte	1
+                         643 	.type	_loc_PinConfig,@object
+                         644 	.size	_loc_PinConfig,480
+                         645 	.data
+                         646 	.text
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+                         647 
+                         648 
+                         649 --210: /*******************************************************************************
+                         650 --211:   Function: R_BSP_HMI_SetLed
+                         651 --212:   
+                         652 --213:   See: r_bsp_hmi_sys.h for details    
+                         653 --214: */
+                         654 --215: r_Error_t R_BSP_SYS_HMI_SetLed(uint8_t LedNumber, uint32_t Brightness)
+                         655 	.align	2
+                         656 	.align	2
+                         657 	.global	_R_BSP_SYS_HMI_SetLed
+                         658 _R_BSP_SYS_HMI_SetLed:
+00000034 8207e170        659 	prepare	{r25,r26,r27,r28,r29,r31},1
+00000038 c6e6ff00        660 	andi	255,r6,r28
+0000003c 07c8            661 	mov	r7,r25
+0000003e 3d0600000000*   662 	mov	_loc_Brightness,r29
+                         663 --	    .bf
+                         664 .LDW31:
+                         665 --216: {
+                         666 --217:     uint32_t port;
+                         667 --218:     uint32_t pin;
+                         668 --219:     if (LedNumber <= 11u)
+00000044 6be2            669 	cmp	11,r28
+00000046 bb1d*           670 	bh	.L78
+                         671 --220:     {
+                         672 --221:         /* LED is on P16 */
+                         673 --222:         port = 16;
+                         674 --line222
+                         675 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.6::
+                         676 .LDWlin6:
+00000048 20de1000        677 	movea	16,zero,r27
+                         678 --223:         pin = (LedNumber - 0u);
+0000004c 1cd0            679 	mov	r28,r26
+                         680 --224:         if (Brightness == 0u) 
+0000004e e0c9            681 	cmp	zero,r25
+00000050 8a0d*           682 	bne	.L80
+                         683 --225:         {
+                         684 --226:             /* switch LOC_LED[11..0] off */
+                         685 --227:             R_GPIO_WritePin(port, pin, 1);
+                         686 --line227
+                         687 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.7::
+                         688 .LDWlin7:
+00000052 1a38            689 	mov	r26,r7
+00000054 1b30            690 	mov	r27,r6
+00000056 8700            691 	zxb	r7
+00000058 0142            692 	mov	1,r8
+                         693 	jarl	_R_GPIO_WritePin,lp
+                         693 <EXPANSION BEGIN>
+                         693 jarl22 _R_GPIO_WritePin , lp 
+0000005a 80ff0000*       693 <EXPANSION END>
+0000005e f505*           694 	br	.L82
+                         695 .L80:
+                         696 --228:         } 
+                         697 --229:         else
+                         698 --230:         {
+                         699 --231:             /* switch LOC_LED[11..0] on */
+                         700 --232:             /* dimming not (yet) implemented, the first 
+                         701 --233:             one in need it the first one to complete this function */
+                         702 --234:             R_GPIO_WritePin(port, pin, 0);
+                         703 --line234
+                         704 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.8::
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+                         705 .LDWlin8:
+00000060 1a38            706 	mov	r26,r7
+00000062 1b30            707 	mov	r27,r6
+00000064 8700            708 	zxb	r7
+00000066 0042            709 	mov	0,r8
+                         710 	jarl	_R_GPIO_WritePin,lp
+                         710 <EXPANSION BEGIN>
+                         710 jarl22 _R_GPIO_WritePin , lp 
+00000068 80ff0000*       710 <EXPANSION END>
+                         711 .L82:
+                         712 --235:         }
+                         713 --236:         loc_Brightness[LedNumber] = Brightness; 
+                         714 --line236
+                         715 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.9::
+                         716 .LDWlin9:
+0000006c 2b0600000000*   717 	mov	_loc_Brightness,r11
+00000072 1cf0            718 	mov	r28,ep
+00000074 cbf1            719 	add	r11,ep
+00000076 80cb            720 	sst.b	r25,0[ep]
+                         721 --237:         return R_ERR_OK;
+00000078 0052            722 	mov	0,r10
+0000007a a525*           723 	br	.L76
+                         724 .L78:
+                         725 --238:     }
+                         726 --239:     
+                         727 --240:     if ((LedNumber >= 12u) && (LedNumber < BSP_MAX_LED))
+                         728 --line240
+                         729 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.10::
+                         730 .LDWlin10:
+0000007c 6ce2            731 	cmp	12,r28
+0000007e f11d*           732 	bl	.L84
+00000080 1c06f0ff        733 	addi	-16,r28,zero
+00000084 c11d*           734 	bl	.L84
+                         735 --241:     {
+                         736 --242:         /* LED is on P17 */
+                         737 --243:         port = 17;
+                         738 --line243
+                         739 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.11::
+                         740 .LDWlin11:
+00000086 20de1100        741 	movea	17,zero,r27
+                         742 --244:         pin = (LedNumber - 12u);
+0000008a 1cd6f4ff        743 	addi	-12,r28,r26
+                         744 --245:         if (Brightness == 0u) 
+0000008e e0c9            745 	cmp	zero,r25
+00000090 8a0d*           746 	bne	.L87
+                         747 --246:         {
+                         748 --247:             /* switch LOC_LED[15..12] off */
+                         749 --248:             R_GPIO_WritePin(port, pin, 1);
+                         750 --line248
+                         751 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.12::
+                         752 .LDWlin12:
+00000092 1a38            753 	mov	r26,r7
+00000094 1b30            754 	mov	r27,r6
+00000096 8700            755 	zxb	r7
+00000098 0142            756 	mov	1,r8
+                         757 	jarl	_R_GPIO_WritePin,lp
+                         757 <EXPANSION BEGIN>
+                         757 jarl22 _R_GPIO_WritePin , lp 
+0000009a 80ff0000*       757 <EXPANSION END>
+0000009e f505*           758 	br	.L89
+                         759 .L87:
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+                         760 --249:         } 
+                         761 --250:         else
+                         762 --251:         {
+                         763 --252:             /* switch LOC_LED[15..12] on */
+                         764 --253:             /* dimming not (yet) implemented, the first 
+                         765 --254:             one in need it the first one to complete this function */
+                         766 --255:             R_GPIO_WritePin(port, pin, 0);
+                         767 --line255
+                         768 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.13::
+                         769 .LDWlin13:
+000000a0 1a38            770 	mov	r26,r7
+000000a2 1b30            771 	mov	r27,r6
+000000a4 8700            772 	zxb	r7
+000000a6 0042            773 	mov	0,r8
+                         774 	jarl	_R_GPIO_WritePin,lp
+                         774 <EXPANSION BEGIN>
+                         774 jarl22 _R_GPIO_WritePin , lp 
+000000a8 80ff0000*       774 <EXPANSION END>
+                         775 .L89:
+                         776 --256:         }
+                         777 --257:         loc_Brightness[LedNumber] = Brightness; 
+                         778 --line257
+                         779 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.14::
+                         780 .LDWlin14:
+000000ac 2b0600000000*   781 	mov	_loc_Brightness,r11
+000000b2 1cf0            782 	mov	r28,ep
+000000b4 cbf1            783 	add	r11,ep
+000000b6 80cb            784 	sst.b	r25,0[ep]
+                         785 --258:         return R_ERR_OK;
+000000b8 0052            786 	mov	0,r10
+000000ba a505*           787 	br	.L76
+                         788 .L84:
+                         789 --259:     }
+                         790 --260:     return R_NG;
+                         791 --line260
+                         792 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.15::
+                         793 .LDWlin15:
+000000bc 0152            794 	mov	1,r10
+                         795 .L76:
+                         796 --	    .ef
+                         797 .LDW41:
+000000be 4206ff70        798 	dispose	1,{r25,r26,r27,r28,r29,r31},[lp]
+                         799 	.type	_R_BSP_SYS_HMI_SetLed,@function
+                         800 	.size	_R_BSP_SYS_HMI_SetLed,.-_R_BSP_SYS_HMI_SetLed
+                         801 	.align	2
+                         802 .LDW51:
+                         803 --_port	r27	local
+                         804 --_pin	r26	local
+                         805 
+                         806 --_LedNumber	r28	param
+                         807 --_Brightness	r25	param
+                         808 
+                         809 	.data
+                         810 	.text
+                         811 
+                         812 --261: }
+                         813 
+                         814 --263: /*******************************************************************************
+                         815 --264:   Function: R_BSP_HMI_GetLed
+                         816 --265:   
+                         817 --266:   See: r_bsp_hmi_sys.h for details    
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00003h41.si
+                         818 --267: */
+                         819 --268: int8_t R_BSP_SYS_HMI_GetLed(uint8_t LedNumber) 
+                         820 	.align	2
+                         821 	.align	2
+                         822 	.global	_R_BSP_SYS_HMI_GetLed
+                         823 _R_BSP_SYS_HMI_GetLed:
+000000c2 c60eff00        824 	andi	255,r6,r1
+                         825 --	    .bf
+                         826 .LDW61:
+                         827 --269: {
+                         828 --270:     if (LedNumber < BSP_MAX_LED) 
+000000c6 0106f0ff        829 	addi	-16,r1,zero
+000000ca 810d*           830 	bl	.L202
+                         831 --271:     {
+                         832 --272:         return loc_Brightness[LedNumber];
+                         833 --line272
+                         834 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.16::
+                         835 .LDWlin16:
+000000cc 3e0600000000*   836 	mov	_loc_Brightness,ep
+000000d2 c1f1            837 	add	r1,ep
+000000d4 0073            838 	sld.b	0[ep],r14
+000000d6 0e50            839 	mov	r14,r10
+000000d8 a505*           840 	br	.L200
+                         841 .L202:
+                         842 --273:     }
+                         843 --274:     else
+                         844 --275:     {
+                         845 --276:         return (-1);
+                         846 --line276
+                         847 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi.17::
+                         848 .LDWlin17:
+000000da 1f52            849 	mov	-1,r10
+                         850 .L200:
+                         851 --	    .ef
+                         852 .LDW71:
+000000dc 7f00            853 	jmp	[lp]
+                         854 	.type	_R_BSP_SYS_HMI_GetLed,@function
+                         855 	.size	_R_BSP_SYS_HMI_GetLed,.-_R_BSP_SYS_HMI_GetLed
+                         856 	.align	2
+                         857 .LDW81:
+                         858 
+                         859 --_LedNumber	r1	param
+                         860 
+                         861 	.data
+                         862 	.text
+                         863 
+                         864 --277:     }
+                         865 --278: }
+                         866 	.align	2
+                         867 --_loc_PinConfig	_loc_PinConfig	static
+                         868 --_loc_Brightness	_loc_Brightness	static
+                         869 
+                         870 	.data
+                         871 	.ghsnote version,14
+                         872 	.ghsnote tools,3
+                         873 	.ghsnote options,144
+                         874 	.text
+                         875 	.align	2
+                         876 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cr_bsp_sys_hmi...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A740384..0::
+                         877 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

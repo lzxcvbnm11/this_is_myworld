@@ -1,0 +1,2015 @@
+                                                                      Page 1
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+Command Line: C:\ghs\comp_201355\ease850.exe -w -elf -b0 -I../../../../../Device -I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK -I../../../../../Driver/DIO -I../../../../../Driver/DSPI -I../../../../../Driver/Interrupt -I../../../../../Driver/ISM -I../../../../../Driver/OSTM -I../../../../../Driver/PWM -I../../../../../Driver/RSTC -I../../../../../Driver/RTCA -I../../../../../Driver/STBC -I../../../../../Driver/TAUB -I../../../../../Driver/WDT -I../../../../../middleware\ADM -I../../../../../middleware\BPM -I../../../../../middleware\EED -I../../../../../middleware\IOM -I../../../../../middleware\LRM -I../../../../../middleware\MOM -I../../../../../middleware\PWMM -I../../../../../Common -I../../../../../Applayer\DSM -I../../../../../Applayer\FM -I../../../../../Applayer\TPM -I../../../../../Applayer\ACC -I../../../../../Applayer\ASS -I../../../../../Applayer\BAT -I../../../../../Applayer\COM -I../../../../../Applayer\COM\vtp -I../../../../../Applayer\COM\vtp\lib -I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG -I../../../../../Applayer\FC -I../../../../../Applayer\FL -I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE -I../../../../../Applayer\ILLU -I../../../../../Applayer\LED -I../../../../../Applayer\MSG -I../../../../../Applayer\NVM -I../../../../../Applayer\ODO -I../../../../../Applayer\PWR -I../../../../../Applayer\RANG -I../../../../../Applayer\RST -I../../../../../Applayer\RTC -I../../../../../Applayer\SCS -I../../../../../Applayer\SSB -I../../../../../Applayer\ST -I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS -I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP -I../../../../../Applayer\CHM -I../../../../../Applayer\DM -I../../../../../Applayer\EVT -I../../../../../Applayer\FTR -I../../../../../Applayer\SLF -I../../../../../Applayer\NWD -I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM -I../../../../../Applayer\NZM -I../../../../../app/gfx_apps/simple_draw_d1l2/src -I../../../../../bsp/board//config -I../../../../../bsp/board//src/gfx -I../../../../../bsp/board//src/hmi -I../../../../../bsp/board//src/stdio -I../../../../../bsp/board/d1lx_mango/config -I../../../../../bsp/board/d1lx_mango/src -I../../../../../bsp/board/d1lx_mango/src/gfx -I../../../../../bsp/board/d1lx_mango/src/hmi -I../../../../../bsp/board/d1lx_mango/src/stdio -I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src -I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src -I../../../../../bsp/lib -I../../../../../bsp/stdio/lib -I../../../../../bsp/stdio/src -I../../../../../cdi/lib -I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc -I../../../../../device/d1lx/lib -I../../../../../device/d1lx/macro_cfg -I../../../../../device/d1lx/src/dev -I../../../../../device/d1lx/src/rh850_ghs -I../../../../../device/d1x_common/macro_cfg -I../../../../../device/d1x_common/src/csisw -I../../../../../device/d1x_common/src/ddb -I../../../../../device/d1x_common/src/dev -I../../../../../device/d1x_common/src/gfxbus -I../../../../../device/d1x_common/src/gpio -I../../../../../device/d1x_common/src/ostm -I../../../../../device/d1x_common/src/pbg -I../../../../../device/d1x_common/src/riic -I../../../../../device/d1x_common/src/sfma -I../../../../../device/d1x_common/src/spea -I../../../../../device/d1x_common/src/tauj -I../../../../../device/d1x_common/src/tick -I../../../../../device/d1x_common/src/vdce -I../../../../../device/d1x_common/src/wm -I../../../../../device/d1x_common/src/xbus -I../../../../../device/lib -I../../../../../macro/bus/pbg/lib -I../../../../../macro/bus/pbg/src -I../../../../../macro/csi/csisw/lib -I../../../../../macro/csi/csisw/src -I../../../../../macro/drw2d/lib -I../../../../../macro/drw2d/platform/cpu -I../../../../../macro/drw2d/platform/os/no_os -I../../../../../macro/drw2d/src -I../../../../../macro/flashc/sfcdb/lib -I../../../../../macro/flashc/sfcdb/src -I../../../../../macro/flashc/sfma/lib -I../../../../../macro/flashc/sfma/src -I../../../../../macro/gfxbus/lib -I../../../../../macro/gfxbus/src -I../../../../../macro/gfxbus/xbus/lib -I../../../../../macro/gfxbus/xbus/src -I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src -I../../../../../macro/i2c/riic/lib -I../../../../../macro/i2c/riic/src -I../../../../../macro/tick/lib -I../../../../../macro/tick/src -I../../../../../macro/timer/ostm/lib -I../../../../../macro/timer/ostm/src -I../../../../../macro/timer/tauj/lib -I../../../../../macro/timer/tauj/src -I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src -I../../../../../macro/vo/ddb/lib -I../../../../../macro/vo/ddb/src -I../../../../../macro/vo/spea/lib -I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib -I../../../../../macro/wm/src -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI -I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data -IC:\ghs\comp_201355\lib\rh850_22 -cg_underscore -cpu=rh850g3m -no_v850_simd -nomacro -patch_dbo=D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs\obj\ism.dbo -source=ism.c -o .\obj\gh_00008t81.o -list=.\obj\ism.lst C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si 
+Original File: C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+Source File: ism.c
+Directory: D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+Host OS: Windows 7 Service Pack 1
+EASE: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.5.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-10-04.1311-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@496240 (built by build)
+Revision Date: Sat Oct 05 04:54:43 2013
+
+Release Date: Sat Oct 05 05:20:49 2013
+
+                           1 --Driver Command: ccv850 -c -MD -I../../../../../Device
+                           2 --		-I../../../../../Driver/ADCE -I../../../../../Driver/CLOCK
+                           3 --		-I../../../../../Driver/DIO -I../../../../../Driver/DSPI
+                           4 --		-I../../../../../Driver/Interrupt -I../../../../../Driver/ISM
+                           5 --		-I../../../../../Driver/OSTM -I../../../../../Driver/PWM
+                           6 --		-I../../../../../Driver/RSTC -I../../../../../Driver/RTCA
+                           7 --		-I../../../../../Driver/STBC -I../../../../../Driver/TAUB
+                           8 --		-I../../../../../Driver/WDT -I../../../../../middleware\ADM
+                           9 --		-I../../../../../middleware\BPM -I../../../../../middleware\EED
+                          10 --		-I../../../../../middleware\IOM -I../../../../../middleware\LRM
+                          11 --		-I../../../../../middleware\MOM -I../../../../../middleware\PWMM
+                          12 --		-I../../../../../Common -I../../../../../Applayer\DSM
+                          13 --		-I../../../../../Applayer\FM -I../../../../../Applayer\TPM
+                          14 --		-I../../../../../Applayer\ACC -I../../../../../Applayer\ASS
+                          15 --		-I../../../../../Applayer\BAT -I../../../../../Applayer\COM
+                          16 --		-I../../../../../Applayer\COM\vtp
+                          17 --		-I../../../../../Applayer\COM\vtp\lib
+                          18 --		-I../../../../../Applayer\CRUS -I../../../../../Applayer\DIAG
+                          19 --		-I../../../../../Applayer\FC -I../../../../../Applayer\FL
+                          20 --		-I../../../../../Applayer\HSD -I../../../../../Applayer\IDLE
+                          21 --		-I../../../../../Applayer\ILLU -I../../../../../Applayer\LED
+                          22 --		-I../../../../../Applayer\MSG -I../../../../../Applayer\NVM
+                          23 --		-I../../../../../Applayer\ODO -I../../../../../Applayer\PWR
+                          24 --		-I../../../../../Applayer\RANG -I../../../../../Applayer\RST
+                          25 --		-I../../../../../Applayer\RTC -I../../../../../Applayer\SCS
+                          26 --		-I../../../../../Applayer\SSB -I../../../../../Applayer\ST
+                          27 --		-I../../../../../Applayer\STSMG -I../../../../../Applayer\SYS
+                          28 --		-I../../../../../Applayer\TIP -I../../../../../Applayer\TRIP
+                          29 --		-I../../../../../Applayer\CHM -I../../../../../Applayer\DM
+                          30 --		-I../../../../../Applayer\EVT -I../../../../../Applayer\FTR
+                          31 --		-I../../../../../Applayer\SLF -I../../../../../Applayer\NWD
+                          32 --		-I../../../../../Applayer\TPMS -I../../../../../Applayer\WFM
+                          33 --		-I../../../../../Applayer\NZM
+                          34 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src
+                          35 --		-I../../../../../bsp/board//config
+                          36 --		-I../../../../../bsp/board//src/gfx
+                          37 --		-I../../../../../bsp/board//src/hmi
+                          38 --		-I../../../../../bsp/board//src/stdio
+                          39 --		-I../../../../../bsp/board/d1lx_mango/config
+                          40 --		-I../../../../../bsp/board/d1lx_mango/src
+                          41 --		-I../../../../../bsp/board/d1lx_mango/src/gfx
+                          42 --		-I../../../../../bsp/board/d1lx_mango/src/hmi
+                          43 --		-I../../../../../bsp/board/d1lx_mango/src/stdio
+                          44 --		-I../../../../../bsp/gfx/lib -I../../../../../bsp/gfx/src
+                          45 --		-I../../../../../bsp/hmi/lib -I../../../../../bsp/hmi/src
+                          46 --		-I../../../../../bsp/lib -I../../../../../bsp/stdio/lib
+                          47 --		-I../../../../../bsp/stdio/src -I../../../../../cdi/lib
+                          48 --		-I../../../../../cdi/src -I../../../../../compiler/rh850_ghs/inc
+                          49 --		-I../../../../../device/d1lx/lib
+                          50 --		-I../../../../../device/d1lx/macro_cfg
+
+                                                                      Page 2
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                          51 --		-I../../../../../device/d1lx/src/dev
+                          52 --		-I../../../../../device/d1lx/src/rh850_ghs
+                          53 --		-I../../../../../device/d1x_common/macro_cfg
+                          54 --		-I../../../../../device/d1x_common/src/csisw
+                          55 --		-I../../../../../device/d1x_common/src/ddb
+                          56 --		-I../../../../../device/d1x_common/src/dev
+                          57 --		-I../../../../../device/d1x_common/src/gfxbus
+                          58 --		-I../../../../../device/d1x_common/src/gpio
+                          59 --		-I../../../../../device/d1x_common/src/ostm
+                          60 --		-I../../../../../device/d1x_common/src/pbg
+                          61 --		-I../../../../../device/d1x_common/src/riic
+                          62 --		-I../../../../../device/d1x_common/src/sfma
+                          63 --		-I../../../../../device/d1x_common/src/spea
+                          64 --		-I../../../../../device/d1x_common/src/tauj
+                          65 --		-I../../../../../device/d1x_common/src/tick
+                          66 --		-I../../../../../device/d1x_common/src/vdce
+                          67 --		-I../../../../../device/d1x_common/src/wm
+                          68 --		-I../../../../../device/d1x_common/src/xbus
+                          69 --		-I../../../../../device/lib -I../../../../../macro/bus/pbg/lib
+                          70 --		-I../../../../../macro/bus/pbg/src
+                          71 --		-I../../../../../macro/csi/csisw/lib
+                          72 --		-I../../../../../macro/csi/csisw/src
+                          73 --		-I../../../../../macro/drw2d/lib
+                          74 --		-I../../../../../macro/drw2d/platform/cpu
+                          75 --		-I../../../../../macro/drw2d/platform/os/no_os
+                          76 --		-I../../../../../macro/drw2d/src
+                          77 --		-I../../../../../macro/flashc/sfcdb/lib
+                          78 --		-I../../../../../macro/flashc/sfcdb/src
+                          79 --		-I../../../../../macro/flashc/sfma/lib
+                          80 --		-I../../../../../macro/flashc/sfma/src
+                          81 --		-I../../../../../macro/gfxbus/lib
+                          82 --		-I../../../../../macro/gfxbus/src
+                          83 --		-I../../../../../macro/gfxbus/xbus/lib
+                          84 --		-I../../../../../macro/gfxbus/xbus/src
+                          85 --		-I../../../../../macro/gpio/lib -I../../../../../macro/gpio/src
+                          86 --		-I../../../../../macro/i2c/riic/lib
+                          87 --		-I../../../../../macro/i2c/riic/src
+                          88 --		-I../../../../../macro/tick/lib -I../../../../../macro/tick/src
+                          89 --		-I../../../../../macro/timer/ostm/lib
+                          90 --		-I../../../../../macro/timer/ostm/src
+                          91 --		-I../../../../../macro/timer/tauj/lib
+                          92 --		-I../../../../../macro/timer/tauj/src
+                          93 --		-I../../../../../macro/vdce/lib -I../../../../../macro/vdce/src
+                          94 --		-I../../../../../macro/vo/ddb/lib
+                          95 --		-I../../../../../macro/vo/ddb/src
+                          96 --		-I../../../../../macro/vo/spea/lib
+                          97 --		-I../../../../../macro/vo/spea/src -I../../../../../macro/wm/lib
+                          98 --		-I../../../../../macro/wm/src
+                          99 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI
+                         100 --		-I../../../../../app/gfx_apps/simple_draw_d1l2/src/QD_HMI/HMI_Data
+                         101 --		-G --no_commons --no_implicit_include --prototype_errors
+                         102 --		-DR_DRW2D_OS_NO_OS -DR_DRW2D_SYS_CPU -DUSED_CPU=RH850G3M
+                         103 --		-DUSE_BSP_GFX -DUSE_BSP_HMI -DUSE_BSP_STDIO -DUSE_CDI -DUSE_CSISW
+                         104 --		-DUSE_DDB -DUSE_DRW2D -DUSE_GFXBUS -DUSE_GPIO -DUSE_OSTM
+                         105 --		-DUSE_PBG -DUSE_RIIC -DUSE_SFCDB -DUSE_SFMA -DUSE_SPEA -DUSE_TAUJ
+                         106 --		-DUSE_TICK -DUSE_VDCE -DUSE_WM -DUSE_XBUS -MD -Mn -Mx -Zuse1bit
+                         107 --		-allocate_ep -cpu=rh850g3m -entry=_RESET -large_sda -list
+                         108 --		-no_callt -notda -passsource -preprocess_assembly_files
+                         109 --		-registermode=22 -reserve_r2 --diag_warning 1 -object_dir=./obj
+                         110 --		-filetype.c
+                         111 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\ISM\ism.c
+
+                                                                      Page 3
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                         112 --		-o .\obj\ism.o
+                         113 --Source File:   D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\Driver\ISM\ism.c
+                         114 --Directory:     
+                         115 --		D:\Renesas_Electronics\D1x_RGL\rgl_ghs_D1Lx_obj_V1.2.0\vlib\app\gfx_apps\simple_draw_d1l2\target\d1lx_mango_ghs
+                         116 --Compile Date:  Fri Feb 02 14:21:17 2018
+                         117 --Host OS:       Win32
+                         118 --Version:       C-RH850 2013.5.5 DEVELOPMENT VERSION
+                         119 --Release:       Compiler v2013.5.5
+                         120 --Revision Date: Sat Oct 05 05:01:20 2013
+                         121 --Release Date:  Sat Oct 05 05:22:44 2013
+                         122 -- ecom  -g -w
+                         123 
+                         124 --2: /*****************************************************************************
+                         125 --3: * Copyright (C) 2016 ShenZhen Yeedon Media co.,LTD. All rights reserved.
+                         126 --4: *
+                         127 --5: * File Name : ISM.C
+                         128 --6: * Description :the private datas of the pwmm module.
+                         129 --7: * Author: LIUYINGYING
+                         130 --8: * Date: 2017-09-24
+                         131 --9: ******************************************************************************/
+                         132 --10: /* Files for including */
+                         133 --11: #include "ism_info.inc"
+                         134 --14: /*******************************************/
+                         135 --15: static U8 Ism_Init = RET_FAIL;
+                         136 --16: static U8 ZPDHasDone = FALSE;
+                         137 --17: static U32 zerostarttime = 0;
+                         138 --18: unsigned char g_deviceID=0;
+                         139 --19: unsigned char g_ISMZPDStep=0;
+                         140 --20: static U32 runangle[6]={-1,-1,-1,-1,-1,-1};
+                         141 --22: static struct r_ism_t *rism_p[ R_ISM_MACRO_NUM ] =
+                         142 --23: {
+                         143 --24:   ( r_ism_t * )( R_ISM_MACRO_BASE0 )
+                         144 --25: };
+                         145 --29: /***************************************************
+                         146 --30: * Function: ISM_Init
+                         147 --31: * Description: the initialized of the ISM module
+                         148 --32: * Parameters:  none
+                         149 --33: * Returns: none
+                         150 --34: * $Create & Verlog:$
+                         151 --35: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                         152 --36: ****************************************************/
+                         153 --37: void ISM_Init(void)
+                         154 	.text
+                         155 ..bof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74035E..0::
+                         156 	.align	2
+                         157 	.global	_ISM_Init
+                         158 _ISM_Init:
+00000000 80076100        159 	prepare	{r29,r31},0
+                         160 --	    .bf
+                         161 .LDW01:
+                         162 --38: {
+                         163 --39:     uint32_t pclk_Hz;
+                         164 --40:     #if CLOSE_MOTOR
+                         165 --41:       Ism_Init =FALSE;
+                         166 --42:     #endif
+                         167 --43:     /* initialize the ISM PCLK clock */
+                         168 --44:     pclk_Hz = R_SYS_ISM_SysSetClockHz(R_ISM_UNIT, (80 * 1000 * 1000));
+00000004 0032            169 	mov	0,r6
+00000006 270600b4c404    170 	mov	80000000,r7
+                         171 	jarl	_R_SYS_ISM_SysSetClockHz,lp
+                         171 <EXPANSION BEGIN>
+
+                                                                      Page 4
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                         171 jarl22 _R_SYS_ISM_SysSetClockHz , lp 
+0000000c 80ff0000*       171 <EXPANSION END>
+00000010 0ae8            172 	mov	r10,r29
+                         173 --45:     /* initialize the ports */
+                         174 --46:     R_SYS_ISM_SetPort(R_ISM_UNIT);
+                         175 --line46
+                         176 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.1::
+                         177 .LDWlin1:
+00000012 0032            178 	mov	0,r6
+                         179 	jarl	_R_SYS_ISM_SetPort,lp
+                         179 <EXPANSION BEGIN>
+                         179 jarl22 _R_SYS_ISM_SetPort , lp 
+00000014 80ff0000*       179 <EXPANSION END>
+                         180 --47:     R_ISM_SetMotor_CONTI2000( 0 );
+                         181 --line47
+                         182 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.2::
+                         183 .LDWlin2:
+00000018 0032            184 	mov	0,r6
+                         185 	jarl	_R_ISM_SetMotor_CONTI2000,lp
+                         185 <EXPANSION BEGIN>
+                         185 jarl22 _R_ISM_SetMotor_CONTI2000 , lp 
+0000001a 80ff0000*       185 <EXPANSION END>
+                         186 --49: 	
+                         187 --50: /* ZPD */
+                         188 --51: /* the problem with the current code is it hangs on until ZPD is done */
+                         189 --52:     R_ISM_Reset( R_ISM_UNIT );
+                         190 --line52
+                         191 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.3::
+                         192 .LDWlin3:
+0000001e 0032            193 	mov	0,r6
+                         194 	jarl	_R_ISM_Reset,lp
+                         194 <EXPANSION BEGIN>
+                         194 jarl22 _R_ISM_Reset , lp 
+00000020 80ff0000*       194 <EXPANSION END>
+                         195 --54:      R_ISM_DownloadCMParamset( R_ISM_UNIT,
+                         196 --line54
+                         197 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.4::
+                         198 .LDWlin4:
+00000024 0032            199 	mov	0,r6
+00000026 203e1100        200 	movea	17,zero,r7
+                         201 	jarl	_R_ISM_DownloadCMParamset,lp
+                         201 <EXPANSION BEGIN>
+                         201 jarl22 _R_ISM_DownloadCMParamset , lp 
+0000002a 80ff0000*       201 <EXPANSION END>
+                         202 --55:                                R_ISM_CHANNEL_EN0 | R_ISM_CHANNEL_EN4 );
+                         203 --57:     R_ISM_SetupCMChannel( R_ISM_UNIT,
+                         204 --line57
+                         205 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.5::
+                         206 .LDWlin5:
+0000002e 0032            207 	mov	0,r6
+00000030 203e1100        208 	movea	17,zero,r7
+00000034 0142            209 	mov	1,r8
+                         210 	jarl	_R_ISM_SetupCMChannel,lp
+                         210 <EXPANSION BEGIN>
+                         210 jarl22 _R_ISM_SetupCMChannel , lp 
+00000036 80ff0000*       210 <EXPANSION END>
+                         211 --58:                           R_ISM_CHANNEL_EN0 | R_ISM_CHANNEL_EN4, /* all configured channels */
+                         212 --59:                           1 );                     /* clear target position */
+                         213 --60:     
+                         214 --61:      Ism_Init =TRUE;
+                         215 --line61
+
+                                                                      Page 5
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                         216 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.6::
+                         217 .LDWlin6:
+0000003a 2b0600000000*   218 	mov	_Ism_Init,r11
+00000040 010a            219 	mov	1,r1
+00000042 4b0f0000        220 	st.b	r1,0[r11]
+                         221 --62: }
+00000046 0000            222 	nop
+                         223 --	    .ef
+                         224 .LDW11:
+00000048 40067f00        225 	dispose	0,{r29,r31},[lp]
+                         226 	.type	_ISM_Init,@function
+                         227 	.size	_ISM_Init,.-_ISM_Init
+                         228 	.align	2
+                         229 .LDW21:
+                         230 --_pclk_Hz	r29	local
+                         231 
+                         232 	.data
+                         233 	.align	4
+                         234 .L38:
+                         235 	.type	.L38,@object
+                         236 	.size	.L38,0
+                         237 	.global	_zerostarttime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.
+                         238 _zerostarttime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.:
+                         239 	.type	_zerostarttime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,@object
+                         240 	.size	_zerostarttime..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,4
+00000000 00000000        241 _zerostarttime:	.byte	0,0,0,0
+                         242 	.type	_zerostarttime,@object
+                         243 	.size	_zerostarttime,4
+                         244 	.global	_rism_p..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.
+                         245 _rism_p..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.:
+                         246 	.type	_rism_p..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,@object
+                         247 	.size	_rism_p..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,4
+00000004 0000f0ff        248 _rism_p:	.byte	0,0,240,255
+                         249 	.type	_rism_p,@object
+                         250 	.size	_rism_p,4
+                         251 	.global	_Ism_Init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.
+                         252 _Ism_Init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.:
+                         253 	.type	_Ism_Init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,@object
+                         254 	.size	_Ism_Init..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,1
+00000008 00              255 _Ism_Init:	.byte	0
+                         256 	.type	_Ism_Init,@object
+                         257 	.size	_Ism_Init,1
+                         258 	.global	_ZPDHasDone..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.
+                         259 _ZPDHasDone..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.:
+                         260 	.type	_ZPDHasDone..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,@object
+                         261 	.size	_ZPDHasDone..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,1
+00000009 00              262 _ZPDHasDone:	.byte	0
+                         263 	.type	_ZPDHasDone,@object
+                         264 	.size	_ZPDHasDone,1
+0000000a 0000            265 	.space	2
+                         266 	.global	_runangle..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.
+                         267 _runangle..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.:
+                         268 	.type	_runangle..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,@object
+                         269 	.size	_runangle..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,24
+0000000c ffffffff        270 _runangle:	.byte	255,255,255,255
+00000010 ffffffff        271 	.byte	255,255,255,255
+00000014 ffffffff        272 	.byte	255,255,255,255
+00000018 ffffffff        273 	.byte	255,255,255,255
+0000001c ffffffff        274 	.byte	255,255,255,255
+00000020 ffffffff        275 	.byte	255,255,255,255
+                         276 	.type	_runangle,@object
+
+                                                                      Page 6
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                         277 	.size	_runangle,24
+                         278 	.text
+                         279 
+                         280 
+                         281 --65: /***************************************************
+                         282 --66: * Function: ISM_setDeviceID
+                         283 --67: * Description: set device id
+                         284 --68: * Parameters:  input :	id 
+                         285 --69: * Returns: none
+                         286 --70: * $Create & Verlog:$
+                         287 --71: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                         288 --72: ****************************************************/
+                         289 --73: void ISM_setDeviceID(unsigned char ID)
+                         290 	.align	2
+                         291 	.align	2
+                         292 	.global	_ISM_setDeviceID
+                         293 _ISM_setDeviceID:
+0000004c c60eff00        294 	andi	255,r6,r1
+00000050 3e0600000000*   295 	mov	_g_deviceID,ep
+                         296 --	    .bf
+                         297 .LDW31:
+                         298 --74: {
+                         299 --75: 	g_deviceID = ID-1;
+00000056 0176ffff        300 	addi	-1,r1,r14
+0000005a 8073            301 	sst.b	r14,0[ep]
+                         302 --76: 	if(6 <= g_deviceID)
+0000005c 6070            303 	sld.bu	0[ep],r14
+0000005e 6672            304 	cmp	6,r14
+00000060 a105*           305 	bl	.L75
+                         306 --77: 	{
+                         307 --78: 		g_deviceID = 0;
+                         308 --line78
+                         309 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.7::
+                         310 .LDWlin7:
+00000062 8003            311 	sst.b	zero,0[ep]
+                         312 .L75:
+                         313 --79: 	}
+                         314 --80: 	else
+                         315 --81: 	{
+                         316 --82: 	}
+                         317 --83: 	//printf("g_deviceID = %d\n",ID);
+                         318 --84: }
+00000064 0000            319 	nop
+                         320 --	    .ef
+                         321 .LDW41:
+00000066 7f00            322 	jmp	[lp]
+                         323 	.type	_ISM_setDeviceID,@function
+                         324 	.size	_ISM_setDeviceID,.-_ISM_setDeviceID
+                         325 	.align	2
+                         326 .LDW51:
+                         327 
+                         328 --_ID	r1	param
+                         329 
+                         330 	.section ".bss","awb"
+                         331 .L94:
+                         332 	.type	.L94,@object
+                         333 	.size	.L94,0
+                         334 	.data
+                         335 	.text
+                         336 
+                         337 
+
+                                                                      Page 7
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                         338 --87: /***************************************************
+                         339 --88: * Function: ISM_GetInitStatus
+                         340 --89: * Description: Get ISM Init Status
+                         341 --90: * Parameters:  none
+                         342 --91: * Returns: none
+                         343 --92: * $Create & Verlog:$
+                         344 --93: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                         345 --94: ****************************************************/
+                         346 --95: U8  ISM_GetInitStatus(void)
+                         347 	.align	2
+                         348 	.align	2
+                         349 	.global	_ISM_GetInitStatus
+                         350 _ISM_GetInitStatus:
+00000068 210600000000*   351 	mov	_Ism_Init,r1
+                         352 --	    .bf
+                         353 .LDW61:
+                         354 --96: {
+                         355 --97:     return Ism_Init;
+0000006e 2a0600000000*   356 	mov	_Ism_Init,r10
+00000074 8a570100        357 	ld.bu	0[r10],r10
+                         358 --	    .ef
+                         359 .LDW71:
+00000078 7f00            360 	jmp	[lp]
+                         361 	.type	_ISM_GetInitStatus,@function
+                         362 	.size	_ISM_GetInitStatus,.-_ISM_GetInitStatus
+                         363 	.align	2
+                         364 .LDW81:
+                         365 
+                         366 	.data
+                         367 	.text
+                         368 
+                         369 --98: }
+                         370 
+                         371 --101: #if USE_RECORRECTION_METHOD
+                         372 --102: /***************************************************
+                         373 --103: * Function: ism_angleCorrection
+                         374 --104: * Description: set correction angle
+                         375 --105: * Parameters:  channel:input  speed or tacho  
+                         376 --106: 				angle : input correction angle
+                         377 --107: * Returns: none
+                         378 --108: * $Create & Verlog:$
+                         379 --109: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                         380 --110: ****************************************************/
+                         381 --111: uint32_t ism_angleCorrection(unsigned char channel,uint32_t angle)
+                         382 	.align	2
+                         383 	.align	2
+                         384 	.global	_ism_angleCorrection..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.
+                         385 _ism_angleCorrection..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.:
+                         386 _ism_angleCorrection:
+0000007a 8007e170        387 	prepare	{r25,r26,r27,r28,r29,r31},0
+0000007e c6deff00        388 	andi	255,r6,r27
+00000082 0748            389 	mov	r7,r9
+00000084 280600000000*   390 	mov	_g_deviceID,r8
+0000008a 3d0600000000*   391 	mov	_ANGLECOLLECTPOINT_4,r29
+00000090 3c0600000000*   392 	mov	_ANGLECOLLECTPOINT_0,r28
+00000096 3a0600000000*   393 	mov	_ANGLECOLLECTTBL_4,r26
+0000009c 390600000000*   394 	mov	_ANGLECOLLECTTBL_0,r25
+                         395 --	    .bf
+                         396 .LDW91:
+                         397 --112: {
+                         398 --113: 	uint32_t res,i,ofs1,ofs2,tmp1,tmp2;
+
+                                                                      Page 8
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                         399 --115: 	ofs1 = 0;
+000000a2 005a            400 	mov	0,r11
+                         401 --116: 	ofs2 = 0;
+000000a4 0052            402 	mov	0,r10
+                         403 --117: 	if(channel == 4)
+000000a6 64da            404 	cmp	4,r27
+000000a8 ca35*           405 	bne	.L149
+                         406 --118: 	{
+                         407 --119: 		for(i=0;i<6;i++)
+                         408 --line119
+                         409 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.8::
+                         410 .LDWlin8:
+000000aa 0072            411 	mov	0,r14
+000000ac 0000            412 	nop
+                         413 .L153:
+                         414 --120: 		{
+                         415 --121: 			if(angle <= ANGLECOLLECTPOINT_4[i])
+000000ae 0ef0            416 	mov	r14,ep
+000000b0 c2f2            417 	shl	2,ep
+000000b2 ddf1            418 	add	r29,ep
+000000b4 000d            419 	sld.w	0[ep],r1
+000000b6 e149            420 	cmp	r1,r9
+000000b8 bb1d*           421 	bh	.L154
+                         422 --122: 			{
+                         423 --123: 				tmp1 = ANGLECOLLECTPOINT_4[i] - ofs1;
+                         424 --line123
+                         425 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.9::
+                         426 .LDWlin9:
+000000ba 0ef0            427 	mov	r14,ep
+000000bc c2f2            428 	shl	2,ep
+000000be ddf1            429 	add	r29,ep
+000000c0 000d            430 	sld.w	0[ep],r1
+000000c2 0168            431 	mov	r1,r13
+000000c4 ab69            432 	sub	r11,r13
+                         433 --124: 				tmp2 = ANGLECOLLECTTBL_4[g_deviceID][i] - ofs2;
+000000c6 880f0100        434 	ld.bu	0[r8],r1
+000000ca e10e0600        435 	mulhi	6,r1,r1
+000000ce ce09            436 	add	r14,r1
+000000d0 c20a            437 	shl	2,r1
+000000d2 01f0            438 	mov	r1,ep
+000000d4 daf1            439 	add	r26,ep
+000000d6 000d            440 	sld.w	0[ep],r1
+000000d8 0160            441 	mov	r1,r12
+000000da aa61            442 	sub	r10,r12
+                         443 --125: 				res = tmp2*(angle-ofs1)/tmp1;
+000000dc 09f8            444 	mov	r9,lp
+000000de abf9            445 	sub	r11,lp
+000000e0 ecff2202        446 	mulu	r12,lp,zero
+000000e4 1f08            447 	mov	lp,r1
+000000e6 ed0ffe02        448 	divqu	r13,r1,zero
+                         449 --126: 				res += ofs2;
+000000ea ca09            450 	add	r10,r1
+                         451 --127: 				break;
+000000ec b54d*           452 	br	.L158
+                         453 .L154:
+                         454 --128: 			}
+                         455 --129: 			ofs1 = ANGLECOLLECTPOINT_4[i];
+                         456 --line129
+                         457 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.10::
+                         458 .LDWlin10:
+000000ee 0ef0            459 	mov	r14,ep
+
+                                                                      Page 9
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+000000f0 c2f2            460 	shl	2,ep
+000000f2 ddf1            461 	add	r29,ep
+000000f4 005d            462 	sld.w	0[ep],r11
+                         463 --130: 			ofs2 = ANGLECOLLECTTBL_4[g_deviceID][i];
+000000f6 880f0100        464 	ld.bu	0[r8],r1
+000000fa e10e0600        465 	mulhi	6,r1,r1
+000000fe ce09            466 	add	r14,r1
+00000100 c20a            467 	shl	2,r1
+00000102 01f0            468 	mov	r1,ep
+00000104 daf1            469 	add	r26,ep
+00000106 0055            470 	sld.w	0[ep],r10
+00000108 4172            471 	add	1,r14
+0000010a 6672            472 	cmp	6,r14
+0000010c 91d5*           473 	bl	.L153
+0000010e a53d*           474 	br	.L158
+                         475 .L149:
+                         476 --131: 		}
+                         477 --132: 	}
+                         478 --133: 	else if(channel == 0)
+                         479 --line133
+                         480 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.11::
+                         481 .LDWlin11:
+00000110 e0d9            482 	cmp	zero,r27
+00000112 aa35*           483 	bne	.L159
+                         484 --134: 	{
+                         485 --135: 		for(i=0;i<8;i++)
+                         486 --line135
+                         487 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.12::
+                         488 .LDWlin12:
+00000114 0072            489 	mov	0,r14
+00000116 0000            490 	nop
+                         491 .L163:
+                         492 --136: 		{
+                         493 --137: 			if(angle <= ANGLECOLLECTPOINT_0[i])
+00000118 0ef0            494 	mov	r14,ep
+0000011a c2f2            495 	shl	2,ep
+0000011c dcf1            496 	add	r28,ep
+0000011e 000d            497 	sld.w	0[ep],r1
+00000120 e149            498 	cmp	r1,r9
+00000122 ab1d*           499 	bh	.L168
+                         500 --138: 			{
+                         501 --139: 				tmp1 = ANGLECOLLECTPOINT_0[i] - ofs1;
+                         502 --line139
+                         503 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.13::
+                         504 .LDWlin13:
+00000124 0ef0            505 	mov	r14,ep
+00000126 c2f2            506 	shl	2,ep
+00000128 dcf1            507 	add	r28,ep
+0000012a 000d            508 	sld.w	0[ep],r1
+0000012c 0168            509 	mov	r1,r13
+0000012e ab69            510 	sub	r11,r13
+                         511 --140: 				tmp2 = ANGLECOLLECTTBL_0[g_deviceID][i] - ofs2;
+00000130 880f0100        512 	ld.bu	0[r8],r1
+00000134 c30a            513 	shl	3,r1
+00000136 ce09            514 	add	r14,r1
+00000138 c20a            515 	shl	2,r1
+0000013a 01f0            516 	mov	r1,ep
+0000013c d9f1            517 	add	r25,ep
+0000013e 000d            518 	sld.w	0[ep],r1
+00000140 0160            519 	mov	r1,r12
+00000142 aa61            520 	sub	r10,r12
+
+                                                                      Page 10
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                         521 --141: 				res = tmp2*(angle-ofs1)/tmp1;
+00000144 09f8            522 	mov	r9,lp
+00000146 abf9            523 	sub	r11,lp
+00000148 ecff2202        524 	mulu	r12,lp,zero
+0000014c 1f08            525 	mov	lp,r1
+0000014e ed0ffe02        526 	divqu	r13,r1,zero
+                         527 --142: 				res += ofs2;
+00000152 ca09            528 	add	r10,r1
+                         529 --143: 				break;
+00000154 f515*           530 	br	.L158
+                         531 .L168:
+                         532 --144: 			}
+                         533 --145: 			else
+                         534 --146: 			{
+                         535 --147: 			}
+                         536 --148: 			ofs1 = ANGLECOLLECTPOINT_0[i];
+                         537 --line148
+                         538 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.14::
+                         539 .LDWlin14:
+00000156 0ef0            540 	mov	r14,ep
+00000158 c2f2            541 	shl	2,ep
+0000015a dcf1            542 	add	r28,ep
+0000015c 005d            543 	sld.w	0[ep],r11
+                         544 --149: 			ofs2 = ANGLECOLLECTTBL_0[g_deviceID][i];
+0000015e 880f0100        545 	ld.bu	0[r8],r1
+00000162 c30a            546 	shl	3,r1
+00000164 ce09            547 	add	r14,r1
+00000166 c20a            548 	shl	2,r1
+00000168 01f0            549 	mov	r1,ep
+0000016a d9f1            550 	add	r25,ep
+0000016c 0055            551 	sld.w	0[ep],r10
+0000016e 4172            552 	add	1,r14
+00000170 6872            553 	cmp	8,r14
+00000172 b1d5*           554 	bl	.L163
+00000174 f505*           555 	br	.L158
+                         556 .L159:
+                         557 --150: 		}
+                         558 --151: 	}
+                         559 --152: 	else
+                         560 --153: 	{
+                         561 --154: 		res = angle*0x4000/12;
+                         562 --line154
+                         563 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.15::
+                         564 .LDWlin15:
+00000176 0970            565 	mov	r9,r14
+00000178 ce72            566 	shl	14,r14
+0000017a 0e08            567 	mov	r14,r1
+0000017c 0c72            568 	mov	12,r14
+0000017e ee0ffe02        569 	divqu	r14,r1,zero
+                         570 .L158:
+                         571 --155: 	}
+                         572 --156: 	
+                         573 --157: 	return res;
+00000182 0000            574 	nop
+                         575 --	    .ef
+                         576 .LDW02:
+00000184 0150            577 	mov	r1,r10
+00000186 4006ff70        578 	dispose	0,{r25,r26,r27,r28,r29,r31},[lp]
+                         579 	.type	_ism_angleCorrection,@function
+                         580 	.size	_ism_angleCorrection,.-_ism_angleCorrection
+                         581 	.type	_ism_angleCorrection..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,@function
+
+                                                                      Page 11
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                         582 	.size	_ism_angleCorrection..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,.-_ism_angleCorrection..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.
+                         583 	.align	2
+                         584 .LDW12:
+                         585 --_res	r1	local
+                         586 --_i	r14	local
+                         587 --_ofs1	r11	local
+                         588 --_ofs2	r10	local
+                         589 --_tmp1	r13	local
+                         590 --_tmp2	r12	local
+                         591 
+                         592 --_channel	r27	param
+                         593 --_angle	r9	param
+                         594 
+                         595 	.section ".bss","awb"
+                         596 .L262:
+                         597 	.type	.L262,@object
+                         598 	.size	.L262,0
+                         599 	.data
+                         600 	.text
+                         601 
+                         602 --158: }
+                         603 
+                         604 --160: /***************************************************
+                         605 --161: * Function: ism_getCorrentionAngle
+                         606 --162: * Description: Get Angle
+                         607 --163: * Parameters:  ch:input channel speed or tacho
+                         608 --164: * Returns: none
+                         609 --165: * $Create & Verlog:$
+                         610 --166: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                         611 --167: ****************************************************/
+                         612 --168: uint32_t ism_getCorrentionAngle(unsigned char ch)
+                         613 	.align	2
+                         614 	.align	2
+                         615 	.global	_ism_getCorrentionAngle..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.
+                         616 _ism_getCorrentionAngle..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.:
+                         617 _ism_getCorrentionAngle:
+0000018a 8407e170        618 	prepare	{r25,r26,r27,r28,r29,r31},2
+0000018e c6eeff00        619 	andi	255,r6,r29
+00000192 3c0600000000*   620 	mov	_g_deviceID,r28
+00000198 3b0600000000*   621 	mov	_ANGLECOLLECTTBL_4,r27
+0000019e 3a0600000000*   622 	mov	_ANGLECOLLECTTBL_0,r26
+000001a4 390600000000*   623 	mov	_rism_p,r25
+                         624 --	    .bf
+                         625 .LDW22:
+                         626 --169: {
+                         627 --170: 	uint32_t i,tmp,res,ofs1,ofs2,tmp1,tmp2;
+                         628 --172: 	if(TRUE == ISM_GetWorkStatus(ch))
+000001aa 1d30            629 	mov	r29,r6
+                         630 	jarl	_ISM_GetWorkStatus,lp
+                         630 <EXPANSION BEGIN>
+                         630 jarl22 _ISM_GetWorkStatus , lp 
+000001ac 80ff8603*       630 <EXPANSION END>
+000001b0 6152            631 	cmp	1,r10
+000001b2 aa0d*           632 	bne	.L370
+                         633 --173: 	{
+                         634 --174: 		return runangle[ch];
+                         635 --line174
+                         636 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.16::
+                         637 .LDWlin16:
+000001b4 1df0            638 	mov	r29,ep
+000001b6 c2f2            639 	shl	2,ep
+
+                                                                      Page 12
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+000001b8 2e0600000000*   640 	mov	_runangle,r14
+000001be cef1            641 	add	r14,ep
+000001c0 004d            642 	sld.w	0[ep],r9
+000001c2 80075601*       643 	br	.L365
+                         644 .L370:
+                         645 --175: 	}
+                         646 --176: 	else
+                         647 --177: 	{
+                         648 --178: 	}
+                         649 --179: 	tmp = rism_p[0]->var[ch].position;
+                         650 --line179
+                         651 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.17::
+                         652 .LDWlin17:
+000001c6 390f0100        653 	ld.w	0[r25],r1
+000001ca fdf61c00        654 	mulhi	28,r29,ep
+000001ce 010eb801        655 	addi	440,r1,r1
+000001d2 c1f1            656 	add	r1,ep
+000001d4 0845            657 	sld.w	16[ep],r8
+                         658 --180: 	ofs1 = ofs2 = 0;
+000001d6 0062            659 	mov	0,r12
+000001d8 006a            660 	mov	0,r13
+                         661 --181: 	if(ch == 4)
+000001da 64ea            662 	cmp	4,r29
+000001dc ea45*           663 	bne	.L371
+                         664 --182: 	{
+                         665 --183: 		for(i=0;i<6;i++)
+                         666 --line183
+                         667 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.18::
+                         668 .LDWlin18:
+000001de 000a            669 	mov	0,r1
+000001e0 0000            670 	nop
+                         671 .L375:
+                         672 --184: 		{			
+                         673 --185: 			if(tmp <= ANGLECOLLECTTBL_4[g_deviceID][i])
+000001e2 9c770100        674 	ld.bu	0[r28],r14
+000001e6 ee760600        675 	mulhi	6,r14,r14
+000001ea c171            676 	add	r1,r14
+000001ec c272            677 	shl	2,r14
+000001ee 0ef0            678 	mov	r14,ep
+000001f0 dbf1            679 	add	r27,ep
+000001f2 0075            680 	sld.w	0[ep],r14
+000001f4 ee41            681 	cmp	r14,r8
+000001f6 9b25*           682 	bh	.L380
+                         683 --186: 			{
+                         684 --187: 				tmp1 = (ANGLECOLLECTMOVE_4[i] - ofs1)>>8;
+                         685 --line187
+                         686 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.19::
+                         687 .LDWlin19:
+000001f8 01f0            688 	mov	r1,ep
+000001fa c2f2            689 	shl	2,ep
+000001fc 2b0600000000*   690 	mov	_ANGLECOLLECTMOVE_4,r11
+00000202 cbf1            691 	add	r11,ep
+00000204 0075            692 	sld.w	0[ep],r14
+00000206 ad71            693 	sub	r13,r14
+00000208 0e58            694 	mov	r14,r11
+0000020a 885a            695 	shr	8,r11
+                         696 --188: 				tmp2 = (ANGLECOLLECTTBL_4[g_deviceID][i] - ofs2)>>8;
+0000020c 9c770100        697 	ld.bu	0[r28],r14
+00000210 ee760600        698 	mulhi	6,r14,r14
+00000214 c171            699 	add	r1,r14
+00000216 c272            700 	shl	2,r14
+
+                                                                      Page 13
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+00000218 0ef0            701 	mov	r14,ep
+0000021a dbf1            702 	add	r27,ep
+0000021c 0075            703 	sld.w	0[ep],r14
+0000021e ac71            704 	sub	r12,r14
+00000220 0e50            705 	mov	r14,r10
+00000222 8852            706 	shr	8,r10
+                         707 --189: 				res = tmp1*((tmp>>8)-ofs2)/tmp2;
+00000224 0848            708 	mov	r8,r9
+00000226 884a            709 	shr	8,r9
+00000228 ac49            710 	sub	r12,r9
+0000022a eb4f2202        711 	mulu	r11,r9,zero
+0000022e 0970            712 	mov	r9,r14
+00000230 ea77fe02        713 	divqu	r10,r14,zero
+                         714 --190: 				res += ofs1;
+00000234 cd71            715 	add	r13,r14
+                         716 --191: 				break;
+00000236 d56d*           717 	br	.L381
+                         718 .L380:
+                         719 --192: 			}	
+                         720 --193: 			else
+                         721 --194: 			{
+                         722 --195: 			}
+                         723 --196: 			ofs1 = ANGLECOLLECTMOVE_4[i]>>8;
+                         724 --line196
+                         725 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.20::
+                         726 .LDWlin20:
+00000238 01f0            727 	mov	r1,ep
+0000023a c2f2            728 	shl	2,ep
+0000023c 2b0600000000*   729 	mov	_ANGLECOLLECTMOVE_4,r11
+00000242 cbf1            730 	add	r11,ep
+00000244 0075            731 	sld.w	0[ep],r14
+00000246 0e68            732 	mov	r14,r13
+00000248 886a            733 	shr	8,r13
+                         734 --197: 			ofs2 = ANGLECOLLECTTBL_4[g_deviceID][i]>>8;
+0000024a 9c770100        735 	ld.bu	0[r28],r14
+0000024e ee760600        736 	mulhi	6,r14,r14
+00000252 c171            737 	add	r1,r14
+00000254 c272            738 	shl	2,r14
+00000256 0ef0            739 	mov	r14,ep
+00000258 dbf1            740 	add	r27,ep
+0000025a 0075            741 	sld.w	0[ep],r14
+0000025c 0e60            742 	mov	r14,r12
+0000025e 8862            743 	shr	8,r12
+00000260 410a            744 	add	1,r1
+00000262 660a            745 	cmp	6,r1
+00000264 f1bd*           746 	bl	.L375
+00000266 d555*           747 	br	.L381
+                         748 .L371:
+                         749 --198: 		}
+                         750 --199: 	}
+                         751 --200: 	else if(ch == 0)
+                         752 --line200
+                         753 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.21::
+                         754 .LDWlin21:
+00000268 e0e9            755 	cmp	zero,r29
+0000026a ba45*           756 	bne	.L382
+                         757 --201: 	{
+                         758 --202: 		for(i=0;i<6;i++)
+                         759 --line202
+                         760 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.22::
+                         761 .LDWlin22:
+
+                                                                      Page 14
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+0000026c 000a            762 	mov	0,r1
+0000026e 0000            763 	nop
+                         764 .L386:
+                         765 --203: 		{			
+                         766 --204: 			if(tmp <= ANGLECOLLECTTBL_0[g_deviceID][i])
+00000270 9c770100        767 	ld.bu	0[r28],r14
+00000274 c372            768 	shl	3,r14
+00000276 c171            769 	add	r1,r14
+00000278 c272            770 	shl	2,r14
+0000027a 0ef0            771 	mov	r14,ep
+0000027c daf1            772 	add	r26,ep
+0000027e 0075            773 	sld.w	0[ep],r14
+00000280 ee41            774 	cmp	r14,r8
+00000282 8b25*           775 	bh	.L391
+                         776 --205: 			{
+                         777 --206: 				tmp1 = (ANGLECOLLECTMOVE_0[i] - ofs1)>>8;
+                         778 --line206
+                         779 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.23::
+                         780 .LDWlin23:
+00000284 01f0            781 	mov	r1,ep
+00000286 c2f2            782 	shl	2,ep
+00000288 2b0600000000*   783 	mov	_ANGLECOLLECTMOVE_0,r11
+0000028e cbf1            784 	add	r11,ep
+00000290 0075            785 	sld.w	0[ep],r14
+00000292 ad71            786 	sub	r13,r14
+00000294 0e58            787 	mov	r14,r11
+00000296 885a            788 	shr	8,r11
+                         789 --207: 				tmp2 = (ANGLECOLLECTTBL_0[g_deviceID][i] - ofs2)>>8;
+00000298 9c770100        790 	ld.bu	0[r28],r14
+0000029c c372            791 	shl	3,r14
+0000029e c171            792 	add	r1,r14
+000002a0 c272            793 	shl	2,r14
+000002a2 0ef0            794 	mov	r14,ep
+000002a4 daf1            795 	add	r26,ep
+000002a6 0075            796 	sld.w	0[ep],r14
+000002a8 ac71            797 	sub	r12,r14
+000002aa 0e50            798 	mov	r14,r10
+000002ac 8852            799 	shr	8,r10
+                         800 --208: 				res = tmp1*((tmp>>8)-ofs2)/tmp2;
+000002ae 0848            801 	mov	r8,r9
+000002b0 884a            802 	shr	8,r9
+000002b2 ac49            803 	sub	r12,r9
+000002b4 eb4f2202        804 	mulu	r11,r9,zero
+000002b8 0970            805 	mov	r9,r14
+000002ba ea77fe02        806 	divqu	r10,r14,zero
+                         807 --209: 				res += ofs1;
+000002be cd71            808 	add	r13,r14
+                         809 --210: 				break;
+000002c0 852d*           810 	br	.L381
+                         811 .L391:
+                         812 --211: 			}	
+                         813 --212: 			else
+                         814 --213: 			{
+                         815 --214: 			}
+                         816 --215: 			ofs1 = ANGLECOLLECTMOVE_0[i]>>8;
+                         817 --line215
+                         818 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.24::
+                         819 .LDWlin24:
+000002c2 01f0            820 	mov	r1,ep
+000002c4 c2f2            821 	shl	2,ep
+000002c6 2b0600000000*   822 	mov	_ANGLECOLLECTMOVE_0,r11
+
+                                                                      Page 15
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+000002cc cbf1            823 	add	r11,ep
+000002ce 0075            824 	sld.w	0[ep],r14
+000002d0 0e68            825 	mov	r14,r13
+000002d2 886a            826 	shr	8,r13
+                         827 --216: 			ofs2 = ANGLECOLLECTTBL_0[g_deviceID][i]>>8;
+000002d4 9c770100        828 	ld.bu	0[r28],r14
+000002d8 c372            829 	shl	3,r14
+000002da c171            830 	add	r1,r14
+000002dc c272            831 	shl	2,r14
+000002de 0ef0            832 	mov	r14,ep
+000002e0 daf1            833 	add	r26,ep
+000002e2 0075            834 	sld.w	0[ep],r14
+000002e4 0e60            835 	mov	r14,r12
+000002e6 8862            836 	shr	8,r12
+000002e8 410a            837 	add	1,r1
+000002ea 660a            838 	cmp	6,r1
+000002ec a1c5*           839 	bl	.L386
+000002ee 9515*           840 	br	.L381
+                         841 .L382:
+                         842 --217: 		}
+                         843 --218: 	}
+                         844 --219: 	else
+                         845 --220: 	{
+                         846 --221: 		return (((rism_p[0]->var[ch].position&0x00FFFF00)>>8))/64;
+                         847 --line221
+                         848 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.25::
+                         849 .LDWlin25:
+000002f0 390f0100        850 	ld.w	0[r25],r1
+000002f4 fdf61c00        851 	mulhi	28,r29,ep
+000002f8 2e0600ffff00    852 	mov	16776960,r14
+000002fe 010eb801        853 	addi	440,r1,r1
+00000302 c1f1            854 	add	r1,ep
+00000304 080d            855 	sld.w	16[ep],r1
+00000306 4e09            856 	and	r14,r1
+00000308 880a            857 	shr	8,r1
+0000030a 0148            858 	mov	r1,r9
+0000030c 864a            859 	shr	6,r9
+0000030e d505*           860 	br	.L365
+                         861 .L381:
+                         862 --222: 	}
+                         863 --223: 	return res*3/16;
+                         864 --line223
+                         865 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.26::
+                         866 .LDWlin26:
+00000310 0e48            867 	mov	r14,r9
+00000312 e34f4202        868 	mulu	3,r9,zero
+00000316 844a            869 	shr	4,r9
+                         870 .L365:
+                         871 --	    .ef
+                         872 .LDW32:
+00000318 0950            873 	mov	r9,r10
+0000031a 4406ff70        874 	dispose	2,{r25,r26,r27,r28,r29,r31},[lp]
+                         875 	.type	_ism_getCorrentionAngle,@function
+                         876 	.size	_ism_getCorrentionAngle,.-_ism_getCorrentionAngle
+                         877 	.type	_ism_getCorrentionAngle..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,@function
+                         878 	.size	_ism_getCorrentionAngle..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.,.-_ism_getCorrentionAngle..D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.
+                         879 	.align	2
+                         880 .LDW42:
+                         881 --_i	r1	local
+                         882 --_tmp	r8	local
+                         883 --_res	r14	local
+
+                                                                      Page 16
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                         884 --_ofs1	r13	local
+                         885 --_ofs2	r12	local
+                         886 --_tmp1	r11	local
+                         887 --_tmp2	r10	local
+                         888 
+                         889 --_ch	r29	param
+                         890 
+                         891 	.section ".bss","awb"
+                         892 .L492:
+                         893 	.type	.L492,@object
+                         894 	.size	.L492,0
+                         895 	.data
+                         896 	.text
+                         897 
+                         898 --224: }
+                         899 
+                         900 --225: #endif
+                         901 --227: /***************************************************
+                         902 --228: * Function: ISM_Move_Motors
+                         903 --229: * Description: Get ISM Init Status
+                         904 --230: * Parameters:  channel:input  speed or tacho
+                         905 --231:                angle:input dest angle
+                         906 --232: * Returns: none
+                         907 --233: * $Create & Verlog:$
+                         908 --234: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                         909 --235: ****************************************************/
+                         910 --236:  void ISM_Move_Motors(uint8_t channel, uint32_t angle)
+                         911 	.align	2
+                         912 	.align	2
+                         913 	.global	_ISM_Move_Motors
+                         914 _ISM_Move_Motors:
+0000031e 9007e170        915 	prepare	{r25,r26,r27,r28,r29,r31},8
+00000322 3d0600000000*   916 	mov	_rism_p,r29
+00000328 c6e6ff00        917 	andi	255,r6,r28
+0000032c 07d0            918 	mov	r7,r26
+0000032e 3dce0800        919 	movea	8,r29,r25
+                         920 --	    .bf
+                         921 .LDW52:
+                         922 --237: {
+                         923 --238:     uint8_t CurrentChannel_u08;
+                         924 --239:     uint32_t TargetPositionRange_u32[R_ISM_CHANNELS];
+                         925 --240:     uint32_t CurTargetPosition_u32[R_ISM_CHANNELS];
+                         926 --242:   #if CLOSE_MOTOR
+                         927 --243:       return;
+                         928 --244:   #endif
+                         929 --245: 	if(runangle[channel] == angle)
+00000332 1cf0            930 	mov	r28,ep
+00000334 c2f2            931 	shl	2,ep
+00000336 d9f1            932 	add	r25,ep
+00000338 000d            933 	sld.w	0[ep],r1
+0000033a fa09            934 	cmp	r26,r1
+0000033c aa05*           935 	bne	.L606
+                         936 --246: 	{
+                         937 --247: 		return;
+                         938 --line247
+                         939 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.27::
+                         940 .LDWlin27:
+0000033e c52d*           941 	br	.L601
+                         942 .L606:
+                         943 --248: 	}
+                         944 --249: 	else
+
+                                                                      Page 17
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                         945 --250: 	{
+                         946 --251: 	}
+                         947 --252: 	runangle[channel] = angle;
+                         948 --line252
+                         949 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.28::
+                         950 .LDWlin28:
+00000340 1cf0            951 	mov	r28,ep
+00000342 c2f2            952 	shl	2,ep
+00000344 d9f1            953 	add	r25,ep
+00000346 01d5            954 	sst.w	r26,0[ep]
+                         955 --253:     rism_p[ 0 ]->gstc.clre = 0x3F;
+00000348 3df70100        956 	ld.w	0[r29],ep
+0000034c 0c0d            957 	sld.w	24[ep],r1
+0000034e 810e3f00        958 	ori	63,r1,r1
+00000352 0d0d            959 	sst.w	r1,24[ep]
+                         960 --254:     rism_p[ 0 ]->gstc.cldo = 1;
+00000354 3df70100        961 	ld.w	0[r29],ep
+00000358 0c0d            962 	sld.w	24[ep],r1
+0000035a 810e4000        963 	ori	64,r1,r1
+0000035e 0d0d            964 	sst.w	r1,24[ep]
+                         965 --255:     /* get the range of the stepper motors */
+                         966 --256:     CurrentChannel_u08 = channel;	
+00000360 1cd8            967 	mov	r28,r27
+                         968 --257: 	CurTargetPosition_u32[CurrentChannel_u08] = ism_angleCorrection(channel,angle);
+00000362 1b08            969 	mov	r27,r1
+00000364 c20a            970 	shl	2,r1
+00000366 23760800        971 	movea	8,sp,r14
+0000036a 1c30            972 	mov	r28,r6
+0000036c ce09            973 	add	r14,r1
+0000036e 1a38            974 	mov	r26,r7
+00000370 630f0100        975 	st.w	r1,0[sp]
+                         976 	jarl	_ism_angleCorrection,lp
+                         976 <EXPANSION BEGIN>
+                         976 jarl22 _ism_angleCorrection , lp 
+00000374 bfff06fd*       976 <EXPANSION END>
+00000378 23670100        977 	ld.w	0[sp],r12
+0000037c 6c570100        978 	st.w	r10,0[r12]
+                         979 --258:     R_ISM_SetCMTargetPos(R_ISM_UNIT,
+                         980 --line258
+                         981 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.29::
+                         982 .LDWlin29:
+00000380 1bf0            983 	mov	r27,ep
+00000382 c2f2            984 	shl	2,ep
+00000384 23760800        985 	movea	8,sp,r14
+00000388 1b38            986 	mov	r27,r7
+0000038a cef1            987 	add	r14,ep
+0000038c 0032            988 	mov	0,r6
+0000038e 0045            989 	sld.w	0[ep],r8
+                         990 	jarl	_R_ISM_SetCMTargetPos,lp
+                         990 <EXPANSION BEGIN>
+                         990 jarl22 _R_ISM_SetCMTargetPos , lp 
+00000390 80ff0000*       990 <EXPANSION END>
+                         991 --259:                         CurrentChannel_u08,
+                         992 --260:                         CurTargetPosition_u32[CurrentChannel_u08]);
+                         993 --261: 	
+                         994 --262: }
+                         995 --line262
+                         996 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.30::
+                         997 .LDWlin30:
+00000394 0000            998 	nop
+                         999 .L601:
+
+                                                                      Page 18
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                        1000 --	    .ef
+                        1001 .LDW62:
+00000396 5006ff70       1002 	dispose	8,{r25,r26,r27,r28,r29,r31},[lp]
+                        1003 	.type	_ISM_Move_Motors,@function
+                        1004 	.size	_ISM_Move_Motors,.-_ISM_Move_Motors
+                        1005 	.align	2
+                        1006 .LDW72:
+                        1007 --_CurrentChannel_u08	r27	local
+                        1008 --_CurTargetPosition_u32	8[sp]	local
+                        1009 
+                        1010 --_channel	r28	param
+                        1011 --_angle	r26	param
+                        1012 
+                        1013 	.data
+                        1014 	.text
+                        1015 
+                        1016 
+                        1017 --265: /***************************************************
+                        1018 --266: * Function: ISM_StartZpd
+                        1019 --267: * Description: start to  Zero Position Detect
+                        1020 --268: * Parameters:  ismIndex ism channel index
+                        1021 --269: * Returns: none
+                        1022 --270: * $Create & Verlog:$
+                        1023 --271: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                        1024 --272: ****************************************************/
+                        1025 --273: U8 ISM_StartZpd(U8 ismIndex,U8 islittle)
+                        1026 	.align	2
+                        1027 	.align	2
+                        1028 	.global	_ISM_StartZpd
+                        1029 _ISM_StartZpd:
+0000039a 8007e130       1030 	prepare	{r26,r27,r28,r29,r31},0
+0000039e 3d0600000000*  1031 	mov	_zerostarttime,r29
+000003a4 c6e6ff00       1032 	andi	255,r6,r28
+000003a8 c7deff00       1033 	andi	255,r7,r27
+000003ac 3dd60400       1034 	movea	4,r29,r26
+                        1035 --	    .bf
+                        1036 .LDW82:
+                        1037 --274: {
+                        1038 --275:     #if CLOSE_MOTOR
+                        1039 --276:       return TRUE;
+                        1040 --277:     #endif	
+                        1041 --278: 	*(unsigned int*)&rism_p[ 0 ]->gcfg = 0x00000000;
+000003b0 3df70500       1042 	ld.w	4[r29],ep
+000003b4 0505           1043 	sst.w	zero,8[ep]
+                        1044 --279: 	switchIOPort(1);
+000003b6 0132           1045 	mov	1,r6
+                        1046 	jarl	_switchIOPort,lp
+                        1046 <EXPANSION BEGIN>
+                        1046 jarl22 _switchIOPort , lp 
+000003b8 80ff0000*      1046 <EXPANSION END>
+                        1047 --280: 	if(islittle)
+                        1048 --line280
+                        1049 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.31::
+                        1050 .LDWlin31:
+000003bc e0d9           1051 	cmp	zero,r27
+000003be b215*          1052 	be	.L669
+                        1053 --281: 	{		
+                        1054 --282: 		rism_p[ 0 ]->ccmr[ 0 ].cct = 0;
+                        1055 --line282
+                        1056 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.32::
+                        1057 .LDWlin32:
+
+                                                                      Page 19
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+000003c0 3df70500       1058 	ld.w	4[r29],ep
+000003c4 1872           1059 	mov	-8,r14
+000003c6 0e0d           1060 	sld.w	28[ep],r1
+000003c8 4e09           1061 	and	r14,r1
+000003ca 0f0d           1062 	sst.w	r1,28[ep]
+                        1063 --283: 		rism_p[ 0 ]->ccmr[ 4 ].cct = 0;
+000003cc 3df70500       1064 	ld.w	4[r29],ep
+000003d0 1872           1065 	mov	-8,r14
+000003d2 160d           1066 	sld.w	44[ep],r1
+000003d4 4e09           1067 	and	r14,r1
+000003d6 170d           1068 	sst.w	r1,44[ep]
+                        1069 --284: 		R_TICK_WaitMS(0,20);
+000003d8 0032           1070 	mov	0,r6
+000003da 203e1400       1071 	movea	20,zero,r7
+                        1072 	jarl	_R_TICK_WaitMS,lp
+                        1072 <EXPANSION BEGIN>
+                        1072 jarl22 _R_TICK_WaitMS , lp 
+000003de 80ff0000*      1072 <EXPANSION END>
+000003e2 9515*          1073 	br	.L671
+                        1074 .L669:
+                        1075 --285: 	}
+                        1076 --286: 	else
+                        1077 --287: 	{
+                        1078 --288: 		rism_p[ 0 ]->ccmr[ 0 ].cct = 0;
+                        1079 --line288
+                        1080 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.33::
+                        1081 .LDWlin33:
+000003e4 3df70500       1082 	ld.w	4[r29],ep
+000003e8 1872           1083 	mov	-8,r14
+000003ea 0e0d           1084 	sld.w	28[ep],r1
+000003ec 4e09           1085 	and	r14,r1
+000003ee 0f0d           1086 	sst.w	r1,28[ep]
+                        1087 --289: 		rism_p[ 0 ]->ccmr[ 4 ].cct = 0;
+000003f0 3df70500       1088 	ld.w	4[r29],ep
+000003f4 1872           1089 	mov	-8,r14
+000003f6 160d           1090 	sld.w	44[ep],r1
+000003f8 4e09           1091 	and	r14,r1
+000003fa 170d           1092 	sst.w	r1,44[ep]
+                        1093 --290: 		R_TICK_WaitMS(0,2);		
+000003fc 0032           1094 	mov	0,r6
+000003fe 023a           1095 	mov	2,r7
+                        1096 	jarl	_R_TICK_WaitMS,lp
+                        1096 <EXPANSION BEGIN>
+                        1096 jarl22 _R_TICK_WaitMS , lp 
+00000400 80ff0000*      1096 <EXPANSION END>
+                        1097 .L671:
+                        1098 --291: 	}
+                        1099 --292:     M_ISM_ZPDCMChannel(R_ISM_UNIT,ismIndex);
+                        1100 --line292
+                        1101 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.34::
+                        1102 .LDWlin34:
+00000404 1c38           1103 	mov	r28,r7
+00000406 0032           1104 	mov	0,r6
+                        1105 	jarl	_M_ISM_ZPDCMChannel,lp
+                        1105 <EXPANSION BEGIN>
+                        1105 jarl22 _M_ISM_ZPDCMChannel , lp 
+00000408 80ff0000*      1105 <EXPANSION END>
+                        1106 --293:     ZPDHasDone = FALSE; 
+                        1107 --line293
+                        1108 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.35::
+                        1109 .LDWlin35:
+
+                                                                      Page 20
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+0000040c 5d070900       1110 	st.b	zero,9[r29]
+                        1111 --294: 	g_ISMZPDStep = 0;
+00000410 2b0600000000*  1112 	mov	_g_ISMZPDStep,r11
+00000416 4b070000       1113 	st.b	zero,0[r11]
+                        1114 --295:     zerostarttime = R_TICK_GetTimeMS(0);
+0000041a 0032           1115 	mov	0,r6
+                        1116 	jarl	_R_TICK_GetTimeMS,lp
+                        1116 <EXPANSION BEGIN>
+                        1116 jarl22 _R_TICK_GetTimeMS , lp 
+0000041c 80ff0000*      1116 <EXPANSION END>
+00000420 2b0600000000*  1117 	mov	_zerostarttime,r11
+00000426 6b570100       1118 	st.w	r10,0[r11]
+                        1119 --296:    return TRUE;
+                        1120 --line296
+                        1121 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.36::
+                        1122 .LDWlin36:
+0000042a 0152           1123 	mov	1,r10
+                        1124 --	    .ef
+                        1125 .LDW92:
+0000042c 4006ff30       1126 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                        1127 	.type	_ISM_StartZpd,@function
+                        1128 	.size	_ISM_StartZpd,.-_ISM_StartZpd
+                        1129 	.align	2
+                        1130 .LDW03:
+                        1131 
+                        1132 --_ismIndex	r28	param
+                        1133 --_islittle	r27	param
+                        1134 
+                        1135 	.data
+                        1136 	.text
+                        1137 
+                        1138 --297: }
+                        1139 
+                        1140 --301: /***************************************************
+                        1141 --302: * Function: ISM_StopZpd
+                        1142 --303: * Description: Stop Zero Position Detect
+                        1143 --304: * Parameters:  none
+                        1144 --305: * Returns: TRUE
+                        1145 --306: * $Create & Verlog:$
+                        1146 --307: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                        1147 --308: ****************************************************/
+                        1148 --309: U8 ISM_StopZpd(void)
+                        1149 	.align	2
+                        1150 	.align	2
+                        1151 	.global	_ISM_StopZpd
+                        1152 _ISM_StopZpd:
+00000430 8007e100       1153 	prepare	{r28,r29,r31},0
+00000434 3d0600000000*  1154 	mov	_rism_p,r29
+0000043a 1de0           1155 	mov	r29,r28
+                        1156 --	    .bf
+                        1157 .LDW13:
+                        1158 --310: {
+                        1159 --311:      #if CLOSE_MOTOR
+                        1160 --312:      return TRUE;
+                        1161 --313:      #endif
+                        1162 --314:     rism_p[ 0 ]->ccmr[0].czp = 0;
+0000043c 3df70100       1163 	ld.w	0[r29],ep
+00000440 2076bfff       1164 	movea	-65,zero,r14
+00000444 0e0d           1165 	sld.w	28[ep],r1
+00000446 4e09           1166 	and	r14,r1
+00000448 0f0d           1167 	sst.w	r1,28[ep]
+
+                                                                      Page 21
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                        1168 --315:     rism_p[ 0 ]->ccmr[4].czp = 0;
+0000044a 3df70100       1169 	ld.w	0[r29],ep
+0000044e 2076bfff       1170 	movea	-65,zero,r14
+00000452 160d           1171 	sld.w	44[ep],r1
+00000454 4e09           1172 	and	r14,r1
+00000456 170d           1173 	sst.w	r1,44[ep]
+                        1174 --316:     ZPDHasDone = TRUE;
+00000458 010a           1175 	mov	1,r1
+0000045a 5d0f0500       1176 	st.b	r1,5[r29]
+                        1177 --317: 	rism_p[ 0 ]->ccmr[ 0 ].cct = 0;
+0000045e 3df70100       1178 	ld.w	0[r29],ep
+00000462 1872           1179 	mov	-8,r14
+00000464 0e0d           1180 	sld.w	28[ep],r1
+00000466 4e09           1181 	and	r14,r1
+00000468 0f0d           1182 	sst.w	r1,28[ep]
+                        1183 --318: 	rism_p[ 0 ]->ccmr[ 4 ].cct = 0;
+0000046a 3df70100       1184 	ld.w	0[r29],ep
+0000046e 1872           1185 	mov	-8,r14
+00000470 160d           1186 	sld.w	44[ep],r1
+00000472 4e09           1187 	and	r14,r1
+00000474 170d           1188 	sst.w	r1,44[ep]
+                        1189 --319:     R_ISM_SetupCMChannel( R_ISM_UNIT, R_ISM_CHANNEL_EN0 | R_ISM_CHANNEL_EN4,1 );
+00000476 0032           1190 	mov	0,r6
+00000478 203e1100       1191 	movea	17,zero,r7
+0000047c 0142           1192 	mov	1,r8
+                        1193 	jarl	_R_ISM_SetupCMChannel,lp
+                        1193 <EXPANSION BEGIN>
+                        1193 jarl22 _R_ISM_SetupCMChannel , lp 
+0000047e 80ff0000*      1193 <EXPANSION END>
+                        1194 --320:     *(unsigned int*)&rism_p[ 0 ]->gcfg = 0x0002002c;
+                        1195 --line320
+                        1196 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.37::
+                        1197 .LDWlin37:
+00000482 3df70100       1198 	ld.w	0[r29],ep
+00000486 21062c000200   1199 	mov	131116,r1
+0000048c 050d           1200 	sst.w	r1,8[ep]
+                        1201 --321:    return TRUE;
+0000048e 0152           1202 	mov	1,r10
+                        1203 --	    .ef
+                        1204 .LDW23:
+00000490 4006ff00       1205 	dispose	0,{r28,r29,r31},[lp]
+                        1206 	.type	_ISM_StopZpd,@function
+                        1207 	.size	_ISM_StopZpd,.-_ISM_StopZpd
+                        1208 	.align	2
+                        1209 .LDW33:
+                        1210 
+                        1211 	.data
+                        1212 	.text
+                        1213 
+                        1214 --322: }
+                        1215 
+                        1216 --324: /***************************************************
+                        1217 --325: * Function: ISM_isZPDFinish
+                        1218 --326: * Description: Get ZPD status
+                        1219 --327: * Parameters:  ismIndex: ism channel
+                        1220 --328: * Returns: 0:TRUE
+                        1221 --329: 		   1:FALSE
+                        1222 --330: * $Create & Verlog:$
+                        1223 --331: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                        1224 --332: ****************************************************/
+                        1225 --333: U8 ISM_isZPDFinish(U8 ismIndex,U8 islittlezpd)
+
+                                                                      Page 22
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                        1226 	.align	2
+                        1227 	.align	2
+                        1228 	.global	_ISM_isZPDFinish
+                        1229 _ISM_isZPDFinish:
+00000494 8607e170       1230 	prepare	{r25,r26,r27,r28,r29,r31},3
+00000498 c65eff00       1231 	andi	255,r6,r11
+0000049c c766ff00       1232 	andi	255,r7,r12
+000004a0 435f0300       1233 	st.b	r11,3[sp]
+000004a4 43670200       1234 	st.b	r12,2[sp]
+000004a8 3d0600000000*  1235 	mov	_zerostarttime,r29
+000004ae 390600000000*  1236 	mov	_g_ISMZPDStep,r25
+                        1237 --	    .bf
+                        1238 .LDW43:
+                        1239 --334: {
+                        1240 --335:   U8 ret = FALSE;   
+000004b4 00e2           1241 	mov	0,r28
+                        1242 --336:   U32 timeinterval,ofs;  
+                        1243 --337:   unsigned int tmp=0;
+000004b6 00d2           1244 	mov	0,r26
+                        1245 --339:     if(zerostarttime)
+000004b8 3d0f0100       1246 	ld.w	0[r29],r1
+000004bc e009           1247 	cmp	zero,r1
+000004be e235*          1248 	be	.L824
+                        1249 --340: 	{
+                        1250 --341: 		ret = FALSE;
+                        1251 --line341
+                        1252 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.38::
+                        1253 .LDWlin38:
+000004c0 00e2           1254 	mov	0,r28
+                        1255 --343: 	ofs = (R_TICK_GetTimeMS(0) -zerostarttime);
+000004c2 0032           1256 	mov	0,r6
+                        1257 	jarl	_R_TICK_GetTimeMS,lp
+                        1257 <EXPANSION BEGIN>
+                        1257 jarl22 _R_TICK_GetTimeMS , lp 
+000004c4 80ff0000*      1257 <EXPANSION END>
+000004c8 3d0f0100       1258 	ld.w	0[r29],r1
+000004cc 0ad8           1259 	mov	r10,r27
+000004ce a1d9           1260 	sub	r1,r27
+                        1261 --344: 	if(islittlezpd)
+                        1262 --line344
+                        1263 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.39::
+                        1264 .LDWlin39:
+000004d0 835f0300       1265 	ld.bu	2[sp],r11
+000004d4 e059           1266 	cmp	zero,r11
+000004d6 c205*          1267 	be	.L826
+                        1268 --345: 	{
+                        1269 --346: 		timeinterval = ZEROLITTLETIMEINTERVAL;			
+                        1270 --line346
+                        1271 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.40::
+                        1272 .LDWlin40:
+000004d8 200e9600       1273 	movea	150,zero,r1
+000004dc 9525*          1274 	br	.L828
+                        1275 .L826:
+                        1276 --347: 	}
+                        1277 --348: 	else
+                        1278 --349: 	{
+                        1279 --350: 		timeinterval = ZEROTIMEINTERVAL;
+                        1280 --line350
+                        1281 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.41::
+                        1282 .LDWlin41:
+000004de 200ee803       1283 	movea	1000,zero,r1
+
+                                                                      Page 23
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                        1284 --351: 		if(ofs >= ZEROTIMESTEP1)
+000004e2 1b069cff       1285 	addi	-100,r27,zero
+000004e6 a905*          1286 	bnl	.L831
+                        1287 --352: 		{
+                        1288 --353: 			tmp = 1;
+                        1289 --line353
+                        1290 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.42::
+                        1291 .LDWlin42:
+000004e8 01d2           1292 	mov	1,r26
+                        1293 .L831:
+                        1294 --354: 		}
+                        1295 --355: 		else
+                        1296 --356: 		{
+                        1297 --357: 		}
+                        1298 --358: 		if(g_ISMZPDStep != tmp)
+000004ea 99770100       1299 	ld.bu	0[r25],r14
+000004ee fa71           1300 	cmp	r26,r14
+000004f0 f215*          1301 	be	.L828
+                        1302 --359: 		{
+                        1303 --360: 			g_ISMZPDStep = tmp;
+                        1304 --line360
+                        1305 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.43::
+                        1306 .LDWlin43:
+000004f2 59d70000       1307 	st.b	r26,0[r25]
+                        1308 --361: 			switch(tmp)
+000004f6 61d2           1309 	cmp	1,r26
+000004f8 aa15*          1310 	bne	.L837
+                        1311 --362: 			{
+                        1312 --363: 				case 1:
+                        1313 --364: 					rism_p[ 0 ]->ccmr[ 0 ].cct = 2;
+                        1314 --line364
+                        1315 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.44::
+                        1316 .LDWlin44:
+000004fa 3df70500       1317 	ld.w	4[r29],ep
+000004fe 186a           1318 	mov	-8,r13
+00000500 0e75           1319 	sld.w	28[ep],r14
+00000502 4d71           1320 	and	r13,r14
+00000504 8e760200       1321 	ori	2,r14,r14
+00000508 0f75           1322 	sst.w	r14,28[ep]
+                        1323 --365: 					rism_p[ 0 ]->ccmr[ 4 ].cct = 2;
+0000050a 3df70500       1324 	ld.w	4[r29],ep
+0000050e 186a           1325 	mov	-8,r13
+00000510 1675           1326 	sld.w	44[ep],r14
+00000512 4d71           1327 	and	r13,r14
+00000514 8e760200       1328 	ori	2,r14,r14
+00000518 1775           1329 	sst.w	r14,44[ep]
+0000051a a505*          1330 	br	.L828
+                        1331 .L837:
+                        1332 --line369
+                        1333 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.45::
+                        1334 .LDWlin45:
+0000051c 0000           1335 	nop
+                        1336 .L828:
+                        1337 --366: 					break;
+                        1338 --367: 				case 2:
+                        1339 --368: 					default:
+                        1340 --369: 					break;
+                        1341 --370: 			}
+                        1342 --371: 		}
+                        1343 --372: 		else
+                        1344 --373: 		{
+
+                                                                      Page 24
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                        1345 --374: 		}
+                        1346 --375: 	}
+                        1347 --378: 		if(timeinterval <= ofs)
+0000051e fb09           1348 	cmp	r27,r1
+00000520 eb05*          1349 	bh	.L842
+                        1350 --379: 		{
+                        1351 --380: 			ret = TRUE;
+                        1352 --line380
+                        1353 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.46::
+                        1354 .LDWlin46:
+00000522 01e2           1355 	mov	1,r28
+                        1356 --381: 			zerostarttime = 0;
+00000524 7d070100       1357 	st.w	zero,0[r29]
+00000528 a505*          1358 	br	.L842
+                        1359 .L824:
+                        1360 --382: 		}
+                        1361 --383: 		else
+                        1362 --384: 		{
+                        1363 --385: 		}
+                        1364 --386: 	}
+                        1365 --387:     else
+                        1366 --388:     {
+                        1367 --389:         ret = TRUE;
+                        1368 --line389
+                        1369 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.47::
+                        1370 .LDWlin47:
+0000052a 01e2           1371 	mov	1,r28
+                        1372 .L842:
+                        1373 --390:     }
+                        1374 --391: return ret;
+0000052c 1c50           1375 	mov	r28,r10
+                        1376 --	    .ef
+                        1377 .LDW53:
+0000052e 4606ff70       1378 	dispose	3,{r25,r26,r27,r28,r29,r31},[lp]
+                        1379 	.type	_ISM_isZPDFinish,@function
+                        1380 	.size	_ISM_isZPDFinish,.-_ISM_isZPDFinish
+                        1381 	.align	2
+                        1382 .LDW63:
+                        1383 --_ret	r28	local
+                        1384 --_timeinterval	r1	local
+                        1385 --_ofs	r27	local
+                        1386 --_tmp	r26	local
+                        1387 
+                        1388 --_ismIndex	3[sp]	param
+                        1389 --_islittlezpd	2[sp]	param
+                        1390 
+                        1391 	.data
+                        1392 	.text
+                        1393 
+                        1394 --392: }
+                        1395 
+                        1396 --395: /***************************************************
+                        1397 --396: * Function: ISM_GetWorkStatus
+                        1398 --397: * Description: Get motor work status
+                        1399 --398: * Parameters:  ismIndex: ism channel
+                        1400 --399: * Returns: TRUE OR FALSE
+                        1401 --400: * $Create & Verlog:$
+                        1402 --401: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                        1403 --402: ****************************************************/
+                        1404 --403: U8 ISM_GetWorkStatus(U8 ismIndex)
+                        1405 	.align	2
+
+                                                                      Page 25
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                        1406 	.align	2
+                        1407 	.global	_ISM_GetWorkStatus
+                        1408 _ISM_GetWorkStatus:
+00000532 c66eff00       1409 	andi	255,r6,r13
+00000536 3e0600000000*  1410 	mov	_rism_p,ep
+                        1411 --	    .bf
+                        1412 .LDW73:
+                        1413 --404: {
+                        1414 --405:     uint32_t tar,act;
+                        1415 --407:     tar = (rism_p[ 0 ]->set.ch[ ismIndex].target & 0x00FFFF00);
+0000053c 000d           1416 	sld.w	0[ep],r1
+0000053e ed662800       1417 	mulhi	40,r13,r12
+00000542 010ec800       1418 	addi	200,r1,r1
+00000546 cc09           1419 	add	r12,r1
+00000548 21770100       1420 	ld.w	0[r1],r14
+0000054c 210600ffff00   1421 	mov	16776960,r1
+00000552 4171           1422 	and	r1,r14
+                        1423 --408:     act = (rism_p[ 0 ]->var[ismIndex].position & 0x00FFFF00);
+00000554 0065           1424 	sld.w	0[ep],r12
+00000556 ed5e1c00       1425 	mulhi	28,r13,r11
+0000055a 0c66b801       1426 	addi	440,r12,r12
+0000055e cb61           1427 	add	r11,r12
+00000560 2c0f1100       1428 	ld.w	16[r12],r1
+00000564 2c0600ffff00   1429 	mov	16776960,r12
+0000056a 4c09           1430 	and	r12,r1
+                        1431 --410:     if(rism_p[ 0 ]->var[ismIndex].position & 0x00FF)
+0000056c 0065           1432 	sld.w	0[ep],r12
+0000056e ed5e1c00       1433 	mulhi	28,r13,r11
+00000572 0c56b801       1434 	addi	440,r12,r10
+00000576 ca59           1435 	add	r10,r11
+00000578 2b671100       1436 	ld.w	16[r11],r12
+0000057c d862           1437 	shl	24,r12
+0000057e b205*          1438 	be	.L979
+                        1439 --411:     {
+                        1440 --412:         act += 0x100;
+                        1441 --line412
+                        1442 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.48::
+                        1443 .LDWlin48:
+00000580 010e0001       1444 	addi	256,r1,r1
+                        1445 .L979:
+                        1446 --413:     }
+                        1447 --414:     else
+                        1448 --415:     {
+                        1449 --416:     }
+                        1450 --417:     if(tar == act) 
+00000584 e171           1451 	cmp	r1,r14
+00000586 ba05*          1452 	bne	.L980
+                        1453 --418:     {
+                        1454 --419:         return TRUE;
+                        1455 --line419
+                        1456 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.49::
+                        1457 .LDWlin49:
+00000588 0152           1458 	mov	1,r10
+0000058a a505*          1459 	br	.L975
+                        1460 .L980:
+                        1461 --420:     }
+                        1462 --421:     else
+                        1463 --422:     {
+                        1464 --423:         return FALSE;
+                        1465 --line423
+                        1466 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.50::
+
+                                                                      Page 26
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                        1467 .LDWlin50:
+0000058c 0052           1468 	mov	0,r10
+                        1469 .L975:
+                        1470 --	    .ef
+                        1471 .LDW83:
+0000058e 7f00           1472 	jmp	[lp]
+                        1473 	.type	_ISM_GetWorkStatus,@function
+                        1474 	.size	_ISM_GetWorkStatus,.-_ISM_GetWorkStatus
+                        1475 	.align	2
+                        1476 .LDW93:
+                        1477 --_tar	r14	local
+                        1478 --_act	r1	local
+                        1479 
+                        1480 --_ismIndex	r13	param
+                        1481 
+                        1482 	.section ".bss","awb"
+                        1483 .L1012:
+                        1484 	.type	.L1012,@object
+                        1485 	.size	.L1012,0
+                        1486 	.data
+                        1487 	.text
+                        1488 
+                        1489 --424:     }
+                        1490 --425: }
+                        1491 
+                        1492 --428: /***************************************************
+                        1493 --429: * Function: ISM_SetWorkMode
+                        1494 --430: * Description: Set motor work status
+                        1495 --431: * Parameters:  ismIndex: ism channel
+                        1496 --432: * Returns: 
+                        1497 --433: 	RET_FAIL
+                        1498 --434: 	RET_OK	
+                        1499 --435: * $Create & Verlog:$
+                        1500 --436: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                        1501 --437: ****************************************************/
+                        1502 --438: U8 ISM_SetWorkMode(MOMWorkStatus_ENUM mode)
+                        1503 	.align	2
+                        1504 	.align	2
+                        1505 	.global	_ISM_SetWorkMode
+                        1506 _ISM_SetWorkMode:
+00000590 8007e100       1507 	prepare	{r28,r29,r31},0
+00000594 06e0           1508 	mov	r6,r28
+00000596 210600000000*  1509 	mov	_Ism_Init,r1
+                        1510 --	    .bf
+                        1511 .LDW04:
+                        1512 --439: {
+                        1513 --440:     U8 ret = RET_OK;
+0000059c 01ea           1514 	mov	1,r29
+                        1515 --441:    if(TRUE == Ism_Init)
+0000059e 210600000000*  1516 	mov	_Ism_Init,r1
+000005a4 810f0100       1517 	ld.bu	0[r1],r1
+000005a8 610a           1518 	cmp	1,r1
+000005aa ea15*          1519 	bne	.L1044
+                        1520 --442:     {
+                        1521 --443:         switch (mode) 
+                        1522 --line443
+                        1523 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.51::
+                        1524 .LDWlin51:
+000005ac 1c08           1525 	mov	r28,r1
+000005ae 610a           1526 	cmp	1,r1
+000005b0 c115*          1527 	bl	.L1051
+
+                                                                      Page 27
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+000005b2 c20d*          1528 	be	.L1050
+000005b4 630a           1529 	cmp	3,r1
+000005b6 e105*          1530 	bl	.L1049
+000005b8 8b15*          1531 	bh	.L1051
+                        1532 --444:         {
+                        1533 --445:             case MOTOR_NORMAL:
+                        1534 --446:                 R_ISM_ResetCMChannel(0);
+                        1535 --line446
+                        1536 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.52::
+                        1537 .LDWlin52:
+000005ba 0032           1538 	mov	0,r6
+                        1539 	jarl	_R_ISM_ResetCMChannel,lp
+                        1539 <EXPANSION BEGIN>
+                        1539 jarl22 _R_ISM_ResetCMChannel , lp 
+000005bc 80ff0000*      1539 <EXPANSION END>
+                        1540 --line447
+                        1541 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.53::
+                        1542 .LDWlin53:
+000005c0 c50d*          1543 	br	.L1051
+                        1544 .L1049:
+                        1545 --447:                 break;
+                        1546 --448:             case MOTOR_SELF_CHECKING:
+                        1547 --449:                 R_ISM_ResetCMChannel(1);
+                        1548 --line449
+                        1549 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.54::
+                        1550 .LDWlin54:
+000005c2 0132           1551 	mov	1,r6
+                        1552 	jarl	_R_ISM_ResetCMChannel,lp
+                        1552 <EXPANSION BEGIN>
+                        1552 jarl22 _R_ISM_ResetCMChannel , lp 
+000005c4 80ff0000*      1552 <EXPANSION END>
+                        1553 --line450
+                        1554 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.55::
+                        1555 .LDWlin55:
+000005c8 850d*          1556 	br	.L1051
+                        1557 .L1050:
+                        1558 --450:                 break;
+                        1559 --451:             case MOTOR_TOZERO:		
+                        1560 --452:                 ISM_StartZpd(R_ISM_CHANNEL_EN0 | R_ISM_CHANNEL_EN4,FALSE);            
+                        1561 --line452
+                        1562 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.56::
+                        1563 .LDWlin56:
+000005ca 20361100       1564 	movea	17,zero,r6
+000005ce 003a           1565 	mov	0,r7
+                        1566 	jarl	_ISM_StartZpd,lp
+                        1566 <EXPANSION BEGIN>
+                        1566 jarl22 _ISM_StartZpd , lp 
+000005d0 bfffcafd*      1566 <EXPANSION END>
+                        1567 --line453
+                        1568 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.57::
+                        1569 .LDWlin57:
+000005d4 a505*          1570 	br	.L1051
+                        1571 .L1044:
+                        1572 --453:              break;
+                        1573 --454:         }
+                        1574 --455:     }
+                        1575 --456:     else
+                        1576 --457:     {
+                        1577 --458:         ret = RET_FAIL;
+                        1578 --line458
+                        1579 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.58::
+
+                                                                      Page 28
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                        1580 .LDWlin58:
+000005d6 00ea           1581 	mov	0,r29
+                        1582 .L1051:
+                        1583 --459:     }
+                        1584 --460:     return ret;
+000005d8 1d50           1585 	mov	r29,r10
+                        1586 --	    .ef
+                        1587 .LDW14:
+000005da 4006ff00       1588 	dispose	0,{r28,r29,r31},[lp]
+                        1589 	.type	_ISM_SetWorkMode,@function
+                        1590 	.size	_ISM_SetWorkMode,.-_ISM_SetWorkMode
+                        1591 	.align	2
+                        1592 .LDW24:
+                        1593 --_ret	r29	local
+                        1594 
+                        1595 --_mode	r28	param
+                        1596 
+                        1597 	.data
+                        1598 	.text
+                        1599 
+                        1600 --461: }
+                        1601 
+                        1602 --463: /***************************************************
+                        1603 --464: * Function: ISM_GetCurAngle
+                        1604 --465: * Description: get pointer angle
+                        1605 --466: * Parameters:  ch: input ism channel
+                        1606 --467: 			   pAngle:output  angle
+                        1607 --468: * Returns: 
+                        1608 --469: 	RET_FAIL
+                        1609 --470: 	RET_OK	
+                        1610 --471: * $Create & Verlog:$
+                        1611 --472: * Author:liuyingyign  Date:2017-09-25   Version:V2.0
+                        1612 --473: ****************************************************/
+                        1613 --474: U8 ISM_GetCurAngle(uint8_t ch,PU32 pAngle)
+                        1614 	.align	2
+                        1615 	.align	2
+                        1616 	.global	_ISM_GetCurAngle
+                        1617 _ISM_GetCurAngle:
+000005de 8007e130       1618 	prepare	{r26,r27,r28,r29,r31},0
+000005e2 c6e6ff00       1619 	andi	255,r6,r28
+000005e6 07d8           1620 	mov	r7,r27
+                        1621 --	    .bf
+                        1622 .LDW34:
+                        1623 --475: {
+                        1624 --476: 	static U16 rpangle[6]={0,0,0,0,0,0};
+                        1625 --477:     U16 angle = 0;
+000005e8 00d2           1626 	mov	0,r26
+                        1627 --478:     U8 res = RET_FAIL;
+000005ea 00ea           1628 	mov	0,r29
+                        1629 --479: 	if(NULL_PTR == pAngle)
+000005ec e0d9           1630 	cmp	zero,r27
+000005ee ba05*          1631 	bne	.L1137
+                        1632 --480: 	{
+                        1633 --481: 		return res;
+                        1634 --line481
+                        1635 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.59::
+                        1636 .LDWlin59:
+000005f0 1d50           1637 	mov	r29,r10
+000005f2 a50d*          1638 	br	.L1132
+                        1639 .L1137:
+                        1640 --482: 	}
+
+                                                                      Page 29
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                        1641 --483: 	else
+                        1642 --484: 	{
+                        1643 --485: 	}
+                        1644 --486: 	if(6 > ch)
+                        1645 --line486
+                        1646 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.60::
+                        1647 .LDWlin60:
+000005f4 66e2           1648 	cmp	6,r28
+000005f6 f905*          1649 	bnl	.L1140
+                        1650 --487: 	{ 
+                        1651 --488: 		*pAngle = ism_getCorrentionAngle(ch);			
+                        1652 --line488
+                        1653 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.61::
+                        1654 .LDWlin61:
+000005f8 1c30           1655 	mov	r28,r6
+                        1656 	jarl	_ism_getCorrentionAngle,lp
+                        1656 <EXPANSION BEGIN>
+                        1656 jarl22 _ism_getCorrentionAngle , lp 
+000005fa bfff90fb*      1656 <EXPANSION END>
+000005fe 7b570100       1657 	st.w	r10,0[r27]
+                        1658 --489: 		res = RET_OK;
+                        1659 --line489
+                        1660 ..lin.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism.62::
+                        1661 .LDWlin62:
+00000602 01ea           1662 	mov	1,r29
+                        1663 .L1140:
+                        1664 --490: 	}
+                        1665 --491: 	else
+                        1666 --492: 	{
+                        1667 --493: 	}
+                        1668 --494:     return res;
+00000604 1d50           1669 	mov	r29,r10
+                        1670 .L1132:
+                        1671 --	    .ef
+                        1672 .LDW44:
+00000606 4006ff30       1673 	dispose	0,{r26,r27,r28,r29,r31},[lp]
+                        1674 	.type	_ISM_GetCurAngle,@function
+                        1675 	.size	_ISM_GetCurAngle,.-_ISM_GetCurAngle
+                        1676 	.align	2
+                        1677 .LDW54:
+                        1678 --_angle	r26	local
+                        1679 --_res	r29	local
+                        1680 
+                        1681 --_ch	r28	param
+                        1682 --_pAngle	r27	param
+                        1683 
+                        1684 	.section ".bss","awb"
+                        1685 .L1174:
+                        1686 	.type	.L1174,@object
+                        1687 	.size	.L1174,0
+                        1688 	.data
+                        1689 	.text
+                        1690 
+                        1691 --495: }
+                        1692 	.align	2
+                        1693 --_Ism_Init	_Ism_Init	static
+                        1694 --_ZPDHasDone	_ZPDHasDone	static
+                        1695 --_zerostarttime	_zerostarttime	static
+                        1696 --_runangle	_runangle	static
+                        1697 --_rism_p	_rism_p	static
+                        1698 
+
+                                                                      Page 30
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+                        1699 	.data
+                        1700 	.global	_g_deviceID
+00000024 00             1701 _g_deviceID:	.byte	0
+                        1702 	.type	_g_deviceID,@object
+                        1703 	.size	_g_deviceID,1
+                        1704 	.global	_g_ISMZPDStep
+00000025 00             1705 _g_ISMZPDStep:	.byte	0
+                        1706 	.type	_g_ISMZPDStep,@object
+                        1707 	.size	_g_ISMZPDStep,1
+                        1708 	.section ".rodata","a"
+                        1709 	.align	4
+                        1710 	.global	_ANGLECOLLECTPOINT_4
+00000000 1c020000       1711 _ANGLECOLLECTPOINT_4:	.byte	28,2,0,0
+00000004 38040000       1712 	.byte	56,4,0,0
+00000008 54060000       1713 	.byte	84,6,0,0
+0000000c 70080000       1714 	.byte	112,8,0,0
+00000010 8c0a0000       1715 	.byte	140,10,0,0
+00000014 a80c0000       1716 	.byte	168,12,0,0
+                        1717 	.type	_ANGLECOLLECTPOINT_4,@object
+                        1718 	.size	_ANGLECOLLECTPOINT_4,24
+                        1719 	.global	_ANGLECOLLECTMOVE_4
+00000018 00400b00       1720 _ANGLECOLLECTMOVE_4:	.byte	0,64,11,0
+0000001c 00801600       1721 	.byte	0,128,22,0
+00000020 00c02100       1722 	.byte	0,192,33,0
+00000024 00002d00       1723 	.byte	0,0,45,0
+00000028 00403800       1724 	.byte	0,64,56,0
+0000002c 00804300       1725 	.byte	0,128,67,0
+                        1726 	.type	_ANGLECOLLECTMOVE_4,@object
+                        1727 	.size	_ANGLECOLLECTMOVE_4,24
+                        1728 	.global	_ANGLECOLLECTPOINT_0
+00000030 95010000       1729 _ANGLECOLLECTPOINT_0:	.byte	149,1,0,0
+00000034 2a030000       1730 	.byte	42,3,0,0
+00000038 bf040000       1731 	.byte	191,4,0,0
+0000003c 54060000       1732 	.byte	84,6,0,0
+00000040 e9070000       1733 	.byte	233,7,0,0
+00000044 7e090000       1734 	.byte	126,9,0,0
+00000048 130b0000       1735 	.byte	19,11,0,0
+0000004c a80c0000       1736 	.byte	168,12,0,0
+                        1737 	.type	_ANGLECOLLECTPOINT_0,@object
+                        1738 	.size	_ANGLECOLLECTPOINT_0,32
+                        1739 	.global	_ANGLECOLLECTMOVE_0
+00000050 00700800       1740 _ANGLECOLLECTMOVE_0:	.byte	0,112,8,0
+00000054 00e01000       1741 	.byte	0,224,16,0
+00000058 00501900       1742 	.byte	0,80,25,0
+0000005c 00c02100       1743 	.byte	0,192,33,0
+00000060 00302a00       1744 	.byte	0,48,42,0
+00000064 00a03200       1745 	.byte	0,160,50,0
+00000068 00103b00       1746 	.byte	0,16,59,0
+0000006c 00804300       1747 	.byte	0,128,67,0
+                        1748 	.type	_ANGLECOLLECTMOVE_0,@object
+                        1749 	.size	_ANGLECOLLECTMOVE_0,32
+                        1750 	.global	_ANGLECOLLECTTBL_4
+00000070 00500b00       1751 _ANGLECOLLECTTBL_4:	.byte	0,80,11,0
+00000074 00501600       1752 	.byte	0,80,22,0
+00000078 00302100       1753 	.byte	0,48,33,0
+0000007c 00002c00       1754 	.byte	0,0,44,0
+00000080 00b03700       1755 	.byte	0,176,55,0
+00000084 00004300       1756 	.byte	0,0,67,0
+00000088 00800b00       1757 	.byte	0,128,11,0
+0000008c 00b01600       1758 	.byte	0,176,22,0
+00000090 00e02100       1759 	.byte	0,224,33,0
+
+                                                                      Page 31
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+00000094 00202d00       1760 	.byte	0,32,45,0
+00000098 00403800       1761 	.byte	0,64,56,0
+0000009c 00404300       1762 	.byte	0,64,67,0
+000000a0 00a00b00       1763 	.byte	0,160,11,0
+000000a4 00b01600       1764 	.byte	0,176,22,0
+000000a8 00b02100       1765 	.byte	0,176,33,0
+000000ac 00f02c00       1766 	.byte	0,240,44,0
+000000b0 00203800       1767 	.byte	0,32,56,0
+000000b4 00804300       1768 	.byte	0,128,67,0
+000000b8 00b00b00       1769 	.byte	0,176,11,0
+000000bc 00e01600       1770 	.byte	0,224,22,0
+000000c0 00502200       1771 	.byte	0,80,34,0
+000000c4 00002e00       1772 	.byte	0,0,46,0
+000000c8 00d03800       1773 	.byte	0,208,56,0
+000000cc 00004400       1774 	.byte	0,0,68,0
+000000d0 00c00b00       1775 	.byte	0,192,11,0
+000000d4 00e01600       1776 	.byte	0,224,22,0
+000000d8 00d02100       1777 	.byte	0,208,33,0
+000000dc 00002d00       1778 	.byte	0,0,45,0
+000000e0 00403800       1779 	.byte	0,64,56,0
+000000e4 00804300       1780 	.byte	0,128,67,0
+000000e8 00c00b00       1781 	.byte	0,192,11,0
+000000ec 00e01600       1782 	.byte	0,224,22,0
+000000f0 00d02100       1783 	.byte	0,208,33,0
+000000f4 00002d00       1784 	.byte	0,0,45,0
+000000f8 00403800       1785 	.byte	0,64,56,0
+000000fc 00804300       1786 	.byte	0,128,67,0
+                        1787 	.type	_ANGLECOLLECTTBL_4,@object
+                        1788 	.size	_ANGLECOLLECTTBL_4,144
+                        1789 	.global	_ANGLECOLLECTTBL_0
+00000100 00700800       1790 _ANGLECOLLECTTBL_0:	.byte	0,112,8,0
+00000104 00e01000       1791 	.byte	0,224,16,0
+00000108 00501900       1792 	.byte	0,80,25,0
+0000010c 00c02100       1793 	.byte	0,192,33,0
+00000110 00302a00       1794 	.byte	0,48,42,0
+00000114 00903200       1795 	.byte	0,144,50,0
+00000118 00f03a00       1796 	.byte	0,240,58,0
+0000011c 00704300       1797 	.byte	0,112,67,0
+00000120 00a00800       1798 	.byte	0,160,8,0
+00000124 00201100       1799 	.byte	0,32,17,0
+00000128 00901900       1800 	.byte	0,144,25,0
+0000012c 00002200       1801 	.byte	0,0,34,0
+00000130 00702a00       1802 	.byte	0,112,42,0
+00000134 00e03200       1803 	.byte	0,224,50,0
+00000138 00103b00       1804 	.byte	0,16,59,0
+0000013c 00804300       1805 	.byte	0,128,67,0
+00000140 00b00800       1806 	.byte	0,176,8,0
+00000144 00101100       1807 	.byte	0,16,17,0
+00000148 00601900       1808 	.byte	0,96,25,0
+0000014c 00c02100       1809 	.byte	0,192,33,0
+00000150 00e02900       1810 	.byte	0,224,41,0
+00000154 00503200       1811 	.byte	0,80,50,0
+00000158 00903a00       1812 	.byte	0,144,58,0
+0000015c 00004300       1813 	.byte	0,0,67,0
+00000160 00e00800       1814 	.byte	0,224,8,0
+00000164 00401100       1815 	.byte	0,64,17,0
+00000168 00b01900       1816 	.byte	0,176,25,0
+0000016c 00202200       1817 	.byte	0,32,34,0
+00000170 00802a00       1818 	.byte	0,128,42,0
+00000174 00d03200       1819 	.byte	0,208,50,0
+00000178 00303b00       1820 	.byte	0,48,59,0
+
+                                                                      Page 32
+                                                              C:\Users\YINGAO~1\AppData\Local\Temp\gh_00008t81.si
+0000017c 00904300       1821 	.byte	0,144,67,0
+00000180 00700800       1822 	.byte	0,112,8,0
+00000184 00e01000       1823 	.byte	0,224,16,0
+00000188 00501900       1824 	.byte	0,80,25,0
+0000018c 00c02100       1825 	.byte	0,192,33,0
+00000190 00302a00       1826 	.byte	0,48,42,0
+00000194 00a03200       1827 	.byte	0,160,50,0
+00000198 00103b00       1828 	.byte	0,16,59,0
+0000019c 00804300       1829 	.byte	0,128,67,0
+000001a0 00700800       1830 	.byte	0,112,8,0
+000001a4 00e01000       1831 	.byte	0,224,16,0
+000001a8 00501900       1832 	.byte	0,80,25,0
+000001ac 00c02100       1833 	.byte	0,192,33,0
+000001b0 00302a00       1834 	.byte	0,48,42,0
+000001b4 00a03200       1835 	.byte	0,160,50,0
+000001b8 00103b00       1836 	.byte	0,16,59,0
+000001bc 00804300       1837 	.byte	0,128,67,0
+                        1838 	.type	_ANGLECOLLECTTBL_0,@object
+                        1839 	.size	_ANGLECOLLECTTBL_0,192
+                        1840 	.data
+                        1841 	.ghsnote version,14
+                        1842 	.ghsnote tools,3
+                        1843 	.ghsnote options,144
+                        1844 	.text
+                        1845 	.align	2
+                        1846 ..eof.D.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs.5Cobj.5Cism...44.3A.5CRenesas_Electronics.5CD1x_RGL.5Crgl_ghs_D1Lx_obj_V1.2E2.2E0.5Cvlib.5Capp.5Cgfx_apps.5Csimple_draw_d1l2.5Ctarget.5Cd1lx_mango_ghs..5A74035E..0::
+                        1847 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M
