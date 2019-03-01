@@ -1,0 +1,26 @@
+wpa_supplicant -ieth2 -B -c /etc/SNIP39/wpa_supplicant.conf
+
+while [ 1 ]
+do
+    echo "waiting wlan connect..."
+    sleep 1
+    iwconfig eth2 | grep 'ESSID' > /tmp/debug_wlan_connected
+    if [ -s /tmp/debug_wlan_connected ]; then
+       break
+    fi
+done
+
+udhcpc -R -i eth2 -s /etc/udhcpc.script
+
+
+=================================================================
+hostapd   /etc/hostapd/hostapd_ap.conf  -B &
+sleep 2
+ifconfig wlan0 192.168.1.187
+sleep 1
+udhcpd  /etc/hostapd/udhcpd_wpa2.conf&
+
+sleep 1
+route add default gw 192.168.1.1
+
+
